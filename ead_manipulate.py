@@ -68,7 +68,6 @@ def insert_node_into_upper_c0x_neighbor(full_ead_xml_as_etree, xpath_of_node_to_
 
             If false, only the target tag is copied into the upper neighbor. The result of the above situation would be
             /ead/archdesc/dsc/c01/extent, instead of /ead/archdesc/dsc/c01/did/physdesc/extent
-    :return:
     """
     upper_neighbor_xpath = get_upper_c0x_neighbor_xpath(full_ead_xml_as_etree, xpath_of_node_to_move)
     upper_neighbor = full_ead_xml_as_etree.xpath(upper_neighbor_xpath)[0]
