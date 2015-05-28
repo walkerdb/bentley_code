@@ -57,7 +57,6 @@ def normalize_extents(discrete_extents, include_size=False):
 	return normalized_extents
 
 
-
 def characterize_series_in_directory(source_directory):
 	series = {}
 	for filename in listdir(source_directory):
@@ -169,3 +168,11 @@ def write_sorted_histogram(histogram_dict, filename, with_item_size=False):
 			header = ["name", "number of appearances within EADs"]
 		writer.writerow(header)
 		writer.writerows(sorted_hist_data_as_list)
+
+def get_list_of_xml_files_in_directory(directory):
+
+	files = []
+	for filename in listdir(directory):
+		if filename.endswith(".xml"):
+			files.append(filename)
+	return files
