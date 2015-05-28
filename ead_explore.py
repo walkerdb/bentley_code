@@ -24,7 +24,7 @@ def split_sentence_into_parts(sentence):
 	return discrete_items
 
 
-def normalize(discrete_extents, include_size=False):
+def normalize_extents(discrete_extents, include_size=False):
 	# Normalizes a list of extents by type, returning the results in a new list
 	# If include_size is set to True, it will also record the accompanying size of the extent, returning the results
 	# as a list of lists
@@ -156,10 +156,10 @@ def write_sorted_histogram(histogram_dict, filename, with_item_size=False):
 
 	if with_item_size:
 		sorted_hist_data_as_list = sorted(sorted([(key, value[0], value[1]) for key, value in histogram_dict.items()],
-		                                         key=lambda x: x[0]), key=lambda x: -x[1][0])
+												 key=lambda x: x[0]), key=lambda x: -x[1][0])
 	else:
 		sorted_hist_data_as_list = sorted(sorted([(key, value) for key, value in histogram_dict.items()],
-	                                             key=lambda x: x[0]), key=lambda x: -x[1])
+												 key=lambda x: x[0]), key=lambda x: -x[1])
 
 	with open(filename, mode="wb") as f:
 		writer = csv.writer(f)

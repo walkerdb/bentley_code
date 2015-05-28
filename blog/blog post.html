@@ -1,0 +1,121 @@
+
+<h4>unfinished</h4>
+
+
+<p>Hello! Walker the Intern here. Today's post will [...]</p>
+
+<p>This code is still in progress, so the end result here is not production-ready, but we hope exposing the process in this way is helpful to any others who might be thinking of taking on a similar project.</p>
+
+
+
+<h4>Test-driven development - what is it?</h4>
+
+<h4>How does that possibly apply to archives?</h4>
+
+<h4>What about the overhead?</h4>
+
+<p>The Bentley's EADs cover over 80 years of changing descriptive practice, and represent literally thousands of hours of work on the part of the staff and students who were involved in their creation. The last thing we want to do while automating our xml normalizations is make an unintended change that nullifies the work of those who came before us. Unfortunately, uncertainty is always a factor when working with messy data. [more about small changes having unintended effects]<p>
+
+<p>The solution outlined here is a practice that is nearly ubiquitously adopted in the world of software development, especially those that follow agile development methods, and when applied properly [...]</p>
+
+<p>Even if you're not familiar with programming languages, python is unusually readable, so follow along and I think you'll be surprised at how much it makes sense!</p>
+
+<p>The mantra of TDD: test first, then code. So, let's make a new file to hold all our test code (we'll call it tests.py) and start with something simple:</p>
+
+<pre class="brush: python; toolbar: false">
+# first, we'll define the original extent statement, something we
+# might find in an average EAD &lt;extent&gt; tag
+basic_extent_raw_text = "4 linear feet and 1 oversize volume."
+
+# then let's define the list of objects we want to transform that into
+basic_extent_target_output = ["4 linear feet", "1 oversize volume"]
+
+# run the (currently unwritten) code to transform the input text,
+# and store the result in a new variable
+split_extent_text = split_extents(basic_extent_raw_text)
+
+# test whether the result is exactly equal to our desired output
+assert split_extent_text == basic_extent_target_output
+</pre>
+
+<p>now run it and...</p>
+
+<p><img src="http://i.imgur.com/GmPd5Lg.png" style="width:550px"/></p>
+
+<p>Ta-da! We have written our first failing test.</p>
+
+<p>So now what? Now we find the path of least resistance - the easiest way we can think of to solve the given error. The console suggests that a "split_extents" function doesn't exist, so let's make one! Over in a new extent_splitter.py file, let's write</p>
+
+<pre class="brush: python; toolbar: false">
+def split_extents(basic_extent_raw_text):
+    pass
+</pre>
+
+<p>Function created! Before we can test it, tests.py needs to know where to find the split_extents function, so let's make sure the test script can find it by importing the split_extents function:</p>
+
+<pre class="brush: python; toolbar: false">
+from extent_splitter import split_extents
+</pre>Now run the test again, and see where that leads us:</p>
+
+<p><img src="http://i.imgur.com/H9nIQPe.png" style="width:550px"/></p>
+
+<p>Our assert statement is failing, meaning that split_extent_text is not equal to our target output. Which isn't surprising since split_extents isn't actually returning anything at the moment. Let's fix the assert error as simply as we can:</p>
+
+<pre class="brush: python; toolbar: false">
+def split_extents(basic_extent_raw_text):
+    return ["4 linear feet", "1 oversize volume"]
+</pre>
+
+<p>There! Ok, that's a little pedantic (the code doesn't actually do anything with the input string, it just cheekily returns the list we want), but it really is important to do these small, path-of-least-resistance edits, especially as we are just learning the concept of TDD. Small, iterative steps are incredibly important when building anything complex - keeps things [].</p>
+
+<p>now we have a completely working test! Except that the code is completely useless. We can easily break it again by writing another simple test:</p>
+
+<pre class="brush: python; toolbar: false">
+extent_with_commas = "3 linear ft., 1 oversize volume, and 5 motion picture reels"
+extent_with_commas_target_output = ["3 linear ft.", "1 oversize volume", "5 motion picture reels"]
+split_extent_text = split_extents(basic_extent_raw_text)
+assert split_extent_text == basic_extent_target_output
+</pre>
+
+<p>When this is run, our tests obviously fail. But now we have two tests - how to we keep track of which is which, and know which is failing when the console returns an error? </p>
+<p>Luckily for us, python has a built-in test module, called unittest, which can take care of the background test management and let us focus on just writing the code. The one thing to note is that we will be putting the tests in a python class, which functions slightly differently than you may be used to. All that you really have to know is that you will need to pre-append any variable you want to use throughout the class with "self.", and pass "self" as a variable to any function you define inside the class. Here is what our tests look like using unittest as a framework:</p>
+
+<pre class="brush: python; toolbar: false">
+from unittest import TestCase
+from extent_splitter import split_extents
+
+class TestExtentSplitter(TestCase):
+    # "setUp" is a special reserved function that is used to define any
+    # variables you will be using throughout the test. It runs before
+    # anything else in the class.
+
+    def setUp(self):
+        self.basic_extent_raw_text = "4 linear feet and 1 oversize volume."
+        self.basic_extent_target_output = ["4 linear feet", 
+                                           "1 oversize volume"]
+
+        self.extent_with_commas = "3 linear ft., 1 oversize volume, and 5 motion picture reels"
+        self.extent_with_commas_target_output = ["3 linear ft.", 
+                                                 "1 oversize volume", 
+                                                 "5 motion picture reels"]
+
+    # Now for the tests. We will define each discrete test in its own
+    # function. You want to be as specific as possible when creating test
+    # names - this is really invaluable when figuring out exactly which
+    # tests are failing, and what was being tested when they failed.
+
+    # All tests need to start with "test" for the class to run properly
+
+    def test_split_basic_two_element_extent_string(self):
+        split_extent = split_extents(self.basic_extent_raw_text)
+
+        # there are a number of built-in assert functions that test a
+        # variety of conditions. We'll use assertEquals, which is the
+        # equivalent of the assert statement we wrote above, just with
+        # a much more semantically helpful name
+        self.assertEquals(split_extent, self.basic_extent_target_output)
+
+    def test_split_extent_with_commas(self):
+        split_extent = split_extents(self.extent_with_commas)
+        self.assertEquals(split_extent, self.extent_with_commas_target_output)
+</pre>
