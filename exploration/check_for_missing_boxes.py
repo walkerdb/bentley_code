@@ -1,3 +1,9 @@
+'''
+Checks each ead file in a given directory to see whether the finding-aid is missing any boxes.
+Loops through every possible integer between the lowest and highest box numbers appearing in the EAD file, and
+writes to a file if it discovers anything missing.
+'''
+
 # standard library imports
 from string import ascii_letters
 from operator import itemgetter
@@ -28,21 +34,21 @@ def main():
 		# grab all containers in the EAD file
 		containers = root_tree.xpath(container_xpath)
 
+		# for every box in the EAD, add its box number to a set of unique numbers
 		for container in containers:
 			type = container.get("type")
 			text = container.text
 
 			if type == "box":  # we only want containers that are boxes
 				if text is None:  # check if the box number is empty
-					write_to_file("eads_with_empty_box_numbers.csv", file, root_tree.getpath(container))
+					write_to_csv_file("eads_with_empty_box_numbers.csv", [file, root_tree.getpath(container)])
 				else:
 					# check if there are any non-numeric characters in the box number
 					if all(letter not in text for letter in ascii_letters):
 						if "-" in text:  # if there is a "-" in the number, it is a range of numbers, which we need to expand
 							num_range = text.split("-")
 							num_start = int(num_range[0])
-
-							try:  # sometimes a number only has a trailing "-", in which case we need to catch the index error
+							try:  # sometimes a number only has a trailing "-", in which case we need to catch the resulting index error
 								num_end = int(num_range[1])
 							except:
 								num_end = num_start
@@ -50,31 +56,25 @@ def main():
 							for box_num in range(num_start, num_end + 1):
 								boxes.add(box_num)
 						else:  # if the number is not a range, cast the string to an int and proceed normally
-							try:  # if the string to int conversion fails, there is some other non-alphanumerical character in the box number
+							try:
 								boxes.add(int(text))
-							except:
-								write_to_file("eads_with_unusual_box_numbers.csv", file, "something wonky at {0}. Text was {1}".format(root_tree.getpath(container), text))
+							except:  # if the string to int conversion fails, some other non-alphanumeric character in the box number
+								write_to_csv_file("eads_with_unusual_box_numbers.csv", [file, root_tree.getpath(container), text])
 					else:
 						has_letters = True
 						boxes.add(text)
 
-		if len(boxes) == 0:
-			print("{0} has no boxes.\n".format(file))
-			write_to_file("eads_with_no_boxes.csv", file)
-		elif has_letters:
+		# now that all box numbers have been accounted for, see if any are missing from the expected sequential order
+		if len(boxes) == 0:  # ead has no boxes to check
+			write_to_csv_file("eads_with_no_boxes.csv", [file])
+		elif has_letters:  # box numbers contain non-numeric characters, so cannot be checked
 			print("Box numbers have non-numeric characters")
-			write_to_file("eads_with_ascii_in_box_numbers.csv", file)
-		else:
-			# if the ead has boxes, and none of its box numbers have letters in them, check the box list for missing numbers
+			write_to_csv_file("eads_with_ascii_in_box_numbers.csv", [file])
+		else:  # if the ead has boxes, and none of its box numbers have letters in them, check the box list for missing numbers
 			missing_numbers = get_missing_numbers(boxes)
 			if len(missing_numbers) > 0:
 				message = "Missing the following box numbers: {0}".format(", ".join(missing_numbers))
-				write_to_file("eads_with_missing_boxes.csv", file, message)
-
-def write_to_file(log_filename, name_of_file_with_error, message=""):
-	with open(log_filename + ".csv", mode="ab") as f:
-		writer = csv.writer(f)
-		writer.writerow([name_of_file_with_error, message])
+				write_to_csv_file("eads_with_missing_boxes.csv", [file, message])
 
 
 def get_missing_numbers(list_or_set):
@@ -115,6 +115,12 @@ def get_missing_numbers(list_or_set):
 	# Since this is a list of strings that sometimes contain non-numeric characters, we use the naturalsort library to
 	# return the results in the expected order.
 	return natsort(ranges)
+
+
+def write_to_csv_file(log_filename, row_to_write):
+	with open(log_filename, mode="ab") as f:
+		writer = csv.writer(f)
+		writer.writerow(row_to_write)
 
 
 if __name__ == "__main__":
