@@ -2,28 +2,31 @@
 from string import ascii_letters
 from operator import itemgetter
 from itertools import groupby
+from os import listdir
 import csv
 
 # custom library imports
 from lxml import etree
 from natsort import natsort
-from ead_explore import get_list_of_xml_files_in_directory
+
 
 def main():
 	path_to_eads_to_check = "S:/Curation/Projects/Mellon/ArchivesSpace/ATeam_Migration/EADs/Real_Masters_all"
-
-	files = get_list_of_xml_files_in_directory(path_to_eads_to_check)
 	container_xpath = "//container"
 
+	files = []
+	for filename in listdir(path_to_eads_to_check):
+		if filename.endswith(".xml"):
+			files.append(filename)
+
 	for file in files:
+		print("Checking {0}...".format(file))
 		root_tree = etree.parse(path_to_eads_to_check + "/" + file)
 		boxes = set()
 		has_letters = False
 
 		# grab all containers in the EAD file
 		containers = root_tree.xpath(container_xpath)
-
-		print(file)
 
 		for container in containers:
 			type = container.get("type")
