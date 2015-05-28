@@ -86,10 +86,14 @@ def build_xml_tree_tag_paths(etree_of_full_ead_dsc_node, tag="c0", attribute="le
 
 	# recursion function
 	def recurse_down_tree(node):
+		if attribute:
+			path_level_text = node.get(attribute)
+		else:
+			path_level_text = node.tag
 		path_breadcrumb_string = "->".join([str(level) for level in path_breadcrumb_list])
 
 		# add current level to series breadcrumb path
-		path_breadcrumb_list.append(node.get(attribute))
+		path_breadcrumb_list.append(path_level_text)
 
 		# for each child in the current node that starts with c0, recurse
 		for child in list(node):
@@ -98,7 +102,7 @@ def build_xml_tree_tag_paths(etree_of_full_ead_dsc_node, tag="c0", attribute="le
 
 		# if none of the current node's child tags start with c0, record the full path to node, and move on
 		if all([not child.tag.startswith(tag) for child in list(node)]):
-			key = "{0}->{1}".format(path_breadcrumb_string, node.get(attribute))
+			key = "{0}->{1}".format(path_breadcrumb_string, path_level_text)
 			key = key.lstrip("->") # bit of a hack-ish fix to remove leading arrows
 
 			# add full series path to the recording dictionary if it isn't there already; else increment its count
