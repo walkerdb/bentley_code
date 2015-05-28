@@ -40,7 +40,7 @@ assert split_extent_text == basic_extent_target_output
 
 <p>now run it and...</p>
 
-<p><img src="http://i.imgur.com/GmPd5Lg.png" style="width:550px"/></p>
+<p><img src="http://i.imgur.com/GmPd5Lg.png" style="width:100%"/></p>
 
 <p>Ta-da! We have written our first failing test.</p>
 
@@ -57,7 +57,7 @@ def split_extents(basic_extent_raw_text):
 from extent_splitter import split_extents
 </pre>Now run the test again, and see where that leads us:</p>
 
-<p><img src="http://i.imgur.com/H9nIQPe.png" style="width:550px"/></p>
+<p><img src="http://i.imgur.com/H9nIQPe.png" style="width:100%"/></p>
 
 <p>Our assert statement is failing, meaning that split_extent_text is not equal to our target output. Which isn't surprising since split_extents isn't actually returning anything at the moment. Let's fix the assert error as simply as we can:</p>
 
