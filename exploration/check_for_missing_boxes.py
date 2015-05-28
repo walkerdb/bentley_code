@@ -10,13 +10,13 @@ from natsort import natsort
 from ead_explore import get_list_of_xml_files_in_directory
 
 def main():
-	directory = "S:/Curation/Projects/Mellon/ArchivesSpace/ATeam_Migration/EADs/Real_Masters_all"
+	path_to_eads_to_check = "S:/Curation/Projects/Mellon/ArchivesSpace/ATeam_Migration/EADs/Real_Masters_all"
 
-	files = get_list_of_xml_files_in_directory(directory)
+	files = get_list_of_xml_files_in_directory(path_to_eads_to_check)
 	container_xpath = "//container"
 
 	for file in files:
-		root_tree = etree.parse(directory + "/" + file)
+		root_tree = etree.parse(path_to_eads_to_check + "/" + file)
 		boxes = set()
 		has_letters = False
 
