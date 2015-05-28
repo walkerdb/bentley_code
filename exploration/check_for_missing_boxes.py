@@ -11,15 +11,19 @@ from itertools import groupby
 from os import listdir
 import csv
 
-# custom library imports
+# custom library imports - these will need to be manually installed on your system for the script to work
+# command-line commands to install:
+## pip install lxml
+## pip install naturalsort
 from lxml import etree
 from natsort import natsort
 
 
 def main():
-	path_to_eads_to_check = "S:/Curation/Projects/Mellon/ArchivesSpace/ATeam_Migration/EADs/Real_Masters_all"
+	path_to_eads_to_check = "/some/path"  # change this string to your input directory path
 	container_xpath = "//container"
 
+	# check every file in the file list
 	files = []
 	for filename in listdir(path_to_eads_to_check):
 		if filename.endswith(".xml"):
