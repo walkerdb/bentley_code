@@ -1,7 +1,18 @@
 '''
 Checks each ead file in a given directory to see whether the finding-aid is missing any boxes.
-Loops through every possible integer between the lowest and highest box numbers appearing in the EAD file, and
-writes to a file if it discovers anything missing.
+To do so it loops through every possible integer between the lowest and highest box numbers appearing in the EAD file,
+and writes to a file if it discovers anything missing or anomalous.
+
+Outputs up to 5 .csv files:
+
+eads_with_missing_boxes        - describes the filename and exact missing box ranges for each EAD with missing boxes
+eads_with_ascii_in_box_numbers - a list of files that were not checked due to the presence of non-numeric characters
+							     in the retrieved list of box numbers
+eads_with_no_boxes             - a list of EADS that do not contain any boxes whatsoever
+eads_with_empty_box_numbers    - a list of EADS that have at least one completely empty box container tag
+eads_with_unusual_box_numbers  - a list of container instances where the box number included non alpha-numeric characters
+
+NOTE - for this to work you need to edit path_to_eads_to_check to the directory your EADs are stored in
 '''
 
 # standard library imports
@@ -12,7 +23,7 @@ from os import listdir
 import csv
 
 # custom library imports - these will need to be manually installed on your system for the script to work
-# command-line commands to install:
+## command-line commands to install:
 ## pip install lxml
 ## pip install naturalsort
 from lxml import etree
@@ -20,15 +31,12 @@ from natsort import natsort
 
 
 def main():
-	path_to_eads_to_check = "/some/path"  # change this string to your input directory path
+	path_to_eads_to_check = "c:/some/path"  ### change this string to your input directory path ###
 
 	container_xpath = "//container"
 
 	# check every file in the file list
-	files = []
-	for filename in listdir(path_to_eads_to_check):
-		if filename.endswith(".xml"):
-			files.append(filename)
+	files = get_list_of_xml_files_in_directory(path_to_eads_to_check)
 
 	for file in files:
 		print("Checking {0}...".format(file))
@@ -82,6 +90,14 @@ def main():
 				write_to_csv_file("eads_with_missing_boxes.csv", [file, message])
 
 
+def get_list_of_xml_files_in_directory(path_to_eads_to_check):
+	files = []
+	for filename in listdir(path_to_eads_to_check):
+		if filename.endswith(".xml"):
+			files.append(filename)
+	return files
+
+
 def get_missing_numbers(list_or_set):
 	# set the maximum and minimum box numbers found in the given box-number list
 	min_number = min(list_or_set)
@@ -100,8 +116,8 @@ def get_missing_numbers(list_or_set):
 	# sort the list of missing numbers
 	missing_numbers.sort()
 
-	# In some cases there are hundreds of "missing" boxes. To make the output more human-readable, the code below contracts
-	# sequential series of missing numbers into a range, e.g. [1, 2, 3, 4] into "1-4"
+	# In some cases there are hundreds of "missing" boxes. To make the output more human-readable, the code below
+	# contracts sequential series of missing numbers into a range, e.g. [1, 2, 3, 4] into "1-4"
 
 	# First extract each series of sequential numbers
 	# (code from the python docs, see https://docs.python.org/2.6/library/itertools.html#examples)
@@ -118,7 +134,7 @@ def get_missing_numbers(list_or_set):
 			ranges.append(str(range[0]))
 
 	# Since this is a list of strings that sometimes contain non-numeric characters, we use the naturalsort library to
-	# return the results in the expected order.
+	# return the results in the expected order. Otherwise ["2-10", "11-19", "20"] would be sorted ["11-19", "2-10", "20"]
 	return natsort(ranges)
 
 
