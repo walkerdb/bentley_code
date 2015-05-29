@@ -21,6 +21,7 @@ from natsort import natsort
 
 def main():
 	path_to_eads_to_check = "/some/path"  # change this string to your input directory path
+
 	container_xpath = "//container"
 
 	# check every file in the file list
@@ -105,7 +106,7 @@ def get_missing_numbers(list_or_set):
 	# First extract each series of sequential numbers
 	# (code from the python docs, see https://docs.python.org/2.6/library/itertools.html#examples)
 	range_lists = []
-	for k, g in groupby(enumerate(missing_numbers), lambda (j, x): j-x):
+	for k, g in groupby(enumerate(missing_numbers), lambda ix: ix[0]-ix[1]):
 		range_lists.append(map(itemgetter(1), g))
 
 	# make each sequence human-readable, by grabbing the first and last values of each sequence list
