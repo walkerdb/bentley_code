@@ -1,5 +1,7 @@
 import unittest
-from extent_splitter import split_extents
+
+from blog.TDD_post.extent_splitter import split_extents
+
 
 class TestExtentSplitter(unittest.TestCase):
 
