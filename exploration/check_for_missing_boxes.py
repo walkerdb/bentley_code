@@ -21,7 +21,6 @@ from operator import itemgetter
 from itertools import groupby
 from os import listdir
 import csv
-import ead_explore
 
 # custom library imports - these will need to be manually installed on your system for the script to work
 ## command-line commands to install:
