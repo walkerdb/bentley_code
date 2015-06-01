@@ -3,7 +3,6 @@ import extent_constants
 
 
 def split_extents(extent_text):
-	manual_text_to_add = []
 	if "lack and white" in extent_text:
 		extent_text = extent_text.replace("lack and white", "&w")
 	if "\n" in extent_text:
