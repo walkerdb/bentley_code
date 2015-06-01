@@ -1,4 +1,5 @@
-import csv, re
+import csv
+import re
 from string import ascii_letters
 from os import listdir
 from lxml import etree
