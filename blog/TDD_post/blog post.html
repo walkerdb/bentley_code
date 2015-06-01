@@ -3,7 +3,7 @@
 
 <p>When I first came on to the A-Space / Archivematica integration project, this prospect was terrifying - that an unaccounted-for side-effect in my code could stealthily change something unintended, and fall under the radar until it was too late to revert, or, worse, never be caught. After a few days of an almost paralytic fear, I decided to try a writing style known by many in the agile software-development world as Test-Driven Development, or TDD. </p>
 
-<p>After the first day I had fallen in love. Using this methodology I have confidence that the code I am writing does exactly what I want it to, regardless of the task's complexity. Equally valuable for us as archivists, once these tests are written a third party can pick up the code I've written and know right away that any new functionality they are writing isn't breaking what is already there. One could even think of it as a kind of fixity check for code functionality - with the proper tests I can pick up the code years down the line and know immediately that everything is still as it should be.</p>
+<p>After the first day I had fallen in love. Using this methodology I have confidence that the code I am writing does exactly what I want it to, regardless of the task's complexity. Equally valuable, once these tests are written a third party can pick up the code I've written and know right away that any new functionality they are writing isn't breaking what is already there. One could even think of it as a kind of fixity check for code functionality - with the proper tests I can pick up the code years down the line and know immediately that everything is still as it should be.</p>
 <br>
 <hr>
 <br>
@@ -35,7 +35,7 @@ assert normalize_date("Jan. 21, 1991") == "1991-01-21"
 
 <p>That's a lot of talk, but what does it look like in practice? As Max described in his <a href="http://archival-integration.blogspot.com/2015/05/extentuating-circumstances-80-years-of.html">most recent blog post</a>, one of our current projects involves wrestling with verbose and varied extent statements, trying to coerce them into a format that ArchivesSpace can read properly. Since it's on our minds, let's see if we can use TDD to build a script for parsing a long combined extent statement into its component parts.</p>
 
-<p>The remainder of this post will be pretty python heavy, but even if you're not familiar with programming languages python is unusually readable, so follow along and I think you'll be surprised at how much it makes sense!</p>
+<p>The remainder of this post will be pretty python heavy, but even if you're not familiar with programming languages, python is unusually readable, so follow along and I think you'll be surprised at how much it makes sense!</p>
 
 <p>To begin, remember the TDD mantra: test first, code later. So, let's make a new file to hold all our test code (we'll call it <em>tests.py</em>) and start with something simple:</p>
 
@@ -66,11 +66,11 @@ assert split_extent_text == basic_extent_target_output
 <p>So now what? Now we find the path of least resistance - the easiest way we can think of to solve the given error. The console suggests that a "split_extents" function doesn't exist, so let's make one! Over in a new <em>extent_splitter.py</em> file, let's write</p>
 
 <pre class="brush: python; toolbar: false">
-def split_extents(basic_extent_raw_text):
+def split_extents(extent_text):
     pass
 </pre>
 <br>
-<p>Function created! Before we can test it, tests.py needs to know where to find the split_extents function, so let's make sure the test script can find it by adding the following to <em>tests.py</em>:</p>
+<p>Function created! Before we can test it, our test script needs to know where to find the split_extents function, so let's make sure the test script can find it by adding the following to <em>tests.py</em>:</p>
 
 <pre class="brush: python; toolbar: false">
 from extent_splitter import split_extents
@@ -135,11 +135,11 @@ class TestExtentSplitter(unittest.TestCase):
 
     def test_split_first_two_element_extent_string(self):
         split_extent = split_extents(self.extent_1_raw_text)
-        self.assertEquals(split_extent, self.extent_1_target_output)
+        self.assertEqual(split_extent, self.extent_1_target_output)
 
     def test_split_second_two_element_extent_string(self):
         split_extent = split_extents(self.extent_2_raw_text)
-        self.assertEquals(split_extent, self.extent_2_target_output)
+        self.assertEqual(split_extent, self.extent_2_target_output)
 
 # code to have the tests run if this file is called from the command-line
 if __name__ == "__main__":
@@ -223,7 +223,7 @@ class TestExtentSplitter(unittest.TestCase):
 
     def test_split_first_two_element_extent_string(self):
         split_extent = split_extents(self.extent_1_raw_text)
-        self.assertEquals(split_extent, self.extent_1_target_output)
+        self.assertEqual(split_extent, self.extent_1_target_output)
 
     def (remaining completed tests...)
 
@@ -271,35 +271,35 @@ class TestExtentSplitter(unittest.TestCase):
 
     def test_split_first_two_element_extent_string(self):
         split_extent = split_extents(self.extent_1_raw_text)
-        self.assertEquals(split_extent, self.extent_1_target_output)
+        self.assertEqual(split_extent, self.extent_1_target_output)
 
     def test_split_second_two_element_extent_string(self):
         split_extent = split_extents(self.extent_2_raw_text)
-        self.assertEquals(split_extent, self.extent_2_target_output)
+        self.assertEqual(split_extent, self.extent_2_target_output)
 
     def test_split_extent_with_commas(self):
         split_extent = split_extents(self.extent_with_commas_raw_text)
-        self.assertEquals(split_extent, self.extent_with_commas_target_output)
+        self.assertEqual(split_extent, self.extent_with_commas_target_output)
 
     # When there is a parenthetical extent, this should be split off as well, but should retain parentheses
     def test_split_parenthetical_extent(self):
         split_extent = split_extents(self.extent_in_parentheses)
-        self.assertEquals(split_extent, self.extent_in_parentheses_target_output)
+        self.assertEqual(split_extent, self.extent_in_parentheses_target_output)
 
     # Same with extents in brackets
     def test_split_bracketed_extent(self):
         split_extent = split_extents(self.extent_in_brackets)
-        self.assertEquals(split_extent, self.extent_in_brackets_target_output)
+        self.assertEqual(split_extent, self.extent_in_brackets_target_output)
 
     # Ensure trailing whitespace is removed
     def test_whitespace_removal(self):
         split_extent = split_extents(self.extent_with_whitespace)
-        self.assertEquals(split_extent, self.extent_with_whitespace_target_output)
+        self.assertEqual(split_extent, self.extent_with_whitespace_target_output)
 
     # Ensure extents are also split by the " in " keyword
     def test_split_extent_by_in(self):
         split_extent = split_extents(self.extent_with_in_raw_text)
-        self.assertEquals(split_extent, self.extent_with_in_target_output)
+        self.assertEqual(split_extent, self.extent_with_in_target_output)
 
 
 if __name__ == "__main__":
@@ -308,18 +308,24 @@ if __name__ == "__main__":
 
 <br>
 
-<p>The extent splitting script - refactored to use regular expressions instead of solely list comprehensions:</p>
+<p>And here is a more complete <em>extent_splitter.py</em>, refactored along the way to use regular expressions instead of solely list comprehensions:</p>
 <pre class="brush: python; toolbar: false">
 import re
 
 def split_extents(extent_text):
-    regex_to_split_by = r"\,|\[|\(| and | in " # splits by ",", "[", "(", " and ", and " in "
-    extents = filter(None, re.split(regex_to_split_by, extent_text))
-    extents = ["(" + extent if extent.endswith(")") else extent for extent in extents]
-    extents = ["[" + extent if extent.endswith("]") else extent for extent in extents]
-    extents = [extent.strip(" ") for extent in extents]
+    # splits by " and ", " in ", and each of the following characters: ,([
+    regex_to_split_by = r"\,|\[|\(| and | in "
+    extent_list = filter(None, re.split(regex_to_split_by, extent_text))
 
-    return extents
+    # the re.split() function removes the characters it splits by, so if we want to 
+    # preserve the opening parentheses and brackets, we need to add those back
+    extent_list = ["(" + extent if extent.endswith(")") else extent for extent in extent_list]
+    extent_list = ["[" + extent if extent.endswith("]") else extent for extent in extent_list]
+
+    # removing leading and trailing whitespace using the built-in strip() function
+    extent_list = [extent.strip(" ") for extent in extent_list]
+
+    return extent_list
 </pre>
 
 <br>

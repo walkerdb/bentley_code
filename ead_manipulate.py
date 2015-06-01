@@ -127,7 +127,4 @@ def does_text_in_given_tag_change_in_upper_c0x_neighbor(full_ead_xml_as_etree, t
     for etree in un_tag_etree_list:
         upper_neighbor_tag_texts.append(etree.text)
 
-    if tag_texts == upper_neighbor_tag_texts:
-        return False
-    else:
-        return True
+    return tag_texts != upper_neighbor_tag_texts

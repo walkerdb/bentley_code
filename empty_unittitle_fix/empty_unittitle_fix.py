@@ -222,10 +222,8 @@ def does_text_in_given_tag_change_in_upper_neighbor(parent_c0x_node_of_unittitle
     if len(upper_neighbor_containers) == 0:
         print("no {0}s in upper neighbor. Returning 'false' for program to continue properly".format(tag))
         return False
-    elif num_original != num_upper_neighbor:
-        return True
     else:
-        return False
+        return num_original != num_upper_neighbor
 
 
 def build_tags_with_text_dict(parent_c0x_node_of_unittitle):
