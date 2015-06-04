@@ -107,10 +107,7 @@ def build_xml_tree_tag_paths(etree_of_full_ead_dsc_node, tag="c0", attribute="le
 			key = key.lstrip("->") # bit of a hack-ish fix to remove leading arrows
 
 			# add full series path to the recording dictionary if it isn't there already; else increment its count
-			if key in series:
-				series[key] += 1
-			else:
-				series[key] = 1
+			series[key] = series.get(key, 0) + 1
 
 		# if the code reaches this point, this is the end of this branch of the tree, so remove this leaf of the tree
 		# from the path breadcrumb list
@@ -140,10 +137,8 @@ def build_histogram_dict(list_of_items, with_item_size=False):
 				histogram_dict[item_name][1] += item_size
 		else:
 			item_name = item
-			if item_name not in histogram_dict:
-				histogram_dict[item_name] = 1
-			else:
-				histogram_dict[item_name] += 1
+			histogram_dict[item_name] = histogram_dict.get(item_name, 0) + 1
+
 	return histogram_dict
 
 

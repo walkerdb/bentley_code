@@ -233,10 +233,7 @@ def build_tags_with_text_dict(parent_c0x_node_of_unittitle):
         if text:
             text = text.strip(" \n\t")
             if len(text) > 0:
-                if tag not in tags_with_text_counts:
-                    tags_with_text_counts[tag.tag] = 1
-                else:
-                    tags_with_text_counts[tag.tag] += 1
+                tags_with_text_counts[tag] = tags_with_text_counts.get(tag, 0) + 1
 
     return tags_with_text_counts
 

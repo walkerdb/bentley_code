@@ -75,10 +75,7 @@ def add_abstracted_node_to_dict(problem_node):
     node_type_key = etree.tostring(etree.XML(normalized_string, parser), pretty_print=True)
 
     # adding a count to the counts dictionary for this key
-    if node_type_key not in counts:
-        counts[node_type_key] = 1
-    else:
-        counts[node_type_key] += 1
+    counts[node_type_key] = counts.get(node_type_key, 0) + 1
 
 
 def write_nodes_and_locations(tag_list):
