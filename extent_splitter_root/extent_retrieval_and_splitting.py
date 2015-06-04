@@ -1,76 +1,84 @@
 import csv
 import re
 
-from extent_splitter_root import extent_splitter
+from extent_splitter_root.extent_parser import split_extents
 
 
-CHARACTERIZE = True
+CHARACTERIZE = False
+
+
+def characterize_extent(extent):
+	number_regex = re.compile(r"(\d\d?\d?\d?\d?\.?\d?\d?)")
+	extent = extent.strip(". ")
+	extent = re.sub(number_regex, "[n]", extent)
+	return extent
 
 
 def main():
 	output = []
 	longest_statement = 0
 	filename = "all_extents.csv"
-	print(filename)
-	number_regex = re.compile(r"(\d\d?\d?\d?\d?\.?\d?\d?)")
-	beginning_num_regex = re.compile(r"^\(?\[?\d\d?\d?\d?.?\d?\d? ")
+
 	with open(filename, mode="r") as f:
 		reader = csv.reader(f)
 		unique_item_dict = {}
+
 		for extent_row in reader:
-			ead_filename = extent_row[0]
-			extent_xpath = extent_row[1]
-			extent_statement = extent_row[2]
-			split_extents = extent_splitter.split_extents(extent_statement)
-			row = [ead_filename, extent_xpath, extent_statement]
+			ead_filename, extent_xpath, extent_statement = extent_row
+			extents_split = split_extents(extent_statement)
 
 			if CHARACTERIZE:
-				for extent in split_extents:
-					extent = re.sub(beginning_num_regex, "", extent)
-					extent = extent.strip("()[]. ")
-					extent = re.sub(number_regex, "[x]", extent)
-
-					# add count for characterized version
+				for extent in extents_split:
+					extent = characterize_extent(extent)
 					unique_item_dict[extent] = unique_item_dict.get(extent, 0) + 1
 
-				# 	row.append(extent.strip(" .1234567890"))
-				# output.append(row)
-
-				# keeping track of the longest line in the csv, so that we can add
-				if len(split_extents) > longest_statement:
-					longest_statement = len(split_extents)
+				if len(extents_split) > longest_statement:
+					longest_statement = len(extents_split)
 			else:
-				row.append(split_extents)
-				output.append(row)
+				for extent in extents_split:
+					extent_row.append(extent)
+				output.append(extent_row)
 
-	with open("extent_count.csv", mode="w", newline="") as f:
+		# from itertools import combinations
+		#
+		# import inflect
+		#
+		# de_pluralized_set = set()
+		# p = inflect.engine()
+		#
+		# for extent_tuple_1, extent_tuple_2 in combinations(extent_count_list, 2):
+		# 	if extent_tuple_1 not in de_pluralized_set:
+		# 		print(extent_tuple_1[0])
+		# 	comparison = p.compare(extent_tuple_1[0].strip("()"), extent_tuple_2[0].strip("()"))
+		# 	if comparison:
+		# 		de_pluralized_set.add((extent_tuple_1[0], extent_tuple_1[1] + extent_tuple_2[1]))
+		# 		print("found a plural!")
+		# 	else:
+		# 		de_pluralized_set.add(extent_tuple_1)
+		#
+		# extent_count_list = sorted(list(de_pluralized_set), key=lambda x: x[0])
+		# writer.writerows(extent_count_list)
+
+	# with open("extent_count.csv", mode="wb") as f:
+	# 	writer = csv.writer(f)
+	# 	extent_count_list = [[key, value] for key, value in unique_item_dict.items()]
+	# 	extent_count_list = sorted(extent_count_list, key=lambda x: x[0])
+	# 	writer.writerows(extent_count_list)
+
+	with open("extent_split.csv", mode="wb") as f:
 		writer = csv.writer(f)
-		list_ = []
-		for key, value in unique_item_dict.items():
-			list_.append([key, value])
+		for row in output:
+			if len(row) < longest_statement:
+				diff = longest_statement - len(row)
+				row = add_blank_elements(row, diff)
+			writer.writerow(row)
 
-		list_ = sorted(list_, key=lambda x: x[0])
-		writer.writerows(list_)
-		exit()
-
-
-	with open("split_extents.csv", mode="w", newline="") as f:
-		writer = csv.writer(f)
-		if CHARACTERIZE:
-			for row in output:
-				if len(row) < longest_statement:
-					diff = longest_statement - len(row)
-					row = add_blank_elements(row, diff)
-				writer.writerow(row)
-		else:
-			writer.writerows(output)
 
 
 def add_blank_elements(row, number_of_elements_to_add):
-	i = 0
-	while i < number_of_elements_to_add:
+
+	for i in range(number_of_elements_to_add):
 		row.append("")
-		i += 1
 
 	return row
 
