@@ -10,6 +10,7 @@ Keywords to look out for:
 '''
 
 import re
+from string import ascii_letters
 
 import extent_constants
 
@@ -72,10 +73,26 @@ def replace_written_numbers_with_digits(extent):
 
 def append_item_to_previous_if_no_numbers(extents, keyword):
 	for index, extent in enumerate(extents):
+		# primary function
 		if all([num not in extent for num in extent_constants.integers]) and index > 0:
 			extents[index - 1] = extents[index - 1] + "{0}".format(keyword) + extents[index]
 			extents.pop(index)
-		elif " ips" in extents[index] and "reel" not in extents[index]:
-			extents[index - 1] = extents[index - 1] + "{0}".format(keyword) + extents[index]
+
+		# edge cases
+		elif " ips" in extent and "reel" not in extent:
+			extents[index - 1] = extents[index - 1] + "{0}".format(keyword) + extent
 			extents.pop(index)
+
+		elif re.search(r"^\d\d? inches$", extent):
+			extents[index - 1] = extents[index - 1] + "{0}".format(keyword) + extent
+			extents.pop(index)
+
+		elif "inches" in extent and all([char not in extent.replace("inches", "") for char in ascii_letters]):
+			extents[index - 1] = extents[index - 1] + "{0}".format(keyword) + extent
+			extents.pop(index)
+
+		elif "rpm" in extent and all([char not in extent.replace("rpm", "") for char in ascii_letters]):
+			extents[index - 1] = extents[index - 1] + "{0}".format(",") + extent
+			extents.pop(index)
+
 	return extents

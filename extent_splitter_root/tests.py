@@ -69,5 +69,7 @@ class TestExtentSplitter(unittest.TestCase):
         self.check_output_equality("1 7-inch reel, 7 3/4 ips", ["1 7-inch reel, 7 3/4 ips"])
         self.check_output_equality("1 nothing important, 1 7-inch reel 7 3/4 ips", ["1 nothing important", "1 7-inch reel 7 3/4 ips"])
 
+    def test_this_wonky_string(self):
+        self.check_output_equality("5 floppy sound discs, 7 1/2 in., 33 1/3 rpm", ["5 floppy sound discs, 7 1/2 inches, 33 1/3 rpm"])
 if __name__ == "__main__":
     unittest.main()
