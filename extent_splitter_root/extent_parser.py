@@ -1,14 +1,3 @@
-'''
-Keywords to look out for:
-	ips
-	[n]x[n]
-	rpm
-	minute(s)
-	[n]:[n]
-	mm
-
-'''
-
 import re
 from string import ascii_letters
 
