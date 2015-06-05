@@ -12,7 +12,7 @@ Keywords to look out for:
 import re
 from string import ascii_letters
 
-import extent_constants
+from extent_splitter_root import extent_constants
 
 
 def split_extents(extent_text):
@@ -38,10 +38,10 @@ def split_extents(extent_text):
 	extents = extent_text.split(" and ")
 	extents = append_item_to_previous_if_no_numbers(extents, keyword=" and ")
 
-	extents = filter(None, [item for extent in extents for item in extent.split(",")])
+	extents = list(filter(None, [item for extent in extents for item in extent.split(",")]))
 	extents = append_item_to_previous_if_no_numbers(extents, keyword=",")
 
-	extents = filter(None, [item for extent in extents for item in extent.split(";")])
+	extents = list(filter(None, [item for extent in extents for item in extent.split(";")]))
 	extents = append_item_to_previous_if_no_numbers(extents, keyword=";")
 
 	# reconstruction and final cleanup
@@ -54,7 +54,7 @@ def split_extents(extent_text):
 
 
 def replace_written_numbers_with_digits(extent):
-	written_numbers_dict = extent_constants.get_written_numbers_dict()
+	written_numbers_dict = extent_constants.numbers_dict
 	extent = " {} ".format(extent)
 
 	extent = extent.replace("(", "( ")
@@ -62,7 +62,7 @@ def replace_written_numbers_with_digits(extent):
 
 	for key, value in written_numbers_dict.items():
 		if key in extent:
-			extent = extent.replace(key, " " + value + " ")
+			extent = extent.replace(key, " {0} ".format(value))
 
 	extent = extent.replace("(  ", "(")
 	extent = extent.replace("( ", "(")
@@ -83,7 +83,7 @@ def append_item_to_previous_if_no_numbers(extents, keyword):
 			extents[index - 1] = extents[index - 1] + "{0}".format(keyword) + extent
 			extents.pop(index)
 
-		elif re.search(r"^\d\d? inches$", extent):
+		elif re.search(r"^\d\d? inches$", extent) is not None:
 			extents[index - 1] = extents[index - 1] + "{0}".format(keyword) + extent
 			extents.pop(index)
 

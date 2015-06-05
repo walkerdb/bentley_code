@@ -1,6 +1,6 @@
 # coding=utf-8
 import unittest
-from extent_parser import split_extents
+from .extent_parser import split_extents
 
 
 class TestExtentSplitter(unittest.TestCase):
@@ -61,8 +61,8 @@ class TestExtentSplitter(unittest.TestCase):
     # when "and" appears in a paren, do not split it
     def test_no_split_and_in_paren(self):
         self.check_output_equality(
-            "12 Beowulfs (in 1 Hwæt! and 2 battles), 1 þæt wæs god cyning",
-            ["12 Beowulfs (in 1 Hwæt! and 2 battles)", "1 þæt wæs god cyning"]
+            "12 Beowulfs (in 1 HwÃ¦t! and 2 battles), 1 Ã¾Ã¦t wÃ¦s god cyning",
+            ["12 Beowulfs (in 1 HwÃ¦t! and 2 battles)", "1 Ã¾Ã¦t wÃ¦s god cyning"]
         )
 
     def test_ips_dont_become_own_statement(self):

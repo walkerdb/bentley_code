@@ -39,6 +39,9 @@ def main():
 					extent_row.append(extent)
 				output.append(extent_row)
 
+				if len(extents_split) > longest_statement:
+					longest_statement = len(extents_split)
+
 		# from itertools import combinations
 		#
 		# import inflect
@@ -65,13 +68,16 @@ def main():
 	# 	extent_count_list = sorted(extent_count_list, key=lambda x: x[0])
 	# 	writer.writerows(extent_count_list)
 
-	with open("extent_split.csv", mode="wb") as f:
+	with open("extent_split.csv", mode="w", newline="") as f:
 		writer = csv.writer(f)
 		for row in output:
 			if len(row) < longest_statement:
 				diff = longest_statement - len(row)
 				row = add_blank_elements(row, diff)
-			writer.writerow(row)
+			try:
+				writer.writerow(row)
+			except:
+				print("womp")
 
 
 
