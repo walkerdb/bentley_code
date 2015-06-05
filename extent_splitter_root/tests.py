@@ -1,6 +1,6 @@
 # coding=utf-8
 import unittest
-from .extent_parser import split_extents
+from extent_parser import split_extents
 
 
 class TestExtentSplitter(unittest.TestCase):
@@ -24,15 +24,15 @@ class TestExtentSplitter(unittest.TestCase):
         self.check_output_equality("4 linear feet ", ["4 linear feet"])
 
     # "black and white" should not be split
-    def test_no_split_black_and_white(self):
+    def test_dont_split_black_and_white(self):
         self.check_output_equality("black and white", ["black and white"])
 
     # if there are no numbers in a paren, don't split it off
-    def test_no_split_paren_with_no_numbers(self):
+    def test_dont_split_paren_with_no_numbers(self):
         self.check_output_equality("1 whats-it (sparkly)", ["1 whats-it (sparkly)"])
 
     # if there are no numbers in general in an element, don't split it
-    def test_no_split_extent_with_no_numbers(self):
+    def test_dont_split_extent_containing_zero_numbers(self):
         self.check_output_equality("25 thing-a-ma-bobs, galore", ["25 thing-a-ma-bobs, galore"])
 
     # if the first element has no numbers, don't remove
@@ -59,17 +59,41 @@ class TestExtentSplitter(unittest.TestCase):
         self.check_output_equality("27 1/4 in. reels", ["27 1/4-inch reels"])
 
     # when "and" appears in a paren, do not split it
-    def test_no_split_and_in_paren(self):
+    def test_dont_split_by_and_when_and_in_paren(self):
         self.check_output_equality(
-            "12 Beowulfs (in 1 HwÃ¦t! and 2 battles), 1 Ã¾Ã¦t wÃ¦s god cyning",
-            ["12 Beowulfs (in 1 HwÃ¦t! and 2 battles)", "1 Ã¾Ã¦t wÃ¦s god cyning"]
+            "12 Beowulfs (in 1 Hwaet! and 2 battles), 1 thaet waes god cyning",
+            ["12 Beowulfs (in 1 Hwaet! and 2 battles)", "1 thaet waes god cyning"]
         )
 
     def test_ips_dont_become_own_statement(self):
         self.check_output_equality("1 7-inch reel, 7 3/4 ips", ["1 7-inch reel, 7 3/4 ips"])
-        self.check_output_equality("1 nothing important, 1 7-inch reel 7 3/4 ips", ["1 nothing important", "1 7-inch reel 7 3/4 ips"])
+        self.check_output_equality(
+            "1 nothing important, 1 7-inch reel 7 3/4 ips",
+            ["1 nothing important", "1 7-inch reel 7 3/4 ips"]
+        )
 
-    def test_this_wonky_string(self):
-        self.check_output_equality("5 floppy sound discs, 7 1/2 in., 33 1/3 rpm", ["5 floppy sound discs, 7 1/2 inches, 33 1/3 rpm"])
+    def test_wonky_audio_string_remains_unchanged(self):
+        self.check_output_equality(
+            "5 floppy sound discs, 7 1/2 in., 33 1/3 rpm",
+            ["5 floppy sound discs, 7 1/2 inches, 33 1/3 rpm"]
+        )
+
+    def test_numbers_with_commas_fully_reconstruct(self):
+        self.check_output_equality("1,900 floppy disks, 50 dementors", ["1,900 floppy disks", "50 dementors"])
+
+    def test_dimension_clauses_dont_return_split(self):
+        self.check_output_equality(
+            "3 sheets : various media ; 43.3 x 56.1 cm. (17-1/8 x 22-1/8 in.) or smaller.",
+            ["3 sheets : various media ; 43.3 x 56.1 cm. (17-1/8 x 22-1/8 inches) or smaller."]
+        )
+
+    def test_number_counts_dont_return_split(self):
+        self.check_output_equality(
+            "2 folders and 3 items located in outsize folder, call no. UBImul/B3",
+            ["2 folders", "3 items located in outsize folder, call no. UBImul/B3"]
+        )
+        self.check_output_equality("5 eldrich horrors, no. 15-20", ["5 eldrich horrors, no. 15-20"])
+
+
 if __name__ == "__main__":
     unittest.main()

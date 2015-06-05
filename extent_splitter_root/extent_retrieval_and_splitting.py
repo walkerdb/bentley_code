@@ -21,6 +21,7 @@ def main():
 
 	with open(filename, mode="r") as f:
 		reader = csv.reader(f)
+		reader.next()  # skip the header row
 		unique_item_dict = {}
 
 		for extent_row in reader:
@@ -68,16 +69,19 @@ def main():
 	# 	extent_count_list = sorted(extent_count_list, key=lambda x: x[0])
 	# 	writer.writerows(extent_count_list)
 
-	with open("extent_split.csv", mode="w", newline="") as f:
+	with open("extent_split.csv", mode="wb") as f:
 		writer = csv.writer(f)
+
+		header = ["EAD filename", "XPath to extent", "Original extent text"]
+		for i in range(longest_statement):
+			header.append("split extent segment {}".format(i + 1))
+		writer.writerow(header)
+
 		for row in output:
 			if len(row) < longest_statement:
 				diff = longest_statement - len(row)
 				row = add_blank_elements(row, diff)
-			try:
-				writer.writerow(row)
-			except:
-				print("womp")
+			writer.writerow(row)
 
 
 
