@@ -1,21 +1,22 @@
 from lxml import etree
 import csv
-import prettify
+import prettifydirectory
 
 def main():
-    input_directory = 'S:/Curation/Student Work/Walker Boyle/Test environment/source files/EADs/Master EAD 2015-05-21/'
-    output_directory = 'S:/Curation/Student Work/Walker Boyle/Test environment/empty_unittitle_fix/output/'
+    input_directory = 'S:\\Curation\\Projects\\Mellon\\ArchivesSpace\\ATeam_Migration\\EADs\\Real_Masters_all\\'
+    output_directory = 'output/'
     f = open("output/problem_files.csv", "w")
     f.close()
     filenames = set()
     total_changes = 0
     tags_left_alone = 0
 
-    with open("emptytitles.csv", mode="r") as f:
+    with open("emptytitles-updates.csv", mode="r") as f:
         reader = csv.reader(f)
         data = []
         for row in reader:
             data.append(row)
+
 
         # To keep xpaths accurate as the program deletes and moves multiple nodes in a given xml file, it needs to make
         # changes from the end of the file to the front.
@@ -33,7 +34,7 @@ def main():
             print("\nWorking on {0}, at {1}".format(filename, xpath))
             output = process_file(filedirectory, xpath)
 
-            if output: # process_file() returns an empty string if no changes are made
+            if output:  # process_file() returns an empty string if no changes are made
                 total_changes += 1
                 with open(output_directory + filename, mode="w") as f:
                     f.write(etree.tostring(output, pretty_print=True))
@@ -45,7 +46,7 @@ def main():
         print("Tags left alone: {0}".format(tags_left_alone))
 
     # moving things around and deleting nodes can result in some ugly formatting - needs to be prettified
-    prettify.prettify_xml_in_directory(output_directory, output_directory)
+    # prettifydirectory.prettify_xml_in_directory(output_directory, output_directory)
 
 def process_file(filedirectory, xpath):
     """

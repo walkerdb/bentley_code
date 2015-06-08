@@ -12,7 +12,7 @@ Reads the emptytitle.csv made by Dallas' getemptytitles.py and outputs two files
 import csv
 from lxml import etree
 
-origin = 'S:/Curation/Student Work/Walker Boyle/Test environment/source files/EADs/Master EAD 2015-05-04/'
+origin = 'S:\\Curation\\Projects\\Mellon\\ArchivesSpace\\ATeam_Migration\\EADs\\Real_Masters_all\\'
 parser = etree.XMLParser(remove_blank_text=True) # this makes pretty_print work properly when using tostring function.
                                                  # Has to be passed as the second argument to etree.parse when first
                                                  # reading the data.
@@ -23,7 +23,7 @@ def main():
     problem_node_data = []
 
     # read the empty title input CSV, grab the nodes in question from each EAD, and append that info to a list
-    with open("emptytitles.csv", mode="r") as f:
+    with open("emptytitles-updates.csv", mode="r") as f:
         reader = csv.reader(f)
         for row in reader:
             retrieved_data = read_data(row)
@@ -79,7 +79,7 @@ def add_abstracted_node_to_dict(problem_node):
 
 
 def write_nodes_and_locations(tag_list):
-    with open("output/all_empty_tags.xml", mode="w") as f:
+    with open("output/all_empty_tags_update.xml", mode="w") as f:
         for row in tag_list:
             f.write("{0}: {1}".format(row[0], row[1]) + "\n")
             f.write(row[2] + "\n")
@@ -89,7 +89,7 @@ def write_node_type_counts():
     # create a list of tuples based on the counts dictionary, sorted by count, then write to file
     data = sorted([(key, value) for key, value in counts.items()], key=lambda x: -x[1])
 
-    with open("output/empty_title_tag_types_with_counts", mode="w") as f:
+    with open("output/empty_title_tag_types_with_counts_update.csv", mode="w") as f:
         writer = csv.writer(f)
         writer.writerows(data)
 
