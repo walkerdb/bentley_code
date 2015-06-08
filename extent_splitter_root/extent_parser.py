@@ -35,6 +35,7 @@ def cleanup_text(extent_text):
 	extent_text = extent_text.replace(" inches reel", "-inch reel")  # revert above change for reel case
 	extent_text = extent_text.replace(" col.", " color")
 	extent_text = extent_text.replace("-in.", "-inch")
+	extent_text = extent_text.replace(" outsize", " oversize")
 	extent_text = replace_written_numbers_with_digits(extent_text)
 	return extent_text
 
@@ -71,7 +72,7 @@ def replace_written_numbers_with_digits(extent):
 	extent = extent.replace("( ", "(")
 	extent = extent.replace("[ ", "[")
 
-	return extent.strip(" ")
+	return extent.strip()
 
 
 def reappend_non_extent_items(extents, keyword):
