@@ -7,8 +7,10 @@ def split_into_component_parts(unparsed_extent):
 
 	# this regex is literally the ugliest line of text I have ever seen.
 	dimensions_regex = r"\(?(?:\d+-?(?:\d+)?\/?(?:\d+)?\.?(?:\d+)?) ?x[ -]?(?:\d+-?(?:\d+)?\/?(?:\d+)?\.?(?:\d+)?) ?(?:to|-)? ?(?:\d+?-?(?:\d+)?\/?(?:\d+)?\.?(?:\d+)?)? ?x?[ -]?(?:\d+-?(?:\d+)?\/?(?:\d+)?\.?(?:\d+)?)? ?(?:inches|inch|cm\.?|in\.)?\)?"
-	paren_regex = r" \(.*?\)"
-	in_regex = r" in .*"
+	container_summary_regex = r" \(.*?\)| (?:located )in .*| in .*"
+	physfacet_regex = r" color and black[ -]and[ -]white| b&w| black[ -]and[ -]white| color"
+
+	audio_visual_keywords = ["tape", "cassette", "reel", " ips ", "vhs", "u-matic", " min."]
 
 	type_ = unparsed_extent
 	portion = ""
@@ -17,21 +19,22 @@ def split_into_component_parts(unparsed_extent):
 	dimensions = ""
 	physfacet = ""
 
-	# find any dimensions and extract them
-	regex_return = re.findall(dimensions_regex, unparsed_extent)
-	dimension_list = []
-	if len(regex_return) > 0:
-		for dimension in regex_return:
-			dimension_list.append(dimension)
-		dimensions = " ".join(dimension_list)
+	# find dimensions and remove them from the extent string
+	dimensions = extract_regex_results_as_string(dimensions_regex, type_)
 	type_ = re.sub(dimensions_regex, "", type_)
 
-	# find the container summary if there is one
-	container_summary = get_container_summary(container_summary, in_regex, paren_regex, type_)
+	# find physical facets and remove them from the extent string
+	physfacet = extract_regex_results_as_string(physfacet_regex, type_)
+	type_ = re.sub(physfacet_regex, "", type_)
 
-	# construct type by removing everything else, then cleaning up the remnants
-	type_ = type_.replace(container_summary, "")
+	# find the container summary and remove from extent string
+	container_summary = extract_regex_results_as_string(container_summary_regex, type_)
+	type_ = re.sub(container_summary_regex, "", type_)
+
+	# type is whatever remains. We need to clean up the mess a bit.
+	type_ = " ".join(type_.split())
 	type_ = type_.replace(" , ", " ")
+	type_ = type_.replace(" ,; ", " ")
 	type_ = type_.strip(" .;,")
 
 	# if a container summary was found, enclose it in parens if it isn't already
@@ -48,20 +51,13 @@ def split_into_component_parts(unparsed_extent):
 	return output_extent
 
 
-def get_container_summary(container_summary, in_regex, paren_regex, unparsed_extent):
-	container_summary_list = re.findall(paren_regex, unparsed_extent)
-	if container_summary_list:
-		if len(container_summary_list) == 1:
-			container_summary = container_summary_list[0].strip()
-		elif len(container_summary_list) > 1:
-			print("too many container summaries, ahhhhhhh")
-			for container in container_summary_list:
-				container_summary += "{0}; ".format(container.strip())
-			container_summary.rstrip("; ")
-		else:
-			container_summary = ""
-	if not container_summary:
-		container_summary_list = re.findall(in_regex, unparsed_extent)
-		if container_summary_list:
-			container_summary = container_summary_list[0]
-	return container_summary
+def extract_regex_results_as_string(regular_expression, string_to_search):
+	regex_return = re.findall(regular_expression, string_to_search)
+	results_list = []
+	results = ""
+	if len(regex_return) > 0:
+		for dimension in regex_return:
+			results_list.append(dimension)
+		results = " ".join(results_list)
+	results = results.strip()
+	return results

@@ -53,6 +53,8 @@ class TestExtentSplitter(unittest.TestCase):
     # replace contractions with spelled-out version
     def test_contraction_expansion(self):
         self.check_output_equality("12 linear ft., 12 5-in. doilies", ["12 linear feet", "12 5-inch doilies"])
+        self.check_output_equality("12 outsize boxes", ["12 oversize boxes"])
+        self.check_output_equality("2 col. maps", ["2 color maps"])
 
     # special case for inch pluralization and reels
     def test_reel_inch_expansion_and_pluralization(self):
@@ -63,6 +65,12 @@ class TestExtentSplitter(unittest.TestCase):
         self.check_output_equality(
             "12 Beowulfs (in 1 Hwaet! and 2 battles), 1 thaet waes god cyning",
             ["12 Beowulfs (in 1 Hwaet! and 2 battles)", "1 thaet waes god cyning"]
+        )
+
+    def test_and_in_parens_edge_case_success(self):
+        self.check_output_equality(
+            "1.5 linear feet (in 2 boxes) and 30.9 GB (online)",
+            ["1.5 linear feet (in 2 boxes)", "30.9 GB (online)"]
         )
 
     def test_ips_dont_become_own_statement(self):
@@ -89,10 +97,12 @@ class TestExtentSplitter(unittest.TestCase):
 
     def test_number_counts_dont_return_split(self):
         self.check_output_equality(
-            "2 folders and 3 items located in outsize folder, call no. UBImul/B3",
-            ["2 folders", "3 items located in outsize folder, call no. UBImul/B3"]
+            "2 folders and 3 items located in oversize folder, call no. UBImul/B3",
+            ["2 folders", "3 items located in oversize folder, call no. UBImul/B3"]
         )
         self.check_output_equality("5 eldrich horrors, no. 15-20", ["5 eldrich horrors, no. 15-20"])
+
+
 
 
 if __name__ == "__main__":

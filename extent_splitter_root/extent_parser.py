@@ -41,11 +41,17 @@ def cleanup_text(extent_text):
 
 
 def remove_edge_case_elements(extent_text):
-	regex_for_paren_text_with_and = r"(\(.*? and .*?\))"
-	paren_text = re.findall(regex_for_paren_text_with_and, extent_text)
+	regex_for_paren_text = r"(\(.*?\))"
+	paren_text = re.findall(regex_for_paren_text, extent_text)
 	if paren_text:
-		paren_text = paren_text[0]
-		extent_text = extent_text.replace(paren_text, "&&&")
+		for text in paren_text:
+			if " and " in text:
+				extent_text = extent_text.replace(text, "&&&")
+				paren_text = text
+				break
+
+		if isinstance(paren_text, list):
+			paren_text = ""
 	extent_text = extent_text.replace("lack and white", "&w")
 	return extent_text, paren_text
 
