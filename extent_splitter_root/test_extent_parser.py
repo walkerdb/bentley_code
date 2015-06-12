@@ -1,11 +1,11 @@
 # coding=utf-8
 import unittest
-from extent_parser import split_extents
+from extent_parser import split_into_separate_extents
 
 
 class TestExtentSplitter(unittest.TestCase):
     def check_output_equality(self, original_text, target_list):
-        split_extent = split_extents(original_text)
+        split_extent = split_into_separate_extents(original_text)
         self.assertEqual(split_extent, target_list)
 
     # Extent statements should be split by " and "
@@ -55,6 +55,7 @@ class TestExtentSplitter(unittest.TestCase):
         self.check_output_equality("12 linear ft., 12 5-in. doilies", ["12 linear feet", "12 5-inch doilies"])
         self.check_output_equality("12 outsize boxes", ["12 oversize boxes"])
         self.check_output_equality("2 col. maps", ["2 color maps"])
+        self.check_output_equality("7-in. reel", ["7-inch reel"])
 
     # special case for inch pluralization and reels
     def test_reel_inch_expansion_and_pluralization(self):
@@ -95,14 +96,12 @@ class TestExtentSplitter(unittest.TestCase):
             ["3 sheets : various media ; 43.3 x 56.1 cm. (17-1/8 x 22-1/8 inches) or smaller."]
         )
 
-    def test_number_counts_dont_return_split(self):
+    def test_no_doesnt_return_split(self):
         self.check_output_equality(
             "2 folders and 3 items located in oversize folder, call no. UBImul/B3",
             ["2 folders", "3 items located in oversize folder, call no. UBImul/B3"]
         )
-        self.check_output_equality("5 eldrich horrors, no. 15-20", ["5 eldrich horrors, no. 15-20"])
-
-
+        self.check_output_equality("5 eldritch horrors, no. 15-20", ["5 eldritch horrors, no. 15-20"])
 
 
 if __name__ == "__main__":

@@ -4,7 +4,7 @@ from string import ascii_letters
 from extent_splitter_root import extent_constants
 
 
-def split_extents(extent_text):
+def split_into_separate_extents(extent_text):
 
 	extent_text = cleanup_text(extent_text)
 	extent_text, paren_text = remove_edge_case_elements(extent_text)
@@ -36,6 +36,8 @@ def cleanup_text(extent_text):
 	extent_text = extent_text.replace(" col.", " color")
 	extent_text = extent_text.replace("-in.", "-inch")
 	extent_text = extent_text.replace(" outsize", " oversize")
+	extent_text = extent_text.replace(" black-and-white", " black and white ")
+	extent_text = extent_text.replace(" black & white", " black and white ")
 	extent_text = replace_written_numbers_with_digits(extent_text)
 	return extent_text
 
