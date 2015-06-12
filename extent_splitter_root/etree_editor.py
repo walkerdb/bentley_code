@@ -43,6 +43,8 @@ def write_aspace_extent_tags(filepath, c0x_parent_xpath, aspace_component_list):
 			container_summary = etree.Element("extent", altrender="carrier")
 			physdesc.append(etree.Element())
 
+			# keep writing this!
+
 
 if __name__ == "__main__":
 	main()
