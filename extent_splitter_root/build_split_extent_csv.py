@@ -35,6 +35,11 @@ def main():
 			header.append("split extent segment {}".format(i + 1))
 		writer.writerow(header)
 
+		# If we are going to be doing any EAD modifications based on this list, we'll need to iterate over it in reverse
+		# to keep the xpaths valid as we make multiple changes to the same file. It's easier to reverse it here than
+		# in the transformation code
+		output = reversed(output)
+
 		for row in output:
 			if len(row) < longest_statement:
 				diff = longest_statement - len(row)
