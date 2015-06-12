@@ -4,7 +4,7 @@ from string import ascii_letters
 from extent_splitter_root import extent_constants
 
 
-def split_into_separate_extents(extent_text):
+def split_into_extents(extent_text):
 
 	extent_text = cleanup_text(extent_text)
 	extent_text, paren_text = remove_edge_case_elements(extent_text)

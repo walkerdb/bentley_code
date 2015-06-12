@@ -1,7 +1,7 @@
 import unittest
 from collections import namedtuple
 
-from make_aspace_extent_distinctions import split_extent_into_aspace_parts
+from make_aspace_extent_distinctions import split_into_aspace_components
 
 
 class TestASpaceSplit(unittest.TestCase):
@@ -10,7 +10,7 @@ class TestASpaceSplit(unittest.TestCase):
 
 	def check_output_equality(self, extent, type_="", portion="", container_summary="", dimensions="", physfacet=""):
 		target_namedtuple = self.ASpaceExtent(type_=type_, portion=portion, physfacet=physfacet, container_summary=container_summary, dimensions=dimensions)
-		generated_namedtuple = split_extent_into_aspace_parts(extent)
+		generated_namedtuple = split_into_aspace_components(extent)
 		self.assertEqual(generated_namedtuple, target_namedtuple)
 
 	def test_type_only(self):

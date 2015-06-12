@@ -1,7 +1,7 @@
 import csv
 import re
 
-from extent_splitter_root.extent_parser import split_into_separate_extents
+from extent_splitter_root.extent_parser import split_into_extents
 
 
 CHARACTERIZE = False
@@ -18,7 +18,7 @@ def main():
 
 		for extent_row in reader:
 			ead_filename, extent_xpath, extent_statement = extent_row
-			extents_split = split_into_separate_extents(extent_statement)
+			extents_split = split_into_extents(extent_statement)
 
 			for extent in extents_split:
 				extent_row.append(extent)

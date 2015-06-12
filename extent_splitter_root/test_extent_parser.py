@@ -1,11 +1,11 @@
 # coding=utf-8
 import unittest
-from extent_parser import split_into_separate_extents
+from extent_parser import split_into_extents
 
 
 class TestExtentSplitter(unittest.TestCase):
     def check_output_equality(self, original_text, target_list):
-        split_extent = split_into_separate_extents(original_text)
+        split_extent = split_into_extents(original_text)
         self.assertEqual(split_extent, target_list)
 
     # Extent statements should be split by " and "
