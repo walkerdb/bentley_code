@@ -1,3 +1,6 @@
+# I'm running into issues with xpaths failing where they shouldn't. I suspect my extent csv is just behind the current state of the master ead files...
+# anyway, fix it on Thursday!
+
 import csv
 from os import path
 from lxml import etree
@@ -5,7 +8,6 @@ from lxml import etree
 from extent_parser import split_into_extents
 from make_aspace_extent_distinctions import split_into_aspace_components
 import etree_editor
-
 
 
 def main(source="all_extents.csv"):
@@ -17,26 +19,40 @@ def main(source="all_extents.csv"):
 		reader = csv.reader(f)
 		reader.next()  # skip the header row
 
-		current_filename = ""
+		previous_filename = ""
+		tree = ""
 		for filename, xpath, longform_extent_statement in reader:
 			# if this file has already been edited, read it from the output directory, not the input directory
 			filepath = path.join(path_to_eads, filename) if filename not in edited_filenames else path.join(path_to_output, filename)
 
-			if not current_filename or filename != current_filename:
-				tree = etree.parse(filepath)
-			current_filename = filename
 
-			parent_xpath = etree_editor.get_c0x_parent_node(filepath, xpath)
+			if "eskimo" in filename:
+				continue
+
+			# only make a new root tree and write the old one to file if the filename has changed
+			if not previous_filename:
+				tree = etree.parse(filepath)
+			elif filename != previous_filename:
+				try:
+					tree.write("output/" + previous_filename, pretty_print=True)
+				except AttributeError:
+					print(type(tree))
+				print(filename)
+				tree = etree.parse(filepath)
+			previous_filename = filename
+
+			# find the xpath of the extent's parent
+			parent_xpath = etree_editor.get_parent_node(tree, xpath)
 
 			# delete the old extent node
-			etree_editor.delete_node(filepath, xpath)
+			tree = etree_editor.delete_node(tree, xpath)
 
 			# split original extent text into component parts
 			highlevel_extents = split_into_extents(longform_extent_statement)
 			aspace_components = [split_into_aspace_components(extent) for extent in highlevel_extents]
 
 			# write new extent xml to file
-			etree_editor.write_aspace_extent_tags(filename, filepath, parent_xpath, aspace_components)
+			tree = etree_editor.write_aspace_extent_tags(filename, tree, parent_xpath, aspace_components)
 
 			edited_filenames.add(filename)
 

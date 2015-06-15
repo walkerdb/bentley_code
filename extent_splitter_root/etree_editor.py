@@ -5,18 +5,27 @@ from collections import namedtuple
 def main():
 	pass
 
-def delete_node(filepath, xpath):
-	node = etree.parse(filepath).xpath(xpath)[0]
+def delete_node(tree, xpath):
+	node = tree.xpath(xpath)[0]
+	# print(etree.tostring(node.getparent(), pretty_print=True))
 	if "physdesc" in node.getparent().tag:
 		node = node.getparent()
-		node.getparent().remove(node)
+		parent = node.getparent()
+		parent.remove(node)
 	else:
 		print("wtf")
 
+	# print(etree.tostring(node, pretty_print=True))
 
-def get_c0x_parent_node(filepath, xpath):
-	tree = etree.parse(filepath)
-	c0x_parent_candidate = tree.xpath(xpath)[0]
+	return tree
+
+
+def get_parent_node(tree, xpath):
+	try:
+		c0x_parent_candidate = tree.xpath(xpath)[0]
+	except:
+		print("whaa? {0}".format(xpath))
+
 	is_parent_tag = False
 
 	while not is_parent_tag:
@@ -30,8 +39,7 @@ def get_c0x_parent_node(filepath, xpath):
 	return xpath
 
 
-def write_aspace_extent_tags(filename, filepath, target_xpath, aspace_components):
-	tree = etree.parse(filepath)
+def write_aspace_extent_tags(filename, tree, target_xpath, aspace_components):
 	target_node = tree.xpath(target_xpath)[0]
 
 	for aspace_component in aspace_components:
@@ -55,9 +63,10 @@ def write_aspace_extent_tags(filename, filepath, target_xpath, aspace_components
 
 		target_node.insert(1, physdesc)
 
-		if len(list(physdesc)) > 1:
-			print(etree.tostring(physdesc, pretty_print=True))
-	tree.write("output/" + filename, pretty_print=True)
+		# if len(list(physdesc)) > 1:
+		# 	print(etree.tostring(physdesc, pretty_print=True))
+
+	return tree
 
 def build_etree_element(tag, text, altrender=""):
 	element = etree.Element(tag, altrender=altrender) if altrender else etree.Element(tag)
