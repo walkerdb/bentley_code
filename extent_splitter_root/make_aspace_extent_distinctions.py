@@ -6,8 +6,8 @@ def split_into_aspace_components(unparsed_extent):
 	ASpaceExtent = namedtuple("ASpaceExtent", ["type_", "portion", "container_summary", "dimensions", "physfacet"])
 
 	# this regex is literally the ugliest line of text I have ever seen.
-	dimensions_regex = r"\(?(?:\d+-?(?:\d+)?\/?(?:\d+)?\.?(?:\d+)?) ?x[ -]?(?:\d+-?(?:\d+)?\/?(?:\d+)?\.?(?:\d+)?) ?(?:to|-)? ?(?:\d+?-?(?:\d+)?\/?(?:\d+)?\.?(?:\d+)?)? ?x?[ -]?(?:\d+-?(?:\d+)?\/?(?:\d+)?\.?(?:\d+)?)? ?(?:inches|inch|cm\.?|in\.)?\)?"
-	container_summary_regex = r" \(.*?\)| (?:located )in .*| in .*"
+	dimensions_regex = r"\(?(?:\d+-?(?:\d+)?\/?(?:\d+)?\.?(?:\d+)?) ?x[ -]?(?:\d+-?(?:\d+)?\/?(?:\d+)?\.?(?:\d+)?) ?(?:to|-|and)? ?(?:\d+?-?(?:\d+)?\/?(?:\d+)?\.?(?:\d+)?)? ?x?[ -]?(?:\d+-?(?:\d+)?\/?(?:\d+)?\.?(?:\d+)?)? ?(?:inches|inch|cm\.?|in\.)?\)?"
+	container_summary_regex = r" \(.*?\)| (?:located )in .*| in .*| formerly in .*"
 	physfacet_regex = r" color and black[ -]and[ -]white| b&w| black[ -]and[ -]white| color"
 
 	audio_visual_keywords = ["tape", "cassette", "reel", " ips ", "vhs", "u-matic", " min."]
@@ -31,7 +31,7 @@ def split_into_aspace_components(unparsed_extent):
 	type_ = " ".join(type_.split())
 	type_ = type_.replace(" , ", " ")
 	type_ = type_.replace(" ,; ", " ")
-	type_ = type_.strip(" .;,")
+	type_ = type_.strip(" .;:,")
 
 	# setting portion tag
 	portion = "part"

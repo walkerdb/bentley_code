@@ -49,5 +49,15 @@ class TestASpaceSplit(unittest.TestCase):
 								   physfacet="color and black-and-white",
 								   portion="part")
 
+	def test_horrific_extent_2(self):
+		self.check_output_equality("236 3-1/2x5-1/2 and 4x6-inch, color prints",
+								   type_="236 prints",
+								   dimensions="3-1/2x5-1/2 and 4x6-inch",
+								   physfacet="color",
+								   portion="part")
+
+	def test_in_edge_case_1(self):
+		self.check_output_equality("14 folders; formerly in binders", type_="14 folders", container_summary="(formerly in binders)", portion="part")
+
 if __name__ == "__main__":
 	unittest.main()
