@@ -70,5 +70,12 @@ class TestASpaceSplit(unittest.TestCase):
 		self.check_output_equality('2 tapes, 3-3/4 ips', type_="2 tapes", physfacet="3-3/4 ips", portion="part")
 		self.check_output_equality("147 sound tape reels : 3 3/4 - 7 1/2 ips ; 5-10 inches", type_="147 sound tape reels", physfacet="3 3/4 - 7 1/2 ips ; 5-10 inches", portion="part")
 
+	def test_time_dimensions(self):
+		self.check_output_equality("50:59", type_="", dimensions="50:59", portion="part")
+		self.check_output_equality("2:18 min.", type_="", dimensions="2:18 min.", portion="part")
+		self.check_output_equality("1 sound tape reel (13:08)", type_="1 sound tape reel", dimensions="13:08", portion="part")
+		self.check_output_equality("1 sound tape reel (ca. 12 min.)", type_="1 sound tape reel", dimensions="ca. 12 min.", portion="part")
+		self.check_output_equality("1 sound tape reel: ca. 3 min.", type_="1 sound tape reel", dimensions="ca. 3 min.", portion="part")
+
 if __name__ == "__main__":
 	unittest.main()
