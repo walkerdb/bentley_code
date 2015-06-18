@@ -22,20 +22,20 @@ def delete_node(tree, xpath):
 
 def get_parent_node(tree, xpath):
 	try:
-		c0x_parent_candidate = tree.xpath(xpath)[0]
+		parent_candidate = tree.xpath(xpath)[0]
 	except:
-		print("whaa? {0}".format(xpath))
+		return NotImplementedError("broken xpath -- no idea why!")
 
 	is_parent_tag = False
 
 	while not is_parent_tag:
-		if c0x_parent_candidate.tag.startswith("physdesc"):
-			c0x_parent_candidate = c0x_parent_candidate.getparent()
+		if parent_candidate.tag.startswith("physdesc"):
+			parent_candidate = parent_candidate.getparent()
 			is_parent_tag = True
 		else:
-			c0x_parent_candidate = c0x_parent_candidate.getparent()
+			parent_candidate = parent_candidate.getparent()
 
-	xpath = tree.getpath(c0x_parent_candidate)
+	xpath = tree.getpath(parent_candidate)
 	return xpath
 
 
@@ -67,6 +67,7 @@ def write_aspace_extent_tags(filename, tree, target_xpath, aspace_components):
 		# 	print(etree.tostring(physdesc, pretty_print=True))
 
 	return tree
+
 
 def build_etree_element(tag, text, altrender=""):
 	element = etree.Element(tag, altrender=altrender) if altrender else etree.Element(tag)
