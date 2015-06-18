@@ -1,14 +1,15 @@
 # I'm running into issues with xpaths failing where they shouldn't. I suspect my extent csv is just behind the current state of the master ead files...
 # anyway, fix it on Thursday!
 from __future__ import absolute_import
-import csv
 from os import path
+import csv
+
 from lxml import etree
 
-from extent_parser import split_into_extents
-from make_aspace_extent_distinctions import split_into_aspace_components
+from .extent_parser import split_into_extents
+from .make_aspace_extent_distinctions import split_into_aspace_components
 from ..prettifydirectory import prettify_xml_in_directory
-import etree_editor
+from . import etree_editor
 
 
 def main(source="all_extents_reversed.csv"):
