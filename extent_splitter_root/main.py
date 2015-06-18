@@ -12,7 +12,7 @@ from ..prettifydirectory import prettify_xml_in_directory
 from . import etree_editor
 
 
-def main(source="all_extents_reversed.csv"):
+def main(source="input\\all_extents_reversed.csv"):
 	path_to_eads = r"S:\Curation\Student Work\Walker Boyle\source files\EADs\Master EAD 2015-06-12"
 	path_to_output = r"C:\Users\wboyle\PycharmProjects\bentley_code\extent_splitter_root\output"
 	edited_filenames = set()
