@@ -2,7 +2,7 @@ from __future__ import absolute_import
 import unittest
 from collections import namedtuple
 
-from .make_aspace_extent_distinctions import split_into_aspace_components
+from aspaceify_extents.scripts.make_aspace_extent_distinctions import split_into_aspace_components
 
 
 class TestASpaceSplit(unittest.TestCase):
@@ -30,7 +30,7 @@ class TestASpaceSplit(unittest.TestCase):
 			("p, 2x4-5x8 cm.", "2x4-5x8 cm."),
 			("p, 20 x 40 cm", "20 x 40 cm"),
 			("p, 3-1/2x5 to 4x6-inch", "3-1/2x5 to 4x6-inch"),
-			("p, 79.5 x 113.8 cm. (31 x 44-3/8 inches)", "79.5 x 113.8 cm. (31 x 44-3/8 inches)")
+			("p, 79.5 x 113.8 cm. (31 x 44-3/8 inches)", "79.5 x 113.8 cm.; 31 x 44-3/8 inches")
 		]
 		for dimension_example in dimension_examples:
 			original_text, dimension = dimension_example
@@ -59,6 +59,16 @@ class TestASpaceSplit(unittest.TestCase):
 
 	def test_in_edge_case_1(self):
 		self.check_output_equality("14 folders; formerly in binders", type_="14 folders", container_summary="(formerly in binders)", portion="part")
+
+	def test_reel_special_cases(self):
+		self.check_output_equality("5 inch reel, 3 3/4 ips", type_="reel", physfacet="5 inch; 3 3/4 ips", portion="part")
+		self.check_output_equality('7" reel, 3.75 ips.', type_="reel", physfacet='7"; 3.75 ips', portion="part")
+		self.check_output_equality('1 10 1/2" reel', type_="1 reel", physfacet='10 1/2"', portion="part")
+		self.check_output_equality("1 sound tape reel: 7 1/2 ips; 5 inches", type_="1 sound tape reel", physfacet="7 1/2 ips; 5 inches", portion="part")
+		self.check_output_equality("2 sound tape reels: 3 3/4 ips; 7 inches", type_="2 sound tape reels", physfacet="3 3/4 ips; 7 inches", portion="part")
+		self.check_output_equality("5 sound tape reels (dual track): 7 1/2 ips; 7 inches", type_="5 sound tape reels", physfacet="dual track; 7 1/2 ips; 7 inches", portion="part")
+		self.check_output_equality('2 tapes, 3-3/4 ips', type_="2 tapes", physfacet="3-3/4 ips", portion="part")
+		self.check_output_equality("147 sound tape reels : 3 3/4 - 7 1/2 ips ; 5-10 inches", type_="147 sound tape reels", physfacet="3 3/4 - 7 1/2 ips ; 5-10 inches", portion="part")
 
 if __name__ == "__main__":
 	unittest.main()

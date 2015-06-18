@@ -7,8 +7,8 @@ def split_into_aspace_components(unparsed_extent):
 
 	# this regex is literally the ugliest line of text I have ever seen.
 	dimensions_regex = r"\(?(?:\d+-?(?:\d+)?\/?(?:\d+)?\.?(?:\d+)?) ?x[ -]?(?:\d+-?(?:\d+)?\/?(?:\d+)?\.?(?:\d+)?) ?(?:to|-|and)? ?(?:\d+?-?(?:\d+)?\/?(?:\d+)?\.?(?:\d+)?)? ?x?[ -]?(?:\d+-?(?:\d+)?\/?(?:\d+)?\.?(?:\d+)?)? ?(?:inches|inch|cm\.?|in\.)?\)?"
+	physfacet_regex = r' color and black[ -]and[ -]white| b&w| black[ -]and[ -]white| color| (?:\d \d/\d - )?\d \d/\d ips ?; \d(?:-\d\d)? inches| (?:\d[ -]\d/\d|\d\.\d\d) ips| \(dual track\)| ?\d(?:\d \d/\d)?(?: inch|")(?= reel)'
 	container_summary_regex = r" \(.*?\)| (?:located )in .*| in .*| formerly in .*"
-	physfacet_regex = r" color and black[ -]and[ -]white| b&w| black[ -]and[ -]white| color"
 
 	audio_visual_keywords = ["tape", "cassette", "reel", " ips ", "vhs", "u-matic", " min."]
 
@@ -40,8 +40,8 @@ def split_into_aspace_components(unparsed_extent):
 
 	# make sure the container summary is enclosed in parens
 	if container_summary:
-		if not container_summary.startswith("("):
-			container_summary = "({0})".format(container_summary.strip())
+		if not container_summary.startswith("(") or not container_summary.endswith(")"):
+			container_summary = "({0})".format(container_summary.strip("() "))
 
 	output_extent = ASpaceExtent(type_=type_,
 								 portion=portion,
@@ -56,8 +56,8 @@ def extract_regex_results_as_string(regular_expression, string_to_search):
 	results_list = []
 	results = ""
 	if len(regex_return) > 0:
-		for dimension in regex_return:
-			results_list.append(dimension)
-		results = " ".join(results_list)
-	results = results.strip()
+		for found_string in regex_return:
+			results_list.append(found_string.strip("() "))
+		results = " ".join("; ".join(results_list).split())
+
 	return results

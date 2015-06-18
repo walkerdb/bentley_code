@@ -3,6 +3,7 @@ from os import path
 import csv
 
 from lxml import etree
+from tqdm import tqdm
 
 from .scripts.make_aspace_extent_distinctions import split_into_aspace_components
 from .scripts.prettifydirectory import prettify_xml_in_directory
@@ -21,7 +22,7 @@ def main(source="C:/Users/wboyle/PycharmProjects/bentley_code/aspaceify_extents/
 
 		previous_filename = ""
 		tree = ""
-		for filename, xpath, longform_extent_statement in reader:
+		for filename, xpath, longform_extent_statement in tqdm(list(reader), desc="Extent parsing progress", leave=True):
 			# if this file has already been edited, read it from the output directory, not the input directory
 			filepath = path.join(path_to_eads, filename) if filename not in edited_filenames else path.join(path_to_output, filename)
 
@@ -33,7 +34,6 @@ def main(source="C:/Users/wboyle/PycharmProjects/bentley_code/aspaceify_extents/
 					tree.write(path.join(path_to_output, previous_filename), pretty_print=True)
 				except AttributeError:
 					print(type(tree) + "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
-				print("Working on {0}".format(filename))
 				tree = etree.parse(filepath)
 			previous_filename = filename
 
