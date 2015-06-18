@@ -1,6 +1,8 @@
 # coding=utf-8
+from __future__ import absolute_import
 import unittest
-from extent_parser import split_into_extents
+
+from .extent_parser import split_into_extents
 
 
 class TestExtentSplitter(unittest.TestCase):

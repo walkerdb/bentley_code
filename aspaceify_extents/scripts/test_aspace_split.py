@@ -1,7 +1,8 @@
+from __future__ import absolute_import
 import unittest
 from collections import namedtuple
 
-from make_aspace_extent_distinctions import split_into_aspace_components
+from .make_aspace_extent_distinctions import split_into_aspace_components
 
 
 class TestASpaceSplit(unittest.TestCase):

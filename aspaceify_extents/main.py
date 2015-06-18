@@ -6,10 +6,10 @@ import csv
 
 from lxml import etree
 
-from .extent_parser import split_into_extents
-from .make_aspace_extent_distinctions import split_into_aspace_components
-from ..prettifydirectory import prettify_xml_in_directory
-from . import etree_editor
+from .scripts.extent_parser import split_into_extents
+from .scripts.make_aspace_extent_distinctions import split_into_aspace_components
+from .scripts.prettifydirectory import prettify_xml_in_directory
+from aspaceify_extents.scripts import etree_editor
 
 
 def main(source="input\\all_extents_reversed.csv"):

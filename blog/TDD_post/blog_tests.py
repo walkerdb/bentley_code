@@ -1,5 +1,5 @@
 import unittest
-from extent_splitter_root import split_extents
+from aspaceify_extents import split_extents
 
 
 class TestExtentSplitter(unittest.TestCase):

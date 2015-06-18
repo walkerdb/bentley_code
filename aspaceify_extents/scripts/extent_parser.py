@@ -1,7 +1,8 @@
+from __future__ import absolute_import
 import re
 from string import ascii_letters
 
-from extent_splitter_root import extent_constants
+from . import extent_constants
 
 
 def split_into_extents(extent_text):

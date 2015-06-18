@@ -1,7 +1,7 @@
+from __future__ import absolute_import
 import csv
-import re
 
-from extent_splitter_root.extent_parser import split_into_extents
+from .extent_parser import split_into_extents
 
 
 CHARACTERIZE = False
