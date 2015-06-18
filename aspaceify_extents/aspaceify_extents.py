@@ -1,20 +1,18 @@
-# I'm running into issues with xpaths failing where they shouldn't. I suspect my extent csv is just behind the current state of the master ead files...
-# anyway, fix it on Thursday!
 from __future__ import absolute_import
 from os import path
 import csv
 
 from lxml import etree
 
-from .scripts.extent_parser import split_into_extents
 from .scripts.make_aspace_extent_distinctions import split_into_aspace_components
 from .scripts.prettifydirectory import prettify_xml_in_directory
-from aspaceify_extents.scripts import etree_editor
+from .scripts.extent_parser import split_into_extents
+from .scripts import etree_editor
 
 
-def main(source="input\\all_extents_reversed.csv"):
-	path_to_eads = r"S:\Curation\Student Work\Walker Boyle\source files\EADs\Master EAD 2015-06-12"
-	path_to_output = r"C:\Users\wboyle\PycharmProjects\bentley_code\extent_splitter_root\output"
+def main(source="C:/Users/wboyle/PycharmProjects/bentley_code/aspaceify_extents/input/all_extents_reversed.csv"):
+	path_to_eads = "S:/Curation/Student Work/Walker Boyle/source files/EADs/Master EAD 2015-06-12"
+	path_to_output = "C:/Users/wboyle/PycharmProjects/bentley_code/aspaceify_extents/output"
 	edited_filenames = set()
 
 	with open(source, mode="r") as f:
@@ -32,9 +30,9 @@ def main(source="input\\all_extents_reversed.csv"):
 				tree = etree.parse(filepath)
 			elif filename != previous_filename:
 				try:
-					tree.write("output/" + previous_filename, pretty_print=True)
+					tree.write(path.join(path_to_output, previous_filename), pretty_print=True)
 				except AttributeError:
-					print(type(tree))
+					print(type(tree) + "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
 				print("Working on {0}".format(filename))
 				tree = etree.parse(filepath)
 			previous_filename = filename
