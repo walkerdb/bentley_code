@@ -37,8 +37,8 @@ def cleanup_text(extent_text):
 	extent_text = extent_text.replace(" col.", " color")
 	extent_text = extent_text.replace("-in.", "-inch")
 	extent_text = extent_text.replace(" outsize", " oversize")
-	extent_text = extent_text.replace(" black-and-white", " black and white ")
-	extent_text = extent_text.replace(" black & white", " black and white ")
+	extent_text = extent_text.replace(" black-and-white", " black and white")
+	extent_text = extent_text.replace(" black & white", " black and white")
 	extent_text = replace_written_numbers_with_digits(extent_text)
 	return extent_text
 
@@ -90,17 +90,13 @@ def reappend_non_extent_items(extents, keyword):
 	for index, extent in enumerate(extents):
 		if index > 0:
 			# primary function - if extent has no numbers, re-append to its previous neighbor
-			if all([num not in extent for num in extent_constants.integers]):
+			if extent.isalpha():
 				extents[index - 1] = extents[index - 1] + "{0}".format(keyword) + extents[index]
 				extents.pop(index)
 
 			### edge cases ###
 			# reconstruct comma-formatted numbers
-			elif all([
-						keyword is ",",
-						all([char in extent_constants.integers for char in extent[:3]]),
-						extents[index - 1][-1] in extent_constants.integers
-					]):
+			elif all([keyword is ",", extent[:3].isdigit(), extents[index - 1][-1].isdigit()]):
 				extents[index - 1] = extents[index - 1] + "{0}".format(",") + extents[index]
 				extents.pop(index)
 
