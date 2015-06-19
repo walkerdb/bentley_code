@@ -65,7 +65,7 @@ def characterize_series_in_directory(source_directory):
 			print(filename)
 			tree = etree.parse(source_directory + "\\" + filename)
 			inventory = tree.xpath("/ead/archdesc/dsc")[0]
-			attribute_paths = build_xml_tree_tag_paths(inventory)
+			attribute_paths = build_xml_tree_tag_paths(inventory, filename=filename)
 			for key, value in attribute_paths.items():
 				if key in series:
 					series[key] += value
@@ -74,7 +74,7 @@ def characterize_series_in_directory(source_directory):
 	write_sorted_histogram(series, "series_exploration.csv")
 
 
-def build_xml_tree_tag_paths(etree_of_full_ead_dsc_node, tag="c0", attribute="level"):
+def build_xml_tree_tag_paths(etree_of_full_ead_dsc_node, tag="c0", attribute="level", filename=""):
 	# Recursive function built to help characterize all possible c0x "level" hierarchies found in our EAD documents.
 	# could be generalized to characterize the hierarchy of any regular attribute in any self-nesting tag by changing
 	# the "tag" and "attribute" default values
@@ -108,6 +108,7 @@ def build_xml_tree_tag_paths(etree_of_full_ead_dsc_node, tag="c0", attribute="le
 
 			# add full series path to the recording dictionary if it isn't there already; else increment its count
 			series[key] = series.get(key, 0) + 1
+
 
 		# if the code reaches this point, this is the end of this branch of the tree, so remove this leaf of the tree
 		# from the path breadcrumb list
