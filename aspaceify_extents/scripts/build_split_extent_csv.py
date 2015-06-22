@@ -1,8 +1,8 @@
 from __future__ import absolute_import
 import csv
 
-from .extent_parser import split_into_extents
-
+from aspaceify_extents.scripts.extent_parser import split_into_extents
+from tqdm import tqdm
 
 CHARACTERIZE = False
 
@@ -10,13 +10,13 @@ CHARACTERIZE = False
 def main():
 	output = []
 	longest_statement = 0
-	filename = "all_extents.csv"
+	filename = "../input/all_extents.csv"
 
 	with open(filename, mode="r") as f:
 		reader = csv.reader(f)
 		reader.next()  # skip the header row
 
-		for extent_row in reader:
+		for extent_row in tqdm(list(reader)):
 			ead_filename, extent_xpath, extent_statement = extent_row
 			extents_split = split_into_extents(extent_statement)
 
@@ -27,7 +27,7 @@ def main():
 			if len(extents_split) > longest_statement:
 				longest_statement = len(extents_split)
 
-	with open("extent_split.csv", mode="wb") as f:
+	with open("../extent_split.csv", mode="wb") as f:
 		writer = csv.writer(f)
 
 		header = ["EAD filename", "XPath to extent", "Original extent text"]
