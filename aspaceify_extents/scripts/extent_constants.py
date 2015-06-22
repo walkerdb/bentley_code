@@ -197,4 +197,5 @@ numbers_dict = {' Eight ': '8',
                 ' twenty-six ': '26',
                 ' twenty-three ': '23',
                 ' twenty-two ': '22',
-                ' two ': '2'}
+                ' two ': '2',
+                ' Eight-hundred-fourteen ': '814'}

@@ -8,34 +8,33 @@ def split_into_aspace_components(unparsed_extent):
 	# this regex is literally the ugliest line of text I have ever seen.
 	phys_dimensions_regex = r"\(?(?:\d+-?(?:\d+)?\/?(?:\d+)?\.?(?:\d+)?) ?x[ -]?(?:\d+-?(?:\d+)?\/?(?:\d+)?\.?(?:\d+)?) ?(?:to|-|and)? ?(?:\d+?-?(?:\d+)?\/?(?:\d+)?\.?(?:\d+)?)? ?x?[ -]?(?:\d+-?(?:\d+)?\/?(?:\d+)?\.?(?:\d+)?)? ?(?:inches|inch|cm\.?|in\.)?\)?"
 	time_dimensions_regex = r"\d\d?\:\d\d\:?\d?\d?(?: min\.?| minutes)?|\(?ca\.? \d\d? min\.\)?"
-	physfacet_regex = r' color and black[ -]and[ -]white| b&w| black[ -]and[ -]white| color| (?:\d \d/\d - )?\d \d/\d ips ?; \d(?:-\d\d)? inches| (?:\d[ -]\d/\d|\d\.\d\d) ips| \(dual track\)| ?\d(?:\d \d/\d)?(?: inch|")(?= reel)'
-	container_summary_regex = r" \(.*?\)| (?:located )in .*| in .*| formerly in .*"
-
-	audio_visual_keywords = ["tape", "cassette", "reel", " ips ", "vhs", "u-matic", " min."]
+	physfacet_regex = r' color and black[ -]and[ -]white| b&w| black[ -]and[ -]white|\bcolor\b| (?:\d \d/\d - )?\d \d/\d ips ?; \d(?:-\d\d)? inches| (?:\d[ -]\d/\d|\d\.\d\d) ips| \(dual track\)| ?\d\d?(?: ?\d?/\d)?(?:[ -]inch|")\.?(?= reel)|\d\d(?: \d/\d)? rpm'
+	container_summary_regex = r"\(.*?\)|\b(?:located )in .*|\bin .*|\bformerly in .*"
 
 	working_extent_string = unparsed_extent
 
 	# find physical dimensions and remove them from the extent string
 	phys_dimensions = extract_regex_results_as_string(phys_dimensions_regex, working_extent_string)
-	working_extent_string = re.sub(phys_dimensions_regex, "", working_extent_string)
+	working_extent_string = re.sub(phys_dimensions_regex, "", working_extent_string) if phys_dimensions else working_extent_string
 
 	# find time dimensions and remove them from the extent string
 	time_dimensions = extract_regex_results_as_string(time_dimensions_regex, working_extent_string)
-	working_extent_string = re.sub(time_dimensions_regex, "", working_extent_string)
+	working_extent_string = re.sub(time_dimensions_regex, "", working_extent_string) if time_dimensions else working_extent_string
 
 	# find physical facets and remove them from the extent string
 	physfacet = extract_regex_results_as_string(physfacet_regex, working_extent_string)
-	working_extent_string = re.sub(physfacet_regex, "", working_extent_string)
+	working_extent_string = re.sub(physfacet_regex, "", working_extent_string) if physfacet else working_extent_string
 
 	# find the container summary and remove from extent string
 	container_summary = extract_regex_results_as_string(container_summary_regex, working_extent_string)
-	working_extent_string = re.sub(container_summary_regex, "", working_extent_string)
+	working_extent_string = re.sub(container_summary_regex, "", working_extent_string) if container_summary else working_extent_string
 
 	# type is whatever remains. We need to clean up the mess a bit.
 	type_ = working_extent_string
 	type_ = " ".join(type_.split())
 	type_ = type_.replace(" , ", " ")
 	type_ = type_.replace(" ,; ", " ")
+	type_ = type_.replace("()", "")
 	type_ = type_.strip(" .;:,")
 
 	# setting portion tag

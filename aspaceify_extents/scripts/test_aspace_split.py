@@ -60,15 +60,23 @@ class TestASpaceSplit(unittest.TestCase):
 	def test_in_edge_case_1(self):
 		self.check_output_equality("14 folders; formerly in binders", type_="14 folders", container_summary="(formerly in binders)", portion="part")
 
+	def test_in_edge_case_2(self):
+		self.check_output_equality("(in 4 boxes)", type_="", container_summary="(in 4 boxes)", portion="part")
+
 	def test_reel_special_cases(self):
 		self.check_output_equality("5 inch reel, 3 3/4 ips", type_="reel", physfacet="5 inch; 3 3/4 ips", portion="part")
 		self.check_output_equality('7" reel, 3.75 ips.', type_="reel", physfacet='7"; 3.75 ips', portion="part")
 		self.check_output_equality('1 10 1/2" reel', type_="1 reel", physfacet='10 1/2"', portion="part")
+		self.check_output_equality("3/4-inch reel", type_="reel", physfacet="3/4-inch", portion="part")
 		self.check_output_equality("1 sound tape reel: 7 1/2 ips; 5 inches", type_="1 sound tape reel", physfacet="7 1/2 ips; 5 inches", portion="part")
 		self.check_output_equality("2 sound tape reels: 3 3/4 ips; 7 inches", type_="2 sound tape reels", physfacet="3 3/4 ips; 7 inches", portion="part")
 		self.check_output_equality("5 sound tape reels (dual track): 7 1/2 ips; 7 inches", type_="5 sound tape reels", physfacet="dual track; 7 1/2 ips; 7 inches", portion="part")
 		self.check_output_equality('2 tapes, 3-3/4 ips', type_="2 tapes", physfacet="3-3/4 ips", portion="part")
 		self.check_output_equality("147 sound tape reels : 3 3/4 - 7 1/2 ips ; 5-10 inches", type_="147 sound tape reels", physfacet="3 3/4 - 7 1/2 ips ; 5-10 inches", portion="part")
+
+	def test_rpm(self):
+		self.check_output_equality("33 1/3 rpm Phonograph Records", type_="Phonograph Records", physfacet="33 1/3 rpm", portion="part")
+		self.check_output_equality("set of 4 records, 45 rpm,33 1/3 rpm", type_="set of 4 records", physfacet="45 rpm; 33 1/3 rpm", portion="part")
 
 	def test_time_dimensions(self):
 		self.check_output_equality("50:59", type_="", dimensions="50:59", portion="part")
@@ -77,6 +85,13 @@ class TestASpaceSplit(unittest.TestCase):
 		self.check_output_equality("1 sound tape reel (13:08)", type_="1 sound tape reel", dimensions="13:08", portion="part")
 		self.check_output_equality("1 sound tape reel (ca. 12 min.)", type_="1 sound tape reel", dimensions="ca. 12 min.", portion="part")
 		self.check_output_equality("1 sound tape reel: ca. 3 min.", type_="1 sound tape reel", dimensions="ca. 3 min.", portion="part")
+
+	def test_color_not_removed(self):
+		self.check_output_equality("original drawings, pencil and colored pencil on tracing paper", type_="original drawings, pencil and colored pencil on tracing paper", portion="part")
+
+	def test_physfacets(self):
+		pass
+
 
 if __name__ == "__main__":
 	unittest.main()

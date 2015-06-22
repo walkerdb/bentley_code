@@ -2,7 +2,7 @@ from __future__ import absolute_import
 import re
 from string import ascii_letters
 
-from . import extent_constants
+from aspaceify_extents.scripts import extent_constants
 
 
 def split_into_extents(extent_text):
@@ -31,14 +31,15 @@ def split_into_extents(extent_text):
 
 def cleanup_text(extent_text):
 	extent_text = " ".join(extent_text.split())  # removes bad newlines and whitespace
-	extent_text = extent_text.replace(" ft.", " feet")
-	extent_text = extent_text.replace(" in.", " inches")
-	extent_text = extent_text.replace(" inches reel", "-inch reel")  # revert above change for reel case
-	extent_text = extent_text.replace(" col.", " color")
-	extent_text = extent_text.replace("-in.", "-inch")
-	extent_text = extent_text.replace(" outsize", " oversize")
 	extent_text = extent_text.replace(" black-and-white", " black and white")
 	extent_text = extent_text.replace(" black & white", " black and white")
+	extent_text = extent_text.replace("ca. ", "")
+	extent_text = extent_text.replace(" col.", " color")
+	extent_text = extent_text.replace(" ft.", " feet")
+	extent_text = extent_text.replace("-in.", "-inch")
+	extent_text = extent_text.replace(" in.", " inches")
+	extent_text = extent_text.replace(" inches reel", "-inch reel")  # revert above change for reel case
+	extent_text = extent_text.replace(" outsize", " oversize")
 	extent_text = replace_written_numbers_with_digits(extent_text)
 	return extent_text
 

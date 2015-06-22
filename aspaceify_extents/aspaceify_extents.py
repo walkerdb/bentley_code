@@ -15,6 +15,7 @@ def main(source="C:/Users/wboyle/PycharmProjects/bentley_code/aspaceify_extents/
 	path_to_eads = "S:/Curation/Student Work/Walker Boyle/source files/EADs/Master EAD 2015-06-12"
 	path_to_output = "C:/Users/wboyle/PycharmProjects/bentley_code/aspaceify_extents/output"
 	edited_filenames = set()
+	types = {}
 
 	with open(source, mode="r") as f:
 		reader = csv.reader(f)
@@ -53,14 +54,27 @@ def main(source="C:/Users/wboyle/PycharmProjects/bentley_code/aspaceify_extents/
 
 				edited_filenames.add(filename)
 
-			except:
+				# temp code to get list of all types in collection
+				for aspace_component in aspace_components:
+					type_ = aspace_component.type_.strip(" ")
+					type_ = type_.lstrip("1234567890.- ")
+					# type_ = type_.strip(""" .;:()-"'""")
+					types[type_] = types.get(type_, 0) + 1
+
+			except (IndexError, ValueError) as e:
 				with open("extent_fix_errors.csv", mode="ab") as f:
 					writer = csv.writer(f)
 					writer.writerow([filename, xpath, longform_extent_statement])
 				continue
 
 	# clean up the changes
-	prettify_xml_in_directory(input_dir=path_to_output, output_dir=path_to_output)
+	# prettify_xml_in_directory(input_dir=path_to_output, output_dir=path_to_output)
+
+	with open("all_types.csv", mode="wb") as f:
+		writer = csv.writer(f)
+		rows = [[key, value] for key, value in types.items()]
+		rows.sort(key=lambda x: -x[1])
+		writer.writerows(rows)
 
 
 if __name__ == "__main__":
