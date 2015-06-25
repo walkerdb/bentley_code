@@ -1,0 +1,36 @@
+The issue seems to be with various aspects of the InDesign document's exported XMP metadata (XMP being a metadata format designed by Adobe).
+
+The current workflow is:
+	Export InDesign document as a PDF
+	Open PDF in AdobeAcrobat, and use its built-in PDF/A converter to create the PDF/A version
+		-> This is what is failing
+
+Possible solutions:
+
+	Implement a fix using the Python XMP Toolkit
+		Pro: would likely enable a working fix
+
+		Con: dependencies; possibly mac-only
+			exempi
+			boost
+
+		Con: due to dependencies, would likely restrict use of the fix to our end -- more work for the archivists
+
+	Write an InDesign script
+		Pro: easy-ish for contributor to implement
+
+		Cons: Unclear if it can delete XMP data -- certainly it can add it. Would need experimentation.
+			  Uses Javascript
+
+	Do a blind find-and-replace on the raw files
+		Pro: still a python script, but would have no dependencies other than python
+
+		Con: Unclear if it would work...
+
+
+----------------
+
+Post-meeting resolution
+
+May be a way to make it work just using InDesign
+InDesign docs should be exported as Packages

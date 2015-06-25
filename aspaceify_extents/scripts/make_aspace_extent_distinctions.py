@@ -2,7 +2,7 @@ from collections import namedtuple
 import re
 
 
-def split_into_aspace_components(unparsed_extent):
+def split_into_aspace_components(unparsed_extent, multiple=False):
 	ASpaceExtent = namedtuple("ASpaceExtent", ["type_", "portion", "container_summary", "dimensions", "physfacet"])
 
 	# this regex is literally the ugliest line of text I have ever seen.
@@ -38,9 +38,7 @@ def split_into_aspace_components(unparsed_extent):
 	type_ = type_.strip(" .;:,")
 
 	# setting portion tag
-	portion = "part"
-	if "linear" in type_:
-		portion = "whole"
+	portion = "part" if multiple else "whole"
 
 	# make sure the container summary is enclosed in parens
 	if container_summary:

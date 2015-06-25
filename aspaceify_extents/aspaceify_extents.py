@@ -47,7 +47,8 @@ def main(source="C:/Users/wboyle/PycharmProjects/bentley_code/aspaceify_extents/
 
 				# split original extent text into component parts
 				highlevel_extents = split_into_extents(longform_extent_statement)
-				aspace_components = [split_into_aspace_components(extent) for extent in highlevel_extents]
+				is_multiple_extents = True if len(highlevel_extents) > 1 else False
+				aspace_components = [split_into_aspace_components(extent, is_multiple_extents) for extent in highlevel_extents]
 
 				# write new extent xml to file
 				tree = etree_editor.write_aspace_extent_tags(filename, tree, parent_xpath, aspace_components)

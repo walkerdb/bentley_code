@@ -1,0 +1,32 @@
+> first pass errors
+Validating file "UClub_tabletent_FINAL.pdf" for conformance level pdfa-1a
+The property 'xmpMM:OriginalDocumentID' is not defined in schema 'XMP Media Management Schema'.
+xmpMM:DerivedFrom :: The field 'originalDocumentID' is not defined in value type 'ResourceRef'.
+xmpMM:History/*[0] :: The field 'changed' is not defined in value type 'ResourceEvent'.
+The property 'pdf:Trapped' is not defined in schema 'Adobe PDF Schema'.
+The required XMP property 'pdfaid:part' is missing.
+The required XMP property 'pdfaid:conformance' is missing.
+The key MarkInfo is required but missing.
+A device-specific color space (DeviceCMYK) without an appropriate output intent is used.
+The value of the key SMask is an image but must be None.
+XMP packet header missing.
+The document does not conform to the requested standard.
+The document contains device-specific color spaces.
+The document contains transparency.
+The document's meta data is either missing or inconsistent or corrupt.
+The document doesn't provide appropriate logical structure information.
+Done.
+
+
+
+> After trying and failing to convert to PDF/A 1-a
+Validating file "UClub_tabletent_FINAL-pdfa.pdf" for conformance level pdfa-1a
+The required XMP property 'pdfaid:part' is missing.
+The required XMP property 'pdfaid:conformance' is missing.
+The key MarkInfo is required but missing.
+A device-specific color space (DeviceRGB) without an appropriate output intent is used.
+The document does not conform to the requested standard.
+The document contains device-specific color spaces.
+The document's meta data is either missing or inconsistent or corrupt.
+The document doesn't provide appropriate logical structure information.
+Done
