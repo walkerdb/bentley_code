@@ -1,6 +1,7 @@
-from lxml import etree
 import csv
-import prettifydirectory
+
+from lxml import etree
+
 
 def main():
     input_directory = 'S:\\Curation\\Projects\\Mellon\\ArchivesSpace\\ATeam_Migration\\EADs\\Real_Masters_all\\'

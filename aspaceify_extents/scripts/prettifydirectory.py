@@ -15,6 +15,6 @@ def prettify_xml_in_directory(input_dir, output_dir):
 
 
 if __name__ == "__main__":
-    input_directory = r"C:\Users\wboyle\PycharmProjects\bentley_code\extent_splitter_root\output"
-    output_directory = r"C:\Users\wboyle\PycharmProjects\bentley_code\extent_splitter_root\output"
+    input_directory = r"C:\Users\wboyle\PycharmProjects\vandura\Real_Masters_all"
+    output_directory = input_directory
     prettify_xml_in_directory(input_directory, output_directory)
