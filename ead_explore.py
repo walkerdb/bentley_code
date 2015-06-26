@@ -1,73 +1,18 @@
 import csv
 import re
-from string import ascii_letters
 from os import listdir
+
 from lxml import etree
-
-
-def split_sentence_into_parts(sentence):
-    # sentence-splitting function, built to help characterize long extent statements containing multiple discrete extents
-    # returns a list of discrete items in the sentence
-
-    clauses = sentence.split(",")
-    clauses = filter(None, [item for clause in clauses for item in clause.split(" and ")])
-    clauses = filter(None, [item for clause in clauses for item in clause.split(" (")])
-    clauses = ["(" + clause if clause.endswith(")") else clause for clause in clauses]
-
-    discrete_items = []
-    for clause in clauses:
-        clause = clause.strip(" \t\n")
-        if clause.startswith("and "):
-            clause = clause[4:]
-
-        discrete_items.append(clause)
-
-    return discrete_items
-
-
-def normalize_extents(discrete_extents, include_size=False):
-    # Normalizes a list of extents by type, returning the results in a new list
-    # If include_size is set to True, it will also record the accompanying size of the extent, returning the results
-    # as a list of lists
-
-    normalized_extents = []
-    num_replace_regex = re.compile(r"(\d\d?\d?\d?) ")
-    extent_size_regex = re.compile(r"^(\d\d?\d?\d?\.?\d?\d?) ")
-    for extent in discrete_extents:
-        extent_size = 0
-        # check if extent name is entirely numerical
-        if all(letter not in extent for letter in ascii_letters):
-            extent_name = extent.rstrip(".")
-        # account for edge-case
-        elif "-inch" in extent[:10]:
-            extent_name = extent[2:]
-        # otherwise,
-        else:
-            try:
-                extent_size = float(re.findall(extent_size_regex, extent.lstrip("ca. "))[0])
-            except:
-                print("failed to find extent size for" + ": " + extent)
-            extent_name = extent.lstrip("0123456789 .+").rstrip(".")
-            extent_name = re.sub(num_replace_regex, "[x] ", extent_name)
-
-        if include_size:
-            normalized_extents.append([extent_name, extent_size])
-        else:
-            normalized_extents.append(extent_name)
-
-    return normalized_extents
-
+from tqdm import tqdm
 
 def characterize_series_in_directory(source_directory):
     series = {}
-    for filename in listdir(source_directory):
+    for filename in tqdm(listdir(source_directory)):
         if filename.endswith(".xml"):
-            print(filename)
             tree = etree.parse(source_directory + "\\" + filename)
-            inventory = tree.xpath("/ead/archdesc/dsc")[0]
-            attribute_paths = build_xml_tree_tag_paths(inventory, filename=filename)
+            attribute_paths = build_xml_tree_tag_paths(tree, filename=filename)
             for key, value in attribute_paths.items():
-                series[key] = series.get(key, default=0) + value
+                series[key] = series.get(key, 0) + value
     write_sorted_histogram(series, "series_exploration.csv")
 
 
@@ -80,11 +25,11 @@ def build_xml_tree_tag_paths(etree_of_full_ead_dsc_node, tag="c0", attribute="le
     # writes "problem" path locations to a csv.
 
     series = {}
-    parent_etree_nodes = list(etree_of_full_ead_dsc_node)
+    parent_etree_nodes = list(etree_of_full_ead_dsc_node.xpath("/ead/archdesc/dsc")[0])
     path_breadcrumb_list = []
     wonky_series_paths = ("item->file", "subseries->series",  "subseries->subseries", "collection", "fonds")
 
-    with open("wonky_series_examples.csv", mode="w") as f:
+    with open("wonky_series_examples.csv", mode="ab") as f:
         writer = csv.writer(f)
         
         # recursion function
@@ -111,7 +56,7 @@ def build_xml_tree_tag_paths(etree_of_full_ead_dsc_node, tag="c0", attribute="le
                 # add full series path to the recording dictionary if it isn't there already; else increment its count
                 series[key] = series.get(key, 0) + 1
                 
-                if any(s in breadcrumb for s in wonky_series_paths):
+                if any(s in path_breadcrumb_string for s in wonky_series_paths):
                     xpath = etree_of_full_ead_dsc_node.getpath(node)
                     writer.writerow([filename, xpath, key])
 
@@ -182,3 +127,7 @@ def get_list_of_xml_files_in_directory(directory):
         if filename.endswith(".xml"):
             files.append(filename)
     return files
+
+
+if __name__ == "__main__":
+    characterize_series_in_directory(r"C:\Users\wboyle\PycharmProjects\vandura\Real_Masters_all")
