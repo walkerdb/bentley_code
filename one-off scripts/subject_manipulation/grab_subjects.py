@@ -1,7 +1,9 @@
-from lxml import etree
 import csv
 import os
 from os.path import join
+
+from lxml import etree
+from tqdm import tqdm
 
 path = r'C:\Users\wboyle\PycharmProjects\vandura\Real_Masters_all'
 tags = ['subject', 'corpname', 'geogname', 'persname', 'genreform', 'famname']
@@ -54,4 +56,11 @@ def write_unique_subjects_by_tag_to_file():
 
 
 if __name__ == "__main__":
-	write_unique_subjects_by_tag_to_file()
+	# write_unique_subjects_by_tag_to_file()
+	with open("unique_subjects.csv", "r") as f:
+		reader = csv.reader(f)
+		for tag, subject in reader:
+			with open("{0}s.csv".format(tag), mode="ab") as csvfile:
+				writer = csv.writer(csvfile)
+				writer.writerow([subject, ])
+
