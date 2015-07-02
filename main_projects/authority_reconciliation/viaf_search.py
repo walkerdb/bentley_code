@@ -44,7 +44,7 @@ def get_lc_heading(lc_address):
 		header = soup.h1.text.encode("utf-8")
 		return header
 	except:
-		return ""
+		return "[LC link 404s]"
 
 
 
