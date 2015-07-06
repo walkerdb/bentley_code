@@ -12,7 +12,7 @@ search_types = ["geographicNames", "personalNames", "corporateNames"]
 def get_auth_id_from_api(target_api, auth_source, search_term, search_type):
     query = create_query(target_api, auth_source, search_term, search_type)
     response = urlopen(query).read()
-    heading, lc_address = get_auth_data(response)
+    heading, lc_address = get_auth_data(response, target_api)
 
     with open("geognames_with_ids.csv", mode="ab") as f:
         writer = csv.writer(f)
@@ -20,22 +20,24 @@ def get_auth_id_from_api(target_api, auth_source, search_term, search_type):
         writer.writerow(row)
 
 
-def get_auth_data(response):
-    lc_template = "http://id.loc.gov/authorities/names/{0}.html"
-    lc_address = ""
-    heading = ""
-    tree = etree.fromstring(response)
-    results = tree.xpath("//*[local-name()='record']")
-    if len(results) > 0:
-        primary_result = results[0]
-        sources = primary_result.xpath("//*[local-name()='mainHeadingEl']/*[local-name()='id']")
-        for source in sources:
-            if "LC|" in source.text:
-                lc_address = lc_template.format(source.text.split("|")[1].replace(" ", ""))
-                heading = get_lc_heading(lc_address)
-                break
+def get_auth_data(response, target_api):
+    if "viaf" in target_api:
+        lc_template = "http://id.loc.gov/authorities/names/{0}.html"
+        lc_address = ""
+        heading = ""
+        tree = etree.fromstring(response)
+        results = tree.xpath("//*[local-name()='record']")
+        if len(results) > 0:
+            primary_result = results[0]
+            sources = primary_result.xpath("//*[local-name()='mainHeadingEl']/*[local-name()='id']")
+            for source in sources:
+                if "LC|" in source.text:
+                    lc_address = lc_template.format(source.text.split("|")[1].replace(" ", ""))
+                    heading = get_lc_heading(lc_address)
+                    break
 
-    return heading, lc_address
+        return heading, lc_address
+
 
 def get_lc_heading(lc_address):
     try:
@@ -59,7 +61,13 @@ def create_query(target_api, auth_source, search_term, search_type=""):
     elif "lc" in target_api:
         pass
 
-    # add more API cases here
+    elif "aat" in target_api:
+        pass
+
+    elif "geonames" in target_api:
+        pass
+
+
 
 if __name__ == "__main__":
     with open("geognames.csv") as f:
