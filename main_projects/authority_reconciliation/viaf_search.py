@@ -1,8 +1,8 @@
 from urllib2 import urlopen, quote
 import csv
 import time
-from bs4 import BeautifulSoup
 
+from bs4 import BeautifulSoup
 from lxml import etree
 from tqdm import tqdm
 
