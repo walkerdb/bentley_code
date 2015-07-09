@@ -14,7 +14,7 @@ for bentley_name, lc_address in tqdm(id_dict.items()):
 		lc_name = get_lc_heading(lc_address)
 		# print("{0} --> {1}".format(corpname, lc_name))
 		row = [bentley_name, lc_name, lc_address]
-		with open("working_csvfiles/persnames_with_ids.csv", mode="ab") as f:
+		with open("working_csvfiles/persnames_with_unverified_ids.csv", mode="ab") as f:
 			csv.writer(f).writerow(row)
 	except:
 		print("failure at {0}".format(lc_address))

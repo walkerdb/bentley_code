@@ -14,7 +14,7 @@ def get_auth_id_from_api(target_api, auth_source, search_term, search_type):
     response = urlopen(query).read()
     heading, lc_address = get_auth_data(response, target_api)
 
-    with open("geognames_with_ids.csv", mode="ab") as f:
+    with open("geognames_with_unverified_ids.csv", mode="ab") as f:
         writer = csv.writer(f)
         row = [search_term, heading, lc_address]
         writer.writerow(row)
