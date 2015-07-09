@@ -78,6 +78,9 @@ class TestFalsePositiveCheckPersnames(unittest.TestCase):
     def test_partial_mismatch(self):
         self.assertFalse(is_same_entity("Brown, Catherine.", "Tkacz, Catherine Brown", type_="persname"))
 
+    def test_mismatch_with_dates(self):
+        self.assertFalse(is_same_entity("Tobin, Daniel J.", "Tobin, Daniel Joseph, 1875-1955", type_="persname"))
+
 
 if __name__ == "__main__":
     unittest.main()
