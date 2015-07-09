@@ -4,7 +4,7 @@ import re
 from fuzzywuzzy import fuzz
 
 
-def iterate_through_csv(input_filename, output_filename, type):
+def iterate_through_csv(input_filename, output_filename, type_):
 
     new_auth_data = []
     with open(input_filename, mode="r") as f:
@@ -12,7 +12,7 @@ def iterate_through_csv(input_filename, output_filename, type):
         for row in reader:
             original_name, lc_name, lc_address = row
             if lc_name:
-                if is_same_entity(original_name, lc_name, type):
+                if is_same_entity(original_name, lc_name, type_):
                     new_auth_data.append(row)
 
     with open(output_filename, mode="wb") as f:
@@ -20,28 +20,54 @@ def iterate_through_csv(input_filename, output_filename, type):
         writer.writerows(new_auth_data)
 
 
-def is_same_entity(original_term, returned_term, type):
-    if "geogname" in type:
-        similarity = fuzz.token_sort_ratio(original_term, returned_term)
+def is_same_entity(bentley_term, lc_term, type_):
+    if "geogname" in type_:
+        similarity = fuzz.token_sort_ratio(bentley_term, lc_term)
         return similarity > 95
 
-    elif "corpname" in type:
-        original_term = original_term.replace("U.S.", "United States")
-        returned_term = returned_term.replace("U.S.", "United States")
+    elif "corpname" in type_:
+        bentley_term = bentley_term.replace("U.S.", "United States")
+        lc_term = lc_term.replace("U.S.", "United States")
 
-        original_term = original_term.replace("N.Y.", "New York")
-        returned_term = returned_term.replace("N.Y.", "New York")
+        bentley_term = bentley_term.replace("N.Y.", "New York")
+        lc_term = lc_term.replace("N.Y.", "New York")
 
-        if "." in original_term.strip("."):
-            similarity = fuzz.ratio(original_term, returned_term)
+        if "." in bentley_term.strip("."):
+            similarity = fuzz.ratio(bentley_term, lc_term)
         else:
-            similarity = fuzz.WRatio(original_term, returned_term)
+            similarity = fuzz.WRatio(bentley_term, lc_term)
 
-        print("{0}: {1} <--> {2}".format(similarity, original_term, returned_term))
+        # print("{0}: {1} <--> {2}".format(similarity, original_term, returned_term))
         return similarity >= 90
+
+    elif "persname" in type_:
+        bias = 0
+
+        date_regex = r"(\d{4})\-((?:\d{4})?)"
+        bentley_dates = re.findall(date_regex, bentley_term)
+        lc_dates = re.findall(date_regex, lc_term)
+
+        if len(bentley_dates) > 0 and len(lc_dates) > 0:
+            birthdate_bentley, deathdate_bentley = bentley_dates[0]
+            birthdate_lc, deathdate_lc = lc_dates[0]
+
+            if birthdate_bentley != birthdate_lc:
+                bias -= 100
+
+            if birthdate_bentley == birthdate_lc and deathdate_bentley == deathdate_lc:
+                bias += 100
+
+            if birthdate_bentley == birthdate_lc and deathdate_lc and not deathdate_bentley:
+                lc_term = lc_term.replace(deathdate_lc, "")
+                bias += 25
+
+        similarity = fuzz.token_sort_ratio(bentley_term, lc_term) + bias
+
+        print("{0}: {1} <--> {2}".format(similarity, bentley_term, lc_term))
+        return similarity >= 95
 
 
 if __name__ == "__main__":
     input_filename = "geognames_with_ids.csv"
     output_filename = "geognames_with_ids_verified.csv"
-    iterate_through_csv(input_filename=input_filename, output_filename=output_filename, type="geogname")
+    iterate_through_csv(input_filename=input_filename, output_filename=output_filename, type_="geogname")
