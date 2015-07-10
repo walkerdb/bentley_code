@@ -16,7 +16,12 @@ def write_ids_to_ead(auth_dict, input_dir, output_dir):
                 if controlaccess_child.attrib.get('authfilenumber', ""):
                     del controlaccess_child.attrib['authfilenumber']
                 if controlaccess_child.text in auth_dict:
-                    controlaccess_child.attrib['authfilenumber'] = auth_dict[controlaccess_child.text]
+                    lc_name, lc_address = auth_dict[controlaccess_child.text]
+                    lc_name = lc_name.decode('utf-8')
+                    controlaccess_child.attrib['authfilenumber'] = lc_address
+                    if "persname" in controlaccess_child.tag and controlaccess_child.text.strip(".").endswith("-") and not lc_name.endswith("-"):
+                        controlaccess_child.text = lc_name
+                        print(controlaccess_child.attrib['authfilenumber'])
 
         with open(os.path.join(output_dir, ead), mode="w") as f:
             f.write(etree.tostring(tree))
