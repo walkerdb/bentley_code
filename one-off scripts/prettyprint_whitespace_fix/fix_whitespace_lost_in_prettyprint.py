@@ -7,11 +7,11 @@ from tqdm import tqdm
 def fix_prettyprint_whitespace(raw_text):
 	open_to_close_tag_regex = r'(\<\/.*?\>)(\<[^\/]*?\>)'
 	item_regex = r'(\<\/item\>)\ (\<item\>)'
-	double_spaced_tag_regex = r'(\ \<.*?\>)\ '
+	double_spaced_tag_regex = r'\>( \<.*?\>) \<'
 
 	text = re.sub(open_to_close_tag_regex, r'\g<1> \g<2>', raw_text)
 	text = re.sub(item_regex, r'\g<1>\g<2>', text)
-	text = re.sub(double_spaced_tag_regex, r'\g<1>', text)
+	text = re.sub(double_spaced_tag_regex, r'>\g<1><', text)
 	return text
 
 
