@@ -1,8 +1,9 @@
 """
     Reads through a folder of input EADs and writes a list of every subject term appearing under a <controlaccess> or
-    <origination> tag. Row format of the output csv file:
+    <origination> tag. Written to help facilitate subject term normalization.
+
+    Row format of the output csv file:
         ead_filename, controlaccess_type, controlaccess_text, controlaccess_auth_source, xpath_to_tag
-    Written to help facilitate subject term normalization.
 
     To use, just change the ead path below and run the script. An output file will appear in whichever directory you
     ran the script from.
