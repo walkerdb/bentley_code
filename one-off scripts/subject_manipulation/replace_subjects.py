@@ -1,3 +1,16 @@
+"""
+    Writes new text to a given set of EAD subject tags, with input data taken from a csv file.
+    Written to help facilitate subject term normalization.
+
+    Expects csv rows in the form of:
+        ead_filename, controlaccess_type, controlaccess_text, controlaccess_auth_source, xpath_to_tag
+
+    Outputs changed files to a given output directory.
+
+    To use, just change the input, output, and csv file paths below, and run the script.
+"""
+
+
 import csv
 from os import path
 
@@ -16,7 +29,7 @@ path_to_refined_csv_file = "path/to/csv/data.csv"
 def write_refined_text_to_eads():
     with open(path_to_refined_csv_file, mode="r") as f:
         reader = csv.reader(f)
-        next(reader)  # skip the header row
+        next(reader)  # skips the header row
 
         previous_filename = ""
         tree = ""
