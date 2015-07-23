@@ -2,7 +2,7 @@
     Writes new text to a given set of EAD subject tags, with input data taken from a csv file.
     Written to help facilitate subject term normalization.
 
-    Expects csv rows in the form of:
+    Expects csv rows in the following format:
         ead_filename, controlaccess_type, controlaccess_text, controlaccess_auth_source, xpath_to_tag
 
     Outputs changed files to a given output directory.
@@ -14,7 +14,7 @@
 import csv
 from os import path
 
-# You'll need to install the two modules below.
+# You'll need to install the two modules below. lxml processes the xml, and tqdm gives a command-line progress bar
 # Should be as easy as running "pip install lxml" and "pip install tqdm" from the command-line
 from lxml import etree
 from tqdm import tqdm

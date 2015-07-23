@@ -13,7 +13,7 @@ import csv
 import os
 from os.path import join
 
-# You'll need to install the two modules below.
+# You'll need to install the two modules below. lxml processes the xml, and tqdm gives a command-line progress bar
 # Should be as easy as running "pip install lxml" and "pip install tqdm" from the command-line
 from lxml import etree
 from tqdm import tqdm
