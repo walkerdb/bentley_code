@@ -1,14 +1,26 @@
+"""
+    Reads through a folder of input EADs and writes a list of every subject term appearing under a <controlaccess> or
+    <origination> tag. Row format of the output csv file:
+        ead_filename, controlaccess_type, controlaccess_text, controlaccess_auth_source, xpath_to_tag
+    Written to help facilitate subject term normalization.
+
+    To use, just change the ead path below and run the script. An output file will appear in whichever directory you
+    ran the script from.
+"""
+
 import csv
 import os
 from os.path import join
 
+# You'll need to install the two modules below.
+# Should be as easy as running "pip install lxml" and "pip install tqdm" from the command-line
 from lxml import etree
 from tqdm import tqdm
 
 # change this to to full path to your own ead folder
-path_to_eads = r'C:\Users\wboyle\PycharmProjects\vandura\Real_Masters_all'
+path_to_eads = 'path/to/ead/directory'
 
-# edit this list to include any other tags whose text you want to normalize
+# edit this list to include any other tags whose text you want to capture
 controlaccess_tags = ['subject', 'corpname', 'geogname', 'persname', 'genreform', 'famname']
 
 
