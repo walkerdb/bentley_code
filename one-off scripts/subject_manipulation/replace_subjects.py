@@ -1,33 +1,34 @@
 import csv
-import os
 from os import path
 from lxml import etree
-from tqdm import tqdm
 
-input_dir = "/Users/BHLStaff/PycharmProjects/vandura/Real_Masters_all"
-output_dir = "output/"
+# change these to your wherever you would like them to be pointing
+input_dir = "path/to/master/eads"
+output_dir = "path/to/output/folder"
+path_to_refined_csv_file = "path/to/csv_data.csv"
 
-def main():
-    with open("all_subjects_refined_reversed.csv", mode="r") as f:
+
+def write_refined_text_to_eads():
+    with open(path_to_refined_csv_file, mode="r") as f:
         reader = csv.reader(f)
         previous_filename = ""
         tree = ""
         edited_filenames = set()
 
-        for filename, tag, text, authority, xpath in tqdm(list(reader)):
+        for filename, tag, text, authority, xpath in reader:
             filepath = path.join(input_dir, filename) if filename not in edited_filenames else path.join(output_dir, filename)
     
-            # only make a new root tree and write the old one to file if the filename has changed
+            # only make a new root tree and write the old one to file if the filename listed in the csv has changed
+            # this makes things much faster
             if not previous_filename:
                 tree = etree.parse(filepath)
+                print("Working on {0}...".format(filename))
             elif filename != previous_filename:
-                try:
-                    tree.write(path.join(output_dir, previous_filename), pretty_print=True)
-                except AttributeError:
-                    print(type(tree) + "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
+                tree.write(path.join(output_dir, previous_filename), pretty_print=True)
                 tree = etree.parse(filepath)
-            previous_filename = filename
+                print("Working on {0}...".format(filename))
 
+            previous_filename = filename
             replace_subject(tree, filename, text, authority, xpath)
 
 
@@ -37,10 +38,8 @@ def replace_subject(tree, filename, text, authority, xpath):
     if subject.get("source"):
         subject.set("source", authority)
 
-    # print(etree.tostring(subject))
-
     with open("output/" + filename, mode="w") as f:
         f.write(etree.tostring(tree))
 
 if __name__ == "__main__":
-    main()
+    write_refined_text_to_eads()
