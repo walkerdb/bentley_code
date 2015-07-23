@@ -1,5 +1,6 @@
 import csv
 from os import path
+
 from lxml import etree
 
 # change these to your wherever you would like them to be pointing
