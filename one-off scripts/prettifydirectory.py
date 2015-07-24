@@ -17,4 +17,4 @@ def prettify_xml_in_directory(input_dir, output_dir):
 if __name__ == "__main__":
     input_directory = r'C:\Users\wboyle\PycharmProjects\bentley_code\one-off scripts\prettyprint_whitespace_fix\output'
     output_directory = r'C:\Users\wboyle\PycharmProjects\vandura\Real_Masters_all'
-    prettify_xml_in_directory(output_directory, output_directory)
+    prettify_xml_in_directory(input_directory, output_directory)
