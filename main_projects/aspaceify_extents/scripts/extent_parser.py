@@ -2,7 +2,7 @@ from __future__ import absolute_import
 import re
 from string import ascii_letters
 
-from aspaceify_extents.scripts import extent_constants
+from main_projects.aspaceify_extents.scripts import extent_constants
 
 
 def split_into_extents(extent_text):
