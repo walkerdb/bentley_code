@@ -4,7 +4,6 @@ from copy import deepcopy
 
 from lxml import etree
 
-
 def expand_containers(ead_path, xpaths):
 	tree = etree.parse(ead_path)
 	for xpath, text in xpaths:
