@@ -1,0 +1,95 @@
+<p><em>Arkheion and the Dragon, part II</em></p>
+
+<p>By the end of <a href="http://archival-integration.blogspot.com/2015/07/arkheion-and-dragon-archival-lore-and.html" target="_blank">last week's post/parable</a> we had Library of Congress name authority IDs for many of our person and corporation names, but had a lot of uncertainty as to whether these IDs had been matched correctly. The OpenRefine script we were using to query VIAF for LoC IDs also didn't support searching for any control access types beyond person and corp names. Here's how we solved the issue:</p>
+<br>
+<p><em>What we wanted</em>: better false-positive filtering, and ids for a wider variety of controlaccess types than are built in to the OpenRefine script</p>
+<p><em>How to get there</em>: move from OpenRefine to Python for VIAF API queries and data processing, add bit of web scraping, and use more refined fuzzy string matching. </p>
+<p>Here's how we did it:</p>
+
+<h3>A quick intro to the VIAF API</h3>
+<p>OCLC offers a number of programmatic access points into VIAF's data, all of which you can see and interactively explore <a href="https://platform.worldcat.org/api-explorer/VIAF" target="_blank">here</a>. Since we're essentially doing a plain-text search across the VIAF database, the "SRU search" API seemed to be what we were looking for. Here is what an SRU search query might look like:</p>
+
+<pre style="display: block; padding: 9.5px; margin: 0 0 10px; font-size: 13px; line-height: 1.42857143; color: #333; word-break: break-all; word-wrap: break-word; background-color: #f5f5f5; border: 1px solid #ccc; border-radius: 4px; font-family: Menlo,Monaco,Consolas,'Courier New',monospace;">
+http://viaf.org/viaf/search?query=[search index]+[search type]+[search query]&sortKeys=[what to sort by]&httpAccept=[data format to return]
+</pre>
+
+<p>Or, split into its parts:</p>
+<pre style="display: block; padding: 9.5px; margin: 0 0 10px; font-size: 13px; line-height: 1.42857143; color: #333; word-break: break-all; word-wrap: break-word; background-color: #f5f5f5; border: 1px solid #ccc; border-radius: 4px; font-family: Menlo,Monaco,Consolas,'Courier New',monospace;">
+http://viaf.org/viaf/search
+    ?query=[search index]+[match type]+[search query]
+    &sortKeys=[what to sort by]
+    &httpAccept=[data format to return]
+</pre>
+
+<p>There are a number of other parameters that can be assigned - <a href="https://www.oclc.org/developer/develop/web-services/viaf/authority-cluster.en.html" target="_blank">this document</a> gives a detailed overview of what exactly every field is, and what values each can hold. It's interesting to read, but to save some time here is a condensed version, using only the fields we need for the the reconciliation project:</p>
+<ol>
+    <li><b>Search query</b>: how and where to find the requested data. This is itself made up of three parts:
+        <ol>
+            <li><i>Search index</i>: what index to search through. Relevant options for our project are:
+                <ul>
+                    <li><em>local.corporateNames</em>: corporation names</li>
+                    <li><em>local.geographicNames</em>: geographic locations</li>
+                    <li><em>local.personalNames</em>: names of people</li>
+                    <li><em>local.sources</em>: which authority source to search through. "lc" for Library of Congress.</li>
+                </ul>
+            </li>
+            <li><i>Match type</i>: how to match the items in the search query to the indicated search index -- e.g. exact("="), any of the terms in the query ("any"), all of the terms ("all"), etc.</li>
+            <li><i>Search query</i>: the text to search for, in quotes</li>
+        </ol>
+    </li>
+
+    <li><b>Sort keys</b>: what to sort the results by. At the moment, VIAF can only sort by holdings count ("holdingscount").</li>
+    <li><b>httpAccept</b>: what data format to return the results in. We want the xml version ("application/xml")</li>
+</ol>
+
+<p>Putting it all together, if we wanted to search for someone like Jane Austen we would use the following API call:</p>
+
+<pre style="display: block; padding: 9.5px; margin: 0 0 10px; font-size: 13px; line-height: 1.42857143; color: #333; word-break: break-all; word-wrap: break-word; background-color: #f5f5f5; border: 1px solid #ccc; border-radius: 4px; font-family: Menlo,Monaco,Consolas,'Courier New',monospace;">
+http://viaf.org/viaf/search
+    ?query=local.personalNames+all+"Jane Austen"+and+local.sources+=+lc
+    &sortKeys=holdingscount
+    &httpAccept=application/xml
+</pre>
+
+<p>The neat thing about web APIs is that you can try them out right in your browser. Check out the Jane Austen results <a href="http://viaf.org/viaf/search?query=local.personalNames+all+%22Jane%20Austen%22+and+local.sources+=+lc&sortKeys=holdingscount&httpAccept=application/xml" target="_blank">here</a>! It's an xml document with every relevant result, ordered by number of holdings for each entry worldwide, and including including full VIAF metadata for every entity. That's a lot of data, and all we're looking for is the single line with the first entry's LoC id. This is where Python comes in.</p>
+
+<h4>Workflow:</h4>
+<p>Before we dive in, here is the code's overall workflow:
+<ol>
+    <li>Query VIAF with the given term</li>
+    <li>If there's a match, grab the LoC auth id</li>
+    <li>Use the LoC web address to grab the authoritative version of the entity's name.</li>
+    <li>Intelligently compare the original entity string to the returned LC value. If the comparison fails, then we treat the result as a false positive.</li>
+</ol>
+
+<p>Let's dig in!</p>
+
+<h3>VIAF, LC, and Python</h3>
+
+<p>First, we wrote an interface to the VIAF API in python, using the built-in urllib2 library to make the web requests and lxml to parse the returned xml metadata. That code looked something like this:</p>
+
+<script src="https://gist.github.com/walkerdb/2992c13a9a8600003413.js"></script>
+
+<br>
+<p>You can see above that the search function takes three values: the name of the VIAF index to search in (which matches to one of our persname, corpname, or geogname tags), the text to search for, and the authority to search within (here LC, but it could be any that VIAF supports).</p>
+<p>With the VIAF search results in hand, we grabbed the address and metadata for the first, presumably most relevant result, from the returned xml. All sorts of interesting stuff can be found in that data, but for our immediate purposes we were only interested in the Library of Congress ID:</p>
+
+<script src="https://gist.github.com/walkerdb/2e0bc7a448c3c3156640.js"></script>
+<br>
+
+<p>Now that we had the LC auth ID, we could query the Library of Congress site to grab the authoritative version of the term's name. Here we used BeautifulSoup:</p>
+
+<script src="https://gist.github.com/walkerdb/04f5bccf0b20328cfea9.js"></script>
+<br>
+
+<p>Now we had four data points for every term: Our original term name, an unvetted LoC ID number and name, and the type of controlaccess term the item belongs to (persname, corpname, or geogname). As before, there were a number of obvious false-positives, but there were enough terms that we did not have nearly enough time to check through them individually. As Max hinted at in last week's post, this was fuzzywuzzy's time to shine.</p>
+
+<p>[to write]</p>
+
+<p>[bit about updating persnames with new death-dates]</p>
+ 
+<h4>Weaknesses:</h4>
+
+<p>Banks entirely on the assumption that the first VIAF search result is the correct one. Our fuzzy comparisons do a lot to mitigate this, but since VIAF seems to sort its results by number of ____ rather than by exact match, this occasionally led to hilarious results. See: Michael Jackson for Stevie Wonder, or Turkey for Texas. The correct items do appear somewhere in the returned search results, just not at the top position.</p>
+
+<p>Slow - since we don't want to inadvertently DDOS any of the sites we're querying, we needed to set a delay in between each request. When running checks against &gt;10,000 items, even just a one second delay adds up.</p>

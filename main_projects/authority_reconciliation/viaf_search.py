@@ -12,7 +12,7 @@ search_types = ["geographicNames", "personalNames", "corporateNames"]
 def get_auth_id_from_api(target_api, auth_source, search_term, search_type):
     query = create_query(target_api, auth_source, search_term, search_type)
     response = urlopen(query).read()
-    heading, lc_address = get_auth_data(response, target_api)
+    heading, lc_address = get_auth_data(target_api, response)
 
     with open("geognames_with_unverified_ids.csv", mode="ab") as f:
         writer = csv.writer(f)
@@ -20,7 +20,7 @@ def get_auth_id_from_api(target_api, auth_source, search_term, search_type):
         writer.writerow(row)
 
 
-def get_auth_data(response, target_api):
+def get_auth_data(target_api, response):
     if "viaf" in target_api:
         lc_template = "http://id.loc.gov/authorities/names/{0}.html"
         lc_address = ""
@@ -47,7 +47,6 @@ def get_lc_heading(lc_address):
         return header
     except:
         return "[LC link 404s]"
-
 
 
 def create_query(target_api, auth_source, search_term, search_type=""):
