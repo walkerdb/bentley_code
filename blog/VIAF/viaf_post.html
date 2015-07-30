@@ -1,12 +1,12 @@
 <p><em>Arkheion and the Dragon, part II</em></p>
 
-<p>By the end of <a href="http://archival-integration.blogspot.com/2015/07/arkheion-and-dragon-archival-lore-and.html" target="_blank">last week's post/parable</a> we had Library of Congress (LoC) name authority IDs for many of our person and corporation names, but had a lot of uncertainty as to whether these IDs had been matched correctly. The OpenRefine script we were using to query VIAF for LoC IDs also didn't support searching for any control access types beyond person and corp names.</p>
-<p><em>What we wanted</em>: better false-positive filtering, and ids for a wider variety of controlaccess types than are built in to the OpenRefine script</p>
-<p><em>How to get there</em>: move from OpenRefine to Python for VIAF API queries and data processing, add bit of web scraping, and use more refined fuzzy string matching. </p>
+<p>By the end of <a href="http://archival-integration.blogspot.com/2015/07/arkheion-and-dragon-archival-lore-and.html" target="_blank">last week's post/parable</a> we had Library of Congress (LoC) name authority IDs for many of our person and corporation names, but had a lot of uncertainty as to whether these IDs had been matched correctly. The OpenRefine script we were using to query VIAF for LoC IDs also didn't support searching for any control access types beyond person and corp names. </p>
+
+<p>We weren't quite satisfied with this, so after looking into some of our options, we decided to try a new approach: we would move from OpenRefine to Python for handling VIAF API queries and data processing, add a bit of web scraping, then use more refined fuzzy-string matching to remove false-positives from the API results. By the time we had finished, we had confirmed LoC IDs for over 6500 unique entities (along with ~2000 often hilariously wrong results) and, as an added benefit, were able to update many of our human agent records with new death-dates. All told the process took about a day.</p>
 
 <p>Here's how we did it:</p>
 
-<h3>A quick intro to the VIAF API</h3>
+<h3>The VIAF API</h3>
 <p>OCLC offers a number of programmatic access points into VIAF's data, all of which you can see and interactively explore <a href="https://platform.worldcat.org/api-explorer/VIAF" target="_blank">here</a>. Since we're essentially doing a plain-text search across the VIAF database, the "SRU search" API seemed to be what we were looking for. Here is what an SRU search query might look like:</p>
 
 <pre style="display: block; padding: 9.5px; margin: 0 0 10px; font-size: 13px; line-height: 1.42857143; color: #333; word-break: break-all; word-wrap: break-word; background-color: #f5f5f5; border: 1px solid #ccc; border-radius: 4px; font-family: Menlo,Monaco,Consolas,'Courier New',monospace;">
@@ -54,7 +54,7 @@ http://viaf.org/viaf/search
 <p>The neat thing about web APIs is that you can try them out right in your browser. Check out the Jane Austen results <a href="http://viaf.org/viaf/search?query=local.personalNames+all+%22Jane%20Austen%22+and+local.sources+=+lc&sortKeys=holdingscount&httpAccept=application/xml" target="_blank">here</a>! It's an xml document with every relevant result, ordered by number of holdings for each entry worldwide, and including including full VIAF metadata for every entity. That's a lot of data when all we're looking for is the single line with the first entry's LoC id. This is where Python comes in.</p>
 
 <h4>Workflow:</h4>
-<p>Before we dive in, here is the code's overall workflow:
+<p>Before we dive in to the code, here is the overall workflow we ended up settling on:
 <ol>
     <li>Query VIAF with the given term</li>
     <li>If there's a match, grab the LoC auth id</li>
@@ -72,6 +72,7 @@ http://viaf.org/viaf/search
 
 <br>
 <p>You can see above that the search function takes three values: the name of the VIAF index to search in (which matches to one of our persname, corpname, or geogname tags), the text to search for, and the authority to search within (here LC, but it could be any that VIAF supports).</p>
+
 <p>With the VIAF search results in hand, we grabbed the address and metadata for the first, presumably most relevant result, from the returned xml. All sorts of interesting stuff can be found in that data, but for our immediate purposes we were only interested in the Library of Congress ID:</p>
 
 <script src="https://gist.github.com/walkerdb/2e0bc7a448c3c3156640.js"></script>
@@ -84,7 +85,9 @@ http://viaf.org/viaf/search
 
 <p>Now we had four data points for every term: Our original term name, an unvetted LoC ID number and name, and the type of controlaccess term the item belongs to (persname, corpname, or geogname). As before, there were a number of obvious false-positives, but there were enough terms that we did not have nearly enough time to check through them individually. As Max hinted at in last week's post, this was fuzzywuzzy's time to shine.</p>
 
-<h2>Fuzzy Wuzzy was (not) a bear</h2>
+<br>
+<h3 style="padding-bottom:0px">Fuzzy Wuzzy was (not) a bear</h3>
+<small><em>(also not a <a href="http://www.daypoems.net/poems/1791.html" target="_blank">Rudyard Kipling poem</a>)</em></small>
 <p>Max gave an overview of fuzzywuzzy, but just as a refresher: it's a python module with a variety of methods for comparing similar strings under different lenses, all of which return a "similarity score", out of 100. Here is what a very basic comparison would look like:</p>
 
 <script src="https://gist.github.com/walkerdb/e729683ca9b787a1b4ee.js"></script>
@@ -94,18 +97,18 @@ http://viaf.org/viaf/search
 <script src="https://gist.github.com/walkerdb/3cc4fe6d35f5115689f5.js"></script>
 
 <p>The token_sort_ratio comparison removes all non-alphanumeric characters (like punctuation), pulls out each individual word, puts them back in alphabetical order, and then runs a normal ratio check. This means that things like word order and esoteric punctuation differences are ignored for the purposes of comparison, which is exactly what we want.</p>
+
 <p>Now that we had a method for string comparisons, we could start building more sophisticated comparison code - something that returns "True" if the comparison is successful, and "False" if it isn't. We started by writing some tests, using strings that we knew we wanted to match, and strings we knew should fail. You can see our full test suite <a href="https://github.com/walkerdb/bentley_code/blob/master/main_projects/authority_reconciliation/false_positive_check_tests.py" target="_blank">here.</a></p>
+
 <p>As a result of our testing, we decided we would need to have unique comparison methods for each type of controlaccess term we were testing - one for geognames, one for persnames, and one for corpnames. Geognames turned out to be easiest - in that case our test criteria was matched with a basic token_sort_ratio check - names were deemed correct when they had a fuzz score of 95 or higher. Both persnames and corpnames turned out to need a bit more processing before we had satisfactory results. Here is what we came up with:</p>
 
 <script src="https://gist.github.com/walkerdb/425205aa53c1701ea020.js"></script>
 
-<p>With this script in hand, all we had to do was run our VIAF/LC data through it, remove all results that failed the checks, then use the resulting data to update our finding aids with the vetted LoC authority links (while removing all the links we had added pre-vetting). Turns out, we ended up with > 4200 verified unique persnames, ~1500 corpnames, and 800 geognames. We also output all the failed results, which were sometimes hilarious: apparently VIAF decided that we really meant "Michael Jackson" while searching for "Stevie Wonder". And, no, Texas is not the same as Turkey.</p>
-<p>This also gave us a great opportunity to update all of our persnames with death-dates if the LoC term had one and we did not. You can check out our final GitHub commit <a href="https://github.com/bentley-historical-library/vandura/pull/75/files" target="_blank">here</a>. </p>
+<p>With this script in hand, all we had to do was run our VIAF/LC data through it, remove all results that failed the checks, then use the resulting data to update our finding aids with the vetted LoC authority links (while removing all the links we had added pre-vetting). Turns out, we ended up with > 4200 verified unique persname IDs, ~1500 IDs for corpnames, and 800 geogname IDs, all of which we were able to merge back into our EADs using many of the methods Max described last week. We also output all the failed results, which were sometimes hilarious: apparently VIAF decided that <a href="https://github.com/walkerdb/bentley_code/blob/master/main_projects/authority_reconciliation/working_csvfiles/persname_bad_matches.csv#L935" target="_blank">we really meant "Michael Jackson" while searching for "Stevie Wonder"</a>. And, no, <a href="https://github.com/walkerdb/bentley_code/blob/master/main_projects/authority_reconciliation/working_csvfiles/geogname_bad_matches.csv#L392" target="_blank">Wisconsin is not Belgium</a>, nor is <a href="https://github.com/walkerdb/bentley_code/blob/master/main_projects/authority_reconciliation/working_csvfiles/geogname_bad_matches.csv#L19" target="_blank">Asia Turkey</a>.</p>
 
-<p>[bit about updating persnames with new death-dates]</p>
+<p>This also gave us a great opportunity to update all of our persnames with death-dates if the LoC term had one and we did not. You can check out our final GitHub commit <a href="https://github.com/bentley-historical-library/vandura/pull/75/files" target="_blank">here - we were pretty happy with the results!</a>. </p>
  
-<h4>Weaknesses:</h4>
-
-<p>Banks entirely on the assumption that the first VIAF search result is the correct one. Our fuzzy comparisons do a lot to mitigate this, but since VIAF seems to sort its results by number of ____ rather than by exact match, this occasionally led to hilarious results. See: Michael Jackson for Stevie Wonder, or Turkey for Texas. The correct items do appear somewhere in the returned search results, just not at the top position.</p>
-
-<p>Slow - since we don't want to inadvertently DDOS any of the sites we're querying, we needed to set a delay in between each request. When running checks against &gt;10,000 items, even just a one second delay adds up.</p>
+<h4>Postscript</h4>
+<p>In retrospect there is a lot we could improve about the process. We played things fairly conservatively, particularly for persnames, so our false-positive checking code itself had a number of false-positives. Our extraction of LC codes from the VIAF search API could be a lot more sophisticated than just mindlessly grabbing the first result - our fuzzy comparisons did a lot to mitigate that particular problem, but since VIAF sorts its results by number of holdings worldwide rather than by exact match, we were left to the capricious whims of international collection policies. The web-request code is also fairly slow - since we didn't want to inadvertently <a href="https://en.wikipedia.org/wiki/Denial-of-service_attack" target="_blank">DDoS</a> any of the sites we're querying (and we'd rather not be the archive that took down the Library of Congress website), we needed to set a delay in between each request. When running checks against &gt;10,000 items, even just a one second delay adds up. Even so, it still runs in an afternoon -- orders of magnitude faster than manual checking.</p>
+<hr>
+<p>We hope you've found this overview interesting! All code in the post is freely available for use and re-use, and we would love to hear if anyone else has tried or is thinking of trying anything similar. Let us know in the comments!</p>
