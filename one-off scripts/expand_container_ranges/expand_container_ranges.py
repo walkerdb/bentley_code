@@ -3,34 +3,99 @@ import csv
 from copy import deepcopy
 
 from lxml import etree
+from tqdm import tqdm
+
 
 def expand_containers(ead_path, xpaths):
 	tree = etree.parse(ead_path)
 	for xpath, text in xpaths:
-		node = tree.xpath(xpath)[0]
-		parent = node.getparent()
-		left, right = map(int, text.split("-"))
-		index = parent.getchildren().index(node)
+		range_node = tree.xpath(xpath)[0]
+		did_node = range_node.getparent()
+		c0x_node = did_node.getparent()
+		c0x_parent = c0x_node.getparent()
 
-		new_node = deepcopy(node.getparent().getparent())
-		for i in range(left, right + 1):
-			pass
+		base_node = deepcopy(c0x_node)
+		new_children = create_child_nodes(base_node)
 
+		base_node = deepcopy(c0x_node)
+		new_parent = create_parent_node(base_node)
+
+		insert_index = c0x_parent.getchildren().index(c0x_node)
+		for child in new_children:
+			new_parent.append(child)
+
+		c0x_parent.remove(c0x_node)
+		c0x_parent.insert(insert_index, new_parent)
+
+	return tree
+
+
+def create_parent_node(base_node):
+	for container in base_node.xpath("//did/container"):
+		container.getparent().remove(container)
+	return base_node
+
+
+def create_child_nodes(base_node):
+	new_children = []
+	c0x_parent_level = int(base_node.tag[-1])
+	unittitle = base_node.xpath("did/unittitle")[0]
+	containers = base_node.xpath("did/container")
+	static_container = ""
+
+	if len(containers) == 0:
+		print("wtf")
+	elif len(containers) == 1:
+		range_container = containers[0]
+	else:
+		range_container = containers[1]
+		static_container = containers[0]
+
+	start_num, endnum = map(int, range_container.text.split("-"))
+
+	for i in range(start_num, endnum + 1):
+		new_child_element = etree.Element("c0{0}".format(c0x_parent_level + 1), level="file")
+		did = etree.Element("did")
+		did.append(deepcopy(unittitle))
+		if type(static_container) == etree._Element:
+			did.append(deepcopy(static_container))
+
+		new_range = deepcopy(range_container)
+		new_range.text = str(i)
+
+		did.append(new_range)
+		new_child_element.append(did)
+
+		if i != start_num:
+			odd = etree.Element("odd")
+			odd_text = etree.Element("p")
+			odd_text.text = "(continued)"
+			odd.append(odd_text)
+			new_child_element.append(odd)
+
+		new_children.append(new_child_element)
+
+	return new_children
 
 
 def load_data(input_filepath):
 	data_dict = {}
 	with open(input_filepath, mode="r") as f:
 		reader = csv.reader(f)
-		for ead, xpath, text in reader:
+		for ead, ead_title, xpath, unittitle, text in reader:
 			data_dict[ead] = data_dict.get(ead, [])
 			data_dict[ead].append([xpath, text])
 	return data_dict
 
+
 if __name__ == '__main__':
 	input_dir = r'C:\Users\wboyle\PycharmProjects\vandura\Real_Masters_all'
+	output_dir = "output"
 	data_dict = load_data("container_ranges.csv")
 
-	for ead, xpaths in data_dict.items():
+	for ead, xpaths in tqdm(data_dict.items()):
 		ead_path = os.path.join(input_dir, ead)
-		expand_containers(ead_path, xpaths)
+		new_tree = expand_containers(ead_path, xpaths)
+		with open(os.path.join(output_dir, ead), mode="w") as f:
+			f.write(etree.tostring(new_tree, pretty_print=True))
+

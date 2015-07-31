@@ -27,14 +27,6 @@ def find_container_ranges():
 		ead_title = remove_tags(etree.tostring(ead_title))
 
 		for container in containers:
-			sibling_containers = tree.xpath(tree.getpath(container.getparent()) + "/container")
-			sibling_container_count = len(tree.xpath(tree.getpath(container.getparent()) + "/container"))
-			if sibling_container_count > 1:
-
-				# TODO if there are 2 containers in the same entry, don't replace!
-
-				print("Multiple container paths in {0}".format(ead_title))
-
 			if container.text:
 				if "-" in container.text:
 					try:
