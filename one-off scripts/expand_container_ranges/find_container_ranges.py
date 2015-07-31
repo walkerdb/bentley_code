@@ -14,7 +14,7 @@ def remove_tags(tag_string):
 
 def find_container_ranges():
 	input_dir = r'C:\Users\wboyle\PycharmProjects\vandura\Real_Masters_all'
-	eads_to_skip = ["muschba.xml", ]
+	eads_to_skip = ["muschba.xml", "milliken.xml"]
 	input_eads = [ead for ead in listdir(input_dir) if ead.endswith(".xml")]
 
 	found_entries = []
