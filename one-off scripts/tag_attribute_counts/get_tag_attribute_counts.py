@@ -13,7 +13,14 @@ def write_attribute_value_counts(ead_input_dir, tag_name, attribute_name):
 
     for ead in tqdm(files):
         tree = etree.parse(os.path.join(ead_input_dir, ead))
-        elements = tree.xpath("//{}".format(tag_name))
+        if tag_name == "c0x":
+            elements_list = [tree.xpath("//c0{}".format(i)) for i in range(1, 10)]
+            elements = []
+            for element in elements_list:
+                elements += list(element)
+        else:
+            elements = tree.xpath("//{}".format(tag_name))
+
         for element in elements:
             value = element.attrib.get(attribute_name, "")
             values[value] = values.get(value, 0) + 1
@@ -30,4 +37,4 @@ def write_attribute_value_counts(ead_input_dir, tag_name, attribute_name):
 
 if __name__ == "__main__":
     input_dir = r'C:\Users\wboyle\PycharmProjects\vandura\Real_Masters_all'
-    write_attribute_value_counts(input_dir, tag_name="container", attribute_name="label")
+    write_attribute_value_counts(input_dir, tag_name="container", attribute_name="type")
