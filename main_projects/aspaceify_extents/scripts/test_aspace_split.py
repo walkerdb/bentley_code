@@ -2,7 +2,7 @@ from __future__ import absolute_import
 import unittest
 from collections import namedtuple
 
-from aspaceify_extents.scripts.make_aspace_extent_distinctions import split_into_aspace_components
+from main_projects.aspaceify_extents.scripts.make_aspace_extent_distinctions import split_into_aspace_components
 
 
 class TestASpaceSplit(unittest.TestCase):
