@@ -38,6 +38,53 @@ def grab_persnames(input_dir):
 
 def parse_persname(persname, source, auth):
 	ParsedName = namedtuple("ParsedName", ["title", "primary", "secondary", "suffix", "fuller_form", "birth_date", "death_date", "auth", "source"])
+
+	name = persname.split("--")[0]
+	name, birth_date, death_date = extract_birth_death_dates(name)
+	name = HumanName(name.decode("utf-8"))
+
+	titles = ["sir", "mr", "mrs", "baron", "dame", "madame", "viscount", "conte"]
+	title = name.title
+	suffix = name.suffix
+
+	# check if the suffix should actually be a title
+	if not title and any(suffix.lower().strip(". ") == title for title in titles):
+		title = suffix.capitalize()
+		if "mr" in title.lower() and not title.endswith("."):
+			title += "."
+		suffix = u""
+
+	# special cases cleanup
+	if name.title == u"Royal":
+		name.title = ""
+		title = ""
+		name.middle = name.first if not name.middle else "{} {}".format(u"Royal", name.middle)
+		name.first = u"Royal"
+
+	if name.title == u"Queen of Great":
+		title = name.title + u" Britain"
+		name.first = u""
+
+	if name.title == u"Lama":
+		title = u"Dalai Lama XIV"
+		name.first = u""
+		name.middle = u""
+
+	name_parsed = ParsedName(
+		title=title,
+		primary=name.last,
+		secondary=u"{0} {1}".format(name.first, name.middle).rstrip(),
+		suffix=suffix,
+		fuller_form=name.nickname,
+		birth_date=birth_date,
+		death_date=death_date,
+		auth=auth,
+		source=source)
+
+	return name_parsed
+
+
+def extract_birth_death_dates(string):
 	alt_date_regex = r"(\d{4}) or \d{2}"
 	date_regex = r"(\d{4})\??\-(?:ca\.)?((?:\d{4})?)\??"
 	birth_letter_regex = r"b\. ?(\d{4})()"
@@ -45,27 +92,20 @@ def parse_persname(persname, source, auth):
 	circa_regex_1 = r"(\d{4}) \(ca\.\)-(\d{4})"
 	birth_date = ""
 	death_date = ""
-	dates = []
 
-	persname = re.sub(alt_date_regex, "\g<1>", persname)
-	persname = persname.rstrip(".")
+	string = re.sub(alt_date_regex, "\g<1>", string)
+	string = string.rstrip(".")
 
 	for regex in [date_regex, birth_letter_regex, death_letter_regex, circa_regex_1]:
-		dates = re.findall(regex, persname)
+		dates = re.findall(regex, string)
 
 		if len(dates) == 1:
-			persname = re.sub(regex, "", persname)
-			persname = persname.replace(" ca.", "").rstrip(" ,")
+			string = re.sub(regex, "", string)
+			string = string.replace(" ca.", "").rstrip(" ,")
 			birth_date, death_date = dates[0]
 			break
 
-	name = HumanName(persname.decode("utf-8"))
-
-	return ParsedName(
-		title=name.title, primary=name.last, secondary=u"{0} {1}".format(name.first, name.middle).rstrip(),
-		suffix=name.suffix, fuller_form=name.nickname, birth_date=birth_date, death_date=death_date,
-		auth=auth, source=source
-	)
+	return string, birth_date, death_date
 
 
 if __name__ == "__main__":
@@ -75,9 +115,8 @@ if __name__ == "__main__":
 	with open("persnames.csv") as f:
 		reader = csv.reader(f)
 		for persname, source, auth in tqdm(list(reader)):
-			if "--" not in persname:
-				n = parse_persname(persname, source, auth)
-				output.append([persname, n.title.encode("utf-8"), n.primary.encode("utf-8"), n.secondary.encode("utf-8"), n.suffix.encode("utf-8"), n.fuller_form.encode("utf-8"), n.birth_date, n.death_date, n.auth, n.source])
+			n = parse_persname(persname, source, auth)
+			output.append([persname, n.title.encode("utf-8"), n.primary.encode("utf-8"), n.secondary.encode("utf-8"), n.suffix.encode("utf-8"), n.fuller_form.encode("utf-8"), n.birth_date, n.death_date, n.auth, n.source])
 
 	with open("parsed_persnames.csv", mode="wb") as f:
 		headers = ["original name", "title", "primary", "secondary", "suffix", "fuller form", "birth date", "death date", "auth link", "source"]
