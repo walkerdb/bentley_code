@@ -59,7 +59,7 @@ def characterize_all_attributes(ead_input_dir):
     attributes = defaultdict(lambda: defaultdict(dict))
     tag_totals = {}
     tag_attribute_totals = {}
-    forbidden_attribs = ["normal", "authfilenumber", "publicid", "href", "id"]
+    forbidden_attribs = ["normal", "authfilenumber", "publicid", "href", "id", "encodinganalog"]
 
     # iterate through all valid eads
     for ead in tqdm(files):
