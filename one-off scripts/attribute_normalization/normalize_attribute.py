@@ -43,10 +43,10 @@ if __name__ == "__main__":
 	input_dir = r'C:\Users\wboyle\PycharmProjects\vandura\Real_Masters_all'
 	output_dir = "output"
 
-	target_tag = "unitdate"
-	attribute = "audience"
-	wrong_value_list = []
-	normal_value = ""
-	remove = True
+	target_tag = "unitid"
+	attribute = "repositorycode"
+	wrong_value_list = ["miu-h"]
+	normal_value = "MiU-H"
+	remove = False
 
 	normalize_attributes(input_dir, input_dir, target_tag, attribute, wrong_value_list, normal_value, remove)
