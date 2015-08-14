@@ -32,6 +32,6 @@ def fix_prettyprint_whitespace(raw_text):
     return text
 
 if __name__ == "__main__":
-    input_directory = r'C:\Users\wboyle\PycharmProjects\bentley_code\one-off scripts\expand_container_ranges\output'
+    input_directory = r'C:\Users\wboyle\PycharmProjects\bentley_code\one-off scripts\extent_cleanup\output'
     output_directory = r'C:\Users\wboyle\PycharmProjects\vandura\Real_Masters_all'
-    prettify_xml_in_directory(input_directory, output_directory)
+    prettify_xml_in_directory(output_directory, output_directory)
