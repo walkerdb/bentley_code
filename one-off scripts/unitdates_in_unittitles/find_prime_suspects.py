@@ -10,11 +10,13 @@ from tqdm import tqdm
 
 def is_suspect(unittitle):
 	unitdates = unittitle.xpath("unitdate")
+	tag_regex = r"\<\/?.*?\>"
 	is_suspect_unittitle = False
 	if len(unitdates) == 1:
 		for unitdate in unitdates:
 			if unitdate.tail:
-				if len(re.findall(r'[\)\]\'\"]', unitdate.tail)) > 0 or len(unitdate.tail.strip()) > 5:
+				# TODO - just print out the tails -- need to find out why this is not working properly
+				if len(re.sub(tag_regex, "", unitdate.tail).strip(", 1234567890-")) > 5:
 					is_suspect_unittitle = True
 	elif len(unitdates) > 1:
 		is_suspect_unittitle = True
@@ -24,7 +26,7 @@ def is_suspect(unittitle):
 def grab_suspects():
 	input_dir = r'C:\Users\wboyle\PycharmProjects\vandura\Real_Masters_all'
 	eads = [ead for ead in os.listdir(input_dir) if ead.endswith(".xml")]
-	unitdate_tag_regex = r"\<\/?.*?\>"
+	tag_regex = r"\<\/?.*?\>"
 
 	data = []
 	for ead in tqdm(eads):
@@ -33,7 +35,7 @@ def grab_suspects():
 		for unittitle in unittitles:
 			if is_suspect(unittitle):
 				text_with_tags = " ".join(etree.tostring(unittitle).split()).strip()
-				text_without_tags = " ".join(re.sub(unitdate_tag_regex, "", text_with_tags).split()).strip()
+				text_without_tags = " ".join(re.sub(tag_regex, "", text_with_tags).split()).strip()
 				data.append([ead, tree.getpath(unittitle), text_with_tags, text_without_tags])
 
 	with open('wonky_unitdate_display_candidates.csv', mode="wb") as f:
@@ -67,4 +69,4 @@ def get_random_sample():
 
 if __name__ == "__main__":
 	grab_suspects()
-	get_random_sample()
+	# get_random_sample()
