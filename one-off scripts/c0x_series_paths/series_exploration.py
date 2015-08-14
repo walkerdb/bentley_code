@@ -34,7 +34,7 @@ def build_xml_tree_tag_paths(dsc_node_etree, tag="c0", attribute="level", filena
 	series = {}
 	parent_etree_nodes = list(dsc_node_etree.xpath("/ead/archdesc/dsc")[0])
 	path_breadcrumb_list = []
-	wonky_series_paths = ("item->file", "subseries->series",  "subseries->subseries", "collection", "fonds")
+	wonky_series_paths = ("item->file", "subseries->series", "collection", "fonds")
 
 	with open("wonky_series_examples.csv", mode="ab") as f:
 		writer = csv.writer(f)
