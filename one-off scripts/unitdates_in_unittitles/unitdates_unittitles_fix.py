@@ -51,10 +51,10 @@ def fix_suspects(input_dir):
 def is_suspect(unittitle):
 	unitdates = unittitle.xpath("unitdate")
 	is_suspect_unittitle = False
-	if len(unitdates) >= 1:
+	if len(unitdates) > 1:
 		for unitdate in unitdates:
 			if unitdate.tail:
-				if len(unitdate.tail.strip(", 1234567890-")) > 5 and len(unitdates) > 1:
+				if len(unitdate.tail.strip(", 1234567890-")) > 5:
 					is_suspect_unittitle = True
 
 	return is_suspect_unittitle
@@ -86,25 +86,25 @@ def get_random_sample():
 	with open("wonky_unitdate_display_candidates.csv", mode="r") as f:
 		reader = csv.reader(f)
 		for row in reader:
-			ead, xpath, tag_content, text_only = row
-			new_row = [text_only, tag_content]
-			ead_dict[ead].append(new_row)
+		    ead, xpath, tag_content, text_only = row
+            new_row = [text_only, tag_content]
+            ead_dict[ead].append(new_row)
 
-		# get random samples from each ead in the csv file
-		for ead, examples in tqdm(ead_dict.items()):
-			# print(len(examples))
-			num_of_samples = int(math.ceil(len(examples) * .01))
-			random_samples = random.sample(range(len(examples)), num_of_samples)
+        # get random samples from each ead in the csv file
+        for ead, examples in tqdm(ead_dict.items()):
+            # print(len(examples))
+            num_of_samples = int(math.ceil(len(examples) * .01))
+            random_samples = random.sample(range(len(examples)), num_of_samples)
 
-			for index in random_samples:
-				random_data = examples[index]
-				data.append(random_data)
+            for index in random_samples:
+                random_data = examples[index]
+                data.append(random_data)
 
-	with open("random_sample.csv", mode="wb") as f:
-		writer = csv.writer(f)
-		writer.writerows(data)
+    with open("random_sample.csv", mode="wb") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
 
 if __name__ == "__main__":
-	input_dir = r'C:\Users\wboyle\PycharmProjects\vandura\Real_Masters_all'
-	grab_suspects(input_dir)
-	fix_suspects(input_dir)
+    input_dir = r'C:\Users\wboyle\PycharmProjects\vandura\Real_Masters_all'
+    grab_suspects(input_dir)
+    fix_suspects(input_dir)
