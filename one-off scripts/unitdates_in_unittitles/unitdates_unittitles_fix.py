@@ -13,7 +13,7 @@ def grab_suspects(input_dir):
 	eads = [ead for ead in os.listdir(input_dir) if ead.endswith(".xml")]
 	tag_regex = r"\<\/?.*?\>"
 
-	data = []
+	data = [] 
 	for ead in tqdm(eads):
 		tree = etree.parse(os.path.join(input_dir, ead))
 		unittitles = tree.xpath("//unittitle")
