@@ -18,7 +18,7 @@ def grab_suspects(input_dir):
 		tree = etree.parse(os.path.join(input_dir, ead))
 		unittitles = tree.xpath("//unittitle")
 		for unittitle in unittitles:
-			if is_suspect(unittitle):
+			if is_suspect(unittitle): 
 				text_with_tags = " ".join(etree.tostring(unittitle).split()).strip()
 				text_without_tags = " ".join(re.sub(tag_regex, "", text_with_tags).split()).strip()
 				data.append([ead, tree.getpath(unittitle), text_with_tags, text_without_tags])
