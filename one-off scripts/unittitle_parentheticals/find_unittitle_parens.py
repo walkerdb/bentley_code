@@ -5,6 +5,7 @@ import csv
 from lxml import etree
 from tqdm import tqdm
 
+
 def find_parens(input_dir):
 	output = []
 	tag_regex = r"\<\/?.*?\>"
@@ -31,6 +32,14 @@ def find_parens(input_dir):
 		writer = csv.writer(f)
 		writer.writerows(output)
 
+
+def move_extent_parens(input_dir, output_dir):
+	keywords = ['album', 'audiotape', 'binder', 'book', 'box', 'boxes', 'cases', 'cassette', 'disc', 'disk', 'drawing',
+				'envelope', 'file', 'folder', 'image', 'issue', 'item', 'linear feet', 'map', 'neg', 'negative',
+				'notebook', 'photo', 'poster', 'reel', 'slide', 'tape', 'v.', 'vol.', 'volume']
+
+
 if __name__ == "__main__":
 	input_dir = r"C:\Users\wboyle\PycharmProjects\vandura\Real_Masters_all"
 	find_parens(input_dir)
+
