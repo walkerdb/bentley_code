@@ -47,12 +47,7 @@ def move_extent_parens(input_dir, output_dir, input):
 
 		for candidate in candidate_list:
 			xpath, text_without_xml, parenthetical, text = candidate
-
-			try:
-				unittitle_node = tree.xpath(xpath)[0]
-			except IndexError:
-				# print("Failed to grab xpath in {} -- {}".format(ead, xpath))
-				continue
+			unittitle_node = tree.xpath(xpath)[0]
 
 			# check if the parenthetical has an extent keyword
 			if any([keyword in parenthetical for keyword in keywords]) and " of " not in parenthetical:
@@ -65,6 +60,7 @@ def move_extent_parens(input_dir, output_dir, input):
 				parent = unittitle_node.getparent()
 				containers = parent.xpath("container")
 
+				# check to see if the parenthetical extent's type is the same as the <container> lable attribute - if so, skip
 				skipped_entry_xpath = ""
 				if len(containers) > 0:
 					for container in containers:
