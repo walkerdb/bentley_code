@@ -41,6 +41,7 @@ def move_extent_parens(input_dir, output_dir, input):
 	for item in input:
 		input_dict[item[0]].append(item[1:])
 
+	exceptions_to_write = []
 	for ead, candidate_list in input_dict.items():
 		tree = etree.parse(os.path.join(input_dir, ead))
 
@@ -50,15 +51,35 @@ def move_extent_parens(input_dir, output_dir, input):
 			try:
 				unittitle_node = tree.xpath(xpath)[0]
 			except IndexError:
-				print("Failed to grab xpath in {} -- {}".format(ead, xpath))
+				# print("Failed to grab xpath in {} -- {}".format(ead, xpath))
 				continue
 
 			# check if the parenthetical has an extent keyword
 			if any([keyword in parenthetical for keyword in keywords]) and " of " not in parenthetical:
+				matched_keyword = ""
+				for keyword in keywords:
+					if keyword in parenthetical:
+						matched_keyword = keyword
+						break
+
+				parent = unittitle_node.getparent()
+				containers = parent.xpath("container")
+
+				skipped_entry_xpath = ""
+				if len(containers) > 0:
+					for container in containers:
+						if container.attrib.get("label", "XXXXXXXX").lower() in matched_keyword.lower():
+							skipped_entry_xpath = tree.getpath(parent)
+							exceptions_to_write.append([ead, skipped_entry_xpath, "container and parenthetical extent match -- needs manual review if extent is larger than container value"])
+							break
+
+					if skipped_entry_xpath:
+						continue
 
 				# If there is already an extent in this c0x item, skip over this entry (there are only a few of these)
 				if any([tag.tag == "extent" for tag in unittitle_node.getparent().iter()]):
 					print("{} - {}\nthere's an extent already here!\n{}\n{}".format(ead, xpath, parenthetical, etree.tostring(unittitle_node.getparent().xpath("physdesc")[0])))
+					exceptions_to_write.append([ead, xpath, "This c0x tag already has an extent -- moving the parenthetical extent may overwrite or duplicate data. Needs manual review"])
 					continue
 
 				# remove the parenthetical from the unittitle text (this is on a tostring'd unittitle)
@@ -84,7 +105,10 @@ def move_extent_parens(input_dir, output_dir, input):
 		with open(os.path.join(output_dir, ead), mode="w") as xml:
 			xml.write(etree.tostring(tree, pretty_print=True, xml_declaration=True, encoding="utf-8"))
 
-
+	with open("exceptions.csv", mode="wb") as f:
+		writer = csv.writer(f)
+		writer.writerow(["EAD file", "xpath", "note"])
+		writer.writerows(exceptions_to_write)
 
 
 if __name__ == "__main__":
