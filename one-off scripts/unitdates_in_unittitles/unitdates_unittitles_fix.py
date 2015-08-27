@@ -1,10 +1,7 @@
 import csv
 import os
 import re
-import math
-import random
 from copy import deepcopy
-from collections import defaultdict
 
 from lxml import etree
 from tqdm import tqdm
