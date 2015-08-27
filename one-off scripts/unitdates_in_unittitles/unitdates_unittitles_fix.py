@@ -39,38 +39,36 @@ def fix_suspects(input_dir):
         example_dict = {}
         reader = csv.reader(f)
         items = list(reader)
-        items.reverse()
+        items.reverse()  # reverse the input list so that xpaths remain valid as I edit multiple entries in one ead
 
-        for filename, xpath, text_with_tags, text_without_tags, action in tqdm(items):
-            example_dict[filename] = example_dict.get(filename, [])
-            example_dict[filename].append((xpath, action, text_without_tags))
+    for filename, xpath, text_with_tags, text_without_tags, action in tqdm(items):
+        example_dict[filename] = example_dict.get(filename, [])
+        example_dict[filename].append((xpath, action, text_without_tags))
 
-        for ead, dict_value_list in tqdm(example_dict.items()):
-            tree = etree.parse(os.path.join(input_dir, ead))
+    for ead, dict_value_list in tqdm(example_dict.items()):
+        tree = etree.parse(os.path.join(input_dir, ead))
 
-            for xpath, action, text in dict_value_list:
-                unittitle = tree.xpath(xpath)[0]
-                disparity = find_date_disparity(unittitle)
-                if action == "move_and_calcify":
-                    count += 1
-                if disparity > 10 and action == "move_and_calcify" and ead != "geolsurv.xml":
-                    skipped_items.append([ead, xpath, text, disparity, action])
-                else:
-                    move_unitdates(unittitle, action)
+        for xpath, action, text in dict_value_list:
+            unittitle = tree.xpath(xpath)[0]
+            
+            disparity = find_date_disparity(unittitle)
+            if disparity > 10 and action == "move_and_calcify" and ead != "geolsurv.xml":
+                skipped_items.append([ead, xpath, text, disparity, action])
+            else:
+                move_unitdates(unittitle, action)
 
-            with open(os.path.join("output", ead), mode="w") as f:
-                f.write(etree.tostring(tree, pretty_print=True, xml_declaration=True, encoding="utf-8"))
+        with open(os.path.join("output", ead), mode="w") as f:
+            f.write(etree.tostring(tree, pretty_print=True, xml_declaration=True, encoding="utf-8"))
 
     with open("skipped_items.csv", mode="wb") as f:
         writer = csv.writer(f)
         writer.writerows(skipped_items)
 
-    print(len(skipped_items))
-    print(count)
-    print(float(len(skipped_items)) / float(count))
+    print("Skipped {0} entries".format(len(skipped_items)))
 
 
 def determine_action(unittitle):
+    # characterize the distribution of unitdates in the unittitle, and decide on which course of action to take
     unitdates = unittitle.xpath("unitdate")
     action = ""
     if len(unitdates) >= 1:
@@ -80,7 +78,6 @@ def determine_action(unittitle):
                     action = "move_and_calcify"
                 elif any([unitdate.tail.strip() == candidate for candidate in [",", "and", ", and"]]):
                     tails = [unitdate.tail if unitdate.tail else "" for unitdate in unitdates]
-                    # print(tails)
                     if all([len(tail.strip(" and,.")) == 0 for tail in tails]):
                         action = "move_and_clean"
 
@@ -117,7 +114,7 @@ def find_date_disparity(unittitle):
 
         return max_dif
 
-    # otherwise compare each single date against the two highest and lowest values among all the ranges
+    # otherwise compare each single date against the highest and lowest values among all the ranges
     else:
         int_dates = [int(date) for date in single_dates]
 
@@ -129,16 +126,16 @@ def find_date_disparity(unittitle):
         max_range = max(range_dates)
         min_range = min(range_dates)
 
-        max_disparity = 0
+        max_dif = 0
         for date in int_dates:
             if date > max_range:
-                if date - max_range > max_disparity:
-                    max_disparity = date - max_range
+                if date - max_range > max_dif:
+                    max_dif = date - max_range
             elif date < min_range:
-                if min_range - date > max_disparity:
-                    max_disparity = min_range - date
+                if min_range - date > max_dif:
+                    max_dif = min_range - date
 
-        return max_disparity
+        return max_dif
 
 
 def move_unitdates(unittitle_node, action):
@@ -147,16 +144,17 @@ def move_unitdates(unittitle_node, action):
 
     tag_regex = r"<unitdate.*?>(.*?)<\/unitdate>"
 
+    # copy the original unitdates for later use
     copies = []
     for unitdate in unitdates:
         copies.append(deepcopy(unitdate))
 
-    # leave the text but copy the tags
+    # if the action is to "move and calcify", leave the text but copy the tags
     if action == "move_and_calcify":
         new_unittitle = etree.fromstring(re.sub(tag_regex, '\g<1>', etree.tostring(unittitle_node)))
 
-    # The unitdates are just at the end of the tag -- remove them entirely and append after unittitle
-    # also need to clean the remainder
+    # otherwise the unitdates are just at the end of the tag -- remove them entirely and append after unittitle
+    # also need to clean the remainder. This is tricky due to weirdness in lxml's ".text" function
     else:
         new_unittitle = etree.fromstring(re.sub(tag_regex, '', etree.tostring(unittitle_node)))
         if len(list(new_unittitle)) > 0:
@@ -168,17 +166,19 @@ def move_unitdates(unittitle_node, action):
     parent.insert(parent.index(unittitle_node), new_unittitle)
     parent.remove(unittitle_node)
 
-    # clean the tails of the copied unitdates
+    # remove duplicate unitdates
     dates = set()
     for copy in copies:
         if copy.text in dates:
             copies.remove(copy)
         dates.add(copy.text)
 
+    # clean the tails of the copied unitdates
     for i, copy in enumerate(copies):
         copy.tail = ""
         parent.insert(parent.index(new_unittitle) + 1 + i, copy)  # adding i to ensure original order is preserved
 
+    # if the new unittitle is empty, remove it entirely
     if not new_unittitle.text and len(list(new_unittitle)) == 0:
         parent.remove(new_unittitle)
 
@@ -194,30 +194,6 @@ def clean_text(text):
     except AttributeError:
         return text
 
-
-def get_random_sample():
-    ead_dict = defaultdict(list)
-    data = []
-    with open("wonky_unitdate_display_candidates.csv", mode="r") as f:
-        reader = csv.reader(f)
-        for row in reader:
-            ead, xpath, tag_content, text_only = row
-            new_row = [text_only, tag_content]
-            ead_dict[ead].append(new_row)
-
-        # get random samples from each ead in the csv file
-        for ead, examples in tqdm(ead_dict.items()):
-            # print(len(examples))
-            num_of_samples = int(math.ceil(len(examples) * .01))
-            random_samples = random.sample(range(len(examples)), num_of_samples)
-
-            for index in random_samples:
-                random_data = examples[index]
-                data.append(random_data)
-
-    with open("random_sample.csv", mode="wb") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
 
 if __name__ == "__main__":
     input_dir = r'C:\Users\wboyle\PycharmProjects\vandura\Real_Masters_all'
