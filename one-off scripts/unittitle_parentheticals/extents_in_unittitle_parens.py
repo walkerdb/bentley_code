@@ -4,6 +4,7 @@ import csv
 from collections import defaultdict
 
 from lxml import etree
+from tqdm import tqdm
 
 
 def find_parens(input_dir):
