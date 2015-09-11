@@ -13,11 +13,17 @@ class EAD(object):
         self.tree = etree.parse(self.path_to_ead)
 
     def prettyprint(self, output_dir):
+        parser = etree.XMLParser(remove_blank_text=True)
+
         with open(os.path.join(output_dir, self.filename), mode="w") as f:
             fixed_text = self.__fix_prettyprint_whitespace__(
                 etree.tostring(self.tree, pretty_print=True, xml_declaration=True, encoding="utf-8")
             )
             f.write(fixed_text)
+
+        ead = etree.parse(os.path.join(output_dir, self.filename), parser=parser)
+        with open(os.path.join(output_dir, self.filename), mode="w") as f:
+            f.write(etree.tostring(ead, pretty_print=True, xml_declaration=True, encoding="utf-8"))
 
     @staticmethod
     def __fix_prettyprint_whitespace__(raw_text):

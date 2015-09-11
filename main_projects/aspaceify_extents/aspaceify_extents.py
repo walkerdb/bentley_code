@@ -9,6 +9,7 @@ from .scripts.make_aspace_extent_distinctions import split_into_aspace_component
 from .scripts.prettifydirectory import prettify_xml_in_directory
 from .scripts.extent_parser import split_into_extents
 from .scripts import etree_editor
+from utilities import utilities as util
 
 
 def main(source="C:/Users/wboyle/PycharmProjects/bentley_code/main_projects/aspaceify_extents/input/all_extents_reversed.csv"):

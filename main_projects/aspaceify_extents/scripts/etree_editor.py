@@ -31,7 +31,7 @@ def get_parent_node(tree, xpath):
     return xpath
 
 
-def write_aspace_extent_tags(filename, tree, target_xpath, aspace_components):
+def write_aspace_extent_tags(tree, target_xpath, aspace_components):
     target_node = tree.xpath(target_xpath)[0]
 
     for aspace_component in aspace_components:
@@ -53,9 +53,8 @@ def write_aspace_extent_tags(filename, tree, target_xpath, aspace_components):
             dimensions = build_etree_element(tag="dimensions", text=aspace_component.dimensions)
             physdesc.append(dimensions)
 
-        target_node.insert(1, physdesc)
-
-    return tree
+        if len(physdesc) >= 1:
+            target_node.insert(1, physdesc)
 
 
 def build_etree_element(tag, text, altrender=""):
