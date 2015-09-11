@@ -4,6 +4,7 @@ import csv
 from collections import defaultdict
 
 from lxml import etree
+from lxml.builder import E
 from tqdm import tqdm
 
 
@@ -25,8 +26,8 @@ def find_parens(input_dir):
                 if parenthetical.strip("()[] 1234567890"):
 
                     if parenthetical.strip("()[] ")[0].isdigit() \
-                        and not re.search(r"\d{4}|\dth|\dst|\dnd|\d,\d{3}|\-[A-Z]\)|\d[A-Z]", parenthetical) \
-                        and "/" not in parenthetical:
+                            and not re.search(r"\d{4}|\dth|\dst|\dnd|\d,\d{3}|\-[A-Z]\)|\d[A-Z]", parenthetical) \
+                            and "/" not in parenthetical:
 
                         output.append([ead, xpath, text_without_xml, parenthetical, text])
     return output
@@ -92,6 +93,9 @@ def move_extent_parens(input_dir, output_dir, input):
                 parent.remove(unittitle_node)
 
                 # build the new extent and append it to the <did>
+                parent.append(E("physdesc",
+                                E("extent", parenthetical.strip("()[] "))
+                                ))
                 extent_text = parenthetical.strip("()[] ")
                 physfacet = etree.Element("physdesc")
                 extent = etree.Element("extent")
@@ -113,5 +117,3 @@ if __name__ == "__main__":
     output_dir = r"C:\Users\wboyle\PycharmProjects\bentley_code\one-off scripts\unittitle_parentheticals\output"
     candidates = find_parens(input_dir)
     move_extent_parens(input_dir, output_dir, candidates)
-
-
