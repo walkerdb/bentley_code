@@ -199,3 +199,5 @@ numbers_dict = {' Eight ': '8',
                 ' twenty-two ': '22',
                 ' two ': '2',
                 ' Eight-hundred-fourteen ': '814'}
+
+normalization_dict = {} # TODO write this!

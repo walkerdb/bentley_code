@@ -1,8 +1,9 @@
 from collections import namedtuple
+from main_projects.aspaceify_extents.scripts.extent_constants import normalization_dict
 import re
 
 
-def split_into_aspace_components(unparsed_extent, multiple=False):
+def split_into_aspace_components(unparsed_extent, is_multiple=False):
     ASpaceExtent = namedtuple("ASpaceExtent", ["type_", "portion", "container_summary", "dimensions", "physfacet"])
 
     # this regex is literally the ugliest line of text I have ever seen.
@@ -38,7 +39,7 @@ def split_into_aspace_components(unparsed_extent, multiple=False):
     type_ = type_.strip(" .;:,")
 
     # setting portion tag
-    portion = "part" if multiple else "whole"
+    portion = "part" if is_multiple else "whole"
 
     # make sure the container summary is enclosed in parens
     if container_summary:
@@ -48,12 +49,30 @@ def split_into_aspace_components(unparsed_extent, multiple=False):
     # construct final dimensions from time and physical dimensions
     dimensions = time_dimensions + phys_dimensions
 
+    type_, physfacet = normalize_types(type_, physfacet)
+
     output_extent = ASpaceExtent(type_=type_,
                                  portion=portion,
                                  container_summary=container_summary,
                                  dimensions=dimensions,
                                  physfacet=physfacet)
     return output_extent
+
+
+def normalize_types(type_string, physfacet_string):
+    type_without_count = type_string.strip("1234567890")
+    normalized_type, extra_physfacet = normalization_dict.get(type_without_count, ["", ""])
+
+    if normalized_type:
+        type_string = type_string.replace(type_without_count, normalized_type)
+
+    if extra_physfacet:
+        if physfacet_string:
+            physfacet_string += "; {0}".format(extra_physfacet)
+        else:
+            physfacet_string += extra_physfacet
+
+    return type_string, physfacet_string
 
 
 def extract_regex_results_as_string(regular_expression, string_to_search):

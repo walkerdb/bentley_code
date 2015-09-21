@@ -11,4 +11,4 @@ class TestController(unittest.TestCase):
 
     def test_base_case(self):
         desired_output = utils.EAD("test_ead_desired.xml")
-        self.assertEquals(etree.tostring(split_extents(self.test_input).tree), etree.tostring(desired_output.tree))
+        self.assertEquals(etree.tostring(split_extents(self.test_input).tree).replace("\n", "").replace(" ", ""), etree.tostring(desired_output.tree).replace("\n", "").replace(" ", ""))
