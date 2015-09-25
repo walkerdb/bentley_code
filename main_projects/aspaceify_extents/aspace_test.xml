@@ -1,4 +1,4 @@
-?xml version='1.0' encoding='utf-8'?>
+<?xml version='1.0' encoding='utf-8'?>
 <!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead.dtd">
 <ead>
   <eadheader audience="internal" langencoding="iso639-2b" repositoryencoding="iso15511" dateencoding="iso8601" relatedencoding="Dublin Core" scriptencoding="iso15924" countryencoding="iso3166-1">
@@ -14,13 +14,17 @@
       </publicationstmt>
     </filedesc>
     <profiledesc>
-      <creation>profiledesc creation text</creation>
+      <creation>profiledesc creation text <date normal="2015">2015</date></creation>
       <langusage>profiledesc language: <language langcode="eng" encodinganalog="Language" scriptcode="Latn">English</language></langusage>
     </profiledesc>
     <revisiondesc>
       <change>
         <date normal="2005-04-25">20050425</date>
         <item>Revision description</item>
+      </change>
+      <change>
+        <date normal="2005-04-25">20050425</date>
+        <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
       </change>
     </revisiondesc>
   </eadheader>
@@ -33,16 +37,22 @@
   </frontmatter>
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
+      <origination>
+        <corpname source="lcnaf" encodinganalog="110">Ann Arbor (Mich. : Township)</corpname>
+      </origination>
       <physdesc altrender="part">
         <extent altrender="materialtype spaceoccupied">1 extent one</extent>
         <extent altrender="carrier">(extent one carrier text)</extent>
         <physfacet>extent one physfacet text</physfacet>
-        <dimension></dimension>
+        <dimensions>extent one dimensions</dimensions>
       </physdesc>
       <physdesc altrender="part">
         <extent altrender="materialtype spaceoccupied">2 extent two</extent>
+        <extent altrender="carrier">(extent two carrier text)</extent>
+        <physfacet>extent two physfacet text</physfacet>
+        <dimensions>extent two dimensions</dimensions>
       </physdesc>
-      <unittitle encodinganalog="245">Unittitle text for the entire collection</unittitle>
+      <unittitle encodinganalog="245">Unittitle text for the entire collection <unitdate type="inclusive" normal="2015">2015</unitdate></unittitle>
       <unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">Unitid (callnumber) text</unitid>
       <langmaterial>Langauge tag: <language langcode="eng" encodinganalog="041">English</language></langmaterial>
       <abstract>Abstract text</abstract>
@@ -103,12 +113,18 @@
           <unittitle>Series-level unittitle <unitdate type="inclusive" normal="2015">2015</unitdate></unittitle>
         </did>
         <scopecontent>
-          <p>Scope and content content</p>
+          <p>Series-level scope and content content</p>
         </scopecontent>
         <c02 level="file">
           <did>
             <container type="box" label="Box">1</container>
             <unittitle>item unittitle</unittitle>
+              <physdesc altrender="part">
+                <extent altrender="materialtype spaceoccupied">1 item-level extent</extent>
+                <extent altrender="carrier">(item-level extent carrier text)</extent>
+                <physfacet>item-level extent physfacet text</physfacet>
+                <dimensions>item-level extent dimensions</dimensions>
+            </physdesc>
           </did>
         </c02>
       </c01>

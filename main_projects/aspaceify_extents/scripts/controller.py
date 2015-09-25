@@ -46,4 +46,7 @@ if __name__ == "__main__":
     for ead_file in tqdm(list(e.ead_files)):
         ead_ = util.EAD(os.path.join(e.input_dir, ead_file))
         ead_ = split_extents(ead_)
+        for physdesc in ead_.tree.xpath("//physdesc"):
+            if len(physdesc) == 0:
+                physdesc.getparent().remove(physdesc)
         ead_.prettyprint(output_dir="output")

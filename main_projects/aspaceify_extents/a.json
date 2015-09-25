@@ -1,0 +1,228 @@
+[
+  {
+    "status": [
+      {
+        "type": "started",
+        "id": 1,
+        "label": "Reading JSON records"
+      }
+    ]
+  },
+  {
+    "status": [
+      {
+        "type": "done",
+        "id": 1,
+        "label": "Reading JSON records"
+      },
+      {
+        "type": "started",
+        "id": 2,
+        "label": "Validating records and checking links"
+      }
+    ]
+  },
+  {
+    "total": 20000,
+    "ticks": 13
+  },
+  {
+    "status": [
+      {
+        "type": "done",
+        "id": 2,
+        "label": "Validating records and checking links"
+      },
+      {
+        "type": "started",
+        "id": 3,
+        "label": "Evaluating record relationships"
+      },
+      {
+        "type": "done",
+        "id": 3,
+        "label": "Evaluating record relationships"
+      },
+      {
+        "type": "started",
+        "id": 4,
+        "label": "Saving records: cycle 1"
+      }
+    ]
+  },
+  {
+    "total": 14,
+    "ticks": 2
+  },
+  {
+    "total": 14,
+    "ticks": 3
+  },
+  {
+    "total": 14,
+    "ticks": 13
+  },
+  {
+    "total": 14,
+    "ticks": 13
+  },
+  {
+    "total": 14,
+    "ticks": 13
+  },
+  {
+    "total": 14,
+    "ticks": 13
+  },
+  {
+    "status": [
+      {
+        "type": "done",
+        "id": 4,
+        "label": "Saving records: cycle 1"
+      },
+      {
+        "type": "started",
+        "id": 5,
+        "label": "Dealing with circular dependencies: cycle 1"
+      },
+      {
+        "type": "done",
+        "id": 5,
+        "label": "Dealing with circular dependencies: cycle 1"
+      },
+      {
+        "type": "started",
+        "id": 6,
+        "label": "Saving records: cycle 2"
+      }
+    ]
+  },
+  {
+    "total": 14,
+    "ticks": 12
+  },
+  {
+    "total": 14,
+    "ticks": 12
+  },
+  {
+    "status": [
+      {
+        "type": "done",
+        "id": 6,
+        "label": "Saving records: cycle 2"
+      },
+      {
+        "type": "started",
+        "id": 7,
+        "label": "Dealing with circular dependencies: cycle 2"
+      },
+      {
+        "type": "done",
+        "id": 7,
+        "label": "Dealing with circular dependencies: cycle 2"
+      },
+      {
+        "type": "started",
+        "id": 8,
+        "label": "Saving records: cycle 3"
+      }
+    ]
+  },
+  {
+    "total": 14,
+    "ticks": 11
+  },
+  {
+    "total": 14,
+    "ticks": 11
+  },
+  {
+    "status": [
+      {
+        "type": "done",
+        "id": 8,
+        "label": "Saving records: cycle 3"
+      },
+      {
+        "type": "started",
+        "id": 9,
+        "label": "Cleaning up"
+      }
+    ]
+  },
+  {
+    "total": 14,
+    "ticks": 14
+  },
+  {
+    "status": [
+      {
+        "type": "done",
+        "id": 9,
+        "label": "Cleaning up"
+      }
+    ]
+  },
+  {
+    "saved": {
+      "/subjects/import_126dec22-c837-4895-9f91-a1ff447ad6cb": [
+        "/subjects/3",
+        3
+      ],
+      "/subjects/import_8b6c8f00-1228-4262-b977-6a935cc75797": [
+        "/subjects/2",
+        2
+      ],
+      "/subjects/import_843e8204-bac2-4d68-814b-19624ec334d2": [
+        "/subjects/5",
+        5
+      ],
+      "/revision_statement/import_cd0c73fd-22af-436c-897e-e58f08a213a0": [
+        "/revision_statement/1",
+        1
+      ],
+      "/repositories/import/resources/import_82049e49-1147-4c25-a782-e9e6ca907597": [
+        "/repositories/1/resources/1",
+        1
+      ],
+      "/subjects/import_3cadec57-b2aa-49e7-b9dc-b552c380de0b": [
+        "/subjects/8",
+        8
+      ],
+      "/revision_statement/import_7ce5b08c-71f8-4288-8a97-3635eefce160": [
+        "/revision_statement/2",
+        2
+      ],
+      "/subjects/import_a89c546d-a9d1-4cb0-8fe4-e9ab0df18cd8": [
+        "/subjects/4",
+        4
+      ],
+      "/repositories/import/archival_objects/import_1d1efd61-a1dc-468e-8cbf-8fc839e6f3ad": [
+        "/repositories/1/archival_objects/2",
+        2
+      ],
+      "/subjects/import_72c541fd-120e-42b5-8ce2-f0edcac00d80": [
+        "/subjects/1",
+        1
+      ],
+      "/repositories/import/archival_objects/import_2f643ee7-3bae-4226-8871-f025524a7b56": [
+        "/repositories/1/archival_objects/1",
+        1
+      ],
+      "/subjects/import_0014b2bb-7cba-49e7-9835-6c8f3a2add1c": [
+        "/subjects/7",
+        7
+      ],
+      "/agents/corporate_entities/import_e1150371-c891-47f9-b636-e041ab1c94f6": [
+        "/agents/corporate_entities/2",
+        2
+      ],
+      "/subjects/import_dd73b388-0147-409a-8a61-adbbb8916ac7": [
+        "/subjects/6",
+        6
+      ]
+    }
+  }
+]
