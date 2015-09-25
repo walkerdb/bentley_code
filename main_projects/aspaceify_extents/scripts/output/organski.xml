@@ -1,0 +1,854 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead.dtd">
+<ead>
+  <eadheader langencoding="iso639-2b" repositoryencoding="iso15511" dateencoding="iso8601" relatedencoding="Dublin Core">
+    <eadid countrycode="us" mainagencycode="MiU-H" publicid="-//us::MiU-H//TEXT us::MiU-H::organski.xml//EN" encodinganalog="identifier">umich-bhl-9913</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="title">Finding Aid for A.F.K. Organski Papers <date>1959-1998</date></titleproper>
+        <author encodinganalog="creator">Collection processed and Finding aid prepared by Edwin Staples</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="publisher">Bentley Historical Library, University of Michigan</publisher>
+        <date encodinganalog="date">January, 1999</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created by Edwin Staples <date>January 1999</date></creation>
+      <langusage>The finding aid is written in <language encodinganalog="language" langcode="eng">English.</language></langusage>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date>20031010</date>
+        <item>Converted to EAD2002 using Word macro and Xmetal</item>
+      </change>
+      <change>
+        <date>1999-07-13</date>
+        <item>converted to new container style</item>
+      </change>
+      <change>
+        <date>19990316</date>
+        <item>Original encoding in EAD Vers. 1.0 from Word 6.0 file using Word macros and some hand tagging.</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <frontmatter>
+    <titlepage>
+      <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
+      <titleproper>Finding Aid for <lb/>A.F.K. Organski Papers, <date>1959-1998</date></titleproper>
+      <author>Finding aid prepared by: <lb/>Edwin Staples</author>
+    </titlepage>
+  </frontmatter>
+  <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
+    <did>
+      <origination>
+        <persname source="lcnaf" encodinganalog="100">Organski, A.F.K.</persname>
+      </origination>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">3 linear feet</extent>
+      </physdesc>
+      <unittitle encodinganalog="245$a">A.F.K. Organski Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1959/1998">1959-1998</unitdate></unittitle>
+      <abstract>Papers of University of Michigan Professor of Political Science and Faculty Member, Institute for Social Research. Contains correspondence, grants and topical files.</abstract>
+      <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">9913 Aa 2</unitid>
+      <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
+      <repository>
+        <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea> University of Michigan</corpname>
+        <extptr href="bhladd" show="embed" actuate="onload"/>
+      </repository>
+    </did>
+    <descgrp type="admin">
+      <acqinfo>
+        <p>The collection was received fro Organski's widow, Patricia Bard, in October 1998. Donor no. <num type="donor" encodinganalog="541$e">8775</num>.</p>
+      </acqinfo>
+      <accessrestrict encodinganalog="506$a">
+        <p>The collection is open for research.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+        <p>copyright has been transferred to the Regents of the University of Michigan.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+        <p>item, folder title, box no., A.F.K. Organski Papers, Bentley Historical Library, University of Michigan</p>
+      </prefercite>
+    </descgrp>
+    <bioghist encodinganalog="545">
+      <p>University of Michigan professor Abramo Firmo Kenneth Organski was a prominent Political Scientist with appointments in the Political Science and Institute for Social Research (ISR) departments. His texts World Politics: Population and World Power (1965), was considered a standard in the field. His success as a researcher earned him the admiration of research foundations and the attention of policy makers at the national level.</p>
+      <p>Dr. Organski was born in Rome, Italy in 1923. His family emigrated to the United States in 1939 due to anti-Semitic laws introduced by the Mussolini regime. He became a United States citizen in 1944 and served in the Armed Forces in 1943-45. He held a B.A., M.A. and Ph.D. from New York University and after teaching at Brooklyn College in 1952-65 he joined the U-M faculty. Dr. Organski was also a visiting professor at several Universities around the country and the world. In 1969 he became a member of the American Political Science Association. Professional honors include Italy's Cavaliere della Repubblica Italiana and University of Michigan's Distinguished Faculty Achievement award (1983).</p>
+      <p>A consistent researcher who focused on both creative &amp; quantitative analysis of international political structures, Dr. Organski produced a number of Social Research projects with a view to analyzing the Cold War era power balance from an nonaligned as well as a NATO perspective. In 1981 Dr. Organski became one of the founders of Polycon Corp, which in 1991 became Decision Insights, Inc., a consulting group for government agencies and private corporations. At the time of his death he was the chairman of the board. Dr. Organski died March 5, 1998 in Vail, Colorado.</p>
+    </bioghist>
+    <scopecontent>
+      <p>The collection is divided into three series: Grants (1.1 linear feet), Topical (1.2 linear feet), and Correspondence (.7 linear feet). All relate primarily to Organski's prolific research in the areas of political science, foreign affairs, political demography spanning three decades and dozens of international topics.</p>
+    </scopecontent>
+    <controlaccess>
+      <p>
+        <extptr href="accnote" show="embed" actuate="onload"/>
+      </p>
+      <controlaccess>
+        <head>Subjects:</head>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79119103">Organski, A. F. K., 1923-1998</persname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Political Science.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Institute for Social Research.</corpname>
+      </controlaccess>
+      <controlaccess>
+        <head>Subjects - Visual Material:</head>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79119103">Organski, A. F. K., 1923-1998</persname>
+        <persname source="lcnaf" encodinganalog="600">Haig, Alexander Meigs, 1924-</persname>
+      </controlaccess>
+      <controlaccess>
+        <head>Genre/Form:</head>
+        <genreform source="aat">Photographs.</genreform>
+      </controlaccess>
+    </controlaccess>
+    <dsc type="combined">
+      <c01 level="series">
+        <did>
+          <unittitle>Correspondence</unittitle>
+        </did>
+        <scopecontent>
+          <p>The Correspondence series contains primarily research and travel-related communications between Dr. Organski and a group of his colleagues, including collaborators Jacek Kugler and Bruce Bueno de Mesquita. This series represents mainly the period from 1989-1997 with a few items from his early and mid-career years. The focus of the Correspondence Series is communication supporting his research career, with a few personal interactions and discussions about his teaching. For continuity's sake, correspondence related to Department of Defense issues is kept in the Defense subseries of the Topical series.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container label="Box" type="box">1</container>
+            <unittitle>A</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>American Political Science Association <unitdate type="inclusive" normal="1987/1993">1987-1993</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Barberis, Walter <unitdate type="inclusive" normal="1992/1993">1992-1993</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Berarducci, Elio <unitdate type="inclusive" normal="1993">1993</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Bonante, Luigi <unitdate type="inclusive" normal="1985/1990">1985-1990</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Bueno de Mesquita, Bruce <unitdate type="inclusive" normal="1978/1995">1978-1995</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Chelliah, Rasa J. <unitdate type="inclusive" normal="1976">1976</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Cimitero Acattolico per Glis Stranieri <unitdate type="inclusive" normal="1988">1988</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Earhart Foundation <unitdate type="inclusive" normal="1979/1994">1979-1994</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Emerson, Rupert <unitdate type="inclusive" normal="1964">1964</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>European University Institute <unitdate type="inclusive" normal="1992/1993">1992-1993</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>F <unitdate type="inclusive" normal="1981/1982">1981-1982</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Fleming, Robben W. <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Ford Foundation, Incoming <unitdate type="inclusive" normal="1973/1989">1973-1989</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>G <unitdate type="inclusive" normal="1991/1994">1991-1994</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Germani, Gino <unitdate type="inclusive" normal="1971/1975">1971-1975</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Barbara Hinckley <unitdate type="inclusive" normal="1989/1990">1989-1990</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Hoover Institution <unitdate type="inclusive" normal="1989/1990">1989-1990</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>House, Arthur <unitdate type="inclusive" normal="1975/1983">1975-1983</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>International Business Fellows <unitdate type="inclusive" normal="1986/1990">1986-1990</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>International Studies Association <unitdate type="inclusive" normal="1985/1993">1985-1993</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Jacobson, Harold <unitdate type="inclusive" normal="1980/1995">1980-1995</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Key, V.O. <unitdate type="inclusive" normal="1955/1960">1955-1960</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Kugler, Jacek <unitdate type="inclusive" normal="1980/1991">1980-1991</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Lamborn, Alan <unitdate type="inclusive" normal="1981/1983">1981-1983</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Claire Laporte</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>M <unitdate type="inclusive" normal="1978/1989">1978-1989</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Mauldin, Parker <unitdate type="inclusive" normal="1980/1983">1980-1983</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>McClintock, David <unitdate type="inclusive" normal="1971">1971</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>P <unitdate type="inclusive" normal="1987/1990">1987-1990</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Pennsylvania, University of <unitdate type="inclusive" normal="1982/1983">1982-1983</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Rohreke, Heinrich <unitdate type="inclusive" normal="1967/1968">1967-1968</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Sarah Scaife Foundation <unitdate type="inclusive" normal="1993">1993</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Sedelev, Boris <unitdate type="inclusive" normal="1990">1990</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Sidjanski, Dusan <unitdate type="inclusive" normal="1994">1994</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Skala, Barbara Felden <unitdate type="inclusive" normal="1981">1981</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Solomon, Richard <unitdate type="inclusive" normal="1994">1994</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Ronald Tamman, Ron <unitdate type="inclusive" normal="1975/1996">1975-1996</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>U <unitdate type="inclusive" normal="1983/1990">1983-1990</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>W <unitdate type="inclusive" normal="1994">1994</unitdate></unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Grants</unittitle>
+        </did>
+        <scopecontent>
+          <p>The Grants series is the richest part of the collection. In keeping with Professor Organski's own filing system, results of research are included with original grant proposals. In the case of one grant having been submitted to more than one foundation, only the cover materials of the duplicate proposals are retained. This series provides the intellectual basis of the collection: from his early career to his tenure as full professor, Dr. Organski saw the heightening of the Cold War to the fall of Communism, nine presidential administrations, and the maturing of the United States as a "superpower". His research provides a reflection on the national identity as well as the primary concerns of foreign policy as it evolved year by year.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container label="Box" type="box">1</container>
+            <unittitle>Center For International Peace &amp; Security <unitdate type="inclusive" normal="1986">1986</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Comparative Political Studies in Latin America <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Earhart Foundation, General Matters <unitdate type="inclusive" normal="1974/1994">1974-1994</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Effective Population as a Source of International Power <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Effective Population in International Politics <unitdate type="inclusive" normal="1971">1971</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>End of Hegemony: Says Who! <unitdate type="inclusive" normal="1988">1988</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Estimating Outcomes and Consequences of Interstate Wars <unitdate type="inclusive" normal="1977">1977</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Ethnic Pluralism and National Integration <unitdate type="inclusive" normal="1976">1976</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Extending Relative Capacity Measures to Centralized Economies <unitdate type="inclusive" normal="1990">1990</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container label="Box" type="box">2</container>
+            <unittitle>Foreign Capability to Absorb/Utilize Technology <unitdate type="inclusive" normal="1986">1986</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Influences of Macro-Political Changes on Fertility <unitdate type="inclusive" normal="1981">1981</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Measuring the Political Capacity of Communist Systems <unitdate type="inclusive" normal="1984">1984</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Miscellaneous/Untitled <unitdate type="inclusive" normal="1974/1990">1974-1990</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Political and Demographic Transitions <unitdate type="inclusive" normal="1981">1981</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Political Behavior Study, not dated</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Political Development, not dated</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Political Dynamics and Vital Rates <unitdate type="inclusive" normal="1982">1982</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Political Factors and Policies to Reduce Fertility <unitdate type="inclusive" normal="1978">1978</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Population Grant <unitdate type="inclusive" normal="1972">1972</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Population Research Proposal <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Power Transition, A: Retrospective and Prospective Evaluation, 19870</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Program of Research on National Estimates <unitdate type="inclusive" normal="1977">1977</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Program of Research on National Estimates II <unitdate type="inclusive" normal="1980">1980</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Program of Research on National Estimates-Capabilities <unitdate type="inclusive" normal="1979">1979</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Program on Peace and Security in a Changing World <unitdate type="inclusive" normal="1990">1990</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Public Support and the Capacity to Govern <unitdate type="inclusive" normal="1979">1979</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Relationship Between Public Support and Governmental Capacity <unitdate type="inclusive" normal="1978">1978</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Research and Training in Population and Political Change, no date</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 folders</extent>
+            </physdesc>
+            <unittitle>Research and Training in the Field of Political Demography <unitdate type="inclusive" normal="1974">1974</unitdate></unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Training and Studies in Population Planning <unitdate type="inclusive" normal="1966">1966</unitdate></unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Topical</unittitle>
+        </did>
+        <scopecontent>
+          <p>Research Materials not connected to any particular proposal or grant are included in Topical under the sub-series Research Papers. For a partial overview of the titles and amounts of the grants from 1965-1990, please see the List of Grants folder in the Topical series. Also of note in the Topical series is the subseries titled Defense, which provides insights into the relationship between social research and the formation of public policy decisions.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container label="Box" type="box">2</container>
+            <unittitle>Budget, General <unitdate type="inclusive" normal="1978/1982">1978-1982</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Course Materials</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
+              </physdesc>
+              <unittitle>Political Science 160 <unitdate type="inclusive" normal="1995">1995</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Political Science 450 <unitdate type="inclusive" normal="1996">1996</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Political Science 498 <unitdate type="inclusive" normal="1997">1997</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Political Science 650 <unitdate type="inclusive" normal="1992">1992</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Political Science 760 <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Curriculum Vitae <unitdate type="inclusive" normal="1997">1997</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container label="Box" type="box">3</container>
+            <unittitle>Decolonization Data <unitdate type="inclusive" normal="1992">1992</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Defense</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>ARPA/DARPA Correspondence <unitdate type="inclusive" normal="1976/1978">1976-1978</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
+              </physdesc>
+              <unittitle>Collaboration Between University of Michigan and Department of Defense <unitdate type="inclusive" normal="1985">1985</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Computer Systems Management Inc. <unitdate type="inclusive" normal="1979">1979</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Crisis Management Program <unitdate type="inclusive" normal="1978">1978</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Department of Defense <unitdate type="inclusive" normal="1982">1982</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Department of State, not dated</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Foreign Aid, not dated</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Judith Daly Correspondence <unitdate type="inclusive" normal="1979/1983">1979-1983</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
+              </physdesc>
+              <unittitle>NATO <unitdate type="inclusive" normal="1969/1983">1969-1983</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Office of Naval Research (ONR) <unitdate type="inclusive" normal="1978/1979">1978-1979</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Policy Proposal <unitdate type="inclusive" normal="1985">1985</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Steven J. Andriole <unitdate type="inclusive" normal="1978/1978">1978-1978</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>Filing System of AFKO (memo about) <unitdate type="inclusive" normal="1995">1995</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>List of Grants <unitdate type="inclusive" normal="1990">1990</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>Methodology For Predicting Government Performance, not dated</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>North Vietnamese Economy, AFK Speech About <unitdate type="inclusive" normal="1973-10-11">October 11, 1973</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle><genreform>Photograph</genreform>: AFKO and Alexander Haig, <date>undated</date></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle><genreform>Photograph</genreform>: AFKO with 2 unidentified men, <date>undated</date></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>Population Commission Testimony <unitdate type="inclusive" normal="1978">1978</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>Population Foundation <unitdate type="inclusive" normal="1970/1972">1970-1972</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>Reviews &amp; Readers <unitdate type="inclusive" normal="1961/1990">1961-1990</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Research Papers</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Chiapas Crisis <unitdate type="inclusive" normal="1996">1996</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Fascism and Modernization <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>International Relations Revisited, not dated</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Italian Elite Study Project <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Method to Limit the Use of the Double Veto</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Outcome of the Coming Negotiations of the Future Status of Jerusalem: A Strategic Analysis and Forecast, The <unitdate type="inclusive" normal="1995">1995</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Political Challenge and Economic Risk in the <unitdate type="inclusive" normal="1980/1989" certainty="approximate">1980s</unitdate>, <unitdate type="inclusive" normal="1964">1964</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Population Policy for the United States <unitdate type="inclusive" normal="1962">1962</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Reflections on SDI: Deterrence, Defense and the Nation State, not dated</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Tug of War Over The Status of Jerusalem: Leaders, Strategies and Outcomes, The <unitdate>undated</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>Sesquicentennial of U-M, Symposium <unitdate type="inclusive" normal="1967-09-26/1967-09-28">September 26-28, 1967</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>South African Institute of International Affairs <unitdate type="inclusive" normal="1966/1971">1966-1971</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>Stages of Political Development, Japanese Edition <unitdate type="inclusive" normal="1967">1967</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>Symposia <unitdate type="inclusive" normal="1990/1991">1990-1991</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>U.S. Nuclear Weapons Cost Study, not dated</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>University Consortium on National Security <unitdate type="inclusive" normal="1992/1993">1992-1993</unitdate></unittitle>
+          </did>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

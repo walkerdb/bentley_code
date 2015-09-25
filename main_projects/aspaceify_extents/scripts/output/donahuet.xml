@@ -1,0 +1,827 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead.dtd">
+<ead>
+  <eadheader audience="internal" langencoding="iso639-2b" repositoryencoding="iso15511" dateencoding="iso8601" relatedencoding="Dublin Core" scriptencoding="iso15924" countryencoding="iso3166-1">
+    <eadid countrycode="us" mainagencycode="MiU-H" publicid="us//::miu-h//TXT us::miu-h::donahuet.xml//EN" encodinganalog="Identifier">umich-bhl-07126</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="Title">Finding Aid for Thomas M. Donahue papers, 1939-2002</titleproper>
+        <author encodinganalog="Creator">Collection processed and finding aid created by Lanell Evon James, July 2006</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="Publisher">Bentley Historical Library, University of Michigan</publisher>
+        <date encodinganalog="Date" normal="2007">2007</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created by Greg Kinney <date>200710-8</date></creation>
+      <langusage encodinganalog="Language">The finding aid is written in <language langcode="eng" scriptcode="Latn">English</language></langusage>
+      <descrules>Finding aid prepared using Describing Archives: A Content Standard (DACS)</descrules>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date>2007-10-08D</date>
+        <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <frontmatter>
+    <titlepage>
+      <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
+      <titleproper>Finding aid for <lb/>Thomas M. Donahue papers 1939-2002</titleproper>
+      <author>Finding aid created by <lb/>Lanell Evon James, July 2006</author>
+    </titlepage>
+  </frontmatter>
+  <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
+    <did>
+      <origination>
+        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n91055338">Donahue, Thomas M.</persname>
+      </origination>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">2.75 linear feet</extent>
+      </physdesc>
+      <unittitle encodinganalog="245">Thomas M. Donahue papers <unitdate type="inclusive" encodinganalog="245$f" normal="1939/2002">1939-2002</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1980/1998">1980-1998</unitdate></unittitle>
+      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">07126 Aa 2</unitid>
+      <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
+      <abstract>Thomas M. Donahue (1921-2004), space and planetary scientist and professor of physics, was one of the nation's pioneers in space exploration. He shaped space exploration through his scientific research and advocacy. The collection includes correspondence, proposals, presentations, talks, writings, and photographs reflecting his career and covers the years 1939-2002, but primarily documents the period 1980-1998.</abstract>
+      <repository>
+        <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea>, University of Michigan</corpname>
+        <extptr href="bhladd" show="embed" actuate="onload"/>
+      </repository>
+    </did>
+    <descgrp type="admin">
+      <acqinfo encodinganalog="541">
+        <p>The papers (donor no. <num type="donor" encodinganalog="541$e">9607</num>) were received from Esther Donahue on May 24, 2005</p>
+      </acqinfo>
+      <accruals encodinganalog="584">
+        <p>No further additions are expected.</p>
+      </accruals>
+      <accessrestrict encodinganalog="506">
+        <p>The collection is open to research.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+        <p>Copyright is held by the Regents of the University of Michigan.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+        <p>[item], folder, box,
+Thomas M. Donahue papers, Bentley Historical Library, University of Michigan</p>
+      </prefercite>
+    </descgrp>
+    <bioghist encodinganalog="545">
+      <p>Thomas M. Donahue was born in Healdton, Oklahoma of Irish-American parents on May 23, 1921, and was raised in Kansas City, Missouri. He stayed in Missouri to complete his studies at Rockhurst College, and by 1942 he had earned degrees in both classics and physics. He left soon after to start graduate work in the physics department at Johns Hopkins University in Baltimore. His work was waylaid in 1944-1945 by service in the Signal Corps of the United States Army. Returning to Johns Hopkins he received his PhD in atomic physics in the fall of 1947, and from 1948 to 1951 he was assistant professor of physics.</p>
+      <p>Following his appointment as assistant professor at Johns Hopkins, Donahue joined the University of Pittsburgh as an assistant professor in 1951 and by 1959 he was promoted to the rank of full professor of physics, serving until 1974. While at the University of Pittsburgh he organized an atomic physics and atmospheric science program that led to the experimental and theoretical study of the upper atmosphere of the Earth and spacecraft explorations of Mars, Venus, and the outer planets. By 1974, Donahue concurrently held two director positions, one at the Space Research Coordination Center, 1970-1974 and the other at the Laboratory for Atmospheric and Space Science from 1966 to 1974.</p>
+      <p>In 1974 Donahue joined the University of Michigan faculty as chairman of the Department pf Atmospheric and Oceanic Science, a position he held until 1980. Throughout his research and teaching career at the University of Michigan he was regarded as the foremost expert on the atmosphere and ionosphere of Venus, as well as how atmospheric chemistry influenced the evolution and behavior of planets. As such, Donahue pursued his growing interest in the problem of anthropogenic destruction of the stratospheric ozone by founding and directing the Project for the Integrated Study of Global Change from 1990-1992.</p>
+      <p>Donahue displayed a strong commitment to atmospheric science and space research through his professional activities and associations. During his early work with the National Aeronautics and Space Administration (NASA) he was Chairman of the steering group responsible for two Venus missions. He was also an experimenter on several missions including Apollo-17, Voyager, Galileo and the Cassini mission to Saturn and the outer planets. He was elected to the National Academy of Sciences in 1983 and was the chairman of the Space Science Board of the National Research Council (NRC) from 1982 to1988. He has also served on numerous governmental and scientific advisory boards and committees, such as the Committee on Atmosphere Sciences, Geophysics Research Board, and several university consortia working groups.</p>
+      <p>Donahue received many honors over the years. He won eight NASA Achievement Awards, several NASA Public Service Awards, and the Wellock Distinguished Research Accomplishment Award from the University of Michigan in 1981. In the same year he also received the distinguished Arctowski Medal from the NAS and the John Adams Fleming Medal from the American Geophysical Union. In 1988, he was given the Space Science Award from the American Institute of Aeronautics and Astronautics. Also notable is the Henry Russel Award of 1986, one of the highest honors bestowed upon a University of Michigan faculty member.</p>
+      <p>Donahue authored over 200 publications and was editor of <title render="italic">Space Research X</title> in 1970 and <title render="italic">Venus</title> in 1983. He was also associate editor of <title render="italic">Reviews of Geophysics and Space Sciences-Planetary and Space Science.</title></p>
+      <p>Donahue was a lover of his Irish ancestry. He studied both oral and written sources and was known for his efforts to support the establishment of the International O'Donoghue Society. He was survived by his wife Esther, and three sons: Brian, Kevin, and Neil.</p>
+      <p>_ _ _ _ _ _ _ _ _ _ _ _ _</p>
+      <list type="simple">
+        <head>Sources:</head>
+        <item>Biographical sketch and resume, 12/18/1996, Biographical Folder- Box 1.</item>
+        <item>"Thomas Donahue, 83, Expert On Space Exploration of the Planets," <title render="italic">New York Times</title> [Obituary] October 19, 2004.</item>
+        <item>Engineering Faculty Pages: http://data.engin.umich.edu/faculty_staff/faculty/Donahue.html</item>
+        <item>Thomas M. Donahue, 1921-2004, Daily Planet, Fall 2004.</item>
+        <item>[Obituary- Thomas Donahue]. <title render="italic">The University Record Online</title>, URL as of 6/27/2006: http://www.umich.edu/-urecord/0405/Oct25 04/obits.shtml</item>
+        <item>Planetary Scientist Donahue Dies at 83 <title render="italic">The Ann Arbor News</title>, B5, October 20, 2004.</item>
+        <item>In Memoriam <title render="italic">News of Michigan Physics</title>, vol. 18 no. 1, Fall/Winter 2004, page 9.</item>
+      </list>
+    </bioghist>
+    <scopecontent encodinganalog="520">
+      <p>The Thomas Donahue papers include correspondence, proposals, presentations, talks, writings, and photographs reflecting his career. The papers, 2.75 linear feet, date from 1939 to 2002, but primarily document the period 1980-1998. The papers are organized into five series: Biographical; Presentations, Talks, and Writings; Professional Activities; University of Michigan; and Correspondence.</p>
+    </scopecontent>
+    <controlaccess>
+      <p>
+        <extptr href="accnote" show="embed" actuate="onload"/>
+      </p>
+      <controlaccess>
+        <head>Subjects:</head>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n91055338">Donahue, Thomas M.</persname>
+        <subject source="lcsh" encodinganalog="650">Space sciences.</subject>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Atmospheric, Oceanic and Space Sciences.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
+        <geogname source="lcsh" encodinganalog="651">Venus (Planet)--Atmosphere.</geogname>
+      </controlaccess>
+      <controlaccess>
+        <head>Genre Terms:</head>
+        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+      </controlaccess>
+    </controlaccess>
+    <dsc type="combined">
+      <c01 level="series">
+        <did>
+          <unittitle>Biographical</unittitle>
+        </did>
+        <scopecontent>
+          <p>The Biographical series (0.2 linear feet) includes versions of Donahue's curriculum vitae, lists of publications, and brief biographical statements along with scattered clippings. Also included are photographs of Donahue, both portraits, candid, and in groups. The photographs are undated but cover roughly 1950 to 2000.</p>
+          <p>Presentations, Talks, and Writings, 1939-1988 (1.0 linear feet) is a chronologically arranged sequence containing Donahue's presentations, talks, and writings. Included in this series are transcripts of testimonies given before government committees, both published and unpublished research writings, biographical records, lectures, and editorials. Also contained in this series are photos of Donahue and a VHS videotape of his lecture on "The Galileo Mission to Jupiter."</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Biographical <unitdate type="inclusive" normal="1970/1997">1970-1997</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Photos <unitdate type="inclusive">undated</unitdate></unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Presentations, Talks, and Writings <unitdate type="inclusive" normal="1939/1998">1939-1998</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
+        </did>
+        <scopecontent>
+          <p>Presentations, Talks, and Writings, 1939-1988 (1.0 linear feet) is a chronologically arranged sequence containing Donahue's presentations, talks, and writings. Included in this series are transcripts of testimonies given before government committees, both published and unpublished research writings, biographical records, lectures, and editorials. Also contained in this series are photos of Donahue and a VHS videotape of his lecture on "The Galileo Mission to Jupiter."</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <unittitle>Chronological</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Civilization, Culture, and Today and God <unitdate type="inclusive" normal="1939-12-18">December 18, 1939</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Radiative Transfer in Planetary Atmospheres and Astronomy <unitdate type="inclusive" normal="1966">1966</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>FAA Hearing on Concorde <unitdate type="inclusive" normal="1975-04-14">April 14, 1975</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Effect of Odd Hydrogen on Ozone Depletion by Chlorine Reactions <unitdate type="inclusive" normal="1976-02">February 1976</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Ultraviolet Stellar Occultation Measurement of the H2 and 02 Densities Near 100 km in the Earth's Atmosphere <unitdate type="inclusive" normal="1976">1976</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>A Program of Stratospheric Research <unitdate type="inclusive" normal="1977-07">July 1977</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Oxides of Nitrogen and the Clouds of Venus <unitdate type="inclusive" normal="1979" certainty="approximate">circa 1979</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Lessons from Venus (draft) <unitdate type="inclusive" normal="1980-03-08">March 8, 1980</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Comparative Planetology of Atmospheres (Presentation to the Solar System Exploration Committee <unitdate type="inclusive" normal="1981-04-20">April 20, 1981</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Impact of the ISPM Decision on International Cooperation and Relations with the Scientific Community <unitdate type="inclusive" normal="1981-07-28">July 28, 1981</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Copernicus Measurement of the Jovian Lyman-Alpha Emission in <unitdate type="inclusive" normal="1980">1980</unitdate> and its Aeronomical Significance, <unitdate type="inclusive" normal="1982-01-24">January 24, 1982</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Direction of the Development of a Civil Space Station <unitdate type="inclusive" normal="1983-11-15">November 15, 1983</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>FY '85 Budget Request <unitdate type="inclusive" normal="1984-03-05">March 5, 1984</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>[Bevilacqua Paper (1983)] <unitdate type="inclusive" normal="1984-04-05">April 5, 1984</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Letter to the Brown Alumni Monthly <unitdate type="inclusive" normal="1985-02-25">February 25, 1985</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Water Vapor in the Atmosphere of Venus <unitdate type="inclusive" normal="1985-04-08">April 8, 1985</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>[Talk on Fred] <unitdate type="inclusive" normal="1985-09-30">September 30, 1985</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Discussion of Mankind's Effect on the Stratospheric Ozone <unitdate type="inclusive" normal="1985-09-30">September 30, 1985</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Mission to Planet Earth <unitdate type="inclusive" normal="1985-11-13">November 13, 1985</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>[FY '86 Budget Request] <unitdate type="inclusive" normal="1986" certainty="approximate">circa 1986</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>[FY '1987 NASA Budget Authorization] <unitdate type="inclusive" normal="1986-02-27">February 27, 1986</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>[FY '87 Budget Request] <unitdate type="inclusive" normal="1986-04-10">April 10, 1986</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>The Nation's Space Program After Challenger: The Roles of Manned and Unmanned Systems for Launching Scientific Space Missions <unitdate type="inclusive" normal="1986-05-21">May 21, 1986</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Assured Access to Space: Payload Priorities <unitdate type="inclusive" normal="1986-07-21">July 21, 1986</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>[Hearing on] Assessment of Science Recommendations in Paine Commission Report and Implications for Space Science Program of Challenger Loss <unitdate type="inclusive" normal="1986-07-22">July 22, 1986</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Report to the National Commission on Space <unitdate type="inclusive" normal="1986-07-23">July 23, 1986</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>How the Planets Got and Lost Their Atmospheres and Oceans <unitdate type="inclusive" normal="1987-04-10">April 10, 1987</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>On the Matter of Resignation of the Chairman of the Space Science Board <unitdate type="inclusive" normal="1987-04-13">April 13, 1987</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Introduction to Space Science Issue <unitdate type="inclusive" normal="1988-04-13">April 13, 1988</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Solar Cycle of H+ and D+ Densities in the Venus Ionosphere: Implications for Escape <unitdate type="inclusive" normal="1992" certainty="approximate">circa 1992</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Hydrogen and Sculpture Compounds on Venus <unitdate type="inclusive" normal="1992">1992</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>High Resolution Studies of Upper Atmospheric Weather <unitdate type="inclusive" normal="1992-02-06">February 6, 1992</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>EOS Report Contribution: Venus Symposium, August 17,1992</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>The Aeronomical Pilgrim's Progress <unitdate type="inclusive" normal="1995">1995</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Evolution of Water Reservoirs on Mars from D/H Ratios in the Atmosphere and Crust <unitdate type="inclusive" normal="1995-03-30">March 30, 1995</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Waynick Lecture: The Galileo Mission to Jupiter (VHS Videotape) <unitdate type="inclusive" normal="1996-04-12">April 12, 1996</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Scientific Interpretation of Galileo Probe Mass Spectrometer Measurements <unitdate type="inclusive" normal="1997">1997</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Composition of the Joint Atmosphere as Determined by the Galileo Probe Mass Spectrometer <unitdate type="inclusive" normal="1998" certainty="approximate">circa 1998</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <unitdate type="inclusive">Undated</unitdate>
+            </unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>A Call for A National Policy of Preeminence in Space Science</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Comets and Water on Venus: Venus Was Wet <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Comparative Planetology of Venus and Earth <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Experiment and Operations Sequence for ISO-SL 1 <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>An Interpretation of the Voyager Measurement of Jovian Electron Density Profiles <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Interstellar Medium and Small Comet Contribution to Hydrogen Lyman-Emission <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Methane Measurement by the Pioneer Venus Large Probe Neutral Mass Spectrometer <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>[National Aeronautics and Space Act of 1958] <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Planets <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Science and the Space Station <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Space Science in the Twenty-First Century: A Study by the Space Science Board <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Temperatures in a Postulated Steam Atmosphere, and Implications for History of Water on Venus <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Venus Methane and Hydrogen <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Water on Terrestrial Planets (Abstract) <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Why Explore Venus? <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Professional Activities <unitdate type="inclusive" normal="1971/2004">1971-2004</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
+        </did>
+        <scopecontent>
+          <p>Professional Activities, 1971-2004 (0.50 linear feet) is an alphabetically arranged sequence documenting Thomas Donahue's professional activity within scientific organizations, committees, and advisory boards, research related working groups, and national symposiums. Of particular note is Donahue's involvement with the National Academy of Sciences, where he served as chairman of the Space Science Board from 1982 to 1988. Also contained in this series is research-related correspondence of the Noble Gas Group, as well as a small amount of National Aeronautics and Space Administration (NASA) material concerning the Voyager and Challenger missions.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <unittitle>American Geophysical Union (AGU)</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Committee on Public Affairs <unitdate type="inclusive" normal="1990/1992">1990-1992</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Spring Session <unitdate type="inclusive" normal="1998">1998</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Arecibo Advisory Board <unitdate type="inclusive" normal="1985/1989">1985-1989</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Consortium for the International Earth Science Information Network (CIESIN) <unitdate type="inclusive" normal="1990">1990</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Committee to Visit the Department of Earth and Planetary Science (Harvard) <unitdate type="inclusive" normal="1994/1997">1994-1997</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>National Academy of Sciences (NAS)</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Correspondence <unitdate type="inclusive" normal="1984">1984</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Correspondence <unitdate type="inclusive" normal="1986">1986</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Correspondence <unitdate type="inclusive" normal="1987">1987</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Correspondence <unitdate type="inclusive" normal="1988/2004">1988-2004</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Report Review Committee <unitdate type="inclusive" normal="1985">1985</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Voyager Missions Symposium <unitdate type="inclusive" normal="1989/1990">1989-1990</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>American Institute of Aeronautics and Astronautics (AIAA) <unitdate type="inclusive" normal="1983/1992">1983-1992</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Pioneer-Venus Orbiter Mission <unitdate type="inclusive" normal="1973/1978">1973-1978</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>National Astronomy and Ionosphere Center Advisory Board (Arecibo Observatory <unitdate type="inclusive" normal="1971/1974">1971-1974</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>National Balloon Facility (NSBF) <unitdate type="inclusive" normal="1985/1988">1985-1988</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Noble Gas Group (Research Related) <unitdate type="inclusive" normal="1996/1997">1996-1997</unitdate></unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
+              </physdesc>
+              <unittitle>
+                <unitdate type="inclusive" normal="1996">1996</unitdate>
+              </unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1997">1997</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Space Lab 1 <unitdate type="inclusive" normal="1983">1983</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Space Science Board (SSB)</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Long-Range Study <unitdate type="inclusive" normal="1985">1985</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Summer Study <unitdate type="inclusive" normal="1984">1984</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>USSR ESA Operations <unitdate type="inclusive" normal="1985">1985</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Space Telescope Institute Visiting Committee <unitdate type="inclusive" normal="1987/1989">1987-1989</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Warren-Thompson Award Selection Committee <unitdate type="inclusive" normal="1985/1987">1985-1987</unitdate></unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>University of Michigan <unitdate type="inclusive" normal="1985/1993">1985-1993</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
+        </did>
+        <scopecontent>
+          <p>University of Michigan, 1985-1993 (0.25 linear feet) is an alphabetically arranged sequence primarily documenting Donahue's involvement at the University of Michigan in the Department of Atmospheric and Oceanic Science, the Astrophysics Institute and the Global Change Project. Within this series are materials related to the Donahue Memorial Colloquium. Of particular note is a photo album of the Donahue Memorial Colloquium from 1992. The album includes a tribute letter from Pulitzer Prize winning writer Russell Baker who was a student of Donahue's at Johns Hopkins. Also included are photos from his Henry Russel Award Ceremony in 1986.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Atmospheric and Oceanic Science (AOS) Review Committee <unitdate type="inclusive" normal="1985/1986">1985-1986</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Astrophysics Institute <unitdate type="inclusive" normal="1988/1993">1988-1993</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Computation Notebook <unitdate type="inclusive" normal="1995" certainty="approximate">circa 1995</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Global Change Project (GCP)</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Corporate Sponsors <unitdate type="inclusive" normal="1989/1991">1989-1991</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Correspondence <unitdate type="inclusive" normal="1989/1992">1989-1992</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Newspapers Articles <unitdate type="inclusive" normal="1990">1990</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
+              </physdesc>
+              <unittitle>Proposal <unitdate type="inclusive" normal="1989/1992">1989-1992</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Senior Faculty Search Committee <unitdate type="inclusive" normal="1992">1992</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Workshops <unitdate type="inclusive" normal="1988/1991">1988-1991</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Henry Russel Lecturer Award (includes photographs) <unitdate type="inclusive" normal="1986">1986</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Donahue Memorial Colloquium</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Invitations and Letters <unitdate type="inclusive" normal="1992">1992</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>James J. Duderstadt's Presentation <unitdate type="inclusive" normal="1992-11">November 1992</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Thomas Donahue's Speech <unitdate type="inclusive" normal="1992">1992</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Photo Album (includes Russell Baker letter)</unittitle>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Correspondence <unitdate type="inclusive" normal="1974/2002">1974-2002</unitdate></unittitle>
+        </did>
+        <scopecontent>
+          <p>Correspondence, 1974-2002 (1.0 linear feet) is a chronologically arranged sequence of materials that documents Donahue's general communications concerning research, nominations, proposal reviews, publishing and editorials, professional activities, and a small amount of genealogy.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">6 folders</extent>
+            </physdesc>
+            <unittitle>
+              <unitdate type="inclusive" normal="1974/1982">1974-1982</unitdate>
+            </unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">8 folders</extent>
+            </physdesc>
+            <unittitle>
+              <unitdate type="inclusive" normal="1983/1990">1983-1990</unitdate>
+            </unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">3 folders</extent>
+            </physdesc>
+            <unittitle>
+              <unitdate type="inclusive" normal="1992">1992</unitdate>
+            </unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 folders</extent>
+            </physdesc>
+            <unittitle>
+              <unitdate type="inclusive" normal="1993">1993</unitdate>
+            </unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">6 folders</extent>
+            </physdesc>
+            <unittitle>
+              <unitdate type="inclusive" normal="1994/2002">1994-2002</unitdate>
+            </unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

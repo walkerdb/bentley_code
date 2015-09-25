@@ -1,0 +1,589 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead.dtd">
+<ead>
+  <eadheader audience="internal" langencoding="iso639-2b" repositoryencoding="iso15511" dateencoding="iso8601" relatedencoding="Dublin Core">
+    <eadid countrycode="us" mainagencycode="MiU-H" publicid="-//us::MiU-H//TEXT us::MiU-H::friezehs.xml//EN" encodinganalog="identifier">umich-bhl-851370</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="title">Finding Aid for Henry Simmons Frieze Papers <date>1835-1920</date></titleproper>
+        <author encodinganalog="creator">Collection processed and finding aid prepared by Michigan Historical Collections staff</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="publisher">Bentley Historical Library, University of Michigan</publisher>
+        <date encodinganalog="date">1944</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created by Thomas E. Powers <date>August 2001</date></creation>
+      <langusage>The finding aid is written in <language encodinganalog="language" langcode="eng">English.</language></langusage>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date>20031010</date>
+        <item>Converted to EAD2002 using Word macro and Xmetal</item>
+      </change>
+      <change>
+        <date>2001-08-28</date>
+        <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <frontmatter>
+    <titlepage>
+      <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
+      <titleproper>Finding Aid for <lb/>Henry Simmons Frieze Papers, <date type="inclusive">1835-1920</date></titleproper>
+      <author>Finding aid prepared by: <lb/>Michigan Historical Collections staff</author>
+    </titlepage>
+  </frontmatter>
+  <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
+    <did>
+      <origination>
+        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n85801636">Frieze, Henry S. (Henry Simmons), 1817-1889.</persname>
+      </origination>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1.3 linear foot</extent>
+      </physdesc>
+      <unittitle encodinganalog="245">Henry Simmons Frieze Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1835/1920">1835-1920</unitdate></unittitle>
+      <abstract>Professor of Latin and acting president of University of Michigan. Correspondence, 1855-1856, to his wife, describing his travels and experiences in Europe; also material pertaining to affairs of University of Michigan, including letters from Andrew D. White of Cornell University; biographical and genealogical material on Frieze, eighteen volumes of records of European travel; and photographs.</abstract>
+      <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">851370 Aa 2; UAx; UAm</unitid>
+      <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
+      <repository encodinganalog="852">
+        <corpname><subarea>Bentley Historical Library</subarea> University of Michigan</corpname>
+        <extptr href="bhladd" show="embed" actuate="onload"/>
+      </repository>
+    </did>
+    <descgrp type="admin">
+      <acqinfo encodinganalog="541">
+        <p>The collection was transferred from the Graduate Library (donor no. <num type="donor" encodinganalog="541$e">1278</num>) in 1944. The typed copies of Frieze's diaries were given to the library by Orma Fitch Butler (donor no. <num type="donor" encodinganalog="541$e">15</num>) in 1936.</p>
+      </acqinfo>
+      <accessrestrict encodinganalog="506">
+        <p>The collection is open for research.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+        <p>Copyright is retained by the Regents of the University of Michigan.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+        <p>item, folder title, box no., Henry Simmons Frieze Papers, Bentley Historical Library, University of Michigan</p>
+      </prefercite>
+    </descgrp>
+    <bioghist encodinganalog="545">
+      <p>Henry Simmons Frieze was born in Boston on September 15, 1817. He was educated at Brown University where he supported himself through his skills as an organist. Upon graduation in 1841, Frieze served as an instructor at Brown University and its grammar school. In 1854, Frieze was called to succeed Professor Haven as professor of Latin language and literature of the University of Michigan.</p>
+      <p>In 1869, Frieze was selected acting president of the University serving until 1871 when James B. Angell took office. During this period, women were first admitted to the university. Also while acting president, Frieze worked to improve the connection between the university and the high schools of the state through the establishment of the diploma system whereby schools that had been approved by a faculty committee could send students with diplomas for admission without examination.</p>
+      <p>Frieze also served as acting president on two other occasions when Angell was involved in diplomatic assignments from June 1880 to February 1882 and from October 1887 to January 1888. During the earlier of these periods, the university established schools of political science and mechanical engineering and also a professorship of music leading eventually to the formation of the University School of Music.</p>
+      <p>Frieze died December 7, 1889.</p>
+    </bioghist>
+    <scopecontent encodinganalog="520">
+      <p>The Frieze papers are an accumulation of various personal and professional materials, including correspondence, travel diaries and letters home written while traveling in Europe, 1855-1856 and 1872-1873; miscellaneous lectures and essays; papers from his years at Brown as a student and as an instructor of Latin; various papers on his views of university education and his ideas for curriculum improvements; and photographs.</p>
+    </scopecontent>
+    <controlaccess>
+      <controlaccess>
+        <head>Subjects:</head>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79021621">Cornell University.</corpname>
+        <geogname source="lcsh" encodinganalog="651">Europe--Description and travel.</geogname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n85801636">Frieze, Henry S. (Henry Simmons), 1817-1889.</persname>
+        <subject source="lcsh" encodinganalog="650">Travelers.</subject>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Chemical Laboratory.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Classical Studies.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan. President.</corpname>
+        <subject source="lcsh" encodinganalog="650">Voyages and travels.</subject>
+      </controlaccess>
+      <controlaccess>
+        <head>Subjects - Visual Material:</head>
+        <geogname source="lctgm" encodinganalog="651">Ann Arbor (Mich.)--Cemeteries.</geogname>
+        <geogname source="lctgm" encodinganalog="651">Ann Arbor (Mich.)--Dwellings.</geogname>
+        <geogname source="lctgm" encodinganalog="651">Ann Arbor (Mich.)--Streets.</geogname>
+        <subject source="lctgm" encodinganalog="650">Cemeteries--Michigan--Ann Arbor.</subject>
+        <subject source="lctgm" encodinganalog="650">Classrooms--Michigan--Ann Arbor.</subject>
+        <subject source="lctgm" encodinganalog="650">Dwellings--Michigan--Ann Arbor.</subject>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n85801636">Frieze, Henry S. (Henry Simmons), 1817-1889.</persname>
+        <corpname source="lcnaf" encodinganalog="610">Frieze Memorial Organ.</corpname>
+        <subject source="lctgm" encodinganalog="650">Interiors.</subject>
+        <subject source="lctgm" encodinganalog="650">Organs.</subject>
+        <subject source="lctgm" encodinganalog="650">Streets--Michigan--Ann Arbor.</subject>
+        <subject source="lctgm" encodinganalog="650">Tombs and sepulchral monuments.</subject>
+        <corpname source="lcnaf" encodinganalog="610">University Hall (University of Michigan)</corpname>
+        <geogname source="lcsh" encodinganalog="651">Washtenaw Avenue (Ann Arbor, Mich.)</geogname>
+      </controlaccess>
+      <controlaccess>
+        <head>Contributors:</head>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no90002065">Angell, James Burrill, 1829-1916.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n85809443">Barbour, Levi L. (Levi Lewis), 1840-1925.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n87105450">Boise, James Robinson, 1815-1895.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n86114039">Brooks, Phillips, 1835-1893.</persname>
+        <persname source="lcnaf" encodinganalog="700">Bröunnow, F. (Franz), 1821-1891.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50032078">Cooley, Thomas McIntyre, 1824-1898.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no95042899">Cutcheon, Byron M., 1836-1908.</persname>
+        <persname source="lcnaf" encodinganalog="700">Douglas, Silas H. (Silas Hamilton), 1816-1890.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50015182">Garfield, James A. (James Abram), 1831-1881.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no92004243">Harris, Samuel Smith, 1841-1888.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n85363436">Haven, E. O. (Erastus Otis), 1820-1881.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50050931">Reid, Whitelaw, 1837-1912.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n88277515">Rogers, Randolph, 1825-1892.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50003179">Schurz, Carl, 1829-1906.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79061314">Tappan, Henry Philip, 1805-1881.</persname>
+        <persname source="lcnaf" encodinganalog="700">Tappan, Julia Livingston.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50017038">Tyler, Moses Coit, 1835-1900.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n80032033">White, Andrew Dickson, 1832-1918.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/nr2005027879">Williams, George Palmer, 1802-1881.</persname>
+      </controlaccess>
+      <controlaccess>
+        <head>Genre/Form:</head>
+        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+        <genreform source="gmgpc" encodinganalog="655">Daguerreotypes.</genreform>
+      </controlaccess>
+    </controlaccess>
+    <dsc type="combined">
+      <c01 level="series">
+        <did>
+          <unittitle>Correspondence and other papers</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1845/1920">1845-1920</unitdate>
+            </unittitle>
+          </did>
+          <odd>
+            <p>(folders 1-9)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Letters from James B. Angell to the Frieze family</unittitle>
+          </did>
+          <odd>
+            <p>(folder 9-a)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Letters from Lois T. Angell to Carrie Frieze <unitdate type="inclusive" normal="1881">1881</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(folder 9-b)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Letters from A.D. White <unitdate type="inclusive" normal="1880/1881">1880-1881</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(photocopies; originals at Cornell University)</p>
+          </odd>
+          <odd>
+            <p>(folder 9-c)</p>
+          </odd>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Travels</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">15 notebooks, no. 1-15</extent>
+            </physdesc>
+            <unittitle>Diary and jotting books of European trip <unitdate type="inclusive" normal="1855/1856">1855-1856</unitdate></unittitle>
+            <physdesc>
+              </physdesc>
+          </did>
+          <odd>
+            <p>(folder 18)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 volumes</extent>
+            </physdesc>
+            <unittitle>Typescript of diary and jotting books of European trip <unitdate type="inclusive" normal="1855/1856">1855-1856</unitdate></unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+          <odd>
+            <p>(typescript made in 1919 when originals were still in family possession)</p>
+          </odd>
+          <odd>
+            <p>(folders 10-11)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 folders</extent>
+            </physdesc>
+            <unittitle>Pictures and memorabilia of European trip <unitdate type="inclusive" normal="1855/1856">1855-1856</unitdate></unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+          <odd>
+            <p>(folders 29-30)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Diary of European trip with historical notes <unitdate type="inclusive" normal="1872/1873">1872-1873</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(folder 12)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Sketch book of Italy</unittitle>
+          </did>
+          <odd>
+            <p>(folder 25)</p>
+          </odd>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Writings, lectures, etc</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Address at Brown University <unitdate type="inclusive" normal="1841">1841</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(folder 13)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Lecture notes <unitdate>undated</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(folder 14)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Papers entitled, "The reading of the Scriptures" and "The future of Christianity" <unitdate>undated</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(folder 15)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Essay: "French's statue of Gen. Cass"</unittitle>
+          </did>
+          <odd>
+            <p>(folder 16)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Draft of essay re cartoons</unittitle>
+          </did>
+          <odd>
+            <p>(folder 17)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>College essays <unitdate type="inclusive" normal="1838/1841">1838-1841</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(folder 20)</p>
+          </odd>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Brown University</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Report concerning Frieze's service to Brown</unittitle>
+          </did>
+          <odd>
+            <p>(folder 21)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Minutes of Brown Music Group</unittitle>
+          </did>
+          <odd>
+            <p>(folder 26)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>College financial statements <unitdate type="inclusive" normal="1838">1838</unitdate>, <unitdate type="inclusive" normal="1839">1839</unitdate>, <unitdate type="inclusive" normal="1941">1941</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(folder 27)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Catalogs of Brown University <unitdate type="inclusive" normal="1842/1843">1842-1843</unitdate>, <unitdate type="inclusive" normal="1846/1847">1846-1847</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(folder 28)</p>
+          </odd>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Miscellaneous</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Biographical and genealogical material</unittitle>
+          </did>
+          <odd>
+            <p>(folder 22)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>re courses of study in the fine arts</unittitle>
+          </did>
+          <odd>
+            <p>(folder 23)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Draft of plan of studies and examinations for advanced students</unittitle>
+          </did>
+          <odd>
+            <p>(folder 24)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Date book <unitdate type="inclusive" normal="1854">1854</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(folder 31)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Frieze's copy of <title render="italic">C. Plini Secundi Naturalis Historiae</title></unittitle>
+          </did>
+          <odd>
+            <p>(with Frieze's marginal notes)</p>
+          </odd>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>
+            <genreform normal="Photographs">Visual Materials</genreform>
+          </unittitle>
+        </did>
+        <scopecontent>
+          <p>Portraits; photograph of Frieze home on Washtenaw Avenue in Ann Arbor, Michigan; interior photograph of University Hall showing the Frieze Memorial Organ, and interior photograph of classroom in which Frieze taught; and photographs of Frieze's tombstone.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Album of University of Michigan faculty</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <genreform source="aat" normal="Photographs">Photographs</genreform>
+            </unittitle>
+          </did>
+          <odd>
+            <p>see also oversize folder UAm and UAx photos</p>
+          </odd>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">3 folders</extent>
+              </physdesc>
+              <unittitle>Portraits of Frieze</unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Miscellaneous</unittitle>
+            </did>
+            <odd>
+              <p>(photographs of Frieze's home on Washtenaw Ave.; his recitation room at the university; and his cenotaph)</p>
+            </odd>
+          </c03>
+        </c02>
+      </c01>
+    </dsc>
+    <descgrp type="add">
+      <index>
+        <head>Selective index to correspondents</head>
+        <indexentry>
+          <persname>Angell, James Burrill, 1829-1916.</persname>
+          <ref>
+            <list type="simple">
+              <item>1890 and folder 9-a</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Barbour, Levi L. (Levi Lewis), 1840-1925.</persname>
+          <ref>
+            <list type="simple">
+              <item>Feb. 2, 1888, Feb. 11, 1888</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Boise, James Robinson, 1815-1895.</persname>
+          <ref>
+            <list type="simple">
+              <item>Jan. 2, 1856, Apr. 29, 1856, Nov. 5, 1871, Apr. 25, 1881, Nov. 9, 1881, Nov. 7, 1882, Mar. 6, 1885, Apr. 17, 1887, 1888</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Brooks, Phillips, 1835-1893.</persname>
+          <ref>
+            <list type="simple">
+              <item>Oct. 28, 1881, Oct. 9, 1884</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Brðunnow, F. (Franz), 1821-1891.</persname>
+          <ref>
+            <list type="simple">
+              <item>Feb. 1856</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Cooley, Thomas McIntyre, 1824-1898.</persname>
+          <ref>
+            <list type="simple">
+              <item>1881</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Cutcheon, Byron M., 1836-1908.</persname>
+          <ref>
+            <list type="simple">
+              <item>Feb. 14, 1885</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Douglas, Silas H. (Silas Hamilton), 1816-1890.</persname>
+          <ref>
+            <list type="simple">
+              <item>Nov. 7, 1881</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Garfield, James A. (James Abram), 1831-1881.</persname>
+          <ref>
+            <list type="simple">
+              <item>June 21, 1880</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Harris, Samuel Smith, 1841-1888.</persname>
+          <ref>
+            <list type="simple">
+              <item>1880-1884 throughout</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Haven, E. O. (Erastus Otis), 1820-1881.</persname>
+          <ref>
+            <list type="simple">
+              <item>Mar. 19, 1881</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Reid, Whitelaw, 1837-1912.</persname>
+          <ref>
+            <list type="simple">
+              <item>Mar. 12, 1881</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Rogers, Randolph, 1825-1892.</persname>
+          <ref>
+            <list type="simple">
+              <item>Oct. 11, 1857, Aug. 17, 1866, Feb. 6, 1869</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Schurz, Carl, 1829-1906.</persname>
+          <ref>
+            <list type="simple">
+              <item>Apr. 5, 1881</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Tappan, Julia Livingston.</persname>
+          <ref>
+            <list type="simple">
+              <item>Nov. 28, 1882, Jan. 1883</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Tyler, Moses Coit, 1835-1900.</persname>
+          <ref>
+            <list type="simple">
+              <item>1881, 1888</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>White, Andrew Dickson, 1832-1918.</persname>
+          <ref>
+            <list type="simple">
+              <item>Throughout</item>
+            </list>
+          </ref>
+        </indexentry>
+      </index>
+    </descgrp>
+  </archdesc>
+</ead>

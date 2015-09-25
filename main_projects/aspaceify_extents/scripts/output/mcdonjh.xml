@@ -1,0 +1,912 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead.dtd">
+<ead>
+  <eadheader audience="internal" langencoding="iso639-2b" repositoryencoding="iso15511" dateencoding="iso8601" relatedencoding="Dublin Core">
+    <eadid countrycode="us" mainagencycode="MiU-H" publicid="-//us::MiU-H//TEXT us::MiU-H::mcdonjh.xml//EN" encodinganalog="identifier">umich-bhl-0235</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="title">Finding Aid for McDonald Family Papers <date>1783-1938</date></titleproper>
+        <author encodinganalog="creator">Collection processed and finding aid prepared by Leigh Jasmer</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="publisher">Bentley Historical Library, University of Michigan</publisher>
+        <date encodinganalog="date">February 2002</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created by Leigh Jasmer <date>February 2002</date></creation>
+      <langusage>The finding aid is written in <language encodinganalog="language" langcode="eng">English.</language></langusage>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date>2011-12-15</date>
+        <item>Main entry changed from James Henry McDonald to McDonald Family.</item>
+      </change>
+      <change>
+        <date>20031010</date>
+        <item>Converted to EAD2002 using Word macro and Xmetal</item>
+      </change>
+      <change>
+        <date>2002-03-12</date>
+        <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <frontmatter>
+    <titlepage>
+      <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
+      <titleproper>Finding Aid for <lb/>McDonald Family Papers, <date type="inclusive">1783-1938</date></titleproper>
+      <author>Finding aid prepared by: <lb/>Leigh Jasmer</author>
+    </titlepage>
+  </frontmatter>
+  <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
+    <did>
+      <origination>
+        <famname source="lcnaf" encodinganalog="100">McDonald family.</famname>
+      </origination>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">1 oversized volume</extent>
+      </physdesc>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">2 oversized folders</extent>
+      </physdesc>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">2.4 linear feet</extent>
+      </physdesc>
+      <unittitle encodinganalog="245">McDonald Family Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1783/1938">1783-1938</unitdate></unittitle>
+      <abstract>Detroit family; one member, James Henry McDonald, was a graduate of the University of Michigan (B.A., 1876; Law, 1878), who practiced law in Detroit; his wife, Christine Jewell, was active in the state Democratic Party. The collection has been arranged into five series: the McDonald Family, the Martha Wells McLellan Family, the Christine Jewell Family, Miscellaneous Files, and Photographs.</abstract>
+      <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">0235 Aa 2 Ac AC UAm</unitid>
+      <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
+      <repository>
+        <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea> University of Michigan</corpname>
+        <extptr href="bhladd" show="embed" actuate="onload"/>
+      </repository>
+    </did>
+    <descgrp type="admin">
+      <acqinfo encodinganalog="541">
+        <p>Materials were received in February 2001 from Ketura Thunder-Haab, current owner of the James McDonald estate in Glencoe Hills, Ypsilanti. (Donor no. <num type="donor" encodinganalog="541$e">9064</num>)</p>
+      </acqinfo>
+      <accessrestrict encodinganalog="506">
+        <p>The collection is open for research.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+        <p>Copyright has been transferred to the Regents of the University of Michigan.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+        <p>item, folder title, box no., McDonald Family Papers, Bentley Historical Library, University of Michigan</p>
+      </prefercite>
+    </descgrp>
+    <bioghist encodinganalog="545">
+      <p>The McDonald / McLellan / Jewell family collection relates primarily to the activities of James Henry McDonald, his second wife Martha Wells McLellan and her family, and his third wife Christine Jewell and her family.</p>
+      <p>James Henry McDonald (1853-1934) was a Detroit lawyer. He was educated at the University of Michigan, receiving his B.A. from the Department of Literature, Science &amp; the Arts in 1876 and his LL.B. from the Law Department in 1878. Throughout his life, he remained involved with University events and helping to coordinate his class reunions.</p>
+      <p>James McDonald was married three times. His first wife, Martha Ireton, died suddenly in 1889. They had one daughter together, Martha Ireton McDonald. James later married Martha Wells McLellan. Together they had three daughters, Mary McLellan McDonald (Harris), Elizabeth Ann McDonald (Smith), and Margaret McDonald (Parr). Martha McLellan passed away in 1900 leaving extensive land holdings in Detroit, particularly along Cass Avenue and Woodward Avenue. The distribution of these lands among the children became a long-standing debate in the family.</p>
+      <p>Christine Jewell became James's third wife. Christine was an active Democrat and increasingly became involved with politics. She worked her way through the party to the position of vice chairman of the Democratic State Central Committee in 1937. She spent a large portion of time in Washington, D.C. and became well known among political figures. She was also heavily involved in the Daughters of the American Revolution and held various positions within the organization. She was also an avid genealogist, compiling histories and collecting materials about the Jewell family, the McDonalds, and the families of McDonald's other wives.</p>
+      <p>Christine's father was William Franklin Jewell, a successful Detroit businessman. After working in other faculty positions around the city, he founded the Detroit Business University in 1864. As president, he became a highly esteemed professional. He was involved with many Detroit activities including the Banker's Club, the Municipal League of Detroit, and was a member of the Church of Our Father, Universalist.</p>
+      <p>James McDonald retired in 1928. He and Christine moved to their country estate, Glencoe Hills, in Ypsilanti. He passed away in 1934.</p>
+    </bioghist>
+    <scopecontent encodinganalog="520">
+      <p>The McDonald papers contain personal and business papers collected by James Henry McDonald and by his wife Christine Jewell McDonald. The collection includes correspondence, ledgers, genealogical material and family histories, business records and photographs. Topics and activities documented in the collection include James McDonald's education at the University of Michigan and law practice in Detroit; genealogy of the McDonald, Hallock, McLellan and Jewell families; business papers of William Jewell, including some relating to his founding of the Detroit Business University in 1864; correspondence of Emma Jewell's life as a Christian Scientist; Ogden Jewell's experience as a University of Michigan Student and his enlistment in the Spanish-American War; and correspondence of Christie Jewell concerning her activities in the Democratic party, including a term a vice-chair of the state Democratic Party Central Committee in 1937-1938.</p>
+      <p>The collection contains five series: McDonald Family, the Martha Wells McLellan Family, Christine Jewell Family, Miscellaneous Files, and Photographs.</p>
+    </scopecontent>
+    <controlaccess>
+      <p>
+        <extptr href="accnote" show="embed" actuate="onload"/>
+      </p>
+      <controlaccess>
+        <head>Subjects:</head>
+        <subject source="lcsh" encodinganalog="650">Christian Scientists--Michigan.</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n83163731">Democratic Party (Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Detroit Business University.</corpname>
+        <famname source="lcnaf" encodinganalog="600">Jewell family.</famname>
+        <famname source="lcnaf" encodinganalog="600">McDonald family.</famname>
+        <persname source="lcnaf" encodinganalog="600">McDonald, James Henry, 1853-1934.</persname>
+        <geogname source="lcsh" encodinganalog="651">Michigan--Politics and government--1929-1938.</geogname>
+        <subject source="lcsh" encodinganalog="650">Spanish-American War, 1898.</subject>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Students--Social life and customs.</corpname>
+        <subject source="lcsh" encodinganalog="650">Women in politics--Michigan.</subject>
+      </controlaccess>
+      <controlaccess>
+        <head>Subjects - Visual Material:</head>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n98032926.html">Algonac (Mich.)</geogname>
+        <subject source="lctgm" encodinganalog="650">Business enterprises--Michigan--Detroit.</subject>
+        <corpname source="lcnaf" encodinganalog="610">Detroit Business University.</corpname>
+        <famname source="lcnaf" encodinganalog="600">Jewell family.</famname>
+        <famname source="lcnaf" encodinganalog="600">McDonald family.</famname>
+        <persname source="lcnaf" encodinganalog="600">McDonald, James Henry, 1853-1934.</persname>
+        <subject source="lctgm" encodinganalog="650">Residences--Michigan--Ypsilanti.</subject>
+      </controlaccess>
+      <controlaccess>
+        <head>Contributors:</head>
+        <persname source="lcnaf" encodinganalog="700">Jewell, Ogden.</persname>
+        <persname source="lcnaf" encodinganalog="700">Jewell, William Franklin.</persname>
+        <persname source="lcnaf" encodinganalog="700">McDonald, Christine Jewell.</persname>
+        <persname source="lcnaf" encodinganalog="600">McDonald, James Henry, 1853-1934.</persname>
+        <persname source="lcnaf" encodinganalog="700">McLellan, Martha Wells.</persname>
+      </controlaccess>
+      <controlaccess>
+        <head>Genre/Form:</head>
+        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+      </controlaccess>
+    </controlaccess>
+    <dsc type="combined">
+      <c01 level="series">
+        <did>
+          <unittitle>McDonald Family</unittitle>
+        </did>
+        <scopecontent>
+          <p>The McDonald Family series includes ledgers, correspondence and other papers of James McDonald's ancestors. This series also includes personal and professional papers of James McDonald regarding his studies at the University of Michigan and his relationship with family members. The McDonald Family series contains two subseries: Early and Miscellaneous papers and James McDonald's papers.</p>
+        </scopecontent>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Early and Miscellaneous</unittitle>
+          </did>
+          <scopecontent>
+            <p>The Early and Miscellaneous papers include ledgers, correspondence, and land deeds from James McDonald's grandparents and great-grandparents. Included is William McDonald's ledger documenting his work as the treasurer for Mt. Clemens from 1840 to 1848. This series also includes a family history compiled by Christine Jewell McDonald in the early 1900s.</p>
+          </scopecontent>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Family History, 18th and 19th Century</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="folder" label="Oversize Folder">Ac</container>
+              <unittitle>Land Deeds (Detroit, Macomb County, and New York State) <unitdate type="inclusive" normal="1810/1847">1810-1847</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Ledgers</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="folder" label="Oversize Folder">AC</container>
+                <unittitle>Cash Book (probably owned by Richard McDonald) <unitdate type="inclusive" normal="1783/1837">1783-1837</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <unittitle>Personal and Business <unitdate type="inclusive" normal="1809/1850">1809-1850</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <unittitle>Mt. Clemens, Macomb Township <unitdate type="inclusive" normal="1840/1848">1840-1848</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Poetry and Writings <unitdate>undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Miscellaneous Correspondence <unitdate type="inclusive" normal="1864/1886">1864-1886</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>James McDonald</unittitle>
+          </did>
+          <scopecontent>
+            <p>The second subseries within the McDonald Family is the papers of James McDonald. This subseries documents McDonald's personal and professional life. McDonald's career in law is not documented in his papers aside from a few files regarding the founding and development of the St. John's Episcopal Church in Detroit and in Royal Oak. However, traces of his professional life are revealed in his personal correspondence with his children. He handled the business affairs of his children, often fueling stormy relations within the family. These letters detail the widening of Woodward Avenue in Detroit, and land holdings along Cass Avenue in Detroit and Geddes Road in Ann Arbor. McDonald's correspondence reveals his financial decline during the Depression. McDonald's daughters also attended the University of Michigan and describe life from the Sorosis House and the Newberry Residence. A small folder of material regarding McDonald's first wife, Martha Ireton McDonald, is also included.</p>
+          </scopecontent>
+          <c03 level="file">
+            <did>
+              <unittitle>University of Michigan</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <unittitle>Literary Class of 1876 <unitdate type="inclusive" normal="1876/1932">1876-1932</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <unittitle>Law Class of 1878 <unitdate type="inclusive" normal="1927/1929">1927-1929</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Business Credentials <unitdate type="inclusive" normal="1869/1877">1869-1877</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Law Activities <unitdate type="inclusive" normal="1880/1931">1880-1931</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Estate of Martha Ireton McDonald <unitdate type="inclusive" normal="1889/1899">1889-1899</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Desk Book <unitdate type="inclusive" normal="1927">1927</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>St. John's Episcopal Church, Royal Oak</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1914/1926">1914-1926</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1927/1930">1927-1930</unitdate>
+                </unittitle>
+              </did>
+              <odd>
+                <p>(see also Ac folder)</p>
+              </odd>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>St. John's Episcopal Church, Detroit <unitdate type="inclusive" normal="1921/1928">1921-1928</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Correspondence</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <unittitle>Personal <unitdate type="inclusive" normal="1883/1919">1883-1919</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <unittitle>Martha McDonald <unitdate type="inclusive" normal="1909/1912">1909-1912</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <unittitle>Mary McDonald Harris and Wilmer Harris <unitdate type="inclusive" normal="1913/1933">1913-1933</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>Elizabeth McDonald Smith and Clark Smith</unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">1</container>
+                  <unittitle>
+                    <unitdate type="inclusive" normal="1920/1925">1920-1925</unitdate>
+                  </unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">1</container>
+                  <unittitle>
+                    <unitdate type="inclusive" normal="1926/1928">1926-1928</unitdate>
+                  </unittitle>
+                </did>
+              </c05>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>Margaret McDonald Parr and MacGregor Armstrong Parr</unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">1</container>
+                  <unittitle>
+                    <unitdate type="inclusive" normal="1911/1924">1911-1924</unitdate>
+                  </unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">1</container>
+                  <unittitle>
+                    <unitdate type="inclusive" normal="1925/1933">1925-1933</unitdate>
+                  </unittitle>
+                </did>
+              </c05>
+            </c04>
+          </c03>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Martha Wells McLellan Family</unittitle>
+        </did>
+        <scopecontent>
+          <p>The Martha Wells McLellan Family series includes family and business papers from members of the family of McDonald's second wife. The series is divided into two subseries: Hallock family and McLellan Family.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <unittitle>Hallock Family</unittitle>
+          </did>
+          <scopecontent>
+            <p>The Hallock Family subseries contains an assortment of collected genealogical materials and land deeds from Washtenaw County, Genesee County, and Detroit.</p>
+          </scopecontent>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Family History <unitdate type="inclusive" normal="1834/1928">1834-1928</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="folder" label="Oversize Folder">Ac</container>
+              <unittitle>Land Deeds (Washtenaw County, Genesee County, Detroit) <unitdate type="inclusive" normal="1836">1836</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>McLellan Family</unittitle>
+          </did>
+          <scopecontent>
+            <p>The McLellan Family subseries also includes genealogical material as well as correspondence between Andrew McLellan, John C. McLellan, and other family members. These detail land holdings, business affairs, and deaths in the family.</p>
+          </scopecontent>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>History and Wills <unitdate type="inclusive" normal="1869/1902">1869-1902</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Correspondence</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <unittitle>Andrew McLellan <unitdate type="inclusive" normal="1859/1894">1859-1894</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <unittitle>John C. McLellan <unitdate type="inclusive" normal="1869/1878">1869-1878</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Christine Jewell Family</unittitle>
+        </did>
+        <scopecontent>
+          <p>The Christine Jewell family papers includes some papers of William Franklin Jewell, founder of Detroit Business University, papers of Emma Jewell detail her life as Christian Scientist, letters of Ogden Jewell relate to his studies at the University of Michigan and Spanish American War enlistment. Christine Jewell's papers concern Democratic party affairs, 1937-1938. The collection also includes miscellaneous non-family papers, and photographs. The Christine Jewell Family series contains two subseries, Early and Miscellaneous and Correspondence of family members</p>
+        </scopecontent>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Early and Miscellaneous</unittitle>
+          </did>
+          <scopecontent>
+            <p>Early and Miscellaneous contains family obituaries and a current topic essay book from Richmond Public School in Wisconsin. Also in this subseries are the business papers of William Franklin Jewell relating in part to the founding of the Detroit Business University.</p>
+          </scopecontent>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Obituaries <unitdate type="inclusive" normal="1877/1911">1877-1911</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Richmond Public School Essays (Wisconsin) <unitdate type="inclusive" normal="1860">1860</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Detroit Business University <unitdate type="inclusive" normal="1864/1912">1864-1912</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>William F. Jewell Business Papers <unitdate type="inclusive" normal="1856/1911">1856-1911</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Correspondence</unittitle>
+          </did>
+          <scopecontent>
+            <p>The Correspondence subseries contains letters from different family members. Isaac and S. Jewell describe farm life and family events. Margaret and William Jewell's correspondence is also about their family life. Emma Jewell details her personal life as a Christian Scientist. She also describes the declining mental status and asylum life of her sister, Mary. Ogden Jewell's letters are particularly rich with detail. His correspondence detail his University of Michigan student days, his search for engineering work in the western United States, and his enlistment in the Spanish American War. There is also a folder devoted to sympathy letters received after the deaths of William and Margaret's daughters, Emma and Margaret.</p>
+          </scopecontent>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>S. Jewell and Isaac Jewell <unitdate type="inclusive" normal="1866/1912">1866-1912</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Margaret B. Jewell and William Franklin Jewell</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1868/1891">1868-1891</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1892/1911">1892-1911</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Emma Jewell</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1869/1874">1869-1874</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1881/1889">1881-1889</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1890/1891">1890-1891</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1892/1893">1892-1893</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1894/1896">1894-1896</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1897/1898">1897-1898</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1899/1900">1899-1900</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1901">1901</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1902/1903">1902-1903</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1904/1908">1904-1908</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Mary McDonald Ogden and George Ogden <unitdate type="inclusive" normal="1868/1897">1868-1897</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Orecia Ogden <unitdate type="inclusive" normal="1868/1894">1868-1894</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Ogden Jewell</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1892/1893">1892-1893</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1894/1896">1894-1896</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1897">1897</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1898">1898</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1899">1899</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1900/1902">1900-1902</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1903">1903</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1904">1904</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1905">1905</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Franklin Jewell <unitdate type="inclusive" normal="1903/1904">1903-1904</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Regarding Margaret B. Jewell and William Franklin Jewell's Children's Deaths <unitdate type="inclusive" normal="1886/1906">1886-1906</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Christine Jewell McDonald</unittitle>
+            </did>
+            <scopecontent>
+              <p>Christine Jewell's correspondence follows her political activities within the state Democratic party. They are mainly letters to fellow political figures although there are a to few constituents as well. These files are in her original alphabetical filing scheme. The library did not receive files from the latter portion of the alphabet.</p>
+            </scopecontent>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle>Family <unitdate type="inclusive" normal="1904/1933">1904-1933</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle>Daughters of the American Revolution <unitdate type="inclusive" normal="1914/1919">1914-1919</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>Political <unitdate type="inclusive" normal="1937/1938">1937-1938</unitdate></unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">2</container>
+                  <unittitle>A-B</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">2</container>
+                  <unittitle>Andrew Belanger (Secretary, Democratic State Central Committee)</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">2</container>
+                  <unittitle>C-D</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">2</container>
+                  <unittitle>Mary Dewson (Vice Chairman, Democratic National Committee)</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">2</container>
+                  <unittitle>E-F</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">2</container>
+                  <unittitle>James A. Farley (Postmaster General)</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">2</container>
+                  <unittitle>G-H</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">2</container>
+                  <unittitle>Norman Hill (Executive Secretary, Executive Office, Michigan) (Includes Glencoe Hills Estate Description)</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">2</container>
+                  <unittitle>I-K</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">2</container>
+                  <unittitle>L-M</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unittitle>Dorothy McAllister (Director, Women's Division, Democratic National Committee)</unittitle>
+                </did>
+                <c06 level="file">
+                  <did>
+                    <container type="box" label="Box">2</container>
+                    <unittitle>
+                      <unitdate type="inclusive" normal="1937">1937</unitdate>
+                    </unittitle>
+                  </did>
+                </c06>
+                <c06 level="file">
+                  <did>
+                    <container type="box" label="Box">2</container>
+                    <unittitle>
+                      <unitdate type="inclusive" normal="1938">1938</unitdate>
+                    </unittitle>
+                  </did>
+                </c06>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">2</container>
+                  <unittitle>Michigan Democratic Women by County</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">2</container>
+                  <unittitle>Miscellaneous</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">3</container>
+                  <unittitle>Frank Murphy (Governor, Michigan)</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">3</container>
+                  <unittitle>N-O</unittitle>
+                </did>
+              </c05>
+            </c04>
+          </c03>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Miscellaneous Files</unittitle>
+        </did>
+        <scopecontent>
+          <p>Miscellaneous Files are ones that could not be associated with any particular family. One folder details the service and death of Lieutenant Edward B. Gibson in World War I. Another contains old recipes, mainly for wine. There is also a treaty for the Village of Pleasant Ridge in this series. The last folder contains papers of a German immigrant and resident of Royal Oak, John Henry Weber. He was a landscaper and also sold nursery items. His papers were found in a separate shoebox.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>Lt. Edward B. Gibson <unitdate type="inclusive" normal="1919">1919</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>Recipes</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>Village of Pleasant Ridge Treaty <unitdate type="inclusive" normal="1915/1918">1915-1918</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>John Henry Weber <unitdate type="inclusive" normal="1904/1929">1904-1929</unitdate></unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>
+            <genreform source="aat" encodinganalog="655" normal="Photographs">Photographs</genreform>
+          </unittitle>
+        </did>
+        <scopecontent>
+          <p>The last series contains Photographs of the McDonald and Jewell families. These include general snapshots, formal portraits, and the family home in Ypsilanti. There are also photos of the Detroit Business University and its faculty.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <unittitle>McDonald Family</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>General</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Estate, Glencoe Hills, Ypsilanti</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Scrapbook, Family Vacation to Colorado <unitdate type="inclusive" normal="1911">1911</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Jewell Family</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Portraits</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Houses</unittitle>
+            </did>
+            <odd>
+              <p>(see also outsized folder UAm)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Family Cottage, Pointe du Chene (Algonac)</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Detroit Business University</unittitle>
+            </did>
+            <odd>
+              <p>(see also outsized folder UAm)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Miscellaneous</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>Miscellaneous Portraits</unittitle>
+          </did>
+          <odd>
+            <p>(see also outsized folder UAm)</p>
+          </odd>
+        </c02>
+      </c01>
+    </dsc>
+    <descgrp type="add">
+      <relatedmaterial>
+        <head>Related Material</head>
+        <p>In 2011, the library received additional James Henry McDonald papers within the Sarah Drake Smith Fors collection.</p>
+      </relatedmaterial>
+    </descgrp>
+  </archdesc>
+</ead>

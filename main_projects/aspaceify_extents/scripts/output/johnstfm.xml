@@ -1,0 +1,480 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead.dtd">
+<ead>
+  <eadheader audience="internal" langencoding="iso639-2b" repositoryencoding="iso15511" dateencoding="iso8601" relatedencoding="Dublin Core">
+    <eadid countrycode="us" mainagencycode="MiU-H" publicid="-//us::MiU-H//TEXT us::MiU-H::johnstfm.xml//EN" encodinganalog="identifier">umich-bhl-85221</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="title">Finding Aid for Johnston Family Papers <date>1822-1936</date></titleproper>
+        <author encodinganalog="creator">Collection processed and finding aid prepared by Michigan Historical Collections staff</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="publisher">Bentley Historical Library, University of Michigan</publisher>
+        <date encodinganalog="date">2004</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created by Thomas E. Powers <date>January 2004</date></creation>
+      <langusage>The finding aid is written in <language encodinganalog="language" langcode="eng">English.</language></langusage>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date>20031010</date>
+        <item>Converted to EAD2002 using Word macro and Xmetal</item>
+      </change>
+      <change>
+        <date>20040105</date>
+        <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <frontmatter>
+    <titlepage>
+      <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
+      <titleproper>Finding Aid for <lb/>Johnston Family Papers, <date type="inclusive">1822-1936</date></titleproper>
+      <author>Finding aid prepared by: <lb/>Michigan Historical Collections staff</author>
+    </titlepage>
+  </frontmatter>
+  <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
+    <did>
+      <origination>
+        <famname source="lcnaf" encodinganalog="100">Johnston family.</famname>
+      </origination>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">0.75 linear feet</extent>
+      </physdesc>
+      <unittitle encodinganalog="245">Johnston Family Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1822/1936">1822-1936</unitdate></unittitle>
+      <abstract>Sault Ste. Marie, Michigan, family. Correspondence, photographs, and other papers of John Johnston, fur trader, son John McDouall Johnston, Indian interpreter for Henry R. Schoolcraft, and other family members; including letters containing impressions of Indian life and historical materials concerning Indian grammar and folklore, and the history of the Sault Ste. Marie, Michigan, region. Includes letter, Jan. 24, 1822, from John Johnston to Lewis Cass discussing Indian affairs.</abstract>
+      <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">85221 Aa 2</unitid>
+      <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
+      <repository>
+        <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea> University of Michigan</corpname>
+        <extptr href="bhladd" show="embed" actuate="onload"/>
+      </repository>
+    </did>
+    <descgrp type="admin">
+      <acqinfo encodinganalog="541">
+        <p>The collection was donated by David Harlow (donor no. <num type="donor" encodinganalog="541$e">6448</num>) in 1980. Mr. Harlow had found the materials in the remains of an old house on Drummond Island, Michigan.</p>
+      </acqinfo>
+      <accessrestrict encodinganalog="506">
+        <p>The collection is open for research.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+        <p>Copyright is held by the Regents of the University of Michigan.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+        <p>item, folder title, box no., Johnston Family Papers, Bentley Historical Library, University of Michigan</p>
+      </prefercite>
+    </descgrp>
+    <bioghist encodinganalog="545">
+      <p>John Johnston was among the earliest permanent English-speaking settlers of Sault Ste. Marie. Born at Craige in Antrim county (in northern Ireland) in 1762, Johnston left his home and family in 1790 to come to Canada. He remained here until 1793 when he crossed over to Sault Ste. Marie to establish himself in the fur trade near the headwaters of the St. Mary's Falls.</p>
+      <p>Johnston would make his home here for the next thirty-five years until his death in 1828. His business depended upon a close relationship with the Indians of the regions, most notably the Objibwa or Chippewas. Johnston eventually married "Susan" (d. 1843), the daughter of one of their chiefs, named Waubojeeg. Together, they would have eight children - four boys and four girls. The children were Louis (1793-1825); George (1796-1861); Jane (1800-1842), who married Henry R. Schoolcraft, the noted Indian scholar and government Superintendent of Indian Affairs; Eliza (1802-1885); Charlotte (1806-1871); William (b. 1811); Anna Maria (b. 1814); and John McDouall (1816-1895), who worked for Schoolcraft among the Indians, and later became a U.S. Indian Commissioner.</p>
+    </bioghist>
+    <scopecontent encodinganalog="520">
+      <p>The Johnston family papers contains approximately seven inches of correspondence, writings, clippings, and photographs. The collection falls into three series: Johnston family papers, Collected historical and Indian materials, and Photographs.</p>
+    </scopecontent>
+    <controlaccess>
+      <p>
+        <extptr href="accnote" show="embed" actuate="onload"/>
+      </p>
+      <controlaccess>
+        <head>Subjects:</head>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50034113">Cass, Lewis, 1782-1866.</persname>
+        <subject source="lcsh" encodinganalog="650">Frontier and pioneer life--Michigan--Sault Sainte Marie.</subject>
+        <subject source="lcsh" encodinganalog="650">Indians of North America--Michigan.</subject>
+        <famname source="lcnaf" encodinganalog="600">Johnston family.</famname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81003784.html">Sault Sainte Marie (Mich.)</geogname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50002814">Schoolcraft, Henry Rowe, 1793-1864.</persname>
+      </controlaccess>
+      <controlaccess>
+        <head>Subjects - Visual Material:</head>
+        <subject source="lctgm" encodinganalog="650">Boats.</subject>
+        <subject source="lctgm" encodinganalog="650">Camping.</subject>
+        <subject source="lctgm" encodinganalog="650">Children.</subject>
+        <subject source="lctgm" encodinganalog="650">Churches.</subject>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n00038346.html">De Tour Village (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651">Drummond Island (Mich.)</geogname>
+        <subject source="lctgm" encodinganalog="650">Dwellings.</subject>
+        <subject source="lcsh" encodinganalog="650">Indians of North America--Michigan.</subject>
+        <persname source="lcnaf" encodinganalog="600">Johnston, George, 1796-1861.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n93101905">Johnston, John, 1762-1828.</persname>
+        <persname source="lcnaf" encodinganalog="600">Johnston, John McDouall, 1816-1895.</persname>
+        <geogname source="lcsh" encodinganalog="651">Neebish Island (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81003784.html">Sault Sainte Marie (Mich.)</geogname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n97109778">Schoolcraft, Jane Johnston, 1800-1842.</persname>
+        <subject source="lctgm" encodinganalog="650">Sleds and sleighs.</subject>
+        <geogname source="lcsh" encodinganalog="651">Upper Peninsula (Mich.)</geogname>
+      </controlaccess>
+      <controlaccess>
+        <head>Contributors:</head>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n93101905">Johnston, John, 1762-1828.</persname>
+        <persname source="lcnaf" encodinganalog="700">Johnston, John McDouall, 1816-1895.</persname>
+      </controlaccess>
+      <controlaccess>
+        <head>Genre/Form:</head>
+        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+        <genreform source="gmgpc" encodinganalog="655">Tintypes.</genreform>
+      </controlaccess>
+    </controlaccess>
+    <dsc type="combined">
+      <c01 level="series">
+        <did>
+          <unittitle>Johnston family file <unitdate type="inclusive" normal="1822/1936">1822-1936</unitdate></unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Genealogical and biographical material</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Miscellaneous notes and fragments</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Miscellaneous 1etters, notes, and writings <unitdate type="inclusive" normal="1894/1956">1894-1956 (scattered dates)</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>John Johnston (1762-1828)</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Fragments from journal <unitdate type="inclusive" normal="1826">1826</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Correspondence <unitdate type="inclusive" normal="1822/1828">1822-1828</unitdate> (original and copies of l letters in newspaper)</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Copy of gravestone inscription</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>John McDouall Johnston (1816-1895), son of John Johnston</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Papers <unitdate type="inclusive" normal="1843">1843</unitdate>, <unitdate type="inclusive" normal="1853">1853</unitdate>, <unitdate type="inclusive" normal="1858/1893">1858-1893 (scattered dates)</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Biographical materials and miscellaneous writings</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Anna Maria "Mollie" Johnston (1844-1928), daughter of John M. Johnston</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Correspondence <unitdate type="inclusive" normal="1923/1928">1923-1928</unitdate> and death certificate</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Recollections of Johnston House <unitdate type="inclusive" normal="1910">1910</unitdate> or <unitdate type="inclusive" normal="1911">1911</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Charlotte Jane Johnston (1847-1919), daughter of John M. Johnston</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Papers <unitdate type="inclusive" normal="1874/1919" certainty="approximate">circa 1874-1919</unitdate> including letter, poetry, newspaper obituary, and programs of music recitals</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>James Lawrence Johnston (1851-), son of John M. Johnston</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Letter from sister "Mollie" <unitdate type="inclusive" normal="1913">1913</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>William Meddaugh Johnston (1858-), son of John M. Johnston</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Correspondence <unitdate type="inclusive" normal="1910/1931">1910-1931</unitdate> and notebook <unitdate type="inclusive" normal="1920/1929" certainty="approximate">1920s</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Photographs <unitdate type="inclusive" normal="1896/1925">1896-1925</unitdate></unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Address book <unitdate>undated</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Papers concerning Rev. Daniel Coe  and other early missionaries to the Sault region</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Guest Book for Ononegwud Lodge <unitdate type="inclusive" normal="1896/1898">1896-1898</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Indian materials</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Genealogical table of Leila Lufkins, Chippewa Indian</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Vocabulary, miscellaneous song and verse</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>The story of Manaboyha <unitdate>undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Indian land certificate and other legal agreements <unitdate type="inclusive" normal="1865" certainty="approximate">1865 undated</unitdate>, <unitdate type="inclusive" normal="1925">1925</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Newspaper clippings re. early "500"/Indian history</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Schoolcraft, Henry R., newspaper article (1902) on "Wabojeeg, Great Sioux Chief," reprinted from book <title render="italic">Oneota</title> (1844)</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Brochures for Sault Ste. Marie activities</unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Photographs</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <unittitle>Portraits</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Allen family</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Anthony, Eliza, family</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Anthony, Retta</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Dore family</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Douglas, Ella Mabel</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Healy, Hill, Hubbard families</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Johnston, Eliza Jane</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Johnston, George, and Mary Rice Johnston</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Portraits (cont.)</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Johnston, Henry, family</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Johnston, Howard and Mollie, family</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Johnston, John, family</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Johnston, John M., and Justine Piguette Johnston</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Johnston, Spencer, family</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Johnston; William, family</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>McMurray, James, and Charlotte Johnston McMurray family</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Schoolcraft, Jane Johnston, family</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Miscellaneous individuals</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <unittitle>Identified</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <unittitle>Unidentified female</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <unittitle>Unidentified male</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Tintypes</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Other photos</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Homes (Neebish, Drummond, etc.)</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Outdoor activities (including camping, boating, sleighing)</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Travel (Winnipeg and Victoria, B.C.)</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Views (Drummond, De Tour, Neebish, Sault Ste. Marie)</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Miscellaneous</unittitle>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

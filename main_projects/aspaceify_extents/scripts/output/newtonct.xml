@@ -1,0 +1,988 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead.dtd">
+<ead>
+  <eadheader audience="internal" langencoding="iso639-2b" repositoryencoding="iso15511" dateencoding="iso8601" relatedencoding="Dublin Core" scriptencoding="iso15924" countryencoding="iso3166-1">
+    <eadid countrycode="us" mainagencycode="MiU-H" publicid="us//::miu-h//TXT us::miu-h::newtonct.xml//EN" encodinganalog="Identifier">umich-bhl-852014</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="Title">Finding Aid for Charles Tyley Newton Papers, 1907-1947</titleproper>
+        <author encodinganalog="Creator">Collection processed and finding aid created by Michigan Historical Collections staff</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="Publisher">Bentley Historical Library, University of Michigan</publisher>
+        <date encodinganalog="Date" normal="2006">2006</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created by Thomas E. Powers <date>May 2006</date></creation>
+      <langusage encodinganalog="Language">The finding aid is written in <language langcode="eng" scriptcode="Latn">English</language></langusage>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date>2006-05-04</date>
+        <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <frontmatter>
+    <titlepage>
+      <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
+      <titleproper>Finding aid for <lb/>Charles Tyley Newton Papers, 1907-1947</titleproper>
+      <author>Finding aid created by <lb/>Michigan Historical Collections staff</author>
+    </titlepage>
+  </frontmatter>
+  <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
+    <did>
+      <origination>
+        <persname source="lcnaf" encodinganalog="100">Newton, Charles Tyley, 1893-</persname>
+      </origination>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">4 linear feet</extent>
+      </physdesc>
+      <unittitle encodinganalog="245">Charles Tyley Newton Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1907/1947">1907-1947</unitdate></unittitle>
+      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">852014 Aa 2</unitid>
+      <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
+      <abstract>Ypsilanti, Michigan automobile salesman, antique collector for Greenfield Village, and real estate agent for the Ford Motor Company. Correspondence, newspaper clippings, and pamphlet material concerning his work for Ford Motor Company, and his interest in William H. McGuffey and Stephen Foster; and photographs.</abstract>
+      <repository>
+        <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea>, University of Michigan</corpname>
+        <extptr href="bhladd" show="embed" actuate="onload"/>
+      </repository>
+    </did>
+    <descgrp type="admin">
+      <acqinfo encodinganalog="541">
+        <p>The collection was donated by Roscoe O. Bonisteel (donor no. <num type="donor" encodinganalog="541$e">2035</num>). The provenance of the material is uncertain.</p>
+      </acqinfo>
+      <accessrestrict encodinganalog="506">
+        <p>The collection is open to research.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+        <p>Copyright is held by the Regents of the University of Michigan.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+        <p>[item], folder, box,
+Charles Tyley Newton Papers, Bentley Historical Library, University of Michigan</p>
+      </prefercite>
+    </descgrp>
+    <bioghist encodinganalog="545">
+      <p>Charles Newton worked for Henry Ford in the Secretary's Office in the 1920s and 1930s. His principal responsibility was in the acquisition of items for Greenfield Village and the Henry Ford Museum.</p>
+    </bioghist>
+    <scopecontent encodinganalog="520">
+      <p>The collection has been arranged into the following series: Correspondence; Newspaper clippings; Printed Material; Greenfield Village acquisitions; Real estate acquisitions; and Photographs.</p>
+    </scopecontent>
+    <controlaccess>
+      <p>
+        <extptr href="accnote" show="embed" actuate="onload"/>
+      </p>
+      <controlaccess>
+        <head>Subjects:</head>
+        <subject source="lcsh" encodinganalog="650">Automobile industry and trade--United States.</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80085248">Ford Motor Company.</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50023175">Foster, Stephen Collins, 1826-1864.</persname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79126993">Henry Ford Museum and Greenfield Village.</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50007831">McGuffey, William Holmes, 1800-1873.</persname>
+        <persname source="lcnaf" encodinganalog="600">Newton, Charles Tyley, 1893-</persname>
+        <corpname source="lcnaf" encodinganalog="610">Willow Run Bomber Plant.</corpname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n80006284.html">Ypsilanti (Mich.)</geogname>
+      </controlaccess>
+      <controlaccess>
+        <head>Subjects - Visual Materials:</head>
+        <subject source="lctgm" encodinganalog="650">Abandoned buildings.</subject>
+        <subject source="lctgm" encodinganalog="650">African American women--Work.</subject>
+        <subject source="lctgm" encodinganalog="650">Agricultural machinery.</subject>
+        <subject source="lctgm" encodinganalog="650">Airplanes--1908.</subject>
+        <geogname source="lctgm" encodinganalog="651">Ann Arbor (Mich.)--Dwellings.</geogname>
+        <geogname source="lctgm" encodinganalog="651">Ann Arbor (Mich.)--Farms.</geogname>
+        <corpname source="lcnaf" encodinganalog="610">Ann Arbor Club.</corpname>
+        <subject source="lctgm" encodinganalog="650">Architecture.</subject>
+        <geogname source="lcsh" encodinganalog="651">Arnold Lake (Clare County, Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651">Au Sable River (Mich.)</geogname>
+        <subject source="lctgm" encodinganalog="650">Automobile industry.</subject>
+        <subject source="lctgm" encodinganalog="650">Automobile service stations--Michigan--Marshall.</subject>
+        <subject source="lctgm" encodinganalog="650">Automobile service stations--Michigan--Ypsilanti.</subject>
+        <subject source="lctgm" encodinganalog="650">Automobiles.</subject>
+        <corpname source="lcnaf" encodinganalog="610">Baptist Parsonage (Saline, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Baraga Lumber Company.</corpname>
+        <subject source="lctgm" encodinganalog="650">Barbershops.</subject>
+        <subject source="lctgm" encodinganalog="650">Barns.</subject>
+        <subject source="lctgm" encodinganalog="650">Beaches.</subject>
+        <subject source="lctgm" encodinganalog="650">Bedrooms.</subject>
+        <subject source="lctgm" encodinganalog="650">Bicycles and tricycles--1861-1870.</subject>
+        <subject source="lctgm" encodinganalog="650">Boats.</subject>
+        <subject source="lctgm" encodinganalog="650">Business enterprises--Michigan--Ypsilanti.</subject>
+        <geogname source="lcsh" encodinganalog="651">Calumet (Mich.)</geogname>
+        <subject source="lctgm" encodinganalog="650">Carriages and coaches.</subject>
+        <subject source="lctgm" encodinganalog="650">Carts and wagons.</subject>
+        <subject source="lctgm" encodinganalog="650">City and town halls--Michigan--Marshall.</subject>
+        <geogname source="lctgm" encodinganalog="651">Clarkston (Mich.)--Dwellings.</geogname>
+        <subject source="lctgm" encodinganalog="650">Clothing and dress--1861-1870.</subject>
+        <subject source="lctgm" encodinganalog="650">Clothing and dress--1891-1900.</subject>
+        <subject source="lctgm" encodinganalog="650">Clothing and dress--1901-1910.</subject>
+        <subject source="lctgm" encodinganalog="650">Clothing and dress--1921-1930.</subject>
+        <geogname source="lcsh" encodinganalog="651">Comins (Mich.)</geogname>
+        <subject source="lctgm" encodinganalog="650">Covered bridges.</subject>
+        <subject source="lctgm" encodinganalog="650">Dams.</subject>
+        <subject source="lctgm" encodinganalog="650">Dance.</subject>
+        <geogname source="lcsh" encodinganalog="651">Deward (Mich.)</geogname>
+        <geogname source="lctgm" encodinganalog="651">Dundee (Mich.)--Mills.</geogname>
+        <subject source="lctgm" encodinganalog="650">Dwellings--Michigan--Ann Arbor.</subject>
+        <subject source="lctgm" encodinganalog="650">Dwellings--Michigan--Clarkston.</subject>
+        <subject source="lctgm" encodinganalog="650">Dwellings--Michigan--Gilbert Lake.</subject>
+        <subject source="lctgm" encodinganalog="650">Dwellings--Michigan--Saline.</subject>
+        <subject source="lctgm" encodinganalog="650">Dwellings--Michigan--Ypsilanti.</subject>
+        <subject source="lctgm" encodinganalog="650">Estates.</subject>
+        <subject source="lctgm" encodinganalog="650">Families.</subject>
+        <subject source="lctgm" encodinganalog="650">Farms.</subject>
+        <subject source="lctgm" encodinganalog="650">Farms--Michigan--Ann Arbor.</subject>
+        <subject source="lctgm" encodinganalog="650">Farms--Michigan--Ypsilanti.</subject>
+        <subject source="lctgm" encodinganalog="650">Fireplaces.</subject>
+        <subject source="lctgm" encodinganalog="650">Fishing--Michigan.</subject>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79055385">Ford, Henry, 1863-1947.</persname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80085248">Ford Motor Company.</corpname>
+        <geogname source="lctgm" encodinganalog="651">Gilbert Lake (Oakland County, Mich.)--Dwellings.</geogname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n95021139.html">Glennie (Mich.)</geogname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79126993">Henry Ford Museum and Greenfield Village.</corpname>
+        <subject source="lctgm" encodinganalog="650">Horses.</subject>
+        <subject source="lctgm" encodinganalog="650">Hotels and taverns--Michigan--Ypsilanti.</subject>
+        <subject source="lctgm" encodinganalog="650">Hunting--United States.</subject>
+        <subject source="lctgm" encodinganalog="650">Industrial buildings.</subject>
+        <subject source="lctgm" encodinganalog="650">Interiors.</subject>
+        <geogname source="lcsh" encodinganalog="651">Irish Hills (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81091870.html">Kalkaska County (Mich.)</geogname>
+        <subject source="lctgm" encodinganalog="650">Kitchens--1941-1950.</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n95109682">Kneeland-Bigelow Company.</corpname>
+        <subject source="lctgm" encodinganalog="650">Laborers.</subject>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n85081921.html">L'Anse (Mich.)</geogname>
+        <subject source="lctgm" encodinganalog="650">Living rooms.</subject>
+        <geogname source="lcsh" encodinganalog="651">Livingston County (Mich.)</geogname>
+        <subject source="lctgm" encodinganalog="650">Log cabins.</subject>
+        <corpname source="lcnaf" encodinganalog="610">H.M. Loud and Sons Lumber Company (Oscoda, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Lucking Farm (Ypsilanti, Mich.)</corpname>
+        <subject source="lctgm" encodinganalog="650">Lumber industry.</subject>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n85149703.html">Manchester (Mich.)</geogname>
+        <geogname source="lctgm" encodinganalog="651">Marshall (Mich.)--Automobile service stations.</geogname>
+        <geogname source="lctgm" encodinganalog="651">Marshall (Mich.)--City and town halls.</geogname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79151080.html">Metamora (Mich.)</geogname>
+        <subject source="lctgm" encodinganalog="650">Mills--Michigan--Dundee.</subject>
+        <subject source="lctgm" encodinganalog="650">Music ensembles.</subject>
+        <corpname source="lcnaf" encodinganalog="610">Nash Distributing Company.</corpname>
+        <persname source="lcnaf" encodinganalog="600">Newkirk, Birkett.</persname>
+        <famname source="lcnaf" encodinganalog="600">Newkirk family.</famname>
+        <persname source="lcnaf" encodinganalog="600">Newton, Charles Tyley, 1893-</persname>
+        <famname source="lcnaf" encodinganalog="600">Newton family.</famname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81091869.html">Oakland County (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651">Oscoda (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651">Pine River (Mich. : River)</geogname>
+        <corpname source="lcnaf" encodinganalog="610">Porter-Hicks Farm (Ann Arbor, Mich.)</corpname>
+        <subject source="lctgm" encodinganalog="650">Privies.</subject>
+        <subject source="lctgm" encodinganalog="650">Railroad stations.</subject>
+        <subject source="lctgm" encodinganalog="650">Railroads--Michigan.</subject>
+        <geogname source="lcsh" encodinganalog="651">Raisin River (Mich.)</geogname>
+        <geogname source="lctgm" encodinganalog="651">Saline (Mich.)--Dwellings.</geogname>
+        <subject source="lctgm" encodinganalog="650">Ships--Great Lakes.</subject>
+        <subject source="lctgm" encodinganalog="650">Sleds and sleighs.</subject>
+        <subject source="lctgm" encodinganalog="650">Slums.</subject>
+        <geogname source="lcsh" encodinganalog="651">South Branch (Mich.)</geogname>
+        <subject source="lctgm" encodinganalog="650">Stagecoaches.</subject>
+        <subject source="lctgm" encodinganalog="650">Steam engines.</subject>
+        <subject source="lctgm" encodinganalog="650">Street-railroads--Michigan.</subject>
+        <subject source="lctgm" encodinganalog="650">Trucks.</subject>
+        <persname source="lcnaf" encodinganalog="600">Ward, David, 1822-1900.</persname>
+        <geogname source="lctgm" encodinganalog="651">Willow Run (Mich.)--Dwellings.</geogname>
+        <subject source="lctgm" encodinganalog="650">Women.</subject>
+        <geogname source="lctgm" encodinganalog="651">Ypsilanti (Mich.)--Business enterprises.</geogname>
+        <geogname source="lctgm" encodinganalog="651">Ypsilanti (Mich.)--Dwellings.</geogname>
+        <geogname source="lctgm" encodinganalog="651">Ypsilanti (Mich.)--Farms.</geogname>
+        <geogname source="lctgm" encodinganalog="651">Ypsilanti (Mich.)--Hotels and taverns.</geogname>
+      </controlaccess>
+      <controlaccess>
+        <head>Genre Terms:</head>
+        <genreform source="gmgpc" encodinganalog="655">Tintypes.</genreform>
+        <genreform source="gmgpc" encodinganalog="655">Photographs.</genreform>
+      </controlaccess>
+    </controlaccess>
+    <dsc type="combined">
+      <c01 level="series">
+        <did>
+          <unittitle>Correspondence</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">16 folders</extent>
+            </physdesc>
+            <unittitle>
+              <unitdate type="inclusive">Undated</unitdate>
+              <unitdate type="inclusive" normal="1907/1947">1907-1947</unitdate>
+            </unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Newspaper Clippings</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">3 folders</extent>
+            </physdesc>
+            <unittitle>Willow Run Bomber Plant <unitdate type="inclusive" normal="1941/1943">1941-1943</unitdate></unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Miscellaneous <unitdate type="inclusive" normal="1945/1947">1945-1947</unitdate></unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Printed Material</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 folders</extent>
+            </physdesc>
+            <unittitle>Automobile industry</unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 folders</extent>
+            </physdesc>
+            <unittitle>Ford Motor Company</unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Boat construction <unitdate type="inclusive" normal="1908/1911">1908-1911</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Miscellaneous <unitdate type="inclusive" normal="1912/1944">1912-1944</unitdate></unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Greenfield Village acquisitions <unitdate type="inclusive" normal="1928/1946" certainty="approximate">circa 1928-1946</unitdate></unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">5 folders</extent>
+            </physdesc>
+            <unittitle>William Holmes McGuffey material <unitdate type="inclusive" normal="1934/1940">1934-1940</unitdate></unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Stephen Foster birthplace <unitdate type="inclusive" normal="1935/1939">1935-1939</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">4 folders</extent>
+            </physdesc>
+            <unittitle>Abraham Lincoln items</unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 folders</extent>
+            </physdesc>
+            <unittitle>Regarding song "When you and I were young Maggie"</unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Early automobile items</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Covered bridges</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">6 folders</extent>
+            </physdesc>
+            <unittitle>Miscellaneous</unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Real estate acquisitions</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>Purchase of real estate by the Ford Motor Company <unitdate type="inclusive" normal="1930/1946" certainty="approximate">circa 1930-1946</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(unprocessed)</p>
+          </odd>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>
+            <genreform normal="Photographs">Photographs</genreform>
+          </unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Portraits, snapshots, and photos of friends and family members</unittitle>
+            <physdesc>
+              <physfacet>include <genreform normal="Tintypes">tintypes</genreform></physfacet>
+            </physdesc>
+          </did>
+          <odd>
+            <p>(include photo of Newton with Henry Ford)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Subjects</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Agricultural Machinery</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Airplanes, includes Ford Motor Airplane <unitdate type="inclusive" normal="1908">1908</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Ann Arbor Club</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Automobiles</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">4</container>
+                <unittitle>General</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">4</container>
+                <unittitle>Nash Distributing Company (includes trucks)</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Barbershop and barber chairs</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Barns and other farm buildings</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Bicycles</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Bridges, Covered</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Carriages</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">4</container>
+                <unittitle>Coaches</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">4</container>
+                <unittitle>Horse and buggy</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">4</container>
+                <unittitle>Sleighs</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">4</container>
+                <unittitle>Wagons</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Clothing and dress</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Dancing</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Drain Tile plant (unidentified)</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Dry goods store (unidentified)</unittitle>
+              <physdesc>
+                <physfacet>
+                  <genreform normal="Tintypes">tintype</genreform>
+                </physfacet>
+              </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Fishing (include boats)</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Horses</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Hotel (United States Hotel)</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Houses</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">4</container>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">7 envelopes</extent>
+                </physdesc>
+                <unittitle>General unidentified</unittitle>
+                <physdesc>
+                  </physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">4</container>
+                <unittitle>Faulkrod Home</unittitle>
+              </did>
+              <odd>
+                <p>(include interiors)</p>
+              </odd>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">4</container>
+                <unittitle>Haynes Home</unittitle>
+              </did>
+              <odd>
+                <p>(include interiors)</p>
+              </odd>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Hunting</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Industrial plants and machinery (and shop interiors)</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Lumbering (by place or company name)</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">4</container>
+                <unittitle>Au Sable River</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">4</container>
+                <unittitle>Baraga Lumber Company</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">4</container>
+                <unittitle>Comins (Brook's camp)</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">4</container>
+                <unittitle>Comins (Fitzpatrick's camp)</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">4</container>
+                <unittitle>Comins (Joe Lalonde's camp)</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">4</container>
+                <unittitle>Comins (unidentified)</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">4</container>
+                <unittitle>DeWald (mill)</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">4</container>
+                <unittitle>Glennie (J.H. Hayes' camp)</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">4</container>
+                <unittitle>Kalkaska County (David Ward camps)</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">4</container>
+                <unittitle>Kneeland-Bigelow Company</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">4</container>
+                <unittitle>L'Anse (lumber camp)</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">4</container>
+                <unittitle>Oscoda (Loud and Son Lumber Company)</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">4</container>
+                <unittitle>Oscoda (unidentified)</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">4</container>
+                <unittitle>Pine River (T.T. Allen's Lumber camps)</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">4</container>
+                <unittitle>Pine River (unidentified)</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">4</container>
+                <unittitle>Smith Lumbering Camp</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">4</container>
+                <unittitle>South Branch (Gates camp and unidentified)</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Lumbering (by activity)</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">4</container>
+                <unittitle>Booms; river views</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">4</container>
+                <unittitle>Lumbermen; camp scenes</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">4</container>
+                <unittitle>Mills (general)</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">4</container>
+                <unittitle>Mills</unittitle>
+              </did>
+              <odd>
+                <p>(include photos of inspection by Henry Ford)</p>
+              </odd>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">4</container>
+                <unittitle>Miscellaneous activities</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">4</container>
+                <unittitle>Railroads</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">4</container>
+                <unittitle>Transport</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">4</container>
+                <unittitle>Stacked lumber</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">4</container>
+                <unittitle>Ships and dock scenes</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Musicians</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Outhouses</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Railroads</unittitle>
+            </did>
+            <odd>
+              <p>(includes Ypsilanti photograph see also Lumber--Railroads)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Railroads)</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Ships</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Street railroads</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Tractors and other steam machinery</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Waterworks; dams</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Geographical Subjects</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Ann Arbor area</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Bloomfield Township, Gilbert Lake (home)</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Calumet</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Canada (Mansion on Detroit River)</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Cherry Hill (Huston Farm)</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Clarkston</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">4</container>
+                <unittitle>General</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">4</container>
+                <unittitle>Russell Street Home</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Dearborn: Greenfield Village</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">4</container>
+                <unittitle>McGuffy School House and related</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">4</container>
+                <unittitle>Stephen Foster House</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">4</container>
+                <unittitle>Washington's Mill (Pa.)</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">4</container>
+                <unittitle>Miscellaneous</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Dundee</unittitle>
+            </did>
+            <odd>
+              <p>(Raisin River, mill, dam, waterworks)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Harrison, Arnold Lake</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Irish Hills (Morgan Farm)</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Livingston County, Pinckney district, Hill Creek Farm</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Manchester (landscape of surrounding area)</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Marshall</unittitle>
+            </did>
+            <odd>
+              <p>(automobile service station; other buildings)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Metamora, Lapeer County</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Oakland County, Springfield Township (Ford-Bryant Lane)</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Saline (Baptist parsonage)</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Willow Run (condemned houses)</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Ypsilanti</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">4</container>
+                <unittitle>General</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">4</container>
+                <unittitle>Power lines and road maintenance near Ypsilanti</unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>People</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Birkett Newkirk family</unittitle>
+            </did>
+            <odd>
+              <p>(includes portraits of children and women)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Ford, Edsel</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>McGuffy, William H., family</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Wilton Harry and Elizabeth</unittitle>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

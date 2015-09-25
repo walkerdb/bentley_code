@@ -1,0 +1,832 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead.dtd">
+<ead>
+  <eadheader audience="internal" langencoding="iso639-2b" repositoryencoding="iso15511" dateencoding="iso8601" relatedencoding="Dublin Core">
+    <eadid countrycode="us" mainagencycode="MiU-H" publicid="-//us::MiU-H//TEXT us::MiU-H::rttolife.xml//EN" encodinganalog="identifier">umich-bhl-88176</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="title">Finding Aid for Right to Life of Michigan Records <date>1972-1986</date></titleproper>
+        <author encodinganalog="creator">Collection processed and finding aid prepared by Jim Flury.</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="publisher">Bentley Historical Library, University of Michigan</publisher>
+        <date encodinganalog="date">1988</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created by Thomas E. Powers <date>June 2001</date></creation>
+      <langusage>The finding aid is written in <language encodinganalog="language" langcode="eng">English.</language></langusage>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date>20031010</date>
+        <item>Converted to EAD2002 using Word macro and Xmetal</item>
+      </change>
+      <change>
+        <date>2001-06-29</date>
+        <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <frontmatter>
+    <titlepage>
+      <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
+      <titleproper>Finding Aid for <lb/>Right to Life of Michigan Records, <date type="inclusive">1972-1986</date></titleproper>
+      <author>Finding aid prepared by: <lb/>Jim Flury</author>
+    </titlepage>
+  </frontmatter>
+  <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
+    <did>
+      <origination>
+        <corpname source="lcnaf" encodinganalog="110">Right to Life of Michigan.</corpname>
+      </origination>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">2 linear feet</extent>
+      </physdesc>
+      <unittitle encodinganalog="245">Right to Life of Michigan Records <unitdate type="inclusive" encodinganalog="245$f" normal="1972/1986">1972-1986</unitdate></unittitle>
+      <abstract>Pro-life citizens group. Administrative materials, records of area committees within the organization, subject files, and affiliate organizations' materials consisting mainly of local right-to-life organizations; and correspondence and press statements.</abstract>
+      <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">88176 Bt 2</unitid>
+      <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
+      <repository encodinganalog="852">
+        <corpname><subarea>Bentley Historical Library</subarea> University of Michigan</corpname>
+        <extptr href="bhladd" show="embed" actuate="onload"/>
+      </repository>
+    </did>
+    <descgrp type="admin">
+      <acqinfo encodinganalog="541">
+        <p>The records of Right to Life of Michigan (donor no. <num type="donor" encodinganalog="541$e">7514</num>) were deposited with the library on January 27, 1988.</p>
+      </acqinfo>
+      <accessrestrict encodinganalog="506">
+        <p>The record group is open for research.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+        <p>Copyright has not been transferred to the Regents of the University of Michigan.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+        <p>item, folder title, box no., Right to Life of Michigan Records, Bentley Historical Library, University of Michigan</p>
+      </prefercite>
+    </descgrp>
+    <bioghist encodinganalog="545">
+      <p>Right to Life of Michigan, formed as Voice of the Unborn in 1972, is the leading anti-abortion organization in the state with approximately 115 local affiliate chapters and 110,000 members. It is a loosely organized group of local pro-life clubs that came together to oppose Proposal B, an abortion reform referendum in 1972 that would have legalized abortion in Michigan during the first twenty weeks of pregnancy. Proposal B was defeated by a large margin, but that issue became moot with the United States Supreme Court Roe v. Wade decision of January 22, 1973, which made constitutional the right of a woman to terminate her pregnancy and at the same time struck down state anti-abortion statutes.</p>
+      <p>Following Roe v. Wade the pro-life movement in Michigan gained strength. The National Right to Life Committee convention, held in Detroit in June, 1973, attracted over 1,200 delegates. In 1974, Voice of the Unborn incorporated as Michigan Citizens for Life. The organization consisted of nine geographic regions, with headquarters in Grand Rapids. New local chapters appeared in nearly every region of the state, but the strongest support continued in the west.</p>
+      <p>Through media campaigns, meetings, information packages sent to schools, colleges, and the general public, newsletters, and a lobbyist in Lansing, Michigan Citizens for Life informed the public and legislature about pro-life views of abortion. Michigan Citizens for Life also pressed for a human life amendment to the Constitution of the United States. A representative of the organization sits on the National Right to Life Committee in Washington, DC to help coordinate national and state activities and to further the goals of the pro-life groups. The name of the organization was changed to Right to Life of Michigan in the late 1970s. In 1985, it began participation in a nationwide pro-life boycott of the Upjohn Company of Kalamazoo to protest that company's role in the research, development and manufacture of drugs used to induce abortion.</p>
+    </bioghist>
+    <scopecontent encodinganalog="520">
+      <p>The records of Right to Life of Michigan document the administration and activities of the leading anti-abortion organization in Michigan. The records have been divided into the following Series: Administrative, Committees, Topical Files, Affiliate Organizations, and Correspondence and Press Relations.</p>
+    </scopecontent>
+    <controlaccess>
+      <controlaccess>
+        <head>Subjects:</head>
+        <subject source="lcsh" encodinganalog="650">Abortion.</subject>
+        <geogname source="local" encodinganalog="691">Michigan--Politics and government--1971-1980.</geogname>
+        <geogname source="local" encodinganalog="691">Michigan--Politics and government--1981-1990.</geogname>
+        <geogname source="lcsh" encodinganalog="651">Michigan--Politics and government--1951-</geogname>
+        <subject source="lcsh" encodinganalog="650">Pro-life movement--Michigan.</subject>
+      </controlaccess>
+    </controlaccess>
+    <dsc type="combined">
+      <c01 level="series">
+        <did>
+          <unittitle>Administrative <unitdate type="inclusive" normal="1973/1982">1973-1982</unitdate></unittitle>
+        </did>
+        <scopecontent>
+          <p>Administrative, 1973-1982, contains the organization's bylaws, board of directors meeting minutes, 1973-1981, convention reports, 1975-1981, financial materials, including monthly financial reports, 1973-1981, and projected budgets, 1975-1980, and planning sessions and proposed plans, 1981-1982.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Bylaws <unitdate type="inclusive" normal="1976/1977">1976-1977</unitdate>, <unitdate type="inclusive" normal="1980">1980</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Board of Directors Minutes</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle><unitdate type="inclusive" normal="1973">1973</unitdate> (mostly agendas)</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1974">1974</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1975">1975</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1976">1976</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1977">1977</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1978">1978</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1979">1979</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1980">1980</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1981">1981</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">7 volumes</extent>
+            </physdesc>
+            <unittitle>Conventions <unitdate type="inclusive" normal="1975/1981">1975-1981</unitdate></unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Financial</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Audit Reports <unitdate type="inclusive" normal="1979/1980">1979-1980</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Budgets <unitdate type="inclusive" normal="1975/1980">1975-1980</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Major Gifts Reports <unitdate type="inclusive" normal="1977/1980">1977-1980</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Monthly Financial Reports</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1973/1974">1973-1974</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1975">1975</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1976">1976</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1977">1977</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1978">1978</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1979">1979</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1970">1970</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1981">1981</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Special Reports <unitdate type="inclusive" normal="1975/1978">1975-1978</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Planning Session <unitdate type="inclusive" normal="1981">1981</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Proposed Plan <unitdate type="inclusive" normal="1981/1982">1981-1982</unitdate></unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Committees <unitdate type="inclusive" normal="1974/1980">1974-1980</unitdate></unittitle>
+        </did>
+        <scopecontent>
+          <p>Committees, 1974-1980 contains material on three of the organization's committees: the Educational Committee for Life, 1974-1979, the Michigan Pro-Life Educational Committee, 1976-1978 (succeeded by the Educational Committee for Life), and the Political Action Committee, undated and 1980.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Educational Committee for Life <unitdate type="inclusive" normal="1974/1979">1974-1979</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Michigan Pro-Life Educational Committee <unitdate type="inclusive" normal="1976/1978">1976-1978</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>Succeeded by Educational Committee for Life</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Political Action Committee <unitdate type="inclusive">Undated</unitdate>, <unitdate type="inclusive" normal="1980">1980</unitdate></unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Topical Files <unitdate type="inclusive" normal="1972/1981">1972-1981</unitdate></unittitle>
+        </did>
+        <scopecontent>
+          <p>Topical Files, 1972-1981, is arranged alphabetically and covers a variety of topics. Included is euthanasia, government agencies of Michigan, interaction with, 1973-1979, and Hollister Committee (Death and Dying Task Force), 1977-1981.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Euthanasia <unitdate type="inclusive" normal="1977/1979">1977-1979</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Government Agencies</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Michigan Department of Public Health <unitdate type="inclusive" normal="1975/1979">1975-1979</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Michigan Department of Social Services</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <unittitle>Dempsey Controversy <unitdate type="inclusive" normal="1977/1978">1977-1978</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <unittitle>General <unitdate type="inclusive" normal="1975/1979">1975-1979</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Michigan Women's Commission History <unitdate type="inclusive" normal="1973/1979">1973-1979</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 folders</extent>
+            </physdesc>
+            <unittitle>Hollister Committee (Death and Dying Task Force) <unitdate type="inclusive" normal="1977/1981">1977-1981</unitdate></unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Legislative Day <unitdate type="inclusive" normal="1980">1980</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Legislative Reports <unitdate type="inclusive" normal="1981">1981</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Lobby Day <unitdate type="inclusive" normal="1981">1981</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Michigan Abortion Reform Referendum-Campaign to defeat <unitdate type="inclusive" normal="1972">1972</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Position Descriptions <unitdate type="inclusive">Undated</unitdate>, <unitdate type="inclusive" normal="1976">1976</unitdate>, <unitdate type="inclusive" normal="1979">1979</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Ryan, Justice James (Michigan Supreme Court) Candidacy <unitdate type="inclusive" normal="1974/1976">1974-1976</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Voter Identification <unitdate type="inclusive" normal="1981">1981</unitdate></unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Affiliate Organizations <unitdate type="inclusive" normal="1973/1983">1973-1983</unitdate></unittitle>
+        </did>
+        <scopecontent>
+          <p>Affiliate Organizations, 1973-1983, is an alphabetically-arranged listing of local chapters of Michigan Right to Life. Material on some affiliates is minimal, while others are better documented, especially Bay City Right to Life, Berrien County Right to Life, Dickinson County Right to Life, Greater Lansing Right to Life, Holland Right to Life, Kalamazoo Right to Life, Lifespan, Inc. (Royal Oak), Lifespan Macomb County and East Wayne, Lifespan Wayne County West, Marquette County Right to Life, and Northern Michigan Right to Life. Much of the material for the above-mentioned affiliates, as well as for others, is in the form of newsletters. (Issues of the statewide newsletter are also available; they are cataloged and housed separately).</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Member Organizations List <unitdate type="inclusive" normal="1975">1975</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Albion Right to Life <unitdate>undated</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Alpena Right to Life <unitdate type="inclusive" normal="1976/1979">1976-1979</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Barry County Right to Life <unitdate type="inclusive" normal="1976/1977">1976-1977</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Battle Creek Right to Life <unitdate type="inclusive" normal="1975/1979">1975-1979</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Bay City Right to Life <unitdate type="inclusive" normal="1970/1983">1970-1983</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Berrien County Right to Life <unitdate type="inclusive" normal="1976/1979">1976-1979</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Cass County Right to Life <unitdate type="inclusive" normal="1977">1977</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Central Michigan Right to Life (Isabella County) <unitdate type="inclusive" normal="1974/1978">1974-1978</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Chippewa County Citizens for Life <unitdate type="inclusive" normal="1977">1977</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Clio Right to Life <unitdate type="inclusive" normal="1979">1979</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Cooley Law Students for Life <unitdate>undated</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Copper Country Right to Life <unitdate type="inclusive" normal="1977/1978">1977-1978</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Dickinson County Right to Life <unitdate type="inclusive" normal="1978/1983">1978-1983</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Eaton County Right to Life <unitdate type="inclusive" normal="1979">1979</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Flint Area Right to Life <unitdate type="inclusive" normal="1975/1982">1975-1982</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Grand Rapids Right to Life <unitdate type="inclusive">Undated</unitdate>, <unitdate type="inclusive" normal="1974">1974</unitdate>, <unitdate type="inclusive" normal="1981">1981</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Greater Lansing Right to Life <unitdate type="inclusive" normal="1978/1983">1978-1983</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Gwinn Area Right to Life <unitdate type="inclusive" normal="1978">1978</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Hillsdale Right to Life <unitdate type="inclusive" normal="1977">1977</unitdate>, <unitdate type="inclusive" normal="1979">1979</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Holland Right to Life <unitdate type="inclusive">Undated</unitdate>, <unitdate type="inclusive" normal="1975/1982">1975-1982</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Huron Chapter for Michigan Citizens for Life <unitdate type="inclusive" normal="1973/1978">1973-1978</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Jackson Citizens for Life <unitdate type="inclusive" normal="1975">1975</unitdate>, <unitdate type="inclusive" normal="1979">1979</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Kalamazoo Right to Life <unitdate type="inclusive" normal="1975/1983">1975-1983</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>L.I.F.E. Muskegon <unitdate type="inclusive" normal="1972/1973">1972-1973</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">3 folders</extent>
+            </physdesc>
+            <unittitle>Lifespan, Inc. (Royal Oak) <unitdate type="inclusive" normal="1971/1983">1971-1983</unitdate></unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Lifespan Macomb County and East Wayne <unitdate type="inclusive" normal="1975/1979">1975-1979</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Lifespan Oakland County <unitdate type="inclusive">Undated</unitdate>, <unitdate type="inclusive" normal="1977">1977</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Lifespan Washtenaw County <unitdate type="inclusive">Undated</unitdate>, <unitdate type="inclusive" normal="1975/1979">1975-1979</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 folders</extent>
+            </physdesc>
+            <unittitle>Lifespan Wayne County West <unitdate type="inclusive" normal="1973/1979">1973-1979</unitdate></unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Marquette County Right to Life <unitdate type="inclusive">Undated</unitdate>, <unitdate type="inclusive" normal="1970/1983">1970-1983</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Mecosta Citizens for Life <unitdate type="inclusive" normal="1979">1979</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Northern Michigan Right to Life <unitdate type="inclusive" normal="1973/1981">1973-1981</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Oceana Citizens for Life <unitdate type="inclusive" normal="1973/1978">1973-1978</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Owosso Right to Life <unitdate type="inclusive" normal="1975">1975</unitdate>, <unitdate type="inclusive" normal="1977">1977</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Port Huron <unitdate type="inclusive" normal="1978">1978</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Protection of Life (Lansing) <unitdate type="inclusive" normal="1974/1977">1974-1977</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Pro-Life of Lenawee County <unitdate type="inclusive" normal="1978">1978</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Region 8 Right to Life <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Right to Life of North Kent <unitdate type="inclusive" normal="1977/1981">1977-1981</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Right to Life of Michigan</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Saginaw County Right to Life <unitdate type="inclusive" normal="1977/1981">1977-1981</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>St. John's Right to Life <unitdate type="inclusive" normal="1977">1977</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>St. Thomas Respect Life <unitdate type="inclusive" normal="1977/1978">1977-1978</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Tri-Cities Right to Life (Grand Haven) <unitdate type="inclusive" normal="1976/1978">1976-1978</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Tri-County Right to Life (Benton Harbor) <unitdate type="inclusive" normal="1976/1978">1976-1978</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Upper Michigan Right to Life (Marquette) <unitdate type="inclusive" normal="1975/1977">1975-1977</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Western Michigan Citizens for Life <unitdate type="inclusive" normal="1973/1978">1973-1978</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Wexford-Missaukee County Right to Life <unitdate type="inclusive" normal="1975/1979">1975-1979</unitdate></unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Correspondence and Press Relations <unitdate type="inclusive" normal="1973/1986">1973-1986</unitdate></unittitle>
+        </did>
+        <scopecontent>
+          <p>Correspondence and Press Relations, 1973-1986, contains correspondence, 1973-1981, and statements to the press, 1977-1986.</p>
+        </scopecontent>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Correspondence</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1973/1977">1973-1977</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1978">1978</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1979">1979</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1970/1981">1970-1981</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Press Relations</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1977/1981">1977-1981</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1982/1983">1982-1983</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1984">1984</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1985">1985</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1986">1986</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

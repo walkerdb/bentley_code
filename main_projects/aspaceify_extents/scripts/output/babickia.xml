@@ -1,0 +1,657 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead.dtd">
+<ead>
+  <eadheader audience="internal" langencoding="iso639-2b" repositoryencoding="iso15511" dateencoding="iso8601" relatedencoding="Dublin Core" scriptencoding="iso15924" countryencoding="iso3166-1">
+    <eadid countrycode="us" mainagencycode="MiU-H" publicid="us//::miu-h//TXT us::miu-h::babickia.xml//EN" encodinganalog="Identifier">umich-bhl-2009120</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="Title">Finding Aid for Andrew Babicki collection, 1916-1936</titleproper>
+        <author encodinganalog="Creator">Collection processed and finding aid created by Michigan Historical Collections, Bentley Historical Library</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="Publisher">Bentley Historical Library, University of Michigan</publisher>
+        <date encodinganalog="Date" normal="2010">2010</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created by Len Coombs <date>2010</date></creation>
+      <langusage encodinganalog="Language">The finding aid is written in <language langcode="eng" scriptcode="Latn">English</language></langusage>
+      <descrules>Finding aid prepared using Describing Archives: A Content Standard (DACS)</descrules>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date>20150528</date>
+        <item>Corrected extent and added missing oversize folders.</item>
+      </change>
+      <change>
+        <date>20130208</date>
+        <item>container list revised with addition of new material. GK</item>
+      </change>
+      <change>
+        <date>20110419</date>
+        <item>added content LAC</item>
+      </change>
+      <change>
+        <date>20100526</date>
+        <item>Corrected errors LAC</item>
+      </change>
+      <change>
+        <date>20100222</date>
+        <item>Original encoding.</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <frontmatter>
+    <titlepage>
+      <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
+      <titleproper>Finding aid for <lb/>Andrew Babicki collection, 1916-1936</titleproper>
+      <author>Finding aid created by <lb/>Len Coombs, 2010; <lb/>Olga Virakhovskaya</author>
+    </titlepage>
+  </frontmatter>
+  <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
+    <did>
+      <origination>
+        <persname source="lcnaf" encodinganalog="100">Babicki, Andrew.</persname>
+      </origination>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">238 MB</extent>
+      </physdesc>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">4 oversize folders</extent>
+      </physdesc>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 linear foot</extent>
+      </physdesc>
+      <unittitle encodinganalog="245">Andrew Babicki collection <unitdate type="inclusive" encodinganalog="245$f" normal="1916/1936">1916-1936</unitdate></unittitle>
+      <physdesc altrender="part">
+        </physdesc>
+      <physdesc altrender="part">
+        </physdesc>
+      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2009120 Aa 2</unitid>
+      <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
+      <abstract>Collected papers documenting the role of Michigan in World War I, including the Allied intervention in Russia, 1918-1919, the "Polar Bear Expedition."</abstract>
+      <repository>
+        <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea>, University of Michigan</corpname>
+        <extptr href="bhladd" show="embed" actuate="onload"/>
+      </repository>
+    </did>
+    <descgrp type="admin">
+      <acqinfo encodinganalog="541">
+        <p>The collection was donated by Andrew Babicki, of Dearborn, Michigan, beginning in 2009 (Donor No. <num type="donor" encodinganalog="541$e">10186</num>).</p>
+      </acqinfo>
+      <accruals encodinganalog="584">
+        <p>Further additions to the collection are expected.</p>
+      </accruals>
+      <accessrestrict encodinganalog="506">
+        <p>The collection is open for research use.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+        <p>Copyright is not held by the Regents of the University of Michigan.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+        <p>item, folder title, box. no., Andrew Babicki collection, 1916-1936, Bentley Historical Library, University of Michigan</p>
+      </prefercite>
+    </descgrp>
+    <bioghist encodinganalog="545">
+      <p>Andrew Babicki is a resident of Dearborn, Mich., and collector of documents relating to Michigan's role in World War I.</p>
+    </bioghist>
+    <scopecontent encodinganalog="520">
+      <p>The collection includes <genreform normal="Diaries.">diary</genreform> (1918-1919) of <persname normal="Ahrens, Henry.">Henry Ahrens</persname>, <corpname normal="United States. Army. Field Artillery, 330th.">330th Field Artillery</corpname>; <genreform normal="Scrapbooks.">scrapbook</genreform> (1916-1936) of <persname normal="Kaser, Ernest.">Ernest Kaser</persname>, <corpname normal="United States. Army. Infantry Regiment, 126th.">126th</corpname> and <corpname normal="United States. Army. Infantry Regiment, 128th.">128th Infantry</corpname>; papers of <persname normal="McCarthy, Thomas J.">Thomas J. McCarthy</persname>, <corpname normal="United States. Army. Infantry, 339th.">339th Infantry</corpname>, chiefly relating to disability and insurance; papers of <persname normal="Olson, Carl G.">Carl G. Olson</persname>, <corpname normal="United States. Army. Infantry, 337th.">337th Infantry</corpname>, including a letter received from relatives; papers of <persname normal="Stage, Jesse H.">Jesse H. Stage</persname>, <corpname normal="United States. Army. Depot Brigade, 160th.">160th Depot Brigade</corpname>, <geogname normal="Fort Custer (Mich.)">Camp Custer</geogname>, including letters received from relatives; <genreform normal="Pamphlets.">pamphlets</genreform> from the <corpname normal="Young Men's Christian associations.">YMCA</corpname>, <corpname normal="American National Red Cross.">Red Cross</corpname> and other publishers; <genreform normal="Ration books.">ration cards</genreform>, <genreform normal="Artifacts.">artifacts</genreform>, and <genreform normal="Photographs.">photographs</genreform>.</p>
+      <p><genreform normal="Photographs.">Photographs</genreform> and <genreform normal="Postcards.">postcards</genreform> of <geogname normal="Fort Custer (Mich.)">Camp Custer, Mich.</geogname>; <genreform normal="Group portraits.">group photos</genreform> of members of <corpname normal="United States. Army. Division, 32nd.">32nd Division</corpname> in the Army of Occupation in Germany, 1919; <corpname normal="United States. Army. Depot Brigade, 160th.">160th Depot Brigade</corpname>, <geogname normal="Fort Custer (Mich.)">Camp Custer</geogname>; oversize group portraits of members of <corpname normal="United States. Army. Machine Gun Battalion, 41st.">41st Machine Gun Battalion</corpname>; <corpname normal="United States. Army. Supply Battalion, 107th.">107th Supply Battalion</corpname>; <corpname normal="United States. Army. Field Signal Battalion, 214th.">214th Field Signal Battalion</corpname>; <corpname normal="United States. Army. Field Artillery, 330th.">330th Field Artillery</corpname>; <corpname normal="United States. Army. Infantry, 337th. Company B.">Company B, 337th Infantry</corpname>; <corpname normal="United States. Army. Infantry, 339th.">339th Infantry</corpname>; <corpname normal="United States. Army. Officers' Training School (Camp Custer, Mich.)">2nd Company, Officers' Training School</corpname>, <geogname normal="Fort Custer (Mich.)">Camp Custer</geogname>; and survivors of the troop ship <corpname normal="Tuscania (Ship)">Tuscania</corpname>; <genreform normal="Portraits.">portraits</genreform> of members of <corpname normal="United States. Army. Infantry, 339th.">339th</corpname> and <corpname normal="United States. Army. Infantry, 340th.">340th Infantry</corpname>; photos of <corpname normal="United States. Army. Infantry Regiment, 126th.">126th</corpname> and <corpname normal="United States. Army. Infantry Regiment, 128th.">128th Infantry</corpname> in <genreform normal="Scrapbooks.">scrapbook</genreform> of <persname normal="Kaser, Ernest.">Ernest Kaser</persname>; <genreform normal="Postcards.">postcard</genreform> of military parade in <geogname normal="Flint (Mich.)">Flint, Mich.</geogname>; <corpname normal="United States. Army. Field Artillery, 330th.">330th Field Artillery</corpname> <genreform normal="Pennants.">pennant</genreform>.</p>
+    </scopecontent>
+    <altformavail encodinganalog="530">
+      <p>This collection has not been digitized by the Bentley Historical Library.</p>
+    </altformavail>
+    <controlaccess>
+      <p>
+        <extptr href="accnote" show="embed" actuate="onload"/>
+      </p>
+      <controlaccess>
+        <head>Subjects:</head>
+        <persname source="lcnaf" encodinganalog="600">Ahrens, Henry.</persname>
+        <persname source="lcnaf" encodinganalog="600">Kaser, Ernest.</persname>
+        <persname source="lcnaf" encodinganalog="600">McCarthy, Thomas J.</persname>
+        <persname source="lcnaf" encodinganalog="600">Olson, Carl G.</persname>
+        <persname source="lcnaf" encodinganalog="600">Stage, Jesse H.</persname>
+        <subject source="local" encodinganalog="690" authfilenumber="http://id.loc.gov/authorities/names/n2008059426">Polar Bear Expedition.</subject>
+        <corpname source="lcnaf" encodinganalog="610">Tuscania (Ship)</corpname>
+        <corpname source="lcnaf" encodinganalog="610">United States. Army. Depot Brigade, 160th.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">United States. Army. Engineer Regiment, 310th.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">United States. Army. Field Artillery, 330th.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n90629988">United States. Army. Infantry Regiment, 126th.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">United States. Army. Infantry Regiment, 128th.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82129076">United States. Army. Infantry, 339th.</corpname>
+        <subject source="lcsh" encodinganalog="650">World War, 1914-1918--Michigan.</subject>
+      </controlaccess>
+      <controlaccess>
+        <head>Subjects - Visual Material:</head>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n94064669.html">Fort Custer (Mich.)</geogname>
+        <subject source="lctgm" encodinganalog="650">Soldiers--American.</subject>
+        <corpname source="lcnaf" encodinganalog="610">Tuscania (Ship)</corpname>
+        <corpname source="lcnaf" encodinganalog="610">United States. Army. Depot Brigade, 160th.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n90630002">United States. Army. Division, 32nd.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">United States. Army. Engineer Regiment, 310th.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n2015029364">United States. Army. Field Artillery, 119th.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">United States. Army. Field Artillery, 330th.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">United States. Army. Field Signal Battalion, 214th.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">United States. Army. Infantry Regiment, 125th. Company D.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n90629988">United States. Army. Infantry Regiment, 126th.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">United States. Army. Infantry Regiment, 128th.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">United States. Army. Infantry, 337th.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82129076">United States. Army. Infantry, 339th.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">United States. Army. Infantry, 340th.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">United States. Army. Machine Gun Battalion, 41st.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">United States. Army. Officers' Training School (Camp Custer, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610">United States. Army. Supply Battalion, 107th.</corpname>
+        <subject source="lcsh" encodinganalog="650">World War, 1914-1918.</subject>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n94064669.html">Fort Custer (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/no2010112167.html">Camp MacArthur (Tex.)</geogname>
+      </controlaccess>
+      <controlaccess>
+        <head>Genre Terms:</head>
+        <genreform source="aat" encodinganalog="655">Diaries.</genreform>
+        <genreform source="aat" encodinganalog="655">Dog tags.</genreform>
+        <genreform source="aat" encodinganalog="655">Pennants.</genreform>
+        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655">Postcards.</genreform>
+        <genreform source="aat" encodinganalog="655">Scrapbooks.</genreform>
+      </controlaccess>
+    </controlaccess>
+    <dsc>
+      <c01 level="series">
+        <did>
+          <unittitle>Artifacts</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <container type="folder" label="Oversize Folder">4</container>
+            <unittitle>Artifacts</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle><corpname normal="United States. Army. Division, 85th.">Division, 85th</corpname>, <genreform normal="Patches">Patch</genreform></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle><persname normal="Lawson, William S.">Lawson, William S.</persname>, <corpname normal="United States. Army. Engineer Regiment, 310th.">310th Engineers</corpname>, <genreform normal="Dogtags">Dogtags</genreform></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle><persname normal="Zychal, Stanley B.">Zychal, Stanley B.</persname>, Reunion button</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Miscellaneous buttons</unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Manuscripts</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle><persname normal="Ahrens, Henry">Ahrens, Henry</persname>, <genreform>Diary</genreform></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>
+              <persname normal="Boyce, John E.">Boyce, John E.</persname>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle><corpname normal="United States. Army. Division, 32nd.">Division, 32nd</corpname>, Courier Draft</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle><persname normal="Gregory, R. B.">Gregory, R. B.</persname>, Papers</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle><persname normal="Hice, Louis Krum">Hice, Louis Krum</persname>, Papers</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle><persname normal="Kaser, Ernest">Kaser, Ernest</persname>, <genreform>Scrapbook</genreform></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 folders</extent>
+            </physdesc>
+            <unittitle><persname normal="Lawson, William S.">Lawson, William S.</persname>, Papers</unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle><persname normal="McCarthy, Thomas J.">McCarthy, Thomas J.</persname>, Papers</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle><persname normal="Moschel, Walter">Moschel, Walter</persname>, Papers</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle><persname normal="Olson, Carl G.">Olson, Carl G.</persname>, Papers</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle><persname normal="Peck, John H.">Peck, John H.</persname>, Papers</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle><persname normal="Schroeder, W. M.">Schroeder, W. M.</persname>, Notebook</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle><persname normal="Spurrier, C. A.">Spurrier, C. A.</persname>, Papers</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle><persname normal="Stage, Jesse H.">Stage, Jesse H., Papers</persname>, Papers</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Unidentified</unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Photo albums</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>
+              <corpname normal="United States. Army. Field Artillery, 7th.">Division, 7th, Artillery</corpname>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>
+              <persname normal="Lawson, WIlliam S.">Lawson, William S.</persname>
+            </unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Photographs</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>
+              <persname normal="Barley, Russell">Barley, Russell</persname>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>
+              <persname normal="Calkins, Walter Wilson">Calkins, Walter Wilson</persname>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="folder" label="Oversize Folder">2</container>
+            <unittitle>
+              <persname normal="Calkins, Walter Wilson">Calkins, Walter Wilson</persname>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>
+              <corpname normal="United States. Army. Officers' Training School (Camp Custer, Mich.)">Camp Custer</corpname>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="folder" label="Oversize Folder">1</container>
+            <unittitle>
+              <corpname normal="United States. Army. Officers' Training School (Camp Custer, Mich.)">Camp Custer</corpname>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>
+              <geogname normal="Camp MacArthu (Tex.)">Camp MacArthur</geogname>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>
+              <corpname normal="United States. Army. Depot Brigade, 160th.">Depot Bridge, 160th</corpname>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>
+              <corpname normal="United States. Army. Division, 32nd.">Division, 32nd</corpname>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>
+              <corpname normal="United States. Army. Division, 85th.">Division, 85th</corpname>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>
+              <corpname normal="United States. Army. Supply Battalion, 107th">Engineer Regiment, 107th</corpname>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>
+              <corpname normal="United States. Army. Engineer Regiment, 310th.">Engineer Regiment, 310th</corpname>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>
+              <corpname normal="United States. Army. Field Artillery, 119th.">Field Artillery, 119th</corpname>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <physloc>Online</physloc>
+            <unittitle>Infantry, 125th, Company D</unittitle>
+            <dao href="http://hdl.handle.net/2027.42/95717" show="new" actuate="onrequest">
+              <daodesc>
+                <p>[view item]</p>
+              </daodesc>
+            </dao>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>
+              <corpname normal="United States. Army. Infantry, 339th.">Infantry, 339th</corpname>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>
+              <corpname normal="United States. Army. Infantry, 340th.">Infantry, 340th</corpname>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="folder" label="Oversize Folder">3</container>
+            <unittitle>Portraits</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Tank Brittania in Detroit</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>
+              <persname normal="Wing, Stanley">Wing, Stanley</persname>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>
+              <persname normal="Woods, Linus">Woods, Linus</persname>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Unidentified</unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Postcards</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>
+              <persname normal="Boice, John E.">Boice, John E.</persname>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>
+              <corpname normal="United States. Army. Officers' Training School (Camp Custer, Mich.)">Camp Custer</corpname>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>
+              <geogname normal="Camp MacArthur (Tex.)">Camp MacArthur</geogname>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>
+              <persname normal="Cochran, Earl">Cochran, Earl</persname>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>
+              <corpname normal="Eagle (Ship)">Eagle No. 60</corpname>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>
+              <geogname normal="Flint (Mich.)">Flint, Mich.</geogname>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>
+              <corpname normal="Ford Motor Company. Rouge River Plant">Ford Rouge Plant</corpname>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Patriotic</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>
+              <corpname normal="Tuscania (Ship)">Tuscania</corpname>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Unidentified</unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Printed</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle><corpname normal="American Legion">American Legion</corpname> pamphlets</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle><corpname normal="United States. Army">Army</corpname> pamphlets</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>
+              <corpname normal="Camp Custer Bulletin">Camp Custer Bulletin</corpname>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>
+              <corpname normal="United States. Army. Field Artillery, 328th.">Field Artillery, 328th</corpname>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>
+              <corpname normal="United States. Army. Machine Gun Battalion, 329th.">Machine Gun Battalion, 329th</corpname>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>
+              <corpname normal="Monroe County Patriotic League">Monroe County Patriotic League</corpname>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Ration cards</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle><corpname normal="American Red Cross">Red Cross</corpname> pamphlets</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>
+              <corpname normal="Tuscania (Ship)">Tuscania</corpname>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle><corpname normal="United Committee on War Temperance Activities in the Army and Navy">United Committee on War Temperance</corpname> pamphlets</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle><corpname normal="War Camp Community Service (U.S.)">War Camp Community Service</corpname> pamphlets</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle><corpname normal="National Council of the Young Men's Christian Associations of the United States of America">YMCA</corpname> pamphlets</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Miscellaneous</unittitle>
+          </did>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

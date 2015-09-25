@@ -1,0 +1,522 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead.dtd">
+<ead>
+  <eadheader audience="internal" langencoding="iso639-2b" repositoryencoding="iso15511" dateencoding="iso8601" relatedencoding="Dublin Core" scriptencoding="iso15924" countryencoding="iso3166-1">
+    <eadid countrycode="us" mainagencycode="MiU-H" publicid="us//::miu-h//TXT us::miu-h::sharkeyr.xml//EN" encodinganalog="Identifier">umich-bhl-2009159</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="Title">Finding Aid for Reginald F. Sharkey papers, 1953-2007</titleproper>
+        <author encodinganalog="Creator">Collection processed and finding aid created by Alexis A. Antracoli, 2009</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="Publisher">Bentley Historical Library, University of Michigan</publisher>
+        <date encodinganalog="Date" normal="2009">2009</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created by Alexis A. Antracoli <date>2009</date></creation>
+      <langusage encodinganalog="Language">The finding aid is written in <language langcode="eng" scriptcode="Latn">English</language></langusage>
+      <descrules>Finding aid prepared using Describing Archives: A Content Standard (DACS)</descrules>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date>2009-12-18</date>
+        <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <frontmatter>
+    <titlepage>
+      <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
+      <titleproper>Finding aid for <lb/>Reginald F. Sharkey papers, 1953-2007</titleproper>
+      <author>Finding aid created by <lb/>Alexis A. Antracoli, 2009</author>
+    </titlepage>
+  </frontmatter>
+  <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
+    <did>
+      <origination>
+        <persname source="lcnaf" encodinganalog="100">Sharkey, Reginald, 1913-2005.</persname>
+      </origination>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">1 oversize folder</extent>
+      </physdesc>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">4.5 linear feet</extent>
+        <extent altrender="carrier">(in 6 boxes)</extent>
+      </physdesc>
+      <unittitle encodinganalog="245">Reginald F. Sharkey papers <unitdate type="inclusive" encodinganalog="245$f" normal="1953/2007">1953-2007</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1967/1991">1967-1991</unitdate></unittitle>
+      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2009159 Aa2; UAl</unitid>
+      <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
+      <abstract>Conservationist from Petoskey, Michigan who wrote columns and served as an environmental reporter for several regional newspapers; records include published newspaper columns and articles, drafts, photographs and negatives, and documentation relating to his conservation work.</abstract>
+      <repository>
+        <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea>, University of Michigan</corpname>
+        <extptr href="bhladd" show="embed" actuate="onload"/>
+      </repository>
+    </did>
+    <descgrp type="admin">
+      <acqinfo encodinganalog="541">
+        <p>The collection was donated by the Little Traverse Historical Society through Betty Reddig (donor no. <num type="donor" encodinganalog="541$e">9338</num>) in 2009.</p>
+      </acqinfo>
+      <accruals encodinganalog="584">
+        <p>No further additions to the papers are expected.</p>
+      </accruals>
+      <accessrestrict encodinganalog="506">
+        <p>The collection is open to research.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+        <p>Copyright is not held by the Regents of the University of Michigan.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+        <p>[item], folder, box,
+Reginald F. Sharkey papers, Bentley Historical Library, University of Michigan</p>
+      </prefercite>
+    </descgrp>
+    <bioghist encodinganalog="545">
+      <p>Born in Big Rapids, Michigan in 1913, Reginald Sharkey served in World War II and as an aviator until 1964 when he began work with the Michigan Department of Conservation, now the Department of Natural Resources. He specialized in Petoskey-area fisheries. During the late-sixties, Sharkey became an environmental reporter and columnist for several papers in Northern Michigan, including the <title render="italic">Petoskey News-Review</title> and the <title render="italic">Charlevoix County Press.</title> In 1997, at the age of 83, he published <title render="italic">The Blue Meteor: The Tragic Story of the Passenger Pigeon</title> with the Little Traverse Historical Society.</p>
+    </bioghist>
+    <scopecontent encodinganalog="520">
+      <p>The Reginald Sharkey collection consists of three series: Conservation Career, Writing Career, and Visual Materials. The collection's strength lies in drafts of Sharkey's columns, photographs, and drawings related to wildlife and the environment in Northern Michigan in the 1970s and 1980s.</p>
+    </scopecontent>
+    <controlaccess>
+      <p>
+        <extptr href="accnote" show="embed" actuate="onload"/>
+      </p>
+      <controlaccess>
+        <head>Subjects:</head>
+        <subject source="lcsh" encodinganalog="650">Conservation of natural resources--Michigan.</subject>
+        <genreform source="aat" encodinganalog="655">Oral histories.</genreform>
+        <subject source="lcsh" encodinganalog="650">Outdoor writers--Michigan.</subject>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n85081677.html">Petoskey (Mich.)</geogname>
+        <persname source="lcnaf" encodinganalog="600">Sharkey, Reginald, 1913-</persname>
+      </controlaccess>
+      <controlaccess>
+        <head>Subjects - Visual Materials:</head>
+        <subject source="lctgm" encodinganalog="650">Conservation of natural resources--Michigan.</subject>
+        <subject source="lctgm" encodinganalog="650">Environmental policy--Michigan.</subject>
+        <persname source="lcnaf" encodinganalog="600">Sharkey, Reginald, 1913-</persname>
+        <subject source="lctgm" encodinganalog="650">Wildlife conservation--Michigan.</subject>
+      </controlaccess>
+      <controlaccess>
+        <head>Genre Terms:</head>
+        <genreform source="aat" encodinganalog="655">Drawings (visual works)</genreform>
+        <genreform source="aat" encodinganalog="655">Editorial cartoons.</genreform>
+        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+      </controlaccess>
+    </controlaccess>
+    <dsc type="combined">
+      <c01 level="series">
+        <did>
+          <unittitle>Conservation Career</unittitle>
+        </did>
+        <scopecontent>
+          <p>The Conservation Career series documents Sharkey's activities as a conservationist for the DNR, as well as his conservation-related activities in the Petoskey community.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Newspaper articles about Reginald Sharkey <unitdate type="inclusive" normal="1971/1985">1971-1985</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Bird Banding Certificates <unitdate type="inclusive" normal="1970/1977">1970-1977</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Bird Drawings and Prints <unitdate type="inclusive">undated</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Correspondence <unitdate type="inclusive" normal="1968/1975">1968-1975</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Disposition of Reginald Sharkey Papers</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"Feeding Behavior of the American Merganser in Captivity," <title render="italic">The Journal of Wildlife Management</title>, <unitdate type="inclusive" normal="1966">1966</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Transcript of Oral History Interview with Reginald Sharkey <unitdate type="inclusive" normal="2004">2004</unitdate>; also other related biographical information, <unitdate type="inclusive" normal="2005/2007">2005-2007</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>PCB Contamination <unitdate type="inclusive" normal="1975">1975</unitdate></unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Writing Career</unittitle>
+        </did>
+        <scopecontent>
+          <p>The Writing Career series documents Sharkey's writing activities. Materials in this series primarily include copies of his columns, photographs, and articles for <title render="italic">Harbor Light</title>, the <title render="italic">Petoskey News-Review</title>, <title render="italic">The Graphic</title>, the <title render="italic">Charlevoix County Press</title>, and the <title render="italic">Traverse City Eagle Record</title>. The drafts for many of his columns are also in this series, as well as materials relating to magazine articles that Sharkey either published or submitted for publication with <title render="italic">Outdoor Life</title>.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">4 folders</extent>
+            </physdesc>
+            <unittitle>Book Proposal <unitdate type="inclusive" normal="2001">2001</unitdate></unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Magazine Articles</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>"Persian Boar Blitz," Article Draft <unitdate type="inclusive" normal="1953">1953</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>"The Big Mac Bear," <title render="italic">Outdoor Life</title>, <unitdate type="inclusive" normal="1974">1974</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Newspaper Columns</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>Drafts</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">4 folders</extent>
+                </physdesc>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1970/1979" certainty="approximate">1970s</unitdate>
+                </unittitle>
+                <physdesc altrender="whole">
+                  </physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1980/1989" certainty="approximate">1980s</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Published</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <unittitle>"Emmet Soil Conservation Edition," Supplement to <title render="italic">Petoskey News-Review</title>, <unitdate type="inclusive" normal="1976/1981">1976-1981</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">8 folders</extent>
+                </physdesc>
+                <unittitle>"Jackpine Journal," <title render="italic">Petoskey News-Review</title>, <unitdate type="inclusive" normal="1972/1979">1972-1979</unitdate></unittitle>
+                <physdesc altrender="whole">
+                  </physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">9 folders</extent>
+                </physdesc>
+                <unittitle>"Jackpine Journal," <title render="italic">Petoskey News-Review</title>, <unitdate type="inclusive" normal="1980/1990">1980-1990</unitdate></unittitle>
+                <physdesc altrender="whole">
+                  </physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">5 folders</extent>
+                </physdesc>
+                <unittitle>"Nature Along the Way," <title render="italic">Harbor Light</title>, <unitdate type="inclusive" normal="1967/1971">1967-1971</unitdate></unittitle>
+                <physdesc altrender="whole">
+                  </physdesc>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
+              </physdesc>
+              <unittitle>"Reg Sharkey's Northern Journal," <title render="italic">Charlevoix County Press</title>, <unitdate type="inclusive" normal="1988/1991">1988-1991</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Reporting</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle><title render="italic">Harbor Light</title>, <unitdate type="inclusive" normal="1976">1976</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle><title render="italic">Natural Resources Register</title>, <unitdate type="inclusive" normal="1983">1983</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">3 folders</extent>
+              </physdesc>
+              <unittitle><title render="italic">Petoskey News-Review</title>, <unitdate type="inclusive" normal="1972/1988">1972-1988</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle><title render="italic">The Graphic</title>, <unitdate type="inclusive" normal="1983/1987">1983-1987</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle><title render="italic">Traverse City Record-Eagle</title>, <unitdate type="inclusive" normal="1990">1990</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Visual Materials</unittitle>
+        </did>
+        <scopecontent>
+          <p>The final series Visual Materials is comprised of pen and ink drawings, photographs, negatives, and contact sheets on nature-related themes. The bulk of the material consists of negatives and contact sheets of local wildlife.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <genreform normal="Drawings (visual works)">Original Drawings</genreform>
+            </unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Illustration of Civil War cannon</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>
+                <genreform normal="Editorial Cartoons">Editorial Cartoons</genreform>
+              </unittitle>
+            </did>
+            <odd>
+              <p>(danger of pesticides to fish and wildlife, problem of solid waste disposal, etc.)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Prints and slides of some of his illustrations and drawings</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
+              </physdesc>
+              <unittitle>Wildlife Illustrations: Birds, Fish, Insects, Rabbits, Rodents, and Weasels</unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Miscellaneous subjects</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">6</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">16 items</extent>
+              </physdesc>
+              <unittitle>Editorial Cartoons and other illustrations</unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+            <odd>
+              <p>(environmental policy and wildlife)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Editorial Cartoons</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="folder" label="Oversize Folder">1</container>
+                <unittitle>"Duel of Death" featuring bear and hunter</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="folder" label="Oversize Folder">1</container>
+                <unittitle>Overpopulation</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="folder" label="Oversize Folder">1</container>
+                <unittitle>"Mt. Trashmore"</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="folder" label="Oversize Folder">1</container>
+                <unittitle>"King Oil and Company" and the Pigeon River Country State Forest</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Wildlife Illustrations</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="folder" label="Oversize Folder">1</container>
+                <unittitle>Fox and mountain lion eyeing a rabbit</unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <genreform normal="Photographs">Photographs</genreform>
+            </unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Buildings: Church, Houses, Lighthouses, and Outhouse</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Nature Scenes: Winter, wetlands, etc.</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>People: Archery, ice fishing, photoprints of historical logging camps, group and individual portraits, and miscellaneous activities</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Transportation: Airplane, sail and motor boats, and train</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
+              </physdesc>
+              <unittitle>Wildlife: Birds, Deer, Fish, Insects, Raccoons, Reptiles, and Rodents</unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Negatives and Contact Sheets</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">13 folders</extent>
+              </physdesc>
+              <unittitle>
+                <unitdate type="inclusive">Undated</unitdate>
+              </unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
+              </physdesc>
+              <unittitle>
+                <unitdate type="inclusive" normal="1974/1978">1974-1978</unitdate>
+              </unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">13 folders</extent>
+              </physdesc>
+              <unittitle>
+                <unitdate type="inclusive" normal="1980/1988">1980-1988</unitdate>
+              </unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

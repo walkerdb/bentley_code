@@ -1,0 +1,581 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead.dtd">
+<ead>
+  <eadheader audience="internal" langencoding="iso639-2b" repositoryencoding="iso15511" dateencoding="iso8601" relatedencoding="Dublin Core" scriptencoding="iso15924" countryencoding="iso3166-1">
+    <eadid countrycode="us" mainagencycode="MiU-H" publicid="us//::miu-h//TXT us::miu-h::sttimoth.xml//EN" encodinganalog="Identifier">umich-bhl-2012126</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="Title">Finding Aid for St. Timothy’s Episcopal Church, Detroit, Mich., records, 1928-2010</titleproper>
+        <author encodinganalog="Creator">Collection processed and finding aid created by Michigan Historical Collections staff</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="Publisher">Bentley Historical Library, University of Michigan</publisher>
+        <date encodinganalog="Date" normal="2012">2012</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created by Thomas E. Powers <date>2012</date></creation>
+      <langusage encodinganalog="Language">The finding aid is written in <language langcode="eng" scriptcode="Latn">English</language></langusage>
+      <descrules>Finding aid prepared using Describing Archives: A Content Standard (DACS)</descrules>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date>2012-09-10</date>
+        <item>Original encoding from Word 2007 file using Word macros and Xmetal.</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <frontmatter>
+    <titlepage>
+      <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
+      <titleproper>Finding aid for <lb/>St. Timothy’s Episcopal Church (Detroit, Mich.) <lb/>Records, 1928-2010</titleproper>
+      <author>Finding aid created by <lb/>Michigan Historical Collections staff</author>
+    </titlepage>
+  </frontmatter>
+  <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
+    <did>
+      <origination>
+        <corpname source="lcnaf" encodinganalog="110">St. Timothy’s Episcopal Church (Detroit, Mich.)</corpname>
+      </origination>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">1 oversize folder</extent>
+      </physdesc>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">17 oversize volumes</extent>
+      </physdesc>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">7 linear feet</extent>
+      </physdesc>
+      <unittitle encodinganalog="245">St. Timothy’s Episcopal Church, Detroit, Mich., records <unitdate type="inclusive" encodinganalog="245$f" normal="1928/2010">1928-2010</unitdate></unittitle>
+      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2012126 Ba 2; Ba Outsize</unitid>
+      <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
+      <repository>
+        <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea>, University of Michigan</corpname>
+        <extptr href="bhladd" show="embed" actuate="onload"/>
+      </repository>
+    </did>
+    <descgrp type="admin">
+      <acqinfo encodinganalog="541">
+        <p>The records were transferred from the Episcopal Church, Diocese of Michigan (donor no. <num type="donor" encodinganalog="541$e">1059</num>) and came to the library in 2012.</p>
+      </acqinfo>
+      <accruals encodinganalog="584">
+        <p>No further additions to the records are expected.</p>
+      </accruals>
+      <accessrestrict encodinganalog="506">
+        <p>The record group is open to research.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+        <p>Copyright is not held by the Regents of the University of Michigan.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+        <p>[item], folder, box,
+St. Timothy’s Episcopal Church, Detroit, Mich., records, Bentley Historical Library, University of Michigan</p>
+      </prefercite>
+    </descgrp>
+    <bioghist encodinganalog="545">
+      <p>St. Timothy's Episcopal Church, which ceased operation in 2010, was formed from the merger of St. Timothy's and St. Augustine's in 1968. Each church had been experiencing a significant decline in membership in the years prior to the merger.</p>
+      <p>The two churches were established at about the same time. St. Timothy's was established in (1928) as a store-front church in Detroit. St. Augustine's was established in 1929 following a survey taken by the Vicar of St. Cyprian's of the homes along 8 Mile Road in northwest Detroit and in the suburb of Inkster, west of Dearborn. St. Augustine's was intended to minister to the African American community in this area.</p>
+    </bioghist>
+    <scopecontent encodinganalog="520">
+      <p>The records of St. Timothy's, transferred to the library following its dissolution, include registers, record books, and other materials from both St. Timothy's and from St. Augustine's (prior to the merger.</p>
+      <p>The bulk of the records relate to St. Timothy's and include parish registers with records of communicants, baptisms, confirmations, burials, and marriages; registers of church services; treasurer's record books; record books containing names of members and record of their giving; vestry minutes; subject files; church newsletters and bulletins, and photographs and a videotape.</p>
+      <p>The records of St. Augustine's date from 1929 to 1968. These records include a parish register and a register of church services, and a file of correspondence and other papers of the Rev. E.D. Morisseau.</p>
+    </scopecontent>
+    <controlaccess>
+      <p>
+        <extptr href="accnote" show="embed" actuate="onload"/>
+      </p>
+      <controlaccess>
+        <head>Subjects:</head>
+        <subject source="lcsh" encodinganalog="650">African American churches--Michigan--Detroit.</subject>
+        <geogname source="lcsh" encodinganalog="651">Detroit (Mich.)--Church history.</geogname>
+        <corpname source="lcnaf" encodinganalog="610">Episcopal Church--Michigan--Detroit.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">St. Augustine's Episcopal Church (Detroit, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610">St. Timothy's Episcopal Church (Detroit, Mich.)</corpname>
+      </controlaccess>
+      <controlaccess>
+        <head>Contributors:</head>
+        <corpname source="lcnaf" encodinganalog="710">St. Augustine's Episcopal Church (Detroit, Mich.)</corpname>
+      </controlaccess>
+      <controlaccess>
+        <head>Genre Terms:</head>
+        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+      </controlaccess>
+    </controlaccess>
+    <dsc type="combined">
+      <c01 level="series">
+        <did>
+          <unittitle>St. Augustine's</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Correspondence and other papers of Rev. E.D. Morisseau</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Confirmation records <unitdate type="inclusive" normal="1960/1967">1960-1967</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="volume" label="Oversize Volume">12</container>
+            <unittitle>Parish register (include communicants, baptisms, confirmations, burials, marriages) <unitdate type="inclusive" normal="1929/1968">1929-1968</unitdate> (mainly <unitdate type="inclusive" normal="1929/1967">1929-1967</unitdate>)</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="volume" label="Oversize Volume">1</container>
+            <unittitle>Register of Church Services <unitdate type="inclusive" normal="1945/1967">1945-1967</unitdate></unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>St. Timothy's Church Records</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Articles of incorporation and related documents</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Annual reports <unitdate type="inclusive" normal="1955/2008">1955-2008</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(include some gaps)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Parish register (include communicants, baptisms, confirmations, burials, marriages)</unittitle>
+          </did>
+          <odd>
+            <p>(dates vary within each category)</p>
+          </odd>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1928/1951">1928-1951</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">13</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1928/1952">1928-1952</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">14</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1939/1951">1939-1951</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">15</container>
+              <unittitle><unitdate type="inclusive" normal="1952/1965">1952-1965</unitdate> (mainly <unitdate type="inclusive" normal="1952/1959">1952-1959</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">16</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1960/1968">1960-1968</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">17</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1968/2010">1968-2010</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Marriage -- Statement of Intention <unitdate type="inclusive" normal="1970/1989" certainty="approximate">1970s-1980s</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Baptism -- Information blank application <unitdate type="inclusive" normal="1960/1999" certainty="approximate">1960s-1990s</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Confirmation -- Information blank application <unitdate type="inclusive" normal="1950/1989" certainty="approximate">1950s-1980s</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 folders</extent>
+            </physdesc>
+            <unittitle>Funeral programs <unitdate type="inclusive" normal="1980/2010" certainty="approximate">1980s-2010</unitdate></unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Register of Church Services</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1928/1936">1928-1936</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">2</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1937/1958">1937-1958</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1958/1960">1958-1960</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1960/1964">1960-1964</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1964/1972">1964-1972</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1972/1978">1972-1978</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1978/1988">1978-1988</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">19 folders</extent>
+            </physdesc>
+            <unittitle>Parochial reports to the Diocese <unitdate type="inclusive" normal="1973/1994">1973-1994</unitdate></unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+          <odd>
+            <p>(some gaps)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">10 folders</extent>
+            </physdesc>
+            <unittitle>Financial records (receipts and disbursements) <unitdate type="inclusive" normal="1953/2009">1953-2009</unitdate> (scattered records)</unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Treasurer's Record Book</unittitle>
+          </did>
+          <odd>
+            <p>(include record of cash received and disbursed; member's name with record of giving)</p>
+          </odd>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1930">1930</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">3</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1931">1931</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1932">1932</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1933">1933</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1934">1934</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1935">1935</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1936">1936</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1937">1937</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1938">1938</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1939">1939</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Record books containing name of member and record of giving</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">4</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1950">1950</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">5</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1951">1951</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">6</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1952">1952</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">7</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1953">1953</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">8</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1954">1954</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">9</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1955">1955</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">10</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1956">1956</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">11</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1957">1957</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Vestry minutes and agenda</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">22 folders</extent>
+              </physdesc>
+              <unittitle>
+                <unitdate type="inclusive" normal="1988">1988</unitdate>
+                <unitdate type="inclusive" normal="1990/2010">1990-2010</unitdate>
+              </unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Membership materials</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">21 folders</extent>
+              </physdesc>
+              <unittitle>Letters of transfer, A-Y</unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Membership card file</unittitle>
+              <physdesc>
+                <physfacet>photocopies of cards</physfacet>
+              </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">8 volumes</extent>
+              </physdesc>
+              <unittitle>Directories and members and staff <unitdate type="inclusive" normal="1956/1967">1956-1967 (scattered)</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Pastoral record of members, names and addresses, M-Z only</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Topical files (unprocessed)</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">6</container>
+              <unittitle>Church bulletins, newsletters, history and anniversary materials; office logs of visitors, phone calls, and notable events</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle><genreform normal="Photographs">Photographs</genreform> of church activities and groups</unittitle>
+          </did>
+          <odd>
+            <p>(See also oversize folder Ba Out.)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">7</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">3 copies</extent>
+            </physdesc>
+            <unittitle><genreform normal="Videotape">Videotape</genreform> (VHS): 60th anniversary celebration</unittitle>
+            <physdesc>
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="folder" label="Oversize Folder">Ba</container>
+            <unittitle>Citations, awards, testimonials, etc.</unittitle>
+          </did>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

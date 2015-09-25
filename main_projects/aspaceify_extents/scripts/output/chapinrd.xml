@@ -1,0 +1,944 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead.dtd">
+<ead>
+  <eadheader audience="internal" langencoding="iso639-2b" repositoryencoding="iso15511" dateencoding="iso8601" relatedencoding="Dublin Core">
+    <eadid countrycode="us" mainagencycode="MiU-H" publicid="-//us::MiU-H//TEXT us::MiU-H::chapinrd.xml//EN" encodinganalog="identifier">umich-bhl-851435</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="title">Finding Aid for Roy Dikeman Chapin Papers <date>1886-1945</date></titleproper>
+        <author encodinganalog="creator">Collection processed and finding aid prepared by Michigan Historical Collections Staff</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="publisher">Bentley Historical Library, University of Michigan</publisher>
+        <date encodinganalog="date">1997</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created by Greg Kinney <date>Dec. 1997</date></creation>
+      <langusage>The finding aid is written in <language encodinganalog="language" langcode="eng">English.</language></langusage>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date>20150604</date>
+        <item>Corrected extent.</item>
+      </change>
+      <change>
+        <date>20031001</date>
+        <item>Converted to EAD2002 using Word macro and Xmetal</item>
+      </change>
+      <change>
+        <date>2000-01-27</date>
+        <item>added dao, href values 1-5</item>
+      </change>
+      <change>
+        <date>1999-07-05</date>
+        <item>converted to new container style</item>
+      </change>
+      <change>
+        <date>1999-07-05</date>
+        <item>Converted to EAD version 1.0 using WORD 6 macro and some hand tagging.</item>
+      </change>
+      <change>
+        <date>Dec. 6, 1997</date>
+        <item>original encoding from Word 6.0 file</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <frontmatter>
+    <titlepage>
+      <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
+      <titleproper>Finding Aid for <lb/>Roy Dikeman Chapin Papers, <date type="inclusive">1886-1945</date></titleproper>
+      <author>Finding aid prepared by: <lb/>Michigan Historical Collections Staff</author>
+    </titlepage>
+  </frontmatter>
+  <archdesc level="collection" type="inventory" audience="external" relatedencoding="MARC21">
+    <did>
+      <origination>
+        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n86114210">Chapin, Roy D. (Roy Dikeman), 1880-1936.</persname>
+      </origination>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">7 oversize volumes</extent>
+      </physdesc>
+      <physdesc altrender="whole">
+        <extent altrender="carrier">(in 33 boxes)</extent>
+      </physdesc>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">32 linear feet</extent>
+      </physdesc>
+      <unittitle encodinganalog="245">Roy Dikeman Chapin Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1886/1945">1886-1945</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1910/1936">1910-1936</unitdate></unittitle>
+      <physdesc altrender="part">
+        </physdesc>
+      <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">851435 AC Aa 2</unitid>
+      <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
+      <abstract>Lansing, Michigan businessman, founder of the Hudson Motor car Company, Secretary of Commerce in the Hoover Administration, leader of the "good roads movement" and the Lincoln Highway Association. Collection includes correspondence, speeches, business papers, clippings and scrapbooks and photographs.</abstract>
+      <repository>
+        <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea> University of Michigan</corpname>
+        <extptr href="bhladd" show="embed" actuate="onload"/>
+      </repository>
+    </did>
+    <descgrp type="admin">
+      <acqinfo encodinganalog="541">
+        <p>The collection (donor no. <num encodinganalog="541$e" type="donor">3584</num>) was the gift of Mrs. Roy D. Chapin and other members of the Chapin family. The bulk of the collection came to the library in 1940; other smaller additions came throughout the 1940s and 1950s.</p>
+      </acqinfo>
+      <accessrestrict encodinganalog="506">
+        <p>The collection is open for research.</p>
+      </accessrestrict>
+      <prefercite encodinganalog="524">
+        <p>item, folder title, box no., Roy D. Chapin Papers, Bentley Historical Library, University of Michigan</p>
+      </prefercite>
+    </descgrp>
+    <bioghist encodinganalog="545">
+      <p>Roy D. Chapin, automobile manufacturer and secretary of commerce in the administration of Herbert Hoover, was born February 23, 1880 in Lansing, Michigan. He attended the University of Michigan but did not graduate, leaving in 1901 to join the <corpname>Olds Motor Works</corpname>. Desiring to establish his own company, Chapin and other Olds employees went out in 1906 in search of the money needed to produce the car that had been designed by one of their number Howard E. Coffin. They first received financial backing from <persname>E. R. Thomas</persname>, then later in 1908, when Thomas dropped out of the picture, from <persname>Hugh R. Chalmers</persname>. The company they formed was <persname>Chalmers-Detroit Motor Company</persname>.</p>
+      <p>Within the Chalmer organization, Chapin and Coffin still had dreams of producing the Coffin-designed car. With backing from department store giant <persname>Joseph L. Hudson</persname>, they established the <corpname>Hudson Motor Car Company</corpname>. Originally part of Chalmers, the Hudson became independent when Chalmers bought out the interest of Chapin and Coffin in his company. With this restructuring, Chapin became president of Hudson.</p>
+      <p>During World War I, Chapin served as chairman of the highway transport committee of the <corpname>Council of National Defense.</corpname> After the war, Chapin initiated changes in his company. He introduced a popularly priced car, the Essex, in 1919; in 1922, he began offering closed cars similarly priced to the traditional touring car; and in 1922 also, he reorganized the company's finances which provided new capital for expansion.</p>
+      <p>In 1923, Chapin resigned as president to become chairman of the board. This move allowed him to devote more time to other interests, such as the good roads movement. Chapin was vice president of the <corpname>Lincoln Highway Association</corpname> chairman of the good roads committee of the <corpname>Automobile Board of Trade</corpname>, and chairman of the highway transport committee of the International Chamber of Commerce.</p>
+      <p>In 1932, Chapin was appointed Secretary of Commerce. He served briefly, returning in 1933 to Hudson to take over again as president. Chapin died February 16, 1936.</p>
+    </bioghist>
+    <arrangement encodinganalog="351">
+      <p>The Roy D. Chapin papers have been arranged into three series:
+        <list type="simple"><item>Correspondence, 1899-1945 (Boxes 1-29)</item><item>Miscellaneous, mostly undated (Boxes 30-33)</item><item>Scrapbooks, 1886-1932 (7 volumes).</item></list>
+      </p>
+    </arrangement>
+    <scopecontent encodinganalog="520">
+      <p>The Roy D. Chapin papers include correspondence, speeches, articles, interviews, business papers, receipts, scrapbooks, photographs, and miscellaneous notes and files of Chapin's wife, and his biographer, John C. Long, concerning family matters, highway transportation, the automobile industry, general economic conditions, foreign trade, World War I, national defense, state and national politics, the Republican Party, and the University of Michigan. The collection also contains extensive papers concerning the Hudson Motor Car Company, including information on management policies, production, and labor organizing.</p>
+    </scopecontent>
+    <controlaccess>
+      <p>
+        <extptr href="accnote" show="embed" actuate="onload"/>
+      </p>
+      <controlaccess>
+        <head>Subjects:</head>
+        <persname source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n86114210">Chapin, Roy D. (Roy Dikeman), 1880-1936.</persname>
+        <persname source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n86011666">Green, William, 1870-1952.</persname>
+        <persname source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n86012004">Hays, Will H. (Will Harrison), 1879-1954.</persname>
+        <persname source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n87836169">Henderson, Leon, 1895-1986</persname>
+        <persname source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n79006704">Hughes, Charles Evans, 1862-1948.</persname>
+        <persname source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n88002366">Hutchins, Harry B. (Harry Burns), 1847-1930.</persname>
+        <persname source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n50049279">Lewis, John Llewellyn, 1880-1969.</persname>
+        <persname source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n86025928">Murphy, Frank, 1890-1949.</persname>
+        <persname source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n79027239">Roosevelt, Theodore, 1858-1919.</persname>
+        <corpname source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n78088938">American Automobile Association.</corpname>
+        <corpname source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n79091711">American Federation of Labor.</corpname>
+        <corpname source="lcnaf">Automobile Manufacturers Association.</corpname>
+        <corpname source="lcnaf">Battle Creek Sanitarium.</corpname>
+        <corpname source="lcnaf">Chalmers-Detroit Motor Company.</corpname>
+        <corpname source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n92054424">Economic Club of Detroit.</corpname>
+        <corpname source="lcnaf">Hudson Motor Car Company.</corpname>
+        <corpname source="lcnaf">Olds Motor Works.</corpname>
+        <corpname source="lcnaf">Republican Party (Mich.)</corpname>
+        <corpname source="lcnaf">University of Michigan. Student Religious Association.</corpname>
+        <corpname source="lcnaf">United States. Dept. of Commerce.</corpname>
+        <corpname source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n50064788">United States. National Recovery Administration.</corpname>
+        <corpname source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/nr93034095">University of Michigan. Alumni Association.</corpname>
+        <corpname source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n80094504">University of Michigan. College of Engineering.</corpname>
+        <corpname source="lcnaf">University of Michigan. Library.</corpname>
+        <corpname source="lcnaf">Michigan Union.</corpname>
+        <corpname source="lcnaf">University of Michigan--Students--Correspondence.</corpname>
+        <corpname source="lcnaf">University of Michigan--Students--Social life and customs--1891-1900.</corpname>
+        <corpname source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n84017513">William L. Clements Library.</corpname>
+        <subject source="lcsh">Aeronautics.</subject>
+        <subject source="lcsh">Automobile industry and trade--United States.</subject>
+        <subject source="lcsh">Balloon ascensions.</subject>
+        <subject source="lcsh">Commerce.</subject>
+        <subject source="lcsh">Trade-unions--Automobile industry workers--Michigan.</subject>
+        <subject source="lcsh">Presidents--United States--Election--1932.</subject>
+        <subject source="lcsh">Roads--United States.</subject>
+        <subject source="lcsh">Strikebreakers--Michigan.</subject>
+        <subject source="lcsh">World War, 1914-1918.</subject>
+        <subject source="local">Michigan--Politics and government--1929-1938.</subject>
+        <geogname source="lcsh">Grosse Pointe (Mich.)</geogname>
+        <geogname source="lcsh">United States--Politics and government--1929-1933.</geogname>
+      </controlaccess>
+      <controlaccess>
+        <head>Subjects - Visual Materials</head>
+        <persname source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n86114210">Chapin, Roy D. (Roy Dikeman), 1880-1936.</persname>
+        <persname source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n79138572">Durant, William Crapo, 1861-1947.</persname>
+        <persname source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n85062659">Duryea, Charles E., 1861-1938.</persname>
+        <persname source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n50000654">Earhart, Amelia, 1897-1937.</persname>
+        <persname source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n88117828">Ford, Edsel, 1893-1943.</persname>
+        <persname source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n79055385">Ford, Henry, 1863-1947.</persname>
+        <persname source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n79021421">Hoover, Herbert, 1874-1964.</persname>
+        <persname source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/no2004105892">Joy, Henry Bourne, 1864-1936.</persname>
+        <persname source="lcnaf">Macauley, Alvan, 1872-1952.</persname>
+        <persname source="lcnaf">Nash, Charles W., 1868-1944.</persname>
+        <persname source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n97065397">Olds, Ransom Eli, 1864-1950.</persname>
+        <persname source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n79021901">Rickenbacker, Eddie, 1890-1973.</persname>
+        <persname source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n89115529">Sloan, Alfred Pritchard, 1875-1966.</persname>
+        <persname source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n79021164">Twain, Mark, 1835-1910.</persname>
+        <persname source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n79077414">Wright, Orville, 1871-1948.</persname>
+        <corpname source="lcnaf">Hudson Motor Car Company.</corpname>
+        <corpname source="lcnaf">Olds Motor Works.</corpname>
+        <subject source="lcsh">Airplanes.</subject>
+        <subject source="lcsh">Automobile industry and trade.</subject>
+        <subject source="lcsh">Automobiles.</subject>
+        <subject source="lctgm">Balloons (Aircraft)--1910.</subject>
+      </controlaccess>
+      <controlaccess>
+        <head>Contributors:</head>
+        <persname source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/no2008190062">Alger, Frederick Moulton, 1876-1933.</persname>
+        <persname source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n86114582">Baker, Newton Diehl, 1871-1937.</persname>
+        <persname source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n50023552">Baruch, Bernard M. (Bernard Mannes), 1870-1965.</persname>
+        <persname source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/no2001090656">Bates, Henry Moore, 1869-1949.</persname>
+        <persname source="lcnaf">Bezner, Frederick O.</persname>
+        <persname source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n94105471">Brucker, Wilber Marion, 1894-1968.</persname>
+        <persname source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n88650119">Burton, Marion Le Roy, 1874-1925.</persname>
+        <persname source="lcnaf">Chalmers, Hugh, 1873-1932.</persname>
+        <persname source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/nr94018515">Clements, William L. (William Lawrence), 1861-1934.</persname>
+        <persname source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n98020942">Coffin, Howard Earle, 1873-1937.</persname>
+        <persname source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n86070545">Couzens, James, 1872-1936.</persname>
+        <persname source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n92802898">Dingell, John D. (John David), 1894-1955.</persname>
+        <persname source="lcnaf">Ferris, Woodbridge Nathan, 1853-1928.</persname>
+        <persname source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n85031330">Firestone, Harvey Samuel, 1868-1938.</persname>
+        <persname source="lcnaf">Fisher, Carl G.</persname>
+        <persname source="lcnaf">Fleming, Arthur.</persname>
+        <persname source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n88117828">Ford, Edsel, 1893-1943.</persname>
+        <persname source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n50034482">Gompers, Samuel, 1850-1924.</persname>
+        <persname source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n50023001">Harding, Warren G. (Warren Gamaliel), 1865-1923.</persname>
+        <persname source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n85091829">Hoffman, Paul G. (Paul Gray), 1891-1974.</persname>
+        <persname source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n79021421">Hoover, Herbert, 1874-1964.</persname>
+        <persname source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/no2008186678">Hudson, Joseph Lowthian, 1846-1912.</persname>
+        <persname source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n86012032">Hull, Cordell, 1871-1955.</persname>
+        <persname source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n93092667">Johnson, Pyke.</persname>
+        <persname source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/no2004105892">Joy, Henry Bourne, 1864-1936.</persname>
+        <persname source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n86034285">Knox, Frank, 1874-1944.</persname>
+        <persname source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n84203502">Lasker, Albert Davis, 1880-1952.</persname>
+        <persname source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n85386182">Leland, Henry Martyn, 1843-1932.</persname>
+        <persname source="lcnaf">Little, Clarence C. (Clarence Cook), b. 1888.</persname>
+        <persname source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/no00019807">Long, John Cuthbert, 1892-</persname>
+        <persname source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n86025876">Meyer, Eugene, 1875-1959.</persname>
+        <persname source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/no2008183306">Murfin, James Orin, 1875-1940.</persname>
+        <persname source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n89125977">Newberry, Truman Handy, 1864-1945.</persname>
+        <persname source="lcnaf">Osborn, Chase S. (Chase Salmon), b. 1860.</persname>
+        <persname source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n79003951">Paley, William S. (William Samuel), 1901-1990</persname>
+        <persname source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n50009048">Pershing, John J. (John Joseph), 1860-1948.</persname>
+        <persname source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n87873292">Putnam, George Palmer, 1887-1950.</persname>
+        <persname source="lcnaf">Reeves, Alfred L., 1873-</persname>
+        <persname source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n92118372">Rice, Grantland, 1880-1954.</persname>
+        <persname source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n79021901">Rickenbacker, Eddie, 1890-1973.</persname>
+        <persname source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n84042461">Rockefeller, John D. (John Davison), 1874-1960.</persname>
+        <persname source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n50048290">Romney, George W., 1907-1995.</persname>
+        <persname source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n79022932">Roosevelt, Franklin D. (Franklin Delano), 1882-1945.</persname>
+        <persname source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n86025992">Roosevelt, Theodore, 1887-1944.</persname>
+        <persname source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n89115529">Sloan, Alfred Pritchard, 1875-1966.</persname>
+        <persname source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/no2008187805">Smith, Shirley Wheeler, 1875-1959.</persname>
+        <persname source="lcnaf">Strauss, Lewis Lichtenstein, 1896-</persname>
+        <persname source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n86114725">Street, Julian, 1879-1947</persname>
+        <persname source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n79139713">Thomas, Lowell, 1892-1981.</persname>
+        <persname source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/no2008188960">Townsend, Charles Elroy, 1856-1924.</persname>
+        <persname source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n50045033">Vandenberg, Arthur H. (Arthur Hendrick), 1884-1951.</persname>
+        <persname source="lcnaf">White, Albert Easton, 1884-1956.</persname>
+        <persname source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n79046299">Wilson, Woodrow, 1856-1924.</persname>
+        <persname source="lcnaf">Wood, Leonard, 1860-1927.</persname>
+        <persname source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n85185303">Woodin, William H. (William Hartman), 1868-1934.</persname>
+        <persname source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n92051380">Yost, Fielding Harris, 1871-1946.</persname>
+      </controlaccess>
+      <controlaccess>
+        <head>Genre/Form:</head>
+        <genreform source="aat">Photographs.</genreform>
+        <genreform source="aat">Scrapbooks.</genreform>
+      </controlaccess>
+    </controlaccess>
+    <dsc type="combined">
+      <c01 level="series">
+        <did>
+          <unittitle>Correspondence <unitdate type="inclusive" normal="1899/1936">1899-1936</unitdate></unittitle>
+        </did>
+        <scopecontent>
+          <p>The Correspondence series dates from 1899 to 1936 with some scattering of family and estate materials dating up to 1943. It is the largest series in the collection and concerns family matters, highway transportation, the automobile industry, general economic conditions, foreign trade, World War I, national defense, state and national politics, the Republican Party, and University of Michigan affairs. Correspondents include national and state political and business leaders.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container label="Box" type="box">1</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">35 folders</extent>
+            </physdesc>
+            <unittitle>
+              <unitdate normal="1899/1914-07">1899-July 1914</unitdate>
+            </unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container label="Box" type="box">2</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">30 folders</extent>
+            </physdesc>
+            <unittitle>
+              <unitdate normal="1914-08/1916-07-15">August 1914-July 15, 1916</unitdate>
+            </unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container label="Box" type="box">3</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">26 folders</extent>
+            </physdesc>
+            <unittitle>
+              <unitdate normal="1916-07-16/1917-03-22">July 16, 1916-March 22, 1917</unitdate>
+            </unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container label="Box" type="box">4</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">27 folders</extent>
+            </physdesc>
+            <unittitle>
+              <unitdate normal="1917-03-23/1917-12-10">March 23, 1917-December 10, 1917</unitdate>
+            </unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container label="Box" type="box">5</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">34 folders</extent>
+            </physdesc>
+            <unittitle>
+              <unitdate normal="1917-12-11/1918-10-21">December 11, 1917-October 21, 1918</unitdate>
+            </unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container label="Box" type="box">6</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">32 folders</extent>
+            </physdesc>
+            <unittitle>
+              <unitdate normal="1918-10-22/1919-05-31">October 22, 1918-May 31, 1919</unitdate>
+            </unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container label="Box" type="box">7</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">37 folders</extent>
+            </physdesc>
+            <unittitle>
+              <unitdate normal="1919-06/1920-03-21">June 1919-March 21, 1920</unitdate>
+            </unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container label="Box" type="box">8</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">38 folders</extent>
+            </physdesc>
+            <unittitle>
+              <unitdate normal="1920-03-22/1920-11-30">March 22, 1920-November 30, 1920</unitdate>
+            </unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container label="Box" type="box">9</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">42 folders</extent>
+            </physdesc>
+            <unittitle>
+              <unitdate normal="1920-12/1921-06-21">December 1920-June 21, 1921</unitdate>
+            </unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container label="Box" type="box">10</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">38 folders</extent>
+            </physdesc>
+            <unittitle>
+              <unitdate normal="1921-07/1922-02-24">July 1921-February 24, 1922</unitdate>
+            </unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container label="Box" type="box">11</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">38 folders</extent>
+            </physdesc>
+            <unittitle>
+              <unitdate normal="1922-02-25/1922-12-30">February 25, 1922-December 30, 1922</unitdate>
+            </unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container label="Box" type="box">12</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">44 folders</extent>
+            </physdesc>
+            <unittitle>
+              <unitdate normal="1923-01/1924-01-25">January 1923-January 25, 1924</unitdate>
+            </unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container label="Box" type="box">13</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">42 folders</extent>
+            </physdesc>
+            <unittitle>
+              <unitdate normal="1924-01-26/1924-12-05">January 26, 1924-December 5, 1924</unitdate>
+            </unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container label="Box" type="box">14</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">81 folders</extent>
+            </physdesc>
+            <unittitle>
+              <unitdate normal="1924-12-11/1926-04-30">December 11, 1924-April 30, 1926</unitdate>
+            </unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container label="Box" type="box">15</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">46 folders</extent>
+            </physdesc>
+            <unittitle>
+              <unitdate normal="1926-04-30/1927-04-25">April 30, 1926-April 25, 1927</unitdate>
+            </unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container label="Box" type="box">16</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">44 folders</extent>
+            </physdesc>
+            <unittitle>
+              <unitdate normal="1927-04-26/1928-02-10">April 26, 1927-February 10, 1928</unitdate>
+            </unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container label="Box" type="box">17</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">40 folders</extent>
+            </physdesc>
+            <unittitle>
+              <unitdate normal="1928-02-11">February 10, 1928-1928 undated</unitdate>
+            </unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container label="Box" type="box">18</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">34 folders</extent>
+            </physdesc>
+            <unittitle>
+              <unitdate normal="1928/1929-08-17" certainty="approximate">1928 undated-August 17, 1929</unitdate>
+            </unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container label="Box" type="box">19</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">40 folders</extent>
+            </physdesc>
+            <unittitle>
+              <unitdate normal="1929-08-19/1930-03-23">August 19, 1929-March 23, 1930</unitdate>
+            </unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container label="Box" type="box">20</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">39 folders</extent>
+            </physdesc>
+            <unittitle>
+              <unitdate normal="1930-03-24/1931-02-10">March 24, 1930-February 10, 1931</unitdate>
+            </unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container label="Box" type="box">21</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">43 folders</extent>
+            </physdesc>
+            <unittitle>
+              <unitdate normal="1931-02-11/1932-03-09">February 11, 1931-March 9, 1932</unitdate>
+            </unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container label="Box" type="box">22</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">28 folders</extent>
+            </physdesc>
+            <unittitle>
+              <unitdate normal="1932-03-10/1932-08-09">March 10, 1932-August 9, 1932</unitdate>
+            </unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container label="Box" type="box">23</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">32 folders</extent>
+            </physdesc>
+            <unittitle>
+              <unitdate normal="1932-08-10/1932-10-10">August 10, 1932-October 10, 1932</unitdate>
+            </unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container label="Box" type="box">24</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">32 folders</extent>
+            </physdesc>
+            <unittitle>
+              <unitdate normal="1932-10-11">October 11, 1932-1932 undated</unitdate>
+            </unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container label="Box" type="box">25</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">34 folders</extent>
+            </physdesc>
+            <unittitle>
+              <unitdate normal="1932/1933-05-31" certainty="approximate">1932 undated-May 31, 1933</unitdate>
+            </unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container label="Box" type="box">26</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">36 folders</extent>
+            </physdesc>
+            <unittitle>
+              <unitdate normal="1933-06-01/1933-12-31">June 1, 1933-December 31, 1933</unitdate>
+            </unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container label="Box" type="box">27</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">33 folders</extent>
+            </physdesc>
+            <unittitle>
+              <unitdate normal="1933/1934-08-31" certainty="approximate">1933 undated-August 31, 1934</unitdate>
+            </unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container label="Box" type="box">28</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">35 folders</extent>
+            </physdesc>
+            <unittitle>
+              <unitdate normal="1934-09/1935-12">September 1934-December 1935</unitdate>
+            </unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container label="Box" type="box">29</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">21 folders</extent>
+            </physdesc>
+            <unittitle>
+              <unitdate normal="1936-01/1943">January 1936-1943</unitdate>
+            </unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">29</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">5 folders</extent>
+            </physdesc>
+            <unittitle>Letters of thanks concerning the Chapin biography <unitdate normal="1945">1945</unitdate></unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>
+            <genreform normal="Photographs">Photographs</genreform>
+          </unittitle>
+        </did>
+        <scopecontent>
+          <p>The photographs include images of Chapin's associates in the automobile industry, promotional photos for Hudson Motor Company, pictures of automobiles and auto plants and portraits of Chapin and his family. The scrapbooks series also contains some photographs.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">30</container>
+            <unittitle>Auto Executives, group photos</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">30</container>
+            <unittitle>Curtis Aerocar</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">30</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">3 folders</extent>
+            </physdesc>
+            <unittitle>Hudson Promotional Photographs (including shots with Amelia Earhart and Orville Wright)</unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+            <dao href="851435-1" show="new" actuate="onrequest">
+              <daodesc>
+                <p>[view selected images]</p>
+              </daodesc>
+            </dao>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">30</container>
+            <unittitle>Hudson cars, automobile testing, auto workers</unittitle>
+            <dao href="851435-2" show="new" actuate="onrequest">
+              <daodesc>
+                <p>[view selected images]</p>
+              </daodesc>
+            </dao>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">30</container>
+            <unittitle>Howard Coffin with Steamer car, Henry B. Joy, and Miscellaneous</unittitle>
+            <dao href="851435-4" show="new" actuate="onrequest">
+              <daodesc>
+                <p>[view selected images]</p>
+              </daodesc>
+            </dao>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">30</container>
+            <unittitle>Henry B. Joy, formal and informal portraits</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">30</container>
+            <unittitle>Henry B. Joy, informal photographs and with family and friends</unittitle>
+            <dao href="851435-3" show="new" actuate="onrequest">
+              <daodesc>
+                <p>[view selected images]</p>
+              </daodesc>
+            </dao>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">30</container>
+            <unittitle>Ford, Henry <unitdate type="inclusive" normal="1863/1947">1863-1947</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">30</container>
+            <unittitle>Ford, Edsel</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">30</container>
+            <unittitle>Chapin, Roy D</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">30</container>
+            <unittitle>Sloan, Alfred P., Jr</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">30</container>
+            <unittitle>Olds, R.E</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">30</container>
+            <unittitle>Duryea, Charles</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">30</container>
+            <unittitle>Duran, William Crapo</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">30</container>
+            <unittitle>Macauley, Alvan</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">30</container>
+            <unittitle>Nash, G.W</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">30</container>
+            <unittitle>Nash, G.W</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">33</container>
+            <unittitle>Outsize photographs</unittitle>
+          </did>
+          <odd>
+            <p>Includes group photos of Hudson Motor Company and auto industry executives, and a composite print of pictures from a cross-country auto trip.</p>
+          </odd>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Miscellaneous Papers and Clippings</unittitle>
+        </did>
+        <scopecontent>
+          <p>The Miscellaneous series include such things as clippings, a volume relating to his service with the Highway Transport Committee during World War I and personal items.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container label="Box" type="box">30</container>
+            <unittitle>Newspaper clippings</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">30</container>
+            <unittitle>Miscellanea</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container label="Box" type="box">31</container>
+            <unittitle>Commemorative program</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">31</container>
+            <unittitle>School essays <unitdate normal="1895">1895</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">31</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">5 volumes</extent>
+            </physdesc>
+            <unittitle>Scrapbooks</unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">31</container>
+            <unittitle>Summary of bills paid <unitdate normal="1918">1918</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container label="Box" type="box">32</container>
+            <unittitle>Notebooks containing receipted bills <unitdate normal="1914/1917">1914-1917</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">32</container>
+            <unittitle>Highways Transport Committee: field organization notebook</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Oversize Box">33</container>
+            <unittitle>Diplomas</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Oversize Box">33</container>
+            <unittitle>Citations</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Oversize Box">33</container>
+            <unittitle>House plans</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Oversize Box">33</container>
+            <unittitle>
+              <genreform normal="Photographs">Photographs</genreform>
+            </unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>
+            <genreform>Scrapbooks</genreform>
+          </unittitle>
+        </did>
+        <scopecontent>
+          <p>The Scrapbook series consists of seven oversize volumes dating from 1886 to 1946. The scrapbooks are primarily newspaper clippings, but also contain many <genreform normal="Photographs">photographs.</genreform> The scrapbooks include material on the Hudson Motor Company, the auto industry generally, Chapin's activities with national automobile organizations and his political activities, including service as Secretary of Commerce in the Hoover administration.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container type="volume" label="Oversize Volume">1</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1886/1911">1886-1911</unitdate>
+            </unittitle>
+            <dao href="851435-5" show="new">
+              <daodesc>
+                <p>[view selected images]</p>
+              </daodesc>
+            </dao>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="volume" label="Oversize Volume">2</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1911/1918">1911-1918</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="volume" label="Oversize Volume">3</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1918/1926">1918-1926</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="volume" label="Oversize Volume">4</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1926/1928">1926-1928</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="volume" label="Oversize Volume">5</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1928/1932">1928-1932</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="volume" label="Oversize Volume">6</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1932/1946">1932-1946</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="volume" label="Oversize Volume">7</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1932">1932</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

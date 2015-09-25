@@ -1,0 +1,2642 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead.dtd">
+<ead>
+  <eadheader audience="internal" langencoding="iso639-2b" repositoryencoding="iso15511" dateencoding="iso8601" relatedencoding="Dublin Core" scriptencoding="iso15924" countryencoding="iso3166-1">
+    <eadid countrycode="us" mainagencycode="MiU-H" publicid="us//::miu-h//TXT us::miu-h::schofart.xml//EN" encodinganalog="Identifier">umich-bhl-93824</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="Title">Finding Aid for School of Art &amp; Design (University of Michigan) records, 1947-2010</titleproper>
+        <author encodinganalog="Creator">Collection processed and finding aid created by Jennifer Goff, 1993; Adriane Hanson, 2003; Rachel Lwin and Nancy Deromedi, 2009</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="Publisher">Bentley Historical Library, University of Michigan</publisher>
+        <date encodinganalog="Date" normal="2009">2010</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created by Greg Kinney <date>20100210</date></creation>
+      <langusage encodinganalog="Language">The finding aid is written in <language langcode="eng" scriptcode="Latn">English</language></langusage>
+      <descrules>Finding aid prepared using Describing Archives: A Content Standard (DACS)</descrules>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date>20150812</date>
+        <item>Corrected container listing.</item>
+      </change>
+      <change>
+        <date>2013-08-11</date>
+        <item>added WAS website accession.</item>
+      </change>
+      <change>
+        <date>2013-03-13</date>
+        <item>added WAS website accession.</item>
+      </change>
+      <change>
+        <date>2010-02-10</date>
+        <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <frontmatter>
+    <titlepage>
+      <publisher>University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
+      <titleproper>Finding aid for <lb/>School of Art &amp; Design <lb/>(University of Michigan) <lb/>Records, 1947-2010</titleproper>
+      <author>Finding aid created by <lb/>Jennifer Goff, 1993; <lb/>Adriane Hanson, 2003; <lb/>Rachel Lwin and Nancy Deromedi, 2009</author>
+    </titlepage>
+  </frontmatter>
+  <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
+    <did>
+      <origination>
+        <corpname source="lcnaf" encodinganalog="110">University of Michigan. School of Art &amp; Design.</corpname>
+      </origination>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">830 MB</extent>
+      </physdesc>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">1 oversize volume</extent>
+      </physdesc>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">7.0 linear feet</extent>
+      </physdesc>
+      <unittitle encodinganalog="245">School of Art &amp; Design (University of Michigan) records, 1947-2006 <unitdate type="inclusive" encodinganalog="245$f" normal="1947/2010">1947-2010</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1981/1999">1981-1999</unitdate></unittitle>
+      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">93824 Bimu C676 2</unitid>
+      <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
+      <abstract>The first classes in art at the University of Michigan were offered in 1906 by the Department of Architecture. In 1926, a program in decorative arts was housed in the College of Engineering and Architecture. Art evolved as a discipline, moving through the colleges of engineering and architecture to become the School of Art, an autonomous institution, in 1974. It became the School of Art &amp; Design in 1996. The records focus on the evaluation and review of the program in the 1970s and early 1980s during the budget crisis faced by the university. The records also contain minutes of the Executive Committee and the Faculty Committee, from the mid-1970s to 1999.</abstract>
+      <repository>
+        <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea>, University of Michigan</corpname>
+        <extptr href="bhladd" show="embed" actuate="onload"/>
+      </repository>
+    </did>
+    <descgrp type="admin">
+      <acqinfo encodinganalog="541">
+        <p>Records were received in various accessions beginning in 1992 (donor <num type="donor" encodinganalog="541$e">7510</num>). The last accession was received in 2008. <num type="donor" encodinganalog="541$e">7510</num></p>
+      </acqinfo>
+      <accruals encodinganalog="584">
+        <p>Periodic additions to the records expected.</p>
+      </accruals>
+      <accessrestrict encodinganalog="506">
+        <p>The School of Art &amp; Design records are open for research except for certain records restricted by statute or university policy.</p>
+        <p>The School of Art &amp; Design record group includes restricted material in the following categories: <list type="simple"><item>Executive Officer Records -- Boxes 3-7</item></list></p>
+        <p>
+          <extptr href="uarpacc" show="embed" actuate="onload"/>
+        </p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+        <p>Copyright is held by the Regents of the University of Michigan.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+        <p>[item], folder, box, School of Art &amp; Design (University of Michigan) records, Bentley Historical Library, University of Michigan</p>
+      </prefercite>
+      <processinfo>
+        <p>
+          <extptr href="digitalproc" show="embed" actuate="onload"/>
+        </p>
+      </processinfo>
+    </descgrp>
+    <bioghist encodinganalog="545">
+      <p>The origins of the School of Art can be traced back to classes taught in design by Emil Lorch in 1906 in the Department of Architecture. Thereafter, classes were added in drawing, with an emphasis on naturalism, followed by courses in painting. Originally, classes in art were aimed at students majoring in architecture, but as time passed, more and more non-architecture students enrolled in the various classes. In 1926, a program in decorative arts was housed in the College of Engineering and Architecture. After a faculty member conducted a survey in 1939 of art instruction at other universities, "the former emphasis on academic theory gave way to a more direct and creative approach in the content, method, and objectives of courses and their sequences; this was reflected in the appointment of new staff members with a more modern realistic point of view." (<title render="italic">Encyclopedic Survey</title>, Volume III, p. 1309) Classes in sculpture were added in 1949. In 1954, the differences in the teaching of art and architecture were formally acknowledged when art received departmental status in the College of Architecture and Design.</p>
+      <p>The post-World War II boom in students led to a doubling in size of the art faculty between 1954 and 1960. The Bachelor of Fine Arts and Master of Fine Arts degrees were established in 1959, and a program in Medical and Biological Illustration in 1964. Areas of concentration grew to include painting, printmaking, sculpture, photography, ceramics, weaving and fabric design, and jewelry and metalwork. The steadily increasing number of students resulted in a shortage of physical facilities, which eventually led to the construction of a new building to house both art and architecture on the university's North Campus. In 1974, the Department of Art became the School of Art, and, along with the College of Architecture and Design, moved into the new building.</p>
+      <p>The School of Art faced its most serious crisis in 1982. As part of budget reducing measures in response to the financial crisis it faced, the university chose the schools of art, education, and natural resources to be reviewed for continuation or discontinuation. All three schools were continued, but with significant budget reductions. The School of Art budget was reduced by 18 percent.</p>
+      <p>The school was renamed the School of Art &amp; Design in 1996, to better reflect the scope of the work. Its mission is to "educate and train artists and designers, to inform and influence others through the creation and dissemination of original ideas and visual work, and to provide a research environment that supports collaboration, integration of emerging technologies, and intellectual, and visual inquiry of the highest quality." (http://www.umich.edu/~provost) The graduate level interdisciplinary program in medical and biological illustration was one of only five in the nation accredited by the American Medical Association.</p>
+      <p>
+        <chronlist>
+          <head>Deans of the School of Art and Design</head>
+          <chronitem>
+            <date>1974 - May 31, 1984</date>
+            <event>George V. Bayliss</event>
+          </chronitem>
+          <chronitem>
+            <date>July 1, 1984 - December 31, 1985</date>
+            <event>Wendel W. Heers (acting)</event>
+          </chronitem>
+          <chronitem>
+            <date>January 1, 1986 - August 31, 1991</date>
+            <event>Marjorie Levy</event>
+          </chronitem>
+          <chronitem>
+            <date>September 1, 1991 - 1993</date>
+            <event>John H. Stephenson (acting)</event>
+          </chronitem>
+          <chronitem>
+            <date>July 1, 1993 - 1999</date>
+            <event>Allen J. Samuels</event>
+          </chronitem>
+          <chronitem>
+            <date>1999-</date>
+            <event>Bryan Rogers</event>
+          </chronitem>
+        </chronlist>
+      </p>
+    </bioghist>
+    <scopecontent encodinganalog="520">
+      <p>The School of Art &amp; Design records are composed of six series: Topical Files, 1970-1987; Committees; Correspondence; Topical Files, 1980-2000; Visual Materials; and Website. There is a separate collection of printed material. The majority of the records document the years from 1975 to 1999, a crucial period in the school's history as it was formally established as a school in its own right and later experienced serious budget reductions.</p>
+    </scopecontent>
+    <controlaccess>
+      <p>
+        <extptr href="accnote" show="embed" actuate="onload"/>
+      </p>
+      <controlaccess>
+        <head>Subjects:</head>
+        <subject source="lcsh" encodinganalog="650">Art.</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n85067235">National Association of Schools of Art and Design (U.S.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Evaluation.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82166173">University of Michigan. School of Art.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan. School of Art &amp; Design.</corpname>
+      </controlaccess>
+      <controlaccess>
+        <head>Subjects - Visual Materials:</head>
+        <corpname source="lcnaf" encodinganalog="610">Art and Architecture Building (University of Michigan)</corpname>
+        <subject source="lctgm" encodinganalog="650">Demonstrations.</subject>
+        <subject source="lctgm" encodinganalog="650">Protest movements.</subject>
+        <subject source="lcsh" encodinganalog="650">Student movements--Michigan--Ann Arbor.</subject>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Buildings.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Students--Political activity.</corpname>
+      </controlaccess>
+      <controlaccess>
+        <head>Contributors:</head>
+        <corpname source="lcnaf" encodinganalog="670">University of Michigan. School of Art &amp; Design.</corpname>
+      </controlaccess>
+      <controlaccess>
+        <head>Genre Terms:</head>
+        <genreform source="lcsh" encodinganalog="655">College publications.</genreform>
+        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+      </controlaccess>
+    </controlaccess>
+    <dsc type="combined">
+      <c01 level="series">
+        <did>
+          <unittitle>Topical Files <unitdate type="inclusive" normal="1970/1987">1970-1987</unitdate></unittitle>
+        </did>
+        <scopecontent>
+          <p>The Topical Files, 1970-1987 series (1.8 linear feet) comprises the initial collection of material prior to the 2008 accession. (A second Topical Files series, cover 1980-2000 and consists of material received in the 2008 accession). The Topical File series is arranged alphabetically. The history of the department/school from 1951-1974 can be found in the History- <title render="italic">Encyclopedic Survey</title> folder. For the years 1975-1985, the administrative, pedagogical, and intellectual life of the school can be traced through several files. The materials in the evaluation and planning files were prepared as part of a university-wide project, begun in 1973 and undertaken in response to the budget crisis of the 1970s. The project was designed to improve the processes by which the university evaluated its activities and programs, established priorities, and allocated its resources. The project had three phases: phase I, articulation of unit objectives and operations implications; phase II, evaluation of operations in light of objectives described in phase I; phase III, exploration of directions and alternative courses of action. The files here include faculty responses to phase I questionnaires regarding the goals and objectives of the school and reports and conference summaries. The records document the school's participation in phases I and II, but not in phase III. The National Association of Schools of Art (NASA) files include informative Self Study Reports prepared by the school in preparation for visiting NASA accreditation teams. The reports detail school objectives and goals, its organizational framework, financial resources, physical environment, curriculum, and student and faculty relationships. Finally, the Review files from 1982-1983 include the review committee's final report, which explores the quality and mission of the school in some detail. Clippings on student protests, and materials documenting the work of the Transition Team, which was responsible for finding ways to implement the recommended 18 percent budget reduction conclude the series.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Annual Report to the President <unitdate type="inclusive" normal="1971">1971</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Arts Legislation <unitdate type="inclusive" normal="1975/1983">1975-1983</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Budget</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Correspondence <unitdate type="inclusive" normal="1984/1985">1984-1985</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Request for Incremental Appropriations <unitdate type="inclusive" normal="1985/1986">1985-1986</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Statistics <unitdate type="inclusive" normal="1982/1985">1982-1985</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="volume" label="Oversize Volume">1</container>
+            <unittitle>Clippings <unitdate type="inclusive" normal="1975">1975</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Courses</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Degree Requirements <unitdate type="inclusive" normal="1971/1985">1971-1985</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Description and Conversion <unitdate type="inclusive" normal="1947/1984">1947-1984</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Pass/Fail system <unitdate type="inclusive" normal="1972">1972</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Documentation of Mokume-Gane (faculty grant application) <unitdate type="inclusive" normal="1980">1980</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Evaluation and Planning</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
+              </physdesc>
+              <unittitle>General <unitdate type="inclusive" normal="1974/1977">1974-1977</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
+              </physdesc>
+              <unittitle>Phase I Questionnaire and Responses <unitdate type="inclusive" normal="1976">1976</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">6 folders</extent>
+            </physdesc>
+            <unittitle>Executive Committee <unitdate type="inclusive" normal="1981/1986">1981-1986</unitdate></unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Faculty Meetings <unitdate type="inclusive" normal="1984/1985">1984-1985</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Future of the Arts at the University <unitdate type="inclusive" normal="1973/1974">1973-1974</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>History</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>General <unitdate type="inclusive" normal="1970/1976">1970-1976</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle><title render="italic">Encyclopedic Survey</title>, <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Manhattan Project <unitdate type="inclusive" normal="1977/1982">1977-1982</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>National Association of Schools of Art (NASA)</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>Accreditation</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <unittitle>Annual Reports <unitdate type="inclusive" normal="1974/1976">1974-1976</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <unittitle>Correspondence <unitdate type="inclusive" normal="1976/1983">1976-1983</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <unittitle>Reports <unitdate type="inclusive" normal="1966">1966</unitdate>, <unitdate type="inclusive" normal="1977">1977</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <unittitle>Self Study Report (Evaluation Report) <unitdate type="inclusive" normal="1966">1966</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <unittitle>Self Study Report <unitdate type="inclusive" normal="1977">1977</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Ad hoc Planning Group <unitdate type="inclusive" normal="1978/1979">1978-1979</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Outside Evaluation Team (Herron School of Art) <unitdate type="inclusive" normal="1976/1978">1976-1978</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>President's Correspondence <unitdate type="inclusive" normal="1981/1982">1981-1982</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Personnel <unitdate type="inclusive">undated</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Press Releases <unitdate type="inclusive" normal="1972/1982">1972-1982</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Report on the Graduate Program to the Executive Committee of the School of Art <unitdate type="inclusive" normal="1987-09">September 1987</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Reunions <unitdate type="inclusive">undated</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Review</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>General <unitdate type="inclusive" normal="1982">1982</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Alumni Employment List <unitdate type="inclusive" normal="1982">1982</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Board of Regents, Presentation to <unitdate type="inclusive" normal="1983">1983</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Budget Reduction Proposal <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Correspondence <unitdate type="inclusive" normal="1982/1983">1982-1983</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Faculty Professional Career highlights <unitdate type="inclusive" normal="1982">1982</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>News Clippings <unitdate type="inclusive" normal="1982/1983">1982-1983</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Press Releases <unitdate type="inclusive" normal="1982/1983">1982-1983</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Public Meeting of Executive Officers <unitdate type="inclusive" normal="1983">1983</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Rackham Graduate Issues Forum <unitdate type="inclusive" normal="1982">1982</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Report on the School of Art <unitdate type="inclusive" normal="1982">1982</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Review Committee</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">2 folders</extent>
+                </physdesc>
+                <unittitle>General <unitdate type="inclusive" normal="1982">1982</unitdate></unittitle>
+                <physdesc altrender="whole">
+                  </physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle>Charge <unitdate type="inclusive" normal="1982">1982</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle>Report of the Subcommittee to Review the School of Art <unitdate type="inclusive" normal="1982">1982</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>Report</unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">2</container>
+                  <unittitle>Abstract <unitdate type="inclusive" normal="1982">1982</unitdate></unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">2</container>
+                  <unittitle>Factual Material <unitdate type="inclusive" normal="1982">1982</unitdate></unittitle>
+                </did>
+              </c05>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Statistical Information</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle>General <unitdate type="inclusive" normal="1982">1982</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle>College of Architecture and Design Building Equipment Listing <unitdate type="inclusive">undated</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>"Stellar Reputations Issue," <unitdate type="inclusive" normal="1983">1983</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Student Protest (news clippings) <unitdate type="inclusive" normal="1983">1983</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Transition Team</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle>General <unitdate type="inclusive" normal="1983/1984">1983-1984</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle>Basic Studio Report <unitdate type="inclusive" normal="1984">1984</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle>Faculty Early Retirement <unitdate type="inclusive" normal="1984">1984</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle>Faculty Governance Committee <unitdate type="inclusive" normal="1984">1984</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle>Graduate Assistants <unitdate type="inclusive" normal="1984">1984</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle>Transition Plan <unitdate type="inclusive" normal="1983/1984">1983-1984</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>Transition Program</unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">2</container>
+                  <unittitle>Section I <unitdate type="inclusive">undated</unitdate></unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">2</container>
+                  <unittitle>Section II <unitdate type="inclusive" normal="1983">1983</unitdate></unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">2</container>
+                  <unittitle>Section III <unitdate type="inclusive" normal="1983/1984">1983-1984</unitdate></unittitle>
+                </did>
+              </c05>
+            </c04>
+          </c03>
+          <c03 level="item">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Visiting Artists <unitdate type="inclusive" normal="1983">1983</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Space Planning <unitdate type="inclusive" normal="1986">1986</unitdate></unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Committees <unitdate type="inclusive" normal="1976/1999">1976-1999</unitdate>, <unitdate type="inclusive" normal="2004/2006">2004-2006</unitdate></unittitle>
+        </did>
+        <scopecontent>
+          <p>The Committees series (1.0 linear feet, 1974-2006) contains records of two main committees: Executive Committee Meeting Minutes, and Faculty Committee Meeting Minutes. The Executive Committee Meeting Minutes cover the years 1978 to 1999. The records include the official meeting minutes and supplementary materials that pertain to the meeting discussions. It also includes lists of committee members from 1976 to 1999, for many different committees. The Faculty Committee Meeting Minutes cover the years 1974-2006 (with some gaps, particularly 2000-2004). The records also include the official meeting minutes and supplementary materials that pertain to the meeting discussions. There is more supplementary material for the later dates. Meetings also included announcements for exhibitions and talks.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>Committee Assignments <unitdate type="inclusive" normal="1976/1999">1976-1999</unitdate></unittitle>
+          </did>
+          <accessrestrict>
+            <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+          </accessrestrict>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Executive Committee Minutes</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">3 binders</extent>
+              </physdesc>
+              <unittitle>
+                <unitdate type="inclusive" normal="1978/1998">1978-1998</unitdate>
+              </unittitle>
+              <physdesc>
+                </physdesc>
+            </did>
+            <accessrestrict>
+              <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+            </accessrestrict>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">1 folder</extent>
+              </physdesc>
+              <unittitle>
+                <unitdate type="inclusive" normal="1998/1999">1998-1999</unitdate>
+              </unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+            <accessrestrict>
+              <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+            </accessrestrict>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Faculty Meetings</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">4 binders</extent>
+              </physdesc>
+              <unittitle>Minutes <unitdate type="inclusive" normal="1974/1999">1974-1999</unitdate></unittitle>
+              <physdesc>
+                </physdesc>
+            </did>
+            <accessrestrict>
+              <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+            </accessrestrict>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Faculty Council Meetings</unittitle>
+          </did>
+          <c03 level="item">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="2004/2006">2004-2006</unitdate>
+              </unittitle>
+            </did>
+            <accessrestrict>
+              <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+            </accessrestrict>
+          </c03>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Correspondence <unitdate type="inclusive" normal="1997/1999">1997-1999</unitdate></unittitle>
+        </did>
+        <scopecontent>
+          <p>The Correspondence series (0.2 linear ft, 1997-1999) contains five folders of correspondence of Dean Allen Samuels. This is a very fragmentary run of correspondence, but represents the whole of what was transferred.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">5 folders</extent>
+            </physdesc>
+            <unittitle>Dean Allen Samuels <unitdate type="inclusive" normal="1997/1999">1997-1999</unitdate></unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+          <accessrestrict>
+            <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+          </accessrestrict>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Topical Files <unitdate type="inclusive" normal="1980/2000">1980-2000</unitdate></unittitle>
+        </did>
+        <scopecontent>
+          <p>The Topical Files, 1980-2000 series (1.0 linear feet) contains an alphabetically arranged collection of topical files transferred in 2008. Many of the files contain publicity material about the school and individual faculty, including exhibition publications, newspaper clippings, and magazine articles. Faculty represented includes Vincent Castagnacci, Janet Leonard, Ted Ramsay, and Jon Rush. A 1992 North Campus Sculpture Plan is include as is a file with photograph of the sculpture by George Ricky at the Gerald Ford Presidential Library. Some early 1990s files detail transition plans and oversight of the school.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Alumni and Faculty, miscellaneous clippings and programs <unitdate type="inclusive" normal="1980/1990" certainty="approximate">circa 1980-1990</unitdate></unittitle>
+          </did>
+          <accessrestrict>
+            <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+          </accessrestrict>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Alumni Exhibitions <unitdate type="inclusive" normal="1993/1997">1993-1997</unitdate> (includes photos and slides)</unittitle>
+          </did>
+          <accessrestrict>
+            <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+          </accessrestrict>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Commemorative Bas Relief for "Center of Champions," <unitdate type="inclusive" normal="1989">1989</unitdate></unittitle>
+          </did>
+          <accessrestrict>
+            <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+          </accessrestrict>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Faculty</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Clippings and Publicity (Al Hinton and others)</unittitle>
+            </did>
+            <accessrestrict>
+              <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+            </accessrestrict>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Castagnacci, Vincent <unitdate type="inclusive" normal="1979/1996">1979-1996</unitdate></unittitle>
+            </did>
+            <accessrestrict>
+              <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+            </accessrestrict>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Leonard, Joanne <unitdate type="inclusive" normal="1979/1996">1979-1996</unitdate></unittitle>
+            </did>
+            <accessrestrict>
+              <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+            </accessrestrict>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Ramsay, Ted <unitdate type="inclusive" normal="1975/1999">1975-1999</unitdate></unittitle>
+            </did>
+            <accessrestrict>
+              <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+            </accessrestrict>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Rush, Jon <unitdate type="inclusive" normal="1978/1989">1978-1989</unitdate></unittitle>
+            </did>
+            <accessrestrict>
+              <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+            </accessrestrict>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
+              </physdesc>
+              <unittitle>Sato Pijanowski, Hiroko <unitdate type="inclusive" normal="1980/1999">1980-1999</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+            <accessrestrict>
+              <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+            </accessrestrict>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>North Campus Sculpture Plan <unitdate type="inclusive" normal="1992">1992</unitdate> (includes negatives)</unittitle>
+          </did>
+          <accessrestrict>
+            <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+          </accessrestrict>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Ricky, George, (Sculpture at Gerald R. Ford Library. Includes 3 black and white photographs and twelve color slides) <unitdate type="inclusive" normal="1982">1982</unitdate></unittitle>
+          </did>
+          <accessrestrict>
+            <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+          </accessrestrict>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>School of Art Oversight Committee <unitdate type="inclusive" normal="1991">1991</unitdate></unittitle>
+          </did>
+          <accessrestrict>
+            <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+          </accessrestrict>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>School of Art Position Papers <unitdate type="inclusive" normal="1989">1989</unitdate></unittitle>
+          </did>
+          <accessrestrict>
+            <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+          </accessrestrict>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Transition Plan with <unitdate type="inclusive" normal="1991">1991</unitdate> responses, <unitdate type="inclusive" normal="1984">1984</unitdate>, <unitdate type="inclusive" normal="1991">1991</unitdate></unittitle>
+          </did>
+          <accessrestrict>
+            <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+          </accessrestrict>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Undergraduate Program Initiative <unitdate type="inclusive" normal="2000">2000</unitdate></unittitle>
+          </did>
+          <accessrestrict>
+            <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+          </accessrestrict>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Visual Materials</unittitle>
+        </did>
+        <scopecontent>
+          <p>The Visual Materials series (3 linear feet, ca. 1975-2001) contains the majority of the most recent addition to the record, and is arranged alphabetically. The series is comprised of 35 mm slides, photographic prints and negatives. Images date from 1975 to 2001, and document faculty work, art classes, exhibits, and other school events. There are several folders of interest in this series. The Student Protests folder, which was part of the original accession, has images of an organized protest against proposed budget cuts to the School of Art in the early 1980s. The Francoise Gilot folders contain images of visits by the famed artist, author, and former companion of Pablo Picasso to the School of Art in the 1990s. Also note that many images of faculty or their work are included in the Faculty (miscellaneous) folder, rather than individual folders. The Visual Materials series also contains seven boxes and a binder of slides of faculty work and classroom images. The slides are arranged by category. The categories can be found in the box content listing.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <unittitle>Photographs and Negatives</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Alumni Event <unitdate type="inclusive" normal="1988/1993">1988-1993</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+            <accessrestrict>
+              <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+            </accessrestrict>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Andrews, Benny <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+            <accessrestrict>
+              <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+            </accessrestrict>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Art and the Natural World Exhibit <unitdate type="inclusive" normal="1998">1998</unitdate></unittitle>
+            </did>
+            <accessrestrict>
+              <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+            </accessrestrict>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Bahnmiller, Carol <unitdate type="inclusive" normal="1990">1990</unitdate></unittitle>
+            </did>
+            <accessrestrict>
+              <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+            </accessrestrict>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Bamboo, Cynthia <unitdate type="inclusive" normal="1983">1983</unitdate></unittitle>
+            </did>
+            <accessrestrict>
+              <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+            </accessrestrict>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Bangert, Shaun <unitdate type="inclusive" normal="1999">1999</unitdate></unittitle>
+            </did>
+            <accessrestrict>
+              <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+            </accessrestrict>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Barrett, William <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+            <accessrestrict>
+              <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+            </accessrestrict>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Becker <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+            <accessrestrict>
+              <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+            </accessrestrict>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Boykin, Heather <unitdate type="inclusive" normal="1997">1997</unitdate></unittitle>
+            </did>
+            <accessrestrict>
+              <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+            </accessrestrict>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Building and faculty group photographs <unitdate type="inclusive" normal="1983/1997">1983-1997</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+            <accessrestrict>
+              <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+            </accessrestrict>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Campus <unitdate type="inclusive" normal="1975/2000">1975-2000</unitdate></unittitle>
+            </did>
+            <accessrestrict>
+              <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+            </accessrestrict>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Carter, Carol Ann <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+            <accessrestrict>
+              <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+            </accessrestrict>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Castagnacci, Vincent <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+            <accessrestrict>
+              <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+            </accessrestrict>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Ceramics Course <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+            <accessrestrict>
+              <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+            </accessrestrict>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Cheng, Mignonette Exhibit Opening <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+            <accessrestrict>
+              <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+            </accessrestrict>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Computers for Artists Course <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+            <accessrestrict>
+              <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+            </accessrestrict>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Conference on Education and Environment <unitdate type="inclusive" normal="1989">1989</unitdate></unittitle>
+            </did>
+            <accessrestrict>
+              <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+            </accessrestrict>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Cressman, Larry <unitdate type="inclusive" normal="1992">1992</unitdate></unittitle>
+            </did>
+            <accessrestrict>
+              <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+            </accessrestrict>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Curry, Stephen <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+            <accessrestrict>
+              <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+            </accessrestrict>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Davis, Linda <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+            <accessrestrict>
+              <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+            </accessrestrict>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Davis, Phil <unitdate type="inclusive" normal="1988">1988</unitdate></unittitle>
+            </did>
+            <accessrestrict>
+              <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+            </accessrestrict>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Design Course, undated</unittitle>
+            </did>
+            <accessrestrict>
+              <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+            </accessrestrict>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Donahue, Kevin <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+            <accessrestrict>
+              <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+            </accessrestrict>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Drawing Course <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+            <accessrestrict>
+              <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+            </accessrestrict>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Faculty (miscellaneous) <unitdate type="inclusive" normal="1993/1996" certainty="approximate">circa 1993-1996</unitdate></unittitle>
+            </did>
+            <accessrestrict>
+              <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+            </accessrestrict>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
+              </physdesc>
+              <unittitle>Faculty Shows <unitdate type="inclusive" normal="1999">1999</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+            <accessrestrict>
+              <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+            </accessrestrict>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Fibers course <unitdate type="inclusive" normal="1994" certainty="approximate">circa 1994</unitdate></unittitle>
+            </did>
+            <accessrestrict>
+              <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+            </accessrestrict>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Fort, Nancy <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+            <accessrestrict>
+              <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+            </accessrestrict>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Forum and African Art <unitdate type="inclusive" normal="1992">1992</unitdate></unittitle>
+            </did>
+            <accessrestrict>
+              <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+            </accessrestrict>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Freshpeople <unitdate type="inclusive" normal="1992">1992</unitdate></unittitle>
+            </did>
+            <accessrestrict>
+              <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+            </accessrestrict>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Fungs, Henry <unitdate type="inclusive" normal="1992">1992</unitdate></unittitle>
+            </did>
+            <accessrestrict>
+              <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+            </accessrestrict>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Gibson, Mike <unitdate type="inclusive" normal="1992">1992</unitdate></unittitle>
+            </did>
+            <accessrestrict>
+              <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+            </accessrestrict>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
+              </physdesc>
+              <unittitle>Gilot, Francoise <unitdate type="inclusive" normal="1994/1995">1994-1995</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+            <accessrestrict>
+              <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+            </accessrestrict>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Gordon, Mark <unitdate type="inclusive" normal="1992/1993">1992-1993</unitdate></unittitle>
+            </did>
+            <accessrestrict>
+              <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+            </accessrestrict>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Graduate Students <unitdate type="inclusive" normal="1992">1992</unitdate></unittitle>
+            </did>
+            <accessrestrict>
+              <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+            </accessrestrict>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">5 folders</extent>
+              </physdesc>
+              <unittitle>Graduation <unitdate type="inclusive" normal="1992/1999">1992-1999</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+            <accessrestrict>
+              <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+            </accessrestrict>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Grigely, Joseph <unitdate type="inclusive" normal="1996">1996</unitdate></unittitle>
+            </did>
+            <accessrestrict>
+              <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+            </accessrestrict>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Hay, Beth <unitdate type="inclusive" normal="1993/1994">1993-1994</unitdate></unittitle>
+            </did>
+            <accessrestrict>
+              <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+            </accessrestrict>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Higby, Wayne <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+            <accessrestrict>
+              <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+            </accessrestrict>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Hinton, Al <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+            <accessrestrict>
+              <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+            </accessrestrict>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Hodge, Gerry <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+            <accessrestrict>
+              <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+            </accessrestrict>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Industrial Design Course <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+            <accessrestrict>
+              <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+            </accessrestrict>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Inzuka, Sadashi <unitdate type="inclusive" normal="1996" certainty="approximate">circa 1996</unitdate></unittitle>
+            </did>
+            <accessrestrict>
+              <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+            </accessrestrict>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Jackson, Shaun <unitdate type="inclusive" normal="2001">2001</unitdate></unittitle>
+            </did>
+            <accessrestrict>
+              <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+            </accessrestrict>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Jacobsen, Carol <unitdate type="inclusive" normal="2000">2000</unitdate></unittitle>
+            </did>
+            <accessrestrict>
+              <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+            </accessrestrict>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Japanese Packaging Exhibit <unitdate type="inclusive" normal="1987">1987</unitdate></unittitle>
+            </did>
+            <accessrestrict>
+              <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+            </accessrestrict>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Krecic, Mark <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+            <accessrestrict>
+              <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+            </accessrestrict>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Kurusaki, Akira <unitdate type="inclusive" normal="1995">1995</unitdate></unittitle>
+            </did>
+            <accessrestrict>
+              <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+            </accessrestrict>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Lahti, Aaron <unitdate type="inclusive" normal="1993">1993</unitdate></unittitle>
+            </did>
+            <accessrestrict>
+              <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+            </accessrestrict>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Leonard, Joanne <unitdate type="inclusive" normal="1986/1988" certainty="approximate">circa 1986-1988</unitdate></unittitle>
+            </did>
+            <accessrestrict>
+              <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+            </accessrestrict>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Levy, Marjorie <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+            <accessrestrict>
+              <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+            </accessrestrict>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Lewis, Bill <unitdate type="inclusive" normal="1993">1993</unitdate></unittitle>
+            </did>
+            <accessrestrict>
+              <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+            </accessrestrict>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Loving, Al <unitdate type="inclusive" normal="1989">1989</unitdate></unittitle>
+            </did>
+            <accessrestrict>
+              <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+            </accessrestrict>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">6</container>
+              <unittitle>Luchs, Kathryn <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+            <accessrestrict>
+              <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+            </accessrestrict>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">6</container>
+              <unittitle>Lutz and Hilton Show <unitdate type="inclusive" normal="1987">1987</unitdate></unittitle>
+            </did>
+            <accessrestrict>
+              <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+            </accessrestrict>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">6</container>
+              <unittitle>McGaw, Wendy <unitdate type="inclusive" normal="1989">1989</unitdate></unittitle>
+            </did>
+            <accessrestrict>
+              <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+            </accessrestrict>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">6</container>
+              <unittitle>Mame, (negatives) <unitdate type="inclusive" normal="1989">1989</unitdate></unittitle>
+            </did>
+            <accessrestrict>
+              <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+            </accessrestrict>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">6</container>
+              <unittitle>Manupelli, George <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+            <accessrestrict>
+              <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+            </accessrestrict>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">6</container>
+              <unittitle>Marinaro, Lou <unitdate type="inclusive" normal="1993">1993</unitdate></unittitle>
+            </did>
+            <accessrestrict>
+              <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+            </accessrestrict>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">6</container>
+              <unittitle>Master of Fine Arts (MFA) Shows <unitdate type="inclusive" normal="1992/1993">1992-1993</unitdate></unittitle>
+            </did>
+            <accessrestrict>
+              <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+            </accessrestrict>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">6</container>
+              <unittitle>MCampaign <unitdate type="inclusive" normal="1992">1992</unitdate></unittitle>
+            </did>
+            <accessrestrict>
+              <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+            </accessrestrict>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">6</container>
+              <unittitle>Medical Illustration Course <unitdate type="inclusive" normal="1988">1988</unitdate></unittitle>
+            </did>
+            <accessrestrict>
+              <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+            </accessrestrict>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">6</container>
+              <unittitle>Metals Course <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+            <accessrestrict>
+              <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+            </accessrestrict>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">6</container>
+              <unittitle>Miller, Dennis <unitdate type="inclusive" normal="1996">1996</unitdate></unittitle>
+            </did>
+            <accessrestrict>
+              <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+            </accessrestrict>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">6</container>
+              <unittitle>Mixed Media/Alternative Processes Course <unitdate type="inclusive" normal="1992">1992</unitdate></unittitle>
+            </did>
+            <accessrestrict>
+              <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+            </accessrestrict>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">6</container>
+              <unittitle>Martin Luther King (MLK) Day <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+            <accessrestrict>
+              <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+            </accessrestrict>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">6</container>
+              <unittitle>Morgan, Clarence <unitdate type="inclusive" normal="1993">1993</unitdate></unittitle>
+            </did>
+            <accessrestrict>
+              <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+            </accessrestrict>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">6</container>
+              <unittitle>Naney Great Lakes Exhibit <unitdate type="inclusive" normal="1992">1992</unitdate></unittitle>
+            </did>
+            <accessrestrict>
+              <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+            </accessrestrict>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">6</container>
+              <unittitle>National Cathedral <unitdate type="inclusive" normal="1996">1996</unitdate></unittitle>
+            </did>
+            <accessrestrict>
+              <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+            </accessrestrict>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">6</container>
+              <unittitle>Ozlesko, Pat <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+            <accessrestrict>
+              <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+            </accessrestrict>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">6</container>
+              <unittitle>Pijanowski, Eugene <unitdate type="inclusive" normal="1989">1989</unitdate></unittitle>
+            </did>
+            <accessrestrict>
+              <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+            </accessrestrict>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">6</container>
+              <unittitle>Porter, Marianetta <unitdate type="inclusive" normal="1996">1996</unitdate></unittitle>
+            </did>
+            <accessrestrict>
+              <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+            </accessrestrict>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">6</container>
+              <unittitle>Ramsay, Ted <unitdate type="inclusive" normal="1983">1983</unitdate></unittitle>
+            </did>
+            <accessrestrict>
+              <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+            </accessrestrict>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">6</container>
+              <unittitle>Robbins, Warren <unitdate type="inclusive" normal="1996">1996</unitdate></unittitle>
+            </did>
+            <accessrestrict>
+              <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+            </accessrestrict>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">6</container>
+              <unittitle>Rush, Jon, (includes blueprints, newspaper clippings) <unitdate type="inclusive" normal="1981" certainty="approximate">circa 1981</unitdate></unittitle>
+            </did>
+            <accessrestrict>
+              <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+            </accessrestrict>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">6</container>
+              <unittitle>Samuels, Allen <unitdate type="inclusive" normal="1999" certainty="approximate">circa 1999</unitdate></unittitle>
+            </did>
+            <accessrestrict>
+              <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+            </accessrestrict>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">6</container>
+              <unittitle>Seika University <unitdate type="inclusive" normal="1996">1996</unitdate></unittitle>
+            </did>
+            <accessrestrict>
+              <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+            </accessrestrict>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">6</container>
+              <unittitle>Smith, Sherri <unitdate type="inclusive" normal="1984/1989">1984-1989</unitdate></unittitle>
+            </did>
+            <accessrestrict>
+              <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+            </accessrestrict>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">6</container>
+              <unittitle>Stephenson, John <unitdate type="inclusive" normal="1983/1995">1983-1995</unitdate></unittitle>
+            </did>
+            <accessrestrict>
+              <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+            </accessrestrict>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">6</container>
+              <unittitle>Student Protests <unitdate type="inclusive" normal="1985">1985</unitdate></unittitle>
+            </did>
+            <accessrestrict>
+              <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+            </accessrestrict>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">6</container>
+              <unittitle>Student work (miscellaneous) <unitdate type="inclusive" normal="1992/1999">1992-1999</unitdate></unittitle>
+            </did>
+            <accessrestrict>
+              <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+            </accessrestrict>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">6</container>
+              <unittitle>Takahara, Takeshi <unitdate type="inclusive" normal="1985/1992" certainty="approximate">circa 1985-1992</unitdate></unittitle>
+            </did>
+            <accessrestrict>
+              <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+            </accessrestrict>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">6</container>
+              <unittitle>Zirbes, Georgette <unitdate type="inclusive" normal="1980/1995" certainty="approximate">circa 1980-1995</unitdate></unittitle>
+            </did>
+            <accessrestrict>
+              <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+            </accessrestrict>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Slides</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>Slide Box 1 <unitdate type="inclusive" normal="1974/1999" certainty="approximate">circa 1974-1999</unitdate></unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">6</container>
+                <unittitle>School of Art Building-Interior</unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">6</container>
+                <unittitle>School of Art Building-Exterior</unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">6</container>
+                <unittitle>Gallery Openings</unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">6</container>
+                <unittitle>Bus</unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">6</container>
+                <unittitle>Art Museum</unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">6</container>
+                <unittitle>Art Office</unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">6</container>
+                <unittitle>University Campus</unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">6</container>
+                <unittitle>University Cellar-Lounge</unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">6</container>
+                <unittitle>University Campus</unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+              </accessrestrict>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Slide Box 2 <unitdate type="inclusive" normal="1977/1983" certainty="approximate">circa 1977-1983</unitdate></unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">6</container>
+                <unittitle>2D</unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">6</container>
+                <unittitle>Aqueous Media</unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">6</container>
+                <unittitle>Ceramics</unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">6</container>
+                <unittitle>Art Education</unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">6</container>
+                <unittitle>Drawing</unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">6</container>
+                <unittitle>Color</unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+              </accessrestrict>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Slide Box 3 <unitdate type="inclusive" normal="1970/1999" certainty="approximate">circa 1970-1999</unitdate></unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">6</container>
+                <unittitle>Drawing</unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">6</container>
+                <unittitle>Design</unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">6</container>
+                <unittitle>Graphic Design</unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">6</container>
+                <unittitle>Fibers</unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">6</container>
+                <unittitle>Interiors</unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">6</container>
+                <unittitle>Industrial Design</unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">6</container>
+                <unittitle>Metals</unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">6</container>
+                <unittitle>Medical Illustration</unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">6</container>
+                <unittitle>Lettering</unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">6</container>
+                <unittitle>Interiors</unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+              </accessrestrict>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Slide Box 4 <unitdate type="inclusive" normal="1969/1982" certainty="approximate">circa 1969-1982</unitdate></unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">6</container>
+                <unittitle>Painting</unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">6</container>
+                <unittitle>Sculpture</unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">6</container>
+                <unittitle>Printmaking</unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">6</container>
+                <unittitle>Photography</unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">6</container>
+                <unittitle>Sculpture</unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">6</container>
+                <unittitle>Visualization</unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+              </accessrestrict>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>Slide Box 5 <unitdate type="inclusive" normal="1977/1989" certainty="approximate">circa 1977-1989</unitdate></unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">7</container>
+                <unittitle>Students at Work Ceramics</unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">7</container>
+                <unittitle>High School Workshop <unitdate type="inclusive" normal="1981">Fall 1981</unitdate></unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>Students at Work</unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">7</container>
+                  <unittitle>Drawing</unittitle>
+                </did>
+                <accessrestrict>
+                  <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+                </accessrestrict>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">7</container>
+                  <unittitle>Interior Design</unittitle>
+                </did>
+                <accessrestrict>
+                  <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+                </accessrestrict>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">7</container>
+                  <unittitle>Industrial Design</unittitle>
+                </did>
+                <accessrestrict>
+                  <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+                </accessrestrict>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">7</container>
+                  <unittitle>Graphic Design</unittitle>
+                </did>
+                <accessrestrict>
+                  <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+                </accessrestrict>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">7</container>
+                  <unittitle>General</unittitle>
+                </did>
+                <accessrestrict>
+                  <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+                </accessrestrict>
+              </c05>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">7</container>
+                <unittitle>Printmaking</unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">7</container>
+                <unittitle>Photography</unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">7</container>
+                <unittitle>Painting</unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">7</container>
+                <unittitle>Jeweler and Metals</unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">7</container>
+                <unittitle>Weaving</unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">7</container>
+                <unittitle>Watercolor</unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">7</container>
+                <unittitle>Sculpture</unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+              </accessrestrict>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Slide Box 6 <unitdate type="inclusive" normal="1979/1989" certainty="approximate">circa 1979-1989</unitdate></unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">7</container>
+                <unittitle>School Programs and Faculty</unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">7</container>
+                <unittitle>Andrews</unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">7</container>
+                <unittitle>Bayliss</unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">7</container>
+                <unittitle>Bruden</unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">7</container>
+                <unittitle>Carter</unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">7</container>
+                <unittitle>Cogswell</unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">7</container>
+                <unittitle>Cheng</unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">7</container>
+                <unittitle>Cervenka</unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">7</container>
+                <unittitle>Castagnacci</unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">7</container>
+                <unittitle>Cassara</unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">7</container>
+                <unittitle>Hesseltine</unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">7</container>
+                <unittitle>Heers</unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">7</container>
+                <unittitle>Davis</unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">7</container>
+                <unittitle>Larkin</unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">7</container>
+                <unittitle>Kersten</unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">7</container>
+                <unittitle>Kamrowski</unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">7</container>
+                <unittitle>Hodge</unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">7</container>
+                <unittitle>Mullen</unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">7</container>
+                <unittitle>Montalvo</unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">7</container>
+                <unittitle>McClure</unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">7</container>
+                <unittitle>Marinaro</unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">7</container>
+                <unittitle>Lewis</unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">7</container>
+                <unittitle>Leonard</unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">7</container>
+                <unittitle>D. Lee</unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">7</container>
+                <unittitle>Lee</unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">7</container>
+                <unittitle>Larson</unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+              </accessrestrict>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Slide Box 7 <unitdate type="inclusive" normal="1978/1989" certainty="approximate">circa 1978-1989</unitdate></unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">7</container>
+                <unittitle>Rush</unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">7</container>
+                <unittitle>Rieder</unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">7</container>
+                <unittitle>Ramsay</unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">7</container>
+                <unittitle>Pijanowski</unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">7</container>
+                <unittitle>Pallazzola</unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">7</container>
+                <unittitle>Olson</unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">7</container>
+                <unittitle>D. Smith</unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">7</container>
+                <unittitle>Sears</unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">7</container>
+                <unittitle>Samuels</unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">7</container>
+                <unittitle>Sadler</unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">7</container>
+                <unittitle>S. Smith</unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">7</container>
+                <unittitle>Weber</unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">7</container>
+                <unittitle>Stewart</unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">7</container>
+                <unittitle>Stephenson</unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">7</container>
+                <unittitle>Snyder</unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">7</container>
+                <unittitle>Zirbes</unittitle>
+              </did>
+              <accessrestrict>
+                <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+              </accessrestrict>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>Slide Binder (Faculty Slides) <unitdate type="inclusive" normal="1975/1989" certainty="approximate">circa 1975-1989</unitdate></unittitle>
+            </did>
+            <accessrestrict>
+              <p>[ER RESTRICTED until <date type="restriction" normal="2020-07-01">July 1, 2020</date>]</p>
+            </accessrestrict>
+          </c03>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Archived Website</unittitle>
+        </did>
+        <scopecontent>
+          <p>The Archived Website series (830 MB, 2002-2008; 2010- ) documents the academic programs, accomplishments, resources, events, and people at the School of Art &amp; Design. Content includes important news and announcements, publications (such as newsletters and course catalogs), and information about admissions, curriculum, degree requirements, faculty, exhibits, and the overall mission of the School. The website series is arranged chronologically and includes content captured by the Internet Archive starting in 1997 as well as captures provided by Bentley Library archivists 2002, 2003, 2006, and 2008. Starting in 2010, this archived website will be captured on a regular, ongoing basis as part of the University of Michigan Web Archives, hosted at http://webarchives.cdlib.org/a/universityofmichigan/.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <unittitle>School of Art &amp; Design</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>
+                <unitdate type="inclusive" normal="1997/2001">1997-2001</unitdate>
+              </unittitle>
+              <dao href="93825-w-3" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[view website]</p>
+                </daodesc>
+              </dao>
+            </did>
+            <odd>
+              <p>(These versions were preserved by the Internet Archive and are made available through its Wayback Machine. The Bentley Historical Library is not involved in the collection or maintenance of this material.)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>2001-ONGOING</unittitle>
+              <dao href="93825-w-3" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[view website]</p>
+                </daodesc>
+              </dao>
+            </did>
+            <odd>
+              <p>(These versions were preserved by the Internet Archive and are made available through its Wayback Machine. The Bentley Historical Library is not involved in the collection or maintenance of this material.)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>
+                <unitdate type="inclusive" normal="2002-03-28">March 28, 2002</unitdate>
+              </unittitle>
+              <physdesc>
+                <physfacet>.ZIP file</physfacet>
+              </physdesc>
+              <dao href="http://hdl.handle.net/2027.42/98973" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[download item]</p>
+                </daodesc>
+              </dao>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>
+                <unitdate type="inclusive" normal="2003-05-21">May 21, 2003</unitdate>
+              </unittitle>
+              <physdesc>
+                <physfacet>.ZIP file</physfacet>
+              </physdesc>
+              <dao href="http://hdl.handle.net/2027.42/99121" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[download item]</p>
+                </daodesc>
+              </dao>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>
+                <unitdate type="inclusive" normal="2006-02-23">February 23, 2006</unitdate>
+              </unittitle>
+              <physdesc>
+                <physfacet>.ZIP file</physfacet>
+              </physdesc>
+              <dao href="http://hdl.handle.net/2027.42/99122" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[download item]</p>
+                </daodesc>
+              </dao>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>
+                <unitdate type="inclusive" normal="2008-04-30">April 30, 2008</unitdate>
+              </unittitle>
+              <physdesc>
+                <physfacet>.ZIP file</physfacet>
+              </physdesc>
+              <dao href="http://hdl.handle.net/2027.42/99123" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[download item]</p>
+                </daodesc>
+              </dao>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>2010-ONGOING</unittitle>
+              <dao href="93825-w-1" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[view website]</p>
+                </daodesc>
+              </dao>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Related resources</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>2010-ONGOING</unittitle>
+              <dao href="93825-w-2" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[view website]</p>
+                </daodesc>
+              </dao>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+    </dsc>
+    <descgrp type="add">
+      <relatedmaterial>
+        <head>Related Material</head>
+        <p>For materials related to the early history of the teaching of art, the researcher is advised to consult the following collections and record groups also at the Bentley Library: <list type="simple"><item>University of Michigan. College of Art and Urban Planning records</item><item>Emil Lorch papers</item><item>Wells Bennett papers</item><item>Philip Youtz papers</item></list></p>
+        <p>Additional material on the 1983 review can be found in the records of senior executive offices such as Provost and Executive Vice President for Academic Affairs, and President</p>
+      </relatedmaterial>
+    </descgrp>
+  </archdesc>
+</ead>

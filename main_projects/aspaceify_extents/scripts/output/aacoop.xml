@@ -1,0 +1,551 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead.dtd">
+<ead>
+  <eadheader audience="internal" langencoding="iso639-2b" repositoryencoding="iso15511" dateencoding="iso8601" relatedencoding="Dublin Core">
+    <eadid countrycode="us" mainagencycode="MiU-H" publicid="-//us::miu-h//TEXT us::miu-h::aacoop.xml//EN" encodinganalog="identifier">umich-bhl-85644</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="title">Finding Aid for Ann Arbor Cooperative Society Records <date>1936-1983</date></titleproper>
+        <author encodinganalog="creator">Collection processed and finding aid prepared by Cinda May and Leilani Dawson</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="publisher">Bentley Historical Library, University of Michigan</publisher>
+        <date encodinganalog="date">2003</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created by Leilani Dawson <date>May 2003</date></creation>
+      <langusage>The finding aid is written in <language encodinganalog="language" langcode="eng">English.</language></langusage>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date>20030516</date>
+        <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <frontmatter>
+    <titlepage>
+      <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
+      <titleproper>Finding Aid for <lb/>Ann Arbor Cooperative Society Records, <date type="inclusive">1936-1983</date></titleproper>
+      <author>Finding aid prepared by: <lb/>Cinda May and Leilani Dawson</author>
+    </titlepage>
+  </frontmatter>
+  <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
+    <did>
+      <origination>
+        <corpname source="lcnaf" encodinganalog="110">Ann Arbor Cooperative Society</corpname>
+      </origination>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">3 linear feet</extent>
+      </physdesc>
+      <unittitle encodinganalog="245">Ann Arbor Cooperative Society Records <unitdate type="inclusive" encodinganalog="245$f" normal="1936/1983">1936-1983</unitdate></unittitle>
+      <abstract>As its name implies, the Ann Arbor Cooperative Society was a cooperative corporation that offered its members a wide range of services. These included a credit union, legal and tax preparation services, home insulation and maintenance services, memorial advising and planning services, vacation property, discount ticket sales to amusement parks, and bulk purchasing. The records of the Society reflect its diverse activities, and include minutes, financial statements, audits, manager's reports, by-laws, news sheet, correspondence, and subject files relating to cooperative projects.</abstract>
+      <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">85644 Bj 2</unitid>
+      <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
+      <repository>
+        <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea> University of Michigan</corpname>
+        <extptr href="bhladd" show="embed" actuate="onload"/>
+      </repository>
+    </did>
+    <descgrp type="admin">
+      <acqinfo encodinganalog="541">
+        <p>The first accession of the record group was the gift of the gift of the Society (donor no. <num type="donor" encodinganalog="541$e">676</num>) and came through Susan E. Morrison in December 1988. The second accession was the gift of Helen Metzner (donor no. <num type="donor" encodinganalog="541$e">9291</num>), former president of the Society, in January 2003.</p>
+      </acqinfo>
+      <accessrestrict encodinganalog="506">
+        <p>The record group is open for research.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+        <p>Copyright has been transferred to the Regents of the University of Michigan.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+        <p>item, folder title, box no., Ann Arbor Cooperative Society Records, Bentley Historical Library, University of Michigan</p>
+      </prefercite>
+    </descgrp>
+    <bioghist encodinganalog="545">
+      <p>The Ann Arbor Cooperative Society was founded in Ann Arbor, Michigan, in 1936 as a group of individuals banding together to purchase rock salt and coal. As the venture was successful it branched out to include other consumer areas such as groceries, gasoline and a credit union in the early years, expanding further to include an insulation company, insurance, legal, and tax services, trailer parks, recreational facilities and a memorial advisory and planning service as time passed. The purpose of the cooperative was to protect and advance the interests of its members as consumers and to provide quality items and services at reasonable prices.</p>
+      <p>The Society expanded throughout its first decade, growing from a bulk coal and salt buying club to include cooperative gas stations, grocery, and appliance store, testing and grading its products and educating members about cooperative ideals. However, the Society offered many of these services below cost, and could not keep operations running. The food and appliance stores disbanded around 1952, with the gas stations folding shortly thereafter.</p>
+      <p>During the 1960s and early 1970s, the Society started to recover financially, and began expanding its services again. Cooperative offerings included the Creduco insulation company, low-cost legal, tax, and insurance services, discount ticket sales, an optical service, and the Memorial Advisory and Planning Service. Around this time, it also became involved in real estate, buying a recreational camp site and trailer parks. Unfortunately, the Society's real estate ventures proved to be too much of a drain upon its resources, and it divested itself of land holdings during the mid-1970s.</p>
+      <p>Throughout the Society's history its affiliated credit union, the AACS Credit Union, was an ongoing and enduring success. By the mid-1970s it was largely independent, with its own holdings and Board. Over the course of the 1970s, its Board and the Society's Board grew increasingly antagonistic towards each other. Eventually, the Credit Union decided to split away and become the Huron River Area Credit Union, a move which was effected in 1981. The loss of the Credit Union was a serious blow to the Society, and despite ventures like a new food co-op, the cooperative was disbanded ca. 1984/85.</p>
+    </bioghist>
+    <scopecontent encodinganalog="520">
+      <p>The records of the Ann Arbor Cooperative Society relate to its activities as a non-profit cooperative. While some material is extant documenting the early years, the majority of the record group is focused on the period from 1970-1983. Around a third of the available records are minutes to board meetings and financial statements, referring to the cooperative as a whole. The rest of the record group pertains to individual committees, projects, programs and activities.</p>
+      <p>This record group is excellent as a case study of a non-profit cooperative. The records provide information concerning the organization, its purpose, operation, finances and services. It is arranged in two series, Administrative Records and Board of Directors and Financial Records, with materials from the second accession incorporated into each of the series' files. While an attempt was made to place materials on specific activities and committees in separate topical -files, information concerning these can be found in the minutes of the board of directors, where all items concerning the cooperative society were discussed and reviewed.</p>
+    </scopecontent>
+    <controlaccess>
+      <p>
+        <extptr href="accnote" show="embed" actuate="onload"/>
+      </p>
+      <controlaccess>
+        <head>Subjects:</head>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79022219.html">Ann Arbor (Mich.)</geogname>
+        <corpname source="lcnaf" encodinganalog="610">Ann Arbor Cooperative Society (Mich.)</corpname>
+        <subject source="lcsh" encodinganalog="650">Consumer cooperatives--Michigan--Ann Arbor.</subject>
+        <subject source="lcsh" encodinganalog="650">Cooperative societies--Michigan--Ann Arbor.</subject>
+      </controlaccess>
+    </controlaccess>
+    <dsc type="combined">
+      <c01 level="series">
+        <did>
+          <unittitle>Administrative Records <unitdate type="inclusive" normal="1936/1983">1936-1983</unitdate></unittitle>
+        </did>
+        <scopecontent>
+          <p>The first series, Administrative Records (1936-1983), contains topical files relating to a number of areas of the Society's operation, documenting the work of and on various committees and activities. It also includes articles of incorporation and bylaws, newsletters, correspondence, and records relating to real estate owned by the cooperative.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Ann Arbor Credit Union Housing Corporation Inc.</unittitle>
+          </did>
+          <odd>
+            <p>(proposal, minutes)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Ann Arbor Insurance Center</unittitle>
+          </did>
+          <odd>
+            <p>(minutes, financial statements, correspondence)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Annual Membership Meetings <unitdate type="inclusive" normal="1938">1938</unitdate>, <unitdate type="inclusive" normal="1940/1982">1940-1982</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(agendas, minutes, announcements)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Articles of Incorporation, Bylaws</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Center for Consumer Education and Research</unittitle>
+          </did>
+          <odd>
+            <p>(articles of incorporation, bylaws, agenda, IRS correspondence)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Consumer Information Cooperative</unittitle>
+          </did>
+          <odd>
+            <p>(articles of incorporation, bylaws, minutes, certificate of dissolution)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Consumers Service Agency</unittitle>
+          </did>
+          <odd>
+            <p>(minutes, reports, financial statements, history, memos, correspondence, stock purchase agreement)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Coop Auto Rally <unitdate type="inclusive" normal="1972/1973">1972-1973</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(financial statements, correspondence)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Coop Credit Union <unitdate type="inclusive" normal="1957/1971">1957-1971</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(minutes, financial statements, correspondence, flyers)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Coop Credit Union-Disputes with Coop Society <unitdate type="inclusive" normal="1979/1981">1979-1981</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(correspondence, by law amendments, clippings)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Coop Store <unitdate type="inclusive" normal="1937/1940">1937-1940</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(minutes, reports, financial statements, advertising, price lists, photograph)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Coop Store-Food Warehouse <unitdate type="inclusive" normal="1981/1983">1981-1983</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(planning materials, minutes, reports, financial statements, correspondence, price lists)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Coop Store-Food Warehouse-How To Manuals</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Coop Store-Food Warehouse-Recruitment Drive</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Cooperative Auto Purchase Program</unittitle>
+          </did>
+          <odd>
+            <p>(correspondence, memos, brochure, dealership lists)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Cooperative Services, Inc.</unittitle>
+          </did>
+          <odd>
+            <p>(bylaws, objectives, printed materials, publications)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Correspondence <unitdate type="inclusive" normal="1936/1947">1936-1947</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Correspondence <unitdate type="inclusive" normal="1963/1983">1963-1983</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 folders</extent>
+            </physdesc>
+            <unittitle>Creduco Insulation Company</unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+          <odd>
+            <p>(articles of incorporation, bylaws, minutes, proposals, financial statements, correspondence)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Education Committee minutes <unitdate type="inclusive" normal="1951">1951</unitdate>, <unitdate type="inclusive" normal="1979">1979</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Executive Committee Minutes <unitdate type="inclusive" normal="1972/1980">1972-1980</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>General Information/Programs</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Group Legal Service</unittitle>
+          </did>
+          <odd>
+            <p>(minutes, financial statements, information, announcements, correspondence, membership lists)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Manager Evaluation</unittitle>
+          </did>
+          <odd>
+            <p>(performance criteria, job descriptions, personnel reviews, resumes)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Membership mailings, flyers, publications</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 folders</extent>
+            </physdesc>
+            <unittitle>Memorial Advisory and Planning Service</unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+          <odd>
+            <p>(reports, financial statements, correspondence)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>National Consumer Cooperative Bank Proposal</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Newsletters <unitdate type="inclusive" normal="1936/1980">1936-1980</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Planning Committee Minutes, Reports</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Recreational Facility Committee Minutes, Reports</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Real Estate-Purchase, Sales, Mortgages</unittitle>
+          </did>
+          <odd>
+            <p>(contracts, abstracts, correspondence)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Sesquicentennial (Minutes, Memos)</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Students Credit Union</unittitle>
+          </did>
+          <odd>
+            <p>(reports. proposals, financial statements, correspondence, advertisements)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Tamarack Family Camp</unittitle>
+          </did>
+          <odd>
+            <p>(general information, purchase agreement, financial statements, correspondence, policies)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Tax Exemption correspondence--IRS <unitdate type="inclusive" normal="1977">1977</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Tax Service</unittitle>
+          </did>
+          <odd>
+            <p>(reports, proposals, budgets, advertising)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Ticket Sales Committee</unittitle>
+          </did>
+          <odd>
+            <p>(reports, sales, correspondence)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>(Straubs) Trailer Park Blueprint <unitdate type="inclusive" normal="1950">1950</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Trailer Park Extension Blueprints <unitdate type="inclusive" normal="1961">1961</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Trailer Park</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
+              </physdesc>
+              <unittitle>Blueprints <unitdate type="inclusive" normal="1963/1964">1963-1964</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Closing Statement</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Trist Road Closing Statement</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 folders</extent>
+            </physdesc>
+            <unittitle>University Cooperative <unitdate type="inclusive" normal="1969/1972">1969-1972</unitdate></unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+          <odd>
+            <p>(articles of incorporation, bylaws, minutes, financial statements, correspondence, printed material)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>University Cooperative-Miscellaneous</unittitle>
+          </did>
+          <odd>
+            <p>(printed material, advertisements correspondence, photographs)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>UCU [University Credit Union] Non-Profit Housing Corporation</unittitle>
+          </did>
+          <odd>
+            <p>(bylaws, minutes, proposals)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Miscellaneous</unittitle>
+          </did>
+          <odd>
+            <p>(calendar, survey, memorandum, strategies for obtaining goals, reports on members address search, etc.)</p>
+          </odd>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Board of Directors and Financial Records <unitdate type="inclusive" normal="1936/1983">1936-1983</unitdate></unittitle>
+        </did>
+        <scopecontent>
+          <p>The second series, Board of Directors and Financial Records (1936-1983), includes board of directors lists, minutes, operation reports, and correspondence. The financial records include income and expenditure sheets, balance sheets, budget projections, reports, and audits.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Board of Directors and Committee Lists</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Board of Directors Meetings</unittitle>
+          </did>
+          <odd>
+            <p>(Agendas, Minutes, Reports, Proposals, Correspondence)</p>
+          </odd>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">7 folders</extent>
+              </physdesc>
+              <unittitle>
+                <unitdate type="inclusive" normal="1940/1970">1940-1970</unitdate>
+              </unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">10 folders</extent>
+              </physdesc>
+              <unittitle>
+                <unitdate type="inclusive" normal="1971/1983">1971-1983</unitdate>
+              </unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>Board of Directors Retreats <unitdate type="inclusive" normal="1975/1981">1975-1981</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(agendas, meeting materials)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">6 folders</extent>
+            </physdesc>
+            <unittitle>Financial Statements <unitdate type="inclusive" normal="1936/1983">1936-1983</unitdate></unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>Audits (Incomplete) <unitdate type="inclusive" normal="1937/1940">1937-1940</unitdate></unittitle>
+          </did>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

@@ -1,0 +1,505 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead.dtd">
+<ead>
+  <eadheader audience="internal" langencoding="iso639-2b" repositoryencoding="iso15511" dateencoding="iso8601" relatedencoding="Dublin Core" scriptencoding="iso15924" countryencoding="iso3166-1">
+    <eadid countrycode="us" mainagencycode="MiU-H" publicid="us//::miu-h//TXT us::miu-h::aitonas.xml//EN" encodinganalog="Identifier">umich-bhl-85852</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="Title">Finding Aid for Arthur Scott Aiton Papers, 1922-1959</titleproper>
+        <author encodinganalog="Creator">Collection processed and finding aid created by Michigan Historical Collections staff</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="Publisher">Bentley Historical Library, University of Michigan</publisher>
+        <date encodinganalog="Date" normal="2006">2006</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created by Thomas E. Powers <date>July 2006</date></creation>
+      <langusage encodinganalog="Language">The finding aid is written in <language langcode="eng" scriptcode="Latn">English</language></langusage>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date>2006-07-14</date>
+        <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <frontmatter>
+    <titlepage>
+      <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
+      <titleproper>Finding aid for <lb/>Arthur Scott Aiton Papers, 1922-1959</titleproper>
+      <author>Finding aid created by <lb/>Michigan Historical Collections staff</author>
+    </titlepage>
+  </frontmatter>
+  <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
+    <did>
+      <origination>
+        <persname source="lcnaf" encodinganalog="100">Aiton, Arthur Scott, 1894-1955.</persname>
+      </origination>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 linear foot</extent>
+      </physdesc>
+      <unittitle encodinganalog="245">Arthur Scott Aiton papers <unitdate type="inclusive" encodinganalog="245$f" normal="1922/1959">1922-1959</unitdate></unittitle>
+      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">85852 Aa 2</unitid>
+      <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
+      <abstract>Professor of Latin American history at the University of Michigan. Correspondence concerning his professional and personal activities; also class outlines, bibliographies, term papers, and examinations; and manuscripts of books and articles, notes and transcribed documents relating to colonial Latin America.</abstract>
+      <repository>
+        <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea>, University of Michigan</corpname>
+        <extptr href="bhladd" show="embed" actuate="onload"/>
+      </repository>
+    </did>
+    <descgrp type="admin">
+      <acqinfo encodinganalog="541">
+        <p>The collection was the gift of Mrs. Arthur S. Aiton (donor no. <num type="donor" encodinganalog="541$e">2468</num>) and came to the library in multiple accession beginning in 1954.</p>
+      </acqinfo>
+      <accessrestrict encodinganalog="506">
+        <p>The collection is open to research.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+        <p>Copyright is held by the Regents of the University of Michigan.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+        <p>[item], folder, box,
+Arthur Scott Aiton Papers, Bentley Historical Library, University of Michigan</p>
+      </prefercite>
+    </descgrp>
+    <bioghist encodinganalog="545">
+      <p>Arthur S. Aiton was born in Alameda, California, on April 15, 1894. He attended the University of California, receiving three degrees (AB, 1916; AM, 1918; PhD, 1923). He joined the history department of the University of Michigan as an instructor in 1921. He became an assistant professor in 1923, associate profess in 1926, and professor in 1929.</p>
+      <p>Aiton was an expert on Hispanic-American history and an acknowledged authority on the sixteenth century Conquistadores. His research illuminated the Coronado expedition across the American Southwest. His most notable book was <title render="italic">Antonio de Mendoza, First Viceroy of New Spain</title>. He was working on a history of Latin America at the time of his death.</p>
+      <p>During World War II, he was director of the U.S. Army Latin-American Area Training Program at the University of Michigan.</p>
+      <p>Professor Aiton died December 29, 1955.</p>
+    </bioghist>
+    <scopecontent encodinganalog="520">
+      <p>The collection includes correspondence, professional papers relating to his teaching, research, and university activities, and manuscripts of his writings, both published and unpublished.</p>
+    </scopecontent>
+    <controlaccess>
+      <p>
+        <extptr href="accnote" show="embed" actuate="onload"/>
+      </p>
+      <controlaccess>
+        <head>Subjects:</head>
+        <persname source="lcnaf" encodinganalog="600">Aiton, Arthur Scott, 1894-1955.</persname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of History.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Senate.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80030466">United States. Office of Strategic Services.</corpname>
+        <subject source="lcsh" encodinganalog="650">World War, 1939-1945.</subject>
+        <subject source="lcsh" encodinganalog="650">Historians--Michigan--Ann Arbor.</subject>
+      </controlaccess>
+      <controlaccess>
+        <head>Contributors:</head>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n92098949">Barnes, Walter, 1880-</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50009377">Bining, Arthur Cecil, 1893-1957.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n80010488">Bolton, Herbert Eugene, 1870-1953.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50044549">Borah, Woodrow Wilson, 1912-</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n81004162">Boyce, Gray Cowan, 1899-1981.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2011110908">Cleven, N. Andrew N. (Nels Andrew Nelson), 1874-1961.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n84804477">Cooley, Mortimer E. (Mortimer Elwyn), 1855-1944.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n81096091">Donovan, William J. (William Joseph), 1883-1959.</persname>
+        <persname source="lcnaf" encodinganalog="700">Hanke, Lewis Ulysses, 1905-</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50057505">Haring, C. H. (Clarence Henry), 1885-1960.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n85252398">Hayden, Joseph Ralston, 1887-1945.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2012095160">King, James Ferguson, 1913-1983.</persname>
+        <persname source="lcnaf" encodinganalog="700">Martin, John Butlin, 1909-</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no00069863">Merriman, Roger Bigelow, 1876-1945.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50004624">Nevins, Allan, 1890-1971.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n82028018">Nowell, Charles E.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79099303">Parry, J. H. (John Horace), 1914-1982.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n80102295">Priestley, Herbert Ingram, 1875-1944.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50054857">Rippy, J. Fred (James Fred), 1892-1977.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50049038">Robertson, James Alexander, 1873-1939.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no00071566">Shiels, W. Eugene (William Eugene), 1897-</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n83125299">Taft, Robert A. (Robert Alphonso), 1889-1953.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50021346">Wagner, Henry Raup, 1862-1957.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79134143">Whitaker, Arthur Preston, 1895-1979.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50017308">Wilgus, A. Curtis (Alva Curtis), 1897-1981.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50028669">Wright, Irene Aloha, 1879-1972.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50017388">Zavala, Silvio Arturo, 1909-2014.</persname>
+      </controlaccess>
+    </controlaccess>
+    <dsc type="combined">
+      <c01 level="series">
+        <did>
+          <unittitle>Correspondence</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1922/1929">1922-1929</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1930/1939">1930-1939</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1940/1942">1940-1942</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1943/1946">1943-1946</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1947/1948">1947-1948</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1949/1959">1949-1959</unitdate>
+              <unitdate type="inclusive">undated</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Other papers</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Senate Advisory Committee of the University of Michigan minutes <unitdate type="inclusive" normal="1937/1942">1937-1942 (scattered)</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 folders</extent>
+            </physdesc>
+            <unittitle>Term papers on Latin American history</unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Bibliographies of Latin American history</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Class outlines and sample examinations</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 folders</extent>
+            </physdesc>
+            <unittitle>Speeches on Latin America</unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">3 folders</extent>
+            </physdesc>
+            <unittitle>Notes, articles and documents on New Spain in the 16th Century</unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"Dongan's Counter Jesuit Policy" (fragmentary)</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"Ideas on the Church-State Problem in 19th Century Latin America"; also British activities in the Spanish colonies in the early 19th century (fragmentary)</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Papers concerning the development of the University of Mexico</unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Manuscripts of writings</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">3 folders</extent>
+            </physdesc>
+            <unittitle>Manuscript of book, "Viceroy Luis de Velasco, the Elder"</unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">7 folders</extent>
+            </physdesc>
+            <unittitle>Manuscript of The Rise of the Latin American Nations</unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Manuscript of book on Viceroy Antonio de Mendoza (fragmentary)</unittitle>
+          </did>
+        </c02>
+      </c01>
+    </dsc>
+    <descgrp type="add">
+      <index>
+        <head>Selective Index to Correspondents</head>
+        <indexentry>
+          <persname>Barnes, Walter, 1880-</persname>
+          <ref>
+            <list type="simple">
+              <item>March 11, 1938</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Bining, Arthur Cecil, 1893-1957.</persname>
+          <ref>
+            <list type="simple">
+              <item>1950-1951</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Bolton, Herbert Eugene, 1870-1953.</persname>
+          <ref>
+            <list type="simple">
+              <item>May 5, 1927, Nov. 5, 1931, Nov. 8, 1935, May 22, 1936, Sept. 4, 1945, Aug. 30, 1950, and undated</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Borah, Woodrow Wilson, 1912-</persname>
+          <ref>
+            <list type="simple">
+              <item>Dec. 27, 1938</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Boyce, Gray Cowan, 1899-1981</persname>
+          <ref>
+            <list type="simple">
+              <item>July 3, 1949</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Cleven, N. Andrew N. (Nels Andrew Nelson), 1874-1961</persname>
+          <ref>
+            <list type="simple">
+              <item>July 27, 1937</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Cooley, Mortimer E. (Mortimer Elwyn), 1855-1944.</persname>
+          <ref>
+            <list type="simple">
+              <item>Dec. 30, 1940</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Donovan, William J. (William Joseph), 1883-1959.</persname>
+          <ref>
+            <list type="simple">
+              <item>Jan. 21, 1946</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Hanke, Lewis Ulysses, 1905-</persname>
+          <ref>
+            <list type="simple">
+              <item>June 10, 1948, and May 25, 1949</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Haring, C. H. (Clarence Henry), 1885-1960.</persname>
+          <ref>
+            <list type="simple">
+              <item>Jan. 5, 1933</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Hayden, Joseph Ralston, 1887-1945.</persname>
+          <ref>
+            <list type="simple">
+              <item>Jan. 26, 1942 and Jan. 31, 1942</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>King, James Ferguson, 1913-1983</persname>
+          <ref>
+            <list type="simple">
+              <item>Feb. 1, 1946, Feb. 11, 1946, Aug. 22, 1946, and June 1, 1949</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Martin, John Butlin, 1909-</persname>
+          <ref>
+            <list type="simple">
+              <item>Dec. 2, 1950</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Merriman, Roger Bigelow, 1876-1945.</persname>
+          <ref>
+            <list type="simple">
+              <item>Dec. 2, 1924, and Apr. 22, 1927</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Nevins, Allan, 1890-1971.</persname>
+          <ref>
+            <list type="simple">
+              <item>Undated</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Nowell, Charles E.</persname>
+          <ref>
+            <list type="simple">
+              <item>Feb. 9, 1950</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Parry, J. H. (John Horace), 1914-1982</persname>
+          <ref>
+            <list type="simple">
+              <item>Jan. 17, 1938</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Priestley, Herbert Ingram, 1875-1944.</persname>
+          <ref>
+            <list type="simple">
+              <item>Feb. 12, 1925</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Rippy, J. Fred (James Fred), 1892-1977.</persname>
+          <ref>
+            <list type="simple">
+              <item>May 13, 1930 and Dec. 6, 1930</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Robertson, James Alexander, 1873-1939.</persname>
+          <ref>
+            <list type="simple">
+              <item>Dec. 3, 1929</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Shiels, W. Eugene (William Eugene), 1897-</persname>
+          <ref>
+            <list type="simple">
+              <item>Sept. 25, 1941 and Dec. 15, 1951</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Taft, Robert A. (Robert Alphonso), 1889-1953.</persname>
+          <ref>
+            <list type="simple">
+              <item>Mar. 14, 1952</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Wagner, Henry Raup, 1862-1957.</persname>
+          <ref>
+            <list type="simple">
+              <item>Aug. 31, 1942, Nov. 13, 1942, Dec. 1942</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Whitaker, Arthur Preston, 1895-1979</persname>
+          <ref>
+            <list type="simple">
+              <item>Dec. 14, 1939</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Wilgus, A. Curtis (Alva Curtis), 1897-1981.</persname>
+          <ref>
+            <list type="simple">
+              <item>July 7, 1928</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Wright, Irene Aloha, 1879-1972.</persname>
+          <ref>
+            <list type="simple">
+              <item>Dec. 9, 1929, and Jan. 17, 1940</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Zavala, Silvio Arturo, 1909-2014</persname>
+          <ref>
+            <list type="simple">
+              <item>Dec. 3, 1939</item>
+            </list>
+          </ref>
+        </indexentry>
+      </index>
+    </descgrp>
+  </archdesc>
+</ead>

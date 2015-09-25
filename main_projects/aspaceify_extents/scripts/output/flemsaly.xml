@@ -1,0 +1,579 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead.dtd">
+<ead>
+  <eadheader audience="internal" langencoding="iso639-2b" repositoryencoding="iso15511" dateencoding="iso8601" relatedencoding="Dublin Core" scriptencoding="iso15924" countryencoding="iso3166-1">
+    <eadid countrycode="us" mainagencycode="MiU-H" publicid="us//::miu-h//TXT us::miu-h::flemsaly.xml//EN" encodinganalog="Identifier">umich-bhl-2009086</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="Title">Finding Aid for Sally Fleming papers, 1928-1988</titleproper>
+        <author encodinganalog="Creator">Collection processed and finding aid created by Michigan Historical Collections staff</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="Publisher">Bentley Historical Library, University of Michigan</publisher>
+        <date encodinganalog="Date" normal="2009">2009</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created by Thomas E. Powers <date>2009</date></creation>
+      <langusage encodinganalog="Language">The finding aid is written in <language langcode="eng" scriptcode="Latn">English</language></langusage>
+      <descrules>Finding aid prepared using Describing Archives: A Content Standard (DACS)</descrules>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date>2009-05-20</date>
+        <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <frontmatter>
+    <titlepage>
+      <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
+      <titleproper>Finding aid for <lb/>Sally Fleming papers, 1928-1988</titleproper>
+      <author>Finding aid created by <lb/>Michigan Historical Collections staff</author>
+    </titlepage>
+  </frontmatter>
+  <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
+    <did>
+      <origination>
+        <persname source="lcnaf" encodinganalog="100">Fleming, Sally.</persname>
+      </origination>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">3 linear feet</extent>
+      </physdesc>
+      <unittitle encodinganalog="245">Sally Fleming papers <unitdate type="inclusive" encodinganalog="245$f" normal="1928/1988">1928-1988</unitdate></unittitle>
+      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2009086 Aa 2</unitid>
+      <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
+      <abstract>Wife of the President of the University of Michigan; correspondence, organizational files, appointment books, diaries, speeches, and other personal materials.</abstract>
+      <repository>
+        <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea>, University of Michigan</corpname>
+        <extptr href="bhladd" show="embed" actuate="onload"/>
+      </repository>
+    </did>
+    <descgrp type="admin">
+      <acqinfo encodinganalog="541">
+        <p>The Sally Fleming papers (donor no. <num type="donor" encodinganalog="541$e">5769</num>) came to the library as part of the Robben Fleming collection in 1979. Periodic additions have been received since 1979.</p>
+      </acqinfo>
+      <accruals encodinganalog="584">
+        <p>No further additions to the papers are expected.</p>
+      </accruals>
+      <accessrestrict encodinganalog="506">
+        <p>The collection is open to research.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+        <p>Sally Fleming transferred her copyright to the Regents of the University of Michigan.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+        <p>[item], folder, box,
+Sally Fleming papers, Bentley Historical Library, University of Michigan</p>
+      </prefercite>
+    </descgrp>
+    <bioghist encodinganalog="545">
+      <p>Sally Fleming was wife of Robben Fleming, president of the University of Michigan. In this capacity, she played an active role on the Ann Arbor campus, hosting innumerable teas, luncheons, and dinners for university-related groups. Sally Fleming was also involved in various social and cultural organizations, including the Ann Arbor Child Care and Development Center, the Right to Read organization, Youth for Understanding, and the Washtenaw County League for Planned Parenthood.</p>
+    </bioghist>
+    <scopecontent encodinganalog="520">
+      <p>The Sally Fleming collection includes correspondence, speeches and notes, an article written in 1974 on the history of music in Ann Arbor, appointment books, clippings, and topical files relating to her organizational activities. Her papers, together with those of her husband, provide a valuable record of the social demands made upon the presidential family. Moreover, Sally Fleming became directly involved in a number of organizations concerned with child care, music, and other cultural and social concerns in each of the communities in which she lived. Many of the topical files contained in this series reflect this concern and activity.</p>
+    </scopecontent>
+    <controlaccess>
+      <p>
+        <extptr href="accnote" show="embed" actuate="onload"/>
+      </p>
+      <controlaccess>
+        <head>Subjects:</head>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no89013050">Fleming, R. W. (Robben Wright), 1916-2010.</persname>
+        <persname source="lcnaf" encodinganalog="600">Fleming, Sally.</persname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan. President.</corpname>
+      </controlaccess>
+    </controlaccess>
+    <dsc type="combined">
+      <c01 level="series">
+        <did>
+          <unittitle>Correspondence</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <unittitle>General correspondence</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>
+                <unitdate type="inclusive">Undated</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle><unitdate type="inclusive">Undated</unitdate> (Thank you notes)</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1936/1955">1936-1955</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">13 folders</extent>
+              </physdesc>
+              <unittitle>
+                <unitdate type="inclusive" normal="1960/1978-12">1960-December 1978</unitdate>
+              </unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
+              </physdesc>
+              <unittitle>
+                <unitdate type="inclusive" normal="1988-04/1988-05">April-May 1988</unitdate>
+              </unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Letters from Robben Fleming</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
+              </physdesc>
+              <unittitle>
+                <unitdate type="inclusive" normal="1950-07/1950-08">July-August, 1950</unitdate>
+              </unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1956-01">January, 1956</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Thank you letters and notes received</unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Speeches and writings</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Speeches, transcripts and notes <unitdate type="inclusive" normal="1967/1978" certainty="approximate">circa 1967-1978</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">1 binder</extent>
+            </physdesc>
+            <unittitle>Drafts of speeches and speech materials</unittitle>
+            <physdesc>
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Article, "Music in Ann Arbor, 1824-1974" and notes <unitdate type="inclusive" normal="1974">1974</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Poetry</unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Personal Records</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>School materials <unitdate type="inclusive" normal="1929/1937" certainty="approximate">circa 1929-1937</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">3 volumes</extent>
+            </physdesc>
+            <unittitle>Junior High School Yearbooks <unitdate type="inclusive" normal="1928/1931">1928-1931</unitdate></unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Beloit College <unitdate type="inclusive" normal="1938/1939" certainty="approximate">circa 1938-1939</unitdate> (notes and miscellanea)</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Music programs <unitdate type="inclusive" normal="1934/1972" certainty="approximate">circa 1934-1972</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Church activities <unitdate type="inclusive" normal="1961/1963" certainty="approximate">circa 1961-1963</unitdate> (notes)</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Entertainment notes <unitdate type="inclusive" normal="1964/1966">1964-1966</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Diary <unitdate type="inclusive" normal="1971-01/1971-10">January-October 1971</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 folders</extent>
+            </physdesc>
+            <unittitle>Trip to China <unitdate type="inclusive" normal="1976">1976</unitdate> (travel diary, notes and miscellanea)</unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 folders</extent>
+            </physdesc>
+            <unittitle>Miscellanea</unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Organizational Activities</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>The Alumni Association of the University of Michigan, Athena Awards <unitdate type="inclusive" normal="1973">1973</unitdate> (correspondence and related material)</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Ann Arbor Child Care and Development Center</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Correspondence, minutes and memoranda <unitdate type="inclusive" normal="1971/1974">1971-1974</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Miscellanea <unitdate type="inclusive" normal="1970/1974">1970-1974</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Ann Arbor Child Care</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Notes <unitdate type="inclusive" normal="1969/1975" certainty="approximate">circa 1969-1975</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Miscellanea <unitdate type="inclusive" normal="1972/1973" certainty="approximate">circa 1972-1973</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Ann Arbor School Volunteer Program <unitdate type="inclusive" normal="1969/1970">1969-1970</unitdate> (manual and minutes)</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Association of American Universities <unitdate type="inclusive" normal="1974">1974</unitdate>, <unitdate type="inclusive" normal="1977/1978">1977-1978</unitdate> (correspondence, memoranda, agendas, and itineraries)</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Champaign County [Ill.] Urban League</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
+              </physdesc>
+              <unittitle>Records <unitdate type="inclusive" normal="1963/1964">1963-1964</unitdate> (notes and clippings)</unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Dane County [Wis.] Citizens Association for Children and Youth</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Notes and correspondence <unitdate type="inclusive" normal="1966">1966</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Notes <unitdate type="inclusive" normal="1966/1967" certainty="approximate">circa 1966-1967</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Miscellanea, including source materials <unitdate type="inclusive" normal="1966" certainty="approximate">circa 1966</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>First United Presbyterian Church, Urbana, Ill.</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Correspondence <unitdate type="inclusive" normal="1958/1964">1958-1964</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Scrapbook and miscellanea</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Leigh Roberts Rehabilitation House, Madison, Wis. <unitdate type="inclusive" normal="1966">1966</unitdate> (source material and notes)</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Michigan Literacy, Inc. <unitdate type="inclusive" normal="1977">1977</unitdate> (source materials)</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Mozart Club, Champaign-Urbana, Ill.</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Scrapbook <unitdate type="inclusive" normal="1959/1960">1959-1960</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Programs, clippings, and miscellanea <unitdate type="inclusive" normal="1944/1964">1944-1964</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Right to Read <unitdate type="inclusive" normal="1974/1975">1974-1975</unitdate></unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Correspondence, minutes, notes</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Program materials and miscellaneous newsletters</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Teaching-Learning Communities <unitdate type="inclusive" normal="1978">1978</unitdate>, <unitdate type="inclusive" normal="1976">1976</unitdate> (correspondence and source materials)</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>The University of Michigan, Center for Continuing Education for Women</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
+              </physdesc>
+              <unittitle>Correspondence and source materials <unitdate type="inclusive" normal="1974/1978" certainty="approximate">circa 1974-1978</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Washtenaw County League for Planned Parenthood</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Board minutes and related material <unitdate type="inclusive" normal="1978">1978</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Education Committee minutes and related material <unitdate type="inclusive" normal="1978">1978</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Correspondence, notes, and source materials <unitdate type="inclusive" normal="1977/1978">1977-1978</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Washtenaw United Way <unitdate type="inclusive" normal="1974">1974</unitdate> (correspondence and source materials)</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>YWCA <unitdate type="inclusive" normal="1967/1968">1967-1968</unitdate>, <unitdate type="inclusive" normal="1978">1978</unitdate> (notes and source materials)</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Youth for Understanding</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Transcript of board meeting <unitdate type="inclusive" normal="1974-05-23">May 23, 1974</unitdate> (including clippings, and miscellaneous materials <unitdate type="inclusive" normal="1973/1974">1973-1974</unitdate>)</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Correspondence and source materials</unittitle>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Miscellaneous</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Presidential spouses questionnaire</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>School of Music Master Class Series</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Publications and other miscellaneous</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">4 folders</extent>
+            </physdesc>
+            <unittitle>Clippings <unitdate type="inclusive" normal="1930/1979">1930-1979</unitdate></unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Daily Appointment Books</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">20 volumes</extent>
+            </physdesc>
+            <unittitle>
+              <unitdate type="inclusive" normal="1963/1978">1963-1978</unitdate>
+            </unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+      </c01>
+    </dsc>
+    <descgrp type="add">
+      <relatedmaterial>
+        <head>Related Material</head>
+        <p>The library has a separate collection of personal papers of Robben W. Fleming as well as the records of the office of the President of the University of Michigan during the time of his presidency.</p>
+      </relatedmaterial>
+    </descgrp>
+  </archdesc>
+</ead>

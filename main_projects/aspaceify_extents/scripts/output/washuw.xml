@@ -1,0 +1,722 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead.dtd">
+<ead>
+  <eadheader audience="internal" langencoding="iso639-2b" repositoryencoding="iso15511" dateencoding="iso8601" relatedencoding="Dublin Core">
+    <eadid countrycode="us" mainagencycode="MiU-H" publicid="us//::miu-h//TXT us::miu-h::washuw.xml//EN" encodinganalog="identifier">umich-bhl-85456</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="title">Finding Aid for Washtenaw United Way Records, 1921-2001</titleproper>
+        <author encodinganalog="creator">Collection processed and finding aid created by Thomas E. Powers</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="publisher">Bentley Historical Library, University of Michigan</publisher>
+        <date encodinganalog="date">2006</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created by Thomas E. Powers <date>February 2006</date></creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date>20060208</date>
+        <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <frontmatter>
+    <titlepage>
+      <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
+      <titleproper>Finding aid for <lb/>Washtenaw United Way Records, 1921-2001</titleproper>
+      <author>Finding aid created by <lb/>Thomas E. Powers, 1984 and 2006</author>
+    </titlepage>
+  </frontmatter>
+  <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
+    <did>
+      <origination>
+        <corpname source="lcnaf" encodinganalog="110">Washtenaw United Way.</corpname>
+      </origination>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">21 oversize volumes</extent>
+      </physdesc>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">18 linear feet</extent>
+      </physdesc>
+      <unittitle encodinganalog="245">Washtenaw United Way records <unitdate type="inclusive" encodinganalog="245$f" normal="1921/2001">1921-2001</unitdate></unittitle>
+      <physdesc altrender="part">
+        </physdesc>
+      <unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">85456 Bj 2; BJ Outsize</unitid>
+      <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
+      <abstract>Records of the Washtenaw United Way and its predecessor organizations, the Ypsilanti Community Chest, 1932-1971, and the Ann Arbor Community Chest, 1921-1971. Executive committee and board of directors minutes, manuals, reports, and scrapbooks containing clippings, photographs, and other organization papers.</abstract>
+      <repository>
+        <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea>, University of Michigan</corpname>
+        <extptr href="bhladd" show="embed" actuate="onload"/>
+      </repository>
+    </did>
+    <descgrp type="admin">
+      <acqinfo encodinganalog="541">
+        <p>The record group (donor no. <num type="donor" encodinganalog="541$e">7079</num>) is on deposit from the Washtenaw United Way. The first accession was received from WUW executive director, Robert B. Kerschbaum in July 1984. Periodic additions to this record group have been received.</p>
+      </acqinfo>
+      <accessrestrict encodinganalog="506">
+        <p>The record group is closed to research, except with the permission of the executive of WUW.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+        <p>Copyright has not been transferred to the University of Michigan.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+        <p>[item], folder, box,
+Washtenaw United Way Records, Bentley Historical Library, University of Michigan</p>
+      </prefercite>
+    </descgrp>
+    <bioghist encodinganalog="545">
+      <p>The Washtenaw United Way was formed in 1971 with the merger of the Ypsilanti and Ann Arbor Community Chest organizations. The Washtenaw United Way record group thus consists of materials from both the Ann Arbor and Ypsilanti chapters prior to the merger as well as records created by Washtenaw United Way since 1971.</p>
+    </bioghist>
+    <scopecontent encodinganalog="520">
+      <p>The record group, as maintained, has two series: Ypsilanti and Washtenaw United Way. The Ypsilanti records cover the period, 1929-1971. The Washtenaw series includes material from the period, 1921-1971 when the organization was known as the Ann Arbor Community Chest, as well as material dated after 1971 when the organization broadened its geographic scope and merged with the Ypsilanti chapter.</p>
+      <p>The record group includes minutes of the board of directors and executive committee, agency manuals, and scrapbooks containing clippings, distributed campaign materials, and scattered photographs.</p>
+    </scopecontent>
+    <controlaccess>
+      <p>
+        <extptr href="accnote" show="embed" actuate="onload"/>
+      </p>
+      <controlaccess>
+        <head>Subjects:</head>
+        <corpname source="lcnaf" encodinganalog="610">Ann Arbor United Fund.</corpname>
+        <subject source="lcsh" encodinganalog="650">Social service--Michigan--Washtenaw County--Societies, etc.</subject>
+        <corpname source="lcnaf" encodinganalog="610">Washtenaw United Way.</corpname>
+      </controlaccess>
+      <controlaccess>
+        <head>Subjects - Visual Materials:</head>
+        <corpname source="lcnaf" encodinganalog="610">Washtenaw United Way.</corpname>
+      </controlaccess>
+      <controlaccess>
+        <head>Contributors:</head>
+        <corpname source="lcnaf" encodinganalog="710">Ann Arbor Community Chest.</corpname>
+        <corpname source="lcnaf" encodinganalog="710">Ypsilanti Community Chest.</corpname>
+      </controlaccess>
+      <controlaccess>
+        <head>Genre Terms:</head>
+        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655">Scrapbooks.</genreform>
+      </controlaccess>
+    </controlaccess>
+    <dsc type="combined">
+      <c01 level="series">
+        <did>
+          <unittitle>Ypsilanti Community Cheest</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Volume containing: constitution and by-laws; board and budget manuals; and rosters</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">4 volumes</extent>
+            </physdesc>
+            <unittitle>Board of Directors minutes <unitdate type="inclusive" normal="1937/1971">1937-1971</unitdate></unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Volume containing: Annual meetings <unitdate type="inclusive" normal="1955/1971">1955-1971</unitdate> and financial reports, <unitdate type="inclusive" normal="1934/1970">1934-1970</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Volume containing: Campaign goals and objectives <unitdate type="inclusive" normal="1930/1970">1930-1970</unitdate> agency requests, allocations, and payment to agencies; and comparative agency allocations, <unitdate type="inclusive" normal="1946/1970">1946-1970</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">3 volumes</extent>
+            </physdesc>
+            <unittitle>Budget committee minutes <unitdate type="inclusive" normal="1942/1971">1942-1971</unitdate></unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Planning committee minutes <unitdate type="inclusive" normal="1959/1969">1959-1969</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Audit reports <unitdate type="inclusive" normal="1944/1971">1944-1971</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Council of Social Agencies/Social Planning Committee of the Ypsilanti Community Fund</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Constitution and bylaws; lists of officers</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Annual reports <unitdate type="inclusive" normal="1941/1958">1941-1958</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Minutes of meetings</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">3 folders</extent>
+              </physdesc>
+              <unittitle>Survey and reports</unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">3 folders</extent>
+              </physdesc>
+              <unittitle>General</unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>Financial reports <unitdate type="inclusive" normal="1929/1933">1929-1933</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>Campaign publicity <unitdate type="inclusive" normal="1939/1970">1939-1970</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">6 folders</extent>
+            </physdesc>
+            <unittitle>Loose items from scrapbooks</unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Scrapbooks (campaigns)</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1941/1942">1941-1942</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle><unitdate type="inclusive" normal="1930/1951">1930-1951</unitdate> (mainly 1942-1951)</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1952">1952</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">2</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1953">1953</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">3</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1954">1954</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1955">1955</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1956">1956</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">4</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1957">1957</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">5</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1955/1958">1955-1958</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">6</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1958/1965">1958-1965</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">7</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1965/1971">1965-1971</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Washtenaw United Way</unittitle>
+        </did>
+        <odd>
+          <p>(records dated before 1971 are of the Ann Arbor Community Chest)</p>
+        </odd>
+        <c02 level="file">
+          <did>
+            <unittitle>Board of directors and executive committee</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>Minutes <unitdate type="inclusive" normal="1921/2002">1921-2002</unitdate></unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">5</container>
+                <physdesc altrender="part">
+                  <extent altrender="materialtype spaceoccupied">2 pocket folders</extent>
+                </physdesc>
+                <physdesc altrender="part">
+                  <extent altrender="materialtype spaceoccupied">6 volumes</extent>
+                </physdesc>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1921/1959">1921-1959</unitdate>
+                </unittitle>
+                <physdesc>
+                  </physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">6</container>
+                <physdesc altrender="part">
+                  <extent altrender="materialtype spaceoccupied">3 pocket folders</extent>
+                </physdesc>
+                <physdesc altrender="part">
+                  <extent altrender="materialtype spaceoccupied">2 volumes</extent>
+                </physdesc>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1960/1969">1960-1969</unitdate>
+                </unittitle>
+                <physdesc>
+                  </physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">7</container>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">10 volumes</extent>
+                </physdesc>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1970/1974">1970-1974</unitdate>
+                </unittitle>
+                <physdesc altrender="whole">
+                  </physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">8</container>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">10 volumes</extent>
+                </physdesc>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1975/1979">1975-1979</unitdate>
+                </unittitle>
+                <physdesc altrender="whole">
+                  </physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">12</container>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">10 volumes</extent>
+                </physdesc>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1980/1984">1980-1984</unitdate>
+                </unittitle>
+                <physdesc altrender="whole">
+                  </physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">13</container>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">6 volumes</extent>
+                </physdesc>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1985/1987">1985-1987</unitdate>
+                </unittitle>
+                <physdesc altrender="whole">
+                  </physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">14</container>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">5 volumes</extent>
+                </physdesc>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1988/1989">1988-1989</unitdate>
+                </unittitle>
+                <physdesc altrender="whole">
+                  </physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">15</container>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">6 volumes</extent>
+                </physdesc>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1990/1992">1990-1992</unitdate>
+                </unittitle>
+                <physdesc altrender="whole">
+                  </physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">16</container>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">6 volumes</extent>
+                </physdesc>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1993/1995">1993-1995</unitdate>
+                </unittitle>
+                <physdesc altrender="whole">
+                  </physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">17</container>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">7 volumes</extent>
+                </physdesc>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1996/1999">1996-1999</unitdate>
+                </unittitle>
+                <physdesc altrender="whole">
+                  </physdesc>
+              </did>
+              <odd>
+                <p>(1997 executive committee minutes not received)</p>
+              </odd>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">18</container>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">4 volumes</extent>
+                </physdesc>
+                <unittitle>
+                  <unitdate type="inclusive" normal="2001/2002">2001-2002</unitdate>
+                </unittitle>
+                <physdesc altrender="whole">
+                  </physdesc>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Administrative and subject files</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">9</container>
+              <physdesc altrender="part">
+                <extent altrender="materialtype spaceoccupied">1 pocket folder</extent>
+              </physdesc>
+              <physdesc altrender="part">
+                <extent altrender="materialtype spaceoccupied">5 volumes</extent>
+              </physdesc>
+              <unittitle>Budget files <unitdate type="inclusive" normal="1969/1973">1969-1973</unitdate></unittitle>
+              <physdesc>
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">10</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 pocket folders</extent>
+              </physdesc>
+              <unittitle>Planning committee files <unitdate type="inclusive" normal="1962/1970">1962-1970</unitdate></unittitle>
+              <physdesc>
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">10</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">8 folders</extent>
+              </physdesc>
+              <unittitle>Council of Social Agencies files <unitdate type="inclusive" normal="1945/1962">1945-1962</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">10</container>
+              <unittitle>Chest Board manual <unitdate type="inclusive" normal="1948/1951">1948-1951</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">10</container>
+              <unittitle>Miscellaneous reports</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Scrapbooks</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>Campaigns</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">11</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1933/1938">1933-1938</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">11</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1939/1939">1939-1939</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">11</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1942/1946">1942-1946</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="volume" label="Oversize Volume">8</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1947/1952">1947-1952</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="volume" label="Oversize Volume">9</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1953/1956">1953-1956</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">11</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1957">1957</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="volume" label="Oversize Volume">10</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1962/1963">1962-1963</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="volume" label="Oversize Volume">11</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1964/1965">1964-1965</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">11</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1966">1966</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="volume" label="Oversize Volume">12</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1966/1968">1966-1968</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="volume" label="Oversize Volume">13</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1969/1970">1969-1970</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="volume" label="Oversize Volume">14</container>
+                <unittitle>1971-1973/74</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="volume" label="Oversize Volume">15</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1973/1975">1973/74-1974/75</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="volume" label="Oversize Volume">16</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1975/1976">1975-1976</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="volume" label="Oversize Volume">17</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1976/1977">1976-1977</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="volume" label="Oversize Volume">18</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1978/1979">1978-1979</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="volume" label="Oversize Volume">19</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1980/1981">1980-1981</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Scrapbooks (general)</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="volume" label="Oversize Volume">20</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1946/1968">1946-1968</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="volume" label="Oversize Volume">21</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1968/1973">1968-1973</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">11</container>
+              <unittitle>Loose items from scrapbooks nos. 8-21</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">11</container>
+              <unittitle>Social Service seminar <unitdate type="inclusive" normal="1938/1939">1938-1939</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

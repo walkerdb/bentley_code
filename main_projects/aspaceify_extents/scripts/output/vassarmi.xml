@@ -1,0 +1,212 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead.dtd">
+<ead>
+  <eadheader audience="internal" langencoding="iso639-2b" repositoryencoding="iso15511" dateencoding="iso8601" relatedencoding="Dublin Core" scriptencoding="iso15924" countryencoding="iso3166-1">
+    <eadid countrycode="us" mainagencycode="MiU-H" publicid="us//::miu-h//TXT us::miu-h::vassarmi.xml//EN" encodinganalog="Identifier">umich-bhl-89390</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="Title">Finding Aid for Vassar (Mich.) Village Council records, 1871-1948</titleproper>
+        <author encodinganalog="Creator">Collection processed and finding aid created by Michigan Historical Collections staff</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="Publisher">Bentley Historical Library, University of Michigan</publisher>
+        <date encodinganalog="Date" normal="2007">2007</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created by Thomas E. Powers <date>October 2007</date></creation>
+      <langusage encodinganalog="Language">The finding aid is written in <language langcode="eng" scriptcode="Latn">English</language></langusage>
+      <descrules>Finding aid prepared using Describing Archives: A Content Standard (DACS)</descrules>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date>2007-10-03</date>
+        <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <frontmatter>
+    <titlepage>
+      <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
+      <titleproper>Finding aid for <lb/>Vassar (Mich.) Village Council records, 1871-1948</titleproper>
+      <author>Finding aid created by <lb/>Michigan Historical Collections staff</author>
+    </titlepage>
+  </frontmatter>
+  <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
+    <did>
+      <origination>
+        <corpname source="lcnaf" encodinganalog="110">Vassar (Mich.). Village Council.</corpname>
+      </origination>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">4 oversize volumes</extent>
+      </physdesc>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 linear foot</extent>
+      </physdesc>
+      <unittitle encodinganalog="245">Vassar (Mich.) Village Council records <unitdate type="inclusive" encodinganalog="245$f" normal="1871/1948">1871-1948</unitdate></unittitle>
+      <physdesc altrender="part">
+        </physdesc>
+      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">89390 Cc 2; CC Outsize</unitid>
+      <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
+      <abstract>Minutes of the Village Council of Vassar, Michigan; also indexes to records of the Riverside Cemetery Association.</abstract>
+      <repository>
+        <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea>, University of Michigan</corpname>
+        <extptr href="bhladd" show="embed" actuate="onload"/>
+      </repository>
+    </did>
+    <descgrp type="admin">
+      <acqinfo encodinganalog="541">
+        <p>The record group came from the Bullard Sanford Public Library in Vassar, Michigan (donor no. <num type="donor" encodinganalog="541$e">6995</num>).</p>
+      </acqinfo>
+      <accruals encodinganalog="584">
+        <p>Periodic additions to the records are not expected.</p>
+      </accruals>
+      <accessrestrict encodinganalog="506">
+        <p>The record group is open to research.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+        <p>Copyright is not held by the Regents of the University of Michigan.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+        <p>[item], folder, box,
+Vassar (Mich.) Village Council records, Bentley Historical Library, University of Michigan</p>
+      </prefercite>
+    </descgrp>
+    <bioghist encodinganalog="545">
+      <p>Vassar, Michigan is located in Tuscola County in the thumb region of Michigan.</p>
+    </bioghist>
+    <scopecontent encodinganalog="520">
+      <p>The record group is arranged into two series: Council Minutes and Other Materials. The Council Minutes are bound volumes of proceedings of the village council. Other materials includes a record of interments and deeds of the Riverside Cemetery Association.</p>
+    </scopecontent>
+    <controlaccess>
+      <p>
+        <extptr href="accnote" show="embed" actuate="onload"/>
+      </p>
+      <controlaccess>
+        <head>Subjects:</head>
+        <subject source="lcsh" encodinganalog="650">Cemeteries--Michigan--Vassar.</subject>
+        <corpname source="lcnaf" encodinganalog="610">Riverside Cemetery Association (Vassar, Mich.)</corpname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81091941.html">Tuscola County (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n82060979.html">Vassar (Mich.)</geogname>
+      </controlaccess>
+    </controlaccess>
+    <dsc type="combined">
+      <c01 level="series">
+        <did>
+          <unittitle>Council Minutes</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1871-04/1881-03">April 1871-March 1881</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="volume" label="Oversize Volume">1</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1881-03/1887-09">March 1881-September 1887</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="volume" label="Oversize Volume">2</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1887-09/1897-12">September 1887-December 1897</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="volume" label="Oversize Volume">3</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1898-01/1907-03">January 1898-March 1907</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="volume" label="Oversize Volume">4</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1907-03/1919-03">March 1907-March 1919</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1919-04/1923-05">April 1919-May 1923</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1923-06/1931-04">June 1923-April 1931</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1931-06/1941-03">June 1931-March 1941</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1941-03/1948-12">March 1941-December 1948</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">3 folders</extent>
+            </physdesc>
+            <unittitle>Miscellaneous loose materials from council minute volumes <unitdate type="inclusive" normal="1881/1919">1881-1919</unitdate></unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Other materials</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Oaths of Office <unitdate type="inclusive" normal="1904/1931">1904-1931</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Riverside Cemetery Association</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Index of Interments through September 1939</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Index to Deeds</unittitle>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

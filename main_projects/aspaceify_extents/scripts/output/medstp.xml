@@ -1,0 +1,624 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead.dtd">
+<ead>
+  <eadheader audience="internal" langencoding="iso639-2b" repositoryencoding="iso15511" dateencoding="iso8601" relatedencoding="Dublin Core">
+    <eadid countrycode="us" mainagencycode="MiU-H" publicid="-//us::MiU-H//TEXT us::MiU-H::medstp.xml//EN" encodinganalog="identifier">umich-bhl-97138</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="title">Finding Aid for Medical Scientist Training Program (University of Michigan) Records <date>1978-1996</date></titleproper>
+        <author encodinganalog="creator">Collection processed and finding aid prepared by Heather Briston, October 1997 and Edwin Staples, March 1999</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="publisher">Bentley Historical Library, University of Michigan</publisher>
+        <date encodinganalog="date">2001</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created by Greg Kinney <date>December 2000</date></creation>
+      <langusage>The finding aid is written in <language encodinganalog="language" langcode="eng">English.</language></langusage>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date>20150810</date>
+        <item>Created a new box for publications. Added written notes and corrected extent.</item>
+      </change>
+      <change>
+        <date>20090217</date>
+        <item>added contents list from publications finding aid.</item>
+      </change>
+      <change>
+        <date>20031010</date>
+        <item>Converted to EAD2002 using Word macro and Xmetal</item>
+      </change>
+      <change>
+        <date>2001-12-07</date>
+        <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <frontmatter>
+    <titlepage>
+      <publisher>University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
+      <titleproper>Finding Aid for <lb/>Medical Scientist Training Program <lb/>(University of Michigan) <lb/>Records, 1978-1996</titleproper>
+      <author>Finding aid prepared by: <lb/>Heather Briston, October 1997 <lb/>Edwin Staples, March 1999</author>
+    </titlepage>
+  </frontmatter>
+  <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
+    <did>
+      <origination>
+        <corpname source="lcnaf" encodinganalog="110">University of Michigan. Medical Scientist Training Program.</corpname>
+      </origination>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">2 linear feet</extent>
+        <extent altrender="carrier">(in 4 boxes)</extent>
+      </physdesc>
+      <unittitle encodinganalog="245">Medical Scientist Training Program (University of Michigan) records <unitdate type="inclusive" encodinganalog="245$f" normal="1978/1996">1978-1996</unitdate></unittitle>
+      <abstract>A dual degree program established in 1979 between the Medical School and the graduate school allowing students to complete the requirements for the Ph.D. and M.D. degree on an accelerated pace aimed at producing research scientists. Records include planning, operation, and policy committee minutes; admissions and recruiting material; curriculum files, and budgetary material and grant applications.</abstract>
+      <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">97138 Bimu 2</unitid>
+      <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
+      <repository>
+        <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea> University of Michigan</corpname>
+        <extptr href="bhladd" show="embed" actuate="onload"/>
+      </repository>
+    </did>
+    <descgrp type="admin">
+      <acqinfo encodinganalog="541">
+        <p>The record group was transferred by the Medical Scientist Training Program in April 1997 (Donor No. <num type="donor" encodinganalog="541$e">8585</num>). Additional records were received from George DeMuth (Donor No. <num type="donor" encodinganalog="541$e">8603</num>).</p>
+      </acqinfo>
+      <accessrestrict encodinganalog="506">
+        <p>The collection is open for research with the exception of student records and certain committee records which are restricted in accordance with university policy and applicable law.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+        <p>Copyright is held by the Regents of the University of Michigan.</p>
+        <p>
+          <extptr href="uarpacc" show="embed" actuate="onload"/>
+        </p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+        <p>item, folder title, box no., Medical Scientist Training Program, Bentley Historical Library, University of Michigan</p>
+      </prefercite>
+    </descgrp>
+    <bioghist encodinganalog="545">
+      <p>The University of Michigan Medical School's Medical Scientist Training Program (MSTP) is a highly competitive dual degree program resulting in a MD from the Medical School and a Ph.D. from the Horace H. Rackham School of Graduate Studies. The purpose of the program is to prepare graduates for biomedical research careers. The program was established in December 1979, and began operations on July 1, 1980. The program coordinates recruiting, financing, curriculum and monitoring for the fellows. The program is not degree granting, and does not offer any courses. The program takes approximately seven years to complete. There were four students in the first group of fellows in 1980. Since that year, the number of incoming fellows averages between six and nine fellows per year. As of 1998, there were 68 graduates of the program.</p>
+      <p>Most of the funding for the program is provided by a grant from the National Institute of Health, through the National Institute of General Medical Sciences. The first grant was approved in 1980, with subsequent renewals in 1985, 1990, and 1995. The bulk of the grant provides for fellowships for each student, including full tuition and stipend.</p>
+      <p>The Operating Committee is the chief advisory committee of the MSTP. The committee also functions as the advisory admissions committee. The committee advises the Program Director and Associate Directors of the program.</p>
+      <p>General oversight of the program is performed by the Policy Committee. The purpose of the committee is to review the annual activities of MSTP, and to recommend policies for those matters that may cross departmental, and/or medical school - graduate school jurisdiction.</p>
+      <p>For further current information consult the MSTP web page at the following URL: http://www.med.umich.edu/medschool/mstp/</p>
+      <p>
+        <chronlist>
+          <head>Directors of the Medical Scientist Training Program</head>
+          <chronitem>
+            <date>1979-1992</date>
+            <event>George R. DeMuth</event>
+          </chronitem>
+          <chronitem>
+            <date>1992-1995</date>
+            <event>Roderick Nairn</event>
+          </chronitem>
+          <chronitem>
+            <date>1995-1996</date>
+            <event>David R. Engelke</event>
+          </chronitem>
+          <chronitem>
+            <date>1996-present</date>
+            <event>Ronald J. Koenig</event>
+          </chronitem>
+        </chronlist>
+      </p>
+    </bioghist>
+    <scopecontent encodinganalog="520">
+      <p>The records of the Medical Scientist Training Program are predominantly agendas and minutes of committee meetings. The collection is divided into five series: Administrative, Admissions and Recruiting, Committee Agendas and Minutes, Correspondence, and Curriculum and unit publications. The bulk of the collection is dated from 1979 through 1989.</p>
+    </scopecontent>
+    <controlaccess>
+      <p>
+        <extptr href="accnote" show="embed" actuate="onload"/>
+      </p>
+      <controlaccess>
+        <head>Subjects:</head>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Medical Scientist Training Program.</corpname>
+        <subject source="lcsh" encodinganalog="650">Medical scientists--Michigan--Ann Arbor.</subject>
+        <subject source="lcsh" encodinganalog="650">Medicine--Research--Study and teaching.</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81055151">University of Michigan. Medical School.</corpname>
+      </controlaccess>
+    </controlaccess>
+    <dsc type="combined">
+      <c01 level="series">
+        <did>
+          <unittitle>Administrative</unittitle>
+        </did>
+        <scopecontent>
+          <p>The Administrative series is comprised of two major areas: funding and management matters. An NIH grant application for 1990-1995 comprises the major part of the Funding subseries. Included in the General folders is the report produced for the NIH site visit in 1994, for the renewal of the grant. A small amount of correspondence regarding program expenditures and stipends during the period from 1986 to 1993 is included. A Program Management folder contains job descriptions, a management schedule, and recommendations resulting from an administrative review. These papers provide background for the policy procedures and decisions of the program.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>George DeMuth <unitdate type="inclusive" normal="1974/1983">1974-1983</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(includes CV)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Funding and Budget</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>General <unitdate type="inclusive" normal="1986/1994">1986-1994</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>NIH grant application <unitdate type="inclusive" normal="1990/1995">1990-1995</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">4 folders</extent>
+            </physdesc>
+            <unittitle>General <unitdate type="inclusive" normal="1978/1986">1978-1986</unitdate></unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Grant Materials <unitdate type="inclusive" normal="1980/1985">1980-1985</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Handbook <unitdate type="inclusive" normal="1980">1980</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Minority Access to Research Careers (MARC) Materials <unitdate type="inclusive" normal="1984/1986">1984-1986</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Program Management <unitdate type="inclusive" normal="1984/1991">1984-1991</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Proposal For Development <unitdate type="inclusive" normal="1990">1990</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Space Renovation <unitdate type="inclusive" normal="1984">1984</unitdate></unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Admissions and Recruiting</unittitle>
+        </did>
+        <scopecontent>
+          <p>Admissions and Recruiting contains a report from 1985, forms, and recruiting materials for MSTP for the period from 1980 to 1992. The series also includes lists of incoming fellows for the years 1990-1992 and 1995-1996. The recruiting materials are helpful for providing background and insight into the program.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Admissions Procedures and Admitted Fellows <unitdate type="inclusive" normal="1985">1985</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>Applicants <unitdate type="inclusive" normal="1990">1990</unitdate></unittitle>
+          </did>
+          <accessrestrict>
+            <p>[RESTRICTED]</p>
+          </accessrestrict>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Applicants Aggregate Information <unitdate type="inclusive" normal="1979/1990">1979-1990</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>Applicant Information <unitdate type="inclusive" normal="1981/1985">1981-1985</unitdate></unittitle>
+          </did>
+          <accessrestrict>
+            <p>[RESTRICTED]</p>
+          </accessrestrict>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Recruiting Materials <unitdate type="inclusive" normal="1980">1980</unitdate></unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Committee Agendas and Minutes</unittitle>
+        </did>
+        <scopecontent>
+          <p>Committee Agendas and Minutes is organized according to Committee names and by their activities such as reporting and retreats. The Committees are Policy Committee, Program Committee, Review Committee, and Social Sciences Committee.</p>
+          <p>The Planning Committee met during 1979 to discuss the implementation of the program. The Operating Committee is the chief advisory committee of the program, and also serves as the advisory admissions committee. The subseries contains agendas and minutes from meetings, 1979 through 1989. The committee is composed of one representative from each degree granting graduate program participating in MSTP, two MSTP fellows, a clinical faculty member, and the Program and Associate Directors. The committee meets generally six to seven times per year.</p>
+          <p>The purpose of the Review Committee was to review the progress of the program and to plan for its future. The committee met between late 1983 through May 1984, releasing its report on June 1, 1984. The Policy Committee performs the general oversight of the program. The committee also addresses issues that cross departmental boundaries and/or medical school - graduate school jurisdiction. The subseries includes the minutes for meetings from 1980 to 1985, with the exception of 1982. The committee is composed of the department chairmen, two inter-collegiate doctoral program directors, and the deans of the graduate and medical schools. The committee meets on an as-needed basis. The Program Committee contains no minutes or agendas, but includes correspondence relating to preparations for the annual scientific retreats and social events.</p>
+          <p>Some of the records in the record group are restricted in order to protect individual privacy. The unrestricted committee materials are useful for observing the growth of the program from its inception, as well as the analysis and future planning from reviews.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <unittitle>Operating Committee</unittitle>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">6 folders</extent>
+            </physdesc>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+          <accessrestrict>
+            <p>[RESTRICTED]</p>
+          </accessrestrict>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1979/1980">1979-1980</unitdate>
+              </unittitle>
+            </did>
+            <accessrestrict>
+              <p>[Restricted until <date type="restriction" normal="2055-01-01">January 1, 2055</date>]</p>
+            </accessrestrict>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1981/1982">1981-1982</unitdate>
+              </unittitle>
+            </did>
+            <accessrestrict>
+              <p>[Restricted until <date type="restriction" normal="2057-01-01">January 1, 2057</date>]</p>
+            </accessrestrict>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1983/1984">1983-1984</unitdate>
+              </unittitle>
+            </did>
+            <accessrestrict>
+              <p>[Restricted until <date type="restriction" normal="2059-01-01">January, 1, 2059</date>]</p>
+            </accessrestrict>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1985">1985</unitdate>
+              </unittitle>
+            </did>
+            <accessrestrict>
+              <p>[Restricted until <date type="restriction" normal="2060-01-01">January 1, 2060</date>]</p>
+            </accessrestrict>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1986/1987">1986-1987</unitdate>
+              </unittitle>
+            </did>
+            <accessrestrict>
+              <p>[Restricted until <date type="restriction" normal="2062-01-01">January 1, 2062</date>]</p>
+            </accessrestrict>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1988/1990">1988-1990</unitdate>
+              </unittitle>
+            </did>
+            <accessrestrict>
+              <p>[Restricted until <date type="restriction" normal="2065-01-01">January 1, 2065</date>]</p>
+            </accessrestrict>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Planning Committee</unittitle>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">5 folders</extent>
+            </physdesc>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1979-05-16">May 16, 1979</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>July 5 to <unitdate type="inclusive" normal="1979-07-26">July 26, 1979</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>August 7 to <unitdate type="inclusive" normal="1979-08-30">August 30, 1979</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>September 13 to <unitdate type="inclusive" normal="1979-11-28">November 28, 1979</unitdate></unittitle>
+            </did>
+            <accessrestrict>
+              <p>[RESTRICTED; Attachment to minutes of September 20; until <date type="restriction" normal="2054-01-01">January 1, 2054</date>]</p>
+            </accessrestrict>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Policy Committee</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1980-02-14">February 14, 1980</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1981-01-13">January 13, 1981</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1983-03-22">March 22, 1983</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1984-01-16">January 16, 1984</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1985-01-12">January 12, 1985</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Policy Committee <unitdate type="inclusive" normal="1980">1980</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Program Committee <unitdate type="inclusive" normal="1990">1990</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Program Committee</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Annual MSTP Scientific Retreat correspondence, circa <unitdate type="inclusive" normal="1995">1995</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Reports/Proposals by Committees <unitdate type="inclusive" normal="1988/1991">1988-1991</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Retreat <unitdate type="inclusive" normal="1986">1986</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Review Committee</unittitle>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">4 folders</extent>
+            </physdesc>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1983-11/1984-02">November 1983-February 1984</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1984-03/1984-05">March 1984-May 1984</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Committee Report <unitdate type="inclusive" normal="1984-06-01">June 1, 1984</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Correspondence from <unitdate type="inclusive" normal="1984-03-16">March 16, 1984</unitdate></unittitle>
+            </did>
+            <accessrestrict>
+              <p>[Restricted until <date type="restriction" normal="2059-01-01">January 1, 2059</date>]</p>
+            </accessrestrict>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Social Sciences Committee <unitdate type="inclusive" normal="1985/1986">1985-1986</unitdate></unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Correspondence</unittitle>
+        </did>
+        <scopecontent>
+          <p>Correspondence is primarily a record of founder George DeMuth's communication regarding the support of MSTP candidates and students. This includes assistance in locating aid, providing recommendations, and mediation of various faculty/student communication issues. Another well represented activity is DeMuth's promotion of the newly developed program to other members of U-M's Medical School faculty and members of the medical field at large.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 folders</extent>
+            </physdesc>
+            <unittitle>
+              <unitdate type="inclusive" normal="1981/1983">1981-1983</unitdate>
+            </unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">5 folders</extent>
+            </physdesc>
+            <unittitle>
+              <unitdate type="inclusive" normal="1975/1993">1975-1993</unitdate>
+            </unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Curriculum</unittitle>
+        </did>
+        <scopecontent>
+          <p>Curriculum contains correspondence from 1978 to 1986, arranged in chronological order, relating to scheduling conflicts effecting the fellows in the program, and correspondence between Rackham and the Medical School concerning special waivers and requirements for the fellows. Also included are the mentor lists for the fellows in MSTP for the years 1984-1990, as well as 1993.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Departmental correspondence <unitdate type="inclusive" normal="1978-03-06/1986-09-05">March 6, 1978-September 5, 1986</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>Grades for Biological Chemistry 580 <unitdate type="inclusive" normal="1981-11-12">November 12, 1981</unitdate></unittitle>
+          </did>
+          <accessrestrict>
+            <p>[Restricted until <date type="restriction" normal="2056-01-01">January 1, 2056</date>]</p>
+          </accessrestrict>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Medical Scholars Program <unitdate type="inclusive" normal="1979">1979</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Mentor Lists <unitdate type="inclusive" normal="1984/1990">1984-1990</unitdate>, <unitdate type="inclusive" normal="1993">1993</unitdate></unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Publications</unittitle>
+        </did>
+        <scopecontent>
+          <p>The Publications series includes general program brochures, invitations, and programs for the Scientific Retreat from 1990 through 1996.</p>
+        </scopecontent>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Unit Publications</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
+              </physdesc>
+              <unittitle>Brochures <unitdate type="inclusive" normal="1985/1997">1985-1997</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Invitations <unitdate type="inclusive" normal="1987">1987</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Programs</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">4</container>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">4 folders</extent>
+                </physdesc>
+                <unittitle><title render="italic">Scientific Retreat: Programs and Proceedings</title>, <unitdate type="inclusive" normal="1990/1996">1990-1996</unitdate></unittitle>
+                <physdesc altrender="whole">
+                  </physdesc>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

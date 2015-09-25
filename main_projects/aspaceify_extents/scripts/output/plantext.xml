@@ -1,0 +1,651 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead.dtd">
+<ead>
+  <eadheader audience="internal" langencoding="iso639-2b" repositoryencoding="iso15511" dateencoding="iso8601" relatedencoding="Dublin Core" scriptencoding="iso15924" countryencoding="iso3166-1">
+    <eadid countrycode="us" mainagencycode="MiU-H" publicid="us//::miu-h//TXT us::miu-h::plantext.xml//EN" encodinganalog="Identifier">umich-bhl-87327</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="Title">Finding Aid for Plant Extension Services (University of Michigan) Records, 1907-1996</titleproper>
+        <author encodinganalog="Creator">Collection processed and finding aid created by Yolanda deRooy Ensing, April 1982; Frank Boles, August 1987.</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="Publisher">Bentley Historical Library, University of Michigan</publisher>
+        <date encodinganalog="Date" normal="2006">2006</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created by Greg Kinney <date>2006-08-07</date></creation>
+      <langusage encodinganalog="Language">The finding aid is written in <language langcode="eng" scriptcode="Latn">English</language></langusage>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date>201500812</date>
+        <item>Removed duplicate tube tags</item>
+      </change>
+      <change>
+        <date>2006-08-07</date>
+        <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <frontmatter>
+    <titlepage>
+      <publisher>University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
+      <titleproper>Finding aid for <lb/>Plant Extension Services <lb/>(University of Michigan) <lb/>Records, 1907-1996</titleproper>
+      <author>Finding aid created by <lb/>Yolanda deRooy Ensing, April 1982 <lb/>Frank Boles, August 1987</author>
+    </titlepage>
+  </frontmatter>
+  <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
+    <did>
+      <origination>
+        <corpname source="lcnaf" encodinganalog="110">University of Michigan. Plant Extension Services.</corpname>
+      </origination>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">20 blueprint tubes</extent>
+      </physdesc>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">3 linear feet</extent>
+      </physdesc>
+      <unittitle encodinganalog="245">Plant Extension Services (University of Michigan) records <unitdate type="inclusive" encodinganalog="245$f" normal="1907/1996">1907-1996</unitdate></unittitle>
+      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">87327 Bimu B27 2</unitid>
+      <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
+      <abstract>Records, 1907-1996, of Plant Extension Services, liaison unit concerned with the monitoring of new construction projects and the expansion and renovation of existing buildings at the University of Michigan. Minutes of construction meetings, summary financial statements, site and building plans and proposals, blueprints, and visual materials; including files relating to the Detroit Observatory and the Natural Science Building; include undated sketch of North Campus, unsigned, but attributed to Eero Saarinen.</abstract>
+      <repository>
+        <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea>, University of Michigan</corpname>
+        <extptr href="bhladd" show="embed" actuate="onload"/>
+      </repository>
+      <physloc>Portions located in offsite storage; prior notification required for access.</physloc>
+    </did>
+    <descgrp type="admin">
+      <acqinfo encodinganalog="541">
+        <p>The records of the unit were transferred to the library in several accessions beginning in 1982 (donor nos. <num type="donor" encodinganalog="541$e">6751</num> and <num type="donor" encodinganalog="541$e">5582</num>). <num type="donor" encodinganalog="541$e">6751</num></p>
+      </acqinfo>
+      <accessrestrict encodinganalog="506">
+        <p>The record group is open without restriction.</p>
+        <p>
+          <extptr href="uarpacc" show="embed" actuate="onload"/>
+        </p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+        <p>Copyright is held by the Regents of the University of Michigan.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+        <p>[item], folder, box, Plant Extension Services (University of Michigan) Records, Bentley Historical Library, University of Michigan</p>
+      </prefercite>
+    </descgrp>
+    <bioghist encodinganalog="545">
+      <p>Established in 1929/1930, the Plant Extension Services serves as a liaison between university units responsible for financial accountability and Construction Engineering, Engineering Services, the University Architect's office and the University Planner's office, all of who report to Plant Extension. The primary responsibility of this group of offices is monitoring and coordinating new construction as well as the expansion and renovation of existing buildings.</p>
+    </bioghist>
+    <scopecontent encodinganalog="520">
+      <p>Plant Extension office records include detailed minutes of construction meetings, monthly reports, summary financial statements, site and building plans and proposals, and blueprints. The material is arranged alphabetically, usually by building name. Among the blueprints are files relating to the Detroit Observatory and the Natural Science Building and an undated sketch of North Campus, unsigned, but attributed to Eero Saarinen</p>
+    </scopecontent>
+    <controlaccess>
+      <p>
+        <extptr href="accnote" show="embed" actuate="onload"/>
+      </p>
+      <controlaccess>
+        <head>Subjects:</head>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Administration.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Buildings.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Campus.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n2004021043">University of Michigan. Detroit Observatory.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Plant Extension Services.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Natural Science Building (University of Michigan)</corpname>
+        <geogname source="lcsh" encodinganalog="651">North Campus (University of Michigan)</geogname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50016251">Saarinen, Eero, 1910-1961.</persname>
+      </controlaccess>
+      <controlaccess>
+        <head>Genre Terms:</head>
+        <genreform encodinganalog="655" source="aat">Architectural drawings.</genreform>
+        <genreform encodinganalog="655" source="aat">Videotapes.</genreform>
+      </controlaccess>
+    </controlaccess>
+    <dsc type="combined">
+      <c01 level="series">
+        <did>
+          <unittitle>Records</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Architect's/Planner's monthly reports <unitdate type="inclusive" normal="1974/1977">1974-1977</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Argus I Amphibian Facility</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Business Administration Paton Center Construction</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Camp Filibert Roth-Sewage Disposal System</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Central Campus Planning Study <unitdate type="inclusive" normal="1963">1963</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Central Campus Recreation Building</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Chemistry Stores Construction</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Construction Engineering monthly reports <unitdate type="inclusive" normal="1973/1978">1973-1978</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Detroit Observatory <unitdate type="inclusive" normal="1907/1909">1907-1909</unitdate></unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>Detroit Observatory <unitdate type="inclusive" normal="1907/1909">1907-1909</unitdate></unittitle>
+              <container type="tube" label="Tube">1</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Detroit Observatory <unitdate type="inclusive" normal="1907/1909">1907-1909</unitdate></unittitle>
+              <container type="tube" label="Tube">2</container>
+            </did>
+            <odd>
+              <p>(continued)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Detroit Observatory <unitdate type="inclusive" normal="1907/1909">1907-1909</unitdate></unittitle>
+              <container type="tube" label="Tube">3</container>
+            </did>
+            <odd>
+              <p>(continued)</p>
+            </odd>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>DNA Laboratory Renovations</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Economics Building Renovations</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="tube" label="Tube">4</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1910">1910</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1974/1975">1974-1975</unitdate>
+              </unittitle>
+              <physdesc>
+                <physfacet>1 folder</physfacet>
+              </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="tube" label="Tube">5</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1974/1975">1974-1975</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Electrical Engineering and Computer Science (EECS) Building</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Engineering Building I-A</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Engineering Services monthly reports <unitdate type="inclusive" normal="1976/1977">1976-1977</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>General Stores Study and General Stores Renovation</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Graduate Library</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="tube" label="Tube">6</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1916">1916</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1973/1975">1973-1975</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Health Professions Education Facilities Study</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="tube" label="Tube">7</container>
+            <unittitle>Henderson Memorial House <unitdate type="inclusive" normal="1941">1941</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="tube" label="Tube">8</container>
+            <unittitle>Henry Ford Estate (Fairlane)</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Hospital Administration Building and Parking Structure Construction</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>General</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Renovations</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <unittitle>7th Level Operating Room</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <unittitle>5th, 7th and 9th Level</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <unittitle>11th Level</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <unittitle>Physical Configuration Task Force</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <unittitle>Long Range Planning (Chi Systems, Inc.)</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <unittitle>Design Guidance Study and Facilities Development Planning Committee</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <unittitle>Functional and Space Programming</unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="tube" label="Tube">9</container>
+            <unittitle>Ingliss House <unitdate type="inclusive" normal="1928">1928</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Institute for Social Research</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Landscape Architect's Office monthly reports</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>C.C. Little Ventilation Survey <unitdate type="inclusive" normal="1977-04">April 1977</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">3 volumes</extent>
+            </physdesc>
+            <unittitle>Medical Center Building Survey <unitdate type="inclusive" normal="1971">1971</unitdate></unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Michigan Student Assembly</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Michigan Student Assembly Space Requests</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Michigan Union <unitdate type="inclusive" normal="1917">1917</unitdate></unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>Michigan Union <unitdate type="inclusive" normal="1917">1917</unitdate></unittitle>
+              <container type="tube" label="Tube">10</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Michigan Union <unitdate type="inclusive" normal="1917">1917</unitdate></unittitle>
+              <container type="tube" label="Tube">11</container>
+            </did>
+            <odd>
+              <p>(continued)</p>
+            </odd>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Natural Science Building <unitdate type="inclusive" normal="1914">1914</unitdate></unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>Natural Science Building <unitdate type="inclusive" normal="1914">1914</unitdate></unittitle>
+              <container type="tube" label="Tube">12</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Natural Science Building <unitdate type="inclusive" normal="1914">1914</unitdate></unittitle>
+              <container type="tube" label="Tube">13</container>
+            </did>
+            <odd>
+              <p>(continued)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Natural Science Building <unitdate type="inclusive" normal="1914">1914</unitdate></unittitle>
+              <container type="tube" label="Tube">14</container>
+            </did>
+            <odd>
+              <p>(continued)</p>
+            </odd>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Naval Architecture and Marine Engineering Building Addition</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Natural Science Renovation (Colvin Robinson reports)</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>North Campus Recreation Building Construction</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Occupational Safety, Environmental Health monthly reports <unitdate type="inclusive" normal="1973/1976">1973-1976</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Plant Protection <unitdate type="inclusive" normal="1941/1950">1941-1950</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Planting Diagrams <unitdate type="inclusive" normal="1910/1938">1910-1938</unitdate></unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>Planting Diagrams <unitdate type="inclusive" normal="1910/1938">1910-1938</unitdate></unittitle>
+              <container type="tube" label="Tube">15</container>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Planting Diagrams <unitdate type="inclusive" normal="1910/1938">1910-1938</unitdate></unittitle>
+              <container type="tube" label="Tube">16</container>
+            </did>
+            <odd>
+              <p>(continued)</p>
+            </odd>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="tube" label="Tube">17</container>
+            <unittitle>Pound House (Trueblood Residence)</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Power Plant</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Balance Condenser</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Turbine Generator</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Public Works Act</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Recreational Facilities</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>The Scott Amy Prudden Turner Memorial Clinic</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Meeting Notes</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
+              </physdesc>
+              <unittitle>Construction <unitdate type="inclusive" normal="1973/1980">1973-1980</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="tube" label="Tube">18</container>
+            <unittitle>Stockwell Dormitory <unitdate type="inclusive" normal="1939/1940">1939-1940</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>Student Army Training Corp. (SATC) <unitdate type="inclusive" normal="1918/1926">1918-1926</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="tube" label="Tube">20</container>
+            <unittitle>Tunnels</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>University Survey <unitdate type="inclusive" normal="1950" certainty="approximate">circa 1950</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>Willow Run Airport Master Plan <unitdate type="inclusive" normal="1966">1966</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Women's Athletic Building</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="tube" label="Tube">19</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1911">1911</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Demolition</unittitle>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle><genreform normal="Motion pictures">VHS Videocassette</genreform> Tapes</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>An Historical Perspective of Central Campus and the Ingalls Mall <unitdate type="inclusive" normal="1991">1991</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>Outdoor Sculptures on Campus <unitdate type="inclusive" normal="1991">1991</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>The University of Michigan Integrated Technology Instruction Center <unitdate type="inclusive" normal="1996">1996</unitdate></unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Accretions since <unitdate type="inclusive" normal="1980">1980</unitdate></unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>Study of Reuse of the Old Main Hospital</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">3 folders</extent>
+            </physdesc>
+            <unittitle>Clippings</unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle><genreform encodinganalog="Photographs">Undergraduate Library Photographs</genreform>, <unitdate type="inclusive" normal="1955/1958">1955-1958</unitdate></unittitle>
+          </did>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

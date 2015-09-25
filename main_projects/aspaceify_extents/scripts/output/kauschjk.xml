@@ -1,0 +1,806 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead.dtd">
+<ead>
+  <eadheader audience="internal" langencoding="iso639-2b" repositoryencoding="iso15511" dateencoding="iso8601" relatedencoding="Dublin Core" scriptencoding="iso15924" countryencoding="iso3166-1">
+    <eadid countrycode="us" mainagencycode="MiU-H" publicid="us//::miu-h//TXT us::miu-h::kauschjk.xml//EN" encodinganalog="Identifier">umich-bhl-07155</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="Title">Finding Aid for Jack Kausch collection, 1927-2002</titleproper>
+        <author encodinganalog="Creator">Collection processed and finding aid created by Courtney Egan. Revised December 2013.</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="Publisher">Bentley Historical Library, University of Michigan</publisher>
+        <date encodinganalog="Date" normal="2008">2008</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created by Thomas E. Powers <date>December 2007</date></creation>
+      <langusage encodinganalog="Language">The finding aid is written in <language langcode="eng" scriptcode="Latn">English</language></langusage>
+      <descrules>Finding aid prepared using Describing Archives: A Content Standard (DACS)</descrules>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date>2013-12-20</date>
+        <item>Changes made with additional material.</item>
+      </change>
+      <change>
+        <date>2007-12-10</date>
+        <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <frontmatter>
+    <titlepage>
+      <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
+      <titleproper>Finding aid for <lb/>Jack Kausch collection, 1927-2002</titleproper>
+      <author>Finding aid created by <lb/>Courtney Egan, October 2007</author>
+    </titlepage>
+  </frontmatter>
+  <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
+    <did>
+      <origination>
+        <persname source="lcnaf" encodinganalog="100">Kausch, Jack.</persname>
+      </origination>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">1 oversize film</extent>
+      </physdesc>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">1 oversize folder</extent>
+      </physdesc>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">5 linear feet</extent>
+      </physdesc>
+      <unittitle encodinganalog="245">Jack Kausch collection <unitdate type="inclusive" encodinganalog="245$f" normal="1927/2002">1927-2002</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1976/1994">1976-1994</unitdate></unittitle>
+      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">07155 Aa 2; UAm</unitid>
+      <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
+      <abstract>Jack Kausch was a photographer who specialized in family portraits and historical photography. The collection includes still and moving images created and collected by Kausch throughout his career.</abstract>
+      <repository>
+        <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea>, University of Michigan</corpname>
+        <extptr href="bhladd" show="embed" actuate="onload"/>
+      </repository>
+    </did>
+    <descgrp type="admin">
+      <acqinfo encodinganalog="541">
+        <p>The collection was donated in 2007 and 2013 by Betsy Kausch (donor no. <num type="donor" encodinganalog="541$e">9198</num>).</p>
+      </acqinfo>
+      <accruals encodinganalog="584">
+        <p>Periodic additions to the records are not expected.</p>
+      </accruals>
+      <accessrestrict encodinganalog="506">
+        <p>The collection is open to research.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+        <p>Copyright is held by the Regents of the University of Michigan.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+        <p>[item], folder, box,
+Jack Kausch collection, Bentley Historical Library, University of Michigan</p>
+      </prefercite>
+    </descgrp>
+    <bioghist encodinganalog="545">
+      <p>Jack Kausch was a photographer who lived and worked in Michigan. He was raised in Detroit and graduated from Cranbrook. He also earned a bachelor's degree in physics and a master's degree in business administration from the University of Michigan. During the Korean War, Kausch joined the Air National Guard and in the late 1950s he worked for his father's construction business. In the 1960s Kausch started work in the GM photographic department developing promotional materials for the company. Finally, in 1976 he opened Jack Kausch Photography where he specialized in family portraits and completed a wide variety of additional projects.</p>
+    </bioghist>
+    <scopecontent encodinganalog="520">
+      <p>This collection highlights a portion of the projects that Jack Kausch completed during his photographic career. A range of subjects is covered and both original and historical photography is included. The collection is divided into two series: Photographs and Other Visual Materials.</p>
+    </scopecontent>
+    <controlaccess>
+      <p>
+        <extptr href="accnote" show="embed" actuate="onload"/>
+      </p>
+      <controlaccess>
+        <head>Subjects - Visual Materials:</head>
+        <subject source="lctgm" encodinganalog="650">Automobile industry.</subject>
+        <subject source="lctgm" encodinganalog="650">Churches--Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650">Cicadas.</subject>
+        <geogname source="lcsh" encodinganalog="651">Detroit-Windsor Tunnel (Detroit, Mich. and Windsor, Ont.)</geogname>
+        <subject source="lctgm" encodinganalog="650">Ferries--Michigan--Detroit.</subject>
+        <subject source="lctgm" encodinganalog="650">Ferries--Ontario--Windsor.</subject>
+        <corpname source="lcnaf" encodinganalog="610">Fox Theatre Building (Detroit, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79079577">General Motors Corporation.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">General Motors Corporation. Fisher Body Division. Fleetwood Plant.</corpname>
+        <persname source="lcnaf" encodinganalog="600">Kausch, Jack.</persname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n84151483.html">Poletown (Detroit, Mich.)</geogname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82009167">Stroh Brewery Company.</corpname>
+        <subject source="lctgm" encodinganalog="650">Tunnels.</subject>
+      </controlaccess>
+      <controlaccess>
+        <head>Genre Terms:</head>
+        <genreform source="aat" encodinganalog="655">Motion pictures.</genreform>
+        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655">Videotapes.</genreform>
+      </controlaccess>
+    </controlaccess>
+    <dsc type="combined">
+      <c01 level="series">
+        <did>
+          <unittitle>
+            <genreform normal="Photographs">Photographs</genreform>
+          </unittitle>
+        </did>
+        <scopecontent>
+          <p>The Photographs series includes four subseries: Automotive History; Detroit, Michigan; Gordon W. Lloyd; and Michigan, General. Most of the photographs are in the form of negatives or slides; however some photographic prints are included throughout the collection.</p>
+        </scopecontent>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Automotive History</unittitle>
+          </did>
+          <scopecontent>
+            <p>The Automotive History subseries features materials about the history of the automobile, particularly General Motors and the Fleetwood Plant in Detroit. The history of the Fleetwood Plant, where many famous and luxurious automobile bodies were built, is covered in photographic negatives. Additionally, there are several photographic prints of presidents and other well-known individuals posing with GM automobiles.</p>
+          </scopecontent>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Airplane assembly facility <unitdate type="inclusive" normal="1910/1919" certainty="approximate">circa 1910s</unitdate></unittitle>
+            </did>
+            <odd>
+              <p>(see also oversize folder)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Automobile assembly</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>"The Changing Nature of the Auto Body"</unittitle>
+              <physdesc>
+                <physfacet>(photographic slides</physfacet>
+              </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Parade of Progress <unitdate type="inclusive" normal="1946">1946</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Presidents and other celebrities</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Promotional events</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Miscellaneous</unittitle>
+            </did>
+            <odd>
+              <p>(include Fleetwood plant, tanks, etc.; see also oversize folder)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">3 folders</extent>
+              </physdesc>
+              <unittitle>"People, Pride and Progress"</unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+              <physdesc>
+                <physfacet>(negative strips</physfacet>
+              </physdesc>
+            </did>
+            <odd>
+              <p>(produced for Fisher Body -- Fleetwood)</p>
+            </odd>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Detroit, Michigan</unittitle>
+          </did>
+          <scopecontent>
+            <p>The Detroit, Michigan subseries features photographic prints, slides, and negatives of various local landmarks. These include historic and contemporary images of the following: the Detroit-Windsor Tunnel under construction and in operation; the restored Fox Theater; Poletown throughout its history; and the Stroh's factory during production.</p>
+          </scopecontent>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Aerial Photography</unittitle>
+            </did>
+            <odd>
+              <p>(includes photographs of photographers on aerial shoot)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Detroit-Windsor Tunnel</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <unittitle>Cut-and-cover Section</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <unittitle>Dedication Day</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <unittitle>Ferries</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <unittitle>General</unittitle>
+              </did>
+              <odd>
+                <p>(see also oversize folder)</p>
+              </odd>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <unittitle>Shield-driven Section</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <unittitle>Terminal Buildings and Ventilation Tower</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Fox Theater</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>General</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Poletown</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Stroh's</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <unittitle>General</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <unittitle>Production <unitdate type="inclusive" normal="1977-08">August 1977</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Gordon W. Lloyd project <unitdate type="inclusive" normal="1990/1999" certainty="approximate">circa 1990s</unitdate></unittitle>
+          </did>
+          <scopecontent>
+            <p>The Gordon W. Lloyd subseries is an extensive set of material documenting many buildings designed by this 19th century architect. Lloyd emigrated from England and worked in Michigan and nearby states. He designed several churches and cathedrals, as well as secular buildings including the Northern Michigan Asylum and a few private residences <title render="italic">.</title> Various formats including photographic prints, slides, and negatives, as well as a small amount of textual research material comprise this series.</p>
+          </scopecontent>
+          <c03 level="file">
+            <did>
+              <unittitle>Buildings</unittitle>
+            </did>
+            <odd>
+              <p>(arranged by approximate date of construction)</p>
+            </odd>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <unittitle>Christ Church (Detroit, Mich.) <unitdate type="inclusive" normal="1861">1861</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle>Trinity Church (Marshall, Mich.) <unitdate type="inclusive" normal="1861">1861</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle>Central Methodist Episcopal Church (Detroit, Mich.) <unitdate type="inclusive" normal="1866/1867">1866-1867</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle>Church of the Good Shepherd (Allegan, Mich.) <unitdate type="inclusive" normal="1866/1869" certainty="approximate">circa 1866-1869</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle>Trinity Church (Columbus, Ohio) <unitdate type="inclusive" normal="1866/1869">1866-1869</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle>Saint Andrew's Church (Ann Arbor, Mich.) <unitdate type="inclusive" normal="1867">1867</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle>Saint James' Church (Grosse Ile, Mich.) <unitdate type="inclusive" normal="1867">1867</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle>Saint James' Church (Milwaukee, Wis.) <unitdate type="inclusive" normal="1867/1870">1867-1870</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle>Church of the Holy Spirit (Gambier, Ohio) <unitdate type="inclusive" normal="1869/1870">1869-1870</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle>Trinity Cathedral (Pittsburgh, Pa.) <unitdate type="inclusive" normal="1870/1871">1870-1871</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle>Christ Church (Springfield, Ohio) <unitdate type="inclusive" normal="1872">1872</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle>All Saints Church (Saugatuck, Mich.) <unitdate type="inclusive" normal="1872/1873">1872-1873</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle>Church of the Ascension (Buffalo, New York) <unitdate type="inclusive" normal="1872/1873">1872-1873</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle>Saint Paul's Church (Flint, Mich.) <unitdate type="inclusive" normal="1873">1873</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle>Saint Paul's Church (Marquette, Mich.) <unitdate type="inclusive" normal="1873">1873</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle>Church of the Good Shepherd (Ogden, Utah) <unitdate type="inclusive" normal="1874/1875">1874-1875</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Buildings <unitdate type="inclusive">Undated</unitdate></unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle>Saint John's Church (Saginaw, Mich.) <unitdate type="inclusive" normal="1883">1883</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle>Saint Luke's Church (Kalamazoo, Mich.) <unitdate type="inclusive" normal="1883/1884">1883-1884</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle>Saint Paul's Church (Medina, Ohio) <unitdate type="inclusive" normal="1884">1884</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle>Traverse City Asylum <unitdate type="inclusive" normal="1885">1885</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle>Cathedral of St. Paul (Erie, Pa.)</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle>Gatehouses</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle>Little Cote</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle>Morpeth, Ontario</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle>Other or Unknown</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle>University of Detroit, Mercy</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle>Various Churches</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Drawings and Furniture</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Family Gravestones</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Research</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Various Visual Materials</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">3</container>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">1 floppy disk</extent>
+                  <physfacet>3.5"</physfacet>
+                </physdesc>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">13 CDs</extent>
+                </physdesc>
+                <unittitle>Digital files</unittitle>
+                <physdesc>
+                  </physdesc>
+                <physdesc>
+                  </physdesc>
+              </did>
+              <odd>
+                <p>(master copies of images; Photoshop, TIFF, and JPEG files)</p>
+              </odd>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">3</container>
+                <unittitle>Indexed Photographs (backup copies of images)</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">3</container>
+                <unittitle>Negatives</unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Michigan, General</unittitle>
+          </did>
+          <scopecontent>
+            <p>The Michigan, General subseries contains an extensive set of photographic slides documenting flora and fauna throughout the state; wildflowers are especially highlighted. The series also contains a small amount of material on the University of Michigan and the city of Birmingham.</p>
+          </scopecontent>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Birmingham</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Flora and Fauna</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>University of Michigan Football Stadium</unittitle>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Other Visual Materials</unittitle>
+        </did>
+        <scopecontent>
+          <p>The Other Visual Materials series is comprised of three subseries: Videotapes and Motion Pictures, and Detroit-Windsor Tunnel. Included in the subseries are several videos and a few films that were a part or product of Kausch's moving image projects. The videos and films include a thirty-minute natural history documentary about cicadas in Michigan and a fifteen-minute promotional piece on the history and future of Cadillac. In general, they cover a range of subjects including local history, automotive history, and natural history. Also included are various formats and versions of Kausch's 1980 film made for the fiftieth anniversary of the Detroit-Windsor Tunnel</p>
+        </scopecontent>
+        <c02 level="subseries">
+          <did>
+            <unittitle>
+              <genreform normal="Motion pictures">Videotapes</genreform>
+            </unittitle>
+          </did>
+          <odd>
+            <p>(VHS unless otherwise noted)</p>
+          </odd>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>17-Year Cicadas (Magicicada septendecim)</unittitle>
+            </did>
+            <odd>
+              <p>(tape no. 1)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>The Boat Builders of Les Cheneaux</unittitle>
+            </did>
+            <odd>
+              <p>(tape no. 2)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Children of the Holocaust, Parts 1 and 2</unittitle>
+            </did>
+            <odd>
+              <p>(tape no. 3)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Detroit Country Day, Middle School, Presentation</unittitle>
+            </did>
+            <odd>
+              <p>(tape no. 4)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Flying Tigers, 529th Fighter Squadron, 311th Fighter Group</unittitle>
+            </did>
+            <odd>
+              <p>(tape no. 5)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>From Ice to Islands</unittitle>
+            </did>
+            <odd>
+              <p>(tape no. 6)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Passage to the Future</unittitle>
+            </did>
+            <odd>
+              <p>(tape no. 7)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>A Sense of History: Andrew Wineland Tanner, Photographs of the Late 19th and Early 20th Century</unittitle>
+            </did>
+            <odd>
+              <p>(tape no. 8)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Solidarity, Part I</unittitle>
+              <physdesc>
+                <physfacet>(U-matic</physfacet>
+              </physdesc>
+            </did>
+            <odd>
+              <p>(tape no. 9)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Solidarity, Part II</unittitle>
+              <physdesc>
+                <physfacet>(U-matic</physfacet>
+              </physdesc>
+            </did>
+            <odd>
+              <p>(tape no. 10)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Teamwork and Technology Cadillac Style</unittitle>
+            </did>
+            <odd>
+              <p>(tape no. 11)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Andrew Tanner Historical Photographs Slide Show <unitdate type="inclusive" normal="1995">1995</unitdate></unittitle>
+            </did>
+            <odd>
+              <p>(tape no. 12)</p>
+            </odd>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>
+              <genreform normal="Motion pictures">Motion Pictures</genreform>
+            </unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>The Fleetwood Story: People Pride and Progress, Local 15 insert</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>UAW Local 15 and Fleetwood Strike Film <unitdate type="inclusive" normal="1950/1959" certainty="approximate">1950s</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Miscellaneous and unidentified</unittitle>
+            </did>
+            <odd>
+              <p>(film reels stored in accordion folder)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="reel" label="Film">1</container>
+              <unittitle>17-Year Cicadas (Magicicada septendecim)</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <container type="box" label="Box">5</container>
+            <unittitle>Detroit-Windsor Tunnel</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 16 mm film reels</extent>
+              </physdesc>
+              <unittitle><unitdate type="inclusive" normal="1980">1980</unitdate> Print</unittitle>
+              <physdesc>
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">16 mm film reel</extent>
+              </physdesc>
+              <unittitle><unitdate type="inclusive" normal="1980">1980</unitdate> Mag</unittitle>
+              <physdesc>
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 16 mm film reels</extent>
+              </physdesc>
+              <unittitle>A Track and Internegative</unittitle>
+              <physdesc>
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Video Master (U-matic videocassette)</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 16 mm film reels</extent>
+              </physdesc>
+              <unittitle>Revised A &amp; B Rolls <unitdate type="inclusive" normal="1990">1990</unitdate></unittitle>
+              <physdesc>
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">1 inches video reel</extent>
+              </physdesc>
+              <unittitle>From Revised A &amp; B Rolls <unitdate type="inclusive" normal="1990">1990</unitdate></unittitle>
+              <physdesc>
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">3 16 mm film reels</extent>
+              </physdesc>
+              <unittitle><unitdate type="inclusive" normal="1990">1990</unitdate> Revision Work Print, B Track, Title Trims</unittitle>
+              <physdesc>
+                </physdesc>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

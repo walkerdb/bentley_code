@@ -1,0 +1,834 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead.dtd">
+<ead>
+  <eadheader audience="internal" langencoding="iso639-2b" repositoryencoding="iso15511" dateencoding="iso8601" relatedencoding="Dublin Core">
+    <eadid countrycode="us" mainagencycode="MiU-H" publicid="-//us::MiU-H//TEXT us::MiU-H::dpew.xml//EN" encodinganalog="identifier">umich-bhl-87147</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="title">Finding Aid for Dept. of Physical Education for Women (University of Michigan) records <date>1878-1972</date></titleproper>
+        <author encodinganalog="creator">Collection processed and finding aid prepared by Michigan Historical Collections Staff.</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="publisher">Bentley Historical Library, University of Michigan</publisher>
+        <date encodinganalog="date">1997</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created by Greg Kinney <date>Jan. 2000</date></creation>
+      <langusage>The finding aid is written in <language encodinganalog="language" langcode="eng">English.</language></langusage>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date>20150804</date>
+        <item>Added written notes from paper finding aid and corrected extent.</item>
+      </change>
+      <change>
+        <date>20031001</date>
+        <item>Converted to EAD2002 using Word macro and Xmetal</item>
+      </change>
+      <change>
+        <date>2000-01-27</date>
+        <item>added dao hrefs for photos using 87147-folder no.</item>
+      </change>
+      <change>
+        <date>2000-01-25</date>
+        <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <frontmatter>
+    <titlepage>
+      <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
+      <titleproper>Finding Aid for <lb/>Dept. of Physical Education for Women <lb/>(University of Michigan) <lb/>1878-1972</titleproper>
+      <author>Finding aid prepared by: <lb/>Michigan Historical Collections Staff</author>
+    </titlepage>
+  </frontmatter>
+  <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
+    <did>
+      <origination>
+        <corpname source="lcnaf" encodinganalog="110">University of Michigan. Dept. of Physical Education for Women.</corpname>
+      </origination>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">9 linear feet</extent>
+      </physdesc>
+      <unittitle encodinganalog="245">Dept. of Physical Education for Women (University of Michigan) records <unitdate type="inclusive" encodinganalog="245$f" normal="1878/1972">1878-1972</unitdate></unittitle>
+      <abstract>University of Michigan department responsible for administering and teaching required curriculum in physical education for women and overseeing recreational sports for women. Records include annual reports, minutes of staff meetings, scrapbooks, topical files, history of physical education for women at the University, and other materials relating to the Women's Athletic Association; also photographs</abstract>
+      <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">87147 Bimu C205 2</unitid>
+      <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
+      <repository>
+        <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea> University of Michigan</corpname>
+        <extptr href="bhladd" show="embed" actuate="onload"/>
+      </repository>
+    </did>
+    <descgrp type="admin">
+      <acqinfo encodinganalog="541">
+        <p>The records were transferred from the Dept. of Physical Education for Women (donor no. <num type="donor" encodinganalog="541$e">962</num>) in several accessions beginning in 1939.</p>
+      </acqinfo>
+      <accessrestrict encodinganalog="506">
+        <p>The records are open for research.</p>
+        <p>
+          <extptr href="uarpacc" show="embed" actuate="onload"/>
+        </p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+        <p>Copyright is held by the Regents of the University of Michigan.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+        <p>item, folder title, box no., University of Michigan, Dept. of Physical Education for Women, Bentley Historical Library, University of Michigan</p>
+      </prefercite>
+    </descgrp>
+    <bioghist encodinganalog="545">
+      <p>Classes in physical education for women were first conducted in 1894. Barbour gymnasium for women was completed in 1898, in expectation of which Eliza M. Mosher, M.D., was named professor of hygiene and was put in charge of the Women's Gymnasium. The Women's Athletic Association was organized in 1905, and in 1908/09 a women's athletic field (Palmer Field) was purchased and equipped. The regents established a Department of Physical Education and a Division of Hygiene and Public Health in 1929. The teacher training program in physical education became part of the School of Education when it became an independent unit in 1921. A master's program (1931) and a doctoral program (1940) were later added. Margaret Bell was appointed assistant professor of physical education, director of physical education for women and physician in the health service in 1923.</p>
+    </bioghist>
+    <scopecontent encodinganalog="520">
+      <p>Photos of women involved in athletics and other physical activities, including dance, Lantern Night, and Freshman Week; also photos of Barbour Gymnasium, Women's Athletic Building, the Health Service, and the Michigan League.</p>
+    </scopecontent>
+    <controlaccess>
+      <p>
+        <extptr href="accnote" show="embed" actuate="onload"/>
+      </p>
+      <controlaccess>
+        <head>Subjects:</head>
+        <subject source="lcsh" encodinganalog="650">Athletics--Michigan--Ann Arbor.</subject>
+        <subject source="lcsh" encodinganalog="650">Physical education and training.</subject>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Sports.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Students.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Women's Athletic Association.</corpname>
+        <subject source="lcsh" encodinganalog="650">Athletes--Michigan--Ann Arbor.</subject>
+        <subject source="lcsh" encodinganalog="650">Women athletes--Michigan--Ann Arbor.</subject>
+        <subject source="lcsh" encodinganalog="650">Women college students--Michigan--Ann Arbor.</subject>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Physical Education for Women.</corpname>
+      </controlaccess>
+      <controlaccess>
+        <head>Subjects - Visual Material:</head>
+        <corpname source="lcnaf" encodinganalog="610">Barbour Gymnasium (University of Michigan)</corpname>
+        <subject source="lctgm" encodinganalog="650">Dancing--Michigan--Ann Arbor.</subject>
+        <corpname source="lcnaf" encodinganalog="610">Michigan League.</corpname>
+        <subject source="lctgm" encodinganalog="650">Recreation.</subject>
+        <subject source="lctgm" encodinganalog="650">Sports.</subject>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Sports.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Physical Education for Women.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Freshman Week.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan. University Health Service.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Lantern Night.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Students--Social life and customs.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Students.</corpname>
+        <subject source="lctgm" encodinganalog="650">Women.</subject>
+        <corpname source="lcnaf" encodinganalog="610">Women's Athletic Building (University of Michigan)</corpname>
+        <subject source="lcsh" encodinganalog="650">Women college students--Michigan--Ann Arbor.</subject>
+      </controlaccess>
+      <controlaccess>
+        <head>Genre/Form:</head>
+        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655">Scrapbooks.</genreform>
+      </controlaccess>
+    </controlaccess>
+    <dsc type="combined">
+      <c01 level="file">
+        <did>
+          <container type="box" label="Box">1</container>
+          <unittitle>Card file index of women P.E. Majors <unitdate type="inclusive" normal="1924/1972">1924-1972</unitdate></unittitle>
+        </did>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Scrapbooks <unitdate type="inclusive" normal="1923/1968">1923-1968</unitdate></unittitle>
+        </did>
+        <scopecontent>
+          <p>Scrapbooks contain clippings and programs detailing women's athletic and campus events, including extensive information on World War II era activities.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 volumes</extent>
+            </physdesc>
+            <unittitle>
+              <unitdate type="inclusive" normal="1923/1936">1923-1936</unitdate>
+            </unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 volumes</extent>
+            </physdesc>
+            <unittitle>
+              <unitdate type="inclusive" normal="1937/1951-03">1937-March 1951</unitdate>
+            </unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">3 volumes</extent>
+            </physdesc>
+            <unittitle>
+              <unitdate type="inclusive" normal="1951-03/1968">March 1951-1968</unitdate>
+            </unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Annual reports</unittitle>
+        </did>
+        <scopecontent>
+          <p>The Annual Reports series consists of bound, highly detailed reports on men's and women's physical education with information on the curriculum, requirements, programs, enrollment, staff, services, budgets, teacher training, club activities, club sports and intramural tournaments and Women's Athletic Association summaries.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1930/1942">1930/31-1941/42</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">5</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1942/1954">1942/43-1953/54</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">6</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1954/1967">1954/55-1966/67</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1967/1970">1967/68-1969/70</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Staff meeting minutes</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1946/1970">1946/47-1969/70</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Histories and Miscellaneous</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>Printed materials</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>Conference on Curriculum Problems in Physical Education, summer session <unitdate type="inclusive" normal="1938">1938</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>History of Women's Athletic Association</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>History of Physical Education for Women</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>Curriculum in Physical Education</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>"Major" Day file</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Card file of women's physical education majors <unitdate type="inclusive" normal="1924/1972">1924-1972</unitdate></unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Topical files <unitdate type="inclusive" normal="1942/1972" certainty="approximate">circa 1942-1972</unitdate></unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle>Accidents to students</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle>Alumnae Council</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>American Association for Health-Physical Education-Recreation</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Student Section</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Division of Girls and Women's Sports</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Honor Awards</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle>Bureau of School Services</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle>Committees</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle>Competition for Women</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle>Dance Competition</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle>Department Organization</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle>Department of Physical Education and Athletics</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle>Department Research Project</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle>Facilities</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle>Graduate Program in Physical Education</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle>Graduate Students</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle>Handbooks (Women)</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle>LPGA Golf School</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle>Miscellaneous</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle>Personnel</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle>Physical Education Elective Program <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle>Publicity</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Recruitment</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Recruitment Committee <unitdate type="inclusive" normal="1969/1970">1969-1970</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Open house <unitdate type="inclusive" normal="1968/1969">1968-1969</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Open house <unitdate type="inclusive" normal="1967/1968">1967-1968</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Recruitment Day <unitdate type="inclusive" normal="1967">1967</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>High School Career Day</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Recruitment Day <unitdate type="inclusive" normal="1961">1961</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Recruitment Committee <unitdate type="inclusive" normal="1959/1960">1959-1960</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Miscellaneous</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Registrar's Office</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Orientation program</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Use of Gymnasium</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Records Office</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle>Safety Procedures</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle>School of Education (Dean)</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle>School of Education (Committees and General)</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle>Speech Department</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle>Staff, Lists, etc.</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle>Steering Advisory Committee</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle>Student-Community relations</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle>Theses</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle>U.S. Field Hockey Association</unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>
+            <genreform normal="Photographs">Photographs</genreform>
+          </unittitle>
+        </did>
+        <scopecontent>
+          <p>The Photographs series consists of prints and some negatives of women involved in athletics and other physical activities, including dance, often taking place in Barbour Gymnasium or at Palmer Field. The bulk of the photos are from the 1910-1935 period. There are also photographs of social events sponsored by the Department of Physical Education for Women and the Women's Athletic Association, including Lantern Night, and Freshman Week as well as photos of Barbour Gymnasium, Women's Athletic Building, the Health Service, and the Michigan League.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">9</container>
+            <unittitle>Card file of photo descriptions [incomplete]</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">9</container>
+            <unittitle>Archery</unittitle>
+            <dao href="87147-1" show="new" actuate="onrequest">
+              <daodesc>
+                <p>[view sample images]</p>
+              </daodesc>
+            </dao>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">9</container>
+            <unittitle>Badminton</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">9</container>
+            <unittitle>Barbour Gymnasium</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">9</container>
+            <unittitle>Basketball</unittitle>
+            <dao href="87147-4" show="new" actuate="onrequest">
+              <daodesc>
+                <p>[view sample images]</p>
+              </daodesc>
+            </dao>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">9</container>
+            <unittitle>Bowling</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">9</container>
+            <unittitle>Correctives</unittitle>
+            <dao href="87147-6" show="new" actuate="onrequest">
+              <daodesc>
+                <p>[view sample images]</p>
+              </daodesc>
+            </dao>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">9</container>
+            <unittitle>Crew</unittitle>
+            <dao href="87147-7" show="new" actuate="onrequest">
+              <daodesc>
+                <p>[view sample images]</p>
+              </daodesc>
+            </dao>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">9</container>
+            <unittitle>Dance</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">9</container>
+            <unittitle>Dance, Clog and tap</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">9</container>
+            <unittitle>Dance, Folk</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">9</container>
+            <unittitle>Dance, Modern</unittitle>
+            <dao href="87147-11" show="new" actuate="onrequest">
+              <daodesc>
+                <p>[view sample images]</p>
+              </daodesc>
+            </dao>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">9</container>
+            <unittitle>Faculty</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">9</container>
+            <unittitle>Fencing</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">9</container>
+            <unittitle>Field hockey</unittitle>
+            <dao href="87147-16" show="new" actuate="onrequest">
+              <daodesc>
+                <p>[sample images]</p>
+              </daodesc>
+            </dao>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">9</container>
+            <unittitle>Former presidents and house athletic managers</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">9</container>
+            <unittitle>Freshman Week</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">9</container>
+            <unittitle>Golf</unittitle>
+            <dao href="87147-17" show="new" actuate="onrequest">
+              <daodesc>
+                <p>[view sample images]</p>
+              </daodesc>
+            </dao>
+          </did>
+          <odd>
+            <p>(na 9014)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">9</container>
+            <unittitle>Gymnastics</unittitle>
+            <dao href="87147-18" show="new" actuate="onrequest">
+              <daodesc>
+                <p>[view sample images]</p>
+              </daodesc>
+            </dao>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">9</container>
+            <unittitle>Health Service</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">9</container>
+            <unittitle>Indoor sports and other activities</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">9</container>
+            <unittitle>Lantern Night</unittitle>
+            <dao href="87147-21" show="new" actuate="onrequest">
+              <daodesc>
+                <p>[view sample images]</p>
+              </daodesc>
+            </dao>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">9</container>
+            <unittitle>Michigan League</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">9</container>
+            <unittitle>Outdoor sports</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">9</container>
+            <unittitle>Riding</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">9</container>
+            <unittitle>Rifle</unittitle>
+            <dao href="87147-25" show="new" actuate="onrequest">
+              <daodesc>
+                <p>[view sample images]</p>
+              </daodesc>
+            </dao>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">9</container>
+            <unittitle>Soccer</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">9</container>
+            <unittitle>Softball</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">9</container>
+            <unittitle>Stunts</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">9</container>
+            <unittitle>Swimming</unittitle>
+            <dao href="87147-29" show="new" actuate="onrequest">
+              <daodesc>
+                <p>[view sample images]</p>
+              </daodesc>
+            </dao>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">9</container>
+            <unittitle>Tennis</unittitle>
+            <dao href="87147-30" show="new" actuate="onrequest">
+              <daodesc>
+                <p>[view sample images]</p>
+              </daodesc>
+            </dao>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">9</container>
+            <unittitle>Track and field</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">9</container>
+            <unittitle>Volleyball</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">9</container>
+            <unittitle>Women's Athletic Building</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">9</container>
+            <unittitle>Negatives</unittitle>
+          </did>
+          <odd>
+            <p>(ca. 25 original 5x7 and 8x10 negatives of some of the photos listed above.)</p>
+          </odd>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

@@ -1,0 +1,781 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead.dtd">
+<ead>
+  <eadheader audience="internal" langencoding="iso639-2b" repositoryencoding="iso15511" dateencoding="iso8601" relatedencoding="Dublin Core">
+    <eadid countrycode="us" mainagencycode="MiU-H" publicid="us//::miu-h//TXT us::miu-h::eecspub.xml//EN" encodinganalog="identifier">umich-bhl-9732</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="title">Finding Aid for Dept. of Electrical Engineering and Computer Science (University of Michigan) Publications, 1937-ongoing</titleproper>
+        <author encodinganalog="creator">Collection processed and finding aid created by Marilyn M. McNitt, June 2003</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="publisher">Bentley Historical Library, University of Michigan</publisher>
+        <date encodinganalog="date">April 2004</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created by Marilyn M. McNitt <date>June 2003</date></creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date>20150803</date>
+        <item>Added written notes from paper finding aid.</item>
+      </change>
+      <change>
+        <date>20040430</date>
+        <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <frontmatter>
+    <titlepage>
+      <publisher>University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
+      <titleproper>Finding aid for <lb/>Dept. of Electrical Engineering and Computer Science <lb/>(University of Michigan) <lb/>Publications, 1937-ongoing</titleproper>
+      <author>Finding aid created by <lb/>Marilyn M. McNitt, June 2003</author>
+    </titlepage>
+  </frontmatter>
+  <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
+    <did>
+      <origination>
+        <corpname source="lcnaf" encodinganalog="110">University of Michigan. Dept. of Electrical Engineering and Computer Science.</corpname>
+      </origination>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">2 linear feet</extent>
+      </physdesc>
+      <unittitle encodinganalog="245">Dept. of Electrical Engineering and Computer Science (University of Michigan) publications <unitdate type="inclusive" encodinganalog="245$f" normal="1937/9999">1937-[ongoing]</unitdate>, <unitdate type="inclusive" encodinganalog="245$g" normal="1970/1990">1970-1990</unitdate></unittitle>
+      <unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">9732; Bimu; C146; 2</unitid>
+      <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
+      <abstract>Teaching and research unit the College of Engineering of the University of Michigan. Contains published materials produced by or for the department and its subunits including annual reports, histories, newsletters, bulletins, proceedings,and student publications.</abstract>
+      <repository>
+        <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea>, University of Michigan</corpname>
+        <extptr href="bhladd" show="embed" actuate="onload"/>
+      </repository>
+    </did>
+    <descgrp type="admin">
+      <acqinfo encodinganalog="541">
+        <p>The publications are received periodically from the unit (donor no. <num type="donor" encodinganalog="541$e">6717</num>) and the College of Engineering (donor no. <num type="donor" encodinganalog="541$e">1884</num>).</p>
+      </acqinfo>
+      <accessrestrict encodinganalog="506">
+        <p>The publications are open for research.</p>
+        <p>
+          <extptr href="uarpacc" show="embed" actuate="onload"/>
+        </p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+        <p>Copyright is held by the Regents of the University of Michigan.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+        <p>[item], folder, box,
+Department of Electrical Engineering and Computer Science (University of Michigan)Publications, Bentley Historical Library, University of Michigan</p>
+      </prefercite>
+    </descgrp>
+    <bioghist encodinganalog="545">
+      <p>Please consult the history found in the manuscript finding aid which precedes the publications finding aid.</p>
+    </bioghist>
+    <scopecontent encodinganalog="520">
+      <p>The Department of Electrical Engineering and Computer Science Publications are divided into four series: Unit Publications, Sub-Unit Publications, Topical Publications and Student Publications. The bulk of the publications document the department and its various laboratories.</p>
+    </scopecontent>
+    <controlaccess>
+      <p>
+        <extptr href="accnote" show="embed" actuate="onload"/>
+      </p>
+      <controlaccess>
+        <head>Subjects:</head>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n84212123">University of Michigan. Solid State Electronics Laboratory.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Electrical Engineering and Computer Science.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Electrical and Computer Engineering.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Electrical Engineering.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Radiation Laboratory.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Advanced Computer Architecture Laboratory.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Students--Social life and customs.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n83061350">Cooley Electronics Laboratory.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr92022650">University of Michigan. Electron Physics Laboratory.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr92016716">University of Michigan. Information Systems Laboratory.</corpname>
+      </controlaccess>
+      <controlaccess>
+        <head>Contributors:</head>
+        <corpname source="lcnaf" encodinganalog="710">University of Michigan. Dept. of Electrical and Computer Engineering.</corpname>
+        <corpname source="lcnaf" encodinganalog="710">University of Michigan. Dept. of Electrical Engineering.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" authfilenumber="http://id.loc.gov/authorities/names/n84212123">University of Michigan. Solid State Electronics Laboratory.</corpname>
+        <corpname source="lcnaf" encodinganalog="710">University of Michigan. Radiation Laboratory.</corpname>
+        <corpname source="lcnaf" encodinganalog="710">University of Michigan. Advanced Computer Architecture Laboratory.</corpname>
+        <corpname source="lcnaf" encodinganalog="710">University of Michigan. Artificial Intelligence Laboratory.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" authfilenumber="http://id.loc.gov/authorities/names/n83061350">Cooley Electronics Laboratory.</corpname>
+      </controlaccess>
+      <controlaccess>
+        <head>Genre Terms:</head>
+        <genreform source="aat" encodinganalog="655">Annual reports.</genreform>
+        <genreform source="aat" encodinganalog="655">Pamphlets.</genreform>
+        <genreform source="aat" encodinganalog="655">Bulletins.</genreform>
+        <genreform source="aat" encodinganalog="655">Histories.</genreform>
+        <genreform source="aat" encodinganalog="655">Newsletters.</genreform>
+        <genreform source="aat" encodinganalog="655">Proceedings.</genreform>
+        <genreform source="aat" encodinganalog="655">Programs.</genreform>
+        <genreform source="aat" encodinganalog="655">Reports.</genreform>
+        <genreform source="lcsh" encodinganalog="655">Student publications.</genreform>
+      </controlaccess>
+    </controlaccess>
+    <dsc type="combined">
+      <c01 level="series">
+        <did>
+          <unittitle>Unit Publications</unittitle>
+        </did>
+        <scopecontent>
+          <p>The Unit Publications series contains printed material published specifically by the Department of Electrical Engineering and Computer Science. These publications are defined as being widely distributed and may be published at regular intervals. They are arranged by genre of the publication.</p>
+          <p>The Unit Publications series contains annual reports, brochures, bulletins, flyers, histories, newsletters, posters, proceedings, programs, reports, and textbooks. The annual reports document the activities of the department from 1967 to 1979 and contain summaries of departmental research for this time period. The brochures describe the department from 1957 to 1995 and an undated pamphlet chronicles the development of ENIAC. The bulletins document the department from 1988 to 1997. There is a department directory included in the 1990 volume. The researcher will find several departmental histories, including <title render="italic">The Department of Electrical Engineering: A 75-Year History</title>, which was written to commemorate the seventy-fifth anniversary of the department. In addition there is a long run, from 1979 to 1991, of the weekly internal newsletter <title render="italic">Department of Electrical Engineering and Computer Science Newsletter</title>. The <title render="italic">Communicator</title> is the department's annual newsletter for alumni, students and staff. The Bentley Historical Library holds issues of this publication from 1992 to 1994. The proceedings are from a seminar honoring Professor William G. Dow in 1964. The researcher will find various reports, as well as two textbooks by Richard K. Brown which were published by the department.</p>
+        </scopecontent>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Annual Reports</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
+              </physdesc>
+              <unittitle><title render="italic">Annual Research Review</title>, <unitdate type="inclusive" normal="1967/1968">1967-1968</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle><title render="italic">Annual Research Summary</title>, <unitdate type="inclusive" normal="1982/1983">1982/83</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">4 folders</extent>
+              </physdesc>
+              <unittitle><title render="italic">Electrical Engineering Research</title>, <unitdate type="inclusive" normal="1967/1971">1967-1971</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">6 folders</extent>
+              </physdesc>
+              <unittitle><title render="italic">Electrical and Computer Engineering Research</title>, <unitdate type="inclusive" normal="1971/1979">1971-1979</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Brochures</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle><title render="italic">Computer Engineering</title>, <unitdate type="inclusive" normal="1973/1983">1973/74-1982/83</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle><title render="italic">ENIAC: Electronic Numerical Integrator and Computer</title>, <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle><title render="italic">Electrical Engineering</title>, <unitdate type="inclusive" normal="1957/1991">1957-1991</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle><title render="italic">Electrical Engineering and Computer Science</title>, <unitdate type="inclusive" normal="1991/1995">1991-1995</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle><title render="italic">Graduate Studies in...</title>, <unitdate type="inclusive" normal="1977/1978">1977-1978</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Graduate study in Electrical Engineering and Computer Science Department <unitdate type="inclusive" normal="1984/1986">1984-1986</unitdate> and <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Miscellaneous, includes description of EECS Building <unitdate type="inclusive" normal="1977/1978">1977-1978</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Bulletins</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle><title render="italic">Computer Science and Engineering: Department of Electrical Engineering and Computer Science</title>, <unitdate type="inclusive" normal="1997">1997</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle><title render="italic">Department of Electrical Engineering and Computer Science</title>, <unitdate type="inclusive" normal="1993">1993</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle><title render="italic">Electrical Engineering and Computer Science</title>, includes Department Directory, <unitdate type="inclusive" normal="1990">1990</unitdate>, <unitdate type="inclusive" normal="1999">1999</unitdate>, and <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle><title render="italic">Graduate Study in Electrical Engineering and Computer Science</title>, <unitdate type="inclusive" normal="1986/1988">1986-1988</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle><title render="italic">Microwave Science and Engineering</title>, <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle><title render="italic">Robotics Research and Education at the University of Michigan</title>, <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Flyers</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Miscellaneous <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Histories</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle><title render="italic">A Brief History of the Department of Electrical Engineering [of the] University of Michigan</title>, <unitdate type="inclusive" normal="1944">1944</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle><title render="italic">The Department of Electrical Engineering: A 75-Year History, 1895-1970</title>, <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle><title render="italic">History of the Electrical Engineering Department</title>, <unitdate type="inclusive" normal="1937">1937</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Newsletters</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle><title render="italic">Communicator: Annual Publications of the Department of Electrical Engineering and Computer Science</title>, <unitdate type="inclusive" normal="1992/1994">1992-1994</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">11 folders</extent>
+              </physdesc>
+              <unittitle><title render="italic">Department of Electrical Engineering and Computer Science Newsletter</title>, <unitdate type="inclusive" normal="1979/1991">1979-1991</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle><title render="italic">EECS Computing Services Newsletter</title>, <unitdate type="inclusive" normal="1986">1986</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle><title render="italic">EECS News</title>, <unitdate type="inclusive" normal="2003">2003</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Posters</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Miscellaneous <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Proceedings</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle><title render="italic">New Research Frontiers in Physical Electronics: Proceedings of a Recognition Seminar in Honor of Professor William G. Dow</title>, <unitdate type="inclusive" normal="1964">1964</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Programs</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Conferences and Symposia <unitdate type="inclusive" normal="1985/1987">1985-1987</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Reports</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle><title render="italic">Utilization of Monopolar Crossed-Field-Neutralized Plasmas for Power Generation by Controlled Nuclear Fusion</title> by W.G. Dow, <unitdate type="inclusive" normal="1966">1966</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Workshop</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle><title render="italic">New Directions in System Science and Engineering</title>, <unitdate type="inclusive" normal="1972">1972</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Textbooks</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle><title render="italic">Linear Programmed Instruction Notes on An Introduction to the Sinusoidal Steady-State</title> by R.K. Brown, <unitdate type="inclusive" normal="1963">1963</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle><title render="italic">Notes for ECE-427 Electroacoustics</title> by Richard K. Brown, <unitdate type="inclusive" normal="1983">1983</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Sub-Unit Publications</unittitle>
+        </did>
+        <scopecontent>
+          <p>The Sub-Unit Publications series contains publications from subordinate offices, departments, programs and organizations within the Department of Electrical Engineering and Computer Science. These publications are arranged alphabetically by the creating sub-unit.</p>
+          <p>The Sub-Unit Publications series includes publications from the Advanced Computer Architecture Laboratory, Artificial Intelligence Laboratory, Computer Information and Control Engineering, the College Electronics Laboratory, the Electron Physics Laboratory, the Information Systems Laboratory, Optical Sciences, the Radiation Laboratory, the Radio Astronomy Observatory, the Robotics Industrial Affiliates Program, the Solid-State Electronics Laboratory, the Solid-State Industrial Affiliates Program, and the Systems Engineering Laboratory. The Cooley Electronics Laboratory published annual reports between 1976 and 1979, as well as brochures and manuals. The Cooley Laboratory continues the work of the Electronic Defense Group, a body formed in 1951 to carry out classified military research. The Sub-Units Publications also includes an abstract and report from the Electron Physics Laboratory in the 1960s. There are reports dating from the 1960s by the Information Systems Laboratory. The Solid-State Electronics Laboratory publications include undated brochures, a bulletin containing faculty biographies and a 1987 program from the dedication of the EECS building. There are three reports from the Systems Engineering Laboratory dated from the 1960s.</p>
+        </scopecontent>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Advanced Computer Architecture Laboratory</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>Proposals</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle><title render="italic">Proposal for Coordinated Experimental Research on Highly Parallel Computing</title>, <unitdate type="inclusive" normal="1987">1987</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Artificial Intelligence Laboratory</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Brochures <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Bulletins</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle><title render="italic">The University of Michigan's Artificial Intelligence Laboratory</title>, <unitdate type="inclusive">undated</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Computer Information and Control Engineering</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Brochures <unitdate type="inclusive" normal="1972/1973">1972-1973</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Bulletins</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle><title render="italic">Graduate Studies in Computer Information and Control Engineering</title>, <unitdate type="inclusive" normal="1982">1982</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Cooley Electronics Laboratory</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Annual Reports <unitdate type="inclusive" normal="1977/1979">1977-1979</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Brochures <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Manuals</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle><title render="italic">Guide to Technical Reports Preparation</title>, <unitdate type="inclusive" normal="1974">1974</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Reports</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle><title render="italic">An Algorithm for Concurrent Random Walks on Highly Parallel Computers</title> by R.F. Rosin, <unitdate type="inclusive" normal="1964">1964</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Electron Physics Laboratory</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>Abstracts</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle><title render="italic">Programs and Abstracts for Program Review Meeting</title>, <unitdate type="inclusive" normal="1966">1966</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Reports</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle><title render="italic">Solid-State Materials and Devices: Semiannual Progress Report, no. 1</title>, <unitdate type="inclusive" normal="1964">1964</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Information Systems Laboratory</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>Reports</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle><title render="italic">An Analysis of Errors in Finite Automata</title> by Philip S. Dauber, <unitdate type="inclusive" normal="1965">1965</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle><title render="italic">Covering Problems: Duality Relations and a New Method of Solution</title> by Eugene L. Lawler, <unitdate type="inclusive" normal="1965">1965</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle><title render="italic">A Study of a Model for Parallel Computation</title> by Raymond Reiter, <unitdate type="inclusive" normal="1965">1965</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle><title render="italic">A Study of Iterative Circuit Computers</title>, <unitdate type="inclusive" normal="1964">1964</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Optical Sciences</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Bulletins <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Programs <unitdate type="inclusive" normal="1989">1989</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Radiation Laboratory</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Brochures <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Radio Astronomy Observatory</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Brochures <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Robotics Industrial Affiliates Program</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Brochures <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Solid-State Electronics Laboratory</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Brochures <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Bulletins, includes faculty biographies <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Programs <unitdate type="inclusive" normal="1987">1987</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Solid-State Industrial Affiliates Program</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Brochures <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Systems Engineering Laboratory</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>Reports</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle><title render="italic">Computer Programs Dealing with Finite-State Machines: Part I</title> by Thomas F. Piatkowski, <unitdate type="inclusive" normal="1967">1967</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle><title render="italic">Errors in Finite Automata</title> by Phillips S. Dauber, <unitdate type="inclusive" normal="1965">1965</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle><title render="italic">Initiation Timing in a Model for Parallel Computation</title> by Raymond Reiter, <unitdate type="inclusive" normal="1966">1966</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Topical Publications</unittitle>
+        </did>
+        <scopecontent>
+          <p>The Topical Publications series includes printed materials published to document specific events or activities such as fund-raising or one-time conferences hosted by the Department of Electrical Engineering and Computer Science. This series includes a program from the Institute of Electrical and Electronic Engineers Antennas and Propagation Society International Symposium that was held in Ann Arbor in 1993. The Information Theory Group of the IEEE also held a symposium in Ann Arbor in 1986. The abstract of their meeting is found in this series.</p>
+        </scopecontent>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Institute of Electrical and Electronic Engineers</unittitle>
+          </did>
+          <c03 level="otherlevel" otherlevel="sub-subseries">
+            <did>
+              <unittitle>Antennas and Propagation Society International Symposium</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle>Programs <unitdate type="inclusive" normal="1993">1993</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="otherlevel" otherlevel="sub-subseries">
+            <did>
+              <unittitle>Information Theory Group</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <unittitle>Abstracts</unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">2</container>
+                  <unittitle><title render="italic">International Symposium on Information Theory</title>, <unitdate type="inclusive" normal="1986">1986</unitdate></unittitle>
+                </did>
+              </c05>
+            </c04>
+          </c03>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Student Publications</unittitle>
+        </did>
+        <scopecontent>
+          <p>The Student Publications series contains publications published by student groups within the Department of Electrical Engineering and Computer Science. The Student Publications series includes <title render="italic">EECS Speaks</title> is a joint publication of the student groups Eta Kappa Nu and the Institute of Electrical and Electronic Engineers. The Bentley Historical Library holds this publication from 1988 to 1999 and 2001 to the present. This series also includes the 1968 report, <title render="italic">Electromyographically Controlled Orthotic Hand</title> from the Student Design Project.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <unittitle>Newsletters</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>
+                <title render="italic">EECS Speaks</title>
+              </unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1988/1999">1988-1999</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">2 folders</extent>
+                </physdesc>
+                <unittitle>
+                  <unitdate type="inclusive" normal="2001/2003">2001-2003</unitdate>
+                </unittitle>
+                <physdesc altrender="whole">
+                  </physdesc>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Student Design Project</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>Reports</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle><title render="italic">Electromyographically Controlled Orthotic Hand</title>, <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

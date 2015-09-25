@@ -9,8 +9,8 @@ def split_into_aspace_components(unparsed_extent, is_multiple=False):
     # this regex is literally the ugliest line of text I have ever seen.
     phys_dimensions_regex = r"\(?(?:\d+-?(?:\d+)?\/?(?:\d+)?\.?(?:\d+)?) ?x[ -]?(?:\d+-?(?:\d+)?\/?(?:\d+)?\.?(?:\d+)?) ?(?:to|-|and)? ?(?:\d+?-?(?:\d+)?\/?(?:\d+)?\.?(?:\d+)?)? ?x?[ -]?(?:\d+-?(?:\d+)?\/?(?:\d+)?\.?(?:\d+)?)? ?(?:inches|inch|cm\.?|in\.)?\)?"
     time_dimensions_regex = r"\d\d?\:\d\d\:?\d?\d?(?: min\.?| minutes)?|\(?ca\.? \d\d? min\.\)?"
-    physfacet_regex = r' color and black[ -]and[ -]white| b&w| black[ -]and[ -]white|\bcolor\b| (?:\d \d/\d - )?\d \d/\d ips ?; \d(?:-\d\d)? inches| (?:\d[ -]\d/\d|\d\.\d\d) ips| \(dual track\)| ?\d\d?(?: ?\d?/\d)?(?:[ -]inch|")\.?(?= reel)|\d\d(?: \d/\d)? rpm'
-    container_summary_regex = r"\(.*?\)|\b(?:located )in .*|\bin .*|\bformerly in .*"
+    physfacet_regex = r'\(.*?\)| color and black[ -]and[ -]white| b&w| black[ -]and[ -]white|\bcolor\b| (?:\d \d/\d - )?\d \d/\d ips ?; \d(?:-\d\d)? inches| (?:\d[ -]\d/\d|\d\.\d\d) ips| \(dual track\)| ?\d\d?(?: ?\d?/\d)?(?:[ -]inch|")\.?(?= reel)|\d\d(?: \d/\d)? rpm'
+    container_summary_regex = r"\b(?:located )in .*|\bin .*|\bformerly in .*"
 
     working_extent_string = unparsed_extent
 
@@ -41,7 +41,11 @@ def split_into_aspace_components(unparsed_extent, is_multiple=False):
     # setting portion tag
     portion = "part" if is_multiple else "whole"
 
-    # make sure the container summary is enclosed in parens
+    if physfacet.startswith("in ") or physfacet.startswith("on "):
+        container_summary = add_to_element(text_to_add=physfacet, text_to_add_to=container_summary)
+        physfacet = ""
+
+    # clean up container summary
     if container_summary:
         if not container_summary.startswith("(") or not container_summary.endswith(")"):
             container_summary = "({0})".format(container_summary.strip("() "))
@@ -49,7 +53,9 @@ def split_into_aspace_components(unparsed_extent, is_multiple=False):
     # construct final dimensions from time and physical dimensions
     dimensions = time_dimensions + phys_dimensions
 
-    type_, physfacet = normalize_types(type_, physfacet)
+    # TODO run this script twice, with VC -- first with the normalization line commented out, then with it running
+    # the idea is to get a sense of what exactly it's doing.
+    type_, physfacet = normalize_type(type_, physfacet)
 
     output_extent = ASpaceExtent(type_=type_,
                                  portion=portion,
@@ -59,20 +65,26 @@ def split_into_aspace_components(unparsed_extent, is_multiple=False):
     return output_extent
 
 
-def normalize_types(type_string, physfacet_string):
-    type_without_count = type_string.strip("1234567890")
+def normalize_type(type_string, physfacet_string):
+    type_without_count = type_string.strip("1234567890 ")
     normalized_type, extra_physfacet = normalization_dict.get(type_without_count, ["", ""])
 
     if normalized_type:
         type_string = type_string.replace(type_without_count, normalized_type)
 
     if extra_physfacet:
-        if physfacet_string:
-            physfacet_string += "; {0}".format(extra_physfacet)
-        else:
-            physfacet_string += extra_physfacet
+        physfacet_string = add_to_element(extra_physfacet, physfacet_string)
 
     return type_string, physfacet_string
+
+
+def add_to_element(text_to_add, text_to_add_to):
+    if text_to_add_to:
+        text_to_add_to += "; {0}".format(text_to_add)
+    else:
+        text_to_add_to += text_to_add
+
+    return text_to_add_to
 
 
 def extract_regex_results_as_string(regular_expression, string_to_search):

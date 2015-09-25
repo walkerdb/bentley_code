@@ -1,0 +1,2544 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead.dtd">
+<ead>
+  <eadheader audience="internal" langencoding="iso639-2b" repositoryencoding="iso15511" dateencoding="iso8601" relatedencoding="Dublin Core">
+    <eadid countrycode="us" mainagencycode="MiU-H" publicid="-//us::MiU-H//TEXT us::MiU-H::mgleecl.xml//EN" encodinganalog="identifier">umich-bhl-87250</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="title">Finding Aid for Men's Glee Club (University of Michigan) records <date>1886-2012</date></titleproper>
+        <author encodinganalog="creator">Collection processed and finding aid prepared by Bentley Historical Library staff, Boxes 7-8 by Tom Hyry, August 1996</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="publisher">Bentley Historical Library, University of Michigan</publisher>
+        <date encodinganalog="date">1998</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created by Greg Kinney <date>Jan. 1998</date></creation>
+      <langusage>The finding aid is written in <language encodinganalog="language" langcode="eng">English.</language></langusage>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date>20150810</date>
+        <item>Corrected collection dates, extent, and added written notes from paper finding aid.</item>
+      </change>
+      <change>
+        <date>2011212</date>
+        <item>added new sound recordings and Deep blue deposits</item>
+      </change>
+      <change>
+        <date>20110313</date>
+        <item>added new audio tape boxes and archived website</item>
+      </change>
+      <change>
+        <date>20031010</date>
+        <item>Converted to EAD2002 using Word macro and Xmetal</item>
+      </change>
+      <change>
+        <date>1999-07-16</date>
+        <item>converted to new container style</item>
+      </change>
+      <change>
+        <date>1999-07-16</date>
+        <item>Converted to EAD version 1.0 using WORD 6 macro and some hand tagging.</item>
+      </change>
+      <change>
+        <date>Jan. 1998</date>
+        <item>original encoding from Word 6.0 file</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <frontmatter>
+    <titlepage>
+      <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
+      <titleproper>Finding Aid for <lb/>Men's Glee Club (University of Michigan) <lb/>Records, <date>1886-2012</date></titleproper>
+      <author>Finding aid prepared by: <lb/>Bentley Historical Library staff, <lb/>Elise Reynolds and Michael Shallcross, October 2012;</author>
+    </titlepage>
+  </frontmatter>
+  <archdesc level="recordgrp" type="inventory" audience="external" relatedencoding="MARC21">
+    <did>
+      <origination>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no98121869">University of Michigan. Men's Glee Club.</corpname>
+      </origination>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">37.1 GB</extent>
+      </physdesc>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">1 oversize folder</extent>
+      </physdesc>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">7 oversize v</extent>
+      </physdesc>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">16.5 linear feet</extent>
+      </physdesc>
+      <unittitle encodinganalog="245">Men's Glee Club (University of Michigan) Records <unitdate type="inclusive" encodinganalog="245$f" normal="1886/2012">1886-2012</unitdate></unittitle>
+      <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">87250 BImu Bimu F19 2</unitid>
+      <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
+      <abstract>University of Michigan choral group founded in 1859; includes correspondence, administrative records, musical scores, publicity material, photographs, posters and sound recordings in addition to digitized versions of records and born digital audio, video, and still images</abstract>
+      <repository>
+        <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea> University of Michigan</corpname>
+        <extptr href="bhladd" show="embed" actuate="onload"/>
+      </repository>
+    </did>
+    <descgrp type="admin">
+      <acqinfo encodinganalog="541">
+        <p>Records have been received in periodic accessions since 1960. Included in the collection are records received in Dec. 1985 (donor # <num encodinganalog="541$e" type="donor">3624</num>), and records received from Philip Duey in Dec. 1979 (donor # <num encodinganalog="541$e">6409</num>). Additional recordings and material from the 2012 trip to China were received in 2012.</p>
+      </acqinfo>
+      <accruals encodinganalog="584">
+        <p>Periodic additions to the records are expected.</p>
+      </accruals>
+      <accessrestrict encodinganalog="506">
+        <p>The collection is open for research.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+        <p>Copyright is held by the Regents of the University of Michigan.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+        <p>item, folder title, box no., Men's Glee Club (University of Michigan), Bentley Historical Library, University of Michigan</p>
+      </prefercite>
+      <processinfo>
+        <p>
+          <extptr href="digitalproc" show="embed" actuate="onload"/>
+        </p>
+      </processinfo>
+    </descgrp>
+    <bioghist encodinganalog="545">
+      <p>As early as 1846 University of Michigan students met regularly to sing "for pure enjoyment." In 1859 the university formally acknowledged this activity through the establishment of a Glee Club. Michigan's group was the second such college organization formed in the nation.</p>
+      <p>In its early days the club included from seven to twelve singers who performed college songs, humorous vaudeville numbers and skits. In the 1870s the larger group began to divide into smaller performing units, trios and quartets, which allowed for greater individual recognition. In the 1880s the club began to tour and in 1884 the organization made its first excursion outside of the state. Because of the demands of touring the size of the club was expanded, first to sixteen members, four men per part, and by the turn of the century to around fifty members.</p>
+      <p>After World War I the club experienced difficult times. A lack of sound musical programs led to declining audiences, and in 1920 a disastrous West Coast tour lost so much money that the club was unable to tour for five years. In 1921, as part of an effort to revive itself, the club became part of the Michigan Union. In 1922 the name "Men's Glee Club" was formally adopted and the club experimented with new music. An all classical format was first adopted, and when this proved unsuccessful it was changed to the balanced program of classical, humorous and college songs still used today. The club also began to formally participate in the annual Michigan Union Operas, an all male comedy review.</p>
+      <p>All of these changes led to a revival in the club's fortunes. Touring was resumed, which eventually caused the club to withdraw from the Union Operas, because the two groups' separate touring schedules made it impossible for members to participate in both. In 1943 the club formally ended its affiliation with the Union and resumed its prior status, as an independent student organization.</p>
+      <p>After World War II the club evolved new traditions and expanded its touring activity. In 1952 the club began the Fall custom of singing with the Glee Club of a school that had played the University of Michigan that day in a football game. In 1955 the popular double quartet, the Friars, was first organized. 1955 also marked the club's first European tour, which was followed by international tours in 1959, 1963, 1967, 1971, 1978, 1989, and 1992. The tours of 1959 and 1963 were highlighted by victories at the International Musical Eisteddfod in Llangollen, Wales. 2012 saw the club embark on a successful tour of the People's Republic of China.</p>
+      <p>When the club was first organized, and for many years thereafter, musical directorship was entrusted to a club member. In the 1870s and 1880s, however, the club began to experiment with hiring a professional director, usually a music teacher from the Ann Arbor area. In 1894 the club returned to appointing one of their own members as director, but the idea of hiring a professional remained and in 1908 the club resumed the practice of hiring a director.</p>
+      <p>
+        <chronlist>
+          <head>Professional Director's of the Men's Glee Club</head>
+          <chronitem>
+            <date>1885-1889</date>
+            <event>Ross G. Cole</event>
+          </chronitem>
+          <chronitem>
+            <date>1890-1892</date>
+            <event>Albert A. Stanley</event>
+          </chronitem>
+          <chronitem>
+            <date>1892-1893</date>
+            <event>Silas R. Mills</event>
+          </chronitem>
+          <chronitem>
+            <date>1908-1911</date>
+            <event>Earle Killeen</event>
+          </chronitem>
+          <chronitem>
+            <date>1911-1914</date>
+            <event>William A. Howland</event>
+          </chronitem>
+          <chronitem>
+            <date>1914-1919</date>
+            <event>Theodore Harrison</event>
+          </chronitem>
+          <chronitem>
+            <date>1919-1920</date>
+            <event>Russell Carter</event>
+          </chronitem>
+          <chronitem>
+            <date>1920-1922</date>
+            <event>Frank L. Thomas</event>
+          </chronitem>
+          <chronitem>
+            <date>1922-1924</date>
+            <event>George O. Bowen</event>
+          </chronitem>
+          <chronitem>
+            <date>1924-1930</date>
+            <event>Theodore Harrison</event>
+          </chronitem>
+          <chronitem>
+            <date>1930-1931</date>
+            <event>Arthur Hackett</event>
+          </chronitem>
+          <chronitem>
+            <date>1931-1947</date>
+            <event>David E. Mattern</event>
+          </chronitem>
+          <chronitem>
+            <date>1947-1955</date>
+            <event>Philip A. Duey</event>
+          </chronitem>
+          <chronitem>
+            <date>1955-1956</date>
+            <event>Walter S. Collins (acting)</event>
+          </chronitem>
+          <chronitem>
+            <date>1956-1969</date>
+            <event>Philip A. Duey</event>
+          </chronitem>
+          <chronitem>
+            <date>1969-1975</date>
+            <event>Willis C. Patterson</event>
+          </chronitem>
+          <chronitem>
+            <date>1975-1981</date>
+            <event>Leonard Johnson</event>
+          </chronitem>
+          <chronitem>
+            <date>1981-1987</date>
+            <event>Patrick Gardner</event>
+          </chronitem>
+          <chronitem>
+            <date>1987-1988</date>
+            <event>Bradley Bloom</event>
+          </chronitem>
+          <chronitem>
+            <date>1988-2002</date>
+            <event>Jerry Blackstone</event>
+          </chronitem>
+          <chronitem>
+            <date>2002-2005</date>
+            <event>Stephen Lusmann</event>
+          </chronitem>
+          <chronitem>
+            <date>2005-2011</date>
+            <event>Paul Rardin</event>
+          </chronitem>
+          <chronitem>
+            <date>2012-</date>
+            <event>Eugene Rogers</event>
+          </chronitem>
+        </chronlist>
+      </p>
+    </bioghist>
+    <scopecontent encodinganalog="520">
+      <p>The records of the Men's Glee Club date from 1886 to 2012 and were received in several major accessions. The first accession, covering 1886-1985 and 1991, includes four linear feet of manuscript, printed, and photographic material as well as posters, scrapbooks, and sound recordings in a variety of formats. The first accession has been divided into five series: Chronological File, Philip A. Duey Material, Photographs, Sound Recordings, Scrapbooks, and Archived Website.</p>
+      <p>The 1995 accession of the records of the Men's Glee Club were comprised of two linear feet of correspondence, photographs, and topical files ranging from 1919 to 1994. Items of particular interest include a folder of historical writings, which provides anecdotes, reflections, and facts about the club prepared for an exhibit on club history. The Press Releases folder is also of note, as it reflects information given out by the club to newspapers and other media of the towns they visited. Both of these folders are found in the Topical series. The records of this accession are divided into 3 series: Correspondence, Topical, and Visual Materials.</p>
+      <p>The 2010 accession to the University of Michigan Men's Glee Club records is organized into one series. The Sound Recordings series, 1952-1987, (10 linear feet) is comprised of University of Michigan Men's Glee Club concert recordings, including its annual fall and spring concert series. Many of the boxes of tape reel also include a concert program and concert set list.</p>
+      <p>The 2012 accession consisted entirely of digital materials (scanned images, audio files, video files, and still images) that added content to the Chronological Files series and established a China Concert Tour series.</p>
+    </scopecontent>
+    <controlaccess>
+      <p>
+        <extptr href="accnote" show="embed" actuate="onload"/>
+      </p>
+      <controlaccess>
+        <head>Subjects:</head>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no2006114535">Friars (Musical group)</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Michigan Union Opera.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Choral organizations.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Students--Societies, etc.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no98121869">University of Michigan. Men's Glee Club.</corpname>
+        <subject source="lcsh" encodinganalog="650">Music--Michigan--Ann Arbor.</subject>
+        <subject source="lcsh" encodinganalog="650">Choral singing--Michigan--Ann Arbor.</subject>
+      </controlaccess>
+      <controlaccess>
+        <head>Subjects - Visual Material</head>
+        <persname source="lcnaf" encodinganalog="600">Duey, Philip A., d. 1982.</persname>
+        <corpname encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no2006114535" source="lcnaf">Friars (Musical group)</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Mandolin Club (University of Michigan)</corpname>
+        <corpname encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no98121869" source="lcnaf">University of Michigan. Men's Glee Club.</corpname>
+        <subject encodinganalog="610" source="lcsh">University of Michigan--Choral organizations.</subject>
+        <subject encodinganalog="610" source="lcsh">University of Michigan--Students--Societies, etc.</subject>
+      </controlaccess>
+      <controlaccess>
+        <head>Contributors:</head>
+        <persname source="lcnaf" encodinganalog="700">Duey, Philip A., d. 1982.</persname>
+      </controlaccess>
+      <controlaccess>
+        <head>Genre/Form:</head>
+        <genreform source="aat" encodinganalog="655">Scrapbooks.</genreform>
+        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+      </controlaccess>
+    </controlaccess>
+    <dsc type="combined">
+      <c01 level="series">
+        <did>
+          <unittitle>Chronological File</unittitle>
+        </did>
+        <odd>
+          <p>(BHL deposit ID: 87250_0002)</p>
+        </odd>
+        <scopecontent>
+          <p>The Chronological File represents the basic records of the collection. Arranged by academic year, it consists primarily of printed concert programs, newspaper clippings and other publicity material, occasional financial records (generally summary statements of club finances for an academic year), details regarding tours (particularly the annual spring tour), and minutes. Many posters were included in the Chronological File. Unfolded posters have been housed separately in an oversized folder. This series contains four individual documents of particular note. A fifteen page club history written by John Payne is found in 1958-1959. Narrative logs of the club's international trips in 1955, 1959 and 1967 were maintained and are filed in the appropriate years. Chronological File materials from 1886-1969 have been scanned and these digital versions may be found in the Bentley Library's digital repository.</p>
+          <p>The 2012 additions to the Chronological Files series include digitized images of content in the first two boxes of the series, spanning the years 1886-1969. Glee Club members scanned this content as part of an organizational project in 2011. Digital versions of <title render="italic">Laudes</title>, the official newsletter of the Men's Glee Club, were also part of the addition. These newsletters were published biannually and span the years 2000-2011 (with the Fall 2009 issue missing from the accession). Both the original and digital copies have been retained.[BHL deposit ID: 87250_0002]</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1886/1893">1886-1893</unitdate>
+            </unittitle>
+            <dao href="http://hdl.handle.net/2027.42/93587" show="new" actuate="onrequest">
+              <daodesc>
+                <p>[download zip file]</p>
+              </daodesc>
+            </dao>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">28 folders</extent>
+            </physdesc>
+            <unittitle>1911/121-1941/42</unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+            <dao href="http://hdl.handle.net/2027.42/93587" show="new" actuate="onrequest">
+              <daodesc>
+                <p>[download zip file]</p>
+              </daodesc>
+            </dao>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">18 folders</extent>
+            </physdesc>
+            <unittitle>1944/45-1956/957</unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+            <dao href="http://hdl.handle.net/2027.42/93587" show="new" actuate="onrequest">
+              <daodesc>
+                <p>[download zip file]</p>
+              </daodesc>
+            </dao>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">21 folders</extent>
+            </physdesc>
+            <unittitle>
+              <unitdate type="inclusive" normal="1957/1969">1957/58-1968/69</unitdate>
+            </unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+            <dao href="http://hdl.handle.net/2027.42/93587" show="new" actuate="onrequest">
+              <daodesc>
+                <p>[download zip file]</p>
+              </daodesc>
+            </dao>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">17 folders</extent>
+            </physdesc>
+            <unittitle>1969/70-1984/85</unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <unitdate type="inclusive">Undated</unitdate>
+            </unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>General</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Songs</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Plays, Skits and Stories</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Programs</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Newspaper Clippings and Other Publicity</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <physloc>Online</physloc>
+            <unittitle>"Laudes" (official newsletter) <unitdate type="inclusive" normal="2000/2011">2000-2011</unitdate></unittitle>
+            <dao href="http://hdl.handle.net/2027.42/93587" show="new" actuate="onrequest">
+              <daodesc>
+                <p>[download zip file]</p>
+              </daodesc>
+            </dao>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Philip A. Duey</unittitle>
+        </did>
+        <scopecontent>
+          <p>The Philip A. Duey Material consists of only two folders, one detailing the radio career of the Club's one time director before he came to Ann Arbor and the other containing miscellaneous personal material. A few newspaper clippings about Duey before he came to the University of Michigan are found in the appropriate chronological folder, particularly 1946-1947.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>Radio Career</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>Miscellaneous</unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Photographs and Posters (see also boxes 5, 6 and 8)</unittitle>
+        </did>
+        <scopecontent>
+          <p>The Photographs (some oversize) consist primarily of group pictures, tour pictures, photos of the Novelaires and the Friars, Philip Duey photographs, and a few Union Opera pictures. A few photographs are also located in the Chronological File.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <unittitle>Group Photos</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
+              </physdesc>
+              <unittitle>General</unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>With Pat Boone and Dinah Shore</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Novelaires and Friars</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Rehearsals</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Individuals</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>General</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Philip A. Duey</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Tours</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>General</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle><unitdate type="inclusive" normal="1896">1896</unitdate>, <unitdate type="inclusive" normal="1959">1959</unitdate>, <unitdate type="inclusive" normal="1963">1963</unitdate>, <unitdate type="inclusive" normal="1971">1971</unitdate> (negatives only), <unitdate type="inclusive" normal="1978">1978</unitdate> (8 envelopes)</unittitle>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Sound Recordings</unittitle>
+        </did>
+        <scopecontent>
+          <p>Sound Recordings include tape recordings made in 1952 and 1967 of club songs, a long playing record album of the 1959 club centennial spring concert, and a 1991 compact disc comprised of concert recordings.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1953">1953</unitdate>
+            </unittitle>
+            <physdesc>
+              <physfacet>3 reels tape recordings, 7" 15 ips</physfacet>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1959">1959</unitdate>
+            </unittitle>
+            <physdesc>
+              <physfacet>33-1/3 long play disc of Centennial Concert</physfacet>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1967">1967</unitdate>
+            </unittitle>
+            <physdesc>
+              <physfacet>4 reels tape recordings, 7" 7.5 ips</physfacet>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">1 cassette</extent>
+            </physdesc>
+            <unittitle>"Michigan Songs" <unitdate type="inclusive" normal="1978" certainty="approximate">circa 1978</unitdate></unittitle>
+            <physdesc>
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>1988-89 (live recordings)</unittitle>
+            <physdesc>
+              <physfacet>1 compact disc</physfacet>
+            </physdesc>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Photographs and Posters</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <unittitle>Photos</unittitle>
+            <container type="box" label="Box">5</container>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Photos</unittitle>
+            <container type="box" label="Box">6</container>
+          </did>
+          <odd>
+            <p>(continued)</p>
+          </odd>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Correspondence</unittitle>
+        </did>
+        <scopecontent>
+          <p>Arranged chronologically by season, the Correspondence series mostly reflects the negotiations the club's business manager conducted to secure appearances for the club. The bulk of the letters come from the early 1920s, with two additional folders from the late 1930s. The "1923 West Coast Trip" folder gives the most accurate representation of the often arduous process taken to secure dates and venues for tours. Of note is a letter of thanks from President Gerald R. Ford</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1919/1920">1919-1920</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1922/1923">1922-1923</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle><unitdate type="inclusive" normal="1923">1923</unitdate> (West Coast Trip)</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1923/1924">1923-1924</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1937/1938">1937-1938</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1939/1940">1939-1940</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>Gerald R. Ford <unitdate type="inclusive" normal="1975">1975</unitdate></unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Topical</unittitle>
+        </did>
+        <scopecontent>
+          <p>The Topical file deals largely with items documenting the tours upon which the Men's Glee Club frequently embarked. The performance contracts, though not complete, provide a useful and extensive overview of the types of places, venues, and dates the club played and the terms and conditions they demanded. The "Constitution and By-Laws" folder gives an overview of Glee Club policies and administrative operations. The folders in the "Tours" subseries are comprised of materials the club put together in preparation for travel and include itineraries and guides to their destinations.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>Account Book <unitdate type="inclusive" normal="1938/1939">1938-1939</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>Account Book <unitdate type="inclusive" normal="1979/1984">1979-1984</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>City and County of Denver Proclamation <unitdate type="inclusive" normal="2010">2010</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>Constitution and By-laws</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Contracts</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1922/1926">1922-1926</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1947/1954">1947-1954</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1955/1958">1955-1958</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1959/1961">1959-1961</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1962/1977">1962-1977</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1987/1993">1987-1993</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>Count Basie Concert <unitdate type="inclusive" normal="1957">1957</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>Historical Writings</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>Newspaper Clippings</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>Novelaires <unitdate type="inclusive" normal="1950">1950</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>Press Releases</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Tours</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>China <unitdate type="inclusive" normal="2012">2012</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>Eastern and Central Europe <unitdate type="inclusive" normal="1992">1992</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>Llangollen International Musical Eisteddfod <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>Midwest <unitdate type="inclusive" normal="1994">1994</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>Orient <unitdate type="inclusive" normal="1989">1989</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>Schedules <unitdate type="inclusive" normal="1948/1959">1948-1959</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>Schedules <unitdate type="inclusive" normal="1985/1993">1985-1993</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Visual Materials</unittitle>
+        </did>
+        <scopecontent>
+          <p>The Visual Materials series gives a view of club activities from several different eras. "Group Portraits" show the Glee Club posing for photos and contains photos of the club singing or performing other activities. The "Publicity Shots" provide an interesting window to the era when the Glee Club participated in the all-male Michigan Union Operas. The record group also holds an extensive number of color snapshots with negatives of the club's 1987 tour. An oversized folder of publicity posters forms another section of visual materials. Two photo albums and a film of the club's 1964 appearance on the Perry Como television show round out the series.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <unittitle>Photographs</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Conductors</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Friars</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Group Portraits, Dated</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Group Portraits, Miscellaneous</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Groups, Miscellaneous</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Individuals</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Officers</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Performance <unitdate type="inclusive" normal="1986">1986</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Publicity Shots</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Reunion</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Soloists</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Tour <unitdate type="inclusive" normal="1936">1936</unitdate> (Upper Peninsula)</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">9 envelopes</extent>
+              </physdesc>
+              <unittitle>Tour <unitdate type="inclusive" normal="1987">1987</unitdate></unittitle>
+              <physdesc>
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Tour <unitdate type="inclusive" normal="1989">1989</unitdate> (China)</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Photo Albums</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>European Tour <unitdate type="inclusive" normal="1985">1985</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>East Coast Tour <unitdate type="inclusive" normal="1988">1988</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Film (16mm)</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Appearance on the Perry Como Show <unitdate type="inclusive" normal="1964">1964</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Scrapbooks (BImu/F19)</unittitle>
+        </did>
+        <scopecontent>
+          <p>The Scrapbooks are arranged chronologically and primarily contain newspaper clippings and programs.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle><unitdate type="inclusive" normal="1923">1923</unitdate> [1]</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle><unitdate type="inclusive" normal="1938">1938</unitdate> [2]</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle><unitdate type="inclusive" normal="1955">1955</unitdate> European Tour [Special Location: B283/3]</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle><unitdate type="inclusive" normal="1960/1961">1960-1961</unitdate> [3]</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle><unitdate type="inclusive" normal="1964">1964</unitdate> [4]</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle><unitdate type="inclusive" normal="1966/1967">1966-1967</unitdate> World Tour [5]</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle><unitdate type="inclusive" normal="1967/1968">1967-1968</unitdate> [6]</unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Sound Recordings <unitdate type="inclusive" normal="1952/1987">1952-1987</unitdate></unittitle>
+        </did>
+        <scopecontent>
+          <p>The Sound Recordings series, 1952-1987, (10 linear feet) is comprised of University of Michigan Men's Glee Club concert recordings, including its annual fall and spring concert series. Many of the boxes of tape reel also include a concert program and concert set list.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">9</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">3 reels</extent>
+            </physdesc>
+            <unittitle>University of Michigan Men's Glee Club <unitdate type="inclusive" normal="1952-05-10">May 10, 1952</unitdate></unittitle>
+            <physdesc>
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">9</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">1 reel</extent>
+            </physdesc>
+            <unittitle>University of Michigan Men's Glee Club, May 25; <unitdate type="inclusive" normal="1952">1952</unitdate></unittitle>
+            <physdesc>
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">9</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">1 reel</extent>
+            </physdesc>
+            <unittitle>University of Michigan Men's Glee Club "Philip A. Duey," 25 <unitdate type="inclusive" normal="1952-07">July 1952</unitdate></unittitle>
+            <physdesc>
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">9</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">3 reels</extent>
+            </physdesc>
+            <unittitle>University of Michigan Men's Glee Club &amp; Cornell University Glee Club, 7 <unitdate type="inclusive" normal="1952-11">November 1952</unitdate></unittitle>
+            <physdesc>
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">9</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 reels</extent>
+            </physdesc>
+            <unittitle>University of Michigan Men's Glee Club, May16 <unitdate type="inclusive" normal="1953">1953</unitdate></unittitle>
+            <physdesc>
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">9</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">1 reel</extent>
+            </physdesc>
+            <unittitle>University of Michigan Men's Glee Club &amp; Ohio State University Glee Club Joint Concert <unitdate type="inclusive" normal="1953-11-21">November 21, 1953</unitdate></unittitle>
+            <physdesc>
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">9</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">1 reel</extent>
+            </physdesc>
+            <unittitle>University of Michigan Men's Glee Club <unitdate type="inclusive" normal="1955-05-20">May 20, 1955</unitdate></unittitle>
+            <physdesc>
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">9</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">1 reel</extent>
+            </physdesc>
+            <unittitle>University of Michigan Men's Glee Club &amp; University of Illinois Varsity Glee Club Joint Concert <unitdate type="inclusive" normal="1956-11-10">November 10, 1956</unitdate></unittitle>
+            <physdesc>
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">9</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">1 reel</extent>
+            </physdesc>
+            <unittitle>University of Michigan Men's Glee Club "Miscellaneous College Songs," <unitdate type="inclusive" normal="1957-06-14">June 14, 1957</unitdate></unittitle>
+            <physdesc>
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">10</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">5 reels</extent>
+            </physdesc>
+            <unittitle>University of Michigan Men's Glee Club 99th Annual Spring Concert <unitdate type="inclusive" normal="1958-05-10">May 10, 1958</unitdate></unittitle>
+            <physdesc>
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">10</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">1 reel</extent>
+            </physdesc>
+            <unittitle>University of Michigan Men's Glee Club "The Pat Boone Show," May 15,1958</unittitle>
+            <physdesc>
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">10</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">1 reel</extent>
+            </physdesc>
+            <unittitle>University of Michigan Men's Glee Club "Michigan Songs," <unitdate type="inclusive" normal="1958-07-16">July 16, 1958</unitdate></unittitle>
+            <physdesc>
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">10</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">1 reel</extent>
+            </physdesc>
+            <unittitle>University of Michigan Men's Glee Club "Concert Songs," <unitdate type="inclusive" normal="1958-07-16">July 16, 1958</unitdate></unittitle>
+            <physdesc>
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">10</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 reels</extent>
+            </physdesc>
+            <unittitle>University of Michigan Men's Glee Club &amp; Indiana University Singing Hoosiers Combined Concert <unitdate type="inclusive" normal="1958-11-15">November 15, 1958</unitdate></unittitle>
+            <physdesc>
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">10</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 reels</extent>
+            </physdesc>
+            <unittitle>University of Michigan Men's Glee Club 101st Annual Spring Concert <unitdate type="inclusive" normal="1960-05-14">May 14, 1960</unitdate></unittitle>
+            <physdesc>
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">10</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">1 reel</extent>
+            </physdesc>
+            <unittitle>University of Michigan Men's Glee Club &amp; University of Illinois Glee Club Combined Concert, <unitdate type="inclusive" normal="1960">November 5 1960</unitdate></unittitle>
+            <physdesc>
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">10</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 reels</extent>
+            </physdesc>
+            <unittitle>University of Michigan Men's Glee Club 102nd Annual Spring Concert <unitdate type="inclusive" normal="1961-05-13">May 13, 1961</unitdate></unittitle>
+            <physdesc>
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">10</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 reels</extent>
+            </physdesc>
+            <unittitle>University of Michigan Men's Glee Club &amp; Duke University Glee Club Combined Concert <unitdate type="inclusive" normal="1961-11-04">November 4, 1961</unitdate></unittitle>
+            <physdesc>
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">10</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">1 reel</extent>
+            </physdesc>
+            <unittitle>University of Michigan Men's Glee Club "On Tour," <unitdate type="inclusive" normal="1961-12-26">December 26, 1961</unitdate></unittitle>
+            <physdesc>
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">10</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">1 reel</extent>
+            </physdesc>
+            <unittitle>University of Michigan Men's Glee Club "On Tour," <unitdate type="inclusive" normal="1961-12-28">December 28, 1961</unitdate></unittitle>
+            <physdesc>
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">11</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 reels</extent>
+            </physdesc>
+            <unittitle>University of Michigan Men's Glee Club 103rd Annual Spring Concert <unitdate type="inclusive" normal="1962-05-12">May 12, 1962</unitdate></unittitle>
+            <physdesc>
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">11</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 reels</extent>
+            </physdesc>
+            <unittitle>University of Michigan Men's Glee Club Pressing Master <unitdate type="inclusive" normal="1962-06-20">June 20, 1962</unitdate></unittitle>
+            <physdesc>
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">11</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">1 reel</extent>
+            </physdesc>
+            <unittitle>University of Michigan Men's Glee Club, University Choir, and University of Michigan All-State Choir <unitdate type="inclusive" normal="1962-10-21">October 21, 1962</unitdate></unittitle>
+            <physdesc>
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">11</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 reels</extent>
+            </physdesc>
+            <unittitle>University of Michigan Men's Glee Club &amp; University of Wisconsin Glee Club Combine Concert <unitdate type="inclusive" normal="1962-11-03">November 3, 1962</unitdate></unittitle>
+            <physdesc>
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">11</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 reels</extent>
+            </physdesc>
+            <unittitle>University of Michigan Men's Glee Club <unitdate type="inclusive" normal="1963-05-18">May 18, 1963</unitdate></unittitle>
+            <physdesc>
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">11</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 reels</extent>
+            </physdesc>
+            <unittitle>University of Michigan Men's Glee Club 105th Annual Spring Concert <unitdate type="inclusive" normal="1964-04-18">April 18, 1964</unitdate></unittitle>
+            <physdesc>
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">11</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 reels</extent>
+            </physdesc>
+            <unittitle>University of Michigan Men's Glee Club Spring Concert Pressing Master <unitdate type="inclusive" normal="1964-06-19">June 19, 1964</unitdate></unittitle>
+            <physdesc>
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">11</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">1 reel</extent>
+            </physdesc>
+            <unittitle>University of Michigan Men's Glee Club "Chor der Singeleiter Lübeck," 25 <unitdate type="inclusive" normal="1964-10">October 1964</unitdate></unittitle>
+            <physdesc>
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">11</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 reels</extent>
+            </physdesc>
+            <unittitle>University of Michigan Men's Glee Club &amp; University of Illinois Glee Club Combine Concert <unitdate type="inclusive" normal="1964-11-07">November 7, 1964</unitdate></unittitle>
+            <physdesc>
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">12</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 reels</extent>
+            </physdesc>
+            <unittitle>University of Michigan Men's Glee Club 106th Annual Spring Concert <unitdate type="inclusive" normal="1965-03-27">March 27, 1965</unitdate></unittitle>
+            <physdesc>
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">12</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">1 reel</extent>
+            </physdesc>
+            <unittitle>University of Michigan Men's Glee Club &amp; Kwansei Gakuin Glee Club <unitdate type="inclusive" normal="1965-10-06">October 6, 1965</unitdate></unittitle>
+            <physdesc>
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">12</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 reels</extent>
+            </physdesc>
+            <unittitle>University of Michigan Men's Glee Club &amp; New York University Glee Club Combined Concert <unitdate type="inclusive" normal="1965-10-30">October 30, 1965</unitdate></unittitle>
+            <physdesc>
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">12</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 reels</extent>
+            </physdesc>
+            <unittitle>University of Michigan Men's Glee Club 107th Annual Spring Concert <unitdate type="inclusive" normal="1966-04-02">April 2, 1966</unitdate></unittitle>
+            <physdesc>
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">12</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 reels</extent>
+            </physdesc>
+            <unittitle>University of Michigan Men's Glee Club Pressing Master <unitdate type="inclusive" normal="1966-06-21">June 21, 1966</unitdate></unittitle>
+            <physdesc>
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">12</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">1 reel</extent>
+            </physdesc>
+            <unittitle>University of Michigan Men's Glee Club 3rd Annual Bandorama <unitdate type="inclusive" normal="1966-10-14">October 14, 1966</unitdate></unittitle>
+            <physdesc>
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">12</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 reels</extent>
+            </physdesc>
+            <unittitle>University of Michigan Men's Glee Club &amp; Northwestern University Glee Club Joint Concert <unitdate type="inclusive" normal="1966-11-12">November 12, 1966</unitdate></unittitle>
+            <physdesc>
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">12</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">1 reel</extent>
+            </physdesc>
+            <unittitle>University of Michigan Men's Glee Club "Michigan Songs," <unitdate type="inclusive" normal="1967-03-09">March 9, 1967</unitdate></unittitle>
+            <physdesc>
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">12</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 reels</extent>
+            </physdesc>
+            <unittitle>University of Michigan Men's Glee Club 108th Annual Spring Concert, April 11, 967</unittitle>
+            <physdesc>
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">12</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 reels</extent>
+            </physdesc>
+            <unittitle>University of Michigan Men's Glee Club 108th Annual Spring Concert Pressing Master, 11 <unitdate type="inclusive" normal="1967-06">June 1967</unitdate></unittitle>
+            <physdesc>
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">13</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 reels</extent>
+            </physdesc>
+            <unittitle>University of Michigan Men's Glee Club &amp; Ohio State University Glee Club Join Concert <unitdate type="inclusive" normal="1967-11-04">November 4, 1967</unitdate></unittitle>
+            <physdesc>
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">13</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">1 reel</extent>
+            </physdesc>
+            <unittitle>University of Michigan Men's Glee Club Studio Showcase <unitdate type="inclusive" normal="1968-01-10">January 10, 1968</unitdate></unittitle>
+            <physdesc>
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">13</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 reels</extent>
+            </physdesc>
+            <unittitle>University of Michigan Men's Glee Club 109th Annual Spring Concert <unitdate type="inclusive" normal="1968-03-23">March 23, 1968</unitdate></unittitle>
+            <physdesc>
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">13</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 reels</extent>
+            </physdesc>
+            <unittitle>University of Michigan Men's Glee Club 109th Annual Spring Concert Pressing Master <unitdate type="inclusive" normal="1968-03-23">March 23, 1968</unitdate></unittitle>
+            <physdesc>
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">13</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 reels</extent>
+            </physdesc>
+            <unittitle>University of Michigan Men's Glee Club &amp; University of Illinois Varsity Glee Club Join Concert <unitdate type="inclusive" normal="1968-11-09">November 9, 1968</unitdate></unittitle>
+            <physdesc>
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">13</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 reels</extent>
+            </physdesc>
+            <unittitle>University of Michigan Men's Glee Club "White Tie and Tails," March 29 <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
+            <physdesc>
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">13</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">1 reel</extent>
+            </physdesc>
+            <unittitle>University of Michigan Men's Glee Club Pressing Master Side 1 <unitdate type="inclusive" normal="1969-06-22">June 22, 1969</unitdate></unittitle>
+            <physdesc>
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">13</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">1 reel</extent>
+            </physdesc>
+            <unittitle>University of Michigan Men's Glee Club Pressing Master Side 2 <unitdate type="inclusive" normal="1969-06-22">June 22, 1969</unitdate></unittitle>
+            <physdesc>
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">13</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 reels</extent>
+            </physdesc>
+            <unittitle>University of Michigan Men's Glee Club &amp; Ohio State University Men's Glee Club Joint Concert <unitdate type="inclusive" normal="1969-11-22">November 22, 1969</unitdate></unittitle>
+            <physdesc>
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">13</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">1 reel</extent>
+            </physdesc>
+            <unittitle>University of Michigan Men's Glee Club <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
+            <physdesc>
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">13</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">1 reel</extent>
+            </physdesc>
+            <unittitle>University of Michigan Men's Glee Club "Michigan Songs," <unitdate type="inclusive" normal="1970-01-07">January 7, 1970</unitdate></unittitle>
+            <physdesc>
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">14</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">1 reel</extent>
+            </physdesc>
+            <unittitle>University of Michigan Men's Glee Club <unitdate type="inclusive" normal="1971">1971</unitdate></unittitle>
+            <physdesc>
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">14</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 reels</extent>
+            </physdesc>
+            <unittitle>University of Michigan Men's Glee Club <unitdate type="inclusive" normal="1971-03-20">March 20, 1971</unitdate></unittitle>
+            <physdesc>
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">14</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">1 reel</extent>
+            </physdesc>
+            <unittitle>University of Michigan Men's Glee Club Luxembourg and Wales <unitdate type="inclusive" normal="1971-07">July 1971</unitdate></unittitle>
+            <physdesc>
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">14</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">1 reel</extent>
+            </physdesc>
+            <unittitle>University of Michigan Men's Glee Club <unitdate type="inclusive" normal="1971-11-06">November 6, 1971</unitdate></unittitle>
+            <physdesc>
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">14</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">1 reel</extent>
+            </physdesc>
+            <unittitle>University of Michigan Men's Glee Club <unitdate type="inclusive" normal="1972-03-24">March 24, 1972</unitdate></unittitle>
+            <physdesc>
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">14</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">1 reel</extent>
+            </physdesc>
+            <unittitle>University of Michigan Men's Glee Club <unitdate type="inclusive" normal="1972-03-25">March 25, 1972</unitdate></unittitle>
+            <physdesc>
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">14</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">3 reels</extent>
+            </physdesc>
+            <unittitle>University of Michigan Men's Glee Club Seattle, Washington <unitdate type="inclusive" normal="1973-05">May 1973</unitdate></unittitle>
+            <physdesc>
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">14</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 reels</extent>
+            </physdesc>
+            <unittitle>University of Michigan Men's Glee Club &amp; Morehouse College Fall Concert <unitdate type="inclusive" normal="1973-11-09">November 9, 1973</unitdate></unittitle>
+            <physdesc>
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">14</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">3 reels</extent>
+            </physdesc>
+            <unittitle>University of Michigan Men's Glee Club 114th Annual Spring Concert, 30 <unitdate type="inclusive" normal="1974-03">March 1974</unitdate></unittitle>
+            <physdesc>
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">14</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">3 reels</extent>
+            </physdesc>
+            <unittitle>University of Michigan Men's Glee Club&amp; Ohio State University 115th Fall Concert, 16 <unitdate type="inclusive" normal="1974-11">November 1974</unitdate></unittitle>
+            <physdesc>
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">14</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">1 reel</extent>
+            </physdesc>
+            <unittitle>University of Michigan Men's Glee Club Christmas <unitdate type="inclusive" normal="1974">1974</unitdate></unittitle>
+            <physdesc>
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">15</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">3 reels</extent>
+            </physdesc>
+            <unittitle>University of Michigan Men's Glee Club 115th Annual Spring Concert <unitdate type="inclusive" normal="1975-04-12">April 12, 1975</unitdate></unittitle>
+            <physdesc>
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">15</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 reels</extent>
+            </physdesc>
+            <unittitle>University of Michigan Men's Glee Club 115th Fall Concert <unitdate type="inclusive" normal="1975-11-22">November 22, 1975</unitdate></unittitle>
+            <physdesc>
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">15</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">3 reels</extent>
+            </physdesc>
+            <unittitle>University of Michigan Men's Glee Club 116th Annual Spring Concert <unitdate type="inclusive" normal="1976-04-10">April 10, 1976</unitdate></unittitle>
+            <physdesc>
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">15</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 reels</extent>
+            </physdesc>
+            <unittitle>University of Michigan Men's Glee Club 117th Fall Concert <unitdate type="inclusive" normal="1976-11-13">November 13, 1976</unitdate></unittitle>
+            <physdesc>
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">15</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 reels</extent>
+            </physdesc>
+            <unittitle>University of Michigan Men's Glee Club "Songs of Michigan" Pressing Master <unitdate type="inclusive" normal="1977">1977</unitdate></unittitle>
+            <physdesc>
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">15</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 reels</extent>
+            </physdesc>
+            <unittitle>University of Michigan Men's Glee Club 117th Annual Spring Concert <unitdate type="inclusive" normal="1977-04-02">April 2, 1977</unitdate></unittitle>
+            <physdesc>
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">15</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">3 reels</extent>
+            </physdesc>
+            <unittitle>University of Michigan Men's Glee Club 118th Fall Concert and Arbors, 19 <unitdate type="inclusive" normal="1977-11">November 1977</unitdate></unittitle>
+            <physdesc>
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">15</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 reels</extent>
+            </physdesc>
+            <unittitle>University of Michigan Men's Glee Club 118th Annual Spring Concert <unitdate type="inclusive" normal="1978-03-18">March 18, 1978</unitdate></unittitle>
+            <physdesc>
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">15</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 reels</extent>
+            </physdesc>
+            <unittitle>University of Michigan Men's Glee Club Vienna I &amp; II <unitdate type="inclusive" normal="1978">1978</unitdate></unittitle>
+            <physdesc>
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">16</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 reels</extent>
+            </physdesc>
+            <unittitle>University of Michigan Men's Glee Club St. Blasius <unitdate type="inclusive" normal="1978">1978</unitdate></unittitle>
+            <physdesc>
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">16</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 reels</extent>
+            </physdesc>
+            <unittitle>University of Michigan Men's Glee Club 119th Fall Concert &amp; Purdue University Men's Glee Club <unitdate type="inclusive" normal="1978-11-18">November 18, 1978</unitdate></unittitle>
+            <physdesc>
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">16</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">1 reel</extent>
+            </physdesc>
+            <unittitle>University of Michigan Men's Glee Club 120th Annual Spring Concert <unitdate type="inclusive" normal="1979-04-07">April 7, 1979</unitdate></unittitle>
+            <physdesc>
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">16</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">1 reel</extent>
+            </physdesc>
+            <unittitle>The Friars "Quadraphenomena" Pressing Master, 20, 27, 29 <unitdate type="inclusive" normal="1979-06">June 1979</unitdate></unittitle>
+            <physdesc>
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">16</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 reels</extent>
+            </physdesc>
+            <unittitle>University of Michigan Men's Glee Club 120th Fall Concert &amp; Wayne State University Men's Glee Club <unitdate type="inclusive" normal="1979-11-17">November 17, 1979</unitdate></unittitle>
+            <physdesc>
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">16</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">1 reel</extent>
+            </physdesc>
+            <unittitle>University of Michigan Men's Glee Club, University of Michigan Symphony Orchestra, &amp; University of Michigan Chamber Orchestra <unitdate type="inclusive" normal="1980-04-13">April 13, 1980</unitdate></unittitle>
+            <physdesc>
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">16</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 reels</extent>
+            </physdesc>
+            <unittitle>University of Michigan Men's Glee Club 120th Annual Spring Concert <unitdate type="inclusive" normal="1980-04-19">April 19, 1980</unitdate></unittitle>
+            <physdesc>
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">16</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 reels</extent>
+            </physdesc>
+            <unittitle>The Friar's Silver Anniversary <unitdate type="inclusive" normal="1980-11-15">November 15, 1980</unitdate></unittitle>
+            <physdesc>
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">16</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">1 reel</extent>
+            </physdesc>
+            <unittitle>University of Michigan Men's Glee Club "Songs of Michigan," <unitdate type="inclusive" normal="1981-05-14">May 14, 1981</unitdate></unittitle>
+            <physdesc>
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">16</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">3 reels</extent>
+            </physdesc>
+            <unittitle>University of Michigan Men's Glee Club 122nd Fall Concert &amp; Ohio State University Men's Glee Club <unitdate type="inclusive" normal="1981-11-21">November 21, 1981</unitdate></unittitle>
+            <physdesc>
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">16</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 reels</extent>
+            </physdesc>
+            <unittitle>University of Michigan Men's Glee Club 123rd Fall Concert Dedicated to Phillip Duey <unitdate type="inclusive" normal="1982-11-13">November 13, 1982</unitdate></unittitle>
+            <physdesc>
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">17</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 reels</extent>
+            </physdesc>
+            <unittitle>University of Michigan Men's Glee Club &amp; The California State University, Hayward, <unitdate type="inclusive" normal="1983">Spring 1983</unitdate></unittitle>
+            <physdesc>
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">17</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">4 reels</extent>
+            </physdesc>
+            <unittitle>27th Best Concert Ever The Friars and The Grunyons <unitdate type="inclusive" normal="1983-03-25">March 25, 1983</unitdate></unittitle>
+            <physdesc>
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">17</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 reels</extent>
+            </physdesc>
+            <unittitle>University of Michigan Men's Glee Club 123rd Annual Spring Concert <unitdate type="inclusive" normal="1983-04-16">April 16, 1983</unitdate></unittitle>
+            <physdesc>
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">17</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">1 reel</extent>
+            </physdesc>
+            <unittitle>University of Michigan Men's Glee Club 124th Annual Spring Concert <unitdate type="inclusive" normal="1984-04-07">April 7, 1984</unitdate></unittitle>
+            <physdesc>
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">17</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">1 reel</extent>
+            </physdesc>
+            <unittitle>University of Michigan Men's Glee Club 125th Anniversary Pressing Master <unitdate type="inclusive" normal="1894-06-25">June 25, 1894</unitdate>, <unitdate type="inclusive" normal="1984-07-02">July 2, 1984</unitdate></unittitle>
+            <physdesc>
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">17</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">4 reels</extent>
+            </physdesc>
+            <unittitle>University of Michigan Men's Glee Club 125th Fall Concert and Reunion Concert <unitdate type="inclusive" normal="1984-11-10">November 10, 1984</unitdate></unittitle>
+            <physdesc>
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">17</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 reels</extent>
+            </physdesc>
+            <unittitle>University of Michigan Men's Glee Club 125th Annual Spring Concert <unitdate type="inclusive" normal="1985-04-13">April 13, 1985</unitdate></unittitle>
+            <physdesc>
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">17</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">1 reel</extent>
+            </physdesc>
+            <unittitle>University of Michigan Men's Glee Club Christmas Master Ta[e, October 14,1985</unittitle>
+            <physdesc>
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">17</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">3 reels</extent>
+            </physdesc>
+            <unittitle>University of Michigan Men's Glee Club 126th Fall Concert with the University of Illinois <unitdate type="inclusive" normal="1985-11-23">November 23, 1985</unitdate></unittitle>
+            <physdesc>
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">18</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 reels</extent>
+            </physdesc>
+            <unittitle>University of Michigan Men's Glee Club 126th Spring Concert, <unitdate type="inclusive" normal="1986">April 12 1986</unitdate></unittitle>
+            <physdesc>
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">18</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 reels</extent>
+            </physdesc>
+            <unittitle>University of Michigan Men's Glee Club 127th Fall Concert <unitdate type="inclusive" normal="1986-11-15">November 15, 1986</unitdate></unittitle>
+            <physdesc>
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">18</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 reels</extent>
+            </physdesc>
+            <unittitle>University of Michigan Men's Glee Club 127th Annual Spring Concert, 11 <unitdate type="inclusive" normal="1987-04">April 1987</unitdate></unittitle>
+            <physdesc>
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">18</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">4 reels</extent>
+            </physdesc>
+            <unittitle>University of Michigan Men's Glee Club 128th Fall Concert with the University of Notre Dame Glee Club <unitdate type="inclusive" normal="1987-11-21">November 21, 1987</unitdate></unittitle>
+            <physdesc>
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">18</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">4 reels</extent>
+            </physdesc>
+            <unittitle>University of Michigan Men's Glee Club and Unlabeled Tapes <unitdate type="inclusive">Undated</unitdate></unittitle>
+            <physdesc>
+              </physdesc>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>China Concert Tour <unitdate type="inclusive" normal="2012">2012</unitdate></unittitle>
+        </did>
+        <scopecontent>
+          <p>In May 2012, the Men's Glee Club embarked on a two-week concert tour of the People's Republic of China that included visits to Beijing (May 3 to May 5), Xi'an (May 5 to May 8), Chongquing (May 8 to May 11), Wuhan (May 11 to May 13), and Shanghai (May 13 to May 16). The resulting China Concert Tour series is organized around the itinerary and includes digital images shot by club members in various locales, audio and video footage of performances at major stops and video of various excursions in host cities. The series is organized according to the Glee Club's itinerary; through : Of note is the concert performance given at Ba Shu Secondary School (Chongqing)and visits to notable sites such as the Great Wall, Tiananmen Square, the Forbidden City, and Olympic Park (Beijing).</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <unittitle>Beijing <unitdate type="inclusive" normal="2012-05-03/2012-05-05">May 3-5, 2012</unitdate></unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>Arrival <unitdate type="inclusive" normal="2012-05-03">May 3, 2012</unitdate></unittitle>
+              <dao href="http://hdl.handle.net/2027.42/94171" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[download zip file]</p>
+                </daodesc>
+              </dao>
+            </did>
+            <c04 level="file">
+              <did>
+                <unittitle>Digital images of Glee Clubs Arrival in Beijing</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>Forbidden City <unitdate type="inclusive" normal="2012-05-04">May 4, 2012</unitdate></unittitle>
+              <dao href="http://hdl.handle.net/2027.42/94172" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[download zip file]</p>
+                </daodesc>
+              </dao>
+            </did>
+            <c04 level="file">
+              <did>
+                <unittitle>Digital images of the Men's Glee Club's visit to the Forbidden City</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>Tiananmen Square <unitdate type="inclusive" normal="2012-05-04">May 4, 2012</unitdate></unittitle>
+              <dao href="http://hdl.handle.net/2027.42/94177" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[download zip file]</p>
+                </daodesc>
+              </dao>
+            </did>
+            <c04 level="file">
+              <did>
+                <unittitle>Digital images of the Men's Glee Club's visit to Tiananmen Square</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>Tsinghua University Meng Minwei Concert Hall <unitdate type="inclusive" normal="2012-05-04">May 4, 2012</unitdate></unittitle>
+              <dao href="http://hdl.handle.net/2027.42/94178" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[download zip file]</p>
+                </daodesc>
+              </dao>
+            </did>
+            <c04 level="file">
+              <did>
+                <unittitle>Audio recording of the Men's Glee Club performance at Tsinghua University</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>Digital images of the Men's Glee Club performance at Tsinghua University</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>Video recording of the Men's Glee Club performance at Tsinghua University</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>Great Wall of China <unitdate type="inclusive" normal="2012-05-05">May 5, 2012</unitdate></unittitle>
+              <dao href="http://hdl.handle.net/2027.42/94173" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[download zip file]</p>
+                </daodesc>
+              </dao>
+            </did>
+            <c04 level="file">
+              <did>
+                <unittitle>Digital images of the Men's Glee Club at the Great Wall of China</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>Video recording of the Men's Glee Club singing at the Great Wall of China</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>Jade Factory <unitdate type="inclusive" normal="2012-05-05">May 5, 2012</unitdate></unittitle>
+              <dao href="http://hdl.handle.net/2027.42/94174" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[download zip file]</p>
+                </daodesc>
+              </dao>
+            </did>
+            <c04 level="file">
+              <did>
+                <unittitle>Digital images of the Men's Glee Club visit to a jade factory in Beijing</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>Olympic Park <unitdate type="inclusive" normal="2012-05-05">May 5, 2012</unitdate></unittitle>
+              <dao href="http://hdl.handle.net/2027.42/94175" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[download zip file]</p>
+                </daodesc>
+              </dao>
+            </did>
+            <c04 level="file">
+              <did>
+                <unittitle>(Digital images of the Men's Glee Club's visit to the site of the <unitdate type="inclusive" normal="2008">2008</unitdate> Summer Olympic Games.</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>Tea Ceremony <unitdate type="inclusive" normal="2012-05-05">May 5, 2012</unitdate></unittitle>
+              <dao href="http://hdl.handle.net/2027.42/94176" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[download zip file]</p>
+                </daodesc>
+              </dao>
+            </did>
+            <c04 level="file">
+              <did>
+                <unittitle>(Digital images of the Men's Glee Club participating in a tea ceremony</unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Xi'an (May 5 to May 8, 2012)</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>Concert Hall <unitdate type="inclusive" normal="2012-05-06">May 6, 2012</unitdate></unittitle>
+              <dao href="http://hdl.handle.net/2027.42/94186" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[download zip file]</p>
+                </daodesc>
+              </dao>
+            </did>
+            <c04 level="file">
+              <did>
+                <unittitle>Audio recording of the Men's Glee Club performance at Xi'an Concert Hall</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>Digital images of the Men's Glee Club performance at Xi'an Concert Hall</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>City Wall <unitdate type="inclusive" normal="2012-05-07">May 7, 2012</unitdate></unittitle>
+              <dao href="http://hdl.handle.net/2027.42/94185" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[download zip file]</p>
+                </daodesc>
+              </dao>
+            </did>
+            <c04 level="file">
+              <did>
+                <unittitle>Digital images of the Men's Glee Club visit to the Xi'an city walls</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>Terracotta Warriors <unitdate type="inclusive" normal="2012-05-07">May 7, 2012</unitdate></unittitle>
+              <dao href="http://hdl.handle.net/2027.42/94184" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[download zip file]</p>
+                </daodesc>
+              </dao>
+            </did>
+            <c04 level="file">
+              <did>
+                <unittitle>Digital images of the Men's Glee Club excursion to see the terracotta warriors of Xi'an.</unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Chongqing (May 8 to May 11, 2012)</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>Er Ling Park <unitdate type="inclusive" normal="2012-05-08">May 8, 2012</unitdate></unittitle>
+              <dao href="http://hdl.handle.net/2027.42/94170" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[download zip file]</p>
+                </daodesc>
+              </dao>
+            </did>
+            <c04 level="file">
+              <did>
+                <unittitle>Digital images of the Men's Glee Club tour of Er Ling Park</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>Video recording of the Men's Glee Club tour of Er Ling Park</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>Ba Shu Secondary School <unitdate type="inclusive" normal="2012-05-09">May 9, 2012</unitdate></unittitle>
+              <dao href="http://hdl.handle.net/2027.42/94166" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[download zip file]</p>
+                </daodesc>
+              </dao>
+            </did>
+            <c04 level="file">
+              <did>
+                <unittitle>Digital images of the Men's Glee Club visit to Ba Shu Secondary School</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>Video recordings</unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <unittitle>Men's Glee Club's arrival at Ba Shu Secondary School</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unittitle>Ba Shu Secondary School staff remarks</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unittitle>Student martial arts demonstration</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unittitle>Speeches by Men's Glee Club members</unittitle>
+                  <physdesc altrender="whole">
+                    <extent altrender="materialtype spaceoccupied">3 digital files</extent>
+                  </physdesc>
+                  <physdesc>
+                    </physdesc>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unittitle>Rehearsal by the Men's Glee Club</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unittitle>Vocal performance by the Men's Glee Club</unittitle>
+                  <physdesc altrender="whole">
+                    <extent altrender="materialtype spaceoccupied">4 digital files</extent>
+                  </physdesc>
+                  <physdesc>
+                    </physdesc>
+                </did>
+              </c05>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>Dazu Stone Carving Park <unitdate type="inclusive" normal="2012-05-09">May 9, 2012</unitdate></unittitle>
+              <dao href="http://hdl.handle.net/2027.42/94169" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[download zip file]</p>
+                </daodesc>
+              </dao>
+            </did>
+            <c04 level="file">
+              <did>
+                <unittitle>Digital images of Men's Glee Club excursion to Dazu Stone Carving Park, a World Heritage Site</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>Dongwuyuan <unitdate type="inclusive" normal="2012-05-10">May 10, 2012</unitdate></unittitle>
+              <dao href="http://hdl.handle.net/2027.42/94167" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[download zip file]</p>
+                </daodesc>
+              </dao>
+            </did>
+            <c04 level="file">
+              <did>
+                <unittitle>(Digital images of the Men's Glee Club's visit to Chongqing Dongquyuan (Zoo</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>Grand Theater <unitdate type="inclusive" normal="2012-05-10">May 10, 2012</unitdate></unittitle>
+              <dao href="http://hdl.handle.net/2027.42/94168" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[download zip file]</p>
+                </daodesc>
+              </dao>
+            </did>
+            <c04 level="file">
+              <did>
+                <unittitle>Audio recording of the Men's Glee Club performance at the Chongqing Grand Theater</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>Digital images of the Men's Glee Club performance at the Chongqing Grand Theater</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>Video recordings</unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <unittitle>Men's Glee Club tour of the Chongqing Grand Theater</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unittitle>Men's Glee Club rehearsal at the Chongqing Grand Theater</unittitle>
+                </did>
+              </c05>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Wuhan (May 11 to May 13, 2012)</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>Han Kou waterfront on the Yangtze River <unitdate type="inclusive" normal="2012-05-11">May 11, 2012</unitdate></unittitle>
+              <dao href="http://hdl.handle.net/2027.42/94181" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[download zip file]</p>
+                </daodesc>
+              </dao>
+            </did>
+            <c04 level="file">
+              <did>
+                <unittitle>Digital images of the Men's Glee Club excursion to the Han Koue waterfront</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>Hubei Provincial Museum <unitdate type="inclusive" normal="2012-05-12">May 12, 2012</unitdate></unittitle>
+              <dao href="http://hdl.handle.net/2027.42/94182" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[download zip file]</p>
+                </daodesc>
+              </dao>
+            </did>
+            <c04 level="file">
+              <did>
+                <unittitle>Digital images of the Men's Glee Club visit to the Hubei Provincial Museum</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>Qintai Grand Theater <unitdate type="inclusive" normal="2012-05-12">May 12, 2012</unitdate></unittitle>
+              <dao href="http://hdl.handle.net/2027.42/94183" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[download zip file]</p>
+                </daodesc>
+              </dao>
+            </did>
+            <c04 level="file">
+              <did>
+                <unittitle>Audio recording of the Men's Glee Club performance at the Qintai Grand Theater</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>Digital images of the Men's Glee Club performance at the Qintai Grand Theater</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>Video recordings</unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <unittitle>Men's Glee Club tour of the Qintai Grand Theater</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unittitle>Men's Glee Club rehearsal at the Qintai Grand Theater</unittitle>
+                </did>
+              </c05>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Shanghai (May 13 to May 16, 2012)</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>Oriental Art Center <unitdate type="inclusive" normal="2012-05-13">May 13, 2012</unitdate></unittitle>
+              <dao href="http://hdl.handle.net/2027.42/94179" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[download zip file]</p>
+                </daodesc>
+              </dao>
+            </did>
+            <c04 level="file">
+              <did>
+                <unittitle>Audio recording of the Men's Glee Club performance at the Shanghai Oriental Art Center</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>Digital images of the Men's Glee Club performance at the Shanghai Oriental Art Center</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>Video recordings</unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <unittitle>Mens' Glee Club rehearsal for concert at the Shanghai Oriental Art Center</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unittitle>Mens' Glee Club performance at the Shanghai Oriental Art Center</unittitle>
+                  <physdesc altrender="whole">
+                    <extent altrender="materialtype spaceoccupied">6 digital files</extent>
+                  </physdesc>
+                  <physdesc>
+                    </physdesc>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unittitle>Post-concert cleanup and mingling at the Shanghai Oriental Art Center</unittitle>
+                </did>
+              </c05>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>Yu Yuan Garden <unitdate type="inclusive" normal="2012-05-14">May 14, 2012</unitdate></unittitle>
+              <dao href="http://hdl.handle.net/2027.42/94180" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[download zip file]</p>
+                </daodesc>
+              </dao>
+            </did>
+            <c04 level="file">
+              <did>
+                <unittitle>Digital images of the Men's Glee Club visit to Yu Yuan Garden</unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Archived Website</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <physloc>Online</physloc>
+            <unittitle>Archived Men's Glee Club website, 2011-[ONGOING]</unittitle>
+            <dao href="87250-w-1" show="new" actuate="onrequest">
+              <daodesc>
+                <p>[view files]</p>
+              </daodesc>
+            </dao>
+          </did>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

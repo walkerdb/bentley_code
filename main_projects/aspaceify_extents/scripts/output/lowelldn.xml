@@ -1,0 +1,540 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead.dtd">
+<ead>
+  <eadheader audience="internal" langencoding="iso639-2b" repositoryencoding="iso15511" dateencoding="iso8601" relatedencoding="Dublin Core" scriptencoding="iso15924" countryencoding="iso3166-1">
+    <eadid countrycode="us" mainagencycode="MiU-H" publicid="us//::miu-h//TXT us::miu-h::lowelldn.xml//EN" encodinganalog="Identifier">umich-bhl-753</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="Title">Finding Aid for D. N. Lowell collection of pamphlets and publications</titleproper>
+        <author encodinganalog="Creator">Collection processed and finding aid created by Michigan Historical Collections staff</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="Publisher">Bentley Historical Library, University of Michigan</publisher>
+        <date encodinganalog="Date" normal="2008">2008</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created by Thomas E. Powers <date>2008</date></creation>
+      <langusage encodinganalog="Language">The finding aid is written in <language langcode="eng" scriptcode="Latn">English</language></langusage>
+      <descrules>Finding aid prepared using Describing Archives: A Content Standard (DACS)</descrules>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date>2008-11-18</date>
+        <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <frontmatter>
+    <titlepage>
+      <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
+      <titleproper>Finding aid for <lb/>D. N. Lowell collection <lb/>of pamphlets and publications, 1855-1882</titleproper>
+      <author>Finding aid created by <lb/>Michigan Historical Collections staff</author>
+    </titlepage>
+  </frontmatter>
+  <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
+    <did>
+      <origination>
+        <persname source="lcnaf" encodinganalog="100">Lowell, Dwight Nelson, d. 1907, collector</persname>
+      </origination>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">60 items</extent>
+        <extent altrender="carrier">(in 6 bound volumes)</extent>
+        <physfacet>approximate</physfacet>
+      </physdesc>
+      <unittitle encodinganalog="245">D. N. Lowell collection of pamphlets and publications <unitdate type="inclusive" encodinganalog="245$f" normal="1855/1882">1855-1882</unitdate></unittitle>
+      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">753 DA 2; L914; P186</unitid>
+      <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
+      <abstract>University of Michigan graduate, 1867, and lawyer in Macomb County, Michigan. Collection of pamphlets and other printed material relating to history of the university, the legal profession and other matters.</abstract>
+      <repository>
+        <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea>, University of Michigan</corpname>
+        <extptr href="bhladd" show="embed" actuate="onload"/>
+      </repository>
+    </did>
+    <descgrp type="admin">
+      <acqinfo encodinganalog="541">
+        <p>The provenance of this collection is unknown. <num type="donor" encodinganalog="541$e"/></p>
+      </acqinfo>
+      <accruals encodinganalog="584">
+        <p>No further additions to the collection are expected.</p>
+      </accruals>
+      <accessrestrict encodinganalog="506">
+        <p>The collection is open to research.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+        <p>All materials in the collection are in the public domain.</p>
+      </userestrict>
+      <otherfindaid>
+        <p>Many of the items are cataloged individually in MIRLYN, the University of Michigan online catalog.</p>
+      </otherfindaid>
+      <prefercite encodinganalog="524">
+        <p>[item], folder, box, D. N. Lowell collection of pamphlets and publications, Bentley Historical Library, University of Michigan</p>
+      </prefercite>
+    </descgrp>
+    <bioghist encodinganalog="545">
+      <p>Dwight N. Lowell was a graduate of the University of Michigan (A.B. 1867) and a Macomb County attorney. He was also a collector of pamphlets and other publications primarily relating to the University of Michigan. Lowell died July 27, 1907.</p>
+    </bioghist>
+    <scopecontent encodinganalog="520">
+      <p>The Lowell pamphlet collection consists of 6 bound volumes of pamphlets and other publications relating primarily to the history of the University of Michigan, including reports and addresses of the presidents, commencement addresses, and reports on misappropriation of funds in the chemistry department; messages and reports of the Michigan governors, and a number of articles on law and the legal profession.</p>
+    </scopecontent>
+    <controlaccess>
+      <p>
+        <extptr href="accnote" show="embed" actuate="onload"/>
+      </p>
+      <controlaccess>
+        <head>Subjects:</head>
+        <corpname encodinganalog="610" source="lcnaf">University of Michigan--History--19th century.</corpname>
+        <corpname encodinganalog="610" source="lcnaf">University of Michigan. Dept. of Law.</corpname>
+        <subject encodinganalog="650" source="lcsh">Baccalaureate addresses--University of Michigan.</subject>
+        <subject encodinganalog="650" source="lcsh">Education.</subject>
+        <geogname encodinganalog="651" source="lcsh">Michigan--Politics and government--1837-1950.</geogname>
+      </controlaccess>
+    </controlaccess>
+    <dsc type="combined">
+      <c01 level="series">
+        <did>
+          <unittitle>
+            <bibref>Pamphlets and publications</bibref>
+          </unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <container type="volume" label="Volume">I</container>
+            <unittitle>
+              <bibref><title render="italic">University of Michigan Thirty-fourth Annual Commencement</title>. <imprint>[Ann Arbor <date type="publication">June 27, 1878</date>]</imprint></bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <bibref>Lothrop, George V. N. <title render="italic">A Plea for Education as a Public Duty</title>. <imprint>[Ann Arbor <date type="publication">1878</date>]</imprint></bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <bibref>Kent, Charles A. <title render="italic">The Work of Lawyers and its Relation to Society</title>. <imprint>[Ann Arbor <date type="publication">1871</date>]</imprint></bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <bibref>Coolidge, Orville William. <title render="italic">The Relation of Higher Education to the State</title>. <imprint>[Ann Arbor <date type="publication">1878</date>]</imprint></bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <bibref>Sheldon, Mary D. <title render="italic">A Legend of the Amazon</title>; Poem. <imprint>[Ann Arbor <date type="publication">1878</date>]</imprint></bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <bibref>Angell, James B. <title render="italic">The President's Report to the Board of Regents</title>. <imprint>[Ann Arbor <date type="publication">1879</date>]</imprint></bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <bibref>Abbott, T. C. <title render="italic">Agricultural Education</title>. <imprint>[Lansing, Michigan <date type="publication">1875</date>]</imprint></bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <bibref>Fairfield, Reverend Edmund B. <title render="italic">Wickedness in High Places</title>, <imprint>[2nd edition. Mansfield, Ohio <date type="publication">1874</date>]</imprint></bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <bibref>Croswell, Charles M. <title render="italic">Message of [Charles M. Croswell] Governor of the State of Michigan to the Legislature, at its 30th Regular Session, January 2, 1879</title>. <imprint>[Lansing, Michigan <date type="publication">1879</date>]</imprint></bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <bibref>Croswell, Charles M. <title render="italic">Message of [Charles M.-Croswell] Retiring Governor of Michigan, to the Legislature, January 6, 1881</title>. <imprint>[Lansing, Michigan <date type="publication">1881</date>]</imprint></bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <bibref>Jerome, David H. <title render="italic">Special Message of [David H. Jerome] Governor of the State of Michigan to the Legislature, In Extra Session, February 23, 1882</title>, <imprint>[Lansing, Michigan <date type="publication">1882</date>]</imprint></bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <bibref>Jerome, David H. <title render="italic">Message of [David H. Jerome] Retiring Governor of Michigan, to the Legislature, January 3, 1883</title>. <imprint>[Lansing, Michigan <date type="publication">1883</date>]</imprint></bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <bibref>Begole, Josiah W. <title render="italic">Inaugural Message of [Josiah W. Begole] Governor of the State of Michigan, to the Legislature, January 3, 1883</title>. <imprint>[Lansing, Michigan <date type="publication">1883</date>]</imprint></bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <bibref><title render="italic">Conditions and Needs of Spring Wheat Culture in The Northwest</title>. <imprint>[n.p., undated]</imprint></bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <bibref>Michigan. Commissioner of Immigration. <title render="italic">Michigan and its Resources</title>. <imprint>[Lansing, Michigan <date type="publication">1882</date>]</imprint></bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="volume" label="Volume">II</container>
+            <unittitle>
+              <bibref>Blaine, James G. <title render="italic">Memorial Address on the Life and Character of James Abram Garfield</title>. <imprint>[Washington, D.C. <date type="publication">1882</date>]</imprint></bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <bibref><title render="italic">The Defalcation in the Chemical Laboratory of the University of Michigan</title>. <imprint>[Ann Arbor <date type="publication">1878</date>]</imprint></bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <bibref>Pitcher, Zina. A <title render="italic">Memoir Embracing An Epitome of the Transactions of the Regents of the University, with Some Reasons for the Adoption of their More Important Measures, from 1837 to June 30, 1851 ....</title>, <imprint>[Ann Arbor, Michigan <date type="publication">1851</date>]</imprint></bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <bibref><title render="italic">Constitutional Provisions, Laws and By-laws of the University of Michigan</title>, <imprint>[revised edition. Ann Arbor <date type="publication">1864</date>]</imprint></bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <bibref><title render="italic">Opinions of the Judges of the Supreme Court of Michigan, In the Case of the People ex rel. the Detroit and Howell Railroad Company vs. the Township Board of Salem</title>. <imprint>[Lansing, Michigan <date type="publication">1870</date>]</imprint></bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <bibref>Michigan Lawyer. <title render="italic">Wit and Wisdom of the Law</title>. <imprint>[<date type="publication">undated</date>]</imprint></bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <bibref><title render="italic">Levities of the Law</title>. <title>Michigan Lawyer</title>, <imprint>[<date type="publication">undated</date>]</imprint></bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <bibref><title render="italic">Trial by Jury</title>. <title>Michigan Lawyer</title>, <imprint>[<date type="publication">undated</date>]</imprint></bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <bibref><title render="italic">Extradition</title>, by T. M. Cooley. <title>Michigan Lawyer</title>, <imprint>[<date type="publication">undated</date>]</imprint></bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <bibref>Michigan Lawyer. <title render="italic">Impeachment of Secretary Belknap</title>, by Isaac P. Christiancy. <title>Michigan Lawyer</title>, <imprint>[<date type="publication">undated</date>]</imprint></bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <bibref>
+                <title render="italic">Reports of Selected Cases Decided in the Circuit Courts of Michigan, Fourth Circuit, Circuit Court for Washtenaw County; The Regents of the University of Michigan vs. Silas H. Douglas, Preston B. Rose et al.</title>
+                <imprint>[<date type="publication">undated</date>]</imprint>
+              </bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <bibref>Dudley, Thomas H. <title render="italic">, Reply to Augustus Mongredien's Appeal to the Western Farmer of America</title>. <imprint>[Philadelphia, Pennsylvania <date type="publication">1880</date>]</imprint></bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <bibref><title render="italic">Decoration Day</title>. <imprint>[Detroit <date type="publication">May 30, 1879</date>]</imprint></bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <bibref>Bours, Allen L. <title render="italic">Inaugural Proceedings at the Dedication of the New Capitol of Michigan</title>. <imprint>[Lansing Michigan <date type="publication">1879</date>]</imprint></bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <bibref><title render="italic">Michigan Legislative Excursion</title>. <imprint>[Lansing, Michigan <date type="publication">1869</date>]</imprint></bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <bibref>Wilber, Mark D. <title render="italic">Speech in the Senate of Michigan, March 26, 1873 Advocating the Constitution of the Michigan Ship Canal</title>. <imprint>[Lansing, Michigan <date type="publication">1873</date>]</imprint></bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <bibref>Baldwin, Henry P. <title render="italic">Biennial Message of Henry P. Baldwin, Governor of the State of Michigan to the Legislature</title>. <imprint>[Lansing, Michigan <date type="publication">1871</date>]</imprint></bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <bibref><title render="italic">Oration July 4 1879</title>.</bibref>
+            </unittitle>
+          </did>
+          <odd>
+            <p>[t.p. lacking]</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <bibref>Backus, C. K. <title render="italic">The Contraction of the Currency</title>. <imprint>[Chicago, Illinois <date type="publication">1878</date>]</imprint></bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <bibref>Perry, (Professor). How Paper Money Cheats Farmers. Omaha, Nebraska, n.p. <imprint>[<date type="publication">1874</date>]</imprint></bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="volume" label="Volume">III</container>
+            <unittitle>
+              <bibref>Tappan, Henry P. <title render="italic">The Progress of Educational Development</title>. <imprint>[Ann Arbor <date type="publication">1855</date>]</imprint></bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <bibref>Tappan, Henry P. <title render="italic">Baccalaureate Address Delivered at the Commencement of the University of Michigan, June 27, 1855</title>. <imprint>[Ann Arbor(?), 1855]</imprint></bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <bibref>Haven, Evastus O. <title render="italic">Public Education of Religion</title>. <imprint>[Ann Arbor <date type="publication">1867</date>]</imprint></bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <bibref>Campbell, James V. <title render="italic">On the Study of the Law</title>. <imprint>[Ann Arbor <date type="publication">1859</date>]</imprint></bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <bibref>Duffield, D. Bethune. <title render="italic">The Lawyer's Oath</title>. <imprint>[Ann Arbor <date type="publication">1867</date>]</imprint></bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <bibref>Winchell, Alexander. <title render="italic">The Grand Traverse Region: A Report on the geological and Industrial Resources of the Counties of Antrim, Grand Traverse, Benzie and Leelanaw in the Lower Peninsula of Michigan</title>. <imprint>[Ann Arbor <date type="publication">1866</date>]</imprint></bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <bibref>Winchell, Alexander. <title render="italic">Synoptical View of the Geological Succession of Organic Types</title>, <imprint>[2nd edition. Ann Arbor <date type="publication">1867</date>]</imprint></bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <bibref>Stanton, Elizabeth Cady. <title render="italic">Address in Favor of Universal Suffrage</title>. <imprint>[Albany <date type="publication">1867</date>]</imprint></bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <bibref>Palmer, Alonzo B. <title render="italic">Remarks on Epidemic Cholera</title>. <imprint>[n.p. <date type="publication">undated</date>]</imprint></bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <bibref>Osgood, Samuel. "New Aspects of the American Mind," <title render="italic">Harpers New Monthly</title> Magazine. <imprint>[<date type="publication">undated</date>]</imprint></bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <bibref>Anonymous articles. "Characteristics of Genius," "Orion" (poem), "A Week in Sybaris," and "The Destructive Democracy." <imprint>[<date type="publication">February, 1868</date>]</imprint></bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="volume" label="Volume">IV</container>
+            <unittitle>
+              <bibref>Blair, Austin. <title render="italic">Governors Message, January 19, 1864</title>. <imprint>[Lansing <date type="publication">1864</date>]</imprint></bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <bibref>Mickley, Charles E. <title render="italic">Majority and Minority Reports of the Special Committee to Whom was Referred the Petition of Solomon L. Bignall</title>, <imprint>[(House Document No. 23). [Lansing] <date type="publication">1865</date>]</imprint></bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <bibref>Address by Honorable Thomas M. Cooley and Poem by D. Bethune Duffield on the dedication of the Law Lecture Hall of Michigan University. Ann Arbor <imprint>[<date type="publication">1863</date>]</imprint></bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <bibref>Haven, Erastus O. <title render="italic">Universities in America: Inaugural Address Delivered in Ann Arbor, Michigan, October 1st, 1863</title>. <imprint>[Ann Arbor <date type="publication">1863</date>]</imprint></bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <bibref>Tappan, Henry P. <title render="italic">Review by Reverend Dr. H. P. Tappan of His Connection with the University of Michigan</title>. <imprint>[Detroit <date type="publication">1864</date>]</imprint></bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <bibref>Campbell, Gabriel. <title render="italic">War Pictures: A Poem</title>. <imprint>[Ann Arbor <date type="publication">1865</date>]</imprint></bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <bibref>Winchell, Alexander. <title render="italic">A Plea for Science</title>. <imprint>[Cincinnati <date type="publication">1866</date>]</imprint></bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <bibref>Address and poem delivered before the chapters of Sigma Phi fraternity. Geneva, New York, 1855</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <bibref><title render="italic">Education of the Citizen: Chamber's Papers for the People</title>, <imprint>[No. 4. <date type="publication">undated</date>]</imprint></bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <bibref><title render="italic">The Songs of Hamilton</title>. <imprint>[Published by The Class of '67. Utica, New York <date type="publication">1864</date>]</imprint></bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <bibref><title render="italic">Songs of the Sigma Phi Alpha of Massachusetts</title>. <imprint>[n.p. <date type="publication">1861</date>]</imprint></bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <bibref>Address to the Masonic Fraternity.</bibref>
+            </unittitle>
+          </did>
+          <odd>
+            <p>[title page lacking]</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="volume" label="Volume">V</container>
+            <unittitle>
+              <bibref>Michigan University. Regents Proceedings, 1858- 1863</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="volume" label="Volume">VI</container>
+            <unittitle>
+              <bibref>
+                <title>Michigan University. Regents Proceedings, 1864- 1870</title>
+              </bibref>
+            </unittitle>
+          </did>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

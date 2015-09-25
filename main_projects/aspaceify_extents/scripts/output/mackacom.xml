@@ -1,0 +1,688 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead.dtd">
+<ead>
+  <eadheader audience="internal" langencoding="iso639-2b" repositoryencoding="iso15511" dateencoding="iso8601" relatedencoding="Dublin Core" scriptencoding="iso15924" countryencoding="iso3166-1">
+    <eadid countrycode="us" mainagencycode="MiU-H" publicid="us//::miu-h//TXT us::miu-h::mackacom.xml//EN" encodinganalog="Identifier">umich-bhl-85477</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="Title">Finding Aid for Mack &amp; Company records, 1858-1940</titleproper>
+        <author encodinganalog="Creator">Collection processed and finding aid created by Michigan Historical Collections staff</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="Publisher">Bentley Historical Library, University of Michigan</publisher>
+        <date encodinganalog="Date" normal="2009">2009</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created by Thomas E. Powers <date>2009</date></creation>
+      <langusage encodinganalog="Language">The finding aid is written in <language langcode="eng" scriptcode="Latn">English</language></langusage>
+      <descrules>Finding aid prepared using Describing Archives: A Content Standard (DACS)</descrules>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date>2009-02-11</date>
+        <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <frontmatter>
+    <titlepage>
+      <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
+      <titleproper>Finding aid for <lb/>Mack &amp; Company records, 1858-1940</titleproper>
+      <author>Finding aid created by <lb/>Michigan Historical Collections staff</author>
+    </titlepage>
+  </frontmatter>
+  <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
+    <did>
+      <origination>
+        <corpname source="lcnaf" encodinganalog="110">Mack &amp; Company (Ann Arbor, Mich.)</corpname>
+      </origination>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">5 oversize volumes</extent>
+      </physdesc>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">12 microfilm rolls</extent>
+      </physdesc>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">4.5 linear feet</extent>
+      </physdesc>
+      <unittitle encodinganalog="245">Mack &amp; Company records <unitdate type="inclusive" encodinganalog="245$f" normal="1858/1940">1858-1940</unitdate></unittitle>
+      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">85477 Bb.2 2; BB.2 Out. Vol.</unitid>
+      <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
+      <abstract>Ann Arbor, Michigan, dry goods store. Ledgers, cash books, payroll books, sales books, and photographs; also records, 1902-1913, of the estate of Christian Mack, and records, 1874-1922, of the Mack Insurance Agency.</abstract>
+      <repository>
+        <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea>, University of Michigan</corpname>
+        <extptr href="bhladd" show="embed" actuate="onload"/>
+      </repository>
+    </did>
+    <descgrp type="admin">
+      <acqinfo encodinganalog="541">
+        <p>The record group was the gift of Christian Mack (donor no. <num type="donor" encodinganalog="541$e">1921</num>).</p>
+      </acqinfo>
+      <accruals encodinganalog="584">
+        <p>No further additions to the records are expected.</p>
+      </accruals>
+      <accessrestrict encodinganalog="506">
+        <p>The record group is open to research.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+        <p>Copyright is held by the Regents of the University of Michigan.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+        <p>[item], folder, box,
+Mack &amp; Company records, Bentley Historical Library, University of Michigan</p>
+      </prefercite>
+    </descgrp>
+    <bioghist encodinganalog="545">
+      <p>Founded in 1860 by Christian Mack, Mack &amp; Company was at one time Ann Arbor's largest department store. In addition to the sale of clothing and household merchandise, the company would come to offer other services as well, including an insurance agency, a bank, and the leasing of properties owned by family members to other businesses. In 1939, because of declining sales, the store closed.</p>
+    </bioghist>
+    <scopecontent encodinganalog="520">
+      <p>The records of Mack &amp; Company include the following kinds of business records: Financial ledgers; Mack insurance agency records; bank depositor records; various sales, payroll, and financial record books; and miscellaneous tax materials; investment files; employee material; and store publications.</p>
+    </scopecontent>
+    <controlaccess>
+      <p>
+        <extptr href="accnote" show="embed" actuate="onload"/>
+      </p>
+      <controlaccess>
+        <head>Subjects:</head>
+        <subject source="lcsh" encodinganalog="650">General stores--Michigan--Ann Arbor.</subject>
+        <subject source="lcsh" encodinganalog="650">Insurance--Michigan.</subject>
+        <persname source="lcnaf" encodinganalog="600">Mack, Christian, 1834-1902.</persname>
+        <corpname source="lcnaf" encodinganalog="610">Mack Insurance Agency (Ann Arbor, Mich.)</corpname>
+      </controlaccess>
+    </controlaccess>
+    <dsc type="combined">
+      <c01 level="series">
+        <did>
+          <unittitle>Ledgers (Microfilm)</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">5</container>
+            <container type="reel" label="Roll">1</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1858/1863">1858-1863</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">5</container>
+            <container type="reel" label="Roll">1</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1901/1903">1901-1903</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">5</container>
+            <container type="reel" label="Roll">2</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1906/1908">1906-1908</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">5</container>
+            <container type="reel" label="Roll">3</container>
+            <unittitle><unitdate type="inclusive" normal="1909/1914">1909-1914</unitdate> (A-D)</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">5</container>
+            <container type="reel" label="Roll">4</container>
+            <unittitle><unitdate type="inclusive" normal="1909/1914">1909-1914</unitdate> (E-R)</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">5</container>
+            <container type="reel" label="Roll">5</container>
+            <unittitle><unitdate type="inclusive" normal="1909/1914">1909-1914</unitdate> (S-Z)</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">5</container>
+            <container type="reel" label="Roll">5</container>
+            <unittitle><unitdate type="inclusive" normal="1914/1917">1914-1917</unitdate> (A-D)</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">5</container>
+            <container type="reel" label="Roll">6</container>
+            <unittitle><unitdate type="inclusive" normal="1914/1917">1914-1917</unitdate> (E-K)</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">5</container>
+            <container type="reel" label="Roll">7</container>
+            <unittitle><unitdate type="inclusive" normal="1914/1917">1914-1917</unitdate> (L-Z)</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">5</container>
+            <container type="reel" label="Roll">8</container>
+            <unittitle><unitdate type="inclusive" normal="1917/1919">1917-1919</unitdate> (A-K)</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">5</container>
+            <container type="reel" label="Roll">9</container>
+            <unittitle><unitdate type="inclusive" normal="1917/1919">1917-1919</unitdate> (L-Z)</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle><unitdate type="inclusive" normal="1901/1903">1901-1903</unitdate> (M&amp;S ledger; fragmentary)</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">9 volumes</extent>
+            </physdesc>
+            <unittitle>Indexes to ledgers</unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">10 volumes</extent>
+            </physdesc>
+            <unittitle>Indexes to ledgers</unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Insurance Agency</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <unittitle>Ledgers</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1922/1923">1922-1923</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1924/1925">1924-1925</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>Letterpress book of the Christian Mack Insurance Agency <unitdate type="inclusive" normal="1902/1907">1902-1907</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>Record of expirations of insurance policies for the Christian Mack Agency <unitdate type="inclusive" normal="1874/1920">1874-1920</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Sales Record</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1881/1890">1881-1890</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">2</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1890/1897">1890-1897</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="volume" label="Oversize Volume">3</container>
+            <unittitle>Policy Record <unitdate type="inclusive" normal="1922/1925">1922-1925</unitdate></unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Other records</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>Records of the Mack and Company Savings Bank <unitdate type="inclusive" normal="1904/1936" certainty="approximate">circa 1904-1936</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">5</container>
+            <container type="reel" label="Roll">10</container>
+            <unittitle>Cash/Order Book <unitdate type="inclusive" normal="1901/1904">1901-1904</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">5</container>
+            <container type="reel" label="Roll">10</container>
+            <unittitle>Insurance Accounts <unitdate type="inclusive" normal="1908/1916">1908-1916</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">5</container>
+            <container type="reel" label="Roll">11</container>
+            <unittitle>Insurance Accounts <unitdate type="inclusive" normal="1916/1922">1916-1922</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">5</container>
+            <container type="reel" label="Roll">11</container>
+            <unittitle>Time and Payroll Book <unitdate type="inclusive" normal="1909/1910">1909-1910</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">5</container>
+            <container type="reel" label="Roll">11</container>
+            <unittitle>Time and Payroll Book <unitdate type="inclusive" normal="1912/1913">1912-1913</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">5</container>
+            <container type="reel" label="Roll">11</container>
+            <unittitle>Sales Book <unitdate type="inclusive" normal="1875/1881">1875-1881</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">5</container>
+            <container type="reel" label="Roll">12</container>
+            <unittitle>Sales Books <unitdate type="inclusive" normal="1900/1919">1900-1919</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="volume" label="Oversize Volume">4</container>
+            <unittitle>Cash Book <unitdate type="inclusive" normal="1859/1866">1859-1866</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="volume" label="Oversize Volume">5</container>
+            <unittitle>Scrapbook of sales brochures of Mack and Company <unitdate type="inclusive" normal="1926/1928">1926-1928</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Cash Book of the estate of Christian Mack <unitdate type="inclusive" normal="1902/1910">1902-1910</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Departmental record book <unitdate type="inclusive" normal="1901/1914">1901-1914</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Walter C. Mack record book <unitdate type="inclusive" normal="1889/1897">1889-1897</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Cash Book <unitdate type="inclusive" normal="1901/1906">1901-1906</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Annual and Semi-annual financial statements <unitdate type="inclusive" normal="1892/1901">1892-1901</unitdate></unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Miscellaneous Papers records:</unittitle>
+        </did>
+        <odd>
+          <p>(tax materials, other investments, employee material, and publications)</p>
+        </odd>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Balance Sheets <unitdate type="inclusive" normal="1889/1892">1889-1892</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Record of Hosiery Sales <unitdate type="inclusive" normal="1936/1938">1936-1938</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Record of Sales of the Cunningham Drug Store <unitdate type="inclusive" normal="1936/1938">1936-1938</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Papers concerning the estate of Christian Mack <unitdate type="inclusive" normal="1908/1913">1908-1913</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Receipt <unitdate type="inclusive" normal="1862">1862</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Papers concerning annual meetings of stockholders <unitdate type="inclusive" normal="1895/1939">1895-1939</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Retail Stores of Ann Arbor income tax returns.</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1931/1933">1931-1933</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1934/1935">1934-1935</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1936/1937">1936-1937</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Mack and Company and Mercantile Properties (operation income tax returns)</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1932">1932</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1933/1934">1933-1934</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Mercantile Properties Corporation income tax returns <unitdate type="inclusive" normal="1934/1937">1934-1937</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Mack and Company income tax returns</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1934/1935">1934-1935</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1936/1937">1936-1937</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Income tax papers concerning employees <unitdate type="inclusive" normal="1930/1938">1930-1938</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Income tax returns of Walter C. Mack <unitdate type="inclusive" normal="1932/1937">1932-1937</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Income tax returns of Christian Mack <unitdate type="inclusive" normal="1936/1937">1936-1937</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Income tax returns of Virginia Mack <unitdate type="inclusive" normal="1936">1936</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Income tax return of W.C. Mack <unitdate type="inclusive" normal="1940">1940</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Mack and Company Statements</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1919/1923">1919-1923</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1924/1929">1924-1929</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1930/1936">1930-1936</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Retail Stores of Ann Arbor</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Mercantile Properties Corporation</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">5</container>
+            <unittitle>W.C. Mack Realty Company</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">5</container>
+            <unittitle>Mack and Company balance sheets <unitdate type="inclusive" normal="1923/1935">1923-1935</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">5</container>
+            <unittitle>Mack and Company dividend records</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">5</container>
+            <unittitle>Diagrams of the Mack and Company building <unitdate type="inclusive" normal="1924">1924</unitdate>, <unitdate type="inclusive" normal="1927">1927</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">5</container>
+            <unittitle>Loan from the University of Michigan <unitdate type="inclusive" normal="1935/1940">1935-1940</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">5</container>
+            <unittitle>Cunningham Drug Store lease</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">5</container>
+            <unittitle>Robin Redbreast Hosiery Company lease</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">5</container>
+            <unittitle>Pansy Hosiery Company lease</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">5</container>
+            <unittitle>Schwaebischer Unterstuetzungs Verein lease</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">5</container>
+            <unittitle>Vogel lease</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">5</container>
+            <unittitle>Book of Rules for employees of Mack and Company</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">5</container>
+            <unittitle>Lewis G. Christman's work as trustee for Mack and Company <unitdate type="inclusive" normal="1939/1940">1939-1940</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">5</container>
+            <unittitle>Walter Mack's purchase of stock in the Hoover Steel Ball Company</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">5</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 folders</extent>
+            </physdesc>
+            <unittitle>Miscellaneous</unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">5</container>
+            <unittitle>Newsletter -- The Mackazine</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">5</container>
+            <unittitle>Memos to Employees</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">5</container>
+            <unittitle>Lists of Employees <unitdate type="inclusive" normal="1913/1924">1913-1924</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">5</container>
+            <unittitle>Microfilm</unittitle>
+          </did>
+          <odd>
+            <p>(positive use copy; contents described above)</p>
+          </odd>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

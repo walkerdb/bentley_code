@@ -1,0 +1,523 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead.dtd">
+<ead>
+  <eadheader audience="internal" langencoding="iso639-2b" repositoryencoding="iso15511" dateencoding="iso8601" relatedencoding="Dublin Core">
+    <eadid countrycode="us" mainagencycode="MiU-H" publicid="-//us::MiU-H//TEXT us::MiU-H::maygs.xml//EN" encodinganalog="identifier">umich-bhl-88547</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="title">Finding Aid for George S. May Papers <date>1946-1999</date></titleproper>
+        <author encodinganalog="creator">Collection processed and finding aid prepared by Jessica Tam</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="publisher">Bentley Historical Library, University of Michigan</publisher>
+        <date encodinganalog="date">1999</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created by Jessica Tam <date>October 1999</date></creation>
+      <langusage>The finding aid is written in <language encodinganalog="language" langcode="eng">English.</language></langusage>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date>20031010</date>
+        <item>Converted to EAD2002 using Word macro and Xmetal</item>
+      </change>
+      <change>
+        <date>1999-10-14</date>
+        <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <frontmatter>
+    <titlepage>
+      <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
+      <titleproper>Finding Aid for <lb/>George S. May Papers, <date type="inclusive">1946-1999</date></titleproper>
+      <author>Finding aid prepared by: <lb/>Jessica Tam</author>
+    </titlepage>
+  </frontmatter>
+  <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
+    <did>
+      <origination>
+        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n78077453">May, George S.</persname>
+      </origination>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">2.2 linear feet</extent>
+      </physdesc>
+      <unittitle encodinganalog="245">George S. May Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1946/1999">1946-1999</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1987/1995">1987-1995</unitdate></unittitle>
+      <abstract>Eastern Michigan University professor of history; University of Michigan student notebooks, research materials on the history of the automobile in Michigan.</abstract>
+      <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">88547 Aa 2</unitid>
+      <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
+      <repository>
+        <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea> University of Michigan</corpname>
+        <extptr href="bhladd" show="embed" actuate="onload"/>
+      </repository>
+    </did>
+    <descgrp type="admin">
+      <acqinfo encodinganalog="541">
+        <p>The bulk of the collection was donated by George May in March, 1999 (donor # <num type="donor" encodinganalog="541$e">2920</num>).</p>
+      </acqinfo>
+      <accessrestrict encodinganalog="506">
+        <p>The collection is open for research.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+        <p>Copyright has been transferred to the Regents of the University of Michigan.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+        <p>item, folder title, box no., George S. May Papers, Bentley Historical Library, University of Michigan</p>
+      </prefercite>
+    </descgrp>
+    <bioghist encodinganalog="545">
+      <p>George S. May graduated from the University of Michigan, receiving all of his degrees in history. Between 1956 and 1966 he was employed by the Michigan Historical Commission, heading up the state's historical marker program, and serving for one year as editor of <title render="italic">Michigan History Magazine</title>. Subsequently, May became a professor of history at Eastern Michigan University. Throughout his career, May has written extensively on topics relating to Michigan history. Included are a biographical study of R. E. Olds and a history of the automobile industry in Michigan entitled, <title render="italic">A Most Unique Machine</title>.</p>
+      <p>In 1987 May was commissioned by the Henry Ford Museum to write a book on the affect of the automobile on life in America. The proposed volume would cover the history of the automobile from the creation of the first horseless carriage up to the present. It was to be titled "The Automobile in American Life" and was intended to be part of a Henry Ford exhibition of the same name in 1990-1991.</p>
+      <p>As part of his research, May interviewed people with different perspectives on the automobile industry, including factory workers, car salesmen, industry executives, patent lawyers, and those who experienced the change from a horse and carriage lifestyle to an automotive one. These interviews included discussion on the ways the automobile helped shape a new culture and literally changed the landscape in America. The proposed "The Automobile in American Life" volume was never published.</p>
+    </bioghist>
+    <scopecontent encodinganalog="520">
+      <p>The George May papers consists primarily of research files from his study of the history of the automobile. There is also a small series of student notebooks compiled while he was a student of history at the University of Michigan. The series in the collection are Automobile History Research and University of Michigan Student Notebooks.</p>
+    </scopecontent>
+    <controlaccess>
+      <p>
+        <extptr href="accnote" show="embed" actuate="onload"/>
+      </p>
+      <controlaccess>
+        <head>Subjects:</head>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n80025910">Dumond, Dwight Lowell, 1895-1976</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n80112971">Eldersveld, Samuel James.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50005149">Fine, Sidney, 1920-</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n78077453">May, George S.</persname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of History.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Political Science.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Student notebooks.</corpname>
+        <subject source="lcsh" encodinganalog="650">Automobile industry and trade.</subject>
+        <subject source="lcsh" encodinganalog="650">Oral history.</subject>
+      </controlaccess>
+      <controlaccess>
+        <head>Subjects - Visual Material:</head>
+        <persname source="lcnaf" encodinganalog="600">Shettler, Reuben.</persname>
+        <persname source="lcnaf" encodinganalog="600">Smith, Frederick.</persname>
+      </controlaccess>
+      <controlaccess>
+        <head>Genre/Form:</head>
+        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+      </controlaccess>
+    </controlaccess>
+    <dsc type="combined">
+      <c01 level="series">
+        <did>
+          <unittitle>Automobile History Research</unittitle>
+        </did>
+        <scopecontent>
+          <p>The Automobile History Research series includes biographical materials on several early automobile manufacturers, interview transcripts, audio tapes of interviews, the manuscript for his automobile history, and correspondence with the Henry Ford Museum about the project. The interviews were conducted in 1978-1979, and contain a wide variance of perspectives on how the automobile changed American life and the new businesses it spawned. The audio tapes contain interviews May conducted for his research. These tapes are indexed. This series also contains the complete text of The Automobile in American Life, both the original text, and the shorter, edited version intended for publication by the Henry Ford Museum. Included here are notes and newsclippings used for research in each individual chapter as well as intended illustrations. The correspondence file consists of exchanges with the Henry Ford Museum and the editor of Michigan History about attempts to get The Automobile in American Life published after the Henry Ford Museum did not use it for its exhibition.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <unittitle>Biographical Research Materials</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Oliver Barthell</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Donald Dolson</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>R.E. Olds</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Benjamin Briscoe</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Frank Briscoe <unitdate type="inclusive" normal="1954">1954</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Alanson Brush</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Charles B. King</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Interview Transcripts</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Rosalind Arbour <unitdate type="inclusive" normal="1978">1978</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Mrs. Harry B. Atkins <unitdate type="inclusive" normal="1979">1979</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Milton Barnes <unitdate type="inclusive" normal="1979">1979</unitdate></unittitle>
+            </did>
+            <odd>
+              <p>includes biographical material</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>C. Eugene Beatly (incomplete)</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Mrs. Dorothy Bird <unitdate type="inclusive" normal="1979">1979</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Mrs. Lee Bunton <unitdate type="inclusive" normal="1979">1979</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>John Burton <unitdate type="inclusive" normal="1979">1979</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Edward S. Chipman <unitdate type="inclusive" normal="1979">1979</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>C. Townsend Clark <unitdate type="inclusive" normal="1979">1979</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Oscar Collins <unitdate type="inclusive" normal="1979">1979</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Virginia Cooper <unitdate type="inclusive" normal="1978">1978</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Donald Disbrow <unitdate type="inclusive" normal="1978">1978</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Herbert Estes <unitdate type="inclusive" normal="1979">1979</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Raymond Fischer <unitdate type="inclusive" normal="1978">1978</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Foster Fletcher <unitdate type="inclusive" normal="1979">1979</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>James E. Green <unitdate type="inclusive" normal="1979">1979</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Sydney and Barbara Guy <unitdate type="inclusive" normal="1978">1978</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Thurlow L. Hansen <unitdate type="inclusive" normal="1979">1979</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Ellen Hood <unitdate type="inclusive" normal="1978">1978</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Arthur Howard <unitdate type="inclusive" normal="1978">1978</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
+              </physdesc>
+              <unittitle>L. Gaylord Hubbard <unitdate type="inclusive" normal="1974/1975">1974-1975</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+            <odd>
+              <p>correspondence and biographical materials</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>John Livingston, c. <unitdate type="inclusive" normal="1978/1979">1978-1979</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>A. P. Marshall <unitdate type="inclusive" normal="1979">1979</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Tish <unitdate type="inclusive" normal="1979">May 1979</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Mr. and Mrs. J.F. Meulman <unitdate type="inclusive" normal="1979">1979</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Harold Ormond <unitdate type="inclusive" normal="1978">1978</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>George Palmer <unitdate type="inclusive" normal="1979">1979</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Frank Pitt <unitdate type="inclusive" normal="1978">1978</unitdate></unittitle>
+            </did>
+            <odd>
+              <p>includes some biographical information</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Vernon Satterwaite <unitdate type="inclusive" normal="1979">1979</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>John Simpson <unitdate type="inclusive" normal="1979">1979</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Byron Spence <unitdate type="inclusive" normal="1979">1979</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Jean Sundquist <unitdate type="inclusive" normal="1978">1978</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Paul Szonyi, c. <unitdate type="inclusive" normal="1978/1979">1978-1979</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Karl Tunnicliffe <unitdate type="inclusive" normal="1978">1978</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Dorsey Walker <unitdate type="inclusive" normal="1979">1979</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>James Westfall <unitdate type="inclusive" normal="1978">1978</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Audio Tapes of interviews</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Index of tapes <unitdate type="inclusive" normal="1999">1999</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 small boxes</extent>
+              </physdesc>
+              <unittitle>Cassette tapes containing interviews with individuals about the history of the automobile <unitdate type="inclusive" normal="1978/1979">1978-1979</unitdate></unittitle>
+              <physdesc>
+                </physdesc>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Manuscript of automobile history and related</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>The Automobile in American Life Manuscript <unitdate type="inclusive" normal="1987/1990">1987-1990</unitdate></unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">7 folders</extent>
+                </physdesc>
+                <unittitle>Chapters 1-7</unittitle>
+                <physdesc altrender="whole">
+                  </physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle>Manuscript Sources</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">3 folders</extent>
+              </physdesc>
+              <unittitle>Edited for Publication copy of <title render="italic">The Automobile in American Life</title> Chapters 1-7</unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">3 folders</extent>
+              </physdesc>
+              <unittitle>Notes and Newsclippings used for Manuscripts</unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">6 folders</extent>
+              </physdesc>
+              <unittitle>Notes and Newsclipping used for <title render="italic">The Automobile in American Life</title> Chapters 2-7</unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Illustrations for books</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>
+                <genreform source="aat" normal="Photographs">Photographs</genreform>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Henry Ford Museum's Exhibitions Reviews</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Correspondence with Henry Ford Museum <unitdate type="inclusive" normal="1990/1995">1990-1995</unitdate></unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>University of Michigan Student Notebooks</unittitle>
+        </did>
+        <scopecontent>
+          <p>May's University of Michigan Student Notebooks have his extensive class notes and syllabi from his coursework. The classes were political science and American history classes taught by Sidney Fine, Samuel Eldersveld, and Dwight Dumond.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 volumes</extent>
+            </physdesc>
+            <unittitle>Notes taken from classes at the U-M <unitdate type="inclusive" normal="1946/1947">1946-1947</unitdate>, <unitdate type="inclusive" normal="1950/1951">1950-1951</unitdate></unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

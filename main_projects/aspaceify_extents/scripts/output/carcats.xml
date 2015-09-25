@@ -1,0 +1,2570 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead.dtd">
+<ead>
+  <eadheader audience="internal" langencoding="iso639-2b" repositoryencoding="iso15511" dateencoding="iso8601" relatedencoding="Dublin Core" scriptencoding="iso15924" countryencoding="iso3166-1">
+    <eadid countrycode="us" mainagencycode="MiU-H" publicid="us//::miu-h//TXT us::miu-h::carcats.xml//EN" encodinganalog="Identifier">umich-bhl-7110</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="Title">Finding Aid for Catalogs of Michigan-based automobile companies, 1896-1971 and undated</titleproper>
+        <author encodinganalog="Creator">Collection processed and finding aid created by Michigan Historical Collections staff</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="Publisher">Bentley Historical Library, University of Michigan</publisher>
+        <date encodinganalog="Date" normal="2008">2008</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created by Greg Kinney <date>2008</date></creation>
+      <langusage encodinganalog="Language">The finding aid is written in <language langcode="eng" scriptcode="Latn">English</language></langusage>
+      <descrules>Finding aid prepared using Describing Archives: A Content Standard (DACS)</descrules>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date>2008-11-21</date>
+        <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <frontmatter>
+    <titlepage>
+      <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
+      <titleproper>Finding aid for <lb/>Catalogs of Michigan-based automobile companies, <lb/>1896- 1971 and undated</titleproper>
+      <author>Finding aid created by <lb/>Michigan Historical Collections staff</author>
+    </titlepage>
+  </frontmatter>
+  <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
+    <did>
+      <origination>
+        <corpname source="lcnaf" encodinganalog="110">Bentley Historical Library (collector)</corpname>
+      </origination>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">5 boxes and oversize items</extent>
+      </physdesc>
+      <unittitle encodinganalog="245">Catalogs of Michigan-based automobile companies <unitdate type="inclusive" encodinganalog="245$f" normal="1896/1971">1896-1971</unitdate>, <unitdate type="inclusive" encodinganalog="245$f">undated</unitdate></unittitle>
+      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">EA 134 A939 C357</unitid>
+      <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
+      <abstract>Trade catalogs, brochures and other promotional material produced by Michigan automobile manufacturers, primarily 1905-1935.</abstract>
+      <repository>
+        <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea>, University of Michigan</corpname>
+        <extptr href="bhladd" show="embed" actuate="onload"/>
+      </repository>
+    </did>
+    <descgrp type="admin">
+      <acqinfo encodinganalog="541">
+        <p>The collections was assembled from a variety of sources.</p>
+      </acqinfo>
+      <accruals encodinganalog="584">
+        <p>Periodic additions to the collection are expected.</p>
+      </accruals>
+      <accessrestrict encodinganalog="506">
+        <p>The collection is open to research.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+        <p>Copyright status of individual items varies.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+        <p>[item], folder, box,
+Catalogs of Michigan-based automobile companies, 1896-1971 and undated, Bentley Historical Library, University of Michigan</p>
+      </prefercite>
+    </descgrp>
+    <bioghist encodinganalog="545">
+      <p>The Bentley Historical Library as a repository of Michigan-based materials has accumulated from different sources a collection of automobile catalogs. These catalogs are an important source for the study of the development of the automobile industry in Michigan.</p>
+    </bioghist>
+    <scopecontent encodinganalog="520">
+      <p>The collection consists of trade catalogs, brochures and other promotional material produced by Michigan automobile manufacturers, primarily 1905-1935.The collection has been arranged alphabetically by name of automobile company. A few catalogs from non-Michigan companies are included, mainly Indiana, Ohio and New York companies.</p>
+    </scopecontent>
+    <controlaccess>
+      <p>
+        <extptr href="accnote" show="embed" actuate="onload"/>
+      </p>
+      <controlaccess>
+        <head>Subjects:</head>
+        <subject source="lcsh" encodinganalog="650">Automobiles--Catalogs.</subject>
+        <corpname source="lcnaf" encodinganalog="610">Aerocar Company of Detroit--Catalogs.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Alden Sampson Manufacturing Company--Catalogs.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Alpena Motor Car Company--Catalogs.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">American Voiturette Company--Catalogs.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Anderson Electric Car Company--Catalogs.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Anhut Motor Car Company--Catalogs.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">C.H. Blomstrom Motor Company--Catalogs.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Briggs-Detroiter Company--Catalogs.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Buick Motor Company--Catalogs.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Cadillac Motor Car Company--Catalogs.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Chalmers-Detroit Motor Company--Catalogs.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Chevrolet Motor Car Company--Catalogs.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Chrysler Corporation--Catalogs.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Church Manufacturing Company--Catalogs.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Cole Motor Car Company--Catalogs.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Colonial Automobile Company--Catalogs.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Commerce Motor Car Company--Catalogs.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Courier Car Company--Catalogs.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Day Automobile Company--Catalogs.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Demotcar Sales Company--Catalogs.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Detroit-Dearborn Motor Car Company--Catalogs.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Dort Motor Car Company--Catalogs.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Durant Motors, Inc.--Catalogs.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">E-M-F Company--Catalogs.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Flint Motor Company--Catalogs.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Dodge Brothers--Catalogs.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Ford Motor Company--Catalogs.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">H. H. Franklin Manufacturing Company--Catalogs.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">General Motors Corporation--Catalogs.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">General Motors Corporation. Buick Motor Division--Catalogs.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">General Motors Corporation. Cadillac Motor Car Division--Catalogs.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">General Motors Corporation. Chevrolet Motor Division--Catalogs.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">General Motors Corporation. Oldsmobile Division--Catalogs.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">General Motors Corporation. Pontiac Motor Division--Catalogs.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Graham-Paige Motors Corporation--Catalogs.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Harrison Wagon Company--Catalogs.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Herreshoff Motor Company--Catalogs.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Huber Automobile Company--Catalogs.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Hudson Motor Car Company--Catalogs.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Hupp Motor Car Company--Catalogs.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Jackson Automobile Company--Catalogs.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Johnson Service Company--Catalogs.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Kaiser Frazer Corp.--Catalogs.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">King Motor Car Company--Catalogs.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Kissel Motor Car Company--Catalogs.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">K-R-I-T Motor Car Company--Catalogs.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">LeBaron, Inc.--Catalogs.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Lewis Spring &amp; Axle Company--Catalogs.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Lincoln Motor Company (Detroit, Mich.)--Catalogs.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Lion Motor Car Company--Catalogs.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Metzger Motor Car Company--Catalogs.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Michigan Automobile Company--Catalogs.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Michigan Motor Car Manufacturing Company--Catalogs.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Munson Company--Catalogs.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Nash Motors Company--Catalogs.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">National Motor Vehicle Company--Catalogs.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Oakland Motor Car Company--Catalogs.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Olds Motor Works--Catalogs.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Packard Motor Car Company--Catalogs.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Paige-Detroit Motor Car Company--Catalogs.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">W.A. Paterson Company--Catalogs.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Reo Motor Car Company--Catalogs.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Saxon Motor Car Company--Catalogs.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Springfield Body Company--Catalogs.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Studebaker Corporation--Catalogs.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">E.R. Thomas Detroit Company--Catalogs.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Warren Motor Car Company--Catalogs.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Welch Motor Car Company--Catalogs.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Willys-Overland Motors, Inc.--Catalogs.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Winton Motor Carriage Company--Catalogs.</corpname>
+      </controlaccess>
+      <controlaccess>
+        <head>Genre Terms:</head>
+        <genreform source="aat" encodinganalog="655">Trade catalogs--Indiana--Indianapolis.</genreform>
+        <genreform source="aat" encodinganalog="655">Trade catalogs--Indiana--La Porte.</genreform>
+        <genreform source="aat" encodinganalog="655">Trade catalogs--Michigan--Adrian.</genreform>
+        <genreform source="aat" encodinganalog="655">Trade catalogs--Michigan--Alpena.</genreform>
+        <genreform source="aat" encodinganalog="655">Trade catalogs--Michigan--Chelsea.</genreform>
+        <genreform source="aat" encodinganalog="655">Trade catalogs--Michigan--Dearborn.</genreform>
+        <genreform source="aat" encodinganalog="655">Trade catalogs--Michigan--Detroit.</genreform>
+        <genreform source="aat" encodinganalog="655">Trade catalogs--Michigan--Flint.</genreform>
+        <genreform source="aat" encodinganalog="655">Trade catalogs--Michigan--Grand Rapids.</genreform>
+        <genreform source="aat" encodinganalog="655">Trade catalogs--Michigan--Jackson.</genreform>
+        <genreform source="aat" encodinganalog="655">Trade catalogs--Michigan--Kalamazoo.</genreform>
+        <genreform source="aat" encodinganalog="655">Trade catalogs--Michigan--Lansing.</genreform>
+        <genreform source="aat" encodinganalog="655">Trade catalogs--Michigan--Pontiac.</genreform>
+        <genreform source="aat" encodinganalog="655">Trade catalogs--Michigan--Willow Run.</genreform>
+        <genreform source="aat" encodinganalog="655">Trade catalogs--New York (State)--New York.</genreform>
+        <genreform source="aat" encodinganalog="655">Trade catalogs--New York (State)--Syracuse.</genreform>
+        <genreform source="aat" encodinganalog="655">Trade catalogs--Ohio--Cleveland.</genreform>
+        <genreform source="aat" encodinganalog="655">Trade catalogs--Ohio--Dayton.</genreform>
+        <genreform source="aat" encodinganalog="655">Trade catalogs--Ohio--Toledo.</genreform>
+        <genreform source="aat" encodinganalog="655">Trade catalogs--Wisconsin--Hartford.</genreform>
+        <genreform source="aat" encodinganalog="655">Trade catalogs--Wisconsin--Kenosha.</genreform>
+      </controlaccess>
+    </controlaccess>
+    <dsc type="combined">
+      <c01 level="series">
+        <did>
+          <unittitle>Aerocar - Flint Motors</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Aerocar Company of Detroit, Detroit, Mich.</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>The Aerocar land yachts <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+            <odd>
+              <p>(folded leaflet illustrating trailers)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>9 pages of photographs of Aerocar trailers</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Alden Sampson Mfg. Co., Detroit, Mich.</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>The Sampson thirty-five <unitdate type="inclusive" normal="1911" certainty="approximate">circa 1911</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Alpena Motor Car Co., Alpena, Mich.</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Prospectus for preferred stock offering <unitdate type="inclusive" normal="1912" certainty="approximate">circa 1912</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>American Voiturette Co., Detroit, Mich.</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>The triple test [pamphlet advertising the Keeton and Car-Nation cars] <unitdate type="inclusive" normal="1914" certainty="approximate">circa 1914</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Anderson Electric Car Co., Detroit, Mich.</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>The Detroit electric <unitdate type="inclusive" normal="1911">1911</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Bi-Autogo (James Scripps Booth)</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>The Bi-Autogo, world's first large two-wheeled car <unitdate type="inclusive" normal="1908/1912">1908-1912</unitdate>, <unitdate type="inclusive" normal="1954">1954</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Black Roadster, (no company given).</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Black roadtser <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Briggs-Detroiter Co., Detroit, Mich.</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Advertising brochure for the Detroiter Model D "Eight," <unitdate type="inclusive" normal="1915">1915</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Buick Motor Car Co., Flint, Mich.</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Buick <unitdate type="inclusive" normal="1910">1910</unitdate> specifications</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Buick mechanical features models 16 and 17 <unitdate type="inclusive" normal="1910">1910</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle><unitdate type="inclusive" normal="1912">1912</unitdate> Buick models 28-29</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>6 brilliant performers, Marquette, built by Buick <unitdate type="inclusive" normal="1930">1930</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Buick for <unitdate type="inclusive" normal="1930">1930</unitdate> [booklet and advertising brochure]</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Buick valve-in-head straight 8 <unitdate type="inclusive" normal="1931">1931</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Advertising brochure <unitdate type="inclusive" normal="1932">1932</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>New thousands can now own this big Buick straight eight sedan <unitdate type="inclusive" normal="1932">1932</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Buick series 50 straight eight <unitdate type="inclusive" normal="1932">1932</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Series 50 Buick straight eight for <unitdate type="inclusive" normal="1932">1932</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Advertisement <unitdate type="inclusive" normal="1939">1939</unitdate> Buick Century</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Buick <unitdate type="inclusive" normal="1940">1940</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Two advertising brochures <unitdate type="inclusive" normal="1940">1940</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Flint and the auto era <unitdate type="inclusive" normal="1945">1945</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Two articles from GM Folks Magazine advertising new models <unitdate type="inclusive" normal="1938">1938</unitdate>, <unitdate type="inclusive" normal="1951">1951</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>A quick look at Buick yesterday and today <unitdate type="inclusive" normal="1967">1967</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>For gallantry in action: The Buick Limited <unitdate type="inclusive">Undated</unitdate> (outsize)</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>The Buick eight for <unitdate type="inclusive" normal="1932">1932</unitdate> (outsize)</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Buick <unitdate type="inclusive" normal="1940">1940</unitdate> (outsize)</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>The C.H. Blomstrom Motor Co., Detroit, Mich.</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Queen gasoline automobiles, runabouts &amp; touring cars <unitdate type="inclusive" normal="1905">1905</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Cadillac Motor Car Co., Detroit, Mich.</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Cadillac <unitdate type="inclusive" normal="1912">1912</unitdate> instructions for care and operation</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Cadillac <unitdate type="inclusive" normal="1912">1912</unitdate> special instructions for starting engine</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Cadillac <unitdate type="inclusive" normal="1912">1912</unitdate> advance leaflet,</unittitle>
+            </did>
+            <odd>
+              <p>(2 copies)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>The story of the Cadillac <unitdate type="inclusive">Undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>The story of the Cadillac <unitdate type="inclusive">Undated</unitdate> 2 copies</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>The story of the Cadillac <unitdate type="inclusive">Undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>A new interpretation of motoring security <unitdate type="inclusive">Undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>New interpretations of motoring luxury <unitdate type="inclusive">Undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Presenting the new LaSalle Town Sedan <unitdate type="inclusive">Undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Three advertising brochures for the LaSalle <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Eight miscellaneous advertising brochures and photographs</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>The Cadillac eight <unitdate type="inclusive" normal="1931" certainty="approximate">circa 1931</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Cadillac presents the new <unitdate type="inclusive" normal="1936">1936</unitdate> LaSalle</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Chalmers-Detroit Motor Co., Detroit, Mich.</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>The champion car <unitdate type="inclusive" normal="1909">1909</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>The <unitdate type="inclusive" normal="1909">1909</unitdate> models</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Chalmers-Detroit cars <unitdate type="inclusive" normal="1910">1910</unitdate></unittitle>
+            </did>
+            <odd>
+              <p>[includes 5 loose color plates]</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">3 copies</extent>
+              </physdesc>
+              <unittitle>Chalmers <unitdate type="inclusive" normal="1911">1911</unitdate> models</unittitle>
+              <physdesc>
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Advertisement for Chalmers-Detroit "30" limousine <unitdate type="inclusive">Undated</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Chevrolet Motor Car Co. (and General Motors Corp. Chevrolet Divison), Detroit Mich.</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>The greatest Chevrolet in Chevrolet history <unitdate type="inclusive" normal="1930">1930</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Three new Chevrolet models <unitdate type="inclusive">Undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>New Chevrolet six <unitdate type="inclusive" normal="1932">1932</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="folder" label="Oversize Folder">NB D48 A938</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 copies of 1941</extent>
+              </physdesc>
+              <unittitle>Four advertising brochures <unitdate type="inclusive" normal="1939">1939</unitdate>, <unitdate type="inclusive" normal="1940">1940</unitdate>, <unitdate type="inclusive" normal="1941">1941</unitdate></unittitle>
+              <physdesc>
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Advertising brochure <unitdate type="inclusive" normal="1964">1964</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Chrysler Sales Corp., Detroit, Mich.</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>DeSoto announces new motor cars... <unitdate type="inclusive">Undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>DeSoto six <unitdate type="inclusive">Undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>El Chrysler "65" <unitdate type="inclusive">Undated</unitdate></unittitle>
+            </did>
+            <odd>
+              <p>(in Spanish)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>The new DeSoto eight <unitdate type="inclusive">Undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>The Chrysler eight <unitdate type="inclusive">Undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Chrysler Imperial eight <unitdate type="inclusive">Undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Chrysler builds an eight with an all steel body <unitdate type="inclusive">Undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>The Chrysler eight <unitdate type="inclusive">Undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>The new Chrysler six <unitdate type="inclusive">Undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>The Chrysler Retailer v.l no.3 <unitdate type="inclusive" normal="1931-09-28">September 28, 1931</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>A style that re-styles all motor cars <unitdate type="inclusive">Undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Advertising brochure for the Chrysler "75," <unitdate type="inclusive">Undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Six advertising pamphlets for the Chrysler Plymouth <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Two advertisements for the Chrysler Plymouth <unitdate type="inclusive" normal="1939">1939</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">8 issues</extent>
+                <physfacet>scattered</physfacet>
+              </physdesc>
+              <unittitle>The Chrysler Magazine (name varies) <unitdate type="inclusive" normal="1941/1956">1941-1956</unitdate></unittitle>
+              <physdesc>
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>The beautiful Chrysler <unitdate type="inclusive" normal="1940">1940</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle><unitdate type="inclusive" normal="1940">1940</unitdate> Plymouth Road King</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>DeLuxe Plymouth for <unitdate type="inclusive" normal="1940">1940</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Church Manufacturing Co, .Adrian, Mich.</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Photostats of 3 <unitdate type="inclusive">undated</unitdate> advertising pamphlets</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Cole Motor Co., Indianapolis Ind.</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Cole 30, a car with superb and ssilent service <unitdate type="inclusive" normal="1912">1912</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Cole Wins, Henderson Bulletin <unitdate type="inclusive" normal="1911-09-16">September 16, 1911</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Colonial Automobile Co., Indianaplis, Ind.</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>The Colonial Six</unittitle>
+              <unitdate type="inclusive">undated</unitdate>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Commerce Motor Co., Detroit, Mich.</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Detroit-Dearborn touring torpedo <unitdate type="inclusive" normal="1910">1910</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Detroit-Dearborn Motor Co., Dearborn, Mich.</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle><unitdate type="inclusive" normal="1912">1912</unitdate> Commerce motor car</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Dodge Brothers, Inc., Detroit, Mich.</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>DB [illustrated brochure] <unitdate type="inclusive" normal="1917">1917</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Dodge Brothers motor cars <unitdate type="inclusive" normal="1925">1925</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Dodge Brothers motor cars in special types <unitdate type="inclusive" normal="1925">1925</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>New Dodge six <unitdate type="inclusive" normal="1931">1931</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>New Dodge eight <unitdate type="inclusive" normal="1931">1931</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>New Dodge six <unitdate type="inclusive">Undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>New Dodge eight <unitdate type="inclusive">Undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Dodge Brothers six <unitdate type="inclusive">Undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>A new six by Dodge Brothers <unitdate type="inclusive">Undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>New Dodge eight, brilliantly advanced-traditionally fine <unitdate type="inclusive">Undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>A new eight in line <unitdate type="inclusive">Undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>New Dodge six, a new pace-a new spirit <unitdate type="inclusive">Undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>New Dodge Brothers six <unitdate type="inclusive">Undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>A new eight in line by Dodge Brothers <unitdate type="inclusive">Undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Standard-size [19]63 Dodge</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle><unitdate type="inclusive" normal="1963">1963</unitdate> compact Dodge Dart</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Dodge News <unitdate type="inclusive" normal="1940-02/1963-09">February 1940-September 1963</unitdate> 174 Dodge automobile advertisements clipped from issues of the Dodge News; some complete issues</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle><unitdate type="inclusive" normal="1940">1940</unitdate> Dodge Luxury Liner</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Dort Motor Car Co.m Flint, Mich.</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Dort Motor cars <unitdate type="inclusive" normal="1916">1916</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Durant Motors, Inc., Flint, Mich.</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Stock certificate <unitdate type="inclusive" normal="1924">1924</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>E-M-F Co., Detroit, Mich.</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>"The Hyphen" v.l no.1 <unitdate type="inclusive">Undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Flanders 20 <unitdate type="inclusive" normal="1909" certainty="approximate">circa 1909</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>A technical description, Flanders 20 <unitdate type="inclusive" normal="1910">1910</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>E-M-F "30" <unitdate type="inclusive" normal="1910">1910</unitdate> touring car</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Flint Motor Co., Flint, Mich.</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>The Flint six <unitdate type="inclusive">Undated</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Ford - Hupp</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <unittitle>Ford Motor Co., Dearborn, Mich.</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 copies</extent>
+              </physdesc>
+              <unittitle>The Ford cars <unitdate type="inclusive" normal="1910">1910</unitdate></unittitle>
+              <physdesc>
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Ford motor cars <unitdate type="inclusive" normal="1910">1910</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Ford town cars and coupes <unitdate type="inclusive" normal="1910" certainty="approximate">circa 1910</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Ford motor cars souvenir booklet <unitdate type="inclusive" normal="1910">1910</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>The fourth birthday party, telling when each Ford car...was born...by Murray Fahnestock</unittitle>
+            </did>
+            <odd>
+              <p>(from Ford Owner and Dealer, June 1921)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>The story of the new Ford car <unitdate type="inclusive" normal="1927" certainty="approximate">circa 1927</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>The new Ford Victoria <unitdate type="inclusive">Undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Ford Illustrated News <unitdate type="inclusive">Undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>The new Ford deluxe body types <unitdate type="inclusive">Undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>The new Ford, value far above the price <unitdate type="inclusive" normal="1931">1931</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Ford V8 instruction book <unitdate type="inclusive" normal="1935">1935</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Fifty years of Ford progress <unitdate type="inclusive" normal="1946">1946</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Ford '55: The fine car of its field <unitdate type="inclusive" normal="1955">1955</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Ford station wagons <unitdate type="inclusive" normal="1956">1956</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Humorous post card, "Henry Ford has made walking popular"</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Two advertisements for the Ford Tot-Guard child safety shield <unitdate type="inclusive" normal="1970/1971">1970-1971</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>"Rough going on trans-Canada route in 1925" <unitdate type="inclusive" normal="1962">1962</unitdate></unittitle>
+            </did>
+            <odd>
+              <p>(appeared in the Dispatch, summer 1962 staff magazine of the Department of Public Works, Canada)</p>
+            </odd>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Fuller Buggy Company, Jackson, Mich.</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Fuller automobiles, advance catalogue <unitdate type="inclusive" normal="1910">1910</unitdate> Automobile section in two parts</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>General Motors Corp., Detroit, Mich.</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>General</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">3</container>
+                <unittitle>"Le Sabre is revealed", form G.M. Folks <unitdate type="inclusive" normal="1951-01-21">January 21, 1951</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">3</container>
+                <unittitle>The Automobile Buyer's Guide <unitdate type="inclusive" normal="1934">1934</unitdate> ed. [General Motors Customer Research staff]</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="folder" label="Oversize Folder">NB D48 A938</container>
+                <unittitle>Up from '29, 10 years of progress <unitdate type="inclusive" normal="1938">1938</unitdate></unittitle>
+              </did>
+              <odd>
+                <p>(shelved at NB D483 A938)</p>
+              </odd>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">3</container>
+                <unittitle>General Motors presents its <unitdate type="inclusive" normal="1941">1941</unitdate> model cars</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">3</container>
+                <unittitle>General Motors builds its first 50 million cars <unitdate type="inclusive" normal="1954">1954</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">3</container>
+                <unittitle>GM '58</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">3</container>
+                <unittitle>GM <unitdate type="inclusive" normal="1959">1959</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">3</container>
+                <unittitle>For fun in '61</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">3</container>
+                <unittitle>Headed for a typical General Motors success... <unitdate type="inclusive">Undated</unitdate> (outsize)</unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Graham-Paige Motors Corp., Detroit, Mich.</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>As another year begins <unitdate type="inclusive">Undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>As another year begins <unitdate type="inclusive">Undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Graham special six <unitdate type="inclusive">Undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Graham eights <unitdate type="inclusive">Undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Here it is! Blue Streak <unitdate type="inclusive" normal="1932">1932</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>The Graham eight twenty-two <unitdate type="inclusive" normal="1931">1931</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>A truly modern motor car <unitdate type="inclusive">Undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Nine advertising brochures <unitdate type="inclusive">Undated</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>H.H. Franklin Manufacturing Co., Syracuse, N.Y.</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Franklin Automobiles, simplicity vs. complexity <unitdate type="inclusive" normal="1910" certainty="approximate">circa 1910</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>Harrison Motor Car Co., Grand Rapids, Mich.</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>The Harrison motor car, "The car without a crank," Model 13 <unitdate type="inclusive" normal="1906" certainty="approximate">circa 1906</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Herreshoff Motor Co., Detroit, Mich.</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Herreshoff "Winners by land and sea," <unitdate type="inclusive" normal="1912">1912</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Huber Automobile Co., Detroit, Mich.</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>The Huber Automobile Company <unitdate type="inclusive" normal="1900/1909" certainty="approximate">circa 1900s</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Hudson Motor Car Co., Detroit, Mich.</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Hudson Six 54, the new ideal of a distinguished car <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 copies</extent>
+              </physdesc>
+              <unittitle>Hudson <unitdate type="inclusive" normal="1910">1910</unitdate></unittitle>
+              <physdesc>
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>The Hudson six-fifty four <unitdate type="inclusive">Undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>The Hudson for <unitdate type="inclusive" normal="1911">1911</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>How to choose a motor car <unitdate type="inclusive" normal="1912" certainty="approximate">circa 1912</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Hudson cars for <unitdate type="inclusive" normal="1912">1912</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 copies</extent>
+              </physdesc>
+              <unittitle>Hudson motor cars for <unitdate type="inclusive" normal="1912">1912</unitdate></unittitle>
+              <physdesc>
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>The Hudson "twenty" <unitdate type="inclusive" normal="1910">1910</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>The spirit of youth <unitdate type="inclusive">Undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>The Hudson light six-40 <unitdate type="inclusive" normal="1915">1915</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Hudson closed cars <unitdate type="inclusive" normal="1916">1916</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>The Greater Hudson <unitdate type="inclusive">Undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>The Greater Hudson 8 <unitdate type="inclusive">Undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Hudson enclosed cars for <unitdate type="inclusive" normal="1915">1915</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>##The Hudson Triangle v.7 no.23 <unitdate type="inclusive" normal="1917-12-01">December 1, 1917</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Hudson Motor Cars <unitdate type="inclusive" normal="1920">1920</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>The yacht-line Hudson six-40 <unitdate type="inclusive">Undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>The greater Hudson eight for <unitdate type="inclusive" normal="1931">1931</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>The new Hudson super-six pacemaker <unitdate type="inclusive" normal="1933">1933</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Hudson pacemaker eight, major series <unitdate type="inclusive" normal="1933">1933</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Hudson pacemaker eight, standard series <unitdate type="inclusive" normal="1933">1933</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle><unitdate type="inclusive" normal="1934">1934</unitdate> Hudson eight</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>The <unitdate type="inclusive" normal="1935">1935</unitdate> Hudson sixes and eights</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Automotive Daily News <unitdate type="inclusive" normal="1934-01-13">January 13, 1934</unitdate> Terraplane-Hudson section</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>The new Hudson sixes and eights <unitdate type="inclusive" normal="1936">1936</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Hudson super-six. It solved motordom's knottiest problem <unitdate type="inclusive">Undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Announcing new series Hudson super coaches <unitdate type="inclusive">Undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Hudson "light six" motor car <unitdate type="inclusive">Undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>New <unitdate type="inclusive" normal="1942">1942</unitdate> Hudson</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Hudson in the jubilee parade of progress <unitdate type="inclusive" normal="1946">1946</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>A sample convinces, demonstrations are samples, make more demonstrations [Manual for salesmen] <unitdate type="inclusive">Undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Questions and answers for Hudson-Essex retail salesmen <unitdate type="inclusive" normal="1931">1931</unitdate></unittitle>
+            </did>
+            <odd>
+              <p>(2 parts)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>The new Hudson convertible brougham <unitdate type="inclusive" normal="1948">1948</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Advertising card <unitdate type="inclusive" normal="1949">1949</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Hudson motor cars <unitdate type="inclusive" normal="1912">1912</unitdate></unittitle>
+            </did>
+            <odd>
+              <p>(outsize)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Hudson-Essex <unitdate type="inclusive" normal="1932">1932</unitdate></unittitle>
+            </did>
+            <odd>
+              <p>(outsize)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Essex instruction book, Essex super six <unitdate type="inclusive" normal="1930-04">April 1930</unitdate></unittitle>
+              <physdesc>
+                <physfacet>photocopy</physfacet>
+              </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>The new Essex super-six <unitdate type="inclusive" normal="1931">1931</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Rare riding and driving comfort $595 Essex super-six <unitdate type="inclusive">Undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Essex Terraplane <unitdate type="inclusive" normal="1932" certainty="approximate">circa 1932</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Terraplane 8 <unitdate type="inclusive" normal="1933">1933</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Terraplane 6 <unitdate type="inclusive" normal="1933">1933</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>The Essex Terraplane special six <unitdate type="inclusive">Undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>The <unitdate type="inclusive" normal="1935">1935</unitdate> Hudson-built Terraplane</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle><unitdate type="inclusive" normal="1936">1936</unitdate> Terraplane</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 eds</extent>
+              </physdesc>
+              <unittitle>Terraplane <unitdate type="inclusive" normal="1936">1936</unitdate></unittitle>
+              <physdesc>
+                </physdesc>
+            </did>
+            <odd>
+              <p>(outsize)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="folder" label="Oversize Folder">NB D48 A938</container>
+              <unittitle>Automotive Daily News <unitdate type="inclusive" normal="1930-11-26">November 26, 1930</unitdate></unittitle>
+            </did>
+            <odd>
+              <p>(shelved at NB D483 A938)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 oversize volumes</extent>
+              </physdesc>
+              <unittitle><unitdate type="inclusive" normal="1934">1934</unitdate> Hudson Terraplane</unittitle>
+              <physdesc>
+                </physdesc>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Hupp Motor Car Corp., Detroit, Mich.</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Advertising brochure <unitdate type="inclusive" normal="1910">1910</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Another year -- ans still no rival <unitdate type="inclusive" normal="1911">1911</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>The Hupmobile for <unitdate type="inclusive" normal="1916">1916</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Advertising brochure <unitdate type="inclusive" normal="1916">1916</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>The new Hupmobile Century eight <unitdate type="inclusive">Undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>The new Hupmobile Century 6 <unitdate type="inclusive">Undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Hupmobile series R <unitdate type="inclusive" normal="1921">1921</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Hupmobile <unitdate type="inclusive" normal="1931">1931</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>The new Hupmobiles <unitdate type="inclusive" normal="1932">1932</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Modern <unitdate type="inclusive" normal="1932">1932</unitdate> Hupmobiles</unittitle>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Jackson Automobile Co. -- Olds Motor Works</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <unittitle>Jackson Automobile Co., Jackson, Mich.</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Jackson model "21" <unitdate type="inclusive" normal="1912" certainty="approximate">circa 1912</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Jackson model "30" <unitdate type="inclusive" normal="1912" certainty="approximate">circa 1912</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Jackson model "38" <unitdate type="inclusive" normal="1912" certainty="approximate">circa 1912</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Jackson model "41" <unitdate type="inclusive" normal="1912" certainty="approximate">circa 1912</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Jackson model "51" <unitdate type="inclusive" normal="1912" certainty="approximate">circa 1912</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Jackson Automobile Company <unitdate type="inclusive" normal="1906" certainty="approximate">circa 1906</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Details of construction <unitdate type="inclusive" normal="1913">1913</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 copies</extent>
+              </physdesc>
+              <unittitle>Jackson, no hill too steep, no sand to deep <unitdate type="inclusive" normal="1916">1916</unitdate></unittitle>
+              <physdesc>
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Advertisement <unitdate type="inclusive" normal="1917" certainty="approximate">circa 1917</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Dealer booklet <unitdate type="inclusive" normal="1918">1918</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Johnson Service Co.</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>The auto-carriage <unitdate type="inclusive" normal="1901" certainty="approximate">circa 1901</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>K-R-I-T Motor Car Co., Detroit, Mich.</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Cuts and specifications for KRIT automobiles <unitdate type="inclusive" normal="1910">1910</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Krit motor cars <unitdate type="inclusive" normal="1912">1912</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Kaiser Frazer Corp., Willow Run, Mich.</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="folder" label="Oversize Folder">NB D48 A938</container>
+              <unittitle>Kaiser-Frazer Dealer News, v.7 no.4 <unitdate type="inclusive" normal="1953-02-28">February 28, 1953</unitdate></unittitle>
+            </did>
+            <odd>
+              <p>(shelved at NB 483 A938)</p>
+            </odd>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>King Motor Car Co., Detroit, Mich.</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>King motor cars <unitdate type="inclusive" normal="1912">1912</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Announcement, Model C <unitdate type="inclusive">Undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Eight cylinder King <unitdate type="inclusive" normal="1915">1915</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Kissel Motor Car Co., Hartford, Wis.</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>The custom built car <unitdate type="inclusive">Undated</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Le Baron, Inc. (designers of car bodies), New York, N.Y.</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Design book 1929-30</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Design book 1930-31</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Lewis Spring &amp; Axle Co., Chelsea, Mich.</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>And now comes the <unitdate type="inclusive" normal="1917">1917</unitdate> Hollier six</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Hollier eight, six, four <unitdate type="inclusive" normal="1917">1917</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Introducing the <unitdate type="inclusive" normal="1917">1917</unitdate> Hollier eight</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>The Hollier eight, [undated]</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>[Album of images used in Hollier catalogs. undated.]</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Lincoln Motor Company, Detroit, Mich.</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Lincoln travelogue of art and transportation down through the ages <unitdate type="inclusive" normal="1926">1926</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>The Lincoln, a few distinguished body types <unitdate type="inclusive">Undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>A women looks at the Lincoln-Zephyr <unitdate type="inclusive" normal="1936">1936</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Lincoln-Zephyr V-12 <unitdate type="inclusive" normal="1936" certainty="approximate">circa 1936</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Lion Motor Car Co., Adrian, Mich.</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Series of 4 articles in the Adrian Telegram <unitdate type="inclusive" normal="1967-08-05/1967-09-02">August 5-September 2, 1967</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Metzger Motor Car Co., Detroit, Mich.</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Everitt motor cars <unitdate type="inclusive" normal="1912">1912</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Advance catalog <unitdate type="inclusive" normal="1912">1912</unitdate> Everitt</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Michigan Automobile Co., Kalamazoo, Mich.</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>The Michigan automobile <unitdate type="inclusive">Undated</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Michigan Motor Car Manufacturing Co., Detroit, Mich.</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Michigan "six" <unitdate type="inclusive" normal="1910">1910</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>The Munson Co., La Porte, Ind.</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>1950 reprint of <unitdate type="inclusive" normal="1896">1896</unitdate> automobile catalog</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Nash Motors Co., Kenosha, Wis.</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Advertisement <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Full speed ahead <unitdate type="inclusive" normal="1916" certainty="approximate">circa 1916</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Great cars for fifty years, golden anniversary. Nash Airflyte Magazine, v.3 no.5 <unitdate type="inclusive" normal="1952">1952</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Oakland Motor Car Co. and General Motors Corp. Pontiac Motor Division</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>New series Pontiac big six <unitdate type="inclusive">Undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Oakland eight, the car with superior performance <unitdate type="inclusive">Undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Oakland automobiles for <unitdate type="inclusive" normal="1910">1910</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Oakland motor cars <unitdate type="inclusive" normal="1910">1910</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>The Oakland all-American six <unitdate type="inclusive">Undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>A new all-American six <unitdate type="inclusive">Undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>The new and finer Pontiac six <unitdate type="inclusive">Undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>The new Pontiac big six <unitdate type="inclusive">Undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>The new Pontiac big six <unitdate type="inclusive">Undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Pontiac the fine 6 <unitdate type="inclusive">Undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Pontiac V8 <unitdate type="inclusive">Undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>The sensational car in the low-priced field <unitdate type="inclusive" normal="1933">1933</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">3 issues</extent>
+              </physdesc>
+              <unittitle>Pontiac Chieftain <unitdate type="inclusive" normal="1937/1939">1937-1939</unitdate></unittitle>
+              <physdesc>
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Pictures of Pontiac models <unitdate type="inclusive" normal="1934/1942">1934-1942</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>E.R. Thomas Detroit Co., Detroit, Mich.</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Thomas-Detroti cars <unitdate type="inclusive" normal="1908">1908</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Olds Motor Works (and General Motors Corp. Oldsmobile Division), Lansing, Mich.</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>13 advertisements, 1902-03</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Oldsmobile special (1910) touring car</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>The Oldsmobile six <unitdate type="inclusive" normal="1930">1930</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>The Viking eight <unitdate type="inclusive" normal="1931">1931</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>The Oldsmobile six <unitdate type="inclusive" normal="1931">1931</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>4 advertising brochures, 1930-32</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Oldsmobile [19]58</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Oldsmobile new six and eight <unitdate type="inclusive">Undated</unitdate> (outsize)</unittitle>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Packard Motor Car Co.,- Winton Motor Co.</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <unittitle>Packard Motor Car Co., Detroit, Mich.</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>2 advertisements <unitdate type="inclusive" normal="1902/1903">1902-1903</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Packard motor cars <unitdate type="inclusive" normal="1911">1911</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Attributes of Packard <unitdate type="inclusive" normal="1926" certainty="approximate">circa 1926</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>The Packard eight <unitdate type="inclusive" normal="1928" certainty="approximate">circa 1928</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>The Packard standard eight <unitdate type="inclusive" normal="1929">1929</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Advertisement <unitdate type="inclusive" normal="1929">1929</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>The arts and crafts of Packard <unitdate type="inclusive">Undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle><unitdate type="inclusive" normal="1941">1941</unitdate> advertising brochure</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Celebrating motordom's golden jubilee <unitdate type="inclusive" normal="1946">1946</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>A star is born, Packard Clipper <unitdate type="inclusive" normal="1941">1941</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>4 advertising pictures <unitdate type="inclusive">Undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle><unitdate type="inclusive" normal="1938">1938</unitdate> Packard six owners manual</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Packard custom cars <unitdate type="inclusive">Undated</unitdate> (outsize)</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Paige-Detroit Motor Car Co., Detroit, Mich.</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Advance announcement 1912 models</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Paige, the standard of value and quality <unitdate type="inclusive" normal="1915">1915</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Parry Auto Company, Indianapolis, Ind</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Parry cars for 1910</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">5</container>
+            <unittitle>Reo Motor Car Co., Lansing, Mich.</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>The mighty Reo for <unitdate type="inclusive" normal="1910">1910</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Reo <unitdate type="inclusive">Undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Invitation to preview showing <unitdate type="inclusive">Undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Reo Flying Clouds <unitdate type="inclusive">Undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>The new Reo Flying Cloud eight <unitdate type="inclusive">Undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>The new Reo Flying Cloud six <unitdate type="inclusive">Undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>A new Reo-Royale eight <unitdate type="inclusive">Undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>5 brochures for the Reo-Royale eight <unitdate type="inclusive">Undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Reo Flying Cloud six <unitdate type="inclusive">Undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Reo Flying Cloud eight <unitdate type="inclusive">Undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>The new Reo-Royale eight <unitdate type="inclusive">Undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Reo closed cars <unitdate type="inclusive" normal="1923" certainty="approximate">circa 1923</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Saxon Motor Car Co., Detroit, Mich.</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Saxon days <unitdate type="inclusive">Undated</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Springfield Body Co., Detroit, Mich.</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Springfield type bodies <unitdate type="inclusive">Undated</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Studebaker Corp., Detroit, Mich.</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Advertising brochure <unitdate type="inclusive" normal="1912">1912</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Studebaker Flanders 20, preliminary catalog <unitdate type="inclusive" normal="1912">1912</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>The Studebaker automobile book <unitdate type="inclusive" normal="1914" certainty="approximate">circa 1914</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>10 clippings from The Studebaker News <unitdate type="inclusive" normal="1916/1917">1916-1917</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>New 1949 Studebaker</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>W.A. Patterson Co., Flint, Mich.</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle><unitdate type="inclusive" normal="1910">1910</unitdate> Patterson "30"</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Introducing 1913 line of Patterson cars</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Warren Motor Car Co., Detroit, Mich.</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Warren-Detroit "30," <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Warren-Detroit "30," <unitdate type="inclusive" normal="1911">1911</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Welch Motor Car Co., Pontiac, Mich.</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Detail description of the Welch Motor Car Company's 1905 four-cylinder touring car</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>The book of Welch cars <unitdate type="inclusive" normal="1909">1909</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>The Welch motor car <unitdate type="inclusive" normal="1910">1910</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>"I just lost my head," article by Ralph Stein in Argosy <unitdate type="inclusive" normal="1953-12">December 1953</unitdate>, on the 1907 Welch</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>"I fell for America's craziest hobby," article by Ralph Stein in This Week Magazine <unitdate type="inclusive" normal="1953-09-13">September 13, 1953</unitdate> on the 1907 Welch</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>1 <unitdate type="inclusive">undated</unitdate> photograph</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Willys-Overland Co., Toledo, Ohio</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>The Willys-Knight motor <unitdate type="inclusive">Undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Specifications and features: the new Aero Willys <unitdate type="inclusive">Undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>The new Willys deluxe station <unitdate type="inclusive">Undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Willys sedan delivery <unitdate type="inclusive">Undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Special vehicles <unitdate type="inclusive">Undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Don't handle with care <unitdate type="inclusive">Undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Universal Jeep will do more jobs for you <unitdate type="inclusive">Undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>3 specification sheets for ambulances <unitdate type="inclusive">Undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>O novo Aero Willys (in Portuguese) <unitdate type="inclusive">Undated</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">5</container>
+            <unittitle>Winton Motor Carriage Co., Cleveland, Ohio</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Winton six colors <unitdate type="inclusive">Undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Winton six body designs in outline <unitdate type="inclusive" normal="1910">1910</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Winton six <unitdate type="inclusive" normal="1910">1910</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Miscellaneous</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">5</container>
+            <unittitle>List of automobile advertising slogans</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">5</container>
+            <unittitle>Invitation to subscribe to the Gallery of the American Automobile <unitdate type="inclusive" normal="1964" certainty="approximate">circa 1964</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">5</container>
+            <unittitle>Roll call of 2,530 automobiles sold in America during the past 50 years or more, compiled for the automobile industry by The Saturday Evening Post [wall poster, ca. 1950]</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">5</container>
+            <unittitle>This Week Magazine <unitdate type="inclusive" normal="1956-12-02">December 2, 1956</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">5</container>
+            <unittitle>[The Auto Motor Journal] Illustrated buyer's guide to the cars of <unitdate type="inclusive" normal="1912">1912</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">5</container>
+            <unittitle>"Get a horse" [color photographs of antique cars], Family Circle <unitdate type="inclusive" normal="1954-09">September 1954</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">5</container>
+            <unittitle>National Automobile Show official program <unitdate type="inclusive" normal="1956">1956</unitdate></unittitle>
+          </did>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

@@ -1,0 +1,678 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead.dtd">
+<ead>
+  <eadheader audience="internal" langencoding="iso639-2b" repositoryencoding="iso15511" dateencoding="iso8601" relatedencoding="Dublin Core" scriptencoding="iso15924" countryencoding="iso3166-1">
+    <eadid countrycode="us" mainagencycode="MiU-H" publicid="us//::miu-h//TXT us::miu-h::aagovp.xml//EN" encodinganalog="identifier">umich-bhl-0575</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="Title">Finding Aid for Ann Arbor (Mich.) Government Publications, circa 1956-2001</titleproper>
+        <author encodinganalog="Creator">Collection processed and finding aid created by Polly Reynolds, June 2005</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="Publisher">Bentley Historical Library, University of Michigan</publisher>
+        <date encodinganalog="Date" normal="2006">May 2006</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created by Greg Kinney <date>2006-05</date></creation>
+      <langusage encodinganalog="Language">The finding aid is written in <language langcode="eng" scriptcode="Latn">English</language></langusage>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date>2015-05-22</date>
+        <item>Removed folders that did not exist anymore.</item>
+      </change>
+      <change>
+        <date>2006-05-16</date>
+        <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <frontmatter>
+    <titlepage>
+      <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
+      <titleproper>Finding aid for <lb/>Ann Arbor (Mich.) Government Publications, circa 1956-2001</titleproper>
+      <author>Finding aid created by <lb/>Polly Reynolds, June 2005</author>
+    </titlepage>
+  </frontmatter>
+  <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
+    <did>
+      <origination>
+        <corpname source="lcnaf" encodinganalog="110">Ann Arbor (Mich.)</corpname>
+      </origination>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">3 linear feet</extent>
+      </physdesc>
+      <unittitle encodinganalog="245">Ann Arbor (Mich.) government publications <unitdate type="inclusive" encodinganalog="245$f" normal="1956/2001" certainty="approximate">circa 1956-2001</unitdate></unittitle>
+      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">0575 Cc 2</unitid>
+      <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
+      <abstract>Scattered publications of various city offices.</abstract>
+      <repository>
+        <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea>, University of Michigan</corpname>
+        <extptr href="bhladd" show="embed" actuate="onload"/>
+      </repository>
+    </did>
+    <descgrp type="admin">
+      <acqinfo encodinganalog="541">
+        <p>The Ann Arbor (Mich.) Publications were received as individual items or as part of various accessions.</p>
+      </acqinfo>
+      <accessrestrict encodinganalog="506">
+        <p>The record group is open without restriction.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+        <p>Copyright status is unclear, it maybe held by the authors or by the creating agency.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+        <p>[item], folder, box,
+Ann Arbor (Mich.) Publications, Bentley Historical Library, University of Michigan</p>
+      </prefercite>
+    </descgrp>
+    <scopecontent encodinganalog="520">
+      <p>Miscellaneous publications of various Ann Arbor city government offices and departments. The publications are organized by the name of the creating office.</p>
+    </scopecontent>
+    <controlaccess>
+      <p>
+        <extptr href="accnote" show="embed" actuate="onload"/>
+      </p>
+      <controlaccess>
+        <head>Subjects:</head>
+        <geogname source="lcsh" encodinganalog="651">Ann Arbor (Mich.)--Politics and government.</geogname>
+      </controlaccess>
+      <controlaccess>
+        <head>Contributors:</head>
+        <corpname source="lcnaf" encodinganalog="710">Ann Arbor (Mich.). Anti-Substance Abuse Task Force.</corpname>
+        <corpname source="lcnaf" encodinganalog="710">Ann Arbor (Mich.). Central Area Development Task Force.</corpname>
+        <corpname source="lcnaf" encodinganalog="710">Ann Arbor (Mich.). Circulation Plan Special Committee.</corpname>
+        <corpname source="lcnaf" encodinganalog="710">Ann Arbor (Mich.). Citizen Advisory Committee.</corpname>
+        <corpname source="lcnaf" encodinganalog="710">Ann Arbor (Mich.). Citizen's Commission on Children and Youth.</corpname>
+        <corpname source="lcnaf" encodinganalog="710">Ann Arbor (Mich.). Citizens' Committee on Community Development.</corpname>
+        <corpname source="lcnaf" encodinganalog="710">Ann Arbor (Mich.). City Administrator's Office.</corpname>
+        <corpname source="lcnaf" encodinganalog="710">Ann Arbor (Mich.). Common Council.</corpname>
+        <corpname source="lcnaf" encodinganalog="710">Ann Arbor (Mich.). Community Development Dept.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" authfilenumber="http://id.loc.gov/authorities/names/n87132628">Ann Arbor (Mich.). Community Planning and Management.</corpname>
+        <corpname source="lcnaf" encodinganalog="710">Ann Arbor (Mich.). Community Renewal Program.</corpname>
+        <corpname source="lcnaf" encodinganalog="710">Ann Arbor (Mich.). Dept. of Parks and Recreation.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" authfilenumber="http://id.loc.gov/authorities/names/n88670977">Ann Arbor Downtown Development Authority.</corpname>
+        <corpname source="lcnaf" encodinganalog="710">Ann Arbor (Mich.). Engineering Dept.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" authfilenumber="http://id.loc.gov/authorities/names/n78016905">Ann Arbor Historic District Commission (Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="710">Ann Arbor (Mich.). Housing Commission.</corpname>
+        <corpname source="lcnaf" encodinganalog="710">Ann Arbor (Mich.). Human Relations Commission.</corpname>
+        <corpname source="lcnaf" encodinganalog="710">Ann Arbor (Mich.). Individual Historic Properties District Study Committee.</corpname>
+        <corpname source="lcnaf" encodinganalog="710">Ann Arbor (Mich.). Mayor's Blue Ribbon Committee on Fair Rental Practices.</corpname>
+        <corpname source="lcnaf" encodinganalog="710">Ann Arbor (Mich.). Model Cities Program.</corpname>
+        <corpname source="lcnaf" encodinganalog="710">Ann Arbor (Mich.). Office of the City Controller.</corpname>
+        <corpname source="lcnaf" encodinganalog="710">Ann Arbor (Mich.). Office of Community Services.</corpname>
+        <corpname source="lcnaf" encodinganalog="710">Ann Arbor (Mich.). Personnel/Human Rights Dept.</corpname>
+        <corpname source="lcnaf" encodinganalog="710">Ann Arbor (Mich.). Police Dept.</corpname>
+        <corpname source="lcnaf" encodinganalog="710">Ann Arbor (Mich.). Solid Waste Dept.</corpname>
+      </controlaccess>
+    </controlaccess>
+    <dsc type="combined">
+      <c01 level="series">
+        <did>
+          <unittitle>Anti-Substance Abuse Task Force</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle><title render="italic">Final report on city of Ann Arbor study on substance abuse</title>, <unitdate type="inclusive" normal="1990">1990</unitdate></unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Central Area Development Task Force</unittitle>
+        </did>
+        <odd>
+          <p>(Central Area Plan Citizen Task Force)</p>
+        </odd>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle><title render="italic">Ann Arbor's central area: a vision and agenda for the future</title>, <unitdate type="inclusive" normal="1987">1987</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle><title render="italic">Central Area Plan bulletin</title>, <unitdate type="inclusive" normal="1991-10">October 1991</unitdate></unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Circulation Plan Special Committee</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle><title render="italic">Meeting notes</title>, <unitdate type="inclusive" normal="1975-07-01/1976-07-19">July 1, 1975-July 19, 1976</unitdate></unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Citizen Advisory Committee</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle><title render="italic">Draft summary statement for Citizen Advisory Committee</title>, <unitdate type="inclusive" normal="1975">1975</unitdate></unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Citizens' Commission on Children and Youth</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle><title render="italic">Annual report</title>, <unitdate type="inclusive" normal="1963/1964">1963/64</unitdate></unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Citizens' Committee on Community Development</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle><title render="italic">Finalized listing of program and project area allocations</title>, <unitdate type="inclusive" normal="1974">1974</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle><title render="italic">Table showing cross reference between Citizens' Committee on Community Development program areas and activities and needs, long range objectives, and short range objectives</title>, <unitdate type="inclusive" normal="1975">1975</unitdate></unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>City Administrator's Office</unittitle>
+          <physdesc altrender="whole">
+            <extent altrender="materialtype spaceoccupied">3 folders</extent>
+          </physdesc>
+          <physdesc altrender="whole">
+            </physdesc>
+        </did>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle><title render="italic">Annual report</title>, <unitdate type="inclusive" normal="1967/1968">1967/68</unitdate>, <unitdate type="inclusive" normal="1976/1977">1976/77</unitdate>, <unitdate type="inclusive" normal="1987/1988">1987/88</unitdate>, <unitdate type="inclusive" normal="1988/1989">1988/99</unitdate>, <unitdate type="inclusive" normal="1989/1990">1989/90</unitdate>, <unitdate type="inclusive" normal="1990/1991">1990/91</unitdate>, <unitdate type="inclusive" normal="1991/1992">1991/92</unitdate>, <unitdate type="inclusive" normal="1992/1993">1992/93</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle><title render="italic">Budget, executive summary</title>, <unitdate type="inclusive" normal="1989/1990">1989/90</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle><title render="italic">City of Ann Arbor income tax feasibility study</title>, <unitdate type="inclusive" normal="1993-07">July 1993</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle><title render="italic">Directory of city services</title>, <unitdate type="inclusive" normal="1991/1992">1991-1992</unitdate>, <unitdate type="inclusive" normal="1995">1995</unitdate>, <unitdate type="inclusive" normal="1997">1997</unitdate>, <unitdate type="inclusive" normal="2001">2001</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle><title render="italic">Diversity '92 Diversity in the workplace: a report on affirmative action by the city of Ann Arbor</title>, <unitdate type="inclusive" normal="1992-10">October 1992</unitdate></unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>City Council</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle><title render="italic">Rules of the Council including pertinent charter provisions</title>, <unitdate type="inclusive" normal="1956">1956</unitdate></unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Community Development, Office of</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Community development newsletter <unitdate type="inclusive" normal="1977-02">February 1977</unitdate>, <unitdate type="inclusive" normal="1977-04">April 1977</unitdate>, <unitdate type="inclusive" normal="1978-01">January 1978</unitdate>, <unitdate type="inclusive" normal="1978-02">February 1978</unitdate>, <unitdate type="inclusive" normal="1978-04">April 1978</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Your housing rehabilitation program <unitdate type="inclusive" normal="1977-03">March 1977</unitdate></unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Community Planning and Management</unittitle>
+          <physdesc altrender="whole">
+            <extent altrender="materialtype spaceoccupied">4 folders</extent>
+          </physdesc>
+          <physdesc altrender="whole">
+            </physdesc>
+        </did>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle><title render="italic">1974 C.P.M. survey on citizen attitudes</title>, <unitdate normal="1975-03">March 1975</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle><title render="italic">Ann Arbor bicycle path study</title>, prepared by Haldon L. Smith. <unitdate type="inclusive" normal="1972-07">July 1972</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle><title render="italic">The Ann Arbor planning process: an organizational analysis</title>. [<unitdate type="inclusive" normal="1972" certainty="approximate">circa 1972</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle><title render="italic">The formulation of city-wide goals and objectives</title>, <unitdate type="inclusive" normal="1976">1976</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle><title render="italic">Downtown housing opportunity study: the feasibility of renovating upper story space</title>, by H. Pamela Goodman. January 1975.</unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle><title render="italic">Financing Ann Arbor's city government</title>, <unitdate type="inclusive" normal="1974-03">March 1974</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle><title render="italic">Financing Ann Arbor's city government</title>, <unitdate normal="1974-09">September 1974</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle><title render="italic">Housing stock data base</title>. [1972?], <unitdate type="inclusive" normal="1973">1973</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>
+              <title render="italic">Management planning and scheduling</title>
+              <unitdate type="inclusive" normal="1973">1973</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle><title render="italic">Municipal cost/revenue impact analysis for Pittsfield Valley Farms</title>. August 1976.</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle><title render="italic">Organization charts for the city of Ann Arbor</title>, <unitdate type="inclusive" normal="1973">1973</unitdate>, <unitdate type="inclusive" normal="1975">1975</unitdate>, <unitdate type="inclusive" normal="1980">1980</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle><title render="italic">Preparing Ann Arbor's budget: fiscal 1974/1975</title>. <unitdate type="inclusive" normal="1974-06">June 1974</unitdate></unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>
+            <title render="italic">Community Renewal Program</title>
+          </unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle><title render="italic">Ann Arbor community renewal program</title>, <unitdate type="inclusive" normal="1971">1971</unitdate></unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Community Services, Office of</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle><title render="italic">Report to the Superintendent of Schools and the Ann Arbor Board of Education: new and planned housing developments within the Ann Arbor School district</title>, <unitdate type="inclusive" normal="1979">1979</unitdate></unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Controller's Office</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>
+              <title render="italic">Comprehensive annual financial report city of Ann Arbor, county of Washtenaw, State of Michigan, fiscal year ended June 30, 1988</title>
+            </unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Downtown Development Authority</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle><title render="italic">Ann Arbor downtown plan, Ann Arbor, Michigan</title>, <unitdate type="inclusive" normal="1988-07">July 1988</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle><title render="italic">Development plan and tax increment financing plan for the Ann Arbor downtown development district</title>, <unitdate type="inclusive" normal="1982-10-26">October 26, 1982</unitdate></unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Energy Advisory Board</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle><title render="italic">Proposed energy work plan</title>, <unitdate type="inclusive" normal="1982">1982</unitdate></unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Engineering Department/Division</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle><title render="italic">Broadway/Wall TSM project proposal</title>, <unitdate type="inclusive" normal="1981">1981</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>
+              <title render="italic">Proposed street improvements for Packard Road Carpenter to Shadford...</title>
+              <unitdate type="inclusive" normal="1967">1967</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Historic District Commission</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>
+              <title render="italic">Historical data on the building at 1037 Jones Drive (formerly 1037 Mill Street)...</title>
+              <unitdate type="inclusive" normal="1972-09-22">September 22, 1972</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Housing Commission</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle><title render="italic">Fifth report of the Citizens' Committee on Tenant Relations</title>, <unitdate type="inclusive" normal="1970-02-27">February 27, 1970</unitdate></unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Human Relations Commission</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle><title render="italic">The population distribution of racial minorities in Ann Arbor, Michigan</title>, <unitdate type="inclusive" normal="1950/1960">1950-1960</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle><title render="italic">Program prospectus</title>, <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Individual Historic Properties District Study Committee</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle><title render="italic">500 North Main Street--The Kellogg-Warden House, final report</title>, <unitdate type="inclusive" normal="1993">1993</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>
+              <title render="italic">Appendix A: Documentation of individual historic properties...</title>
+              <unitdate type="inclusive" normal="1994">1994</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Mayor's Blue Ribbon Committee on Fair Rental Practices</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>[<title render="italic">letter to Hon. Albert H. Wheeler, Mayor</title>], <unitdate type="inclusive" normal="1977">1977</unitdate></unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Model Cities Program</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>[<title render="italic">Comprehensive first year action program</title>], draft, <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle><title render="italic">First year action plan</title>, <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle><title render="italic">Mid-planning statement</title>, <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Parks and Recreation, Dept. of</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <title render="italic">Annual report</title>
+            </unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1958/1959">1958/59</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1961/1962">1961/62</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle><title render="italic">Report proposing parkland acquisition policy and guidelines</title> (2 versions): one is a summary report for public distribution</unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Personnel Human Rights Department</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle><title render="italic">Happenings of by &amp; for city employees of Ann Arbor</title>, January /February 1984-March /April 1984 November /December 1984 March /April 1985</unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>
+            <title render="italic">Police Department</title>
+          </unittitle>
+          <physdesc altrender="whole">
+            <extent altrender="materialtype spaceoccupied">2 folders</extent>
+          </physdesc>
+          <physdesc altrender="whole">
+            </physdesc>
+        </did>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle><title render="italic">Annual report</title>, <unitdate type="inclusive" normal="1956/1957">1956-1957</unitdate>, <unitdate type="inclusive" normal="1982">1982</unitdate>, <unitdate type="inclusive" normal="1986">1986</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>
+              <title render="italic">C.O.P. community oriented policing: become a part of the answer</title>
+              <unitdate type="inclusive" normal="1992">1992</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle><title render="italic">Fiscal report</title>, <unitdate type="inclusive" normal="1980/1981">1980/81</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle><title render="italic">Monthly report</title>, <unitdate type="inclusive" normal="1994-06/1994-07">June 1994-July 1994</unitdate>, <unitdate type="inclusive" normal="1994-09/1995-02">September 1994-February 1995</unitdate>, <unitdate type="inclusive" normal="1995-04/1995-05">April 1995-May 1995</unitdate>, <unitdate type="inclusive" normal="1995-08/1996-01">August 1995-January 1996</unitdate>, <unitdate type="inclusive" normal="1996-04/1996-05">April 1996-May 1996</unitdate>, <unitdate type="inclusive" normal="1996-09">September 1996</unitdate>, <unitdate type="inclusive" normal="1997-02/1997-03">February 1997-March 1997</unitdate>, <unitdate type="inclusive" normal="1997-05">May 1997</unitdate>, <unitdate type="inclusive" normal="1997-10/1997-12">October 1997-December 1997</unitdate>, <unitdate type="inclusive" normal="1998-06">June 1998</unitdate></unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Solid Waste, Department of</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle><title render="italic">Disposing of commercial trash: 1990 survey of Ann Arbor commercial establishments, final report</title>, <unitdate type="inclusive" normal="1990">1990</unitdate></unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Transportation Division</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle><title render="italic">Areawide topics plan for the Ann Arbor-Ypsilanti Urban area</title>, <unitdate type="inclusive" normal="1972">1972</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle><title render="italic">Old West Side residential parking permit report</title>, <unitdate type="inclusive" normal="1993-03">March 1993</unitdate></unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Miscellaneous</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle><title render="italic">Audit report</title>, <unitdate type="inclusive" normal="1958">1958</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>
+              <title render="italic">Comprehensive circulation study prospectus for the city of Ann Arbor</title>
+              <unitdate type="inclusive" normal="1973">1973</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle><title render="italic">Comprehensive housing affordability strategy, draft for comment</title>, <unitdate type="inclusive" normal="1991">1991</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle><title render="italic">Municipal civil defense and disaster control plan</title>, <unitdate type="inclusive">undated</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle><title render="italic">Project and status report</title>, <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
+          </did>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

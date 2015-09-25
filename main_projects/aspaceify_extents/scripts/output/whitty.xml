@@ -1,0 +1,519 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead.dtd">
+<ead>
+  <eadheader audience="internal" langencoding="iso639-2b" repositoryencoding="iso15511" dateencoding="iso8601" relatedencoding="Dublin Core">
+    <eadid countrycode="us" mainagencycode="MiU-H" publicid="-//us::MiU-H//TEXT us::MiU-H::whitty.xml//EN" encodinganalog="identifier">umich-bhl-0163</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="title">Finding Aid for Michael D. Whitty Papers <date>1986-1995</date></titleproper>
+        <author encodinganalog="creator">Collection processed and finding aid prepared by Leigh Jasmer</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="publisher">Bentley Historical Library, University of Michigan</publisher>
+        <date encodinganalog="date"/>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created by Leigh Jasmer <date>October 2001</date></creation>
+      <langusage>The finding aid is written in <language encodinganalog="language" langcode="eng">English.</language></langusage>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date>20031010</date>
+        <item>Converted to EAD2002 using Word macro and Xmetal</item>
+      </change>
+      <change>
+        <date>2001-10-25</date>
+        <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <frontmatter>
+    <titlepage>
+      <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
+      <titleproper>Finding Aid for <lb/>Michael D. Whitty Papers, <date type="inclusive">1986-1995</date></titleproper>
+      <author>Finding aid prepared by: <lb/>Leigh Jasmer</author>
+    </titlepage>
+  </frontmatter>
+  <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
+    <did>
+      <origination>
+        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n00090181">Whitty, Michael D., 1942-</persname>
+      </origination>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">0.8 linear feet</extent>
+      </physdesc>
+      <unittitle encodinganalog="245">Michael D. Whitty papers <unitdate type="inclusive" encodinganalog="245$f" normal="1986/1995">1986-1995</unitdate></unittitle>
+      <abstract>Professor of management and labor relations at the University of Detroit-Mercy; researcher and lecturer on social issues within the business world. Studies include the impact of AIDS within the workplace. Biographical information, publications and conference papers, collected material relating to AIDS and AIDS awareness.</abstract>
+      <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">0163 Aa 2</unitid>
+      <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
+      <repository>
+        <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea> University of Michigan</corpname>
+        <extptr href="bhladd" show="embed" actuate="onload"/>
+      </repository>
+    </did>
+    <descgrp type="admin">
+      <acqinfo encodinganalog="541">
+        <p>The papers were given to <title render="italic">Cruise Magazine</title> from an unknown donor. The magazine later gave the materials to Midwest AIDS Prevention Project. The library received the materials in August 2001. Donor no. <num type="donor" encodinganalog="541$e">9122</num>.</p>
+      </acqinfo>
+      <accessrestrict encodinganalog="506">
+        <p>The collection is open for research.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+        <p>Copyright has not been transferred to the Regents of the University of Michigan.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+        <p>item, folder title, box no., Michael D. Whitty Papers, Bentley Historical Library, University of Michigan</p>
+      </prefercite>
+    </descgrp>
+    <bioghist encodinganalog="545">
+      <p>Michael D. Whitty (1942-) researches and lectures locally and abroad regarding social issues within the business world. His studies include AIDS in the workplace, the Americans with Disabilities Act, the global workplace, men's health, the role of spirituality within the business world and the future of work. Whitty, also known as Dr. Detroit, is an activist involved with workers' rights, sensitivity in business, and various AIDS organizations. Some of his activities include the Global Health Promotion Project, the AIDS Law Project, Corporate AIDS Project, and the AIDS Education Project. His education includes an A.B. from the University of Detroit (1960), an M.A. from the University of Michigan (1964), and a PhD from Syracuse University (1969). He is currently a professor of Management and Labor Relations at the University of Detroit-Mercy.</p>
+    </bioghist>
+    <scopecontent encodinganalog="520">
+      <p>The Michael D. Whitty papers detail his professional and personal interest in AIDS during the late 1980s and early 1990s. The majority of the collection consists of research papers regarding AIDS policy in Michigan workplaces. Whitty presented his findings at several conferences focusing on AIDS in business. His personal interest in AIDS and human rights is best documented in his topical files.</p>
+    </scopecontent>
+    <controlaccess>
+      <p>
+        <extptr href="accnote" show="embed" actuate="onload"/>
+      </p>
+      <controlaccess>
+        <head>Subjects:</head>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n00090181">Whitty, Michael D., 1942-</persname>
+        <subject source="lcsh" encodinganalog="650">AIDS (Disease)--Economic aspects.</subject>
+      </controlaccess>
+    </controlaccess>
+    <dsc type="combined">
+      <c01 level="series">
+        <did>
+          <unittitle>Biographical</unittitle>
+        </did>
+        <scopecontent>
+          <p>The biographical series consists of one folder. It contains vitae, bibliographies, and several short biographical sketches of Whitty.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Miscellaneous biographical materials</unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Papers and Publications</unittitle>
+        </did>
+        <scopecontent>
+          <p>The papers and publications series is divided into articles written or co-authored by Michael Whitty and collected papers by other authors. The majority are non-published works by Whitty and his colleagues. Many of the papers address AIDS issues within the business world including employee relations, curriculum development, sensitivity training, health accessibility, and legal issues.</p>
+        </scopecontent>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Authored by Michael Whitty</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>ADA/HIV <unitdate>undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>AIDS: Looking into the <unitdate type="inclusive" normal="1990/1999" certainty="approximate">1990s undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>AIDS &amp; International Management <unitdate>undated</unitdate></unittitle>
+            </did>
+            <odd>
+              <p>written with Matthew Seeger and Michele Simms</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>AIDS in Business <unitdate type="inclusive" normal="1989">1989</unitdate></unittitle>
+            </did>
+            <odd>
+              <p>alternate title: Teaching About AIDS in Education and Business</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>AIDS in the Workplace: A Matter for Urgent Corporate Action <unitdate type="inclusive" normal="1991">1991</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>AIDS in the Workplace: Does It Belong in the Business School Curriculum? <unitdate>undated</unitdate></unittitle>
+            </did>
+            <odd>
+              <p>written with Bonnie Fremgen and Michele Simms</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>AIDS, Labor Law, and Good Management <unitdate type="inclusive" normal="1989">1989</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Bisexuality and AIDS: A North American Report <unitdate type="inclusive" normal="1991">1991</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Corporate AIDS Policy Response in One Midwestern City <unitdate type="inclusive" normal="1992">1992</unitdate></unittitle>
+            </did>
+            <odd>
+              <p>written with Bonnie Fremgen</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Corporate Communication <unitdate>undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Corporate Response to the ADA in One City <unitdate type="inclusive" normal="1994">1994</unitdate></unittitle>
+            </did>
+            <odd>
+              <p>written with Martin Adrukonis</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Employers Ten Commandments for Dealing with AIDS in the Workplace <unitdate>undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Global AIDS: The Necessity for Effective Communications Systems <unitdate>undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Global AIDS: The Transnational Challenge <unitdate>undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>The Global Management Challenge of AIDS in the Workplace <unitdate>undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>How To Avoid a Costly AIDS Crisis in the Organization <unitdate type="inclusive" normal="1992">1992</unitdate></unittitle>
+            </did>
+            <odd>
+              <p>written with Bonnie Fremgen</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Management Education for Policy Formation for AIDS and Other Life-Threatening Diseases <unitdate>undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Overview of Labor: Bargaining Issues Concerning AIDS for Public Employers <unitdate type="inclusive" normal="1988">1988</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Positive Management Counteracting Workplace Fear: Developing an AIDS Policy for Hospitals <unitdate>undated</unitdate></unittitle>
+            </did>
+            <odd>
+              <p>written with Walter B. Connolly, Jr.</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Sex, Death, and Work: Management Education to Confront AIDS <unitdate>undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>[Student Views Regarding AIDS] <unitdate>undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Teaching About AIDS in Education and Business <unitdate>undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Teaching AIDS and Aids in Teaching <unitdate>undated</unitdate></unittitle>
+            </did>
+            <odd>
+              <p>written with Matt Seeger and Michelle Simms</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>What AIDS Education Offers to Business Management <unitdate>undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Working Paper 90-6: AIDS, the Workplace and Health Promotion <unitdate type="inclusive" normal="1990">1990</unitdate></unittitle>
+            </did>
+            <odd>
+              <p>written with Matt Seeger and Michelle Simms</p>
+            </odd>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Other Authors</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>AIDS in the Fire Service: A Practical Approach for Setting Fire Department Policy, by Dave L. Silvani <unitdate type="inclusive" normal="1990">1990</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>AIDS in the Fire Service II: A Practical Look Back: A Practical Look Forward, by Dave L. Silvani <unitdate type="inclusive" normal="1994">1994</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>AIDS in the Workplace, by Margaret M. Nagel <unitdate type="inclusive" normal="1989">1989</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>AIDS in the Workplace: A Review of the Issues, by Sondra Byrnes <unitdate type="inclusive" normal="1988">1988</unitdate> (Michigan Consolidated Gas Company)</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Co-Management-Employees Co-Manage With Owner Beyond Employee Involvement, by John M. Buhager and Andrea Caulfield <unitdate type="inclusive" normal="1990">1990</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Corporate Social Responses: A Predictive Model and Test Using the Policy Issue of AIDS in the Workplace, by Valerie E. Mock <unitdate type="inclusive" normal="1991">1991</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Detroit Bar Association AIDS and Employment Law Seminar, by Mark Brewer <unitdate type="inclusive" normal="1990">1990</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>The Evolving Response to AIDS, by Noel Fletcher <unitdate type="inclusive" normal="1992">1992</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Hospital Policy Management of Exposures to Blood-Borne Viral Diseases, by Walter B. Connolly, Jr. <unitdate>undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Positive Management Counteracting Workplace Fear: Developing an AIDS Policy for Hospitals, by Henry Barraco, Patricia Bentley, Marlene Bryk, Bassam Chaballout, George Collier, Annette Cords, Alicia Green, and Beth Merrill <unitdate type="inclusive" normal="1988">1988</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Conferences</unittitle>
+        </did>
+        <scopecontent>
+          <p>The next series details conferences Whitty attended and, in most cases, at which he presented papers. Each folder contains conference itineraries and accompanying material. Some of the folders contain correspondence concerning the lectures, presentation transcripts, planning meeting minutes, event publicity, and clippings. One folder, AIDS in the Workplace, includes a survey research project. It samples opinions regarding AIDS policy and employee relations across Michigan businesses. The questionnaire and survey data are included in the folder.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle><unitdate type="inclusive" normal="1987">1987</unitdate> Health &amp; Politics: In an Age of AIDS (Birmingham, Michigan)</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <unitdate type="inclusive" normal="1990">1990</unitdate>
+            </unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>AIDS in the Court: Infection Control Policy and Procedure Development Seminar (Michigan Judicial Institute, Ann Arbor, Michigan)</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>International Congress on AIDS: AIDS, a New Global Challenge: Impacts on Developing Countries (Chulabhorn Research Institute, Bangkok, Thailand)</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle><unitdate type="inclusive" normal="1991">1991</unitdate> AIDS in the Workplace</unittitle>
+          </did>
+          <odd>
+            <p>includes survey materials; Detroit, Michigan</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle><unitdate type="inclusive" normal="1992">1992</unitdate> Business Response to AIDS (national teleconference)</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle><unitdate type="inclusive" normal="1994">1994</unitdate> Michigan Responds to AIDS in the Workplace (University of Detroit-Mercy, Detroit, Michigan)</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Miscellaneous conferences</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Speech notes</unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Topical Files Regarding AIDS</unittitle>
+        </did>
+        <scopecontent>
+          <p>The topical files series include AIDS-related materials collected by Whitty. Included are policies of Michigan companies and public organizations. His role as an activist is shown through his files regarding AIDS support and awareness groups.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Hate Crimes</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Legal Issues</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Michigan Department of Public Health</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Michigan State Board of Education</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Organizations</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Campaign to End Homophobia</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Detroit Chapter of the NAMES Project AIDS Memorial Quilt</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Labor Groups</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Michigan Campaign for Human Dignity</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Trade Union Minorities/Women Leadership Training Project of Michigan</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Policy and Procedure</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>City of Ann Arbor, Michigan</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Commercial Businesses</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Health Care Providers</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Support Groups and Resources</unittitle>
+          </did>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

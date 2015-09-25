@@ -1,0 +1,972 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead.dtd">
+<ead>
+  <eadheader audience="internal" langencoding="iso639-2b" repositoryencoding="iso15511" dateencoding="iso8601" relatedencoding="Dublin Core" scriptencoding="iso15924" countryencoding="iso3166-1">
+    <eadid countrycode="us" mainagencycode="MiU-H" publicid="us//::miu-h//TXT us::miu-h::ethnicweb.xml//EN" encodinganalog="Identifier">umich-bhl-2014031</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="Title">Finding Aid for Ethnic and Cultural Communities of Michigan Web Archive</titleproper>
+        <author encodinganalog="Creator">Collection processed and finding aid created by Maria Smith</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="Publisher">Bentley Historical Library, University of Michigan</publisher>
+        <date encodinganalog="Date" normal="2013">2014</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created by Olga Virakhovskaya <date>2014</date></creation>
+      <langusage encodinganalog="Language">The finding aid is written in <language langcode="eng" scriptcode="Latn">English</language></langusage>
+      <descrules>Finding aid prepared using Describing Archives: A Content Standard (DACS)</descrules>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date>2014-03-19</date>
+        <item>DAO hrefs corrected to resolver bbaluefs 201431-w-1 to 2014-w-58.</item>
+      </change>
+      <change>
+        <date>2014-03-17</date>
+        <item>Original encoding from Word 2007 file using Word macros and Xmetal.</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <frontmatter>
+    <titlepage>
+      <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
+      <titleproper>Finding aid for <lb/>Ethnic and Cultural Communities of Michigan Web Archive, 2010-2014</titleproper>
+      <author>Finding aid created by <lb/>Maria Smith, February 2014</author>
+    </titlepage>
+  </frontmatter>
+  <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
+    <did>
+      <origination>
+        <corpname source="lcnaf" encodinganalog="110">Bentley Historical Library.</corpname>
+      </origination>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">57 websites</extent>
+        <physfacet>multiple captures</physfacet>
+      </physdesc>
+      <unittitle encodinganalog="245">Ethnic and Cultural Communities of Michigan Web Archive <unitdate type="inclusive" encodinganalog="245$f" normal="2010/2014">2010-2014</unitdate></unittitle>
+      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2014025 Aa 3</unitid>
+      <langmaterial>The majority of content is in <language langcode="eng" encodinganalog="041">English</language> with some in <language langcode="eng" encodinganalog="041">Arabic</language> <language langcode="eng" encodinganalog="041">German</language> <language langcode="eng" encodinganalog="041">Russian</language> <language langcode="eng" encodinganalog="041">Spanish</language> and other languages.</langmaterial>
+      <abstract>Web collection of websites created by various ethnic and cultural communities of the State of Michigan, archived by the Bentley Historical Library using the California Digital Library Web Archiving Service crawler beginning in 2010.</abstract>
+      <repository>
+        <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea>, University of Michigan</corpname>
+        <extptr href="bhladd" show="embed" actuate="onload"/>
+      </repository>
+    </did>
+    <descgrp type="admin">
+      <acqinfo encodinganalog="541">
+        <p>Websites gathered beginning in 2010 using the California Digital Library Web Archiving Service web crawler.</p>
+      </acqinfo>
+      <accruals encodinganalog="584">
+        <p>Periodic additions to the records are expected.</p>
+      </accruals>
+      <accessrestrict encodinganalog="506">
+        <p>The collection is open to research.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+        <p>Copyright is retained by the content owners.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+        <p>[Name of website], Ethnic and Cultural Communities of Michigan Web Archive, Bentley Historical Library, University of Michigan. http://bentley.umich.edu/dchome/webarchives/index.php</p>
+      </prefercite>
+    </descgrp>
+    <bioghist encodinganalog="545">
+      <p>Michigan's ethnic and cultural communities are among Bentley Historical Library's most important topical collections priorities. The topic's priority is based on the Bentley Library's mission as established by the University of Michigan Board of Regents to document "the state, its institutions, and its social, economic, and intellectual development," the historical collecting patterns of the library, and overall collection development priorities in all formats. The process of setting collecting priorities is described by Christine Weideman's "A New Map for Field Work: Impact of Collections Analysis on the Bentley Historical Library" (<title render="italic">American Archivist</title>, Winter 1991, Vol. 54 Issue 1, pp. 54-60.) and Judith E. Endelman's "Looking Backward to Plan for the Future: Collection Analysis for Manuscript Repositories." (<title render="italic">American Archivist</title>, Summer 1987, Vol. 50 Issue 3, pp. 340-355.)</p>
+      <p>In selecting web content for permanent preservation, the Bentley Historical Library seeks:</p>
+      <list type="simple">
+        <item>Websites of organizations or individuals whose archives the Library is committed to preserve.</item>
+        <item>Website that fill gaps in existing collections.</item>
+        <item>Websites with unique content that documents the work and/or thought process of a person or organization.</item>
+        <item>Websites that periodically incorporate new content or feature regular updates.</item>
+        <item>Websites with content that is not likely to be duplicated in an individual or organization's paper records.</item>
+      </list>
+      <p>As of 2013, the Bentley Library will concentrate efforts on documenting the transformation of Michigan's ethnic communities with a focus on Arab American, African American, Asian American, and Latino communities, focusing on socio-economic conditions, economic and cultural revival, political and civic activities, and religion. In addition to these priorities, the MHC remains open to the consideration of material with great research potential in any area of Michigan's ethnically diverse history.</p>
+      <p>To learn more about the Bentley Historical Library's Web Archives visit http://bentley.umich.edu/dchome/index.php.</p>
+    </bioghist>
+    <scopecontent encodinganalog="520">
+      <p>The Web Archive of Michigan's Ethnic and Cultural Communities collection contains archived websites created by various ethnic and cultural communities of the State of Michigan. The websites have been archived by the Bentley Historical Library, using the California Digital Library Web Archiving Service crawler beginning in 2010. Access to all websites archived by the Bentley Historical Library is available at: http://bentley.umich.edu/dchome/webarchives/index.php.</p>
+      <p>Web Archives include websites of African American, Arab American, Native American, Asian American and other ethnic communities and organizations who call the state of Michigan home. The collection is especially strong in documenting African American, Arab American, and Native American communities, business, religious, cultural and civil rights organizations, as well as distinguished individuals who belong to these communities.</p>
+      <p>The year that appears next to the website title in the contents list indicates the date that the website was first archived. Archived versions of the site from later dates may also be available.</p>
+    </scopecontent>
+    <controlaccess>
+      <p>
+        <extptr href="accnote" show="embed" actuate="onload"/>
+      </p>
+      <controlaccess>
+        <head>Subjects:</head>
+        <persname source="lcnaf" encodinganalog="600">Begg, Victor.</persname>
+        <persname source="lcnaf" encodinganalog="600">Bledsoe Ford, Deborah Geraldine.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2012023195">Brown, Al, 1947-</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50047626">Muhammad, Warith Deen, 1933-2008.</persname>
+        <corpname source="lcnaf" encodinganalog="610">100 Black Men of Greater Detroit.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">African American Cultural and Historical Museum of Washtenaw County.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no2002021938">American Arab Chamber of Commerce.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n83154850">American-Arab Anti-Discrimination Committee.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">American-Arab Anti-Discrimination Committee, Michigan.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">American Federation of Muslims of Indian Origin.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no99002018">American Federation of Ramallah, Palestine.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n88097831">American Druze Society.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no98111834">American Moslem Society.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Antiochian Basilica of St. Mary (Livonia, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79005710">Antiochian Orthodox Christian Archdiocese of North America.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Arab America Michigan.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no2007107774">Arab American National Museum (Dearborn, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n99046417">Arab Community Center for Economic and Social Services.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Asian Pacific American Chamber of Commerce.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Association of Chinese Americans. Detroit Chapter.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Bay Mills Indian Community.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n2010064745">Chaldean American Ladies of Charity.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Chippewa Ottawa Resource Authority.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Council on American-Islamic Relations Michigan Chapter.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Council of Islamic Organizations in Michigan.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Detroit Association of Black Organizations.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Greater Grace Temple (Detroit, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Hartford Memorial Baptist Church (Detroit, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Islamic Center of America (Dearborn, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n2002026952">Italian-American Club of Lansing.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Keweenaw Bay Indian Community, Michigan.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Lebanese American Heritage Club.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Little River Band of Ottawa Indians, Michigan.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Little Traverse Bay Bands of Odawa Indians, Michigan.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Metropolitan Organizing Strategy Enabling Strength (Detroit, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Michigan Muslim Community Council.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Michigan Russian Cultural Center.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Michigan Taiwanese American Organization.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Migrant Health Promotion (Organization)</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Motown Record Corporation--History.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Muslim American Logic Institute.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n94070744">New Bethel Baptist Church (Detroit, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n92056952">New Detroit, Inc. (Detroit, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Philippine Chamber of Commerce - Michigan.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Pokagon Band of Potawatomi.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">St. Matthew's &amp; St. Joseph's Episcopal Church (Detroit, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610">St. Sabbath the Sacrified Orthodox Monastery (Harper Woods, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610">St. Vladimir Orthodox Church (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Universal Hagar's Spiritual Church.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">West Side Detroit Polish American Historical Society.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Word Of Faith International Christian Center (Southfield, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Yemeni American Net.</corpname>
+        <subject source="lcsh" encodinganalog="650">African American churches--Michigan--Detroit.</subject>
+        <subject source="lcsh" encodinganalog="650">African American churches--Michigan--Southfield.</subject>
+        <subject source="lcsh" encodinganalog="650">African American Episcopalians--Michigan--Detroit.</subject>
+        <subject source="lcsh" encodinganalog="650">African American judges--Elections--Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650">African American men--Michigan--Detroit.</subject>
+        <subject source="lcsh" encodinganalog="650">African American Muslims--Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650">African American public worship--Michigan--Detroit.</subject>
+        <subject source="lcsh" encodinganalog="650">African American women--Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650">African American women lawyers--Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650">African American youth--Michigan--Detroit.</subject>
+        <subject source="lcsh" encodinganalog="650">African Americans--Michigan--Detroit.</subject>
+        <subject source="lcsh" encodinganalog="650">African Americans--Michigan--Washtenaw County--History.</subject>
+        <subject source="lcsh" encodinganalog="650">African Americans--Museums--Michigan--Washtenaw County.</subject>
+        <subject source="lcsh" encodinganalog="650">African Americans--Religious life--Michigan--Detroit.</subject>
+        <subject source="lcsh" encodinganalog="650">African Americans--Religious life--Michigan--Southfield.</subject>
+        <subject source="lcsh" encodinganalog="650">Arab American business enterprises--Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650">Arab Americans--Civil rights--Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650">Arab Americans--Civil rights--United States.</subject>
+        <subject source="lcsh" encodinganalog="650">Arab Americans--Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650">Arab Americans--Michigan--Dearborn.</subject>
+        <subject source="lcsh" encodinganalog="650">Arab Americans--Michigan--Detroit.</subject>
+        <subject source="lcsh" encodinganalog="650">Arab Americans--Michigan--Detroit--Periodicals.</subject>
+        <subject source="lcsh" encodinganalog="650">Arab Americans--Michigan--Livonia.</subject>
+        <subject source="lcsh" encodinganalog="650">Arab Americans--Periodicals.</subject>
+        <subject source="lcsh" encodinganalog="650">Arab Americans--United States.</subject>
+        <subject source="lcsh" encodinganalog="650">Arab Americans--United States--History.</subject>
+        <subject source="lcsh" encodinganalog="650">Asian Americans--Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650">Baptists--Michigan--Detroit.</subject>
+        <subject source="lcsh" encodinganalog="650">Boards of trade--Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650">Businesspeople--Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650">Chaldean Catholics--Michigan--Detroit.</subject>
+        <subject source="lcsh" encodinganalog="650">Charities--Michigan--Detroit.</subject>
+        <subject source="lcsh" encodinganalog="650">Chinese Americans--Michigan--Detroit.</subject>
+        <subject source="lcsh" encodinganalog="650">Chinese Americans--Societies, etc.--Michigan--Detroit.</subject>
+        <subject source="lcsh" encodinganalog="650">Chippewa Indians.</subject>
+        <subject source="lcsh" encodinganalog="650">Chippewa Tribe.</subject>
+        <subject source="lcsh" encodinganalog="650">Christianity and other religions--Islam.</subject>
+        <subject source="local" encodinganalog="690">Commerce and industry.</subject>
+        <subject source="lcsh" encodinganalog="650">Communities--Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650">Community centers--Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650">Druze women--Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650">Druzes--United States.</subject>
+        <subject source="lcsh" encodinganalog="650">East Indian Americans--Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650">East Indian Americans--United States.</subject>
+        <subject source="lcsh" encodinganalog="650">Education--Michigan--Detroit.</subject>
+        <subject source="lcsh" encodinganalog="650">Environmental justice--Michigan.</subject>
+        <subject source="local" encodinganalog="690">Ethnic communities.</subject>
+        <subject source="lcsh" encodinganalog="650">Ethnic relations--Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650">Filipino Americans--Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650">Fisheries--Great Lakes (North America)</subject>
+        <subject source="lcsh" encodinganalog="650">Fishery law and legislation--Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650">Fishery management--Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650">Fishery management--Great Lakes (North America)</subject>
+        <subject source="lcsh" encodinganalog="650">German Americans--Michigan--Newspapers.</subject>
+        <subject source="lcsh" encodinganalog="650">German Americans--United States--Newspapers.</subject>
+        <subject source="lcsh" encodinganalog="650">Germans--Michigan--Newspapers.</subject>
+        <subject source="lcsh" encodinganalog="650">Germans--United States.</subject>
+        <subject source="lcsh" encodinganalog="650">Hispanic Americans--Michigan--Periodicals.</subject>
+        <subject source="lcsh" encodinganalog="650">Hispanic Americans--United States--Periodicals.</subject>
+        <subject source="lcsh" encodinganalog="650">Housing policy--Michigan--Religious aspects.</subject>
+        <subject source="lcsh" encodinganalog="650">Hurley, George W. African-American churches--Michigan--Detroit.</subject>
+        <subject source="lcsh" encodinganalog="650">Immigrants--Health and hygiene--Florida.</subject>
+        <subject source="lcsh" encodinganalog="650">Immigrants--Health and hygiene--Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650">Immigrants--Health and hygiene--Ohio.</subject>
+        <subject source="lcsh" encodinganalog="650">Immigrants--Health and hygiene--Texas.</subject>
+        <subject source="lcsh" encodinganalog="650">Immigrants--Health and hygiene--United States.</subject>
+        <subject source="lcsh" encodinganalog="650">Immigrants--Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650">Indians of North America--Great Lakes (North America)</subject>
+        <subject source="lcsh" encodinganalog="650">Indians of North America--Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650">Indians of North America--Periodicals.</subject>
+        <subject source="lcsh" encodinganalog="650">Iraqis--Michigan--Detroit.</subject>
+        <subject source="lcsh" encodinganalog="650">Islam--Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650">Islamic education--Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650">Islamophobia--Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650">Islamophobia--United States.</subject>
+        <subject source="lcsh" encodinganalog="650">Italian Americans--Michigan--Lansing.</subject>
+        <subject source="lcsh" encodinganalog="650">Lebanese Americans--Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650">Lebanese Americans--Michigan--Detroit.</subject>
+        <subject source="lcsh" encodinganalog="650">Lebanese Americans--Social life and customs--Michigan--Detroit.</subject>
+        <subject source="lcsh" encodinganalog="650">Little Traverse Bay Bands of Odawa Indians, Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650">Minorities--Civil rights--Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650">Minorities--Civil rights--United States.</subject>
+        <subject source="lcsh" encodinganalog="650">Minorities--Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650">Monasteries--Michigan--Harper Woods.</subject>
+        <subject source="lcsh" encodinganalog="650">Mosques--Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650">Mosques as community centers--Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650">Muslims--Civil rights--Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650">Muslims--Civil rights--United States.</subject>
+        <subject source="lcsh" encodinganalog="650">Muslims--India.</subject>
+        <subject source="lcsh" encodinganalog="650">Muslims--Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650">Muslims--Michigan--Periodicals.</subject>
+        <subject source="lcsh" encodinganalog="650">Muslims--Religious life--Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650">Ojibwa Indians--Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650">Ojibwa Indians--Michigan--Fishing--Law and legislation.</subject>
+        <subject source="lcsh" encodinganalog="650">Ojibwa Indians--Michigan--Legal status, laws, etc.</subject>
+        <subject source="lcsh" encodinganalog="650">Ojibwa Indians--Michigan--Treaties.</subject>
+        <subject source="lcsh" encodinganalog="650">Orientalism--United States.</subject>
+        <subject source="lcsh" encodinganalog="650">Orthodox Eastern monasteries--Michigan--Harper Woods.</subject>
+        <subject source="lcsh" encodinganalog="650">Ottawa Indians--Michigan--Fishing--Law and legislation.</subject>
+        <subject source="lcsh" encodinganalog="650">Ottawa Indians--Michigan--Legal status, laws, etc.</subject>
+        <subject source="lcsh" encodinganalog="650">Ottawa Indians--Michigan--Treaties.</subject>
+        <subject source="lcsh" encodinganalog="650">Pacific Islander Americans--Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650">Palestinian Americans--Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650">Polish Americans--Michigan--Detroit.</subject>
+        <subject source="local" encodinganalog="690">Politics and public policy.</subject>
+        <subject source="lcsh" encodinganalog="650">Popular music--United States.</subject>
+        <subject source="lcsh" encodinganalog="650">Potawatomi Indians--Great Lakes Region (North America)</subject>
+        <subject source="lcsh" encodinganalog="650">Potawatomi Indians--Middle West.</subject>
+        <subject source="lcsh" encodinganalog="650">Race relations--Economic aspects--Michigan--Detroit.</subject>
+        <subject source="lcsh" encodinganalog="650">Racism--United States.</subject>
+        <subject source="local" encodinganalog="690">Religion.</subject>
+        <subject source="lcsh" encodinganalog="650">Russian Americans--Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650">Russian Americans--Michigan--Directories.</subject>
+        <subject source="lcsh" encodinganalog="650">Russkaia pravoslavnaia tserkov' zagranitsei­</subject>
+        <subject source="lcsh" encodinganalog="650">Sermons, American.--Michigan--Detroit.</subject>
+        <subject source="local" encodinganalog="690">Social justice.</subject>
+        <subject source="lcsh" encodinganalog="650">Stereotypes (Social psychology)--United States.</subject>
+        <subject source="lcsh" encodinganalog="650">Taiwanese Americans--Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650">Taiwanese Americans--Societies, etc.--Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650">Transportation and state--Michigan--Religious aspects.</subject>
+        <subject source="lcsh" encodinganalog="650">Women--Charities.</subject>
+        <subject source="local" encodinganalog="690">Women in Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650">Yemeni Americans--Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650">Yemeni Americans--United States.</subject>
+        <subject source="lcsh" encodinganalog="650">Youth--Michigan--Detroit.</subject>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79022219.html">Ann Arbor (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651">Battle Creek (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651">Bay Mills Indian Community, Michigan.</geogname>
+        <geogname source="lcsh" encodinganalog="651">Bay Mills (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651">Chippewa Tribe.</geogname>
+        <geogname source="lcsh" encodinganalog="651">Dearborn (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79045539.html">Detroit (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651">Detroit (Mich.)--Economic conditions.</geogname>
+        <geogname source="lcsh" encodinganalog="651">Detroit (Mich.)--Race relations.</geogname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n82166396.html">Flint (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651">Florida.</geogname>
+        <geogname source="lcsh" encodinganalog="651">Fulton (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79133151.html">Grand Rapids (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651">Grand Traverse Band of Ottawa and Chippewa Indians, Michigan.</geogname>
+        <geogname source="lcsh" encodinganalog="651">Grand Traverse (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651">Great Lakes (North America)</geogname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n83187817.html">Harbor Springs (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n82062802.html">Harper Woods (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651">India.</geogname>
+        <geogname source="lcsh" encodinganalog="651">Israel.</geogname>
+        <geogname source="lcsh" encodinganalog="651">Jackson (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651">Kalamazoo (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651">Keweenaw Bay Indian Community, Michigan.</geogname>
+        <geogname source="lcsh" encodinganalog="651">Keweenaw Bay (Mich. : Bay)</geogname>
+        <geogname source="lcsh" encodinganalog="651">Lansing (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n82268584.html">Livonia (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651">Manistee (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651">Michigan. District Court (36th district)--Elections.</geogname>
+        <geogname source="lcsh" encodinganalog="651">Middle West.</geogname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n85155116.html">Mount Pleasant (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651">Muskegon (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651">Oakland County (Mich.)--Newspapers.</geogname>
+        <geogname source="lcsh" encodinganalog="651">Ohio.</geogname>
+        <geogname source="lcsh" encodinganalog="651">Palestine.</geogname>
+        <geogname source="lcsh" encodinganalog="651">Pokagon Band of Potawatomi Indians, Michigan and Indiana.</geogname>
+        <geogname source="lcsh" encodinganalog="651">Rām Allāh.</geogname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n88229650.html">Ramlah (Israel)</geogname>
+        <geogname source="lcsh" encodinganalog="651">Saginaw Chippewa Indian Tribe of Michigan.</geogname>
+        <geogname source="lcsh" encodinganalog="651">Saginaw (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81003784.html">Sault Sainte Marie (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651">Sault Ste. Marie Tribe of Chippewa Indians of Michigan.</geogname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79088997.html">Southfield (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651">Texas.</geogname>
+        <geogname source="lcsh" encodinganalog="651">Troy (Mich.)--Newspapers.</geogname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n85149947.html">Wyoming (Mich.)</geogname>
+      </controlaccess>
+      <controlaccess>
+        <head>Contributors:</head>
+        <corpname encodinganalog="730" source="lcnaf">El Vocero Hispano.</corpname>
+        <corpname encodinganalog="730" source="lcnaf">Forum &amp; Link Newspaper.</corpname>
+        <persname encodinganalog="700" source="lcnaf">Makarem, Julia.</persname>
+        <corpname encodinganalog="730" source="lcnaf">Michigan Arab Times.</corpname>
+        <corpname encodinganalog="730" source="lcnaf">Muslim Observer.</corpname>
+        <corpname encodinganalog="730" source="lcnaf">Nordamerikanische Wochen-Post.</corpname>
+        <corpname encodinganalog="730" source="lcnaf">Russianmichigan.com.</corpname>
+      </controlaccess>
+      <controlaccess>
+        <head>Genre Terms:</head>
+        <genreform source="aat" encodinganalog="655">Blogs.</genreform>
+        <genreform source="aat" encodinganalog="655">Websites.</genreform>
+      </controlaccess>
+    </controlaccess>
+    <dsc type="combined">
+      <c01 level="series">
+        <did>
+          <unittitle>Ethnic Communities of Michigan Web Archives</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <physloc>Online</physloc>
+            <unittitle>100 Black Men of Detroit <unitdate type="inclusive" normal="2011">2011</unitdate></unittitle>
+            <dao href="2014031-w-1" show="new" actuate="onrequest">
+              <daodesc>
+                <p>[view website]</p>
+              </daodesc>
+            </dao>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <physloc>Online</physloc>
+            <unittitle>African American Cultural and Historical Museum of Washtenaw County <unitdate type="inclusive" normal="2011">2011</unitdate></unittitle>
+            <dao href="2014031-w-2" show="new" actuate="onrequest">
+              <daodesc>
+                <p>[view website]</p>
+              </daodesc>
+            </dao>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <physloc>Online</physloc>
+            <unittitle>American Arab Chamber of Commerce <unitdate type="inclusive" normal="2011">2011</unitdate></unittitle>
+            <dao href="2014031-w-3" show="new" actuate="onrequest">
+              <daodesc>
+                <p>[view website]</p>
+              </daodesc>
+            </dao>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <physloc>Online</physloc>
+            <unittitle>American Druze Society <unitdate type="inclusive" normal="2011">2011</unitdate></unittitle>
+            <dao href="2014031-w-4" show="new" actuate="onrequest">
+              <daodesc>
+                <p>[view website]</p>
+              </daodesc>
+            </dao>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <physloc>Online</physloc>
+            <unittitle>American Federation of Ramallah-Palestine <unitdate type="inclusive" normal="2010">2010</unitdate></unittitle>
+            <dao href="2014031-w-5" show="new" actuate="onrequest">
+              <daodesc>
+                <p>[view website]</p>
+              </daodesc>
+            </dao>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <physloc>Online</physloc>
+            <unittitle>American Muslem Society <unitdate type="inclusive" normal="2010">2010</unitdate></unittitle>
+            <dao href="2014031-w-6" show="new" actuate="onrequest">
+              <daodesc>
+                <p>[view website]</p>
+              </daodesc>
+            </dao>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <physloc>Online</physloc>
+            <unittitle>American-Arab Anti-Discrimination Committee <unitdate type="inclusive" normal="2012">2012</unitdate></unittitle>
+            <dao href="20114031-w-7" show="new" actuate="onrequest">
+              <daodesc>
+                <p>[view website]</p>
+              </daodesc>
+            </dao>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <physloc>Online</physloc>
+            <unittitle>American-Arab Anti-Discrimination Committee-Michigan <unitdate type="inclusive" normal="2010">2010</unitdate></unittitle>
+            <dao href="2014031-w-8" show="new" actuate="onrequest">
+              <daodesc>
+                <p>[view website]</p>
+              </daodesc>
+            </dao>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <physloc>Online</physloc>
+            <unittitle>Ann Arbor Chinese Center of Michigan <unitdate type="inclusive" normal="2013">2013</unitdate></unittitle>
+            <dao href="2014031-w-9" show="new" actuate="onrequest">
+              <daodesc>
+                <p>[view website]</p>
+              </daodesc>
+            </dao>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <physloc>Online</physloc>
+            <unittitle>Antiochian Basilica of St. Mary <unitdate type="inclusive" normal="2010">2010</unitdate></unittitle>
+            <dao href="2014031-w-10" show="new" actuate="onrequest">
+              <daodesc>
+                <p>[view website]</p>
+              </daodesc>
+            </dao>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <physloc>Online</physloc>
+            <unittitle>Arab Community Center for Economic and Social Services <unitdate type="inclusive" normal="2010">2010</unitdate></unittitle>
+            <dao href="2014031-w-11" show="new" actuate="onrequest">
+              <daodesc>
+                <p>[view website]</p>
+              </daodesc>
+            </dao>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <physloc>Online</physloc>
+            <unittitle>Arab America <unitdate type="inclusive" normal="2011">2011</unitdate></unittitle>
+            <dao href="2014031-w-12" show="new" actuate="onrequest">
+              <daodesc>
+                <p>[view website]</p>
+              </daodesc>
+            </dao>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <physloc>Online</physloc>
+            <unittitle>Asian Pacific American Chamber of Commerce <unitdate type="inclusive" normal="2011">2011</unitdate></unittitle>
+            <dao href="2014031-w-13" show="new" actuate="onrequest">
+              <daodesc>
+                <p>[view website]</p>
+              </daodesc>
+            </dao>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <physloc>Online</physloc>
+            <unittitle>Association of Chinese Americans-Detroit Chapter <unitdate type="inclusive" normal="2011">2011</unitdate></unittitle>
+            <dao href="2014031-w-14" show="new" actuate="onrequest">
+              <daodesc>
+                <p>[view website]</p>
+              </daodesc>
+            </dao>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <physloc>Online</physloc>
+            <unittitle>Bay Mills Chippewa Indian Community <unitdate type="inclusive" normal="2011">2011</unitdate></unittitle>
+            <dao href="2014031-w-15" show="new" actuate="onrequest">
+              <daodesc>
+                <p>[view website]</p>
+              </daodesc>
+            </dao>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <physloc>Online</physloc>
+            <unittitle>Chaldean American Ladies of Charity <unitdate type="inclusive" normal="2010">2010</unitdate></unittitle>
+            <dao href="2014031-w-16" show="new" actuate="onrequest">
+              <daodesc>
+                <p>[view website]</p>
+              </daodesc>
+            </dao>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <physloc>Online</physloc>
+            <unittitle>Chippewa Ottawa Resource Authority <unitdate type="inclusive" normal="2012">2012</unitdate></unittitle>
+            <dao href="2014031-w-17" show="new" actuate="onrequest">
+              <daodesc>
+                <p>[view website]</p>
+              </daodesc>
+            </dao>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <physloc>Online</physloc>
+            <unittitle>Council of Islamic Organizations in Michigan <unitdate type="inclusive" normal="2011">2011</unitdate></unittitle>
+            <dao href="2014031-w-18" show="new" actuate="onrequest">
+              <daodesc>
+                <p>[view website]</p>
+              </daodesc>
+            </dao>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <physloc>Online</physloc>
+            <unittitle>Detroit Association of Black Organizations <unitdate type="inclusive" normal="2011">2011</unitdate></unittitle>
+            <dao href="2014031-w-19" show="new" actuate="onrequest">
+              <daodesc>
+                <p>[view website]</p>
+              </daodesc>
+            </dao>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <physloc>Online</physloc>
+            <unittitle>El Vocero Hispano <unitdate type="inclusive" normal="2012">2012</unitdate></unittitle>
+            <dao href="2014031-w-20" show="new" actuate="onrequest">
+              <daodesc>
+                <p>[view website]</p>
+              </daodesc>
+            </dao>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <physloc>Online</physloc>
+            <unittitle>Forum &amp; Link <unitdate type="inclusive" normal="2010">2010</unitdate></unittitle>
+            <dao href="2014031-w-21" show="new" actuate="onrequest">
+              <daodesc>
+                <p>[view website]</p>
+              </daodesc>
+            </dao>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <physloc>Online</physloc>
+            <unittitle>Grand Traverse Band of Ottawa and Chippewa Indians <unitdate type="inclusive" normal="2010">2010</unitdate></unittitle>
+            <dao href="2014031-w-22" show="new" actuate="onrequest">
+              <daodesc>
+                <p>[view website]</p>
+              </daodesc>
+            </dao>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <physloc>Online</physloc>
+            <unittitle>Greater Grace Temple <unitdate type="inclusive" normal="2011">2011</unitdate></unittitle>
+            <dao href="2014031-w-23" show="new" actuate="onrequest">
+              <daodesc>
+                <p>[view website]</p>
+              </daodesc>
+            </dao>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <physloc>Online</physloc>
+            <unittitle>Hartford Memorial Baptist Church (Detroit, Mich.) <unitdate type="inclusive" normal="2011">2011</unitdate></unittitle>
+            <dao href="2014031-w-24" show="new" actuate="onrequest">
+              <daodesc>
+                <p>[view website]</p>
+              </daodesc>
+            </dao>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <physloc>Online</physloc>
+            <unittitle>Heidelberg Project <unitdate type="inclusive" normal="2013">2013</unitdate></unittitle>
+            <dao href="2014031-w-25" show="new" actuate="onrequest">
+              <daodesc>
+                <p>[view website]</p>
+              </daodesc>
+            </dao>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <physloc>Online</physloc>
+            <unittitle>Hype&amp;Sou!-The Motown History <unitdate type="inclusive" normal="2011">2011</unitdate></unittitle>
+            <dao href="2014031-w-26" show="new" actuate="onrequest">
+              <daodesc>
+                <p>[view website]</p>
+              </daodesc>
+            </dao>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <physloc>Online</physloc>
+            <unittitle>Islamic Center of America <unitdate type="inclusive" normal="2011">2011</unitdate></unittitle>
+            <dao href="2014031-w-27" show="new" actuate="onrequest">
+              <daodesc>
+                <p>[view website]</p>
+              </daodesc>
+            </dao>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <physloc>Online</physloc>
+            <unittitle>Italian-American Club of Lansing <unitdate type="inclusive" normal="2010">2010</unitdate></unittitle>
+            <dao href="2014031-w-28" show="new" actuate="onrequest">
+              <daodesc>
+                <p>[view website]</p>
+              </daodesc>
+            </dao>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <physloc>Online</physloc>
+            <unittitle>Judge Deborah Geraldine Bledsoe Ford <unitdate type="inclusive" normal="2011">2011</unitdate></unittitle>
+            <dao href="2014031-w-29" show="new" actuate="onrequest">
+              <daodesc>
+                <p>[view website]</p>
+              </daodesc>
+            </dao>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <physloc>Online</physloc>
+            <unittitle>Keeweenaw Bay Indian Community <unitdate type="inclusive" normal="2011">2011</unitdate></unittitle>
+            <dao href="2014031-w-30" show="new" actuate="onrequest">
+              <daodesc>
+                <p>[view website]</p>
+              </daodesc>
+            </dao>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <physloc>Online</physloc>
+            <unittitle>Lebanese American Heritage Club <unitdate type="inclusive" normal="2010">2010</unitdate></unittitle>
+            <dao href="2014031-w-31" show="new" actuate="onrequest">
+              <daodesc>
+                <p>[view website]</p>
+              </daodesc>
+            </dao>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <physloc>Online</physloc>
+            <unittitle>Little River Band of Ottawa Indians in Manistee, Michigan <unitdate type="inclusive" normal="2010">2010</unitdate></unittitle>
+            <dao href="2014031-w-32" show="new" actuate="onrequest">
+              <daodesc>
+                <p>[view website]</p>
+              </daodesc>
+            </dao>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <physloc>Online</physloc>
+            <unittitle>Little Traverse Bay Bands of Odawa Indians <unitdate type="inclusive" normal="2010">2010</unitdate></unittitle>
+            <dao href="2014031-w-33" show="new" actuate="onrequest">
+              <daodesc>
+                <p>[view website]</p>
+              </daodesc>
+            </dao>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <physloc>Online</physloc>
+            <unittitle>Metropolitan Organizing Strategy Enabling Strength <unitdate type="inclusive" normal="2012">2012</unitdate></unittitle>
+            <dao href="2014031-w-34" show="new" actuate="onrequest">
+              <daodesc>
+                <p>[view website]</p>
+              </daodesc>
+            </dao>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <physloc>Online</physloc>
+            <unittitle>Michigan Arab Times <unitdate type="inclusive" normal="2011">2011</unitdate></unittitle>
+            <dao href="2014031-w-35" show="new" actuate="onrequest">
+              <daodesc>
+                <p>[view website]</p>
+              </daodesc>
+            </dao>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <physloc>Online</physloc>
+            <unittitle>Michigan Russian Cultural Center School <unitdate type="inclusive" normal="2011">2011</unitdate></unittitle>
+            <dao href="2014031-w-36" show="new" actuate="onrequest">
+              <daodesc>
+                <p>[view website]</p>
+              </daodesc>
+            </dao>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <physloc>Online</physloc>
+            <unittitle>Michigan Taiwanese American Organization <unitdate type="inclusive" normal="2011">2011</unitdate></unittitle>
+            <dao href="2014031-w-37" show="new" actuate="onrequest">
+              <daodesc>
+                <p>[view website]</p>
+              </daodesc>
+            </dao>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <physloc>Online</physloc>
+            <unittitle>Migrant Health Promotion <unitdate type="inclusive" normal="2012">2012</unitdate></unittitle>
+            <dao href="2014031-w-38" show="new" actuate="onrequest">
+              <daodesc>
+                <p>[view website]</p>
+              </daodesc>
+            </dao>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <physloc>Online</physloc>
+            <unittitle>Muslim American Logic Institute <unitdate type="inclusive" normal="2012">2012</unitdate></unittitle>
+            <dao href="2013031-w-39" show="new" actuate="onrequest">
+              <daodesc>
+                <p>[view website]</p>
+              </daodesc>
+            </dao>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <physloc>Online</physloc>
+            <unittitle>Muslim Observer <unitdate type="inclusive" normal="2011">2011</unitdate></unittitle>
+            <dao href="2014031-w-40" show="new" actuate="onrequest">
+              <daodesc>
+                <p>[view website]</p>
+              </daodesc>
+            </dao>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <physloc>Online</physloc>
+            <unittitle>New Bethel Baptist Church (Detroit, Mich.) <unitdate type="inclusive" normal="2011">2011</unitdate></unittitle>
+            <dao href="2014031-w-41" show="new" actuate="onrequest">
+              <daodesc>
+                <p>[view website]</p>
+              </daodesc>
+            </dao>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <physloc>Online</physloc>
+            <unittitle>New Detroit <unitdate type="inclusive" normal="2011">2011</unitdate></unittitle>
+            <dao href="2014031-w-42" show="new" actuate="onrequest">
+              <daodesc>
+                <p>[view website]</p>
+              </daodesc>
+            </dao>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <physloc>Online</physloc>
+            <unittitle>Nordamerikanische Wochen-Post <unitdate type="inclusive" normal="2012">2012</unitdate></unittitle>
+            <dao href="20140313-w-44" show="new" actuate="onrequest">
+              <daodesc>
+                <p>[view website]</p>
+              </daodesc>
+            </dao>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <physloc>Online</physloc>
+            <unittitle>Nottawaseppi Huron Band of Potawatomi <unitdate type="inclusive" normal="2010">2010</unitdate></unittitle>
+            <dao href="2014031-w-45" show="new" actuate="onrequest">
+              <daodesc>
+                <p>[view website]</p>
+              </daodesc>
+            </dao>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <physloc>Online</physloc>
+            <unittitle>Philippine Chamber of Commerce-Michigan <unitdate type="inclusive" normal="2011">2011</unitdate></unittitle>
+            <dao href="2014031-w-46" show="new" actuate="onrequest">
+              <daodesc>
+                <p>[view website]</p>
+              </daodesc>
+            </dao>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <physloc>Online</physloc>
+            <unittitle>Pokagon Band of Potawatomi Indians <unitdate type="inclusive" normal="2010">2010</unitdate></unittitle>
+            <dao href="2014031-w-47" show="new" actuate="onrequest">
+              <daodesc>
+                <p>[view website]</p>
+              </daodesc>
+            </dao>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <physloc>Online</physloc>
+            <unittitle>Reclaiming Identity: Dismantling Arab Stereotypes <unitdate type="inclusive" normal="2012">2012</unitdate></unittitle>
+            <dao href="2014031-w-48" show="new" actuate="onrequest">
+              <daodesc>
+                <p>[view website]</p>
+              </daodesc>
+            </dao>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <physloc>Online</physloc>
+            <unittitle>Russian Michigan Yellow Pages <unitdate type="inclusive" normal="2011">2011</unitdate></unittitle>
+            <dao href="2014031-w-49" show="new" actuate="onrequest">
+              <daodesc>
+                <p>[view website]</p>
+              </daodesc>
+            </dao>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <physloc>Online</physloc>
+            <unittitle>Saginaw Chippewa Indian Tribe <unitdate type="inclusive" normal="2010">2010</unitdate></unittitle>
+            <dao href="2014031-w-50" show="new" actuate="onrequest">
+              <daodesc>
+                <p>[view website]</p>
+              </daodesc>
+            </dao>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <physloc>Online</physloc>
+            <unittitle>Sault Tribe of Chippewa Indians <unitdate type="inclusive" normal="2010">2010</unitdate></unittitle>
+            <dao href="2014031-w-51" show="new" actuate="onrequest">
+              <daodesc>
+                <p>[view website]</p>
+              </daodesc>
+            </dao>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <physloc>Online</physloc>
+            <unittitle>St. Matthew's &amp; St. Joseph's Episcopal Church (Detroit, Mich.) <unitdate type="inclusive" normal="2011">2011</unitdate></unittitle>
+            <dao href="2014031-w-52" show="new" actuate="onrequest">
+              <daodesc>
+                <p>[view website]</p>
+              </daodesc>
+            </dao>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <physloc>Online</physloc>
+            <unittitle>St. Sabbas Orthodox Monastery (Harper Woods, Mich.) <unitdate type="inclusive" normal="2011">2011</unitdate></unittitle>
+            <dao href="2014031-w-53" show="new" actuate="onrequest">
+              <daodesc>
+                <p>[view website]</p>
+              </daodesc>
+            </dao>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <physloc>Online</physloc>
+            <unittitle>St. Vladimir Orthodox Church (Dexter, Mich.) <unitdate type="inclusive" normal="2011">2011</unitdate></unittitle>
+            <dao href="2014031-w-54" show="new" actuate="onrequest">
+              <daodesc>
+                <p>[view website]</p>
+              </daodesc>
+            </dao>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <physloc>Online</physloc>
+            <unittitle>Universal Hagar's Spiritual Church--George H. Latimer-Knight Ministries International <unitdate type="inclusive" normal="2011">2011</unitdate></unittitle>
+            <dao href="2014031-w-55" show="new" actuate="onrequest">
+              <daodesc>
+                <p>[view website]</p>
+              </daodesc>
+            </dao>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <physloc>Online</physloc>
+            <unittitle>West Side Detroit Polish American Historical Society <unitdate type="inclusive" normal="2011">2011</unitdate></unittitle>
+            <dao href="2014031-w-56" show="new" actuate="onrequest">
+              <daodesc>
+                <p>[view website]</p>
+              </daodesc>
+            </dao>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <physloc>Online</physloc>
+            <unittitle>Word Of Faith International Christian Center (Southfield, Mich.) <unitdate type="inclusive" normal="2011">2011</unitdate></unittitle>
+            <dao href="2014031-w-57" show="new" actuate="onrequest">
+              <daodesc>
+                <p>[view website]</p>
+              </daodesc>
+            </dao>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <physloc>Online</physloc>
+            <unittitle>Yemeni American Net <unitdate type="inclusive" normal="2011">2011</unitdate></unittitle>
+            <dao href="2014031-w-58" show="new" actuate="onrequest">
+              <daodesc>
+                <p>[view website]</p>
+              </daodesc>
+            </dao>
+          </did>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

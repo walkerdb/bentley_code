@@ -1,0 +1,4047 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead.dtd">
+<ead>
+  <eadheader audience="internal" langencoding="iso639-2b" repositoryencoding="iso15511" dateencoding="iso8601" relatedencoding="Dublin Core" scriptencoding="iso15924" countryencoding="iso3166-1">
+    <eadid countrycode="us" mainagencycode="MiU-H" publicid="us//::miu-h//TXT us::miu-h::busadp.xml//EN" encodinganalog="Identifier">umich-bhl-00132</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="Title">Finding Aid for Ross School of Business (University of Michigan) Publications <date>1916-2013</date></titleproper>
+        <author encodinganalog="Creator">Collection processed and finding aid prepared by Stacy Foley Strumpfer, 1995; Jennifer Jacobs, 1999; Nancy Deromedi, 2005, 2006; Michael Shallcross, 2013</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="Publisher">Bentley Historical Library, University of Michigan</publisher>
+        <date encodinganalog="Date"/>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created by Greg Kinney <date>August 2001</date></creation>
+      <langusage>The finding aid is written in <language encodinganalog="language" langcode="eng">English.</language></langusage>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date>20150921</date>
+        <item>Corrected collection dates.</item>
+      </change>
+      <change>
+        <date>20140109</date>
+        <item>added digital Bulletins with links to deep blue</item>
+      </change>
+      <change>
+        <date>20060602</date>
+        <item>updated to include boxes 20-22, some reprocessing</item>
+      </change>
+      <change>
+        <date>20130313</date>
+        <item>added WAS digital files</item>
+      </change>
+      <change>
+        <date>20060602</date>
+        <item>updated to include boxes 20-22, some reprocessing</item>
+      </change>
+      <change>
+        <date>20031001</date>
+        <item>Converted to EAD2002 using Word macro and Xmetal</item>
+      </change>
+      <change>
+        <date>2001-08-05</date>
+        <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <frontmatter>
+    <titlepage>
+      <publisher>University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
+      <titleproper>Finding Aid for <lb/>Ross School of Business <lb/>(University of Michigan) <lb/>Publications, 1916-2013</titleproper>
+      <author>Finding aid prepared by: <lb/>Stacy Foley Strumpfer, 1995 <lb/>Jennifer Jacobs, 1999 <lb/>Nancy Deromedi, 2005, 2006 <lb/>Michael Shallcross, 2013</author>
+    </titlepage>
+  </frontmatter>
+  <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
+    <did>
+      <origination>
+        <corpname source="lcnaf" encodinganalog="110">University of Michigan. School of Business Administration.</corpname>
+      </origination>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">49.6 MB</extent>
+      </physdesc>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">22 linear feet</extent>
+      </physdesc>
+      <unittitle encodinganalog="245">Ross School of Business Administration (University of Michigan) Publications <unitdate type="inclusive" encodinganalog="245$f" normal="1916/2013">1916-2013</unitdate></unittitle>
+      <abstract>Includes addresses, annual reports, bibliographies, brochures and pamphlets, bulletins and college catalogs, directories, manuals, newsletters, programs, proposals, reports, statistics, and yearbooks. Also contains publications from the Bureau of Business Research, Center for International Business Education, Division of Research, Executive Education Center, Program in International Business and the Public Utility Executive Program. Also includes conference publications from meetings held at the university and sponsored or co-sponsored by the School of Business Administration. There are also some publications describing various development campaigns and the Summer Session. Also includes the publication entitled "Dividend". Some publications (or their successors) may no longer be available in print. but are available the school's website.</abstract>
+      <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">00132 Bimu C221 2</unitid>
+      <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
+      <repository>
+        <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea> University of Michigan</corpname>
+        <extptr href="bhladd" show="embed" actuate="onload"/>
+      </repository>
+    </did>
+    <descgrp type="admin">
+      <acqinfo encodinganalog="541">
+        <p>The records of the Ross School of Business were received in three major accessions, 1980, 1983 and 1993. Donor no. <num type="donor" encodinganalog="541$e">6468</num>.</p>
+      </acqinfo>
+      <accessrestrict encodinganalog="506">
+        <p>The records are open for research.</p>
+        <p>
+          <extptr href="uarpacc" show="embed" actuate="onload"/>
+        </p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+        <p>Copyright is held by the Regents of the University of Michigan.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+        <p>page(s), folder/publication title, box no., Ross School of Business Administration (University of Michigan) Publications, Bentley Historical Library, University of Michigan</p>
+      </prefercite>
+      <processinfo>
+        <p>
+          <extptr href="digitalproc" show="embed" actuate="onload"/>
+        </p>
+      </processinfo>
+    </descgrp>
+    <bioghist encodinganalog="545">
+      <p>See the finding aid for the Ross School of Business (University of Michigan) Records for a historical sketch of the Business School.</p>
+    </bioghist>
+    <scopecontent encodinganalog="520">
+      <p>The Ross School of Business Publications, 1925-1998, and are divided into four series: Unit Publications, Sub-Unit Publications, Topical Publications and Student Organization Publications. The publications include addresses, annual reports, bibliographies, brochures and pamphlets, bulletins and college catalogs, directories, manuals, newsletters, programs, proposals, reports, statistics, and yearbooks. Also contains publications from the Bureau of Business Research, Center for International Business Education, Division of Research, Executive Education Center, Program in International Business and the Public Utility Executive Program. Also includes conference publications from meetings held at the university and sponsored or co-sponsored by the Ross School of Business Administration. There are also some publications describing various development campaigns and the Summer Session. Also includes the publication entitled "Dividend". Some publications (or their successors) may no longer be available in print but are available on the school s website.</p>
+    </scopecontent>
+    <controlaccess>
+      <p>
+        <extptr href="accnote" show="embed" actuate="onload"/>
+      </p>
+      <controlaccess>
+        <head>Subjects:</head>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79073704">University of Michigan. Graduate School of Business Administration.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Ross School of Business.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Alumni and alumnae.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Students--Social life and customs.</corpname>
+      </controlaccess>
+      <controlaccess>
+        <head>Contributors:</head>
+        <corpname source="lcnaf" encodinganalog="710" authfilenumber="http://id.loc.gov/authorities/names/n79076044">University of Michigan. Bureau of Business Research.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" authfilenumber="http://id.loc.gov/authorities/names/no2010107047">University of Michigan. Center for International Business Education.</corpname>
+        <corpname source="lcnaf" encodinganalog="710">University of Michigan. Ross School of Business. Division of Research.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" authfilenumber="http://id.loc.gov/authorities/names/nr96011046">University of Michigan. Executive Education Center.</corpname>
+        <corpname source="lcnaf" encodinganalog="710">University of Michigan. Program in International Business.</corpname>
+        <corpname source="lcnaf" encodinganalog="710">University of Michigan. Public Utility Executive Program.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" authfilenumber="http://id.loc.gov/authorities/names/n79073704">University of Michigan. Graduate School of Business Administration.</corpname>
+      </controlaccess>
+      <controlaccess>
+        <head>Genre/Form:</head>
+        <genreform source="aat" encodinganalog="655">Addresses.</genreform>
+        <genreform source="aat" encodinganalog="655">Annual reports.</genreform>
+        <genreform source="aat" encodinganalog="655">Bibliographies.</genreform>
+        <genreform source="aat" encodinganalog="655">Catalogs, College.</genreform>
+        <genreform source="aat" encodinganalog="655">Directories.</genreform>
+        <genreform source="aat" encodinganalog="655">Manuals.</genreform>
+        <genreform source="aat" encodinganalog="655">Newsletters.</genreform>
+        <genreform source="aat" encodinganalog="655">Pamphlets.</genreform>
+        <genreform source="aat" encodinganalog="655">Programs.</genreform>
+        <genreform source="aat" encodinganalog="655">Proposals.</genreform>
+        <genreform source="aat" encodinganalog="655">Reports.</genreform>
+        <genreform source="lcsh" encodinganalog="655">Statistics.</genreform>
+      </controlaccess>
+    </controlaccess>
+    <dsc type="combined">
+      <c01 level="series">
+        <did>
+          <unittitle>Unit Publications</unittitle>
+        </did>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Abstracts</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle><title render="italic">Personnel Management Abstracts</title>, <unitdate type="inclusive" normal="1978">1978</unitdate> v. 24</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Addresses</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>Annual Business Leadership Lecture</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">2 folders</extent>
+                </physdesc>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1958/1972">1958-1972</unitdate>
+                </unittitle>
+                <physdesc altrender="whole">
+                  </physdesc>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Annual William K. McInally Memorial Lecture</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">8 folders</extent>
+                </physdesc>
+                <unittitle><unitdate type="inclusive" normal="1966/1994">1966-1994</unitdate>, <unitdate type="inclusive" normal="1996">1996</unitdate></unittitle>
+                <physdesc altrender="whole">
+                  </physdesc>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Cornerstone Laying Ceremony <unitdate type="inclusive" normal="1947">1947</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle><title render="italic">Corporate Governance: Major Issues for the 1990s</title>, <unitdate type="inclusive" normal="1989">1989</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle><title render="italic">The Frontier Revisited: General Management Challenges in a Mature Industry</title>, <unitdate type="inclusive" normal="1978">1978</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>General Agents' Accelerated Development Program <unitdate type="inclusive" normal="1978">1978</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle><title render="italic">The Major Problem of Inflation</title>, <unitdate type="inclusive" normal="1948">1948</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle><title render="italic">The New Face of Capitalism</title>, <unitdate type="inclusive" normal="1961">1961</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle><title render="italic">A New Tax Structure for the United States</title>, <unitdate type="inclusive" normal="1977">1977</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle><title render="italic">Social Responsibilities of Business Education</title>, <unitdate type="inclusive" normal="1949">1949</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Admissions Materials</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">21</container>
+              <unittitle>MBA Program <unitdate type="inclusive" normal="1985/2002">1985-2002 (scattered dates)</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Annual Reports</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>
+                <title render="italic">Highlights</title>
+              </unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1992/2002">1992-2002</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>
+                <title render="italic">The Michigan Business School Annual Report</title>
+              </unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">5 folders</extent>
+                </physdesc>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1984/1991">1984-1991</unitdate>
+                </unittitle>
+                <physdesc altrender="whole">
+                  </physdesc>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">22</container>
+              <unittitle>Annual Report <unitdate type="inclusive" normal="2002">2002</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Bibliographies</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>
+                <title render="italic">Faculty Bibliography</title>
+              </unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">18 folders</extent>
+                </physdesc>
+                <unittitle>1972/73-1989</unittitle>
+                <physdesc altrender="whole">
+                  </physdesc>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle><title render="italic">Faculty Research and Selected Publications</title>, <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>
+                <title render="italic">Research at the Michigan Business School</title>
+              </unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">3 folders</extent>
+                </physdesc>
+                <unittitle><unitdate type="inclusive" normal="1990/1991">1990-1991</unitdate>, <unitdate type="inclusive" normal="1993">1993</unitdate></unittitle>
+                <physdesc altrender="whole">
+                  </physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">22</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1994">1994</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">22</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1995">1995</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">22</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="2000">2000</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Brochures</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1953/1992">1953-1992</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Accounting Program <unitdate type="inclusive" normal="1963">1963</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Annual Business Conference <unitdate type="inclusive" normal="1966/1975">1966-1975</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Blue Cross Executive Program: Management Development Program <unitdate type="inclusive" normal="1952/1953">1952-1953</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Career Series <unitdate type="inclusive" normal="1951">1951</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Dearborn Center <unitdate type="inclusive" normal="1960/1961">1960-1961</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle><title render="italic">Highlights</title>, <unitdate type="inclusive" normal="1992/1993">1992-1993</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Joint Degree Programs <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>MBA Evening Program <unitdate type="inclusive" normal="1966/1969">1966-1969</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle><title render="italic">Management Programs, July 1984-June 1985</title>, <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Master of Business Administration <unitdate type="inclusive" normal="1963/1971">1963-1971</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>The Michigan BBA <unitdate type="inclusive" normal="1985">1985</unitdate>, <unitdate type="inclusive" normal="1986">1986</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
+              </physdesc>
+              <unittitle>The Michigan MBA <unitdate type="inclusive" normal="1982/1986">1982/83-1985/86</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>The Michigan Ph.D. <unitdate type="inclusive" normal="1966">1966</unitdate>, <unitdate type="inclusive" normal="1982/1983">1982/83</unitdate>, <unitdate type="inclusive" normal="1999/2003">1999-2003</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
+              </physdesc>
+              <unittitle>Miscellaneous <unitdate type="inclusive">undated</unitdate>, <unitdate type="inclusive" normal="1946/1991">1946-1991</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Ph.D. Program in Statistics and Management Science <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Program in Quantitative Methods <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Public Finance Institute <unitdate type="inclusive" normal="1974/1979">1974-1979</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Secretarial <unitdate type="inclusive" normal="1963/1964">1963-1964</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>The William A. Paton Center for Accounting Education and Research <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">22</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="2000/2002" certainty="approximate">circa 2000-2002</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Bulletins</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>Announcement, Undergraduate and Graduate Programs</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">3</container>
+                <unittitle>1922/1923-1954/1955</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Graduate Program</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">3</container>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">16 folders</extent>
+                </physdesc>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1955/1986">1955/56-1985/86</unitdate>
+                </unittitle>
+                <physdesc altrender="whole">
+                  </physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">4</container>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">4 folders</extent>
+                </physdesc>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1987/1995">1987/88-1994/95</unitdate>
+                </unittitle>
+                <physdesc altrender="whole">
+                  </physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">4</container>
+                <unittitle><unitdate type="inclusive" normal="1995/1999">1995-1999</unitdate>, <unitdate type="inclusive" normal="2002">2002</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">4</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="2004">2004</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Graduate Program</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>
+                  <unitdate type="inclusive" normal="2004/2005">2004-2005</unitdate>
+                </unittitle>
+                <physdesc>
+                  <physfacet>.PDF file</physfacet>
+                </physdesc>
+                <dao href="http://hdl.handle.net/2027.42/100214" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[view item]</p>
+                  </daodesc>
+                </dao>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>
+                  <unitdate type="inclusive" normal="2005/2006">2005-2006</unitdate>
+                </unittitle>
+                <physdesc>
+                  <physfacet>.PDF files</physfacet>
+                </physdesc>
+                <dao href="http://hdl.handle.net/2027.42/100215" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[view item]</p>
+                  </daodesc>
+                </dao>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>
+                  <unitdate type="inclusive" normal="2006/2007">2006-2007</unitdate>
+                </unittitle>
+                <physdesc>
+                  <physfacet>.PDF files</physfacet>
+                </physdesc>
+                <dao href="http://hdl.handle.net/2027.42/100216" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[view item]</p>
+                  </daodesc>
+                </dao>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>
+                  <unitdate type="inclusive" normal="2007/2008">2007-2008</unitdate>
+                </unittitle>
+                <physdesc>
+                  <physfacet>.PDF files</physfacet>
+                </physdesc>
+                <dao href="http://hdl.handle.net/2027.42/100217" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[view item]</p>
+                  </daodesc>
+                </dao>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>
+                  <unitdate type="inclusive" normal="2008/2009">2008-2009</unitdate>
+                </unittitle>
+                <physdesc>
+                  <physfacet>.PDF files</physfacet>
+                </physdesc>
+                <dao href="http://hdl.handle.net/2027.42/100218" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[view item]</p>
+                  </daodesc>
+                </dao>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>
+                  <unitdate type="inclusive" normal="2009/2010">2009-2010</unitdate>
+                </unittitle>
+                <physdesc>
+                  <physfacet>.PDF files</physfacet>
+                </physdesc>
+                <dao href="http://hdl.handle.net/2027.42/100219" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[view item]</p>
+                  </daodesc>
+                </dao>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>
+                  <unitdate type="inclusive" normal="2010/2011">2010-2011</unitdate>
+                </unittitle>
+                <physdesc>
+                  <physfacet>.PDF files</physfacet>
+                </physdesc>
+                <dao href="http://hdl.handle.net/2027.42/100244" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[view item]</p>
+                  </daodesc>
+                </dao>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>
+                  <unitdate type="inclusive" normal="2011/2012">2011-2012</unitdate>
+                </unittitle>
+                <physdesc>
+                  <physfacet>.PDF files</physfacet>
+                </physdesc>
+                <dao href="http://hdl.handle.net/2027.42/100245" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[view item]</p>
+                  </daodesc>
+                </dao>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>
+                  <unitdate type="inclusive" normal="2012/2013">2012-2013</unitdate>
+                </unittitle>
+                <physdesc>
+                  <physfacet>.PDF files</physfacet>
+                </physdesc>
+                <dao href="http://hdl.handle.net/2027.42/100246" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[view item]</p>
+                  </daodesc>
+                </dao>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">3 folders</extent>
+              </physdesc>
+              <unittitle>Graduate Evening Program <unitdate type="inclusive" normal="1993/2002">1993-2002</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Graduate Executive Program <unitdate type="inclusive" normal="2002">2002</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Graduate Full-Time Day Program <unitdate type="inclusive" normal="1992">1992</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Graduate Part-Time Program <unitdate type="inclusive" normal="1993">1993</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Undergraduate Program</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">21</container>
+                <unittitle>1955/56-1999 <unitdate type="inclusive" normal="2002">2002</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>
+                  <unitdate type="inclusive" normal="2004/2005">2004-2005</unitdate>
+                </unittitle>
+                <physdesc>
+                  <physfacet>.PDF files</physfacet>
+                </physdesc>
+                <dao href="http://hdl.handle.net/2027.42/100208" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[view item]</p>
+                  </daodesc>
+                </dao>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>
+                  <unitdate type="inclusive" normal="2005/2006">2005-2006</unitdate>
+                </unittitle>
+                <physdesc>
+                  <physfacet>.PDF files</physfacet>
+                </physdesc>
+                <dao href="http://hdl.handle.net/2027.42/100209" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[view item]</p>
+                  </daodesc>
+                </dao>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>
+                  <unitdate type="inclusive" normal="2006/2007">2006-2007</unitdate>
+                </unittitle>
+                <physdesc>
+                  <physfacet>.PDF files</physfacet>
+                </physdesc>
+                <dao href="http://hdl.handle.net/2027.42/100210" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[view item]</p>
+                  </daodesc>
+                </dao>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>
+                  <unitdate type="inclusive" normal="2007/2008">2007-2008</unitdate>
+                </unittitle>
+                <physdesc>
+                  <physfacet>.PDF files</physfacet>
+                </physdesc>
+                <dao href="http://hdl.handle.net/2027.42/100211" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[view item]</p>
+                  </daodesc>
+                </dao>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>
+                  <unitdate type="inclusive" normal="2008/2009">2008-2009</unitdate>
+                </unittitle>
+                <physdesc>
+                  <physfacet>.PDF files</physfacet>
+                </physdesc>
+                <dao href="http://hdl.handle.net/2027.42/100212" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[view item]</p>
+                  </daodesc>
+                </dao>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>
+                  <unitdate type="inclusive" normal="2009/2010">2009-2010</unitdate>
+                </unittitle>
+                <physdesc>
+                  <physfacet>.PDF files</physfacet>
+                </physdesc>
+                <dao href="http://hdl.handle.net/2027.42/100213" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[view item]</p>
+                  </daodesc>
+                </dao>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>
+                  <unitdate type="inclusive" normal="2010/2011">2010-2011</unitdate>
+                </unittitle>
+                <physdesc>
+                  <physfacet>.PDF files</physfacet>
+                </physdesc>
+                <dao href="http://hdl.handle.net/2027.42/100241" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[view item]</p>
+                  </daodesc>
+                </dao>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>
+                  <unitdate type="inclusive" normal="2011/2012">2011-2012</unitdate>
+                </unittitle>
+                <physdesc>
+                  <physfacet>.PDF files</physfacet>
+                </physdesc>
+                <dao href="http://hdl.handle.net/2027.42/100242" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[view item]</p>
+                  </daodesc>
+                </dao>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>
+                  <unitdate type="inclusive" normal="2012/2013">2012-2013</unitdate>
+                </unittitle>
+                <physdesc>
+                  <physfacet>.PDF files</physfacet>
+                </physdesc>
+                <dao href="http://hdl.handle.net/2027.42/100243" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[view item]</p>
+                  </daodesc>
+                </dao>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="item">
+          <did>
+            <unittitle>Doctoral Program <unitdate type="inclusive" normal="1994/1997">1994-1997</unitdate>, <unitdate type="inclusive" normal="2001/2002">2001/02</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Directories</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle><title render="italic">Alumni Bulletin 1924-1943</title>, <unitdate type="inclusive" normal="1943">1943</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Alumni Directory</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">4</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1983">1983</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">4</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1986">1986</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle><title render="italic">Business School Student Directory</title>, <unitdate type="inclusive" normal="1988/1989">1988/89</unitdate>, <unitdate type="inclusive" normal="1997/1998">1997/98</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle><title render="italic">BBA Graduates</title>, <unitdate type="inclusive" normal="1977">1977</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle><title render="italic">Directory of Ph.D. Graduates 1935-1993</title>, <unitdate type="inclusive" normal="1993">1993</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle><title render="italic">Doctoral Candidates</title>, <unitdate type="inclusive" normal="1967/1969">1967-1969</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle><title render="italic">Doctoral Candidates: Placement Roster</title>, <unitdate type="inclusive" normal="1970/1978">1970-1978</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>
+                <title render="italic">Entering BBAs, MAccs, MBAs, Entering and Continuing Ph.Ds, Faculty and Staff</title>
+              </unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">4</container>
+                <unittitle><unitdate type="inclusive" normal="1984/1990">1984-1990</unitdate>, <unitdate type="inclusive" normal="1992">1992</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle><title render="italic">Faculty and Staff</title>, <unitdate type="inclusive" normal="1946/1981">1946-1981</unitdate>, <unitdate type="inclusive" normal="1994">1994</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle><title render="italic">First Year MBA</title>, <unitdate type="inclusive" normal="1971/1972">1971-1972</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle><title render="italic">40th Anniversary: Class of 1937</title>, <unitdate type="inclusive" normal="1977">1977</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle><title render="italic">Graduate School of Business Administration BBAs: Entering Class</title>, <unitdate type="inclusive" normal="1982">1982</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle><title render="italic">Graduate School of Business Administration: Entering MBAs</title>, <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle><title render="italic">Graduate School of Business Administration MAcc: Entering Class</title>, <unitdate type="inclusive" normal="1983">1983</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>
+                <title render="italic">Graduate School of Business Administration MBAs: Entering Class</title>
+              </unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">5</container>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">5 folders</extent>
+                </physdesc>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1979/1983">1979-1983</unitdate>
+                </unittitle>
+                <physdesc altrender="whole">
+                  </physdesc>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle><title render="italic">Holders of the Degree of Doctor of Philosophy in Business Administration</title>, <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle><title render="italic">MBA Graduates</title>, <unitdate type="inclusive" normal="1977">1977</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle><title render="italic">MBA '78</title>, <unitdate type="inclusive" normal="1978">1978</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle><title render="italic">New Faculty</title>, <unitdate type="inclusive" normal="1988/1990">1988/89-1989/90</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>
+                <title render="italic">Ph.D. Alumni Directory</title>
+              </unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">5</container>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">2 folders</extent>
+                </physdesc>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1982/1983">1982-1983</unitdate>
+                </unittitle>
+                <physdesc altrender="whole">
+                  </physdesc>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle><title render="italic">Ph.D. Alumni Directory, 1935-1987</title>, <unitdate type="inclusive" normal="1935/1993">1935-1993</unitdate>, <unitdate type="inclusive" normal="1935/1995">1935-1995</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle><title render="italic">Ph.D. Directory</title>, <unitdate type="inclusive" normal="1965/1979">1965-1979</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle><title render="italic">Photo Directory</title> (Graduate), <unitdate type="inclusive" normal="1973/1975">1973/74-1974/75</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle><title render="italic">Resume Book of the Entrepreneur Club</title>, <unitdate type="inclusive" normal="1984">1984</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle><title render="italic">School of Business Administration BBAs: Entering Class</title>, <unitdate type="inclusive" normal="1983">1983</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle><title render="italic">Specialists</title>, [ca. 1991]</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>
+                <title render="italic">Who's New</title>
+              </unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">5</container>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">4 folders</extent>
+                </physdesc>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1960/1979">1960-1979</unitdate>
+                </unittitle>
+                <physdesc altrender="whole">
+                  </physdesc>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Flyers</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1998" certainty="approximate">1998 undated</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Invitations</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle><unitdate type="inclusive" normal="1975/1998">1975-1998</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Manuals</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>
+                <title render="italic">Graduate Student Handbook</title>
+              </unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">6</container>
+                <unittitle><unitdate type="inclusive" normal="1973/1975">1973-1975</unitdate>, <unitdate type="inclusive" normal="1995/1996">1995/96</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">6</container>
+              <unittitle><title render="italic">Guide to Computing Resources at the Graduate School of Business Administration, University of Michigan</title>, <unitdate type="inclusive" normal="1980">1980</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">6</container>
+              <unittitle><title render="italic">Library Guide for Students</title>, <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>
+                <title render="italic">Undergraduate Student Handbook</title>
+              </unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">6</container>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">3 folders</extent>
+                </physdesc>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1973/1975">1973-1975</unitdate>
+                </unittitle>
+                <physdesc altrender="whole">
+                  </physdesc>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Miscellaneous</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">22</container>
+              <unittitle>Doctoral Recognition Program <unitdate type="inclusive" normal="2004/2006">2004-2006</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">22</container>
+              <unittitle>In Memory, Professor Andy Andrews <unitdate type="inclusive" normal="2002">2002</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">22</container>
+              <unittitle><title render="italic">MBA Perspectives</title>, <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">22</container>
+              <unittitle>Michigan Business School Publication Listing <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">22</container>
+              <unittitle>Michigan Mail (print-outs) <unitdate type="inclusive" normal="2002">2002</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">22</container>
+              <unittitle>Office of Communications News Releases <unitdate type="inclusive" normal="2002">2002</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">22</container>
+              <unittitle>Sharfman Memorial Lecture <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Newsletters</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>
+                <title render="italic">Alumni Bulletin</title>
+              </unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">6</container>
+                <unittitle><unitdate type="inclusive" normal="1942/1943">1942-1943</unitdate> vol. 1-2</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">6</container>
+                <unittitle><unitdate type="inclusive" normal="1967/1969">1967-1969</unitdate> vol. 3-4</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>
+                <title render="italic">Bulletin</title>
+              </unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">6</container>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">3 folders</extent>
+                </physdesc>
+                <unittitle><unitdate type="inclusive" normal="1965/1967">1965-1967</unitdate> vol. 1-3</unittitle>
+                <physdesc altrender="whole">
+                  </physdesc>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">22</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
+              </physdesc>
+              <unittitle>
+                <title render="italic">Common Bonds</title>
+                <unitdate type="inclusive" normal="1994/2006">Spring 1994-Winter 2006</unitdate>
+              </unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>
+                <title render="italic">Computing Services Newsletter</title>
+              </unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">6</container>
+                <unittitle><unitdate type="inclusive" normal="1985">1985</unitdate> vol. 1</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>
+                <title render="italic">Dividend</title>
+              </unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">6</container>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">20 folders</extent>
+                </physdesc>
+                <unittitle><unitdate type="inclusive" normal="1969/1989">1969-1989</unitdate> vol. 1-20</unittitle>
+                <physdesc altrender="whole">
+                  </physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">7</container>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">9 folders</extent>
+                </physdesc>
+                <unittitle><unitdate type="inclusive" normal="1990/1998">1990-1998</unitdate> vol. 21-29</unittitle>
+                <physdesc altrender="whole">
+                  </physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">21</container>
+                <unittitle><unitdate type="inclusive" normal="2001/2004">2001-2004</unitdate> (vols. 32-35)</unittitle>
+              </did>
+              <odd>
+                <p>(bound volume)</p>
+              </odd>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">21</container>
+                <unittitle>2005-(vol. 36-)</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle><title render="italic">Focus on the Computer</title>, <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle><title render="italic">Human Resource Management</title>, v. 14 no. 4, <unitdate type="inclusive" normal="1975">1975</unitdate> v. 17 <unitdate type="inclusive" normal="1978">1978</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle><title render="italic">Info: An Information Resources Gazette</title>, <unitdate type="inclusive" normal="1991/1992">1991-1992</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>
+                <title render="italic">Michigan Business Review</title>
+              </unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">7</container>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">16 bound volumes</extent>
+                </physdesc>
+                <unittitle><unitdate type="inclusive" normal="1949/1964">1949-1964</unitdate> vol. 1-16</unittitle>
+                <physdesc>
+                  </physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">8</container>
+                <physdesc altrender="part">
+                  <extent altrender="materialtype spaceoccupied">1 folder</extent>
+                </physdesc>
+                <physdesc altrender="part">
+                  <extent altrender="materialtype spaceoccupied">5 bound volumes</extent>
+                </physdesc>
+                <unittitle><unitdate type="inclusive" normal="1965/1974">1965-1974</unitdate> vol. 17-26</unittitle>
+                <physdesc>
+                  </physdesc>
+              </did>
+              <odd>
+                <p>[Title changes to <title render="italic">University of Michigan Business Review</title>]</p>
+              </odd>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>
+                <title render="italic">Monroe Street Journal Weekly</title>
+              </unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">8</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1979/1982">1979-1982</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>
+                <title render="italic">Newsletter</title>
+              </unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">8</container>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">9 folders</extent>
+                </physdesc>
+                <unittitle><unitdate type="inclusive" normal="1965/1985">1965-1985</unitdate> vol. 1-20</unittitle>
+                <physdesc altrender="whole">
+                  </physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">8</container>
+                <unittitle><unitdate type="inclusive" normal="1985/1993">1985-1993</unitdate> vol. 21-29</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>
+                <title render="italic">Occasional Papers</title>
+              </unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">8</container>
+                <unittitle><unitdate type="inclusive" normal="1980">1980</unitdate> vol. 1</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>
+                <title render="italic">University of Michigan Business Review</title>
+              </unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">8</container>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">5 folders</extent>
+                </physdesc>
+                <unittitle><unitdate type="inclusive" normal="1975/1979">1975-1979</unitdate> vol. 27-31</unittitle>
+                <physdesc altrender="whole">
+                  </physdesc>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle><title render="italic">Weekly Newsletter for Faculty and Staff</title>, <unitdate type="inclusive" normal="1965">1965</unitdate> vol 1</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Proceedings</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Area Development Institute <unitdate type="inclusive" normal="1953">1953</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Arthur Young Professor's Roundtable <unitdate type="inclusive" normal="1977">1977</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle><unitdate type="inclusive" normal="1977">1977</unitdate> Business Leadership Award, <unitdate type="inclusive" normal="1977">1977</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Programs</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">9</container>
+              <unittitle>Awards Program <unitdate type="inclusive" normal="1961/1964">1961-1964</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">9</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
+              </physdesc>
+              <unittitle>Commencement Programs <unitdate type="inclusive" normal="1976/1987">1976-1987</unitdate>, <unitdate type="inclusive" normal="1993">1993</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">9</container>
+              <unittitle>Convocations <unitdate type="inclusive" normal="1949">1949</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">9</container>
+              <unittitle>Dedication of the Assembly Hall <unitdate type="inclusive" normal="1972">1972</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">9</container>
+              <unittitle>Honors Banquet <unitdate type="inclusive" normal="1972">1972</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">9</container>
+              <unittitle>Newcomer's Dinner <unitdate type="inclusive" normal="1984">1984</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">22</container>
+              <unittitle>Reunion and Event Programs</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Proposals</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">9</container>
+              <unittitle><title render="italic">Advanced Management Center: A Presentation for the General Motors Corporation</title>, <unitdate type="inclusive" normal="1966">1966</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">9</container>
+              <unittitle><title render="italic">Project on Serials Analysis for Business Administration Library Description and Proposal</title>, <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">9</container>
+              <unittitle><title render="italic">Proposed Projects for the Graduate School of Business Administration</title>, <unitdate type="inclusive" normal="1981">1981</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Reports</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">22</container>
+              <unittitle>
+                <title render="italic">About the School of Business Administration</title>
+                <unitdate type="inclusive" normal="1985/1998">1985-1998</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">9</container>
+              <unittitle>Budget Planning <unitdate type="inclusive" normal="1988/1989">1988-1989</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">9</container>
+              <unittitle><title render="italic">Changing Organizational Cultures: Prism 4, An Assessment Instrument; Prism 5, A Change Workbook</title>, <unitdate type="inclusive" normal="1993">1993</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">9</container>
+              <unittitle><title render="italic">Competitive Positioning</title>, <unitdate type="inclusive" normal="1988/1989">1988-1989</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">9</container>
+              <unittitle>DMC Participant Profile <unitdate type="inclusive" normal="1980/1981">1980-1981</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">9</container>
+              <unittitle><title render="italic">Europe 1992 Challenge to American Business</title>, <unitdate type="inclusive" normal="1989">1989</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">9</container>
+              <unittitle><title render="italic">Financial Disclosure Practices of the American Cities: A Public Report</title>, <unitdate type="inclusive" normal="1976">1976</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">9</container>
+              <unittitle><title render="italic">First Things First: A Business and Design Educational Experiment</title>, <unitdate type="inclusive" normal="1986">1986</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">9</container>
+              <unittitle><title render="italic">Fortran Applications in Business Administration</title>, [1970]</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">9</container>
+              <unittitle><title render="italic">Fortran Case Studies Illustrating Fundamental Business Applications</title>, <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">9</container>
+              <unittitle><title render="italic">An Investment in Excellence</title>, <unitdate type="inclusive" normal="1989">1989</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">9</container>
+              <unittitle><title render="italic">Marketing Research Report: Michigan High School Guidance Counselors Perceptions of the University of Michigan</title>, <unitdate type="inclusive" normal="1990">1990</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>
+                <title render="italic">The Michigan BBA Employment Survey</title>
+              </unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">9</container>
+                <unittitle><unitdate type="inclusive" normal="1981/1982">1981-1982</unitdate>, <unitdate type="inclusive" normal="1985/1986">1985-1986</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>
+                <title render="italic">The Michigan BBA Placement Report</title>
+              </unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">9</container>
+                <unittitle><unitdate type="inclusive" normal="1990">1990</unitdate>, <unitdate type="inclusive" normal="1993">1993</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>
+                <title render="italic">The Michigan MBA Employment Survey</title>
+              </unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">9</container>
+                <unittitle><unitdate type="inclusive" normal="1981/1983">1981-1983</unitdate>, <unitdate type="inclusive" normal="1986">1986</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>
+                <title render="italic">The Michigan MBA Placement Report</title>
+              </unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">9</container>
+                <unittitle><unitdate type="inclusive" normal="1990">1990</unitdate>, <unitdate type="inclusive" normal="1993">1993</unitdate>, <unitdate type="inclusive" normal="1995">1995</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">9</container>
+              <unittitle><title render="italic">The Michigan Placement Report</title>, <unitdate type="inclusive" normal="1996/1997">1996-1997</unitdate>, <unitdate type="inclusive" normal="1999/2000">1999-2000</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">9</container>
+              <unittitle><title render="italic">Report of the Bachelor of Business Administration Degree Study Committee</title>, <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">9</container>
+              <unittitle><title render="italic">Report of the MBA Degree Study Committee</title>, <unitdate type="inclusive" normal="1966">1966</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">9</container>
+              <unittitle><title render="italic">Report Prepared for the Accreditation Visitation Team of the American Association of Collegiate Schools of Business</title>, <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">9</container>
+              <unittitle>School of Business Administration Background Information <unitdate type="inclusive" normal="1991">1991</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">9</container>
+              <unittitle><title render="italic">Second Venezuelan Student Leader Seminar in Economics and Business</title>, <unitdate type="inclusive" normal="1961">1961</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">10</container>
+              <unittitle>Self Evaluation of Accounting Program <unitdate type="inclusive" normal="1984">1984</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">10</container>
+              <unittitle><title render="italic">Taxes and Plant Location in Michigan</title>, <unitdate type="inclusive" normal="1957">1957</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">10</container>
+              <unittitle><title render="italic">University of Michigan--Aid Brazilian Program at the Instituto Tecnologico de Aeronautica</title>, <unitdate type="inclusive" normal="1967">1967</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>
+                <title render="italic">Update: Report of the Graduate School of Business Administration</title>
+              </unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">10</container>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">4 folders</extent>
+                </physdesc>
+                <unittitle>1979/1980-1982/1983</unittitle>
+                <physdesc altrender="whole">
+                  </physdesc>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">22</container>
+              <unittitle>Investor's Report <unitdate type="inclusive" normal="2001/2002">2001-2002</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Statistics</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">10</container>
+              <unittitle>Miscellaneous <unitdate type="inclusive" normal="1976/1988">1976-1988</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">10</container>
+              <unittitle><title render="italic">Size of Class</title>, <unitdate type="inclusive" normal="1964/1966">1964/65-1965/66</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">10</container>
+              <unittitle><title render="italic">Student Credit Hours and Direct Costs</title>, <unitdate type="inclusive" normal="1964/1966">1964-1966</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Yearbooks</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">10</container>
+              <unittitle><title render="italic">The Blue Chip</title>, <unitdate type="inclusive" normal="1986/1987">1986/87</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">10</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">4 folders</extent>
+              </physdesc>
+              <unittitle><title render="italic">The Global Blue</title>, 1996-1999</unittitle>
+              <physdesc>
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">10</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">5 folders</extent>
+              </physdesc>
+              <unittitle><title render="italic">Photo Book</title>, <unitdate type="inclusive" normal="1993/1996">1993-1996</unitdate>, <unitdate type="inclusive" normal="1998">1998</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">10</container>
+              <unittitle><title render="italic">Memorandum</title>, <unitdate type="inclusive" normal="1983">1983</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">10</container>
+              <unittitle><title render="italic">UMBS 2001 A B-School Odyssey</title>, <unitdate type="inclusive" normal="2001">2001</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Sub-Unit Publications</unittitle>
+        </did>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Actuarial Program</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">10</container>
+              <unittitle>Brochures <unitdate type="inclusive" normal="1953">1953</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Directories</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">10</container>
+                <unittitle><title render="italic">Directory of Alumni of the Actuarial Program</title>, <unitdate type="inclusive" normal="1953/1979">1953-1979</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Newsletters</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">10</container>
+                <unittitle><title render="italic">Actuarial Newsletter</title>, <unitdate type="inclusive" normal="1974/1979">1974-1979</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Actuarial Science Fellowship Fund</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">10</container>
+              <unittitle>Annual Reports <unitdate type="inclusive" normal="1962/1967">1962-1967</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">10</container>
+              <unittitle>Brochures <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Bank Training Program</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">10</container>
+              <unittitle>Brochures <unitdate type="inclusive" normal="1952/1953">1952-1953</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Bureau of Business Research</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>Brochures</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">10</container>
+                <unittitle>Miscellaneous <unitdate type="inclusive">undated</unitdate>, <unitdate type="inclusive" normal="1948/1971">1948-1971</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Catalogs</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">10</container>
+                <unittitle><title render="italic">Michigan Research and Business Bibliography</title>, <unitdate type="inclusive" normal="1963/1965">1963-1965</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">10</container>
+                <unittitle><title render="italic">Publications of the Bureau of Business Research</title>, 1950-[1970]</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">10</container>
+                <unittitle><title render="italic">Regional Economic Growth and Development: Recent Publications and Current Research</title>, [ca. 1962]</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">10</container>
+                <unittitle><title render="italic">Research and Publications Pertaining to Business Development in Michigan</title>, [ca. 1961]</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Newsletters</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <unittitle>
+                  <title render="italic">Business Service Newsletter</title>
+                </unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">10</container>
+                  <unittitle><unitdate type="inclusive" normal="1951/1952">1951-1952</unitdate> n.16-21</unittitle>
+                </did>
+              </c05>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Proceedings</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <unittitle>
+                  <title render="italic">Michigan Advertising Papers</title>
+                </unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">10</container>
+                  <unittitle><unitdate type="inclusive" normal="1957/1959">1957-1959</unitdate> 1-3</unittitle>
+                </did>
+              </c05>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>
+                  <title render="italic">Michigan Business Papers</title>
+                </unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">11</container>
+                  <unittitle><unitdate type="inclusive" normal="1937/1964">1937-1964</unitdate> no. 1-40</unittitle>
+                </did>
+                <odd>
+                  <p>(1 bound volume and 13 folders)</p>
+                </odd>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">11</container>
+                  <physdesc altrender="whole">
+                    <extent altrender="materialtype spaceoccupied">3 folders</extent>
+                  </physdesc>
+                  <unittitle><unitdate type="inclusive" normal="1965/1968">1965-1968</unitdate> no. 41-48</unittitle>
+                  <physdesc altrender="whole">
+                    </physdesc>
+                </did>
+              </c05>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Reports</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">11</container>
+                <unittitle><title render="italic">Activities Report of the Bureau of Business Research</title>, <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">11</container>
+                <unittitle><title render="italic">Financial Laws and their Effect Upon the Economic Expansion of Michigan</title>, <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">11</container>
+                <unittitle><title render="italic">The Housing Status of Married Students at the University of Michigan</title>, <unitdate type="inclusive" normal="1939">1939</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>
+                  <title render="italic">Michigan Business Cases</title>
+                </unittitle>
+              </did>
+              <odd>
+                <p>[Continued under the heading "Division of Research"]</p>
+              </odd>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">11</container>
+                  <unittitle><unitdate type="inclusive" normal="1930/1931">1930-1931</unitdate> 1-4, 7</unittitle>
+                </did>
+              </c05>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>
+                  <title render="italic">Michigan Business Reports</title>
+                </unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">11</container>
+                  <physdesc altrender="whole">
+                    <extent altrender="materialtype spaceoccupied">4 folders</extent>
+                  </physdesc>
+                  <unittitle><unitdate type="inclusive" normal="1937/1949">1937-1949</unitdate> no. 1-16</unittitle>
+                  <physdesc altrender="whole">
+                    </physdesc>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">12</container>
+                  <physdesc altrender="whole">
+                    <extent altrender="materialtype spaceoccupied">15 folders</extent>
+                  </physdesc>
+                  <unittitle><unitdate type="inclusive" normal="1949/1968">1949-1968</unitdate> no. 17-56</unittitle>
+                  <physdesc altrender="whole">
+                    </physdesc>
+                </did>
+              </c05>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>
+                  <title render="italic">Michigan Business Studies</title>
+                </unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">12</container>
+                  <physdesc altrender="whole">
+                    <extent altrender="materialtype spaceoccupied">6 bound volumes</extent>
+                  </physdesc>
+                  <unittitle><unitdate type="inclusive" normal="1926/1934">1926-1934</unitdate> vol. 1-6</unittitle>
+                  <physdesc>
+                    </physdesc>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">13</container>
+                  <physdesc altrender="whole">
+                    <extent altrender="materialtype spaceoccupied">3 bound volumes</extent>
+                  </physdesc>
+                  <unittitle><unitdate type="inclusive" normal="1935/1941">1935-1941</unitdate> vol. 7-9</unittitle>
+                  <physdesc>
+                    </physdesc>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">13</container>
+                  <physdesc altrender="whole">
+                    <extent altrender="materialtype spaceoccupied">6 folders</extent>
+                  </physdesc>
+                  <unittitle><unitdate type="inclusive" normal="1942/1958">1942-1958</unitdate> vol. 10-13</unittitle>
+                  <physdesc altrender="whole">
+                    </physdesc>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">14</container>
+                  <physdesc altrender="whole">
+                    <extent altrender="materialtype spaceoccupied">5 folders</extent>
+                  </physdesc>
+                  <unittitle><unitdate type="inclusive" normal="1958/1971">1958-1971</unitdate> vol. 14-18</unittitle>
+                  <physdesc altrender="whole">
+                    </physdesc>
+                </did>
+              </c05>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">14</container>
+                <unittitle><title render="italic">Michigan in the 1970s An Economic Forecast</title>, <unitdate type="inclusive" normal="1964">1964</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">14</container>
+                <unittitle><title render="italic">Standards for Education and Experience for Certified Public Accountants</title>, <unitdate type="inclusive" normal="1956">1956</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">14</container>
+                <unittitle><title render="italic">Survey of Ann Arbor Housing with Special Reference to Student Accommodation</title>, <unitdate type="inclusive" normal="1945">1945</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">14</container>
+                <unittitle><title render="italic">Working Papers</title>, <unitdate type="inclusive" normal="1970/1972">1970-1972</unitdate> [Continued under the heading "Division of Research"]</unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Business and Industrial Assistance Division</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">15</container>
+              <unittitle>Brochures <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Proposals</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">15</container>
+                <unittitle><title render="italic">Community Stabilization and Revitalization (CSR): Enhancing Economic and Social Quality of Life in Flint/Genesee</title>, <unitdate type="inclusive" normal="1991/1992">1991-1992</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">15</container>
+                <unittitle><title render="italic">Flint/Genesee Manufacturing Firm Assistance Center</title>, <unitdate type="inclusive" normal="1990">1990</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Center for International Business Education</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>Bibliography and Handbooks</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">22</container>
+                <unittitle><title render="italic">Business Cases on Emerging Economies</title>, <unitdate type="inclusive" normal="1993">1993</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">22</container>
+                <unittitle><title render="italic">Teaching Global Managers About Global Change</title>, <unitdate type="inclusive" normal="1994">1994</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Brochures</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">15</container>
+                <unittitle>Miscellaneous <unitdate type="inclusive">undated</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Manuals</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">15</container>
+                <unittitle><title render="italic">Internationalism and Multiculturalism in Management Education: A Curriculum Development Handbook</title>, <unitdate type="inclusive" normal="1992">1992</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">15</container>
+                <unittitle>Language, Study and International Business: A Handbook for Students, [1991]</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Programs</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">15</container>
+                <unittitle>Southeast Asia Business Research Conference <unitdate type="inclusive" normal="1996">1996</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Reports</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <unittitle>
+                  <title render="italic">Anyone Can Export:</title>
+                </unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">15</container>
+                  <unittitle>Automotive Components Six Michigan Companies Show You How <unitdate type="inclusive" normal="1992">1992</unitdate></unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">15</container>
+                  <unittitle>Eleven Michigan Companies Show You How <unitdate type="inclusive" normal="1991">1991</unitdate></unittitle>
+                </did>
+              </c05>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">15</container>
+                <unittitle><title render="italic">CIBER Information Update</title>, <unitdate type="inclusive" normal="1990">1990</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">15</container>
+                <unittitle><title render="italic">International Training at Michigan: A Survey of Area and Language Studies Graduates</title>, <unitdate type="inclusive" normal="1992">1992</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Bibliography and Handbooks</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">22</container>
+                <unittitle><title render="italic">Business Cases on Emerging Economies</title>, <unitdate type="inclusive" normal="1993">1993</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">22</container>
+                <unittitle><title render="italic">Teaching Global Managers About Global Change</title>, <unitdate type="inclusive" normal="1993">1993</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Computer and Information Systems Program</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">22</container>
+              <unittitle>Course Descriptions and Miscellaneous, <unitdate type="inclusive" normal="1989">Winter 1989</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Computing Services</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>Brochures</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">15</container>
+                <unittitle><title render="italic">Free Students MTS Request Accounts</title>, <unitdate type="inclusive" normal="1994">1994</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Dearborn Campus--Division of Business Administration</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>Proposals</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">15</container>
+                <unittitle>Proposal for a Master of Management Degree Program <unitdate type="inclusive" normal="1971">1971</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">15</container>
+                <unittitle><title render="italic">A Proposed New Graduate Program in Industrial Management</title>, <unitdate type="inclusive" normal="1966">1966</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Division of Management Education</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>Brochures</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">15</container>
+                <unittitle>Miscellaneous <unitdate type="inclusive">undated</unitdate>, <unitdate type="inclusive" normal="1975/1983">1975-1983</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Bulletins</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">15</container>
+                <unittitle>Management Programs <unitdate type="inclusive" normal="1980/1984">1980-1984</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>Management Seminars</unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">15</container>
+                  <physdesc altrender="whole">
+                    <extent altrender="materialtype spaceoccupied">2 folders</extent>
+                  </physdesc>
+                  <unittitle>
+                    <unitdate type="inclusive" normal="1973/1983">1973-1983</unitdate>
+                  </unittitle>
+                  <physdesc altrender="whole">
+                    </physdesc>
+                </did>
+              </c05>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Newsletters</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <unittitle>
+                  <title render="italic">Human Resource Management</title>
+                </unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">15</container>
+                  <unittitle><unitdate type="inclusive" normal="1973">1973</unitdate> vol. 12</unittitle>
+                </did>
+              </c05>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Division of Research</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>Catalogs</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">15</container>
+                <unittitle><title render="italic">Books in Print</title>, [1972-1973]</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">15</container>
+                <unittitle><title render="italic">Michigan Business and Economic Research Bibliography</title>, <unitdate type="inclusive" normal="1967/1977">1967-1977</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">15</container>
+                <unittitle><title render="italic">Research Papers</title>, <unitdate type="inclusive" normal="1982/1983">1982-1983</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Journals</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">15</container>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">6 folders</extent>
+                </physdesc>
+                <unittitle><title render="italic">Current Issues and Research in Advertising</title>, <unitdate type="inclusive" normal="1978/1986">1978-1986</unitdate>, <unitdate type="inclusive" normal="1988">1988</unitdate></unittitle>
+                <physdesc altrender="whole">
+                  </physdesc>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Miscellaneous</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">16</container>
+                <unittitle>Brochures</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">16</container>
+                <unittitle><title render="italic">Essays in Honor of William A. Paton: Pioneering Accounting Theorist</title>, <unitdate type="inclusive" normal="1979">1979</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">16</container>
+                <unittitle><title render="italic">Words! Combining Fun and Learning</title> (by William A. Paton), <unitdate type="inclusive" normal="1984">1984</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Newsletters</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">16</container>
+                <unittitle><title render="italic">IBROM</title> (Independent Business Research Office of Michigan), <unitdate type="inclusive" normal="1983">1983</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">16</container>
+                <unittitle><title render="italic">The Ph.D. Forum</title>, <unitdate type="inclusive" normal="1988">1988</unitdate> vol. 1</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">16</container>
+                <unittitle><title render="italic">The Research Beat</title>, <unitdate type="inclusive" normal="1987/1993">1987-1993</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Proceedings</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">16</container>
+                <unittitle><title render="italic">Minorities at the Crossroads: Selected Proceedings of the Third and Fourth Annual Symposiums on the State of the Black Economy</title>, <unitdate type="inclusive" normal="1973">1973</unitdate>, <unitdate type="inclusive" normal="1974">1974</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">16</container>
+                <unittitle><title render="italic">New Dimensions of Appropriate Technology: Selected Proceedings of the 1979 Symposium</title>, <unitdate type="inclusive" normal="1979">1979</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Reports</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">16</container>
+                <unittitle><title render="italic">Black Economic Development Analysis and Implications--An Anthology</title>, <unitdate type="inclusive" normal="1975">1975</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">16</container>
+                <unittitle><title render="italic">CPA Firm Viability: A Study of Major Environmental Factors Affecting Firms of Various Sizes and Characteristics</title>, <unitdate type="inclusive" normal="1979">1979</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">16</container>
+                <unittitle><title render="italic">Database Systems Research Group Prospectus</title>, <unitdate type="inclusive" normal="1978">1978</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>
+                  <title render="italic">Michigan Business Papers</title>
+                </unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">16</container>
+                  <physdesc altrender="whole">
+                    <extent altrender="materialtype spaceoccupied">2 folders</extent>
+                  </physdesc>
+                  <unittitle><unitdate type="inclusive" normal="1977/1985">1977-1985</unitdate> 63-67</unittitle>
+                  <physdesc altrender="whole">
+                    </physdesc>
+                </did>
+              </c05>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>
+                  <title render="italic">Michigan Business Reports</title>
+                </unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">16</container>
+                  <physdesc altrender="whole">
+                    <extent altrender="materialtype spaceoccupied">4 folders</extent>
+                  </physdesc>
+                  <unittitle><unitdate type="inclusive" normal="1967/1979">1967-1979</unitdate> 57-63 and n.s. 1</unittitle>
+                  <physdesc altrender="whole">
+                    </physdesc>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">16</container>
+                  <unittitle>[Numbers 1-56 will be found under Bureau of Business Research]</unittitle>
+                </did>
+              </c05>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>
+                  <title render="italic">Michigan Business Studies</title>
+                </unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">16</container>
+                  <physdesc altrender="whole">
+                    <extent altrender="materialtype spaceoccupied">2 folders</extent>
+                  </physdesc>
+                  <unittitle><unitdate type="inclusive" normal="1975/1982">1975-1982</unitdate> vol. 1-2</unittitle>
+                  <physdesc altrender="whole">
+                    </physdesc>
+                </did>
+              </c05>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>
+                  <title render="italic">Michigan International Business Studies</title>
+                </unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">16</container>
+                  <unittitle><unitdate type="inclusive" normal="1981">1981</unitdate> no. 17</unittitle>
+                </did>
+              </c05>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>
+                  <title render="italic">Michigan Management and Executive Development Studies</title>
+                </unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">16</container>
+                  <unittitle><unitdate type="inclusive" normal="1987">1987</unitdate> no. 5</unittitle>
+                </did>
+              </c05>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>
+                  <title render="italic">Michigan's Management and Executive Development Studies</title>
+                </unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">16</container>
+                  <unittitle><unitdate type="inclusive" normal="1984/1985">1984-1985</unitdate> 1-3</unittitle>
+                </did>
+              </c05>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">16</container>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">2 folders</extent>
+                </physdesc>
+                <unittitle><title render="italic">The Newly Promoted Executive: A Study in Corporate Leadership</title>, <unitdate type="inclusive" normal="1980/1984">1980/81-1983/84</unitdate>, <unitdate type="inclusive" normal="1985/1987">1985/86-1986/87</unitdate></unittitle>
+                <physdesc altrender="whole">
+                  </physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>
+                  <title render="italic">Report of the Research and Publication Activities of the Division of Research</title>
+                </unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">17</container>
+                  <unittitle>1974/1975-1977/1978</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">17</container>
+                  <unittitle>1980/1981-1982/1983</unittitle>
+                </did>
+              </c05>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">17</container>
+                <unittitle><title render="italic">Tax Executive Compensation and Organization of the Tax Function Within the Firm: A Survey of Tax Executives Institute Members</title>, <unitdate type="inclusive" normal="1976">1976</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>
+                  <title render="italic">Working Papers</title>
+                </unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">17</container>
+                  <unittitle><unitdate type="inclusive" normal="1980">1980</unitdate> [Previously under "Bureau of Business Research"]</unittitle>
+                </did>
+              </c05>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Executive Development Program</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>Brochures</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">17</container>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">6 folders</extent>
+                </physdesc>
+                <unittitle>
+                  <unitdate type="inclusive">undated</unitdate>
+                  <unitdate type="inclusive" normal="1954/1981">1954-1981</unitdate>
+                </unittitle>
+                <physdesc altrender="whole">
+                  </physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>Miscellaneous</unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">17</container>
+                  <unittitle>
+                    <unitdate type="inclusive" normal="1987">1987</unitdate>
+                    <unitdate type="inclusive">undated</unitdate>
+                  </unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">22</container>
+                  <unittitle>
+                    <unitdate type="inclusive" normal="1979" certainty="approximate">circa 1979</unitdate>
+                  </unittitle>
+                </did>
+              </c05>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">17</container>
+                <unittitle><title render="italic">Program for Management Development: Managing Critical Issues</title>, <unitdate type="inclusive" normal="1992/1993">1992-1993</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Executive Education Center</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>Bulletins</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <unittitle>Executive Programs and Management Seminars</unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">17</container>
+                  <unittitle>
+                    <unitdate type="inclusive" normal="1988/1999">1988-1999</unitdate>
+                  </unittitle>
+                </did>
+              </c05>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">17</container>
+                <unittitle>Management Programs <unitdate type="inclusive" normal="1986/1987">1986-1987</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Newsletters</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <unittitle>
+                  <title render="italic">The Executive Report</title>
+                </unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">17</container>
+                  <unittitle><unitdate type="inclusive" normal="1988/1993">1988-1993</unitdate> (vol. 1 1-5, vol. 2 1)</unittitle>
+                </did>
+              </c05>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Miscellaneous</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">22</container>
+                <unittitle>
+                  <unitdate normal="1987/2000" certainty="approximate">circa 1987-2000</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Programs</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">22</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="2001-01/2001-12">January-December 2001</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">22</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="2002-07/2003-06">July 2002-June 2003</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">22</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="2003-07/2004-06">July 2003-June 2004</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">22</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="2005-01/2005-12">January-December 2005</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">22</container>
+                <unittitle>
+                  <unitdate type="inclusive">Undated</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Executive Program</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">17</container>
+              <unittitle>Brochures <unitdate type="inclusive" normal="1981/1986">1981-1986</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <container type="box" label="Box">22</container>
+            <unittitle>Global Leadership Program <unitdate type="inclusive" normal="1987/1991" certainty="approximate">circa 1987-1991</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Hospital Administration Program</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>Bulletins</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">17</container>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">2 folders</extent>
+                </physdesc>
+                <unittitle>1956/1957-1967/1968</unittitle>
+                <physdesc altrender="whole">
+                  </physdesc>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Institute for Entrepreneurial Studies</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">22</container>
+              <unittitle>Miscellaneous</unittitle>
+            </did>
+            <odd>
+              <p>(Includes issues of <title render="italic">MEntrpeneur</title> and <title render="italic">InCompany</title>)</p>
+            </odd>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Institute for International Commerce</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>Brochures</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">17</container>
+                <unittitle><title render="italic">Advanced Management Program in Megeve, France</title>, <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">17</container>
+                <unittitle>Seminars <unitdate type="inclusive" normal="1967/1976">1967-1976</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Directories</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">17</container>
+                <unittitle><title render="italic">Michigan Directory of Importers</title>, <unitdate type="inclusive" normal="1972/1973">1972-1973</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Law, History and Communications Department</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">22</container>
+              <unittitle>Course Offerings <unitdate type="inclusive" normal="1999/2000">1999-2000</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Leadership, Education and Development (LEAD)</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>Programs</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">17</container>
+                <unittitle>LEAD Opening Dinner <unitdate type="inclusive" normal="1987">1987</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Yearbooks</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">17</container>
+                <unittitle><title render="italic">Conquest</title>, <unitdate type="inclusive" normal="1983">1983</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Michigan Bankers Association</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>Directories</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">17</container>
+                <unittitle><title render="italic">The Michigan Club</title>, <unitdate type="inclusive" normal="1967">1967</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Michigan Graduate School of Bank Management</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">17</container>
+              <unittitle>Brochures <unitdate type="inclusive" normal="1978/1979">1978-1979</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Multidisciplinary Action Projects (MAP)</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">22</container>
+              <unittitle>Miscellaneous</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Office of Admissions and Student Services</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">17</container>
+              <unittitle>MBA Application and Financial Aid Information, [1982]</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Office of Development and Alumni Relations</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>Directories</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <unittitle>Class of <unitdate type="inclusive" normal="1951">1951</unitdate></unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">18</container>
+                  <unittitle><title render="italic">45th Year Reunion Class Notes</title>, <unitdate type="inclusive" normal="1996">1996</unitdate></unittitle>
+                </did>
+              </c05>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>Class of <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">18</container>
+                  <unittitle><title render="italic">School Class Notes 1970</title>, <unitdate type="inclusive">undated</unitdate></unittitle>
+                </did>
+              </c05>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>Class of <unitdate type="inclusive" normal="1971">1971</unitdate></unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">18</container>
+                  <unittitle><title render="italic">25th Year Reunion Class Notes</title>, <unitdate type="inclusive" normal="1996">1996</unitdate></unittitle>
+                </did>
+              </c05>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Directories</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <unittitle>Class of <unitdate type="inclusive" normal="1972">1972</unitdate></unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">18</container>
+                  <unittitle><title render="italic">'72 Class Notes</title>, <unitdate type="inclusive" normal="1998">1998</unitdate></unittitle>
+                </did>
+              </c05>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>Class of <unitdate type="inclusive" normal="1985">1985</unitdate></unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">18</container>
+                  <unittitle><title render="italic">Class Notes 1985</title>, <unitdate type="inclusive">undated</unitdate></unittitle>
+                </did>
+              </c05>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>Class of <unitdate type="inclusive" normal="1986">1986</unitdate></unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">18</container>
+                  <unittitle><title render="italic">10th Year Reunion Class Notes</title>, <unitdate type="inclusive" normal="1996">1996</unitdate></unittitle>
+                </did>
+              </c05>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>Class of <unitdate type="inclusive" normal="1987">1987</unitdate></unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">18</container>
+                  <unittitle><title render="italic">10th Year Reunion Class Notes</title>, <unitdate type="inclusive" normal="1998">1998</unitdate></unittitle>
+                </did>
+              </c05>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>Class of <unitdate type="inclusive" normal="1991">1991</unitdate></unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">18</container>
+                  <unittitle><title render="italic">5th Year Reunion Class Notes</title>, <unitdate type="inclusive" normal="1996">1996</unitdate></unittitle>
+                </did>
+              </c05>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>Class of <unitdate type="inclusive" normal="1992">1992</unitdate></unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">18</container>
+                  <unittitle><title render="italic">5th Year Reunion Class Notes</title>, <unitdate type="inclusive" normal="1998">1998</unitdate></unittitle>
+                </did>
+              </c05>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>Class of <unitdate type="inclusive" normal="1995">1995</unitdate></unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">18</container>
+                  <unittitle><title render="italic">1st Year Reunion Class Notes</title>, <unitdate type="inclusive" normal="1996">1996</unitdate></unittitle>
+                </did>
+              </c05>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>Class of <unitdate type="inclusive" normal="1996">1996</unitdate></unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">18</container>
+                  <unittitle><title render="italic">1st Year Reunion Class Notes</title>, <unitdate type="inclusive" normal="1996">1996</unitdate></unittitle>
+                </did>
+              </c05>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Personnel Office</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>Newsletters</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">19</container>
+                <unittitle><title render="italic">Management Development Bulletin</title>, <unitdate type="inclusive" normal="1962/1963">1962-1963</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Placement Office</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>Brochures</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">19</container>
+                <unittitle><title render="italic">The Michigan Intern</title>, <unitdate type="inclusive">undated</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">19</container>
+                <unittitle><title render="italic">Placement Guide</title>, <unitdate type="inclusive" normal="1976/1977">1976/77</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">19</container>
+                <unittitle><title render="italic">The Placement Office and Your Future</title>, <unitdate type="inclusive">undated</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">19</container>
+                <unittitle><title render="italic">Recruiter's Guide</title>, <unitdate type="inclusive">undated</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Program in International Business</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>Proceedings</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">19</container>
+                <unittitle><title render="italic">Workshop in International Financial Management</title>, <unitdate type="inclusive" normal="1971/1972">1971-1972</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Proposals</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">19</container>
+                <unittitle><title render="italic">Support of the Program in International Business</title>, <unitdate type="inclusive" normal="1965">1965</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Reports</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">19</container>
+                <unittitle><title render="italic">Impact II: Development Program for Foreign Executives</title>, <unitdate type="inclusive" normal="1963">1963</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Public Utility Executive Program</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>Bulletins</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">19</container>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">5 folders</extent>
+                </physdesc>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1952/1979">1952-1979</unitdate>
+                </unittitle>
+                <physdesc altrender="whole">
+                  </physdesc>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Directories</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">19</container>
+                <unittitle><title render="italic">Alumni Directory</title>, <unitdate type="inclusive" normal="1951/1966">1951-1966</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Programs</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">19</container>
+                <unittitle>Graduation Exercises <unitdate type="inclusive" normal="1951">1951</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">19</container>
+              <unittitle>Yearbooks <unitdate type="inclusive" normal="1951/1952">1951-1952</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Tauber Manufacturing Institute</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">22</container>
+              <unittitle>Brochures</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>School of Banking</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>Bulletins</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">19</container>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">2 folders</extent>
+                </physdesc>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1954/1975">1954-1975</unitdate>
+                </unittitle>
+                <physdesc altrender="whole">
+                  </physdesc>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>William Davidson Institute</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">19</container>
+              <unittitle>Brochures <unitdate type="inclusive" normal="1996">1996</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Newsletters</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">19</container>
+                <unittitle><title render="italic">The Davidson Window</title>, <unitdate type="inclusive" normal="1994/1998">1994-1998</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>
+                  <title render="italic">Transition</title>
+                </unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">19</container>
+                  <unittitle><unitdate type="inclusive" normal="1998/2001">1998-2001</unitdate> (scattered issues)</unittitle>
+                </did>
+              </c05>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Programs (Conference)</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">19</container>
+                <unittitle><title render="italic">The Impact of Foreign Investment on Emerging Markets</title>, <unitdate type="inclusive" normal="1999">1999</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <container type="box" label="Box">22</container>
+            <unittitle>Women in Business Initiative</unittitle>
+          </did>
+          <c03 level="item">
+            <did>
+              <unittitle>Miscellaneous</unittitle>
+            </did>
+            <odd>
+              <p>(Includes report <title>Women and the MBA: Gateway to Opportunity</title></p>
+            </odd>
+          </c03>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Topical Publications</unittitle>
+        </did>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Conferences</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>Directories</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <unittitle>
+                  <title render="italic">Blue Cross Blue Shield Michigan Alumni Group Directory</title>
+                </unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">19</container>
+                  <unittitle>
+                    <unitdate type="inclusive" normal="1952/1964">1952/53-1963/64</unitdate>
+                  </unittitle>
+                </did>
+              </c05>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>
+                  <title render="italic">Real Estate Alumni of Michigan</title>
+                </unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">19</container>
+                  <unittitle>
+                    <unitdate type="inclusive" normal="1960/1965">1960/61-1964/65</unitdate>
+                  </unittitle>
+                </did>
+              </c05>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Proceedings</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">19</container>
+                <unittitle>Accounting Employers Conference <unitdate type="inclusive" normal="1948">1948</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>Annual Business Conference</unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">19</container>
+                  <physdesc altrender="whole">
+                    <extent altrender="materialtype spaceoccupied">2 folders</extent>
+                  </physdesc>
+                  <unittitle>
+                    <unitdate type="inclusive" normal="1971/1973">1971-1973</unitdate>
+                  </unittitle>
+                  <physdesc altrender="whole">
+                    </physdesc>
+                </did>
+              </c05>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">19</container>
+                <unittitle>Annual Report Forum <unitdate type="inclusive" normal="1949/1950">1949-1950</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">19</container>
+                <unittitle>Michigan Real Estate Clinic <unitdate type="inclusive" normal="1951/1960">1951-1960</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">19</container>
+                <unittitle>Michigan Savings and Loan League Clinic <unitdate type="inclusive" normal="1953">1953</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Programs</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">19</container>
+                <unittitle>Accountant's Graduate Study Conference <unitdate type="inclusive" normal="1948/1966">1948-1966</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">19</container>
+                <unittitle>Advanced Management Program for Accounting and Finance Executives <unitdate type="inclusive" normal="1968/1969">1968-1969</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">19</container>
+                <unittitle>Advertising Conference <unitdate type="inclusive" normal="1954/1959">1954-1959</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">19</container>
+                <unittitle>Alumni Conference <unitdate type="inclusive" normal="1929/1963">1929-1963</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">20</container>
+                <unittitle>Annual Business Conference <unitdate type="inclusive" normal="1964/1975">1964-1975</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">20</container>
+                <unittitle>Annual Marketing Research Conference <unitdate type="inclusive" normal="1951/1953">1951-1953</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">20</container>
+                <unittitle>Annual Midwest Management Faculty Conference <unitdate type="inclusive" normal="1962">1962</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">20</container>
+                <unittitle>Annual Real Estate Clinic <unitdate type="inclusive" normal="1950/1974">1950-1974</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">20</container>
+                <unittitle>Annual Real Estate Forum <unitdate type="inclusive" normal="1994">1994</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">20</container>
+                <unittitle>Annual Reports Forum <unitdate type="inclusive" normal="1949/1950">1949-1950</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">20</container>
+                <unittitle>Bank Study Conference <unitdate type="inclusive" normal="1939/1967">1939-1967</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">20</container>
+                <unittitle>Certificate Program in Real Estate <unitdate type="inclusive" normal="1953/1971">1953-1971</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">20</container>
+                <unittitle>Certificate Program in Real Estate Recognition Exercises <unitdate type="inclusive" normal="1950/1973">1950-1973</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">20</container>
+                <unittitle>A Conference for Michigan Chapters of the National Secretaries Association <unitdate type="inclusive" normal="1951/1953">1951-1953</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">20</container>
+                <unittitle>Conference on Hospital Financial Management <unitdate type="inclusive" normal="1954/1965">1954-1965</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">20</container>
+                <unittitle>Conference on Sales Management <unitdate type="inclusive" normal="1953/1962">1953-1962</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">20</container>
+                <unittitle>Consumer Finance Management Study Course <unitdate type="inclusive" normal="1953/1960">1953-1960</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">20</container>
+                <unittitle>Cost Accounting Conference <unitdate type="inclusive" normal="1947/1953">1947-1953</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">20</container>
+                <unittitle>Detroit Controller's Group <unitdate type="inclusive" normal="1945/1950">1945-1950</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">20</container>
+                <unittitle>The Economic Outlook <unitdate type="inclusive" normal="1962/1966">1962-1966</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">20</container>
+                <unittitle>Fall Accounting Conference <unitdate type="inclusive" normal="1973/1977">1973-1977</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">20</container>
+                <unittitle>Federal Tax Lecture Series <unitdate type="inclusive" normal="1948/1954">1948-1954</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">20</container>
+                <unittitle>A Forum for Top Management <unitdate type="inclusive" normal="1986">1986</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">20</container>
+                <unittitle>Hardware Sales Study Course <unitdate type="inclusive" normal="1951/1956">1951-1956</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">20</container>
+                <unittitle>The Global Leadership Program <unitdate type="inclusive" normal="1989">1989</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">20</container>
+                <unittitle>Merchandising Conference <unitdate type="inclusive" normal="1949/1957">1949-1957</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">20</container>
+                <unittitle>Michigan Accounting Conference <unitdate type="inclusive" normal="1935/1971">1935-1971</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">20</container>
+                <unittitle>Michigan Cost Conference <unitdate type="inclusive" normal="1950/1952">1950-1952</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">20</container>
+                <unittitle>Michigan Society for Quality Control <unitdate type="inclusive" normal="1949/1952">1949-1952</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">20</container>
+                <unittitle>Miscellaneous <unitdate type="inclusive" normal="1938/1990">1938-1990</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">20</container>
+                <unittitle>Office Machines and Supplies <unitdate type="inclusive" normal="1948/1953">1948-1953</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">20</container>
+                <unittitle>Quality Control by Statistical Methods <unitdate type="inclusive" normal="1948/1959">1948-1959</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">20</container>
+                <unittitle>Real Estate Program <unitdate type="inclusive" normal="1968/1977">1968-1977</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">20</container>
+                <unittitle>Review Course for C.P.A. Candidates <unitdate type="inclusive" normal="1950/1952">1950-1952</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">20</container>
+                <unittitle>Savings and Loan League Clinic <unitdate type="inclusive" normal="1951/1954">1951-1954</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">20</container>
+                <unittitle>Tax Conference <unitdate type="inclusive" normal="1948/1952">1948-1952</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Yearbooks</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">20</container>
+                <unittitle><title render="italic">AEP Management Training Program</title>, <unitdate type="inclusive" normal="1962">1962</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">20</container>
+                <unittitle><title render="italic">Blue Cross Blue Shield Management Development Program</title>, <unitdate type="inclusive" normal="1962/1963">1962/63</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Development</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">20</container>
+              <unittitle>Announcements <unitdate type="inclusive" normal="1996">1996</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">20</container>
+              <unittitle>Brochures <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Newsletters</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">20</container>
+                <unittitle><title render="italic">Campaign Report</title>, <unitdate type="inclusive" normal="1994">1994</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">20</container>
+                <unittitle><title render="italic">Capital Campaign News</title>, <unitdate type="inclusive" normal="1983/1984">1983-1984</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">20</container>
+                <unittitle>
+                  <title render="italic">Honor Roll of Donors, 1992-1998</title>
+                </unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Summer Session</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>Bulletins</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">20</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1925/1932">1925-1932</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Visiting Committee</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">20</container>
+              <unittitle>Miscellaneous <unitdate type="inclusive" normal="1986/1989">1986-1989</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Reports</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">20</container>
+                <unittitle><title render="italic">Meeting of the Visiting Committee</title>, <unitdate type="inclusive" normal="1972">1972</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Student Publications</unittitle>
+        </did>
+        <c02 level="subseries">
+          <did>
+            <unittitle>General Student Publications</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>Newsletters</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">20</container>
+                <unittitle><title render="italic">Bus. Ad-visor</title>, <unitdate type="inclusive" normal="1979">1979</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">20</container>
+                <unittitle><title render="italic">Michigan Business Forum</title>, <unitdate type="inclusive" normal="1987/1988">1987/88</unitdate> vol. 1-12</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">20</container>
+                <unittitle><title render="italic">Phi Chi Theta Newsletter</title>, <unitdate type="inclusive" normal="1958/1960">1958-1960</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">20</container>
+                <unittitle><title render="italic">Student News</title>, <unitdate type="inclusive" normal="1977">1977</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">20</container>
+                <unittitle><title render="italic">Xi-igan</title>, <unitdate type="inclusive" normal="1946/1948">1946-1948</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Specific Student Organization Publications</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>Black Business Students Association</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <unittitle>Brochures</unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">19</container>
+                  <unittitle><title render="italic">Black Students at the University of Michigan School of Business Administration</title>, [1973]</unittitle>
+                </did>
+              </c05>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>Directories</unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <unittitle>
+                    <title render="italic">Resume Directory</title>
+                  </unittitle>
+                </did>
+                <c06 level="file">
+                  <did>
+                    <container type="box" label="Box">19</container>
+                    <unittitle>1975/1976-1977/1978</unittitle>
+                  </did>
+                </c06>
+              </c05>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>Newsletters</unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">19</container>
+                  <unittitle><title render="italic">The Business Collegian</title>, <unitdate type="inclusive" normal="1985/1986">1985-1986</unitdate></unittitle>
+                </did>
+              </c05>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>Programs</unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">19</container>
+                  <unittitle>Annual Alumni Conference <unitdate type="inclusive" normal="1991">1991</unitdate></unittitle>
+                </did>
+              </c05>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Society of Creative Business Minds</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <unittitle>Journals</unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">19</container>
+                  <unittitle><title render="italic">Emily</title>, [2000]</unittitle>
+                </did>
+              </c05>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>International Business Club</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">22</container>
+                <unittitle><title render="italic">IBC News</title>, <unitdate type="inclusive" normal="1990">1990</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>University of Michigan Entrepreneurs</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">22</container>
+                <unittitle><title render="italic">Keeping in Touch -- Making a Difference</title>, <unitdate type="inclusive" normal="1984/1986">1984-1986</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Archived Ross School of Business Website</unittitle>
+        </did>
+        <scopecontent>
+          <p>The Ross School of Business Archived Website series documents the academic programs, accomplishments, resources, events, and people at the Ross School of Business. Content includes important news and announcements, publications (such as newsletters and course catalogs), and information about admissions, curriculum, degree requirements, faculty, and the overall mission of the School. The website series is arranged chronologically, with captures from 2002 and 2003 stored on CD. Starting in 2010, this archived website will be captured on a regular, ongoing basis as part of the University of Michigan Web Archives, hosted at http://webarchives.cdlib.org/a/universityofmichigan/.</p>
+        </scopecontent>
+        <c02 level="item">
+          <did>
+            <container type="box" label="CD Box">2</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">1 cd</extent>
+            </physdesc>
+            <unittitle>Website capture <unitdate type="inclusive" normal="2002-05-15">May 15, 2002</unitdate></unittitle>
+            <physdesc>
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="CD Box">2</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">1 cd</extent>
+            </physdesc>
+            <unittitle>Website capture <unitdate type="inclusive" normal="2003-06-22">June 22, 2003</unitdate></unittitle>
+            <physdesc>
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <physloc>Online</physloc>
+            <unittitle>Archived Stephen M. Ross School of Business home page <unitdate type="inclusive" normal="2010/9999">2010-[ongoing]</unitdate></unittitle>
+            <dao show="new" actuate="onrequest" href="00132-w-1">
+              <daodesc>
+                <p>[view web site]</p>
+              </daodesc>
+            </dao>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <physloc>Online</physloc>
+            <unittitle>Archived websites related to the Ross School of Business <unitdate type="inclusive" normal="2010/9999">2010-[ongoing]</unitdate></unittitle>
+            <dao show="new" actuate="onrequest" href="00132-w-2">
+              <daodesc>
+                <p>[view web site]</p>
+              </daodesc>
+            </dao>
+          </did>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

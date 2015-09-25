@@ -1,3 +1,5 @@
+import csv
+
 integers = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0"]
 
 numbers_dict = {' Eight ': '8',
@@ -200,4 +202,13 @@ numbers_dict = {' Eight ': '8',
                 ' two ': '2',
                 ' Eight-hundred-fourteen ': '814'}
 
-normalization_dict = {} # TODO write this!
+def make_normalization_dict():
+    normal_dict = {}
+    with open("normalized_terms.csv") as f:
+        reader = csv.reader(f)
+        for original_type, normal_type, physfacet in reader:
+            normal_dict[original_type] = (normal_type, physfacet)
+
+    return normal_dict
+
+normalization_dict = make_normalization_dict()

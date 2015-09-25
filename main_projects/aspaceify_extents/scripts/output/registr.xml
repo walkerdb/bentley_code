@@ -1,0 +1,4276 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead.dtd">
+<ead>
+  <eadheader audience="internal" langencoding="iso639-2b" repositoryencoding="iso15511" dateencoding="iso8601" relatedencoding="Dublin Core">
+    <eadid countrycode="us" mainagencycode="MiU-H" publicid="-//us::MiU-H//TEXT us::MiU-H::registr.xml//EN" encodinganalog="identifier">umich-bhl-87304</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="title">Finding Aid for University of Michigan. Office of the Registrar Records <date>1840-2003</date></titleproper>
+        <author encodinganalog="creator">Collection processed and finding aid prepared by University Archives staff, Karen Jania.</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="publisher">Bentley Historical Library, University of Michigan</publisher>
+        <date encodinganalog="date">April 2000</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created by Greg Kinney <date>April 2000</date></creation>
+      <langusage>The finding aid is written in <language encodinganalog="language" langcode="eng">English.</language></langusage>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date>20150811</date>
+        <item>Corrected collection dates.</item>
+      </change>
+      <change>
+        <date>20150403</date>
+        <item>updated, folder added to box 17 (procedures)</item>
+      </change>
+      <change>
+        <date>2000917</date>
+        <item>updated, box 25 added, reports and statistics</item>
+      </change>
+      <change>
+        <date>20031010</date>
+        <item>Converted to EAD2002 using Word macro and Xmetal</item>
+      </change>
+      <change>
+        <date>2000-04-07</date>
+        <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <frontmatter>
+    <titlepage>
+      <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
+      <titleproper>Finding Aid for <lb/>University of Michigan <lb/>Office of the Registrar <lb/>Records, <date type="inclusive">1840-2003</date></titleproper>
+      <author>Finding aid prepared by: <lb/>University Archives Staff <lb/>Karen Jania <lb/>Last update: 2015</author>
+    </titlepage>
+  </frontmatter>
+  <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
+    <did>
+      <origination>
+        <corpname source="lcnaf" encodinganalog="110" authfilenumber="http://id.loc.gov/authorities/names/nr90028381">University of Michigan. Office of the Registrar.</corpname>
+      </origination>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">24 oversize volumes</extent>
+      </physdesc>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">24.5 linear feet</extent>
+      </physdesc>
+      <unittitle encodinganalog="245">Office of the Registrar (University of Michigan), records <unitdate type="inclusive" encodinganalog="245$f" normal="1840/2003">1840-2003</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1867/1993">1867-1993</unitdate></unittitle>
+      <physdesc encodinganalog="300" altrender="part">
+        </physdesc>
+      <abstract>Admission records, statistics on faculty and students, and records of examinations; also reports, petitions, and resolutions of the faculty of the University's College of Literature, Science and the Arts.</abstract>
+      <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">87304 BImu Bimu B5 2</unitid>
+      <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
+      <physloc>Portions of the Office of the Registrar records (Boxes 1-18) are stored offsite. Two days notice is required for retrieval.</physloc>
+      <repository>
+        <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea> University of Michigan</corpname>
+        <extptr href="bhladd" show="embed" actuate="onload"/>
+      </repository>
+    </did>
+    <descgrp type="admin">
+      <acqinfo encodinganalog="541">
+        <p>The record group (Donor No. <num type="donor" encodinganalog="541$e">100</num>) has come to the library in periodic accessions since the 1930s.</p>
+      </acqinfo>
+      <accessrestrict encodinganalog="506">
+        <p>The Office of the Registrar records are open for research except for certain records restricted by statute or university policy. Restricted material includes personnel-related files, including search, review, promotion, and tenure files; student educational records; client/patient records; and records of executive officers of the university.</p>
+        <p>The Office of the Registrar record group includes restricted material in the following categories: <list type="simple"><item>Student Academic Records -- Box 25 (removed to vault)</item></list></p>
+        <p>
+          <extptr href="uarpacc" show="embed" actuate="onload"/>
+        </p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+        <p>Copyright is held by the Regents of the University of Michigan.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+        <p>item, folder title, box no., Office of the Registrar (University of Michigan), Bentley Historical Library, University of Michigan</p>
+      </prefercite>
+    </descgrp>
+    <bioghist encodinganalog="545">
+      <p>In 1846, the faculty authorized the position of secretary of the faculty of the Department of Literature, Science and the Arts. The secretary was to create a permanent written record of faculty proceedings and to keep student records. The earliest use of the word "registrar" in a title occurred in 1863 when student record keeping was separated from the secretary's position. Edward P. Evans, professor of modern languages, was the first to be elected to this one-year position. According to The University of Michigan Encyclopedic Survey edited by Wilfred Shaw (Ann Arbor: University Press, 1942), student discipline problems caused the registrar's position to be abolished between 1872 and 1888. During this time the secretary of the faculty resumed the duties of the registrar.</p>
+      <p>In 1875, Paul R. B. de Pont, instructor in French, was elected secretary of the faculty. He served as secretary until 1888 when the regents appointed him registrar of the Department of Literature, Science and the Arts.</p>
+      <p>In 1878/79, a four-year program called the "English Course" was added to the curriculum. It was at this time that the credit system was substituted for a set schedule of four prescribed years of study. Additionally, the number of required courses in the programs were reduced to allow for electives.</p>
+      <p>In 1882, the "University System" was introduced as an option in the Department of Literature, Science and the Arts. The University System did not require a student to complete a fixed number of required courses, but rather, allowed the student, under the direction of a faculty committee, to focus his studies. Upon the completion of four years and a satisfactory written examination, a bachelor of arts degree was conferred. "A master of arts degree was granted to the writer of a brilliant examination and a meritorious thesis." (The University of Michigan Encyclopedic Survey) The University System program led to both undergraduate and higher degrees; there was not yet a separate graduate school. Consequently, the University System and the work for advanced degrees became inextricably bound together. Records of the students of the University System were kept by faculty committees, separate from "regular" students.</p>
+      <p>The Board of Regents authorized a plan in 1871 to admit graduates of accredited high schools by diploma. Michigan high schools were visited by a university faculty committee that appraised the schools for their work in science, philosophy, and the arts. A school had to pass the university's criteria in all three of the above areas to become accredited. Accreditation specifications were changed in 1876 to accommodate schools strong in only one or two of the subject areas. This new partial accreditation system allowed students entrance to select university programs depending on the accreditation status of the secondary school from where they graduated. The Department of Literature, Science and the Arts maintained four separate sets of entrance requirements throughout the 1890s. Admission by diploma was extended to high schools outside of Michigan in 1884. In May of 1900, a single system of entrance requirements went into effect. School visits were taken over by the Bureau of Co-operation with Educational Institutions in 1932.</p>
+      <p>Incoming students in the Department of Literature, Science and the Arts took their credentials directly to the dean, rather than the president, as of the 1895/96 school year. Checking of admission credits was a task divided between the dean and the registrar, with the registrar administering the admissions of freshmen who had the customary preparation, and those with a very small amount of advanced credit or with extra high school credit. Besides reviewing freshman admissions, the registrar's responsibilities included interviewing students and acting as an intermediary between students and faculty in all matters involving study loads and student records.</p>
+      <p>Registration for the professional academic units of pharmacy, engineering, and the School of Graduate Studies was originally under literary faculty control. The pharmacy admission records were under the auspices of the Department of Literature, Science and the Arts registrar until approximately 1875, the Department of Engineering until 1903, and the School of Graduate Studies until 1912.</p>
+      <p>In 1907, at the time of the appointment of Dean John O. Reed, administrative work by the president was almost entirely relinquished. Administrative affairs of the Department of Literature, Science and the Arts were put into the hands of its own officers, the dean, and the registrar. A new title, University Registrar, was created in July 1915. It was at this time that the Office of the Registrar became an office of the university's central administration, completely independent of the College of Literature, Science and the Arts. (It was also in 1915 that the Department of Literature, Science and the Arts was renamed College of Literature, Science and the Arts.) In May 1925, regental by-laws made the Office of the Registrar directly responsible to the regents through the president. The office became more specialized in 1929 with the creation of four divisions: Admissions, Records, Statistics, and Editorial. In 1949 the Office of the Director of Admissions, a separate administrative unit, was created due to the increase in the number of admissions after World</p>
+      <p>War II. In 1954 the name of the Office of the Registrar was changed to the Office of Registration and Records. At the same time, the responsibility of orientation of new students was added to this office. The Time Schedule (course catalog) responsibilities were added to the office during the 1963/64 academic school year. Orientation and Scheduling were made independent units in 1967.</p>
+      <p>During the winter term of 1972, the concept of Computer Registration Involving Student Participation (CRISP) grew out of a class project in a computer class taught by Professor Bernard E. Galler. CRISP was instituted in 1975 as an on-line registration program.</p>
+      <p>Touch-tone CRISP was first introduced in November 1994. Beginning in March 1995, it was the mandatory form of registration for most students. In addition to helping students with registration needs, other CRISP services include transcripts requests, certification for loans and placement, academic record information, class schedules, term grade reports, and student directory changes.</p>
+      <p>Wolverine Access, developed by the registrar's office in the summer of 1994, is an on-line service that enables students to access current student data. Students can access their own grades, class schedule, and academic report. They can also check on availability of classes and look at their account statement. This service was first made available through a client server with Macintosh machines at campus computing sites. Wolverine Access is now available on the World Wide Web.</p>
+      <chronlist>
+        <head>First Registrars</head>
+        <chronitem>
+          <date>1843-1846</date>
+          <event>Unofficial secretary to faculty of LS&amp;A</event>
+        </chronitem>
+        <chronitem>
+          <date>1846-1863</date>
+          <event>Secretary to faculty of LS&amp;A</event>
+        </chronitem>
+      </chronlist>
+      <chronlist>
+        <head>Registrar of faculty of LS&amp;A - 1863-1872</head>
+        <chronitem>
+          <date>1863/64</date>
+          <event>Edward P. Evans</event>
+        </chronitem>
+        <chronitem>
+          <date>1864/65-1866/67</date>
+          <event>Edward Olney</event>
+        </chronitem>
+        <chronitem>
+          <date>1867/68</date>
+          <event>Stillman Williams Robinson</event>
+        </chronitem>
+        <chronitem>
+          <date>1870/71</date>
+          <event>Albert Henderson Pattengill</event>
+        </chronitem>
+        <chronitem>
+          <date>1871/72</date>
+          <event>Edward Lorraine Walter</event>
+        </chronitem>
+        <chronitem>
+          <date>1871/72</date>
+          <event>Jules Frederick Billard</event>
+        </chronitem>
+      </chronlist>
+      <chronlist>
+        <head>Registrar of LS&amp;A</head>
+        <chronitem>
+          <date>1888-1906</date>
+          <event>Paul R. B. dePont</event>
+        </chronitem>
+      </chronlist>
+      <chronlist>
+        <head>Registrar of LS&amp;A and Secretary of Administrative Board</head>
+        <chronitem>
+          <date>1906-1908</date>
+          <event>John William Bradshaw</event>
+        </chronitem>
+      </chronlist>
+      <chronlist>
+        <head>Registrar of LS&amp;A and Editor of University Publications</head>
+        <chronitem>
+          <date>1908-1915</date>
+          <event>Arthur Graham Hall</event>
+        </chronitem>
+      </chronlist>
+      <chronlist>
+        <head>Registrar</head>
+        <chronitem>
+          <date>1925-1954</date>
+          <event>Ira Melville Smith</event>
+        </chronitem>
+      </chronlist>
+      <chronlist>
+        <head>Registrar of the University</head>
+        <chronitem>
+          <date>1954-1964</date>
+          <event>Edward G. Groesbeck</event>
+        </chronitem>
+      </chronlist>
+      <chronlist>
+        <head>Registrar</head>
+        <chronitem>
+          <date>1967-1985</date>
+          <event>Harris D. Olson (Associate Registrar)</event>
+        </chronitem>
+        <chronitem>
+          <date>1967-1985</date>
+          <event>Douglas Wooley (Associate Registrar)</event>
+        </chronitem>
+        <chronitem>
+          <date>1985-1991</date>
+          <event>A.A. Stuart</event>
+        </chronitem>
+        <chronitem>
+          <date>1992-1993</date>
+          <event>Douglas Wooley (interim)</event>
+        </chronitem>
+        <chronitem>
+          <date>1993-1996</date>
+          <event>Laura McCain Patterson</event>
+        </chronitem>
+        <chronitem>
+          <date>1996-2001</date>
+          <event>Thomas McElvain</event>
+        </chronitem>
+        <chronitem>
+          <date>2001-</date>
+          <event>Paul Robinson</event>
+        </chronitem>
+      </chronlist>
+    </bioghist>
+    <scopecontent encodinganalog="520">
+      <p>The records of the Registrar document the functions of the registration and admission of students at the University of Michigan including on admission and registration policy and procedures, official lists of registrants, and the automation of registration process. The records are organized in seven series: Admissions; Faculty Reports, Petitions and Resolutions; Topical Files, Faculty Card Files, and Academic Record Project.</p>
+    </scopecontent>
+    <controlaccess>
+      <p>
+        <extptr href="accnote" show="embed" actuate="onload"/>
+      </p>
+      <controlaccess>
+        <head>Subjects:</head>
+        <subject source="lcsh" encodinganalog="650">College registrars--Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650">Education--Evaluation.</subject>
+        <subject source="lcsh" encodinganalog="650">Education, Higher--Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650">Student registration.</subject>
+        <subject source="lcsh" encodinganalog="650">Universities and colleges--Admission.</subject>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Administration.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Admission.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82020424">University of Michigan. College of Literature, Science, and the Arts.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Examinations.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr90028381">University of Michigan. Office of the Registrar.</corpname>
+      </controlaccess>
+    </controlaccess>
+    <dsc type="combined">
+      <c01 level="series">
+        <did>
+          <unittitle>Admissions</unittitle>
+        </did>
+        <scopecontent>
+          <p>The Admissions series (8 linear feet) consists of admission records and applications for advanced standing. An admission form was generated for each student that applied to the university. The forms most relevant for genealogical research are those dated 1856-1871, as they include parent's name, home address and occasionally the age of the student. The application for advanced standing indicates the institutions previously attended by the student. The researcher should note that there are related outsize volumes described at the end of the finding aid.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <unittitle>Admission Records</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">19 folders</extent>
+              </physdesc>
+              <unittitle><unitdate type="inclusive" normal="1856">1856</unitdate>, <unitdate type="inclusive" normal="1861/1879">1861-1879</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">13 folders</extent>
+              </physdesc>
+              <unittitle>
+                <unitdate type="inclusive" normal="1880/1889">1880-1889</unitdate>
+              </unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">9 volumes</extent>
+              </physdesc>
+              <unittitle>
+                <unitdate type="inclusive" normal="1890/1898">1890-1898</unitdate>
+              </unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">10 volumes</extent>
+              </physdesc>
+              <unittitle>
+                <unitdate type="inclusive" normal="1899/1907">1899-1907</unitdate>
+              </unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1889/1897">1889-1897</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">2</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1897/1905">1897-1905</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">3</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1905/1913">1905-1913</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Admission Register</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">14</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1861/1872">1861-1872</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">14</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1872/1890">1872-1890</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Applications for Advanced Standing</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">11 volumes</extent>
+              </physdesc>
+              <unittitle>
+                <unitdate type="inclusive" normal="1889/1899">1889-1899</unitdate>
+              </unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">6</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1900/1920">1900-1920</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">14</container>
+            <unittitle>Admission on Advanced Standing Register <unitdate type="inclusive" normal="1896/1900">1896-1900</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Registration Records</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>Dentistry</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="volume" label="Oversize Volume">4</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1875/1903">1875-1903</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="volume" label="Oversize Volume">5</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1903/1908">1903-1908</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">6</container>
+              <unittitle>Engineering <unitdate type="inclusive" normal="1895/1908">1895-1908</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Homeopathic Medicine</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="volume" label="Oversize Volume">7</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1875/1903">1875-1903</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="volume" label="Oversize Volume">8</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1903/1908">1903-1908</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Law</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="volume" label="Oversize Volume">9</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1864/1871">1864-1871</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="volume" label="Oversize Volume">10</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1872/1892">1872-1892</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="volume" label="Oversize Volume">11</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1892/1905">1892-1905</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="volume" label="Oversize Volume">12</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1905/1908">1905-1908</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Literary</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="volume" label="Oversize Volume">13</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1864/1871">1864-1871</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="volume" label="Oversize Volume">14</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1872/1888">1872-1888</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="volume" label="Oversize Volume">15</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1888/1894">1888-1894</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="volume" label="Oversize Volume">16</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1895/1902">1895-1902</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="volume" label="Oversize Volume">17</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1903/1908">1903-1908</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Medicine</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="volume" label="Oversize Volume">18</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1864/1872">1864-1872</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="volume" label="Oversize Volume">19</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1872/1892">1872-1892</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="volume" label="Oversize Volume">20</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1892/1908">1892-1908</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Pharmacy</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="volume" label="Oversize Volume">21</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1878/1892">1878-1892</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="volume" label="Oversize Volume">22</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1893/1908">1893-1908</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">23</container>
+              <unittitle>Summer Session <unitdate type="inclusive" normal="1894/1896">1894-1896</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="volume" label="Oversize Volume">24</container>
+            <unittitle>Examination Records <unitdate type="inclusive" normal="1852/1860">1852-1860</unitdate></unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Faculty Reports, Petitions, and Resolutions</unittitle>
+        </did>
+        <scopecontent>
+          <p>The Faculty Reports, Petitions and Resolutions series (5.5 linear feet) documents the work and decision making powers of the Faculty of the Department of Literature, Science and the Arts (LS&amp;A) as they acted on student petitions, academic standing, and other matters relating to admissions. This series contains a wealth of information relating to high school accreditation and its relationship to UM admissions. The records were originally bundled in envelopes by academic year, with a contents listing of items on the outside of each envelope. This list of items has been retained and placed in the appropriate folder for easier access to the contents. The records for any academic year are divided into four folders: General, Candidates for Degrees, Committee on Substitutions, and School Visits.</p>
+          <p>The General category contains petitions, curricula changes, and issues that were voted on by the faculty. The Candidates for Degrees records are comprised of one-page documents outlining the academic history of the student as well as any future academic plans. The Committee on Substitutions records consist of letters written by students asking for substitutions of required courses. Of particular interest are the School Visits records documenting accreditation of secondary schools. The school visit reports include a listing of teachers and the subject they taught, as well as an evaluation of their performance. Also included in the report is the student population size, number of books in the library, and areas within the school needing improvement. Further information on these visits are located in the "University of Michigan. Bureau of School Services" record group.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <unitdate type="inclusive" normal="1878/1879">1878/79</unitdate>
+            </unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>General</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>Resolutions and Committee Reports</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <unitdate type="inclusive" normal="1879/1880">1879/80</unitdate>
+            </unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>Resolutions and Committee Reports</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <unitdate type="inclusive" normal="1880/1881">1880/81</unitdate>
+            </unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
+              </physdesc>
+              <unittitle>Reports of Committees and Resolutions</unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <unitdate type="inclusive" normal="1881/1882">1881/82</unitdate>
+            </unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
+              </physdesc>
+              <unittitle>Reports of Committees and Resolutions</unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>Orchard Lake Academy (Michigan Military Academy)</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <unitdate type="inclusive" normal="1882/1883">1882/83</unitdate>
+            </unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>General</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>Candidates for Degrees</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>School Visits</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>Textbooks (used for various courses)</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <unitdate type="inclusive" normal="1883/1884">1883/84</unitdate>
+            </unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>General</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>Candidates for Degrees</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>Student Petitions</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>School Visits</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <unitdate type="inclusive" normal="1884/1885">1884/85</unitdate>
+            </unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
+              </physdesc>
+              <unittitle>General</unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>Candidates for Degrees</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>Committee on Substitutions</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>School Visits</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <unitdate type="inclusive" normal="1885/1886">1885/86</unitdate>
+            </unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
+              </physdesc>
+              <unittitle>General</unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>Candidates for Degrees</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>Committee on Substitutions</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>School Visits</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <unitdate type="inclusive" normal="1886/1887">1886/87</unitdate>
+            </unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>General</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>Standing Committee</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>Candidates for Degrees</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>School Visits</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <unitdate type="inclusive" normal="1887/1888">1887/88</unitdate>
+            </unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>General</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>Standing Committee</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>Candidates for Degrees</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>School Visits</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <unitdate type="inclusive" normal="1888/1889">1888/89</unitdate>
+            </unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
+              </physdesc>
+              <unittitle>General</unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Committee on Substitutions</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Candidates for Degrees</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>School Visits</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <unitdate type="inclusive" normal="1889/1890">1889/90</unitdate>
+            </unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>General</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Committee on Substitutions</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Candidates for Degrees</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">3 folders</extent>
+              </physdesc>
+              <unittitle>School Visits</unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <unitdate type="inclusive" normal="1890/1891">1890/91</unitdate>
+            </unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>General</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Committee on Substitutions</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Candidates for Degrees</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
+              </physdesc>
+              <unittitle>School Visits</unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <unitdate type="inclusive" normal="1891/1892">1891/92</unitdate>
+            </unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
+              </physdesc>
+              <unittitle>General</unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Committee on Advanced Credits</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Candidates for Degrees</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>University System-Higher Degrees</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
+              </physdesc>
+              <unittitle>School Visits</unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <unitdate type="inclusive" normal="1892/1893">1892/93</unitdate>
+            </unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
+              </physdesc>
+              <unittitle>General</unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Committee on Advanced Credits</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
+              </physdesc>
+              <unittitle>Committee on Substitutions</unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Candidates for Degrees</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">3 folders</extent>
+              </physdesc>
+              <unittitle>School Visits</unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <unitdate type="inclusive" normal="1893/1894">1893/94</unitdate>
+            </unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">9</container>
+              <unittitle>General</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">9</container>
+              <unittitle>Committee on Advanced Credits</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">9</container>
+              <unittitle>Committee on Substitutions</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">9</container>
+              <unittitle>Candidates for Degrees</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">9</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">4 folders</extent>
+              </physdesc>
+              <unittitle>School Visits</unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">9</container>
+              <unittitle>Answers to Requests and Petitions</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <unitdate type="inclusive" normal="1894/1895">1894/95</unitdate>
+            </unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">9</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
+              </physdesc>
+              <unittitle>General</unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">9</container>
+              <unittitle>Committee on Advanced Credits</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">9</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
+              </physdesc>
+              <unittitle>Committee on Substitutions</unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">9</container>
+              <unittitle>Candidates for Degrees</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">9</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">3 folders</extent>
+              </physdesc>
+              <unittitle>School Visits</unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">9</container>
+              <unittitle>Answers to Requests and Petitions</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <unitdate type="inclusive" normal="1895/1896">1895/96</unitdate>
+            </unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">9</container>
+              <unittitle>General</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">9</container>
+              <unittitle>Committee on Advanced Credits</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">9</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
+              </physdesc>
+              <unittitle>Committee on Substitutions</unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">9</container>
+              <unittitle>Report of Committees</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">9</container>
+              <unittitle>Candidates for Degrees</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">9</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">3 folders</extent>
+              </physdesc>
+              <unittitle>School Visits</unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <unitdate type="inclusive" normal="1896/1897">1896/97</unitdate>
+            </unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">10</container>
+              <unittitle>General</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">10</container>
+              <unittitle>Committee on Advanced Credits</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">10</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
+              </physdesc>
+              <unittitle>Committee on Substitutions</unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">10</container>
+              <unittitle>Report of Committees</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">10</container>
+              <unittitle>Candidates for Degrees</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">10</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">4 folders</extent>
+              </physdesc>
+              <unittitle>School Visits</unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <unitdate type="inclusive" normal="1897/1898">1897/98</unitdate>
+            </unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">10</container>
+              <unittitle>General</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">10</container>
+              <unittitle>Committee on Advanced Credits</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">10</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
+              </physdesc>
+              <unittitle>Committee on Substitutions</unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">10</container>
+              <unittitle>Report of Committees</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">10</container>
+              <unittitle>Candidates for Degrees</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">10</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">4 folders</extent>
+              </physdesc>
+              <unittitle>School Visits</unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <unitdate type="inclusive" normal="1898/1899">1898/99</unitdate>
+            </unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">10</container>
+              <unittitle>General</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">10</container>
+              <unittitle>Committee on Advanced Credits</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">10</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
+              </physdesc>
+              <unittitle>Committee on Substitutions</unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">10</container>
+              <unittitle>Candidates for Degrees</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">10</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">4 folders</extent>
+              </physdesc>
+              <unittitle>School Visits</unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <unitdate type="inclusive" normal="1899/1900">1899/00</unitdate>
+            </unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">10</container>
+              <unittitle>General</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">10</container>
+              <unittitle>Committee on Advanced Credits</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">10</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
+              </physdesc>
+              <unittitle>Committee on Substitutions</unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">10</container>
+              <unittitle>Literary/Law Committee</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">10</container>
+              <unittitle>Candidates for Degrees</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">10</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">5 folders</extent>
+              </physdesc>
+              <unittitle>School Visits</unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <unitdate type="inclusive" normal="1900/1901">1900/01</unitdate>
+            </unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">11</container>
+              <unittitle>General</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">11</container>
+              <unittitle>Committee on Advanced Credits</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">11</container>
+              <unittitle>Committee on Substitutions</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">11</container>
+              <unittitle>Report of Committees</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">11</container>
+              <unittitle>Candidates for Degrees</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">11</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">4 folders</extent>
+              </physdesc>
+              <unittitle>School Visits</unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <unitdate type="inclusive" normal="1901/1902">1901/02</unitdate>
+            </unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">11</container>
+              <unittitle>General</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">11</container>
+              <unittitle>Committee on Advanced Credits</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">11</container>
+              <unittitle>Committee on Hours</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">11</container>
+              <unittitle>Candidates for Degrees</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">11</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">5 folders</extent>
+              </physdesc>
+              <unittitle>School Visits</unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <unitdate type="inclusive" normal="1902/1903">1902/03</unitdate>
+            </unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">11</container>
+              <unittitle>General</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">11</container>
+              <unittitle>Committee on Advanced Credits</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">11</container>
+              <unittitle>Candidates for Degrees</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">11</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">4 folders</extent>
+              </physdesc>
+              <unittitle>School Visits</unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <unitdate type="inclusive" normal="1903/1904">1903/04</unitdate>
+            </unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">11</container>
+              <unittitle>General</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">11</container>
+              <unittitle>Committee on Advanced Credits</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">11</container>
+              <unittitle>Committee on Hours</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">11</container>
+              <unittitle>Candidates for Degrees</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">11</container>
+              <unittitle>School Visits (2 Folders)</unittitle>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Topical Files <unitdate type="inclusive" normal="1840/1957">1840-1957</unitdate></unittitle>
+        </did>
+        <scopecontent>
+          <p>The Topical Files series (2.5 linear feet) includes statistics compiled by the Office of the Registrar and information documenting students in the University System. Statistics include lists of delinquent students, hometowns, and scholarship charts. The University System records consist of applications for higher degrees, committee reports, and a listing of thesis subjects. The researcher should note that there are related outsize volumes described at the end of the finding aid.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">11</container>
+            <unittitle>General <unitdate type="inclusive" normal="1900/1933">1900-1933</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>American Association of Collegiate Registrars</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">11</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1920">1920</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">11</container>
+              <unittitle>1921-22</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">11</container>
+            <unittitle>Applications for Higher Degrees <unitdate type="inclusive" normal="1891/1892">1891/92</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">11</container>
+            <unittitle>Board of Regents (correspondence) <unitdate type="inclusive" normal="1908/1919">1908-1919</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">11</container>
+            <unittitle>Candidates for Degrees <unitdate type="inclusive" normal="1906">1906</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">14</container>
+            <unittitle>Deficiencies, Record of <unitdate type="inclusive" normal="1876/1891">1876-1891</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Delinquent Lists</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">11</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1910/1913">1910-1913</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">11</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1917/1924">1917-1924</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">14</container>
+            <unittitle>Delinquents, Register of <unitdate type="inclusive" normal="1893/1896">1893-1896</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">14</container>
+            <unittitle>Examinations, Record of <unitdate type="inclusive" normal="1867/1874">1867-1874</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">11</container>
+            <unittitle>Faculty Statistics <unitdate type="inclusive" normal="1900/1957">1900-1957</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">11</container>
+            <unittitle>Fraternity and Sorority Scholarship Record <unitdate type="inclusive" normal="1912/1924">1912-1924</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Hometown Lists</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1916/1920">1916-1920</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1922/1924">1922-1924</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Honors Convocation</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1924">1924</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1925">1925</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">12</container>
+            <unittitle>Military Credit <unitdate type="inclusive" normal="1920/1921">1920/21</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">12</container>
+            <unittitle>Occupation of Parents <unitdate type="inclusive" normal="1911/1912">1911/12</unitdate> (report on)</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">12</container>
+            <unittitle>Renumbering of Courses <unitdate type="inclusive" normal="1923">1923</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Report</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle><title render="italic">Report on Methods of Increasing the Intellectual Interest of Students at the University of Michigan</title>, <unitdate type="inclusive" normal="1924">1924</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">12</container>
+            <unittitle>Scholarship Charts <unitdate type="inclusive" normal="1929/1938">1929-1938</unitdate> (incomplete)</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Statistics</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
+              </physdesc>
+              <unittitle>Miscellaneous <unitdate type="inclusive" normal="1910/1924">1910-1924</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Registration Statistics</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">12</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1840/1896">1840-1896</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">12</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1916/1919">1916-1919</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">12</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1920">1920</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">12</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1921">1921</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">12</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1922">1922</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">12</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1923">1923</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">14</container>
+              <unittitle>Statistics of Daily Registration: Old to Modern <unitdate type="inclusive" normal="1904/1924">1904-1924</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">14</container>
+              <unittitle>Student Records <unitdate type="inclusive" normal="1860/1860">1860-1860</unitdate></unittitle>
+            </did>
+            <odd>
+              <p>(of individual courses)</p>
+            </odd>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Student Rosters</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1920/1921">1920/21</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
+              </physdesc>
+              <unittitle>
+                <unitdate type="inclusive" normal="1921/1922">1921/22</unitdate>
+              </unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
+              </physdesc>
+              <unittitle>
+                <unitdate type="inclusive" normal="1922/1923">1922/23</unitdate>
+              </unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>University System</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>Applications for Higher Degree</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">12</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1885/1886">1885/86</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">12</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1886/1887">1886/87</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">12</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1887/1888">1887/88</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">12</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1888/1889">1888/89</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">12</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1889/1890">1889/90</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Committee Reports</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">12</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1883/1884">1883/84</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">12</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1884/1885">1884/85</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">12</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1885/1886">1885/86</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">12</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1886/1887">1886/87</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">12</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1887/1888">1887/88</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">12</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1889/1890">1889/90</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">12</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1890/1891">1890/91</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Thesis Subjects</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">12</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1886/1887">1886/87</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">12</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1889/1890">1889/90</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Statistical Information (outsize box)</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">13</container>
+                <unittitle>Geographic Hometown Location <unitdate type="inclusive" normal="1915/1922">1915-1922</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">13</container>
+                <unittitle>Fall Class Student Lists <unitdate type="inclusive" normal="1876/1879">1876-1879</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">13</container>
+                <unittitle>High Schools (accredited, admitted from) <unitdate type="inclusive" normal="1871/1878">1871-1878</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Faculty Card Files <unitdate type="inclusive" normal="1926/1942">1926-1942</unitdate></unittitle>
+        </did>
+        <scopecontent>
+          <p>The Faculty Card Files series (1.5 linear feet) is comprised of an alphabetical run of 3" x 5" cards. Each card represents a faculty member, with information on academic education, courses taught, sabbaticals, and retirement date. It is unclear when the cards were first created, perhaps around 1930, however there are entries dating back to 1926. It appears that no cards were created after 1942.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">15</container>
+            <unittitle>A-MI</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">16</container>
+            <unittitle>Mo-Z</unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Topical Files <unitdate type="inclusive" normal="1924/1994">1924-1994</unitdate></unittitle>
+        </did>
+        <scopecontent>
+          <p>The Topical Files, 1924-1994 series (3 linear feet) was received as part of the 1994 accession. The bulk of the material, dating from 1959-1993, contains documentation on the registration process when it was facilitated through an IBM mainframe. Additionally, there is information on the Computer Registration Involving Student Participation (CRISP). The files contain information on the registration process, types of forms used, guidelines followed, and reports. There are scattered files from 1924-1958 on topics such as: Analysis of Grade Point Average, Freshman Grade Pint Averages, and Veterans.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">17</container>
+            <unittitle>Academic Data Procedures, Committee for the Study of <unitdate type="inclusive" normal="1965">1965</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">17</container>
+            <unittitle>Academic Record Analysis <unitdate type="inclusive" normal="1929">1929</unitdate>, <unitdate type="inclusive" normal="1937">1937</unitdate>, <unitdate type="inclusive" normal="1938/1943">1938-1943</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">17</container>
+            <unittitle>Academic Label Program <unitdate type="inclusive" normal="1967/1974">1967-1974</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">17</container>
+            <unittitle>Academic System Affairs Committee, 1963/4</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">17</container>
+            <unittitle>Address Collection <unitdate type="inclusive" normal="1973">1973</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">17</container>
+            <unittitle>Admissions <unitdate type="inclusive" normal="1947">1947</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">17</container>
+            <unittitle>Age Study <unitdate type="inclusive" normal="1959">1959</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">17</container>
+            <unittitle>Analysis of Grade Distribution <unitdate type="inclusive" normal="1924/1925">1924/25</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">17</container>
+            <unittitle>Budget/Planning Conference <unitdate type="inclusive" normal="1991">1991</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Computer Registration Involving Student Participation (CRISP)</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>General</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">17</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1973">1973</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">17</container>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">2 folders</extent>
+                </physdesc>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1974">1974</unitdate>
+                </unittitle>
+                <physdesc altrender="whole">
+                  </physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">17</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1975/1976">1975/76</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">17</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1977">1977</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">17</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1981">1981</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">17</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1983/1984">1983-1984</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">17</container>
+              <unittitle>CRISP Committee, 1972/3</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">17</container>
+              <unittitle>Draft Reports <unitdate type="inclusive" normal="1973">1973</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">17</container>
+              <unittitle>Implementation Group <unitdate type="inclusive" normal="1974/1975">1974/75</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">17</container>
+              <unittitle>Operators' Guides <unitdate type="inclusive" normal="1975">1975</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">17</container>
+              <unittitle>Questionnaire Results <unitdate type="inclusive" normal="1976">1976</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">17</container>
+            <unittitle>Costs <unitdate type="inclusive" normal="1967/1970">1967-1970</unitdate> (re: data processing)</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">17</container>
+            <unittitle>Course Data Bases, University <unitdate type="inclusive" normal="1977/1984">1977-1984</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">17</container>
+            <unittitle>Data Systems Center <unitdate type="inclusive" normal="1967/1970">1967-1970</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">17</container>
+            <unittitle>Digitek Forms <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">17</container>
+            <unittitle>Enrollment Count Procedure <unitdate type="inclusive" normal="1962/1963">1962-1963</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">17</container>
+            <unittitle>Fees <unitdate type="inclusive" normal="1958/1966">1958-1966</unitdate> (student)</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">17</container>
+            <unittitle>Flow Charts <unitdate type="inclusive" normal="1958/1968">1958-1968</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">17</container>
+            <unittitle>Forms <unitdate type="inclusive" normal="1956/1978">1956-1978</unitdate> (blank)</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">17</container>
+            <unittitle>Freshman Grade Point Averages <unitdate type="inclusive" normal="1926/1958">1926-1958</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">17</container>
+            <unittitle>Grade Procedures <unitdate type="inclusive" normal="1958/1966">1958-1966</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">17</container>
+            <unittitle>Grades Task Team <unitdate type="inclusive" normal="1986">1986</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">17</container>
+            <unittitle>Grading System, Report of Conference Committee on <unitdate type="inclusive" normal="1925/1935">1925-1935</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">17</container>
+            <unittitle>Graduate Hold Procedure <unitdate type="inclusive" normal="1968/1978">1968-1978</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">17</container>
+            <unittitle>Graduate Program Guidelines <unitdate type="inclusive" normal="1976/1977">1976-1977</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">17</container>
+            <unittitle>Graduate Records Study <unitdate type="inclusive" normal="1940">1940</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Graduate School</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">17</container>
+              <unittitle>IBM Card Codes <unitdate type="inclusive" normal="1959" certainty="approximate">circa 1959</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">17</container>
+              <unittitle>Reporting Procedures <unitdate type="inclusive" normal="1947">1947</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">17</container>
+              <unittitle>Graduate School/Registrar Meeting Minutes <unitdate type="inclusive" normal="1974/1977">1974-1977</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Handbooks</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">17</container>
+              <unittitle><title render="italic">Information Retrieval Systems Handbook</title>, <unitdate type="inclusive" normal="1984">1984</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">17</container>
+              <unittitle><title render="italic">Student Database Terminal Handbook</title>, <unitdate type="inclusive" normal="1973">1973</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">17</container>
+              <unittitle><title render="italic">University Course Data Base Handbook</title>, <unitdate type="inclusive" normal="1979">1979</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">17</container>
+            <unittitle>Hold Credit Procedure <unitdate type="inclusive" normal="1959">1959</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">17</container>
+            <unittitle>Housing Reports <unitdate type="inclusive" normal="1966">1966</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">17</container>
+            <unittitle>Housing Survey <unitdate type="inclusive" normal="1959">1959</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">17</container>
+            <unittitle>LS&amp;A Policies <unitdate type="inclusive" normal="1974/1977">1974-1977</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">17</container>
+            <unittitle>LS&amp;A/Registrar Meetings <unitdate type="inclusive" normal="1973/1977">1973-1977</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">17</container>
+            <unittitle>Michigan Junior College Study <unitdate type="inclusive" normal="1959">1959</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">17</container>
+            <unittitle>North Central Association of Colleges and Secondary Schools <unitdate type="inclusive" normal="1927/1937">1927-1937</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">17</container>
+            <unittitle>Numbering System <unitdate type="inclusive" normal="1960" certainty="approximate">circa 1960</unitdate> (student)</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">17</container>
+            <unittitle>Office Procedures <unitdate type="inclusive" normal="1963/1967">1963-1967</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">17</container>
+            <unittitle>Orientation Office <unitdate type="inclusive" normal="1964/1966">1964-1966</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">17</container>
+            <unittitle>Palmquist Studies <unitdate type="inclusive" normal="1940">1940</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Preclassification of Students</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">17</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1963">1963</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">17</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1967">1967</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">17</container>
+            <unittitle>Records Office <unitdate type="inclusive" normal="1966/1967">1966-1967</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Registration</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>General</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">17</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1966/1967">1966-1967</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">17</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1969/1977">1969-1977</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">17</container>
+              <unittitle>Advanced <unitdate type="inclusive" normal="1958/1961">1958-1961</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">17</container>
+              <unittitle>Cards and Procedures <unitdate type="inclusive" normal="1959/1969">1959-1969</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Early</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">17</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1962">1962</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">17</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1968/1969">1968/69</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">17</container>
+              <unittitle>Goals <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">17</container>
+              <unittitle>Medical School/Inteflex Procedures <unitdate type="inclusive" normal="1960/1986">1960-1986</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">17</container>
+              <unittitle>Permits <unitdate type="inclusive" normal="1975/1977">1975-1977</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Procedures</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">17</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1958">1958</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">17</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1961">1961</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">17</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1972/1978">1972-1978</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">17</container>
+            <unittitle>Registration and Records Conversion, 1964/5</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">17</container>
+            <unittitle>Report Study <unitdate type="inclusive" normal="1959">1959</unitdate> (re:enrollment)</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container label="Box" type="box">18</container>
+            <unittitle>Graduate Hold Procedure <unitdate type="inclusive" normal="1968/1978">1968-1978</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">18</container>
+            <unittitle>Graduate Program Guidelines <unitdate type="inclusive" normal="1976/1977">1976-1977</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">18</container>
+            <unittitle>Graduate Records Study <unitdate type="inclusive" normal="1940">1940</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Graduate School</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">18</container>
+              <unittitle>IBM Card Codes <unitdate type="inclusive" normal="1959" certainty="approximate">circa 1959</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">18</container>
+              <unittitle>Reporting Procedures <unitdate type="inclusive" normal="1947">1947</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">18</container>
+              <unittitle>Graduate School/Registrar Meeting Minutes <unitdate type="inclusive" normal="1974/1977">1974-1977</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Handbooks</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">18</container>
+              <unittitle><title render="italic">Information Retrieval Systems Handbook</title>, <unitdate type="inclusive" normal="1984">1984</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">18</container>
+              <unittitle><title render="italic">Student Database Terminal Handbook</title>, <unitdate type="inclusive" normal="1973">1973</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">18</container>
+              <unittitle><title render="italic">University Course Data Base Handbook</title>, <unitdate type="inclusive" normal="1979">1979</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">18</container>
+            <unittitle>Hold Credit Procedure <unitdate type="inclusive" normal="1959">1959</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">18</container>
+            <unittitle>Housing Reports <unitdate type="inclusive" normal="1966">1966</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">18</container>
+            <unittitle>Housing Survey <unitdate type="inclusive" normal="1959">1959</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">18</container>
+            <unittitle>LS&amp;A Policies <unitdate type="inclusive" normal="1974/1977">1974-1977</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">18</container>
+            <unittitle>LS&amp;A/Registrar Meetings <unitdate type="inclusive" normal="1973/1977">1973-1977</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">18</container>
+            <unittitle>Michigan Junior College Study <unitdate type="inclusive" normal="1959">1959</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">18</container>
+            <unittitle>North Central Association of Colleges and Secondary Schools <unitdate type="inclusive" normal="1927/1937">1927-1937</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">18</container>
+            <unittitle>Numbering System <unitdate type="inclusive" normal="1960" certainty="approximate">circa 1960</unitdate> (student)</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">18</container>
+            <unittitle>Office Procedures <unitdate type="inclusive" normal="1963/1967">1963-1967</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">18</container>
+            <unittitle>Orientation Office <unitdate type="inclusive" normal="1964/1966">1964-1966</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">18</container>
+            <unittitle>Palmquist Studies <unitdate type="inclusive" normal="1940">1940</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Preclassification of Students</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">18</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1963">1963</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">18</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1967">1967</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">18</container>
+            <unittitle>Records Office <unitdate type="inclusive" normal="1966/1967">1966-1967</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Registration</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>General</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">18</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1966/1967">1966-1967</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">18</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1969/1977">1969-1977</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">18</container>
+              <unittitle>Advanced <unitdate type="inclusive" normal="1958/1961">1958-1961</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">18</container>
+              <unittitle>Cards and Procedures <unitdate type="inclusive" normal="1959/1969">1959-1969</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Early</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">18</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1962">1962</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">18</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1968/1969">1968/69</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">18</container>
+              <unittitle>Goals <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">18</container>
+              <unittitle>Medical School/Inteflex Procedures <unitdate type="inclusive" normal="1960/1986">1960-1986</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">18</container>
+              <unittitle>Permits <unitdate type="inclusive" normal="1975/1977">1975-1977</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Procedures</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">18</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1961">1961</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">18</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1972/1978">1972-1978</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">18</container>
+            <unittitle>Registration and Records Conversion, 1964/5</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">18</container>
+            <unittitle>Report Study <unitdate type="inclusive" normal="1959">1959</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(re:enrollment)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Reports</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">19</container>
+              <unittitle><title render="italic">Academic Records of 522 Veterans Who Entered the University as Special Admission Cases</title>, <unitdate type="inclusive" normal="1949">1949</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">19</container>
+              <unittitle><title render="italic">Commission on Year-Round Integrated Operation</title>, <unitdate type="inclusive" normal="1961">1961</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">19</container>
+              <unittitle><title render="italic">Demographic Study of Student Record System</title>, <unitdate type="inclusive" normal="1964">1964</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">19</container>
+              <unittitle><title render="italic">MRC-CUMREC, A Historical Review</title>, <unitdate type="inclusive" normal="1983" certainty="approximate">circa 1983</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">19</container>
+              <unittitle><title render="italic">An On-Line Terminal Registration Supported by a Data Base Environment</title>, <unitdate type="inclusive" normal="1976" certainty="approximate">circa 1976</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">19</container>
+              <unittitle><title render="italic">A Report on Automated Class Selection</title>, <unitdate type="inclusive" normal="1957">1957</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">19</container>
+              <unittitle><title render="italic">Report of Special Committee on Central Office of Admissions</title>, <unitdate type="inclusive" normal="1930">1930</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">19</container>
+              <unittitle><title render="italic">Student Characteristics Data Base Batch Maintenance General Systems Design Specification</title>, <unitdate type="inclusive" normal="1976">1976</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">19</container>
+              <unittitle><title render="italic">Student Data Base File-A Proposal to Change</title>, <unitdate type="inclusive" normal="1984">1984</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">19</container>
+              <unittitle><title render="italic">Study of Academic Progress of Transfer Students</title>, <unitdate type="inclusive" normal="1954">1954</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">19</container>
+              <unittitle><title render="italic">A Study of Freshman Failures</title>, <unitdate type="inclusive" normal="1930">1930</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">19</container>
+              <unittitle><title render="italic">A Study of the Student Address and Information Systems at the University of Michigan</title>, <unitdate type="inclusive" normal="1971">1971</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Scheduling Office</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">19</container>
+              <unittitle>General <unitdate type="inclusive" normal="1955/1983">1955-1983</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">19</container>
+              <unittitle>College Resources Analysis System (CRAS) <unitdate type="inclusive" normal="1969/1972">1969-1972</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">19</container>
+              <unittitle>Historical Materials <unitdate type="inclusive" normal="1967/1974">1967-1974</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">19</container>
+            <unittitle>Selective Service <unitdate type="inclusive" normal="1966/1967">1966-1967</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">19</container>
+            <unittitle>Senior Staff Meetings <unitdate type="inclusive" normal="1993/1994">1993-1994</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">19</container>
+            <unittitle>Staff Meetings, 1966/7</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">19</container>
+            <unittitle>Statistical Services-Reports Services Codes <unitdate type="inclusive" normal="1961">1961</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">19</container>
+            <unittitle>Student Affairs Systems Committee <unitdate type="inclusive" normal="1960">1960</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">19</container>
+            <unittitle>Student Database <unitdate type="inclusive" normal="1963" certainty="approximate">circa 1963</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">19</container>
+            <unittitle>Student Database Items <unitdate type="inclusive" normal="1968/1970">1968-1970</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">19</container>
+            <unittitle>Student Fees, Committee on <unitdate type="inclusive" normal="1972/1977">1972-1977</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">19</container>
+            <unittitle>Student Number Criteria <unitdate type="inclusive" normal="1976">1976</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">19</container>
+            <unittitle>Student Ranking <unitdate type="inclusive" normal="1958/1959">1958/59</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(by class and school)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">19</container>
+            <unittitle>Student Records and their Use, Committee on <unitdate type="inclusive" normal="1967">1967</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">19</container>
+            <unittitle>Subgroup Chairs <unitdate type="inclusive" normal="1988">1988</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">19</container>
+            <unittitle>Systems and Procedures Committee <unitdate type="inclusive" normal="1959/1961">1959-1961</unitdate> (minutes)</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">19</container>
+            <unittitle>Tabulating Service <unitdate type="inclusive" normal="1948/1956">1948-1956</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">19</container>
+            <unittitle>Tape Conversion <unitdate type="inclusive" normal="1963">1963</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">19</container>
+            <unittitle>Veteran Survey <unitdate type="inclusive" normal="1946">1946</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">19</container>
+            <unittitle>Veterans, List of <unitdate type="inclusive" normal="1945">1945</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">19</container>
+            <unittitle>Withdrawal Notice <unitdate>undated</unitdate></unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Academic Record Project <unitdate type="inclusive" normal="1987/1994">1987-1994</unitdate></unittitle>
+        </did>
+        <scopecontent>
+          <p>The Academic Record Project (ARP) series (5 linear feet) documents the computerization of the academic record. The records, compiled by Patricia V. Lehman, a member of various project committees, include information on the Planning Committee for Computerization of the Academic Record (PCCAR), the Student Characteristics Data Base (SCDB), the Michigan Audit Reporting System (MARS), and the Admissions System Production Group Committee (ASP).</p>
+          <p>The Academic Record Project, which began in 1987, was designed to minimize the duplication of work by record keepers and to maximize accessibility of student record information by way of a cooperatively maintained electronic resource between the Office of the Registrar and the schools and colleges. The SCDB is an assemblage of hierarchical databases, flat files and hard copy that comprised the student information data resources. It was the SCDB Task Team that devised a plan to: determine the functional requirements of the fully computerized academic record; add data elements in appropriate logical segments to the SCDB to serve the functional requirements revealed by the investigation; and develop transactions, screens, and reporting capabilities needed to deliver the required services.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">20</container>
+            <unittitle>General <unitdate type="inclusive" normal="1990">1990</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Academic Audit</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">20</container>
+              <unittitle>General <unitdate type="inclusive" normal="1988/1989">1988/89</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">20</container>
+              <unittitle>Condition Codes <unitdate type="inclusive" normal="1990/1993">1990-1993</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">20</container>
+              <unittitle>Detail Design Documentation <unitdate type="inclusive" normal="1991">1991</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Pre-Pilot/Pilot</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">20</container>
+                <unittitle>General <unitdate type="inclusive" normal="1991/1992">1991-1992</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">20</container>
+                <unittitle>Minutes <unitdate type="inclusive" normal="1991/1992">1991-1992</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">20</container>
+                <unittitle>Test Data <unitdate type="inclusive" normal="1991">1991</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">20</container>
+                <unittitle>Study <unitdate type="inclusive" normal="1989/1990">1989-1990</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">20</container>
+              <unittitle>Progress Reports <unitdate type="inclusive" normal="1980/1992">1980-1992</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Research Team</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">20</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1989/1990">1989/90</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">20</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1990/1991">1990/91</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">20</container>
+            <unittitle>Academic Record Management Team (ARM) <unitdate type="inclusive" normal="1990/1993">1990-1993</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">20</container>
+            <unittitle>Academic Record Training Group <unitdate type="inclusive" normal="1990/1991">1990-1991</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">20</container>
+            <unittitle>Access Group <unitdate type="inclusive" normal="1990/1991">1990-1991</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">20</container>
+            <unittitle>Access to Student Data <unitdate type="inclusive" normal="1992/1993">1992/93</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Admissions System Production Group Committee (ASP)</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>General</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">20</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1987/1988">1987-1988</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">20</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1989">1989</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Minutes</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">20</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1987">1987</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">20</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1988">1988</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">20</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1989">1989</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">20</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1990">1990</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">20</container>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">2 folders</extent>
+                </physdesc>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1991">1991</unitdate>
+                </unittitle>
+                <physdesc altrender="whole">
+                  </physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">20</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1992">1992</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">20</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1993">1993</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">20</container>
+              <unittitle>Workshop <unitdate type="inclusive" normal="1993">1993</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">20</container>
+            <unittitle>Admissions Task Team <unitdate type="inclusive" normal="1987/1991">1987-1991</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">20</container>
+            <unittitle>Audit Implementation Committee <unitdate type="inclusive" normal="1992/1993">1992-1993</unitdate> (re:engineering)</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">20</container>
+            <unittitle>Audit, Rackham Pilot <unitdate type="inclusive" normal="1989/1992">1989-1992</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">21</container>
+            <unittitle>Budget Priorities Committee (BPC),1991 (pilo project on graduate admissions data)</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">21</container>
+            <unittitle>CLARENCE <unitdate type="inclusive" normal="1993/1994">1993/94</unitdate> (Academic Record Project/Registrar Office implementation group)</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">21</container>
+            <unittitle>Committee Participants <unitdate type="inclusive" normal="1987/1988">1987-1988</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">21</container>
+            <unittitle>Comprehensive Studies Program Information System <unitdate type="inclusive" normal="1990">1990</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">21</container>
+            <unittitle>Cumulative to Term Totals Project <unitdate type="inclusive" normal="1992/1993">1992-1993</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">21</container>
+            <unittitle>Data Modelling <unitdate type="inclusive" normal="1990/1993">1990-1993</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">21</container>
+            <unittitle>Degree Audit Reporting System (DARS) <unitdate type="inclusive" normal="1989">1989</unitdate> (correspondence)</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">21</container>
+            <unittitle>Degree/Certificate Subgroup <unitdate type="inclusive" normal="1989">1989</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">21</container>
+            <unittitle>Degree Tables <unitdate type="inclusive" normal="1991">1991</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">21</container>
+            <unittitle>Detail Design Document, Reactions to <unitdate type="inclusive" normal="1990">1990</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">21</container>
+            <unittitle>Documentation Coordination Group <unitdate type="inclusive" normal="1990">1990</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">21</container>
+            <unittitle>Field of Study Consistency <unitdate type="inclusive" normal="1992/1994">1992-1994</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">21</container>
+            <unittitle>Future Implementation <unitdate type="inclusive" normal="1992/1993">1992/93</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">21</container>
+            <unittitle>Glossary <unitdate>undated</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">21</container>
+            <unittitle>Goals/History <unitdate>undated</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">21</container>
+            <unittitle><title render="italic">Guide to the On-line Academic Record Information</title>, <unitdate type="inclusive" normal="1993">1993</unitdate> (draft)</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">21</container>
+            <unittitle>Image <unitdate type="inclusive" normal="1991">1991</unitdate> (minutes)</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Implementation in Engineering (IMP)</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">21</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
+              </physdesc>
+              <unittitle>General <unitdate type="inclusive" normal="1992">1992</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">21</container>
+              <unittitle>Minutes <unitdate type="inclusive" normal="1992/1993">1992/93</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">21</container>
+              <unittitle>Plans and Time Lines <unitdate type="inclusive" normal="1992/1993">1992-1993</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">21</container>
+            <unittitle>Information Systems and Services <unitdate type="inclusive" normal="1990/1992">1990-1992</unitdate> (updates)</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">21</container>
+            <unittitle>Interface <unitdate type="inclusive" normal="1991/1992">1991-1992</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">21</container>
+            <unittitle>Information, Technology, and Design (ITD)/Registrar Office Meetings <unitdate type="inclusive" normal="1993/1994">1993/94</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">21</container>
+            <unittitle>Management Team <unitdate type="inclusive" normal="1993">1993</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Michigan Audit Reporting System (MARS)</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">21</container>
+              <unittitle>Academic Audit <unitdate type="inclusive" normal="1988">1988</unitdate> (sample)</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">21</container>
+              <unittitle>Documentation Drafts <unitdate type="inclusive" normal="1988/1991">1988-1991</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">21</container>
+              <unittitle>MARS/DARS (Degree Audit Reporting System) Documentation <unitdate type="inclusive" normal="1991/1993">1991-1993</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">21</container>
+              <unittitle>Maintain Program <unitdate type="inclusive" normal="1990/1991">1990-1991</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">21</container>
+              <unittitle>Requirement Text <unitdate type="inclusive" normal="1990/1991">1990-1991</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">21</container>
+              <unittitle>Users Groups <unitdate type="inclusive" normal="1992">1992</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">21</container>
+            <unittitle>Multiple Degrees <unitdate type="inclusive" normal="1987/1990">1987-1990</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">21</container>
+            <unittitle>New Grade System <unitdate type="inclusive" normal="1988">1988</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">21</container>
+            <unittitle><title render="italic">On-line Academic Record Information, Guide to</title>, <unitdate type="inclusive" normal="1990/1991">1990-1991</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">21</container>
+            <unittitle>On-Line Previous Experience and Transfer Credit Transfer Subsystems <unitdate type="inclusive" normal="1993">1993</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">21</container>
+            <unittitle>Optical Disk Imaging System <unitdate type="inclusive" normal="1992">1992</unitdate> (proposal)</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">22</container>
+            <unittitle>Participant Lists <unitdate type="inclusive" normal="1993">1993</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">22</container>
+            <unittitle>Phase One Overview <unitdate type="inclusive" normal="1990">1990</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Planning Committee for the Computerization of the Academic Record (PCCAR)</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>General</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">22</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1987/1988">1987-1988</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">22</container>
+                <unittitle><unitdate type="inclusive" normal="1988/1992">1988-1992</unitdate> (includes minutes)</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">22</container>
+              <unittitle>Funding <unitdate type="inclusive" normal="1988/1990">1988-1990</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">22</container>
+              <unittitle>Minutes <unitdate type="inclusive" normal="1988/1992">1988-1992</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">22</container>
+              <unittitle>Reorganization <unitdate type="inclusive" normal="1992">1992</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">22</container>
+              <unittitle>Survey of Needs Workshop <unitdate type="inclusive" normal="1987">1987</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">22</container>
+            <unittitle>Presentation <unitdate type="inclusive" normal="1991">1991</unitdate> (for Provost)</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Reports</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">22</container>
+              <unittitle><title render="italic">Academic Record Project: Academic Record System B Tester Training Roles and Responsibilities</title>, <unitdate type="inclusive" normal="1991">1991</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">22</container>
+              <unittitle><title render="italic">Computerized Academic Record Documentation Report</title>, <unitdate type="inclusive" normal="1990">1990</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">22</container>
+              <unittitle><title render="italic">Computerized Academic Record Training Report</title>, , <unitdate type="inclusive" normal="1990">1990</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">22</container>
+              <unittitle><title render="italic">Cumulative to Term Totals System description Document</title>, , <unitdate type="inclusive" normal="1994">1994</unitdate> (draft)</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">22</container>
+              <unittitle><title render="italic">Progress Report: Committee for Planning the Computerized Academic Record</title>, <unitdate type="inclusive" normal="1986">1986</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">22</container>
+              <unittitle><title render="italic">Test Coordination Group-Report to the Student Characteristics Data Base Task Team</title>, <unitdate type="inclusive" normal="1990">1990</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">22</container>
+            <unittitle>Reorganization <unitdate type="inclusive" normal="1992/1993">1992-1993</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">22</container>
+            <unittitle>Requirements <unitdate type="inclusive" normal="1991">1991</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">22</container>
+            <unittitle>Scholarship/Fellowship <unitdate type="inclusive" normal="1992">1992</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">22</container>
+            <unittitle>Sequence Table <unitdate type="inclusive" normal="1990/1993">1990-1993</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">22</container>
+            <unittitle>Status Reports <unitdate type="inclusive" normal="1990">1990</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">22</container>
+            <unittitle>Strategic Data Planning <unitdate type="inclusive" normal="1993/1994">1993-1994</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Student Accounting Project</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">22</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1990/1991">1990-1991</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">22</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1992/1993">1992/93</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">22</container>
+            <unittitle>Student Accounting System-Phase 1 <unitdate type="inclusive" normal="1992">1992</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Student Characteristics Data Base (SCDB)</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">22</container>
+              <unittitle>Academic Report <unitdate type="inclusive" normal="1988/1992">1988-1992</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">22</container>
+              <unittitle>Admissions Interface <unitdate type="inclusive" normal="1991/1992">1991-1992</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">22</container>
+              <unittitle>Audit Subgroup <unitdate type="inclusive" normal="1988/1990">1988-1990</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">22</container>
+              <unittitle>Course Tables Subgroup <unitdate type="inclusive" normal="1988/1990">1988-1990</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">22</container>
+              <unittitle>Data Element Standing Committee <unitdate type="inclusive" normal="1989/1990">1989-1990</unitdate> (minutes)</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">22</container>
+              <unittitle>Degree/Certificate Subgroup-minutes <unitdate type="inclusive" normal="1988/1989">1988-1989</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">22</container>
+              <unittitle>Essential Data Elements <unitdate type="inclusive" normal="1993">1993</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Interface Group Committee</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">22</container>
+                <unittitle>General <unitdate type="inclusive" normal="1985/1992">1985-1992</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>Minutes</unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">22</container>
+                  <unittitle>
+                    <unitdate type="inclusive" normal="1985">1985</unitdate>
+                  </unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">22</container>
+                  <unittitle>
+                    <unitdate type="inclusive" normal="1991/1992">1991/92</unitdate>
+                  </unittitle>
+                </did>
+              </c05>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Minutes</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">22</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1986/1988">1986-1988</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">22</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1989/1990">1989-1990</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">22</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1991">1991</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">23</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1992">1992</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">23</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1993">1993</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">23</container>
+              <unittitle>Modelling Group <unitdate type="inclusive" normal="1990">1990</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">23</container>
+              <unittitle>Open Items <unitdate type="inclusive" normal="1990/1991">1990-1991</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">23</container>
+              <unittitle>Presentation <unitdate type="inclusive" normal="1987">1987</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Previous Experience Subgroup (Prex)</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">23</container>
+                <unittitle>Minutes <unitdate type="inclusive" normal="1988/1989">1988-1989</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">23</container>
+                <unittitle>Previous Experience Document <unitdate type="inclusive" normal="1988">1988</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">23</container>
+                <unittitle>Subgroup <unitdate type="inclusive" normal="1988/1989">1988-1989</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">23</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
+              </physdesc>
+              <unittitle>Problems/Issues <unitdate type="inclusive" normal="1989/1992">1989-1992</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">23</container>
+              <unittitle>Reconfiguration <unitdate type="inclusive" normal="1990/1991">1990-1991</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">23</container>
+              <unittitle>Report of Phase 1 <unitdate type="inclusive" normal="1987">1987</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">23</container>
+              <unittitle>Subgroup Monthly Reports <unitdate type="inclusive" normal="1989">1989</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">23</container>
+              <unittitle>Task List <unitdate type="inclusive" normal="1988">1988</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Task Team</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <unittitle>General (includes some minutes)</unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">23</container>
+                  <unittitle>
+                    <unitdate type="inclusive" normal="1987/1989">1987-1989</unitdate>
+                  </unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">23</container>
+                  <unittitle>
+                    <unitdate type="inclusive" normal="1990/1991">1990-1991</unitdate>
+                  </unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">23</container>
+                  <unittitle>
+                    <unitdate type="inclusive" normal="1992">1992</unitdate>
+                  </unittitle>
+                </did>
+              </c05>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">23</container>
+                <unittitle>Academic Record Testing <unitdate type="inclusive" normal="1989/1990">1989/90</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">23</container>
+                <unittitle>Data Entry <unitdate type="inclusive" normal="1991">1991</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">23</container>
+                <unittitle>Minutes <unitdate type="inclusive" normal="1992">1992</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">23</container>
+                <unittitle>Planning <unitdate type="inclusive" normal="1990/1991">1990/91</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">23</container>
+                <unittitle>Purpose/Member List <unitdate type="inclusive" normal="1988/1992">1988-1992</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">24</container>
+                <unittitle>SDDT <unitdate type="inclusive" normal="1990/1992">1990-1992</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">24</container>
+                <unittitle>Training Group <unitdate type="inclusive" normal="1988/1990">1988-1990</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">24</container>
+                <unittitle>Transcripts <unitdate type="inclusive" normal="1991/1992">1991-1992</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">24</container>
+                <unittitle>Upgrade Group <unitdate type="inclusive" normal="1990">1990</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">24</container>
+            <unittitle>Student Profile Data Guide <unitdate type="inclusive" normal="1987">1987</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">24</container>
+            <unittitle>Subgroup Detail System Design <unitdate type="inclusive" normal="1989">1989</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">24</container>
+            <unittitle>System Development and Design Team <unitdate type="inclusive" normal="1992/1993">1992/93</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">24</container>
+            <unittitle>System Testing <unitdate type="inclusive" normal="1990/1991">1990/91</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">24</container>
+            <unittitle>Test Coordination Group <unitdate type="inclusive" normal="1993">1993</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">24</container>
+            <unittitle>Training Coordination Group <unitdate type="inclusive" normal="1990">1990</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Transcript</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">24</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1991">1991</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">24</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1993">1993</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">24</container>
+            <unittitle>Transcript Task Team <unitdate type="inclusive" normal="1987">1987</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">24</container>
+            <unittitle>Transfer Credit <unitdate type="inclusive" normal="1987/1992">1987-1992</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">24</container>
+            <unittitle>Unit Reps meetings <unitdate type="inclusive" normal="1991">1991</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">24</container>
+            <unittitle>Users' Group for On-line Systems (UGFOS) <unitdate type="inclusive" normal="1987/1992">1987-1992</unitdate> (minutes)</unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Reports and Statistics <unitdate type="inclusive" normal="1840/2003">1840-2003</unitdate></unittitle>
+        </did>
+        <scopecontent>
+          <p>The Reports and Statistics, 1840-2003 series (1 linear foot) is comprised of statistics and reports generated by the University of Michigan Office of the Registrar during the years 1840 to 2003, with the bulk years being 1960 to 1980. The statistics, some of which were produced for publications and others for office use only, yield and analyze data on the student population. The data is organized into various reference points including: academic term, gender, nationality, geographic area, class level, grade point average, and academic unit. The series is divided into two subseries; Enrollment Statistics, which focuses on student body data, and Grade Point Average, which analyzes average grades of the student population.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <unittitle>Enrollment Statistics</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <physloc>Vault</physloc>
+              <unittitle>Home Cases and Warnings, 1926-30, 1961-62</unittitle>
+            </did>
+            <accessrestrict>
+              <p>[SR RESTRICTED until July 1 <date type="restriction" normal="2036-07-01">2036</date>; removed to vault]</p>
+            </accessrestrict>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">25</container>
+              <unittitle>Long-range Statistics <unitdate type="inclusive" normal="1840/2003">1840-2003</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">25</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1900/1929">1900-1929</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">25</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1930/1939">1930-1939</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">25</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1940/1944">1940-1944</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">25</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1945/1949">1945-1949</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">25</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1950/1954">1950-1954</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">25</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1955/1959">1955-1959</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">25</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1960">1960</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">25</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1961">1961</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">25</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1962/1963">1962-1963</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">25</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1964">1964</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">25</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1965">1965</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">25</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1966">1966</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">25</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1967">1967</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">25</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1968">1968</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">25</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1969">1969</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">25</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1970/1974">1970-1974</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">25</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1975/1979">1975-1979</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">25</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1980/1989">1980-1989</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Grade Point Average Statistics</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">25</container>
+              <unittitle><unitdate type="inclusive" normal="1912/1913">1912-1913</unitdate>, <unitdate type="inclusive" normal="1924/1934">1924-1934</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">25</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1930/1939">1930-1939</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">25</container>
+              <unittitle>1940-43 <unitdate type="inclusive" normal="1945/1949">1945-1949</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">25</container>
+              <unittitle>1950-52 <unitdate type="inclusive" normal="1956/1958">1956-1958</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">25</container>
+              <unittitle>1960-61 <unitdate type="inclusive" normal="1963/1965">1963-1965</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">25</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1970/1979">1970-1979</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">25</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1980/1985">1980-1985</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+    </dsc>
+    <descgrp type="add">
+      <relatedmaterial>
+        <head>Related Material</head>
+        <p>For additional information regarding the Office of the Registrar, researchers should consult:
+          <list type="simple"><item><title render="italic" linktype="simple" href="http://quod.lib.umich.edu/b/bhlead/umich-bhl-0393" show="replace" actuate="onrequest">University of Michigan. Office of the Registrar. Publications</title></item><item><title render="italic" linktype="simple" href="http://quod.lib.umich.edu/b/bhlead/umich-bhl-8727" show="replace" actuate="onrequest">University of Michigan. Bureau of School Services record group</title></item><item><title render="italic" linktype="simple" href="http://mirlyn.lib.umich.edu/Record/003929234" show="replace" actuate="onrequest">University of Michigan President Reports</title></item><item><title render="italic" linktype="simple" href="http://quod.lib.umich.edu/b/bhlead/umich-bhl-861108" show="replace" actuate="onrequest">Ira M. Smith papers</title></item><item><title render="italic">The University of Michigan an Encyclopedic Survey</title>, Wilfred B. Shaw, editor (Ann Arbor; University of Michigan Press, 1942)</item></list>
+        </p>
+      </relatedmaterial>
+    </descgrp>
+  </archdesc>
+</ead>

@@ -1,0 +1,604 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead.dtd">
+<ead>
+  <eadheader audience="internal" langencoding="iso639-2b" repositoryencoding="iso15511" dateencoding="iso8601" relatedencoding="Dublin Core" scriptencoding="iso15924" countryencoding="iso3166-1">
+    <eadid countrycode="us" mainagencycode="MiU-H" publicid="us//::miu-h//TXT us::miu-h::chrisisa.xml//EN" encodinganalog="Identifier">umich-bhl-85989</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="Title">Finding Aid for Isaac Peckham Christiancy papers, 1830-1874</titleproper>
+        <author encodinganalog="Creator">Collection processed and finding aid created by Michigan Historical Collections staff</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="Publisher">Bentley Historical Library, University of Michigan</publisher>
+        <date encodinganalog="Date" normal="2009">2009</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created by Thomas E. Powers <date>2009</date></creation>
+      <langusage encodinganalog="Language">The finding aid is written in <language langcode="eng" scriptcode="Latn">English</language></langusage>
+      <descrules>Finding aid prepared using Describing Archives: A Content Standard (DACS)</descrules>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date>2009-01-13</date>
+        <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <frontmatter>
+    <titlepage>
+      <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
+      <titleproper>Finding aid for <lb/>Isaac Peckham Christiancy papers, 1830-1874</titleproper>
+      <author>Finding aid created by <lb/>Michigan Historical Collections staff</author>
+    </titlepage>
+  </frontmatter>
+  <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
+    <did>
+      <origination>
+        <persname source="lcnaf" encodinganalog="100">Christiancy, Isaac Peckham, 1812-1890.</persname>
+      </origination>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">2 microfilm reels</extent>
+        <physfacet>1 linear foot</physfacet>
+      </physdesc>
+      <unittitle encodinganalog="245">Isaac Peckham Christiancy papers <unitdate type="inclusive" encodinganalog="245$f" normal="1830/1874">1830-1874</unitdate></unittitle>
+      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">85989 mf 318c, mf 319 c</unitid>
+      <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
+      <abstract>Republican State Senator from Monroe County, Michigan, 1850-1851, Michigan Supreme Court Justice, 1858-1875, U.S. Senator, 1875-1879, and U.S. Minister to Peru. Letters to his children, business letters from his law partner Robert M. McClelland, Catholic Bishop Peter P. LeFevre and Nathaniel L. Christiancy; legal documents, Civil War address, Michigan Supreme Court docket book, and miscellaneous papers.</abstract>
+      <repository>
+        <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea>, University of Michigan</corpname>
+        <extptr href="bhladd" show="embed" actuate="onload"/>
+      </repository>
+    </did>
+    <descgrp type="admin">
+      <acqinfo encodinganalog="541">
+        <p>The provenance of this collection is uncertain.</p>
+      </acqinfo>
+      <accruals encodinganalog="584">
+        <p>No further additions to the papers are expected.</p>
+      </accruals>
+      <accessrestrict encodinganalog="506">
+        <p>The collection is open to research.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+        <p>Copyright is held by the Regents of the University of Michigan.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+        <p>[item], folder, box,
+Isaac Peckham Christiancy papers, Bentley Historical Library, University of Michigan</p>
+      </prefercite>
+    </descgrp>
+    <bioghist encodinganalog="545">
+      <p>Isaac Peckham Christiancy was born near Johnstown, Fulton County, N. Y., March 12, 1812. He moved to Monroe, Michigan in 1836 where he would practice law from 1838 to 1858. During this time, he would also serve as prosecuting attorney for Monroe County 1841-1846; delegate to the National Free Soil Convention at Buffalo in 1848; Free Soil candidate for Governor in 1852; and Michigan State Senator 1850-1852. In 1856, Christiancy was elected associate judge of the Michigan Supreme Court. He was twice re-elected and served until 1875 when he was elected to the United States Senate. He served until 1879 at which time President Hayes selected him to be United States Minister to Peru. He served until 1881 when he returned to practice law in Lansing, Michigan. He died September 8, 1890.</p>
+    </bioghist>
+    <scopecontent encodinganalog="520">
+      <p>The Isaac Peckham Christiancy collection relates primarily to the period in his career prior to becoming a United States Senator and Minister to Peru. The papers have been arranged into the following series: Background Information; Correspondence; Business, financial, and miscellaneous; Legal files: law practice and Michigan Supreme Court. Of note are letters to his children and business letters from his law partner Robert M. McClelland, Catholic Bishop Peter P. LeFevre and Nathaniel L. Christiancy. In addition, there is an address he gave during the Civil War.</p>
+    </scopecontent>
+    <controlaccess>
+      <p>
+        <extptr href="accnote" show="embed" actuate="onload"/>
+      </p>
+      <controlaccess>
+        <head>Subjects:</head>
+        <corpname source="lcnaf" encodinganalog="610">Catholic Church.</corpname>
+        <geogname source="local" encodinganalog="691">Michigan--Politics and government--1845-1860.</geogname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81074669">Michigan. Supreme Court.</corpname>
+        <geogname source="lcsh" encodinganalog="651">Monroe (Mich.)</geogname>
+        <corpname source="lcnaf" encodinganalog="610">United States. Army. Michigan Infantry Regiment, 4th (1861-1864). Company A.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79022161">United States. Congress. Senate.</corpname>
+        <geogname source="lcsh" encodinganalog="651">United States--History--Civil War, 1861-1865.</geogname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n80057180">Van Buren, Martin, 1782-1862.</persname>
+        <geogname source="lcsh" encodinganalog="651">Michigan--Politics and government--1837-1950.</geogname>
+      </controlaccess>
+      <controlaccess>
+        <head>Contributors:</head>
+        <persname source="lcnaf" encodinganalog="700">Christiancy, Nathaniel L.</persname>
+        <persname source="lcnaf" encodinganalog="700">Lefevere, Peter Paul, 1804-1869.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n86054943">McClelland, Robert, 1807-1880.</persname>
+      </controlaccess>
+    </controlaccess>
+    <dsc type="combined">
+      <c01 level="series">
+        <did>
+          <unittitle>Background Information</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <container type="reel" label="Roll">1</container>
+            <unittitle>Miscellaneous: include chronology of Christiancy's life, typescripts of documents in other repositories, descriptions of the collection</unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Correspondence</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <unittitle>Miscellaneous</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="reel" label="Roll">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1840/1849">1840-1849</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="reel" label="Roll">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1850/1851">1850-1851</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="reel" label="Roll">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1852/1854">1852-1854</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="reel" label="Roll">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1855-01/1855-05">January-May 1855</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="reel" label="Roll">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1855-06/1855-12">June-December 1855</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="reel" label="Roll">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1856/1861">1856-1861</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Correspondence with Robert McClelland</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="reel" label="Roll">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1850/1853">1850-1853</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="reel" label="Roll">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1854-01/1854-05">January-May 1854</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="reel" label="Roll">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1854-06/1854-12">June-December 1854</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="reel" label="Roll">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1855-01/1855-07">January-July 1855</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="reel" label="Roll">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1855-08/1855-12">August-December 1855</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="reel" label="Roll">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1856/1859">1856-1859</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Correspondence with Peter LeFevre</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="reel" label="Roll">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1844/1847">1844-1847</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="reel" label="Roll">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1848/1849">1848-1849</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="reel" label="Roll">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1850/1855">1850-1855</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Correspondence of the law firm of Wing and McClelland (later McClelland and Christiancy)</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="reel" label="Roll">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1841/1844">1841-1844</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="reel" label="Roll">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1845">1845</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="reel" label="Roll">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1846/1851">1846-1851</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="reel" label="Roll">1</container>
+            <unittitle>Letters from his children <unitdate type="inclusive" normal="1874/1875">1874-1875</unitdate></unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Business, financial, and miscellaneous</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <unittitle>Land titles and deeds</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="reel" label="Roll">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1835/1837">1835-1837</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="reel" label="Roll">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1841/1849">1841-1849</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="reel" label="Roll">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1850/1851">1850-1851</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="reel" label="Roll">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1852/1856">1852-1856</unitdate>
+                <unitdate type="inclusive">undated</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="reel" label="Roll">1</container>
+            <unittitle>Business Receipts</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="reel" label="Roll">1</container>
+            <unittitle>Personal bills, receipts, and checks</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="reel" label="Roll">1</container>
+            <unittitle>Letters concerning pending litigation <unitdate type="inclusive" normal="1831/1855">1831-1855</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="reel" label="Roll">1</container>
+            <unittitle>Architect's plans, bills, and receipts for his home</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="reel" label="Roll">1</container>
+            <unittitle>Michigan Supreme Court docket <unitdate type="inclusive" normal="1859-07">July 1859</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="reel" label="Roll">1</container>
+            <unittitle>Address given <unitdate type="inclusive" normal="1861-05-21">May 21, 1861</unitdate> at Monroe</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="reel" label="Roll">1</container>
+            <unittitle>Certificates of election to the Supreme Court</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="reel" label="Roll">1</container>
+            <unittitle>Diary and Memorandum book <unitdate type="inclusive" normal="1850">1850</unitdate></unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Legal files: law practice and Michigan Supreme Court</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <container type="reel" label="Roll">2</container>
+            <unittitle>Record of Court Cases <unitdate type="inclusive" normal="1846/1848">1846-1848</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Cases</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="reel" label="Roll">2</container>
+              <unittitle>Peter Allan Estate</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="reel" label="Roll">2</container>
+              <unittitle>Butler vs. Humphrey</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="reel" label="Roll">2</container>
+              <unittitle>Creelman and Chapman vs. Farmington</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="reel" label="Roll">2</container>
+              <unittitle>Culbertson vs. Damah</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="reel" label="Roll">2</container>
+              <unittitle>Farmers and Mechanics Bank vs. Strong and Maer</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="reel" label="Roll">2</container>
+              <unittitle>Farwell vs. Andrews</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="reel" label="Roll">2</container>
+              <unittitle>Field vs. Christiancy</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="reel" label="Roll">2</container>
+              <unittitle>Holman vs. Fort Wayne Railroad</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="reel" label="Roll">2</container>
+              <unittitle>Miller vs. Arnold</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="reel" label="Roll">2</container>
+              <unittitle>Nash vs. Filkins</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="reel" label="Roll">2</container>
+              <unittitle>O'Connor vs. Murphy</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="reel" label="Roll">2</container>
+              <unittitle>Francis Roberts Estate</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="reel" label="Roll">2</container>
+              <unittitle>Shauvon vs. People of Michigan</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Miscellaneous briefs and complaints</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="reel" label="Roll">2</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1839/1844">1839-1844</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="reel" label="Roll">2</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1845/1849">1845-1849</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="reel" label="Roll">2</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1850/1854">1850-1854</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="reel" label="Roll">2</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1855/1857">1855-1857</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="reel" label="Roll">2</container>
+              <unittitle>
+                <unitdate type="inclusive">Undated</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Miscellaneous legal materials and memoranda</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="reel" label="Roll">2</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1800">1800</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="reel" label="Roll">2</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1830/1839">1830-1839</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="reel" label="Roll">2</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1840/1844">1840-1844</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="reel" label="Roll">2</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1845">1845</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="reel" label="Roll">2</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1846/1849">1846-1849</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="reel" label="Roll">2</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1850/1851">1850-1851</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="reel" label="Roll">2</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1852/1853">1852-1853</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="reel" label="Roll">2</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1854/1859">1854-1859</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="reel" label="Roll">2</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1860/1874">1860-1874</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="reel" label="Roll">2</container>
+              <unittitle>
+                <unitdate type="inclusive">Undated</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

@@ -1,0 +1,454 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead.dtd">
+<ead>
+  <eadheader audience="internal" langencoding="iso639-2b" repositoryencoding="iso15511" dateencoding="iso8601" relatedencoding="Dublin Core" scriptencoding="iso15924" countryencoding="iso3166-1">
+    <eadid countrycode="us" mainagencycode="MiU-H" publicid="us//::miu-h//TXT us::miu-h::millerca.xml//EN" encodinganalog="Identifier">umich-bhl-86979</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="Title">Finding Aid for Miller, Canfield, Paddock, and Stone records, 1902-1971</titleproper>
+        <author encodinganalog="Creator">Collection processed and finding aid created by Bentley Historical Library staff</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="Publisher">Bentley Historical Library, University of Michigan</publisher>
+        <date encodinganalog="Date" normal="2009">2009</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created by Thomas E. Powers <date>2009</date></creation>
+      <langusage encodinganalog="Language">The finding aid is written in <language langcode="eng" scriptcode="Latn">English</language></langusage>
+      <descrules>Finding aid prepared using Describing Archives: A Content Standard (DACS)</descrules>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date>20150708</date>
+        <item>Separated boxes for use with Aeon.</item>
+      </change>
+      <change>
+        <date>2009-02-13</date>
+        <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <frontmatter>
+    <titlepage>
+      <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
+      <titleproper>Finding aid for <lb/>Miller, Canfield, Paddock, and Stone records, 1902-1971</titleproper>
+      <author>Finding aid created by <lb/>Bentley Historical Library staff</author>
+    </titlepage>
+  </frontmatter>
+  <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
+    <did>
+      <origination>
+        <corpname source="lcnaf" encodinganalog="110" authfilenumber="http://id.loc.gov/authorities/names/n95023201">Miller, Canfield, Paddock, and Stone (Firm)</corpname>
+      </origination>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">2 oversize volumes</extent>
+      </physdesc>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">2 folders</extent>
+        <extent altrender="carrier">(in 19 boxes)</extent>
+      </physdesc>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">71 volumes</extent>
+      </physdesc>
+      <unittitle encodinganalog="245">Miller, Canfield, Paddock, and Stone records <unitdate type="inclusive" encodinganalog="245$f" normal="1902/1971">1902-1971</unitdate></unittitle>
+      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">86979 Bb 2; BB oversize</unitid>
+      <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
+      <abstract>Detroit law firm; minute books of various client businesses and philanthropic organizations; financial records; case logs; title opinions and abstracts.</abstract>
+      <repository>
+        <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea>, University of Michigan</corpname>
+        <extptr href="bhladd" show="embed" actuate="onload"/>
+      </repository>
+      <physloc>Portions located in offsite storage; prior notification required for access.</physloc>
+    </did>
+    <descgrp type="admin">
+      <acqinfo encodinganalog="541">
+        <p>The records came from the firm (donor no. <num type="donor" encodinganalog="541$e">7276</num>) in two accessions, 1986 and 2001.</p>
+      </acqinfo>
+      <accruals encodinganalog="584">
+        <p>No further additions to the records are expected.</p>
+      </accruals>
+      <accessrestrict encodinganalog="506">
+        <p>The record group is open to research.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+        <p>Copyright has not been transferred to the Regents of the University of Michigan.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+        <p>[item], folder, box,
+Miller, Canfield, Paddock, and Stone records, Bentley Historical Library, University of Michigan</p>
+      </prefercite>
+    </descgrp>
+    <bioghist encodinganalog="545">
+      <p>Miller, Canfield, Paddock, and Stone is an international law firm. One of their offices is in Detroit, Michigan.</p>
+    </bioghist>
+    <scopecontent encodinganalog="520">
+      <p>The record group includes minute books and other records of client businesses and philanthropic organizations. These include land and realty organizations, notably the Palms Realty Co. and the Ernst Kern Co. There are also financial records of the firm, including registers containing billing records and case activity logs; record of hours; and volumes of title opinions and abstracts.</p>
+    </scopecontent>
+    <controlaccess>
+      <p>
+        <extptr href="accnote" show="embed" actuate="onload"/>
+      </p>
+      <controlaccess>
+        <head>Subjects:</head>
+        <subject source="lcsh" encodinganalog="650">Business records--Michigan--Detroit.</subject>
+        <geogname source="local" encodinganalog="691">Detroit (Mich.)--Commerce.</geogname>
+        <subject source="lcsh" encodinganalog="650">Endowments.</subject>
+        <subject source="lcsh" encodinganalog="650">Charities--Michigan--Detroit.</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n95023201">Miller, Canfield, Paddock, and Stone (Firm)</corpname>
+        <subject source="lcsh" encodinganalog="650">Real estate business--Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650">Law firms--Michigan--Detroit.</subject>
+      </controlaccess>
+      <controlaccess>
+        <head>Contributors:</head>
+        <corpname source="lcnaf" encodinganalog="710">Ernst Kern Company.</corpname>
+        <corpname source="lcnaf" encodinganalog="710">Michigan Yale-Phillips Educational Corporation.</corpname>
+        <corpname source="lcnaf" encodinganalog="710">Palms Realty Company.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" authfilenumber="http://id.loc.gov/authorities/names/no97000595">Social Research Foundation.</corpname>
+      </controlaccess>
+    </controlaccess>
+    <dsc type="combined">
+      <c01 level="series">
+        <did>
+          <unittitle>Client Records</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <physdesc altrender="part">
+              <extent altrender="materialtype spaceoccupied">2 folders</extent>
+            </physdesc>
+            <physdesc altrender="part">
+              <extent altrender="materialtype spaceoccupied">4 volumes</extent>
+            </physdesc>
+            <unittitle>Palms Realty Co. minute books <unitdate type="inclusive" normal="1913/1958">1913-1958</unitdate></unittitle>
+            <physdesc>
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 volumes</extent>
+            </physdesc>
+            <unittitle>Ernst Kern Co. minute books <unitdate type="inclusive" normal="1956/1959">1956-1959</unitdate></unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 volumes</extent>
+            </physdesc>
+            <unittitle>Stackpole Fund minute books <unitdate type="inclusive" normal="1949/1971">1949-1971</unitdate></unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">1 volume</extent>
+            </physdesc>
+            <unittitle>Earl Crest Land Co, minute book <unitdate type="inclusive" normal="1925/1932">1925-1932</unitdate></unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">1 volume</extent>
+            </physdesc>
+            <unittitle>Ward Redwood Co. record book <unitdate type="inclusive" normal="1937/1939">1937-1939</unitdate></unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">1 volume</extent>
+            </physdesc>
+            <unittitle>Social Research Foundation record book <unitdate type="inclusive" normal="1957/1964">1957-1964</unitdate></unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">1 volume</extent>
+            </physdesc>
+            <unittitle>Michigan Yale-Phillips Educational Corp. record book <unitdate type="inclusive" normal="1942/1957">1942-1957</unitdate></unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>Riordan Bros. (?) purchase records <unitdate type="inclusive" normal="1961/1968">1961-1968</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Grosse Pointe Realty Co.</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Records of loans to <unitdate type="inclusive" normal="1920/1929" certainty="approximate">1920s</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Financial record book <unitdate type="inclusive" normal="1925/1938" certainty="approximate">circa 1925-1938</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Firm financial records</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <container type="volume" label="Oversize Volume">1</container>
+            <unittitle>Journal <unitdate type="inclusive" normal="1923/1926">1923-1926</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="volume" label="Oversize Volume">2</container>
+            <unittitle>Ledger <unitdate type="inclusive" normal="1923/1926">1923-1926</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Registers containing billing records and case activity logs</unittitle>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">14 volumes</extent>
+            </physdesc>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Miscellaneous clients <unitdate type="inclusive" normal="1902/1924">1902-1924</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Miscellaneous clients <unitdate type="inclusive" normal="1902/1924">1902-1924</unitdate></unittitle>
+            </did>
+            <odd>
+              <p>(continued)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">6</container>
+              <unittitle>Miscellaneous clients <unitdate type="inclusive" normal="1902/1924">1902-1924</unitdate></unittitle>
+            </did>
+            <odd>
+              <p>(continued)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">4 volumes</extent>
+              </physdesc>
+              <unittitle>Detroit Trust Co. <unitdate type="inclusive" normal="1912/1925">1912-1925</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">8</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">7 volumes</extent>
+            </physdesc>
+            <unittitle>Miscellaneous realty records (mostly Detroit Bank) <unitdate type="inclusive" normal="1948/1960">1948-1960</unitdate></unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">9</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 volumes</extent>
+            </physdesc>
+            <unittitle>Sidney Trowbridge Miller, Jr. personal financial records</unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Other Records</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">9</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 volumes</extent>
+            </physdesc>
+            <unittitle>Record of Hours <unitdate type="inclusive" normal="1932/1934">1932/1933-1933/1934</unitdate></unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">10</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">4 volumes</extent>
+            </physdesc>
+            <unittitle>Record of Hours <unitdate type="inclusive" normal="1935/1942">1935/36-1942</unitdate></unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+          <odd>
+            <p>(missing 1937-1938)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">11</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">4 volumes</extent>
+            </physdesc>
+            <unittitle>Law Registers/case logs <unitdate type="inclusive" normal="1904/1916">1904-1916</unitdate></unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">12</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">5 volumes</extent>
+            </physdesc>
+            <unittitle>Law Registers/case logs <unitdate type="inclusive" normal="1916/1925">1916-1924/1925</unitdate></unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Title Opinions and Abstracts</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">13</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 volumes</extent>
+            </physdesc>
+            <unittitle>
+              <unitdate type="inclusive" normal="1912/1919">1912-1919</unitdate>
+            </unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">14</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1919/1920">1919-1920</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">14</container>
+            <unittitle><unitdate type="inclusive" normal="1930/1940" certainty="approximate">1930s-1940</unitdate> (various)</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">15</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 volumes</extent>
+            </physdesc>
+            <unittitle>
+              <unitdate type="inclusive" normal="1941/1942">1941-1942</unitdate>
+            </unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">16</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 volumes</extent>
+            </physdesc>
+            <unittitle>
+              <unitdate type="inclusive" normal="1942/1945">1942-1945</unitdate>
+            </unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">17</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 volumes</extent>
+            </physdesc>
+            <unittitle>
+              <unitdate type="inclusive" normal="1945/1947">1945-1947</unitdate>
+            </unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">18</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 volumes</extent>
+            </physdesc>
+            <unittitle>
+              <unitdate type="inclusive" normal="1947/1948">1947-1948</unitdate>
+            </unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">19</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 volumes</extent>
+            </physdesc>
+            <unittitle>
+              <unitdate type="inclusive" normal="1948/1949">1948-1949</unitdate>
+            </unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

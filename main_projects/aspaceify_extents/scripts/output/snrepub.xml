@@ -1,0 +1,2092 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead.dtd">
+<ead>
+  <eadheader audience="internal" langencoding="iso639-2b" repositoryencoding="iso15511" dateencoding="iso8601" relatedencoding="Dublin Core">
+    <eadid countrycode="us" mainagencycode="MiU-H" publicid="-//us::MiU-H//TEXT us::MiU-H::snrepub.xml//EN" encodinganalog="identifier">umich-bhl-9734</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="title">Finding Aid for School of Natural Resources and Environment (University of Michigan) Publications <date>1903-2011</date></titleproper>
+        <author encodinganalog="creator">Collection processed and finding aid prepared by Stacy Foley Strumpfer, 1994 and 1995, Nancy Deromedi, 2005; Polly Reynolds, January 2007; Chris Schunter, 2012.</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="publisher">Bentley Historical Library, University of Michigan</publisher>
+        <date encodinganalog="date"/>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created by Greg Kinney <date>Feb. 2003</date></creation>
+      <langusage>The finding aid is written in <language encodinganalog="language" langcode="eng">English.</language></langusage>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date>20150812</date>
+        <item>Added written notes from paper finding aid, corrected container listing.</item>
+      </change>
+      <change>
+        <date>20110821</date>
+        <item>new accessions added.</item>
+      </change>
+      <change>
+        <date>20110313</date>
+        <item>added WAS website links.</item>
+      </change>
+      <change>
+        <date>20070409</date>
+        <item>incorporated changes and minor reprocessing by P. Reynolds.</item>
+      </change>
+      <change>
+        <date>200511070</date>
+        <item>incorporated changes and minor reprocessing by N. Deromedi</item>
+      </change>
+      <change>
+        <date>20031010</date>
+        <item>small update of SNRE Bulletins</item>
+      </change>
+      <change>
+        <date>20031010</date>
+        <item>Converted to EAD2002 using Word macro and Xmetal</item>
+      </change>
+      <change>
+        <date>2003-02-27</date>
+        <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <frontmatter>
+    <titlepage>
+      <publisher>University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
+      <titleproper>Finding Aid for <lb/>School of Natural Resources and Environment <lb/>(University of Michigan) <lb/>Publications, <date type="inclusive">1903-2011</date></titleproper>
+      <author>Finding aid prepared by: <lb/>Stacy Foley Strumpfer, 1994 and 1995 <lb/>Nancy Deromedi, 2005 <lb/>Polly Reynolds, January 2007 <lb/>Chris Schunter, 2012.</author>
+    </titlepage>
+  </frontmatter>
+  <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
+    <did>
+      <origination>
+        <corpname source="lcnaf" encodinganalog="110" authfilenumber="http://id.loc.gov/authorities/names/nr93028804">University of Michigan. School of Natural Resources and Environment.</corpname>
+      </origination>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">7.5 linear feet</extent>
+      </physdesc>
+      <unittitle encodinganalog="245">School of Natural Resources and Environment (University of Michigan) publications <unitdate type="inclusive" encodinganalog="245$f" normal="1903/2011">1903-2011</unitdate></unittitle>
+      <abstract>Includes annual reports, bibliographies, brochures, bulletins or college catalogs, directories, histories, manuals, newsletters, programs, reports, and surveys. Also contains annual reports, brochures, directories, histories, manuals, newsletters and reports from the Biological Station, Michigan Sea Grant Program, and the Wildland Management Center; as well as newsletters from the Dept. of Forestry and Dept. of Wood Technology and manuals and proposals from ENACT (Environmental Action for Survival). In addition there are by-laws, newsletters, programs, and the yearbooks entitled "Michigan Forester" from the Forestry Club, the Foresters Club, and the Foresters Association. There are also several editions of alumni directories, as well as student publications.</abstract>
+      <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">9734 Bimu C241 2</unitid>
+      <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
+      <repository>
+        <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea> University of Michigan</corpname>
+        <extptr href="bhladd" show="embed" actuate="onload"/>
+      </repository>
+    </did>
+    <descgrp type="admin">
+      <acqinfo encodinganalog="541">
+        <p>Publications are received periodically from the unit. <num type="donor" encodinganalog="541$e"/></p>
+      </acqinfo>
+      <accessrestrict encodinganalog="506">
+        <p>The publications are open to research. <extptr href="uarpacc" show="embed" actuate="onload"/></p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+        <p>Copyright is held by the Regents of the University of Michigan.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+        <p>item, folder title, box no., School of Natural Resources and Environment (University of Michigan) Publications, Bentley Historical Library, University of Michigan</p>
+      </prefercite>
+    </descgrp>
+    <bioghist encodinganalog="545">
+      <p>See the historical sketch in the finding aid for the School of Natural Resources and Environment (University of Michigan) records.</p>
+    </bioghist>
+    <scopecontent encodinganalog="520">
+      <p>The Publications of the School of Natural Resources and Environment are divided into four series: Unit Publications, Sub-Unit Publications, Topical Publications and Student Publications. Some publications (or their successors) may no longer be available in print but are available on the school s website.</p>
+    </scopecontent>
+    <controlaccess>
+      <p>
+        <extptr href="accnote" show="embed" actuate="onload"/>
+      </p>
+      <controlaccess>
+        <head>Subjects:</head>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Alumni and alumnae.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Students--Social life and customs.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr93028804">University of Michigan. School of Natural Resources and Environment.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81003782">University of Michigan. School of Natural Resources.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Forestry.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Wood Technology.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80149747">University of Michigan. Biological Station.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82049340">Michigan Sea Grant Program.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Foresters Club.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Foresters Association.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n85098235">University of Michigan. Wildland Management Center.</corpname>
+      </controlaccess>
+      <controlaccess>
+        <head>Contributors:</head>
+        <corpname source="lcnaf" encodinganalog="710" authfilenumber="http://id.loc.gov/authorities/names/n81003782">University of Michigan. School of Natural Resources.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" authfilenumber="http://id.loc.gov/authorities/names/n80149747">University of Michigan. Biological Station.</corpname>
+        <corpname source="lcnaf" encodinganalog="710">University of Michigan. Dept. of Forestry.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" authfilenumber="http://id.loc.gov/authorities/names/n85098235">University of Michigan. Wildland Management Center.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" authfilenumber="http://id.loc.gov/authorities/names/n82049340">Michigan Sea Grant Program.</corpname>
+      </controlaccess>
+      <controlaccess>
+        <head>Publications:</head>
+        <title source="aacr2" encodinganalog="740">Michigan forester.</title>
+      </controlaccess>
+      <controlaccess>
+        <head>Genre/Form:</head>
+        <genreform source="aat" encodinganalog="655">Annual reports.</genreform>
+        <genreform source="aat" encodinganalog="655">Bibliographies.</genreform>
+        <genreform source="lcsh" encodinganalog="655">Catalogs, College.</genreform>
+        <genreform source="aat" encodinganalog="655">Directories.</genreform>
+        <genreform source="aat" encodinganalog="655">Histories.</genreform>
+        <genreform source="aat" encodinganalog="655">Manuals.</genreform>
+        <genreform source="aat" encodinganalog="655">Newsletters.2aat.</genreform>
+        <genreform source="aat" encodinganalog="655">Programs.</genreform>
+        <genreform source="aat" encodinganalog="655">Reports.</genreform>
+        <genreform source="lcsh" encodinganalog="655">Student publications.</genreform>
+      </controlaccess>
+    </controlaccess>
+    <dsc type="combined">
+      <c01 level="series">
+        <did>
+          <unittitle>Unit Publications</unittitle>
+        </did>
+        <scopecontent>
+          <p>Unit Publications include bulletins, directories, and several newsletters, among which are <title render="italic">News</title>, whose title changed to <title render="italic">Natural Resource News</title> in 1987 and <title render="italic">SNRE News</title> in 1995. A college history will also be found here.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <unittitle>Addresses</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Commencement Address <unitdate type="inclusive" normal="1987">1987</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle><title render="italic">Forestry, Economic Stability and Unemployment Relief</title>, <unitdate type="inclusive" normal="1932/1933">1932/33</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 folders</extent>
+            </physdesc>
+            <unittitle>Annual Reports <unitdate type="inclusive" normal="1984/1992">1984/85-1991/92</unitdate></unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Bibliographies</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle><title render="italic">Forest Photogrammetry and Aerial Mapping: A Bibliography</title>, <unitdate type="inclusive" normal="1887/1955">1887-1955</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Booklets</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Landscape Architecture Program Centennial Celebration <unitdate type="inclusive" normal="2009">2009</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Brochures</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Biological Sciences <unitdate type="inclusive" normal="1952/1978">1952-1978</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Conservation <unitdate type="inclusive" normal="1953/1957">1953-1957</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Conservation Biology and Ecosystem Management <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Corporate Environmental Management Program <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Course Offerings <unitdate type="inclusive" normal="1976/1999">1976-1999</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>DANA Building Renovation <unitdate type="inclusive" normal="1999">1999</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Doctoral Programs <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Environmental <unitdate type="inclusive">undated</unitdate>, <unitdate type="inclusive" normal="1995">1995</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Environmental Justice <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Faculty Research Profile <unitdate type="inclusive" normal="1988/1990">1988-1990</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Fisheries <unitdate type="inclusive">undated</unitdate>, <unitdate type="inclusive" normal="1953/1957">1953-1957</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Forestry <unitdate type="inclusive">undated</unitdate>, <unitdate type="inclusive" normal="1953/1967">1953-1967</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Graduate Specialization in Environmental Justice <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>International Studies <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Interpretive Walks <unitdate type="inclusive" normal="1990">1990</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Landscape Architecture <unitdate type="inclusive">undated</unitdate>, <unitdate type="inclusive" normal="1994/1995">1994-1995</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Management, Planning and Policy <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Masters Program <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Masters Student Projects <unitdate type="inclusive" normal="1996/2001">1996-2001</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Minority Issues <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Miscellaneous <unitdate type="inclusive">undated</unitdate>, <unitdate type="inclusive" normal="1942/1995">1942-1995</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle><title render="italic">Natural Resource and Environmental Professionals</title>, <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Natural Resources <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Outdoor Recreation <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Regional Planning <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Remote Sensing <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Resource Ecology <unitdate type="inclusive">undated</unitdate>, <unitdate type="inclusive" normal="1995">1995</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Resource Economics <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Resource Policy and Behavior <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Resource Policy and Management <unitdate type="inclusive">undated</unitdate>, <unitdate type="inclusive" normal="1995">1995</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle><title render="italic">Training Leaders for the Furniture Industry at the University of Michigan</title>, <unitdate type="inclusive" normal="1945/1947">1945-1947</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Undergraduate Program <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Wildlife <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Wood Technology <unitdate type="inclusive" normal="1953/1955">1953-1955</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Bulletins</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">11 folders</extent>
+              </physdesc>
+              <unittitle>
+                <unitdate type="inclusive" normal="1903/1962">1903/04-1961/62</unitdate>
+              </unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">5 folders</extent>
+              </physdesc>
+              <unittitle>1962/63-1991</unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Program degree requirements, <unitdate type="inclusive" normal="1988/2005">1988-2004/2005</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Directories</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1980/1982">1980-1982</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle><title render="italic">Black Landscape Architects and Black Landscape Architecture Students</title>, <unitdate type="inclusive" normal="1990">1990</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle><title render="italic">Employment Profiles of Selected Recent Graduates</title>, <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle><title render="italic">State Directory: University of Michigan Foresters</title>, <unitdate type="inclusive" normal="1927">1927</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Flyers and Announcements <unitdate type="inclusive" normal="2002/2011">2002-2011</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Histories</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle><title render="italic">History of Activities in the Field of Natural Resources</title>, <unitdate type="inclusive" normal="1953">1953</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>
+                <title render="italic">History of Activities in the Field of Natural Resources, the University of Michigan: Supplement Covering the Period 1953-1961</title>
+                <unitdate type="inclusive" normal="1962">1962</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle><title render="italic">History of Activities in the Field of Natural Resources, the University of Michigan: Supplement Covering the Period 1962-1987</title>, <unitdate type="inclusive" normal="1989">1989</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Manuals</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle><title render="italic">After Arrival it's a Case of Survival: A Student's Guide to the School of Natural Resources</title>, <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle><title render="italic">ASTSWMO (Association of State and Territorial Solid Waste Management Officials) Inspector Training Manual</title>, <unitdate type="inclusive" normal="1987">1987</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle><title render="italic">A Guide to Saginaw Forest</title>, <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle><title render="italic">A Guide to Stinchfield Woods</title>, <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle><title render="italic">Job Hunting: There's No Magic Method...</title>, <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle><title render="italic">The Spruce Budworm Handbook: A Management Guide for Spruce-Fir Stands in the Lake States</title>, <unitdate type="inclusive" normal="1982">1982</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle><title render="italic">Spruce-Fir Silviculture and the Spruce Budworm in the Lake States</title>, <unitdate type="inclusive" normal="1983">1983</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>
+                <title render="italic">Zoo Design: The Reality of Wild Illusions</title>
+                <unitdate type="inclusive" normal="1987">1987</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Newsletters</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>
+                <title render="italic">Ann Arbor Conservation Notes</title>
+              </unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle><unitdate type="inclusive" normal="1940/1954">1940-1954</unitdate> no. [1]-6</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">5 folders</extent>
+              </physdesc>
+              <unittitle>
+                <title render="italic">Endangered Species Update</title>
+                <unitdate type="inclusive" normal="1997/2007">1997-2007</unitdate>
+              </unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>
+                <title render="italic">Equinox: Environmental Education and Outdoor Recreation Alumni Newsletter</title>
+              </unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">3</container>
+                <unittitle><unitdate type="inclusive" normal="1979">1979</unitdate> v. 4</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle><title render="italic">Michiganscapes</title>, <unitdate type="inclusive" normal="1991/2001">1991-2001</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>
+                <title render="italic">Natural Resource News</title>
+              </unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">3</container>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">3 folders</extent>
+                </physdesc>
+                <unittitle><unitdate type="inclusive" normal="1987/1991">1987-1991</unitdate> no. 37-42</unittitle>
+                <physdesc altrender="whole">
+                  </physdesc>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>
+                <title render="italic">News</title>
+              </unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">3</container>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">5 folders</extent>
+                </physdesc>
+                <unittitle><unitdate type="inclusive" normal="1978/1986">1978-1986</unitdate> no. 1-36</unittitle>
+                <physdesc altrender="whole">
+                  </physdesc>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle><title render="italic">News Notes</title>, <unitdate type="inclusive" normal="1928">1928</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle><title render="italic">The Resource</title>, <unitdate type="inclusive" normal="1978">1978</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle><title render="italic">SNR&amp;E EE News</title>, <unitdate type="inclusive" normal="2002">2002</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle><title render="italic">SNR&amp;E News</title>, <unitdate type="inclusive" normal="1995">1995</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle><title render="italic">SNRE News</title>, <unitdate type="inclusive" normal="2002/2005">2002-2005</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>
+                <title render="italic">Stewards, 2007-2009</title>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>Posters <unitdate type="inclusive" normal="1982">1982</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Proceedings</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Planning-Budget Conference <unitdate type="inclusive" normal="1985">1985</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>Programs</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Programs (cont.)</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Administration of National Parks and Equivalent Preserves <unitdate type="inclusive" normal="1965/1987">1965-1987</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Celebration in Honor of Terry J. and Janice A. Brown <unitdate type="inclusive" normal="2006">2006</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Colonel Ernest A.H. Woodman Memorial Service <unitdate type="inclusive" normal="1995">1995</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Honors Convocation <unitdate type="inclusive" normal="1981/1989">1981-1989</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>The PEW Fellows Program <unitdate type="inclusive" normal="1996">1996</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Spring Commencement</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">3</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1987/1989">1987-1989</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">3</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="2003/2006">2003-2006</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>University Convocation <unitdate type="inclusive" normal="1938/1953">1938-1953</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Reports</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle><title render="italic">Building Trust: Lessons from Collaborative Planning on State Trust Lands</title>, <unitdate type="inclusive" normal="2006">2006</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Bulletin</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">3</container>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">2 folders</extent>
+                </physdesc>
+                <unittitle><unitdate type="inclusive" normal="1932/1949">1932-1949</unitdate> no. 1-12</unittitle>
+                <physdesc altrender="whole">
+                  </physdesc>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Circular</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">4</container>
+                <unittitle><unitdate type="inclusive" normal="1937/1942">1937-1942</unitdate> no. 1-6</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Contribution</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">4</container>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">2 folders</extent>
+                </physdesc>
+                <unittitle><unitdate type="inclusive" normal="1928/1934">1928-1934</unitdate> no. 1-38</unittitle>
+                <physdesc altrender="whole">
+                  </physdesc>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Dean Search: Background Information <unitdate type="inclusive" normal="1991">1991</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle><title render="italic">Exploring Rural Character and Environmental Quality in Green Oak Township, Michigan</title>, circa late <unitdate type="inclusive" normal="1990/1999" certainty="approximate">1990s</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Faculty Research and Teaching Interests <unitdate type="inclusive" normal="1986">1986</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle><title render="italic">Glimpses of Saginaw Forest, Eber White Woods, Stinchfield Forest</title>, <unitdate type="inclusive" normal="1946">1946</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle><title render="italic">Landscape Architecture: Self-Evaluation Report</title>, <unitdate type="inclusive" normal="1987/1988">1987/88</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle><title render="italic">Rampart Dam and the Economic Development of Alaska</title>, <unitdate type="inclusive" normal="1966">1966</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Recruitment Strategy <unitdate type="inclusive" normal="1985">1985</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle><title render="italic">Red Pine Plantation Management in the Lake States: A Review</title>, <unitdate type="inclusive" normal="1984">1984</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle><title render="italic">Regional Landscape Ecosystems of Michigan</title>, <unitdate type="inclusive" normal="1986">1986</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle><title render="italic">School Evaluation Report: School of Natural Resources Landscape Architecture Program</title>, <unitdate type="inclusive" normal="1981/1982">1981-1982</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle><title render="italic">Toward a Sustainable Future: Research at the School of Natural Resources</title>, <unitdate type="inclusive" normal="1985">1985</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>
+                <title render="italic">The Value of Time in Environmental Decision Processes, vol. II</title>
+                <unitdate type="inclusive" normal="1979">1979</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Schedules</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle><title render="italic">Summer Session Program of Special Lectures, Excursions and Entertainments</title>, <unitdate type="inclusive" normal="1913">1913</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Surveys</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>School of Natural Resources Placement Survey <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Sub-Unit Publications</unittitle>
+        </did>
+        <scopecontent>
+          <p>Sub-Unit Publications consist of materials produced by units within the School of Natural Resources. These include the Alumni Society, the Association of Michigan Foresters, Biological Station, the Center for Strategic Wildlife Management, the Departments of Conservation, Fisheries, Forestry, Wildlife Management and Wood Technology, ENACT (Environmental Action for Survival), Environmental Education Program, Foresters Association, The Forestry Club (whose name changes to the Foresters Club), the International Seminar on Forest Administration and Management, the Meeman Archive, Natural Resource Sociology Lab, Project for the Study of Natural Resources and Environmental Conflict, the Student Policy Advisory Committee, Urban and Regional Planning Ph.D. Program and the Wildland Management Center. The publication <title render="italic">Michigan Forester</title>, which was first produced by the Forestry Club and later the Foresters Club, began as a newsletter and gradually evolved into the yearbook of the School of Natural Resources. This publication was replaced by <title render="italic">The Source</title>.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <unittitle>Alumni Society</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>Newsletters</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">4</container>
+                <unittitle><title render="italic">Alumni Newsletter</title>, <unitdate type="inclusive" normal="1966/1970">1966-1970</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Association of Michigan Foresters</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Newsletters <unitdate type="inclusive" normal="1925/1927">1925-1927</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Biological Station</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Biological Station (cont.)</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>Bibliographies</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">4</container>
+                <unittitle><title render="italic">Bibliography of Papers</title>, <unitdate type="inclusive" normal="1909/1945">1909-1945</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">4</container>
+                <unittitle><title render="italic">Bibliography of Research</title>, <unitdate type="inclusive" normal="1958/1994">1958-1994</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">4</container>
+                <unittitle><title render="italic">Research Directories</title>, <unitdate type="inclusive" normal="1932/1984">1932-1984</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Brochures</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">4</container>
+                <unittitle>Miscellaneous <unitdate type="inclusive">undated</unitdate>, <unitdate type="inclusive" normal="1970/1989">1970-1989</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Bulletins</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">4</container>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">15 folders</extent>
+                </physdesc>
+                <unittitle><unitdate type="inclusive" normal="1909/1993">1909-1993</unitdate>, <unitdate type="inclusive" normal="1995/2009">1995-2009</unitdate></unittitle>
+                <physdesc altrender="whole">
+                  </physdesc>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Histories</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">4</container>
+                <unittitle><title render="italic">The University of Michigan Biological Station 1909-1983</title>, <unitdate type="inclusive" normal="1983">1983</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Manuals</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">4</container>
+                <unittitle><title render="italic">Biological Station Guide</title>, <unitdate type="inclusive">undated</unitdate>, <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Newsletters</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">4</container>
+                <unittitle><title render="italic">The Alumbs</title>, <unitdate type="inclusive" normal="1984/1990">1984-1990</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">4</container>
+                <unittitle><title render="italic">Douglas Lake Report</title>, <unitdate type="inclusive" normal="1975/1992">1975-1992</unitdate>, <unitdate type="inclusive" normal="2001">2001</unitdate> (scattered issues)</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">4</container>
+                <unittitle><title render="italic">Lakeland Report</title>, <unitdate type="inclusive" normal="1974/1976">1974-1976</unitdate> no. 1-8</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">4</container>
+                <unittitle>
+                  <title render="italic">UMBS News</title>
+                  <unitdate type="inclusive" normal="1993">1993</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Posters <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Proceedings</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">4</container>
+                <unittitle><title render="italic">Semicentennial Celebration Proceedings of the Biological Station</title>, <unitdate type="inclusive" normal="1959">1959</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Reports</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">4</container>
+                <unittitle><title render="italic">Inland Lake Protection in Northern Michigan</title>, <unitdate type="inclusive" normal="1975">1975</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">4</container>
+                <unittitle><title render="italic">The Natural Ecology and Cultural History of the Colonial Point Red Oak Stands</title> (Technical Report No. 14), <unitdate type="inclusive" normal="1987">1987</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">4</container>
+                <unittitle><title render="italic">Northern Michigan Environmental Research Program</title>, [1972]</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">4</container>
+                <unittitle><title render="italic">Report of the Conference on the Upper Great Lakes</title>, <unitdate type="inclusive" normal="1953">1953</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">4</container>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">4 folders</extent>
+                </physdesc>
+                <unittitle>Report of the Director of the Biological Station <unitdate type="inclusive" normal="1912/1924">1912-1924</unitdate></unittitle>
+                <physdesc altrender="whole">
+                  </physdesc>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Center for Strategic Wildlife Management Studies</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>Brochures</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">5</container>
+                <unittitle><title render="italic">The Earth's Living Resources: Conservation for Sustainable Development</title>, <unitdate type="inclusive" normal="1982">1982</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Center for Sustainable Systems</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>Brochures</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">5</container>
+                <unittitle>Factsheets <unitdate type="inclusive" normal="2005">2005</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">5</container>
+                <unittitle>General <unitdate type="inclusive">undated</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Department of Conservation</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Newsletter <unitdate type="inclusive" normal="1962/1964">1962-1964</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Reports</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">5</container>
+                <unittitle><title render="italic">Megalopolis Formation in the Midwest</title>, <unitdate type="inclusive" normal="1965">1965</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">5</container>
+                <unittitle><title render="italic">The Redeployment of Land, Water and Human Resources</title>, <unitdate type="inclusive" normal="1962">1962</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">5</container>
+                <unittitle><title render="italic">The First Three Years 1950-1953</title>, <unitdate type="inclusive" normal="1953">1953</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Department of Fisheries</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>Newsletters</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">5</container>
+                <unittitle><title render="italic">Michigan Fisheries</title>, <unitdate type="inclusive" normal="1957/1979">1957-1979</unitdate> no. 1-13</unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Department of Forestry</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>Newsletters</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">5</container>
+                <unittitle><title render="italic">Michigan Forestry</title>, <unitdate type="inclusive" normal="1953/1959">1953-1959</unitdate> no. 1-22</unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Department of Wildlife Management</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>Newsletters</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">5</container>
+                <unittitle><title render="italic">Michigan Wildlife</title>, <unitdate type="inclusive" normal="1955">1955</unitdate> no. 1-2</unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Department of Wood Technology</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>Brochures</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">5</container>
+                <unittitle><title render="italic">Activities and Facilities of the Department of Wood Technology</title>, <unitdate type="inclusive">undated</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Newsletters</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">5</container>
+                <unittitle><title render="italic">Michigan Wood Technology</title>, <unitdate type="inclusive" normal="1954/1962">1954-1962</unitdate> no. 1-17</unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>ENACT (Environmental Action for Survival)</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>Catalogs</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">5</container>
+                <unittitle>Films on the Environmental Crisis <unitdate type="inclusive">undated</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Manuals</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">5</container>
+                <unittitle>Guidelines for Citizen Action on Environmental Problems <unitdate type="inclusive" normal="1971">1971</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Proposals</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">5</container>
+                <unittitle><title render="italic">...Is ENACT to Survive?</title>, <unitdate type="inclusive" normal="1972">1972</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Teach-In on the Environment <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">6</container>
+            <unittitle>Environmental Education Program</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>Manuals</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">6</container>
+                <unittitle><title render="italic">Writing About Wildlife: A Communications Textbook for Natural Resources Students</title>, <unitdate type="inclusive" normal="1974">1974</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Environmental Education and Training Program</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>Proposals</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">6</container>
+                <unittitle>Proposal for the Environmental Education Training Program <unitdate type="inclusive" normal="1992">1992</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Erb Institute</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>Brochures</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">6</container>
+                <unittitle>Corporate Environmental Management Program <unitdate type="inclusive">undated</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">6</container>
+                <unittitle>General <unitdate type="inclusive">undated</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Foresters Association</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>By-Laws</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">6</container>
+                <unittitle><title render="italic">By-Laws: University of Michigan Forester's Association</title>, <unitdate type="inclusive">undated</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Newsletters</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">6</container>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">4 folders</extent>
+                </physdesc>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1928/1938">1928-1938</unitdate>
+                </unittitle>
+                <physdesc altrender="whole">
+                  </physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">6</container>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">2 folders</extent>
+                </physdesc>
+                <unittitle><title render="italic">Forester's Association</title>, <unitdate type="inclusive" normal="1939/1944">1939-1944</unitdate></unittitle>
+                <physdesc altrender="whole">
+                  </physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>
+                  <title render="italic">Newsletter</title>
+                </unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">6</container>
+                  <physdesc altrender="whole">
+                    <extent altrender="materialtype spaceoccupied">2 folders</extent>
+                  </physdesc>
+                  <unittitle><unitdate type="inclusive" normal="1950/1958">1950-1958</unitdate> no. 55-70</unittitle>
+                  <physdesc altrender="whole">
+                    </physdesc>
+                </did>
+              </c05>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Programs</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">6</container>
+                <unittitle>Reunion Programs <unitdate type="inclusive" normal="1928/1938">1928-1938</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Foresters Club</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>Programs</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">6</container>
+                <unittitle>Paul Bunyan Ball <unitdate type="inclusive" normal="1968/1969">1968-1969</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Yearbooks</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <unittitle>
+                  <title render="italic">Michigan Forester</title>
+                </unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">6</container>
+                  <physdesc altrender="whole">
+                    <extent altrender="materialtype spaceoccupied">10 folders</extent>
+                  </physdesc>
+                  <unittitle><unitdate type="inclusive" normal="1949/1966">1949-1966</unitdate> v. 34-47</unittitle>
+                  <physdesc altrender="whole">
+                    </physdesc>
+                </did>
+              </c05>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">7</container>
+                <unittitle><title render="italic">Source: Yearbook of the School of Natural Resources</title>, <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Forestry Club</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>Newsletters</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">7</container>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">9 folders</extent>
+                </physdesc>
+                <unittitle><title render="italic">Michigan Forester</title>, <unitdate type="inclusive" normal="1910/1940">1910-1940</unitdate> v. 1-21</unittitle>
+                <physdesc altrender="whole">
+                  </physdesc>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Yearbooks</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">7</container>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">2 folders</extent>
+                </physdesc>
+                <unittitle><title render="italic">Michigan Forester</title>, <unitdate type="inclusive" normal="1941/1948">1941-1948</unitdate> v. 22-29</unittitle>
+                <physdesc altrender="whole">
+                  </physdesc>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Programs</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">7</container>
+                <unittitle>Banquet in Honor of Professor Filibert Roth <unitdate type="inclusive" normal="1923">1923</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>The Global Rivers Environmental Education Network (GREEN)</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>Newsletters</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">7</container>
+                <unittitle><title render="italic">GREEN</title>, <unitdate type="inclusive" normal="1989/1990">1989-1990</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Institute for the Integrated Study of Global Change</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>Brochures <unitdate type="inclusive" normal="1995">1995</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>International Seminar on Forest Administration and Management</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>Brochures <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Newsletters</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">7</container>
+                <unittitle><title render="italic">Newsletter</title>, <unitdate type="inclusive" normal="1990">1990</unitdate> v. 3</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Programs</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">7</container>
+                <unittitle>International Seminar on Forest Administration and Management <unitdate type="inclusive" normal="1984/1990">1984-1990</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>The Meeman Archive</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>Brochures</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">7</container>
+                <unittitle>Miscellaneous <unitdate type="inclusive">undated</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Catalogs</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">7</container>
+                <unittitle><title render="italic">Environmental Journalism: The Best from the Meeman Archive</title>, <unitdate type="inclusive" normal="1987">1987</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Newsletters</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">7</container>
+                <unittitle><title render="italic">The Meeman Archive Newsletter</title>, v. 1, <unitdate type="inclusive" normal="1987/1988">1987/88</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Minority Environmental Leadership Development Initiative</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>Brochures <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Programs</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">7</container>
+                <unittitle>National Summit on Diversity in the Environmental Field <unitdate type="inclusive" normal="2005">2005</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Reports</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">7</container>
+                <unittitle>Summary Results of the MELDI Studies <unitdate type="inclusive" normal="2005">2005</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>National Pollution Prevention Center</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>Directory and Educational Materials <unitdate type="inclusive" normal="1997">1997</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Natural Resource Sociology Research Lab</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>Reports</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">7</container>
+                <unittitle><title render="italic">Indian SIA: The Social Impact Assessment of Rapid Resource Development on Native Peoples</title>, <unitdate type="inclusive" normal="1982">1982</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">7</container>
+                <unittitle><title render="italic">Michigan Sport Angler's Fish Consumption Survey</title>, <unitdate type="inclusive" normal="1989">1989</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">7</container>
+                <unittitle><title render="italic">Natural Resource Bureaucracy and Rural Poverty: A Study in the Political Sociology of Natural Resources</title>, <unitdate type="inclusive" normal="1982">1982</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Office of Academic Programs</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>Brochures</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">7</container>
+                <unittitle><title render="italic">School of Natural Resources and Environment</title>, <unitdate type="inclusive" normal="1992">1992</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Program in the Environment</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>Brochures <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Newsletters</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">8</container>
+                <unittitle><title render="italic">Crossroads</title>, <unitdate type="inclusive" normal="2006">2006</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Project for the Study of Natural Resources and Environmental Conflict</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Reports <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Research Development Program</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>Reports</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">8</container>
+                <unittitle><title render="italic">Research Development Program: Histories, Status, Direction</title>, <unitdate type="inclusive" normal="1984">1984</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Student Policy Advisory Committee</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>Newsletters</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">8</container>
+                <unittitle><title render="italic">Great ExSpactations</title>, <unitdate type="inclusive" normal="1986/1987">1986-1987</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">8</container>
+                <unittitle><title render="italic">SPAC Connections</title>, <unitdate type="inclusive" normal="1982/1985">1982-1985</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Urban and Regional Planning Ph.D. Program</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>Newsletters</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">8</container>
+                <unittitle><title render="italic">URP Post</title>, <unitdate type="inclusive" normal="1981/1982">1981-1982</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Wildland Management Center</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Brochures <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Newsletters</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">8</container>
+                <unittitle><title render="italic">Endangered Species</title>, <unitdate type="inclusive" normal="1983/1988">1983-1988</unitdate> v. 1-6</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">8</container>
+                <unittitle><title render="italic">WMC News/Notes</title>, <unitdate type="inclusive" normal="1984">1984</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Reports</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">8</container>
+                <unittitle><title render="italic">Eastern Caribbean Natural Area Management Program: Annual Report</title>, <unitdate type="inclusive" normal="1985">1985</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">8</container>
+                <unittitle><title render="italic">A Regional Conservation Strategy for the Great Lakes Basin: A Preliminary Assessment</title>, <unitdate type="inclusive" normal="1984">1984</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Topical Publications</unittitle>
+        </did>
+        <scopecontent>
+          <p>Topical Publications include materials relating to Alumni of the School of Natural Resources.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle>100th anniversary <unitdate type="inclusive" normal="2003">2003</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Alumni</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>Directories</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <unittitle>Alumni Directory</unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">8</container>
+                  <unittitle>
+                    <unitdate type="inclusive" normal="1904/1924">1904-1924</unitdate>
+                  </unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">8</container>
+                  <unittitle>
+                    <unitdate type="inclusive" normal="1914/1985">1914-1985</unitdate>
+                  </unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">8</container>
+                  <unittitle>Landscape Architecture <unitdate type="inclusive" normal="1982">1982</unitdate></unittitle>
+                </did>
+              </c05>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">8</container>
+                <unittitle>Directory of Alumni and Former Students <unitdate type="inclusive" normal="1949/1951">1949-1951</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">8</container>
+                <unittitle>Directory of Alumni by Regions <unitdate type="inclusive" normal="1904/1928">1904-1928</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">8</container>
+                <unittitle>Directory of Alumni, Former Students and Faculty <unitdate type="inclusive" normal="1961">1961</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Programs</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">8</container>
+                <unittitle>Alumni Banquet</unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Student Publications</unittitle>
+        </did>
+        <scopecontent>
+          <p>Student Publications are printed materials produced by students of the School of Natural Resources. These include newsletters such as <title render="italic">Au Naturel</title>, <title render="italic">Natural Resources Review</title>, <title render="italic">The Resource</title>, <title render="italic">SNR Reporter</title>, <title render="italic">Synergy</title> and <title render="italic">Timber Cruiser</title>.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <unittitle>Newsletters</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle><title render="italic">Au Naturel</title>, <unitdate type="inclusive" normal="1971">1971</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle><title render="italic">Natural Resources Review</title>, no. 1-2, <unitdate type="inclusive" normal="1972">1972</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle><title render="italic">The Resource: A Newsletter for People in the School of Natural Resources</title>, v. 1, <unitdate type="inclusive" normal="1978">1978</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle><title render="italic">SNR Reporter</title>, <unitdate type="inclusive" normal="1972/1975">1972-1975</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle><title render="italic">Synergy: Literary Journal of the School of Natural Resources</title>, <unitdate type="inclusive" normal="1983/1984">1983-1984</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle><title render="italic">Timber Cruiser</title>, <unitdate type="inclusive" normal="1965">1965</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Archived SNRE Website</unittitle>
+        </did>
+        <scopecontent>
+          <p>The Website series documents the academic programs, accomplishments, resources, events, and people at the School of Natural Resources and Environment. Content includes important news and announcements, publications (such as newsletters and course catalogs), and information about admissions, curriculum, degree requirements, faculty, and the overall mission of the School. The website series is arranged chronologically and includes content captured by the Internet Archive starting in 1997 as well as captures provided by Bentley Library archivists in 2002, 2004, and 2008. Starting in 2010, this archived website will be captured on a regular, ongoing basis as part of the University of Michigan Web Archives, hosted at http://webarchives.cdlib.org/a/universityofmichigan/.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <unittitle>Home Page</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>1997-[ONGOING]</unittitle>
+              <dao href="87308-w-3" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[view item]</p>
+                </daodesc>
+              </dao>
+            </did>
+            <odd>
+              <p>(These versions were preserved by the Internet Archive and are made available through its Wayback Machine. The Bentley Historical Library is not involved in the collection or maintenance of this material.)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>
+                <unitdate type="inclusive" normal="2002-05-15">May 15, 2002</unitdate>
+              </unittitle>
+              <physdesc>
+                <physfacet>.ZIP file</physfacet>
+              </physdesc>
+              <dao href="http://hdl.handle.net/2027.42/97338" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[download item]</p>
+                </daodesc>
+              </dao>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>
+                <unitdate type="inclusive" normal="2004-04-20">April 20, 2004</unitdate>
+              </unittitle>
+              <physdesc>
+                <physfacet>.ZIP file</physfacet>
+              </physdesc>
+              <dao href="http://hdl.handle.net/2027.42/97378" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[download item]</p>
+                </daodesc>
+              </dao>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>
+                <unitdate type="inclusive" normal="2008-05-09">May 9, 2008</unitdate>
+              </unittitle>
+              <physdesc>
+                <physfacet>.ZIP file</physfacet>
+              </physdesc>
+              <dao href="http://hdl.handle.net/2027.42/97339" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[download item]</p>
+                </daodesc>
+              </dao>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>2010-[ONGOING]</unittitle>
+              <dao href="87308-w-1" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[view item]</p>
+                </daodesc>
+              </dao>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <physloc>Online</physloc>
+            <unittitle>Related Materials: degree requirements, curricula, research, centers and institutes, 2010-[ongoing]</unittitle>
+            <dao href="87308-w-2" show="new" actuate="onrequest">
+              <daodesc>
+                <p>[view item]</p>
+              </daodesc>
+            </dao>
+          </did>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

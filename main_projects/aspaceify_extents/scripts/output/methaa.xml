@@ -1,0 +1,1329 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead.dtd">
+<ead>
+  <eadheader audience="internal" langencoding="iso639-2b" repositoryencoding="iso15511" dateencoding="iso8601" relatedencoding="Dublin Core" scriptencoding="iso15924" countryencoding="iso3166-1">
+    <eadid countrycode="us" mainagencycode="MiU-H" publicid="us//::miu-h//TXT us::miu-h::methaa.xml//EN" encodinganalog="Identifier">umich-bhl-86971</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="Title">Finding Aid for First United Methodist Church of Ann Arbor (Ann Arbor, Mich.) records, 1833-1992</titleproper>
+        <author encodinganalog="Creator">Collection processed and finding aid created by Michigan Historical Collections staff</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="Publisher">Bentley Historical Library, University of Michigan</publisher>
+        <date encodinganalog="Date" normal="2008">2008</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created by Thomas E. Powers <date>June 2008</date></creation>
+      <langusage encodinganalog="Language">The finding aid is written in <language langcode="eng" scriptcode="Latn">English</language></langusage>
+      <descrules>Finding aid prepared using Describing Archives: A Content Standard (DACS)</descrules>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date>2008-06-06</date>
+        <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <frontmatter>
+    <titlepage>
+      <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
+      <titleproper>Finding aid for <lb/>First United Methodist Church of Ann Arbor <lb/>(Ann Arbor, Mich.) records, 1833-1992</titleproper>
+      <author>Finding aid created by <lb/>Michigan Historical Collections staff</author>
+    </titlepage>
+  </frontmatter>
+  <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
+    <did>
+      <origination>
+        <corpname source="lcnaf" encodinganalog="110">First United Methodist Church of Ann Arbor (Ann Arbor, Mich.)</corpname>
+      </origination>
+      <physdesc altrender="whole">
+        <extent altrender="carrier">(in 7 boxes)</extent>
+      </physdesc>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">5.5 linear feet</extent>
+      </physdesc>
+      <unittitle encodinganalog="245">First United Methodist Church of Ann Arbor (Ann Arbor, Mich.) records <unitdate type="inclusive" encodinganalog="245$f" normal="1833/1992">1833-1992</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1875/1978">1875-1978</unitdate></unittitle>
+      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">86971 Ba 2</unitid>
+      <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
+      <abstract>Methodist church established in Ann Arbor, Michigan in 1827; proceedings and minutes of various church boards and committees; baptism and marriage records, topical files relating to church activities and personalities; and photographs.</abstract>
+      <repository>
+        <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea>, University of Michigan</corpname>
+        <extptr href="bhladd" show="embed" actuate="onload"/>
+      </repository>
+    </did>
+    <descgrp type="admin">
+      <acqinfo encodinganalog="541">
+        <p>The record group was deposited by the church (donor no. <num type="donor" encodinganalog="541$e">7178</num>) in various accessions.</p>
+      </acqinfo>
+      <accruals encodinganalog="584">
+        <p>Further additions to the papers are expected.</p>
+      </accruals>
+      <accessrestrict encodinganalog="506">
+        <p>The record group is open to research.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+        <p>Copyright is not held by the Regents of the University of Michigan.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+        <p>[item], folder, box,
+First United Methodist Church of Ann Arbor (Ann Arbor, Mich.) records, Bentley Historical Library, University of Michigan</p>
+      </prefercite>
+    </descgrp>
+    <bioghist encodinganalog="545">
+      <p>The first Methodist circuit rider to preach in the Ann Arbor area was John Baughman. Two years later, in 1827, five individuals organized themselves into a Methodist Society. In 1830, the Ann Arbor church was listed as an appointment of the Methodist Conference. The first dedicated building of the church was begun in 1837. In 1866, the congregation having outgrown this facility began construction of a new church building on the corner of State and Washington. In 1939, this building was replaced with a stone structure at the same location.</p>
+    </bioghist>
+    <scopecontent encodinganalog="520">
+      <p>The records of the First United Methodist Church of Ann Arbor, Michigan include Church registers; Governance records; Topical Files; and Photographs. Included are proceedings and minutes of the Board of Stewards, Board of Trustees, Official Board, church committees, and quarterly and annual conferences; correspondence and reports of the Methodist Educational Advance; membership lists and directories; baptism and marriage records; financial information; missionary materials, including those about Ann Arbor native Judson Collins, first Methodist missionary to China; documents related to church history; and other church materials, including a limited number of photographs.</p>
+    </scopecontent>
+    <controlaccess>
+      <p>
+        <extptr href="accnote" show="embed" actuate="onload"/>
+      </p>
+      <controlaccess>
+        <head>Subjects:</head>
+        <geogname source="lcsh" encodinganalog="651">Ann Arbor (Mich.)--Church history.</geogname>
+        <subject source="lcsh" encodinganalog="650">Registers of births, etc.--Michigan--Ann Arbor.</subject>
+        <corpname source="lcnaf" encodinganalog="610">United Methodist Church (U.S.)--Michigan--Ann Arbor.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">First United Methodist Church of Ann Arbor (Ann Arbor, Mich.)</corpname>
+      </controlaccess>
+      <controlaccess>
+        <head>Subjects - Visual Materials:</head>
+        <geogname source="lctgm" encodinganalog="651">Ann Arbor (Mich.)--Churches.</geogname>
+        <subject source="lctgm" encodinganalog="650">Churches--Michigan--Ann Arbor.</subject>
+        <corpname source="lcnaf" encodinganalog="610">First United Methodist Church of Ann Arbor (Ann Arbor, Mich.)</corpname>
+        <subject source="lctgm" encodinganalog="650">Methodist churches--Michigan--Ann Arbor.</subject>
+        <subject source="lctgm" encodinganalog="650">Parades and processions.</subject>
+        <subject source="lctgm" encodinganalog="650">Temperance--Michigan--Ann Arbor.</subject>
+      </controlaccess>
+      <controlaccess>
+        <head>Genre Terms:</head>
+        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+      </controlaccess>
+    </controlaccess>
+    <dsc type="combined">
+      <c01 level="series">
+        <did>
+          <unittitle>Church Registers (marriages, membership, baptisms)</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Marriage Record Book <unitdate type="inclusive" normal="1868/1930">1868-1930</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Baptism Record Book <unitdate type="inclusive" normal="1869/1905">1869-1905</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Membership Record Book <unitdate type="inclusive" normal="1888/1905" certainty="approximate">circa 1888-1905</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Membership Record Book <unitdate type="inclusive" normal="1855/1909" certainty="approximate">circa 1855-1900s</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Mixed purpose volume, including membership lists <unitdate type="inclusive" normal="1940/1949" certainty="approximate">1940s</unitdate></unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Governance Records</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <unittitle>Board of Stewards Proceedings</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1883/1919">1883-1919</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1919/1929">1919-1929</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Board of Trustees</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Minutes <unitdate type="inclusive" normal="1834/1858">1834-1858</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Minutes <unitdate type="inclusive" normal="1883/1940">1883-1940</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Minutes <unitdate type="inclusive" normal="1973-10">October 1973</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Topical Files</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>Activities Reports <unitdate type="inclusive" normal="1919">1919</unitdate>, <unitdate type="inclusive" normal="1937">1937</unitdate>, <unitdate type="inclusive" normal="1951">1951</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(for Sunday Schools, Phoebe Beal Circle, Women's Home Missionary Society, etc.)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Administrative Board</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Minutes <unitdate type="inclusive" normal="1968-01/1968-02">January-February 1968</unitdate>, <unitdate type="inclusive" normal="1969-05/1969-10">May-October 1969</unitdate>, <unitdate type="inclusive" normal="1977-10">October 1977</unitdate>; also Report to the Congregation, <unitdate type="inclusive" normal="1970-09">September 1970</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Minutes <unitdate type="inclusive" normal="1971-11/1978-12">November 1971-December 1978 (with gaps)</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>All Church Conference <unitdate type="inclusive" normal="1977-10/1978-04">October 1977-April 1978</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>All Family Church Night <unitdate type="inclusive" normal="1939">1939</unitdate> (program and radio script)</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>Annual Church Conference <unitdate type="inclusive" normal="1978-01">January 1978</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>Annual Report <unitdate type="inclusive" normal="1918">1918</unitdate>, <unitdate type="inclusive" normal="1920/1921">1920-1921</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Board of Stewards</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Annual reports <unitdate type="inclusive" normal="1873/1874">1873-1874</unitdate>, <unitdate type="inclusive" normal="1875/1876">1875-1876</unitdate>; board members, <unitdate type="inclusive" normal="1927">1927</unitdate>, <unitdate type="inclusive" normal="1933/1934">1933-1934</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Board of Trustees</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Minutes and Miscellaneous</unittitle>
+            </did>
+            <odd>
+              <p>Summary of recent activities, undated; resolution 1885; financial information, 1937; Beal resignation, 1937; minutes, 1962, 1963, 1965 (with gaps); acknowledgement of gifts 1967</p>
+            </odd>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Boy Scouts: Troop Four</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Correspondence, histories, clippings, reunion information, activities summaries, member lists, mostly from the <unitdate type="inclusive" normal="1920/1929" certainty="approximate">1920s</unitdate>, <unitdate type="inclusive" normal="1960/1969" certainty="approximate">1960s</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Miscellaneous <unitdate type="inclusive" normal="1988-02">February 1988</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Miscellaneous <unitdate type="inclusive" normal="1989">1989</unitdate>, <unitdate type="inclusive" normal="1991">1991</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>Budgets <unitdate type="inclusive" normal="1924/1946">1924-1946 (with gaps)</unitdate>, <unitdate type="inclusive" normal="1952/1953">1952-1953</unitdate>, <unitdate type="inclusive" normal="1962/1964">1962-1964</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>Building Valuation <unitdate type="inclusive" normal="1960">1960</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Bulletins, Programs, Weekly Reminders</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>
+                <unitdate type="inclusive">Undated</unitdate>
+                <unitdate type="inclusive">Pre-1900</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1901/1939">1901-1939</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1940/1972">1940-1972</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1892-04/1987-06">April 1892-June 1987 (with gaps)</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>Bylaws <unitdate type="inclusive" normal="1938">1938</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>City Council <unitdate type="inclusive" normal="1976-10/1976-11">October-November 1976</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>Clippings (mostly re: building projects)</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>Coalition of churches <unitdate type="inclusive" normal="1969/1970">1969-1970</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(clipping, brief summary, Administrative Board action)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Collins, Judson Dwight, first Methodist Missionary to China</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Miscellaneous materials <unitdate type="inclusive" normal="1937">1937</unitdate></unittitle>
+            </did>
+            <odd>
+              <p>(commemorative services correspondence, a picture story of Collins by Bible School children, personal reminiscence by an acquaintance, biographical skit)</p>
+            </odd>
+            <odd>
+              <p>(see also Missionary Work)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Anniversary materials <unitdate type="inclusive" normal="1987-05">May 1987</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>Collins, Reverend Wellington (brother of Judson)</unittitle>
+          </did>
+          <odd>
+            <p>(contains notes taken by Wellington from various history books)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Committees</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Committees (general descriptions) <unitdate type="inclusive" normal="1976-03">March 1976</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Archives and Historical Committee Minutes <unitdate type="inclusive" normal="1985-06/1987-05">June 1985-May 1987</unitdate> and highlights</unittitle>
+            </did>
+            <odd>
+              <p>(with gaps)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Building Committee</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">3</container>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">4 folders</extent>
+                </physdesc>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1920/1949" certainty="approximate">1920s-1940s</unitdate>
+                  <unitdate type="inclusive">undated</unitdate>
+                </unittitle>
+                <physdesc altrender="whole">
+                  </physdesc>
+              </did>
+              <odd>
+                <p>(on loan to the donor)</p>
+              </odd>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">3</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1950/1959" certainty="approximate">1950s</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Finance Committee</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">3</container>
+                <unittitle>Parish group meetings packet, includes finance plan <unitdate type="inclusive" normal="1932/1933">1932-1933</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Membership lists of Committees <unitdate type="inclusive" normal="1935/1936">1935-1936</unitdate>; <unitdate type="inclusive" normal="1980/1981">1980-1981</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Minutes of Assorted Committees</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">3</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1963">1963</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">3</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1964">1964</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">3</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1965">1965</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Nominations and Personnel Committee Minutes <unitdate type="inclusive" normal="1975-04/1978-09">1975 April-1978 September</unitdate></unittitle>
+            </did>
+            <odd>
+              <p>(incomplete)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Social Concerns Committee</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">3</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1964/1966">1964-1966</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">3</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1967/1968">1967-1968</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">3</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1969">1969</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">3</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1970">1970</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">3</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1971">1971</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">3</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1972">1972</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Commission on Education Annual Report, <unitdate type="inclusive" normal="1954">Spring 1954</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Council of Ministries Minutes <unitdate type="inclusive" normal="1972-02/1979-02">February 1972-February 1979 (with gaps)</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">4 folders</extent>
+            </physdesc>
+            <unittitle>Conferences: Detroit, and Quarterly <unitdate normal="1833/1958">1833-1958</unitdate></unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+          <odd>
+            <p>Includes resolution 1884; correspondence, 1930s; report, 1959; minutes, 1833-1842, 1909, 1912-1916, 1919, 1921, 1923, 1925, 1930, 1933, 1938, 1963)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Debt Financing: Records of Shareholders <unitdate type="inclusive" normal="1885">1885</unitdate></unittitle>
+            <physdesc>
+              <physfacet>bound volume</physfacet>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 folders</extent>
+            </physdesc>
+            <unittitle>Directories and Lists: includes pre <unitdate type="inclusive" normal="1900">1900</unitdate></unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Education Work Area</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Minutes <unitdate type="inclusive" normal="1971-02/1973-05">February 1971-May 1973 (with gaps)</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Minutes <unitdate type="inclusive" normal="1971-02/1974-12">February 1971-December 1974 (with gaps)</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Epworth League <unitdate type="inclusive" normal="1931/1932">1931-1932</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(program, correspondence re: trip to Thumb Lake, state league information)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">3 folders</extent>
+            </physdesc>
+            <unittitle>Estates and Wills</unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">5</container>
+            <unittitle>Executive Council minutes <unitdate type="inclusive" normal="1921-10">October 1921</unitdate>, <unitdate type="inclusive" normal="1921-12">December 1921</unitdate>, <unitdate type="inclusive" normal="1922-01">January 1922</unitdate>, <unitdate type="inclusive" normal="1922-04">April 1922</unitdate>, <unitdate type="inclusive" normal="1934-06">June 1934</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">5</container>
+            <unittitle>Fiftieth Anniversary of Groundbreaking and Building Dedication <unitdate type="inclusive" normal="1988/1990">1988-1990</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">5</container>
+            <unittitle>Financial Plan <unitdate type="inclusive">undated</unitdate> (probably <unitdate type="inclusive" normal="1933">1933</unitdate>)</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">5</container>
+            <unittitle>Financial Reports/Statements <unitdate type="inclusive" normal="1911">1911</unitdate>, <unitdate type="inclusive" normal="1933/1934">1933-1934</unitdate>, <unitdate type="inclusive" normal="1934/1935">1934-1935</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">5</container>
+            <unittitle>Foreign Missionaries <unitdate type="inclusive" normal="1871/1938">1871-1938</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">5</container>
+            <unittitle>Future of First Church Committee Minutes <unitdate type="inclusive" normal="1975-01/1978-10">January 1975-October 1978</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(incomplete)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">5</container>
+            <unittitle>General Conference: commentary, "Size of General Conference" <unitdate type="inclusive">undated</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Historical Documents</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Indentures, articles of incorporation, programs, savings account books, contracts</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Clippings and parish directory <unitdate type="inclusive" normal="1867/1988">1867-1988</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>1856 Deed and Pew Rental Book, <unitdate type="inclusive" normal="1904/1912" certainty="approximate">circa 1904-1912</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">5</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">3 folders</extent>
+            </physdesc>
+            <unittitle>History</unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+          <odd>
+            <p>(includes history by Mary Luny, 1937 and histories of various church societies and clubs)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">5</container>
+            <unittitle>House By the Side of the Road (County Service Center) <unitdate type="inclusive">undated</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">5</container>
+            <unittitle>Lenten Devotions of Parishioners <unitdate type="inclusive" normal="1986">1986</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">5</container>
+            <unittitle>Cheng Guam Lim (clippings, incomplete) <unitdate type="inclusive" normal="1986">1986</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">5</container>
+            <unittitle>Men's Activities <unitdate type="inclusive">post-1900</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(mostly promotional materials)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Methodist Educational Advance (reports and correspondence)</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1922">1922</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1923-01/1923-06">January-June 1923</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1923-07/1923-12">July-December 1923</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1924-01/1924-06">January-June 1924</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1924-07/1924-12">July-December 1924</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1925">1925</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1926">1926</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1927">1927</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1928">1928</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">5</container>
+            <unittitle>Methodist Men Handbook <unitdate type="inclusive">undated</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">5</container>
+            <unittitle>Missionary Work</unittitle>
+          </did>
+          <odd>
+            <p>(Includes lists of missionaries; insightful letter from missionary in India in 1920 and an interesting photo/biographical album on church missionaries)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">5</container>
+            <unittitle>Music Program <unitdate type="inclusive" normal="1919/1933">1919-1933</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(choir costs 1922-1923; correspondence with new music director, 1919, 1933)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">5</container>
+            <unittitle>Music <unitdate type="inclusive" normal="1977-10">October 1977</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">5</container>
+            <unittitle>Music <unitdate type="inclusive" normal="1987/1992">1987-1992</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">5</container>
+            <unittitle>Official Board: Resolution on attendance-undated; call for retreat <unitdate type="inclusive" normal="1937">1937</unitdate>; minutes (with gaps) <unitdate type="inclusive" normal="1921">1921</unitdate>, <unitdate type="inclusive" normal="1937/1939">1937-1939</unitdate>, <unitdate type="inclusive" normal="1963/1965">1963-1965</unitdate>, <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">5</container>
+            <unittitle>Organizational Pamphlets/Charts Undated <unitdate type="inclusive" normal="1975">1975</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">5</container>
+            <unittitle>Pastoral Prayer (regarding Gulf War) <unitdate type="inclusive" normal="1991-01-13">January 13, 1991</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Pastors</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Abbey, Merrill: biographical data, clippings, sermon <unitdate type="inclusive" normal="1958">1958</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Fisher, Frederick</unittitle>
+            </did>
+            <odd>
+              <p>(Includes biographical data, memorial tribute, letter of resignation and response, and article "A Bishop Seeks Soul Freedom")</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Large, Dwight:</unittitle>
+            </did>
+            <odd>
+              <p>(biographical data, suggestions for action follow-ups to sermons, incoming correspondence re: decision to accept pastorship)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Ninde, Edward: five-year report <unitdate type="inclusive" normal="1900/1905">1900-1905</unitdate>; report <unitdate type="inclusive" normal="1900/1901">1900-1901</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Rupert, Hoover: mostly clippings, sermons</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Stalker, Arthur W.</unittitle>
+            </did>
+            <odd>
+              <p>(biographical data, obituaries, memorial tributes, letter of welcome to his successor)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Strobe, Donald B.</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">5</container>
+                <unittitle>Sermons <unitdate type="inclusive" normal="1973-05/1986-10">1973 May-1986 October</unitdate></unittitle>
+              </did>
+              <odd>
+                <p>(incomplete)</p>
+              </odd>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">5</container>
+                <unittitle>Retirement <unitdate type="inclusive" normal="1990">1990</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">5</container>
+            <unittitle>Pastor-Parish Minutes <unitdate type="inclusive" normal="1974-02/1978-07">February 1974-July 1978</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(incomplete)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">5</container>
+            <unittitle>Peace Pole <unitdate type="inclusive" normal="1989">1989</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">5</container>
+            <unittitle>Pew Holders (with maps of pew locations) <unitdate type="inclusive" normal="1900/1915">1900-1915</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(see Historical Documents folders for indentures)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">5</container>
+            <unittitle>Profile of Membership, Attendance, Finances <unitdate type="inclusive" normal="1974">1974</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(prepared for visit by Dr. Shaller, Naperville, Illinois)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">6</container>
+            <unittitle>Promenade <unitdate type="inclusive" normal="1986-11">November 1986</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Publications</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">6</container>
+              <unittitle><title render="italic">The Flyer</title>, <unitdate type="inclusive" normal="1978/1987">1978-1987 (with gaps)</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>
+                <title render="italic">Methodist Messenger</title>
+              </unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">6</container>
+                <unittitle><unitdate type="inclusive" normal="1935">1935</unitdate>, <unitdate type="inclusive" normal="1938">1938</unitdate>, <unitdate type="inclusive" normal="1952/1962">1952-1962 (with gaps)</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">6</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1962/1967">1962-1967 (with gaps)</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">6</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1968/1975">1968-1975 (with gaps)</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">6</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1975/1978">1975-1978 (with gaps)</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">6</container>
+              <unittitle>Newscast <unitdate type="inclusive" normal="1941-09/1941-11">July September-November, 1941</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">6</container>
+              <unittitle><title render="italic">Focus on Youth</title>, <unitdate type="inclusive" normal="1974-11">November 1974</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">6</container>
+              <unittitle>
+                <title render="italic">Lay Hold on Hope: a Lenten devotional booklet for 1991</title>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">6</container>
+              <unittitle>
+                <title render="italic">Golden Anniversary Directory 1990</title>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">6</container>
+            <unittitle>Religious Census: University of Michigan <unitdate type="inclusive" normal="1920/1929" certainty="approximate">1920s</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">6</container>
+            <unittitle>"Report To Lay Conference"</unittitle>
+          </did>
+          <odd>
+            <p>(no date, no author)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">6</container>
+            <unittitle>Sesquicentennial (summary of events; church history information)</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">6</container>
+            <unittitle>Stephen Ministry <unitdate type="inclusive" normal="1989">1989</unitdate>, <unitdate type="inclusive" normal="1991">1991</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">6</container>
+            <unittitle>Survey of Plant, Equipment, Finances, and Activities <unitdate type="inclusive" normal="1933/1934">1933-1934</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(see also Building Committee, 1930s)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">6</container>
+            <unittitle>Temperance <unitdate type="inclusive">undated</unitdate>, <unitdate type="inclusive" normal="1883">1883</unitdate>, <unitdate type="inclusive" normal="1935">1935</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(Includes program from Anti-Saloon League of Michigan meeting, undated; Reverend R. Pope sermon, 1883 letter from pastor to University of Michigan President Ruthven re: cocktail grill advertisement in student directory, 1935)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">6</container>
+            <unittitle>Wesley Foundation <unitdate type="inclusive" normal="1920/1949" certainty="approximate">1920s-1940s</unitdate>, <unitdate type="inclusive" normal="1977">1977</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(Includes programs 1940s; financial information, 1920s; trustees meeting minutes, 1929-1931, 1938; miscellaneous reports and correspondence 1930-1931; correspondence re: building use, 1977)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">6</container>
+            <unittitle>Wesleyan Guild <unitdate type="inclusive" normal="1890/1917">1890-1917</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(Includes pamphlets, undated, 1890-1911; handwritten constitution for women's guild, undated; correspondence of Board, 1916-1917</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">6</container>
+            <unittitle>Youth (clippings) <unitdate type="inclusive" normal="1962/1968">1962-1968</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">6</container>
+            <unittitle>Miscellaneous</unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Visual Materials</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <unittitle>Glass Projection Slides</unittitle>
+            <physdesc>
+              <physfacet>includes one set of positive images, incomplete and of poor quality</physfacet>
+            </physdesc>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>Ann Arbor Scenes</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>Church, exterior</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>Floor Plans</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>Group, unidentified</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <genreform normal="Photographs">Photographs</genreform>
+            </unittitle>
+          </did>
+          <scopecontent>
+            <p>Photos illustrating church activities and personalities; also photos showing temperance march in downtown Ann Arbor, Michigan, 1910s.</p>
+          </scopecontent>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>Boy Scouts <unitdate type="inclusive" normal="1967">1967</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>Chapel-in-Round Dedication <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>Choir (adult and junior) <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>Christmas Activities <unitdate type="inclusive" normal="1952">1952</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>Church of <unitdate type="inclusive" normal="1866">1866</unitdate> interior and exterior, <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+            <odd>
+              <p>(includes photo of 1906 fire)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Church of <unitdate type="inclusive" normal="1937">1937</unitdate></unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">7</container>
+                <unittitle>Exterior</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">7</container>
+                <unittitle>Interior (includes floor plan)</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>Groundbreaking and Laying of Cornerstone Ceremonies <unitdate type="inclusive" normal="1939/1940">1939-1940</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>Men's Class <unitdate type="inclusive" normal="1919">1919</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>Missionary Work</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>Organ <unitdate type="inclusive" normal="1940">1940</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>Parsonages <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Pastors</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">7</container>
+                <unittitle>Rupert, Hoover</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">7</container>
+                <unittitle>Stalker, A.W. and family</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>People</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">7</container>
+                <unittitle>Groups (most identified) <unitdate type="inclusive" normal="1912/1987">1912-1987</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">7</container>
+                <unittitle>Individuals (most identified) <unitdate type="inclusive" normal="1940/1964">1940-1964</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>Promenade Dedication <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>Sculpture by Carleton Angell</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>Temperance Marches in Ann Arbor</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>Miscellaneous</unittitle>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

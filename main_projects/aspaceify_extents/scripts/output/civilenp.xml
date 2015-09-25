@@ -1,0 +1,672 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead.dtd">
+<ead>
+  <eadheader audience="internal" langencoding="iso639-2b" repositoryencoding="iso15511" dateencoding="iso8601" relatedencoding="Dublin Core" scriptencoding="iso15924" countryencoding="iso3166-1">
+    <eadid countrycode="us" mainagencycode="MiU-H" publicid="us//::miu-h//TXT us::miu-h::civilenp.xml//EN" encodinganalog="Identifier">umich-bhl-9730</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="Title">Finding Aid for Department of Civil and Environmental Engineering (University of Michigan) publications, 1908-2001</titleproper>
+        <author encodinganalog="Creator">Collection processed and finding aid created by Marilyn M. McNitt, June 2003; Polly Reynolds, January 2007, Hannah Gulick, February 2014</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="Publisher">Bentley Historical Library, University of Michigan</publisher>
+        <date encodinganalog="Date" normal="2006">200704</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created by Greg Kinney <date>20070404</date></creation>
+      <langusage encodinganalog="Language">The finding aid is written in <language langcode="eng" scriptcode="Latn">English</language></langusage>
+      <descrules>Finding aid prepared using Describing Archives: A Content Standard (DACS)</descrules>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date>20140323</date>
+        <item>revised with new accession.</item>
+      </change>
+      <change>
+        <date>20070404</date>
+        <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <frontmatter>
+    <titlepage>
+      <publisher>University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
+      <titleproper>Finding aid for <lb/>Department of Civil and Environmental Engineering <lb/>(University of Michigan) <lb/>Publications, 1908-2001</titleproper>
+      <author>Finding aid created by <lb/>Marilyn M. McNitt, June 2003 <lb/>Polly Reynolds, January 2007 <lb/>Hannah Gulick, February 2014</author>
+    </titlepage>
+  </frontmatter>
+  <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
+    <did>
+      <origination>
+        <corpname source="lcnaf" encodinganalog="110">University of Michigan. Department of Civil and Environmental Engineering.</corpname>
+      </origination>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">3 linear feet</extent>
+      </physdesc>
+      <unittitle encodinganalog="245">Department of Civil and Environmental Engineering (University of Michigan) publications <unitdate type="inclusive" encodinganalog="245$f" normal="1908/2001">1908-2001</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1960/1998">1960-1998</unitdate></unittitle>
+      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">9730 Bimu C146 2</unitid>
+      <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
+      <abstract>Publications produced by or for the Department of Civil and environmental Engineering; includes annual reports, brochures and pamphlets, exhibition catalogs, numerous histories, lecture notes, manuals, newsletters, programs, and reports. Also contains the newsletter from the Civil Engineering Alumni and Friends Association, as well as bulletins and proceedings from the Division of Highway Engineering and Highway Transport.</abstract>
+      <repository>
+        <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea>, University of Michigan</corpname>
+        <extptr href="bhladd" show="embed" actuate="onload"/>
+      </repository>
+    </did>
+    <descgrp type="admin">
+      <acqinfo encodinganalog="541">
+        <p>The publications are received periodically from the unit (donor no. <num type="donor" encodinganalog="541$e">1884</num>).</p>
+      </acqinfo>
+      <accruals encodinganalog="584">
+        <p>Periodic additions to the records expected.</p>
+      </accruals>
+      <accessrestrict encodinganalog="506">
+        <p>The publications are open without restriction</p>
+        <p>. <extptr href="uarpacc" show="embed" actuate="onload"/></p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+        <p>Copyright is held by the Regents of the University of Michigan.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+        <p>[item], folder, box,
+Department of Civil and Environmental Engineering (University of Michigan) publications, Bentley Historical Library, University of Michigan</p>
+      </prefercite>
+    </descgrp>
+    <bioghist encodinganalog="545">
+      <p>[See finding aid for Department of Civil and Environmental Engineering (University of Michigan) records.]</p>
+    </bioghist>
+    <scopecontent encodinganalog="520">
+      <p>The Department of Civil and Environmental Engineering Publications (3 linear foot) includes brochures and pamphlets, exhibition catalogs, numerous histories, lecture notes, manuals, newsletters, programs, and reports. Also contains the newsletter from the Civil Engineering Alumni and Friends Association, as well as bulletins and proceedings from the Division of Highway Engineering and Highway Transport. The publications are organized into two series: Unit Publications and Sub-Unit Publications.</p>
+    </scopecontent>
+    <controlaccess>
+      <p>
+        <extptr href="accnote" show="embed" actuate="onload"/>
+      </p>
+      <controlaccess>
+        <head>Subjects:</head>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Civil Engineering.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Civil Engineering. Division of Highway Engineering and Highway Transport.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no2004009119">University of Michigan. Dept. of Civil and Environmental Engineering.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Alumni and alumnae.</corpname>
+        <title source="aacr2" encodinganalog="740">Civil engineering alumni and friends association newsletter.</title>
+        <title source="aacr2" encodinganalog="740">Department of civil and environment engineering newsletter</title>
+        <title source="aacr2" encodinganalog="740">History of the department of civil engineering</title>
+      </controlaccess>
+      <controlaccess>
+        <head>Contributors:</head>
+        <corpname source="lcnaf" encodinganalog="710">University of Michigan. Dept. of Civil Engineering.</corpname>
+        <corpname source="lcnaf" encodinganalog="710">University of Michigan. Dept. of Civil Engineering. Division of Highway Engineering and Highway Transport.</corpname>
+      </controlaccess>
+      <controlaccess>
+        <head>Genre Terms:</head>
+        <genreform source="aat" encodinganalog="655">Annual reports.</genreform>
+        <genreform source="aat" encodinganalog="655">Pamphlets.</genreform>
+        <genreform source="aat" encodinganalog="655">Exhibition catalogs.</genreform>
+        <genreform source="aat" encodinganalog="655">Histories.</genreform>
+        <genreform source="aat" encodinganalog="655">Manuals.</genreform>
+        <genreform source="aat" encodinganalog="655">Newsletters.</genreform>
+        <genreform source="aat" encodinganalog="655">Programs.</genreform>
+        <genreform source="aat" encodinganalog="655">Reports.</genreform>
+      </controlaccess>
+    </controlaccess>
+    <dsc type="combined">
+      <c01 level="series">
+        <did>
+          <unittitle>Unit Publications</unittitle>
+        </did>
+        <scopecontent>
+          <p>The Unit Publications series contains printed material published specifically by the Department of Civil and Environmental Engineering. These publications are defined as being widely distributed and may be published at regular intervals. They are arranged by genre of the publication.</p>
+          <p>The Unit Publications series includes brochures, bulletins, directories, exhibition catalogs, numerous histories, lecture notes, manuals, newsletters, programs, and reports. The only directory in this series is a 1990 sampling of minority alumni of the department. There are a number of histories of the department written from 1908 to 1980. The lecture notes are both from the course Civil Engineering 26 taught by Professor Henry E. Riggs. They are <title render="italic">Specifications and Controls</title> published in 1922 and the <title render="italic">Engineering Relations: Specifications and Contracts</title> released in 1924. The manual, <title render="italic">Laboratory Manual of Bituminous Materials</title>, was issued in 1924.</p>
+          <p>The reports include the progress report on the <title render="italic">Effects of Forest Clear-Cutting on the Stability of Natural Slopes</title> issued in 1969 and the final report of the <title render="italic">Workshop on Construction Engineering Basic Research</title> released in 1982. The <title render="italic">Report of the Department of Civil Engineering</title> is a thorough description of the department as it was in 1936. It offers a picture of the structure of the department by specialties and of its laboratories. It also includes courses descriptions, degree requirements for a Bachelor of Science degree, as well as a statement of requirements for advanced degrees. This publication also contains information about the faculty of the department including educational, teaching and professional background, research interests, honors and professional memberships, and a brief list of publications. The volume also includes a sampling of exam questions to assist students of the 1930s in their study of civil engineering.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Brochures</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Graduate Programs in Civil Engineering</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Environmental Sciences Engineering <unitdate type="inclusive" normal="1982">1982</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Civil Engineering <unitdate type="inclusive">undated</unitdate>, <unitdate type="inclusive" normal="1958/1996">1958-1996</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Graduate Program <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Graduate Studies <unitdate type="inclusive" normal="1966/1967">1966-1967</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Directories</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle><title render="italic">MLK Day: A Sampling of Minority Alumni</title>, <unitdate type="inclusive" normal="1990">1990</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Exhibition Catalogs</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle><title render="italic">Exhibits of the Department of Civil Engineering</title>, <unitdate type="inclusive" normal="1913">1913</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Histories</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>
+                <title render="italic">Bibliography of References in the History of the Department of Civil Engineering</title>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>
+                <title render="italic">Civil Engineering in History at Michigan</title>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Department of Civil Engineering Significant Event Timeline <unitdate type="inclusive" normal="1980">1980</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">3 folders</extent>
+              </physdesc>
+              <unittitle><title render="italic">Histories of the Department</title>, <unitdate type="inclusive" normal="1937">1937</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle><title render="italic">History of the Department of Civil Engineering</title>, <unitdate type="inclusive" normal="1952">1952</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>
+                <title render="italic">History of Civil Engineering at the University of Michigan</title>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>
+                <title render="italic">In History Civil Engineering at Michigan</title>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Outline of the History</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle><title render="italic">The Department of Civil Engineering from 1950-1970</title>, <unitdate type="inclusive" normal="1971">1971</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle><title render="italic">The Department of Civil Engineering</title>, <unitdate type="inclusive" normal="1952">1952</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle><title render="italic">A Short History of Some of the Graduates of the Department</title>, <unitdate type="inclusive" normal="1908">1908</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>
+                <title render="italic">University of Michigan Sanitary Experiment Station</title>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Lecture Notes</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle><title render="italic">Civil Engineering 26: Specifications and Contracts</title> by Henry Riggs</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle><title render="italic">Engineering Relations: Specifications and Contracts</title>, <unitdate type="inclusive" normal="1922">1922</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Manuals</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle><title render="italic">Laboratory Manual of Bituminous Materials</title>, <unitdate type="inclusive" normal="1924">1924</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Newsletters</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">3 folders</extent>
+              </physdesc>
+              <unittitle>Alumni Newsletter <unitdate type="inclusive" normal="1984/1988">1984-1988</unitdate>, <unitdate type="inclusive" normal="1995">1995</unitdate>, <unitdate type="inclusive" normal="1997">1997</unitdate>, <unitdate type="inclusive" normal="2000/2001">2000-2001</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>ASCE Newsletter <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">7 folders</extent>
+              </physdesc>
+              <unittitle>Department Newsletter <unitdate type="inclusive" normal="1984/1991">1984-1991</unitdate>, <unitdate type="inclusive" normal="1993/1995">1993-1995</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>InSitu Remediation <unitdate type="inclusive" normal="1998">1998</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>The Benchmark <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Posters <unitdate type="inclusive" normal="2002">2002</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Programs</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Conference Programs <unitdate type="inclusive" normal="1987">1987</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Robert B. Harris Lecture <unitdate type="inclusive" normal="1988">1988</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Reports</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle><title render="italic">Civil Engineering Report</title>, <unitdate type="inclusive" normal="1949">1949</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">8 folders</extent>
+              </physdesc>
+              <unittitle><title render="italic">County Engineers Workshop</title> Reports, <unitdate type="inclusive" normal="1966/1977">1966-1977</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle><title render="italic">Effects of Forest Clear-Cutting on the Stability of Natural Slopes</title>, <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle><title render="italic">Electronic Computers in Engineering Education</title>, First Annual Report, <unitdate type="inclusive" normal="1960">1960</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle><title render="italic">Evaluation of Great Lakes Shore Protection Structures</title>, <unitdate type="inclusive" normal="1988">1988</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>5-Year Review <unitdate type="inclusive" normal="2000">2000</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>5-Year Review Committee Report <unitdate type="inclusive" normal="2000">2000</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle><title render="italic">North Campus Engineering and Technology Center Plans</title>, <unitdate type="inclusive" normal="1966">1966</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle><title render="italic">Recycling and Rehabilitating Pavements</title>, <unitdate type="inclusive" normal="1983">1983</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle><title render="italic">Report on Department of Civil Engineering</title>, <unitdate type="inclusive" normal="1936">1936</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle><title render="italic">Use of Computers in Engineering Education</title>, Second Annual Report, <unitdate type="inclusive" normal="1961">1961</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle><title render="italic">Workshop on Construction Engineering Basic Research</title>, <unitdate type="inclusive" normal="1982">1982</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Studies</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle><title render="italic">A Computer Program for Leveling Resource Usage</title> by Robert Galbreath, <unitdate type="inclusive" normal="1964">1964</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle><title render="italic">Analog Computer Fundamentals</title> by Silvio Navarro</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle><title render="italic">An Introduction to Digital Computing</title> by Bruce Arden, <unitdate type="inclusive" normal="1962">1962</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle><title render="italic">Computer Analysis of Structures</title> by Glen Berg, <unitdate type="inclusive" normal="1963">1963</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle><title render="italic">Effective Distance of Urban Highway Travel for Supermarket Shopping Trips</title> by Clinton Heimbach, <unitdate type="inclusive" normal="1963">1963</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle><title render="italic">Implications of Time-Sharing Remote-Console Computer Systems</title> by Hadley Smith, <unitdate type="inclusive" normal="1966">1966</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Preliminary Edition of <title render="italic">Engineering Concepts and Perspective</title>, <unitdate type="inclusive" normal="1965">1965</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle><title render="italic">Waterhammer Analysis of Pipelines</title> by Victor Streeter, <unitdate type="inclusive" normal="1963">1963</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Sub Unit Publications</unittitle>
+        </did>
+        <scopecontent>
+          <p>The Sub-Unit Publications series contains publications from subordinate offices, departments, programs and organizations within the Department of Civil and Environmental Engineering. These publications are arranged alphabetically by the creating sub-unit.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>Center for Construction Engineering and Management</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Division of Highway Engineering and Highway Transport</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>Bulletins</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">3</container>
+                <unittitle>Courses in Highway Engineering <unitdate type="inclusive" normal="1914">1914</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">3</container>
+                <unittitle>Special Announcement of Courses in Highway Engineering and Highway Transport <unitdate type="inclusive" normal="1916/1917">1916-1917</unitdate>, <unitdate type="inclusive" normal="1919/1925">1919-1925</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Proceedings</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">3</container>
+                <unittitle>Annual Conference on Highway Transport <unitdate type="inclusive" normal="1927/1928">1927-1928</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">3</container>
+                <unittitle>Short Course in Highway Engineering <unitdate type="inclusive" normal="1915">1915</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Programs <unitdate type="inclusive" normal="1927">1927</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
+              </physdesc>
+              <unittitle>Reports <unitdate type="inclusive" normal="1923/1924">1923-1924</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>Materials Laboratory <unitdate type="inclusive" normal="1979">1979</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>Michigan Sanitary Engineering Laboratory <unitdate type="inclusive" normal="1946">1946</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>Municipal and Highway Laboratory <unitdate type="inclusive" normal="1913">1913</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>Outreach, Faculty Activities <unitdate type="inclusive" normal="1987">1987</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>Structural Design of Asphalt Pavement Conference <unitdate type="inclusive" normal="1987">1987</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Use of Computers in Education</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle><title render="italic">Aeronautical Engineering</title>, <unitdate type="inclusive" normal="1963">1963</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle><title render="italic">Chemical Engineering</title>, <unitdate type="inclusive" normal="1963">1963</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle><title render="italic">Electrical Engineering</title>, <unitdate type="inclusive" normal="1962">1962</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle><title render="italic">Civil Engineering</title>, <unitdate type="inclusive" normal="1962">1962</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle><title render="italic">Engineering Mechanics</title>, <unitdate type="inclusive" normal="1962">1962</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle><title render="italic">Geodetic Engineering</title>, <unitdate type="inclusive" normal="1967">1967</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle><title render="italic">Industrial Engineering</title>, <unitdate type="inclusive" normal="1962">1962</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle><title render="italic">Materials and Metallurgical Engineering</title>, <unitdate type="inclusive" normal="1962">1962</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle><title render="italic">Naval Architecture</title>, <unitdate type="inclusive" normal="1962">1962</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle><title render="italic">Final Report</title>, <unitdate type="inclusive" normal="1963">1963</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

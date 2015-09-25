@@ -1,0 +1,1166 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead.dtd">
+<ead>
+  <eadheader audience="internal" langencoding="iso639-2b" repositoryencoding="iso15511" dateencoding="iso8601" relatedencoding="Dublin Core">
+    <eadid countrycode="us" mainagencycode="MiU-H" publicid="us//::miu-h//TXT us::miu-h::wcmpc.xml//EN" encodinganalog="identifier">umich-bhl-2009134</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="title">Finding Aid for Washtenaw County Metropolitan Planning Commission publications, 1948-1980</titleproper>
+        <author encodinganalog="creator">Collection processed and finding aid created by Michigan Historical Collections Staff, Revised March 1994, May 2005</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="publisher">Bentley Historical Library, University of Michigan</publisher>
+        <date encodinganalog="date">2005</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created by Greg Kinney <date>June 2005</date></creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date>20061216</date>
+        <item>contents list updated</item>
+      </change>
+      <change>
+        <date>20050621</date>
+        <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <frontmatter>
+    <titlepage>
+      <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
+      <titleproper>Finding aid for <lb/>Washtenaw County Metropolitan Planning Commission <lb/>Publications, 1948-1980</titleproper>
+      <author>Finding aid created by <lb/>Michigan Historical Collections Staff, revised March 1994, May 2005</author>
+    </titlepage>
+  </frontmatter>
+  <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
+    <did>
+      <origination>
+        <corpname source="lcnaf" encodinganalog="100">Washtenaw County Metropolitan Planning Commission</corpname>
+      </origination>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">2 linear feet</extent>
+      </physdesc>
+      <unittitle encodinganalog="245">Washtenaw County Metropolitan Planning Commission publications <unitdate type="inclusive" encodinganalog="245$f" normal="1948/1980">1948-1980</unitdate></unittitle>
+      <unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">2009134 Aa 2</unitid>
+      <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
+      <abstract>Various publications of the Washtenaw County Metropolitan Planning Commission, also includes publications of the predecessor organization Washtenaw County Planning Commission.</abstract>
+      <repository>
+        <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea>, University of Michigan</corpname>
+        <extptr href="bhladd" show="embed" actuate="onload"/>
+      </repository>
+    </did>
+    <descgrp type="admin">
+      <acqinfo encodinganalog="541">
+        <p>The Washtenaw County Metropolitan Planning Commission publications were received as individual items or a parts of several accessions.</p>
+      </acqinfo>
+      <accessrestrict encodinganalog="506">
+        <p>The publications are open without restriction.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+        <p>Copyright status is unclear. It may be held by the authors or creating agency.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+        <p>[item], folder, box,
+Washtenaw County Metropolitan Planning Commission publications, Bentley Historical Library, University of Michigan</p>
+      </prefercite>
+    </descgrp>
+    <scopecontent encodinganalog="520">
+      <p>Various publications of the Washtenaw County Metropolitan Planning Commission, also includes publications of the predecessor organization Washtenaw County Planning Commission.</p>
+    </scopecontent>
+    <controlaccess>
+      <p>
+        <extptr href="accnote" show="embed" actuate="onload"/>
+      </p>
+      <controlaccess>
+        <head>Subjects:</head>
+        <subject encodinganalog="650" source="lcnaf">Regional planning--Michigan--Washtenaw County.</subject>
+        <geogname encodinganalog="651" source="lcsh">Washtenaw County (Mich.)--Politics and government.</geogname>
+        <geogname encodinganalog="651" source="lcsh">Washtenaw County (Mich.)--Economic conditions.</geogname>
+        <geogname encodinganalog="651" source="lcsh">Washtenaw County (Mich.)--Population.</geogname>
+      </controlaccess>
+      <controlaccess>
+        <head>Contributors:</head>
+        <corpname encodinganalog="710" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n85159002">Washtenaw County Planning Commission.</corpname>
+      </controlaccess>
+    </controlaccess>
+    <dsc type="combined">
+      <c01 level="series">
+        <did>
+          <unittitle>Serials</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <unittitle>Annual report</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1949">1949</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1959">1959</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1960">1960</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1972">1972</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1973">1973</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1979">1979</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Non-serial publications</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <unitdate type="inclusive" normal="1948">1948</unitdate>
+            </unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>
+                <title render="italic">Washtenaw plans it's [sic] future</title>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <unitdate type="inclusive" normal="1949">1949</unitdate>
+            </unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>
+                <title render="italic">The industry of Washtenaw</title>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <unitdate type="inclusive" normal="1951">1951</unitdate>
+            </unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>
+                <title render="italic">A guide for subdivision of land</title>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>
+                <title render="italic">A plan for the development of the Ann Arbor-Ypsilanti metropolitan area</title>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <unitdate type="inclusive" normal="1952">1952</unitdate>
+            </unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>
+                <title render="italic">Washtenaw resource inventory: part I, study of agriculture</title>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <unitdate type="inclusive" normal="1953">1953</unitdate>
+            </unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>
+                <title render="italic">A guide for the subdivision of land in unincorporated areas of Washtenaw County, Mich.</title>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>
+                <title render="italic">A plan for the development of the Ann Arbor-Ypsilanti metropolitan area: recommended plan, part of Washtenaw County guide-plan</title>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <unitdate type="inclusive" normal="1958">1958</unitdate>
+            </unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>
+                <title render="italic">Huron River watershed--water management needs &amp; problems</title>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <unitdate type="inclusive" normal="1959">1959</unitdate>
+            </unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>
+                <title render="italic">Ann Arbor Township capacities for development: preliminary report</title>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <unitdate type="inclusive" normal="1960">1960</unitdate>
+            </unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>
+                <title render="italic">A directory of cities, villages, townships county planning &amp; zoning officials</title>
+              </unittitle>
+            </did>
+            <odd>
+              <p>(Information bulletin, no. 2)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>
+                <title render="italic">A park system for Washtenaw County</title>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle><title render="italic">Why reconsider location of northwest by-pass</title>, by Robert D. Carpenter</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <unitdate type="inclusive" normal="1961">1961</unitdate>
+            </unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>
+                <title render="italic">Labor force and employment projections for Washtenaw County, 1970 &amp; 1980</title>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>
+                <title render="italic">1960 housing and population characteristics of Washtenaw County</title>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>
+                <title render="italic">Official planning commissions and zoning boards of Washtenaw County</title>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>
+                <title render="italic">Population change and projections for Washtenaw County, 1950 to 1980</title>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>
+                <title render="italic">Population projections for civil divisions of Washtenaw County, 1970 &amp; 1980</title>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <unitdate type="inclusive" normal="1962">1962</unitdate>
+            </unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>
+                <title render="italic">Center of population, Washtenaw County and the Ann Arbor-Ypsilanti area</title>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>
+                <title render="italic">Directory, official planning commissions and zoning boards of Washtenaw County</title>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>
+                <title render="italic">A medical and health care facility study for Washtenaw County: preliminary report</title>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>
+                <title render="italic">Preliminary land use plan, Washtenaw County, 1980</title>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <unitdate type="inclusive" normal="1963">1963</unitdate>
+            </unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>
+                <title render="italic">Industrial land plan tor Washtenaw County: a study outline</title>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle><title render="italic">Preliminary review of a proposed comprehensive report of water supply and sanitary sewerage facilities for the County Planning Commission of Washtenaw County, Michigan</title>, by Ayres, Lewis, Norris &amp; May</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>
+                <title render="italic">A subdivision guide for preparing plats in township areas of Washtenaw County</title>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <unitdate type="inclusive" normal="1964">1964</unitdate>
+            </unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle><title render="italic">Age and sex composition of population in Washtenaw County, 1950-1980</title>, by T. Karl H. Wuersching</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>
+                <title render="italic">A capital improvement program for Washtenaw County</title>
+              </unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <unittitle>Part 1: Population, employment and income</unittitle>
+              </did>
+              <odd>
+                <p>(preliminary draft)</p>
+              </odd>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>
+                <title render="italic">Directory, official planning commissions and zoning boards of Washtenaw County</title>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>
+                <title render="italic">Mobile home park study</title>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>
+                <title render="italic">Suggested scenic routes for Washtenaw County</title>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle><title render="italic">Washtenaw County, Michigan labor market--characteristics, forecast, and problems</title>, by Gerard F. Carvalho</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>
+                <title render="italic">Washtenaw development goals: cities, villages, townships and county</title>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <unitdate type="inclusive" normal="1965">1965</unitdate>
+            </unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle><title render="italic">A capital improvement program for Washtenaw County</title>, by Harvey E. Brazer and others</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <unittitle>
+                  <title render="italic">Part 1: Population, employment and income</title>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <unittitle>
+                  <title render="italic">Part 2: Fiscal analysis of Washtenaw County government</title>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <unittitle>
+                  <title render="italic">Part 3: Capital needs and their financing: preliminary draft</title>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <unittitle>
+                  <title render="italic">Part 3: Capital needs and their financing</title>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <unittitle>
+                  <title render="italic">Part 3: Technical appendix</title>
+                </unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>
+                <title render="italic">Economic trends influencing the Ann Arbor Township planning area: preliminary</title>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>
+                <title render="italic">Expressway route development plan: U.S. 23--Milan region, Michigan</title>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>
+                <title render="italic">1990 land use space requirements within Ann Arbor Township planning area</title>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>
+                <title render="italic">Population analysis and projections, Ann Arbor Township: a preliminary report</title>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>
+                <title render="italic">Proposed official zoning ordinance for York Township, Washtenaw County, Michigan</title>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>
+                <title render="italic">Proposed zoning regulations for Augusta Township, washtenaw County, Michigan</title>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>
+                <title render="italic">Thoroughfare and sketch land use plans, Saline, Michigan: preliminary report</title>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>
+                <title render="italic">Washtenaw development goals: cities, villages, townships and county: conference proceedings, 30 September 1964</title>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <unitdate type="inclusive" normal="1966">1966</unitdate>
+            </unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>
+                <title render="italic">Annotated bibliography of reports and studies</title>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>
+                <title render="italic">Directory: official planning commissions and zoning boards of Washtenaw County</title>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle><title render="italic">Income from employment in Washtenaw County, Michigan</title>, by Gerard F. Carvalho and George S. Odiorne</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>
+                <title render="italic">Occupational guides for Washtenaw County, Michigan</title>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>
+                <title render="italic">Preliminary report book one 1985 general development plan for Scio Township</title>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle><title render="italic">Recent economic trends in Washtenaw</title> County</unittitle>
+            </did>
+            <odd>
+              <p>(Information bulletin, no. 1)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle><title render="italic">Report on water supply and sanitary sewage needs for Washtenaw County, Michigan: preliminary</title> by Ayres, Lewis, Norris &amp; May--McNamee, Porter &amp; Seeley</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle><title render="italic">Report on water supply and sanitary sewerage systems in Washtenaw County, Michigan</title>, by Ayres, Lewis, Norris &amp; May--McNamee, Porter &amp; Seeley</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <unitdate type="inclusive" normal="1967">1967</unitdate>
+            </unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>
+                <title render="italic">Circulation in Ann Arbor Township</title>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>
+                <title render="italic">County parking study</title>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>
+                <title render="italic">Existing land use analysis for Ann Arbor Township</title>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>
+                <title render="italic">The first twenty years, 1947-1967</title>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>
+                <title render="italic">Goals and objectives for Ann Arbor Township</title>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>
+                <title render="italic">1990 potential demand for space within the Ann Arbor Township planning area</title>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>
+                <title render="italic">Preliminary 1985 general land use development plan for Pittsfield Township, Washtenaw County, Michigan</title>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <unitdate type="inclusive" normal="1968">1968</unitdate>
+            </unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>
+                <title render="italic">Annotated bibliography of reports and studies of the Washtenaw County Metropolitan Planning Commission, 1947-1968</title>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>
+                <title render="italic">Capital improvement program for Washtenaw County</title>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>
+                <title render="italic">Part I: County facilities survey</title>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>
+                <title render="italic">Part II: Population forecast</title>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>
+                <title render="italic">County role in public works--background information</title>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>
+                <title render="italic">1985 general land use development plan for Pittsfield Township, Washtenaw County, Michigan</title>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>
+                <title render="italic">Sheriff's Department study</title>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>
+                <title render="italic">Part I: Summary of findings</title>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>
+                <title render="italic">Part II: Background data</title>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>
+                <title render="italic">Washtenaw County data book</title>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <unitdate type="inclusive" normal="1969">1969</unitdate>
+            </unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>
+                <title render="italic">Ann Arbor Township, Michigan recommended general land development plan</title>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>
+                <title render="italic">Background information on the 1970 census</title>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>
+                <title render="italic">Capital improvement program for Washtenaw County</title>
+              </unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle>
+                  <title render="italic">Part III: Personnel and fiscal analysis</title>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle><title render="italic">Part IV: Needs, considerations and options</title> (preliminary and final copies)</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle>
+                  <title render="italic">Part V: Recommendations: preliminary working draft</title>
+                </unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>
+                <title render="italic">Directory: planning orientated officials from townships, villages, cities, county, and regional agencies of Washtenaw County</title>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>
+                <title render="italic">A policy approach to the development of a comprehensive park and open space system for Washtenaw County, Michigan</title>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>
+                <title render="italic">Washtenaw County data book. Rev. ed.</title>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>1970</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>
+                <title render="italic">Washtenaw County planning directory</title>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>
+                <title render="italic">Annotated bibliography of reports and studies of the Washtenaw County Metropolitan Planning Commission, 1947-1969</title>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>
+                <title render="italic">An inventory of recreational lands and facilities in Washtenaw County, Michigan</title>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>
+                <title render="italic">Land use code</title>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>
+                <title render="italic">Model subdivision regulation ordinance</title>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <unitdate type="inclusive" normal="1971">1971</unitdate>
+            </unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>
+                <title render="italic">Superior Township general development plan</title>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>
+                <title render="italic">Washtenaw County planning directory</title>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <unitdate type="inclusive" normal="1972">1972</unitdate>
+            </unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>
+                <title render="italic">Capital improvements program</title>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>
+                <title render="italic">Capital improvements program: summary</title>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <unitdate type="inclusive" normal="1973">1973</unitdate>
+            </unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>
+                <title render="italic">Economic activities of Washtenaw County</title>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>
+                <title render="italic">Initial housing element</title>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>
+                <title render="italic">Population of Washtenaw County, 1970 1980 &amp; 1990</title>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <unitdate type="inclusive" normal="1974">1974</unitdate>
+            </unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>
+                <title render="italic">Inventory of housing services</title>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>
+                <title render="italic">Planning perspectives on water resources: Washtenaw County, Michigan</title>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>
+                <title render="italic">Washtenaw County recreation and open space plan</title>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <unitdate type="inclusive" normal="1976">1976</unitdate>
+            </unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>
+                <title render="italic">Land use policies for Washtenaw County: preliminary</title>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <unitdate type="inclusive" normal="1978">1978</unitdate>
+            </unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>
+                <title render="italic">Land use policies for Washtenaw County: preliminary</title>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>
+                <title render="italic">Schematic design study, Old Post Office, Ann Arbor, Michigan</title>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <unitdate type="inclusive" normal="1979">1979</unitdate>
+            </unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>
+                <title render="italic">Agriculture in Washtenaw County: conditions, policies, and approaches to preservation</title>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>
+                <title render="italic">Washtenaw County household and population forecasts, 1970-2000 based upon the Washtenaw County Land Use Policies Plan</title>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <unitdate type="inclusive" normal="1980">1980</unitdate>
+            </unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>
+                <title render="italic">Report prepared for Central Area Action Program and Washtenaw County Metropolitan Planning Commission</title>
+              </unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">3</container>
+                <unittitle>
+                  <title render="italic">Chelsea Village</title>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">3</container>
+                <unittitle>
+                  <title render="italic">Dexter Village</title>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">3</container>
+                <unittitle>
+                  <title render="italic">Milan City</title>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">3</container>
+                <unittitle>
+                  <title render="italic">Saline City</title>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">3</container>
+                <unittitle>
+                  <title render="italic">Whitmore Lake</title>
+                </unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

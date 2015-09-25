@@ -1,0 +1,802 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead.dtd">
+<ead>
+  <eadheader audience="internal" langencoding="iso639-2b" repositoryencoding="iso15511" dateencoding="iso8601" relatedencoding="Dublin Core" scriptencoding="iso15924" countryencoding="iso3166-1">
+    <eadid countrycode="us" mainagencycode="MiU-H" publicid="-//us::MiU-H//TEXT us::MiU-H::lwvdet.xml//EN" encodinganalog="Identifier">umich-bhl-89482</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="Title">Finding Aid for League of Women Voters of Detroit records, 1930-1988</titleproper>
+        <author encodinganalog="Creator">Collection processed and finding aid created by Thomas E. Powers</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="Publisher">Bentley Historical Library, University of Michigan</publisher>
+        <date encodinganalog="Date" normal="2007">2007</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created by Thomas E. Powers <date>March 2007</date></creation>
+      <langusage encodinganalog="Language">The finding aid is written in <language langcode="eng" scriptcode="Latn">English</language></langusage>
+      <descrules>Finding aid prepared using Describing Archives: A Content Standard (DACS)</descrules>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date>2007-03-09</date>
+        <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <frontmatter>
+    <titlepage>
+      <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
+      <titleproper>Finding aid for <lb/>League of Women Voters of Detroit <lb/>Records, 1930-1988</titleproper>
+      <author>Finding aid created by <lb/>Linda Wojtanik, June 1989</author>
+    </titlepage>
+  </frontmatter>
+  <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
+    <did>
+      <origination>
+        <corpname source="lcnaf" encodinganalog="110" authfilenumber="http://id.loc.gov/authorities/names/no2002059676">League of Women Voters of Detroit.</corpname>
+      </origination>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">4 linear feet</extent>
+      </physdesc>
+      <unittitle encodinganalog="245">League of Women Voters of Detroit records <unitdate type="inclusive" encodinganalog="245$f" normal="1930/1988">1930-1988</unitdate></unittitle>
+      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">89482 Bm 2</unitid>
+      <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
+      <abstract>Board meeting minutes, correspondence, newsletters, position statements on various statements, and pamphlets and other publications; also visual materials; subjects covered by files include environmental quality, education, and women's rights issues.</abstract>
+      <repository>
+        <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea>, University of Michigan</corpname>
+        <extptr href="bhladd" show="embed" actuate="onload"/>
+      </repository>
+    </did>
+    <descgrp type="admin">
+      <acqinfo encodinganalog="541">
+        <p>This record group was acquired from League of Women Voters of Detroit in 1989 (Donor no. <num type="donor" encodinganalog="541$e">7678</num>).</p>
+      </acqinfo>
+      <accessrestrict encodinganalog="506">
+        <p>The record group is open to research.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+        <p>Copyright has been assigned to the Regents of the University of Michigan.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+        <p>[item], folder, box,
+League of Women Voters of Detroit records, Bentley Historical Library, University of Michigan</p>
+      </prefercite>
+    </descgrp>
+    <bioghist encodinganalog="545">
+      <p>The League of Women Voters is a nonpartisan organization which promotes informed citizen participation in government. The League does not endorse candidates or parties, but it does study issues and act on those issues. The League of Women Voters of Detroit has shown special concern toward environmental and educational issues.</p>
+    </bioghist>
+    <scopecontent encodinganalog="520">
+      <p>The records of the Detroit League of Women Voters cover the years 1930 to 1988, although its primary coverage is 1960 through 1980. The record group measures four linear feet in size and is arranged alphabetically by subject. Included are minutes from board meetings, correspondence, newsletters, League positions on various bills, pamphlets and other publications. Minutes from annual meetings are included in the board meetings file. One file contains correspondence from the Wayne County League of Women Voters dating back to 1930.</p>
+      <p>The largest files in the record group concerns environmental quality, education (busing, desegregation, and teacher certification), housing, human resources and women's issues (abortion, ERA and mortgage credit). The extensive environmental files cover air pollution, land use, phosphates and clean water.</p>
+    </scopecontent>
+    <controlaccess>
+      <p>
+        <extptr href="accnote" show="embed" actuate="onload"/>
+      </p>
+      <controlaccess>
+        <head>Subjects:</head>
+        <geogname source="lcsh" encodinganalog="651">Detroit (Mich.)--Politics and government.</geogname>
+        <subject source="lcsh" encodinganalog="650">Education--Michigan--Detroit.</subject>
+        <subject source="lcsh" encodinganalog="650">Environmental protection--Michigan--Detroit.</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no2002059676">League of Women Voters of Detroit.</corpname>
+        <geogname source="lcsh" encodinganalog="651">Michigan--Politics and government.</geogname>
+        <subject source="lcsh" encodinganalog="650">Women--Michigan--Detroit--Societies and clubs.</subject>
+      </controlaccess>
+      <controlaccess>
+        <head>Subjects - Visual Materials:</head>
+        <subject source="lctgm" encodinganalog="650">County government.</subject>
+        <subject source="lctgm" encodinganalog="650">Government buildings--Michigan--Wayne County.</subject>
+        <subject source="lctgm" encodinganalog="650">Government employees.</subject>
+        <geogname source="lcsh" encodinganalog="651">Wayne County (Mich.)</geogname>
+        <geogname source="lctgm" encodinganalog="651">Wayne County (Mich.)--Government buildings.</geogname>
+      </controlaccess>
+      <controlaccess>
+        <head>Genre Terms:</head>
+        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+      </controlaccess>
+    </controlaccess>
+    <dsc type="combined">
+      <c01 level="series">
+        <did>
+          <unittitle>Administrative Office Files</unittitle>
+        </did>
+        <odd>
+          <p>(arranged alphabetically)</p>
+        </odd>
+        <c02 level="file">
+          <did>
+            <unittitle>Board Meetings</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1966">1966</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1967">1967</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1968">1968</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1969">1969</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1970">1970</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Campaign Financing <unitdate type="inclusive" normal="1973/1975">1973-1975</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>China <unitdate type="inclusive" normal="1967/1969">1967-1969</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Citizens to Advance Public Education (CAPE) <unitdate type="inclusive" normal="1969/1970">1969-1970</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Communism <unitdate type="inclusive" normal="1947/1951">1947-1951</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Congress <unitdate type="inclusive" normal="1971/1979">1971-1979</unitdate></unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Letters from Congressmen</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Reorganization</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Courts</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>City</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>County</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>State</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <unittitle><unitdate type="inclusive" normal="1949/1956">1949-1956</unitdate>, <unitdate type="inclusive" normal="1961">1961</unitdate>, <unitdate type="inclusive" normal="1966/1967">1966-1967</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1968/1969">1968-1969</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1970/1982">1970-1982</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Detroit</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Charter Revision <unitdate type="inclusive" normal="1971/1973">1971-1973</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Police <unitdate type="inclusive" normal="1966/1973">1966-1973</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Taxation <unitdate type="inclusive" normal="1962">1962</unitdate>, <unitdate type="inclusive" normal="1966/1968">1966-1968</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Urban Crisis <unitdate type="inclusive" normal="1951">1951</unitdate>, <unitdate type="inclusive" normal="1960">1960</unitdate>, <unitdate type="inclusive" normal="1976/1979">1976-1979</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Education</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Decentralization <unitdate type="inclusive" normal="1965/1983">1965-1983</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Desegregation</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle>Busing <unitdate type="inclusive" normal="1969/1972">1969-1972</unitdate>, <unitdate type="inclusive" normal="1973/1981">1973-1981</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle>Coalition for Peaceful Integration <unitdate type="inclusive" normal="1969/1972">1969-1972</unitdate>, <unitdate type="inclusive" normal="1973/1981">1973-1981</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Finances</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle>Distribution of Education Money (DOM) <unitdate type="inclusive" normal="1972/1981">1972-1981</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Millage <unitdate type="inclusive" normal="1966/1971">1966-1971</unitdate>, <unitdate type="inclusive" normal="1972/1978">1972-1978</unitdate></unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle>Tax and Education Reform</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle>Tuition Tax Credit</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Miscellaneous <unitdate type="inclusive" normal="1965/1974">1965-1974</unitdate>, <unitdate type="inclusive" normal="1978">1978</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Task Force</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1969/1973-02">1969-February 1973</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1973-03/1973-06">March 1973-June 1973</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle><unitdate type="inclusive" normal="1973-07/1975">July 1973-1975</unitdate>; <unitdate type="inclusive" normal="1979">1979</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Teacher Certification</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle>Accountability <unitdate type="inclusive" normal="1972/1974">1972-1974</unitdate>, <unitdate type="inclusive" normal="1984">1984</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Energy <unitdate type="inclusive" normal="1975/1980">1975-1980</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Environmental Issues</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Acid Rain; Clean Air <unitdate type="inclusive" normal="1970/1988">1970-1988</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Bottle Bill HB4296 <unitdate type="inclusive" normal="1974/1977">1974-1977</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Environmental Protection Agency <unitdate type="inclusive" normal="1970/1975">1970-1975</unitdate>, <unitdate type="inclusive" normal="1983">1983</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Environmental Issues (cont.)</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Environmental Quality Newsletters <unitdate type="inclusive" normal="1971-08/1975-11">August 1971-November 1975</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Lake Erie Basin</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">3</container>
+                <unittitle>Oil and Gas Drilling <unitdate type="inclusive" normal="1963/1982">1963-1982</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Lake Erie Letter <unitdate type="inclusive" normal="1969/1975">1969-1975</unitdate>, <unitdate type="inclusive" normal="1981">1981</unitdate>, <unitdate type="inclusive" normal="1982">1982</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Land Use <unitdate type="inclusive" normal="1971/1980">1971-1980</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Miscellaneous <unitdate type="inclusive" normal="1968/1988">1968-1988</unitdate></unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">3</container>
+                <unittitle>Position Papers</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">3</container>
+                <unittitle>Press Releases</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Natural Resources Letter <unitdate type="inclusive" normal="1982">1982</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Nuclear Power</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">3</container>
+                <unittitle>Radioactive Waste <unitdate type="inclusive" normal="1969/1988">1969-1988</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Pesticides <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Phosphates H.B. 4015 <unitdate type="inclusive" normal="1970/1972">1970-1972</unitdate>, <unitdate type="inclusive" normal="1977">1977</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>River Rouge Basin: Pernick Drain <unitdate type="inclusive" normal="1969/1977">1969-1977</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Shorelands: Erosion <unitdate type="inclusive" normal="1969/1974">1969-1974</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Solid Waste Management</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">3</container>
+                <unittitle>Hazardous Waste Disposal <unitdate type="inclusive" normal="1971/1983">1971-1983</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Water <unitdate type="inclusive" normal="1956/1983">1956-1983</unitdate></unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">3</container>
+                <unittitle>Clean Water</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">3</container>
+                <unittitle>Water Policy</unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>Executive Branch <unitdate type="inclusive" normal="1975/1977">1975-1977</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>Government Financing <unitdate type="inclusive" normal="1972/1984">1972-1984</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>Health Care <unitdate type="inclusive" normal="1981/1985">1981-1985</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>Home Rule for Washington D.C. <unitdate type="inclusive" normal="1962/1967">1962-1967</unitdate>, <unitdate type="inclusive" normal="1973/1978">1973-1978</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Housing</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle><unitdate type="inclusive" normal="1947/1956">1947-1956</unitdate>, <unitdate type="inclusive" normal="1963/1969">1963-1969</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle><unitdate type="inclusive" normal="1970/1980">1970-1980</unitdate>, <unitdate type="inclusive" normal="1982">1982</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Equal Housing Opportunity <unitdate type="inclusive" normal="1967/1973">1967-1973</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Homesteading; Urban Renewal <unitdate type="inclusive" normal="1968/1979">1968-1979</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Housing and Urban Development (HUD) <unitdate type="inclusive" normal="1972/1979">1972-1979</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Zoning <unitdate type="inclusive" normal="1950/1968">1950-1968</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Insurance <unitdate type="inclusive" normal="1979">1979</unitdate>, <unitdate type="inclusive" normal="1981">1981</unitdate></unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Anti-Redlining</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>No-Fault</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>Intergovernmental Relations Within Michigan <unitdate type="inclusive" normal="1980/1982">1980-1982</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>International Relations <unitdate type="inclusive" normal="1969/1979">1969-1979</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Metropolitan Integration Study <unitdate type="inclusive" normal="1971/1972">1971-1972</unitdate>, <unitdate type="inclusive" normal="1975">1975</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Michigan Constitutional Convention <unitdate type="inclusive" normal="1948">1948</unitdate>, <unitdate type="inclusive" normal="1957/1962">1957-1962</unitdate>, <unitdate type="inclusive" normal="1977/1978">1977-1978</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Michigan Election Laws <unitdate type="inclusive" normal="1975/1979">1975-1979</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Michigan Taxation <unitdate type="inclusive" normal="1959">1959</unitdate>, <unitdate type="inclusive" normal="1967">1967</unitdate>, <unitdate type="inclusive" normal="1971/1977">1971-1977</unitdate>, <unitdate type="inclusive" normal="1983">1983</unitdate></unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Fiscal Problems</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Revenue Sharing</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 folders</extent>
+            </physdesc>
+            <unittitle>Miscellaneous <unitdate type="inclusive" normal="1943/1987">1943-1987</unitdate></unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>National Security <unitdate type="inclusive" normal="1982/1984">1982-1984</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <genreform normal="Photographs">Photographic Slides</genreform>
+            </unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Wayne County <unitdate type="inclusive" normal="1978">1978</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Social Services</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Juvenile Justice System <unitdate type="inclusive" normal="1964/1979">1964-1979</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Welfare</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">4</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1963/1969">1963-1969</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">4</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1971/1982">1971-1982</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>State Issues</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Public Welfare <unitdate type="inclusive" normal="1964/1965">1964-1965</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Transportation</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>SEMTA <unitdate type="inclusive" normal="1972/1982">1972-1982</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Wayne County Council <unitdate type="inclusive" normal="1952">1952</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Wayne County League of Women Voters <unitdate type="inclusive" normal="1930/1931">1930-1931</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Wayne County Government</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>Home Rule</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">4</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1944/1963">1944-1963</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">4</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1964/1972">1964-1972</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">4</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1973/1982">1973-1982</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Women's Issues</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Abortion; Equal Rights Amendment <unitdate type="inclusive" normal="1971/1985">1971-1985</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Mortgage Credit <unitdate type="inclusive" normal="1979/1980">1979-1980</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Women's Assembly III <unitdate type="inclusive" normal="1982">1982</unitdate></unittitle>
+          </did>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

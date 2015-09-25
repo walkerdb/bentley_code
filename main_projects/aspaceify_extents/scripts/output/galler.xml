@@ -1,0 +1,1897 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead.dtd">
+<ead>
+  <eadheader audience="internal" langencoding="iso639-2b" repositoryencoding="iso15511" dateencoding="iso8601" relatedencoding="Dublin Core">
+    <eadid countrycode="us" mainagencycode="MiU-H" publicid="-//us::MiU-H//TEXT us::MiU-H::galler.xml//EN" encodinganalog="identifier">umich-bhl-0066</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="title">Finding Aid for Bernard A. Galler Papers <date>1956-1996</date></titleproper>
+        <author encodinganalog="creator">Collection processed and finding aid prepared by Anne Frantilla</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="publisher">Bentley Historical Library, University of Michigan</publisher>
+        <date encodinganalog="date">1999</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created by Anne Frantilla <date>June 1999</date></creation>
+      <langusage>The finding aid is written in <language encodinganalog="language" langcode="eng">English.</language></langusage>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date>20150616</date>
+        <item>Corrected collection dates and extent.</item>
+      </change>
+      <change>
+        <date>20080617</date>
+        <item>Added 2006 accession, boxes 28-29</item>
+      </change>
+      <change>
+        <date>20031010</date>
+        <item>Converted to EAD2002 using Word macro and Xmetal</item>
+      </change>
+      <change>
+        <date>2000-06-13</date>
+        <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <frontmatter>
+    <titlepage>
+      <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
+      <titleproper>Finding Aid for <lb/>Bernard A. Galler Papers, <date type="inclusive">1956-1996</date></titleproper>
+      <author>Finding aid prepared by: <lb/>Anne Frantilla, 1999 <lb/>UARP Staff, 2006</author>
+    </titlepage>
+  </frontmatter>
+  <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
+    <did>
+      <origination>
+        <persname source="lcnaf" encodinganalog="100">Galler, Bernard A.</persname>
+      </origination>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">28.5 linear feet</extent>
+      </physdesc>
+      <unittitle encodinganalog="245">Bernard A. Galler Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1956/1996">1956-1996</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1960/1986">1960-1986</unitdate></unittitle>
+      <abstract>University of Michigan professor of mathematics, charter member of the department of computer and communication sciences; papers include biographical information; correspondence, 1959-1993; files relating to his participation on various boards and professional organizations; and files pertaining to his University of Michigan research activities and to his participation in university affairs and governance.</abstract>
+      <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">0066 Aa 2</unitid>
+      <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
+      <repository encodinganalog="852">
+        <corpname><subarea>Bentley Historical Library</subarea> University of Michigan</corpname>
+        <extptr href="bhladd" show="embed" actuate="onload"/>
+      </repository>
+      <physloc>Portions located in offsite storage; prior notification required for access.</physloc>
+    </did>
+    <descgrp type="admin">
+      <acqinfo encodinganalog="541">
+        <p>The collection was the gift of Mr. Galler and came to the library in three principal accessions, 1995-1996. Donor no. <num type="donor" encodinganalog="541$e">8437</num>.</p>
+      </acqinfo>
+      <accessrestrict encodinganalog="506">
+        <p>The collection is open for research.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+        <p>Copyright has been transferred to the Regents of the University of Michigan.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+        <p>item, folder title, box no., Bernard A. Galler Papers, Bentley Historical Library, University of Michigan</p>
+      </prefercite>
+    </descgrp>
+    <bioghist encodinganalog="545">
+      <p>Bernard A. Galler received a B.S. in Mathematics and a Ph.B. in Liberal Arts from the University of Chicago in 1946 and 1947. He earned a M.A. in Mathematics from the University of California in 1949 and a Ph.D. in Mathematics from the University of Chicago in 1955. He joined the University of Michigan Department of Mathematics in 1955 as an instructor; he was promoted to assistant professor in 1959, associate professor in 1962, and professor in 1966.</p>
+      <p>Galler was a pioneer in the field of computer science, helping to shape this discipline at the University of Michigan. In the early 1960s, he was active in the development of the new Communications Sciences Program, and in 1966, he became associate director of the Computing Center. His association with the center continued through 1991. He became a charter member of the new Department of Computer and Communication Sciences in 1966 and served as its chair from 1973 to 1975. In 1984, Galler was instrumental in negotiating the merger of the CCS department and the Department of Electrical Engineering and Computer Science.</p>
+      <p>Galler also contributed to the University of Michigan's many innovations in the computer field. From 1958 onward, the Computing Center of the University of Michigan was a leader in the development of general-purpose, highly-productive operating systems. In the mid-1950s MIDSAC and MIDAC computers built at the Willow Run Laboratory were among the first computers built and used at universities in the U.S. The MAD (Michigan Algorithm Decoder) translator, created around 1960 and used by the entire campus for a number of years, contained innovative language features which were introduced much later into popular, high-level languages.</p>
+      <p>Galler also served the wider university community as Associate Dean for Long Range Planning in the College of Literature, Science, and the Arts from 1975 to 1979. He served on many university-wide committees and task forces and, in addition, served as undergraduate counselor for the computer science degree program for many years. Very active professionally, Galler was president of the Association for Computing Machinery (ACM) from 1968 to 1970 and was active in the American Federation of Information Processing Societies (AFIPS). He received the AFIPS and ACM Distinguished Services Awards. In 1994, Galler retired from active faculty status after 38 years of service.</p>
+    </bioghist>
+    <scopecontent encodinganalog="520">
+      <p>The papers of Bernard A. Galler measure 28.87 linear feet and date from 1956 to 1994. The bulk of the papers document the years 1960 to 1986 and concern Galler's high level of involvement in the information processing profession at the University of Michigan, nationally, and internationally. The papers are arranged in five series: Biographical, Chronological Correspondence, Professional and Other Activities, University of Michigan and Audiotapes.</p>
+      <p>The materials acquired in 2006 (boxes 28-29) were from Galler's office located in the Center for Information Technology Integration (CITI). These materials (1.5 linear foot, 1957-1996) focus mainly on the Software Patent Institute. There were a few files from early years acquired with this accession and they are described as part of the previously established series Chronological Correspondence, Professional and Other Activities and University of Michigan. The exception was the addition of an Audiotape series that contains reel-to-reel tapes of lectures Alan J. Perlis gave in 1959.</p>
+    </scopecontent>
+    <controlaccess>
+      <p>
+        <extptr href="accnote" show="embed" actuate="onload"/>
+      </p>
+      <controlaccess>
+        <head>Subjects:</head>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80015740">American Federation of Information Processing Societies.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n78096869">Association for Computing Machinery.</corpname>
+        <subject source="lcsh" encodinganalog="650">Computers--Study and teaching.</subject>
+        <corpname source="lcnaf" encodinganalog="610">Corporation for Research and Educational Networking.</corpname>
+        <subject source="lcsh" encodinganalog="650">Computer science.</subject>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n88647701">Galler, Bernard A., 1928-</persname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80094504">University of Michigan. College of Engineering.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n88650382">University of Michigan. Computing Center.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Computer and Communication Sciences.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Electrical Engineering and Computer Sciences.</corpname>
+      </controlaccess>
+    </controlaccess>
+    <dsc type="combined">
+      <c01 level="series">
+        <did>
+          <unittitle>Biographical</unittitle>
+        </did>
+        <scopecontent>
+          <p>The series, Biographical, consists of one folder containing Galler's vitae and an interview conducted by his wife, Enid Galler, in 1981. The interview records Galler's reflections on the many activities and projects he was involved in the course of his career.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Vitae and transcript of oral interview</unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Chronological Correspondence <unitdate type="inclusive" normal="1959/1993">1959-1993</unitdate></unittitle>
+        </did>
+        <scopecontent>
+          <p>The Chronological Correspondence series dates from 1959 to 1993, although the bulk of it dates from 1961 to 1987. Measuring five feet, the correspondence reflects Galler's wide range of interests and activities in the information processing profession. Galler corresponded with those in industry and computer scientists at other universities both at a national and international level. Industry correspondents included those at Burroughs and Xerox. Galler's opinion was frequently sought on new products in the industry and for suggestions regarding candidates for positions and awards in academia and industry. His high level of professional involvement is also reflected in this series. Galler served on several external review committees for other universities in the 1970s and 1980s. The correspondence and reports surrounding these reviews offer the researcher glimpses of the status of computer science programs at other universities within the United States. Some of the institutions for which Galler served as a member of an external review committee include: The University of California at Berkeley in 1975, Virginia Polytechnic Institute in 1977, the University of New Mexico in 1982, and the University of Pittsburgh in 1986. The series also includes correspondence with students, in some cases long after they left University of Michigan. University of Michigan correspondence is included in this series as well. Correspondents include Robert Kohrflage, Bruce Arden, Anthony Ralston, Philip Dorn, Bob Rosin, and Alan Perlis.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">10 folders</extent>
+            </physdesc>
+            <unittitle>
+              <unitdate type="inclusive" normal="1959/1963">1959-1963</unitdate>
+            </unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 folders</extent>
+            </physdesc>
+            <unittitle>
+              <unitdate type="inclusive" normal="1964">1964</unitdate>
+            </unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">5 folders</extent>
+            </physdesc>
+            <unittitle>
+              <unitdate type="inclusive" normal="1966/1967">1966-1967</unitdate>
+            </unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">8 folders</extent>
+            </physdesc>
+            <unittitle>
+              <unitdate type="inclusive" normal="1969/1970">1969-1970</unitdate>
+            </unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">12 folders</extent>
+            </physdesc>
+            <unittitle>
+              <unitdate type="inclusive" normal="1971/1974">1971-1974</unitdate>
+            </unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">14 folders</extent>
+            </physdesc>
+            <unittitle>
+              <unitdate type="inclusive" normal="1975/1981">1975-1981</unitdate>
+            </unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">5</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">18 folders</extent>
+            </physdesc>
+            <unittitle>
+              <unitdate type="inclusive" normal="1982/1993">1982-1993</unitdate>
+            </unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">28</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">1 folder</extent>
+            </physdesc>
+            <unittitle>
+              <unitdate type="inclusive" normal="1992/1995">1992-1995</unitdate>
+            </unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Professional and Other Activities</unittitle>
+        </did>
+        <scopecontent>
+          <p>The series Professional and Other Activities is the largest in the collection, measuring 13.5 linear feet, and is divided into several subseries: Board Activities, Consulting, Projects, and Other Activities. This series reflects most clearly the high level of creative participation that Galler had in his profession.</p>
+        </scopecontent>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Board Activities</unittitle>
+          </did>
+          <scopecontent>
+            <p>The subseries, Board Activities, 1959 to 1993 (1.75 ft.), documents Galler's involvement either as a member of the board of directors or the advisory board of several companies. The longest periods of involvement are reflected in Data Use and Access Laboratories (DUALabs) and National CSS. Documentation of Galler's involvement with DUALabs dates from 1970 to 1985. DUALabs had a nonprofit mission of providing research, training and database development service for users of publicly available statistics, especially census data. Galler's primary correspondent was John C. Beresford, president. Galler was an active promoter of the company and corresponded with Beresford regarding the company's operations. In addition to correspondence, the DUALabs material includes financial information and board minutes. Beresford resigned from DUALabs in 1982 to establish a for-profit company, DUAL-Comm. Galler was a member of the Board of Directors of National CSS, an information services company, from 1975 to 1979. The records include correspondence, press releases, and board minutes.</p>
+          </scopecontent>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">6</container>
+              <unittitle>ArborText <unitdate type="inclusive" normal="1989">1989</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">6</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">14 folders</extent>
+              </physdesc>
+              <unittitle>DUALabs <unitdate type="inclusive" normal="1970/1985">1970-1985</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">9 folders</extent>
+              </physdesc>
+              <unittitle>National CSS <unitdate type="inclusive" normal="1975/1983">1975-1983</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Consulting</unittitle>
+          </did>
+          <scopecontent>
+            <p>The Consulting subseries documents various consulting activities in which Galler was involved, including acting as an expert witness in legal cases. The work for Booth Newspapers involved designing a computer system for production and business jobs for nine individual newspapers. The project is very well documented through correspondence.</p>
+          </scopecontent>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">4 folders</extent>
+              </physdesc>
+              <unittitle>Booth Newspaper <unitdate type="inclusive" normal="1963/1988">1963-1988</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>CalComp <unitdate type="inclusive" normal="1976/1977">1976-1977</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>City College of New York <unitdate type="inclusive" normal="1963/1964">1963-1964</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>General Motors <unitdate type="inclusive" normal="1971/1977">1971-1977</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>IBM <unitdate type="inclusive" normal="1974/1976">1974-1976</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">6 folders</extent>
+              </physdesc>
+              <unittitle>Israel <unitdate type="inclusive" normal="1967/1985">1967-1985</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Socony Mobile Oil Company <unitdate type="inclusive" normal="1960">1960</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Syracuse University <unitdate type="inclusive" normal="1967/1974">1967-1974</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Other Professional Activities</unittitle>
+          </did>
+          <scopecontent>
+            <p>The subseries titled Other Professional Activities, is the largest within the Professional Activities series and best documents Galler's wide ranging involvement in the profession. One of these profession affiliations was with the American Federation of Information Processing Societies. Galler was heavily involved in the efforts of AFIPS to establish an historical center to enable the profession to document itself. Galler's involvement with the Association for Computing Machinery, particularly his work on the Turing Award Committee underlines the extent of his professional network and his grasp of the profession in terms of contributions made.</p>
+            <p>Also included with this subseries is Galler's contributions to the creation of the Corporation for Research and Educational Networking (CREN). Created when the Because It's Time Network (BITNET) and the Computer Science Network (CSNET) merged in October 1989, the mission of CREN was to provide low-cost connection services, and to foster new network technology and applications in support of low-cost connections, for education and research in both the academic and industrial communities. CSNET was a project of the University Corporation for Atmospheric Research under contract to the National Science Foundation; it provided network communications services to organizations engaged in computer-related research, education, and advanced development. Most of its members were in computer science departments and in industry. BITNET served higher education and research facilities. The successful merger of the two was complex, technically and organizationally, and testifies to Galler's leadership and organizational skills.</p>
+            <p>Galler served on the Science Council for Applied Mathematics and Computer Science, which was the scientific board of directors for the Institute for Computer Applications in Science and Engineering (ICASE) and the Research Institute for Advanced Computer Science (RIACS). Funded by NASA, through the University Space Research Association, ICASE was established in 1982. It was chartered to carry out state-of-the-art research in computer science and engineering in areas of potential long-term application to NASA programs. Galler also chaired the planning committee for the Center of Excellence in Space Data and Information Science.</p>
+            <p>As a member of the Science Committee of the North Atlantic Treaty Organization in 1968, Galler participated in explorations of a software institute. The effort is noteworthy because it represents an early attempt to cooperate internationally on the development of software.</p>
+          </scopecontent>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Advanced Research Projects Agency <unitdate type="inclusive" normal="1964/1969">1964-1969</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Alcor <unitdate type="inclusive" normal="1964">1964</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>American Federation of Information Processing Societies (AFIPS)</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">8</container>
+                <unittitle>Correspondence <unitdate type="inclusive" normal="1973/1975">1973-1975</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">8</container>
+                <unittitle>China Trip <unitdate type="inclusive" normal="1987">1987</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">9</container>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">5 folders</extent>
+                </physdesc>
+                <unittitle>Committee on Electronic Funds Transfer Systems <unitdate type="inclusive" normal="1968/1979">1968-1979</unitdate></unittitle>
+                <physdesc altrender="whole">
+                  </physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">9</container>
+                <unittitle>Dissemination of Information Committee <unitdate type="inclusive" normal="1967/1968">1967-1968</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>History of Computing Committee</unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">9</container>
+                  <physdesc altrender="whole">
+                    <extent altrender="materialtype spaceoccupied">8 folders</extent>
+                  </physdesc>
+                  <unittitle>
+                    <unitdate type="inclusive" normal="1978/1983">1978-1983</unitdate>
+                  </unittitle>
+                  <physdesc altrender="whole">
+                    </physdesc>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">10</container>
+                  <unittitle>
+                    <unitdate type="inclusive" normal="1984/1985">1984-1985</unitdate>
+                  </unittitle>
+                </did>
+              </c05>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">10</container>
+                <unittitle>Pioneer Day <unitdate type="inclusive" normal="1986/1987">1986-1987</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">10</container>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">3 folders</extent>
+                </physdesc>
+                <unittitle>Publications Committee <unitdate type="inclusive" normal="1984/1988">1984-1988</unitdate></unittitle>
+                <physdesc altrender="whole">
+                  </physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">10</container>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">3 folders</extent>
+                </physdesc>
+                <unittitle>Spring Joint Computer Conference <unitdate type="inclusive" normal="1963/1964">1963-1964</unitdate></unittitle>
+                <physdesc altrender="whole">
+                  </physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">10</container>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">2 folders</extent>
+                </physdesc>
+                <unittitle>Taxonomy Committee <unitdate type="inclusive" normal="1977/1979">1977-1979</unitdate></unittitle>
+                <physdesc altrender="whole">
+                  </physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">10</container>
+                <unittitle>Twentieth Anniversary <unitdate type="inclusive" normal="1985/1986">1985-1986</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Association for Computing Machinery (ACM)</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">11</container>
+                <unittitle>Awards Committee <unitdate type="inclusive" normal="1977/1978">1977-1978</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">11</container>
+                <unittitle>Committee on the Dissemination of Information <unitdate type="inclusive" normal="1966/1967">1966-1967</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">11</container>
+                <unittitle>Committee on International Activities <unitdate type="inclusive" normal="1973/1976">1973-1976</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">11</container>
+                <unittitle>Committee on Member Attitudes to Non-Technical Activities, 1978-79</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">11</container>
+                <unittitle>Committee on Taxonomy of Computer Science and Engineering <unitdate type="inclusive" normal="1976/1981">1976-1981</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>Correspondence</unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">11</container>
+                  <physdesc altrender="whole">
+                    <extent altrender="materialtype spaceoccupied">7 folders</extent>
+                  </physdesc>
+                  <unittitle>
+                    <unitdate type="inclusive" normal="1964/1981">1964-1981</unitdate>
+                  </unittitle>
+                  <physdesc altrender="whole">
+                    </physdesc>
+                </did>
+              </c05>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">12</container>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">4 folders</extent>
+                </physdesc>
+                <unittitle>Council <unitdate type="inclusive" normal="1966/1967">1966-1967</unitdate></unittitle>
+                <physdesc altrender="whole">
+                  </physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">12</container>
+                <unittitle>Fortieth Anniversary Program <unitdate type="inclusive" normal="1985/1986">1985-1986</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">12</container>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">3 folders</extent>
+                </physdesc>
+                <unittitle>Government Organization Committee <unitdate type="inclusive" normal="1972/1975">1972-1975</unitdate></unittitle>
+                <physdesc altrender="whole">
+                  </physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">12</container>
+                <unittitle>National Conference <unitdate type="inclusive" normal="1964/1967">1964-1967</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">12</container>
+                <unittitle>Nominating Committee <unitdate type="inclusive" normal="1971/1973">1971-1973</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">12</container>
+                <unittitle>Programming Languages Committee <unitdate type="inclusive" normal="1965">1965</unitdate>, <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>Turing Award Committee</unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">12</container>
+                  <physdesc altrender="whole">
+                    <extent altrender="materialtype spaceoccupied">2 folders</extent>
+                  </physdesc>
+                  <unittitle>
+                    <unitdate type="inclusive" normal="1971/1979">1971-1979</unitdate>
+                  </unittitle>
+                  <physdesc altrender="whole">
+                    </physdesc>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">12</container>
+                  <physdesc altrender="whole">
+                    <extent altrender="materialtype spaceoccupied">2 folders</extent>
+                  </physdesc>
+                  <unittitle>
+                    <unitdate type="inclusive" normal="1988/1989">1988-1989</unitdate>
+                  </unittitle>
+                  <physdesc altrender="whole">
+                    </physdesc>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">13</container>
+                  <physdesc altrender="whole">
+                    <extent altrender="materialtype spaceoccupied">3 folders</extent>
+                  </physdesc>
+                  <unittitle>
+                    <unitdate type="inclusive" normal="1990/1992">1990-1992</unitdate>
+                  </unittitle>
+                  <physdesc altrender="whole">
+                    </physdesc>
+                </did>
+              </c05>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">13</container>
+                <unittitle>UM Student Chapter <unitdate type="inclusive" normal="1965/1967">1965-1967</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Award Nominations</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">13</container>
+                <unittitle>ACM <unitdate type="inclusive" normal="1974/1984">1974-1984 (scattered dates)</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">13</container>
+                <unittitle>Other <unitdate type="inclusive" normal="1971/1992">1971-1992 (scattered dates)</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">13</container>
+              <unittitle>Ben Gurion University Review Committee <unitdate type="inclusive" normal="1986/1987">1986-1987</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">13</container>
+              <unittitle>Berg, Herman <unitdate type="inclusive" normal="1993">1993</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">13</container>
+              <unittitle>Bredt, Thomas <unitdate type="inclusive" normal="1980">1980</unitdate>, <unitdate type="inclusive" normal="1986">1986</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">13</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">3 folders</extent>
+              </physdesc>
+              <unittitle>Charles Babbage Institute/Foundation <unitdate type="inclusive" normal="1979/1994">1979-1994</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">13</container>
+              <unittitle>Committee for Alexander Y. Lerner <unitdate type="inclusive" normal="1976/1981">1976-1981</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">13</container>
+              <unittitle>Committee on Experimental Computer Science (Feldman Committee) <unitdate type="inclusive" normal="1979">1979</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">13</container>
+              <unittitle>Computer Products Testing Laboratory <unitdate type="inclusive" normal="1981/1982">1981-1982</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">13</container>
+              <unittitle>Computer Science Board <unitdate type="inclusive" normal="1974">1974</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">13</container>
+              <unittitle>Conference Board of the Mathematical Sciences <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Corporation for Research and Educational Networking (CREN)</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">14</container>
+                <unittitle>Computer Science Network (CSNET) Executive Committee Meetings <unitdate type="inclusive" normal="1984/1989">1984-1989</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">14</container>
+                <unittitle>Network Merger Plans <unitdate type="inclusive" normal="1988">1988</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>Board of Trustees</unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">14</container>
+                  <physdesc altrender="whole">
+                    <extent altrender="materialtype spaceoccupied">3 folders</extent>
+                  </physdesc>
+                  <unittitle>
+                    <unitdate type="inclusive" normal="1989/1990">1989-1990</unitdate>
+                  </unittitle>
+                  <physdesc altrender="whole">
+                    </physdesc>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">15</container>
+                  <physdesc altrender="whole">
+                    <extent altrender="materialtype spaceoccupied">2 folders</extent>
+                  </physdesc>
+                  <unittitle>
+                    <unitdate type="inclusive" normal="1991/1992">1991-1992</unitdate>
+                  </unittitle>
+                  <physdesc altrender="whole">
+                    </physdesc>
+                </did>
+              </c05>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">15</container>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">4 folders</extent>
+                </physdesc>
+                <unittitle>Correspondence and Reports <unitdate type="inclusive" normal="1988/1990">1988-1990</unitdate></unittitle>
+                <physdesc altrender="whole">
+                  </physdesc>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">15</container>
+              <unittitle>Council for Israel's Economic Development <unitdate type="inclusive" normal="1969/1970">1969-1970</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">15</container>
+              <unittitle>Crabtree, Robert <unitdate type="inclusive" normal="1962">1962</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">15</container>
+              <unittitle>EDEBE Workshop <unitdate type="inclusive" normal="1985/1986">1985-1986</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">15</container>
+              <unittitle>Feng, Tse-Yun <unitdate type="inclusive" normal="1977">1977</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">15</container>
+              <unittitle>Intelligent Vehicle Highway System Architecture Working Group <unitdate type="inclusive" normal="1991">1991</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Jerusalem Conference on Information Technology (JCIT)</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">15</container>
+                <unittitle><unitdate type="inclusive" normal="1971">1971</unitdate> JCIT</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">15</container>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">2 folders</extent>
+                </physdesc>
+                <unittitle><unitdate type="inclusive" normal="1978">1978</unitdate> JCIT</unittitle>
+                <physdesc altrender="whole">
+                  </physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">16</container>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">3 folders</extent>
+                </physdesc>
+                <unittitle><unitdate type="inclusive" normal="1984">1984</unitdate> JCIT</unittitle>
+                <physdesc altrender="whole">
+                  </physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">16</container>
+                <unittitle><unitdate type="inclusive" normal="1990">1990</unitdate> JCIT</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">16</container>
+              <unittitle>Jet Propulsion Laboratories <unitdate type="inclusive" normal="1972">1972</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">16</container>
+              <unittitle>MIT Press History Series <unitdate type="inclusive" normal="1984/1986">1984-1986</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">16</container>
+              <unittitle>Michigan Evaluation Resource Center <unitdate type="inclusive" normal="1982/1984">1982-1984</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">16</container>
+              <unittitle>Michigan Technology Council <unitdate type="inclusive" normal="1981/1983">1981-1983</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">16</container>
+              <unittitle>National Academy of Science/National Research Council Division of Mathematical Sciences <unitdate type="inclusive" normal="1971/1974">1971-1974</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">16</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">4 folders</extent>
+              </physdesc>
+              <unittitle>National Center for Atmospheric Research Computing Facility Advisory Panel <unitdate type="inclusive" normal="1972/1974">1972-1974</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">16</container>
+              <unittitle>National Council of Teachers of Mathematics <unitdate type="inclusive" normal="1961/1962">1961-1962</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>National Research Council</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">17</container>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">2 folders</extent>
+                </physdesc>
+                <unittitle>Computer Science Planning Group <unitdate type="inclusive" normal="1975/1980">1975-1980</unitdate></unittitle>
+                <physdesc altrender="whole">
+                  </physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">17</container>
+                <unittitle>Computer Science Technology Board <unitdate type="inclusive" normal="1977/1979">1977-1979</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>National Science Foundation</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">17</container>
+                <unittitle>Computer Science and Engineering Advisory Panel <unitdate type="inclusive" normal="1971/1974">1971-1974</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">17</container>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">5 folders</extent>
+                </physdesc>
+                <unittitle>Computer Science and Engineering Research Study ("Arden Study") <unitdate type="inclusive" normal="1974/1981">1974-1981</unitdate></unittitle>
+                <physdesc altrender="whole">
+                  </physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">17</container>
+                <unittitle>Division of Computing Research (formerly Office of Computing Activities) <unitdate type="inclusive" normal="1973/1986">1973-1986</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>North Atlantic Treaty Operation (NATO)</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">17</container>
+                <unittitle>International Institute on Computer Science <unitdate type="inclusive" normal="1968/1969">1968-1969</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">17</container>
+                <unittitle>International Summer School on Computer Programming <unitdate type="inclusive" normal="1967">1967</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">17</container>
+                <unittitle>Munich Conference <unitdate type="inclusive" normal="1971/1972">1971-1972</unitdate></unittitle>
+              </did>
+              <odd>
+                <p>(includes black and white <genreform normal="Photogrpahs">photographs</genreform>)</p>
+              </odd>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">17</container>
+              <unittitle>Northwest Computer Association Conference <unitdate type="inclusive" normal="1962">1962</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">17</container>
+              <unittitle>South America <unitdate type="inclusive" normal="1972">1972</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">18</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">5 folders</extent>
+              </physdesc>
+              <unittitle>USA/Japan Seminar <unitdate type="inclusive" normal="1984/1987">1984-1987</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">18</container>
+              <unittitle>UNIVAC I Oral History Conference <unitdate type="inclusive" normal="1990">1990</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Universities Space Research Association</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">18</container>
+                <unittitle>Committee for NASA/Langley Computer Science Center <unitdate type="inclusive" normal="1972">1972</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">18</container>
+                <unittitle>Research Institute for Applications of Computer Science <unitdate type="inclusive" normal="1982">1982</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">18</container>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">4 folders</extent>
+                </physdesc>
+                <unittitle>Science Council <unitdate type="inclusive" normal="1983/1991">1983-1991</unitdate></unittitle>
+                <physdesc altrender="whole">
+                  </physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">18</container>
+                <unittitle>Center of Excellence in Space Data and Information Science Planning Committee and Science Council <unitdate type="inclusive" normal="1985/1987">1985-1987</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">19</container>
+              <unittitle>University of Hawaii Summer Conference <unitdate type="inclusive" normal="1966">1966</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">19</container>
+              <unittitle>University of Maryland Office Automation Seminar <unitdate type="inclusive" normal="1982/1983">1982-1983</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">19</container>
+              <unittitle>University of Nijmegen <unitdate type="inclusive" normal="1971/1972">1971-1972</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">19</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">3 folders</extent>
+              </physdesc>
+              <unittitle>Wolfston, James <unitdate type="inclusive" normal="1977/1992">1977-1992</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Projects</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">19</container>
+              <unittitle>Barak Project <unitdate type="inclusive" normal="1990">1990</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Computer Analysis of Musical Sounds</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">19</container>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">3 folders</extent>
+                </physdesc>
+                <unittitle>Correspondence <unitdate type="inclusive" normal="1976/1983">1976-1983</unitdate></unittitle>
+                <physdesc altrender="whole">
+                  </physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>Grants and Funding</unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">19</container>
+                  <unittitle>National Endowment for the Humanities</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">19</container>
+                  <unittitle>National Science Foundation</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">19</container>
+                  <unittitle>Office of Naval Research</unittitle>
+                </did>
+              </c05>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">20</container>
+                <unittitle>MUSE Program Code</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">20</container>
+                <unittitle>Reports and Papers</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">20</container>
+              <unittitle>Computing News Article <unitdate type="inclusive" normal="1958/1959">1958-1959</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">20</container>
+              <unittitle>Crossword Puzzle Software Project <unitdate type="inclusive" normal="1987">1987</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Dwyer/Galler Project</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">20</container>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">3 folders</extent>
+                </physdesc>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1956/1969">1956-1969</unitdate>
+                </unittitle>
+                <physdesc altrender="whole">
+                  </physdesc>
+              </did>
+              <odd>
+                <p>(includes General Motors reports)</p>
+              </odd>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">20</container>
+                <unittitle>Dwyer Report <unitdate type="inclusive" normal="1956">1956</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">20</container>
+              <unittitle>Fluid Dynamics Handbook Chapter <unitdate type="inclusive" normal="1958/1960">1958-1960</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">20</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
+              </physdesc>
+              <unittitle>Information Utility <unitdate type="inclusive" normal="1979/1983">1979-1983</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">20</container>
+              <unittitle>Linear Programming Paper <unitdate type="inclusive" normal="1958">1958</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">20</container>
+              <unittitle>Perlis Memorial <unitdate type="inclusive" normal="1991">1991</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">20</container>
+              <unittitle>Piszczalski Projects <unitdate type="inclusive" normal="1983/1992">1983-1992</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">20</container>
+              <unittitle>Preservation of Microcomputer Software Symposium <unitdate type="inclusive" normal="1989/1990">1989-1990</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">20</container>
+              <unittitle>Rajlich/Galler Proposal <unitdate type="inclusive" normal="1984">1984</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">21</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
+              </physdesc>
+              <unittitle>Software Engineering Institute <unitdate type="inclusive" normal="1983/1984">1983-1984</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">21</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">8 folders</extent>
+              </physdesc>
+              <unittitle>Software Patent Institute <unitdate type="inclusive" normal="1990/1993">1990-1993</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">21</container>
+              <unittitle>U.S. Air Force Programming Systems Evaluation <unitdate type="inclusive" normal="1962/1963">1962-1963</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">22</container>
+              <unittitle>Visually Impaired Terminals <unitdate type="inclusive" normal="1982/1984">1982-1984</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">22</container>
+              <unittitle>Voice Recognition System <unitdate type="inclusive" normal="1979">1979</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">22</container>
+              <unittitle>Wilson/Galler Project <unitdate type="inclusive" normal="1962">1962</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">22</container>
+              <unittitle>Word Processing Service Proposal <unitdate type="inclusive" normal="1981">1981</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">28</container>
+            <unittitle>Aerobus <unitdate type="inclusive" normal="1977">1977</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">28</container>
+            <unittitle>Algol History <unitdate type="inclusive" normal="1960">1960</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">28</container>
+            <unittitle>OmniText, Business Plan Summary <unitdate type="inclusive" normal="1971">1971</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Papers</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">28</container>
+              <unittitle><title render="italic">Criteria for the Design of a Language</title>, not dated (with A.J. Perlis)</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">28</container>
+              <unittitle><title render="italic">Generation of Computer Programs by a Computer</title>, (with Robert M. Graham), not dated</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Publications</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">28</container>
+              <unittitle>
+                <title render="italic">A 704 Program for the Solution of a Distribution Problem with Few Shippers</title>
+                <unitdate type="inclusive" normal="1957-06-11">June 11, 1957</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">28</container>
+              <unittitle><title render="italic">704 Program for the Solution of a Generalized Distribution Problem</title>, <unitdate type="inclusive" normal="1957-03">March 1957</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">28</container>
+              <unittitle><title render="italic">The Language of Computers: An Introduction</title>, <unitdate type="inclusive" normal="1961">1961</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">28</container>
+              <unittitle>
+                <title render="italic">Translating the Method of Reduced Matrices to Machine</title>
+                <unitdate type="inclusive" normal="1957-03">March 1957</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Software Patent Institute</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">28</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">3 folders</extent>
+              </physdesc>
+              <unittitle>General Files <unitdate type="inclusive" normal="1994/1996">1994-1996</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">28</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">3 folders</extent>
+              </physdesc>
+              <unittitle>Board of Trustees Meeting <unitdate type="inclusive" normal="1994/1996">1994-1996</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">28</container>
+              <unittitle>Education Committee <unitdate type="inclusive" normal="1992/1993">1992-1993</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">28</container>
+              <unittitle>Executive Committee Meeting <unitdate type="inclusive" normal="1994">1994</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>University of Michigan</unittitle>
+        </did>
+        <scopecontent>
+          <p>Within the University of Michigan series, Galler's research activities and his participation in university affairs and governance are documented. Of note are the folders on the Computer Aided Engineering Network (CAEN) within the College of Engineering. Started in 1982, CAEN responded to a need for expanded computing power for students and faculty through university-owned machines and unlimited access for students and faculty. These folders include memoranda among the CAEN executive committee, Executive Committee agendas, and other papers. The researcher should also consult the records of the College of Engineering for more information on this subject.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">22</container>
+            <unittitle>Applied Linguistics Program <unitdate type="inclusive" normal="1985/1986">1985-1986</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">22</container>
+            <unittitle>Center for Information Technology Integration <unitdate type="inclusive" normal="1986">1986</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">22</container>
+            <unittitle>Coalition for the Analysis of Public Issues <unitdate type="inclusive" normal="1974">1974</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>College of Engineering</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">22</container>
+              <unittitle>Computer, Information and Control Engineering Program Review <unitdate type="inclusive" normal="1974/1977">1974-1977</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">22</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">10 folders</extent>
+              </physdesc>
+              <unittitle>Computer Aided Engineering Network (CAEN) <unitdate type="inclusive" normal="1983/1988">1983-1988</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">23</container>
+              <unittitle>Department of Electrical Engineering and Computer Science Computing Needs <unitdate type="inclusive" normal="1984/1987">1984-1987</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">23</container>
+              <unittitle>Engineering Design Project <unitdate type="inclusive" normal="1965">1965</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Engineering Summer Conference</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">23</container>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">3 folders</extent>
+                </physdesc>
+                <unittitle>Correspondence and Other Papers <unitdate type="inclusive" normal="1966/1974">1966-1974</unitdate></unittitle>
+                <physdesc altrender="whole">
+                  </physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">23</container>
+                <unittitle>Perlis Lecture Notes <unitdate type="inclusive" normal="1959">1959</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">23</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 folders</extent>
+            </physdesc>
+            <unittitle>Committee on Access to Academic Records <unitdate type="inclusive" normal="1974/1976">1974-1976</unitdate></unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">23</container>
+            <unittitle>Committee on Computer Science and Engineering <unitdate type="inclusive" normal="1982">1982</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">23</container>
+            <unittitle>Computer Center Search Committee <unitdate type="inclusive" normal="1976/1977">1976-1977</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">23</container>
+            <unittitle>Computing Center Dedication <unitdate type="inclusive" normal="1971">1971</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">23</container>
+            <unittitle>Computer Research Laboratory <unitdate type="inclusive" normal="1982/1984">1982-1984</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Computer Registration Involving Student Participation (CRISP)</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">23</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">3 folders</extent>
+              </physdesc>
+              <unittitle>
+                <unitdate type="inclusive" normal="1971/1973">1971-1973</unitdate>
+              </unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">24</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">3 folders</extent>
+              </physdesc>
+              <unittitle>
+                <unitdate type="inclusive" normal="1973/1975">1973-1975</unitdate>
+              </unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">24</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">12 folders</extent>
+            </physdesc>
+            <unittitle>Correspondence <unitdate type="inclusive" normal="1965/1994">1965-1994</unitdate></unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Department of Computer and Communication Sciences</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">25</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">4 folders</extent>
+              </physdesc>
+              <unittitle>Correspondence <unitdate type="inclusive" normal="1968/1972">1968-1972</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">25</container>
+              <unittitle>Honors Council <unitdate type="inclusive" normal="1981/1982">1981-1982</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">25</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">3 folders</extent>
+            </physdesc>
+            <unittitle>English Composition Board <unitdate type="inclusive" normal="1981/1986">1981-1986</unitdate></unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Governance Activities</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">25</container>
+              <unittitle>Building Committee <unitdate type="inclusive" normal="1973">1973</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">25</container>
+              <unittitle>General <unitdate type="inclusive" normal="1968/1972">1968-1972</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">25</container>
+              <unittitle>Commission on Role of the Student in Decision-Making <unitdate type="inclusive" normal="1967/1969">1967-1969</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">25</container>
+            <unittitle>Historical Scientific Equipment <unitdate type="inclusive" normal="1984/1990">1984-1990</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">25</container>
+            <unittitle>Institute For Science and Technology Committee on Adaptive Systems <unitdate type="inclusive" normal="1961">1961</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">26</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">3 folders</extent>
+            </physdesc>
+            <unittitle>Intelligent Vehicle Highway System Project <unitdate type="inclusive" normal="1988/1991">1988-1991</unitdate></unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">26</container>
+            <unittitle>Internet <unitdate type="inclusive" normal="1984/1986">1984-1986</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">26</container>
+            <unittitle>IBM Proposals <unitdate type="inclusive" normal="1983/1984">1983-1984</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">26</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 folders</extent>
+            </physdesc>
+            <unittitle>Laboratory for Music and Technology <unitdate type="inclusive" normal="1976/1981">1976-1981</unitdate></unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Literature, Science, and the Arts</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">26</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
+              </physdesc>
+              <unittitle>Executive Committee <unitdate type="inclusive" normal="1970/1971">1970-1971</unitdate>, <unitdate type="inclusive" normal="1973/1975">1973-1975</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">26</container>
+              <unittitle>Internship <unitdate type="inclusive" normal="1979/1981">1979-1981</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>MAD (Michigan Aglorithm Decoder)</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">26</container>
+              <unittitle>MAD DOGMA <unitdate type="inclusive" normal="1959">1959</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">26</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
+              </physdesc>
+              <unittitle>MAD /1 Meetings <unitdate type="inclusive" normal="1967/1969">1967-1969</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">26</container>
+              <unittitle>MAD Definition Facility Paper <unitdate type="inclusive" normal="1968/1969">1968-1969</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">26</container>
+            <unittitle>MTS/Pioneer High School <unitdate type="inclusive" normal="1975/1980">1975-1980</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">26</container>
+            <unittitle>Minority students <unitdate type="inclusive" normal="1969/1970">1969-1970</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(including 10% black enrollment committee)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Sabbaticals</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">26</container>
+              <unittitle>University of Amsterdam <unitdate type="inclusive" normal="1964/1965">1964-1965</unitdate></unittitle>
+            </did>
+            <odd>
+              <p>(Strichting Mathematisch Centrum-worked with Alan Perlis on book on Automatic Programming)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">26</container>
+              <unittitle>University of Newcastle <unitdate type="inclusive" normal="1973">1973</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">26</container>
+              <unittitle>General <unitdate type="inclusive" normal="1980/1988">1980-1988</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">26</container>
+            <unittitle>SMILE Language <unitdate type="inclusive" normal="1967">1967</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Teaching</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">27</container>
+              <unittitle>Computer Science 181 <unitdate type="inclusive" normal="1986">1986</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">27</container>
+              <unittitle>Communication Sciences 274 <unitdate type="inclusive" normal="1966">1966</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">27</container>
+              <unittitle>CCS 673 <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">27</container>
+              <unittitle>History of Programming Languages CS/EECS 498 <unitdate type="inclusive" normal="1992">1992</unitdate></unittitle>
+            </did>
+            <odd>
+              <p>(taught by Jean Sammet)</p>
+            </odd>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">27</container>
+            <unittitle>University Committee on Rights of Privacy and Access to Information (UCRPAI) <unitdate type="inclusive" normal="1976/1980">1976-1980</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(concerning issue of privacy and need to reveal social security number)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">27</container>
+            <unittitle>Word Processing Coordinating Committee <unitdate type="inclusive" normal="1979/1982">1979-1982</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">28</container>
+            <unittitle>Engineering Summer Conferences <unitdate type="inclusive" normal="1971">1971</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Teaching</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">28</container>
+              <unittitle>CCS673, <unitdate type="inclusive" normal="1972">Winter 1972</unitdate> (CRISP System development)</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">28</container>
+              <unittitle>CCS673, <unitdate type="inclusive" normal="1975">Winter 1975</unitdate> (Smith II User Manual)</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">28</container>
+              <unittitle>Dissertation Committee Correspondence <unitdate type="inclusive" normal="1978/1993" certainty="approximate">circa 1978-1993</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <container type="box" label="Box">29</container>
+          <unittitle>Audiotapes <unitdate type="inclusive" normal="1959/1960">1959-1960</unitdate></unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">29</container>
+            <unittitle>Alan Perlis Lectures, June / July, 1959</unittitle>
+            <physdesc>
+              <physfacet>reel-to-reel audiotapes</physfacet>
+            </physdesc>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Video Material</unittitle>
+        </did>
+        <scopecontent>
+          <p>The Video Materials series consists of original 16mm films and videotapes and DVD copies of presentations by Galler on computer languages and demonstrations of the use of the IMB card punch and the Michigan Terminal Operating System (MTS).and a film on the U-M Computing Center's Concomp Project. All were produced by the University of Michigan Television Center. Also included in the collection is recording of part of a symposium held at Iowa State University honoring John V. Atanosoff. The main speaker discusses the patent lawsuit against Sperry-Rand that established Atanosoff's priority in the development of the electronic digital computer. (Original films are stored in Cold Room</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">29</container>
+            <unittitle>Time-Sharing Capabilities: Parts 1 and 2, by Prof. Bernard Galler <unitdate type="inclusive" normal="1972-07-13">July 13, 1972</unitdate></unittitle>
+            <physdesc>
+              <physfacet>2 EIAJ videotapes, converted to 1 DVD</physfacet>
+            </physdesc>
+            <unitid>0066-1</unitid>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">29</container>
+            <unittitle>Use of the IBM 29 Punch Card: Parts ! and !!</unittitle>
+            <physdesc>
+              <physfacet>2 16mm films converted to 1 DVD</physfacet>
+            </physdesc>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>Part: Basic Operation of Card Punch (</unittitle>
+              <physdesc>
+                <physfacet>22: Minutes</physfacet>
+              </physdesc>
+              <unitid>006-2-1</unitid>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Part II: Advanced Use of Punch Cards</unittitle>
+              <physdesc>
+                <physfacet>29 minutes 40 seconds</physfacet>
+              </physdesc>
+              <unitid>006-2-1</unitid>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">29</container>
+            <unittitle>MTS [Intro to use of the Michigan Terminal System]</unittitle>
+            <physdesc>
+              <physfacet>betaSP videotape converted to 1 DVD</physfacet>
+            </physdesc>
+            <unitid>006-3</unitid>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">29</container>
+            <unittitle>Introduction to Assembler Language: Parts 1 and 2 <unitdate type="inclusive" normal="1975-09-20">September 20, 1975</unitdate></unittitle>
+            <physdesc>
+              <physfacet>2 3/d-inc videotapes converted to 1 DVD</physfacet>
+            </physdesc>
+            <unitid>006-4</unitid>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">29</container>
+            <unittitle>John V. Atansoff Day Panel Discussion, at Iowa State Anniversary <unitdate type="inclusive" normal="1983-10-21">October 21, 1983</unitdate></unittitle>
+            <physdesc>
+              <physfacet>1 3/4-inch tapes converted to DVD, 3 copies</physfacet>
+            </physdesc>
+            <unitid>006-5</unitid>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">29</container>
+            <unittitle>"*MOMs film <unitdate type="inclusive" normal="1983-10-21">October 21, 1983</unitdate></unittitle>
+            <physdesc>
+              <physfacet>1 3/4-inch tapes converted to DVD, 3 copies</physfacet>
+            </physdesc>
+            <unitid>006-6</unitid>
+          </did>
+          <odd>
+            <p>(work print footage and edited use print, notes in cannister)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>ConComp Project <unitdate type="inclusive" normal="1966" certainty="approximate">circa 1966</unitdate></unittitle>
+            <physdesc>
+              <physfacet>16mm film</physfacet>
+            </physdesc>
+            <unitid>006-7</unitid>
+          </did>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

@@ -1,0 +1,605 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead.dtd">
+<ead>
+  <eadheader audience="internal" langencoding="iso639-2b" repositoryencoding="iso15511" dateencoding="iso8601" relatedencoding="Dublin Core" scriptencoding="iso15924" countryencoding="iso3166-1">
+    <eadid countrycode="us" mainagencycode="MiU-H" publicid="us//::miu-h//TXT us::miu-h::rabinov.xml//EN" encodinganalog="Identifier">umich-bhl-85357</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="Title">Finding Aid for Sam Rabinovitz papers, 1940-1977</titleproper>
+        <author encodinganalog="Creator">Collection processed and finding aid created by Michigan Historical Collections staff</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="Publisher">Bentley Historical Library, University of Michigan</publisher>
+        <date encodinganalog="Date" normal="2008">2008</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created by Thomas E. Powers <date>January 2008</date></creation>
+      <langusage encodinganalog="Language">The finding aid is written in <language langcode="eng" scriptcode="Latn">English</language></langusage>
+      <descrules>Finding aid prepared using Describing Archives: A Content Standard (DACS)</descrules>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date>2008-01-22</date>
+        <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <frontmatter>
+    <titlepage>
+      <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
+      <titleproper>Finding aid for <lb/>Sam Rabinovitz papers, 1940-1977</titleproper>
+      <author>Finding aid created by <lb/>Michigan Historical Collections staff</author>
+    </titlepage>
+  </frontmatter>
+  <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
+    <did>
+      <origination>
+        <persname source="lcnaf" encodinganalog="100">Rabinovitz, Sam.</persname>
+      </origination>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">2 linear feet</extent>
+      </physdesc>
+      <unittitle encodinganalog="245">Sam Rabinovitz papers <unitdate type="inclusive" encodinganalog="245$f" normal="1940/1977">1940-1977</unitdate></unittitle>
+      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">85357 Aa 2</unitid>
+      <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
+      <abstract>Executive secretary, 1950-1969, of the Michigan Youth Commission. Correspondence, 1950-1971, and other papers relating to the work of the Michigan Youth Commission and its Youth Advisory Council, including reports and materials on state and national conferences; also photographs.</abstract>
+      <repository>
+        <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea>, University of Michigan</corpname>
+        <extptr href="bhladd" show="embed" actuate="onload"/>
+      </repository>
+      <physloc>Portions located in offsite storage; prior notification required for access.</physloc>
+    </did>
+    <descgrp type="admin">
+      <acqinfo encodinganalog="541">
+        <p>The collection was the gift of Sam Rabinovitz (donor no. <num type="donor" encodinganalog="541$e">6233</num>) and came to the library in 1978.</p>
+      </acqinfo>
+      <accruals encodinganalog="584">
+        <p>No further additions to the records are expected.</p>
+      </accruals>
+      <accessrestrict encodinganalog="506">
+        <p>The collection is open to research.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+        <p>Copyright is held by the Regents of the University of Michigan.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+        <p>[item], folder, box,
+Sam Rabinovitz papers, Bentley Historical Library, University of Michigan</p>
+      </prefercite>
+    </descgrp>
+    <bioghist encodinganalog="545">
+      <p>Sam Rabinovitz served as executive secretary of the Michigan Youth Commission, a citizens' advisory organization on the problems of youth, from 1950 to 1969.</p>
+    </bioghist>
+    <scopecontent encodinganalog="520">
+      <p>The Sam Rabinovitz papers consist of correspondence, 1950-1971, other papers and photographs relating to the work of the Michigan Youth Commission and its Youth Advisory Council, including reports and materials on state and national conferences.
+The collection is arranged into the following series: Biographical; Correspondence; Organizational; Conference materials; and Speeches and other Materials</p>
+    </scopecontent>
+    <controlaccess>
+      <p>
+        <extptr href="accnote" show="embed" actuate="onload"/>
+      </p>
+      <controlaccess>
+        <head>Subjects:</head>
+        <subject source="lcsh" encodinganalog="650">Juvenile delinquency--Michigan.</subject>
+        <corpname source="lcnaf" encodinganalog="610">Michigan Youth Commission.</corpname>
+        <persname source="lcnaf" encodinganalog="600">Rabinovitz, Sam.</persname>
+        <subject source="lcsh" encodinganalog="650">Youth--Michigan.</subject>
+      </controlaccess>
+      <controlaccess>
+        <head>Subjects - Visual Materials:</head>
+        <corpname source="lcnaf" encodinganalog="610">Michigan Youth Commission.</corpname>
+        <persname source="lcnaf" encodinganalog="600">Rabinovitz, Sam.</persname>
+      </controlaccess>
+      <controlaccess>
+        <head>Genre Terms:</head>
+        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+      </controlaccess>
+    </controlaccess>
+    <dsc type="combined">
+      <c01 level="series">
+        <did>
+          <unittitle>Biographical</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Miscellaneous</unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Correspondence</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">17 folders</extent>
+            </physdesc>
+            <unittitle>
+              <unitdate type="inclusive">Undated</unitdate>
+              <unitdate type="inclusive" normal="1951/1971">1951-1971</unitdate>
+            </unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Correspondence with Margaret Price <unitdate type="inclusive">undated</unitdate>, <unitdate type="inclusive" normal="1950/1956">1950-1956</unitdate></unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Organizational</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>American Red Cross Educational Advisory Committee <unitdate type="inclusive" normal="1961/1962">1961-1962</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Michigan Youth Guidance Program <unitdate type="inclusive" normal="1940/1945">1940-1945</unitdate> (printed materials)</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Michigan Youth Commission</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Purpose, Organization. and History</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Annual Reports <unitdate type="inclusive" normal="1952/1956">1952-1956</unitdate>, <unitdate type="inclusive" normal="1960/1968">1960-1968</unitdate> (incomplete)</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Program Description Statements <unitdate type="inclusive" normal="1969/1970">1969-1970</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Minutes</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1956">1956</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1969">1969</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Reports</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <unittitle>
+                  <unitdate type="inclusive">Undated</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">2 folders</extent>
+                </physdesc>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1950">1950</unitdate>
+                </unittitle>
+                <physdesc altrender="whole">
+                  </physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1953/1954">1953-1954</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1955/1957">1955-1957</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1959">1959</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1960/1961">1960-1961</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">2 folders</extent>
+                </physdesc>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1964">1964</unitdate>
+                </unittitle>
+                <physdesc altrender="whole">
+                  </physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1965/1967">1965-1967</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1968">1968</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1969">1969</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle><unitdate type="inclusive" normal="1960">1960</unitdate> White House Conference Follow-up Committee</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <unittitle>Correspondence and reports</unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">2</container>
+                  <unittitle>
+                    <unitdate type="inclusive" normal="1960">1960</unitdate>
+                  </unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">2</container>
+                  <unittitle>
+                    <unitdate type="inclusive" normal="1961/1962">1961-1962</unitdate>
+                  </unittitle>
+                </did>
+              </c05>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle>Membership lists</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Michigan Forum on Children and Youth <unitdate type="inclusive" normal="1963-10-18">October 18, 1963</unitdate></unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle>Surveys of suggestions <unitdate type="inclusive" normal="1962">1962</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>Correspondence and reports</unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">2</container>
+                  <unittitle>
+                    <unitdate type="inclusive" normal="1962">1962</unitdate>
+                  </unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">2</container>
+                  <unittitle>
+                    <unitdate type="inclusive" normal="1963">1963</unitdate>
+                  </unittitle>
+                </did>
+              </c05>
+            </c04>
+          </c03>
+          <c03 level="item">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>State Delinquency Project <unitdate type="inclusive" normal="1961/1963">1961-1963</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Detroit Delinquency Project <unitdate type="inclusive" normal="1962">1962</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle><unitdate type="inclusive" normal="1970">1970</unitdate> Michigan White House Conference Committee</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1968/1969">1968-1969</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1970">1970</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Testimony on Legislation <unitdate type="inclusive" normal="1960/1969" certainty="approximate">1960s</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Newsletters <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Membership lists</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Miscellaneous</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Youth Advisory Council (to the Michigan Youth Commission)</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>General</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Eighteen Year Old Vote</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Preparation for Summer Employment Days <unitdate type="inclusive" normal="1957-05-06/1957-05-08">May 6-8, 1957</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Smoking Survey <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Newsletters</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Articles about YAC</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Thesis <unitdate type="inclusive" normal="1962">1962</unitdate> by Praim Sinanan Singh, entitled, "Characteristics and Participation of the Youth Advisory Council to the Michigan Youth Commission" (University of Michigan)</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Thesis <unitdate type="inclusive" normal="1959">1959</unitdate> by Lauren Wondergem, entitled, "The Michigan Youth Advisory Council to the Michigan Youth Commission" (University of Michigan)</unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Conference materials:</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle><unitdate type="inclusive" normal="1948-11-11/1948-11-13">November 11-13, 1948</unitdate> Governor's Conference on Children and Youth in Michigan</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle><unitdate type="inclusive" normal="1950-12-03/1950-12-07">December 3-7, 1950</unitdate> White House Conference on Children and Youth</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle><unitdate type="inclusive" normal="1954-02-26/1954-02-27">February 26-27, 1954</unitdate> Michigan Teen-age Driver Safety Conference</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle><unitdate type="inclusive" normal="1955-02-18/1955-02-19">February 18-19, 1955</unitdate> Michigan Teen-age Driver Safety Conference</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle><unitdate type="inclusive" normal="1961-02-09">February 9, 1961</unitdate> Conference on Educational Opportunity</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle><unitdate type="inclusive" normal="1964-04-28">April 28, 1964</unitdate> Governor's Conference on Youth</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle><unitdate type="inclusive" normal="1964-08-09/1964-08-12">August 9-12, 1964</unitdate> American Institute of Cooperation Annual Convention</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle><unitdate type="inclusive" normal="1964-10-23">October 23, 1964</unitdate> Michigan Conference on Rural Youth</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle><unitdate type="inclusive" normal="1965-05-06/1965-05-07">May 6-7, 1965</unitdate> State-Wide Community Action Conference on Youth Opportunities</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle><unitdate type="inclusive" normal="1966-10-20/1966-10-21">October 20-21, 1966</unitdate> Midwest Regional Conference on Youth Employment</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle><unitdate type="inclusive" normal="1967-04-29">April 29, 1967</unitdate> "Open-Ended" Youth Conference</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle><unitdate type="inclusive" normal="1967-10-12">October 12, 1967</unitdate> State Recreation Conference on Vulnerable Children and Youth</unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Speeches and other materials</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <unittitle>Speeches</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1961/1962">1961-1962</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1963/1964">1963-1964</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1965/1968">1965-1968</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Governors' Remarks <unitdate type="inclusive" normal="1962/1969">1962-1969</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Miscellaneous</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>University of Michigan Center for Continuing Education of Women Margaret Price-Lynn Bartlett Fellowship <unitdate type="inclusive" normal="1972/1977">1972-1977</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>
+              <genreform normal="Photographs">Photographs</genreform>
+            </unittitle>
+          </did>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

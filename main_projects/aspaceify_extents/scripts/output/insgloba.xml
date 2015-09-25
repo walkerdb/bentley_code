@@ -1,0 +1,820 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead.dtd">
+<ead>
+  <eadheader audience="internal" langencoding="iso639-2b" repositoryencoding="iso15511" dateencoding="iso8601" relatedencoding="Dublin Core" scriptencoding="iso15924" countryencoding="iso3166-1">
+    <eadid countrycode="us" mainagencycode="MiU-H" publicid="us//::miu-h//TXT us::miu-h::insgloba.xml//EN" encodinganalog="Identifier">umich-bhl-2009019</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="Title">Finding Aid for Institute for Global Education records, 1971-2008</titleproper>
+        <author encodinganalog="Creator">Collection processed and finding aid created by Michael Shallcross</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="Publisher">Bentley Historical Library, University of Michigan</publisher>
+        <date encodinganalog="Date" normal="2009">2009</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created by Thomas E. Powers <date>2009</date></creation>
+      <langusage encodinganalog="Language">The finding aid is written in <language langcode="eng" scriptcode="Latn">English</language></langusage>
+      <descrules>Finding aid prepared using Describing Archives: A Content Standard (DACS)</descrules>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date>2009-02-23</date>
+        <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <frontmatter>
+    <titlepage>
+      <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
+      <titleproper>Finding aid for <lb/>Institute for Global Education records, 1971-2008</titleproper>
+      <author>Finding aid created by <lb/>Michael Shallcross, 2009</author>
+    </titlepage>
+  </frontmatter>
+  <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
+    <did>
+      <origination>
+        <corpname source="lcnaf" encodinganalog="110">Institute for Global Education.</corpname>
+      </origination>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">5 linear feet</extent>
+      </physdesc>
+      <unittitle encodinganalog="245">Institute for Global Education records <unitdate type="inclusive" encodinganalog="245$f" normal="1971/2008">1971-2008</unitdate></unittitle>
+      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2009019 Bj 2</unitid>
+      <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
+      <abstract>Grand Rapids nonprofit organization working to achieve peace and social justice through education and outreach; records include administrative files, clippings, correspondence, event materials, publications, photographs and scrapbooks.</abstract>
+      <repository>
+        <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea>, University of Michigan</corpname>
+        <extptr href="bhladd" show="embed" actuate="onload"/>
+      </repository>
+    </did>
+    <descgrp type="admin">
+      <acqinfo encodinganalog="541">
+        <p>The record group was donated by the Institute for Global Education (donor no. <num type="donor" encodinganalog="541$e">10131</num>) in November and December 2008.</p>
+      </acqinfo>
+      <accruals encodinganalog="584">
+        <p>Periodic additions to the records are expected.</p>
+      </accruals>
+      <accessrestrict encodinganalog="506">
+        <p>The record group is open to research.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+        <p>Copyright is held by the Regents of the University of Michigan.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+        <p>[item], folder, box,
+Institute for Global Education records, Bentley Historical Library, University of Michigan</p>
+      </prefercite>
+    </descgrp>
+    <bioghist encodinganalog="545">
+      <p>The nonprofit Institute for Global Education (IGE) was originally incorporated in 1971 as the Michigan Institute for Nonviolence. In 1977, it became the Michigan Institute for Global Education (MIGE) and its center of operations shifted from Ann Arbor to Grand Rapids. During this time, many of its members were concurrently involved with the American Friends Service Committee. When the Western Michigan office of the American Friends closed in 1980, MIGE assumed its peace and social justice work and shortly thereafter dropped "Michigan" from its name.</p>
+      <p>Throughout its history (and over the course of its iterations) IGE has striven to "think globally and act locally" by working with churches, schools, and a wide range of activist groups to fight racism, sexism, economic exploitation, and nuclear proliferation. Internal working groups have focused extensively on violence and oppression in Central America, South Africa, and the Middle East among other places. Since 1980, IGE has spread its message of peace through the publication of the "Equity" newsletter and the sponsorship of seminars, workshops, peace festivals, and a wide range of community events. A host of committees and affiliated groups have allowed IGE to expand its educational and outreach activities to the Grand Rapids community and beyond.</p>
+    </bioghist>
+    <scopecontent encodinganalog="520">
+      <p>The Institute for Global Education records illustrate how community organizations coalesce, expand, and evolve to become agents of positive change. It will be of interest to persons researching social movements in Michigan and abroad from the 1970s through 2008. The record group consists of six series: Administrative and Related Records, Events, Publications, Affiliated Groups and Committees, Photographs, and Scrapbooks.</p>
+    </scopecontent>
+    <controlaccess>
+      <p>
+        <extptr href="accnote" show="embed" actuate="onload"/>
+      </p>
+      <controlaccess>
+        <head>Subjects:</head>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79066082">American Friends Service Committee.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Creative Responses to Conflict (Organization)</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Global Resources Committee.</corpname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79133151.html">Grand Rapids (Mich.)</geogname>
+        <corpname source="lcnaf" encodinganalog="610">Institute for Global Education.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Michigan Institute for Non-Violence.</corpname>
+        <subject source="lcsh" encodinganalog="650">Nonviolence--Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650">Peace movements--Michigan--Grand Rapids--Societies, etc.</subject>
+        <subject source="lcsh" encodinganalog="650">Peace--Study and teaching--Michigan--Grand Rapids.</subject>
+      </controlaccess>
+      <controlaccess>
+        <head>Subjects - Visual Materials:</head>
+        <persname source="lcnaf" encodinganalog="600">Bergman, Walter, 1899-</persname>
+        <subject source="lctgm" encodinganalog="650">Demonstrations--Michigan--Grand Rapids.</subject>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79133151.html">Grand Rapids (Mich.)</geogname>
+        <corpname source="lcnaf" encodinganalog="610">Institute for Global Education.</corpname>
+        <subject source="lctgm" encodinganalog="650">Peace.</subject>
+        <corpname source="lcnaf" encodinganalog="610">Wagbo Peace Center (East Jordan, Mich.)</corpname>
+      </controlaccess>
+      <controlaccess>
+        <head>Genre Terms:</head>
+        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655">Scrapbooks.</genreform>
+      </controlaccess>
+    </controlaccess>
+    <dsc type="combined">
+      <c01 level="series">
+        <did>
+          <unittitle>Administrative and Related Records</unittitle>
+        </did>
+        <scopecontent>
+          <p>The Administrative and Related Records series documents IGE's background and general administration and includes bylaws, clippings, correspondence, financial records, grant proposals, and information related to meetings and volunteers.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Background and History <unitdate type="inclusive" normal="1981/1997">1981-1997</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Bylaws <unitdate type="inclusive" normal="1977/1996">1977-1996</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Clippings <unitdate type="inclusive" normal="1977/2004">1977-2004</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Correspondence <unitdate type="inclusive" normal="1978/2002">1978-2002</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Financial Records <unitdate type="inclusive" normal="2002/2005">2002-2005</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Grant Proposals <unitdate type="inclusive" normal="1981/2005">1981-2005</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Meetings: Agendas, Minutes, and Reports <unitdate type="inclusive" normal="1978/2005">1978-2005</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Volunteer Time Sheets <unitdate type="inclusive" normal="1997/2004">1997-2004</unitdate></unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Events</unittitle>
+        </did>
+        <scopecontent>
+          <p>The Events series documents seminars, workshops, conferences, speakers, marches, performances, and festivals sponsored by IGE to promote its message of peace and social justice.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Benefit Concert for Humanity <unitdate type="inclusive" normal="1983/1989">1983-1989</unitdate></unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1983/1985">1983-1985</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1986/1989">1986-1989</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Bourgeois, Roy (lecture) <unitdate type="inclusive" normal="1981">1981</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"Christopher Columbus Follies" <unitdate type="inclusive" normal="1992">1992</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Eastown International Work Camp <unitdate type="inclusive" normal="1985">1985</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"Economics as if People Mattered" (retreat seminar) <unitdate type="inclusive" normal="1981">1981</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Esquival, Adolfo Perez (lecture) <unitdate type="inclusive" normal="1986">1986</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Great Peace March for Global Nuclear Disarmament <unitdate type="inclusive" normal="1986">1986</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Michigan Peace March for Global Nuclear Disarmament <unitdate type="inclusive" normal="1987">1987</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"Mothers and Others" <unitdate type="inclusive" normal="1988">1988</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Multi-Cultural Global Perspective Conference <unitdate type="inclusive" normal="1986">1986</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(includes <genreform normal="Photographs">photographs</genreform>)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Peace Fest <unitdate type="inclusive">undated</unitdate>, <unitdate type="inclusive" normal="1997/2005">1997-2005</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(includes <genreform normal="Photographs">photographs</genreform>)</p>
+          </odd>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>
+                <unitdate type="inclusive">undated</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1997/2001">1997-2001</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="2002">2002</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="2003">2003</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="2004/2005">2004-2005</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"A Peasant from El Salvador" <unitdate type="inclusive" normal="1985">1985</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"Soviets, Meet Middle America" <unitdate type="inclusive" normal="1988">1988</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Student International Issues Seminar <unitdate type="inclusive" normal="1978/1985">1978-1985</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Travel Seminar to Honduras, Nicaragua, and El Salvador <unitdate type="inclusive" normal="1986">1986</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Witness for Peace Delegation <unitdate type="inclusive" normal="1990">1990</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Youth Leadership Conference <unitdate type="inclusive" normal="2000">2000</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(includes <genreform normal="Photographs">photographs</genreform>)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Youth Leadership Conference <unitdate type="inclusive" normal="2001">2001</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(includes <genreform normal="Photographs">photographs</genreform>)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 folders</extent>
+            </physdesc>
+            <unittitle>Other IGE Events <unitdate type="inclusive" normal="1975/2004">1975-2004</unitdate></unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Publications</unittitle>
+        </did>
+        <scopecontent>
+          <p>The Publications series documents material published by IGE, including a near complete run of its newsletter, "Equity," from 1980 to 2008. Other materials include special bulletins and "Justicemakers," a profile of peace activists in the Grand Rapids area.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"Equity" (newsletter) <unitdate type="inclusive" normal="1980/2004">1980-2004</unitdate></unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1980/1983">1980-1983</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1984/1988">1984-1988</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1989/1993">1989-1993</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1994/1999">1994-1999</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="2000/2008">2000-2008</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>"Justicemakers" <unitdate type="inclusive" normal="2004">2004</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Special Bulletins <unitdate type="inclusive" normal="1984/2002">1984-2002</unitdate></unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Affiliated Groups and Committees</unittitle>
+        </did>
+        <scopecontent>
+          <p>The Affiliated Groups and Committees series documents previous iterations of IGE , working groups, special committees, and external organizations that have partnered with IGE. Particularly well-documented groups include the American Friends Service Committee, Circle of Peace, Creative Responses to Conflict, the Global Resources Committee, and the Michigan Institute for Nonviolence. The series includes administrative records, correspondence, events materials, publications, and other materials from the various groups.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <unittitle>American Friends Service Committee <unitdate type="inclusive" normal="1972/1992">1972-1992</unitdate></unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Administrative Records <unitdate type="inclusive" normal="1972/1992">1972-1992</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Correspondence <unitdate type="inclusive" normal="1975/1981">1975-1981</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Events <unitdate type="inclusive" normal="1974/1980">1974-1980</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Financial Records <unitdate type="inclusive" normal="1975/1981">1975-1981</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Central America Working Group <unitdate type="inclusive" normal="1981/1989">1981-1989</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Circle of Peace <unitdate type="inclusive" normal="1993/2002">1993-2002</unitdate></unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Administrative Records <unitdate type="inclusive" normal="1997/2001">1997-2001</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Educational Materials and Songs <unitdate type="inclusive" normal="1993/1998" certainty="approximate">circa 1993-1998</unitdate></unittitle>
+            </did>
+            <odd>
+              <p>(includes <genreform normal="Sound recordings">cassette tape</genreform>)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Events <unitdate type="inclusive" normal="1997/2002">1997-2002</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Coalition for Local Reinvestment <unitdate type="inclusive" normal="1983/1984">1983-1984</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Creative Responses to Conflict <unitdate type="inclusive" normal="1989/1999">1989-1999</unitdate></unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Administrative Records <unitdate type="inclusive" normal="1989/1998">1989-1998</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Events <unitdate type="inclusive" normal="1989/1999">1989-1999</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Presentation Materials <unitdate type="inclusive" normal="1989/1998">1989-1998</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Disarmament Working Group <unitdate type="inclusive" normal="1984/1988">1984-1988</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Global Resources Committee <unitdate type="inclusive" normal="1986/2008">1986-2008</unitdate></unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Administrative Records <unitdate type="inclusive" normal="1993/2008">1993-2008</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Educational Materials <unitdate type="inclusive" normal="1989/1997">1989-1997</unitdate></unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle>"Educating for Peace" <unitdate type="inclusive" normal="1997">1997</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle>Peacemaker Slideshow <unitdate type="inclusive" normal="1988">1988</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle>Teacher Resources <unitdate type="inclusive" normal="1989/1991">1989-1991</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Events <unitdate type="inclusive" normal="1986/2008">1986-2008</unitdate></unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle>Arab World Workshop <unitdate type="inclusive" normal="1994">1994</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle>Peace Education Week <unitdate type="inclusive" normal="1986/1994">1986-1994</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle>Peace Education Week <unitdate type="inclusive" normal="1995/2008">1995-2008</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Publications <unitdate type="inclusive" normal="1988/2005">1988-2005</unitdate></unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle>Global Resources Newsletter <unitdate type="inclusive" normal="1991/1996">1991-1996</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle>Global Resources Newsletter <unitdate type="inclusive" normal="1997/2005">1997-2005</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle>Peace Calendars <unitdate type="inclusive" normal="1988/1994">1988-1994</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle>Peace Calendars <unitdate type="inclusive" normal="1995/2003">1995-2003</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Michigan Institute for Nonviolence <unitdate type="inclusive" normal="1971/1977">1971-1977</unitdate></unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Administrative Records <unitdate type="inclusive" normal="1972/1977">1972-1977</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Correspondence <unitdate type="inclusive" normal="1971/1977">1971-1977</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Events <unitdate type="inclusive" normal="1972/1977">1972-1977</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Financial Records <unitdate type="inclusive" normal="1973/1974">1973-1974</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Meeting Minutes <unitdate type="inclusive" normal="1972/1977">1972-1977</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Publications <unitdate type="inclusive" normal="1973/1976">1973-1976</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>Middle East Education Project <unitdate type="inclusive" normal="1990">1990</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>Peace Presence <unitdate type="inclusive" normal="1989">1989</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>South Africa Working Group <unitdate type="inclusive" normal="1986">1986</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 folders</extent>
+            </physdesc>
+            <unittitle>Toys Committee <unitdate type="inclusive" normal="1988/1989">1988-1989</unitdate></unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>YES (Youth Organization) <unitdate type="inclusive" normal="1989/1990">1989-1990</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>Other Groups undated <unitdate type="inclusive" normal="2004">2004</unitdate></unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>
+            <genreform normal="Photographs">Photographs</genreform>
+          </unittitle>
+        </did>
+        <scopecontent>
+          <p>The Photographs series documents IGE events and activities and includes two photo albums (in folders) that cover the years 1980 to 1997. The series also contains a photograph of the late Walter Bergman, a Grand Rapids peace activist who participated in the civil rights movement and was beaten as a Freedom Rider in 1961.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>Bergman, Walter <unitdate type="inclusive">undated</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(civil rights activist and Freedom Rider)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>Photo album <unitdate type="inclusive" normal="1980/1990">1980-1990</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>Photo album <unitdate type="inclusive" normal="1991/1997">1991-1997</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>Wagbo Peace Center in East Jordan, MI <unitdate type="inclusive" normal="1995">1995</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>Miscellaneous undated <unitdate type="inclusive" normal="1992/1993">1992-1993</unitdate></unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>
+            <genreform normal="Scrapbooks">Scrapbooks</genreform>
+          </unittitle>
+        </did>
+        <scopecontent>
+          <p>The Scrapbooks series consists of seven volumes (one of which covers the Western Michigan American Friends Service Committee) and contain clippings, correspondence, photographs, and memorabilia from IGE events. The 1990-1992 volume covers anti-war activities relating to the first Persian Gulf War and the 1990-2005 volume contains news articles and letters to the editor regarding IGE members and activities.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1974/1978">1974-1978</unitdate>
+            </unittitle>
+          </did>
+          <odd>
+            <p>(material from the Western Michigan American Friends Service Committee)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">1 volume</extent>
+              <extent altrender="carrier">(in 4 folders)</extent>
+            </physdesc>
+            <unittitle>
+              <unitdate type="inclusive" normal="1980/1984">1980-1984</unitdate>
+            </unittitle>
+            <physdesc>
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1985/1989">1985-1989</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">5</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1990/1992">1990-1992</unitdate>
+            </unittitle>
+          </did>
+          <odd>
+            <p>(includes materials documenting opposition to the Persian Gulf War)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">5</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1990/1996">1990-1996</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">5</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1996/2000">1996-2000</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">5</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1990/2005">1990-2005</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

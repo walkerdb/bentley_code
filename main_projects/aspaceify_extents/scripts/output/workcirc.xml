@@ -1,0 +1,905 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead.dtd">
+<ead>
+  <eadheader audience="internal" langencoding="iso639-2b" repositoryencoding="iso15511" dateencoding="iso8601" relatedencoding="Dublin Core" scriptencoding="iso15924" countryencoding="iso3166-1">
+    <eadid countrycode="us" mainagencycode="MiU-H" publicid="us//::miu-h//TXT us::miu-h::workcirc.xml//EN" encodinganalog="Identifier">umich-bhl-86353</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="Title">Finding Aid for Workmen's Circle/Arbeter Ring, Michigan District records, 1934-2007</titleproper>
+        <author encodinganalog="Creator">Collection processed and finding aid created by Shelley Hayreh</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="Publisher">Bentley Historical Library, University of Michigan</publisher>
+        <date encodinganalog="Date" normal="2009">2009</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created by Thomas E. Powers <date>2009</date></creation>
+      <langusage encodinganalog="Language">The finding aid is written in <language langcode="eng" scriptcode="Latn">English</language></langusage>
+      <descrules>Finding aid prepared using Describing Archives: A Content Standard (DACS)</descrules>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date>2009-05-11</date>
+        <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <frontmatter>
+    <titlepage>
+      <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
+      <titleproper>Finding aid for <lb/>Workmen's Circle/Arbeter Ring, Michigan District records, 1934-2007</titleproper>
+      <author>Finding aid created by <lb/>Shelley Hayreh, 2009</author>
+    </titlepage>
+  </frontmatter>
+  <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
+    <did>
+      <origination>
+        <corpname source="lcnaf" encodinganalog="110">Workmen's Circle/Arbeter Ring, Michigan District.</corpname>
+      </origination>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">1 oversize folder</extent>
+      </physdesc>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">5.5 linear feet</extent>
+      </physdesc>
+      <unittitle encodinganalog="245">Workmen's Circle/Arbeter Ring, Michigan District records <unitdate type="inclusive" encodinganalog="245$f" normal="1934/2007">1934-2007</unitdate></unittitle>
+      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">86353 Bj 2; Bj Out.</unitid>
+      <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language>, <language langcode="rus" encodinganalog="041">Russian</language>, and <language langcode="yid" encodinganalog="041">Yiddish</language></langmaterial>
+      <abstract>The Workmen's Circle/Arbeter Ring Michigan District is a Jewish fraternal organization. The records cover the period between 1934 and 2007 and consist primarily of minutes, newsletters, correspondence, newspaper clippings, press releases, yearbooks, event announcements, programs, photographs, publications and posters.</abstract>
+      <repository>
+        <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea>, University of Michigan</corpname>
+        <extptr href="bhladd" show="embed" actuate="onload"/>
+      </repository>
+    </did>
+    <descgrp type="admin">
+      <acqinfo encodinganalog="541">
+        <p>The record group was donated in 1964 as a gift of the organization (donor no. <num type="donor" encodinganalog="541$e">4212</num>), with an additional accession in March, 2009.</p>
+      </acqinfo>
+      <accruals encodinganalog="584">
+        <p>Periodic additions to the papers are expected.</p>
+      </accruals>
+      <accessrestrict encodinganalog="506">
+        <p>The record group is open to research.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+        <p>Copyright is held by the Regents of the University of Michigan.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+        <p>[item], folder, box,
+Workmen's Circle/Arbeter Ring, Michigan District records, Bentley Historical Library, University of Michigan</p>
+      </prefercite>
+    </descgrp>
+    <bioghist encodinganalog="545">
+      <p>The Workmen's Circle/Arbeter Ring was formed in New York City in 1892 as a mutual aid society to provide assistance to newly immigrated Jewish workers. More than a fraternal organization, the organization assisted both in providing basic sick, death and health benefits and in supporting these workers in areas of education, cultural diversions, and as participant with them in the trade union movement. Although extant records do not make clear the founding date of the Michigan District of the Workmen's Circle, it was sometime after 1900, probably in the early 1930s.</p>
+      <p>The activities of the organization in the period covered by the records included the sponsorship of lectures and cultural events and support for the labor movement and other liberal and civil rights causes. When the members of the CIO Shoe Workers in Rockford, Michigan, went out on strike in 1952, the Workmen's Circle provided food to the striking workers. Each year, the organization gave community awards to individuals in the labor movement, civil rights struggle, or politics. In addition, the organization has maintained a dedication to education, providing Circle youth with a secular/cultural approach to the teaching of Jewish history, holidays, customs and ethics.</p>
+    </bioghist>
+    <scopecontent encodinganalog="520">
+      <p>The records of the Workmen's Circle/Arbeter Ring cover the period between 1934 and 2007. The record group consists primarily of minutes, newsletters, correspondence, newspaper clippings, press releases, yearbooks, event announcements, programs, photographs, publications and posters. The records are arranged into four series: Administrative, Local Branches, Community Activities/Topical Files, and Events.</p>
+    </scopecontent>
+    <controlaccess>
+      <p>
+        <extptr href="accnote" show="embed" actuate="onload"/>
+      </p>
+      <controlaccess>
+        <head>Subjects:</head>
+        <subject source="lcsh" encodinganalog="650">Cooperative societies--Michigan.</subject>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79045539.html">Detroit (Mich.)</geogname>
+        <subject source="lcsh" encodinganalog="650">Jews--Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650">Social service--Michigan--Societies, etc.</subject>
+      </controlaccess>
+    </controlaccess>
+    <dsc type="combined">
+      <c01 level="series">
+        <did>
+          <unittitle>Administrative</unittitle>
+        </did>
+        <scopecontent>
+          <p>Administrative series documents the organizational structure and functions of the Workmen's Circle/Arbeter's Ring. Included in the series are seven volumes of minutes from the organization's early period. The Minute Books are largely written in Yiddish. The series also contains newsletters, press releases, correspondence and material related to the different district conferences and committees within the Michigan District. All material has been arranged chronologically.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">7 volumes</extent>
+            </physdesc>
+            <unittitle>Minute Books <unitdate type="inclusive" normal="1934/1963">1934-1963</unitdate></unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+          <odd>
+            <p>(in Yiddish)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 folders</extent>
+            </physdesc>
+            <unittitle>Administrative background <unitdate type="inclusive" normal="1951/2001">1951-2001</unitdate></unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Meeting announcements <unitdate type="inclusive" normal="1954/1959">1954-1959</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Meeting minutes <unitdate type="inclusive" normal="1949/1966">1949-1966</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">5 folders</extent>
+            </physdesc>
+            <unittitle>Detroit District Committee Meeting Minutes and Reports <unitdate type="inclusive" normal="1976/1988">1976-1988</unitdate></unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">3 folders</extent>
+            </physdesc>
+            <unittitle>Detroit Biennial District Conference <unitdate type="inclusive" normal="1963/1991">1963-1991</unitdate></unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">4 folders</extent>
+            </physdesc>
+            <unittitle>Michigan District Committee <unitdate type="inclusive" normal="1954/2001">1954-2001</unitdate></unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">3 folders</extent>
+            </physdesc>
+            <unittitle>Biennial Michigan District Conference <unitdate type="inclusive" normal="1993/2003">1993-2003</unitdate></unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Great Lakes Regional Board <unitdate type="inclusive" normal="1969/1988">1969-1988</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Public Affairs Committee <unitdate type="inclusive" normal="1945">1945</unitdate>, <unitdate type="inclusive" normal="1948/1949">1948-1949</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Organization Committee <unitdate type="inclusive" normal="1960">1960</unitdate>, <unitdate type="inclusive" normal="1976/1977">1976-1977</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">3 folders</extent>
+            </physdesc>
+            <unittitle>English-Speaking Division <unitdate type="inclusive" normal="1949/1958">1949-1958</unitdate></unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Women's Division Yearbooks, event programs <unitdate type="inclusive" normal="1962/1968">1962-1968</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Misc. yearbooks and event programs <unitdate type="inclusive" normal="1973">1973</unitdate>, <unitdate type="inclusive" normal="1978">1978</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Cemetery Department <unitdate type="inclusive" normal="1956/2002">1956-2002</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(certificate in oversize folder)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Cemetery Department Notebook <unitdate type="inclusive">undated</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <title render="italic">The Circle Light</title>
+            </unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1940/1941">1940-1941</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1942/1944">1942-1944</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1945/1947">1945-1947</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 folders</extent>
+            </physdesc>
+            <unittitle>
+              <title render="italic">The Circle</title>
+              <unitdate type="inclusive" normal="1998/2005">1998-2005</unitdate>
+            </unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">6 folders</extent>
+            </physdesc>
+            <unittitle>Circle Newsletter <unitdate type="inclusive" normal="1990/2007">1990-2007</unitdate></unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+          <odd>
+            <p>(includes upcoming calendar, tributes, and monthly director's report)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 folders</extent>
+            </physdesc>
+            <unittitle>English-Speaking Division Newsletter <unitdate type="inclusive" normal="1947/1959">1947-1959</unitdate></unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>WC Calendar Newsletter <unitdate type="inclusive" normal="1949/1990">1949-1990</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>Newsletter, misc. <unitdate type="inclusive" normal="1942">1942</unitdate>, <unitdate type="inclusive" normal="1999">1999</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">4 folders</extent>
+            </physdesc>
+            <unittitle>Press Releases <unitdate type="inclusive" normal="1953/1999">1953-1999</unitdate></unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Correspondence</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1943/1951">1943-1951</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1953">1953</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1954/1955">1954-1955</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1956/1957">1956-1957</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1958/1964">1958-1964</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1965/1977">1965-1977</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1978/2005">1978-2005</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Local Branches</unittitle>
+        </did>
+        <scopecontent>
+          <p>Local Branches series contains material originating from six local branches making up the Michigan District and the Women's Division. The series consists of mailings, newsletters, minutes, event announcements, yearbooks, and programs. Of the local branches, Branch 460 is the best documented. However, the material for each branch represents only a small portion of the local branch's history and, therefore, is not highly representative of the day-to-day activities of the different branches.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <unittitle>Branch 111, Debs</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Mailing <unitdate type="inclusive" normal="1963/1977">1963-1977</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">3 folders</extent>
+              </physdesc>
+              <unittitle>Yearbooks and event programs <unitdate type="inclusive" normal="1946/1975">1946-1975</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
+              </physdesc>
+              <unittitle>Yearbooks and event programs <unitdate type="inclusive" normal="1946/1975">1946-1975</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Branch 156</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">3 folders</extent>
+              </physdesc>
+              <unittitle>Yearbooks and event programs <unitdate type="inclusive" normal="1956">1956</unitdate>, <unitdate type="inclusive" normal="1967/1971">1967-1971</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Branch 460, Emile Zola</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
+              </physdesc>
+              <unittitle>General <unitdate type="inclusive" normal="1941/1982">1941-1982</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Minutes <unitdate type="inclusive" normal="1939/1941">1939-1941</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
+              </physdesc>
+              <unittitle>Newsletters <unitdate type="inclusive" normal="1957/1992">1957-1992</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Branch 463-E, newsletters <unitdate type="inclusive" normal="1957/1959">1957-1959</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Branch 684, Russian</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
+              </physdesc>
+              <unittitle>General <unitdate type="inclusive" normal="1975/1980">1975-1980</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
+              </physdesc>
+              <unittitle>Events <unitdate type="inclusive" normal="1978/1994">1978-1994</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Branch 1060</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Newsletters <unitdate type="inclusive" normal="1957/1958">1957-1958</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Community Activities/Topical Files</unittitle>
+        </did>
+        <scopecontent>
+          <p>Community Activities/Topical Files series underscores the Workmen's Circle/Arbeter Ring's commitment to building a strong and supportive community dedicated to fostering Jewish culture and heritage. The series contains two sub-series: Membership and Other Material. Sub-series Membership includes background material such as brochures and flyers detailing the benefits of membership. The sub-series also contains membership rosters from the 1950s and material detailing the lives of individual members, either in the form of biographies or eulogies. Sub-series Other Material has been arranged alphabetically by heading. The sub-series contains correspondence, flyers, mailings, newspaper clippings, photographs and press releases. The material underscores the variety of cultural, educational, and social benefits associated with the Workmen's Circle.</p>
+        </scopecontent>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Membership</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
+              </physdesc>
+              <unittitle>Membership/Background Material <unitdate type="inclusive" normal="1947/1995">1947-1995</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Membership Rosters <unitdate type="inclusive" normal="1953/1958">1953-1958</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Community Member Biographies <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Eulogies/Memorials <unitdate type="inclusive" normal="1962/2003">1962-2003</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Tribute Book <unitdate type="inclusive" normal="1990/1999" certainty="approximate">1990s</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
+              </physdesc>
+              <unittitle>Russian Immigrant Community <unitdate type="inclusive" normal="1975/1977">1975-1977</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Other Material</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Curriculum Outlines and Material <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Educational Center</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">4</container>
+                <unittitle>Background material <unitdate type="inclusive" normal="1985/2003">1985-2003</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">4</container>
+                <unittitle>Correspondence and announcements <unitdate type="inclusive" normal="1960/1995">1960-1995</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Fair Employment Practices Act <unitdate type="inclusive" normal="1945">1945</unitdate>, <unitdate type="inclusive" normal="1955">1955</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Group Portraits <unitdate type="inclusive" normal="1940/1969" certainty="approximate">1940s-1960s</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Insurance and Medical Policy material <unitdate type="inclusive" normal="1953/1955">1953-1955</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
+              </physdesc>
+              <unittitle>Jewish Labor Committee <unitdate type="inclusive" normal="1948/1966">1948-1966</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>"Labor Reports," <unitdate type="inclusive" normal="1956/1957">1956-1957</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Leon A. Cousen Scholarship <unitdate type="inclusive" normal="1955/1959">1955-1959</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Music/Songs <unitdate type="inclusive" normal="1954">1954</unitdate>, <unitdate type="inclusive" normal="2003" certainty="approximate">2003 undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Newspaper Clippings</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">5</container>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">7 folders</extent>
+                </physdesc>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1950/1959" certainty="approximate">1950s</unitdate>
+                </unittitle>
+                <physdesc altrender="whole">
+                  </physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">5</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1960/1989" certainty="approximate">1960s-1980s</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">5</container>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">4 folders</extent>
+                </physdesc>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1990/2009" certainty="approximate">1990s-2000s</unitdate>
+                </unittitle>
+                <physdesc altrender="whole">
+                  </physdesc>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Rockford Shoe Workers Strike <unitdate type="inclusive" normal="1953">1953</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Scrapbooks</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">5</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1975/1977">1975-1977</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">5</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1976/1978">1976-1978</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">5</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1978/1981">1978-1981</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>WC Schools <unitdate type="inclusive" normal="1952/1960">1952-1960</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Youth Group <unitdate type="inclusive" normal="1953/1955">1953-1955</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Events</unittitle>
+        </did>
+        <scopecontent>
+          <p>Events series reflects the wide variety of social, cultural and civic activities offered by the Workmen's Circle/Arbeter Ring. The majority of events have a focus of strengthen a secular/cultural Jewish identity. Events include holiday observations and celebrations, discussion sessions, speakers, Warsaw Ghetto Uprising Commemoration, Third Seder, Yiddish concerts, Yiddish films, musical programs, chorus, picnics, potlucks, and bazaars. The series contains event announcements, posters, programs and background material for specific events.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <unittitle>Event announcements and materials</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">4 folders</extent>
+              </physdesc>
+              <unittitle>
+                <unitdate type="inclusive">undated</unitdate>
+              </unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1940/1949">1940-1949</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1950/1954">1950-1954</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1955/1956">1955-1956</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
+              </physdesc>
+              <unittitle>
+                <unitdate type="inclusive" normal="1957">1957</unitdate>
+              </unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
+              </physdesc>
+              <unittitle>
+                <unitdate type="inclusive" normal="1958">1958</unitdate>
+              </unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">6</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">4 folders</extent>
+              </physdesc>
+              <unittitle>
+                <unitdate type="inclusive" normal="1961/2007">1961-2007</unitdate>
+              </unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="folder" label="Oversize Folder">1</container>
+            <unittitle>Event Posters <unitdate type="inclusive" normal="2000/2009" certainty="approximate">2000s</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">6</container>
+            <unittitle>Clothes for Korea Drive <unitdate type="inclusive" normal="1953">1953</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">6</container>
+            <unittitle>Award Ceremony Programs <unitdate type="inclusive" normal="1998/2003">1998-2003</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">6</container>
+            <unittitle>Father and Son Banquet <unitdate type="inclusive" normal="1953">1953</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">6</container>
+            <unittitle>"A Kumzitz: The Schmooze Café," <unitdate type="inclusive" normal="1998/2005">1998-2005</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">6</container>
+            <unittitle>Celebrate Yiddish Programs <unitdate type="inclusive" normal="2004/2007">2004-2007</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">6</container>
+            <unittitle>Yiddish Concert in the Park <unitdate type="inclusive" normal="1982/1990">1982-1990</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(includes a poster in the oversize folder)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">6</container>
+            <unittitle>Yiddish Seminar Ann Arbor <unitdate type="inclusive" normal="1986/1987">1986-1987</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">6</container>
+            <unittitle>Warsaw Ghetto Uprising Commemoration and Memorial <unitdate type="inclusive" normal="1954/2007">1954-2007</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">6</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">4 folders</extent>
+            </physdesc>
+            <unittitle>Religious Holiday Service Programs <unitdate type="inclusive" normal="1950/2009" certainty="approximate">1950s-2000s</unitdate></unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

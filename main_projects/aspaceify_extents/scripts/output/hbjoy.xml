@@ -1,0 +1,805 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead.dtd">
+<ead>
+  <eadheader audience="internal" langencoding="iso639-2b" repositoryencoding="iso15511" dateencoding="iso8601" relatedencoding="Dublin Core">
+    <eadid countrycode="us" mainagencycode="MiU-H" publicid="-//us::MiU-H//TEXT us::MiU-H::hbjoy.xml//EN" encodinganalog="identifier">umich-bhl-851730</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="title">Finding Aid for Henry Bourne Joy Papers <date>1883-1937</date></titleproper>
+        <author encodinganalog="creator">Collection processed and finding aid prepared by Bentley Historical Library Staff</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="publisher">Bentley Historical Library, University of Michigan</publisher>
+        <date encodinganalog="date">1997</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created by Greg Kinney <date>Nov. 1997</date></creation>
+      <langusage>The finding aid is written in <language encodinganalog="language" langcode="eng">English.</language></langusage>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date>20150624</date>
+        <item>Removed non-existent series and added written notes from paper finding aid.</item>
+      </change>
+      <change>
+        <date>20031010</date>
+        <item>Converted to EAD2002 using Word macro and Xmetal</item>
+      </change>
+      <change>
+        <date>2000-01-27</date>
+        <item>added daos href 1-3</item>
+      </change>
+      <change>
+        <date>1999-07-14</date>
+        <item>converted to new container style</item>
+      </change>
+      <change>
+        <date>1999-07-14</date>
+        <item>Converted to EAD version 1.0 using WORD 6 macro and some hand tagging.</item>
+      </change>
+      <change>
+        <date>11/05/1997</date>
+        <item>original encoding, from MSWord file.</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <frontmatter>
+    <titlepage>
+      <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
+      <titleproper>Finding Aid for <lb/>Henry Bourne Joy Papers, <date>1883-1937</date></titleproper>
+      <author>Finding aid prepared by: <lb/>Bentley Historical Library Staff.</author>
+    </titlepage>
+  </frontmatter>
+  <archdesc level="collection" type="inventory" audience="external" relatedencoding="MARC21">
+    <did>
+      <origination>
+        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/no2004105892">Joy, Henry Bourne, 1864-1936.</persname>
+      </origination>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">2 oversized volumes</extent>
+      </physdesc>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">2 oversize folders</extent>
+      </physdesc>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">19 linear feet</extent>
+      </physdesc>
+      <unittitle encodinganalog="245">Henry Bourne Joy Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1883/1937">1883-1937</unitdate></unittitle>
+      <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">851730 Aa 2 AC Ac UAm</unitid>
+      <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
+      <abstract>Detroit financier and industrialist, president of Packard Motor Car Company, leader of the "Good Roads Movement" and president of the Lincoln Highway Association, active in the Republican Party and business associations. Papers include correspondence, scrapbooks and photographs relating to automobile business, cross country auto travels and Joy's political interests.</abstract>
+      <repository>
+        <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea> University of Michigan</corpname>
+        <extptr href="bhladd" show="embed" actuate="onload"/>
+      </repository>
+    </did>
+    <descgrp type="admin">
+      <acqinfo encodinganalog="541">
+        <p>The collection was donated in 1946 by Mrs. Henry Bourne Joy (donor no. <num encodinganalog="541$e" type="donor">2204</num>).</p>
+      </acqinfo>
+      <accessrestrict encodinganalog="506">
+        <p>The collection is open for research.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+        <p>Copyright to the collection has been transferred to the Regents of the University of Michigan.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+        <p>item, folder title, box no., Henry B. Joy Papers, Bentley Historical Library, University of Michigan</p>
+      </prefercite>
+    </descgrp>
+    <bioghist encodinganalog="545">
+      <p>Henry Bourne Joy was a Detroit financier and industrialist. Born November 23, 1864 to railroad magnate <persname>James Frederick Joy</persname>, Henry B. Joy early on appreciated the importance of gasoline engines, first for marine use and then for automobiles. He was an investor in the <corpname>Packard Motor Car Company</corpname>. He was general manager of the company from 1903 to 1909 and president from 1909 to 1916. For the next two years, Joy was board chairman serving until 1918 when he retired from the company. Realizing the importance of roads to his company, Joy was an important advocate of the good roads movement, serving for a time as president of the <corpname>Lincoln Highway Association</corpname>. Prior to America's entry into World War I, Joy, concerned about the nation's preparedness for war, successfully urged the Packard Company to become a manufacture of airplanes for military use.</p>
+      <p>Joy was a man of many other interests and activities. Because of his yachting interests and service aboard the U.S.S. Yosemite during the Spanish-American War, Joy was a keen observer of the naval affairs of the nation. At one time he served as vice president of the <corpname>Navy League of the United States</corpname>. Additionally he was a member of the Federal Reserve Bank for the Chicago district and active in Republican party politics and other conservative causes and organizations. Among his other deeply held views was an abhorrence of the Prohibition Amendment, Roosevelt's New Deal, and the intrusion of the church in public affairs.</p>
+      <p>Joy died November 6, 1936.</p>
+    </bioghist>
+    <arrangement encodinganalog="351">
+      <p>The collection has been divided into the following series:
+        <list type="simple"><item>Biographical Materials</item><item>Correspondence</item><item>Photographs/Photograph Albums</item><item>Scrapbooks</item><item>Published Materials</item><item>Miscellaneous</item></list>
+      </p>
+    </arrangement>
+    <scopecontent encodinganalog="520">
+      <p>The Henry B. Joy papers consist of correspondence concerning his business activities in Detroit, Michigan, his support of the Lincoln Highway Association, his campaign against the Eighteenth Amendment (Prohibition), and their interest in the Federal Council of Churches; also business letter books, 1888-1892, and 1902-1903; photograph album, 1915, concerning automobile trip from Detroit to San Francisco; scrapbooks, 1883-1937, containing newspaper clippings and articles relating to the development of the automobile industry, national economic affairs and Republican politics; and collection of printed pamphlets and newsletters, 1927-1936, of conservative individuals and organizations, including the American Coalition, American Liberty League, the Vigilant Intelligence Federation, the Daughters of the American Revolution, Elizabeth Dilling, Robert E. Edmonson, the Industrial Defense Association, the National Civic Federation, and the Union League of Michigan. The collection also includes photograph albums of cross-country automobile trips and of racing cars; also portraits of Joy.</p>
+    </scopecontent>
+    <controlaccess>
+      <p>
+        <extptr href="accnote" show="embed" actuate="onload"/>
+      </p>
+      <controlaccess>
+        <head>Subjects:</head>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no88006339">American Coalition.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr92042923">American Liberty League.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">American Vigilant Intelligence Federation.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n87830398">Association Against the Prohibition Amendment.</corpname>
+        <subject source="lcsh" encodinganalog="650">Automobile industry and trade--Michigan--Detroit.</subject>
+        <subject source="lcsh" encodinganalog="650">Banks and banking--United States.</subject>
+        <subject source="lcsh" encodinganalog="650">Business records.</subject>
+        <subject source="lcsh" encodinganalog="650">Conservatism.</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no2011045745">Daughters of the American Revolution. National Defense Committee.</corpname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79045539.html">Detroit (Mich.)</geogname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no2003104193">Detroit Athletic Club.</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n90666966">Stokes, Elizabeth Dilling, 1894-1966.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n80126308">Edison, Thomas A. (Thomas Alva), 1847-1931.</persname>
+        <persname source="lcnaf" encodinganalog="600">Edmonson, Robert Edward.</persname>
+        <corpname source="lcnaf" encodinganalog="610">Federal Council of the Churches of Christ in America.</corpname>
+        <subject source="lcsh" encodinganalog="611">The Fundamentalist.</subject>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79006704">Hughes, Charles Evans, 1862-1948.</persname>
+        <corpname source="lcnaf" encodinganalog="610">Industrial Defense Association.</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2004105892">Joy, Henry Bourne, 1864-1936.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/nr2004005807">Joy, James Frederick, 1810-1896.</persname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n93095645">Lincoln Highway Association.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Michigan Naval Brigade.</corpname>
+        <geogname source="local" encodinganalog="691">Michigan--Politics and government--1899-1916.</geogname>
+        <geogname source="local" encodinganalog="691">Michigan--Politics and government--1917-1921.</geogname>
+        <geogname source="local" encodinganalog="691">Michigan--Politics and government--1922-1928.</geogname>
+        <geogname source="local" encodinganalog="691">Michigan--Politics and government--1929-1938.</geogname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n89638574">National Civic Federation.</corpname>
+        <subject source="lcsh" encodinganalog="650">New Deal, 1933-1939.</subject>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n89125977">Newberry, Truman Handy, 1864-1945.</persname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n84123756">Packard Motor Car Company.</corpname>
+        <subject source="lcsh" encodinganalog="650">Presidents--United States--Election--1916.</subject>
+        <subject source="lcsh" encodinganalog="650">Prohibition--United States.</subject>
+        <subject source="lcsh" encodinganalog="650">Radio broadcasting--United States.</subject>
+        <corpname source="lcnaf" encodinganalog="610">Republican Party (Mich.)</corpname>
+        <subject source="lcsh" encodinganalog="650">Roads--United States.</subject>
+        <subject source="lcsh" encodinganalog="650">Silver question.</subject>
+        <subject source="lcsh" encodinganalog="650">Tariff--United States.</subject>
+        <subject source="lcsh" encodinganalog="650">Automobile travel--United States.</subject>
+        <corpname source="lcnaf" encodinganalog="610">Union League of Michigan.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">United States. Federal Reserve Board.</corpname>
+        <geogname source="lcsh" encodinganalog="651">United States--Politics and government--1901-1953.</geogname>
+        <subject source="local" encodinganalog="690">Vanderbilt Cup Races.</subject>
+        <subject source="lcsh" encodinganalog="650">World War, 1914-1918.</subject>
+        <subject source="lcsh" encodinganalog="650">Spanish-American War, 1898.</subject>
+      </controlaccess>
+      <controlaccess>
+        <head>Contributors:</head>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n86070545">Couzens, James, 1872-1936.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50023001">Harding, Warren G. (Warren Gamaliel), 1865-1923.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n81040593">Hunter, Edward, 1902-1978.</persname>
+        <persname source="lcnaf" encodinganalog="700">Jung, Harry A.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n86111015">Landon, Alfred M. (Alfred Mossman), 1887-1987.</persname>
+        <persname source="lcnaf" encodinganalog="700">Mellon, Andrew W. (Andrew William), 1855-1939.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no99050009">Peabody, Frederick William, 1862-1938</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79022932">Roosevelt, Franklin D. (Franklin Delano), 1882-1945.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79027239">Roosevelt, Theodore, 1858-1919.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50048409">Root, Elihu, 1845-1937.</persname>
+        <persname source="lcnaf" encodinganalog="700">Slayton, William H.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79022244">Taft, William H. (William Howard), 1857-1930.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79046299">Wilson, Woodrow, 1856-1924.</persname>
+        <persname source="lcnaf" encodinganalog="700">Wood, Leonard, 1860-1927.</persname>
+      </controlaccess>
+      <controlaccess>
+        <head>Visual Materials - Subjects:</head>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n86070545">Couzens, James, 1872-1936.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50023001">Harding, Warren G. (Warren Gamaliel), 1865-1923.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n81040593">Hunter, Edward, 1902-1978.</persname>
+        <persname source="lcnaf" encodinganalog="700">Jung, Harry A.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n86111015">Landon, Alfred M. (Alfred Mossman), 1887-1987.</persname>
+        <persname source="lcnaf" encodinganalog="700">Mellon, Andrew W. (Andrew William), 1855-1939.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no99050009">Peabody, Frederick William, 1862-1938</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79022932">Roosevelt, Franklin D. (Franklin Delano), 1882-1945.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79027239">Roosevelt, Theodore, 1858-1919.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50048409">Root, Elihu, 1845-1937.</persname>
+        <persname source="lcnaf" encodinganalog="700">Slayton, William H.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79022244">Taft, William H. (William Howard), 1857-1930.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79046299">Wilson, Woodrow, 1856-1924.</persname>
+        <persname source="lcnaf" encodinganalog="700">Wood, Leonard, 1860-1927.</persname>
+      </controlaccess>
+      <controlaccess>
+        <head>Genre/Form:</head>
+        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655">Scrapbooks.</genreform>
+      </controlaccess>
+    </controlaccess>
+    <dsc type="combined">
+      <c01 level="series">
+        <did>
+          <unittitle>Biographical Materials</unittitle>
+        </did>
+        <scopecontent>
+          <p>Biographical Materials is a small series consisting of autobiographical sketches written by Joy on different phases in his life.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container label="Box" type="box">1</container>
+            <unittitle>Autobiographical sketches</unittitle>
+          </did>
+          <odd>
+            <p>(Boyhood of <persname>Henry B. Joy</persname>; With James Joy in England, July 1884; Controversy with <persname>Henry Ward Beecher</persname>; Development of Aviation Interest in Detroit)</p>
+          </odd>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Correspondence</unittitle>
+        </did>
+        <scopecontent>
+          <p>The Correspondence series, except for a scattering of letters, dates primarily from the period following Joy's retirement from the <corpname>Packard Motor Car Company</corpname> in 1918. The letters concern Joy's various political and public interests: his opposition to the <subject>18th Amendment</subject> (<subject>Prohibition</subject>), his interests in the nation's naval readiness, his support of measures to improve America's roads, and his opposition to some of the activities of the <corpname>Federal Council of Churches</corpname>. Joy corresponded widely with various public figures. His correspondents include <persname>James J. Couzens</persname>, <persname>Elizabeth Dilling</persname> <persname>Warren G. Harding</persname> <persname>Charles E. Hughes</persname> <persname>Edward Hunter</persname> <persname>Harry A. Jung</persname> <persname>Alfred M. Landon</persname> <persname>Andrew W. Mellon</persname> <persname>Truman H. Newberry</persname> <persname>Franklin D. Roosevelt</persname> <persname>Theodore Roosevelt</persname> <persname>Elihu Root</persname> <persname>William H. Slayton</persname> and <persname>William H. Taft</persname>. In addition to the files of correspondence, the collection includes two volumes of letterpress books of Joy's business activities. The volumes are dated 1888-1892 and 1902-1903.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container label="Box" type="box">1</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1897">1897</unitdate>
+              <unitdate type="inclusive" normal="1908/1928-05-10">1908-May 10, 1928</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container label="Box" type="box">2</container>
+            <unittitle>
+              <unitdate normal="1928-05-11/1930-01-16">May 11, 1928-January 16, 1930</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container label="Box" type="box">3</container>
+            <unittitle>
+              <unitdate normal="1930-01-16/1930-11-06">January 16, 1930-November 6, 1930</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container label="Box" type="box">4</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1930-11-07/1932-03-14">November 7, 1930-March 14, 1932</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container label="Box" type="box">5</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1932-03-15/1933-05">March 15, 1932-May 1933</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container label="Box" type="box">6</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1932-01/1932-05-18">January 1932-May 18, 1932</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container label="Box" type="box">7</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1936-05-19/1936-10-18">May 19, 1936-October 18, 1936</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container label="Box" type="box">8</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1936-10-19/1937-10">October 19, 1936-October 1937</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Business letterpress volumes of correspondence</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1888/1892">1888-1892</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1902/1903">1902-1903</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle><genreform normal="Photogrqphs">Photographs</genreform> / <genreform>Photograph Albums</genreform></unittitle>
+        </did>
+        <scopecontent>
+          <p>The Photographs/Photograph Albums series documents early trips made by Joy on the Lincoln Highways. One was a trip from Detroit to San Francisco in 1915; another is an undated tour "from coast to coast" in a Packard Motor Car. Other albums are of the Vanderbilt Cup Automobile Racers (1906) and a trip in a Packard "Six." See also Ac and UAm</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container label="Box" type="box">9</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">1 envelope</extent>
+            </physdesc>
+            <unittitle>Photographs, miscellaneous</unittitle>
+            <physdesc>
+              </physdesc>
+          </did>
+          <odd>
+            <p>(includes portraits and photographs of Joy in or along side different automobiles)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">9</container>
+            <unittitle>Photograph album of A Family Tour from Coast to Coast in a Packard Motor Car <unitdate>undated</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">9</container>
+            <unittitle>Photograph album of Vanderbilt Cup Automobile Racers <unitdate type="inclusive" normal="1906">1906</unitdate></unittitle>
+            <dao href="851730-2" show="new" actuate="onrequest">
+              <daodesc>
+                <p>[view selected images]</p>
+              </daodesc>
+            </dao>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">9</container>
+            <unittitle>Photograph album of test trip in Packard "Six"; volume entitled "Three Men in a 'Six'"</unittitle>
+            <dao href="851730-3" show="new" actuate="onrequest">
+              <daodesc>
+                <p>[view selected images]</p>
+              </daodesc>
+            </dao>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">9</container>
+            <unittitle>Photograph album of Packard and Liberty-12 airplane engines, including description by Alvan Macauley and letter of Henry B. Joy <unitdate type="inclusive" normal="1918">1918</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="volume" label="Oversize Volume">1</container>
+            <unittitle>Photograph album of automobile trip to New Mexico [outsize] <unitdate type="inclusive" normal="1914-03">March 1914</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="volume" label="Oversize Volume">2</container>
+            <unittitle>Photograph album of trip from Detroit to San Francisco on Lincoln Highway <unitdate type="inclusive" normal="1915-05/1915-06">May-June 1915</unitdate></unittitle>
+            <physdesc>
+              <dimensions>[outsize]</dimensions>
+            </physdesc>
+            <dao href="851730-1" show="new" actuate="onrequest">
+              <daodesc>
+                <p>[view selected images]</p>
+              </daodesc>
+            </dao>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Scrapbooks</unittitle>
+        </did>
+        <scopecontent>
+          <p>The greatest part of the collection consists of Scrapbooks, dated from 1883 to 1936, and consisting of clippings, memorabilia, and scattered correspondence detailing Joy's various interests and activities. Subjects include the Lincoln Highway, the development of the Packard Motor Car Company, the Michigan Naval Reserve, national tariff policy, the prohibition amendment, and state and national politics.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container label="Box" type="box">10</container>
+            <unittitle>Vol. I, Scrapbook <unitdate type="inclusive" normal="1890/1898">1890-1898</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(subjects include Detroit Athletic Club, Michigan State Naval Brigade (1st Division), Free Silver question, Taxation of railroads)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">10</container>
+            <unittitle>Vol. II, Scrapbook <unitdate type="inclusive" normal="1896/1899">1896-1899</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(miscellaneous, J. F. Joy, H. B. Joy)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">10</container>
+            <unittitle>Vol. III, Scrapbook concerning the Michigan Naval Reserves <unitdate type="inclusive" normal="1898">1898</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">10</container>
+            <unittitle>Vol. IV, Scrapbook concerning the Michigan Naval Reserves <unitdate type="inclusive" normal="1898/1899">1898-1899</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">10</container>
+            <unittitle>Vol. V, Scrapbook concerning the Michigan Naval Reserves <unitdate type="inclusive" normal="1900/1928">1900-1928</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container label="Box" type="box">11</container>
+            <unittitle>Vol. VI, Scrapbook <unitdate type="inclusive" normal="1883/1913">1883-1913</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(subjects include personal miscellanea, automobile development, Truman H. Newberry, Packard Motor Car Company)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">11</container>
+            <unittitle>Vol. VII, Scrapbook <unitdate type="inclusive" normal="1908/1910">1908-1910</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(subjects include tariff question, employers liability law)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">11</container>
+            <unittitle>Vol. VIII, Scrapbook concerning automobiles and the tariff question <unitdate type="inclusive" normal="1912">1912</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">11</container>
+            <unittitle>Vol. IX, Scrapbook concerning automobiles and the tariff question <unitdate type="inclusive" normal="1913/1915">1913-1915</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">11</container>
+            <unittitle>Vol. X, Scrapbook concerning the Packard Motor Car Co. and national business developments <unitdate type="inclusive" normal="1913/1914">1913-1914</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container label="Box" type="box">12</container>
+            <unittitle>Vol. XI, Scrapbook <unitdate type="inclusive" normal="1913/1916">1913-1916</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(subjects include child labor, advertising ethics, newspaper boycott)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">12</container>
+            <unittitle>Vol. XII, Scrapbook concerning price cutting <unitdate type="inclusive" normal="1913/1916">1913-1916</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">12</container>
+            <unittitle>Vol. XIII, Scrapbook <unitdate type="inclusive" normal="1913/1916">1913-1916</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(subjects include Lincoln Highway, war preparedness)</p>
+          </odd>
+          <odd>
+            <p>[microfilm copy available]</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">12</container>
+            <unittitle>Vol. XIV, Scrapbook concerning interstate and foreign commerce <unitdate type="inclusive" normal="1914">1914</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container label="Box" type="box">13</container>
+            <unittitle>Vol. XV, Scrapbook <unitdate type="inclusive" normal="1913/1915">1913-1915</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(subjects include national politics <corpname>Federal Reserve Board</corpname>, <subject>Good Roads Movement</subject>, gasoline substitute)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">13</container>
+            <unittitle>Vol. XVI, Scrapbook concerning <corpname>Federal Reserve Board</corpname>, <unitdate type="inclusive" normal="1915">1915</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">13</container>
+            <unittitle>Vol. XVII, Scrapbook concerning Lincoln Highway (vol. 1) <unitdate type="inclusive" normal="1915/1916">1915-1916</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">13</container>
+            <unittitle>Vol. XVIII, Scrapbook concerning Lincoln Highway (vol. 2) <unitdate type="inclusive" normal="1915/1916">1915-1916</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container label="Box" type="box">14</container>
+            <unittitle>Vol. XIX, Scrapbook <unitdate type="inclusive" normal="1915/1930">1915-1930</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(subjects include World War I, social affairs)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">14</container>
+            <unittitle>Vol. XX, Scrapbook concerning the Presidential election campaign of Charles Evans Hughes <unitdate type="inclusive" normal="1916">1916</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">14</container>
+            <unittitle>Vol XXI, Scrapbook <unitdate type="inclusive" normal="1916/1926">1916-1926</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(subjects include War with <persname>Pancho Villa</persname>, <corpname>Roosevelt Republican League of Michigan</corpname>, <corpname>Packard Motor Car Co.</corpname>, <subject>Lincoln Highway</subject>, aviation developments)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">14</container>
+            <unittitle>Vol XXII, Scrapbook <unitdate type="inclusive" normal="1921/1930">1921-1930</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(subjects include social affairs <geogname>Grosse Pointe, Mich.</geogname>, Radio developments, <corpname>Packard Motor Car Co.</corpname>, <persname>Thomas A. Edison</persname>, <persname>Prohibition</persname>, <corpname>Federal Council of Churches</corpname>)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container label="Box" type="box">15</container>
+            <unittitle>Vol. XXIII, Scrapbook concerning prohibition <unitdate type="inclusive" normal="1925/1931">1925-1931</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">15</container>
+            <unittitle>Vol. XXIV, Scrapbook concerning war debts question <unitdate type="inclusive" normal="1927/1932">1927-1932</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">15</container>
+            <unittitle>Vol. XXV, Scrapbook <unitdate type="inclusive" normal="1931/1933">1931-1933</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(subjects include <persname>Abraham Lincoln</persname> research, <corpname>Navy League of the United States</corpname>, Republican politics)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container label="Box" type="box">16</container>
+            <unittitle>Vol. XXVI, Scrapbook <unitdate type="inclusive" normal="1931/1934">1931-1934</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(subjects include Detroit banks, Federal Council of Churches, income tax, economic conditions)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">16</container>
+            <unittitle>Vol. XXVII, Scrapbook <unitdate type="inclusive" normal="1933/1936">1933-1936</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(subjects include banking crisis, New Deal, American Liberty League, economic conditions)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">16</container>
+            <unittitle>Vol. XXVIII, Scrapbook <unitdate type="inclusive" normal="1936/1937">1936-1937</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(subjects include <corpname>Federal Council of Churches)</corpname></p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">16</container>
+            <unittitle>Vol XXIX, Scrapbook concerning <persname>Helen Joy Lee</persname>, <unitdate type="inclusive" normal="1918/1928">1918-1928</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">16</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">3 folders</extent>
+            </physdesc>
+            <unittitle>Miscellaneous newspaper clippings</unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Printed pamphlets, newsletters and reports <unitdate type="inclusive" normal="1927/1936">1927-1936</unitdate></unittitle>
+        </did>
+        <scopecontent>
+          <p>Joy was a member and supporter of numerous politically and socially conservative organizations, and his collection includes the published pamphlets, newsletters, and reports distributed by these groups. The series, called Published Materials, includes anti-prohibition, anti-New Deal literature, as well as publications of the <corpname>American Liberty League</corpname>, <persname>Elizabeth Dilling</persname>, and <persname>Robert E. Edmonson</persname>. The Miscellaneous series includes guide books to countries in which Joy traveled. There is also a copy of the testimony given by Joy in 1923 before Secretary of Agriculture Henry C. Wallace concerning <subject>Lincoln Highway</subject> in Utah and Nevada.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container label="Box" type="box">17</container>
+            <unittitle>American in Danger (Charles B. Hudson)</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">17</container>
+            <unittitle>American Coalition</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">17</container>
+            <unittitle>American Liberty League</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">17</container>
+            <unittitle>American Vigilant Intelligence Federation</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">17</container>
+            <unittitle>D.A.R. National Defense Committee</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">17</container>
+            <unittitle>Dilling, Elizabeth</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">17</container>
+            <unittitle>Edmondson, Robert Edward</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">17</container>
+            <unittitle>Federal Council of Churches</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">17</container>
+            <unittitle>The Fundamentalist</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">17</container>
+            <unittitle>Industrial Control Reports</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">17</container>
+            <unittitle>Industrial Defense Association</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">17</container>
+            <unittitle>Law Suit (University of Detroit)</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">17</container>
+            <unittitle>Mailing Lists</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">17</container>
+            <unittitle>
+              <corpname>National Civic Federation</corpname>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container label="Box" type="box">18</container>
+            <unittitle>National defense (miscellaneous)</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">18</container>
+            <unittitle><subject>New Deal</subject> (opposition forces)</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">18</container>
+            <unittitle>Prohibition</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">18</container>
+            <unittitle>"Red Menace" (Miscellaneous)</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">18</container>
+            <unittitle>
+              <corpname>Union League of Michigan</corpname>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">18</container>
+            <unittitle>War debt question</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">18</container>
+            <unittitle>Miscellaneous (<corpname>Better America Federation</corpname>, R.O.T.C. association, Madame Cantacuzene)</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">18</container>
+            <unittitle>Miscellaneous writings and newspaper clippings</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">18</container>
+            <unittitle>Pamphlets concerning anti-prohibition campaign, anti-New Deal, and American Liberty League</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container label="Box" type="box">19</container>
+            <unittitle>Pamphlets concerning D.A.R. <corpname>National Defense Committee</corpname>, <persname>Robert E. Edmondson</persname>, <persname>Elizabeth Dilling</persname></unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Miscellaneous</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <container label="Box" type="box">19</container>
+            <unittitle>Guide books to England and other countries traveled</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">19</container>
+            <unittitle>Testimony before Secretary of Agriculture Henry C. Wallace concerning <subject>Lincoln Highway</subject> in Utah and Nevada, <unitdate normal="1923">1923</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">19</container>
+            <unittitle>Proclamation of the Rout of the Lincoln Highway, <unitdate type="inclusive" normal="1913">1913</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(oversize item in Ac folder)</p>
+          </odd>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

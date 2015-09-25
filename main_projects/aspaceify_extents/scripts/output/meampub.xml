@@ -1,0 +1,615 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead.dtd">
+<ead>
+  <eadheader audience="internal" langencoding="iso639-2b" repositoryencoding="iso15511" dateencoding="iso8601" relatedencoding="Dublin Core">
+    <eadid countrycode="us" mainagencycode="MiU-H" publicid="us//::miu-h//TXT us::miu-h::meampub.xml//EN" encodinganalog="identifier">umich-bhl-9728</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="title">Finding Aid for Dept. of Mechanical Engineering and Applied Mechanics (University of Michigan) publications, 1908-2002</titleproper>
+        <author encodinganalog="creator">Collection processed and finding aid created by Marilyn M. McNitt, July 2003</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="publisher">Bentley Historical Library, University of Michigan</publisher>
+        <date encodinganalog="date">April 2004</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created by Greg Kinney <date>April 2004</date></creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date>20070409</date>
+        <item>updates added, contents list reencoded.</item>
+      </change>
+      <change>
+        <date>20040430</date>
+        <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <frontmatter>
+    <titlepage>
+      <publisher>University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
+      <titleproper>Finding aid for <lb/>Dept. of Mechanical Engineering and Applied Mechanics <lb/>(University of Michigan) <lb/>Publications, 1908-2002 (bulk 1968-2000)</titleproper>
+      <author>Finding aid created by <lb/>Marilyn M. McNitt, July 2003</author>
+    </titlepage>
+  </frontmatter>
+  <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
+    <did>
+      <origination>
+        <corpname source="lcnaf" encodinganalog="110">University of Michigan. Dept. of Mechanical Engineering and Applied Mechanics.</corpname>
+      </origination>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1.5 linear feet</extent>
+      </physdesc>
+      <unittitle encodinganalog="245">Dept. of Mechanical Engineering and Applied Mechanics (University of Michigan) publications <unitdate type="inclusive" encodinganalog="245$f" normal="1908/2002">1908-2002</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1968/2000">1968-2000</unitdate></unittitle>
+      <unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">9728; Bimu; C146; 2</unitid>
+      <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
+      <abstract>Teaching and research unit of the College of Engineering of the University of Michigan. Contains publications produced by or for the department, including annual reports, bibliographies, brochures and pamphlets, bulletins describing graduate programs, directories, histories, manuals, and newsletters.</abstract>
+      <repository>
+        <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea>, University of Michigan</corpname>
+        <extptr href="bhladd" show="embed" actuate="onload"/>
+      </repository>
+    </did>
+    <descgrp type="admin">
+      <acqinfo encodinganalog="541">
+        <p>The publications are received periodically from the unit (donor no. <num type="donor" encodinganalog="541$e">8391</num>).</p>
+      </acqinfo>
+      <accessrestrict encodinganalog="506">
+        <p>The publications are open for research.</p>
+        <p>
+          <extptr href="uarpacc" show="embed" actuate="onload"/>
+        </p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+        <p>Copyright is held by the Regents of the University of Michigan.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+        <p>[item], folder, box,
+Department of Mechanical Engineering and Applied Mechanics (University of Michigan) Publications, Bentley Historical Library, University of Michigan</p>
+      </prefercite>
+    </descgrp>
+    <bioghist encodinganalog="545">
+      <p>The Department of Mechanical Engineering and Applied Mechanics is a teaching and research unit of the College of Engineering of the University of Michigan.</p>
+    </bioghist>
+    <scopecontent encodinganalog="520">
+      <p>The Department of Mechanical Engineering and Applied Mechanics Publications are divided into three series: Unit Publications, Sub-Unit Publications, and Student Publications. The bulk of the publications document the teaching and research functions of the Department of Mechanical Engineering and Applied Mechanics.</p>
+    </scopecontent>
+    <controlaccess>
+      <p>
+        <extptr href="accnote" show="embed" actuate="onload"/>
+      </p>
+      <controlaccess>
+        <head>Subjects:</head>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Mechanical Engineering &amp; Applied Mechanics.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Alumni and alumnae.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n83062297">University of Michigan. Dept. of Mechanical Engineering.</corpname>
+        <title source="aacr2" encodinganalog="740">MEAM alumnus.</title>
+        <title source="aacr2" encodinganalog="740">Mechanica.</title>
+        <title source="aacr2" encodinganalog="740">125 years of mechanical engineering at the University of Michigan.</title>
+      </controlaccess>
+      <controlaccess>
+        <head>Genre Terms:</head>
+        <genreform source="aat" encodinganalog="655">Annual reports.</genreform>
+        <genreform source="aat" encodinganalog="655">Bibliographies.</genreform>
+        <genreform source="aat" encodinganalog="655">Pamphlets.</genreform>
+        <genreform source="aat" encodinganalog="655">Bulletins.</genreform>
+        <genreform source="aat" encodinganalog="655">Directories.</genreform>
+        <genreform source="aat" encodinganalog="655">Manuals.</genreform>
+        <genreform source="aat" encodinganalog="655">Newsletters.</genreform>
+        <genreform source="aat" encodinganalog="655">Histories.</genreform>
+        <genreform source="aat" encodinganalog="655">Reports.</genreform>
+        <corpname source="lcnaf" encodinganalog="710" authfilenumber="http://id.loc.gov/authorities/names/n83062297">University of Michigan. Dept. of Mechanical Engineering.</corpname>
+      </controlaccess>
+    </controlaccess>
+    <dsc type="combined">
+      <c01 level="series">
+        <did>
+          <unittitle>Unit Publications</unittitle>
+        </did>
+        <scopecontent>
+          <p>The Unit Publications series contains printed material published specifically by the Department of Mechanical Engineering and Applied Mechanics. These publications are defined as being widely distributed and may be published at regular intervals. They are arranged by genre of the publication.</p>
+          <p>The Unit Publications series contains annual reports, bibliographies, brochures, bulletins, directories, flyers, histories, lectures, manuals, newsletters, posters, programs, and reports. The annual reports document the department from 1984 to 2000. They also include the 1992-1993 annual report entitled <title render="italic">125 Years of Mechanical Engineering at the University of Michigan</title> which was written to celebrate the 125th anniversary of the department. This series also includes bulletins dating from 1966 to 1995 describing the various graduate programs within the department. Under "Directories" the researcher will find faculty and staff directories from 1992 to 1997 and directories for women and minority students from the period 1992 to 1994. There is also a directory of the various manufacturing laboratories within the department. Of the two histories included in this series, the first was compiled to celebrate the centennial of the College of Engineering in 1954 and contains a brief history of the Department of Mechanical Engineering and Applied Mechanics. The centennial history of the department– <title render="italic">Mechanical Engineering at Michigan, 1868-1968: A Volume Issued on the Occasion of the Centennial Celebration of the Department of Mechanical Engineering</title> will also be found in this series.</p>
+          <p>A copy of the lecture <title render="italic">"Kansei" Engineering: The Art of Automotive Development at Mazda</title> which was given by Kenichi Yamamoto in 1986 is included in the Unit Publications. There are three manuals contained in this series, including <title render="italic">The Graduate Programs Handbook</title> published in 1997 to aid the department's incoming graduate students with admission information, degree requirements, course and facility descriptions, and faculty information. There is also a 1908 manual of <title render="italic">Drawing Standards and Conventions</title>. The internal department <title render="italic">Newsletter</title> documents the activities of the faculty and staff from 1979 to 1995 with the exception of 1980.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <unittitle>Annual Reports</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">8 folders</extent>
+              </physdesc>
+              <unittitle><title render="italic">Annual Report for the Department of Mechanical Engineering and Applied Mechanics</title>, <unitdate type="inclusive" normal="1981/1988">1981/82-1987/88</unitdate>, <unitdate type="inclusive" normal="1991/1992">1991/92</unitdate>, <unitdate type="inclusive" normal="1993/2002">1993/94-2001/02</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle><title render="italic">125 Years of Mechanical Engineering at the University of Michigan</title>, <unitdate type="inclusive" normal="1992/1993">1992-1993</unitdate> (2 copies)</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle><title render="italic">Biennial Report</title>, <unitdate type="inclusive" normal="1988/1990">1988-1990</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Bibliographies</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle><title render="italic">Manufacturing Laboratories in the Department of Mechanical Engineering and Applied Mechanics</title>, <unitdate type="inclusive" normal="1989">1989</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Brochures</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle><title render="italic">Automotive</title>, <unitdate type="inclusive" normal="1959/1963">1959-1963</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Degree Requirements <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle><title render="italic">Mechanical Engineering</title>, <unitdate type="inclusive" normal="1956/1993">1956-1993</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Seminars, Colloquia, and Lectures sponsored by the department <unitdate type="inclusive" normal="1967/1993">1967-1993</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Miscellaneous</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Bulletins</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle><title render="italic">Graduate Programs in Mechanical Engineering</title>, <unitdate type="inclusive" normal="1966/1991">1966-1991</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle><title render="italic">Graduate Programs in Mechanical Engineering and Applied Mechanics</title>, <unitdate type="inclusive" normal="1993/1995">1993-1995</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle><title render="italic">Research Bulletin</title>, <unitdate type="inclusive" normal="1992/1993">1992-1993</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Directories</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle><title render="italic">Directory of Women and Minority Students</title>, <unitdate type="inclusive" normal="1992/1994">1992-1994</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle><title render="italic">External Advisory Board</title> [1995 ?]</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
+              </physdesc>
+              <unittitle><title render="italic">Faculty and Staff Directory</title>, [1992/1993]-1998</unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle><title render="italic">Faculty Research Interests</title>, <unitdate type="inclusive" normal="1998/1999">1998-1999</unitdate>, <unitdate type="inclusive" normal="2001">2001</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle><title render="italic">Manufacturing Laboratories</title>, [1989]</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Flyers</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1992/1993">1992-1993</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Histories</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle><title render="italic">A Century of Engineering Education: Department of Mechanical Engineering and Applied Mechanics</title>, <unitdate type="inclusive" normal="1954">1954</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle><title render="italic">Mechanical Engineering at Michigan, 1868-1968</title>, [1968]</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Lectures</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle><title render="italic">"Kansei" Engineering: The Art of Automotive Development at Mazda</title> by Kenichi Yamamoto, <unitdate type="inclusive" normal="1986">1986</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Manuals</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle><title render="italic">Drawing Standards and Conventions</title>, <unitdate type="inclusive" normal="1908">1908</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle><title render="italic">Graduate Programs Handbook</title>, <unitdate type="inclusive" normal="1997/1998">1997-1998</unitdate> [1997]</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle><title render="italic">Motion and Time Study Notes for Mechanical Engineering Course M.E. 136</title>, <unitdate type="inclusive" normal="1949">1949</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Newsletters</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>
+                <title render="italic">Newsletter</title>
+              </unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">12 folders</extent>
+                </physdesc>
+                <unittitle><unitdate type="inclusive" normal="1979">1979</unitdate>, <unitdate type="inclusive" normal="1981/1991">1981-1991</unitdate></unittitle>
+                <physdesc altrender="whole">
+                  </physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">3 folders</extent>
+                </physdesc>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1992/1994">1992-1994</unitdate>
+                </unittitle>
+                <physdesc altrender="whole">
+                  </physdesc>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Posters</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle><title render="italic">Laser Science and Engineering Lecture</title>, <unitdate type="inclusive" normal="1999">1999</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle><title render="italic">Sunrunner at the World Solar Challenge</title>, <unitdate type="inclusive" normal="1990" certainty="approximate">1990 undated</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Programs</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>Graduate Student Symposium</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle>
+                  <title render="italic">Book of Abstracts</title>
+                </unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle><title render="italic">MEAM Spring Awards Celebration</title>, <unitdate type="inclusive" normal="1997/1998">1997-1998</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>National Science Foundation Conference <unitdate type="inclusive" normal="1987">1987</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Miscellaneous</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Reports</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle><title render="italic">Fundamental Research in Manufacturing for National Competitiveness</title>, <unitdate type="inclusive" normal="1992">1992</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle><title render="italic">A Real-Time Implementation of a Robot Tool Management System With a Robot Hand Database for Flexible Assembly Cells</title> by Paul G. Ranky, <unitdate type="inclusive" normal="1986">1986</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle><title render="italic">Report of Committee on Tractive Resistance and Allied Problems</title> by Walter E. Lay, <unitdate type="inclusive" normal="1939">1939</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle><title render="italic">A Study of the Relation of Combustion to the Emissions of Atmospheric Contaminants</title>, <unitdate type="inclusive" normal="1964">1964</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Texts</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle><title render="italic">Notes and Problems in Statics</title>, <unitdate type="inclusive" normal="1946">1946</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Sub-Unit Publications</unittitle>
+        </did>
+        <scopecontent>
+          <p>The Sub-Unit Publications series includes brochures from the Academic Counseling Office. The Bentley Historical Library has a complete run, dating from 1992 to 2000, of the newsletters entitled <title render="italic">The MEAM Alumnus</title> and <title render="italic">Mechanica</title> from Alumni and Development. These newsletters document the activities of the faculty, staff, students, and alumni of the department. There are also publications from the Automotive Laboratory, the Center for Dimensional Measurement and Control in Manufacturing, the Fluid Dynamics Laboratory, and the Senior Design Exposition.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <unittitle>Academic Counseling Office</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>Brochures</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle><title render="italic">Applied Mechanics</title>, <unitdate type="inclusive" normal="1993">1993</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle><title render="italic">M.S.E. Degree</title>, <title render="italic">1992</title></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle><title render="italic">The Ph.D. Degree</title>, <unitdate type="inclusive" normal="1991/1993">1991-1993</unitdate> includes Qualifying and Preliminary Exams</unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Alumni and Development</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>Newsletters</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle><title render="italic">The MEAM Alumnus</title> [precedes <title render="italic">Mechanica</title>], <unitdate type="inclusive" normal="1992/1993">1992-1993</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">8 folders</extent>
+                </physdesc>
+                <unittitle><title render="italic">Mechanica</title>, <unitdate type="inclusive" normal="1994/2001">1994-2001</unitdate></unittitle>
+                <physdesc altrender="whole">
+                  </physdesc>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Automotive Laboratory</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Reports <unitdate type="inclusive" normal="1952">1952</unitdate>, <unitdate type="inclusive" normal="1955">1955</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Center for Dimensional Measurement and Control in Manufacturing</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>Newsletters</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle><title render="italic">The Coordinator</title>, <unitdate type="inclusive" normal="1993">1993</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Design Engineering Computer Aids Laboratory Texts</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle><title render="italic">Users Guide to DRAM (Dynamic Response of Articulated Machinery)</title>, <unitdate type="inclusive" normal="1974">1974</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Fluid Dynamics Laboratory</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>Reports</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle><title render="italic">Heat Transfer In Rarefied Gases: A Survey</title> by George S. Springer, <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Senior Design Exposition</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Flyers <unitdate type="inclusive" normal="1995">1995</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Programs <unitdate type="inclusive" normal="1995/1996">1995-1996</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>S. M. Wu Manufacturing Research Laboratory</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>Reports</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle><title render="italic">Annual Report</title>, <unitdate type="inclusive" normal="1993">1993</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Student Publications</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <unittitle>Pi Tau Sigma</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Brochures and Newsletters <unitdate type="inclusive" normal="1949">1949</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

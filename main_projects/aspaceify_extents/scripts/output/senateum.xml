@@ -1,0 +1,930 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead.dtd">
+<ead>
+  <eadheader audience="internal" langencoding="iso639-2b" repositoryencoding="iso15511" dateencoding="iso8601" relatedencoding="Dublin Core" scriptencoding="iso15924" countryencoding="iso3166-1">
+    <eadid countrycode="us" mainagencycode="MiU-H" publicid="us//::miu-h//TXT us::miu-h::senateum.xml//EN" encodinganalog="Identifier">umich-bhl-87309</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="Title">Finding Aid for Senate (University of Michigan) records, 1880-1995</titleproper>
+        <author encodinganalog="Creator">Collection processed and finding aid created by Jack Simpson, July 1997; Jacqueline Haun, March 2000.</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="Publisher">Bentley Historical Library, University of Michigan</publisher>
+        <date encodinganalog="Date" normal="2009">2009</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created by Greg Kinney <date>2009</date></creation>
+      <langusage encodinganalog="Language">The finding aid is written in <language langcode="eng" scriptcode="Latn">English</language></langusage>
+      <descrules>Finding aid prepared using Describing Archives: A Content Standard (DACS)</descrules>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date>20150813</date>
+        <item>Added written notes from paper finding aid.</item>
+      </change>
+      <change>
+        <date>2015-06-05</date>
+        <item>Changed to fix a couple errors.</item>
+      </change>
+      <change>
+        <date>2014-10-07</date>
+        <item>Changed to fix box breaks.</item>
+      </change>
+      <change>
+        <date>2009-01-20</date>
+        <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <frontmatter>
+    <titlepage>
+      <publisher>University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
+      <titleproper>Finding aid for <lb/>Senate (University of Michigan) <lb/>records, 1880-1995</titleproper>
+      <author>Finding aid created by <lb/>Jack Simpson, July 1997 <lb/>Jacqueline Haun, March 2000 <lb/>Lexy deGraffenreid, 2013</author>
+    </titlepage>
+  </frontmatter>
+  <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
+    <did>
+      <origination>
+        <corpname source="lcnaf" encodinganalog="110">University of Michigan. Senate.</corpname>
+      </origination>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">5 linear feet</extent>
+      </physdesc>
+      <unittitle encodinganalog="245">Senate (University of Michigan) records <unitdate type="inclusive" encodinganalog="245$f" normal="1880/1995">1880-1995</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1906/1987">1906-1987</unitdate></unittitle>
+      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">87309 Bimu B31a 2</unitid>
+      <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
+      <abstract>Minutes,1880-1984; correspondence, 1910-1924, concerning the Senate Committee on Student Affairs, including material on student organizations, clubs, and fraternities; papers, 1959-1962, concerning the Senate Advisory Committee's sub-committee on the aims of the University; Senate memorials, 1951-1953; history of the University Senate by Louis Hopkins; minutes, Oct. 1911-Oct. 1916, of the Senate Council; papers, 1906-1916, of the Senate Council, including history</abstract>
+      <repository>
+        <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea>, University of Michigan</corpname>
+        <extptr href="bhladd" show="embed" actuate="onload"/>
+      </repository>
+    </did>
+    <descgrp type="admin">
+      <acqinfo encodinganalog="541">
+        <p>The record group was transferred by the University Senate (donor # <num type="donor" encodinganalog="541$e">234</num>).  Periodic accessions are received.</p>
+      </acqinfo>
+      <accruals encodinganalog="584">
+        <p>Periodic additions to the records are expected.</p>
+      </accruals>
+      <accessrestrict encodinganalog="506">
+        <p>The records are open to research.</p>
+        <p>
+          <extptr href="uarpacc" show="embed" actuate="onload"/>
+        </p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+        <p>Copyright has been transferred to the University of Michigan.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+        <p>[item], folder, box,
+Senate (University of Michigan) records, Bentley Historical Library, University of Michigan</p>
+      </prefercite>
+    </descgrp>
+    <bioghist encodinganalog="545">
+      <p>The University Senate is a political institution made up of all members of the university faculty.  It serves as a forum for faculty opinion on issues affecting the campus, and has also functioned as a social organization for professors.  The university regents first officially recognized the University Senate in March, 1859, although the faculty may have met as a body prior to that date.  The influence of the Senate was probably greatest during the 19th Century.  In that era, faculty members played a strong role in the administration of the university, both through the formal meetings of the Senate and through less formal consultation with the university president.</p>
+      <p>In the early 20th century, the nature of university governance began to change.  Faculty participation in policy formation declined as decisions were increasingly made by a growing class of professional administrators.  The administrative reorganization of 1906-07 hinted at the beginning of this change.  At that time, the powers of the University Senate were transferred to a smaller executive body, the Senate Council, which balanced representatives of the administration and those of the faculty.  Despite this change, the division between faculty and administrators remained indistinct at this stage.  Members of the faculty continued to have a strong role in administrative decision making and most administrators were faculty members who continued to teach classes.  Nevertheless, the structure of the new Senate Council recognized a growing gap between the duties of faculty and administrators.</p>
+      <p>In 1931, the Senate transferred all its power to a new organization, the University Council, which replaced the Senate Council.  The University Council was composed of administration officials and elected faculty members from each school and department.  Its creation reflected the continued growth of the administration, and represented another attempt to balance representation between faculty and administrators.  In 1937, the unmanageable size of the University Council led to the creation of a smaller executive body,  the Senate Advisory Committee on University Affairs (SACUA).  SACUA consisted of some members elected by the Senate and others chosen by the Dean's Conference.  SACUA  members represented the Senate in the University Council and reported to the Senate.  In 1940, the importance of SACUA was diminished with the creation of another executive governing body, the Advisory Board on University Policies.  This new body was appointed by the Board of Regents, and therefore weakened faculty control over university governance.  In 1948, University Council had ceded most of its functions to these smaller executive bodies and was dissolved.  The same year, SACUA was restructured to serve as an executive body of the Senate, with its members elected at-large by the Senate.</p>
+      <p>In 1965, the University Senate again reorganized faculty governance by creating a body called the Senate Assembly.  The new body consisted of sixty-five members elected to represent the various colleges and schools of the university.  The Assembly served as the legislative arm of the Senate and elected the members of SACUA.</p>
+      <p>Researchers interested in the nature of faculty governance might wish to consult Nicholas Steneck's 1991 SACUA report <title render="italic">Faculty Governance at the University of Michigan: Principles, History, and Practice</title>, which is in the holdings of the Bentley Historical Library (Call number:  Fimu B31a.3  S 825).</p>
+    </bioghist>
+    <scopecontent encodinganalog="520">
+      <p>The record group consists of eight series:  Student Affairs, Committee Material, Memorials, Historical, Senate Council, Minutes, Correspondence and Elections, and Senate Assembly Material.  Researchers should note that the Bentley Historical Library also holds a separate record group, University of Michigan Senate Advisory Committee on University Affairs (SACUA) which contains related material.</p>
+    </scopecontent>
+    <controlaccess>
+      <p>
+        <extptr href="accnote" show="embed" actuate="onload"/>
+      </p>
+      <controlaccess>
+        <head>Subjects:</head>
+        <subject source="lcsh" encodinganalog="650">Teacher participation in administration--Michigan--Ann Arbor.</subject>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Committee on Student Affairs.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Senate Council.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Students--Societies, etc.</corpname>
+        <subject source="lcsh" encodinganalog="650">Greek letter societies--Michigan--Ann Arbor.</subject>
+        <subject source="lcsh" encodinganalog="650">Women--Michigan--Ann Arbor--Societies and clubs.</subject>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Senate. Advisory Committee on University Affairs.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan--History.</corpname>
+      </controlaccess>
+      <controlaccess>
+        <head>Contributors:</head>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n85808770">Hopkins, Louis Allen.</persname>
+      </controlaccess>
+    </controlaccess>
+    <dsc type="combined">
+      <c01 level="series">
+        <did>
+          <unittitle>Student Affairs</unittitle>
+        </did>
+        <scopecontent>
+          <p>The Student Affairs series consists of correspondence, minutes, and petitions from 1910 to 1924 dealing with student activities and organizations. Subjects include fraternities, sororities, other student social clubs, honor societies, and student dances.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Senate Committee on Student Affairs</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Annual Reports <unitdate type="inclusive" normal="1915/1919">1915-1919</unitdate>, <unitdate type="inclusive" normal="1930">1930</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">11 folders</extent>
+              </physdesc>
+              <unittitle>Correspondence <unitdate type="inclusive" normal="1910/1924">1910-1924</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">7 volumes</extent>
+              </physdesc>
+              <unittitle>Minutes <unitdate type="inclusive" normal="1902/1952">1902-1952</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Petitions on Reinstatement of the Junior Hop <unitdate type="inclusive" normal="1913/1915">1913-1915</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Committee Material</unittitle>
+        </did>
+        <scopecontent>
+          <p>The Committee Material series consists of correspondence and minutes from 1902 to 1962 relating to Senate or SACUA committees. The series includes material on the selection of the university's official colors.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Committee on Non-Athletic Organizations <unitdate type="inclusive" normal="1902/1917">1902-1917</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Reception Committee <unitdate type="inclusive" normal="1908/1914">1908-1914</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Senate Committee to Choose Official School Colors</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Correspondence <unitdate type="inclusive" normal="1912">1912</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Samples of Colors from University Diplomas <unitdate type="inclusive" normal="1859/1912">1859-1912</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Committee of the Senate on University Affairs <unitdate type="inclusive" normal="1929/1931">1929-1931</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">4 folders</extent>
+            </physdesc>
+            <unittitle>Senate Advisory Committee's Subcommittee on the Aims of the University <unitdate type="inclusive" normal="1959/1962">1959-1962</unitdate></unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">3 folders</extent>
+            </physdesc>
+            <unittitle>Papers Concerning the Senate; (mostly committee material) <unitdate type="inclusive" normal="1943/1951">1943-1951</unitdate></unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Memorials</unittitle>
+        </did>
+        <scopecontent>
+          <p>The Memorials series is made up of Senate memorials to deceased professors. The memorials often contain considerable biographical information about their subjects.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Claude Halsted Van Tyne <unitdate type="inclusive" normal="1930">1930</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Joseph Markley <unitdate type="inclusive" normal="1931">1931</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Robert Bunker <unitdate type="inclusive" normal="1931">1931</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Horace La Feyette Wilgus <unitdate type="inclusive" normal="1935">1935</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Memorials <unitdate type="inclusive" normal="1951/1953">1951-1953</unitdate></unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>A-F</unittitle>
+            </did>
+            <odd>
+              <p>(in one folder)</p>
+            </odd>
+            <c04 level="file">
+              <did>
+                <unittitle>Randolph G. Adams</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>Edwin Myron Baker</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>George Harolde Belote</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>Raúl Benedicto</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>Samuel Lawrence Bigelow</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>James A. Bruce</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>Paul Narciss Bukovksy</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>William Henry Butts</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>Arthur Graves Canfield</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>Palmer Christian</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>George C. Cone</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>Mortimer Edwyn Cooley</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>David Murray Cowie</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>Heber Doust Curtis</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>Earle Dow</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>Joseph Horace Drake</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>Charles Edmunds</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>Herbert Emerson</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>John Edward Emswiler</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>Charles Fischer</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>Richard Corbin Fuller</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>G-M</unittitle>
+            </did>
+            <odd>
+              <p>(in one folder)</p>
+            </odd>
+            <c04 level="file">
+              <did>
+                <unittitle>Clifford Glover</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>Edwin C. Goddard</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>Moses Gomberg</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>Louis Hall</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>Joseph Ralston Hayden</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>William D. Henderson</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>Henry Harold Higbie</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>Juva N. Higbee</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>Wilbert B. Hinsdale</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>Abram A. James</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>John Johnstone</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>Myra Beach Jordan</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>Thomas Albert Knott</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>Norman Kretzschmar</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>Moritz Levi</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>David Martin Lichty</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>Joseph Newhall Lincoln</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>Selma A. Lindell</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>Felix Carlos Lopez</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>George A.  May</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>Edwin Wilkinson Miller</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>George R. Moore</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>Roger L. Morrison</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>O-Z</unittitle>
+            </did>
+            <odd>
+              <p>(in one folder)</p>
+            </odd>
+            <c04 level="file">
+              <did>
+                <unittitle>David Owen</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>Albert Becker Peck</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>Reuben Peterson</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>Jesse Siddall Reeves</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>Jacob Ellsworth Reighard</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>Eugene Etienne Rovillain</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>Will Carl Rufus</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>Alviso B. Stevens</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>Morris Palmer Tilley</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>Elmer Rolland Townsley</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>Allen Whitney</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>Howard Marshall Wight</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>Norman Asa Wood</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>Clarence Stone Yoakum</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>Fielding Harris Yost</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>William Hoyt Worrell</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>Correspondence re memorials</unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Historical</unittitle>
+        </did>
+        <scopecontent>
+          <p>The Historical series consists of a brief history of the Senate and a folder of material outlining Senate minutes and regents meetings.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>"History of the University Senate," Manuscript by Louis Hopkins</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Outline of Senate Minutes <unitdate type="inclusive" normal="1881/1931">1881-1931</unitdate> and Outline of Regents Meetings, <unitdate type="inclusive" normal="1837/1864">1837-1864</unitdate></unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Senate Council</unittitle>
+        </did>
+        <scopecontent>
+          <p>The Senate Council series consists of materials from 1906 to 1931 documenting the activities of the Senate Council. The Senate Council served as the executive board of the Senate, and its minutes, like those of the larger Senate, deal with a wide variety of subjects relating to university governance. The series also contains Senate Council papers consisting of correspondence and reports, and a brief history of the Senate Council.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">3 bound volumes</extent>
+            </physdesc>
+            <unittitle>Minutes <unitdate type="inclusive" normal="1906/1931">1906-1931</unitdate></unittitle>
+            <physdesc>
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Papers <unitdate type="inclusive" normal="1906/1916">1906-1916</unitdate></unittitle>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">13 folders</extent>
+            </physdesc>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>
+                <unitdate normal="1906/1911">1906-1911</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>
+                <unitdate normal="1906/1911">1906-1911</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>History of the Senate Council <unitdate type="inclusive" normal="1906/1911">1906-1911</unitdate>, <unitdate type="inclusive" normal="1912/1916">1912-1916</unitdate></unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Minutes</unittitle>
+        </did>
+        <scopecontent>
+          <p>The Minutes series consists of Senate minutes, mostly in bound volumes, from 1880 to 1984. The minutes include committee reports, memorials, and resolutions.  The minutes deal with a wide range of subjects, including student athletics, faculty compensation, student social life, and educational policy. The earlier meetings tend to contain more material relating to student life, while the later volumes contain more material about the relationship between the faculty and the administration.  The volumes covering the years 1953-54 include a considerable amount of material relating to the investigation, censure and dismissal of professors accused of communist subversion.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle><unitdate type="inclusive" normal="1880/1903">1880-1903</unitdate> (labeled "Records")</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle><unitdate type="inclusive" normal="1904/1907">1904-1907</unitdate> (labeled "Records")</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1907/1922">1907-1922</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1922/1929">1922-1929</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1929/1943">1929-1943</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1943/1948">1943-1948</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1948/1949">1948-1949</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1950/1953">1950-1953</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1953/1955">1953-1955</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1955/1958">1955-1958</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1958/1961">1958-1961</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1961/1965">1961-1965</unitdate>
+            </unittitle>
+          </did>
+          <odd>
+            <p>(includes Senate Assembly Minutes)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1965/1970">1965-1970</unitdate>
+            </unittitle>
+          </did>
+          <odd>
+            <p>(includes Senate Assembly Minutes)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1970/1975">1970-1975</unitdate>
+            </unittitle>
+          </did>
+          <odd>
+            <p>(includes Senate Assembly Minutes)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">5</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1970/1979">1970-1979</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">5</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1980/1984">1980-1984</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Correspondence and Elections</unittitle>
+        </did>
+        <scopecontent>
+          <p>The Correspondence and Elections series consists of Senate correspondence and documents relating to Senate elections of SACUA members from 1958 to 1978, bound in one volume.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">5</container>
+            <unittitle>Senate Correspondence <unitdate type="inclusive" normal="1958/1978">1958-1978</unitdate> Elections to SACUA, <unitdate type="inclusive" normal="1955/1965">1955-1965</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(bound in a single volume)</p>
+          </odd>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <container type="box" label="Box">5</container>
+          <unittitle>Senate Assembly <unitdate type="inclusive" normal="1965/1995">1965-1995</unitdate></unittitle>
+        </did>
+        <scopecontent>
+          <p>The Senate Assembly series consists of material relating to that body from 1965 to 1995.  Researchers interested in subcommittees of the Senate Assembly should refer to the separate University of Michigan Senate Advisory Committee on University Affairs (SACUA) holdings.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">5</container>
+            <unittitle>Correspondence <unitdate type="inclusive" normal="1965/1971">1965-1971</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">5</container>
+            <unittitle>Agendas and Minutes <unitdate type="inclusive" normal="1966/1970">1966-1970</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Agendas</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
+              </physdesc>
+              <unittitle>
+                <unitdate type="inclusive" normal="1988">1988</unitdate>
+              </unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1994/1995">1994-1995</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Minutes</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1972/1982">1972-1982</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1984/1987">1984-1987</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1993/1995">1993-1995</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">5</container>
+            <unittitle>Membership of Senate Assembly <unitdate type="inclusive" normal="1993/1995">1993-1995</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">5</container>
+            <unittitle>President's Retreat <unitdate type="inclusive" normal="1994">1994</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">5</container>
+            <unittitle>Report on Nomination and Election to Senate Assembly <unitdate type="inclusive" normal="1973">1973</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">5</container>
+            <unittitle>Rules of Senate Assembly and SACUA <unitdate type="inclusive" normal="1967/1975">1967-1975</unitdate></unittitle>
+          </did>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

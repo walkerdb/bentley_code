@@ -1,0 +1,958 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead.dtd">
+<ead>
+  <eadheader audience="internal" langencoding="iso639-2b" repositoryencoding="iso15511" dateencoding="iso8601" relatedencoding="Dublin Core" scriptencoding="iso15924" countryencoding="iso3166-1">
+    <eadid countrycode="us" mainagencycode="MiU-H" publicid="us//::miu-h//TXT us::miu-h::shelleyh.xml//EN" encodinganalog="Identifier">umich-bhl-2009175</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="Title">Finding Aid for Howard Shelley motion pictures, ca. 1960s-ca. 1970s</titleproper>
+        <author encodinganalog="Creator">Collection processed and finding aid created by Michigan Historical Collections staff</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="Publisher">Bentley Historical Library, University of Michigan</publisher>
+        <date encodinganalog="Date" normal="2009">2009</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created by Thomas E. Powers <date>2009</date></creation>
+      <langusage encodinganalog="Language">The finding aid is written in <language langcode="eng" scriptcode="Latn">English</language></langusage>
+      <descrules>Finding aid prepared using Describing Archives: A Content Standard (DACS)</descrules>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date>2009-12-22</date>
+        <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <frontmatter>
+    <titlepage>
+      <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
+      <titleproper>Finding aid for <lb/>Howard Shelley motion pictures, ca. 1960s-ca. 1970s</titleproper>
+      <author>Finding aid created by <lb/>Michigan Historical Collections staff, 2009</author>
+    </titlepage>
+  </frontmatter>
+  <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
+    <did>
+      <origination>
+        <persname source="lcnaf" encodinganalog="100">Shelley, Howard, 1909-2003.</persname>
+      </origination>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">17 oversize motion picture reels</extent>
+      </physdesc>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">4 linear feet</extent>
+      </physdesc>
+      <unittitle encodinganalog="245">Howard Shelley motion pictures <unitdate type="inclusive" encodinganalog="245$f" normal="1960/1979" certainty="approximate">circa 1960s-1970s</unitdate></unittitle>
+      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2009175 Aa 2</unitid>
+      <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
+      <repository>
+        <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea>, University of Michigan</corpname>
+        <extptr href="bhladd" show="embed" actuate="onload"/>
+      </repository>
+    </did>
+    <descgrp type="admin">
+      <acqinfo encodinganalog="541">
+        <p>The collection was received from the Michigan United Conservation Clubs (donor no. <num type="donor" encodinganalog="541$e">7413</num>) in January 2008.</p>
+      </acqinfo>
+      <accruals encodinganalog="584">
+        <p>No further additions to the papers are expected.</p>
+      </accruals>
+      <accessrestrict encodinganalog="506">
+        <p>The collection is open to research.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+        <p>Copyright is not held by the Regents of the University of Michigan.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+        <p>[item], folder, box,
+Howard Shelley motion pictures, Bentley Historical Library, University of Michigan</p>
+      </prefercite>
+    </descgrp>
+    <bioghist encodinganalog="545">
+      <p>Howard Shelley was a producer with Mort Neff of the television program <title render="italic">Michigan Outdoors</title>. Most of the filmed segments which appeared on the program were made by Howard Shelley and featured Michigan wildlife, as well as hunting, fishing, and other outdoors activities. Although most of his films related to Michigan, Shelley also made motion pictures about Alaska and the western United States. Shelley died in 2003.</p>
+    </bioghist>
+    <scopecontent encodinganalog="520">
+      <p>The Shelley collection includes motion pictures featuring Michigan wildlife and outdoors activities. Other films related to specific areas within the state, such as Tahquamenon Falls and the Tittabawassee River. Also included are segments relating to Canada, specifically Agawa Canyon. Although the films are silent, the collection includes some reel-to-reel sound recordings of narration intended to accompany the films.</p>
+    </scopecontent>
+    <controlaccess>
+      <p>
+        <extptr href="accnote" show="embed" actuate="onload"/>
+      </p>
+      <controlaccess>
+        <head>Subjects - Visual Materials:</head>
+        <geogname source="lcsh" encodinganalog="651">Agawa Canyon (Ont.)</geogname>
+        <subject source="lctgm" encodinganalog="650">Fishing.</subject>
+        <subject source="lctgm" encodinganalog="650">Hunting--Michigan.</subject>
+        <persname source="lcnaf" encodinganalog="600">Shelley, Howard, 1909-2003.</persname>
+        <geogname source="lcsh" encodinganalog="651">Tahquamenon Falls State Park (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651">Tittabawassee River (Mich.)</geogname>
+      </controlaccess>
+      <controlaccess>
+        <head>Genre Terms:</head>
+        <genreform source="aat" encodinganalog="655">Motion pictures.</genreform>
+        <genreform source="aat" encodinganalog="655">Sound recordings.</genreform>
+      </controlaccess>
+    </controlaccess>
+    <dsc type="combined">
+      <c01 level="series">
+        <did>
+          <unittitle>
+            <genreform normal="Motion pictures">Motion Pictures</genreform>
+          </unittitle>
+        </did>
+        <odd>
+          <p>Each film includes a number given to it by Howard Shelley. Not all film numbers came with the collection.</p>
+        </odd>
+        <c02 level="file">
+          <did>
+            <unittitle>7 inch reels</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unitid>19</unitid>
+              <unittitle>Release Giant Canadian Honkers</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unitid>27</unitid>
+              <unittitle>Perils of a Swan Family</unittitle>
+            </did>
+            <odd>
+              <p>(sound recording available in box 4)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unitid>28</unitid>
+              <unittitle>Dance of the Sharp-tailed Grouse</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unitid>29</unitid>
+              <unittitle>Spawning Bluegills</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unitid>30</unitid>
+              <unittitle>A Busy Beaver</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unitid>31</unitid>
+              <unittitle>Young Red Fox</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unitid>32</unitid>
+              <unittitle>Symphony of Wings</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unitid>33</unitid>
+              <unittitle>Call a Bull Caribou</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unitid>34</unitid>
+              <unittitle>Myers Family Pet Fawn</unittitle>
+            </did>
+            <odd>
+              <p>(sound recording available in box 4)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unitid>36</unitid>
+              <unittitle>Cardinal Family</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unitid>40</unitid>
+              <unittitle>Swarm of Wild Honey Bees</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unitid>41</unitid>
+              <unittitle>Seney National Wildlife Refuge</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unitid>42</unitid>
+              <unittitle>Ontario Jumping Jacks (Hunting)</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unitid>43</unitid>
+              <unittitle>Nankin Mills Nature Center</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unitid>44</unitid>
+              <unittitle>Band Kensington Wild Geese</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unitid>45</unitid>
+              <unittitle>Doe-Fawn-Eagle's Nest</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unitid>46</unitid>
+              <unittitle>Black Bear Health Exam</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unitid>47</unitid>
+              <unittitle>Flint Blue Herons</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unitid>48</unitid>
+              <unittitle>"Boys Will Be Boys"</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unitid>49</unitid>
+              <unittitle>Young Fox Squirrels</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unitid>50</unitid>
+              <unittitle>Tahquamenon Falls, Summer and Winter</unittitle>
+            </did>
+            <odd>
+              <p>(sound recording available in box 4)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unitid>51</unitid>
+              <unittitle>Little Stinkers</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unitid>52</unitid>
+              <unittitle>Wild Turkey Hunt</unittitle>
+            </did>
+            <odd>
+              <p>(sound recording available in box 4)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unitid>53</unitid>
+              <unittitle>Wild Goose Banding, Shiawassee</unittitle>
+            </did>
+            <odd>
+              <p>(sound recording available in box 4)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unitid>54</unitid>
+              <unittitle>Banding Woodcock</unittitle>
+            </did>
+            <odd>
+              <p>(sound recording available in box 4)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unitid>55</unitid>
+              <unittitle>Michigan Elk</unittitle>
+            </did>
+            <odd>
+              <p>(sound recording available in box 4)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unitid>56</unitid>
+              <unittitle>Charley, Pet Great Horned Owl</unittitle>
+            </did>
+            <odd>
+              <p>(sound recording available in box 4)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unitid>57</unitid>
+              <unittitle>Origin of a Trout Stream</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unitid>58</unitid>
+              <unittitle>Alaska Brooks Falls and Brown Bear</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unitid>59</unitid>
+              <unittitle>Winter-Time Camp-Out</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unitid>60</unitid>
+              <unittitle>Deer That Comes To Dinner</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unitid>61</unitid>
+              <unittitle>Trap Wild Turkeys</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unitid>62</unitid>
+              <unittitle>Pink Poodle and Young Red Fox</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unitid>63</unitid>
+              <unittitle>Two Baby Skunks</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unitid>64</unitid>
+              <unittitle>Michigan Blue Herons</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unitid>65</unitid>
+              <unittitle>Swamp Buggy</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unitid>66</unitid>
+              <unittitle>Backyard Bird Pets</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unitid>67</unitid>
+              <unittitle>Spring Has Wings</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unitid>68</unitid>
+              <unittitle>Snow-White, Albino Red Squirrel</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unitid>69</unitid>
+              <unittitle>Team of Oxen at Work</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unitid>70</unitid>
+              <unittitle>Winter Water-Fowl</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unitid>71</unitid>
+              <unittitle>Baby Muskrat</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unitid>72</unitid>
+              <unittitle>Romance of the Waterfowl</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unitid>73</unitid>
+              <unittitle>Plank Road Farm</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unitid>74</unitid>
+              <unittitle>Oakland County 4-H Fair</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unitid>75</unitid>
+              <unittitle>Pheasant Rearing</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unitid>76</unitid>
+              <unittitle>Fishing School for Kids</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unitid>77</unitid>
+              <unittitle>Fly Fishing for Bluegills</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unitid>78</unitid>
+              <unittitle>Croakers</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unitid>79</unitid>
+              <unittitle>Bandit the Coon</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unitid>80</unitid>
+              <unittitle>Panorama of Color</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unitid>81</unitid>
+              <unittitle>Agawa Canyon Train Ride</unittitle>
+            </did>
+            <odd>
+              <p>(sound recording available in box 4)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unitid>83</unitid>
+              <unittitle>Beaver Trapping, DEJ Lunning</unittitle>
+              <physdesc>
+                <physfacet>also includes VHS videotape</physfacet>
+              </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unitid>84</unitid>
+              <unittitle>Beaver Trapping, the Swan Family</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unitid>85</unitid>
+              <unittitle>Art Dey, Ice Fishing For Bluegills</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unitid>86</unitid>
+              <unittitle>Archer's Choice</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unitid>88</unitid>
+              <unittitle>Winter Waterfowl</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unitid>89</unitid>
+              <unittitle>End of Winter, Deer, Geese, Nesting Time</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unitid>90</unitid>
+              <unittitle>Big Turtle, Bass Eats Frog</unittitle>
+            </did>
+            <odd>
+              <p>(sound recording available in box 4)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unitid>91</unitid>
+              <unittitle>Baby Raccoon from Fireplace Chimney</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unitid>92</unitid>
+              <unittitle>Mike and Pat, Friends on Tittabawassee R.</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unitid>93</unitid>
+              <unittitle>Ice Fishing on Houghton Lake</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unitid>94</unitid>
+              <unittitle>Winter Wild Geese Banding at Kensington</unittitle>
+            </did>
+            <odd>
+              <p>(is this dup of 44)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unitid>95</unitid>
+              <unittitle>Racing Pigeons</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>9 inch reels</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <physloc>Oversize</physloc>
+              <unitid>18</unitid>
+              <unittitle>"Pats and Timberdoodles"</unittitle>
+            </did>
+            <odd>
+              <p>(sound recording available in box 4)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <physloc>Oversize</physloc>
+              <unitid>37</unitid>
+              <unittitle>Young Fox Squirrels</unittitle>
+            </did>
+            <odd>
+              <p>(sound recording available in box 4)</p>
+            </odd>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>10.5 inch reels</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <physloc>Oversize</physloc>
+              <unitid>16</unitid>
+              <unittitle>Adventure Bull Moose</unittitle>
+            </did>
+            <odd>
+              <p>(sound recording available in box 4)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Big Red</unittitle>
+            </did>
+            <odd>
+              <p>(sound recording available in box 4)</p>
+            </odd>
+            <c04 level="file">
+              <did>
+                <physloc>Oversize</physloc>
+                <unittitle>Audio Track</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <physloc>Oversize</physloc>
+                <unittitle>A roll</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <physloc>Oversize</physloc>
+                <unittitle>B roll</unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>12 inch</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <physloc>Oversize</physloc>
+              <unitid>5</unitid>
+              <unittitle>Hunter's Moon</unittitle>
+            </did>
+            <odd>
+              <p>(sound recording available in box 4)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <physloc>Oversize</physloc>
+              <unitid>24</unitid>
+              <unittitle>Algoma Outdoors <unitdate type="inclusive" normal="1954">1954</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>14 inch</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <physloc>Oversize</physloc>
+              <unitid>10</unitid>
+              <unittitle>Multiple segments: Hunter's Choice; Wild Boar Hunt in Tennessee; Wild Goose Hunt on Long Island, Hudson Bay; Michigan Autumn Color; Bear and Moose Hunt in Northern Ontario; Deer Hunt in Michigan</unittitle>
+            </did>
+            <odd>
+              <p>(sound recordings of portions available in box 4)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <physloc>Oversize</physloc>
+              <unitid>9</unitid>
+              <unittitle>Multiple segments: North by Northwest; G.B. Fishing-Island Mountain of Ice; Cross-Wise Island; Grayling Fishing; Fly to Paulatuk; Leave Great Bear; White Horse, Yukon; Mi. Post 1118-Camp-Chopper into High Country</unittitle>
+            </did>
+            <odd>
+              <p>(sound recordings of portions available in box 4)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <physloc>Oversize</physloc>
+              <unitid>4</unitid>
+              <unittitle>Big Snow Country</unittitle>
+            </did>
+            <odd>
+              <p>(sound recording available in box 4)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <physloc>Oversize</physloc>
+              <unitid>11</unitid>
+              <unittitle>Island in the Sun</unittitle>
+            </did>
+            <odd>
+              <p>(sound recording available in box 4)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <physloc>Oversize</physloc>
+              <unitid>22</unitid>
+              <unittitle>Magpie Trails <unitdate type="inclusive" normal="1957">1957</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <physloc>Oversize</physloc>
+              <unitid>1</unitid>
+              <unittitle>Camera Caravan</unittitle>
+            </did>
+            <odd>
+              <p>(sound recording available in box 4)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <physloc>Oversize</physloc>
+              <unittitle>The Life and Times of the Whitetail Deer</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>15 inch</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <physloc>Oversize</physloc>
+              <unitid>21</unitid>
+              <unittitle>Ojibwa Country</unittitle>
+              <physdesc>
+                <physfacet>14 inch reel in larger canister</physfacet>
+              </physdesc>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle><genreform normal="Sound recordings">Sound Recordings</genreform> to accompany films</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Hunter's Choice</unittitle>
+          </did>
+          <odd>
+            <p>film no. 10</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Big Snow Country</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Hunter's Moon</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Agawa Canyon, Beaver Trapping in Mio, Beaver Trapping in Stanton, MI, Winter Ice Fishing</unittitle>
+          </did>
+          <odd>
+            <p>film no. 33</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Big Snow Country</unittitle>
+          </did>
+          <odd>
+            <p>film no. 4</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Black Ant Safari</unittitle>
+          </did>
+          <odd>
+            <p>film no. 2</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Island in the Sun</unittitle>
+          </did>
+          <odd>
+            <p>film no. 11</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>North by Northwest</unittitle>
+          </did>
+          <odd>
+            <p>film no. 9</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Adventure Bull Moose</unittitle>
+          </did>
+          <odd>
+            <p>film no. 16</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Pats and Timberdoodles</unittitle>
+          </did>
+          <odd>
+            <p>film no. 18</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Camera Caravan</unittitle>
+          </did>
+          <odd>
+            <p>film no. 1</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Plank Road Farm, 4-H Fair, Pheasant Rearing, Fishing School for Kids, Fly Fish for Blue Gills, Croakers, Bandit the Coon, Panorama of Color</unittitle>
+          </did>
+          <odd>
+            <p>no. 5, film 32</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Perils of a Swan Family, Dance of the Sharp-tailed Grouse, Spawning Bluegills, A Busy Beaver, Young Red Fox, Symphony of Wings, Call a Bull Caribou, Myers Family Pet Fawn, Michigan Wild Turkeys</unittitle>
+          </did>
+          <odd>
+            <p>no. 4, movie 27</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Two Baby Skunks, Blue Heron, Cat Gator-Beaver, Bird Feeder, Spring Has Wings, Snow White Albino Red, Farmer with Oxen, Winter Water Fowl, Baby Muskrat, Water Fowl (Romance)</unittitle>
+          </did>
+          <odd>
+            <p>film no. 31</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Big Red <unitdate type="inclusive" normal="1974">1974</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>film no. 1</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Origin of a Trout Stream, Brown Bear, Wintertime Campout, Deer Comes to Dinner, Trap Wild Turkeys, Poodle</unittitle>
+          </did>
+          <odd>
+            <p>film no. 30</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Cardinal Family, Young Fox Squirrels, Bob Cat, Pontiac Red Fox, Mich. State Bees, Seney Wildlife, Ontario Jumping Jack, Nankin Mills, Band Wildgeese, Doe and Fawn, North Black Bear, Flint Blue Herron</unittitle>
+          </did>
+          <odd>
+            <p>film no. 28</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Baby Raccoon, Mike and Pat, Ice Fishing, Winter Wild Geese, Racing Pigeons, Giant Canadian Honkers</unittitle>
+          </did>
+          <odd>
+            <p>film no. 35</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Charley the Pet Owl</unittitle>
+          </did>
+          <odd>
+            <p>film no. 29</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Boys Will Be Boys, Young Fox Squirrels, Tahquamenon Falls Winter, Little Stinkers, Wild Turkey Hunt, Wild Geese Banding, Banding Woodcock, Michigan Elk, Charley the Owl</unittitle>
+          </did>
+          <odd>
+            <p>film no. 29</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Deer Hunting Archers, Return of Waterfowl, Winters End, Bass Eats Frog</unittitle>
+          </did>
+          <odd>
+            <p>film no. 34</p>
+          </odd>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

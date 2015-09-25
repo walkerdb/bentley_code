@@ -1,0 +1,797 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead.dtd">
+<ead>
+  <eadheader audience="internal" langencoding="iso639-2b" repositoryencoding="iso15511" dateencoding="iso8601" relatedencoding="Dublin Core" scriptencoding="iso15924" countryencoding="iso3166-1">
+    <eadid countrycode="us" mainagencycode="MiU-H" publicid="us//::miu-h//TXT us::miu-h::mcnittwm.xml//EN" encodinganalog="Identifier">umich-bhl-851794</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="Title">Finding Aid for William H. McNitt papers, 1968-1976</titleproper>
+        <author encodinganalog="Creator">Collection processed and finding aid created by William H. McNitt</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="Publisher">Bentley Historical Library, University of Michigan</publisher>
+        <date encodinganalog="Date" normal="2009">2009</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created by Thomas E. Powers <date>2009</date></creation>
+      <langusage encodinganalog="Language">The finding aid is written in <language langcode="eng" scriptcode="Latn">English</language></langusage>
+      <descrules>Finding aid prepared using Describing Archives: A Content Standard (DACS)</descrules>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date>2009-01-29</date>
+        <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <frontmatter>
+    <titlepage>
+      <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
+      <titleproper>Finding aid for <lb/>William H. McNitt papers, 1968-1976</titleproper>
+      <author>Finding aid created by <lb/>William H. McNitt</author>
+    </titlepage>
+  </frontmatter>
+  <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
+    <did>
+      <origination>
+        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n84104469">McNitt, William H.</persname>
+      </origination>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">5 linear feet</extent>
+      </physdesc>
+      <unittitle encodinganalog="245">William H. McNitt papers <unitdate type="inclusive" encodinganalog="245$f" normal="1968/1976">1968-1976</unitdate></unittitle>
+      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">851794 Aa 2</unitid>
+      <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
+      <abstract>Ann Arbor, Michigan, archivist; collected materials relating to local Democratic Party politics; student papers; and photographs.</abstract>
+      <repository>
+        <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea>, University of Michigan</corpname>
+        <extptr href="bhladd" show="embed" actuate="onload"/>
+      </repository>
+    </did>
+    <descgrp type="admin">
+      <acqinfo encodinganalog="541">
+        <p>The collection was the gift of William H. McNitt (donor no. <num type="donor" encodinganalog="541$e">4795</num>).</p>
+      </acqinfo>
+      <accruals encodinganalog="584">
+        <p>No further additions to the papers are expected.</p>
+      </accruals>
+      <accessrestrict encodinganalog="506">
+        <p>The collection is open to research.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+        <p>Copyright is held by the Regents of the University of Michigan.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+        <p>[item], folder, box,
+William H. McNitt papers, Bentley Historical Library, University of Michigan</p>
+      </prefercite>
+    </descgrp>
+    <bioghist encodinganalog="545">
+      <p>William H. McNitt was a graduate of the University of Michigan who later became an archivist at the Bentley Historical Library and the Gerald R. Ford Presidential Library in Ann Arbor, Michigan. While still a student and early in his professional career, McNitt also volunteered as a Democratic Party precinct captain in Ann Arbor.</p>
+    </bioghist>
+    <scopecontent encodinganalog="520">
+      <p>The McNitt papers consist of materials collected relating to his interest in, and activities with, the local Democratic Party. Included are newsletters, leaflets, campaign materials and newspaper clippings concerning state, county, and municipal politics, particularly the presidential campaigns of Eugene McCarthy in 1968 and George McGovern in 1972, Ann Arbor City Council and school board elections; the New Democratic Coalition of Michigan; the Human Rights Party; the state presidential primary in 1972; Democratic state conventions; state elections in 1968, 1970, 1972, and 1974; and the election campaign of Congressman Richard F. VanderVeen in 1974.</p>
+      <p>The collection also includes copies of student papers on topics relating to Michigan history. The titles of these papers are "The Library Extension Movement in Grand Rapids", "Journalism and the Republican Party of Michigan, 1890-1920; A Study of the Michigan Republican Newspaper Association", and "Peace and American Society : Rebecca Shelley and the Peace Movement."</p>
+      <p>Finally, there are many hundreds of photographs taken by McNitt relating to the construction of the Bentley Library and to the accessioning of the papers of Gerald R. Ford.</p>
+    </scopecontent>
+    <controlaccess>
+      <p>
+        <extptr href="accnote" show="embed" actuate="onload"/>
+      </p>
+      <controlaccess>
+        <head>Subjects:</head>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79022219.html">Ann Arbor (Mich.)</geogname>
+        <corpname source="lcnaf" encodinganalog="610">Ann Arbor (Mich.). Common Council.</corpname>
+        <subject source="lcsh" encodinganalog="650">Mayors--Michigan--Ann Arbor.</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n83163731">Democratic Party (Mich.)</corpname>
+        <subject source="lcsh" encodinganalog="650">Education--Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650">Elections--Michigan--1968.</subject>
+        <subject source="lcsh" encodinganalog="650">Elections--Michigan--1970.</subject>
+        <subject source="lcsh" encodinganalog="650">Elections--Michigan--1972.</subject>
+        <subject source="lcsh" encodinganalog="650">Elections--Michigan--1974.</subject>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79055385">Ford, Henry, 1863-1947.</persname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79133151.html">Grand Rapids (Mich.)</geogname>
+        <corpname source="lcnaf" encodinganalog="610">Human Rights Party (Ann Arbor, Mich.)</corpname>
+        <subject source="lcsh" encodinganalog="650">Journalists--Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650">Libraries--Michigan--Grand Rapids.</subject>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n80002307">McCarthy, Eugene J., 1916-2005.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n80039703">McGovern, George S. (George Stanley), 1922-2012</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n84104469">McNitt, William H.</persname>
+        <geogname source="local" encodinganalog="691">Michigan--Politics and government--1961-1970.</geogname>
+        <geogname source="local" encodinganalog="691">Michigan--Politics and government--1971-1980.</geogname>
+        <corpname source="lcnaf" encodinganalog="610">Michigan Republican Newspaper Association.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">New Democratic Coalition of Michigan.</corpname>
+        <subject source="lcsh" encodinganalog="650">Peace--Societies, etc.</subject>
+        <subject source="lcsh" encodinganalog="650">Presidents--United States--Election--1968.</subject>
+        <subject source="lcsh" encodinganalog="650">Presidents--United States--Election--1972.</subject>
+        <corpname source="lcnaf" encodinganalog="610">Republican Party (Mich.)</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n90722215">Shelley, Rebecca, 1887-1984.</persname>
+        <corpname source="lcnaf" encodinganalog="610">United States. Congress--Elections, 1974.</corpname>
+        <geogname source="lcsh" encodinganalog="651">United States--Politics and government--1963-1969.</geogname>
+        <geogname source="lcsh" encodinganalog="651">United States--Politics and government--1969-1974.</geogname>
+        <persname source="lcnaf" encodinganalog="600">VanderVeen, Richard Franklin, 1922-</persname>
+        <geogname source="lcsh" encodinganalog="651">Washtenaw County (Mich.)</geogname>
+        <subject source="lcsh" encodinganalog="650">World War, 1914-1918.</subject>
+        <subject source="lcsh" encodinganalog="650">Public schools--Michigan--Ann Arbor.</subject>
+        <geogname source="lcsh" encodinganalog="651">Michigan--Politics and government--1951-</geogname>
+      </controlaccess>
+      <controlaccess>
+        <head>Subjects - Visual Materials:</head>
+        <subject source="lctgm" encodinganalog="650">Airplanes.</subject>
+        <subject source="lctgm" encodinganalog="650">Airports.</subject>
+        <geogname source="lctgm" encodinganalog="651">Ann Arbor (Mich.)--Archives.</geogname>
+        <subject source="lctgm" encodinganalog="650">Archives--Michigan--Ann Arbor.</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n50007422">Bentley Historical Library.</corpname>
+        <subject source="lctgm" encodinganalog="650">Building dedications.</subject>
+        <subject source="lctgm" encodinganalog="650">Children.</subject>
+        <subject source="lctgm" encodinganalog="650">Clothing and dress--1971-1980.</subject>
+        <subject source="lctgm" encodinganalog="650">Construction industry.</subject>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79022087">Ford, Gerald R., 1913-2006.</persname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79133151.html">Grand Rapids (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651">Holland (Mich.)</geogname>
+        <corpname source="lcnaf" encodinganalog="610">Michigan Historical Collections.</corpname>
+        <subject source="lctgm" encodinganalog="650">Moving and storage trade.</subject>
+        <subject source="lctgm" encodinganalog="650">Parking.</subject>
+        <subject source="lctgm" encodinganalog="650">Parties.</subject>
+        <subject source="lctgm" encodinganalog="650">Political elections--1976.</subject>
+        <subject source="lctgm" encodinganalog="650">Political parades and rallies.</subject>
+        <subject source="lctgm" encodinganalog="650">Offices.</subject>
+        <subject source="lctgm" encodinganalog="650">Railroad stations.</subject>
+        <subject source="lctgm" encodinganalog="650">Recreation.</subject>
+        <subject source="lctgm" encodinganalog="650">Rites and ceremonies.</subject>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Buildings.</corpname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79018774.html">Washington (D.C.)</geogname>
+      </controlaccess>
+      <controlaccess>
+        <head>Genre Terms:</head>
+        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+      </controlaccess>
+    </controlaccess>
+    <dsc type="combined">
+      <c01 level="series">
+        <did>
+          <unittitle>Political files</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <unittitle><unitdate type="inclusive" normal="1968">1968</unitdate> File</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">3 folders</extent>
+              </physdesc>
+              <unittitle>Eugene McCarthy Presidential Campaign</unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Ann Arbor Politics</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>New-Democratic Coalition of Michigan</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle><unitdate type="inclusive" normal="1969">1969</unitdate> File</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Ann Arbor Politics</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">3 folders</extent>
+              </physdesc>
+              <unittitle>New Democratic Coalition of Michigan</unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Michigan Politics</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle><unitdate type="inclusive" normal="1970">1970</unitdate> File</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
+              </physdesc>
+              <unittitle>Ann Arbor Politics</unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">4 folders</extent>
+              </physdesc>
+              <unittitle>Congressional Campaign</unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>United States Senate Campaign</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>New Democratic Coalition of Michigan</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
+              </physdesc>
+              <unittitle>Michigan Politics</unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle><unitdate type="inclusive" normal="1971">1971</unitdate> File</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
+              </physdesc>
+              <unittitle>City Election</unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">3 folders</extent>
+              </physdesc>
+              <unittitle>Ann Arbor Politics</unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Human Rights Party</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>New Democratic Coalition of Michigan</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Michigan Politics</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Harold Hughes Presidential Campaign</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>George McGovern Presidential Campaign</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle><unitdate type="inclusive" normal="1972">1972</unitdate> File</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <physdesc altrender="part">
+                <extent altrender="materialtype spaceoccupied">3 scrapbooks</extent>
+              </physdesc>
+              <physdesc altrender="part">
+                <extent altrender="materialtype spaceoccupied">5 folders</extent>
+              </physdesc>
+              <unittitle>City Election</unittitle>
+              <physdesc>
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>School Board Election</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <physdesc altrender="part">
+                <extent altrender="materialtype spaceoccupied">2 scrapbooks</extent>
+              </physdesc>
+              <physdesc altrender="part">
+                <extent altrender="materialtype spaceoccupied">4 folders</extent>
+              </physdesc>
+              <unittitle>Ann Arbor Politics</unittitle>
+              <physdesc>
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">4 folders</extent>
+              </physdesc>
+              <unittitle>Human Rights Party</unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
+              </physdesc>
+              <unittitle>County Commissioner Campaigns</unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">3 folders</extent>
+              </physdesc>
+              <unittitle>County-Wide Campaigns</unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
+              </physdesc>
+              <unittitle>State Representative Campaign</unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
+              </physdesc>
+              <unittitle>Congressional Campaign</unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>U.S. Senate Campaign</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
+              </physdesc>
+              <unittitle>Statewide Campaigns</unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
+              </physdesc>
+              <unittitle>Michigan Politics</unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">6 folders</extent>
+              </physdesc>
+              <unittitle>Presidential Primary</unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">4 folders</extent>
+              </physdesc>
+              <unittitle>George McGovern Presidential Campaign</unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle><unitdate type="inclusive" normal="1973">1973</unitdate> File</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">11 folders</extent>
+              </physdesc>
+              <unittitle>City Election</unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">1 scrapbook</extent>
+              </physdesc>
+              <unittitle>City Election</unittitle>
+              <physdesc>
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
+              </physdesc>
+              <unittitle>School Board Election</unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">6 folders</extent>
+              </physdesc>
+              <unittitle>Ann Arbor Politics</unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">3 folders</extent>
+              </physdesc>
+              <unittitle>Human Rights Party</unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">3 folders</extent>
+              </physdesc>
+              <unittitle>State Representative Perry Bullard</unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">4 folders</extent>
+              </physdesc>
+              <unittitle>Democratic State Convention</unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle><unitdate type="inclusive" normal="1974">1974</unitdate> File</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">9 folders</extent>
+              </physdesc>
+              <unittitle>City Election</unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>School Board Election</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">3 folders</extent>
+              </physdesc>
+              <unittitle>Ann Arbor Politics</unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">3 folders</extent>
+              </physdesc>
+              <unittitle>Human Rights Party</unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>District Judge Campaigns</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
+              </physdesc>
+              <unittitle>County Commissioner Campaigns</unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
+              </physdesc>
+              <unittitle>State Representative Perry Bullard</unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>State Representative Campaign-53rd District</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>State Representative Campaign-52nd District</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">3 folders</extent>
+              </physdesc>
+              <unittitle>State Senate Campaign</unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">5 folders</extent>
+              </physdesc>
+              <unittitle>Congressional Campaign</unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Democratic County Conventions</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
+              </physdesc>
+              <unittitle>Democratic State Conventions</unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
+              </physdesc>
+              <unittitle>Democratic State Convention education post nominations</unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">4 folders</extent>
+              </physdesc>
+              <unittitle>Michigan Politics</unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">3 folders</extent>
+              </physdesc>
+              <unittitle>February Special Election in the Fifth Congressional District</unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">4 folders</extent>
+              </physdesc>
+              <unittitle>November Re-election Campaign of Congressman Richard VanderVeen in the Fifth Congressional District</unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Research materials and student papers</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Research notecards compiled on Ann Arbor history <unitdate type="inclusive" normal="1880/1899">1880-1899</unitdate> used in preparation of chapter in <title render="italic">Pictorial History of Ann Arbor</title></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Student research papers</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>
+                <unitdate type="inclusive" normal="1969">1969</unitdate>
+              </unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">4</container>
+                <unittitle>"The Michigan Progressives as a Faction and a Party"</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">4</container>
+                <unittitle>"The Michigan Presidential Preference Primary <unitdate type="inclusive" normal="1912/1931">1912-1931</unitdate>"</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>
+                <unitdate type="inclusive" normal="1970">1970</unitdate>
+              </unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">4</container>
+                <unittitle>"Journalism and the Republican Party of Michigan <unitdate type="inclusive" normal="1890/1920">1890-1920</unitdate> A Study of the Michigan Republican Newspaper Association"</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">4</container>
+                <unittitle>"Peace and American Society: Rebecca Shelley and the Peace Movement"</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">4</container>
+                <unittitle>"The Library Extension Movement in Grand Rapids"</unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>
+            <genreform normal="Photographs">Photographs</genreform>
+          </unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">5</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">1400 photographs</extent>
+              <physfacet>approximate</physfacet>
+            </physdesc>
+            <unittitle>Photographs <unitdate type="inclusive" normal="1973-08/1976-12">August 1973-December 1976</unitdate></unittitle>
+            <physdesc>
+              </physdesc>
+          </did>
+          <odd>
+            <p>(Topics include Bentley Library Construction, especially the erection of stacks; move of materials into the Bentley Library; dedication of building and individual rooms; trip to Washington to get Ford Papers; installation of courtyard sculpture; staff parties; Gerald R. Ford campaign trips, May 1976 and November 1976)</p>
+          </odd>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

@@ -1,0 +1,2841 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead.dtd">
+<ead>
+  <eadheader audience="internal" langencoding="iso639-2b" repositoryencoding="iso15511" dateencoding="iso8601" relatedencoding="Dublin Core" scriptencoding="iso15924" countryencoding="iso3166-1">
+    <eadid countrycode="us" mainagencycode="MiU-H" publicid="us//::miu-h//TXT us::miu-h::dentlib.xml//EN" encodinganalog="Identifier">umich-bhl-2014126</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="Title">Finding Aid for Dentistry Library (University of Michigan) records, 1925-2006</titleproper>
+        <author encodinganalog="Creator">Collection processed and finding aid created by Emily M. Sanford, 2009; Lexy deGraffenreid, 2014</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="Publisher">Bentley Historical Library, University of Michigan</publisher>
+        <date encodinganalog="Date" normal="2014">2014</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created by Greg Kinney <date>2014</date></creation>
+      <langusage encodinganalog="Language">The finding aid is written in <language langcode="eng" scriptcode="Latn">English</language></langusage>
+      <descrules>Finding aid prepared using Describing Archives: A Content Standard (DACS)</descrules>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date>2014-09-10</date>
+        <item>Original encoding from Word 2007 file using Word macros and Xmetal.</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <frontmatter>
+    <titlepage>
+      <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
+      <titleproper>Finding aid for <lb/>Dentistry Library <lb/>(University of Michigan) <lb/>records, 1925-2006</titleproper>
+      <author>Finding aid created by <lb/>Emily M. Sanford, 2009; <lb/>Lexy deGraffenreid, 2014</author>
+    </titlepage>
+  </frontmatter>
+  <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
+    <did>
+      <origination>
+        <corpname source="lcnaf" encodinganalog="110">University of Michigan. Dentistry Library.</corpname>
+      </origination>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">12.5 linear feet</extent>
+      </physdesc>
+      <unittitle encodinganalog="245">Dentistry Library (University of Michigan) records <unitdate type="inclusive" encodinganalog="245$f" normal="1925/2006">1925-2006</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1960/1997">1960-1997</unitdate></unittitle>
+      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2014126 Bimu C430 2</unitid>
+      <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
+      <abstract>The Dentistry Library Collection contains papers pertaining to the library as it served the School of Dentistry collecting books, journals and theses for research and reference use. Items of interest include: annual reports, library statistics, course materials, rare book information, and media clippings on faculty and staff.</abstract>
+      <repository>
+        <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea>, University of Michigan</corpname>
+        <extptr href="bhladd" show="embed" actuate="onload"/>
+      </repository>
+    </did>
+    <descgrp type="admin">
+      <acqinfo encodinganalog="541">
+        <p>The record group was received from the School of Dentistry - Dentistry Library (Donor Number <num type="donor" encodinganalog="541$e">764</num>) in three accessions in June 1998, June 2008, and July 2008.</p>
+      </acqinfo>
+      <accruals encodinganalog="584">
+        <p>Periodic additions to the records are expected.</p>
+      </accruals>
+      <accessrestrict encodinganalog="506">
+        <p>The collection is open to research.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+        <p>Copyright is held by the Regents of the University of Michigan.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+        <p>[item], folder, box,
+Dentistry Library (University of Michigan) records, Bentley Historical Library, University of Michigan</p>
+      </prefercite>
+      <processinfo>
+        <p>[Delete this set of tags if not needed for digital material processing]</p>
+        <p>
+          <extptr href="digitalproc" show="embed" actuate="onload"/>
+        </p>
+      </processinfo>
+    </descgrp>
+    <bioghist encodinganalog="545">
+      <p>A College of Dental Surgery was established at the University of Michigan in 1875. Shortly thereafter, it was announced that, "a library of dental science will be speedily supplied" (<title render="italic">General Catalogue</title> 1876-1877, page 139). The library was originally in the Dean's office and consisted of books and dental journals donated by professors, alumni, and interested professionals. The original collection was not cataloged and no librarian or attendant was employed.</p>
+      <p>In 1893, Corydon L. Ford donated his collection of crania to the college and the library also took on a museum role. A second collection of over 500 osseous specimens were received from Drs. William and L.J. Mitchell in 1904. This resulted in the library splitting into two collections: the Dr. Jonathan Taft Dentistry Library, named after the first Dean of the school and the Ford-Mitchell Museum, named after its founding donors.</p>
+      <p>The library moved into larger facilities when the College of Dental Surgery acquired its new building in 1908. The dental faculty petitioned the U-M Board of Regents to allow for a library fee to be collected from dental students to support collection development and a part-time attendant. In 1910, a part-time professional bibliographer was employed to organize and catalog the Dental Library's collection. (U-M <title render="italic">Regent's Proceedings</title>, November 1910).</p>
+      <p>In 1918, Dentistry Dean Marcus Ward made the somewhat controversial decision to turn the Dental Library over to the General Library's custody in order to better develop the library with full-time staff and "expert service." In 1928, the library and museum separated and the museum collection was turned over to U-M's Museum of Paleontology.</p>
+      <p>The Dentistry Library was a recipient of a Carnegie Foundation library grant in 1929 which provided five years of funding to develop a model dental library. Inez Bowler took charge of the project and by 1933 the library had 6,000 volumes cataloged in the Library of Congress classification system.</p>
+      <p>The library continued to grow and space quickly became an issue in the old building. In 1969, the library moved to temporary quarters in a newly constructed wing of the School of Dentistry while the old Dentistry Building was demolished to make way for another new wing. Construction was completed and the library moved into its new space in 1971. The 1980s saw the institution of the University Library's online catalog MIRLYN and also the medical database MEDLINE. The library continued to expand and eventually outgrew its facility at the School of Dentistry. The Dentistry Library joined the Health Sciences Library group in 1963 and thus was under the purview of the Taubman Medical Library. The library and its collection were absorbed by the Taubman Medical Library in June 2008, which was renamed in April 2010 as the Taubman Health Sciences Library.</p>
+      <p>
+        <chronlist>
+          <head>Department/Program Heads</head>
+          <chronitem>
+            <date>1923-1925</date>
+            <event>Margaret Kirkpatrick</event>
+          </chronitem>
+          <chronitem>
+            <date>1925-1929</date>
+            <event>Elana Taylor</event>
+          </chronitem>
+          <chronitem>
+            <date>1929-1934</date>
+            <event>Inez Bowler</event>
+          </chronitem>
+          <chronitem>
+            <date>1934-1939</date>
+            <event>Marjorie Lewis</event>
+          </chronitem>
+          <chronitem>
+            <date>1939-1954</date>
+            <event>Hilda Rankin</event>
+          </chronitem>
+          <chronitem>
+            <date>1954-1960</date>
+            <event>Rose-Grace Faucher</event>
+          </chronitem>
+          <chronitem>
+            <date>1961-1965</date>
+            <event>Ellen Theurer Hall</event>
+          </chronitem>
+          <chronitem>
+            <date>1966-1996</date>
+            <event>Susan Seger</event>
+          </chronitem>
+          <chronitem>
+            <date>1996-1998</date>
+            <event>Doreen Bradley</event>
+          </chronitem>
+          <chronitem>
+            <date>1998-2008</date>
+            <event>Pat Anderson</event>
+          </chronitem>
+        </chronlist>
+      </p>
+    </bioghist>
+    <scopecontent encodinganalog="520">
+      <p>The Dentistry Library Collection contains papers pertaining to the library as it served the School of Dentistry collecting books, journals and theses for research and reference use. Items of interest include: annual reports, library statistics, course materials, rare book information, and media clippings on faculty and staff. The University of Michigan Dentistry Library Collection is divided into four series, which reflect the structure of the library itself: Administrative, Library Collection, Library Services, and Clippings Files.</p>
+    </scopecontent>
+    <controlaccess>
+      <p>
+        <extptr href="accnote" show="embed" actuate="onload"/>
+      </p>
+      <controlaccess>
+        <head>Subjects:</head>
+        <subject source="lcsh" encodinganalog="650">Dentistry--Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650">Libraries--Michigan--Ann Arbor.</subject>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dentistry Library.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n85129645">University of Michigan. School of Dentistry.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Students.</corpname>
+      </controlaccess>
+    </controlaccess>
+    <dsc type="combined">
+      <c01 level="series">
+        <did>
+          <unittitle>Administrative <unitdate type="inclusive" normal="1930/2006">1930-2006</unitdate></unittitle>
+        </did>
+        <scopecontent>
+          <p>The Administrative series, 1930-2006 (2.5 linear feet), contains papers dealing with the administrative side of the library. This includes: annual reports, library statistics, budget, committees, staffing information, and unit goals.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Association of Academic Health Sciences Library Directors (AAHSLD) Surveys <unitdate type="inclusive" normal="1984/1991">1984-1991</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Base Budget <unitdate type="inclusive" normal="1996/1998">1996-1998</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Budget Reallocation <unitdate type="inclusive" normal="1989/1990">1989-1990</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Budget Reallocation <unitdate type="inclusive" normal="1992/1993">1992-1993</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Budget Reallocation <unitdate type="inclusive" normal="1995/1996">1995-1996</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Budget Reductions <unitdate type="inclusive" normal="1980">1980</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Budget Requests <unitdate type="inclusive" normal="1956/1986">1956-1986</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Building and Equipment Management <unitdate type="inclusive" normal="1969/1975">1969-1975</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Building and Equipment Management <unitdate type="inclusive" normal="1984/1997">1984-1997</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Building Emergency Guidelines <unitdate type="inclusive" normal="2006">2006</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>CAIDENT and Dentistry Library Merger <unitdate type="inclusive" normal="1997">1997</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Center for Information Resources and Community Learning Enterprises (CIRCLE) <unitdate type="inclusive" normal="1996">1996</unitdate>, <unitdate type="inclusive" normal="2000">2000</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Collection Budget Request Documents <unitdate type="inclusive" normal="1997/1998">1997-1998</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>CSCAR Workshop on Meta-Analysis <unitdate type="inclusive" normal="2004">2004</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Dentistry Collection Mutilation <unitdate type="inclusive" normal="1994">1994</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">4 folders</extent>
+            </physdesc>
+            <unittitle>Dentistry Library Annual Report <unitdate type="inclusive" normal="1930/1995">1930-1995</unitdate></unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Dentistry Library Blueprints <unitdate type="inclusive" normal="1967">1967</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Dentistry Library Collection and Usage Expenditures <unitdate type="inclusive" normal="1993/1995">1993-1995</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Dentistry Library Committee <unitdate type="inclusive" normal="1962/1998">1962-1998</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Dentistry Library Informatics Collaboration <unitdate type="inclusive" normal="2006">2006</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Dentistry Library Mission and Strategic Plan <unitdate type="inclusive" normal="1996">1996</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Dentistry Library Statistics <unitdate type="inclusive" normal="1999/2005">1999-2005</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Draft Report of the Task Force on Instructional Computing <unitdate type="inclusive">undated</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Electronic Exit Control and Tattle Tape <unitdate type="inclusive" normal="1977">1977</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Emergency Procedures and Facilities Management for the Health Science Cluster of the University of Michigan Libraries <unitdate type="inclusive" normal="1997">1997</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Endowment <unitdate type="inclusive" normal="1991">1991</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Evaluation Report by the Commission on Dental Accreditation <unitdate type="inclusive" normal="1995">1995</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Gift Forms and Policy <unitdate type="inclusive" normal="1992">1992</unitdate> &amp; <unitdate type="inclusive" normal="1998">1998</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Gifts and Donors <unitdate type="inclusive" normal="1966/1982">1966-1982</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Health Sciences Cluster Alfred Taubman Medical Administration <unitdate type="inclusive" normal="1991/1992">1991-1992</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Health Sciences Cluster Annual Report <unitdate type="inclusive" normal="1992/1993">1992-1993</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 folders</extent>
+            </physdesc>
+            <unittitle>Health Sciences Cluster Annual Reports of the Dental, Public Health, and Taubman Medical Libraries <unitdate type="inclusive" normal="1990/1992">1990-1992</unitdate></unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Library Committee <unitdate type="inclusive" normal="1997">1997</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Library Information for Accreditation of the School of Dentistry <unitdate type="inclusive" normal="1970">1970</unitdate> &amp; <unitdate type="inclusive" normal="1978">1978</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Library Information for Accreditation of the School of Dentistry <unitdate type="inclusive" normal="1985/1991">1985-1991</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Library Information for Accreditation of the School of Dentistry User Surveys <unitdate type="inclusive" normal="1994/1995">1994-1995</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Library Information for National Directories <unitdate type="inclusive" normal="1993/1999">1993-1999</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 folders</extent>
+            </physdesc>
+            <unittitle>Monthly Reports <unitdate type="inclusive" normal="1985/1989">1985-1989</unitdate></unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>National Library of Medicine Grant Application for Medline <unitdate type="inclusive" normal="1992/1994">1992-1994</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>National Library of Medicine Grant Application for Outreach <unitdate type="inclusive" normal="1991">1991</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>National Library of Medicine Medical Library Resource Grant <unitdate type="inclusive" normal="1966/1970">1966-1970</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Pat Anderson Information Management Issues for Dentistry Lecture <unitdate type="inclusive">undated</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Patron Count and Request to Change Hours <unitdate type="inclusive" normal="2003">2003</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Personnel Files <unitdate type="inclusive" normal="1961/1977">1961-1977</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Proposal for a Learning Commons in a Dental School: A Collaboratory of the Dentistry Library, CAIDENT, and the Office of Dental Informatics <unitdate type="inclusive" normal="2005/2006">2005-2006</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Quarterly Reports <unitdate type="inclusive" normal="1989/1992">1989-1992</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>School of Dentistry General Information <unitdate type="inclusive" normal="1995/1996">1995-1996</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>School of Dentistry Transition Committee <unitdate type="inclusive" normal="1987/1989">1987-1989</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Sindecuse Dental Museum <unitdate type="inclusive" normal="1991/1992">1991-1992</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Staff Position Descriptions <unitdate type="inclusive" normal="1995/1996">1995-1996</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Technical Processing Manual <unitdate type="inclusive">undated</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Travel Request Forms <unitdate type="inclusive" normal="1995/1996">1995-1996</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">10 folders</extent>
+            </physdesc>
+            <unittitle>Unit Goals <unitdate type="inclusive" normal="1981/1996">1981-1996</unitdate></unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>University Library Planning <unitdate type="inclusive" normal="1992/1998">1992-1998</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>University Library and Dentistry Library Strategic Plans <unitdate type="inclusive" normal="1994/1996">1994-1996</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>University of Michigan Dentistry Library Operations Manual <unitdate type="inclusive" normal="2001">2001</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>University of Michigan School of Dentistry Accreditation Survey Form <unitdate type="inclusive" normal="1960">1960</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>University of Michigan School of Dentistry Faculty, Staff, and Student Policy on Alcohol and other Drugs <unitdate type="inclusive" normal="1994">1994</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>Ward Library and Memorial Funds <unitdate type="inclusive" normal="1989/1998">1989-1998</unitdate></unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Library Collection <unitdate type="inclusive" normal="1925/1997">1925-1997</unitdate></unittitle>
+        </did>
+        <scopecontent>
+          <p>The Library Collection series, 1925-1997 (6.5 linear feet), has information on items in the Dentistry Library's collection. In some cases, as with the bound course materials, the series houses items that were in the library's collection. This series includes a list of School of Dentistry theses from 1987-1995. The series has a sub-series, Course Material which includes bound copies of: sample student examinations, course materials, and student term papers. Courses particularly represented through the student term papers include: Dental Radiology, Partial Denture Seminar, Prenatal Facial Growth, and Postnatal Facial Growth.</p>
+        </scopecontent>
+        <c02 level="subseries">
+          <did>
+            <unittitle>General</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Chalmers J. Lyons Memorial Collection <unitdate type="inclusive" normal="1948">1948</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Conservation <unitdate type="inclusive" normal="1997">1997</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Dental Thesis List <unitdate type="inclusive" normal="1987/1995">1987-1995</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Dentistry Library Historical Materials <unitdate type="inclusive" normal="1925/1980">1925-1980</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>"History of College of Dental Surgery University of Michigan, 1875-1925" circa <unitdate type="inclusive" normal="1925">1925</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Marcus L. Ward Notes and Comments on the Dental Library <unitdate type="inclusive" normal="1955">1955</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Michigan Dental M.S. Thesis Listings <unitdate type="inclusive" normal="1879/1963">1879-1963</unitdate> circa <unitdate type="inclusive" normal="1963">1963</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Rare Book Correspondence <unitdate type="inclusive" normal="1930/1996">1930-1996</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Rare Book Collection <unitdate type="inclusive" normal="1930/1989">1930-1989</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Rare Book and Special Collections at the University of Michigan Report <unitdate type="inclusive" normal="1996">1996</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Course Materials <unitdate type="inclusive" normal="1941/1982">1941-1982</unitdate></unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Cell Biology Student Report Dent 671 <unitdate type="inclusive" normal="1966">1966</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Complete Denture 724 <unitdate type="inclusive" normal="1971">1971</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Dental Hygiene Anatomy Exams <unitdate type="inclusive" normal="1955/1970">1955-1970</unitdate> (4 Bound Volumes)</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>DPH 520 Term Papers, <unitdate type="inclusive" normal="1982">Winter 1982</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>DPH 622 Term Papers, <unitdate type="inclusive" normal="1980">Winter 1980</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>DPH 625 Term Papers, <unitdate type="inclusive" normal="1981">Winter 1981</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Postnatal Facial Growth Term Papers <unitdate type="inclusive" normal="1963/1967">1963-1967</unitdate> (5 Bound Volumes)</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Prenatal Facial Growth Term Papers <unitdate type="inclusive" normal="1962/1967">1962-1967</unitdate> (6 Bound Volumes)</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Prenatal Facial Growth Term Papers <unitdate type="inclusive" normal="1968/1973">1968-1973</unitdate> (6 Bound Volumes)</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>School of Dentistry Freshman Year Examinations <unitdate type="inclusive" normal="1957/1968">1957-1968</unitdate> (2 Bound Volumes)</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>School of Dentistry Sophomore Year Examinations <unitdate type="inclusive" normal="1957/1970">1957-1970</unitdate> (4 Bound Volumes)</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">6</container>
+              <unittitle>School of Dentistry Junior Year Examinations <unitdate type="inclusive" normal="1958/1968">1958-1968</unitdate> (2 Bound Volumes)</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">6</container>
+              <unittitle>School of Dentistry Senior Year Examinations <unitdate type="inclusive" normal="1958/1968">1958-1968</unitdate> (3 Bound Volumes)</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Student Term Papers -- Bound <unitdate type="inclusive" normal="1941/1972">1941-1972</unitdate></unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">6</container>
+              <unittitle>Akerly, William B., The Roentgenographic Evaluation of Bone as Related to Prosthodontics <unitdate type="inclusive" normal="1963-01-09">January 9, 1963</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">6</container>
+              <unittitle>Allen, Don L., Nuclear Control of Protein Synthesis <unitdate type="inclusive" normal="1964-04-30">April 30, 1964</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">6</container>
+              <unittitle>Alling, Charles G., Repair of Fractured Mandible <unitdate type="inclusive" normal="1952-01">January 1952</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">6</container>
+              <unittitle>Aronis, Constantine B., The Determination of Vertical Dimension and Centric Relation by Means of Cranial Roentgenology <unitdate type="inclusive" normal="1961-01-14">January 14, 1961</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">6</container>
+              <unittitle>Ash, Major M., Dental Applications of Atomic Energy and Dental Radioautography <unitdate type="inclusive" normal="1951-12-30">December 30, 1951</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">6</container>
+              <unittitle>Barrancos, Ricardo J., The Psychology and Physiology of Pain <unitdate type="inclusive" normal="1964-05">May 1964</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">6</container>
+              <unittitle>Bear, S. Elmer, The Treatment of Mandibular Fractures with the External Pin Fixation and Open Reduction with Transosseous Wires <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">6</container>
+              <unittitle>Benson, David, The Mucostatic Principle <unitdate type="inclusive" normal="1969-04-17">April 17, 1969</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">6</container>
+              <unittitle>Blankenship, John R., An Evaluation of Inter-occlusal Records using Gothic Arch Tracings versus Wax Records <unitdate type="inclusive" normal="1969-04-21">April 21, 1969</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">6</container>
+              <unittitle>Blankenship, John R., Terminal Hinge Axis, "O," 1, or 2. Complete Denture Seminar <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">6</container>
+              <unittitle>Boucher, Daniel J., The role of the Orthodontist and Radiography in the Treatment of Traumatized Teeth <unitdate type="inclusive" normal="1952-01-15">January 15, 1952</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">6</container>
+              <unittitle>Boyd, T. K., Reasons for a Radiographic Examination of all Edentulous Patients <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">6</container>
+              <unittitle>Braaten, C. R., The Detection, Treatment, and Prognosis of Young Incisors whose Roots have been Fractured <unitdate type="inclusive" normal="1954-09-29">September 29, 1954</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">6</container>
+              <unittitle>Bradbury, David R., Orthopantomograph Investigation <unitdate type="inclusive" normal="1966">1966</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>Bucher, John F., A Study of the Hazards of X-Ray Radiation in the Dental Office: Methods to Minimize these Hazards <unitdate type="inclusive" normal="1958-01">January 1958</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>Cain, Martin, Jr., Radiographs Used in the Diagnosis of Traumatic Occlusion <unitdate type="inclusive" normal="1955">1955</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>Carson, John B., Can Developmental Prognosis for the Cleft Palate Patient be Improved if Surgical Interception is Postponed until Four or Five Years of Age? <unitdate type="inclusive" normal="1958">1958</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>Cardoso, Oswaldo Santos, Protection in Dental Radiography <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>Castro, Maria Elena, Major Trigeminal Neuralgia <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>Chaudhry, K. P., The Necessity for Routine Roentogenographic of the Prosthetic Patients: A Review of Literature <unitdate type="inclusive" normal="1960-11-23">November 23, 1960</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>Clayton, Joseph A., Electronic Strain Gauges in Dental Research <unitdate type="inclusive" normal="1964-12-04">December 4, 1964</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>Clayton, Joseph A., The Reliability of Roentgenograms <unitdate type="inclusive" normal="1964-12-15">December 15, 1964</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>Cohen, John, Periapical Radiographic Technique: Its Evolution and analysis <unitdate type="inclusive" normal="1960-01">January 1960</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>Cohen, Philip William, Internal Resorption: A Review of the Literature <unitdate type="inclusive" normal="1966-12">December 1966</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>Collier, Durward R., The Developmental Prognosis of the Cleft Palate Patient when Surgical Intervention has been Delayed until Four or Five Years of Age <unitdate type="inclusive" normal="1958">1958</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>Cook, James E., What is the Cause of the Hyper-nasality and Defective Articulation of the Speech of the Person with a Cleft Palate? <unitdate type="inclusive" normal="1958-01-10">January 10, 1958</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>Corpron, Richard E., Radiographic Interpretation of Cysts of the Jaws <unitdate type="inclusive" normal="1958-01-06">January 6, 1958</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>Crocker, George L., A Comparison between Normal Speech and the Speech of the Un-operated Cleft Palate Patient, with a Consideration of the Cause of Hypernasality and Faulty Articulation <unitdate type="inclusive" normal="1958-01-10">January 10, 1958</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>Crockett, Clifford D., History of Local Anaesthesia <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>Crookston, Lynn B., Replantation of Teeth <unitdate type="inclusive" normal="1949-06-06">June 6, 1949</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>Cunningham, John B., The Dental Involvement of Maxillary Sinus <unitdate type="inclusive" normal="1948">1948</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>Daprai, Frederick P., Hypophosphatasia: Premature Loss of Teeth <unitdate type="inclusive" normal="1967-03-15">March 15, 1967</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>Davenport, Edward L., Personality and Behavior Development from Infancy through School Age Children <unitdate type="inclusive" normal="1964-05">May 1964</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>De Vries, Stan, The Enigmatic Union of the Premaxilla and Maxilla at the Ectofacial Surface <unitdate type="inclusive" normal="1964-12">December 1964</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>DeChamplain, Richard W., Radiology in the Treatment of Oral Cancer <unitdate type="inclusive" normal="1962">1962</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>DePass Jiminez, Ronald, The Structure and Functional Importance of the Meniscus of the Temporomandibular Joint <unitdate type="inclusive" normal="1963">1963</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>Dietz, Anthony R., Reliability of Roetgenograms in Endodontics <unitdate type="inclusive" normal="1965-12">December 1965</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>Dietz, Gerald C., Dental Radiology and the Law <unitdate type="inclusive" normal="1960-01">January 1960</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>Doezema, S. T., The Influence of Impression Procedures on Base Stability in Removable Partial Dentures <unitdate type="inclusive" normal="1973">1973</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>Ebel, Henry E., Radiographic Evaluation of Tissue Changes Around Abutment Teeth <unitdate type="inclusive" normal="1959-01-16">January 16, 1959</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>Ebmeyer, Gerald, The Relation of Age to Attrition and Spacing of the Primary Dentition <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>Eder, Melvyn, The Need for Routine Full Mouth Radiographic Examination of Dental Patients <unitdate type="inclusive" normal="1957-05">May 1957</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>Eifert, Donald F., The Effect of Surgery on Growth of the Maxilla and Eruption of Teeth in a Cleft Palate Child <unitdate type="inclusive" normal="1958-01-10">January 10, 1958</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>Eiser, Harold. A Historical Review of the Development and Adoption of a Dental Health Program for Children by the American Dental Association <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>Engler, William O., The Specificity and Reliability of Tritiated Thymidine Radioautography <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>Evanson, Leonard, The Use of Stereoroentgenography in Determining Pulpal Anatomy <unitdate type="inclusive" normal="1960-01">January 1960</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>Fastlicht, Jorge, Contributions of Dr. Allan G. Brodie to Orthodontics <unitdate type="inclusive" normal="1963-07">July 1963</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>Fausto, Duenas M., Keratinization of Oral Mucous Membranes <unitdate type="inclusive" normal="1964-04-30">April 30, 1964</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>Feinzaig, Jaime, Development of the Articulator <unitdate type="inclusive" normal="1971">1971</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>Frost, John R., The Importance of Roentgenographic Examination of the Edentulous Patient <unitdate type="inclusive" normal="1955-01">January 1955</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>Garber, Fred, Radioluscent Periapical Areas <unitdate type="inclusive" normal="1960">1960</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>Gibbons, Paul, Roentgenography from the Point of View of the Prosthodontist: A Review of the Literature <unitdate type="inclusive" normal="1949-05-20">May 20, 1949</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>Gibson, Ronald M. E., Panoramic Radiography <unitdate type="inclusive" normal="1965">1965</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>Gilson, C. Mark, Blood Dyscrasias of Dental Significance <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>Gilson, C. Mark, The Dentist and the Diabetic <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>Gold, Stephen L., Resistance to Departments of Community Dentistry in Dental Schools <unitdate type="inclusive" normal="1960-12-09">December 9, 1960</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>Gonzalez, Juan B., Osteoradionecrosis of the Jaws <unitdate type="inclusive" normal="1962-01-19">January 19, 1962</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>Goodkind, Richard J., Radiology and the Edentulous Patient <unitdate type="inclusive" normal="1963-01-10">January 10, 1963</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>Graves, R. C., An Evaluation of the Effectiveness of the Elementary School Teacher as a Dental Health Educator <unitdate type="inclusive" normal="1968-12-04">December 4, 1968</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>Green, Edward N., Investigation of the Use of Contrast Media in Root Canals <unitdate type="inclusive" normal="1956-01">January 1956</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>Green, Molly Ann, Malignant Oral Tumors of Infancy and Childhood <unitdate type="inclusive" normal="1967-03-10">March 10, 1967</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>Gullett, W. Irwin, The Value of Routine Roentgenograms of the Edentulous and Partially Edentulous Mouth <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>Hagan, Edmund H., Can the Developmental Prognosis for the Cleft Palate Patient be Improved if Surgical Intervention is Postponed until Four to Five Years of Age? <unitdate type="inclusive" normal="1958">1958</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>Halhoul, Nagi M., Roentgenography and Dental Caries <unitdate type="inclusive" normal="1963-01-10">January 10, 1963</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>Hall, D. L., Radiology and Orthodontics <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>Hall, Walter A., Insufficient Mastication <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Johnson, Gary W., Post-Insertion Changes with Removable Partial Dentures <unitdate type="inclusive" normal="1972-12-15">December 15, 1972</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Johnson, R. E., Radiography in Diagnosis and Treatment of Osteomyelitis of the Jaws <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Johnston, Harry B., Jr., Endocrine Disorders: Their Manifestations in Dental Radiology <unitdate type="inclusive" normal="1947-05">May 1947</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Jordan, David R., The Place of X-Rays in Evaluation of Temperomandibular Disturbance <unitdate type="inclusive" normal="1959-01">January 1959</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Justi, William H., The Problem of Dental Lesions as Possible Foci of Systemic Infection <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Kanar, Henry L., Measurements for Abnormal Behavior from Birth through Twelve Years of Age <unitdate type="inclusive" normal="1969-04">April 1969</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Kaufman, Myron, Eosinophilic Granuloma of Bone: With Report of Case Involving the Maxilla and Mandible <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Kaya, Kazumasa, X-Ray Contrast Media <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Kelly, James F., A Simplified Technique for 35mm Reproduction of Radiographs <unitdate type="inclusive" normal="1960-01-28">January 28, 1960</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Kepron, D., Some Aspects of Velopharyngeal Closure: A Radiographic Study <unitdate type="inclusive" normal="1955-01">January 1955</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Kiester, Gordon L., General Principles in Management of Facial Fractures <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Kirsten, Maurice, A Study of Ligature Wires and their Application <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Kirstine, W. D., Radiology: Its Importance in Orthodontic Practice <unitdate type="inclusive" normal="1955">1955</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Kobayashi, Lloyd, The Experimental Production of Cleft Palate with Cortisone <unitdate type="inclusive" normal="1963-01-11">January 11, 1963</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Kopel, Hugh M., The Use of Medicaments in the Sterilization of Deep Cavities, <unitdate type="inclusive" normal="1947">Fall 1947</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Le May, Louis Philippe, Radiology: An Aid in Fixed Partial Prosthesis <unitdate type="inclusive" normal="1966-12-12">December 12, 1966</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Lee, Russell H., The Variability of Rest Position <unitdate type="inclusive" normal="1969-03">March 1969</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Lemeh, Dorotha, An Examination of Federal-State Dental Public Health Programs for Disadvantaged Children, <unitdate type="inclusive" normal="1968">Fall 1968</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Lovely, Franklyn Willard, Cellular Alterations Associated with Anti-folic Chemotherapy <unitdate type="inclusive" normal="1964-04">April 1964</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Luna, Cristobal, Behavior of Non-vital Teeth and Surrounding Tissues as Abutments of Bridges and Partial Dentures <unitdate type="inclusive" normal="1959-01-22">January 22, 1959</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Lutz, Bernard L., Group Practice in Dentistry in the United States: A Review of the Scientific Literature <unitdate type="inclusive" normal="1968-12-04">December 4, 1968</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Lynch, Burton, Principles of Radiation Therapy <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Maher, Joseph F., Radiological Interpretation of Anatomic Structures in the Posterior-anterior Cephalogram <unitdate type="inclusive" normal="1954-01-13">January 13, 1954</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Mann, William R., Acrylic and Styrene Resins <unitdate type="inclusive" normal="1941-06-02">June 2, 1941</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Mann, William R., The Heat Treatment of Ticonium <unitdate type="inclusive" normal="1941-06-04">June 4, 1941</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Massey, Katherene M., Chemical Modification of the Effects of Ionizing Radiation: The Use of S,2-Aminoethylisothiuronium Bromide Hydrobromide <unitdate type="inclusive" normal="1963">1963</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">9</container>
+              <unittitle>Mathers, H. M., An Introduction to Biologic Tracer Methodology <unitdate type="inclusive" normal="1964-04">April 1964</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">9</container>
+              <unittitle>McIntosh, Carolyn S., Barriers to the Utilization of Local Dental Care Facilities by Low-Income Urban Groups <unitdate type="inclusive" normal="1968-12-04">December 4, 1968</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">9</container>
+              <unittitle>Mickler, Arthur M., Diabetes Mellitus and Dentistry <unitdate type="inclusive" normal="1950-01">January 1950</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">9</container>
+              <unittitle>Mickler, Arthur M., Siliceous Cement, Cavity Liners and Varnishes: Their Effect on the Dental Pulp <unitdate type="inclusive" normal="1950-01">January 1950</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">9</container>
+              <unittitle>Miller, Sidney L., Age-Specific Embryological Review of Oro-Facial Clefts, <unitdate type="inclusive" normal="1957">Fall 1957</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">9</container>
+              <unittitle>Mohorn, Harold Wayne, The Cementoma <unitdate type="inclusive" normal="1966-12">December 1966</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">9</container>
+              <unittitle>Morawa, Arnold P., A Classification of the Anomalies of Form and Structure of the Dentition <unitdate type="inclusive" normal="1964-12-11">December 11, 1964</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">9</container>
+              <unittitle>More, Frederick G., The Role of Desoxyribonucleic Acid in the Transmission of Hereditary Characteristics <unitdate type="inclusive" normal="1969-04">April 1969</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">9</container>
+              <unittitle>Munoz, Fernando, The Value of Roentgenographic Study of Edentulous Mouths <unitdate type="inclusive" normal="1961">1961</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">9</container>
+              <unittitle>Nakamoto, Tetsuo, The Effect of Prosthetic Appliance on Unerupted Teeth in the Maxilla and Mandible <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">9</container>
+              <unittitle>Nolla, Carmen M., A Complete Composite Type of Odontoma: A Case Report <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">9</container>
+              <unittitle>Novetsky, Marvin, The Third Point of Reference, <unitdate type="inclusive" normal="1970">Winter 1970</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">9</container>
+              <unittitle>Panzer, Milton, The Endocrine Glands as Related to Growth and Development of the Teeth <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">9</container>
+              <unittitle>Panzer, Milton, The Heat Produced During Cavity Instrumentation <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">9</container>
+              <unittitle>Petty, Charles R., Salivary Calculi <unitdate type="inclusive" normal="1950">1950</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">9</container>
+              <unittitle>Pinson, Thomas J., Roentgenographic Examination to Determine the Accuracy of Mandibular Block Injection Techniques <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">9</container>
+              <unittitle>Porritt, John L., Oral Radiographic Manifestations of Systemic Disease <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">9</container>
+              <unittitle>Rainey, Bernard L., Wound Healing <unitdate type="inclusive" normal="1964-04-30">April 30, 1964</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">9</container>
+              <unittitle>Ramirez, Walter A., Panoramic Laminagraphy <unitdate type="inclusive" normal="1964-12">December 1964</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">9</container>
+              <unittitle>Ray, R. Richard, The Fine Structures of the Dental Pulp <unitdate type="inclusive" normal="1964-04-30">April 30, 1964</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">9</container>
+              <unittitle>Reynolds, Richard L., The Biochemistry and Morphology of the Cancer Cell <unitdate type="inclusive" normal="1964-04-30">April 30, 1964</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">9</container>
+              <unittitle>Reynolds, Richard L., Bisecting-Angle and Parallel Radiographic Techniques <unitdate type="inclusive" normal="1964-12">December 1964</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">9</container>
+              <unittitle>Richards, Robert D., The Arrangement and Positioning of Teeth <unitdate type="inclusive" normal="1949-05-20">May 20, 1949</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">9</container>
+              <unittitle>Robinson, L. D., Roentgenographic Celphalometrics in Denture Prosthesis <unitdate type="inclusive" normal="1964">1964</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">9</container>
+              <unittitle>Roffinella, John P., Diagnosis of Ameloblastoma <unitdate type="inclusive" normal="1951">1951</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">9</container>
+              <unittitle>Rohrich, P. G., Endocrines as Related to Orthodontics <unitdate type="inclusive" normal="1948">1948</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">9</container>
+              <unittitle>Rosenast, E. O., Jr., The Third Molar Tooth in Man, <unitdate type="inclusive" normal="1950">Fall 1950</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">9</container>
+              <unittitle>Rudy, Leon C., The Importance of Dental Radiographs in the Diagnosis of Systemic Disease <unitdate type="inclusive" normal="1958-01-21">January 21, 1958</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">9</container>
+              <unittitle>Russman, Sumner A., Use of Medicated or Germicidal Cements in the Practice of Dentistry, <unitdate type="inclusive" normal="1946">Fall 1946</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">9</container>
+              <unittitle>Sauer, John L., Roentgenocinematography and some Dental Uses <unitdate type="inclusive" normal="1963-01">January 1963</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">9</container>
+              <unittitle>Sawusch, Raymond H., Why Should a Speech Therapist want the Tonsils and Adenoids Preserved in Some Children with Cleft Palate <unitdate type="inclusive" normal="1958-01-10">January 10, 1958</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">9</container>
+              <unittitle>Shaffer, Ronald P., Risks Involved in Dental Roentgenography <unitdate type="inclusive" normal="1963-12">December 1963</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">9</container>
+              <unittitle>Smalley, James W., Natal and Neonatal Teeth <unitdate type="inclusive" normal="1967-03">March 1967</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">9</container>
+              <unittitle>Smutko, G. E., Radiography in Dental Prosthetics <unitdate type="inclusive" normal="1959-01-15">January 15, 1959</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">9</container>
+              <unittitle>Stone, John W., Posterior Bite-wing Survey of the Primary Teeth as a Technic for the Public Health Dentist <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">9</container>
+              <unittitle>Stromberg, W. Ross, Importance of Roentgenology for the Edentulous Patient <unitdate type="inclusive" normal="1952-01">January 1952</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">9</container>
+              <unittitle>Summers, Charles W., Is it Possible to Overdevelop Dental Roentgenograms? <unitdate type="inclusive" normal="1960-01">January 1960</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">9</container>
+              <unittitle>Taylor, Louis E., Tissue Changes Shown through Application of Mechanical Forces <unitdate type="inclusive" normal="1948-01-14">January 14, 1948</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">9</container>
+              <unittitle>Taylor, Paul P., Seconal: A Sedative for Children Receiving Root Surgery <unitdate type="inclusive" normal="1950-01-25">January 25, 1950</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">9</container>
+              <unittitle>Taylor, Paul P., Sedation in the Management of the Child Dental Patient <unitdate type="inclusive" normal="1950-01-16">January 16, 1950</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">9</container>
+              <unittitle>Torgerson, T. S., Osteomyelitis of the Jaws <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">9</container>
+              <unittitle>Trejos, Rodolfo, Should Every Cleft Palate be Operated Surgically? <unitdate type="inclusive" normal="1958-01">January 1958</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">9</container>
+              <unittitle>Valencia, Jaime, The Permanent Central Incisor in Cleft Palate <unitdate type="inclusive" normal="1955-06">June 1955</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">9</container>
+              <unittitle>Van Noord, A. G., Congenital and Developmental Deformities of the Head Face and Jaws <unitdate type="inclusive" normal="1956-01-18">January 18, 1956</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">9</container>
+              <unittitle>Vandersluis, R. W., The Effect of Certain Unanswered Questions in the Behavioral Sciences upon Dental Public Health Programs: Motivation to Take a Health-related Action <unitdate type="inclusive" normal="1968-12-13">December 13, 1968</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">9</container>
+              <unittitle>Viloria, Jorge, A Study of the Relationship of Raphe Palatinus to the Craniofacial Skeleton <unitdate type="inclusive" normal="1955-06-01">June 1, 1955</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">9</container>
+              <unittitle>Way, David C., Cephalometric Roentgenography in Orthodontics <unitdate type="inclusive" normal="1952-01">January 1952</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">9</container>
+              <unittitle>Wehner, Paul J., Radiation Overexposure and its Effects on Tissues, Organs, and Glands of the Head and Neck <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">9</container>
+              <unittitle>Weiss, Allen W., Osteomyelitis: The Disease and its Radiographic Manifestations <unitdate type="inclusive" normal="1956-01">January 1956</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">9</container>
+              <unittitle>Westover, Ransom M., Determination of Maturation Rates of Children who need Orthodontic Treatment <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">9</container>
+              <unittitle>Wong, Ted, A Rationale for Base Stability <unitdate type="inclusive" normal="1974-12-11">December 11, 1974</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">9</container>
+              <unittitle>Yong, Siu Len, Cherubism <unitdate type="inclusive" normal="1967-03">March 1967</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">9</container>
+              <unittitle>Youngblood, P. J., Recent Studies on the Effects of Radiation on the Jaws and Teeth <unitdate type="inclusive" normal="1958-01-18">January 18, 1958</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Library Services <unitdate type="inclusive" normal="1947/2006">1947-2006</unitdate></unittitle>
+        </did>
+        <scopecontent>
+          <p>The Library Services series, 1947-2006 (1.75 linear feet), is comprised of documents relating to the services provided by the Dentistry Library. These services include bibliographic instruction, acquisitions, serials management, circulation statistics, and reference. This series contains records relating to library collections, policies, procedures, statistics, and instruction.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">10</container>
+            <unittitle>Acquisitions <unitdate type="inclusive" normal="1994/1998">1994-1998</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">10</container>
+            <unittitle>Annual Volume Count Statistics <unitdate type="inclusive" normal="1985/1995">1985-1995</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Bibliographic Instruction <unitdate type="inclusive" normal="1988/1997">1988-1997</unitdate></unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">10</container>
+              <unittitle>Handouts and Guides <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">10</container>
+              <unittitle>Introduction to Minority Resources <unitdate type="inclusive" normal="1992">1992</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">10</container>
+              <unittitle>Introduction to U.S. Government Documents in the Health Sciences <unitdate type="inclusive" normal="1992">1992</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">10</container>
+              <unittitle>User Education Activity Report <unitdate type="inclusive" normal="1995/1996">1995-1996</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">10</container>
+              <unittitle>User Education Activity Record <unitdate type="inclusive" normal="1996/1997">1996-1997</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">10</container>
+              <unittitle>User Education Documents <unitdate type="inclusive" normal="1988/1997">1988-1997</unitdate> &amp; <unitdate type="inclusive">Undated</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">10</container>
+            <unittitle>Black Dentistry in the 21st Century <unitdate type="inclusive" normal="1991">1991</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">10</container>
+            <unittitle>Book Sale <unitdate type="inclusive" normal="1984/1995">1984-1995</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">10</container>
+            <unittitle>Buhr Storage Project <unitdate type="inclusive" normal="1987/1988">1987-1988</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">10</container>
+            <unittitle>Cataloging of Master's Thesis <unitdate type="inclusive" normal="1999">1999</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">10</container>
+            <unittitle>Center for Research on Oral and Systemic Health (CROSH) <unitdate type="inclusive" normal="2001" certainty="approximate">circa 2001</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">10</container>
+            <unittitle>Circulation Rules and Policies <unitdate type="inclusive">Undated</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">10</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 folders</extent>
+            </physdesc>
+            <unittitle>Circulation Statistics and Volume Count <unitdate type="inclusive" normal="1954/1978">1954-1978</unitdate></unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">10</container>
+            <unittitle>Circulation Statistics and Volume Count <unitdate type="inclusive" normal="1980/1985">1980-1985</unitdate>, <unitdate type="inclusive" normal="1997">1997</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">10</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 folders</extent>
+            </physdesc>
+            <unittitle>Collection Budget <unitdate type="inclusive" normal="1971/1996">1971-1996</unitdate></unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">10</container>
+            <unittitle>Collection Development <unitdate type="inclusive" normal="1978">1978</unitdate>, <unitdate type="inclusive" normal="1985/1999">1985-1999</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">10</container>
+            <unittitle>Collection Development Conspectus for the Medical and Health Sciences <unitdate type="inclusive" normal="1985">1985</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">10</container>
+            <unittitle>Collection Development Special Purchases and Dealers <unitdate type="inclusive" normal="1947/1982">1947-1982</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">10</container>
+            <unittitle>Conservation and Treatment of Materials <unitdate type="inclusive" normal="1986/2006">1986-2006</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">10</container>
+            <unittitle>Conservation Proposal for the Digital Conservation of Historic Dental Journals <unitdate type="inclusive" normal="1998">1998</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">10</container>
+            <unittitle>Dental Library Approval Plan for Ballen Booksellers International <unitdate type="inclusive" normal="1986/1995">1986-1995</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">10</container>
+            <unittitle>Dental Library Approval Plan for Rittenhouse Book Distributors <unitdate type="inclusive" normal="1991/1996">1991-1996</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">10</container>
+            <unittitle>Dental Library Approval Plan Profile for Collection Development with Matthews Medical and Scientific Book Company <unitdate type="inclusive" normal="1996">1996</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">10</container>
+            <unittitle>Foreign Journals Study <unitdate type="inclusive" normal="1994/1996">1994-1996</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">10</container>
+            <unittitle>Gift to University of Zimbabwe <unitdate type="inclusive" normal="2005">2005</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">10</container>
+            <unittitle>Interlibrary Loan <unitdate type="inclusive" normal="1994/1996">1994-1996</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">10</container>
+            <unittitle>Landmarks in Afro-American Dentistry Reference Guide Handout <unitdate type="inclusive" normal="2000">2000</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">11</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">4 folders</extent>
+            </physdesc>
+            <unittitle>Library Use Surveys <unitdate type="inclusive" normal="1954/1981">1954-1981</unitdate></unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">11</container>
+            <unittitle>Library Use Survey <unitdate type="inclusive" normal="1990/1991">1990-1991</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">11</container>
+            <unittitle>Library Website Homepage (printout) <unitdate type="inclusive" normal="2003">2003</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">11</container>
+            <unittitle>Michigan State Law for the Protection of Libraries Posters <unitdate type="inclusive">undated</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">11</container>
+            <unittitle>Policies for Scholarship and Promotion <unitdate type="inclusive" normal="2005/2006">2005-2006</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">11</container>
+            <unittitle>Reference Database Transaction Statistics <unitdate type="inclusive" normal="1991/1996">1991-1996</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">11</container>
+            <unittitle>Reference Letter <unitdate type="inclusive" normal="1996">1996</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">11</container>
+            <unittitle>Reference Resource Guides <unitdate type="inclusive" normal="1996">1996</unitdate> &amp; <unitdate type="inclusive">undated</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">11</container>
+            <unittitle>Reference Service Request Form <unitdate type="inclusive">undated</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">11</container>
+            <unittitle>Reference Service Studies <unitdate type="inclusive" normal="1980/1982">1980-1982</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">11</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">3 folders</extent>
+            </physdesc>
+            <unittitle>Reference Statistics <unitdate type="inclusive" normal="1988/1997">1988-1997</unitdate></unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">11</container>
+            <unittitle>Reference Statistics Worksheet <unitdate type="inclusive" normal="1999">1999</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">11</container>
+            <unittitle>Reserves <unitdate type="inclusive" normal="1997/1998">1997-1998</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">11</container>
+            <unittitle>Self-Guided Tour of the Dentistry Library Handout <unitdate type="inclusive">undated</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Serials <unitdate type="inclusive" normal="1959/2002">1959-2002</unitdate></unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">11</container>
+              <unittitle><title render="italic">Current Content</title> Clinical Medicine Index Vol. 23 No. 29, <unitdate type="inclusive" normal="1995">1995</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">11</container>
+              <unittitle>Foreign Serials <unitdate type="inclusive" normal="1986/1996">1986-1996</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">11</container>
+              <unittitle>Inventory <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">11</container>
+              <unittitle>Serials Management <unitdate type="inclusive" normal="1987/2005">1987-2005</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">11</container>
+              <unittitle>Serials Management and Cancellations <unitdate type="inclusive" normal="1984/1998">1984-1998</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">11</container>
+              <unittitle>Serials Management and Title Changes <unitdate type="inclusive" normal="1985/1996">1985-1996</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">11</container>
+              <unittitle>Serials Management and Journal Selection Decisions <unitdate type="inclusive" normal="1987/1996">1987-1996</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">11</container>
+              <unittitle>Serials Management Notebook <unitdate type="inclusive" normal="1975/1981">1975-1981</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">11</container>
+            <unittitle>Sorting and Shelving Instructions <unitdate type="inclusive">undated</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">11</container>
+            <unittitle>Special Collections Survey <unitdate type="inclusive" normal="1996">1996</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">11</container>
+            <unittitle>Special Dental Classification and Subject Headings <unitdate type="inclusive" normal="1959/1962">1959-1962</unitdate> &amp; <unitdate type="inclusive" normal="1982">1982</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">11</container>
+            <unittitle>Student Guidelines for Scholarship and Promotion <unitdate type="inclusive" normal="1994/1995">1994-1995</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">11</container>
+            <unittitle>Suggestions and Comments Form <unitdate type="inclusive">undated</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">11</container>
+            <unittitle>"Taft the Tender, Taft the Tough: Founder of the U-M School of Dentistry" Exhibit <unitdate type="inclusive" normal="2000">2000</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">11</container>
+            <unittitle>Technical Processing Manual Searching Orders <unitdate type="inclusive" normal="1999">1999</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">11</container>
+            <unittitle>Technical Services Processing Worksheet <unitdate type="inclusive">undated</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">11</container>
+            <unittitle>University of Michigan and Dentistry Library Orientation Guides and Materials <unitdate type="inclusive" normal="2002">2002</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">11</container>
+            <unittitle>Uncatalogued Materials <unitdate type="inclusive" normal="1968/1982">1968-1982</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">11</container>
+            <unittitle>Vendocards for Photoduplication Forms <unitdate type="inclusive" normal="1997">1997</unitdate></unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Clippings Files <unitdate type="inclusive" normal="1962/1991">1962-1991</unitdate></unittitle>
+        </did>
+        <scopecontent>
+          <p>The Clippings Files series, 1962-1991 (1.25 linear feet), is made up of clippings and vertical file material from media sources collected by the Dentistry Library regarding the School of Dentistry's faculty, staff, research, and public relations. The series has two sub-series for General Clippings File and Faculty, Staff, and Alumni Clippings. The Faculty, Staff, and Alumni Clippings sub-series includes files on specific faculty, staff, and selected alumni with newspaper clippings, biographical material, and scattered photographs.</p>
+        </scopecontent>
+        <c02 level="subseries">
+          <did>
+            <unittitle>General Clippings Files <unitdate type="inclusive" normal="1962/1991">1962-1991</unitdate></unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>Community Service and Outreach <unitdate type="inclusive" normal="1975/1988">1975-1988</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>Conferences <unitdate type="inclusive" normal="1975/1991">1975-1991</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>Dental Research Institute <unitdate type="inclusive" normal="1967/1989">1967-1989</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>Dentistry and Medicine General Information <unitdate type="inclusive" normal="1965/1975">1965-1975</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>Faculty and Staff <unitdate type="inclusive" normal="1968/1984">1968-1984</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>Funding <unitdate type="inclusive" normal="1962/1971">1962-1971</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>History <unitdate type="inclusive" normal="1925/2001">1925-2001</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>History of Construction <unitdate type="inclusive" normal="1964/1974">1964-1974</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>School of Dentistry <unitdate type="inclusive" normal="1962/1986">1962-1986</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>Student Council Constitution <unitdate type="inclusive" normal="1967">1967</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>University of Michigan Dental Research <unitdate type="inclusive" normal="1975/1991">1975-1991</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>Undergraduate and Graduate <unitdate type="inclusive" normal="1962/1981">1962-1981</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Faculty, Staff, and Alumni Clippings</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>Applegate, Oliver C.</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>Aseltine, Lyle F.</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>Asgar, Kamal</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>Ash, Major M.</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>Avery, James K.</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>Bagramian, Robert</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>Baer, Melvyn J.</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>Bonnette, Gerald H.</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>Bradley, Bruce</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>Brodbelt, Robert</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>Brooks, Sharon</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>Brown, William E., Jr.</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>Bunting, Russel W.</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>Burt, Brian</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>Caffesse, Raul G.</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>Carron, Susan</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>Cartwright, Charles B.</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>Charbeneau, Gerald T.</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>Charlick, Richard E.</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>Christiansen, Richard L.</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>Cheney, Edward A.</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>Cooper, Hugh Jr.</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>Corcoran, John F. Jr.</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>Courtney, Richard</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>Costich, Emmet R.</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>Craig, Robert G.</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>Crandell, Edward A.</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>Craven, Arthur H.</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>Crowley, Mary C.</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>Dinger, Earl J.</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>Desmond, Richard L.</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>Dingman, Reed O.</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>Doerr, Robert E.</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>Dowson, John</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>Drach, John</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>Drake, Rollin E.</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>Dunaway, Judith</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>Dziewiatkowski, Dominic D.</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>Easlick, Kenneth A.</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>Eklund, Stephen</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>Falasca, Raymond F.</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>Faust, Homer E.</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>Feigal, Robert J.</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>Feinberg, Stephen E.</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>Fetchiet, Richard R.</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>Fitzgerald, Mark</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>Raymond, Fonseca J.</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>Fusilier, Charles N.</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>Gibbons, Paul</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>Gilson, C. Mark</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>Gilson, Thomas D.</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>Gingles, Carl E.</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>Glickman, Gerald N.</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>Gobetti, John P.</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>Godwin, William C.</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>Han, Seong</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>Hard, Dorothy</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>Harris, James E.</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>Hartsook, Joseph T.</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>Hayes, Raymond L.</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>Hayward, James R.</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>Held, Harold W.</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>Hellman, Donald L.</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>Heys, Donald &amp; Heys, Ronald</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>Henkel, John A.</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>Higuchi, William I.</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>Hiniker, Jerome J.</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>Hoff, Neville Soule</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>Jacobson, Jed J.</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>Jay, Philip</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>Jeserich, Paul H.</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>Johnston, Lysle E.</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>Kanar, Henry L.</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>Keevil, Joan M.</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>Kemper, John</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>Kerr, Donald A.</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>Kerry, Gloria</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>Kerschbaum, Wendy</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>Kingery, Richard H.</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>Knapp, Donald E.</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>Kohn, David H.</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>Kotowicz, William E.</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>Lang, Brien R.</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>Lang, W. Paul</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>Leinonen, Ellen</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>Loe, Harald</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>Loesche, Walter</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>Lorey, Robert E.</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>Loos, Paul J.</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>Lyons, Chalmers J.</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>McClatchey, Kenneth D.</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>McDowell, Glen C.</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>McNamara, James Jr.</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>Machen, J. Bernard (Dean)</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>Mann, William R.</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">13</container>
+              <unittitle>Margeson, Ross D.</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">13</container>
+              <unittitle>Millard, Herbert D.</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">13</container>
+              <unittitle>Miller, Willoughby Dayton</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">13</container>
+              <unittitle>Moore, George</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">13</container>
+              <unittitle>Morawa, Arnold P.</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">13</container>
+              <unittitle>More, Frederick G.</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">13</container>
+              <unittitle>Morris, H.F.</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">13</container>
+              <unittitle>Moyer, Ralph S.</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">13</container>
+              <unittitle>Moyers, Robert E.</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">13</container>
+              <unittitle>Myers, George E.</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">13</container>
+              <unittitle>Nasjleti, Carlos E.</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">13</container>
+              <unittitle>Nissle, Roland O.</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">13</container>
+              <unittitle>Northrup, Philip</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">13</container>
+              <unittitle>O'Brien, William J.</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">13</container>
+              <unittitle>O'Connor, Patricia</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">13</container>
+              <unittitle>O'Neal, Robert B.</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">13</container>
+              <unittitle>Ostrander, Floyd D.</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">13</container>
+              <unittitle>Peyton, Floyd A.</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">13</container>
+              <unittitle>Polverini, Peter</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">13</container>
+              <unittitle>Ponitz, Paul V.</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">13</container>
+              <unittitle>Pratt, Leroy</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">13</container>
+              <unittitle>Pritzel, Professor Susan</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">13</container>
+              <unittitle>Ramfjord, Sigurd P.</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">13</container>
+              <unittitle>Reese, James W.</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">13</container>
+              <unittitle>Regezi, Joseph A.</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">13</container>
+              <unittitle>Richards, Albert G.</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">13</container>
+              <unittitle>Rickert, Ura Garfield</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">13</container>
+              <unittitle>Robinson, Emerson</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">13</container>
+              <unittitle>Ross, Sylvia</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">13</container>
+              <unittitle>Rowe, Nathanial H.</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">13</container>
+              <unittitle>Russell, Albert Lee</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">13</container>
+              <unittitle>Schultz, Louis C.</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">13</container>
+              <unittitle>Schwartz, Walter</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">13</container>
+              <unittitle>Segat, Leon</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">13</container>
+              <unittitle>Seger, Susan</unittitle>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

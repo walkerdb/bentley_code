@@ -1,0 +1,667 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead.dtd">
+<ead>
+  <eadheader audience="internal" langencoding="iso639-2b" repositoryencoding="iso15511" dateencoding="iso8601" relatedencoding="Dublin Core" scriptencoding="iso15924" countryencoding="iso3166-1">
+    <eadid countrycode="us" mainagencycode="MiU-H" publicid="us//::miu-h//TXT us::miu-h::younged.xml//EN" encodinganalog="Identifier">umich-bhl-07182</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="Title">Finding Aid for Edward Young papers</titleproper>
+        <author encodinganalog="Creator">Collection processed and finding aid created by Michigan Historical Collections staff</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="Publisher">Bentley Historical Library, University of Michigan</publisher>
+        <date encodinganalog="Date" normal="2009">2009</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created by Greg Kinney <date>2009</date></creation>
+      <langusage encodinganalog="Language">The finding aid is written in <language langcode="eng" scriptcode="Latn">English</language></langusage>
+      <descrules>Finding aid prepared using Describing Archives: A Content Standard (DACS)</descrules>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date>2009-10-10</date>
+        <item>Original encoding from Filemaker Pro database and Word 2003 file using Word macros and Xmetal.</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <frontmatter>
+    <titlepage>
+      <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
+      <titleproper>Finding aid for <lb/>Edward Young papers, ca. 1928-ca. 1940</titleproper>
+      <author>Finding aid created by <lb/>Michigan Historical Collections staff</author>
+    </titlepage>
+  </frontmatter>
+  <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
+    <did>
+      <origination>
+        <persname source="lcnaf" encodinganalog="100">Young, Edward, 1887-1964.</persname>
+      </origination>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">1 folder</extent>
+      </physdesc>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">16 film reels</extent>
+      </physdesc>
+      <unittitle encodinganalog="245">Edward Young papers <unitdate type="inclusive" encodinganalog="245$f" normal="1928/1940" certainty="approximate">circa 1928-1940</unitdate></unittitle>
+      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">07182 Aa 2; UAs</unitid>
+      <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
+      <abstract>Professor of civil engineering at the University of Michigan. Collection consists of 16mm film of activities at U-M's Cam p Davis in Wyoming with additional footage at Yellowstone National Park and Douglas Lake, Michigan.</abstract>
+      <repository>
+        <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea>, University of Michigan</corpname>
+        <extptr href="bhladd" show="embed" actuate="onload"/>
+      </repository>
+    </did>
+    <descgrp type="admin">
+      <acqinfo encodinganalog="541">
+        <p>Donor No. <num type="donor" encodinganalog="541$e">9050</num>.</p>
+      </acqinfo>
+      <accruals encodinganalog="584">
+        <p>No further additions to the records are expected.</p>
+      </accruals>
+      <accessrestrict encodinganalog="506">
+        <p>The collection is open to research.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+        <p>Copyright status is unclear.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+        <p>[item], folder, box,
+Edward Young papers, Bentley Historical Library, University of Michigan</p>
+      </prefercite>
+    </descgrp>
+    <bioghist encodinganalog="545">
+      <p>Edward Young was born July 11, 1887, in Longside, Ontario, Canada. He was admitted as a student to the University of Michigan in 1915 and graduated in 1921 with a B.S. in Civil Engineering. Edward worked as a construction engineer in Pennsylvania August 1918-June 1919 and as a teaching assistant in surveying at the University of Michigan in 1919 and 1920. After graduation, he was immediately hired as an Instructor in surveying, later as Instructor in Geodesy and surveying at the University of Michigan. He was promoted to assistant professor in 1927 and associate professor in 1947. Edward was acting director of the Camp Davis Summer session in 1938. He retired at the end of the academic year in 1957 and shortly after was granted emeritus status. He died in Ann Arbor on February 6, 1964.</p>
+    </bioghist>
+    <scopecontent encodinganalog="520">
+      <p>Silent, 16 mm motion pictures, mainly of surveying and geological activities at Camp Davis, Wyoming, with additional footage at Yellowstone National Park and Douglas Lake, Michigan. All but one of the films are in black and white. In addition, there are five photographs of the annual Camp Davis Summer session participants for the years 1929-1933. The films were digitized in 2009. DVD versions are available for use in the reading and streaming files for selected films are available online.</p>
+    </scopecontent>
+    <controlaccess>
+      <p>
+        <extptr href="accnote" show="embed" actuate="onload"/>
+      </p>
+      <controlaccess>
+        <head>Subjects - Visual Materials:</head>
+        <geogname source="lcsh" encodinganalog="651">Camp Davis (University of Michigan)</geogname>
+        <geogname source="lcsh" encodinganalog="651">Douglas Lake (Mich.)</geogname>
+        <subject source="lctgm" encodinganalog="650">Surveying--Wyoming.</subject>
+        <subject source="lctgm" encodinganalog="650">Surveying--Michigan.</subject>
+        <geogname source="lcsh" encodinganalog="651">Wyoming.</geogname>
+        <geogname source="lcsh" encodinganalog="651">Yellowstone National Park.</geogname>
+        <persname source="lcnaf" encodinganalog="600">Young, Edward, 1887-1964.</persname>
+      </controlaccess>
+      <controlaccess>
+        <head>Genre Terms:</head>
+        <genreform source="aat" encodinganalog="655">Motion pictures.</genreform>
+        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+      </controlaccess>
+    </controlaccess>
+    <dsc type="combined">
+      <c01 level="series">
+        <did>
+          <unittitle>Photographs</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <physloc>UAs</physloc>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">1 folder</extent>
+            </physdesc>
+            <unittitle>Photos</unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Motion Pictures</unittitle>
+        </did>
+        <c02 level="item">
+          <did>
+            <unittitle>Camp Davis/Douglas Lake Pre-1929 Hydrographic Survey Training <unitdate type="inclusive">undated</unitdate></unittitle>
+            <unitid>07182-1</unitid>
+          </did>
+          <c03 level="otherlevel" otherlevel="item-part">
+            <did>
+              <unittitle>Original</unittitle>
+              <physdesc>
+                <physfacet>16mm film, b/w, pos, silent, 00:07:00 @ 18fps.</physfacet>
+              </physdesc>
+            </did>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-part">
+            <did>
+              <container type="box" label="DVD Box">10</container>
+              <unittitle>Use Copy</unittitle>
+              <physdesc>
+                <physfacet>DVD</physfacet>
+              </physdesc>
+            </did>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-part">
+            <did>
+              <unittitle>Streaming File: 07182-1</unittitle>
+              <physdesc>
+                <physfacet>flash</physfacet>
+              </physdesc>
+              <dao href="07182-1" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[view video]</p>
+                </daodesc>
+              </dao>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="item">
+          <did>
+            <unittitle>Camp Davis/Douglas Lake, Michigan 1928 <unitdate type="inclusive" normal="1928">1928</unitdate></unittitle>
+            <unitid>07182-2</unitid>
+          </did>
+          <c03 level="otherlevel" otherlevel="item-part">
+            <did>
+              <unittitle>Original</unittitle>
+              <physdesc>
+                <physfacet>16mm film, b/w, pos, silent, 00:10:28 @ 18 fps</physfacet>
+              </physdesc>
+            </did>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-part">
+            <did>
+              <container type="box" label="DVD Box">10</container>
+              <unittitle>Use Copy</unittitle>
+              <physdesc>
+                <physfacet>DVD</physfacet>
+              </physdesc>
+            </did>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-part">
+            <did>
+              <unittitle>Streaming File: 07182-2</unittitle>
+              <physdesc>
+                <physfacet>flash</physfacet>
+              </physdesc>
+              <dao href="07182-2" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[view video]</p>
+                </daodesc>
+              </dao>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="item">
+          <did>
+            <unittitle>Camp Davis 1929-Reel 1 <unitdate type="inclusive" normal="1929">1929</unitdate></unittitle>
+            <unitid>07182-3</unitid>
+          </did>
+          <c03 level="otherlevel" otherlevel="item-part">
+            <did>
+              <unittitle>Original</unittitle>
+              <physdesc>
+                <physfacet>16mm film, b/w, pos, silent, 00:13:26 @ 18 fps</physfacet>
+              </physdesc>
+            </did>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-part">
+            <did>
+              <container type="box" label="DVD Box">10</container>
+              <unittitle>Use Copy</unittitle>
+              <physdesc>
+                <physfacet>DVD</physfacet>
+              </physdesc>
+            </did>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-part">
+            <did>
+              <unittitle>Streaming File: 07182-3</unittitle>
+              <physdesc>
+                <physfacet>flash</physfacet>
+              </physdesc>
+              <dao href="07182-3" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[view video]</p>
+                </daodesc>
+              </dao>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="item">
+          <did>
+            <unittitle>Camp Davis 1929-Reel 2 <unitdate type="inclusive" normal="1929">1929</unitdate></unittitle>
+            <unitid>07182-4</unitid>
+          </did>
+          <c03 level="otherlevel" otherlevel="item-part">
+            <did>
+              <unittitle>Original</unittitle>
+              <physdesc>
+                <physfacet>16mm film, b/w, pos, silent, 00:10:55 @ 18 fps</physfacet>
+              </physdesc>
+            </did>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-part">
+            <did>
+              <container type="box" label="DVD Box">10</container>
+              <unittitle>Use Copy</unittitle>
+              <physdesc>
+                <physfacet>DVD</physfacet>
+              </physdesc>
+            </did>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-part">
+            <did>
+              <unittitle>Streaming File: 07182-4</unittitle>
+              <physdesc>
+                <physfacet>flash</physfacet>
+              </physdesc>
+              <dao href="07182-4" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[view video]</p>
+                </daodesc>
+              </dao>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="item">
+          <did>
+            <unittitle>Camp Davis 1930 (or 1931 ?)-Reel 1 <unitdate type="inclusive" normal="1930" certainty="approximate">circa 1930</unitdate></unittitle>
+            <unitid>07182-5</unitid>
+          </did>
+          <c03 level="otherlevel" otherlevel="item-part">
+            <did>
+              <unittitle>Original</unittitle>
+              <physdesc>
+                <physfacet>16mm film, b/w, pos, silent, 00:13:33 @ 18 fps</physfacet>
+              </physdesc>
+            </did>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-part">
+            <did>
+              <container type="box" label="DVD Box">10</container>
+              <unittitle>Use Copy</unittitle>
+              <physdesc>
+                <physfacet>DVD</physfacet>
+              </physdesc>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="item">
+          <did>
+            <unittitle>Camp Davis 1931-Reel 2. Trip through Yellowstone <unitdate type="inclusive" normal="1931">1931</unitdate></unittitle>
+            <unitid>07182-6</unitid>
+          </did>
+          <c03 level="otherlevel" otherlevel="item-part">
+            <did>
+              <unittitle>Original</unittitle>
+              <physdesc>
+                <physfacet>16mm film, b/w, pos, silent, 00:09:44 @ 18 fps.</physfacet>
+              </physdesc>
+            </did>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-part">
+            <did>
+              <container type="box" label="DVD Box">10</container>
+              <unittitle>Use Copy</unittitle>
+              <physdesc>
+                <physfacet>DVD</physfacet>
+              </physdesc>
+            </did>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-part">
+            <did>
+              <unittitle>Streaming File: 07182-6</unittitle>
+              <physdesc>
+                <physfacet>flash</physfacet>
+              </physdesc>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="item">
+          <did>
+            <unittitle>Camp Davis <unitdate type="inclusive" normal="1934">1934</unitdate>, <unitdate type="inclusive" normal="1934">1934</unitdate></unittitle>
+            <unitid>07182-7</unitid>
+          </did>
+          <c03 level="otherlevel" otherlevel="item-part">
+            <did>
+              <unittitle>Original</unittitle>
+              <physdesc>
+                <physfacet>16mm film, b/w, pos, silent, 00:14:40 @ 18 fps.</physfacet>
+              </physdesc>
+            </did>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-part">
+            <did>
+              <container type="box" label="DVD Box">10</container>
+              <unittitle>Use Copy</unittitle>
+              <physdesc>
+                <physfacet>DVD</physfacet>
+              </physdesc>
+            </did>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-part">
+            <did>
+              <unittitle>Streaming File: 07182-7</unittitle>
+              <physdesc>
+                <physfacet>flash</physfacet>
+              </physdesc>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="item">
+          <did>
+            <unittitle>Yellowstone and Camp Davis <unitdate type="inclusive" normal="1935">1935</unitdate>, <unitdate type="inclusive" normal="1935">1935</unitdate></unittitle>
+            <unitid>07182-8</unitid>
+          </did>
+          <c03 level="otherlevel" otherlevel="item-part">
+            <did>
+              <unittitle>Original</unittitle>
+              <physdesc>
+                <physfacet>16mm film, b/w, pos, silent, 00:13:20 @ 18 fps.</physfacet>
+              </physdesc>
+            </did>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-part">
+            <did>
+              <container type="box" label="DVD Box">10</container>
+              <unittitle>Use Copy</unittitle>
+              <physdesc>
+                <physfacet>DVD</physfacet>
+              </physdesc>
+            </did>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-part">
+            <did>
+              <unittitle>Streaming File: 07182-8</unittitle>
+              <physdesc>
+                <physfacet>flash</physfacet>
+              </physdesc>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="item">
+          <did>
+            <unittitle>Camp Davis 1938/39-Overall Good of Camp, Surveying and Geology Students <unitdate type="inclusive" normal="1938">1938</unitdate></unittitle>
+            <unitid>07182-9</unitid>
+          </did>
+          <c03 level="otherlevel" otherlevel="item-part">
+            <did>
+              <unittitle>Original</unittitle>
+              <physdesc>
+                <physfacet>16mm film, color, pos, silent, 00:15:48 @ 18 fps.</physfacet>
+              </physdesc>
+            </did>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-part">
+            <did>
+              <container type="box" label="DVD Box">10</container>
+              <unittitle>Use Copy</unittitle>
+              <physdesc>
+                <physfacet>DVD</physfacet>
+              </physdesc>
+            </did>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-part">
+            <did>
+              <unittitle>Streaming File: 07182-9</unittitle>
+              <physdesc>
+                <physfacet>flash</physfacet>
+              </physdesc>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="item">
+          <did>
+            <unittitle>Camp Davis <unitdate type="inclusive" normal="1939">1939</unitdate>, <unitdate type="inclusive" normal="1939">1939</unitdate></unittitle>
+            <unitid>07182-10</unitid>
+          </did>
+          <c03 level="otherlevel" otherlevel="item-part">
+            <did>
+              <unittitle>Original</unittitle>
+              <physdesc>
+                <physfacet>16mm film, b/w, pos, silent, 00:10 :55 @ 18 fps.</physfacet>
+              </physdesc>
+            </did>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-part">
+            <did>
+              <container type="box" label="DVD Box">10</container>
+              <unittitle>Use Copy</unittitle>
+              <physdesc>
+                <physfacet>DVD</physfacet>
+              </physdesc>
+            </did>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-part">
+            <did>
+              <unittitle>Streaming File: 07182-10</unittitle>
+              <physdesc>
+                <physfacet>flash</physfacet>
+              </physdesc>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="item">
+          <did>
+            <unittitle>Camp Davis (28) <unitdate type="inclusive">undated</unitdate></unittitle>
+            <unitid>07182-11</unitid>
+          </did>
+          <c03 level="otherlevel" otherlevel="item-part">
+            <did>
+              <unittitle>Original</unittitle>
+              <physdesc>
+                <physfacet>16mm film, b/w, pos, silent, 00:08:11 @ 18 fps.</physfacet>
+              </physdesc>
+            </did>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-part">
+            <did>
+              <container type="box" label="DVD Box">10</container>
+              <unittitle>Use Copy</unittitle>
+              <physdesc>
+                <physfacet>DVD</physfacet>
+              </physdesc>
+            </did>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-part">
+            <did>
+              <unittitle>Streaming File: 07182-11</unittitle>
+              <physdesc>
+                <physfacet>flash</physfacet>
+              </physdesc>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="item">
+          <did>
+            <unittitle>Yellowstone <unitdate type="inclusive" normal="1930">1930</unitdate>, <unitdate type="inclusive" normal="1930">1930</unitdate></unittitle>
+            <unitid>07182-12</unitid>
+          </did>
+          <c03 level="otherlevel" otherlevel="item-part">
+            <did>
+              <unittitle>Original</unittitle>
+              <physdesc>
+                <physfacet>16mm film, b/w, pos, silent, 00:16:22 @ 18 fps.</physfacet>
+              </physdesc>
+            </did>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-part">
+            <did>
+              <container type="box" label="DVD Box">10</container>
+              <unittitle>Use Copy</unittitle>
+              <physdesc>
+                <physfacet>DVD</physfacet>
+              </physdesc>
+            </did>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-part">
+            <did>
+              <unittitle>Streaming File: 07182-12</unittitle>
+              <physdesc>
+                <physfacet>flash</physfacet>
+              </physdesc>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="item">
+          <did>
+            <unittitle>Untitled (972) <unitdate type="inclusive">undated</unitdate></unittitle>
+            <unitid>07182-13</unitid>
+          </did>
+          <c03 level="otherlevel" otherlevel="item-part">
+            <did>
+              <unittitle>Original</unittitle>
+              <physdesc>
+                <physfacet>16mm film, b/w, pos, silent, 00:15:40 @ 18 fps.</physfacet>
+              </physdesc>
+            </did>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-part">
+            <did>
+              <container type="box" label="DVD Box">10</container>
+              <unittitle>Use Copy</unittitle>
+              <physdesc>
+                <physfacet>DVD</physfacet>
+              </physdesc>
+            </did>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-part">
+            <did>
+              <unittitle>Streaming File: 07182-13</unittitle>
+              <physdesc>
+                <physfacet>flash</physfacet>
+              </physdesc>
+              <dao href="07182-13" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[view video]</p>
+                </daodesc>
+              </dao>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="item">
+          <did>
+            <unittitle>Camp Davis (X) <unitdate type="inclusive">undated</unitdate></unittitle>
+            <unitid>07182-14</unitid>
+          </did>
+          <c03 level="otherlevel" otherlevel="item-part">
+            <did>
+              <unittitle>Original</unittitle>
+              <physdesc>
+                <physfacet>16mm film, b/w, pos, silent, 00:11:11 @ 18 fps.</physfacet>
+              </physdesc>
+            </did>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-part">
+            <did>
+              <container type="box" label="DVD Box">10</container>
+              <unittitle>Use Copy</unittitle>
+              <physdesc>
+                <physfacet>DVD</physfacet>
+              </physdesc>
+            </did>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-part">
+            <did>
+              <unittitle>Streaming File: 07182-14</unittitle>
+              <physdesc>
+                <physfacet>flash</physfacet>
+              </physdesc>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="item">
+          <did>
+            <unittitle>Camp Davis (18 or 81) <unitdate type="inclusive">undated</unitdate></unittitle>
+            <unitid>07182-15</unitid>
+          </did>
+          <c03 level="otherlevel" otherlevel="item-part">
+            <did>
+              <unittitle>Original</unittitle>
+              <physdesc>
+                <physfacet>16mm film, b/w, pos, silent, 00:14:15 @ 18fps.</physfacet>
+              </physdesc>
+            </did>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-part">
+            <did>
+              <container type="box" label="DVD Box">10</container>
+              <unittitle>Use Copy</unittitle>
+              <physdesc>
+                <physfacet>DVD</physfacet>
+              </physdesc>
+            </did>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-part">
+            <did>
+              <unittitle>Streaming File: 07182-15</unittitle>
+              <physdesc>
+                <physfacet>flash</physfacet>
+              </physdesc>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="item">
+          <did>
+            <unittitle>Camp Davis <unitdate type="inclusive">undated</unitdate></unittitle>
+            <unitid>07182-16</unitid>
+          </did>
+          <c03 level="otherlevel" otherlevel="item-part">
+            <did>
+              <unittitle>Original</unittitle>
+              <physdesc>
+                <physfacet>16mm film, b/w, pos, silent, 00:05:31 @ 18fps</physfacet>
+              </physdesc>
+            </did>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-part">
+            <did>
+              <container type="box" label="DVD Box">10</container>
+              <unittitle>Use Copy</unittitle>
+              <physdesc>
+                <physfacet>DVD</physfacet>
+              </physdesc>
+            </did>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-part">
+            <did>
+              <unittitle>Streaming File: 07182-16</unittitle>
+              <physdesc>
+                <physfacet>flash</physfacet>
+              </physdesc>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="item">
+          <did>
+            <unittitle>Camp Davis 1931-Solar Obs. and Prairie Leveling <unitdate type="inclusive" normal="1931">1931</unitdate></unittitle>
+            <unitid>07182-17</unitid>
+          </did>
+          <c03 level="otherlevel" otherlevel="item-part">
+            <did>
+              <unittitle>Original</unittitle>
+              <physdesc>
+                <physfacet>16mm film, b/w, pos, silent, 00:01:42 @ 18 fps</physfacet>
+              </physdesc>
+            </did>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-part">
+            <did>
+              <container type="box" label="DVD Box">10</container>
+              <unittitle>Use Copy</unittitle>
+              <physdesc>
+                <physfacet>DVD</physfacet>
+              </physdesc>
+            </did>
+          </c03>
+          <c03 level="otherlevel" otherlevel="item-part">
+            <did>
+              <unittitle>Streaming File: 07182-17</unittitle>
+              <physdesc>
+                <physfacet>flash</physfacet>
+              </physdesc>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

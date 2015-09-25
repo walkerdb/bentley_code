@@ -1,0 +1,1428 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead.dtd">
+<ead>
+  <eadheader audience="internal" langencoding="iso639-2b" repositoryencoding="iso15511" dateencoding="iso8601" relatedencoding="Dublin Core">
+    <eadid countrycode="us" mainagencycode="MiU-H" publicid="-//us::MiU-H//TEXT us::MiU-H::odellfc.xml//EN" encodinganalog="identifier">umich-bhl-93830</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="title">Finding Aid for Frederick C. O'Dell papers <date>1918-1919</date></titleproper>
+        <author encodinganalog="creator">Collection processed and finding aid prepared by Leonard A. Coombs</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="publisher">Bentley Historical Library, University of Michigan</publisher>
+        <date encodinganalog="date">2003</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created by Thomas E. Powers <date>May 2003</date></creation>
+      <langusage>The finding aid is written in <language encodinganalog="language" langcode="eng">English.</language></langusage>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date>20100526</date>
+        <item>Corrected errors LAC</item>
+      </change>
+      <change>
+        <date>20100105</date>
+        <item>Edited for style LAC</item>
+      </change>
+      <change>
+        <date>20031010</date>
+        <item>Converted to EAD2002 using Word macro and Xmetal</item>
+      </change>
+      <change>
+        <date>20030530</date>
+        <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <frontmatter>
+    <titlepage>
+      <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
+      <titleproper>Finding Aid for <lb/>Frederick C. O'Dell Papers, <date type="inclusive">1918-1919</date></titleproper>
+      <author>Finding aid prepared by: <lb/>Leonard A. Coombs</author>
+    </titlepage>
+  </frontmatter>
+  <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
+    <did>
+      <origination>
+        <persname source="lcnaf" encodinganalog="100">O'Dell, Frederick C. (Frederick Charles)</persname>
+      </origination>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">1 oversize photograph</extent>
+      </physdesc>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">0.2 linear feet</extent>
+      </physdesc>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">59 architectural drawings</extent>
+      </physdesc>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">185 maps</extent>
+      </physdesc>
+      <unittitle encodinganalog="245">Frederick C. O'Dell Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1918/1919">1918-1919</unitdate></unittitle>
+      <abstract>Master engineer of 1st Battalion, 310th U.S. Army Engineers, in charge of the Army Topographical Office in Archangel, Russia during the Allied intervention in Russia, 1918-1920, the "Polar Bear Expedition." Collection includes maps, architectural drawings, photographs, and miscellanea relating to the work of the 310th Engineers in Russia. Architectural drawings include plans for buildings and fortifications.</abstract>
+      <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">93830;Aa;2;UAl (photographs and papers)</unitid>
+      <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
+      <unitid>M;7063;.A7;1918;O3 (maps and drawings)</unitid>
+      <repository>
+        <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea> University of Michigan</corpname>
+        <extptr href="bhladd" show="embed" actuate="onload"/>
+      </repository>
+    </did>
+    <descgrp type="admin">
+      <acqinfo encodinganalog="541">
+        <p>The collection was donated by Frederick C. O'Dell (donor no. <num type="donor" encodinganalog="541$e">8900</num>); a portion of the collection was transferred from the William L. Clements Library (donor <num type="donor" encodinganalog="541$e">1333</num>).</p>
+      </acqinfo>
+      <accessrestrict encodinganalog="506">
+        <p>The collection is open for research.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+        <p>Copyright is retained by the University of Michigan.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+        <p>item, folder title, box no., Frederick C. O'Dell Papers, Bentley Historical Library, University of Michigan</p>
+      </prefercite>
+    </descgrp>
+    <bioghist encodinganalog="545">
+      <p><persname normal="O'Dell, Frederick C. (Frederick Charles)">Frederick C. O'Dell</persname>, Master Engineer, <corpname normal="United States. Army. Engineer Regiment, 310th. Battalion, 1st.">1st Battalion, 310th Engineers</corpname>, U.S. Army, was in charge of the Army Topographical Office in <geogname normal="Arkhangel'sk (Russia)">Archangel, Russia</geogname>, during the American Expedition to North Russia, 1918-1919.</p>
+    </bioghist>
+    <scopecontent encodinganalog="520">
+      <p>The collection relates entirely to <persname normal="O'Dell, Frederick C. (Frederick Charles)">O'Dell's</persname> experience serving with the American Expeditionary Force, North Russia, 1918-1919. The bulk of the collection consists of <genreform normal="Maps.">maps</genreform> and <genreform normal="Architectural drawings.">architectural designs</genreform> for buildings and fortifications constructed by the American Expeditionary Force, North Russia. Most of the <genreform normal="Maps.">maps</genreform> and <genreform normal="Architectural drawings.">designs</genreform> were produced by the <corpname normal="United States. Army. Engineer Regiment, 310th.">310th Engineers</corpname>. In addition, there are two folders of <genreform normal="Photographs.">photographs</genreform> taken of the area and a scattering of miscellaneous official documents.</p>
+    </scopecontent>
+    <controlaccess>
+      <p>
+        <extptr href="accnote" show="embed" actuate="onload"/>
+      </p>
+      <controlaccess>
+        <head>Subjects:</head>
+        <persname source="lcnaf" encodinganalog="600">O'Dell, Frederick C. (Frederick Charles)</persname>
+        <subject source="local" encodinganalog="690" authfilenumber="http://id.loc.gov/authorities/names/n2008059426">Polar Bear Expedition.</subject>
+        <geogname source="lcsh" encodinganalog="651">Soviet Union--History--Allied intervention, 1918-1920.</geogname>
+      </controlaccess>
+      <controlaccess>
+        <head>Subjects - Visual Material:</head>
+        <geogname source="lcsh" encodinganalog="651">Arkhangel'sk (Russia)</geogname>
+        <subject source="lctgm" encodinganalog="650">Barracks--American--Russia (Federation)--Arkhangel'sk (Russia)</subject>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n94064669.html">Fort Custer (Mich.)</geogname>
+        <subject source="lctgm" encodinganalog="650">Forts and fortifications--Russia (Federation)</subject>
+        <subject source="lctgm" encodinganalog="650">Military art and science.</subject>
+        <subject source="local" encodinganalog="690" authfilenumber="http://id.loc.gov/authorities/names/n2008059426">Polar Bear Expedition.</subject>
+        <subject source="lctgm" encodinganalog="650">Soldiers--American--Russia (Federation)</subject>
+        <geogname source="lcsh" encodinganalog="651">Soviet Union--History--Allied intervention, 1918-1920.</geogname>
+        <corpname source="lcnaf" encodinganalog="610">United States. Army. Engineer Regiment, 310th.</corpname>
+      </controlaccess>
+      <controlaccess>
+        <head>Subjects: Maps</head>
+        <geogname source="lcsh" encodinganalog="651">Archangel'sk (Russia)--Maps.</geogname>
+        <subject source="local" encodinganalog="690">Polar Bear Expedition--Maps.</subject>
+        <geogname source="lcsh" encodinganalog="651">Soviet Union--History--Allied intervention, 1918-1920--Maps.</geogname>
+        <geogname source="lcsh" encodinganalog="651">Soviet Union--History--Revolution, 1917-1921--Campaigns--Maps.</geogname>
+        <corpname source="lcnaf" encodinganalog="710">United States. Army. Engineer Regiment, 310th.</corpname>
+      </controlaccess>
+      <controlaccess>
+        <head>Genre/Form:</head>
+        <genreform source="aat" encodinganalog="655">Architectural drawings.</genreform>
+        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+      </controlaccess>
+    </controlaccess>
+    <dsc type="combined">
+      <c01 level="series">
+        <did>
+          <unittitle>Photographs and Miscellaneous Papers</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <container label="Box" type="box">1</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">31 items</extent>
+            </physdesc>
+            <container label="Folder" type="folder">1</container>
+            <unittitle>Photographic views of <geogname normal="Arkhangel'sk (Russia)">Archangel</geogname> and photos of barracks, stables, fortifications, and other structures built by the <corpname normal="United States. Army. Engineer Regiment, 310th.">310th Engineers</corpname></unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container label="Box" type="box">1</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">4 items</extent>
+            </physdesc>
+            <container label="Folder" type="folder">2</container>
+            <unittitle>Photographic views of <geogname normal="Arkhangel'sk (Russia)">Archangel</geogname> and photos of barracks, stables, fortifications, and other structures built by the <corpname normal="United States. Army. Engineer Regiment, 310th.">310th Engineers</corpname></unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container label="Box" type="box">1</container>
+            <container label="Folder" type="folder">3</container>
+            <unittitle>Documents relating to assignments and memorabilia</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="folder" label="Oversize Folder">4</container>
+            <unittitle><genreform normal="Group portraits.">Group portrait</genreform> of <corpname normal="United States. Army. Engineer Regiment, 310th.">310th Engineers</corpname> while in training at <geogname normal="Fort Custer (Mich.)">Camp Custer, Michigan</geogname></unittitle>
+          </did>
+          <odd>
+            <p>In UAl oversize</p>
+          </odd>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Maps</unittitle>
+        </did>
+        <scopecontent>
+          <p>The <genreform normal="Maps.">Maps</genreform> series includes general maps of the <geogname normal="Arkhangel'sk (Russia)">Archangel</geogname> district at scales ranging from 1:420,000 to 1:20,000, large scale maps of cities and towns involved in military operations, reconnaissance and road maps, and maps of fortifications and military positions during the 1918-1919 campaign. Maps issued by the Allied Mapping Section and the Mapping Section, Dvina Force are noted in the contents list.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container label="Folder" type="folder">5</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">6 sheets</extent>
+            </physdesc>
+            <unittitle>Map of <geogname normal="Arkhangel'sk (Russia)">Archangel</geogname> district, Russia. 10 verst series. Allied Mapping Section, <unitdate type="inclusive" normal="1919">1919</unitdate></unittitle>
+            <physdesc>
+              </physdesc>
+            <physdesc>
+              <physfacet>Scale ca. 1:420,000</physfacet>
+            </physdesc>
+          </did>
+          <odd>
+            <p>See description in folder 17</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle><geogname normal="Arkhangel'sk (Russia)">Archangel</geogname> district, Russia. 1 verst series. Allied Mapping Section, <unitdate type="inclusive" normal="1919">1919</unitdate></unittitle>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">79 sheets</extent>
+            </physdesc>
+            <physdesc>
+              </physdesc>
+            <physdesc>
+              <physfacet>Scale 1:42,000</physfacet>
+            </physdesc>
+          </did>
+          <odd>
+            <p>Each sheet contains two squares, corresponding to the squares marked on the 10 verst sheets in folder 5. See description in folder 17</p>
+          </odd>
+          <c03 level="file">
+            <did>
+              <container label="Folder" type="folder">6</container>
+              <unittitle><geogname normal="Arkhangel'sk (Russia)">Archangel</geogname> city and <geogname normal="Onega (Russia)">Onega areas</geogname></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Folder" type="folder">7</container>
+              <unittitle>
+                <geogname normal="Pinega (Russia)">Pinega area</geogname>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Folder" type="folder">8</container>
+              <unittitle>Lower Dvina River, Emtsa River, and Archangel-Vologda Railroad areas.</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Folder" type="folder">9</container>
+              <unittitle>Upper Dvina River and Vaga River areas.</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container label="Folder" type="folder">10</container>
+            <unittitle>Map of <geogname normal="Arkhangel'sk (Russia)">Archangel</geogname> district, Map No. 1. 8 verst series., <unitdate type="inclusive" normal="1918">1918</unitdate></unittitle>
+            <physdesc>
+              <physfacet>Scale ca. 1:336,000</physfacet>
+            </physdesc>
+          </did>
+          <odd>
+            <p>(9 sheets of a 22 (or more) sheet map. Have sheet nos. 2,4,5,7,10,11,14,19,22). See description in folder 17.)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container label="Folder" type="folder">10</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">4 sheets</extent>
+            </physdesc>
+            <unittitle>Spetsial'nyi plan" chasti Arkhangel'skoi gubernii. 5 verst series. <unitdate type="inclusive" normal="1919">1919</unitdate></unittitle>
+            <physdesc>
+              </physdesc>
+            <physdesc>
+              <physfacet>Scale 1:210,000</physfacet>
+            </physdesc>
+          </did>
+          <odd>
+            <p>(In Russian) See description in folder 17.</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container label="Folder" type="folder">11</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">4 sheets</extent>
+            </physdesc>
+            <unittitle>Map of <geogname normal="Arkhangel'sk (Russia)">Archangel</geogname> district. 10 verst series., <unitdate type="inclusive" normal="1918-10-12/1918-11-21">October 12, 1918-November 21, 1918</unitdate></unittitle>
+            <physdesc>
+              </physdesc>
+            <physdesc>
+              <physfacet>Scale 1:420,000</physfacet>
+            </physdesc>
+          </did>
+          <odd>
+            <p>See description in folder 17</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="folder" label="Folder">11</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">8 sheets (of a 10 sheet map ?</extent>
+            </physdesc>
+            <unittitle>Territory from <geogname normal="Lyavalya (Russia)">Lyavalya</geogname> to <geogname normal="Konetsbor (Russia)">Konetsbor</geogname>, south of Dvina River, <unitdate>undated</unitdate></unittitle>
+            <physdesc>
+              </physdesc>
+            <physdesc>
+              <physfacet>Scale 1:20,000</physfacet>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container label="Folder" type="folder">12</container>
+            <unittitle>Plan: district of <geogname normal="Economiya (Russia)">Economy</geogname>, <unitdate type="inclusive" normal="1918-09-14">September 14, 1918</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(no scale shown)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="folder" label="Folder">12</container>
+            <unittitle>Soundings over sandbar: Vaga River <geogname normal="Ust'-Vaga (Russia)">Ust Vaga</geogname>, <unitdate type="inclusive" normal="1919-06-06">June 6, 1919</unitdate></unittitle>
+            <physdesc>
+              <physfacet>Scale 1:1200</physfacet>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="folder" label="Folder">12</container>
+            <unittitle>Map of Pechora River system <unitdate type="inclusive" normal="1919">1919</unitdate></unittitle>
+            <physdesc>
+              <physfacet>Scale 1:1,260,000</physfacet>
+            </physdesc>
+          </did>
+          <odd>
+            <p>(See description in folder 17)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="folder" label="Folder">12</container>
+            <unittitle>Map of <geogname normal="Arkhangel'sk (Russia)">Archangel</geogname> and <geogname normal="Solombola (Russia)">Solombola</geogname>, <unitdate type="inclusive" normal="1918-10-27">October 27, 1918</unitdate></unittitle>
+            <physdesc>
+              <physfacet>Scale ca. 1:13,440</physfacet>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="folder" label="Folder">12</container>
+            <unittitle>[untitled Led and Tarnya Rivers area, undated] Mapping Section, Dvina Force.</unittitle>
+            <physdesc>
+              <physfacet>Scale 1:42,000</physfacet>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="folder" label="Folder">12</container>
+            <unittitle>North winter trail, Archangel-Pinega, preliminary sketch of emergency trail (reindeer) <unitdate type="inclusive" normal="1919-02-13">February 13, 1919</unitdate></unittitle>
+            <physdesc>
+              <physfacet>Scale ca. 1:440,000</physfacet>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="folder" label="Folder">12</container>
+            <unittitle>Map of <geogname normal="Morjegorskaya (Russia)">Morjegorskaya district</geogname>, <unitdate>undated</unitdate></unittitle>
+            <physdesc>
+              <physfacet>Scale 1:84,000</physfacet>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="folder" label="Folder">12</container>
+            <unittitle>Plan showing districts in the vicinity of the towns of <geogname normal="Emetskoe (Russia)">Emetskoe</geogname>, Siiskoe and <geogname normal="Vaymuga (Russia)">Vaimuga</geogname>, <unitdate type="inclusive" normal="1919-01-29">January 29, 1919</unitdate></unittitle>
+            <physdesc>
+              <physfacet>Scale 1:42,000</physfacet>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="folder" label="Folder">12</container>
+            <unittitle>Road traverse, Shredmakrenga-Tarasevo <unitdate type="inclusive" normal="1919-01-27">January 27, 1919</unitdate></unittitle>
+            <physdesc>
+              <physfacet>Scale ca. 1:42,000</physfacet>
+            </physdesc>
+          </did>
+          <odd>
+            <p>(See description in folder 17)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Defensive Maps</unittitle>
+          </did>
+          <scopecontent>
+            <p>The Defensive Maps series consists of blueprint maps created by the <corpname normal="United States. Army. Engineer Regiment, 310th.">310th Engineers</corpname> in North Russia. They were originally wired together in a folder marked Appendix No.4, Section 3. They have been left in O'Dell's original order. Items numbered 6A, 37A, and 64A were not on O'Dell's list. Item 61 on O'Dell's list was not found. The original introduction found in the folder has been placed in Folder 17.</p>
+          </scopecontent>
+          <c03 level="file">
+            <did>
+              <container label="Folder" type="folder">13</container>
+              <unitid>1.</unitid>
+              <unittitle>Sketch showing location of fortified areas <unitdate>undated</unitdate></unittitle>
+            </did>
+            <odd>
+              <p>(no scale shown)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="folder" label="Folder">13</container>
+              <unitid>2.</unitid>
+              <unittitle>Map of track from Smollney to Six Verst Saw Mill <unitdate type="inclusive" normal="1919-06-03">June 3, 1919</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Scale 1:10,560</physfacet>
+              </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="folder" label="Folder">13</container>
+              <unitid>3.</unitid>
+              <unittitle>Map: Lyavlya vicinity <unitdate type="inclusive" normal="1919-03">March, 1919</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Scale 1:20,000</physfacet>
+              </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="folder" label="Folder">13</container>
+              <unitid>4.</unitid>
+              <unittitle><geogname normal="Rikasikah (Russia)">Rikasikha</geogname> area, <unitdate>undated</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Scale 1:10,000</physfacet>
+              </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="folder" label="Folder">13</container>
+              <unitid>5.</unitid>
+              <unittitle><geogname normal="Konetsbor (Russia)">Konetsbor</geogname> area, <unitdate>undated</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Scale 1:10,000</physfacet>
+              </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="folder" label="Folder">13</container>
+              <unitid>6.</unitid>
+              <unittitle>Fortifications at <geogname normal="Verst 506.">Verst 506</geogname>, <unitdate>undated</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Scale 1:20,000</physfacet>
+              </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="folder" label="Folder">13</container>
+              <unitid>6A.</unitid>
+              <unittitle>Plan of fortifications at <geogname normal="Verst 490.">Verst 490</geogname>, <unitdate type="inclusive" normal="1919">1919</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Scale 1:20,000</physfacet>
+              </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="folder" label="Folder">13</container>
+              <unitid>7.</unitid>
+              <unittitle>Map of <geogname normal="Malyye Ozerki (Russia)">Malie Ozerki</geogname> and vicinity, <unitdate type="inclusive" normal="1919-04-01">April 1, 1919</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Scale ca. 1:3,600</physfacet>
+              </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="folder" label="Folder">13</container>
+              <unitid>8.</unitid>
+              <unittitle>Plan showing <geogname normal="Bol'shiye Ozerki (Russia)">Bolshieozerki</geogname> road defence, Verst Post 18, <unitdate type="inclusive" normal="1919-04-04">April 4, 1919</unitdate>, <unitdate type="inclusive" normal="1919-04-29">April 29, 1919</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Scale ca. 1:5,280</physfacet>
+              </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="folder" label="Folder">13</container>
+              <unitid>9.</unitid>
+              <unittitle>Sketch: Selo Bolshie Ozerka <unitdate>undated</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Scale ca. 1:40,000</physfacet>
+              </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="folder" label="Folder">13</container>
+              <unitid>10.</unitid>
+              <unittitle>Sketch map showing winter and summer roads <geogname normal="Obozerskiy (Russia)">Obozerskaya</geogname>- <geogname normal="Bol'shiye Ozerki (Russia)">Bolshoi Ozerke</geogname>, <unitdate>undated</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Scale 1:105,600</physfacet>
+              </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="folder" label="Folder">13</container>
+              <unitid>11.</unitid>
+              <unittitle>Section of <geogname normal="Obozerskiy (Russia)">Obozerskaya</geogname>- <geogname normal="Chekuyevo (Russia)">Chekueva</geogname> road from 7th verst west of <geogname normal="Malyye Ozerki (Russia)">Malieozerkie</geogname> to 10th verst, <unitdate type="inclusive" normal="1919-03-29">March 29, 1919</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Scale ca. 1:10,800</physfacet>
+              </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="folder" label="Folder">13</container>
+              <unitid>12.</unitid>
+              <unittitle>Sketch showing <geogname normal="Obozerskiy (Russia)">Oberskaya district</geogname> from <geogname normal="Verst 470.">Verst 470</geogname> to <geogname normal="Verst 476.">Verst 476</geogname>, <unitdate type="inclusive" normal="1918-12-04">December 4, 1918</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Scale 1:10,000</physfacet>
+              </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="folder" label="Folder">13</container>
+              <unitid>13.</unitid>
+              <unittitle><geogname normal="Verst 466.">Verst 466</geogname>, Archangel-Vologda railroad, <unitdate>undated</unitdate></unittitle>
+            </did>
+            <odd>
+              <p>(no scale shown)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="folder" label="Folder">13</container>
+              <unitid>14.</unitid>
+              <unittitle>Position at <geogname normal="Verst 466.">466</geogname>, <unitdate>undated</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Scale ca. 1:31,680</physfacet>
+              </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="folder" label="Folder">13</container>
+              <unitid>15.</unitid>
+              <unittitle>Proposed fire lanes and new blockhouses <geogname normal="Verst 458.">V-458</geogname>, <unitdate>undated</unitdate></unittitle>
+            </did>
+            <odd>
+              <p>(no scale shown)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="folder" label="Folder">13</container>
+              <unitid>16.</unitid>
+              <unittitle>Sketch of block house defense showing lines of fire and track sidings between <geogname normal="Verst 454.">Verst 454</geogname> and <geogname normal="Verst 455.">Verst 455</geogname>, <unitdate type="inclusive" normal="1918-11-27">November 27, 1918</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Scale ca. 1:3,600</physfacet>
+              </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="folder" label="Folder">13</container>
+              <unitid>17.</unitid>
+              <unittitle>Position at <geogname normal="Verst 448.">448</geogname> and blockhouses between <geogname normal="Verst 447.">447</geogname>- <geogname normal="Verst 448.">448</geogname>, <unitdate>undated</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Scale ca. 1:2,640</physfacet>
+              </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="folder" label="Folder">13</container>
+              <unitid>18.</unitid>
+              <unittitle>Positions at <geogname normal="Verst 445.">445</geogname> and <geogname normal="Verst 446.">446</geogname>, <unitdate>undated</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Scale ca. 1:2,640</physfacet>
+              </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="folder" label="Folder">13</container>
+              <unitid>19.</unitid>
+              <unittitle><geogname normal="Verst 446.">Verst 446</geogname> to <geogname normal="Verst 444.">444</geogname>, <unitdate type="inclusive" normal="1918-11-28">November 28, 1918</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Scale ca. 1:3,600</physfacet>
+              </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="folder" label="Folder">13</container>
+              <unitid>20.</unitid>
+              <unittitle>Sketch showing positions near <geogname normal="Verst 445.">Verst 445</geogname>, <unitdate type="inclusive" normal="1918-01-23">January 23, 1918</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Scale ca. 1:2,640</physfacet>
+              </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="folder" label="Folder">13</container>
+              <unitid>21.</unitid>
+              <unittitle>Rough map shewing disposition of Emtsa station and line of trenches at V.P. 443 <unitdate type="inclusive" normal="1918-12-01">December 1, 1918</unitdate>. G.H.Q. Intelligence</unittitle>
+            </did>
+            <odd>
+              <p>(no scale shown)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="folder" label="Folder">13</container>
+              <unitid>22.</unitid>
+              <unittitle>Map of <geogname normal="Plestsy (Russia)">Plesetskaya, Russia</geogname>, <unitdate type="inclusive" normal="1918">1918</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Scale ca. 1:420</physfacet>
+              </physdesc>
+            </did>
+            <odd>
+              <p>(Copied from original dated 1913)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="folder" label="Folder">13</container>
+              <unitid>23.</unitid>
+              <unittitle>Map of <geogname normal="Onega (Russia)">Onega</geogname>, Archangel district, Russia, <unitdate type="inclusive" normal="1919-01-09">January 9, 1919</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Scale ca. 1:10,500</physfacet>
+              </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="folder" label="Folder">13</container>
+              <unitid>24.</unitid>
+              <unittitle>Bolshie-Ozerki-Chekuevo-Turchasovo roads, etc. <unitdate>undated</unitdate></unittitle>
+            </did>
+            <odd>
+              <p>(no scale shown)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="folder" label="Folder">13</container>
+              <unitid>25.</unitid>
+              <unittitle><geogname normal="Chunovo (Russia)">Chunovo</geogname>, <unitdate>undated</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Scale ca. 1:5,250</physfacet>
+              </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="folder" label="Folder">13</container>
+              <unitid>26.</unitid>
+              <unittitle><geogname normal="Chekuyevo (Russia)">Chekuevo</geogname> defenses, <unitdate type="inclusive" normal="1918-12-15">December 15, 1918</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Scale 1:8,462</physfacet>
+              </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="folder" label="Folder">13</container>
+              <unitid>27.</unitid>
+              <unittitle><geogname normal="Chesh'yuga (Russia)">Cheshiuga</geogname>, <unitdate type="inclusive" normal="1919-02-12">February 12, 1919</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Scale ca. 1:5,250</physfacet>
+              </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="folder" label="Folder">13</container>
+              <unitid>28.</unitid>
+              <unittitle>Filyava <unitdate>undated</unitdate></unittitle>
+            </did>
+            <odd>
+              <p>(no scale shown)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="folder" label="Folder">13</container>
+              <unitid>29.</unitid>
+              <unittitle><geogname normal="Kavkola (Russia)">Kavkula</geogname>., <unitdate type="inclusive" normal="1919-03-20">March 20, 1919</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Scale ca. 1:5.250</physfacet>
+              </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="folder" label="Folder">13</container>
+              <unitid>30.</unitid>
+              <unittitle>Kueshova <unitdate>undated</unitdate></unittitle>
+            </did>
+            <odd>
+              <p>(no scale shown)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="folder" label="Folder">13</container>
+              <unitid>31.</unitid>
+              <unittitle><geogname normal="Kleshchevo (Russia)">Kleshevo</geogname>, <unitdate type="inclusive" normal="1919-02-18">February 18, 1919</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Scale ca. 1:5,280 or 1:5,250</physfacet>
+              </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Folder" type="folder">14</container>
+              <unitid>32.</unitid>
+              <unittitle>Road map: <geogname normal="Kleshchevo (Russia)">Kleschevo</geogname> to Telza R., <unitdate type="inclusive" normal="1919-01-26">January 26, 1919</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Scale ca. 1:42,000</physfacet>
+              </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="folder" label="Folder">14</container>
+              <unitid>33.</unitid>
+              <unittitle><geogname normal="Kialovanga (Russia)">Kialovanga</geogname>, <unitdate type="inclusive" normal="1919-02-19">February 19, 1919</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Scale ca. 1:5,250</physfacet>
+              </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="folder" label="Folder">14</container>
+              <unitid>34.</unitid>
+              <unittitle><geogname normal="Turchasovo (Russia)">Turchasovo</geogname>, showing positions held during offensive on, <unitdate type="inclusive" normal="1918-12-30">December 30, 1918</unitdate>, <unitdate type="inclusive" normal="1919-02-17">February 17, 1919</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Scale 1:8,400</physfacet>
+              </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="folder" label="Folder">14</container>
+              <unitid>35.</unitid>
+              <unittitle>Sketch of operation on <geogname normal="Turchasovo (Russia)">Turchasovo</geogname>, <unitdate>undated</unitdate></unittitle>
+            </did>
+            <odd>
+              <p>(no scale shown)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="folder" label="Folder">14</container>
+              <unitid>36.</unitid>
+              <unittitle>Village of <geogname normal="Seletskoe (Russia)">Seletskoe</geogname>, <unitdate type="inclusive" normal="1918-12">December, 1918</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Scale ca. 1:10,500</physfacet>
+              </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="folder" label="Folder">14</container>
+              <unitid>37.</unitid>
+              <unittitle><geogname normal="Kodysh (Russia)">Kodish</geogname> front <unitdate type="inclusive" normal="1918">[dated 28-18-18]</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Scale ca. 1:10,500</physfacet>
+              </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="folder" label="Folder">14</container>
+              <unitid>37A.</unitid>
+              <unittitle>Defenses on road to <geogname normal="Kodysh (Russia)">Kadish</geogname>, <unitdate>undated</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Scale ca. 1:2,400</physfacet>
+              </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="folder" label="Folder">14</container>
+              <unitid>38.</unitid>
+              <unittitle><geogname normal="Kodysh (Russia)">Kodish</geogname> defences, <unitdate>undated</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Scale ca. 1:2,400</physfacet>
+              </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="folder" label="Folder">14</container>
+              <unitid>39.</unitid>
+              <unittitle><geogname normal="Kodysh (Russia)">Kodish</geogname> defence map, <unitdate type="inclusive" normal="1919-04-08">April 8, 1919</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Scale 1:5,000</physfacet>
+              </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="folder" label="Folder">14</container>
+              <unitid>40.</unitid>
+              <unittitle><geogname normal="Shred Makrenga (Russia)">Shred Makrenga</geogname> and vicinity, <unitdate type="inclusive" normal="1919-04">April 1919</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Scale 1:26,000</physfacet>
+              </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="folder" label="Folder">14</container>
+              <unitid>41.</unitid>
+              <unittitle><geogname normal="Kolmogory (Russia)">Kholmogori</geogname> area, showing blockhouses, etc., <unitdate>undated</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Scale ca. 1:42,000</physfacet>
+              </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="folder" label="Folder">14</container>
+              <unitid>42.</unitid>
+              <unittitle>Sketch of <geogname normal="Emetskoe (Russia)">Emetskoe</geogname> defenses, <unitdate>undated</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Scale ca. 1:7 200</physfacet>
+              </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="folder" label="Folder">14</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 sheets</extent>
+              </physdesc>
+              <unitid>43-44.</unitid>
+              <unittitle><geogname normal="Morjegorskaya (Russia)">Morjegorskaya</geogname> and defences, <unitdate type="inclusive" normal="1919-04-08">April 8, 1919</unitdate></unittitle>
+              <physdesc>
+                </physdesc>
+              <physdesc>
+                <physfacet>Scale ca. 1:7,200)</physfacet>
+              </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="folder" label="Folder">14</container>
+              <unitid>45.</unitid>
+              <unittitle><geogname normal="Ust'-Morzh (Russia)">Ust Morje</geogname> and defences, <unitdate type="inclusive" normal="1919-05-12">May 12, 1919</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Scale ca. 1:3,600</physfacet>
+              </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="folder" label="Folder">14</container>
+              <unitid>46.</unitid>
+              <unittitle><geogname normal="Pleso (Russia)">Plesso</geogname> and defences, <unitdate type="inclusive" normal="1919-05-19">May 19, 1919</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Scale ca. 1:3,600</physfacet>
+              </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="folder" label="Folder">14</container>
+              <unitid>47.</unitid>
+              <unittitle><geogname normal="Usol'ye (Russia)">Usolia</geogname> district and defences, <unitdate type="inclusive" normal="1919-05-13">May 13, 1919</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Scale 1:10,000</physfacet>
+              </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="folder" label="Folder">14</container>
+              <unitid>48.</unitid>
+              <unittitle>Defence map of <geogname normal="Berezniki (Russia)">Bereznik</geogname>, <unitdate>undated</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Scale 1:10,000</physfacet>
+              </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="folder" label="Folder">14</container>
+              <unitid>49.</unitid>
+              <unittitle>Map of <geogname normal="Berezniki (Russia)">Bereznik</geogname> and <geogname normal="Osinovskaya (Russia)">Osinovo</geogname> defences, <unitdate>undated</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Scale 1:10,000</physfacet>
+              </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="folder" label="Folder">14</container>
+              <unitid>50.</unitid>
+              <unittitle><geogname normal="Topsa (Russia)">Topsa</geogname> area, <unitdate type="inclusive" normal="1918-12-18">December 18, 1918</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Scale ca. 1:21,000</physfacet>
+              </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="folder" label="Folder">14</container>
+              <unitid>51.</unitid>
+              <unittitle><geogname normal="Shussuga (Russia)">Shussuga</geogname> and vicinity, with defences of <geogname normal="Shussuga (Russia)">Shussuga</geogname>, <unitdate type="inclusive" normal="1919-05-09">May 9, 1919</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Scale 1:5,000</physfacet>
+              </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="folder" label="Folder">14</container>
+              <unitid>52.</unitid>
+              <unittitle><geogname normal="Shussuga (Russia)">Sushuga</geogname> defense map, <unitdate>undated</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Scale ca. 1:1,800</physfacet>
+              </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="folder" label="Folder">14</container>
+              <unitid>53.</unitid>
+              <unittitle><geogname normal="Tulgas (Russia)">Toulgas district</geogname> defences, <unitdate>undated</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Scale 1:10,000</physfacet>
+              </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="folder" label="Folder">14</container>
+              <unitid>54.</unitid>
+              <unittitle><geogname normal="Rostaffskaia (Russia)">Rostaffskaia</geogname> outpost sketch, <unitdate>undated</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Scale 1:10,000</physfacet>
+              </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="folder" label="Folder">14</container>
+              <unitid>55.</unitid>
+              <unittitle><geogname normal="Kurgomen (Russia)">Kurgomen district</geogname> defenses, <unitdate type="inclusive" normal="1919-01-04">January 4, 1919</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Scale 1:20,000</physfacet>
+              </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="folder" label="Folder">14</container>
+              <unitid>56.</unitid>
+              <unittitle>Outpost sketch of <geogname normal="Kurgomen (Russia)">Kourgomen</geogname>, <unitdate>undated</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Scale 1:20,000</physfacet>
+              </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="folder" label="Folder">14</container>
+              <unitid>57.</unitid>
+              <unittitle>Map: <geogname normal="Savoy Copse (Russia)">Savoy Copse</geogname>, <geogname normal="Kurgomen (Russia)">Kurgomen</geogname> area (west end) showing 60 pdr. gun pits, dugouts, mine dugouts, and galleries, <unitdate type="inclusive" normal="1919-06-04">June 4, 1919</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Scale 1:900</physfacet>
+              </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="folder" label="Folder">14</container>
+              <unitid>58.</unitid>
+              <unittitle><geogname normal="Ust'-Vaga (Russia)">Ust-Vaga</geogname> defence map, <unitdate>undated</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Scale 1:10,000</physfacet>
+              </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="folder" label="Folder">14</container>
+              <unitid>59.</unitid>
+              <unittitle>Artillery map <geogname normal="Kitsa (Russia)">Kitsa area</geogname>, undated. Mapping Section Dvina Force,</unittitle>
+              <physdesc>
+                <physfacet>Scale 1 :42 000</physfacet>
+              </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="folder" label="Folder">14</container>
+              <unitid>60.</unitid>
+              <unittitle><geogname normal="Kitsa (Russia)">Kitsa</geogname>- <geogname normal="Vistafka (Russia)">Vistavka</geogname> district defences, <unitdate type="inclusive" normal="1919-04-17">April 17, 1919</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Scale ca. 1:10,500</physfacet>
+              </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="folder" label="Folder">14</container>
+              <unitid>61.</unitid>
+              <unittitle>[missing]</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="folder" label="Folder">14</container>
+              <unitid>62.</unitid>
+              <unittitle>Fort. plat of <geogname normal="Kitsa (Russia)">Kitsa</geogname>, <unitdate>undated</unitdate></unittitle>
+            </did>
+            <odd>
+              <p>(no scale shown)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="folder" label="Folder">14</container>
+              <unitid>63.</unitid>
+              <unittitle>Fort. plat <geogname normal="Yevseyevskaya (Russia)">Yevstevskaya</geogname>, <unitdate>undated</unitdate></unittitle>
+            </did>
+            <odd>
+              <p>(no scale shown)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="folder" label="Folder">14</container>
+              <unitid>64.</unitid>
+              <unittitle>Sketch of Schenkursk <unitdate>undated</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Scale 1:2,400</physfacet>
+              </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="folder" label="Folder">14</container>
+              <unitid>64A.</unitid>
+              <unittitle>Denislavia from sketch <unitdate>undated</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Scale ca. 1:7,200</physfacet>
+              </physdesc>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Designs</unittitle>
+        </did>
+        <scopecontent>
+          <p>The Architectural Design series consists of plans and designs of buildings and fortifications constructed by the <corpname normal="United States. Army. Engineer Regiment, 310th.">310th Engineers</corpname> in North Russia. They were originally wired together in a folder marked Appendix No. 4, Section 2. They have been arranged by work number. The Original introduction found in the folder has been placed in Folder 17)</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container label="Folder" type="folder">15</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">6 sheets</extent>
+            </physdesc>
+            <unitid>4</unitid>
+            <unittitle>Barracks for 104 men <unitdate type="inclusive" normal="1918-09-17">September 17, 1918</unitdate></unittitle>
+            <physdesc>
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="folder" label="Folder">15</container>
+            <unitid>5.</unitid>
+            <unittitle>Standard latrine [date obscured]</unittitle>
+          </did>
+          <odd>
+            <p>(See description in folder 17)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="folder" label="Folder">15</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">6 sheets</extent>
+            </physdesc>
+            <unitid>8.</unitid>
+            <unittitle>Officers' quarters <unitdate type="inclusive" normal="1918-09-26">September 26, 1918</unitdate></unittitle>
+            <physdesc>
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="folder" label="Folder">15</container>
+            <unitid>11.</unitid>
+            <unittitle>Standard bath house <unitdate type="inclusive" normal="1918-10-08">October 8, 1918</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="folder" label="Folder">15</container>
+            <unitid>12.</unitid>
+            <unittitle>Standard brick stove <unitdate type="inclusive" normal="1918-10-14">October 14, 1918</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="folder" label="Folder">15</container>
+            <unitid>13.</unitid>
+            <unittitle>Standard 8-man blockhouse <unitdate type="inclusive" normal="1918-10-07">October 7, 1918</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(See description in folder 17)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="folder" label="Folder">15</container>
+            <unitid>15.</unitid>
+            <unittitle>Standard 20 man blockhouse <unitdate type="inclusive" normal="1918-10-17">October 17, 1918</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="folder" label="Folder">15</container>
+            <unitid>18.</unitid>
+            <unittitle>U.S. Engineer drafting office <unitdate type="inclusive" normal="1918-11-11">November 11, 1918</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="folder" label="Folder">15</container>
+            <unitid>20.</unitid>
+            <unittitle>Block plan of Michigan barracks showing sewer and water lines <unitdate type="inclusive" normal="1918-11-29">November 29, 1918</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(See description in folder 17)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="folder" label="Folder">15</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">3 sheets</extent>
+            </physdesc>
+            <unitid>21.</unitid>
+            <unittitle>U.S. Army stores warehouse built at <geogname normal="Bakaritsa (Russia)">Bakaritza, Russia</geogname>, <unitdate type="inclusive" normal="1918-10-09">October 9, 1918</unitdate></unittitle>
+            <physdesc>
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="folder" label="Folder">15</container>
+            <unitid>31.</unitid>
+            <unittitle>Incinerating plant for Michigan barracks <unitdate type="inclusive" normal="1918-11-12">November 12, 1918</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="folder" label="Folder">15</container>
+            <unitid>32.</unitid>
+            <unittitle>Wireless station <unitdate type="inclusive" normal="1918-11-20">November 20, 1918</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="folder" label="Folder">15</container>
+            <unitid>34.</unitid>
+            <unittitle>Sergeant's mess, 30 men capacity <geogname normal="Obozerskiy (Russia)">Obozerskaya, Russia</geogname>, <unitdate type="inclusive" normal="1919-01-14">January 14, 1919</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="folder" label="Folder">15</container>
+            <unitid>35.</unitid>
+            <unittitle>Stable for 60 horses at <geogname normal="Obozerskiy (Russia)">Obozerskaya, Russia</geogname>, <unitdate type="inclusive" normal="1919-01-15">January 15, 1919</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="folder" label="Folder">15</container>
+            <unitid>36.</unitid>
+            <unittitle>Officer's quarters, 10 rooms at <geogname normal="Obozerskiy (Russia)">Obozerskaya</geogname>, <unitdate type="inclusive" normal="1919-01-15">January 15, 1919</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="folder" label="Folder">15</container>
+            <unitid>38.</unitid>
+            <unittitle>D.A.D.O.S. log warehouse at <geogname normal="Obozerskiy (Russia)">Obozerskaya, Russia</geogname>, <unitdate type="inclusive" normal="1919-01-18">January 18, 1919</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="folder" label="Folder">15</container>
+            <unitid>41.</unitid>
+            <unittitle>30 yard winter range for British machine gun school <unitdate type="inclusive" normal="1919-01-24">January 24, 1919</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container label="Folder" type="folder">16</container>
+            <unitid>43.</unitid>
+            <unittitle>Proposed bridge <geogname normal="Verst 422.">Verst 422</geogname>, <unitdate type="inclusive" normal="1919-01-25">January 25, 1919</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="folder" label="Folder">16</container>
+            <unitid>45.</unitid>
+            <unittitle>Blockhouse at <geogname normal="Verst 581.">Verst 581</geogname>, <unitdate type="inclusive" normal="1919-02-18">February 18, 1919</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="folder" label="Folder">16</container>
+            <unitid>46.</unitid>
+            <unittitle>Blockhouse at <geogname normal="Michka (Russia)">Michka, Russia</geogname>, <unitdate type="inclusive" normal="1919-02-20">February 20, 1919</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="folder" label="Folder">16</container>
+            <unitid>48.</unitid>
+            <unittitle>Barricades around lumber blockhouses at <geogname normal="Verst 445.">Verst 445</geogname>, <unitdate type="inclusive" normal="1919-02-24">February 24, 1919</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="folder" label="Folder">16</container>
+            <unitid>54.</unitid>
+            <unittitle>Dvina Force blockhouse <unitdate type="inclusive" normal="1919-02-25">February 25, 1919</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="folder" label="Folder">16</container>
+            <unitid>55.</unitid>
+            <unittitle>50 man dugout for reserve platoon at <geogname normal="Verst 445.">Verst 445</geogname>, <unitdate type="inclusive" normal="1919-03-06">March 6, 1919</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="folder" label="Folder">16</container>
+            <unitid>56.</unitid>
+            <unittitle>Shell proof shelter for Kurgomen district <unitdate type="inclusive" normal="1919-03-18">March 18, 1919</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="folder" label="Folder">16</container>
+            <unitid>58.</unitid>
+            <unittitle>Machine gun emplacement <unitdate type="inclusive" normal="1919-03-08">March 8, 1919</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="folder" label="Folder">16</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 sheets</extent>
+            </physdesc>
+            <unitid>62.</unitid>
+            <unittitle>Proposed splinter proof shelters for <geogname normal="Kurgomen (Russia)">Kurgoman</geogname> district, <unitdate type="inclusive" normal="1919-04-01">April 1, 1919</unitdate></unittitle>
+            <physdesc>
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="folder" label="Folder">16</container>
+            <unitid>63.</unitid>
+            <unittitle>Type of blockhouse erected for defence of <geogname normal="Rostovskoe (Russia)">Rostovskoe</geogname>, Dvina Front, <unitdate type="inclusive" normal="1919-04-01">April 1, 1919</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="folder" label="Folder">16</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 sheets</extent>
+            </physdesc>
+            <unitid>64.</unitid>
+            <unittitle>Officer's R.A.F. house boat <unitdate type="inclusive" normal="1919-05-02">May 2, 1919</unitdate></unittitle>
+            <physdesc>
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="folder" label="Folder">16</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 sheets</extent>
+            </physdesc>
+            <unitid>65.</unitid>
+            <unittitle>Men's R.A.F. house boat <unitdate type="inclusive" normal="1919-05-07">May 7, 1919</unitdate></unittitle>
+            <physdesc>
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="folder" label="Folder">16</container>
+            <unitid>69.</unitid>
+            <unittitle>Shelter and foundation for 6" howitzer <unitdate type="inclusive" normal="1919-03-08">March 8, 1919</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="folder" label="Folder">16</container>
+            <unitid>70.</unitid>
+            <unittitle>Bridge <geogname normal="Verst 458.">Verst 458</geogname>, <unitdate type="inclusive" normal="1919-03-10">March 10, 1919</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="folder" label="Folder">16</container>
+            <unitid>72.</unitid>
+            <unittitle>Standard latrine for <geogname normal="Morjegorskaya (Russia)">Morjegorskaya</geogname>, <unitdate type="inclusive" normal="1919-06-02">June 2, 1919</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="folder" label="Folder">16</container>
+            <unitid>73.</unitid>
+            <unittitle>Sketch for barrel raft as used in <geogname normal="Kurgomen (Russia)">Kurgomen</geogname> area, <unitdate type="inclusive" normal="1919-05-17">May 17, 1919</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="folder" label="Folder">16</container>
+            <unitid>74.</unitid>
+            <unittitle>Sketch for refrigerator (built in existing barn) <geogname normal="Kurgomen (Russia)">Kurgomen</geogname> area, <unitdate>undated</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="folder" label="Folder">16</container>
+            <unitid>75.</unitid>
+            <unittitle>Sketch for flash screen as built for 60 pdr. guns, in <geogname normal="Kurgomen (Russia)">Kurgomen</geogname> area, <unitdate type="inclusive" normal="1919-05-16">May 16, 1919</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="folder" label="Folder">16</container>
+            <unitid>77.</unitid>
+            <unittitle>Sketch for splinter proof 60 pdr. gun pits as built in <geogname normal="Kurgomen (Russia)">Kurgomen</geogname> area, <unitdate type="inclusive" normal="1919-05-18">May 18, 1919</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="folder" label="Folder">16</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">3 sheets</extent>
+            </physdesc>
+            <unitid>79.</unitid>
+            <unittitle>[Untitled Fortification at <geogname normal="Shenkursk (Russia)">Shenkursk?</geogname>, <unitdate type="inclusive">undated</unitdate>]</unittitle>
+            <physdesc>
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="folder" label="Folder">16</container>
+            <unitid>80.</unitid>
+            <unittitle>Dug-out <unitdate type="inclusive" normal="1919-05-28">May 28, 1919</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="folder" label="Folder">16</container>
+            <unitid>81.</unitid>
+            <unittitle>[title obscured. Bridge] <unitdate type="inclusive" normal="1919-04/1919-05">April-May 1919</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="folder" label="Folder">16</container>
+            <unitid>82.</unitid>
+            <unittitle>Dvina Hospital ward room <unitdate type="inclusive" normal="1919-05-15">May 15, 1919</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="folder" label="Folder">16</container>
+            <unitid>85.</unitid>
+            <unittitle>Section of fire trench and A frame <geogname normal="Kurgomen (Russia)">Kurgomen</geogname>, <unitdate type="inclusive" normal="1919-05-30">May 30, 1919</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="folder" label="Folder">16</container>
+            <unitid>86.</unitid>
+            <unittitle>Artillery observation post, Kurgoman district (St. Pauls village) <unitdate type="inclusive" normal="1919-06-02">June 2, 1919</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="folder" label="Folder">16</container>
+            <unitid>87.</unitid>
+            <unittitle>Drawing of dugout for M.G. Co. <unitdate type="inclusive" normal="1919-04-30">April 30, 1919</unitdate></unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Map descriptions</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <container label="Folder" type="folder">17</container>
+            <unittitle>Map descriptions</unittitle>
+          </did>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

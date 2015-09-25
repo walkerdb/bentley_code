@@ -1,0 +1,547 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead.dtd">
+<ead>
+  <eadheader audience="internal" langencoding="iso639-2b" repositoryencoding="iso15511" dateencoding="iso8601" relatedencoding="Dublin Core" scriptencoding="iso15924" countryencoding="iso3166-1">
+    <eadid countrycode="us" mainagencycode="MiU-H" publicid="us//::miu-h//TXT us::miu-h::ptheatre.xml//EN" encodinganalog="Identifier">umich-bhl-87273</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="Title">Finding Aid for Professional Theatre Program (University of Michigan) records, 1962-1985</titleproper>
+        <author encodinganalog="Creator">Collection processed and finding aid created by Bentley Library Staff.</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="Publisher">Bentley Historical Library, University of Michigan</publisher>
+        <date encodinganalog="Date" normal="2006">2006</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created by Greg Kinney <date>2006-08-07</date></creation>
+      <langusage encodinganalog="Language">The finding aid is written in <language langcode="eng" scriptcode="Latn">English</language></langusage>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date>2006-08-07</date>
+        <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <frontmatter>
+    <titlepage>
+      <publisher>University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
+      <titleproper>Finding aid for <lb/>Professional Theatre Program (University of Michigan) Records, 1962-1985</titleproper>
+      <author>Finding aid created by <lb/>Bentley Library Staff.</author>
+    </titlepage>
+  </frontmatter>
+  <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
+    <did>
+      <origination>
+        <corpname source="lcnaf" encodinganalog="110" authfilenumber="http://id.loc.gov/authorities/names/n2009042560">University of Michigan. Professional Theatre Program.</corpname>
+      </origination>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">28 linear feet</extent>
+      </physdesc>
+      <unittitle encodinganalog="245">Professional Theatre Program (University of Michigan) records <unitdate type="inclusive" encodinganalog="245$f" normal="1962/1985">1962-1985</unitdate></unittitle>
+      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">87273 Bimu F65 2</unitid>
+      <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
+      <abstract>Papers, 1962-1985 of the Professional Theatre Program at the University of Michigan. Contain executive director's file, including correspondence, newspaper clippings and related theatrical material of Robert C. Schnitzer, and publicity files of clippings and press releases concerning play productions and other programs.</abstract>
+      <repository>
+        <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea>, University of Michigan</corpname>
+        <extptr href="bhladd" show="embed" actuate="onload"/>
+      </repository>
+      <physloc>Portions located in offsite storage; prior notification required for access.</physloc>
+    </did>
+    <descgrp type="admin">
+      <acqinfo encodinganalog="541">
+        <p>The records were received in several acquisitions (donors nos. <num type="donor" encodinganalog="541$e">4156</num>, <num type="donor" encodinganalog="541$e">5488</num> and <num type="donor" encodinganalog="541$e">5361</num>).</p>
+      </acqinfo>
+      <accessrestrict encodinganalog="506">
+        <p>The record group is open without restriction.</p>
+        <p>
+          <extptr href="uarpacc" show="embed" actuate="onload"/>
+        </p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+        <p>Copyright is not held by the Regents of the University of Michigan.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+        <p>[item], folder, box,
+Professional Theatre Program (University of Michigan) Records, Bentley Historical Library, University of Michigan</p>
+      </prefercite>
+    </descgrp>
+    <bioghist encodinganalog="545">
+      <p>Established in 1961, the Professional Theatre Program was designed to bring outstanding professional theater to the university community. Its first director, Robert Schnitzer, who served from 1962 to 1973, was also a member of the faculty, and the program was integrated with the theater curriculum through a graduate student program.</p>
+    </bioghist>
+    <scopecontent encodinganalog="520">
+      <p>The Professional Theatre Program records include executive director's files (1962-1972), Professional Theatre Program Fellows Tour files (1966-1972), publicity files (1962-1985, films and photographs. Planning for the Power Center and the early years of its operation are also covered.</p>
+      <p>Visual materials includes films of classical drama programs for schools, and photos of PTP directors. Recordings consist of uncompiled sound clips, background music, and sound effects for a film entitled "Conjuror."</p>
+    </scopecontent>
+    <controlaccess>
+      <p>
+        <extptr href="accnote" show="embed" actuate="onload"/>
+      </p>
+      <controlaccess>
+        <head>Subjects:</head>
+        <subject source="lcsh" encodinganalog="650">Drama.</subject>
+        <subject source="lcsh" encodinganalog="650">Theater--Michigan--Ann Arbor.</subject>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Speech.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Dramatics.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n2009042560">University of Michigan. Professional Theatre Program.</corpname>
+      </controlaccess>
+      <controlaccess>
+        <head>Subjects - Visual Materials:</head>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n2009042529">Cisney, Marcella.</persname>
+        <persname source="lcnaf" encodinganalog="600">Schnitzer, Robert C., 1906-</persname>
+        <subject source="lctgm" encodinganalog="650">Theatrical productions.</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n2009042560">University of Michigan. Professional Theatre Program.</corpname>
+      </controlaccess>
+      <controlaccess>
+        <head>Subjects - Sound Recordings:</head>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n2009042560">University of Michigan. Professional Theatre Program.</corpname>
+      </controlaccess>
+      <controlaccess>
+        <head>Contributors:</head>
+        <persname source="lcnaf" encodinganalog="700">Schnitzer, Robert C., 1906-</persname>
+      </controlaccess>
+      <controlaccess>
+        <head>Genre Terms:</head>
+        <genreform source="gmgpc" encodinganalog="655">Motion pictures.</genreform>
+        <genreform source="aat" encodinganalog="655">Sound recordings.</genreform>
+      </controlaccess>
+    </controlaccess>
+    <dsc type="combined">
+      <c01 level="series">
+        <did>
+          <unittitle>Executive Director's Files <unitdate type="inclusive" normal="1962/1972">1962-1972</unitdate></unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1962/1963">1962-1963</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle><unitdate type="inclusive" normal="1962/1963">1962-1963</unitdate> (cont.)</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1963/1964">1963-1964</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle><unitdate type="inclusive" normal="1963/1964">1963-1964</unitdate> (cont.)</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle><unitdate type="inclusive" normal="1963/1964">1963-1964</unitdate> (cont.)</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1964/1965">1964-1965</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">5</container>
+            <unittitle><unitdate type="inclusive" normal="1964/1965">1964-1965</unitdate> (cont.)</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">5</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1965/1966">1965-1966</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">6</container>
+            <unittitle><unitdate type="inclusive" normal="1965/1966">1965-1966</unitdate> (cont.)</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle><unitdate type="inclusive" normal="1965/1966">1965-1966</unitdate> (cont.)</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1966/1967">1966-1967</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle><unitdate type="inclusive" normal="1966/1967">1966-1967</unitdate> (cont.)</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">9</container>
+            <unittitle><unitdate type="inclusive" normal="1966/1967">1966-1967</unitdate> (cont.)</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">9</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1967/1968">1967-1968</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">10</container>
+            <unittitle><unitdate type="inclusive" normal="1967/1968">1967-1968</unitdate> (cont.)</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">10</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1968/1969">1968-1969</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">11</container>
+            <unittitle><unitdate type="inclusive" normal="1968/1969">1968-1969</unitdate> (cont.)</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">12</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1969/1970">1969-1970</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">12</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1970/1971">1970-1971</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">13</container>
+            <unittitle><unitdate type="inclusive" normal="1970/1971">1970-1971</unitdate> (cont.)</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">14</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1971/1972">1971-1972</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Professional Theatre Program Fellows Tour <unitdate type="inclusive" normal="1966/1972">1966-1972</unitdate></unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">15</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1966/1967">1966-1967</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">15</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1967/1968">1967-1968</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">15</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1968/1969">1968-1969</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">16</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1969/1970">1969-1970</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">16</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1970/1971">1970-1971</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">16</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1971/1972">1971-1972</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Publicity File <unitdate type="inclusive" normal="1962/1972">1962-1972</unitdate></unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">17</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1962/1963">1962-1963</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">17</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1963/1964">1963-1964</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">18</container>
+            <unittitle><unitdate type="inclusive" normal="1963/1964">1963-1964</unitdate> (cont.)</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">18</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1964/1965">1964-1965</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">18</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1965/1966">1965-1966</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">19</container>
+            <unittitle><unitdate type="inclusive" normal="1965/1966">1965-1966</unitdate> (cont.)</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">19</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1966/1967">1966-1967</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">20</container>
+            <unittitle><unitdate type="inclusive" normal="1966/1967">1966-1967</unitdate> (cont.)</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">20</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1967/1968">1967-1968</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">21</container>
+            <unittitle><unitdate type="inclusive" normal="1967/1968">1967-1968</unitdate> (cont.)</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">21</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1968/1969">1968-1969</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">22</container>
+            <unittitle><unitdate type="inclusive" normal="1968/1969">1968-1969</unitdate> (cont.)</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">22</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1969/1970">1969-1970</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">23</container>
+            <unittitle><unitdate type="inclusive" normal="1969/1970">1969-1970</unitdate> (cont.)</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">24</container>
+            <unittitle>1969-1970(cont.)</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">24</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1970/1971">1970-1971</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">25</container>
+            <unittitle><unitdate type="inclusive" normal="1970/1971">1970-1971</unitdate> (cont.)</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">26</container>
+            <unittitle><unitdate type="inclusive" normal="1970/1971">1970-1971</unitdate> (cont.)</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">26</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1971/1972">1971-1972</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">27</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1971/1972">1971-1972</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Programs</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">27</container>
+            <unittitle>Programs for PTP Presentations to <unitdate type="inclusive" normal="1985">1985</unitdate></unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Films</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">28</container>
+            <unittitle>"Magic of the Stage,"a program of classic drama for schools <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
+            <physdesc>
+              <physfacet>(16mm b &amp; w sound); approximately 30 minutes</physfacet>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">28</container>
+            <unittitle>"Mask of Imagination," a program of classic drama for schools <unitdate type="inclusive" normal="1971">1971</unitdate></unittitle>
+            <physdesc>
+              <physfacet>(16mm b &amp; w sound); approximately 30 minutes</physfacet>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">28</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">3 reels</extent>
+            </physdesc>
+            <unittitle>"Conjuror," uncompiled clips</unittitle>
+            <physdesc>
+              </physdesc>
+            <physdesc>
+              <physfacet>(16mm b &amp; w sound)</physfacet>
+            </physdesc>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Photographs</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">28</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">1 envelope</extent>
+            </physdesc>
+            <unittitle>Marcella Cisney, Robert Schnitzer and others</unittitle>
+            <physdesc>
+              </physdesc>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Sound Recordings</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">28</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">3 reels</extent>
+            </physdesc>
+            <unittitle>"Conjuror," uncompiled sound clips, background music and sound effects</unittitle>
+            <physdesc>
+              </physdesc>
+            <physdesc>
+              <physfacet>(7.5 ips. reel-to-reel)</physfacet>
+            </physdesc>
+          </did>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

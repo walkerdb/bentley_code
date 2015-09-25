@@ -1,0 +1,455 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead.dtd">
+<ead>
+  <eadheader audience="internal" langencoding="iso639-2b" repositoryencoding="iso15511" dateencoding="iso8601" relatedencoding="Dublin Core">
+    <eadid countrycode="us" mainagencycode="MiU-H" publicid="us//::miu-h//TXT us::miu-h::charters.xml//EN" encodinganalog="identifier">umich-bhl-94164</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="title">Finding Aid for Michigan municipal charters</titleproper>
+        <author encodinganalog="creator">Collection processed and finding aid created by Leonard A. Coombs, Sept. 1994</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="publisher">Bentley Historical Library, University of Michigan</publisher>
+        <date encodinganalog="date">2005</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created by Greg Kinney <date>June 2005</date></creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date>20150706</date>
+        <item>Corrected collection dates.</item>
+      </change>
+      <change>
+        <date>20050621</date>
+        <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <frontmatter>
+    <titlepage>
+      <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
+      <titleproper>Finding aid for <lb/>Michigan Municipal Charters, 1913-1962</titleproper>
+      <author>Finding aid created by <lb/>Leonard A. Coombs, Sept. 1994</author>
+    </titlepage>
+  </frontmatter>
+  <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
+    <did>
+      <origination>
+        <corpname source="lcnaf" encodinganalog="100">Michigan Historical Collections (collector)</corpname>
+      </origination>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 linear foot</extent>
+      </physdesc>
+      <unittitle encodinganalog="245">Michigan municipal charters <unitdate type="inclusive" encodinganalog="245$f" normal="1913/1962">1913-1962</unitdate></unittitle>
+      <unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">94164 Cc 2</unitid>
+      <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
+      <abstract>Municipal charters of various Michigan cities, some include amendments.</abstract>
+      <repository>
+        <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea>, University of Michigan</corpname>
+        <extptr href="bhladd" show="embed" actuate="onload"/>
+      </repository>
+    </did>
+    <descgrp type="admin">
+      <acqinfo encodinganalog="541">
+        <p>Most of the collection was donated by C. F. Norton (donor <num type="donor" encodinganalog="541$e">1862</num>), with some other items added.</p>
+      </acqinfo>
+      <accessrestrict encodinganalog="506">
+        <p>The collection is open without restriction.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+        <p>Copyright status is unclear. The creating agency may retain copyright.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+        <p>[item], folder, box,
+Michigan municipal Charters, Bentley Historical Library, University of Michigan</p>
+      </prefercite>
+    </descgrp>
+    <bioghist encodinganalog="545">
+      <p>The Michigan Municipal Charters collections was brought together by the Michigan Historical Collections from a variety of sources and accessions, principally from a donation by C. F. Norton.</p>
+    </bioghist>
+    <scopecontent encodinganalog="520">
+      <p>Municipal charters of various Michigan cities, some include amendments. Some charters are cataloged separately in the MHC printed works catalog.</p>
+    </scopecontent>
+    <controlaccess>
+      <p>
+        <extptr href="accnote" show="embed" actuate="onload"/>
+      </p>
+      <controlaccess>
+        <head>Subjects:</head>
+        <geogname source="lcsh" encodinganalog="651">Alpena (Mich.)--Charters.</geogname>
+        <geogname source="lcsh" encodinganalog="651">Ann Arbor (Mich.)--Charters.</geogname>
+        <geogname source="lcsh" encodinganalog="651">Battle Creek (Mich.)--Charters.</geogname>
+        <geogname source="lcsh" encodinganalog="651">Benton Harbor (Mich.)--Charters.</geogname>
+        <geogname source="lcsh" encodinganalog="651">Birmingham (Mich.)--Charters.</geogname>
+        <geogname source="lcsh" encodinganalog="651">Cadillac (Mich.)--Charters.</geogname>
+        <geogname source="lcsh" encodinganalog="651">Dearborn (Mich.)--Charters.</geogname>
+        <geogname source="lcsh" encodinganalog="651">Detroit (Mich.)--Charters.</geogname>
+        <geogname source="lcsh" encodinganalog="651">East Ann Arbor (Ann Arbor, Mich.)--Charters.</geogname>
+        <geogname source="lcsh" encodinganalog="651">Eastpointe (Mich.)--Charters.</geogname>
+        <geogname source="lcsh" encodinganalog="651">East Lansing (Mich.)--Charters.</geogname>
+        <geogname source="lcsh" encodinganalog="651">Gaylord (Mich.)--Charters.</geogname>
+        <geogname source="lcsh" encodinganalog="651">Grosse Pointe Woods (Mich.)--Charters.</geogname>
+        <geogname source="lcsh" encodinganalog="651">Hazel Park (Mich.)--Charters.</geogname>
+        <geogname source="lcsh" encodinganalog="651">Holland (Mich.)--Charters.</geogname>
+        <geogname source="lcsh" encodinganalog="651">Inkster (Mich.)--Charters.</geogname>
+        <geogname source="lcsh" encodinganalog="651">Jackson (Mich.)--Charters.</geogname>
+        <geogname source="lcsh" encodinganalog="651">Kalamazoo (Mich.)--Charters.</geogname>
+        <geogname source="lcsh" encodinganalog="651">Ludington (Mich.)--Charters.</geogname>
+        <geogname source="lcsh" encodinganalog="651">Marquette (Mich.)--Charters.</geogname>
+        <geogname source="lcsh" encodinganalog="651">Midland (Mich.)--Charters.</geogname>
+        <geogname source="lcsh" encodinganalog="651">Monroe (Mich.)--Charters.</geogname>
+        <geogname source="lcsh" encodinganalog="651">Mount Clemens (Mich.)--Charters.</geogname>
+        <geogname source="lcsh" encodinganalog="651">Mount Pleasant (Mich.)--Charters.</geogname>
+        <geogname source="lcsh" encodinganalog="651">Muskegon (Mich.)--Charters.</geogname>
+        <geogname source="lcsh" encodinganalog="651">Muskegon Heights (Mich.)--Charters.</geogname>
+        <geogname source="lcsh" encodinganalog="651">Parchment (Mich.)--Charters.</geogname>
+        <geogname source="lcsh" encodinganalog="651">Petoskey (Mich.)--Charters.</geogname>
+        <geogname source="lcsh" encodinganalog="651">Pontiac (Mich.)--Charters.</geogname>
+        <geogname source="lcsh" encodinganalog="651">Reed City (Mich.)--Charters.</geogname>
+        <geogname source="lcsh" encodinganalog="651">Rochester (Mich.)--Charters.</geogname>
+        <geogname source="lcsh" encodinganalog="651">Roosevelt Park (Mich.)--Charters.</geogname>
+        <geogname source="lcsh" encodinganalog="651">Royal Oak (Mich.)--Charters.</geogname>
+        <geogname source="lcsh" encodinganalog="651">Saginaw (Mich.)--Charters.</geogname>
+        <geogname source="lcsh" encodinganalog="651">Saint Clair Shores (Mich.)--Charters.</geogname>
+        <geogname source="lcsh" encodinganalog="651">Sault Sainte Marie (Mich.)--Charters.</geogname>
+        <geogname source="lcsh" encodinganalog="651">Scottville (Mich.)--Charters.</geogname>
+        <geogname source="lcsh" encodinganalog="651">South Haven (Mich.)--Charters.</geogname>
+        <geogname source="lcsh" encodinganalog="651">Tecumseh (Mich.)--Charters.</geogname>
+        <geogname source="lcsh" encodinganalog="651">Traverse City (Mich.)--Charters.</geogname>
+        <geogname source="lcsh" encodinganalog="651">Troy (Mich.)--Charters.</geogname>
+        <geogname source="lcsh" encodinganalog="651">Walled Lake (Mich.)--Charters.</geogname>
+        <geogname source="lcsh" encodinganalog="651">Warren (Mich.)--Charters.</geogname>
+        <geogname source="lcsh" encodinganalog="651">Wyoming (Mich.)--Charters.</geogname>
+        <geogname source="lcsh" encodinganalog="651">Ypsilanti (Mich.)--Charters.</geogname>
+      </controlaccess>
+    </controlaccess>
+    <dsc type="combined">
+      <c01 level="series">
+        <did>
+          <unittitle>Charters</unittitle>
+        </did>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Alpena <unitdate type="inclusive" normal="1944">1944</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Ann Arbor <unitdate type="inclusive" normal="1956">1956</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Battle Creek, proposed <unitdate type="inclusive" normal="1960">1960</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Benton Harbor <unitdate type="inclusive" normal="1921">1921</unitdate> amended to 1945</unittitle>
+          </did>
+          <odd>
+            <p>Amendments to <unitdate type="inclusive" normal="1954">1954</unitdate> attached.</p>
+          </odd>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Birmingham, 1933. Amendments to <unitdate type="inclusive" normal="1960">1960</unitdate> attached</unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Cadillac <unitdate type="inclusive" normal="1913">1913</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Dearborn <unitdate type="inclusive" normal="1942">1942</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Dearborn <unitdate type="inclusive" normal="1942">1942</unitdate> amended to <unitdate type="inclusive" normal="1957">1957</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Detroit <unitdate type="inclusive" normal="1918">1918</unitdate> amended to 1944</unittitle>
+          </did>
+          <odd>
+            <p>Amendments to <unitdate type="inclusive" normal="1945">1945</unitdate> attached.</p>
+          </odd>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>East Ann Arbor, proposed <unitdate type="inclusive" normal="1946">1946</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>East Detroit, 1929. Amendments to <unitdate type="inclusive" normal="1958">1958</unitdate> attached</unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>East Lansing <unitdate type="inclusive" normal="1944">1944</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Gaylord <unitdate type="inclusive" normal="1949">1949</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Grosse Pointe Woods, proposed <unitdate type="inclusive" normal="1950">1950</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Grosse Pointe Woods, 1950. Amendments to <unitdate type="inclusive" normal="1960">1960</unitdate> attached</unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Hazel Park, 1942. Amendments to <unitdate type="inclusive" normal="1956">1956</unitdate> attached</unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Holland <unitdate type="inclusive" normal="1913">1913</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Holland, 1950. Amendments to <unitdate type="inclusive" normal="1953">1953</unitdate> attached</unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Inkster <unitdate type="inclusive" normal="1952">1952</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Jackson <unitdate type="inclusive" normal="1914">1914</unitdate> amended to 1952</unittitle>
+          </did>
+          <odd>
+            <p>Amendments to <unitdate type="inclusive" normal="1961">1961</unitdate> attached.</p>
+          </odd>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Kalamazoo <unitdate type="inclusive" normal="1918">1918</unitdate> amended to <unitdate type="inclusive" normal="1941">1941</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Kalamazoo <unitdate type="inclusive" normal="1918">1918</unitdate> amended to 1955</unittitle>
+          </did>
+          <odd>
+            <p>Amendments to <unitdate type="inclusive" normal="1959">1959</unitdate> attached.</p>
+          </odd>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Ludington <unitdate type="inclusive" normal="1916">1916</unitdate> printed <unitdate type="inclusive" normal="1928">1928</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Marquette <unitdate type="inclusive" normal="1951">1951</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Midland <unitdate type="inclusive" normal="1944">1944</unitdate> reprinted <unitdate type="inclusive" normal="1961">1961</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Monroe <unitdate type="inclusive" normal="1913">1913</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Mount Clemens <unitdate type="inclusive" normal="1954">1954</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Mount Pleasant <unitdate type="inclusive" normal="1921">1921</unitdate> amended to <unitdate type="inclusive" normal="1954">1954</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Muskegon <unitdate type="inclusive" normal="1919">1919</unitdate> amended to <unitdate type="inclusive" normal="1951">1951</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Muskegon Heights <unitdate type="inclusive" normal="1922">1922</unitdate> amended to <unitdate type="inclusive" normal="1955">1955</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Parchment <unitdate type="inclusive" normal="1939">1939</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Petoskey, 1924. Amendments to <unitdate type="inclusive" normal="1946">1946</unitdate> attached</unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Pontiac <unitdate type="inclusive" normal="1920">1920</unitdate> amended to 1958</unittitle>
+          </did>
+          <odd>
+            <p>Amendments to <unitdate type="inclusive" normal="1950">1950</unitdate> attached.</p>
+          </odd>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Reed City <unitdate type="inclusive" normal="1957">1957</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Rochester <unitdate type="inclusive" normal="1948">1948</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Roosevelt Park <unitdate type="inclusive" normal="1946">1946</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Royal Oak <unitdate type="inclusive" normal="1921">1921</unitdate> amended to <unitdate type="inclusive" normal="1957">1957</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Saginaw <unitdate type="inclusive" normal="1936">1936</unitdate> amended to 1953</unittitle>
+          </did>
+          <odd>
+            <p>Amendments to <unitdate type="inclusive" normal="1960">1960</unitdate> attached.</p>
+          </odd>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>St. Clair Shores <unitdate type="inclusive" normal="1950">1950</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Sault Ste. Marie, 1952. Amendments to <unitdate type="inclusive" normal="1953">1953</unitdate> attached</unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Scottville <unitdate type="inclusive" normal="1958">1958</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>South Haven, proposed <unitdate type="inclusive" normal="1955">1955</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>South Haven <unitdate type="inclusive" normal="1962">1962</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Tecumseh <unitdate type="inclusive" normal="1953">1953</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Traverse City <unitdate type="inclusive" normal="1940">1940</unitdate> amended to <unitdate type="inclusive" normal="1955">1955</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Troy, 1955. Amendments to <unitdate type="inclusive" normal="1960">1960</unitdate> attached</unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Walled Lake <unitdate type="inclusive" normal="1954">1954</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Warren <unitdate type="inclusive" normal="1956">1956</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Wyoming <unitdate type="inclusive" normal="1958">1958</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Ypsilanti, 1947. Amendments to <unitdate type="inclusive" normal="1960">1960</unitdate> attached</unittitle>
+          </did>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

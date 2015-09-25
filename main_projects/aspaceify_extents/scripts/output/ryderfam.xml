@@ -1,0 +1,302 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead.dtd">
+<ead>
+  <eadheader audience="internal" langencoding="iso639-2b" repositoryencoding="iso15511" dateencoding="iso8601" relatedencoding="Dublin Core">
+    <eadid countrycode="us" mainagencycode="MiU-H" publicid="-//us::MiU-H//TEXT us::MiU-H::ryderfam.xml//EN" encodinganalog="identifier">umich-bhl-86631</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="title">Finding Aid for Ryder Family Papers, 1861-1969</titleproper>
+        <author encodinganalog="creator">Collection processed and finding aid prepared by Bentley Historical Library staff</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="publisher">Bentley Historical Library, University of Michigan</publisher>
+        <date encodinganalog="date">1972</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created by Sheon Montgomery <date>November 2000</date></creation>
+      <langusage>The finding aid is written in <language encodinganalog="language" langcode="eng">English.</language></langusage>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date>20150715</date>
+        <item>Corrected collection dates.</item>
+      </change>
+      <change>
+        <date>20031010</date>
+        <item>Converted to EAD2002 using Word macro and Xmetal</item>
+      </change>
+      <change>
+        <date>2002-03-27</date>
+        <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <frontmatter>
+    <titlepage>
+      <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
+      <titleproper>Finding Aid for <lb/>Ryder Family Papers, 1861-1969</titleproper>
+      <author>Finding aid prepared by: <lb/>Sheon Montgomery</author>
+    </titlepage>
+  </frontmatter>
+  <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
+    <did>
+      <origination>
+        <famname source="lcnaf" encodinganalog="100">Ryder family.</famname>
+      </origination>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 microfilm roll</extent>
+        <physfacet>0.7 linear feet</physfacet>
+      </physdesc>
+      <unittitle encodinganalog="245">Ryder Family Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1861/1969">1861-1969</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1861/1863">1861-1863</unitdate></unittitle>
+      <abstract>Livonia, Michigan family; Civil War correspondence and diary of Alfred G. Ryder, Co. H, First Michigan Cavalry, and correspondence of John E. Ryder, Co. C, Twenty-forth Michigan Infantry, including mention of the battle of Gettysburg. Collection includes originals, some transcripts, and photocopies of documents still in family possession.</abstract>
+      <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">mf364c</unitid>
+      <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
+      <repository>
+        <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea> University of Michigan</corpname>
+        <extptr href="bhladd" show="embed" actuate="onload"/>
+      </repository>
+    </did>
+    <descgrp type="admin">
+      <acqinfo encodinganalog="541">
+        <p>The collection was received in several accessions from different family members (Donor no. <num type="donor" encodinganalog="541$e">5218</num>) in 1972, 1982 and 2000.</p>
+      </acqinfo>
+      <accessrestrict encodinganalog="506">
+        <p>The collection is open for research.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+        <p>Copyright is held by the Regents of the University of Michigan.</p>
+      </userestrict>
+      <altformavail>
+        <p>The Bentley Historical Library holds the originals of some Ryder family letters. Originals of the other letters are still held by family members. The library obtained photocopies of these letters to produce the microfilm edition.</p>
+      </altformavail>
+      <prefercite encodinganalog="524">
+        <p>item, folder title, box no., Ryder Family Papers, Bentley Historical Library, University of Michigan</p>
+      </prefercite>
+    </descgrp>
+    <bioghist encodinganalog="545">
+      <p>The Ryder family first arrived in Michigan in December 1827, when David and Polly Ryder and their children moved from New York state where they had been tenants on a large Dutch patroon estate. They brought their goods across New York on a flatboat on the Hudson River, through the newly opened Erie Canal, and then across Lake Erie on a sailing boat. Polly and the children spent the winter in Detroit while David scouted for land, making his purchase of 80 acres in what would become Livonia Township, and starting a cabin before bringing the family to the homesite in the Spring of 1828.</p>
+      <p>In 1840 their son, George C. (born October 18, 1814) married Henrietta Vinton, and they also built a farm in Livonia Township, starting out on a quarter section which included his parent's original homestead. George and Henrietta had four children: Alfred G. (b. July 17, 1841), John E. (b. February 7, 1843), Elizabeth (b. 1845) and Charles (b. 1854).</p>
+      <p>Along with his brothers and sister, Alfred attended school in Nankin, which later became Newburgh School. He then went to the Ypsilanti Normal School before enlisting on August 16, 1861 in the 1st Michigan Cavalry, Co. H, which mustered on September 4, 1861. While soldiering, Alfred continued to read and study. He wrote frequently about his activities and his surroundings, but rarely described his hardships. When he heard that John's regiment had been disbanded, he replied on February 21, 1862: "You report hard times in the Lancers; Oh: you little know from what few days you served the realities of soldiering. Don't believe because I don't write hardships that there are none here to endure. Great heavens! I could tell you stories that would make your eyes stick out, but it would be far worse than useless, so I shall never make the attempt."</p>
+      <p>Alfred was taken prisoner at Bull Run, Virginia, on August 30, 1862. He was paroled on September 1 and sent first to Cumberland, Maryland and then to camps near Columbus, Ohio. The Michigan prisoners were offered furloughs, but Alfred deferred his due to a shortage of funds. He wrote on October 8 that he had received two months pay and had provisions, but planned to find work for a couple of weeks and come home then if he could. There is a gap in the letters, with the next being written November 15 after he had resumed service, and it is unclear if he had been able to travel to Michigan. Alfred noted in his diary on May 31, 1863, that while returning from a scouting mission, "we passed over the old Bull Run battleground. Human bones and in some instances whole frames lay around in profusion to mark the place. Our old fighting ground looks identical."</p>
+      <p>Although not otherwise documented, according to the letters John joined a Lancer regiment in late December 1861. He wrote to Alfred on December 14, 1861 that he had not yet enlisted, but was considering it. Alfred's response to John's enlistment was strong: "I hear that Jonny has enlisted; Great God's I would like to know what he done that for . . . Has he been sworn in? Is he fast? If he is not, persuade him if possible to leave all soldiering alone." The next two letters John wrote to Alfred, in February 1862, are from camp in Detroit; he described his illness (he had been home with the measles) and the horrible conditions of his regiment, which led to it being disbanded. Some men were tricked into signing transfer papers, but John would not sign. March 25 he wrote to Alfred that he "received $27.32 cents from the lancers, and an [h]onerable discharge, they charged us $29.88 for our clothes, but then I am satisfied." He wrote of hopes that the war would end soon, and did not ever intend to enlist in the infantry again. However, the next letter of John's is written from camp in Detroit, where he mustered on August 15, 1862 with the 24th Michigan Infantry, Co. C. His boyhood friend, Alfred Noble, also enlisted and they were tentmates. John's regiment left Detroit for service on August 30, the same day that Alfred was taken prisoner at Bull Run, Virginia.</p>
+      <p>John seemed to have had a difficult time in the infantry, being perhaps of a less strong constitution to withstand the stresses of rough conditions, walking and carrying a pack; he wrote frequently of being ill or tired. On April 29-30, 1863 the 24th was in a fierce battle where a close friend, Forest Brown, was killed and several others wounded. John wrote that "this is a sad time with me . . . Forrest Brown is no more, he fell doing his duty, never spoke after . . ." Brown's death affected John deeply, and he mentioned it several more times in his letters, including in the last he wrote at Gettysburg.</p>
+      <p>Both the Michigan 1st Cavalry and the 24th Infantry were part of the hurried march in June 1863 to follow Lee to Gettysburg, Pennsylvania. On June 27, after marching and setting up camp, John found that Alfred was camped only two miles away. Despite near exhaustion, he and Noble got passes and walked up to Alfred's camp to spend a few hours visiting, then walked back late that night. Alfred made a notation in his diary: "God blessed me today with the opportunity of seeing Jonny for the first time in nearly two years. He looks near broken down. It pains me to look at him and think where he is."</p>
+      <p>John's last letter is a brief note, unsigned and undated, probably written on July 1, 1863, in which he compared Brown's death with another in the company who shot himself in the foot to avoid the coming battle. "Tell Mrs. Brown she can be proud of her son for all of the boys took it as though he was a brother . . . I can tell you that a battle is horrible but if I am shot I think a reb will do it . . . I am now on picket and they are firing towards Gettysburg. good by" The 24th Michigan Infantry suffered heavy losses at Gettysburg. John was killed on July 1, 1863. The next day his body was buried at the edge of the battlefield by William C. Way, chaplain of the 24th.</p>
+      <p>Alfred was badly injured on July 3 at the Battle of Gettysburg. His last letter, written July 8, was dictated to a friend from the hospital: "I was wounded in the side by a ball. I am not without hope . . . Brother John is here also in one of the hospitals but not badly wounded." On July 9, however, the chaplain of the 24th Infantry, William C. Way, found Alfred in the hospital and wrote to his parents: "[Alfred] is now lying in a dangerous condition in a hospital at the Union School House. I conversed with him for a long time. He does not expect to live. He is wounded through the left lung and it is with some difficulty that he breaths and has lost the use of his limbs almost entirely . . . [he] is trying to prepare for the worst. He wants to meet John in Heaven . . ." An update from Way on July 12 tells the Ryders that "I am happy to inform you that notwithstanding the expressed opinions of several surgeons to the contrary, your son Alfred is decidedly better today. I saw him this afternoon and learned more of the character of his wound, and find that he is not in so much danger from his wound as from an injury of his spine occasioned from a fall from his horse . . . He seems quite cheerful." On July 18 Way writes to Mrs. Ryder: "Your husband is here and in attendance upon Alfred who is very low and from all appearances is sinking fast . . . It seems so strange that he [Mr. Ryder] had not received my letters to him . . . before he left, in which I had told him and yourself of the death of John and the condition of Alfred. Upon hearing the facts in the case his cup seemed to be full and very bitter. I am glad he come, and that he found Alfred alive." Alfred died on July 24, 1863.</p>
+      <p>Both Alfred G. Ryder and John E. Ryder were buried at Gettysburg with wooden markers on their graves. In November 1863 the Ryder family arranged to have the bodies exhumed and returned for local burial. Alfred and John were buried in the family plot of the Newburgh Cemetery in what is now Westland, Michigan. They each have simple white headstones, as well as a larger shared monument.</p>
+    </bioghist>
+    <scopecontent encodinganalog="520">
+      <p>The collection consists almost entirely of Civil War letters written by Alfred G. and John E. Ryder from August 1861 to July 1863. There is a single diary, a large series of correspondence consisting of 193 letters (88 of which are original letters and the rest are photocopies), handwritten transcripts of the letters, a series of three letterbooks, one folder of newspaper articles, and another of photocopies of photographs.</p>
+    </scopecontent>
+    <controlaccess>
+      <p>
+        <extptr href="accnote" show="embed" actuate="onload"/>
+      </p>
+      <controlaccess>
+        <head>Subjects:</head>
+        <subject source="lcsh" encodinganalog="650">Gettysburg (Pa.), Battle of, 1863.</subject>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n82268584.html">Livonia (Mich.)</geogname>
+        <famname source="lcnaf" encodinganalog="600">Ryder family.</famname>
+        <persname source="lcnaf" encodinganalog="600">Ryder, Alfred G., 1841-1863.</persname>
+        <persname source="lcnaf" encodinganalog="600">Ryder, John E., 1843-1863.</persname>
+        <corpname source="lcnaf" encodinganalog="610">United States. Army. Michigan Cavalry Regiment, 1st (1861-1866). Company H.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">United States. Army. Michigan Infantry Regiment, 24th (1862-1865). Company C.</corpname>
+        <geogname source="lcsh" encodinganalog="651">United States--History--Civil War, 1861-1865.</geogname>
+      </controlaccess>
+      <controlaccess>
+        <head>Contributors:</head>
+        <persname source="lcnaf" encodinganalog="700">Ryder, Alfred G., 1841-1863.</persname>
+        <persname source="lcnaf" encodinganalog="700">Ryder, John E., 1843-1863.</persname>
+      </controlaccess>
+      <controlaccess>
+        <head>Genre/Form:</head>
+        <genreform source="aat" encodinganalog="655">Diaries.</genreform>
+      </controlaccess>
+    </controlaccess>
+    <dsc type="combined">
+      <c01 level="series">
+        <did>
+          <unittitle>Ryder Family Civil War Papers</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <container label="Roll" type="reel">1</container>
+            <unittitle>Introductory Materials</unittitle>
+          </did>
+          <scopecontent>
+            <p>The Introductory Materials folder contains published biographical information about Alfred and John Ryder.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container label="Roll" type="reel">1</container>
+            <unittitle><title render="italic">The Ryder Family</title> by Leonard Servetter, <unitdate type="inclusive" normal="1963">1963</unitdate></unittitle>
+          </did>
+          <scopecontent>
+            <p>The Ryder Family is a short published history written for use in local elementary schools to teach Michigan history. It covers the family history from the 1810s through the 1950s, mostly focusing on the 19th century.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container label="Roll" type="reel">1</container>
+            <unittitle>Diary of Alfred G. Ryder <unitdate type="inclusive" normal="1861-09/1863-07">September 1861-July 1863</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Correspondence</unittitle>
+          </did>
+          <scopecontent>
+            <p>The Correspondence series forms the bulk of the collection and is comprised of letters written by Alfred G. and John E. Ryder from August 1861 to July 1863 during their time of service in the Civil War. It is a rich series, as the letters are highly descriptive of their surroundings and living conditions, as well as of their feelings about what is happening to them and to their friends. A number of their letters are addressed to "Dear Friends" and a few are written to each other, "Dear Brother"; the majority are to family members at home: Father, Mother and Sister (Elizabeth, or Ibby, then about age 16). In the Miscellaneous folder are letters from friends and officers, most following the deaths of the brothers at Gettysburg in July 1863. Several letters from John G. Frey at Gettysburg describe the arrangements he made for exhuming the bodies, the specially sealed coffins and shipping, as well as requests for payment. Two letters are from Henry Hoisington to George Ryder; he was in the 24th with John and included the letters when John wrote to his father. There are also two letters written in 1864 from Alfred Fay (2nd Michigan Cavalry, Co. B) to his wife. There are three folders of handwritten Transcripts of the letters, which were prepared by family members. The Correspondence and Transcripts series are both arranged chronologically by the brother who wrote them.</p>
+            <p>In the late 1930s Raymond A. Ryder, Sr., son of Charles and nephew to John and Alfred, divided the Civil War letters and mounted them into three letterbooks along with brief notations he made about the contents of the letters. These letterbooks were distributed to family members. His own letterbook of original letters was eventually donated to the Bentley Historical Library; photocopies of the other two books were made available by Ryder family descendants. The letters were coded in the order they appeared in each of the three volumes (LB-#, BG-# and JK-#), and are filed chronologically in the Correspondence series. The notations are filed by volume in the Letterbooks series.</p>
+          </scopecontent>
+          <c03 level="file">
+            <did>
+              <unittitle>Alfred G. Ryder</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container label="Roll" type="reel">1</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1861-09/1861-12">September-December 1861</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Roll" type="reel">1</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1862-01/1862-06">January-June 1862</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Roll" type="reel">1</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1862-07/1862-12">July-December 1862</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Roll" type="reel">1</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1863-01/1863-07">January-July 1863</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>John E. Ryder</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container label="Roll" type="reel">1</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1861-11/1862-03">November 1861-March 1862</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Roll" type="reel">1</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1862-08/1862-12">August-December 1862</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Roll" type="reel">1</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1863-01/1863-03">January-March 1863</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Roll" type="reel">1</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1863-04/1863-07">April-July 1863</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">1</container>
+              <unittitle>Miscellaneous <unitdate type="inclusive" normal="1861/1864">1861-1864</unitdate>, <unitdate type="inclusive" normal="1905">1905</unitdate>, <unitdate type="inclusive" normal="1948">1948</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container label="Roll" type="reel">1</container>
+            <unittitle>Civil War Memorial Programs <unitdate type="inclusive" normal="1948">1948</unitdate>, <unitdate>undated</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container label="Roll" type="reel">1</container>
+            <unittitle>Newspaper Clippings <unitdate type="inclusive" normal="1905/1965">1905-1965</unitdate>, <unitdate>undated</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container label="Roll" type="reel">1</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">3 volumes</extent>
+            </physdesc>
+            <unittitle>Letterbooks of Ryder Civil War letters, accumulated and compiled by Raymond A. Ryder, Sr. <unitdate type="inclusive" normal="1861/1863">1861-1863</unitdate></unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+          <odd>
+            <p>Note: Letters are filed in the Correspondence series; volumes now consist of brief notations and transcripts.</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container label="Roll" type="reel">1</container>
+            <unittitle>
+              <genreform source="aat" normal="Photographs">Photographs</genreform>
+            </unittitle>
+          </did>
+          <scopecontent>
+            <p>The Photographs consist of photoprints of Alfred and John in their Union uniforms, probably taken in early 1863, and photos of Gettysburg memorial markers and of their tombstones in Newburgh Cemetery.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container label="Roll" type="reel">1</container>
+            <unittitle>Transcripts of Civil War letters</unittitle>
+            <physdesc>
+              <physfacet>photocopies</physfacet>
+            </physdesc>
+          </did>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">1</container>
+              <unittitle>Alfred G. Ryder letters <unitdate type="inclusive" normal="1861/1864">1861-1864</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">1</container>
+              <unittitle>John E. Ryder letters <unitdate type="inclusive" normal="1861/1864">1861-1864</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">1</container>
+              <unittitle>Miscellaneous Ryder letters <unitdate type="inclusive" normal="1862/1863">1862-1863</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

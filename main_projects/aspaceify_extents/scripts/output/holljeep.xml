@@ -1,0 +1,3635 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead.dtd">
+<ead>
+  <eadheader audience="internal" langencoding="iso639-2b" repositoryencoding="iso15511" dateencoding="iso8601" relatedencoding="Dublin Core" scriptencoding="iso15924" countryencoding="iso3166-1">
+    <eadid countrycode="us" mainagencycode="MiU-H" publicid="us//::miu-h//TXT us::miu-h::holljeep.xml//EN" encodinganalog="Identifier">umich-bhl-2009082</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="Title">Finding Aid for Jeep Holland papers, 1943-1998</titleproper>
+        <author encodinganalog="Creator">Collection processed and finding aid created by Matt Strand</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="Publisher">Bentley Historical Library, University of Michigan</publisher>
+        <date encodinganalog="Date" normal="2009">2009</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created by Thomas E. Powers <date>2009</date></creation>
+      <langusage encodinganalog="Language">The finding aid is written in <language langcode="eng" scriptcode="Latn">English</language></langusage>
+      <descrules>Finding aid prepared using Describing Archives: A Content Standard (DACS)</descrules>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date>2009-06-01</date>
+        <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <frontmatter>
+    <titlepage>
+      <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
+      <titleproper>Finding aid for <lb/>Jeep Holland papers, 1943-1998</titleproper>
+      <author>Finding aid created by <lb/>Matt Strand, 2009</author>
+    </titlepage>
+  </frontmatter>
+  <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
+    <did>
+      <origination>
+        <persname source="lcnaf" encodinganalog="100">Holland, Jeep, 1943-1998.</persname>
+      </origination>
+      <physdesc altrender="whole">
+        <extent altrender="carrier">(in 13 boxes)</extent>
+      </physdesc>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">12 linear feet</extent>
+      </physdesc>
+      <unittitle encodinganalog="245">Jeep Holland papers <unitdate type="inclusive" encodinganalog="245$f" normal="1943/1998">1943-1998</unitdate></unittitle>
+      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2009082 Aa 2</unitid>
+      <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
+      <abstract>Hugh "Jeep" Holland was the founder of the A-Square Record label in Ann Arbor in 1967, and consequently became an integral part of the southeast Michigan music scene in the late 1960s and early 1970s. The collection documents, in papers, photographs and sound recordings, Jeep’s personal life, interests, and career.</abstract>
+      <repository>
+        <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea>, University of Michigan</corpname>
+        <extptr href="bhladd" show="embed" actuate="onload"/>
+      </repository>
+    </did>
+    <descgrp type="admin">
+      <acqinfo encodinganalog="541">
+        <p>The papers were donated to the library by Francis Holland, (donor no. <num type="donor" encodinganalog="541$e">9973</num>) in 2008.</p>
+      </acqinfo>
+      <accruals encodinganalog="584">
+        <p>No further additions to the papers are expected.</p>
+      </accruals>
+      <accessrestrict encodinganalog="506">
+        <p>The collection is open to research.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+        <p>Francis Holland, Jeep Holland’s heir, donated his copyright to the Regents of the University of Michigan.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+        <p>[item], folder, box,
+Jeep Holland papers, Bentley Historical Library, University of Michigan</p>
+      </prefercite>
+    </descgrp>
+    <bioghist encodinganalog="545">
+      <p>Hugh Henry "Jeep" Holland was born in 1943 in Boston, Massachusetts. Stories explaining the origin of his nickname stem from his father's work during World War II, and vary between working with the motor pool, and working in the Studebaker factory that was then manufacturing Jeeps for the war effort. Following the war, the Holland family moved to East Lansing, Michigan, where Jeep and his younger brother, Frank Jr. (sometimes called "Jomp"), grew up and attended school.</p>
+      <p>During school, Jeep participated in a number of extracurricular activities including student council, various theatrical productions, and the wrestling and football teams. It was also during his youth that Jeep developed interests that would guide his later career path. Jeep's habitual collecting likely started at a very young age. He accumulated comic books, promotional materials for his favorite cartoons and movies, and created detailed scrapbooks of important events in his life. Likewise, as a child, Jeep was a talented violinist. While he apparently didn't particularly enjoy the instrument, his love of music was beyond question, and by the time he was 16, he was essentially running the local record store. This position at the record store also contributed to his collecting impulses, as he made a point of acquiring popular records as they were released. Furthermore, Jeep's work at the record store and his extensive knowledge of popular music provided him with his first tastes of the music scene that he would soon become an integral part of, as he acted as DJ for local dances and other events.</p>
+      <p>Following his graduation from high school in 1961, Jeep moved to Ann Arbor, Michigan, to continue his education at the University of Michigan. Jeep mainly focused on humanities courses, and while he occasionally excelled in his school work, he was inconsistent enough that by January of 1966, he was asked by the university not to enroll in classes for the following semester.</p>
+      <p>Though his studies were unsuccessful, Jeep had taken a manager position at the Ann Arbor branch of Discount Records, and was quickly becoming a fixture of the Ann Arbor music scene. By 1965, Jeep was already heavily involved in the management of a local musical group comprised of Ann Arbor high school students, The Rationals. In 1967, A-Square Records was incorporated, and Jeep made a business of managing, producing, and promoting a host of Michigan bands, including the 3rd Power, All The Lonely People, The Amboy Dukes, The Apostles, Frijid Pink, The Frost, The Jagged Edge, The MC5, The Children, The Rationals, Savage Grace, Shakey Jake, The Scot Richard Case, The Stooges (Jeep is said to have given Iggy Pop his nickname), The Thyme, Wilson Mower Pursuit, and many more.</p>
+      <p>While there is little doubt that Jeep's passion for the music scene was genuine, he was at best an amateur when it came to business. Before long, the scene he had helped create was beginning to outgrow the small local production companies that had nurtured it. By the early 1970s, A-Squared and other local labels were being pushed out by larger commercial operations. In the summer of 1971, Jeep moved to Boston, where he once again worked for Discount Records. In 1976, Jeep returned to the music business, this time as northeast regional promoter for United Artists. Additionally, while in Boston, Jeep worked with WFNX-FM radio and participated in a music trivia segment called "Stump Jeep." In the late 1980s, Jeep relocated again from Boston to Baltimore, Maryland where he worked with Diamond Comic Distributors, Inc. Jeep passed away on March, 14 1998 from complications due to diabetes.</p>
+    </bioghist>
+    <scopecontent encodinganalog="520">
+      <p>The Jeep Holland papers date from his youth in the late 1940s up to his death in 1998, and document his personal life, his education, and his career, particularly the record label and production company he founded, A-Square Records. The collection is comprised of the following series: Administrative, Artist Files, Personal Files, Realia, Sound Recordings, and Visual.</p>
+    </scopecontent>
+    <controlaccess>
+      <p>
+        <extptr href="accnote" show="embed" actuate="onload"/>
+      </p>
+      <controlaccess>
+        <head>Subjects:</head>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no2008143052">A-Square Records.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n93078812">Amboy Dukes (Musical group)</corpname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79022219.html">Ann Arbor (Mich.)</geogname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no2008143047">Apostles (Musical group : Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no2006051888">Children (Musical group)</corpname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79129544.html">East Lansing (Mich.)</geogname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n94009605">Frijid Pink (Musical group)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n2004068267">Frost (Musical group)</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Grande Ballroom.</corpname>
+        <persname source="lcnaf" encodinganalog="600">Holland, Jeep, 1943-1998.</persname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n93091114">MC5 (Musical group)</corpname>
+        <subject source="lcsh" encodinganalog="650">Musicians' contracts.</subject>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n82131005">Pop, Iggy, 1947-</persname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n95056715">Rationals (Musical group)</corpname>
+        <subject source="lcsh" encodinganalog="650">Record stores.</subject>
+        <subject source="lcsh" encodinganalog="650">Rock music.</subject>
+        <subject source="lcsh" encodinganalog="650">Rock music festivals.</subject>
+        <subject source="lcsh" encodinganalog="650">Rock music--Michigan--1961-1970.</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n94117968">Savage Grace (Musical group)</corpname>
+        <subject source="lcsh" encodinganalog="650">Sound recordings--Production and direction.</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n92089875">SRC (Musical group)</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Stooges (Musical group)</corpname>
+        <subject source="lcsh" encodinganalog="650">Talent management.</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no98051220">Third Power (Musical group)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no2006117616">UP (Musical group)</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Wilson Mower Pursuit (Musical group)</corpname>
+      </controlaccess>
+      <controlaccess>
+        <head>Subjects - Visual Materials:</head>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n93078812">Amboy Dukes (Musical group)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n93112279">Apostles (Musical group)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n94009605">Frijid Pink (Musical group)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n2004068267">Frost (Musical group)</corpname>
+        <persname source="lcnaf" encodinganalog="600">Gibb, Russ, 1931-</persname>
+        <persname source="lcnaf" encodinganalog="600">Holland, Jeep, 1943-1998.</persname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n93091114">MC5 (Musical group)</corpname>
+        <subject source="lctgm" encodinganalog="650">Music festivals--United States.</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n95056715">Rationals (Musical group)</corpname>
+        <subject source="lctgm" encodinganalog="650">Rock groups--American.</subject>
+        <subject source="lcsh" encodinganalog="650">Rock music festivals.</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n92089875">SRC (Musical group)</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Stooges (Musical group)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no98051220">Third Power (Musical group)</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Wilson Mower Pursuit (Musical group)</corpname>
+      </controlaccess>
+      <controlaccess>
+        <head>Subjects - Sound Recordings:</head>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no2008143052">A-Square Records.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n95011066">Brownsville Station (Musical group)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no2005061367">Catfish (Musical group)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n2011031369">Commander Cody and His Lost Planet Airmen (Musical group)</corpname>
+        <persname source="lcnaf" encodinganalog="600">Holland, Jeep, 1943-1998.</persname>
+        <corpname source="lcnaf" encodinganalog="610">Mr. Curt (Musical group)</corpname>
+        <persname source="lcnaf" encodinganalog="600">Paul, Ray.</persname>
+        <corpname source="lcnaf" encodinganalog="610">Plain Brown Wrapper (Musical group)</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Rain Like the Sound of Trains (Musical group)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no2006117616">UP (Musical group)</corpname>
+      </controlaccess>
+      <controlaccess>
+        <head>Genre Terms:</head>
+        <genreform source="aat" encodinganalog="655">45 rpm records.</genreform>
+        <genreform source="aat" encodinganalog="655">Compact discs.</genreform>
+        <genreform source="aat" encodinganalog="655">Phonograph records.</genreform>
+        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655">Posters.</genreform>
+        <genreform source="aat" encodinganalog="655">Scrapbooks.</genreform>
+        <genreform source="aat" encodinganalog="655">Sound recordings.</genreform>
+      </controlaccess>
+    </controlaccess>
+    <dsc type="combined">
+      <c01 level="series">
+        <did>
+          <unittitle>Administrative</unittitle>
+        </did>
+        <scopecontent>
+          <p>Administrative (1964-1990, 2 linear feet) documents the conduct of business for A-Square records, and to a lesser extent Discount Records, Universal Artists, and Diamond Comics. The series contains papers dealing with various professional organizations, assorted contracts, professional correspondence, documentation of events, financial records, and papers pertaining to legal counsel, recording studios and talent agencies.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <unittitle>American Federation of Musicians</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Bulletins <unitdate type="inclusive" normal="1966/1970">1966-1970</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Correspondence <unitdate type="inclusive" normal="1969/1971">1969-1971</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Directories <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Forms and Contracts <unitdate type="inclusive" normal="1964/1969">1964-1969</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">4 folders</extent>
+            </physdesc>
+            <unittitle>Contracts <unitdate type="inclusive" normal="1967/1970">1967-1970</unitdate></unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Correspondence</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Day, Dennis <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Knight, Larry <unitdate type="inclusive" normal="1967/1968">1967-1968</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Patlow, Jerry</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Smeltzer, Gary <unitdate type="inclusive" normal="1969/1970">1969-1970</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Events</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Ann Arbor Blues Festival <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Detroit Rock Revival <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Kalamazoo Pop Festival <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Miscellaneous Rock Festivals <unitdate type="inclusive" normal="1970/1971">1970-1971</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Financial Documents</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>Ledgers</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">4 folders</extent>
+                </physdesc>
+                <unittitle>A-Square Productions <unitdate type="inclusive" normal="1967/1970">1967-1970</unitdate></unittitle>
+                <physdesc altrender="whole">
+                  </physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <unittitle>The Apostles <unitdate type="inclusive" normal="1967/1968">1967-1968</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <unittitle>The Children <unitdate type="inclusive" normal="1967/1968">1967-1968</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <unittitle>The Frost</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <unittitle>The Gang <unitdate type="inclusive" normal="1967/1968">1967-1968</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <unittitle>Jagged Edge <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <unittitle>Shakey Jake <unitdate type="inclusive" normal="1969/1970">1969-1970</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <unittitle>The Thyme <unitdate type="inclusive" normal="1967/1968">1967-1968</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Notecards</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>General Files</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>A+A Productions <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>American Federation of Television and Radio Artists <unitdate type="inclusive" normal="1967">1967</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Answering Service <unitdate type="inclusive" normal="1967/1969">1967-1969</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Argus</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Buddha Records <unitdate type="inclusive" normal="1971">1971</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Capitol Records <unitdate type="inclusive" normal="1968/1969">1968-1969</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Carty's Music <unitdate type="inclusive" normal="1967/1969">1967-1969</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Cassette Inventory</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Cavern Records <unitdate type="inclusive" normal="1967/1968">1967-1968</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Clark Oil <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Copy Art Photographers <unitdate type="inclusive" normal="1967/1968">1967-1968</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Creem</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Custom Specialty Advertising <unitdate type="inclusive" normal="1967/1970">1967-1970</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Diamond Comics <unitdate type="inclusive" normal="1989/1990">1989-1990</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Discount Photocopy <unitdate type="inclusive" normal="1969/1970">1969-1970</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Employees</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Follett Book Store <unitdate type="inclusive" normal="1969/1970">1969-1970</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Foremost Photographic Service <unitdate type="inclusive" normal="1968/1969">1968-1969</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Hard Corps Productions <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Hideout Productions <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Holland-London <unitdate type="inclusive" normal="1965/1967">1965-1967</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Insurance <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Kier Photo Service</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Mass Photoprint Company <unitdate type="inclusive" normal="1967/1968">1967-1968</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Master Charge</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Merit Music <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Michigan Bell Telephone <unitdate type="inclusive" normal="1968/1970">1968-1970</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Michigan Department of Licensing and Regulation <unitdate type="inclusive" normal="1967/1969">1967-1969</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Michigan Graphic <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Mobil Oil <unitdate type="inclusive" normal="1969/1970">1969-1970</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>The Music Center <unitdate type="inclusive" normal="1967/1968">1967-1968</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Music Productions Inc. <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>New England Telephone <unitdate type="inclusive" normal="1971">1971</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Office Equipment <unitdate type="inclusive" normal="1968/1969">1968-1969</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Pulse Productions <unitdate type="inclusive" normal="1969/1972">1969-1972</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Roach Printing Company <unitdate type="inclusive" normal="1968/1970">1968-1970</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Scorpio Music <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Steeb Dodge <unitdate type="inclusive" normal="1966/1969">1966-1969</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Sunn <unitdate type="inclusive" normal="1970/1979" certainty="approximate">1970s</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Turntables and Tape Recorders <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>United Artists</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle>Biographies <unitdate type="inclusive" normal="1977/1978">1977-1978</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle>Miscellaneous <unitdate type="inclusive" normal="1976/1977">1976-1977</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Legal Counsel</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Brignall, James <unitdate type="inclusive" normal="1967/1968">1967-1968</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Hofer, Walter <unitdate type="inclusive" normal="1966/1971">1966-1971</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Levy, John <unitdate type="inclusive" normal="1968/1970">1968-1970</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Recording Studios</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>DXM Recording Studio <unitdate type="inclusive" normal="1968/1970">1968-1970</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Pioneer Recording Studio <unitdate type="inclusive" normal="1968/1970">1968-1970</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>United Sound Vendors <unitdate type="inclusive" normal="1967/1968">1967-1968</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Vanguard Records <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Virco Recording Co. <unitdate type="inclusive" normal="1968/1970">1968-1970</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Miscellaneous Studios <unitdate type="inclusive" normal="1968/1969">1968-1969</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 folders</extent>
+            </physdesc>
+            <unittitle>Signature Authorizations <unitdate type="inclusive" normal="1968/1969">1968-1969</unitdate></unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Talent Agencies</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>American Talent International <unitdate type="inclusive" normal="1973">1973</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Delta Promotions</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Diversified Management Agency <unitdate type="inclusive" normal="1971/1973">1971-1973</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Haganah <unitdate type="inclusive" normal="1969/1970">1969-1970</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>International Famous Agency <unitdate type="inclusive" normal="1970/1971">1970-1971</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>United Artists Biographies <unitdate type="inclusive" normal="1977">1977</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Windfall Artists <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Venues</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>Grande Ballroom</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle>Articles <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle>Concert Flyers</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle>General <unitdate type="inclusive" normal="1968/1970">1968-1970</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Psychedelic Midway <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Artist Files</unittitle>
+        </did>
+        <scopecontent>
+          <p>Artist Files (1965-1978, 5 linear feet) consists of information regarding a large number of the bands Jeep worked with through his time with A-Square records, as well as Universal Artists and his own personal interests. Individual artist files can contain articles and newspaper clippings, concert flyers, contracts, general papers, photographs, and radio charts.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <unittitle>3rd Power</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Articles and Clippings <unitdate type="inclusive" normal="1969/1970">1969-1970</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Concert Flyers</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Contracts <unitdate type="inclusive" normal="1968/1970">1968-1970</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>General <unitdate type="inclusive" normal="1968/1970">1968-1970</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>
+                <genreform normal="Photographs">Photographs</genreform>
+              </unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">3</container>
+                <unittitle>Large</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">3</container>
+                <unittitle>Small</unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>Air Speed Indicator <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>Alice Cooper <unitdate type="inclusive" normal="1971/1973">1971-1973</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>All the Lonely People</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Concert Flyers</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Contacts <unitdate type="inclusive" normal="1969/1970">1969-1970</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>
+                <genreform normal="Photographs">Photographs</genreform>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Amboy Dukes</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Articles and Clippings <unitdate type="inclusive" normal="1968/1969">1968-1969</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>General <unitdate type="inclusive" normal="1968/1970">1968-1970</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>
+                <genreform normal="Photographs">Photographs</genreform>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>The Apostles</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Contracts <unitdate type="inclusive" normal="1967/1968">1967-1968</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>General <unitdate type="inclusive" normal="1967/1968">1967-1968</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>
+                <genreform normal="Photographs">Photographs</genreform>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>Ashmollyan Quintet <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>The Beach Boys <unitdate type="inclusive" normal="1971/1973">1971-1973</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>The Beatles <unitdate type="inclusive" normal="1970/1972">1970-1972</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>Bedlam Riff <unitdate type="inclusive" normal="1969/1970">1969-1970</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>Bhang <unitdate type="inclusive" normal="1969/1970">1969-1970</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>Big Red</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>Blackstone Row <unitdate type="inclusive" normal="1969/1970">1969-1970</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>Blackwood Drake <unitdate type="inclusive" normal="1969/1970">1969-1970</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>Blind Faith <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Blues Train</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Contracts <unitdate type="inclusive" normal="1969/1970">1969-1970</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>General <unitdate type="inclusive" normal="1969/1970">1969-1970</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Brownsville Station</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Articles and Clippings <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>General <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>
+                <genreform normal="Photographs">Photographs</genreform>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>Bump <unitdate type="inclusive" normal="1969/1970">1969-1970</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>Butterfield Blues Band</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>Cactus <unitdate type="inclusive" normal="1971">1971</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>Canned Heat <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>Carousel <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>Caste <unitdate type="inclusive" normal="1968/1970">1968-1970</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Catfish</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Articles and Clippings <unitdate type="inclusive" normal="1970/1973">1970-1973</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Concert Flyers <unitdate type="inclusive" normal="1971">1971</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>General <unitdate type="inclusive" normal="1969/1970">1969-1970</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>
+                <genreform normal="Photographs">Photographs</genreform>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>Charging Rhinoceros of Soul <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>Chip Stevens Blues Band <unitdate type="inclusive" normal="1969/1970">1969-1970</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>The Chosen Few</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>Eric Clapton <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>Joe Cocker</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>Commander Cody and his Lost Planet Airmen <unitdate type="inclusive" normal="1971/1973">1971-1973</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>Cream <unitdate type="inclusive" normal="1969/1970">1969-1970</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>Crystal Maze <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>Mr. Curt <unitdate type="inclusive" normal="1977/1978">1977-1978</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Damn Thing <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Dhobi's Itch <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>The Doors</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>The Eagles <unitdate type="inclusive" normal="1972">1972</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Electric Light Orchestra</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Elephants Memory <unitdate type="inclusive" normal="1972">1972</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Ellie Pop <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Elvis <unitdate type="inclusive" normal="1969/1974">1969-1974</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Everlon Nevermore</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Excels <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Featherstone</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>The Feminine Touch</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Floating Circus</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Frijid Pink</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Contracts <unitdate type="inclusive" normal="1969/1970">1969-1970</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>General <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>
+                <genreform normal="Photographs">Photographs</genreform>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Radio Charts <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>The Frost</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Articles and Clippings <unitdate type="inclusive" normal="1968/1970">1968-1970</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Concert Flyers <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Contracts <unitdate type="inclusive" normal="1968/1969">1968-1969</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Correspondence <unitdate type="inclusive" normal="1968/1969">1968-1969</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>General <unitdate type="inclusive" normal="1968/1970">1968-1970</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>
+                <genreform normal="Photographs">Photographs</genreform>
+              </unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">4</container>
+                <unittitle>Copy Art</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">4</container>
+                <unittitle>Garris, Gordon</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">4</container>
+                <unittitle>Hartman, Don</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">4</container>
+                <unittitle>Rigg, Bobby</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">4</container>
+                <unittitle>Wagner, Dick</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>Group <genreform normal="Photographs">Photos</genreform></unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">4</container>
+                  <unittitle>Large</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">4</container>
+                  <unittitle>Small</unittitle>
+                </did>
+              </c05>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Radio Charts <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Früt (of the Loom) <unitdate type="inclusive" normal="1971">1971</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>The Fugs</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>The Gang</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Contracts <unitdate type="inclusive" normal="1967">1967</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>General <unitdate type="inclusive" normal="1967/1968">1967-1968</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>
+                <genreform normal="Photographs">Photographs</genreform>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Girls Inc. <unitdate type="inclusive" normal="1969/1970">1969-1970</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Grand Funk Railroad</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>General <unitdate type="inclusive" normal="1971">1971</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>
+                <genreform normal="Photographs">Photographs</genreform>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Guardian Angel <unitdate type="inclusive" normal="1971">1971</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Happiness Ticket <unitdate type="inclusive" normal="1967">1967</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Head Over Heels <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Jimi Hendrix <unitdate type="inclusive" normal="1969/1970">1969-1970</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Hideaways <unitdate type="inclusive" normal="1967">1967</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>HP and The Grass Roots Movement <unitdate type="inclusive" normal="1968/1969">1968-1969</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Humble Pie</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Jagged Edge</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Contracts <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>General <unitdate type="inclusive" normal="1968/1969">1968-1969</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>
+                <genreform normal="Photographs">Photographs</genreform>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>James Gang <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Julia <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Julius Victor <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>KJ Knight and the Knightriders</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Lighthouse <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Litter <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Luther Black</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Maend <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Magpye <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>The Maxx <unitdate type="inclusive" normal="1969/1970">1969-1970</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>MC5</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Articles and Clippings <unitdate type="inclusive" normal="1968/1972">1968-1972</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Concert flyers</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Contracts <unitdate type="inclusive" normal="1967/1969">1967-1969</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>General <unitdate type="inclusive" normal="1967/1969">1967-1969</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>
+                <genreform normal="Photographs">Photographs</genreform>
+              </unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">5</container>
+                <unittitle>Large</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">5</container>
+                <unittitle>Small</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Radio Charts <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">5</container>
+            <unittitle>McKenna Mendelson Mainline <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">5</container>
+            <unittitle>Mighty Quick <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">5</container>
+            <unittitle>Mountain <unitdate type="inclusive" normal="1969/1970">1969-1970</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">5</container>
+            <unittitle>Mr. Stress Blues Band <unitdate type="inclusive" normal="1968/1969">1968-1969</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">5</container>
+            <unittitle>The Muffs <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">5</container>
+            <unittitle>The Nickelplate Express <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">5</container>
+            <unittitle>The Odds and Ends <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">5</container>
+            <unittitle>The Ohio Power</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">5</container>
+            <unittitle>The Ones <unitdate type="inclusive" normal="1967">1967</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">5</container>
+            <unittitle>Orange Fuzz <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">5</container>
+            <unittitle>Ormandy <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Our Mother's Children</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Contracts <unitdate type="inclusive" normal="1967/1969">1967-1969</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>General <unitdate type="inclusive" normal="1967/1968">1967-1968</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>
+                <genreform normal="Photographs">Photographs</genreform>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">5</container>
+            <unittitle>The Pack <unitdate type="inclusive" normal="1968/1970">1968-1970</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">5</container>
+            <unittitle>Phenomena <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Plain Brown Wrapper</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Contracts <unitdate type="inclusive" normal="1969/1970">1969-1970</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>General <unitdate type="inclusive" normal="1969/1970">1969-1970</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>
+                <genreform normal="Photographs">Photographs</genreform>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">5</container>
+            <unittitle>The Prime Movers <unitdate type="inclusive" normal="1966">1966</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">5</container>
+            <unittitle>Procol Harum</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">5</container>
+            <unittitle>Promise</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">5</container>
+            <unittitle>Proud Flesh</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">5</container>
+            <unittitle>The Rain <unitdate type="inclusive" normal="1967/1968">1967-1968</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">5</container>
+            <unittitle>The Rainmakers <unitdate type="inclusive" normal="1967">1967</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>The Rationals</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Articles and Clippings <unitdate type="inclusive" normal="1966/1970">1966-1970</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Concert Flyers</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Concert Notes</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>General <unitdate type="inclusive" normal="1966/1970">1966-1970</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>
+                <genreform normal="Photographs">Photographs</genreform>
+              </unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">5</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1967">1967</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">5</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1968-04">April 1968</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">5</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1968-06">June 1968</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">5</container>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">2 folders</extent>
+                </physdesc>
+                <unittitle>General</unittitle>
+                <physdesc altrender="whole">
+                  </physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">5</container>
+                <unittitle>Copy Art</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">5</container>
+                <unittitle>Negatives and proof sheets</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Schedules <unitdate type="inclusive" normal="1965/1967">1965-1967</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Scot's Pirates <unitdate type="inclusive" normal="1992">1992</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Set Lists</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Radio Charts <unitdate type="inclusive" normal="1966/1970">1966-1970</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">6</container>
+            <unittitle>Rare Earth <unitdate type="inclusive" normal="1970/1972">1970-1972</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">6</container>
+            <unittitle>Rascals <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">6</container>
+            <unittitle>Lou Rawls</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Red White and Blues Band</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">6</container>
+              <unittitle>Contracts <unitdate type="inclusive" normal="1969/1970">1969-1970</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">6</container>
+              <unittitle>General <unitdate type="inclusive" normal="1968/1969">1968-1969</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">6</container>
+              <unittitle>
+                <genreform normal="Photographs">Photographs</genreform>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">6</container>
+            <unittitle>Richmond <unitdate type="inclusive" normal="1969/1970">1969-1970</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">6</container>
+            <unittitle>Linda Ronstadt <unitdate type="inclusive" normal="1971">1971</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">6</container>
+            <unittitle>Rush <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">6</container>
+            <unittitle>Mitch Ryder</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">6</container>
+            <unittitle>St. Louis Union <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">6</container>
+            <unittitle>Salvage <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">6</container>
+            <unittitle>The Sand <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Savage Grace</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">6</container>
+              <unittitle>Articles and Clippings <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">6</container>
+              <unittitle>Concert Flyers</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">6</container>
+              <unittitle>Contracts <unitdate type="inclusive" normal="1969/1970">1969-1970</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">6</container>
+              <unittitle>General <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">6</container>
+              <unittitle>
+                <genreform normal="Photographs">Photographs</genreform>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">6</container>
+              <unittitle>Radio Charts <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">6</container>
+            <unittitle>Scarecrow</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">6</container>
+            <unittitle>The Second Rush <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">6</container>
+            <unittitle>Bob Seger <unitdate type="inclusive" normal="1967/1968">1967-1968</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Shakey Jake</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">6</container>
+              <unittitle>Concert Flyers</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">6</container>
+              <unittitle>Contracts <unitdate type="inclusive" normal="1968/1970">1968-1970</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">6</container>
+              <unittitle>General <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">6</container>
+              <unittitle>
+                <genreform normal="Photographs">Photographs</genreform>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">6</container>
+            <unittitle>Small Faces <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Sky</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">6</container>
+              <unittitle>Concert Flyers</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">6</container>
+              <unittitle>Contracts <unitdate type="inclusive" normal="1969/1970">1969-1970</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">6</container>
+              <unittitle>General <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">6</container>
+              <unittitle>
+                <genreform normal="Photographs">Photographs</genreform>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">6</container>
+            <unittitle>Southwind <unitdate type="inclusive" normal="1971">1971</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>SRC (Scott Richards Case)</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">6</container>
+              <unittitle>Articles and Clippings <unitdate type="inclusive" normal="1967/1970">1967-1970</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">6</container>
+              <unittitle>Blue Scepter</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">6</container>
+              <unittitle>Concert Flyers</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">6</container>
+              <unittitle>Contracts <unitdate type="inclusive" normal="1969/1970">1969-1970</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">6</container>
+              <unittitle>General <unitdate type="inclusive" normal="1969/1971">1969-1971</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>
+                <genreform normal="Photographs">Photographs</genreform>
+              </unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">6</container>
+                <unittitle>Large</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">6</container>
+                <unittitle>Small</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">6</container>
+              <unittitle>Radio Charts <unitdate type="inclusive" normal="1967/1969">1967-1969</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">6</container>
+            <unittitle>Cat Stevens <unitdate type="inclusive" normal="1967/1973">1967-1973</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">6</container>
+            <unittitle>Stoney and Meatloaf <unitdate type="inclusive" normal="1971">1971</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>The Stooges</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">6</container>
+              <unittitle>Articles and Clippings <unitdate type="inclusive" normal="1969/1970">1969-1970</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">6</container>
+              <unittitle>Concert flyers</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">6</container>
+              <unittitle>Contracts <unitdate type="inclusive" normal="1968/1969">1968-1969</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">6</container>
+              <unittitle>Fan club</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">6</container>
+              <unittitle>General <unitdate type="inclusive" normal="1968/1970">1968-1970</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">6</container>
+              <unittitle>
+                <genreform normal="Photographs">Photographs</genreform>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">6</container>
+            <unittitle>Stuart Avery Assemblage</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Sun</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">6</container>
+              <unittitle>Contracts <unitdate type="inclusive" normal="1969/1970">1969-1970</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">6</container>
+              <unittitle>General <unitdate type="inclusive" normal="1969/1970">1969-1970</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">6</container>
+              <unittitle>
+                <genreform normal="Photographs">Photographs</genreform>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">6</container>
+            <unittitle>Sunday Funnies <unitdate type="inclusive" normal="1969/1971">1969-1971</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">6</container>
+            <unittitle>The Talismen <unitdate type="inclusive" normal="1967">1967</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">6</container>
+            <unittitle>Target <unitdate type="inclusive" normal="1968/1969">1968-1969</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">6</container>
+            <unittitle>Tate Blues Band <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">6</container>
+            <unittitle>The Tea <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Teegarden and VanWinkle</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>Articles and Clippings <unitdate type="inclusive" normal="1969/1971">1969-1971</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>General <unitdate type="inclusive" normal="1968/1970">1968-1970</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>
+                <genreform normal="Photographs">Photographs</genreform>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>Radio charts <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>Three Dog Night</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Thyme</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>
+                <genreform normal="Photographs">Photographs</genreform>
+              </unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">7</container>
+                <unittitle>Copy Art</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">7</container>
+                <unittitle>General</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">7</container>
+                <unittitle>Laminated</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">7</container>
+                <unittitle>Negatives</unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>Tiers <unitdate type="inclusive" normal="1968/1969">1968-1969</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>The Toad <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>Touchstone</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>Tribal Sinfonia <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>The Troyes <unitdate type="inclusive" normal="1966/1968">1966-1968</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>Underground Wall <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>Unrelated Segments <unitdate type="inclusive" normal="1967/1968">1967-1968</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>The UP</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>Concert flyers</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>Contracts <unitdate type="inclusive" normal="1967/1970">1967-1970</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>General <unitdate type="inclusive" normal="1968/1971">1968-1971</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>
+                <genreform normal="Photographs">Photographs</genreform>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>Press Releases <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Virgin Dawn</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>Concert flyers</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>Contracts <unitdate type="inclusive" normal="1969/1970">1969-1970</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>General <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>
+                <genreform normal="Photographs">Photographs</genreform>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>Toby Wesselfox <unitdate type="inclusive" normal="1969/1970">1969-1970</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>Whiz Kids <unitdate type="inclusive" normal="1971">1971</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>The Who</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>General <unitdate type="inclusive" normal="1969/1975">1969-1975</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>
+                <genreform normal="Photographs">Photographs</genreform>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Wilson Mower Pursuit</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>Concert flyers</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>Contracts <unitdate type="inclusive" normal="1968/1970">1968-1970</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>General <unitdate type="inclusive" normal="1968/1970">1968-1970</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>Loy Norrix High School <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>
+                <genreform normal="Photographs">Photographs</genreform>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>Johnny Winter</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>The Woolies <unitdate type="inclusive" normal="1969/1972">1969-1972</unitdate></unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Personal Files</unittitle>
+        </did>
+        <scopecontent>
+          <p>Personal Files (Late 1940s/Early 1950s-1998, 2.5 linear feet) are comprised of papers documenting Jeep's personal life. The series includes personal correspondence, general papers, and papers from Jeep's youth such as school assignments, projects, and grades.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <unittitle>Correspondence</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>Adcock, Bob <unitdate type="inclusive" normal="1968/1969">1968-1969</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>Alyta <unitdate type="inclusive" normal="1961/1962">1961-1962</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>Anne <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>Apple, Jim <unitdate type="inclusive" normal="1962">1962</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>Betsy <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>Chase, Tippi <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>Cotton, Betty <unitdate type="inclusive" normal="1975/1978">1975-1978</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>Cuthberson, Cynthia <unitdate type="inclusive" normal="1961/1962">1961-1962</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>Fischer, Connie <unitdate type="inclusive" normal="1960">1960</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>Fricker, Bobbi <unitdate type="inclusive" normal="1965">1965</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>High School Friends <unitdate type="inclusive" normal="1961">1961</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>Holland, Francis Jr. (Jomp) <unitdate type="inclusive" normal="1962">1962</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>Holiday Cards</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>Kaiser, Jon <unitdate type="inclusive" normal="1964/1968">1964-1968</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>Karen <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>Kays, Marilyn <unitdate type="inclusive" normal="1961/1962">1961-1962</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>Kerry, Elaine <unitdate type="inclusive" normal="1972">1972</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Kessler, Dennis <unitdate type="inclusive" normal="1978/1980">1978-1980</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Krinkle <unitdate type="inclusive" normal="1971/1972">1971-1972</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Lucille <unitdate type="inclusive" normal="1961/1962">1961-1962</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Maggie <unitdate type="inclusive" normal="1968/1969">1968-1969</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Marsha <unitdate type="inclusive" normal="1967/1968">1967-1968</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
+              </physdesc>
+              <unittitle>Miscellaneous</unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Parents <unitdate type="inclusive" normal="1961/1975">1961-1975</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Prochniak, Sue <unitdate type="inclusive" normal="1966/1967">1966-1967</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Ric <unitdate type="inclusive" normal="1969/1970">1969-1970</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Sedlarik, Carol <unitdate type="inclusive" normal="1967/1969">1967-1969</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Sheri <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Simpson, Lynn <unitdate type="inclusive" normal="1971/1973">1971-1973</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Sivek, Sue <unitdate type="inclusive" normal="1970/1972">1970-1972</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Stahl, Rick <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Wade, Dianne <unitdate type="inclusive" normal="1970/1972">1970-1972</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Waz <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>General Files</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Address directory</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Album collection</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Alexander, Ice <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Allopenna, Karen <unitdate type="inclusive" normal="1971">1971</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Bills etc. <unitdate type="inclusive" normal="1961/1962">1961-1962</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Car documents <unitdate type="inclusive" normal="1967/1980">1967-1980</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Cotton, Betty <unitdate type="inclusive" normal="1977">1977</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Derlen, Ronnie <unitdate type="inclusive" normal="1972">1972</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Diamond Comics <unitdate type="inclusive" normal="1989/1990">1989-1990</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Drawings</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Eberline, Bill <unitdate type="inclusive" normal="1969/1975">1969-1975</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Fabulous Furry Freak Brothers</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>"Grit Noise and Revolution"</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Jordan, Will <unitdate type="inclusive" normal="1970/1971">1970-1971</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Little Nemo</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Kaiser, Jon <unitdate type="inclusive" normal="1973/1974">1973-1974</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Marriage <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>McKinney, Sharon <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Memorial</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">8</container>
+                <unittitle>General <unitdate type="inclusive" normal="1998">1998</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">8</container>
+                <unittitle>Obituaries <unitdate type="inclusive" normal="1998">1998</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">8</container>
+                <unittitle>Stories <unitdate type="inclusive" normal="1998">1998</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Miscellaneous</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
+              </physdesc>
+              <unittitle>Newspaper clippings</unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Optner, Jim</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Parents <unitdate type="inclusive" normal="1987">1987</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>
+                <genreform normal="Posters">Posters</genreform>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">9</container>
+              <unittitle>Promotional Materials</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">9</container>
+                <unittitle>Memorabilia</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">9</container>
+                <unittitle><genreform normal="Photographs">Photographs</genreform>, etc.</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">9</container>
+              <unittitle>Ryder rental <unitdate type="inclusive" normal="1971">1971</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">9</container>
+              <unittitle>Simpson, Lynn</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">9</container>
+              <unittitle>Standard oil <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">9</container>
+              <unittitle>Taxes <unitdate type="inclusive" normal="1985/1996">1985-1996</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">9</container>
+              <unittitle>Telethons <unitdate type="inclusive" normal="1977/1979">1977-1979</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">9</container>
+              <unittitle>Unemployment <unitdate type="inclusive" normal="1975/1976">1975-1976</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">9</container>
+              <unittitle>Wetmore, Bruce <unitdate type="inclusive" normal="1970/1971">1970-1971</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Youth</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">9</container>
+              <unittitle>Assorted Event Programs <unitdate type="inclusive" normal="1956/1961">1956-1961</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">9</container>
+              <unittitle>Assorted Holiday Cards</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">9</container>
+              <unittitle>Boy Scouts <unitdate type="inclusive" normal="1953/1955">1953-1955</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">9</container>
+              <unittitle>Camp Al Gon Quian <unitdate type="inclusive" normal="1955/1957">1955-1957</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">9</container>
+              <unittitle>Miscellaneous</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">9</container>
+              <unittitle>Newspaper Clippings</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">9</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
+              </physdesc>
+              <unittitle>Early childhood artwork</unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">9</container>
+              <unittitle>Elementary school assignments</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Junior High School</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">9</container>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">2 folders</extent>
+                </physdesc>
+                <unittitle>Assignments</unittitle>
+                <physdesc altrender="whole">
+                  </physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">9</container>
+                <unittitle>"Character Book"</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">9</container>
+                <unittitle>Newspaper, "East Lansing Junior Highlights," <unitdate type="inclusive" normal="1956">1956</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>High School</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">9</container>
+                <unittitle>Assignments</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">9</container>
+                <unittitle>Diploma <unitdate type="inclusive" normal="1961">1961</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">9</container>
+                <unittitle>Grades <unitdate type="inclusive" normal="1957/1959">1957-1959</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">9</container>
+                <unittitle>Graduation <unitdate type="inclusive" normal="1961">1961</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">9</container>
+                <unittitle>Graduation Scrapbook <unitdate type="inclusive" normal="1961">1961</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">10</container>
+                <unittitle>National Merit Scholars <unitdate type="inclusive" normal="1960/1961">1960-1961</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">10</container>
+                <unittitle>Newspaper, "The Trojan Trumpet," <unitdate type="inclusive" normal="1955/1956">1955-1956</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">10</container>
+                <unittitle>
+                  <genreform normal="Posters">Posters</genreform>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">10</container>
+                <unittitle>Yearbooks <unitdate type="inclusive" normal="1956">1956</unitdate>, <unitdate type="inclusive" normal="1957">1957</unitdate>, <unitdate type="inclusive" normal="1959">1959</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>Student Council</unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">10</container>
+                  <unittitle>Correspondence <unitdate type="inclusive" normal="1960">1960</unitdate></unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">10</container>
+                  <physdesc altrender="whole">
+                    <extent altrender="materialtype spaceoccupied">3 folders</extent>
+                  </physdesc>
+                  <unittitle>Meeting Materials</unittitle>
+                  <physdesc altrender="whole">
+                    </physdesc>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">10</container>
+                  <unittitle>Notebooks</unittitle>
+                </did>
+              </c05>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>College</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">10</container>
+                <unittitle>Administrative Correspondence <unitdate type="inclusive" normal="1963/1966">1963-1966</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">10</container>
+                <unittitle>Grades <unitdate type="inclusive" normal="1962/1965">1962-1965</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">10</container>
+                <unittitle>Miscellaneous</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">10</container>
+                <unittitle>Newspaper Clippings <unitdate type="inclusive" normal="1962">1962</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Realia</unittitle>
+        </did>
+        <scopecontent>
+          <p>Realia (Late 1960s-Early 1970s, 1 folder) is comprised of promotional buttons that were made for the various bands Jeep worked with at A-Square.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">10</container>
+            <unittitle>Buttons</unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>
+            <genreform normal="Sound recordings">Sound Recordings</genreform>
+          </unittitle>
+        </did>
+        <scopecontent>
+          <p>Sound Recordings (1969-1993, .25 linear feet) is comprised primarily of 45 rpm singles from various bands that worked with A-Square Records. Additionally, it contains a CD compilation of songs released on the A-Square label in the late 1960s.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">10</container>
+            <unittitle>A-Square Compilation</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Brownsville Station</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">10</container>
+              <unittitle>"Rock &amp; Roll Holiday," (B side; "Jailhouse Rock) <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">10</container>
+              <unittitle>"That's Fine," (B side; "Tell Me All About It")</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">10</container>
+            <unittitle>Catfish, "Down in the Flood," (B side; "Witchcraft")</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">10</container>
+            <unittitle>Commander Cody and the Lost Planet Airmen, "Watch My .38," (B side; "Semi-Truck") <unitdate type="inclusive" normal="1973">1973</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">10</container>
+            <unittitle>Mr. Curt, "Write Down Your Number," (B side; "I'm Going Blind") <unitdate type="inclusive" normal="1978">1978</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">10</container>
+            <unittitle>Ray Paul, "Lady Be Mine Tonight," (B side; "Hold It") <unitdate type="inclusive" normal="1977">1977</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">10</container>
+            <unittitle>Plain Brown Wrapper, "Stretch Out Your Hand," (B side; "Stretch Out Your Hand (2)")</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">10</container>
+            <unittitle>Rain like the Sound of Trains, "Bad Man's Grave," (B side; "Cookin With Anger") <unitdate type="inclusive" normal="1993">1993</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">10</container>
+            <unittitle>The UP, "Just Like and Aborigine," (B side; "Hassan I Sabbah") <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Miscellaneous</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">10</container>
+              <unittitle>"A Hard Days Night before Christmas"</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">10</container>
+              <unittitle>"Kocaine Karma"</unittitle>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Visual</unittitle>
+        </did>
+        <scopecontent>
+          <p>Visual (1943-1998, 2.25 linear feet) consists of visual resources such as photographs of Jeep, photographs of Jeep's friends, photos from Jeep's childhood, and photos of various A-Square, Universal Artists, and Diamond Comics personalities and functions. The series also contains scrapbooks detailing Jeep's childhood, and one of the bands he worked with, The Rationals. In addition, there is one outsize box containing an unbound scrapbook concerning The Rationals, three concert posters, and one large portrait of Jeep from when he was in high school.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">10</container>
+            <unittitle>Laminated Newspaper Clippings</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <genreform normal="Photographs">Photographs</genreform>
+            </unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">10</container>
+              <unittitle>Gibb, Russ</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">10</container>
+              <unittitle>High School Friends</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Jeep photographs</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <unittitle>Assorted photos</unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">10</container>
+                  <unittitle>
+                    <unitdate type="inclusive" normal="1960/1979" certainty="approximate">1960s-1970s</unitdate>
+                  </unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">10</container>
+                  <unittitle>
+                    <unitdate type="inclusive" normal="1970/1989" certainty="approximate">1970s-1980s</unitdate>
+                  </unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">10</container>
+                  <unittitle>
+                    <unitdate type="inclusive" normal="1980/1999" certainty="approximate">1980s-1990s</unitdate>
+                  </unittitle>
+                </did>
+              </c05>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">10</container>
+                <unittitle>Jeep with celebrities</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">10</container>
+                <unittitle>Childhood</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">11</container>
+                <unittitle>Memorial</unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">11</container>
+                  <unittitle>Gathering <unitdate type="inclusive" normal="1998">1998</unitdate></unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">11</container>
+                  <unittitle>Young Jeep album</unittitle>
+                </did>
+              </c05>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Laminated photos</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">11</container>
+                <unittitle>Large</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">11</container>
+                <unittitle>Small</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">11</container>
+              <unittitle>Marsha</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Miscellaneous</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">11</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1965/1975">late 1960s-early 1970s</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">11</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1970/1989" certainty="approximate">1970s-1980s</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">11</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1980/1999" certainty="approximate">1980s-1990s</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">11</container>
+              <unittitle>Perrine, Pep</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">11</container>
+              <unittitle>Proof Sheets</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">11</container>
+              <unittitle>Slides</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">11</container>
+              <unittitle>Tiboni, Joe</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Scrapbooks</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>California <unitdate type="inclusive" normal="1958">1958</unitdate></unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">11</container>
+                <unittitle>Autographs</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">11</container>
+                <unittitle>Brochures</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">11</container>
+                <unittitle>Disneyland</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">11</container>
+                <unittitle>Miscellaneous</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>
+                  <genreform normal="Photographs">Photographs</genreform>
+                </unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">11</container>
+                  <unittitle>Beach/High school friends</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">11</container>
+                  <unittitle>Disneyland</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">11</container>
+                  <unittitle>Miscellaneous</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">11</container>
+                  <unittitle>Sight seeing</unittitle>
+                </did>
+              </c05>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">11</container>
+                <unittitle>Ticket stubs</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Childhood</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <unittitle>
+                  <genreform normal="Photographs">Photographs</genreform>
+                </unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">11</container>
+                  <unittitle>Boy Scout camp/vacation</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unittitle>Camp Al Gon Quian</unittitle>
+                </did>
+                <c06 level="file">
+                  <did>
+                    <container type="box" label="Box">11</container>
+                    <unittitle>Large</unittitle>
+                  </did>
+                </c06>
+                <c06 level="file">
+                  <did>
+                    <container type="box" label="Box">11</container>
+                    <unittitle>Small</unittitle>
+                  </did>
+                </c06>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">11</container>
+                  <unittitle>Miscellaneous</unittitle>
+                </did>
+              </c05>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Rationals Unofficial Scrapbook</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">11</container>
+                <unittitle>Concert flyers</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">11</container>
+                <unittitle>Miscellaneous</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">11</container>
+                <unittitle>Newspaper clippings</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>
+                  <genreform normal="Photographs">Photographs</genreform>
+                </unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">11</container>
+                  <unittitle>Large</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">11</container>
+                  <unittitle>Small</unittitle>
+                </did>
+              </c05>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">11</container>
+                <unittitle><genreform normal="Photographs">Photograph</genreform> collage</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">11</container>
+                <unittitle>Radio charts <unitdate type="inclusive" normal="1966/1968">1966-1968</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">11</container>
+              <unittitle>Snapshots <unitdate type="inclusive" normal="1943/1945">1943-1945</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>Diamond Comics, "The Diamond Way"</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>The Rationals, "In the Beginning"</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">13</container>
+              <unittitle>The Rationals scrapbook</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Other Visual Materials</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">13</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">3 posters</extent>
+              </physdesc>
+              <unittitle>Concert <genreform normal="Posters">Posters</genreform></unittitle>
+              <physdesc>
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">13</container>
+              <unittitle>Jeep portrait</unittitle>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

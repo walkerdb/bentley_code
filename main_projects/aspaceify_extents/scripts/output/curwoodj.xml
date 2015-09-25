@@ -1,0 +1,4159 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead.dtd">
+<ead>
+  <eadheader audience="internal" langencoding="iso639-2b" repositoryencoding="iso15511" dateencoding="iso8601" relatedencoding="Dublin Core">
+    <eadid countrycode="us" mainagencycode="MiU-H" publicid="-//us::MiU-H//TEXT us::MiU-H::curwoodj.xml//EN" encodinganalog="identifier">umich-bhl-851315</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="title">Finding Aid for James Oliver Curwood papers, 1897-1927</titleproper>
+        <author encodinganalog="creator">Collection processed and Finding aid prepared by Larry Steck, 1974, Ken Varnum, 1994, Ann Flowers, 1989</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="publisher">Bentley Historical Library, University of Michigan</publisher>
+        <date encodinganalog="date">1997</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created by Greg Kinney <date>Dec. 1997</date></creation>
+      <langusage>The finding aid is written in <language encodinganalog="language" langcode="eng">English.</language></langusage>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date>20150609</date>
+        <item>Added written notes from paper finding aid.</item>
+      </change>
+      <change>
+        <date>20031001</date>
+        <item>Converted to EAD2002 using Word macro and Xmetal</item>
+      </change>
+      <change>
+        <date>2000-02-14</date>
+        <item>added dao with href values 851315, 1-5</item>
+      </change>
+      <change>
+        <date>1999-06-09</date>
+        <item>Converted to EAD version 1.0 using WORD 6 macro and some hand tagging and converted to new container style.</item>
+      </change>
+      <change>
+        <date>06/10/1998</date>
+        <item>controllaccess terms with attribute values set added</item>
+      </change>
+      <change>
+        <date>March 1998</date>
+        <item>original encoding from Word 6.0 file that had been converted from old Word 5 doc without stylesheet. some changes made in f.a., order of papers and film listing reversed, each treated as a "subgroup")</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <frontmatter>
+    <titlepage>
+      <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
+      <titleproper>Finding Aid for <lb/>James Oliver Curwood papers, 1897-1927</titleproper>
+      <author>Finding aid prepared by: <lb/>Larry Steck, 1974. <lb/>Kenneth J. Varnum, Conger Accession, 1994. <lb/>Ann Flowers, 1989, reprocessed in preparation for microfilming.</author>
+    </titlepage>
+  </frontmatter>
+  <archdesc level="collection" type="inventory" audience="external" relatedencoding="MARC21">
+    <did>
+      <origination>
+        <persname encodinganalog="100" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n50020530">Curwood, James Oliver, 1878-1927.</persname>
+      </origination>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">1 oversize folder</extent>
+        <physfacet>UAm</physfacet>
+      </physdesc>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">1 oversize volume</extent>
+      </physdesc>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">9 boxes</extent>
+      </physdesc>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">14 microfilm reels</extent>
+      </physdesc>
+      <unittitle encodinganalog="245">James Oliver Curwood papers <unitdate encodinganalog="245$f" type="inclusive" normal="1897/1927">1897-1927</unitdate></unittitle>
+      <physdesc encodinganalog="300">
+        </physdesc>
+      <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">851315 Aa 2 UAm</unitid>
+      <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
+      <abstract>Michigan based author of adventure stories set in Alaska and Canada, screen writer and motion picture executive, and conservationist, a founding member of Izaak Walton League and member of Michigan Conservation Commission. Papers documenting his literary, film and conservation activities include manuscripts of books, screenplays and other writing and correspondence and photographs.</abstract>
+      <repository>
+        <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea> University of Michigan</corpname>
+        <extptr href="bhladd" show="embed" actuate="onload"/>
+      </repository>
+    </did>
+    <descgrp type="admin">
+      <acqinfo encodinganalog="541">
+        <p>The collection was donated in 4 accessions: 1974 and 1977, by Mrs. Carlotta Curwood Tate (Donor No. <num encodinganalog="541$e" type="donor">5549</num>), daughter of James Oliver Curwood; 1994 by Ivan Conger</p>
+      </acqinfo>
+      <accessrestrict encodinganalog="506">
+        <p>The collection is open for research.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+        <p>Reserved by Carlotta Curwood Tate in her lifetime.</p>
+      </userestrict>
+      <altformavail>
+        <p>The Curwood papers have been microfilmed with the exception of several printed. works. This finding aid provides both a reel list for the microfilm edition and a box list for the original papers. The Curwood papers were filmed by University Microfilms International in 1990.</p>
+      </altformavail>
+      <prefercite encodinganalog="524">
+        <p>item, folder title, reel no., James Oliver Curwood, Bentley Historical Library, University of Michigan</p>
+      </prefercite>
+    </descgrp>
+    <bioghist encodinganalog="545">
+      <p>The papers, 1897-1927, of James Oliver Curwood include correspondence; scrapbooks; and manuscripts of articles, books, and movie scenarios. The correspondence, arranged chronologically, deals primarily with three topics: that from 1897 to 1918 relates largely to Curwood's literary efforts; that from 1918 to 1921 concerns a mixture of literary and motion picture matters; and that from 1921 to 1927 focuses on conservation in Michigan.</p>
+      <p>Curwood, a contemporary and acquaintance of Zane Grey and Jack London, wrote adventure tales of the frozen north. His collection encompasses not only his major literary works, but also the numerous articles that he wrote for such magazines as Redbook, Cosmopolitan, Collier's, Munsey's, Outing, and Everybody's Magazine. During the second decade of this century, Curwood got involved in the infant motion picture industry, first as a writer for other companies and later as the head of James Oliver Curwood Productions. Consequently, his extensive correspondence with producers, directors, and business managers is quite revealing of the early development of movies.</p>
+      <p>In the 1920's, Curwood became deeply involved with the conservation movement, not only in Michigan, but throughout the mid-west. He was a charter member and active participant in the Izaak Walton League, as well as a prominent critic of the Michigan Department of Conservation under John Baird. In 1927, Governor Green recognized Curwood's efforts by naming him to the Conservation Commission. His correspondence during this period covers a wide range of topics including water pollution, forest fire prevention, sport fishery development, and increased protection for some of Michigan's dwindling wildlife, principally deer and partridge. There is also a great deal of information on the corruption of the Baird administration, particularly the political nature of warden appointments, lax enforcement and flagrant disregard of game laws, and the utilization of the Conservation Department to build up a Republican political machine in Michigan.</p>
+      <p>Correspondents in the collection include: Rube Babbitt, John Baird, Curtis Brown, Will H. Dilg, Russell Doubleday, Richard Fletcher, Andrew Glaspie, Fred Warren Green, David M. Hartford, Carl Hubbs, Harold C. Kinsey, Ray Long, Parish Lovejoy, Thomas Marston, Louis Mayer, Joseph Montrose, Charles Mott, Gifford Pinchot, Filibert Roth, Albert Stoll, Harold Titus, Arthur H. Vandenberg, Edward Voght, Henry Wallace, Russell Watson, Leigh Jarvis Young, and Frederic H. Zeigen. Note: other Curwood papers are located in the Indianapolis Public Library and the New York Public Library.</p>
+    </bioghist>
+    <arrangement encodinganalog="351">
+      <p>The James Oliver Curwood papers are arranged in thirteen series
+        <list type="simple"><item>Correspondence, 1899-1933</item><item>Miscellaneous Notes and Articles</item><item>Clippings</item><item>Manuscripts of Books</item><item>Manuscripts of Writings</item><item>Fragments of Writings</item><item>Movie Scenarios</item><item>Stenographers Notes, 1925-1927</item><item>Photographs</item><item>Miscellaneous Printed Items</item><item>Foreign Language Editions</item><item>"The Curwood Collector, 1972-1982"</item><item>Printed Works (not included in microfilm edition)</item></list>
+        This finding aid provides a complete contents list for both the original papers and the microfilm edition of the Curwood papers.
+      </p>
+    </arrangement>
+    <scopecontent encodinganalog="520">
+      <p>The James Oliver Curwood papers include correspondence, newspaper clippings, scrapbooks, manuscripts of publications, copies of books, and miscellanea; include material concerning his literary activities, the writing and production of motion pictures, his promotion of conservation causes, especially forest fire prevention, deer herd management, and the campaign against water pollution, and his work with the Conservation Commission, particularly his disputes with the Michigan Department of Conservation, Governor Alexander J. Groesbeck, and state director of conservation, John Baird; also copies of correspondence collected by Ivan Conger.</p>
+      <p>Photographs include pictures taken on hunting and fishing trips to British Columbia, the Canadian Northwest, and other areas of Canada; portraits; and photos of the Saginaw River (Michigan), and of pollution caused by the Michigan Sugar Company; also one film (two videotape copies), including scenes from <title render="italic">God's Country and the Law</title>.</p>
+    </scopecontent>
+    <controlaccess>
+      <p>
+        <extptr href="accnote" show="embed" actuate="onload"/>
+      </p>
+      <controlaccess>
+        <head>Subjects:</head>
+        <subject source="lcsh" encodinganalog="650">Authors, American--Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650">Conservation of natural resources--Michigan.</subject>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50020530">Curwood, James Oliver, 1878-1927.</persname>
+        <subject source="lcsh" encodinganalog="650">Forest fires--Michigan.</subject>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2008187813">Groesbeck, Alexander J., 1873-1953.</persname>
+        <subject source="lcsh" encodinganalog="650">Hunting.</subject>
+        <corpname source="lcnaf" encodinganalog="610">Michigan. Dept. of Conservation.</corpname>
+        <geogname source="local" encodinganalog="691">Michigan--Politics and government--1922-1928.</geogname>
+        <subject source="lcsh" encodinganalog="650">Motion picture industry.</subject>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n85081790.html">Owosso (Mich.)</geogname>
+        <subject source="lcsh" encodinganalog="650">Water.</subject>
+      </controlaccess>
+      <controlaccess>
+        <head>Contributors:</head>
+        <persname source="lcnaf" encodinganalog="700">Babbitt, Rube S.</persname>
+        <persname source="lcnaf" encodinganalog="700">Baird, John, 1860-</persname>
+        <persname source="lcnaf" encodinganalog="700">Brown, Curtis.</persname>
+        <persname source="lcnaf" encodinganalog="700">Conger, Ivan.</persname>
+        <persname source="lcnaf" encodinganalog="700">Dilg, Will H.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/nb99031419">Doubleday, Russell, 1872-1949.</persname>
+        <corpname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n85138304">Essanay Film Manufacturing Co.</corpname>
+        <persname source="lcnaf" encodinganalog="700">Fletcher, Richard H.</persname>
+        <persname source="lcnaf" encodinganalog="700">Glaspie, Andrew Bird, 1876-</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008183293">Green, Fred Warren, 1872-1936.</persname>
+        <persname source="lcnaf" encodinganalog="700">Hartford, David M.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79103735">Hubbs, Carl L. (Carl Leavitt), 1894-1979.</persname>
+        <persname source="lcnaf" encodinganalog="700">Kinsey, Harold C.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n86071920">Long, Ray, 1878-1935.</persname>
+        <persname source="lcnaf" encodinganalog="700">Lovejoy, Parrish Storrs, 1884-1942.</persname>
+        <persname source="lcnaf" encodinganalog="700">Marston, Thomas Frank, 1869-</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n81018659">Mayer, Louis B. (Louis Burt), 1885-1957.</persname>
+        <corpname source="lcnaf" encodinganalog="700">Michigan. State Park Commission.</corpname>
+        <persname source="lcnaf" encodinganalog="700">Montrose, Joseph.</persname>
+        <persname source="lcnaf" encodinganalog="700">Mott, Charles S., 1875-1973.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n78097059">Pinchot, Gifford, 1865-1946.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2006038285">Roth, Filibert, 1858-1925.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2007031315">Stoll, Albert, 1884-</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2008175553">Titus, Harold, 1888-1967.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50045033">Vandenberg, Arthur H. (Arthur Hendrick), 1884-1951.</persname>
+        <persname source="lcnaf" encodinganalog="700">Voght, Edward C.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50024243">Wallace, Henry Cantwell, 1866-1924.</persname>
+        <persname source="lcnaf" encodinganalog="700">Watson, Russell, 1891-</persname>
+        <persname source="lcnaf" encodinganalog="700">Young, Leigh Jarvis, 1883-1960.</persname>
+        <persname source="lcnaf" encodinganalog="700">Zeigen, Frederic H., 1874-</persname>
+      </controlaccess>
+      <controlaccess>
+        <head>Genre/Form:</head>
+        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655">Scrapbooks.</genreform>
+        <genreform source="aat" encodinganalog="655">Videotapes.</genreform>
+      </controlaccess>
+      <controlaccess>
+        <head>Subjects - Visual materials:</head>
+        <subject source="lctgm" encodinganalog="650">Animals.</subject>
+        <subject source="lctgm" encodinganalog="650">Camping.</subject>
+        <geogname source="lcsh" encodinganalog="651">Canada.</geogname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50020530">Curwood, James Oliver, 1878-1927.</persname>
+        <subject source="lctgm" encodinganalog="650">Dogsleds.</subject>
+        <subject source="lctgm" encodinganalog="650">Fishing--Canada.</subject>
+        <subject source="lctgm" encodinganalog="650">Hunting--Canada.</subject>
+        <subject source="lctgm" encodinganalog="650">Indians of North America--Domestic life.</subject>
+        <subject source="lctgm" encodinganalog="650">Log cabins.</subject>
+        <subject source="lctgm" encodinganalog="650">Lumber industry.</subject>
+        <corpname source="lcnaf" encodinganalog="610">Michigan Sugar Company.</corpname>
+        <subject source="lctgm" encodinganalog="650">Pollution.</subject>
+        <geogname source="lcsh" encodinganalog="651">Saginaw River (Mich.)</geogname>
+        <subject source="lctgm" encodinganalog="650">Women.</subject>
+      </controlaccess>
+    </controlaccess>
+    <dsc type="combined">
+      <c01 level="subgrp">
+        <did>
+          <unittitle>Microfilm Edition</unittitle>
+        </did>
+        <c02 level="series">
+          <did>
+            <unittitle>Correspondence and other papers</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1897/1906">1897-1906</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1907">1907</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1908">1908</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1909">1909</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1910-01/1910-06">January-June 1910</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1910-07/1910-12">July-December 1910</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1911">1911</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1912">1912</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1913-01/1913-06">January-June 1913</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1913-07/1913-12">July-December 1913</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1914-01/1914-05">January-May 1914</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1914-06/1914-09">June-September 1914</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1914-10/1914-12">October-December 1914</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1915">1915</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1916/1917">1916-1917</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1918-01/1918-06">January-June 1918</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1918-07/1918-12">July-December 1918</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1919-01/1919-04">January-April 1919</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1919-05/1919-06">May-June 1919</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1919-07/1919-10">July-October 1919</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1919-11/1919-12">November-December 1919</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1920-01">January 1920</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1920-02">February 1920</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1920-03">March 1920</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1920-04">April 1920</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1920-05">May 1920</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">2</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1920-06">June 1920</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">2</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1920-07">July 1920</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">2</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1920-08/1920-09">August-September 1920</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">2</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1920-10">October 1920</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">2</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1920-11/1920-12">November-December 1920</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">2</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1921-01">January 1921</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">2</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1921-02/1921-03">February-March 1921</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">2</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1921-04/1921-05">April-May 1921</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">2</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1921-06/1921-07">June-July 1921</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">2</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1921-08">August 1921</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">2</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1921-09">September 1921</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">2</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1921-10">October 1921</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">2</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1921-11">November 1921</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">2</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1921-12-01/1921-12-15">December 1-15, 1921</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">2</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1921-12-16/1921-12-31">December 16-31, 1921</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">2</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1922-01-01/1922-01-15">January 1-15, 1922</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">2</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1922-01-16/1922-01-30">January 16-30, 1922</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">2</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1922-02-01/1922-02-15">February 1-15, 1922</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">2</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1922-02-16/1922-02-27">February 16-27, 1922</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">2</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1922-03-01/1922-03-15">March 1-15, 1922</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">2</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1922-03-16/1922-03-31">March 16-31, 1922</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">2</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1922-04">April 1922</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">2</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1922-05/1922-06">May-June 1922</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">2</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1922-07/1922-08">July-August 1922</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">3</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1922-09">September 1922</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">3</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1922-10">October 1922</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">3</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1922-11">November 1922</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">3</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1922-12-01/1922-12-15">December 1-15, 1922</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">3</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1922-12-16/1922-12-31">December 16-31, 1922</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">3</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1923-01-01/1923-01-15">January 1-15, 1923</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">3</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1923-01-16/1923-01-31">January 16-31, 1923</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">3</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1923-02-01/1923-02-15">February 1-15, 1923</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">3</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1923-02-16/1923-02-28">February 16-28, 1923</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">3</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1923-03">March 1923</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">3</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1923-04">April 1923</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">3</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1923-05/1923-07">May-July 1923</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">3</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1923-08/1923-12">August-December 1923</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">3</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1924">1924</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">3</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1925">1925</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">3</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1926-01/1926-06">January-June 1926</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">3</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1926-07">July 1926</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">3</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1926-08/1926-09">August-September 1926</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">3</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1926-10/1926-12">October-December 1926</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">3</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1927-01-01/1927-01-15">January 1-15, 1927</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">3</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1927-01-16/1927-01-31">January 16-31, 1927</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">4</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1927-02/1927-03">February-March 1927</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">4</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1927-04/1927-05">April-May 1927</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">4</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1927-06-01/1927-06-20">June 1-20, 1927</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">4</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1927-06-21/1927-06-30">June 21-30, 1927</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">4</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1927-07-01/1927-07-15">July 1-15, 1927</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">4</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1927-07-16/1927-07-31">July 16-31, 1927</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">4</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1927-08/1927-10">August-October 1927</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">4</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1932/1933">1932-1933</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">4</container>
+              <unittitle>
+                <unitdate type="inclusive">Undated</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Correspondence with publisher, Bobbs-Merrill Co.</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container label="Roll" type="reel">4</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1908/1909">1908-1909</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Roll" type="reel">4</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1910">1910</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Roll" type="reel">4</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1911/1915">1911-1915</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Roll" type="reel">4</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1919/1920">1919-1920</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="series">
+          <did>
+            <unittitle>Miscellaneous Notes and Articles</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">4</container>
+              <unittitle>Royalty statements and a contract</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">4</container>
+              <unittitle>Pen sketch, Curwood Castle</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">4</container>
+              <unittitle>Correspondence and clippings concerning bobbed hair <unitdate normal="1926/1927">1926-1927</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">4</container>
+              <unittitle>Conservation, memos</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">4</container>
+              <unittitle>Conservation, miscellaneous</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">4</container>
+              <unittitle>Depositions concerning corruption of game warden John Speck in <unitdate type="inclusive" normal="1919">1919</unitdate>, <unitdate normal="1921">1921</unitdate>, <unitdate normal="1922">1922</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">4</container>
+              <unittitle>Speech texts</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">5</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">7 folders</extent>
+              </physdesc>
+              <unittitle>Research materials and article ideas</unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">5</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
+              </physdesc>
+              <unittitle>Notes on Alaska</unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">5</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">4 folders</extent>
+              </physdesc>
+              <unittitle>Manuscript articles</unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">6</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">4 folders</extent>
+              </physdesc>
+              <unittitle>Printed articles</unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="series">
+          <did>
+            <unittitle>Clippings</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">6</container>
+              <unittitle>Biographical</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">6</container>
+              <unittitle>Conservation <unitdate normal="1922/1927">undated 1922 1926 and 1927</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">6</container>
+              <unittitle>Scrapbook <unitdate normal="1921/1927">1921-1927</unitdate></unittitle>
+            </did>
+            <odd>
+              <p>detailing Curwood's interest in conservation, particularly his political disputes with Governor Groesbeck and state director of conservation, John Baird</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Literary</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container label="Roll" type="reel">6</container>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">2 volumes</extent>
+                </physdesc>
+                <unittitle>
+                  <unitdate normal="1909/1909">1909-1909</unitdate>
+                </unittitle>
+                <physdesc altrender="whole">
+                  </physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Roll" type="reel">6</container>
+                <unittitle>Concerning The Honor of the Big Snows <unitdate normal="1911">1911</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Roll" type="reel">6</container>
+                <unittitle>
+                  <unitdate normal="1913">1913</unitdate>
+                  <unitdate normal="1925">1925</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Roll" type="reel">6</container>
+                <unittitle>Concerning The Wolf Hunters <unitdate normal="1926">1926</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Roll" type="reel">6</container>
+                <unittitle>Concerning The Black Hunter <unitdate normal="1926">1926</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">6</container>
+              <unittitle>Movie publicity</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="series">
+          <did>
+            <unittitle>Manuscripts of books</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">7</container>
+              <unittitle><title render="italic">The Alaskan</title>, <unitdate type="inclusive" normal="1923">1923</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">7</container>
+              <unittitle><title render="italic">The Ancient Highway</title>, <unitdate normal="1925">1925</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">7</container>
+              <unittitle><title render="italic">The Black Hunter</title>, <unitdate normal="1927">1927</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">8</container>
+              <unittitle>
+                <title render="italic">The Country Beyond</title>
+              </unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container label="Roll" type="reel">8</container>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">2 drafts</extent>
+                </physdesc>
+                <unittitle>Short story #1: "Peter - Just Dog"</unittitle>
+                <physdesc>
+                  </physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Roll" type="reel">8</container>
+                <unittitle>Short story #2:</unittitle>
+                <physdesc>(last page only)</physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Roll" type="reel">8</container>
+                <unittitle>Short story #3: "Honor - and the Outlaw"</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Roll" type="reel">8</container>
+                <unittitle>Short story #7: (no title)</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Roll" type="reel">8</container>
+                <unittitle>Fragments of novel: chapters VI, VII, VIII, IX, XI, XIII, XVIII, XIX, XX, XXI, XXII, and XXIII</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">8</container>
+              <unittitle><title render="italic">The Courage of Captain Plum</title>, <unitdate normal="1908">1908</unitdate></unittitle>
+            </did>
+            <odd>
+              <p>(originally Strang)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">8</container>
+              <unittitle><title render="italic">The Crippled Lady of Peribonka</title>, <unitdate normal="1929">1929</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">8</container>
+              <unittitle><title render="italic">The Flaming Forest</title>, <unitdate normal="1921">1921</unitdate></unittitle>
+            </did>
+            <odd>
+              <p>(originally Strength of Men)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle><title render="italic">A Gentleman of Courage</title>, <unitdate normal="1924">1924</unitdate></unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container label="Roll" type="reel">8</container>
+                <unittitle>Short story #1: "The Tragedy at Five Fingers"</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Roll" type="reel">8</container>
+                <unittitle>Short story #2: "Peter"</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Roll" type="reel">8</container>
+                <unittitle>Short story #3: "A Gentleman of Courage"</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Roll" type="reel">8</container>
+                <unittitle>Short story #4: "When the Gray Geese Race"</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Roll" type="reel">8</container>
+                <unittitle>Short story #5: "The Broken Man" or "Out of the Forest Shadows" two drafts)</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Roll" type="reel">8</container>
+                <unittitle>Short story #6: (untitled)</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Roll" type="reel">8</container>
+                <unittitle>Short story #7: "There Is a God!" (two drafts)</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Roll" type="reel">8</container>
+                <unittitle>Fragments of novel: chapters XIII, XIV, and XXII-end</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">8</container>
+              <unittitle>
+                <title render="italic">The Glory of Living</title>
+              </unittitle>
+            </did>
+            <odd>
+              <p>(autobiography published only in England, from which <title render="italic">Son of the Forests</title>,1930, was derived)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">9</container>
+              <unittitle><title render="italic">The Golden Snare</title>, <unitdate normal="1921">1921</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">9</container>
+              <unittitle><title render="italic">Nomads of the North</title>, <unitdate normal="1919">1919</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle><title render="italic">The Plains of Abraham</title>, <unitdate normal="1928">1928</unitdate></unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container label="Roll" type="reel">9</container>
+                <unittitle>Curwood's notes</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Roll" type="reel">9</container>
+                <unittitle>First four chapters</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Roll" type="reel">9</container>
+                <unittitle>Entire novel</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">9</container>
+              <unittitle><title render="italic">The River's End</title>, <unitdate normal="1919">1919</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">10</container>
+              <unittitle><title render="italic">Swift Lightning</title>, 1919 and 1926</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container label="Roll" type="reel">10</container>
+                <unittitle>Short story #1: "Swift Lightning"</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Roll" type="reel">10</container>
+                <unittitle>Short story #2: "The Hungry Horde"</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Roll" type="reel">10</container>
+                <unittitle>Short story #3: "The Hunger Madness"</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Roll" type="reel">10</container>
+                <unittitle>Short story #4: "A Message to his Master"</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Roll" type="reel">10</container>
+                <unittitle>Short story #5: "The Mating of Swift Lightning"</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Roll" type="reel">10</container>
+                <unittitle>Short story #6: "Swift Lightning Runs Alone"</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Roll" type="reel">10</container>
+                <unittitle>Short story #7: "The Deluge"</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Roll" type="reel">10</container>
+                <unittitle>Short story #8: "In the Lives of Beasts"</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Roll" type="reel">10</container>
+                <unittitle>Short story #9: "The Civilizing of Swift Lightning"</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Roll" type="reel">10</container>
+                <unittitle>Draft of novel</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">10</container>
+              <unittitle><title render="italic">The Valley of Silent Men</title>, 1920</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="series">
+          <did>
+            <unittitle>Manuscripts of writings</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">10</container>
+              <unittitle>"l'Ange of Lac Brochet"</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">10</container>
+              <unittitle>"Peggy the Pirate"</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">10</container>
+              <unittitle>"The Red Sagamore's Hidden Treasure" (handwritten)</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">10</container>
+              <unittitle>"The Rebel Quintelle" or "The Ranger of the Florida Keys", 1894 (handwritten, with addenda)</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">10</container>
+              <unittitle>"Rocky Mountain Boys" or "The Skeleton Cave" (handwritten)</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">10</container>
+              <unittitle>"Senor Valentino - a Cuban Romance" (handwritten as a young boy)</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">10</container>
+              <unittitle>"Trail of Gold"</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="series">
+          <did>
+            <unittitle>Fragments of manuscripts</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">11</container>
+              <unittitle>"Green Timber"</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">11</container>
+              <unittitle>"Isobel"</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">11</container>
+              <unittitle><title render="italic">Kazan</title>, short story #6: "The Feud"</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">11</container>
+              <unittitle><title render="italic">Nomads of the North</title>: "The Fight at Fort o'God"</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">11</container>
+              <unittitle>Miscellaneous fragments of stories, and political, autobiographical, and conservation writings</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="series">
+          <did>
+            <unittitle>Movie scenarios</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">11</container>
+              <unittitle>
+                <title render="italic">The Big Adventure</title>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">11</container>
+              <unittitle><title render="italic">Get There Conniston</title> (originally <title render="italic">A Nice QuietTime</title>) (two drafts)</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">11</container>
+              <unittitle>
+                <title render="italic">The Lady of Rugni</title>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">11</container>
+              <unittitle>
+                <title render="italic">Little Miss Tired-of-it-All</title>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">11</container>
+              <unittitle><title render="italic">The Little Yankee</title> or <title render="italic">The Under-Dog</title> or <title render="italic">The Sea- Breed</title> or <title render="italic">The Admiral's Daughter</title> (adapted from the story <title render="italic">The Admiral's Daughter</title>)</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">11</container>
+              <unittitle>
+                <title render="italic">The Man of Vengeance</title>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">11</container>
+              <unittitle>
+                <title render="italic">A Matter of Ancestry or The Governor's Wife</title>
+              </unittitle>
+            </did>
+            <odd>
+              <p>(two drafts)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle><title render="italic">Nomads of the North</title>, <unitdate normal="1919">1919</unitdate></unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container label="Roll" type="reel">11</container>
+                <unittitle>Memo from Curwood to Messrs. Carver, Hartford, Shipman, and Gardner <unitdate normal="1919-10-08">October 8, 1919</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Roll" type="reel">11</container>
+                <unittitle>Working synopsis written by Curwood</unittitle>
+              </did>
+              <odd>
+                <p>(two versions, two slightly different copies of each)</p>
+              </odd>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Roll" type="reel">11</container>
+                <unittitle>Animal action</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">11</container>
+              <unittitle><title render="italic">The River's End</title>, <unitdate normal="1919">1919</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">11</container>
+              <unittitle>The Unforgettable Crime</unittitle>
+            </did>
+            <odd>
+              <p>(with other titles also)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>
+                <title render="italic">The Yellow-Back</title>
+              </unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container label="Roll" type="reel">11</container>
+                <unittitle>Curwood's notes to accompany scenario</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Roll" type="reel">11</container>
+                <unittitle>Scenario</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Roll" type="reel">11</container>
+                <unittitle>Synopsis</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Roll" type="reel">11</container>
+                <unittitle>Story</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Roll" type="reel">11</container>
+                <unittitle>Copy of synopsis for David Hartford</unittitle>
+              </did>
+              <odd>
+                <p>(missing pages 45-70)</p>
+              </odd>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="series">
+          <did>
+            <unittitle>Stenographer's notes</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">12</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">10 pads</extent>
+              </physdesc>
+              <unittitle>1925-1927</unittitle>
+              <physdesc>
+                </physdesc>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="series">
+          <did>
+            <unittitle>Photographs</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">13</container>
+              <unittitle>Portraits</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">13</container>
+              <unittitle>Ethel Curwood</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">13</container>
+              <unittitle>Cabins, exteriors and interiors</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">13</container>
+              <unittitle>Camps</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">13</container>
+              <unittitle>Canoes and boats</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">13</container>
+              <unittitle>Catholic churches in Arctic, bishop on dogsled</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">13</container>
+              <unittitle>Farming and ranching</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">13</container>
+              <unittitle>Fishing</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">13</container>
+              <unittitle>Hunting and trapping</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">13</container>
+              <unittitle>Hunting trophies</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">13</container>
+              <unittitle>Indians</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">13</container>
+              <unittitle>Lumbering</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">13</container>
+              <unittitle>Mountains</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">13</container>
+              <unittitle>Movie stills</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">13</container>
+              <unittitle>Pack horses</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">13</container>
+              <unittitle>Saginaw River pollution</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">13</container>
+              <unittitle>Transportation, miscellaneous, including railroads and dogsleds</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">13</container>
+              <unittitle>Trip to Teddy Brown's</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">13</container>
+              <unittitle>Wildlife</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">13</container>
+              <unittitle>Miscellaneous</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="series">
+          <did>
+            <unittitle>Miscellaneous printed items</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">13</container>
+              <unittitle>Cutter, John C. <title render="italic">Intermediate Anatomy, Physiology and Hygiene.</title> Philadelphia: J.B. Lippincott Co., 1887</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">13</container>
+              <unittitle><title render="italic">Harper's Fifth Reader: American Authors.</title> New York: Harper &amp; Brothers, 1889</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">13</container>
+              <unittitle>Willson, Marcius. <title render="italic">Outlines of History.</title> New York: Ivison &amp; Phinney, 1854</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="series">
+          <did>
+            <unittitle>Foreign Language Editions</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">14</container>
+              <unittitle><title render="italic">Grizli</title>, <unitdate normal="1964">1964</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">14</container>
+              <unittitle><title render="italic">Hrabar Dzentlmen</title>, <unitdate normal="1964">1964</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">14</container>
+              <unittitle><title render="italic">Kapetan Plum</title>, <unitdate normal="1964">1964</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">14</container>
+              <unittitle><title render="italic">Kazan, volcji pes</title>, <unitdate normal="1962">1962</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">14</container>
+              <unittitle><title render="italic">Kocovnici Severu</title>, <unitdate normal="1962">1962</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">14</container>
+              <unittitle><title render="italic">Kral sedych medvedu</title>, <unitdate normal="1967">1967</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">14</container>
+              <unittitle><title render="italic">Lutalice Sa Severa</title>, <unitdate normal="1965">1965</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">14</container>
+              <unittitle><title render="italic">Medvjedic Niva</title>, <unitdate normal="1967">1967</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">14</container>
+              <unittitle><title render="italic">Na Kraju Sveta</title>, <unitdate normal="1964">1964</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">14</container>
+              <unittitle><title render="italic">Nomades du Nord</title>, <title render="italic">Un Gentleman Courageux</title>, <title render="italic">La Piste du Bonheur</title>, 1968</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="series">
+          <did>
+            <unittitle>"The Curwood Collector", published and edited by Ivan Conger, Owosso, Michigan</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">14</container>
+              <unittitle>Volume I, no. 1 1972</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">14</container>
+              <unittitle>Volume I, no. 2 1972</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">14</container>
+              <unittitle>Volume I, no. 3 1972</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">14</container>
+              <unittitle>Volume II, no. 4 1973</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">14</container>
+              <unittitle>Volume II, no. 1 1973</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">14</container>
+              <unittitle>Volume II. no. 2 1973</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">14</container>
+              <unittitle>Volume II, no. 3 1974</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">14</container>
+              <unittitle>Volume II, no. 4 1973</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">14</container>
+              <unittitle>Volume III, no. 1 1975</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">14</container>
+              <unittitle>Volume III, no. 2 1975</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">14</container>
+              <unittitle>Volume III, no. 3 1976</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">14</container>
+              <unittitle>Volume III, no. 4 1977</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">14</container>
+              <unittitle>Volume IV, no.1 and 2 May 1978</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">14</container>
+              <unittitle>Volume IV, no. 3 and 4 May 1979</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">14</container>
+              <unittitle>Volume IV, no. 1 March 1980</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">14</container>
+              <unittitle>Volume V, no. 2 April 1980</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Roll" type="reel">14</container>
+              <unittitle>Volume V, no. 3 and 4 February 1982</unittitle>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+      <c01 level="subgrp">
+        <did>
+          <unittitle>Paper Originals</unittitle>
+        </did>
+        <c02 level="series">
+          <did>
+            <unittitle>Correspondence and other papers</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1897/1906">1897-1906</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1907">1907</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1908">1908</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1909">1909</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1910-01/1910-06">January-June 1910</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1910-07/1910-12">July-December 1910</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1911">1911</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1912">1912</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1913-01/1913-06">January-June 1913</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1913-07/1913-12">July-December 1913</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1914-01/1914-05">January-May 1914</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1914-06/1914-09">June-September 1914</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1914-10/1914-12">October-December 1914</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1915">1915</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1916/1917">1916-1917</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1918-01/1918-06">January-June 1918</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1918-07/1918-12">July-December 1918</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1919-01/1919-04">January-April 1919</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1919-05/1919-06">May-June 1919</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1919-07/1919-10">July-October 1919</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1919-11/1919-12">November-December 1919</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1920-01">January 1920</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1920-02">February 1920</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1920-03">March 1920</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1920-04">April 1920</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1920-05">May 1920</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1920-06">June 1920</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1920-07">July 1920</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1920-08/1920-09">August-September 1920</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1920-10">October 1920</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1920-11/1920-12">November-December 1920</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1921-01">January 1921</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1921-02/1921-03">February-March 1921</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1921-04/1921-05">April-May 1921</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1921-06/1921-07">June-July 1921</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1921-08">August 1921</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1921-09">September 1921</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1921-10">October 1921</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1921-11">November 1921</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1921-12-01/1921-12-15">December 1-15, 1921</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1921-12-16/1921-12-31">December 16-31, 1921</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1922-01-01/1922-01-15">January 1-15, 1922</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1922-01-16/1922-01-30">January 16-30, 1922</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1922-02-01/1922-02-15">February 1-15, 1922</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1922-02-16/1922-02-27">February 16-27, 1922</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1922-03-01/1922-03-15">March 1-15, 1922</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1922-03-16/1922-03-31">March 16-31, 1922</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1922-04">April 1922</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1922-05/1922-06">May-June 1922</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1922-07/1922-08">July-August 1922</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1922-09">September 1922</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1922-10">October 1922</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">2</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1922-11">November 1922</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">2</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1922-12-01/1922-12-15">December 1-15, 1922</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">2</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1922-12-16/1922-12-31">December 16-31, 1922</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">2</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1923-01-01/1923-01-15">January 1-15, 1923</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">2</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1923-01-16/1923-01-31">January 16-31, 1923</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">2</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1923-02-01/1923-02-15">February 1-15, 1923</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">2</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1923-02-16/1923-02-28">February 16-28, 1923</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">2</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1923-03">March 1923</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">2</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1923-04">April 1923</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">2</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1923-05/1923-07">May-July 1923</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">2</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1923-08/1923-12">August-December 1923</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">2</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1924">1924</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">2</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1925">1925</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">2</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1926-01/1926-06">January-June 1926</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">2</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1926-07">July 1926</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">2</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1926-08/1926-09">August-September 1926</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">2</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1926-10/1926-12">October-December 1926</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">2</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1927-01-01/1927-01-15">January 1-15, 1927</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">2</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1927-01-16/1927-01-31">January 16-31, 1927</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">2</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1927-02/1927-03">February-March 1927</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">2</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1927-04/1927-05">April-May 1927</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">2</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1927-06-01/1927-06-20">June 1-20, 1927</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">2</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1927-06-21/1927-06-30">June 21-30, 1927</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">2</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1927-07-01/1927-07-15">July 1-15, 1927</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">2</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1927-07-16/1927-07-31">July 16-31, 1927</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">2</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1927-08/1927-10">August-October 1927</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">2</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1932/1933">1932-1933</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">2</container>
+              <unittitle>
+                <unitdate type="inclusive">Undated</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Correspondence with publisher, Bobbs-Merrill Co.</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container label="Box" type="box">2</container>
+                <unittitle>
+                  <unitdate normal="1908/1909">1908-1909</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Box" type="box">2</container>
+                <unittitle>
+                  <unitdate normal="1910">1910</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Box" type="box">2</container>
+                <unittitle>
+                  <unitdate normal="1911/1915">1911-1915</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Box" type="box">2</container>
+                <unittitle>
+                  <unitdate normal="1919/1920">1919-1920</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Correspondence with Garrett Reitberg, Grand Rapids baseball player <unitdate type="inclusive" normal="1924/1925">1924-1925</unitdate></unittitle>
+            </did>
+            <odd>
+              <p>(from donor no. <num encodinganalog="541$e" type="donor">4082</num></p>
+            </odd>
+          </c03>
+        </c02>
+        <c02 level="series">
+          <did>
+            <unittitle>Miscellaneous Notes and Articles</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">2</container>
+              <unittitle>Royalty statements and a contract</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">3</container>
+              <unittitle>Pen sketch, Curwood Castle</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">3</container>
+              <unittitle>Correspondence and clippings concerning bobbed hair <unitdate normal="1926/1927">1926-1927</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">3</container>
+              <unittitle>Conservation, memos</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">3</container>
+              <unittitle>Conservation, miscellaneous</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">3</container>
+              <unittitle>Depositions of 1921 and 1922 concerning corruption of game warden John Speck in 1919</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">3</container>
+              <unittitle>Speech texts</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">3</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">7 folders</extent>
+              </physdesc>
+              <unittitle>Research materials and article ideas</unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">3</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
+              </physdesc>
+              <unittitle>Notes on Alaska</unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">3</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">4 folders</extent>
+              </physdesc>
+              <unittitle>Manuscript articles</unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">3</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">4 folders</extent>
+              </physdesc>
+              <unittitle>Printed articles</unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="series">
+          <did>
+            <unittitle>Clippings</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">3</container>
+              <unittitle>Biographical</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">3</container>
+              <unittitle>Conservation <unitdate normal="1922/1927">undated 1922 1926 and 1927</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Literary</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container label="Box" type="box">3</container>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">2 volumes</extent>
+                </physdesc>
+                <unittitle>
+                  <unitdate normal="1909/1909">1909-1909</unitdate>
+                </unittitle>
+                <physdesc altrender="whole">
+                  </physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Box" type="box">3</container>
+                <unittitle>Concerning The Honor of the Big Snows <unitdate normal="1911">1911</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Box" type="box">3</container>
+                <unittitle>
+                  <unitdate normal="1913">1913</unitdate>
+                  <unitdate normal="1925">1925</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Box" type="box">3</container>
+                <unittitle>Concerning The Wolf Hunters <unitdate normal="1926">1926</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Box" type="box">3</container>
+                <unittitle>Concerning The Black Hunter <unitdate normal="1926">1926</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">3</container>
+              <unittitle>Movie publicity</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">AC</container>
+              <unittitle>Scrapbook <unitdate normal="1921/1927">1921-1927</unitdate></unittitle>
+            </did>
+            <odd>
+              <p>detailing Curwood's interest in conservation, particularly his political disputes with Governor Groesbeck and state director of conservation, John Baird</p>
+            </odd>
+          </c03>
+        </c02>
+        <c02 level="series">
+          <did>
+            <unittitle>Manuscripts of books</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">4</container>
+              <unittitle><title render="italic">The Alaskan</title>, <unitdate normal="1923">1923</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">4</container>
+              <unittitle><title render="italic">The Ancient Highway</title>, <unitdate normal="1925">1925</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">4</container>
+              <unittitle><title render="italic">The Black Hunter</title>, <unitdate normal="1927">1927</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>The Country Beyond</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container label="Box" type="box">4</container>
+                <unittitle>Short story #1: "Peter - Just Dog" (2 drafts)</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Box" type="box">4</container>
+                <unittitle>Short story #2: (last page only)</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Box" type="box">4</container>
+                <unittitle>Short story #3: "Honor - and the Outlaw"</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Box" type="box">4</container>
+                <unittitle>Short story #7: (no title)</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Box" type="box">4</container>
+                <unittitle>Fragments of novel: chapters VI, VII, VIII, IX, XI, XIII, XVIII, XIX, XX, XXI, XXII, and XXIII</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">4</container>
+              <unittitle><title render="italic">The Courage of Captain Plum</title>, <unitdate normal="1908">1908</unitdate></unittitle>
+            </did>
+            <odd>
+              <p>(originally Strang)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">4</container>
+              <unittitle><title render="italic">The Crippled Lady of Peribonka</title>, <unitdate normal="1929">1929</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">4</container>
+              <unittitle><title render="italic">The Flaming Forest</title>, <unitdate normal="1921">1921</unitdate></unittitle>
+            </did>
+            <odd>
+              <p>(originally Strength of Men)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle><title render="italic">A Gentleman of Courage</title>, <unitdate normal="1924">1924</unitdate></unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container label="Box" type="box">4</container>
+                <unittitle>Short story #1: "The Tragedy at Five Fingers"</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Box" type="box">4</container>
+                <unittitle>Short story #2: "Peter"</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Box" type="box">4</container>
+                <unittitle>Short story #3: "A Gentleman of Courage"</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Box" type="box">4</container>
+                <unittitle>Short story #4: "When the Gray Geese Race"</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Box" type="box">4</container>
+                <unittitle>Short story #5: "The Broken Man" or "Out of the Forest Shadows" two drafts)</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Box" type="box">4</container>
+                <unittitle>Short story #6: (untitled)</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Box" type="box">4</container>
+                <unittitle>Short story #7: "There Is a God!" (two drafts)</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Box" type="box">4</container>
+                <unittitle>Fragments of novel: chapters XIII, XIV, and XXII-end</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">4</container>
+              <unittitle>
+                <title render="italic">The Glory of Living</title>
+              </unittitle>
+            </did>
+            <odd>
+              <p>(autobiography published only in England, from which Son of the Forests, 1930, was derived)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">4</container>
+              <unittitle><title render="italic">The Golden Snare</title>, <unitdate normal="1921">1921</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">4</container>
+              <unittitle><title render="italic">Nomads of the North</title>, <unitdate normal="1919">1919</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">5</container>
+              <unittitle><title render="italic">The Plains of Abraham</title>, <unitdate normal="1928">1928</unitdate></unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container label="Box" type="box">5</container>
+                <unittitle>Curwood's notes</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Box" type="box">5</container>
+                <unittitle>First four chapters</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Box" type="box">5</container>
+                <unittitle>Entire novel</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">5</container>
+              <unittitle><title render="italic">The River's End</title>, <unitdate normal="1919">1919</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Swift Lightning, 1919 and 1926</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container label="Box" type="box">5</container>
+                <unittitle>Short story #1: "Swift Lightning"</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Box" type="box">5</container>
+                <unittitle>Short story #2: "The Hungry Horde"</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Box" type="box">5</container>
+                <unittitle>Short story #3: "The Hunger Madness"</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Box" type="box">5</container>
+                <unittitle>Short story #4: "A Message to his Master"</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Box" type="box">5</container>
+                <unittitle>Short story #5: "The Mating of Swift Lightning"</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Box" type="box">5</container>
+                <unittitle>Short story #6: "Swift Lightning Runs Alone"</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Box" type="box">5</container>
+                <unittitle>Short story #7: "The Deluge"</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Box" type="box">5</container>
+                <unittitle>Short story #8: "In the Lives of Beasts"</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Box" type="box">5</container>
+                <unittitle>Short story #9: "The Civilizing of Swift</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Box" type="box">5</container>
+                <unittitle>Lightning"</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Box" type="box">5</container>
+                <unittitle>Draft of novel</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">5</container>
+              <unittitle><title render="italic">The Valley of Silent Men</title>, <unitdate normal="1920">1920</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="series">
+          <did>
+            <unittitle>Manuscripts of writings</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">5</container>
+              <unittitle>"l'Ange of Lac Brochet"</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">5</container>
+              <unittitle>"Peggy the Pirate"</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">5</container>
+              <unittitle>"The Red Sagamore's Hidden Treasure" (handwritten)</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">5</container>
+              <unittitle>"The Rebel Quintelle" or "The Ranger of the Florida Keys", 1894 (handwritten, with addenda)</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">5</container>
+              <unittitle>"Rocky Mountain Boys" or "The Skeleton Cave"(handwritten)</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">5</container>
+              <unittitle>"Senor Valentino - a Cuban Romance" (handwritten as a young boy)</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">5</container>
+              <unittitle>"Trail of Gold"</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="series">
+          <did>
+            <unittitle>Fragments of manuscripts</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">5</container>
+              <unittitle>"Green Timber"</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">5</container>
+              <unittitle>"Isobel"</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">5</container>
+              <unittitle><title render="italic">Kazan</title>, short story #6: "The Feud"</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">5</container>
+              <unittitle><title render="italic">Nomads of the North</title>: "The Fight at Fort o'God"</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">5</container>
+              <unittitle>Miscellaneous fragments of stories, and political, autobiographical, and conservation writings</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="series">
+          <did>
+            <unittitle>Movie scenarios</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">5</container>
+              <unittitle>
+                <title render="italic">The Big Adventure</title>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">5</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 drafts</extent>
+              </physdesc>
+              <unittitle><title render="italic">Get There Conniston</title> (originally <title render="italic">A Nice QuietTime</title>)</unittitle>
+              <physdesc>
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">5</container>
+              <unittitle>
+                <title render="italic">The Lady of Rugni</title>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">5</container>
+              <unittitle>
+                <title render="italic">Little Miss Tired-of-it-Al</title>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">5</container>
+              <unittitle><title render="italic">The Little Yankee</title> or <title render="italic">The Under-Dog</title> or <title render="italic">The Sea- Breed</title> or <title render="italic">The Admiral's Daughter</title> (adapted from the story <title render="italic">The Admiral's Daughter</title>)</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">5</container>
+              <unittitle>
+                <title render="italic">The Man of Vengeance</title>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">5</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 drafts</extent>
+              </physdesc>
+              <unittitle>
+                <title render="italic">A Matter of Ancestry or The Governor's Wife</title>
+              </unittitle>
+              <physdesc>
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle><title render="italic">Nomads of the North</title>, <unitdate normal="1919">1919</unitdate></unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container label="Box" type="box">5</container>
+                <unittitle>Memo from Curwood to Messrs. Carver, Hartford, Shipman, and Gardner <unitdate normal="1919-10-08">October 8, 1919</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Box" type="box">5</container>
+                <unittitle>Working synopsis written by Curwood</unittitle>
+              </did>
+              <odd>
+                <p>(two versions, two slightly different copies of each)</p>
+              </odd>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Box" type="box">5</container>
+                <unittitle>Animal action</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">5</container>
+              <unittitle><title render="italic">The River's End</title>, <unitdate normal="1919">1919</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">5</container>
+              <unittitle>
+                <title render="italic">The Unforgettable Crime</title>
+              </unittitle>
+            </did>
+            <odd>
+              <p>(with other titles also)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>
+                <title render="italic">The Yellow-Back</title>
+              </unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container label="Box" type="box">5</container>
+                <unittitle>Curwood's notes to accompany scenario</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Box" type="box">5</container>
+                <unittitle>Scenario</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Box" type="box">5</container>
+                <unittitle>Synopsis</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Box" type="box">5</container>
+                <unittitle>Story</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Box" type="box">5</container>
+                <unittitle>Copy of synopsis for David Hartford</unittitle>
+              </did>
+              <odd>
+                <p>(missing pages 45-70)</p>
+              </odd>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="series">
+          <did>
+            <unittitle>Stenographer's notes</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">6</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">10 pads</extent>
+              </physdesc>
+              <unittitle>
+                <unitdate normal="1925/1927">1925-1927</unitdate>
+              </unittitle>
+              <physdesc>
+                </physdesc>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="series">
+          <did>
+            <unittitle>
+              <genreform normal="Photographs">Photographs</genreform>
+            </unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">6</container>
+              <unittitle>Portraits</unittitle>
+              <dao href="851315-1" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[view sample images]</p>
+                </daodesc>
+              </dao>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">6</container>
+              <unittitle>
+                <persname>Ethel Curwood</persname>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">6</container>
+              <unittitle>Cabins, exteriors and interiors</unittitle>
+              <dao href="851315-5" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[view sample images]</p>
+                </daodesc>
+              </dao>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">6</container>
+              <unittitle>Camps</unittitle>
+              <dao href="851315-4" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[view sample images]</p>
+                </daodesc>
+              </dao>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">6</container>
+              <unittitle>Canoes and boats</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">6</container>
+              <unittitle>Catholic churches in Arctic, bishop on dogsled</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">6</container>
+              <unittitle>Farming and ranching</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">6</container>
+              <unittitle>Fishing</unittitle>
+              <dao href="851315-2" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[view sample images]</p>
+                </daodesc>
+              </dao>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">6</container>
+              <unittitle>Hunting and trapping</unittitle>
+              <dao href="851315-3" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[view sample images]</p>
+                </daodesc>
+              </dao>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">6</container>
+              <unittitle>Hunting trophies</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">6</container>
+              <unittitle>Indians</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">6</container>
+              <unittitle>Lumbering</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">6</container>
+              <unittitle>Mountains</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">6</container>
+              <unittitle>Movie stills</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">6</container>
+              <unittitle>Pack horses</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">6</container>
+              <unittitle>Saginaw River pollution</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">6</container>
+              <unittitle>Transportation, miscellaneous, including railroads and dogsleds</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">6</container>
+              <unittitle>Trip to Teddy Brown's</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">6</container>
+              <unittitle>Wildlife</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">6</container>
+              <unittitle>Miscellaneous</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="series">
+          <did>
+            <unittitle>
+              <genreform normal="Motion pictures">Film</genreform>
+            </unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">6</container>
+              <unittitle>
+                <title render="italic">God's Country and the Law</title>
+              </unittitle>
+            </did>
+            <odd>
+              <p>(excerpts) [nitrate original discarded in 1987. VHS and U-Matic videotape copies available].</p>
+            </odd>
+          </c03>
+        </c02>
+        <c02 level="series">
+          <did>
+            <unittitle>Miscellaneous printed items</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">6</container>
+              <unittitle>Cutter, John C. <title render="italic">Intermediate Anatomy, Physiology and Hygiene</title>. Philadelphia: J.B. Lippincott Co., 1887</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">6</container>
+              <unittitle><title render="italic">Harper's Fifth Reader: American Authors.</title> New York: Harper &amp; Brothers, 1889</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">6</container>
+              <unittitle>Willson, Marcius. <title render="italic">Outlines of History.</title> New York: Ivison &amp; Phinney, 1854</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="series">
+          <did>
+            <unittitle>Printed Works</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">7</container>
+              <unittitle><title render="italic">The Alaskan</title>. New York: Cosmopolitan, 1923.</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">7</container>
+              <unittitle>
+                <bibref><title render="italic">The Ancient Highway</title>. New York: Cosmopolitan, 1925.</bibref>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">7</container>
+              <unittitle>
+                <bibref><title render="italic">Back to God's Country</title>. New York: Grosset &amp; Dunlap, 1920.</bibref>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">7</container>
+              <unittitle>
+                <bibref><title render="italic">Baree, Son of Kazan</title>. Garden City: Doubleday, Page, 1917.</bibref>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">7</container>
+              <unittitle>
+                <bibref><title render="italic">The Black Hunter.</title> New York: Cosmopolitan, 1926.</bibref>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">7</container>
+              <unittitle>
+                <bibref><title render="italic">The Country Beyond</title>. New York: Cosmopolitan, 1922.</bibref>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">7</container>
+              <unittitle>
+                <bibref><title render="italic">The Courage of Captain Plum</title>. New York: Grosset &amp; Dunlap, 1912.</bibref>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">7</container>
+              <unittitle>
+                <bibref><title render="italic">The Courage of Marge O'Doone</title>. New York: Grosset &amp; Dunlap, 1918.</bibref>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">7</container>
+              <unittitle>
+                <bibref><title render="italic">The Crippled Lady of Peribonka.</title> Garden City: Doubleday, Doran, 1929.</bibref>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">7</container>
+              <unittitle>
+                <bibref><title render="italic">The Danger Trail. New York</title>: Grosset &amp; Dunlap, 1910.</bibref>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">7</container>
+              <unittitle>
+                <bibref><title render="italic">Falkner of the Inland Seas</title>. New York: Books, Inc., 1944.</bibref>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">7</container>
+              <unittitle>
+                <bibref><title render="italic">The Flaming Forest. New York</title>: Cosmopolitan, 1921.</bibref>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">7</container>
+              <unittitle>
+                <bibref><title render="italic">Flower of the North</title>. New York: Harper &amp; Brothers, 1912.</bibref>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">7</container>
+              <unittitle>
+                <bibref><title render="italic">A Gentleman of Courage</title>. New York: Cosmopolitan, 1924.</bibref>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">7</container>
+              <unittitle>
+                <bibref>[<title render="italic">The Glory of Living</title>. New York: Aeonian Press, 1983.</bibref>
+              </unittitle>
+            </did>
+            <odd>
+              <p>Catalogued in DB2 C982 A13 (Reprint of edition of Curwood's autobiography, which may have been published before his death; book from which Son of the Forests, the American version, was derived.)].</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">7</container>
+              <unittitle>
+                <bibref><title render="italic">God's Country - and the Woman. Garden City</title>: Doubleday, Page, 1915.</bibref>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">7</container>
+              <unittitle>
+                <bibref><title render="italic">God's Country</title>. New York: Cosmopolitan, 1921.</bibref>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">7</container>
+              <unittitle>
+                <bibref><title render="italic">The Gold Hunters</title>. Indianapolis: Bobbs-Merrill, 1909.</bibref>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">7</container>
+              <unittitle>
+                <bibref><title render="italic">The Golden Snare</title>. New York: Grosset &amp; Dunlap, 1921.</bibref>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">7</container>
+              <unittitle>
+                <bibref>[<title render="italic">The Great Lakes</title>. New York: Putnam's, 1909.</bibref>
+              </unittitle>
+            </did>
+            <odd>
+              <p>Catalogued in EA 80 C982 G786]</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">7</container>
+              <unittitle>
+                <bibref><title render="italic">Green Timber.</title> New York: Grosset &amp; Dunlap, 1930.</bibref>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">7</container>
+              <unittitle>
+                <bibref><title render="italic">The Grizzly King.</title> Garden City: Doubleday, Page, 1923.</bibref>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">7</container>
+              <unittitle>
+                <bibref><title render="italic">The Honor of the Big Snows.</title> New York: Triangle Books, 1911.</bibref>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">8</container>
+              <unittitle>
+                <bibref><title render="italic">The Hunted Woman. Garden City</title>: Doubleday, Page, 1916.</bibref>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">8</container>
+              <unittitle>
+                <bibref><title render="italic">Isobel</title>. New York: Harper &amp; Brothers, 1913.</bibref>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">8</container>
+              <unittitle>
+                <bibref><title render="italic">Kazan.</title> New York: Grosset &amp; Dunlap, 1914.</bibref>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">8</container>
+              <unittitle>
+                <bibref><title render="italic">Kazan</title> excerpt in <title render="italic">My Story That I Like Best</title>, Edna Ferber et. al. New York: International Magazine Co., 1925.</bibref>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">8</container>
+              <unittitle>
+                <bibref><title render="italic">Nomads of the North</title>. Garden City: Doubleday, Page, 1919.</bibref>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">8</container>
+              <unittitle>
+                <bibref><title render="italic">Philip Steele of the Royal Mounted Police</title>. Indianapolis: Bobbs-Merrill, 1911.</bibref>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">8</container>
+              <unittitle>
+                <bibref><title render="italic">The Plains of Abraham.</title> Garden City: Doubleday, Doran, 1928.</bibref>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">8</container>
+              <unittitle>
+                <bibref><title render="italic">The River's End.</title> New York: Grosset &amp; Dunlap, 1919.</bibref>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">8</container>
+              <unittitle>
+                <bibref>[<title render="italic">Son of the Forests</title>. Garden City: Doubleday, Doran, 1930. Catalogued in DB2 C982 A12</bibref>
+              </unittitle>
+            </did>
+            <odd>
+              <p>(Derived, for publication in the United States, from The Glory of Living, which had only been published in England)].</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">8</container>
+              <unittitle>
+                <bibref><title render="italic">Swift Lightning</title>. New York: Grosset &amp; Dunlap, 1926. Two copies.</bibref>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">8</container>
+              <unittitle>
+                <bibref><title render="italic">The Valley of Silent Men.</title> New York: Cosmopolitan, 1920.</bibref>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">8</container>
+              <unittitle>
+                <bibref><title render="italic">The Wolf Hunters</title>. Indianapolis: Bobbs-Merrill, 1908.</bibref>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="series">
+          <did>
+            <unittitle>Foreign Language Editions</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">8</container>
+              <unittitle>
+                <bibref><title render="italic">Grizli</title>, 1964</bibref>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">8</container>
+              <unittitle>
+                <bibref><title render="italic">Hrabar Dzentlmen</title>, 1964</bibref>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">8</container>
+              <unittitle>
+                <bibref><title render="italic">Kapetan Plum</title> 1964.</bibref>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">8</container>
+              <unittitle>
+                <bibref><title render="italic">Kazan, volcji pes</title>, 1962</bibref>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">8</container>
+              <unittitle>
+                <bibref><title render="italic">Kocovnici Severu</title> 1962</bibref>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">8</container>
+              <unittitle>
+                <bibref><title render="italic">Kral sedych medvedu</title> 1967</bibref>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">8</container>
+              <unittitle>
+                <bibref><title render="italic">Lutalice Sa Severa</title> 1965</bibref>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">8</container>
+              <unittitle>
+                <bibref><title render="italic">Medvjedic Niva</title> 1967</bibref>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">8</container>
+              <unittitle>
+                <bibref><title render="italic">Na Kraju Sveta</title> 1964</bibref>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">8</container>
+              <unittitle>
+                <bibref><title render="italic">Nomades du Nord, Un Gentleman Courageux, La Piste du Bonheur</title>, 1968</bibref>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="series">
+          <did>
+            <unittitle>Ivan Conger Accession, 1994</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">9</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">3 folders</extent>
+              </physdesc>
+              <unittitle>Volume I <unitdate normal="1901-01-01/1920-12-01">1/1/1901-12/1/1920</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">9</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">3 folders</extent>
+              </physdesc>
+              <unittitle>Volume II <unitdate normal="1920-12-01/1921-12-31">12/1/1920-12/31/1921</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">9</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">3 folders</extent>
+              </physdesc>
+              <unittitle>Volume III <unitdate normal="1922-01-01/1923-12-31">1/1/1922-12/31/1923</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">9</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">3 folders</extent>
+              </physdesc>
+              <unittitle>Volume IV <unitdate normal="1921-01-01/1924-12-31">1/1/1921-12/31/1924</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">9</container>
+              <unittitle>Volume V <unitdate normal="1920/1929" certainty="approximate">1920s</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+    </dsc>
+    <descgrp type="add">
+      <index>
+        <head>Partial Index to Correspondents</head>
+        <indexentry>
+          <persname>Babbitt, Rube S.</persname>
+          <ref>
+            <list type="simple">
+              <item>July 7, 1922; December 21, 1926; January 8, January 20, March 19, 1927.</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Baird, John, 1860-</persname>
+          <ref>
+            <list type="simple">
+              <item>December 8, 1920; January 5, April 4, November 25, December 20, December 24, 1921; June 13, 1922; January 11, January 16, January 18, 1926.</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Brown, Curtis</persname>
+          <ref>
+            <list type="simple">
+              <item>February 9, March 5, April 14, May 19, June 2, July 1, 1914; February 2, February 16, March 9, March 22, 1915;</item>
+              <item>March 2, June 28, 1921.</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Dilg, Will H.</persname>
+          <ref>
+            <list type="simple">
+              <item>September 16, September 26, September 30, October 3, October 28, December 15, December 20, December 23, December 27, December 30, 1922; January 2, January 6, January 25, February 13, April 9, October 24, 1923;</item>
+              <item>February 26, April 5, 1924; June 19, June 29, July 10, July 17, August 30, September 7, November 20, 1926.</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Doubleday, Russell, 1872-1949</persname>
+          <ref>
+            <list type="simple">
+              <item>January 5, January 12, February 16, August 2, August 30, December 17, 1918.</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <corpname>Essanay Film Manufacturing Co.</corpname>
+          <ref>
+            <list type="simple">
+              <item>September 16, October 7, August 1, September 18, 1912;</item>
+              <item>February 18, April 4, May 2, October 24, November 6, 1913;</item>
+              <item>October 23, October 29, 1920.</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Fletcher, Richard H.</persname>
+          <ref>
+            <list type="simple">
+              <item>September 1, September 5, September 6, September 7, September 8, September 9, September 20, October 4, 1922.</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Glaspie, Andrew Bird, 1876-</persname>
+          <ref>
+            <list type="simple">
+              <item>January 3, 1922; March 14, 1923; December 14, December 18, December 26, 1926.</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Green, Fred Warren, 1872-1936</persname>
+          <ref>
+            <list type="simple">
+              <item>April 15, April 25, April 26, 1922; September 20, September 25, September 29, November 13, December 21, December 31, 1926; January 4, January 22, January 25, January 27, February 23, March 2, March 18, June 30, 1927.</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Hartford, David M.</persname>
+          <ref>
+            <list type="simple">
+              <item>November 1919-August 1921, throughout; October 4, October 10, December 22, 1921.</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Hubbs, Carl Leavitt, 1894-</persname>
+          <ref>
+            <list type="simple">
+              <item>December 12, December 23, 1921.</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Kinsey, Harold C.</persname>
+          <ref>
+            <list type="simple">
+              <item>January 1919-October 1921, throughout.</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Long, Ray, 1878-1935</persname>
+          <ref>
+            <list type="simple">
+              <item>January 1919-May 1921, throughout; July 15, July 22, September 8, September 15, October 7, 1921.</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Lovejoy, Parish Storrs</persname>
+          <ref>
+            <list type="simple">
+              <item>December 14, December 15, 1921; January 28, February 4, March 20, August 22, September 23, September 30, October 24, October 30, November 13, 1922; December 23, 1926.</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Marston, Thomas Frank, 1869-</persname>
+          <ref>
+            <list type="simple">
+              <item>July 15, July 18, 1921.</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Mayer, Louis Burt, 1885-1957</persname>
+          <ref>
+            <list type="simple">
+              <item>January 15, 1920.</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <corpname>Michigan State Park Commission</corpname>
+          <ref>
+            <list type="simple">
+              <item>May 19, 1920; September 23, 1921.</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Montrose, Joseph</persname>
+          <ref>
+            <list type="simple">
+              <item>May 1920-July 1921, throughout.</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Mott, Charles Stewart, 1875-1973</persname>
+          <ref>
+            <list type="simple">
+              <item>December 14, December 27, 1922; January 26, February 19, February 23, 1923.</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Pinchot, Gifford, 1865-1946.</persname>
+          <ref>
+            <list type="simple">
+              <item>February 2, 1923.</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Roth, Filibert, 1858-1925</persname>
+          <ref>
+            <list type="simple">
+              <item>October 1, October 3, December 8, December 13, December 14, December 27, December 29, December 31, 1921;</item>
+              <item>January 2, November 1, 1922; February 14, 1923.</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Stoll, Albert, 1884-</persname>
+          <ref>
+            <list type="simple">
+              <item>September 12, September 15, September 25, September 27, December 1, 1921; Undated, February 16, February 25, April 10, April 20, 1922; January 10, April 10, April 14, April 16, July 18, 1923.</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Titus, Harold, 1888-1967</persname>
+          <ref>
+            <list type="simple">
+              <item>January 25, January 27, June 6, June 30, July 14, July 19, 1927.</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Vandenberg, Arthur Hendrick, 1884-1951</persname>
+          <ref>
+            <list type="simple">
+              <item>December 22, December 23, 1921; January 26, 1922.</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Voght, Edward C.</persname>
+          <ref>
+            <list type="simple">
+              <item>March 16, May 8, May 10, July 7, July 10, July 26, September 13, October 4, December 23, December 27, 1922.</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Wallace, Henry Cantwell. 1866-1924</persname>
+          <ref>
+            <list type="simple">
+              <item>February 13, February 26, March 7, March 31, April 28, May 2, May 4, 1923.</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Watson, Russell</persname>
+          <ref>
+            <list type="simple">
+              <item>January 3, November 7, November 10, December 10, December 14, 1922; January 1, February 12, February 14, 1923.</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Young, Leigh Jarvis, 1883-1960</persname>
+          <ref>
+            <list type="simple">
+              <item>Undated, February 21, March 19, May 17, May 21, May 25, June 3, July 8, July 15, August 9, 1927.</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Zeigen, Frederic H., 1874-</persname>
+          <ref>
+            <list type="simple">
+              <item>November 18, 1918; April 5, 1920.</item>
+            </list>
+          </ref>
+        </indexentry>
+      </index>
+      <index>
+        <head>Partial Index Correspondence by Subjects</head>
+        <indexentry>
+          <subject>Deer Herd Management</subject>
+          <ref>
+            <list type="simple">
+              <item>November 27, December 14, 1921; June-July 1927, throughout.</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <subject>Forest Fire Protection</subject>
+          <ref>
+            <list type="simple">
+              <item>July 18, October 14, November 1, December 14, 1921; February 2, February 3, February 4, 1922; February 1, 1927.</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <subject>Sport Fishing Issues</subject>
+          <ref>
+            <list type="simple">
+              <item>January 9, November 6, 1922; January 25, 1923; Undated, January 18, January 21, June 24, June 25, June 27, June 30, July 2, July 7, July 16, July 18, August 6, 1927.</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <subject>Water Pollution</subject>
+          <ref>
+            <list type="simple">
+              <item>August 9, 1918; December 8, 1920; February 11, April 18, December 3, December 12, December 23, 1921; February 10, July 3, July 18, August 6, October 18, November 9, 1923.</item>
+            </list>
+          </ref>
+        </indexentry>
+      </index>
+    </descgrp>
+  </archdesc>
+</ead>

@@ -1,0 +1,542 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead.dtd">
+<ead>
+  <eadheader audience="internal" langencoding="iso639-2b" repositoryencoding="iso15511" dateencoding="iso8601" relatedencoding="Dublin Core">
+    <eadid countrycode="us" mainagencycode="MiU-H" publicid="us//::miu-h//TXT us::miu-h::hospice.xml//EN" encodinganalog="identifier">umich-bhl-04117</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="title">Finding Aid for Hospice of Michigan Records, 1975-2003</titleproper>
+        <author encodinganalog="creator">Collection processed and finding aid created by Leslie Knoblauch</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="publisher">Bentley Historical Library, University of Michigan</publisher>
+        <date encodinganalog="date">2004</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created by Leslie Knoblauch <date>November 2004</date></creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date>20050221</date>
+        <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <frontmatter>
+    <titlepage>
+      <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
+      <titleproper>Finding aid for <lb/>Hospice of Michigan Records, 1975-2003</titleproper>
+      <author>Finding aid created by <lb/>Leslie Knoblauch, 2004</author>
+    </titlepage>
+  </frontmatter>
+  <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
+    <did>
+      <origination>
+        <corpname source="lcnaf" encodinganalog="110">Hospice of Michigan.</corpname>
+      </origination>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1.75 linear foot</extent>
+      </physdesc>
+      <unittitle encodinganalog="245">Hospice of Michigan Records <unitdate type="inclusive" encodinganalog="245$f" normal="1975/2003">1975-2003</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1982/1988">1982-1988</unitdate></unittitle>
+      <unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">04117 Bf 2</unitid>
+      <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
+      <abstract>Statewide provider of comprehensive end-of-life care. The record group mainly documents the management of Ann Arbor-based Individualized Home Nursing Care. Administrative records include audits, correspondence, meeting minutes and tax returns. There are also visual materials such as VHS videotapes and photographs.</abstract>
+      <repository>
+        <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea>, University of Michigan</corpname>
+        <extptr href="bhladd" show="embed" actuate="onload"/>
+      </repository>
+    </did>
+    <descgrp type="admin">
+      <acqinfo encodinganalog="541">
+        <p>The records were donated to the Bentley Historical Library in 2004 by Hospice of Michigan, through Ingrid Deininger and Lois Jelneck (donor no. <num type="donor" encodinganalog="541$e">9463</num>).</p>
+      </acqinfo>
+      <accessrestrict encodinganalog="506">
+        <p>The record group is open to research. Permission of the donor is required before publishing photographs of patients.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+        <p>Copyright has not been transferred to the Regents of the University of Michigan.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+        <p>[item], folder, box,
+Hospice of Michigan Records
+, Bentley Historical Library, University of Michigan</p>
+      </prefercite>
+    </descgrp>
+    <bioghist encodinganalog="545">
+      <p>Individualized Home Nursing Care, an Ann Arbor-based organization, was established in 1982 by Ingrid Deininger, Lois Jelnick, and Rosemary Young. The initial mission of the organization was to provide quality care and support for the elderly, the terminally ill, and to their families. In 2002, following a merger with Hospice of Michigan, the organization became Home Care and Hospice of Michigan. The organization is Michigan's largest provider of comprehensive end-of-life care.</p>
+    </bioghist>
+    <scopecontent encodinganalog="520">
+      <p>The records of Hospice of Michigan provide insight into the creation, management, and daily work associated with Individualized Home Nursing Care. The collection is broken into two main series: Administration and Visual Materials.</p>
+    </scopecontent>
+    <controlaccess>
+      <p>
+        <extptr href="accnote" show="embed" actuate="onload"/>
+      </p>
+      <controlaccess>
+        <head>Subjects:</head>
+        <corpname source="lcnaf" encodinganalog="610">Hospice of Michigan.</corpname>
+        <subject source="lcsh" encodinganalog="650">Hospices (Terminal care)--Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650">Hospice care--Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650">Terminal care--Michigan.</subject>
+      </controlaccess>
+      <controlaccess>
+        <head>Subjects - Visual Materials:</head>
+        <corpname source="lcnaf" encodinganalog="610">Hospice of Michigan.</corpname>
+        <subject source="lcsh" encodinganalog="650">Hospice care--Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650">AIDS patients--Hospice care.</subject>
+        <subject source="lctgm" encodinganalog="650">Sick persons.</subject>
+      </controlaccess>
+      <controlaccess>
+        <head>Genre Terms:</head>
+        <genreform source="aat" encodinganalog="655">Videotapes.</genreform>
+        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+      </controlaccess>
+    </controlaccess>
+    <dsc type="combined">
+      <c01 level="series">
+        <did>
+          <unittitle>Administration</unittitle>
+        </did>
+        <scopecontent>
+          <p>The Administration series is the largest series. This series includes; audits, clippings, contracts, correspondence, financial records, history, job descriptions, licensure and certification, manuals, marketing, minutes, monthly summaries, plans, proposals, publications, reports, and tax returns. The series contains documentation pertaining to the creation, finances, publicity, and management of Individualized Home Nursing Care. There is a large amount of minutes, which document board of directors, committee, sub-committee, and review committee meetings. Through the minutes the social programs, outreach planning, marketing, particular aspects of patient care and specific financial concerns are detailed. Materials of interest may include correspondence between Individualized Home Nursing Care and <title render="italic">Yomiuri Shimbun</title>, a Japanese newspaper, regarding the work done by Individualized Home Nursing Care. There is also information pertaining to the subsequent partnership that evolved which resulted in the United States and Japan Training Institute in Geriatric Care. The series also includes detailed information pertaining to the financial state of the organization and statistics regarding patient care, which can be found in the audit documentation, monthly summaries, and the tax information. The founding documentation within the history sub series may also be of interest because it documents the evolving goals, mission statement, and responsibilities of the organization and its board members.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <unittitle>Audits</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1998-08">August, 1998</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="2002-06">June, 2002</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Clippings <unitdate type="inclusive" normal="1981/1990">1981-1990</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Contracts</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Agreement between Chelsea Community Hospital and Individualized Hospice <unitdate type="inclusive" normal="1992">1992</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Agreement for Speech Language Pathology <unitdate type="inclusive" normal="1993">1993</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Partnership between Individualized Hospice and Abbey Home Healthcare <unitdate type="inclusive" normal="1992">1992</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Pharmacy Service Agreement with Specialized Alternative Care <unitdate type="inclusive" normal="1993">1993</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Correspondence</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Blue Cross Blue Shield <unitdate type="inclusive" normal="1993/2000">1993-2000</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Department of Social Services <unitdate type="inclusive" normal="1993">1993</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Health and Human Services <unitdate type="inclusive" normal="1985/1993">1985-1993</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Internal Revenue Service <unitdate type="inclusive" normal="1987">1987</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Japanese Newspaper-Yomiuri Shimbun <unitdate type="inclusive" normal="1986">1986</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>United States-Japan Training Institute in Geriatric Care <unitdate type="inclusive" normal="1992/1998">1992-1998</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Financial Records</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Account Register <unitdate type="inclusive" normal="1984">1984</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Miscellaneous <unitdate type="inclusive" normal="1982">1982</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Mortgage Note for Individualized Home Nursing Care <unitdate type="inclusive" normal="1988">1988</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>History</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Articles of Incorporation <unitdate type="inclusive" normal="1981">1981</unitdate>, <unitdate type="inclusive" normal="1983">1983</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>By Laws of Advisory Board <unitdate type="inclusive" normal="1975">1975</unitdate>, <unitdate type="inclusive" normal="1985">1985</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>By Laws of Board of Directors <unitdate type="inclusive" normal="1997">1997</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>By Laws of Individualized Care <unitdate type="inclusive" normal="1997">1997</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>By Laws of Individualized Home Nursing Care <unitdate type="inclusive" normal="1982/1993">1982-1993</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Creation of Domino's House Senior Citizen Activity Center <unitdate type="inclusive" normal="1986/1988">1986-1988</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Creation of Individualized Home Nursing Care <unitdate type="inclusive" normal="1980/1985">1980-1985</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Individualized Home Nursing Care Executive Summary <unitdate type="inclusive" normal="1986">1986</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Job Descriptions <unitdate type="inclusive" normal="1988">1988</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Licensure and Certification <unitdate type="inclusive" normal="1982/2000">1982-2000</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Manuals</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Business File Manual <unitdate type="inclusive" normal="1992">1992</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Interdisciplinary Team Medical Director Orientation Manual <unitdate type="inclusive" normal="1998">1998</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Interdisciplinary Team Orientation Manual <unitdate type="inclusive" normal="1994">1994</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Marketing <unitdate type="inclusive" normal="1996">1996</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Minutes</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">5 folders</extent>
+              </physdesc>
+              <unittitle>Individualized Care Board of Directors Meeting Minutes <unitdate type="inclusive" normal="1993/1997">1993-1997</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">4 folders</extent>
+              </physdesc>
+              <unittitle>Individualized Home Nursing Care Advisory Board Meeting Minutes <unitdate type="inclusive" normal="1982/1997">1982-1997</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">3 folders</extent>
+              </physdesc>
+              <unittitle>Quality Assurance/Utilization Review Committee Meeting Minutes <unitdate type="inclusive" normal="1993/2003">1993-2003</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Quality Improvement Program and Subcommittee Meeting Minutes <unitdate type="inclusive" normal="1994/1996">1994-1996</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
+              </physdesc>
+              <unittitle>Quality Improvement Program and Subcommittee Meeting Minutes <unitdate type="inclusive" normal="1997/2003">1997-2003</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Monthly Summaries <unitdate type="inclusive" normal="1986/1999">1986-1999</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Plans</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Monitoring and Correction Activity Plan <unitdate type="inclusive" normal="1998/2002">1998-2002</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Proposals</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Proposal for a Bereavement Program</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Proposed Work Agreement with Hospice of Washtenaw <unitdate type="inclusive" normal="1982">1982</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Publications</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>A Cooperative Writing Project with Domino's House <unitdate type="inclusive" normal="1995">1995</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Newsletters <unitdate type="inclusive" normal="1990/1992">1990-1992</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Pamphlets</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Reports</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Financial Reports <unitdate type="inclusive" normal="1987/1993">1987-1993</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Individualized Home Nursing Care Annual Reports <unitdate type="inclusive" normal="1982/1984">1982-1984</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Quality Assurance/Utilization Review Annual Report <unitdate type="inclusive" normal="1994">1994</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
+              </physdesc>
+              <unittitle>Quality Improvement Program Annual Reports <unitdate type="inclusive" normal="1994/2001">1994-2001</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
+              </physdesc>
+              <unittitle>Quality Assurance/Utilization Review Committee Annual Reports <unitdate type="inclusive" normal="1995/2001">1995-2001</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Tax Returns</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">4 folders</extent>
+              </physdesc>
+              <unittitle>Form 990 <unitdate type="inclusive" normal="1984/2000">1984-2000</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Visual Materials</unittitle>
+        </did>
+        <scopecontent>
+          <p>The Visual Materials series contains a small number of photographs and three VHS videotapes. The photographs concentrate on the founding members, specifically Ingrid Deininger. While some of the photographs show Deininger with patients, the photographs relating strictly to past or current patients were not retained. The VHS videotapes focus on patient care. The video tape entitled "Home Care: Three Special Individuals, 1993" documents Deininger sitting down with two patients and the husband of a third patient to discuss what they find important in home care and how home care has helped them. The patients exhibit a great appreciation for home care and discuss how Individualized Home Nursing Care has improved their lives through assistance and support. The patients range in the condition of their health and it is obvious that the most vital commodity that home care provides is in making the last few days, weeks, or months of an individual's life more comfortable. The videotape titled "AIDS: A Family Conversation, 1993" is a conversation between members of several families that lost their sons from AIDS. The conversation is moderated by one of the Individualized Home Nursing Care nurses named Ernie Toth. The discussion of homosexuality is at the core of the conversation as is the reaction of the family members upon hearing that their sons were gay and had contracted AIDS. It is a poignant look at how families have been affected by AIDS and how parents have dealt with the loss of children to the disease. The videotape titled "Home Care Visits, 1992" follows two nurses working with Individualized Home Nursing Care through their day. The first nurse is shown with an elderly patient, she explains her responsibilities and how she assists the patient. The second nurse in the video is Ernie Toth; he is shown tending to a young male patient who has open sores on his upper body. The video is rather graphic with the camera positioned close to the patient and the open sores are shown close up at moments. The nurse is shown replacing the bandages used to cover the sores. Both of the videos highlight the types of tasks the nurses do for their patients and they illustrate the close relationship between the nurses and their patients.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle><genreform normal="Photographs">Photographs</genreform> of General Staff, <unitdate type="inclusive" normal="1999">1999</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>VHS <genreform normal="Motion pictures">Videotapes</genreform></unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Home Care Visit <unitdate type="inclusive" normal="1992-03">March 1992</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">58 min</extent>
+              </physdesc>
+              <unittitle>"AIDS; A Family Conversation" <unitdate type="inclusive" normal="1993-01-19">January 19, 1993</unitdate></unittitle>
+              <physdesc>
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">16 min</extent>
+              </physdesc>
+              <unittitle>"Home Care-Three Special Individuals <unitdate type="inclusive" normal="1993-12-06">December 6, 1993</unitdate></unittitle>
+              <physdesc>
+                </physdesc>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

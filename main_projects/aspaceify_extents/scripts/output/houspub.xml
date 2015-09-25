@@ -1,0 +1,2796 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead.dtd">
+<ead>
+  <eadheader audience="internal" langencoding="iso639-2b" repositoryencoding="iso15511" dateencoding="iso8601" relatedencoding="Dublin Core" scriptencoding="iso15924" countryencoding="iso3166-1">
+    <eadid countrycode="us" mainagencycode="MiU-H" publicid="us//::miu-h//TXT us::miu-h::houspub.xml//EN" encodinganalog="Identifier">umich-bhl-0357</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="Title">Finding Aid for Housing Division (University of Michigan) publications, 1923-2003</titleproper>
+        <author encodinganalog="Creator">Collection processed and finding aid created by Marilyn McNitt, 1993 and Jennifer Jacobs, 1999</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="Publisher">Bentley Historical Library, University of Michigan</publisher>
+        <date encodinganalog="Date" normal="2008">2008</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created by Greg Kinney <date>20080109</date></creation>
+      <langusage encodinganalog="Language">The finding aid is written in <language langcode="eng" scriptcode="Latn">English</language></langusage>
+      <descrules>Finding aid prepared using Describing Archives: A Content Standard (DACS)</descrules>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date>2008-01-09</date>
+        <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <frontmatter>
+    <titlepage>
+      <publisher>University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
+      <titleproper>Finding aid for <lb/>Housing Division <lb/>(University of Michigan) <lb/>publications, 1923-2003</titleproper>
+      <author>Finding aid created by <lb/>Marilyn McNitt, 1993, 2004 <lb/>Jennifer Jacobs, 1999</author>
+    </titlepage>
+  </frontmatter>
+  <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
+    <did>
+      <origination>
+        <corpname source="lcnaf" encodinganalog="110">University of Michigan. Housing Division.</corpname>
+      </origination>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">10 linear feet</extent>
+      </physdesc>
+      <unittitle encodinganalog="245">Housing Division (University of Michigan) publications <unitdate type="inclusive" encodinganalog="245$f" normal="1923/2003">1923-2003</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1974/1996">1974-1996</unitdate></unittitle>
+      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">0357, Bimu, B6, 2</unitid>
+      <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
+      <abstract>Publications produced by the Housing Division and its subunits, includes miscellaneous annual reports, brochures, bulletins, calendars, directories, manuals, newsletters, programs, reports, schedules, and statistics of the Housing Division and its predecessors, the Housing Office, Office of Student Community Relations, Office of the Director of Residence Halls, and Office of University Housing. Also includes printed materials from Department of Residence Education, Family Housing, Food Service, Housing Conference Services, Housing Facilities Department, Off-Campus Housing Program, the Pilot Program/College Community Program, and Residence Halls Libraries, and Housing Special Programs.</abstract>
+      <repository>
+        <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea>, University of Michigan</corpname>
+        <extptr href="bhladd" show="embed" actuate="onload"/>
+      </repository>
+    </did>
+    <descgrp type="admin">
+      <acqinfo encodinganalog="541">
+        <p>Publications are received periodically from the unit (Donor no. <num type="donor" encodinganalog="541$e">8160</num>).</p>
+      </acqinfo>
+      <accruals encodinganalog="584">
+        <p>Periodic additions to the records expected.</p>
+      </accruals>
+      <accessrestrict encodinganalog="506">
+        <p>The publications are open without restriction.</p>
+        <p>
+          <extptr href="uarpacc" show="embed" actuate="onload"/>
+        </p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+        <p>Copyright is held by Regents of the University of Michigan.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+        <p>[item], folder, box,
+Housing Division (University of Michigan) publications, Bentley Historical Library, University of Michigan</p>
+      </prefercite>
+    </descgrp>
+    <bioghist encodinganalog="545">
+      <p>For historical note, please consult manuscripts finding aid for Housing Division (University of Michigan) records.</p>
+    </bioghist>
+    <scopecontent encodinganalog="520">
+      <p>The Housing Division Publications (10 linear feet) include annual reports, brochures, bulletins, directories, ephemera (including flyers, invitations, posters, and programs), a history, manuals, newsletters, proceedings of conferences sponsored by the Housing Division, and reports. These publications are divided into three series: Unit Publications, Sub-Unit Publications, and Topical Publications. The Housing Division publications document the broad responsibilities of this office and its sub-units, including the various housing options, such as family housing, off-campus housing, and residence halls; as well as food and dining services, mediation services, Residence Halls Association, Residence Halls Libraries, and various university housing task forces. Publications of individual residence halls are part of the sub-unit series.</p>
+    </scopecontent>
+    <controlaccess>
+      <p>
+        <extptr href="accnote" show="embed" actuate="onload"/>
+      </p>
+      <controlaccess>
+        <head>Subjects:</head>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Housing Division.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Housing Office.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Office of Student Community Relations.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Housing Office.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Food Service.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Residence Education.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Family Housing.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Off-Campus Housing Program.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Housing Facilities Dept.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Students--Social life and customs.</corpname>
+        <subject source="lcsh" encodinganalog="650">Dormitories.</subject>
+      </controlaccess>
+      <controlaccess>
+        <head>Contributors:</head>
+        <corpname source="lcnaf" encodinganalog="710">University of Michigan. Housing Office.</corpname>
+        <corpname source="lcnaf" encodinganalog="710">University of Michigan. Office of Student Community Relations.</corpname>
+        <corpname source="lcnaf" encodinganalog="710">University of Michigan. Housing Office.</corpname>
+        <corpname source="lcnaf" encodinganalog="710">University of Michigan. Food Service.</corpname>
+        <corpname source="lcnaf" encodinganalog="710">University of Michigan. Housing Facilities Dept.</corpname>
+        <corpname source="lcnaf" encodinganalog="710">University of Michigan. Pilot Program/College Community Program.</corpname>
+        <corpname source="lcnaf" encodinganalog="710">University of Michigan. Dept. of Residence Education.</corpname>
+        <corpname source="lcnaf" encodinganalog="710">University of Michigan. Family Housing.</corpname>
+        <corpname source="lcnaf" encodinganalog="710">University of Michigan. Off-Campus Housing Program.</corpname>
+      </controlaccess>
+      <controlaccess>
+        <head>Genre Terms:</head>
+        <genreform source="aat" encodinganalog="655">Brochures.</genreform>
+        <genreform source="aat" encodinganalog="655">Bulletins.</genreform>
+        <genreform source="aat" encodinganalog="655">Calendars.</genreform>
+        <genreform source="aat" encodinganalog="655">Manuals.</genreform>
+        <genreform source="aat" encodinganalog="655">Newsletters.</genreform>
+        <genreform source="aat" encodinganalog="655">Programs.</genreform>
+        <genreform source="aat" encodinganalog="655">Reports.</genreform>
+        <genreform source="aat" encodinganalog="655">Schedules (time plans)</genreform>
+        <genreform source="aat" encodinganalog="655">Statistics.</genreform>
+        <genreform source="lcsh" encodinganalog="655">Student publications.</genreform>
+      </controlaccess>
+    </controlaccess>
+    <dsc type="combined">
+      <c01 level="series">
+        <did>
+          <unittitle>Unit Publications</unittitle>
+        </did>
+        <scopecontent>
+          <p>The Unit Publications series contains printed material published specifically by the Housing Division. These publications are defined as being widely distributed and may be published at regular intervals. They are arranged by genre of the publication.</p>
+          <p>The Unit Publications series (4.8 linear feet) includes scattered annual reports dating from 1940 to 1987 with the bulk of the reports from 1940 to 1950 and 1969 to 1987. Brochures include information about apartment leases, costs for student housing, Michigan Learning Communities, off-campus housing, and Spring-Summer housing. The bulletins document all aspects of housing both on campus and off, including campus housing from 1978 to 1984. These bulletins include descriptions of the various dormitories and other residence programs, such as language houses, Honors Program, or specialized housing such as the Lawyers Club or Martha Cook residences. The <title render="italic">Living at Michigan</title> bulletins discuss the various dormitories and residence programs as well as roommates, meal plans, and disabilities and special medical conditions.</p>
+          <p>The directories include residence education staff directories dating from 1980 to 1990. These directories list the resident directors and advisors for each dorm on campus. The <title render="italic">Residence Hall Telephone Directories</title> list each student residing in the residence halls, their address and telephone number. These directories cover 1990 and 1993 through 1995. There are job descriptions of positions available to students within the Housing Division. They document the period from 1987 to 1993.</p>
+          <p>This series contains a history of the division <title render="italic">The Housing of Students</title>, published in 1979. This booklet is divided into three sections with contributions by Peter A. Ostafin (<title render="italic">Residence Halls for Men: The Michigan House Plan</title>, from <title render="italic">The University of Michigan, an Encyclopedic Survey</title>, 1958), (Ruth Gjelsness (<title render="italic">Housing of Women Students</title> from <title render="italic">The University of Michigan, an Encyclopedic Survey</title>, 1958), and Edward C. Salowitz (<title render="italic">Later Years: Physical Growth and Expansion</title>, from <title render="italic">The University of Michigan, an Encyclopedic Survey</title>, 1979). It provides a comprehensive view of housing at the University of Michigan focusing on the programmatic aspects of housing, only incidentally touching on the construction of housing units.</p>
+          <p>There is an extensive collection of manuals arranged alphabetically by title. These include handbooks for student athletes and coaches covering the period from 1988 to 1992. These manuals are entitled <title render="italic">The Housing Division and Student Athletes</title> published from 1988 to 1990 and <title render="italic">Athletic Department/Housing Division Handbook: A Resource Guide for the Athletics Department Coaches and Staff</title> issued in 1991 and 1992. The <title render="italic">Bulletin of Information: Residence Halls Policies and Procedures</title>, covering the period from 1976 to 1983 and 1993 to 1996, gives detailed information on alcohol abuse prevention, non-discrimination policies, parking, as well as, housing leases, and procedures governing meal tickets, payments, and student records. The <title render="italic">Community Living at Michigan</title> ([1994/95]-1998/99) describes the judicial procedures for students living in the residence halls including the Michigan Philosophy, the resident Bill of Rights, the community living standards, and lease terms and conditions. For earlier information about the student code of contact consult the <title render="italic">Residence Hall Judicial Process: A Handbook for Students</title> (1993/94) found under the heading "Office of Student Relations." There are also manuals dealing with crisis intervention, discrimination, safety and security, and sexual assault intervention. In addition, the researcher will find guides to residence hall education, programming, and move-in information.</p>
+          <p>Newsletters include the <title render="italic">Housing Bulletin</title>, published from 1972 to 1992 for the residents of the various dormitories and the staff of the housing division. This newsletter includes information about the university in general and specific information about housing in particular, including articles about security, safety, special programs, research findings, and historical tidbits about the university. The <title render="italic">Housing Bulletin</title>'s special Diversity Day editions, dated 1989 through 1993, are also included. <title render="italic">Leased-Wise</title> was published from 1975 to 1993 to help foster communication with the off-campus community. The articles focused on that community's concerns with discussions of tenant tax rebates, mediation services, health service, security deposits, and subletting.</p>
+          <p>Reports include the 1983 report of the Alcohol Task Force regarding the role of the Housing Division in the prevention of alcohol abuse. In 1983 the Housing Division sponsored a survey to learn the needs and expectations of incoming students and to determine whether or not those needs were met. The results of this survey were published in an in-house publication entitled <title render="italic">The 1983 Residence Halls Survey: Preliminary Report</title>. There are numerous other reports, statistics, and surveys describing the development and history of the residence halls and other university-owned housing as well as the services offered by the Housing Division.</p>
+        </scopecontent>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Announcements</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1992/1995">1992-1995</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Annual Reports</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1940/1950">1940-1950</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1969/1987">1969-1987</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle><title render="italic">Service Enterprises Annual Report</title>, <unitdate type="inclusive" normal="1951/1955">1951-1955</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle><title render="italic">Student Residences: Statement of Revenue and Expense</title>, <unitdate type="inclusive" normal="1968/1969">1968/69</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Articles</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle><title render="italic">The Michigan House Plan</title>, by Karl Litzenberg, <unitdate type="inclusive" normal="1941">1941</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Bond Resolutions</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle><unitdate type="inclusive" normal="1967">1967</unitdate>, <unitdate type="inclusive" normal="1970">1970</unitdate>, <unitdate type="inclusive" normal="1971">1971</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Brochures</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Apartments (includes lease information) <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Conference Information <unitdate type="inclusive" normal="1968/1971">1968-1971</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Costs for Student Housing <unitdate type="inclusive" normal="1986/1989">1986-1989</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Deposits <unitdate type="inclusive" normal="1986/1989">1986-1989</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle><title render="italic">Early Arrival Program</title>, <unitdate type="inclusive" normal="1992/1993">1992-1993</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Graduate Housing <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Guest Information <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle><title render="italic">Housing</title>, <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>
+                <title render="italic">Jobs</title>
+                <unitdate type="inclusive">undated</unitdate>
+              </unittitle>
+            </did>
+            <odd>
+              <p>(describes student employment opportunities within Housing Division)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Lease Packets <unitdate type="inclusive" normal="1985/1989">1985-1989</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle><title render="italic">Mediation Services</title>, <unitdate type="inclusive" normal="1973">1973</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle><title render="italic">Michigan Learning Communities</title>, <unitdate type="inclusive" normal="1998/1999">1998/99</unitdate>, <unitdate type="inclusive" normal="2002">2002</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Miscellaneous <unitdate type="inclusive" normal="1957/1995">1957-1995</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle><title render="italic">North Campus Area Housing</title>, <unitdate type="inclusive" normal="1986/1989">1986-1989</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle><title render="italic">Off-Campus Housing</title>, <unitdate type="inclusive" normal="1964/1989">1964-1989</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle><title render="italic">Optional Meal Contracts</title>, <unitdate type="inclusive" normal="1971/1981">1971-1981</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Residence Hall Lease Information <unitdate type="inclusive" normal="1989/1990">1989/90</unitdate>, <unitdate type="inclusive" normal="1998/1999">1998/99</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle><title render="italic">Residence Hall Neighborhoods</title>, <unitdate type="inclusive" normal="1999">1999</unitdate>, <unitdate type="inclusive" normal="2001">2001</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Roommates <unitdate type="inclusive" normal="1986/1989">1986-1989</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle><title render="italic">Spring--Summer Housing</title>, <unitdate type="inclusive" normal="1968/1979">1968-1979</unitdate>, <unitdate type="inclusive" normal="1989">1989</unitdate>, <unitdate type="inclusive" normal="1993/1995">1993-1995</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle><title render="italic">Student Housing</title>, <unitdate type="inclusive" normal="1965/1993">1965-1993</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Bulletins</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle><title render="italic">Bulletin of Information: University Housing</title>, <unitdate type="inclusive" normal="1968/1971">1968-1971</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle><title render="italic">Campus Housing</title>, <unitdate type="inclusive" normal="1978/1984">1978-1984</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
+              </physdesc>
+              <unittitle><title render="italic">Living at Michigan</title>, <unitdate type="inclusive" normal="1971/1980">1971-1980</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">3 folders</extent>
+              </physdesc>
+              <unittitle><title render="italic">Residence Halls</title>, <unitdate type="inclusive" normal="1978/1995">1978-1995</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle><title render="italic">Spring/Summer</title>, <unitdate type="inclusive" normal="1971/1994">1971-1994</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle><title render="italic">Student Housing at the University of Michigan</title>, <unitdate type="inclusive" normal="1965/1971">1965-1971</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Calendars</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle><title render="italic">Living at Michigan: Guidelines for Community Living</title>, <unitdate type="inclusive" normal="1983/1991">1983-1991</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Contracts</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle><title render="italic">Contract for Residence: Terms and Conditions</title>, <unitdate type="inclusive" normal="1967/1969">1967-1969</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Directories</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Residence Halls <unitdate type="inclusive" normal="1980/1984">1980-1984</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
+              </physdesc>
+              <unittitle><title render="italic">Residence Education Staff Roster</title>, <unitdate type="inclusive" normal="1984/1990">1984-1990</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>
+                <title render="italic">Residence Halls Telephone Directory</title>
+              </unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1990">1990</unitdate>
+                  <unitdate type="inclusive" normal="1993">1993</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">2 folders</extent>
+                </physdesc>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1994/1995">1994-1995</unitdate>
+                </unittitle>
+                <physdesc altrender="whole">
+                  </physdesc>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Flyers</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1972/1995">1972-1995</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Histories</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle><title render="italic">The Housing of Students</title>, <unitdate type="inclusive" normal="1979">1979</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Invitations</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1984/1991">1984-1991</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Job Descriptions</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle><title render="italic">Come Join Our Staff: Residence Hall Staff Overview and Job Descriptions</title>, <unitdate type="inclusive" normal="1987/1988">1987/88</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Miscellaneous <unitdate type="inclusive" normal="1993">1993</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Manuals</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle><title render="italic">Athletic Department/Housing Division Handbook: A Resource Guide for the Athletics Department Coaches and Staff</title>, <unitdate type="inclusive" normal="1991/1992">1991-1992</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>
+                <title render="italic">Bulletin of Information: Residence Halls Policies and Procedures</title>
+              </unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1976/1983">1976-1983</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1989">1989</unitdate>
+                  <unitdate type="inclusive" normal="1993/1996">1993-1996</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle><title render="italic">Codes and Regulations Applicable to the University of Michigan Housing Units</title>, <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle><title render="italic">Community Living at Michigan: Residence Halls Rules, Regulations and Policies, Judicial Process</title>, [1994/95]-1998/99</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Closing/Opening Guides</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">3</container>
+                <unittitle><title render="italic">Fall Term Closing/Winter Term Opening</title>, <unitdate type="inclusive" normal="1992/1994">1992/93-1993/94</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">3</container>
+                <unittitle><title render="italic">Guide to Spring/Summer Closing and Fall Opening</title>, <unitdate type="inclusive" normal="1993">1993</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">3</container>
+                <unittitle><title render="italic">A Guide to Summer Term Closing/Fall Term Opening</title>, <unitdate type="inclusive" normal="1991/1992">1991-1992</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">3</container>
+                <unittitle><title render="italic">Guide to Winter Term Closing and Spring/Summer Opening</title>, <unitdate type="inclusive" normal="1993/1994">1993-1994</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle><title render="italic">Crisis Intervention and Security Information Manual--Housing Security</title>, [ca. 1989]</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle><title render="italic">Don't Be a Crime Statistic/If You Become a Crime Statistic</title>, <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle><title render="italic">Everything You Didn't Want to Know About Residence Halls* *But Were Afraid to Ask</title>, <unitdate type="inclusive" normal="1971/1975">1971-1975</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle><title render="italic">Guidelines for Community Living--Rules, Regulations, Policies and Procedures</title>, <unitdate type="inclusive" normal="1990/1994">1990-1994</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle><title render="italic">Guidelines for Staff Recruitment and Selection for 1978-79</title>, <unitdate type="inclusive" normal="1978/1979">1978/79</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle><title render="italic">Housing at Michigan: An Orientation Guide for Parents</title>, <unitdate type="inclusive" normal="1991">1991</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle><title render="italic">The Housing Division and Student Athletes</title>, <unitdate type="inclusive" normal="1988/1990">1988-1990</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle><title render="italic">Housing Division Staff Training: Housing Division Policy on Discrimination and Discriminatory Conduct (Handouts)</title>, <unitdate type="inclusive" normal="1990">1990</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle><title render="italic">How to Succeed as a Student Employee without Really Trying: Housing Office University of Michigan Student Employee Policy Booklet</title>, <unitdate type="inclusive" normal="1972/1973">1972/73</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle><title render="italic">In-Residence Staff Guide to Academic Information</title>, <unitdate type="inclusive" normal="1974/1977">1974/75-1976/77</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle><title render="italic">Living at Michigan: Campus Housing</title>, <unitdate type="inclusive" normal="1982/1983">1982/83</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle><title render="italic">Living at Michigan: An Orientation Guide for Parents</title>, <unitdate type="inclusive" normal="1991/1995">1991/92-1994/95</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle><title render="italic">Living at Michigan: Residence Halls, General Information &amp; Guidelines</title>, <unitdate type="inclusive" normal="1998/1999">1998/99</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Miscellaneous <unitdate type="inclusive" normal="1988/1998">1988-1998</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle><title render="italic">The Programmer: A Resident Staff Guide to Resources and Facilitators--Residence Education</title>, <unitdate type="inclusive" normal="1987">1987</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle><title render="italic">Programming Handbook</title>, <unitdate type="inclusive" normal="1970/1971">1970-1971</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle><title render="italic">Programming Resource Guide</title>, <unitdate type="inclusive" normal="1981">1981</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle><title render="italic">Reference Guide to Ann Arbor Housing</title>, <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle><title render="italic">Residence Hall Move-In</title>, <unitdate type="inclusive" normal="1993/1994">1993-1994</unitdate>, <unitdate type="inclusive" normal="2000/2001">2000/01</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle><title render="italic">Sexual Assault Intervention Handbook: A Section of the University of Michigan Housing Division Residence Staff Manual</title>, <unitdate type="inclusive" normal="1990">1990</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle><title render="italic">Student Employee Handbook</title>, <unitdate type="inclusive" normal="1984/1990">1984-1990</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle><title render="italic">Student Employee Survival Kit</title>, <unitdate type="inclusive" normal="1974/1982">1974-1982</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle><title render="italic">Welcome to University Housing</title>, <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Maps</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle><title render="italic">Apartments for Married Students and Staff Members</title>, <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle><title render="italic">Guide to Your Central Campus Residence Hall</title>, <unitdate type="inclusive" normal="1994">1994</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle><title render="italic">Housing Information Map</title>, <unitdate type="inclusive" normal="1973/1992">1973-1992</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle><title render="italic">Off-Campus Housing</title>, <unitdate type="inclusive" normal="1994">1994</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Newsletters</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle><title render="italic">Associated Housing News and Views</title>, <unitdate type="inclusive" normal="1971/1972">1971-1972</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle><title render="italic">Guards Gazette</title>, <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle><title render="italic">Houseline</title>, <unitdate type="inclusive" normal="1981/1986">1981-1986</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">21 folders</extent>
+              </physdesc>
+              <unittitle><title render="italic">Housing Bulletin</title>, <unitdate type="inclusive" normal="1972/1992">1972-1992</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle><title render="italic">Housing Bulletin, Special Edition--Diversity Day</title>, <unitdate type="inclusive" normal="1989/1993">1989-1993</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle><title render="italic">Housing News and Views</title>, <unitdate type="inclusive" normal="1971">1971</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle><title render="italic">Housing Newsletter</title>, <unitdate type="inclusive" normal="1974/1975">1974/75</unitdate> vol. 7</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">12 folders</extent>
+              </physdesc>
+              <unittitle><title render="italic">Leased Wise</title>, <unitdate type="inclusive" normal="1975/1993">1975-1993</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle><title render="italic">News-Link</title>, <unitdate type="inclusive" normal="1992/1993">1992-1993</unitdate>, <unitdate type="inclusive" normal="1998/1999">1998-1999</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle><title render="italic">Options</title>, <unitdate type="inclusive" normal="1991/1992">1991-1992</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>
+                <title render="italic">Residence Halls Safety</title>
+              </unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">4</container>
+                <unittitle>Volumes 1-7 (scattered) <unitdate type="inclusive" normal="1968/1974">1968-1974</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
+              </physdesc>
+              <unittitle><title render="italic">Staff Bulletin: News and Views</title>, <unitdate type="inclusive" normal="1968/1974">1968-1974</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle><title render="italic">Strategic Communicator</title>, <unitdate type="inclusive" normal="1996">1996</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Posters</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1998/1999">1998/99</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Press Releases</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle><title render="italic">Announcement</title>, <unitdate type="inclusive" normal="1994">1994</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Proceedings</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle><title render="italic">Proceedings of the Sixteenth Annual Conference of the Association of College and University Housing Officers Held at the University of Michigan, Ann Arbor, MI, August 2-5, 1964</title>, <unitdate type="inclusive" normal="1965">1965</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Programs</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Resident Staff Training Conference <unitdate type="inclusive" normal="1988">1988</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Proposals</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle><title render="italic">A Proposal for a Residence Hall Based Academic Counseling Program</title>, <unitdate type="inclusive" normal="1974">1974</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Prospectus</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle><title render="italic">Potential Sites: Proposed Single Student Housing</title>, <unitdate type="inclusive" normal="1971">1971</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Questionnaire</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle><title render="italic">PEC Questionnaire</title>, <unitdate type="inclusive" normal="1978">1978</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Reports</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Alcohol Task Force, [1983]</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle><title render="italic">An Explanation of the Area Concept for University Housing at the University of Michigan</title>, <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle><title render="italic">Housing Systems: Detail Systems Design Specification</title>, <unitdate type="inclusive" normal="1979">1979</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle><title render="italic">International Student Housing Problems and Opportunities at the University of Michigan</title>, <unitdate type="inclusive" normal="1990">1990</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle><title render="italic">Living-Learning Programs at the University of Michigan</title>, <unitdate type="inclusive" normal="1996-08">August 1996</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle><title render="italic">Reach Out '93: Final Report</title>, <unitdate type="inclusive" normal="1993">1993</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle><title render="italic">Revising Eligibility Requirements in Family Housing at the University of Michigan</title>, <unitdate type="inclusive" normal="1991" certainty="approximate">circa 1991</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle><title render="italic">Transition Team #1</title>, <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>
+                <title render="italic">University Housing at the University of Michigan:</title>
+              </unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">5</container>
+                <unittitle><title render="italic">Program Review, a Self-Assessment Based on Council for the Advancement of Standards Guidelines and Standards</title>, <unitdate type="inclusive" normal="1997">1997</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">5</container>
+                <unittitle><title render="italic">Strategic Plan, 1996-2009 A Report to University Housing Staff</title>, <unitdate type="inclusive" normal="1997">1997</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle><title render="italic">University of Michigan</title> [a report from the Facilities Management Evaluation Program], <unitdate type="inclusive" normal="1993">1993</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle><title render="italic">University of Michigan and Michigan State Universities: A Comparison of Residence Hall Room and Board Rates</title>, <unitdate type="inclusive" normal="1997">1997</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Schedules</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle><title render="italic">Payment Schedules: Residence Halls and Family Housing</title>, <unitdate type="inclusive" normal="1948/1999">1948-1999</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Speeches</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle><title render="italic">Staff Role: Specific Expectations of the Resident Directors and Resident Advisors</title>..., <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Statistics</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle><title render="italic">Housing Division Fact Kit</title>, <unitdate type="inclusive" normal="1992/1994">1992-1994</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle><title render="italic">Housing Information</title>, <unitdate type="inclusive" normal="1949/1992">1949-1992</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle><title render="italic">Residence Hall Rates</title>, <unitdate type="inclusive" normal="1940/1993">1940-1993</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
+              </physdesc>
+              <unittitle><title render="italic">University Housing Historical and Building Data</title>, <unitdate type="inclusive" normal="1982">1982</unitdate>, <unitdate type="inclusive" normal="1986">1986</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Surveys</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle><title render="italic">Exit Survey</title>. <unitdate type="inclusive" normal="1989">1989</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle><title render="italic">The 1983 Residence Halls Survey: Preliminary Report</title>, [1983]</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">3 folders</extent>
+              </physdesc>
+              <unittitle><title render="italic">Resident Satisfaction Survey</title>, <unitdate type="inclusive" normal="1993">1993</unitdate>, <unitdate type="inclusive" normal="1995/1996">1995-1996</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Sub-Unit Publications</unittitle>
+        </did>
+        <scopecontent>
+          <p>The Sub-Unit Publications series contains publications from subordinate offices, departments, programs, and organizations within the Housing Division. These publications are arranged alphabetically by the creating sub-unit.</p>
+          <p>The Sub-Unit Publications series (5.1 linear feet) includes publications from Housing Division sub-units, such as Department of Residence Education, Family Housing, Food Service, Housing Facilities Department, Off-Campus Housing Program, the Pilot Program/College Community Program, the individual residence halls and the Residence Halls Association, Residence Halls Libraries, the Twenty First Century Program, and the Women in Science and Engineering Residence Program. These offices within the Housing Division published annual reports, brochures, manuals, and newsletters documenting their functions.</p>
+          <p>The family housing bulletins (scattered issues from 1977 to 1995) include floor plans of the various apartments with application, lease, and community information. <title render="italic">Family Housing News</title> (1979-1982) and <title render="italic">The Community Focus</title> newsletter (1981-1995) document the activities of and programs for the residents, and help keep residents informed about policy and personnel changes in the Housing Division.</p>
+          <p>The Housing Facilities Department publications include annual reports (1985-1996) documenting projects like asbestos management, carbon monoxide detection, radon testing, lead paint removal, and other health concerns. These reports also include information about housing utilities and energy usage and housing goals to conserve water and energy. The appendices include a staff list and a building inventory including square footage, year first occupied, original cost, and replacement cost of each dorm. The <title render="italic">Energy Report</title> (1978/79) and the <title render="italic">Utilities and Energy Management Report</title> (1979-1986) break-down natural gas, electricity, water and steam usage for the year and compare them to years past. They also compare consumption by individual dormitory.</p>
+          <p>The Housing Special Programs works closely with minority students on campus. The <title render="italic">Ethnic Reflections</title> anthology, containing poetry and short essays, was published from 1979 to 1988.</p>
+          <p>The <title render="italic">Off-Campus Housing</title> bulletins (1964-1995) describe where and how to look for housing, housing options such as Greek houses or co-ops, costs, renters' rights, and agencies to contact if there are problems. There are brochures describing the fraternities and sororities on campus. The <title render="italic">Safety and Sanitation Manual for Small Group Houses</title> gives students advice on how to take care of the homes they are renting including tips on cleaning, maintenance, decorating, city regulations, etc. The report <title render="italic">Student Housing: Report of the President's Off-Campus Housing Commission</title> is found under the heading "President's Commission on Off-Campus Housing."</p>
+          <p>Additional publications documenting the student judicial process including offenses, sanctions, and the appeal process will be found under the heading "Office of Student Relations." These manuals (1993/94) also include the <title render="italic">Statement of Student Rights and Responsibilities</title>.</p>
+          <p>Created in 1962, the Pilot Program is a living/learning program allowing students to take courses, averaging 15-25 students, taught in their dormitories. The Pilot Program publications include annual reports, brochures, and bulletins covering the period from 1970 to 1995. Of special interest are the publications created by the students and resident employees of the various dorms. Found under the heading "Residence Halls' these publications include anthologies, brochures, manuals and handbooks, and newsletters. All residence halls are represented. Newberry will be found with Barbour and West Quad. Among the Residence Halls Libraries publications there are annual reports (1960-1993 scattered), manuals describing policies and procedures (1966-1985), and a report of the Library Selection Committee (1964).</p>
+          <p>Created in May 1989, the University Task Force on Faculty, Staff and Student Housing Issues released their interim and final reports in 1990. The task force mission was to study the university's role with regard to undergraduate, graduate, faculty, and staff housing, and its relationship to the broader Ann Arbor community, and to recommend how the university could enrich the educational and community-building potential of the housing environment. The interim reports and final report include results of surveys taken by students and faculty, discussion of the development of senior faculty and staff housing, Greek organizations, minority housing, and public hearing commentary on various housing issues.</p>
+        </scopecontent>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Conference Management and Hospitality Services</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Annual Reports <unitdate type="inclusive" normal="1990/1993">1990/91-1992/93</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Brochures <unitdate type="inclusive" normal="1992/1995">1992-1995</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Newsletters</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">5</container>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">3 folders</extent>
+                </physdesc>
+                <unittitle><title render="italic">Keeping in Touch</title>, <unitdate type="inclusive" normal="1994/1997">1994-1997</unitdate></unittitle>
+                <physdesc altrender="whole">
+                  </physdesc>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Conference Management Services</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Annual Reports <unitdate type="inclusive" normal="1995/1996">1995/96</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Conferences and Seminars Office</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Brochures <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Department of Residence Education</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Brochures <unitdate type="inclusive" normal="1989/1990">1989-1990</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Manuals</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <unittitle>
+                  <title render="italic">Resident Staff Selection: Guidelines and Procedures with Job Descriptions</title>
+                </unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">5</container>
+                  <unittitle>
+                    <unitdate type="inclusive" normal="1990/1991">1990-1991</unitdate>
+                  </unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">5</container>
+                  <unittitle>
+                    <unitdate type="inclusive" normal="1993">1993</unitdate>
+                  </unittitle>
+                </did>
+              </c05>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Newsletters</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">5</container>
+                <unittitle><title render="italic">ResEd Times</title>, <unitdate type="inclusive" normal="1995">1995</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Dining Services</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Strategic Plan <unitdate type="inclusive" normal="1991/1992">1991/92</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Family Housing</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">6</container>
+              <unittitle>Brochures <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Bulletins</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">6</container>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">3 folders</extent>
+                </physdesc>
+                <unittitle><title render="italic">Family Housing</title>, <unitdate type="inclusive" normal="1977/1995">1977-1995</unitdate> (scattered issues)</unittitle>
+                <physdesc>
+                  </physdesc>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Newsletters</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">6</container>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">17 folders</extent>
+                </physdesc>
+                <unittitle><title render="italic">The Community Focus</title>, <unitdate type="inclusive" normal="1981/1999">1981-1999</unitdate> vol. 1-16</unittitle>
+                <physdesc altrender="whole">
+                  </physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">6</container>
+                <unittitle><title render="italic">Family Housing News</title>, <unitdate type="inclusive" normal="1979/1982">1979-1982</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Reports</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">6</container>
+                <unittitle><title render="italic">Family Housing Report</title>, <unitdate type="inclusive">undated</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Special Programs</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">6</container>
+                <unittitle>Child Development Center <unitdate type="inclusive">undated</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">6</container>
+                <unittitle>Language Program <unitdate type="inclusive" normal="1994">1994</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>Northwood</unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <unittitle>Newsletters</unittitle>
+                </did>
+                <c06 level="file">
+                  <did>
+                    <container type="box" label="Box">6</container>
+                    <unittitle><title render="italic">Northwood IV News</title>, <unitdate type="inclusive" normal="1977">1977</unitdate></unittitle>
+                  </did>
+                </c06>
+                <c06 level="file">
+                  <did>
+                    <container type="box" label="Box">6</container>
+                    <physdesc altrender="whole">
+                      <extent altrender="materialtype spaceoccupied">3 folders</extent>
+                    </physdesc>
+                    <unittitle><title render="italic">The Undaily</title>, <unitdate type="inclusive" normal="1968/1974">1968-1974</unitdate></unittitle>
+                    <physdesc altrender="whole">
+                      </physdesc>
+                  </did>
+                </c06>
+              </c05>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Food Service</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>Brochures</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">7</container>
+                <unittitle>Meal Plans <unitdate type="inclusive" normal="1971/1992">1971-1992</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Manuals</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">7</container>
+                <unittitle><title render="italic">Student Employee Policy Booklet</title>, <unitdate type="inclusive" normal="1972/1973">1972-1973</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Newsletters</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">7</container>
+                <unittitle><title render="italic">Entree Plus Press</title>, <unitdate type="inclusive" normal="1991">1991</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">7</container>
+                <unittitle><title render="italic">Just for "U</title>", <unitdate type="inclusive" normal="1982">1982</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">7</container>
+                <unittitle><title render="italic">Tete-a-Tete</title>, <unitdate type="inclusive" normal="1992/1993">1992-1993</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Reports</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">7</container>
+                <unittitle><title render="italic">A Feasibility Study for the Consolidation of the Food Service Areas in Couzens, Alice Lloyd, Mosher-Jordan and Stockwell Dormitories</title>, <unitdate type="inclusive" normal="1978">1978</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Hospitality Services</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>Strategic Plan <unitdate type="inclusive" normal="1990">1990</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Housing Catering</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>Menus <unitdate type="inclusive" normal="1994">1994</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Housing Conference Services</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>Brochures <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Housing Facilities Department</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>Annual Reports</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">7</container>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">4 folders</extent>
+                </physdesc>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1985/1996">1985-1996</unitdate>
+                </unittitle>
+                <physdesc altrender="whole">
+                  </physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">7</container>
+                <unittitle><title render="italic">Energy Report</title>, <unitdate type="inclusive" normal="1978/1979">1978/79</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">7</container>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">3 folders</extent>
+                </physdesc>
+                <unittitle><title render="italic">Utilities and Energy Management Report</title>, <unitdate type="inclusive" normal="1979/1986">1979-1986</unitdate></unittitle>
+                <physdesc altrender="whole">
+                  </physdesc>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Manuals</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">7</container>
+                <unittitle><title render="italic">Facilities Council Handbook</title>, <unitdate type="inclusive" normal="1993">1993</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Housing Information Office</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>Listings</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">7</container>
+                <unittitle><title render="italic">Faculty and Staff Housing Referrals</title>, <unitdate type="inclusive" normal="1995/1997">1995-1997</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Housing Research Office</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>Reports</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">7</container>
+                <unittitle><title render="italic">A Tide on Which All Boats Rise: The Effects of Living-Learning Program Participation on Undergraduate Outcomes at the University of Michigan</title>, <unitdate type="inclusive" normal="1989">1989</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Housing Special Programs</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>Anthologies</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">7</container>
+                <unittitle><title render="italic">Ethnic Reflections</title>, <unitdate type="inclusive" normal="1979/1988">1979-1988</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>Brochures <unitdate type="inclusive" normal="1979">1979</unitdate>, <unitdate type="inclusive" normal="1987">1987</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Catalogs</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">7</container>
+                <unittitle><title render="italic">Minority Films Catalog</title>, <unitdate type="inclusive">undated</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Manuals</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">7</container>
+                <unittitle><title render="italic">Funding Referral Guide</title>, <unitdate type="inclusive" normal="1983">1983</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">7</container>
+                <unittitle><title render="italic">Minority Peer Advisor Training Manual</title>, <unitdate type="inclusive" normal="1980" certainty="approximate">circa 1980</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">7</container>
+                <unittitle><title render="italic">Operation Plan</title>, <unitdate type="inclusive" normal="1993">1993</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>William Monroe Trotter House</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">7</container>
+                <unittitle>Brochures <unitdate type="inclusive" normal="1989">1989</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Mediation Services</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>Bulletins <unitdate type="inclusive" normal="1986/1990">1986-1990</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>Reports <unitdate type="inclusive" normal="1960" certainty="approximate">circa 1960</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Off-Campus Housing Program</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>Brochures</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">7</container>
+                <unittitle><title render="italic">Fraternities at the University of Michigan</title>, <unitdate type="inclusive" normal="1979/1980">1979/80</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">7</container>
+                <unittitle><title render="italic">Sororities at the University of Michigan</title>, <unitdate type="inclusive">undated</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Bulletins</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <unittitle><title render="italic">Off-Campus Housing</title>, <unitdate type="inclusive" normal="1964/1995">1964-1995</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">4 folders</extent>
+                </physdesc>
+                <physdesc altrender="whole">
+                  </physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">7</container>
+                <unittitle><title render="italic">Safety and Sanitation Manual for Small Group Houses</title>, <unitdate type="inclusive" normal="1977">1977</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Newsletters</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">7</container>
+                <unittitle><title render="italic">Off Campus Housing Newsletter</title>, <unitdate type="inclusive" normal="1968/1970">1968-1970</unitdate> vol. 1-3</unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Office of Student Relations</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>Manuals</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">8</container>
+                <unittitle><title render="italic">Residence Hall Judicial Process: A Handbook for Students</title>, <unitdate type="inclusive" normal="1993/1994">1993/94</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Physical Properties Department</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>Reports</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">8</container>
+                <unittitle><title render="italic">Physical Properties Report</title>, <unitdate type="inclusive" normal="1980/1981">1980-1981</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Pilot Program/College Community Program</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Annual Reports <unitdate type="inclusive" normal="1986/1987">1986-1987</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Brochures <unitdate type="inclusive" normal="1970/1995">1970-1995</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Bulletins <unitdate type="inclusive" normal="1977/1980">1977-1980</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Calendars <unitdate type="inclusive" normal="1975/1976">1975-1976</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Programs <unitdate type="inclusive" normal="1975">1975</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>President's Commission on Off-Campus Housing</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>Reports</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">8</container>
+                <unittitle><title render="italic">Student Housing: Report of the President's Off-Campus Housing Commission</title>, <unitdate type="inclusive" normal="1965">1965</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Residence Hall Rate Committee</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>Reports</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">8</container>
+                <unittitle><title render="italic">Residence Hall Rate Committee Report</title>, <unitdate type="inclusive" normal="1971/1972">1971/72</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Residence Halls</unittitle>
+          </did>
+          <c03 level="otherlevel" otherlevel="sub-subseries">
+            <did>
+              <unittitle>Alice Lloyd</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <unittitle>Anthologies</unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">8</container>
+                  <unittitle><title render="italic">Ego: Through the Looking Glass</title>, <unitdate type="inclusive">undated</unitdate></unittitle>
+                </did>
+              </c05>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">8</container>
+                <unittitle>Brochures <unitdate type="inclusive" normal="1992/1994">1992-1994</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>Manuals</unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">8</container>
+                  <unittitle><title render="italic">Alice Lloyd Hall Dorm Booklet</title>, <unitdate type="inclusive" normal="1982/1983">1982/83</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">8</container>
+                  <unittitle><title render="italic">Alice Lloyd Hall Handbook and Constitution</title>, <unitdate type="inclusive" normal="1963/1964">1963/64</unitdate></unittitle>
+                </did>
+              </c05>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">8</container>
+                <unittitle>Newsletters <unitdate type="inclusive" normal="1973">1973</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="otherlevel" otherlevel="sub-subseries">
+            <did>
+              <unittitle>Alumnae House</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <unittitle>Directories</unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">8</container>
+                  <unittitle><title render="italic">Budget of News</title>, <unitdate type="inclusive" normal="1942">1942</unitdate></unittitle>
+                </did>
+              </c05>
+            </c04>
+          </c03>
+          <c03 level="otherlevel" otherlevel="sub-subseries">
+            <did>
+              <unittitle>Barbour</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">8</container>
+                <unittitle>Regulations <unitdate type="inclusive" normal="1936">1936</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="otherlevel" otherlevel="sub-subseries">
+            <did>
+              <unittitle>Barbour/Newberry</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">8</container>
+                <unittitle>Brochures <unitdate type="inclusive" normal="1992/1994">1992-1994</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">8</container>
+                <unittitle>Manuals <unitdate type="inclusive" normal="1975">1975</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="otherlevel" otherlevel="sub-subseries">
+            <did>
+              <unittitle>Bursley</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">8</container>
+                <unittitle>Brochures <unitdate type="inclusive" normal="1992/1994">1992-1994</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>Manuals</unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">8</container>
+                  <unittitle><title render="italic">Bursley Community Volunteers</title>, <unitdate type="inclusive" normal="1988/1989">1988-1989</unitdate></unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">8</container>
+                  <unittitle><title render="italic">Bursley Hall Handbook</title> (Orientation Handbook), <unitdate type="inclusive" normal="1979/1982">1979-1982</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
+                </did>
+              </c05>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>Newsletters</unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">8</container>
+                  <unittitle><title render="italic">The Jon Door</title>, <unitdate type="inclusive" normal="1973/1976">1973-1976</unitdate></unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">8</container>
+                  <unittitle><title render="italic">University of Michigan Bursley Hall</title>, <unitdate type="inclusive" normal="1979">1979</unitdate></unittitle>
+                </did>
+              </c05>
+            </c04>
+          </c03>
+          <c03 level="otherlevel" otherlevel="sub-subseries">
+            <did>
+              <unittitle>Cambridge House</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">8</container>
+                <unittitle>Brochures <unitdate type="inclusive" normal="1992/1994">1992-1994</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="otherlevel" otherlevel="sub-subseries">
+            <did>
+              <unittitle>Couzens</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">8</container>
+                <unittitle>Brochures <unitdate type="inclusive" normal="1992/1994">1992-1994</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">8</container>
+                <unittitle>Manuals <unitdate type="inclusive" normal="1974">1974</unitdate>, <unitdate type="inclusive" normal="1974/1984">1974-1984 (scattered)</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">8</container>
+                <unittitle>Newsletters <unitdate type="inclusive" normal="1929">1929</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="otherlevel" otherlevel="sub-subseries">
+            <did>
+              <unittitle>East Quad</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">8</container>
+                <unittitle>Brochures <unitdate type="inclusive" normal="1992/1994">1992-1994</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>Guidebooks</unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">8</container>
+                  <unittitle><title render="italic">Truckin' Around Town: A Guide to Survival in East Quad and Ann Arbor</title>, <unitdate type="inclusive">undated</unitdate></unittitle>
+                </did>
+              </c05>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>Manuals</unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">8</container>
+                  <unittitle><title render="italic">East Quad and its Academic Units: A Guide</title>, <unitdate type="inclusive">undated</unitdate></unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">8</container>
+                  <unittitle><title render="italic">East Quad Hymnal</title>, <unitdate type="inclusive" normal="1970/1971">1970/71</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">8</container>
+                  <unittitle><title render="italic">A Guide to Communal Living</title>, <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">8</container>
+                  <unittitle><title render="italic">Survivor's Guide</title>, <unitdate type="inclusive" normal="1981/1982">1981/82</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
+                </did>
+              </c05>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>Newsletters</unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">8</container>
+                  <unittitle><title render="italic">The East Wind</title>, <unitdate type="inclusive" normal="1987/1988">1987/88</unitdate></unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">8</container>
+                  <unittitle><title render="italic">Omphos</title>, <unitdate type="inclusive">undated</unitdate></unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">8</container>
+                  <unittitle><title render="italic">The Resurrection</title>, <unitdate type="inclusive" normal="1972">1972</unitdate></unittitle>
+                </did>
+              </c05>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">8</container>
+                <unittitle>Programs <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="otherlevel" otherlevel="sub-subseries">
+            <did>
+              <unittitle>Fletcher</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">8</container>
+                <unittitle>Brochures <unitdate type="inclusive" normal="1992/1994">1992-1994</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>Manuals</unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">8</container>
+                  <unittitle><title render="italic">The Men of Fletcher Hall</title>, <unitdate type="inclusive" normal="1983/1985">1983-1985</unitdate></unittitle>
+                </did>
+              </c05>
+            </c04>
+          </c03>
+          <c03 level="otherlevel" otherlevel="sub-subseries">
+            <did>
+              <unittitle>Henderson House</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <unittitle>Yearbooks</unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">8</container>
+                  <unittitle><title render="italic">Henderson House</title>, <unitdate type="inclusive" normal="1958/1967">1958-1967</unitdate></unittitle>
+                </did>
+              </c05>
+            </c04>
+          </c03>
+          <c03 level="otherlevel" otherlevel="sub-subseries">
+            <did>
+              <unittitle>Inter-House Council</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">8</container>
+                <unittitle>Newsletters <unitdate type="inclusive" normal="1957">1957</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="otherlevel" otherlevel="sub-subseries">
+            <did>
+              <unittitle>Markley</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">8</container>
+                <unittitle>Anthologies <unitdate type="inclusive" normal="1981">1981</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">8</container>
+                <unittitle>Brochures <unitdate type="inclusive" normal="1992/1994">1992-1994</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">8</container>
+                <unittitle>Cookbooks <unitdate type="inclusive">undated</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">8</container>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">3 folders</extent>
+                </physdesc>
+                <unittitle>Manuals <unitdate type="inclusive" normal="1963/1982">1963-1982</unitdate></unittitle>
+                <physdesc altrender="whole">
+                  </physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>Newsletters</unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">8</container>
+                  <unittitle><title render="italic">Markely Notes</title>, <unitdate type="inclusive" normal="1972">1972</unitdate></unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">8</container>
+                  <unittitle><title render="italic">The Toilet Paper</title>, <unitdate type="inclusive" normal="1969/1970">1969/70</unitdate></unittitle>
+                </did>
+              </c05>
+            </c04>
+          </c03>
+          <c03 level="otherlevel" otherlevel="sub-subseries">
+            <did>
+              <unittitle>Mosher Jordan</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">8</container>
+                <unittitle>Brochures <unitdate type="inclusive" normal="1930/1994">1930-1994</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>Manuals</unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">8</container>
+                  <unittitle><title render="italic">Mosher Hall Blue Book</title>, <unitdate type="inclusive">undated</unitdate></unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">8</container>
+                  <unittitle><title render="italic">Mosher Michigan</title>, <unitdate type="inclusive" normal="1965/1966">1965/66</unitdate></unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">8</container>
+                  <unittitle><title render="italic">Mosher Jordan</title> (Orientation Handbook), <unitdate type="inclusive">undated</unitdate></unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">8</container>
+                  <unittitle><title render="italic">Welcome to Mo Jo</title>, <unitdate type="inclusive" normal="1978/1984">1978-1984</unitdate></unittitle>
+                </did>
+              </c05>
+            </c04>
+          </c03>
+          <c03 level="otherlevel" otherlevel="sub-subseries">
+            <did>
+              <unittitle>Oxford Housing</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">8</container>
+                <unittitle>Anthologies <unitdate type="inclusive" normal="1974">1974</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">8</container>
+                <unittitle>Brochures <unitdate type="inclusive" normal="1992/1994">1992-1994</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">8</container>
+                <unittitle>Cookbooks <unitdate type="inclusive">undated</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">8</container>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">2 folders</extent>
+                </physdesc>
+                <unittitle>Manuals <unitdate type="inclusive" normal="1963/1982">1963-1982 (scattered)</unitdate></unittitle>
+                <physdesc altrender="whole">
+                  </physdesc>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="otherlevel" otherlevel="sub-subseries">
+            <did>
+              <container type="box" label="Box">9</container>
+              <unittitle>South Quad</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">9</container>
+                <unittitle>Brochures <unitdate type="inclusive" normal="1992/1994">1992-1994</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>Manuals</unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">9</container>
+                  <unittitle><title render="italic">About South Quad: A Guide to Good Living in South Quad</title>, <unitdate type="inclusive" normal="1987/1988">1987-1988</unitdate></unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">9</container>
+                  <unittitle><title render="italic">South Quadrangle</title>, <unitdate type="inclusive" normal="1964/1979">1964-1979</unitdate>, <unitdate type="inclusive">undated (scattered)</unitdate></unittitle>
+                </did>
+              </c05>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">9</container>
+                <unittitle>Newsletters <unitdate type="inclusive" normal="1979">1979</unitdate>, <unitdate type="inclusive" normal="1981">1981</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="otherlevel" otherlevel="sub-subseries">
+            <did>
+              <unittitle>Stockwell</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">9</container>
+                <unittitle>Brochures <unitdate type="inclusive" normal="1992/1994">1992-1994</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>Manuals</unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">9</container>
+                  <unittitle>
+                    <unitdate type="inclusive" normal="1964/1966">1964-1966</unitdate>
+                  </unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">9</container>
+                  <unittitle>
+                    <unitdate type="inclusive" normal="1978/1982">1978-1982</unitdate>
+                  </unittitle>
+                </did>
+              </c05>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">9</container>
+                <unittitle>Programs <unitdate type="inclusive" normal="1976">1976</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="otherlevel" otherlevel="sub-subseries">
+            <did>
+              <unittitle>Vera Baits</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">9</container>
+                <unittitle>Brochures <unitdate type="inclusive" normal="1992/1994">1992-1994</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>Manuals</unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">9</container>
+                  <physdesc altrender="whole">
+                    <extent altrender="materialtype spaceoccupied">2 folders</extent>
+                  </physdesc>
+                  <unittitle><title render="italic">Information</title>, <unitdate type="inclusive" normal="1970/1982">1970-1982 (scattered)</unitdate></unittitle>
+                  <physdesc altrender="whole">
+                    </physdesc>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">9</container>
+                  <unittitle><title render="italic">Staff Manual</title>, <unitdate type="inclusive" normal="1970/1971">1970-1971</unitdate></unittitle>
+                </did>
+              </c05>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>Newsletters</unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">9</container>
+                  <unittitle><title render="italic">Baits Bullsheet</title>, <unitdate type="inclusive">undated</unitdate></unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">9</container>
+                  <unittitle>
+                    <title render="italic">The Hubbard Herald, 1975</title>
+                  </unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unittitle>
+                    <title render="italic">Verbatim</title>
+                  </unittitle>
+                </did>
+                <c06 level="file">
+                  <did>
+                    <container type="box" label="Box">9</container>
+                    <unittitle><unitdate type="inclusive" normal="1980/1981">1980-1981</unitdate> vol. 2-5</unittitle>
+                  </did>
+                </c06>
+                <c06 level="file">
+                  <did>
+                    <container type="box" label="Box">9</container>
+                    <unittitle><unitdate type="inclusive" normal="1992/1993">1992-1993</unitdate> vol. 13</unittitle>
+                  </did>
+                </c06>
+              </c05>
+            </c04>
+          </c03>
+          <c03 level="otherlevel" otherlevel="sub-subseries">
+            <did>
+              <unittitle>West Quad</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">9</container>
+                <unittitle>Brochures <unitdate type="inclusive" normal="1978">1978</unitdate>, <unitdate type="inclusive" normal="1992">1992</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="item">
+              <did>
+                <container type="box" label="Box">9</container>
+                <unittitle>Manuals <unitdate type="inclusive" normal="1970/1977">1970-1977</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="item">
+              <did>
+                <container type="box" label="Box">9</container>
+                <unittitle>Newsletters <unitdate type="inclusive" normal="1952">1952</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="otherlevel" otherlevel="sub-subseries">
+            <did>
+              <unittitle>West Quad, Barbour, and Newberry (WQBN)</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">9</container>
+                <unittitle>Manuals <unitdate type="inclusive" normal="1979/1985">1979-1985</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="otherlevel" otherlevel="sub-subseries">
+            <did>
+              <unittitle>West Quad/Cambridge House</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">9</container>
+                <unittitle>Brochures <unitdate type="inclusive" normal="1993/1994">1993-1994</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Residence Halls Associations</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">9</container>
+              <unittitle>Constitution and By-Laws <unitdate type="inclusive" normal="1990">1990</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Manuals</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">9</container>
+                <unittitle><title render="italic">Residence Halls Association Handbook</title>, <unitdate type="inclusive">undated</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">9</container>
+                <unittitle><title render="italic">Resident Staff Resource Guide</title>, <unitdate type="inclusive" normal="1986/1987">1986-1987</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">9</container>
+              <unittitle>Miscellaneous <unitdate type="inclusive" normal="1992/1997">1992-1997</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Newsletters</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">9</container>
+                <unittitle><title render="italic">RHA Today</title>, <unitdate type="inclusive" normal="1986">1986</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">9</container>
+                <unittitle><title render="italic">RHAP Sheet</title>, <unitdate type="inclusive" normal="1983/1986">1983-1986</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">9</container>
+                <unittitle><title render="italic">Resident Voice</title>, <unitdate type="inclusive" normal="1986/1987">1986/87</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Residence Halls Computing Program</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>Newsletters</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">9</container>
+                <unittitle><title render="italic">ResComp News: Residence Halls Computing Newsletter</title>, <unitdate type="inclusive" normal="1987">1987</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Proposals</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">9</container>
+                <unittitle><title render="italic">A Proposal to Apple Computer, Inc. for Partial Funding of the Residence Halls Computing Program (ResComp) at the University of Michigan</title>, <unitdate type="inclusive">undated</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Residence Halls Libraries</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>Annual Reports</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">9</container>
+                <unittitle><title render="italic">Annual Report of Coordinating Committee for Libraries in Women's Residence Halls</title>, <unitdate type="inclusive" normal="1960/1961">1960/61</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">9</container>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">2 folders</extent>
+                </physdesc>
+                <unittitle><title render="italic">Annual Report of Women's Residence Halls Library Coordinating Committee</title>, <unitdate type="inclusive" normal="1961/1963">1961-1963</unitdate></unittitle>
+                <physdesc altrender="whole">
+                  </physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">9</container>
+                <unittitle><title render="italic">Annual Report Residence Halls Libraries, by Library Selections Committee</title>, <unitdate type="inclusive" normal="1966/1967">1966/67</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">9</container>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">2 folders</extent>
+                </physdesc>
+                <unittitle><title render="italic">Annual Report Residence Halls Libraries, by Head Librarians' Committee</title>, <unitdate type="inclusive" normal="1970/1971">1970/71</unitdate>, <unitdate type="inclusive" normal="1973/1974">1973/74</unitdate></unittitle>
+                <physdesc altrender="whole">
+                  </physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">9</container>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">12 folders</extent>
+                </physdesc>
+                <unittitle><title render="italic">Annual Reports</title>, <unitdate type="inclusive" normal="1969/1993">1969-1993</unitdate></unittitle>
+                <physdesc altrender="whole">
+                  </physdesc>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">9</container>
+              <unittitle>Brochures <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Manuals</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">10</container>
+                <unittitle><title render="italic">The Charles H. Benzinger Memorial Library, East Quadrangle Manual of Policies and Procedures</title>, <unitdate type="inclusive" normal="1984/1985">1984/85</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">10</container>
+                <unittitle><title render="italic">Manual of Policies and Procedures for Residence Hall Libraries</title>, <unitdate type="inclusive" normal="1974">1974</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">10</container>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">2 folders</extent>
+                </physdesc>
+                <unittitle><title render="italic">Manual of Policies for Residence Hall Libraries at the University of Michigan</title>, <unitdate type="inclusive" normal="1966/1968">1966-1968</unitdate></unittitle>
+                <physdesc altrender="whole">
+                  </physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">10</container>
+                <unittitle><title render="italic">Operations Manual for the Microsoft File Circulation System</title>, <unitdate type="inclusive" normal="1992">1992</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">10</container>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">3 folders</extent>
+                </physdesc>
+                <unittitle><title render="italic">Operations Manual for Head Librarians</title>, <unitdate type="inclusive" normal="1976">1976</unitdate></unittitle>
+                <physdesc altrender="whole">
+                  </physdesc>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Reports</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">10</container>
+                <unittitle><title render="italic">Library Selection Committee</title>, <unitdate type="inclusive" normal="1964">1964</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Women's Residence Halls Library Coordinating Committee</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>Manuals</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">10</container>
+                <unittitle><title render="italic">Librarian's Handbook</title>, <unitdate type="inclusive" normal="1961">1961</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Solid Waste Management Task Force</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>Reports</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">10</container>
+                <unittitle><title render="italic">Integrated Solid Waste Management for UM Housing: Final Report and Recommendations</title>, <unitdate type="inclusive" normal="1988">1988</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Twenty First Century Program</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">10</container>
+              <unittitle>Brochures <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>University Apartments</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>Bulletins</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">10</container>
+                <unittitle><title render="italic">University Housing</title>, <unitdate type="inclusive" normal="1968/1971">1968-1971</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Manuals including lease information</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">10</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1962">1962</unitdate>
+                  <unitdate type="inclusive" normal="1966">1966</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">10</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1969">1969</unitdate>
+                  <unitdate type="inclusive" normal="1971">1971</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>University Apartment Facilities Rate Committee</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>Reports</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">10</container>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">2 folders</extent>
+                </physdesc>
+                <unittitle><title render="italic">Rate Committee Report for University Apartment Facilities</title>, <unitdate type="inclusive" normal="1969/1971">1969-1971</unitdate></unittitle>
+                <physdesc altrender="whole">
+                  </physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">10</container>
+                <unittitle><title render="italic">University Apartment Facilities Rate Committee Minority Report</title>, <unitdate type="inclusive" normal="1970/1971">1970/71</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>University Task Force on Faculty, Staff and Student Housing Issues</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>Reports</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">10</container>
+                <unittitle><title render="italic">Interim Report</title>, <unitdate type="inclusive" normal="1990-02-02">February 2, 1990</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">10</container>
+                <unittitle><title render="italic">Interim Report</title>, <unitdate type="inclusive" normal="1990-02-19">February 19, 1990</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">10</container>
+                <unittitle><title render="italic">Final Report</title>, <unitdate type="inclusive" normal="1990-07-27">July 27, 1990</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">10</container>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">4 folders</extent>
+                </physdesc>
+                <unittitle><title render="italic">Appendices A-F</title>, <unitdate type="inclusive">undated</unitdate>, <unitdate type="inclusive" normal="1990">1990</unitdate></unittitle>
+                <physdesc altrender="whole">
+                  </physdesc>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Women in Science and Engineering Residence Program</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">10</container>
+              <unittitle>Brochures <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Topical Publications</unittitle>
+        </did>
+        <scopecontent>
+          <p>The Topical Publications series includes printed materials published to document specific events or activities such as fund-raising or one-time conferences hosted by the Housing Division. The Topical Publications series (.1 linear feet) includes printed material relating to Men's and Women's housing. The researcher might also consult the Couzens Hall publications found under Sub-Unit Publications, Residence Halls for more information about this program.</p>
+        </scopecontent>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Men's Housing</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">10</container>
+              <unittitle>Brochures <unitdate type="inclusive" normal="1943/1952">1943-1952</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Bulletins</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">10</container>
+                <unittitle><title render="italic">Bulletin of Information</title>, <unitdate type="inclusive" normal="1950/1951">1950/51</unitdate>, <unitdate type="inclusive" normal="1954/1955">1954/55</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Manuals</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">10</container>
+                <unittitle><title render="italic">Staff Duties</title>, <unitdate type="inclusive">undated</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Women's Housing</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">10</container>
+              <unittitle>Brochures <unitdate type="inclusive" normal="1923/1952">1923-1952</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

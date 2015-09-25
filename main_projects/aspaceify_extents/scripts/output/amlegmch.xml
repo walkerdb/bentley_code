@@ -1,0 +1,4695 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead.dtd">
+<ead>
+  <eadheader audience="internal" langencoding="iso639-2b" repositoryencoding="iso15511" dateencoding="iso8601" relatedencoding="Dublin Core" scriptencoding="iso15924" countryencoding="iso3166-1">
+    <eadid countrycode="us" mainagencycode="MiU-H" publicid="us//::miu-h//TXT us::miu-h::amlegmch.xml//EN" encodinganalog="Identifier">umich-bhl-85590</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="Title">Finding Aid for American Legion, Dept. of Michigan records, 1919-1999</titleproper>
+        <author encodinganalog="Creator">Collection processed and finding aid created by Matt Strand</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="Publisher">Bentley Historical Library, University of Michigan</publisher>
+        <date encodinganalog="Date" normal="2008">2008</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created by Thomas E. Powers <date>2008</date></creation>
+      <langusage encodinganalog="Language">The finding aid is written in <language langcode="eng" scriptcode="Latn">English</language></langusage>
+      <descrules>Finding aid prepared using Describing Archives: A Content Standard (DACS)</descrules>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date>2008-08-26</date>
+        <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <frontmatter>
+    <titlepage>
+      <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
+      <titleproper>Finding aid for <lb/>American Legion, Dept. of Michigan records, 1919-1999</titleproper>
+      <author>Finding aid created by Matt Strand, 2008 <lb/></author>
+    </titlepage>
+  </frontmatter>
+  <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
+    <did>
+      <origination>
+        <corpname source="lcnaf" encodinganalog="110">American Legion. Dept. of Michigan.</corpname>
+      </origination>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">8 microfilm rolls</extent>
+      </physdesc>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">1 oversize folder</extent>
+      </physdesc>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">8 oversize volumes</extent>
+      </physdesc>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">18 linear feet</extent>
+      </physdesc>
+      <unittitle encodinganalog="245">American Legion, Dept. of Michigan records <unitdate type="inclusive" encodinganalog="245$f" normal="1919/1999">1919-1999</unitdate></unittitle>
+      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">85590 Be.2 2; Be Outsize; mf 525c-532c</unitid>
+      <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
+      <abstract>State component of larger national organization serving interests of war-time veterans. Series include meeting minutes, annual reports, convention proceedings, constitution and by-laws, records of American Legion Hospital, and records of various youth programs and other community service projects.</abstract>
+      <repository>
+        <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea>, University of Michigan</corpname>
+        <extptr href="bhladd" show="embed" actuate="onload"/>
+      </repository>
+    </did>
+    <descgrp type="admin">
+      <acqinfo encodinganalog="541">
+        <p>The records were donated to the library by the Michigan Department of the American Legion (donor no. <num type="donor" encodinganalog="541$e">4282</num>).</p>
+      </acqinfo>
+      <accruals encodinganalog="584">
+        <p>Periodic additions to the records expected.</p>
+      </accruals>
+      <accessrestrict encodinganalog="506">
+        <p>The record group is open to research.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+        <p>Copyright is held by the Regents of the University of Michigan.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+        <p>[item], folder, box, American Legion, Dept. of Michigan records, Bentley Historical Library, University of Michigan</p>
+      </prefercite>
+    </descgrp>
+    <bioghist encodinganalog="545">
+      <p>The origins of the American Legion can be traced to the late stages of World War 1, as American servicemen began to contemplate the formation of "an organization of veterans, dedicated in peace to the same ideals that inspired their services in war." Central to this effort was the comradeship characteristic of the soldiers that comprised the American Expeditionary Force. Wanting to preserve friendships that had been forged both in training camps and on the fields of battle, 500 delegates, representing various units of the A.E.F., were gathered in Paris in March 1919 to sow the seeds of the proposed veterans organization. This gathering, known as the Paris Caucus, arrived at the name "The American Legion" for the new organization, and set forth plans for a second caucus, at which further details of the organization would be ironed out. This second caucus was held in St. Louis in May of 1919, and involved nearly 1000 delegates from across the United States. It was at this event that the constitution and by-laws of the organization were adopted, the preamble drafted, and the location of the first annual convention determined.</p>
+      <p>The history of the Michigan department of the American Legion can be traced to April 1919, shortly after the Paris Caucus. At a meeting in New York, Colonel Fred M. Alger was appointed Chairman of the Michigan Temporary Committee. Later in that same year, forty-six Michigan delegates were selected for the St. Louis Caucus, and while in St. Louis, the Michigan Department held its first meeting in the Hotel Statler. At this point, George C. Waldo was named Temporary Chairman, Benjamin B. Bellows Temporary Vice Commander, and Lyle B. Tabor Temporary Adjutant.</p>
+      <p>The Michigan Department expanded rapidly, and by July of that year, 45 posts, representing 2,088 members, had been granted charters with seven more in progress. The first State Convention was held in Grand Rapids in October 1920, with Colonel A.H. Gansser named State Commander and Lyle Tabor State Adjutant. By this time, Michigan had 192 Posts covering every county in the state. Over time, the membership requirements were altered to include any American war-time veterans, not just World War 1. As a result, the organization continued to grow with new veterans and thrive through the 20th century. It is interesting to note that with this expansive membership, neutrality in regard to partisan politics has long been the stance of the Michigan Department. While the Department enjoys a positive working relationship with the Michigan State government, its key focuses remain veteran's issues rather than political parties.</p>
+      <p>In addition to representing the interests of veterans, the Michigan Department of the American Legion takes part in a number of projects that are generally of benefit to its members and the surrounding community. The Department operated a hospital and planned living community in Battle Creek, respectively named the American Legion Hospital and Legion Villa. Various scholarships for "deserving students" are offered by the Department, namely, the Brewer Trust and the William Morris Scholarship. Additionally, the Department is involved in youth programs such as Boys State, a summer program where high school students simulate a state government, the American Legion Junior Baseball League, and, until the late 1970s a home for the children of veterans located in Otter Lake, Michigan.</p>
+    </bioghist>
+    <scopecontent encodinganalog="520">
+      <p>The records of the Michigan department of the American Legion date from the early days of the department in 1919 up to the late 1990s, and document the internal functions of the organization as well as various projects and community service programs undertaken by the department. The record group contains the following series: Executive Committee Files, Proceedings and Annual Reports, Publications, Assorted Meeting Minutes, Michigan Department Annual Reports, Cancelled Post Files, Other Records, Otter Lake Children's Billet, Scrapbooks and Photograph Albums, and Sound Recording. Portions of the records are available on microfilm only.</p>
+    </scopecontent>
+    <controlaccess>
+      <p>
+        <extptr href="accnote" show="embed" actuate="onload"/>
+      </p>
+      <controlaccess>
+        <head>Subjects:</head>
+        <subject source="lcsh" encodinganalog="650">Veterans--Michigan--Societies, etc.</subject>
+        <corpname source="lcnaf" encodinganalog="610">American Legion. Dept. of Michigan.</corpname>
+      </controlaccess>
+      <controlaccess>
+        <head>Genre Terms:</head>
+        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+      </controlaccess>
+    </controlaccess>
+    <dsc type="combined">
+      <c01 level="series">
+        <did>
+          <unittitle>Executive Committee Files <unitdate type="inclusive" normal="1918/1982">1918-1982</unitdate></unittitle>
+        </did>
+        <scopecontent>
+          <p>Executive Committee Files (1919-1982, 4.5 rolls of microfilm, 6 linear feet) largely consist of the minutes of meetings held by the executive committee.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container type="reel" label="Roll">1</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1919/1923">1919-1923</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="reel" label="Roll">2</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1924/1929">1924-1929</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="reel" label="Roll">3</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1930/1932">1930-1932</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="reel" label="Roll">4</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1933/1939">1933-1939</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="reel" label="Roll">5</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1940/1941">1940-1941</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1941/1953">1941-1953</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1954/1962">1954-1962</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1963/1969">1963-1969</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1970/1975-07">1970-July 1975</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">5</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1975-08/1978">August 1975-1978</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">6</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1979/1982">1979-1982</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Proceedings and Annual Reports <unitdate type="inclusive" normal="1921/1982">1921-1982</unitdate></unittitle>
+        </did>
+        <scopecontent>
+          <p>Proceedings and Annual Reports (1921-1982, 3.5 rolls of microfilm, 3 linear feet) detail the proceedings of annual conventions with reports from various committees, and remarks from notable Legion personalities.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container type="reel" label="Roll">5</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1921/1924">1921-1924</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="reel" label="Roll">6</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1925/1931">1925-1931</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="reel" label="Roll">7</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1932/1936">1932-1936</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="reel" label="Roll">8</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1937/1941">1937-1941</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1942/1958">1942-1958</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1959/1973">1959-1973</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">9</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1974/1982">1974-1982</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Publications <unitdate type="inclusive" normal="1923/1961">1923-1961</unitdate></unittitle>
+        </did>
+        <scopecontent>
+          <p>The Publications (1923-1961, 0.25 linear feet) gathered are comprised principally of commemorative programs from conventions as well as publications detailing legion programs such as Boy's State and Junior Baseball.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">10</container>
+            <unittitle>Miscellaneous Publications</unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Assorted Meeting Minutes <unitdate type="inclusive" normal="1926/1978">1926-1978</unitdate></unittitle>
+        </did>
+        <scopecontent>
+          <p>Assorted Meeting Minutes (1926-1978, 0.25 linear feet) consist of the meeting minutes of various committees such as the Welfare Committee, Administrative Committee, and Veteran's Housing Committee.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <unittitle>Welfare Committee and Joint Meetings with Other Committees</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">10</container>
+              <unittitle>Meeting Minutes <unitdate type="inclusive" normal="1926-12/1931-07">December 1926-July 1931</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">10</container>
+              <unittitle>Meeting Minutes <unitdate type="inclusive" normal="1926-12/1930-08">December 1926-August 1930</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Administrative Committee</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">10</container>
+              <unittitle>Meeting Minutes <unitdate type="inclusive" normal="1945-09-08">September 8, 1945</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">10</container>
+              <unittitle>Meeting Minutes <unitdate type="inclusive" normal="1978-03-12">March 12, 1978</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">10</container>
+            <unittitle>Administrative Committee &amp; Hospital Committee: Meeting Minutes <unitdate type="inclusive" normal="1974-11-23">November 23, 1974</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">10</container>
+            <unittitle>Veterans Housing Committee: Meeting Minutes <unitdate type="inclusive" normal="1946-10-25">October 25, 1946</unitdate></unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Michigan Department Annual Convention Reports <unitdate type="inclusive" normal="1919/1948">1919-1948</unitdate></unittitle>
+        </did>
+        <scopecontent>
+          <p>The Michigan Department Annual Convention Reports (1919-1948, 0.5 linear feet) are published collections of reports regarding a number of issues presented by various committees at the annual conventions held by the department.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">10</container>
+            <unittitle>1st Annual Convention <unitdate type="inclusive" normal="1919-10">October 1919</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">10</container>
+            <unittitle>10th Annual Convention <unitdate type="inclusive" normal="1928-09">September 1928</unitdate></unittitle>
+            <physdesc>
+              <physfacet>Photocopy</physfacet>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">10</container>
+            <unittitle>11th Annual Convention <unitdate type="inclusive" normal="1929-09">September 1929</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">10</container>
+            <unittitle>12th Annual Convention <unitdate type="inclusive" normal="1930-07">July 1930</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">10</container>
+            <unittitle>13th Annual Convention <unitdate type="inclusive" normal="1931-07">July 1931</unitdate></unittitle>
+            <physdesc>
+              <physfacet>Photocopy</physfacet>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">10</container>
+            <unittitle>14th Annual Convention <unitdate type="inclusive" normal="1932-08">August 1932</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">10</container>
+            <unittitle>15th Annual Convention <unitdate type="inclusive" normal="1933-08">August 1933</unitdate></unittitle>
+            <physdesc>
+              <physfacet>Photocopy</physfacet>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">10</container>
+            <unittitle>16th Annual Convention <unitdate type="inclusive" normal="1934-09">September 1934</unitdate></unittitle>
+            <physdesc>
+              <physfacet>Photocopy</physfacet>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">10</container>
+            <unittitle>17th Annual Convention <unitdate type="inclusive" normal="1935-08">August 1935</unitdate></unittitle>
+            <physdesc>
+              <physfacet>Photocopy</physfacet>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">10</container>
+            <unittitle>18th Annual Convention <unitdate type="inclusive" normal="1936-08">August 1936</unitdate></unittitle>
+            <physdesc>
+              <physfacet>Photocopy</physfacet>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">10</container>
+            <unittitle>19th Annual Convention <unitdate type="inclusive" normal="1937-08">August 1937</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">10</container>
+            <unittitle>20th Annual Convention <unitdate type="inclusive" normal="1938-08">August 1938</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">10</container>
+            <unittitle>21st Annual Convention <unitdate type="inclusive" normal="1939-08">August 1939</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">10</container>
+            <unittitle>22nd Annual Convention <unitdate type="inclusive" normal="1940-08">August 1940</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">10</container>
+            <unittitle>23rd Annual Convention <unitdate type="inclusive" normal="1941-08">August 1941</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">10</container>
+            <unittitle>24th Annual Convention <unitdate type="inclusive" normal="1942-08">August 1942</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">10</container>
+            <unittitle>28th Annual Convention <unitdate type="inclusive" normal="1946-08">August 1946</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">10</container>
+            <unittitle>30th Annual Convention <unitdate type="inclusive" normal="1948-08">August 1948</unitdate></unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Cancelled Post Files, 1919-1999</unittitle>
+        </did>
+        <scopecontent>
+          <p>Cancelled Post Files (1919-1990s, 6 linear feet) contain information, in varying degrees of detail, concerning individual posts. These include applications for charters, member lists, photographs, etc.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <unittitle>Addison</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">11</container>
+              <unittitle>#243-Omans-Ewing</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Adrian</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">11</container>
+              <unittitle>#383-Dorie Miller</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">11</container>
+              <unittitle>#399-Delmar H. Daniels</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">11</container>
+              <unittitle>#432-Nick Alexander Post (African American)</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Alba</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">11</container>
+              <unittitle>#263-Dorus F. Boback</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Albion</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">11</container>
+              <unittitle>#114-Will Curtis (African American)</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Algonac</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">11</container>
+              <unittitle>#202-Pemberton Bros.</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Allenville</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">11</container>
+              <unittitle>#285-Herbert Connors Summerby</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Alma</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">11</container>
+              <unittitle>#132-Geo. W. Meyers</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">11</container>
+              <unittitle>#164-Meyers-Smith</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Almont</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">11</container>
+              <unittitle>#339-Dodge Whitehead</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Alpha</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">11</container>
+              <unittitle>#246-Thomas Farrell</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Alto</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">11</container>
+              <unittitle>#166-Alexander Anderson</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Ann Arbor</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">11</container>
+              <unittitle>#303-University</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">11</container>
+              <unittitle>#357-Kelley-Sanders</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">11</container>
+              <unittitle>#394-Geo. Ham Cannon</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">11</container>
+              <unittitle>#398-Kelley-Sanders (African American)</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">11</container>
+              <unittitle>#572-Ann Arbor-Pittsfield</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Atlanta</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">11</container>
+              <unittitle>#245-James Wall</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Augusta</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">11</container>
+              <unittitle>#323-John Grier</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">11</container>
+              <unittitle>#332-Leroy Redmond</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Bad Axe</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">11</container>
+              <unittitle>#96-Bad Axe</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Bancroft</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">11</container>
+              <unittitle>#161-Chas. A. Rorabeck</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Bannister</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">11</container>
+              <unittitle>#451-Maple River</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Baraga</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">11</container>
+              <unittitle>#315-Baraga</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Barryton</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">11</container>
+              <unittitle>#327-Hight Bloomquist</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Battle Creek</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">11</container>
+              <unittitle>#383-Oscer Burnette</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">11</container>
+              <unittitle>#429-Valentine Braxton</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">11</container>
+              <unittitle>#558-Dennis McKeen</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">11</container>
+              <unittitle>#567-James Chatman</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Bear Lake</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">11</container>
+              <unittitle>#317-Cirenus E. McCary</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Belleville</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">11</container>
+              <unittitle>#132-Belleville</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">11</container>
+              <unittitle>#258-Lincoln</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Bellevue</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">11</container>
+              <unittitle>#114-Maynard J. Hewitt</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Benzonia-Beulah</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">11</container>
+              <unittitle>#345-Charles L. Joy</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Berkley</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">11</container>
+              <unittitle>#371-Berkley</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Beulah</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">11</container>
+              <unittitle>#496-Benzie County</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Bloomingdale</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">11</container>
+              <unittitle>#169-Warren Gaines</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Bravo</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">11</container>
+              <unittitle>#273-Marshal-Nelson</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Breedsville</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">11</container>
+              <unittitle>#336-Albert Hasier</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Brimley</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">11</container>
+              <unittitle>#70-Alfred J. LeBlanc</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Brooklyn</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">11</container>
+              <unittitle>#63-Wilbur-Bartlett</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Brown City</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">11</container>
+              <unittitle>#214-Potter Poth</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Burr Oak</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">11</container>
+              <unittitle>#247-Walter Mayer</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Carson City</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">11</container>
+              <unittitle>#130-Douglas K. McGloskey</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Caspian</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">11</container>
+              <unittitle>#368-Purgato-Piper</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Cass City</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">11</container>
+              <unittitle>#187-Adams Seeger</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">11</container>
+              <unittitle>#507-Tri-County</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Cassopolis</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">11</container>
+              <unittitle>#249-Charis (African American)</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">11</container>
+              <unittitle>#403-Howard Clark (African American)</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Camp Custer</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">11</container>
+              <unittitle>#88-Camp Custer</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Centerline</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">11</container>
+              <unittitle>#81-Stevens-Meyers</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">11</container>
+              <unittitle>#478-Capt. F. F. Foster U.S.N.</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Centerville</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">11</container>
+              <unittitle>#124-Andrew N. Welsh</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Central Lake</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">11</container>
+              <unittitle>#319-Andrew N. Welsh</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Champion</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">11</container>
+              <unittitle>#556-Champion</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Chesaning</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">11</container>
+              <unittitle>#67-Arthur Thayer</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Clare</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">11</container>
+              <unittitle>#128-Clare</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Clarksville</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">11</container>
+              <unittitle>#201-Geo. A. Merrill</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Clawson</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">11</container>
+              <unittitle>#19-Mattimore Cleary</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Clio</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">11</container>
+              <unittitle>#200-Neely Lebar</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Coleman</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">11</container>
+              <unittitle>#207-George Edward Young</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Colon</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">11</container>
+              <unittitle>#167-Russell E. Welty</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Columbiaville</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">11</container>
+              <unittitle>#132-Columbiaville</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Concord</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">11</container>
+              <unittitle>#328-Simons</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">11</container>
+              <unittitle>#394-Bailey-Fisher-Zeller</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Conway</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">11</container>
+              <unittitle>#329-David Zurcher</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Curtis</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">11</container>
+              <unittitle>#371-Curtis</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Dearborn</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">11</container>
+              <unittitle>#427-Campbell Loverix South End Post</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Decatur</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">11</container>
+              <unittitle>#309-Decatur</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Deerfield</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">11</container>
+              <unittitle>#248-Elwood D Stansbury</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Detroit</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">11</container>
+              <unittitle>#1-Charles A. Learned</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">11</container>
+              <unittitle>#13-Ragan-Lide</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">11</container>
+              <unittitle>#19-Chevrolet-Detroit</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">11</container>
+              <unittitle>#23-Century</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">11</container>
+              <unittitle>#70-Holley Carburetor</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">11</container>
+              <unittitle>#70-National Guard-Iron Fist</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">11</container>
+              <unittitle>#75-Detroit Fire Department-Arthur R. Peltier</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">11</container>
+              <unittitle>#81-A.R.D.</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">11</container>
+              <unittitle>#99-Union Labor</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">11</container>
+              <unittitle>#118-Arthur Posselius</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">11</container>
+              <unittitle>#119-Bearl V. Pittenger</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">11</container>
+              <unittitle>#124-Edwin Denby</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">11</container>
+              <unittitle>#125-Bishop-Middleditch</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>#128-St. Lawrence</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>#130-Theodor &amp; Quentin Roosevelt</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>#134-N.Y. Central System</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>#136-23rd Engineers</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>#149-Harold Todd</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>#166-Ternstedt</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>#166-Detroit Motorbus Company</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>#185-Metropolitan</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>#191-City of Detroit</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>#193-Pontchartrain</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>#200-Thaddeus Kosciuszko</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>#201-Southwest</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>#201-Albert R. Barker</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>#210-University</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>#218-Julius Rosenwald</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>#224-Fort Wayne</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>#246-Communications</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>#249-Vickers</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>#251-Delray</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>#257-Detroit Aviation</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>#260-Westward</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>#262-Chrysler</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>#270-Pulaski</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>#275-Motor City</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>#276-John Marshall</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>#278-Christian</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>#284-Security</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>#291-Turnverein</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>#310-Thomas Jefferson</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>#313-Cecot-Park</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>#318-Naval</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>#327-College Park</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>#334-Antlers</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>#336-Vittel</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>#341-North Detroit</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>#349-General Wm. Mitchell</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>#349-Francis E. Dow</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>#351-Jos. P. Wesley</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>#358-Othello Crosby (African American)</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>#357-Hudson Motor Company</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>#358-Redford</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>#359-Harper-Van Dyke</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>#361-Red Arrow 32nd Division</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>#365-Advertising Men's</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>#370-Herbert R. McKinney</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>#371-Russell Johnson Theatrical</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>#373-Federal-Connor</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>#376-Island of Malta</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>#383-Leo R. Schaefer</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>#387-Chalmers</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>#395-Lohman Lincoln Motor</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>#404-Jacobs "Senne"</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>#404-Continental</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>#406-Detroit Lutheran</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>#412-Laurel J. Doyle</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>#414-The J. L. Hudson Co.</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>#415-George Earl Watson</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>#416-Packard Motor</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>#438-Bell Telephone</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>#440-Ex-Cell-O</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>#440-Rosedale Detroit</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>#442-Joey Moss</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>#443-Falcon</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>#450-Burke-Downey-Jones</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>#452-Lithuanian</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>#453-The Whitaker Paper Co.</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>#461-Grandale Detroit</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>#464-Gen. John J. Pershing Post</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">13</container>
+              <unittitle>#466-William P. Oliver-Paul R. Walker</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">13</container>
+              <unittitle>#469-Parke, Davis &amp; Co.</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">13</container>
+              <unittitle>#477-Molly Pitcher</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">13</container>
+              <unittitle>#480-Beatty and Hannigan</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">13</container>
+              <unittitle>#482-James Francis Neer</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">13</container>
+              <unittitle>#485-Miller-Bommer-Marentette</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">13</container>
+              <unittitle>#486-Michael J. Bokatzian</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">13</container>
+              <unittitle>#492-Charles Mueller</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">13</container>
+              <unittitle>#493-Franklin Delano Roosevelt</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">13</container>
+              <unittitle>#495-Catholic Central</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">13</container>
+              <unittitle>#498-Polish Century</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">13</container>
+              <unittitle>#506-William D. Riley, Jr.</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">13</container>
+              <unittitle>#508-Matthew A. Corrigan</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">13</container>
+              <unittitle>#509-Cedar of Lebanon</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">13</container>
+              <unittitle>#509-Howard Hudson</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">13</container>
+              <unittitle>#520-Cunningham Drug Company</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">13</container>
+              <unittitle>#542-Calvin &amp; Stanley Elson</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">13</container>
+              <unittitle>#546-Andrew J Starn Transportation</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">13</container>
+              <unittitle>#548-Admiral Waesche</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">13</container>
+              <unittitle>#551-Cadillac Motor Car</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">13</container>
+              <unittitle>#553-Edwin Zielke</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">13</container>
+              <unittitle>#555-Pontchartrain</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">13</container>
+              <unittitle>#561-Internal Revenue</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">13</container>
+              <unittitle>#564-Memorial Park</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">13</container>
+              <unittitle>#567-Pfeiffer Brewing Company</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">13</container>
+              <unittitle>#569-Linwood</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">13</container>
+              <unittitle>#571-Cedar of Lebanon</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Dexter</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">13</container>
+              <unittitle>#84-Ralph Whitney</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Dimondale</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">13</container>
+              <unittitle>#276-Frank Zimmerman</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">13</container>
+              <unittitle>#515-Dimondale</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Diorite</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">13</container>
+              <unittitle>#157-Nicholas Tassob</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Dowagiac</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">13</container>
+              <unittitle>#188-A. K. Richey</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">13</container>
+              <unittitle>#381-A. K. Richey</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Drummond</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">13</container>
+              <unittitle>#140-Drummond Island</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">13</container>
+              <unittitle>#501-Drummond Island</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Durand</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">13</container>
+              <unittitle>#151-Otis Raymond</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Dutton</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">13</container>
+              <unittitle>#565-Dutton</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>East Lansing</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">13</container>
+              <unittitle>#283-Michigan State Police</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">13</container>
+              <unittitle>#402-Michigan State College</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Ecorse</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">13</container>
+              <unittitle>#32-Roy E. Salliotte</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">13</container>
+              <unittitle>#272-Great Lakes Steel</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">13</container>
+              <unittitle>#352-Alexandre Dumas (African American)</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">13</container>
+              <unittitle>#378-Walton H Walker</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Edmore</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">13</container>
+              <unittitle>#136-William Wylie</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Elk Rapids</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">13</container>
+              <unittitle>#251-Elk</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Elsie</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">13</container>
+              <unittitle>#275-Moore Huffman</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Elwell</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">13</container>
+              <unittitle>#198-Mahin-Langworthy</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Emmett</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">13</container>
+              <unittitle>#32-Smith McMullin</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Engadine</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">13</container>
+              <unittitle>#272-John Riley</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Fairgrove</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">13</container>
+              <unittitle>#318-Fred Balcom</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Farwell</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">13</container>
+              <unittitle>#370-Frizzell Stinchcomb</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Fennville</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">13</container>
+              <unittitle>#38-James DeWitt</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">13</container>
+              <unittitle>#229-Marks Chelman</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Ferndale</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">13</container>
+              <unittitle>#383-Woodworth-Valentine</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Fife Lake</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">13</container>
+              <unittitle>#299-Burnett-Labar Nelson</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">13</container>
+              <unittitle>#316-Fife Lake</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Flint</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">13</container>
+              <unittitle>#139-Benjamin Schubert Barber (African American)</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">13</container>
+              <unittitle>#185-The Flintstone</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">13</container>
+              <unittitle>#198-Maysoc Jarrett</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">13</container>
+              <unittitle>#289-Jack Doyle</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">13</container>
+              <unittitle>#299-Oden Post (African American)</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">13</container>
+              <unittitle>#306-Dorie Miller</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">13</container>
+              <unittitle>#339-Flint City</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">13</container>
+              <unittitle>#453-Maxie H. Harris</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">13</container>
+              <unittitle>#456-Clark-Durocher</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">14</container>
+              <unittitle>#462-Gordon Walker</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">14</container>
+              <unittitle>#464-Cady-Turner</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">14</container>
+              <unittitle>#492-Flint Women's</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">14</container>
+              <unittitle>#497-Chevrolet Post</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">14</container>
+              <unittitle>#513-Flint Bell Telephone</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">14</container>
+              <unittitle>#524-Charles E. Mabry</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">14</container>
+              <unittitle>#534-Flint Chevrolet Motor</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">14</container>
+              <unittitle>#560-Walter R. Reuther</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Flushing</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">14</container>
+              <unittitle>#378-Morrish-Labarge Post</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Fostoria</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">14</container>
+              <unittitle>#168-Griswold Gooch</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">14</container>
+              <unittitle>#536-Griswold-Wheaton</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Freeland</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">14</container>
+              <unittitle>#349-Powley-Sarle</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Gagetown</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">14</container>
+              <unittitle>#208-Markel Sullivan</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Garden</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">14</container>
+              <unittitle>#132-Garden City</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">14</container>
+              <unittitle>#273-Garden</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">14</container>
+              <unittitle>#454-Garden Peninsula Post</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Gaylord</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">14</container>
+              <unittitle>#458-Top-O-Michigan Post</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Genesee</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">14</container>
+              <unittitle>#471-Genesee Township Post</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Gladwin</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">14</container>
+              <unittitle>#115-Wright</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Globeville</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">14</container>
+              <unittitle>#333-L. B. Van Voorheis</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Goodrich</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">14</container>
+              <unittitle>#539-Miller-Auten Post</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Grand Junction</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">14</container>
+              <unittitle>#405-Grand Junction</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Grand Rapids</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">14</container>
+              <unittitle>#243-Captain Edward Leonard</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">14</container>
+              <unittitle>#273-PFC Milton Olive III</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">14</container>
+              <unittitle>#277-West Side</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">14</container>
+              <unittitle>#405-Grand Junction</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">14</container>
+              <unittitle>#435-Henry A. Goss Post</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">14</container>
+              <unittitle>#445-Ex-Service Women's Post</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">14</container>
+              <unittitle>#472-Walker Post</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">14</container>
+              <unittitle>#481-Five Star Post</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">14</container>
+              <unittitle>#517-Gil Powers-Glen Dann Post</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">14</container>
+              <unittitle>#521-Grand Rapids Labor</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">14</container>
+              <unittitle>#529-Grand Rapids Aviation</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">14</container>
+              <unittitle>#432-Metropolitan Post</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Grant</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">14</container>
+              <unittitle>#261-Leo H. Rogers</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Greenland</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">14</container>
+              <unittitle>#47-Harry Eva</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">14</container>
+              <unittitle>#299-Kenneth E. Somero</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Grosse Point</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">14</container>
+              <unittitle>#497-Foley-VerVaecke-Knoll</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Gwinn</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">14</container>
+              <unittitle>#185-Gwinn</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">14</container>
+              <unittitle>#425-Sather-Paris Post</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Hamtramck</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">14</container>
+              <unittitle>#24-Henry Bushway, Jr.</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">14</container>
+              <unittitle>#198-Highland Park-North Detroit (Triangle) (African American)</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">14</container>
+              <unittitle>#366-City of Hamtramck</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">14</container>
+              <unittitle>#465-Washington-Chester-Miller</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Hanover</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">14</container>
+              <unittitle>#237-Howard-Ford</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Harrisville</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">14</container>
+              <unittitle>#56-Armstrong</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Hermansville</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">14</container>
+              <unittitle>#198-Charles Saxe</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Hesperia</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">14</container>
+              <unittitle>#300-Earl Sweet</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Highland Park</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">14</container>
+              <unittitle>#120-David M. Vincent</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">14</container>
+              <unittitle>#329-Charles L. Edwards</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">14</container>
+              <unittitle>#433-Ford-Highland Park Post</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Hillman</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">14</container>
+              <unittitle>#86-Milo Barton</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Holland</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">14</container>
+              <unittitle>#188-Holland Memorial Post</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">14</container>
+              <unittitle>#512-Tulip City Post</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Honor</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">14</container>
+              <unittitle>#294-Leslie Tomlinson</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Homer</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">14</container>
+              <unittitle>#225-Hess &amp; Whitcomb</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Hope</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">14</container>
+              <unittitle>#448-Braley-Henry Post</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Houghton</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">14</container>
+              <unittitle>#80-Judson B. Ingram</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Howard City</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">14</container>
+              <unittitle>#139-Fitzgerald Nelson</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">14</container>
+              <unittitle>#263-Fitzgerald Nelson</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Ishpeming</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">14</container>
+              <unittitle>#58-Ishpeming</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Ithaca</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">14</container>
+              <unittitle>#237-Orin Riker</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">14</container>
+              <unittitle>#328-Riker Furgason</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Jackson</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">14</container>
+              <unittitle>#178-Michigan Central R.R.</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Kalamazoo</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">14</container>
+              <unittitle>#334-Murdock (African American)</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">14</container>
+              <unittitle>#428-The Outpost</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">14</container>
+              <unittitle>#447-Phillips-Carr Post (African American)</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">14</container>
+              <unittitle>#474-Hanes-Malloy Post</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">14</container>
+              <unittitle>#513-Caroline Bartlett Crane Post</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Kaleva</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">14</container>
+              <unittitle>#324-J &amp; E Wertenan</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Kalkasa</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">14</container>
+              <unittitle>#254-Burwell Wise</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Kingston</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">14</container>
+              <unittitle>#284-Barrett-Geliske</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">14</container>
+              <unittitle>#534-Kingston</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Laingsburg</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">14</container>
+              <unittitle>#173-Clare Burt</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Lake City</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">14</container>
+              <unittitle>#288-Emory Sours</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Lake Odessa</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">14</container>
+              <unittitle>#122-LaVerne Demaray</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Lakeview</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">14</container>
+              <unittitle>#262-Ernest D. Wortley</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Lambertville</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">14</container>
+              <unittitle>#249-L. H. Komsteller</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Lansing</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">15</container>
+              <unittitle>#19-Lansing-Metro</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">15</container>
+              <unittitle>#116-Capital City Tuebor</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">15</container>
+              <unittitle>#188-George Washington Carver</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">15</container>
+              <unittitle>#193-Tuebor</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">15</container>
+              <unittitle>#397-Edward W. Strickland</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">15</container>
+              <unittitle>#413-Reo</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">15</container>
+              <unittitle>#423-Jacob Davenport</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">15</container>
+              <unittitle>#462-Donald E. Hansen</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">15</container>
+              <unittitle>#517-Lansing Bell Telephone Post</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Leslie</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">15</container>
+              <unittitle>#242-Wright Farrand</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Levering</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">15</container>
+              <unittitle>#179-Keller Thompson</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Lexington</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">15</container>
+              <unittitle>#298-Ira A. Yake</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Lincoln</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">15</container>
+              <unittitle>#356-Armstrong</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">15</container>
+              <unittitle>#476-Burt McCullough Post</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Livonia</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">15</container>
+              <unittitle>#521-Price Brothers Company Post</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Mackinac Island</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">15</container>
+              <unittitle>#316-Wm. Alvin Beloungea</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">15</container>
+              <unittitle>#514-Chapman-Belongea Post</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Madison Heights</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">15</container>
+              <unittitle>#254-Madison Heights Post</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Manton</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">15</container>
+              <unittitle>#332-Emery Derbyshire</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Marenisco</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">15</container>
+              <unittitle>#271-Presque Isle</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Marine City</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">15</container>
+              <unittitle>#127-Regan-Felgenauer</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Marion</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">15</container>
+              <unittitle>#302-Carl A. Bonham</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Marlette</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">15</container>
+              <unittitle>#162-Marlette</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Marysville</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">15</container>
+              <unittitle>#269-Marysville</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>McBain</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">15</container>
+              <unittitle>#145-James B. Jackson</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Michigamme</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">15</container>
+              <unittitle>#238-Carl Anderson</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">15</container>
+              <unittitle>#339-Carl Anderson</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Middleville</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">15</container>
+              <unittitle>#25-Leo A Miller</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Millington</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">15</container>
+              <unittitle>#289-Ray Henderson</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Minden City</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">15</container>
+              <unittitle>#291-McLeod Kelley</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">15</container>
+              <unittitle>#503-Minden City</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Monroe</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">15</container>
+              <unittitle>#424-Maeco</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Montgomery</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">15</container>
+              <unittitle>#219-Tri-State</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Morenci</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">15</container>
+              <unittitle>#219-F. Russell Green</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">15</container>
+              <unittitle>#241-Raymond R. Sebring</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Morley</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">15</container>
+              <unittitle>#312-Rosenweig-Knox</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Mt. Clemens</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">15</container>
+              <unittitle>#437-The King-Banks Elzy</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Mt. Morris</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">15</container>
+              <unittitle>#418-Russell Davis</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">15</container>
+              <unittitle>#183-Russell Davis</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">15</container>
+              <unittitle>#314-Martin C. Luther</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Muskegon</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">15</container>
+              <unittitle>#214-Harding-Johnson (African American)</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">15</container>
+              <unittitle>#323-William Stoppels</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">15</container>
+              <unittitle>#492-Phantom Guard</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Muskegon Heights</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">15</container>
+              <unittitle>#351-Harding Johnson</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">15</container>
+              <unittitle>#405-Muskegon Heights</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">15</container>
+              <unittitle>#532-Sherman Walker</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Nahma</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">15</container>
+              <unittitle>#224-Mercier</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Napoleon</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">15</container>
+              <unittitle>#549-Napoleon</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Nashville</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">15</container>
+              <unittitle>#113-Nashville</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Newaygo</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">15</container>
+              <unittitle>#100-Raymond Peters</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Negaunee</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">15</container>
+              <unittitle>#66-John H. Mitchell</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>New Buffalo</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">15</container>
+              <unittitle>#169-Harry R. Kruger</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Niles</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">15</container>
+              <unittitle>#116-Bertrand</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>North Beach</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">15</container>
+              <unittitle>#75-Patrick McCurdy</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Olivet</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">15</container>
+              <unittitle>#210-John R. Jacquette</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">15</container>
+              <unittitle>#572-Kelley Shaw</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Onway</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">15</container>
+              <unittitle>#178-Leo E. Richmond</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">15</container>
+              <unittitle>#238-Camp Presque Isle</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">15</container>
+              <unittitle>#317-Forest Preston Jr.</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Ontonagon</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">15</container>
+              <unittitle>#40-Smith-Adams</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Ortonville</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">15</container>
+              <unittitle>#164-Richmond Scott</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Otter Lake</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">15</container>
+              <unittitle>#365-Children's Billet</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Ovid</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">15</container>
+              <unittitle>#154-Storrer-Bowlby</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Owosso</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">15</container>
+              <unittitle>#419-Crawford-Arnold Post</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Palmer</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">15</container>
+              <unittitle>#59-Palmer</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Parisville</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">15</container>
+              <unittitle>#347-Maurer</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Parma</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">15</container>
+              <unittitle>#292-Cyril R. Klein</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Peck</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">15</container>
+              <unittitle>#190-James F. Grimes</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Pellston</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">15</container>
+              <unittitle>#158-Pellston</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Pentwater</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">15</container>
+              <unittitle>#280-Victor Jensen</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Perrinton</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">15</container>
+              <unittitle>#238-Willoughby Smith</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Pigeon</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">15</container>
+              <unittitle>#23-Comprends</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Pinconning</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">15</container>
+              <unittitle>#313-Prybylski</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Pinckney</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">15</container>
+              <unittitle>#271-J. Ray Kennedy</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Pleasant Ridge</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">15</container>
+              <unittitle>#389-Pascoe-Crosthwaite</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Plymouth</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">15</container>
+              <unittitle>#232-Scott D. Courtwrite</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Pontiac</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">15</container>
+              <unittitle>#311-John Baynard (African American)</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">15</container>
+              <unittitle>#411-Wells-Edwards Post</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">15</container>
+              <unittitle>#437-Wilson Foundry Post</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">15</container>
+              <unittitle>#466-Tobin-Cote</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Port Austin</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">15</container>
+              <unittitle>#341-Brown</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Port Huron</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">16</container>
+              <unittitle>#393-Charles Thompson</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">16</container>
+              <unittitle>#400-Francis G. Hayes</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Potterville</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">16</container>
+              <unittitle>#288-Potterville</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Prescott</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">16</container>
+              <unittitle>#358-Roy Henry</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Ramsay</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">16</container>
+              <unittitle>#350-Fredrickson-Torreano</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Reese</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">16</container>
+              <unittitle>#340-Moquin-Nichols</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Remus</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">16</container>
+              <unittitle>#446-Carl H. Taylor Post</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Republic</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">16</container>
+              <unittitle>#290-Goodney-Johnson-Isaacson</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Richmond</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">16</container>
+              <unittitle>#125-Sullivan-Burke</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>River Rouge</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">16</container>
+              <unittitle>#84-Young-Valois-Palmer (African American)</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">16</container>
+              <unittitle>#314-Wallis-Wainwright-Hack</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Rockwood</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">16</container>
+              <unittitle>#441-Zimmer-Giffin-Forest</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Romeo</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">16</container>
+              <unittitle>#109-Vern Hilliker</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Roscommon</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">16</container>
+              <unittitle>#326-Roscommon</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Rose City</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">16</container>
+              <unittitle>#209-Bechraft-Nichols</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Roseville</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">16</container>
+              <unittitle>#381-Roseville</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Rothbury</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">16</container>
+              <unittitle>#467-Thomas Patrick Reavey Post</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Royal Oak Township</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">16</container>
+              <unittitle>#288-Madison</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">16</container>
+              <unittitle>#448-Watkins-Byrd-Simmons Post (African American)</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Rudyard</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">16</container>
+              <unittitle>#307-Enslish Berkompas</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">16</container>
+              <unittitle>#316-Frank R. Maki</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Saginaw</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">16</container>
+              <unittitle>#312-Albert Davis Vernon (African American)</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">16</container>
+              <unittitle>#544-Aleda Lutz</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>St. Clair</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">16</container>
+              <unittitle>#143-Charles J. Fulton</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">16</container>
+              <unittitle>#477-John W. Hazard</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>St. Charles</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">16</container>
+              <unittitle>#218-Water</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>St. Joseph</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">16</container>
+              <unittitle>#299-Riverview</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Sandusky</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">16</container>
+              <unittitle>#219-Russell J. Wakefield</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Sand Lake</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">16</container>
+              <unittitle>#212-Huff-Tracy</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Scottville</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">16</container>
+              <unittitle>#156-Scottville</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">16</container>
+              <unittitle>#156-Samuel Shunk</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Shepherd</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">16</container>
+              <unittitle>#191-Roy H. Spink</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Sherwood</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">16</container>
+              <unittitle>#482-Sherwood Post</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Southfield Township</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">16</container>
+              <unittitle>#407-Southfield Post</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Snover</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">16</container>
+              <unittitle>#231-John Adair</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Stanwood</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">16</container>
+              <unittitle>#1993-Altona American Legion</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>South Lyon</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">16</container>
+              <unittitle>#560-Tri-County Post</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Springport</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">16</container>
+              <unittitle>#306-Paul E. Steffe</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Stanton</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">16</container>
+              <unittitle>#134-Clevenger Buskirk</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Stockbridge</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">16</container>
+              <unittitle>#116-J. T. Glenn</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Sumpter Township</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">16</container>
+              <unittitle>#395-Sumpter Post</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Sunfield</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">16</container>
+              <unittitle>#257-Ora V. Church</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Taylor Township</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">16</container>
+              <unittitle>#402-Taylor Center</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Tekonsha</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">16</container>
+              <unittitle>#118-Eldredge King Post</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">16</container>
+              <unittitle>#527-Eldredge King Post</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Trenary</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">16</container>
+              <unittitle>#511-Howard Tweedale</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Trenton</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">16</container>
+              <unittitle>#351-Alfred Fuller</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Tustin</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">16</container>
+              <unittitle>#209-Arthur C. Larson</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Twining</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">16</container>
+              <unittitle>#369-Viele Memorial</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Twin Lake</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">16</container>
+              <unittitle>#278-Wm. Patelski</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Ubly</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">16</container>
+              <unittitle>#330-Smith-Delleree</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Union City</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">16</container>
+              <unittitle>#196-Union Post</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Utica</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">16</container>
+              <unittitle>#193-Victor I. Rieck</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Vanderbilt</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">16</container>
+              <unittitle>#77-John Mertin Brodie</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Van Dyke</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">16</container>
+              <unittitle>#306-Van Dyke</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Vassar</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">16</container>
+              <unittitle>#177-Atkinson</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Vestaburg</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">16</container>
+              <unittitle>#260-Frank White</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Walloon Lake</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">16</container>
+              <unittitle>#541-Dean S. Scroggie Post</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Warren</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">16</container>
+              <unittitle>#114-Warren</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">16</container>
+              <unittitle>#401-Walter O. Briggs</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Waterford</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">16</container>
+              <unittitle>#431-Waterford Township Post</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Watersmeet</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">16</container>
+              <unittitle>#70-John Wenz</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Watervliet</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">16</container>
+              <unittitle>#338-Watervliet-Coloma</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Weidman</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">16</container>
+              <unittitle>#343-Howard Nichols</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>White Cloud</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">16</container>
+              <unittitle>#99-White Cloud</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Whittemore</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">16</container>
+              <unittitle>#490-Dorsey Post</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Willow Run</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">16</container>
+              <unittitle>#412-Kaiser-Frazer Post</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Woodhaven</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">16</container>
+              <unittitle>#224-Woodhaven</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Ypsilanti</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">16</container>
+              <unittitle>#379-Willow Lodge</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">16</container>
+            <unittitle>Miscellaneous Posts</unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Other Records <unitdate type="inclusive" normal="1926/1999">1926-1999</unitdate></unittitle>
+        </did>
+        <scopecontent>
+          <p>Other Records (1926-1999, 1 linear foot) consist of the constitution and by-laws of the American Legion, records pertaining to the American Legion Hospital in Battle Creek, MI, information on the various scholarships and trusts offered by the Michigan department, and records and publications tracing both the history of the Michigan department's headquarters and the history of the American Legion in general.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <unittitle>Constitution and By-Laws</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">17</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1926/1975">1926-1975</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">17</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1976/1982">1976-1982</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">17</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1986/1998">1986-1998</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Amendments to Constitution</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">17</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1967/1984">1967-1984</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">17</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1985/1999">1985-1999</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>American Legion Hospital</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">17</container>
+              <unittitle>Constitution</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">17</container>
+              <unittitle>Legal Documents</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">17</container>
+              <unittitle>Financial Documents, Reports</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">17</container>
+              <unittitle>Reports, Correspondence <genreform normal="Photographs">Photographs</genreform></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">17</container>
+              <unittitle>Planned Living Center (Legion Villa)</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Scholarships and Trusts</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>Brewer Trust</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">17</container>
+                <unittitle>Legal Documents</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">17</container>
+                <unittitle>Account Statements</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">17</container>
+              <unittitle>William Morris Scholarship</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">17</container>
+              <unittitle>Trust Account Summaries</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Historical Documents</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">17</container>
+              <unittitle>Michigan Department Headquarters History</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">17</container>
+              <unittitle>Publications</unittitle>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Otter Lake Children's Billet <unitdate type="inclusive" normal="1919/1979" certainty="approximate">1919-1970s</unitdate></unittitle>
+        </did>
+        <scopecontent>
+          <p>The records of the Otter Lake Children's Billet (1926-1970s, 1 linear foot) include meeting minutes of the billet board and other committees, various documents detailing the operation of the facility, legal documentation, photographs, reports and press releases.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <unittitle>Billet Board Minutes</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">18</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1926-12/1931-06">December 1926-June 1931</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">18</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1933-02/1944-08">February 1933-August 1944</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">18</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1944-12/1949-12">December 1944-December 1949</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">18</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1952-06/1955-12">June 1952-December 1955</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">18</container>
+              <unittitle><unitdate type="inclusive" normal="1950-01/1969-08">January 1950-August 1969</unitdate> (include miscellaneous)</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Billet Committee Minutes</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">18</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1952-10-12">October 12, 1952</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">18</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1954-10/1957-07">October 1954-July 1957</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">18</container>
+            <unittitle>Children's Home Committee Minutes <unitdate type="inclusive" normal="1958-07/1965-12">July 1958-December 1965</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">18</container>
+            <unittitle>Appropriation Requests and Inventories <unitdate type="inclusive" normal="1954/1957">1954-1957</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">18</container>
+            <unittitle>Physical Specifications</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">18</container>
+            <unittitle>Reports, Press Releases <genreform normal="Photographs">Photographs</genreform></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">18</container>
+            <unittitle>Survey Report <unitdate type="inclusive" normal="1956-01">January 1956</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">18</container>
+            <unittitle>Statement of Policy and Operations Manual</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">18</container>
+            <unittitle>Legal Documentation</unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Scrapbooks/Photograph Albums <unitdate type="inclusive" normal="1898/1970">1898-1970</unitdate></unittitle>
+        </did>
+        <scopecontent>
+          <p>The Scrapbooks and Photograph Albums (1898-1970, 8 oversize volumes) series details Legion conventions, photographs of meetings and other gatherings, community service projects, and assorted newspaper clippings.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <unittitle>Loose items from scrapbooks</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">18</container>
+              <unittitle>Portraits and Group Photographs <unitdate type="inclusive" normal="1940/1949" certainty="approximate">1940s</unitdate></unittitle>
+            </did>
+            <odd>
+              <p>(From Oversize Vol. 7)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Oversize Folder" type="folder">1</container>
+              <unittitle>Newspapers detailing convention activities <unitdate type="inclusive" normal="1931">1931</unitdate></unittitle>
+            </did>
+            <odd>
+              <p>(From Oversize Vol. 6)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Oversize Folder" type="folder">1</container>
+              <unittitle>Photographic Portraits of National Commanders <unitdate type="inclusive" normal="1946/1949">1946-1949</unitdate></unittitle>
+            </did>
+            <odd>
+              <p>(From Oversize Vol. 7)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Oversize Folder" type="folder">1</container>
+              <unittitle>Newspaper clippings concerning the American Legion Junior Baseball Program <unitdate type="inclusive" normal="1963">1963</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Oversize Folder" type="folder">1</container>
+              <unittitle>Poster chronicling the presidents of the American Legion Auxiliary</unittitle>
+            </did>
+            <odd>
+              <p>(From Oversize Vol. 8)</p>
+            </odd>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="volume" label="Oversize Volume">1</container>
+            <unittitle>Newspaper clippings, including obituaries, fictional serials, and national and international news <unitdate type="inclusive" normal="1898/1915">1898-1915</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="volume" label="Oversize Volume">6</container>
+            <unittitle>Newspaper clippings detailing the annual convention <unitdate type="inclusive" normal="1930/1931">1930-1931</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="volume" label="Oversize Volume">2</container>
+            <unittitle>Newspaper clippings detailing the annual convention and other legion business <unitdate type="inclusive" normal="1931/1940">1931-1940</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="volume" label="Oversize Volume">7</container>
+            <unittitle>Portraits and group photographs from meetings, conventions, banquets, etc. <unitdate type="inclusive" normal="1935/1959" certainty="approximate">Late 1930s-Late 1950s</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="volume" label="Oversize Volume">3</container>
+            <unittitle>Hometown U.S.A., project scrapbook regarding a legion program focused on sending recorded messages to servicemen overseas <unitdate type="inclusive" normal="1953">1953</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="volume" label="Oversize Volume">4</container>
+            <unittitle>Scrapbook &amp; Photographs, consisting of newspaper clippings relating Legion events and news, and group photographs <unitdate type="inclusive" normal="1956/1966">1956-1966</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="volume" label="Oversize Volume">5</container>
+            <unittitle>Public Relations, project scrapbook concerning efforts to educate the public in regard to Legion programs, as well as for internal education <unitdate type="inclusive" normal="1965/1969">1965-1969</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="volume" label="Oversize Volume">8</container>
+            <unittitle>Legion Publications, consisting primarily of selections from the Wolverine Auxiliary and the Michigan Legionnaire <unitdate type="inclusive" normal="1965/1970">1965-1970</unitdate></unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Sound Recording <unitdate type="inclusive" normal="1953">1953</unitdate></unittitle>
+        </did>
+        <scopecontent>
+          <p>Finally, there is a Sound Recording (1953, 1 vinyl record) linked to the Hometown USA scrapbook, which was a project involving sending recorded messages to servicemen overseas.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <physloc>Record collection</physloc>
+            <unittitle>Hometown U.S.A. <unitdate type="inclusive" normal="1953-11-04">November 4, 1953</unitdate></unittitle>
+          </did>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

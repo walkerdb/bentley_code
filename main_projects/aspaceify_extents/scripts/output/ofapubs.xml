@@ -1,0 +1,383 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead.dtd">
+<ead>
+  <eadheader audience="internal" langencoding="iso639-2b" repositoryencoding="iso15511" dateencoding="iso8601" relatedencoding="Dublin Core">
+    <eadid countrycode="us" mainagencycode="MiU-H" publicid="us//::miu-h//TXT us::miu-h::ofapubs.xml//EN" encodinganalog="identifier">umich-bhl-05105</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="title">Finding Aid for Office of Financial Aid (University of Michigan)
+Publications, ca. 1957-2001</titleproper>
+        <author encodinganalog="creator">Collection processed and finding aid created by Leilani Dawson, August 2005</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="publisher">Bentley Historical Library, University of Michigan</publisher>
+        <date encodinganalog="date">Nov. 2005</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created by Greg Kinney <date>20051105</date></creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date>20150811</date>
+        <item>Added written notes from paper finding aid.</item>
+      </change>
+      <change>
+        <date>20051105</date>
+        <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <frontmatter>
+    <titlepage>
+      <publisher>University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
+      <titleproper>Finding aid for <lb/>Office of Financial Aid <lb/>(University of Michigan) <lb/>Publications, ca. 1957-2001</titleproper>
+      <author>Finding aid created by <lb/>Leilani Dawson, August 2005</author>
+    </titlepage>
+  </frontmatter>
+  <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
+    <did>
+      <origination>
+        <corpname source="lcnaf" encodinganalog="110">University of Michigan. Office of Financial Aid.</corpname>
+      </origination>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">0.75 linear feet</extent>
+      </physdesc>
+      <unittitle encodinganalog="245">Office of Financial Aid (University of Michigan) publications <unitdate type="inclusive" encodinganalog="245$f" normal="1957/2001" certainty="approximate">circa 1957-2001</unitdate>, <unitdate type="inclusive" encodinganalog="245$g" normal="1980/1996">1980-1996</unitdate></unittitle>
+      <unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">05105 Bimu 2</unitid>
+      <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
+      <abstract>Publications contain applications, brochures, flyers, pamphlets, newsletters, reports, and miscellaneous published items from the University of Michigan’s Office of Financial Aid detailing the administration and disbursement of financial aid to students.</abstract>
+      <repository>
+        <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea>, University of Michigan</corpname>
+        <extptr href="bhladd" show="embed" actuate="onload"/>
+      </repository>
+    </did>
+    <descgrp type="admin">
+      <acqinfo encodinganalog="541">
+        <p>Publications are received periodically from the unit (donor no. <num type="donor" encodinganalog="541$e">8672</num>).</p>
+      </acqinfo>
+      <accessrestrict encodinganalog="506">
+        <p>The record group is open without restriction.</p>
+        <p>
+          <extptr href="uarpacc" show="embed" actuate="onload"/>
+        </p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+        <p>Copyright is held by the Regents of the University of Michigan.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+        <p>[item], folder, box,
+Office of Financial Aid (University of Michigan) Publications, Bentley Historical Library, University of Michigan</p>
+      </prefercite>
+    </descgrp>
+    <bioghist encodinganalog="545">
+      <p>See the finding aid for the University of Michigan Office of Financial Aid records group for the office’s history.</p>
+    </bioghist>
+    <scopecontent encodinganalog="520">
+      <p>The Office of Financial Aid (OFA) Publications record group is divided into seven series: Application Forms and Instructions, 1973-1999; Brochures and Pamphlets, ca 1957-1999; <title render="italic">Directions in Financial Aid</title>, 1979/80-1984/85, 1990/91; Flyers and Information Sheets, 1986-1996 and undated; Miscellaneous, 1990-1997; Newsletters, 1971-2001; and Reports, 1977-1989. The researcher should note that there are complete print runs for none of the publications in the record group; holdings for each title consist of more or less scattered sets of issues within the date ranges given.</p>
+    </scopecontent>
+    <controlaccess>
+      <p>
+        <extptr href="accnote" show="embed" actuate="onload"/>
+      </p>
+      <controlaccess>
+        <head>Subjects:</head>
+        <corpname encodinganalog="610" source="lcnaf">University of Michigan--Funds and scholarships.</corpname>
+        <geogname encodinganalog="650" source="lcsh">Student aid.</geogname>
+      </controlaccess>
+      <controlaccess>
+        <head>Genre Terms:</head>
+        <genreform encodinganalog="655" source="aat">Newsletters.</genreform>
+        <genreform encodinganalog="655" source="aat">Brochures.</genreform>
+      </controlaccess>
+    </controlaccess>
+    <dsc type="combined">
+      <c01 level="series">
+        <did>
+          <unittitle>Application Forms and Instructions <unitdate type="inclusive" normal="1973/1999">1973-1999</unitdate></unittitle>
+        </did>
+        <scopecontent>
+          <p>Application Forms and Instructions, 1973-1999 includes blank University of Michigan financial aid applications, worksheets, and FAFSAs (Free Application for Federal Student Aid forms), as well as instructions on how to fill out these forms.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1973/1999">1973-1999</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Brochures and Pamphlets, ca <unitdate type="inclusive" normal="1957/1999">1957-1999</unitdate></unittitle>
+        </did>
+        <scopecontent>
+          <p>Brochures and Pamphlets, ca 1957-1999 begins with a file containing OFA descriptions of their brochures and pamphlets circa 1994, but many titles are fairly self-explanatory.
+            <title render="italic">Required Reading</title>
+            contains information on procedures and next steps for students who have received a financial aid award package from the university.
+          </p>
+          <p>The brochures and pamphlets in the "Information for Prospective Students" series underwent several title changes over the years. Holdings include:
+            <list type="simple"><item><title render="italic">Consider Michigan: Costs and Financial Aid: Information for Prospective Students</title>
+                (ca 1985 and 1988/89-1990/91);
+              </item><item><title render="italic">Michigan can Help: A Guide to Financial Aid for Prospective Students and their Families</title>
+                (1991/92-1992/93);
+              </item><item><title render="italic">Michigan Cares: A Guide to Financial Aid for Prospective Students and their Families</title>
+                (1993/94);
+              </item><item><title render="italic">A Guide to Financial Aid for Prospective Students and their Families</title>
+                (1994/95);
+              </item><item><title render="italic">University of Michigan Financial Aid: A Guide for Prospective Students and their Families</title>
+                (1995/96, September 1997, and September 1998); and
+                <title render="italic">Information for Prospective Students and their Families</title>
+                (ca 1996/97-1997/98).
+              </item></list>
+          </p>
+          <p>Similarly, the brochures and pamphlets in the "Information for Prospective Students from Underrepresented Groups" series also have several titles. Also, earlier titles were split into separate brochures for Michigan residents and out-of-state students. Holdings include:
+            <list type="simple"><item><title render="italic">Consider Michigan: Non-Resident Costs and Financial Aid: Information for Prospective Students from Under-Represented Groups</title> (ca 1985 and 1987/88-1988/89);</item><item><title render="italic">Consider Michigan: Michigan Resident Costs and Financial Aid: Information for Prospective Students from Under-Represented Groups</title> (ca 1985 and 1987/88-1988/89);</item><item><title render="italic">Consider Michigan: Costs and Financial Aid: Information for Prospective Students from Under-Represented Groups</title> (1989/90-1990/91);</item><item><title render="italic">Michigan can Help: A Guide to Financial Aid for Prospective Students from Under-represented Groups and their Families</title> (1991/92);</item><item><title render="italic">Michigan can Help: A Guide to Financial Aid for Underrepresented Minority Groups</title> (1992/93);</item><item><title render="italic">Michigan Cares: A Guide to Financial Aid for Underrepresented Minority Groups</title> (1993/94);</item><item><title render="italic">A Guide to Financial Aid for Underrepresented Minority Groups</title> (1994/95); and</item><item><title render="italic">University of Michigan Financial Aid: A Guide for Underrepresented Minority Students</title> (1995/96).</item></list>
+          </p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Explanations and Descriptions of OFA Pamphlets <unitdate type="inclusive" normal="1993">1993</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle><title render="italic">Financial Aid</title>, <unitdate type="inclusive" normal="1970/1981">1970/71-1980/81</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(supersedes <title render="italic">Scholarships, Loans, and Jobs</title>)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle><title render="italic">Financial Aid for Dental Students</title>, <unitdate type="inclusive" normal="1979/1989">1979/80-1988/89</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Information for Prospective Students series, ca <unitdate type="inclusive" normal="1985/1998">1985-1998</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Information for Prospective Students from Underrepresented Groups series, ca <unitdate type="inclusive" normal="1985/1996">1985-1996</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Miscellaneous, ca <unitdate type="inclusive" normal="1957/1999">1957-1999</unitdate> (bulk dates 1985-1996)</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle><title render="italic">Required Reading</title>, <unitdate type="inclusive" normal="1983/1984">1983/84</unitdate>, <unitdate type="inclusive" normal="1986/1987">1986/87</unitdate>, <unitdate type="inclusive" normal="1990/1999">1990/91-1998/99</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle><title render="italic">Scholarships, Loans, and Jobs</title>, <unitdate type="inclusive" normal="1962/1970">1962/63-1969/70</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(precedes <title render="italic">Financial Aid</title>)</p>
+          </odd>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle><title render="italic">Directions in Financial Aid</title>, <unitdate type="inclusive" normal="1979/1985">1979/80-1984/85</unitdate>, <unitdate type="inclusive" normal="1990/1991">1990/91</unitdate></unittitle>
+        </did>
+        <scopecontent>
+          <p><title render="italic">Directions in Financial Aid</title>, 1979/80-1984/85, 1990/91 is comprised of <title render="italic">Directions in Financial Aid</title>, the publication containing the OFA's most official and complete descriptions of the options, programs, and services available to students seeking help financing their University of Michigan educations.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1979/1985">1979/80-1984/85</unitdate>
+              <unitdate type="inclusive" normal="1990/1991">1990/91</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Flyers and Information Sheets <unitdate type="inclusive" normal="1986/1996">1986-1996</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
+        </did>
+        <scopecontent>
+          <p>Flyers and Information Sheets, 1986-1996 and undated contains information on the work-study program (including tips on finding and interviewing for work-study jobs), estimated student budgets and expenses for various academic years, overviews of the various types of loans available from government and private organizations, and other handouts for students. The material covers some of the same information content as items in the Brochures and Pamphlets series, albeit in different format.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1986/1996">1986-1996</unitdate>
+              <unitdate type="inclusive">undated</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Miscellaneous <unitdate type="inclusive" normal="1990/1997">1990-1997</unitdate></unittitle>
+        </did>
+        <scopecontent>
+          <p>The items in the Miscellaneous, 1990-1997 series consist mostly of packets of handouts distributed by the OFA to various university groups, including departmental liaisons and prospective students. Also contained in this series is the <title render="italic">Student Employment Handbook for University Employers</title> from 1991.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Financial Aid Presentation Handout Packets <unitdate type="inclusive" normal="1991/1996">1991-1996</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>OFA Communications Packet <unitdate type="inclusive" normal="1990">1990</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle><title render="italic">Student Employment Handbook for University Employers</title>, <unitdate type="inclusive" normal="1991">1991</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Work-Study Job Fair Handouts <unitdate type="inclusive" normal="1996/1997">1996-1997</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Newsletters <unitdate type="inclusive" normal="1971/2001">1971-2001</unitdate></unittitle>
+        </did>
+        <scopecontent>
+          <p>There are three categories of newsletters in the Newsletters, 1971-2001 series: staff newsletters, general student newsletters, and student employment newsletters. The first category includes both in-house newsletters for OFA staff (<title render="italic">OFA Bulletin</title> and <title render="italic">OFA Busybody</title>) and a more official newsletter designed to be distributed university-wide (<title render="italic">Financial Aid Newsletter</title>, or <title render="italic">FAN</title>). The general student newsletters (<title render="italic">The University of Michigan Office of Financial Aid Newsletter</title> and its successor, <title render="italic">Office of Financial Aid Newsletter</title>, contain all of the official information on financial aid options and deadlines, as well as OFA procedures, for students. Finally, the student employment newsletters (<title render="italic">Occasional News</title>, <title render="italic">Sporadic News</title>, <title render="italic">Student Employment Newsletter</title>, <title render="italic">Work-Study Monthly</title>, and <title render="italic">Work Study Newsletter</title>) all relate to work-study jobs or other aspects of student employment as it relates to financial aid.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <unittitle>Staff Newsletters</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle><title render="italic">Financial Aid Newsletter</title> (<title render="italic">FAN</title>), <unitdate type="inclusive" normal="1982/1995">1982-1995</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
+              </physdesc>
+              <unittitle><title render="italic">OFA Bulletin</title>, <unitdate type="inclusive" normal="1980/1997">1980-1997</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle><title render="italic">OFA Busybody</title>, <unitdate type="inclusive" normal="1989/1992">1989-1992</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Student Newsletters</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle><title render="italic">The University of Michigan Office of Financial Aid Newsletter</title>, <unitdate type="inclusive" normal="1978/1992">1978-1992</unitdate></unittitle>
+            </did>
+            <odd>
+              <p>(precedes <title render="italic">Office of Financial Aid Newsletter</title>)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle><title render="italic">Office of Financial Aid Newsletter</title>, <unitdate type="inclusive" normal="1992/2001">1992-2001</unitdate></unittitle>
+            </did>
+            <odd>
+              <p>(supersedes <title render="italic">The University of Michigan Office of Financial Aid Newsletter</title>)</p>
+            </odd>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Student Employment Newsletters</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Miscellaneous <unitdate type="inclusive" normal="1971">1971</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle><title render="italic">Student Employment Newsletter</title>, <unitdate type="inclusive" normal="1996/1999">1996-1999</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle><title render="italic">Work Study Newsletter</title>, <unitdate type="inclusive" normal="1990/1991">1990-1991</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Reports <unitdate type="inclusive" normal="1977/1989">1977-1989</unitdate></unittitle>
+        </did>
+        <scopecontent>
+          <p>The Reports, 1977-1989 series is comprised mainly of OFA reports to the Regents and other university officials regarding the characteristics of students receiving financial aid upon entering the university and their debt loads after graduation. There is also a report describing the computerized information system the office used in 1989.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle><title render="italic">Highlights of the College Work-Study Program at the University of Michigan: Report to the Regents</title>, <unitdate type="inclusive" normal="1977">1977</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle><title render="italic">Selected Characteristics of Students Receiving Financial Support from the Flint Campus of the University of Michigan, 1974-1976</title>, <unitdate type="inclusive" normal="1977">1977</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle><title render="italic">Selected Characteristics of Students Receiving Financial Support from the University of Michigan Ann Arbor Campus, 1975-1976 Report to the Regents</title>, <unitdate type="inclusive" normal="1977">1977</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle><title render="italic">Studies of Undergraduate and Graduate/Professional Student Debt at the University of Michigan</title> [<title render="italic">for May and August, 1985 Degree Recipients</title>], <unitdate type="inclusive" normal="1986/1987">1986-1987</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle><title render="italic">The University of Michigan Office of Financial Aid INAS Project Detail System Design Specification</title>, <unitdate type="inclusive" normal="1989">1989</unitdate></unittitle>
+          </did>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

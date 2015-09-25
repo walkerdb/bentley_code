@@ -1,0 +1,855 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead.dtd">
+<ead>
+  <eadheader audience="internal" langencoding="iso639-2b" repositoryencoding="iso15511" dateencoding="iso8601" relatedencoding="Dublin Core" scriptencoding="iso15924" countryencoding="iso3166-1">
+    <eadid countrycode="us" mainagencycode="MiU-H" publicid="us//::miu-h//TXT us::miu-h::michphot.xml//EN" encodinganalog="Identifier">umich-bhl-92531</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="Title">Finding Aid for Michigan Photographers Society photographs</titleproper>
+        <author encodinganalog="Creator">Collection processed and finding aid created by Michigan Historical Collections</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="Publisher">Bentley Historical Library, University of Michigan</publisher>
+        <date encodinganalog="Date" normal="2008">2008</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created by Thomas E. Powers <date>March 2008</date></creation>
+      <langusage encodinganalog="Language">The finding aid is written in <language langcode="eng" scriptcode="Latn">English</language></langusage>
+      <descrules>Finding aid prepared using Describing Archives: A Content Standard (DACS)</descrules>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date>2008-03-28</date>
+        <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <frontmatter>
+    <titlepage>
+      <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
+      <titleproper>Finding aid for <lb/>Michigan Photographers Society <lb/>photographs, ca. 1880-ca. 1925</titleproper>
+      <author>Finding aid created by <lb/>Michigan Historical Collections</author>
+    </titlepage>
+  </frontmatter>
+  <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
+    <did>
+      <origination>
+        <corpname source="lcnaf" encodinganalog="110">Michigan Photographers Society.</corpname>
+      </origination>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">1 oversize folder</extent>
+      </physdesc>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">0.3 linear feet</extent>
+      </physdesc>
+      <unittitle encodinganalog="245">Michigan Photographers Society photographs <unitdate type="inclusive" encodinganalog="245$f" normal="1880/1925" certainty="approximate">circa 1880-1925</unitdate></unittitle>
+      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">92531 UBP.3 2; UBP.3m</unitid>
+      <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
+      <abstract>Organization of Michigan photographers; collected copyprints of historical images.</abstract>
+      <repository>
+        <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea>, University of Michigan</corpname>
+        <extptr href="bhladd" show="embed" actuate="onload"/>
+      </repository>
+    </did>
+    <descgrp type="admin">
+      <acqinfo encodinganalog="541">
+        <p>The photographs were donated by the Society (donor no. <num type="donor" encodinganalog="541$e">5833</num>).</p>
+      </acqinfo>
+      <accruals encodinganalog="584">
+        <p>No further additions to the papers are expected.</p>
+      </accruals>
+      <accessrestrict encodinganalog="506">
+        <p>The collection is open to research.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+        <p>Copyright is not held by the Regents of the University of Michigan.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+        <p>[item], folder, box,
+Michigan Photographers Society photographs, Bentley Historical Library, University of Michigan</p>
+      </prefercite>
+    </descgrp>
+    <bioghist encodinganalog="545">
+      <p>The Michigan Photographers Society is an organization of Michigan photographers established to collect and preserve the photographic history of Michigan.</p>
+    </bioghist>
+    <scopecontent encodinganalog="520">
+      <p>The collection consists of copyprints (with some negatives) of historical images collected by members of the Michigan Photographers Society. The photographs are arranged alphabetically by name of city where the collector lived. This is followed by descriptions of the images. The strength of the collection is for its visual documentation of various Michigan cities, including street scenes, businesses, private residences, views of ships, railroads, lumbering activities, and local customs.</p>
+    </scopecontent>
+    <controlaccess>
+      <p>
+        <extptr href="accnote" show="embed" actuate="onload"/>
+      </p>
+      <controlaccess>
+        <head>Subjects - Visual Materials:</head>
+        <subject source="lctgm" encodinganalog="650">Agricultural machinery.</subject>
+        <subject source="lctgm" encodinganalog="650">Automobiles.</subject>
+        <subject source="lctgm" encodinganalog="650">Blacksmithing.</subject>
+        <subject source="lctgm" encodinganalog="650">Boat and ship industry.</subject>
+        <subject source="lctgm" encodinganalog="650">Business enterprises.</subject>
+        <subject source="lctgm" encodinganalog="650">Carriage and coaches.</subject>
+        <subject source="lctgm" encodinganalog="650">Carts and wagons.</subject>
+        <geogname source="lcsh" encodinganalog="651">Charlevoix (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n80104006.html">Charlotte (Mich.)</geogname>
+        <subject source="lctgm" encodinganalog="650">Construction industry.</subject>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79045539.html">Detroit (Mich.)</geogname>
+        <subject source="lctgm" encodinganalog="650">Dwellings.</subject>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n96085441">Ferris, Woodbridge N., 1853-1928.</persname>
+        <subject source="lctgm" encodinganalog="650">Football.</subject>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n82166396.html">Flint (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n82105515.html">Grand Haven (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651">Grand Haven (Mich.)--Lifesaving stations.</geogname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n82062814.html">Greenville (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n83187817.html">Harbor Springs (Mich.)</geogname>
+        <subject source="lctgm" encodinganalog="650">Health resorts.</subject>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81035936.html">Howell (Mich.)</geogname>
+        <subject source="lctgm" encodinganalog="650">Industrial buildings.</subject>
+        <subject source="lctgm" encodinganalog="650">Interiors.</subject>
+        <subject source="lctgm" encodinganalog="650">Laborers.</subject>
+        <geogname source="lcsh" encodinganalog="651">Lansing (Mich.)</geogname>
+        <subject source="lctgm" encodinganalog="650">Lifesaving stations--Michigan--Grand Haven.</subject>
+        <subject source="lctgm" encodinganalog="650">Lumber industry.</subject>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n89119049.html">Mancelona (Mich.)</geogname>
+        <subject source="lctgm" encodinganalog="650">Mills.</subject>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n80060314.html">Mount Clemens (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651">Muskegon (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n85155121.html">North Branch (Mich.)</geogname>
+        <subject source="lctgm" encodinganalog="650">Parades and processions.</subject>
+        <geogname source="lcsh" encodinganalog="651">Pontiac (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n83030021.html">Port Huron (Mich.)</geogname>
+        <subject source="lctgm" encodinganalog="650">Political parades and rallies.</subject>
+        <subject source="lctgm" encodinganalog="650">Railroad accidents.</subject>
+        <subject source="lctgm" encodinganalog="650">Railroad stations.</subject>
+        <subject source="lctgm" encodinganalog="650">Railroads--Michigan.</subject>
+        <subject source="lctgm" encodinganalog="650">Rural schools.</subject>
+        <geogname source="lcsh" encodinganalog="651">Saginaw (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651">Sebewaing (Mich.)</geogname>
+        <subject source="lctgm" encodinganalog="650">Ships--Great Lakes.</subject>
+        <geogname source="lctgm" encodinganalog="651">Street-railroads--Michigan.</geogname>
+        <subject source="lctgm" encodinganalog="650">Tornadoes.</subject>
+      </controlaccess>
+      <controlaccess>
+        <head>Genre Terms:</head>
+        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+      </controlaccess>
+    </controlaccess>
+    <dsc type="combined">
+      <c01 level="series">
+        <did>
+          <unittitle>Collected copyprints of member photographers</unittitle>
+        </did>
+        <odd>
+          <p>(no negatives unless otherwise indicated)</p>
+        </odd>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <container type="folder" label="Folder">1</container>
+            <unittitle>Charlevoix, Mich.; Mancelona, Mich. Area</unittitle>
+          </did>
+          <odd>
+            <p>(from Robert C. Miles, Charlevoix; copyprints made by A. E. Arnold, Royal Oak)</p>
+          </odd>
+          <c03 level="item">
+            <did>
+              <unittitle>Gov. J.W. Begole visits Charlevoix <unitdate type="inclusive" normal="1884">1884</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="item">
+            <did>
+              <unittitle>Mancelona area lumbering</unittitle>
+            </did>
+          </c03>
+          <c03 level="item">
+            <did>
+              <unittitle>Mancelona farmer's house)</unittitle>
+            </did>
+          </c03>
+          <c03 level="item">
+            <did>
+              <unittitle>Lumbermen, unidentified location</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 items</extent>
+              </physdesc>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <container type="folder" label="Folder">2</container>
+            <unittitle>Flint, Michigan</unittitle>
+          </did>
+          <odd>
+            <p>(from Baldwin-Chase Photographers, Flint)</p>
+          </odd>
+          <c03 level="item">
+            <did>
+              <unittitle>Palace Vaudeville Theatre <unitdate type="inclusive" normal="1920/1929" certainty="approximate">1920s</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="item">
+            <did>
+              <unittitle>1st annual reunion of old employees of Durant-Dort Carriage Co. <unitdate type="inclusive" normal="1925-08" certainty="approximate">circa August 1925</unitdate>;</unittitle>
+            </did>
+          </c03>
+          <c03 level="item">
+            <did>
+              <unittitle>Western Union messenger boys outside office, Flint <unitdate type="inclusive" normal="1920/1929" certainty="approximate">1920s</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <container type="folder" label="Folder">3</container>
+            <unittitle>Grand Haven, Mich.</unittitle>
+          </did>
+          <odd>
+            <p>(negatives; from Murray R. White, Grand Haven)</p>
+          </odd>
+          <c03 level="file">
+            <did>
+              <unittitle>Wholesale Grocery Supply <unitdate type="inclusive" normal="1890" certainty="approximate">circa 1890</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Store <unitdate type="inclusive" normal="1890" certainty="approximate">circa 1890</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Mechanics Ship Yard, on the Grand River <unitdate type="inclusive" normal="1875" certainty="approximate">circa 1875</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Cutler House, mineral baths, opened <unitdate type="inclusive" normal="1872">1872</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <container type="folder" label="Folder">4</container>
+            <unittitle>Greenville, Mich.</unittitle>
+          </did>
+          <odd>
+            <p>(folder no. 4; from Abe Helmut, Greenville)</p>
+          </odd>
+          <c03 level="item">
+            <did>
+              <unittitle>Unlabelled two storefronts, presumably Greenville, probably 19th century</unittitle>
+            </did>
+          </c03>
+          <c03 level="item">
+            <did>
+              <unittitle>Terpsichorean Club dance, Phelps Opera House <unitdate type="inclusive" normal="1908" certainty="approximate">circa 1908</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="item">
+            <did>
+              <unittitle>Electric lights on the main street <unitdate type="inclusive" normal="1909">1909</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="item">
+            <did>
+              <unittitle>Greenville Fire Dept. <unitdate type="inclusive" normal="1912">1912</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="item">
+            <did>
+              <unittitle>"pulling stumps at Edmore, Mich."</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">5 items</extent>
+              </physdesc>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <container type="folder" label="Folder">5</container>
+            <unittitle>Harbor Springs, Mich.</unittitle>
+          </did>
+          <odd>
+            <p>(from Virgil D. Haynes, Harbor Springs)</p>
+          </odd>
+          <c03 level="item">
+            <did>
+              <unittitle>Ice tramway at the Knickerbocker Ice Co. <unitdate type="inclusive" normal="1899">1899</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="item">
+            <did>
+              <unittitle>Resorters boating at Harbor Point on Little Traverse Bay <unitdate type="inclusive" normal="1910" certainty="approximate">circa 1910</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="item">
+            <did>
+              <unittitle>Young Ottawa Indian inducted into the tribe before Chief Pipi-qua (Fred Ettawageshik) <unitdate type="inclusive" normal="1946">1946</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="item">
+            <did>
+              <unittitle>Ottawas cutting wood for the "Fathers" of Holy Childhood Church and School <unitdate type="inclusive" normal="1900">1900</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="item">
+            <did>
+              <unittitle>Ray Freeland with his homemade ice sled</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">5 items</extent>
+              </physdesc>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <container type="folder" label="Folder">6</container>
+            <unittitle>Howell, Michigan</unittitle>
+          </did>
+          <odd>
+            <p>(from Duane Zemper, Howell)</p>
+          </odd>
+          <c03 level="item">
+            <did>
+              <unittitle>Old thrashing outfit traveling through Oak Grove, north of town</unittitle>
+            </did>
+          </c03>
+          <c03 level="item">
+            <did>
+              <unittitle>Townspeople dressed as Indians in parade, riding in old car</unittitle>
+            </did>
+          </c03>
+          <c03 level="item">
+            <did>
+              <unittitle>Oldest picture available of a uniformed team in Howell, the Oceola Giants</unittitle>
+            </did>
+          </c03>
+          <c03 level="item">
+            <did>
+              <unittitle>Early football action shot, the Howell High School team <unitdate type="inclusive" normal="1912" certainty="approximate">circa 1912</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="item">
+            <did>
+              <unittitle>Old steam-powered sawmill <unitdate type="inclusive" normal="1890/1899" certainty="approximate">1890s</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="item">
+            <did>
+              <unittitle>Theodor W. Shindorf, blacksmith, and his assistants outside his shop</unittitle>
+            </did>
+          </c03>
+          <c03 level="item">
+            <did>
+              <unittitle>Unusual shot of the interior of an old blacksmith shop</unittitle>
+            </did>
+          </c03>
+          <c03 level="item">
+            <did>
+              <unittitle>A. E. Parker outside his garage and small machine shop, c-1915</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <container type="folder" label="Folder">7</container>
+            <unittitle>Howell, Michigan</unittitle>
+          </did>
+          <odd>
+            <p>(from Duane Zemper, Howell)</p>
+          </odd>
+          <c03 level="item">
+            <did>
+              <unittitle>The inside of an early machine shop</unittitle>
+            </did>
+          </c03>
+          <c03 level="item">
+            <did>
+              <unittitle>The outside of the old implement shop</unittitle>
+            </did>
+          </c03>
+          <c03 level="item">
+            <did>
+              <unittitle>Early picture of the north end of Howell Lake</unittitle>
+            </did>
+          </c03>
+          <c03 level="item">
+            <did>
+              <unittitle>The old grist mill, at this time, after <unitdate type="inclusive" normal="1900">1900</unitdate> owned by A. O. Hoyland</unittitle>
+            </did>
+          </c03>
+          <c03 level="item">
+            <did>
+              <unittitle>Ex-Governor Woodbridge N. Ferris speaks at a large rally</unittitle>
+            </did>
+          </c03>
+          <c03 level="item">
+            <did>
+              <unittitle>Old county schoolhouse with students and teacher outside</unittitle>
+            </did>
+          </c03>
+          <c03 level="item">
+            <did>
+              <unittitle>Autos from Lansing and points between parked on Howell's main street as part of the celebration as the Wolverine Paved Way-a brick road from Detroit to Lansing--neared completion <unitdate type="inclusive" normal="1915">1915</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <container type="folder" label="Folder">8</container>
+            <unittitle>Miscellaneous towns</unittitle>
+          </did>
+          <odd>
+            <p>(from Edward F. Hicks, Lansing)</p>
+          </odd>
+          <c03 level="item">
+            <did>
+              <unittitle>Main Street, Charlotte, Mich.</unittitle>
+            </did>
+          </c03>
+          <c03 level="item">
+            <did>
+              <unittitle>Belle Isle</unittitle>
+            </did>
+          </c03>
+          <c03 level="item">
+            <did>
+              <unittitle>Ferry, Detroit <unitdate type="inclusive" normal="1912" certainty="approximate">circa 1912</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="item">
+            <did>
+              <unittitle>Saginaw St., Flint, Mich. <unitdate type="inclusive" normal="1890" certainty="approximate">circa 1890</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="item">
+            <did>
+              <unittitle>Pere Marquette depot and train, Howell, Mich. <unitdate type="inclusive" normal="1915" certainty="approximate">circa 1915</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="item">
+            <did>
+              <unittitle>Lansing street scene with Capitol in distance <unitdate type="inclusive" normal="1880" certainty="approximate">circa 1880</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <container type="folder" label="Folder">9</container>
+            <unittitle>Miscellaneous lumbering photos, unidentified localities</unittitle>
+          </did>
+          <odd>
+            <p>(from Del Conkright, Mt. Pleasant)</p>
+          </odd>
+          <c03 level="item">
+            <did>
+              <unittitle>Loading at the spur; Michigan,1800s</unittitle>
+            </did>
+          </c03>
+          <c03 level="item">
+            <did>
+              <unittitle>The Big Wheels with loads <unitdate type="inclusive" normal="1800/1809" certainty="approximate">1800s</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="item">
+            <did>
+              <unittitle>Saw mill at rail head <unitdate type="inclusive" normal="1800/1809" certainty="approximate">1800s</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="item">
+            <did>
+              <unittitle>Floating restaurant for loggers <unitdate type="inclusive" normal="1800/1809" certainty="approximate">1800s</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="item">
+            <did>
+              <unittitle>Big Wheels with horses and oxen <unitdate type="inclusive" normal="1800/1809" certainty="approximate">1800s</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="item">
+            <did>
+              <unittitle>River dogs <unitdate type="inclusive" normal="1800/1809" certainty="approximate">1800s</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="item">
+            <did>
+              <unittitle>Log bridge and crew <unitdate type="inclusive" normal="1800/1809" certainty="approximate">1800s</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="item">
+            <did>
+              <unittitle>The "Big Wheels" <unitdate type="inclusive" normal="1800/1809" certainty="approximate">1800s</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="item">
+            <did>
+              <unittitle>Railhead spur; <unitdate type="inclusive" normal="1800/1809" certainty="approximate">1800s</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <container type="folder" label="Folder">10</container>
+            <unittitle>Mount Clemens, Mich.</unittitle>
+          </did>
+          <odd>
+            <p>(from Fred Henk, Mount Clemens)</p>
+          </odd>
+          <c03 level="item">
+            <did>
+              <unittitle>Map of Mount Clemens <unitdate type="inclusive" normal="1875">1875</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="item">
+            <did>
+              <unittitle>Drawing of Macomb County Court House, Mount Clemens <unitdate type="inclusive" normal="1840/1880">1840-1880</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="item">
+            <did>
+              <unittitle>The passenger boat Mineral City [sailing on the Clinton River?]</unittitle>
+            </did>
+          </c03>
+          <c03 level="item">
+            <did>
+              <unittitle>Clinton River transportation-sailing and steam boats that brought freight from other nearby ports. <unitdate type="inclusive" normal="1870/1920">1870-1920</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="item">
+            <did>
+              <unittitle>Steamer Lily-coal boat</unittitle>
+            </did>
+          </c03>
+          <c03 level="item">
+            <did>
+              <unittitle>Passenger steamer Uarda, Mount Clemens, on her way to Walpole Island Indian Reservation, Canada</unittitle>
+            </did>
+          </c03>
+          <c03 level="item">
+            <did>
+              <unittitle>Sailing ship Bertie at Mount Clemens dock</unittitle>
+            </did>
+          </c03>
+          <c03 level="item">
+            <did>
+              <unittitle>City of Mount Clemens, coal-lumber boat</unittitle>
+            </did>
+          </c03>
+          <c03 level="item">
+            <did>
+              <unittitle>S.S. Roberta of Mount Clemens-excursions to Walpole and Harsen's Islands, and fishing trips in Lake St. Clair</unittitle>
+            </did>
+          </c03>
+          <c03 level="item">
+            <did>
+              <unittitle>Grand Trunk R.R. station where Thomas Edison learned telegraphy</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <container type="folder" label="Folder">11</container>
+            <unittitle>Mount Clemens, Mich.</unittitle>
+          </did>
+          <odd>
+            <p>(from Fred Henk, Mount Clemens)</p>
+          </odd>
+          <c03 level="item">
+            <did>
+              <unittitle>Macomb County Court House (1880-1929), early <unitdate type="inclusive" normal="1900/1909" certainty="approximate">1900s</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="item">
+            <did>
+              <unittitle>Downtown Mount Clemens <unitdate type="inclusive" normal="1890">1890</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="item">
+            <did>
+              <unittitle>Home of Christian Clemens, founder of Mount Clemens</unittitle>
+            </did>
+          </c03>
+          <c03 level="item">
+            <did>
+              <unittitle>1897-funeral car plunges into Clinton River at Mount Clemens</unittitle>
+            </did>
+          </c03>
+          <c03 level="item">
+            <did>
+              <unittitle>Mount Clemens Hunting and Fishing Club, located on Lake St. Clair off the mouth of the Clinton River, before <unitdate type="inclusive" normal="1900">1900</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="item">
+            <did>
+              <unittitle>Blacksmith and carriage shop</unittitle>
+            </did>
+          </c03>
+          <c03 level="item">
+            <did>
+              <unittitle>Cyclone hits Mount Clemens <unitdate type="inclusive" normal="1896-05-25">May 25, 1896</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="item">
+            <did>
+              <unittitle>Mount Clemens first mineral bath house <unitdate type="inclusive" normal="1890" certainty="approximate">circa 1890</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="item">
+            <did>
+              <unittitle>St. Joseph Sanitarium under construction <unitdate type="inclusive" normal="1899">1899</unitdate> mineral bath house</unittitle>
+            </did>
+          </c03>
+          <c03 level="item">
+            <did>
+              <unittitle>Amusement park <unitdate type="inclusive" normal="1905">1905</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <container type="folder" label="Folder">12</container>
+            <unittitle>Muskegon, Michigan</unittitle>
+          </did>
+          <odd>
+            <p>(from Leonard Kooiman, Muskegon)</p>
+          </odd>
+          <c03 level="item">
+            <did>
+              <unittitle>Brinman Lumber Mill <unitdate type="inclusive" normal="1889">1889</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="item">
+            <did>
+              <unittitle>Log rolling on Muskegon Lake <unitdate type="inclusive" normal="1887" certainty="approximate">circa 1887</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="item">
+            <did>
+              <unittitle>Lumber men's homes <unitdate type="inclusive" normal="1889">1889</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="item">
+            <did>
+              <unittitle>Street car riot ? <unitdate type="inclusive" normal="1918">1918</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="item">
+            <did>
+              <unittitle>Jefferson St.</unittitle>
+            </did>
+          </c03>
+          <c03 level="item">
+            <did>
+              <unittitle>Western Avenue <unitdate type="inclusive" normal="1889">1889</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="item">
+            <did>
+              <unittitle>Western Avenue</unittitle>
+            </did>
+          </c03>
+          <c03 level="item">
+            <did>
+              <unittitle>Original Coast Guard Station at Muskegon</unittitle>
+            </did>
+          </c03>
+          <c03 level="item">
+            <did>
+              <unittitle>Lake Harbor Channel, Muskegon</unittitle>
+            </did>
+          </c03>
+          <c03 level="item">
+            <did>
+              <unittitle>Docks-lumber mill on Muskegon Lake</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <container type="folder" label="Folder">13</container>
+            <unittitle>North Branch, Mich.</unittitle>
+          </did>
+          <odd>
+            <p>(from Bob Peet, North Branch)</p>
+          </odd>
+          <c03 level="file">
+            <did>
+              <unittitle>Miscellaneous street scenes and lumber mill</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">5 items</extent>
+              </physdesc>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <container type="folder" label="Folder">14</container>
+            <unittitle>Pontiac, Mich.</unittitle>
+          </did>
+          <odd>
+            <p>(from R. H. Frye, Pontiac)</p>
+          </odd>
+          <c03 level="item">
+            <did>
+              <unittitle>S. Saginaw St., Pontiac</unittitle>
+            </did>
+          </c03>
+          <c03 level="item">
+            <did>
+              <unittitle>Corner E. Lawrence and Perry</unittitle>
+            </did>
+          </c03>
+          <c03 level="item">
+            <did>
+              <unittitle>Unlabelled store front scene</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <container type="folder" label="Folder">15</container>
+            <unittitle>Port Huron, Mich.</unittitle>
+          </did>
+          <odd>
+            <p>(from Israel Photography, Port Huron)</p>
+          </odd>
+          <c03 level="item">
+            <did>
+              <unittitle>Huron Ave. looking north</unittitle>
+            </did>
+          </c03>
+          <c03 level="item">
+            <did>
+              <unittitle>Huron Ave. looking South</unittitle>
+            </did>
+          </c03>
+          <c03 level="item">
+            <did>
+              <unittitle>Lumber industry</unittitle>
+            </did>
+          </c03>
+          <c03 level="item">
+            <did>
+              <unittitle>Home of Sam Edison (father of Thomas Edison)</unittitle>
+            </did>
+          </c03>
+          <c03 level="item">
+            <did>
+              <unittitle>Water Street looking west (from military)</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <container type="folder" label="Folder">16</container>
+            <unittitle>Saginaw, Michigan</unittitle>
+          </did>
+          <odd>
+            <p>(from Don Pahl, Saginaw)</p>
+          </odd>
+          <c03 level="file">
+            <did>
+              <unittitle>Miscellaneous street scenes, including Genesee Ave. and corner Washington Ave. and Genesee St.; miscellaneous lumbering scenes, including birdseye view of W. D. Young &amp; Company buildings, Bay City</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">8 items</extent>
+              </physdesc>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <container type="folder" label="Folder">17</container>
+            <unittitle>Sebewaing, Mich.</unittitle>
+          </did>
+          <odd>
+            <p>(folder no. 17; from Hurdlebrink Studio, Sebewaing)</p>
+          </odd>
+          <c03 level="item">
+            <did>
+              <unittitle>Downtown Sebewaing, early <unitdate type="inclusive" normal="1900/1909" certainty="approximate">1900s</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="item">
+            <did>
+              <unittitle>Logging near Sebewaing, early <unitdate type="inclusive" normal="1900/1909" certainty="approximate">1900s</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="item">
+            <did>
+              <unittitle>Sugar beets on way to Michigan Sugar Co.</unittitle>
+            </did>
+          </c03>
+          <c03 level="item">
+            <did>
+              <unittitle>Sebewaing, early <unitdate type="inclusive" normal="1900/1909" certainty="approximate">1900s</unitdate> farming</unittitle>
+            </did>
+          </c03>
+          <c03 level="item">
+            <did>
+              <unittitle>Sebewaing area, early <unitdate type="inclusive" normal="1900/1909" certainty="approximate">1900s</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="item">
+            <did>
+              <unittitle>Bach cider and wine press mill <unitdate type="inclusive" normal="1914">1914</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Freeport, Mich.</unittitle>
+          </did>
+          <odd>
+            <p>(from Edward Hicks, Lansing)</p>
+          </odd>
+          <c03 level="file">
+            <did>
+              <container type="folder" label="Oversize Folder">1</container>
+              <unittitle>Addison Herrington Family, about <unitdate type="inclusive" normal="1902">1902</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Muskegon, Mich.</unittitle>
+          </did>
+          <odd>
+            <p>(from Leonard Kooiman, Muskegon)</p>
+          </odd>
+          <c03 level="file">
+            <did>
+              <container type="folder" label="Oversize Folder">1</container>
+              <unittitle>Boy sitting on bank of Muskegon River <unitdate type="inclusive" normal="1900" certainty="approximate">circa 1900</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

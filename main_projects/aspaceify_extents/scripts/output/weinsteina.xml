@@ -1,0 +1,4363 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead.dtd">
+<ead>
+  <eadheader audience="internal" langencoding="iso639-2b" repositoryencoding="iso15511" dateencoding="iso8601" relatedencoding="Dublin Core" scriptencoding="iso15924" countryencoding="iso3166-1">
+    <eadid countrycode="us" mainagencycode="MiU-H" publicid="us//::miu-h//TXT us::miu-h::weinsteina.xml//EN" encodinganalog="Identifier">umich-bhl-2013066</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="Title">Finding Aid for Arnold Weinstein papers, 1956-2013</titleproper>
+        <author encodinganalog="Creator">Collection processed and finding aid created by Olga Virakhovskaya and Michael Shallcross</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="Publisher">Bentley Historical Library, University of Michigan</publisher>
+        <date encodinganalog="Date" normal="2014">2014</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created by Olga Virakhovskaya <date>2014</date></creation>
+      <langusage encodinganalog="Language">The finding aid is written in <language langcode="eng" scriptcode="Latn">English</language></langusage>
+      <descrules>Finding aid prepared using Describing Archives: A Content Standard (DACS)</descrules>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date>2014-11-14</date>
+        <item>Original encoding from Word 2010 file using Word macros and Xmetal.</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <frontmatter>
+    <titlepage>
+      <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
+      <titleproper>Finding aid for <lb/>Arnold Weinstein Papers, 1956-2013</titleproper>
+      <author>Finding aid created by <lb/>Olga Virakhovskaya, July-August 2013; <lb/>Michael Shallcross, February 2014</author>
+    </titlepage>
+  </frontmatter>
+  <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
+    <did>
+      <origination>
+        <persname source="lcnaf" encodinganalog="100">Weinstein, Arnold.</persname>
+      </origination>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">956 MB</extent>
+        <physfacet>online</physfacet>
+      </physdesc>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">1 oversize volume</extent>
+      </physdesc>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">12.3 linear feet</extent>
+        <extent altrender="carrier">(in 13 boxes including oversize)</extent>
+      </physdesc>
+      <unittitle encodinganalog="245">Arnold Weinstein papers <unitdate type="inclusive" encodinganalog="245$f" normal="1956/2013">1956-2013</unitdate></unittitle>
+      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2013066 Aa 2</unitid>
+      <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language>; some items are in <language langcode="ita" encodinganalog="041">Italian</language>, <language langcode="ger" encodinganalog="041">German</language>, and <language langcode="lat" encodinganalog="041">Latin</language>.</langmaterial>
+      <abstract>Papers of Arnold Weinstein, American poet, playwright, librettist, and translator. Material in both paper and digital formats includes manuscript drafts and final versions of libretti, music scores with Weinstein's lyrics, manuscript and published literary works; research and background material related to individual works and projects, as well as programs, publicity material and reviews of shows. Also commercially produced and non-commercial audio and video recordings.</abstract>
+      <repository>
+        <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea>, University of Michigan</corpname>
+        <extptr href="bhladd" show="embed" actuate="onload"/>
+      </repository>
+    </did>
+    <descgrp type="admin">
+      <acqinfo encodinganalog="541">
+        <p>Collection was deposited by the Arnold Weinstein Intellectual Property Trust, Lisa Hamm and Stephen Hamm, Trustees (Donor no. <num type="donor" encodinganalog="541$e">10951</num>) in 2013. Additional material was donated by William Bolcom (Donor no. <num type="donor" encodinganalog="541$e">8877</num>) in 2013.</p>
+      </acqinfo>
+      <accruals encodinganalog="584">
+        <p>No further additions to the records are expected.</p>
+      </accruals>
+      <accessrestrict encodinganalog="506">
+        <p>In making this deposit of Works to the Bentley, it is the intention of the Arnold Weinstein Intellectual Property Trust (AWIPT) that scholars, researchers and other third parties who meet the requirements of access set forth by the Bentley and other conditions in this Agreement shall have full access to the Works. However, the Bentley and/or users of the Works at the Bentley shall be subject to the following additional specific restrictions or other conditions:</p>
+        <p>The Works and underlying copyrights belong to the AWIPT and/or other third parties.</p>
+        <p>Uses of the deposited Works hereunder shall be for scholarship and research. The Bentley is not authorized to use or permit any commercial usage of the Works. All commercial usage of the Works shall be handled exclusively by the AWIPT. The Bentley will not use or authorize use of the Works for any commercial purposes, including but not limited to sale or license of Works, fee-for-service use of the Works, bulk reproduction or distribution of the Works or other services involving special charges to authorized users of the Works beyond reasonable administrative costs.</p>
+        <p>The Works are protected by copyright and permissions to use the Works must be obtained from the copyright owner for any uses of the Works other than for educational or research purposes. Users of the Works may not (i) remove, obscure or modify any copyright notices or other notices included in the Works, or (ii) use, or authorize the use of, Works in any manner that would infringe the copyright thereon.</p>
+        <p>All requests for permission to utilize the Works (utilize in any manner other than scholarship and/or research uses) shall be forwarded to and managed exclusively by the Trustees or the designers of the AWIPT or to any third party copyright holder of a Work(s). In the case of a request related to a Work with a copyright owned by a third, party, the Trustees will forward such request to the copyright owner of that Work.</p>
+        <p>Any use of Works for scholarship and/or research purposes must include standard academic attribution as follows: Arnold Weinstein Papers, Bentley Historical Library, University of Michigan.</p>
+        <p>Born digital and digitized material stored on University of Michigan servers is accessible for use only in the Bentley Library reading room.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+        <p>Copyrights have not been transferred to the Regents of the University of Michigan. Copyright is held by the Arnold Weinstein Intellectual Property Trust or other third parties. The Works are protected by copyright and permissions to use the Works must be obtained from the copyright owner for any uses of the Works other than for educational or research purposes. Users of the Works may not (i) remove, obscure or modify any copyright notices or other notices included in the Works, or (ii) use, or authorize the use of, Works in any manner that would infringe the copyright thereon.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+        <p>[item], folder, box, Arnold Weinstein papers, Bentley Historical Library, University of Michigan</p>
+      </prefercite>
+      <processinfo>
+        <p>
+          <extptr href="digitalproc" show="embed" actuate="onload"/>
+        </p>
+      </processinfo>
+    </descgrp>
+    <bioghist encodinganalog="545">
+      <p>Arnold Weinstein was born in New York on June 10, 1927, to English-born parents Ada and Samuel Weinstein. During the World War II, at the age of 16, Weinstein enlisted in the U.S. Navy and served on a destroyer as a fireman. Instead of writing letters, he often wrote poems to his friends back at home.</p>
+      <p>After the War Weinstein studied Latin and Greek, and entered Hunter College (now Hunter College of the City University of New York) and graduated with a B.A. in 1951. As an undergraduate he also attended the University of London (1949-50). Weinstein then studied at Harvard University, earning a Rhodes scholarship and graduating with an M.A. in 1953. As a Fulbright fellow Weinstein continued his studies at University of Florence in 1958-1960. While in Florence, Weinstein met with William Bolcom, who was student of the French composer Darius Milhaud. Weinstein and Bolcom's decades-long friendship and artistic collaboration resulted in a great body of work.</p>
+      <p>In the 1950s-1960 Weinstein became affiliated with a group of poets, painters and musicians known as the New York School of Poets. Among his notable works of this period were <title render="italic">The Red Eye of Love</title>, a satire about an all-meat department store that had a long Off Broadway run in 1961, and an adaptation of Ovid's <title render="italic">Metamorphoses</title> (music by Tony Greco), which went to Broadway in 1971.</p>
+      <p>Weinstein started working on a play <title render="italic">The Red Eye of Love</title> before going to Florence in 1958. The play first saw the stage after Weinstein's return to the U.S. in 1960. In June 1961 <title render="italic">The Red Eye of Love</title> opened with music by William Bolcom and was well-received. The following year Weinstein's musical <title render="italic">Fortuna</title>, Francis Thorne composer, was opened. Weinstein returned to collaboration with Bolcom in 1963, creating <title render="italic">Dynamite Tonite</title>, which was produced by the Actor's Studio Theater, starring Barbara Harris and Alvin Epstein, Bolcom conducting. <title render="italic">Dynamite Tonite</title> was also produced by the Yale University School of Drama, and Weinstein was appointed Chair of the Yale Drama School Playwright Department in 1965-1969.</p>
+      <p>Weinstein's collaboration with Bolcom resulted in the operas <title render="italic">McTeague</title> (1991, premiered 1992); <title render="italic">A View from the Bridge</title> (with Arthur Miller, premiered 1999); <title render="italic">A Wedding</title> (with Robert Altman, premiered 2004). The operas have been commissioned by and premiered at the Chicago Lyric Opera. Their one-woman opera <title render="italic">Medusa</title> written for Catherine Malfitano was performed in 2003 at the Carnegie Hall. Weinstein and Bolcom also created four volumes of cabaret songs (Volumes I-II in 1978, and Volumes III-IV in 1997), musical theater works <title render="italic">Greatshot</title> (1968); <title render="italic">Barnyard Boogaloo</title> (1980); <title render="italic">Casino Paradise</title> (1986-1990); choral <title render="italic">Maha Sonnet</title> (1990); <title render="italic">Miracle</title>, madrigals for male chorus after Giovanni Pascoli (1999), <title render="italic">The Wind in the Willows</title>, with Paul Sills (1991-2001); <title render="italic">Ancient Cabaret</title> (2001); <title render="italic">Idiot's Delight</title> (2004); among other works.</p>
+      <p>Weinstein has worked with a number of important composers throughout his career, notably with composer Philip Glass; contemporary classical composer Francis Thorne; composer, arranger, and conductor for theater, television and film Laurence Rosenthal; the University of Michigan faculty member, composer, conductor, and pianist Bright Sheng; composer, conductor, performer and author David Amram; director and composer Tony Greco; the founder of Chicago's Second City Theater Paul Sills; painters Andy Warhol, Marisol, Larry Rivers, Howard Kanovitz; scenic designer Robin Wagner; among other performing and visual artists.</p>
+      <p>Translation was important area of Weinstein's theater work. Weinstein created a new translation of Berthold Brecht-Kurt Weill's 1931 <title render="italic">Mahagonny</title> for the United States premiere in 1970. He also translated works of classical poets for <title render="italic">Ancient Cabaret</title> and <title render="italic">Metamorphoses</title>; from Federico Garcia Lorca for <title render="italic">Gypsy New York</title> (music by Tony Greco, 1974); and others.</p>
+      <p>Weinstein taught English, creative writing, and playwriting at New York University, the University of Southern California, Los Angeles, Rutgers University, Yale University and Columbia University. He also served as Director of the drama workshop at Wagner College, summer writers conference, beginning in 1963.</p>
+      <p>Arnold Weinstein died in New York on September 4, 2005.</p>
+    </bioghist>
+    <arrangement encodinganalog="351">
+      <p>The collection contains paper, analog, and digital materials and is organized into four series: Personal/Biographical, Theater, Writing, and Audio-Visual Materials.</p>
+    </arrangement>
+    <scopecontent encodinganalog="520">
+      <p>The Papers of Arnold Weinstein collection documents the work of the American librettist, playwright and poet between the late 1950s through the 2000s.</p>
+    </scopecontent>
+    <controlaccess>
+      <p>
+        <extptr href="accnote" show="embed" actuate="onload"/>
+      </p>
+      <controlaccess>
+        <head>Subjects:</head>
+        <persname source="lcnaf" encodinganalog="600">Weinstein, Arnold.</persname>
+        <subject source="lcsh" encodinganalog="650">Dramatists--United States.</subject>
+        <subject source="lcsh" encodinganalog="650">Librettists--United States.</subject>
+        <subject source="lcsh" encodinganalog="650">Music theater--Scores.</subject>
+        <subject source="lcsh" encodinganalog="650">Music theater--United States.</subject>
+        <subject source="lcsh" encodinganalog="650">Musicals--Librettos.</subject>
+        <subject source="lcsh" encodinganalog="650">Opera--United States.</subject>
+        <subject source="lcsh" encodinganalog="650">Operas--Librettos.</subject>
+        <subject source="lcsh" encodinganalog="650">Operas--Scores and parts.</subject>
+        <subject source="lcsh" encodinganalog="650">Poets--United States.</subject>
+        <subject source="lcsh" encodinganalog="650">Songs--Texts.</subject>
+      </controlaccess>
+      <controlaccess>
+        <head>Subjects - Visual Materials:</head>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n81080002">Bolcom, William.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n82099779">Morris, Joan, 1943-</persname>
+        <persname source="lcnaf" encodinganalog="600">Weinstein, Arnold.</persname>
+        <subject source="lcsh" encodinganalog="650">Music theater.</subject>
+        <subject source="lcsh" encodinganalog="650">Opera.</subject>
+        <subject source="lctgm" encodinganalog="650">Operas and librettos.</subject>
+      </controlaccess>
+      <controlaccess>
+        <head>Subjects - Sound Recordings:</head>
+        <persname source="lcnaf" encodinganalog="600">Weinstein, Arnold.</persname>
+        <subject source="lcsh" encodinganalog="650">Live sound recordings.</subject>
+        <subject source="lcsh" encodinganalog="650">Music theater.</subject>
+        <subject source="lcsh" encodinganalog="650">Opera.</subject>
+      </controlaccess>
+      <controlaccess>
+        <head>Contributors:</head>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n81080002">Bolcom, William.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n2009002259">Greco, Tony.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79043656">Rivers, Larry, 1925-2002.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/nr91044004">Sheng, Bright, 1955-</persname>
+      </controlaccess>
+      <controlaccess>
+        <head>Genre Terms:</head>
+        <genreform source="aat" encodinganalog="655">Audiocassettes.</genreform>
+        <genreform source="aat" encodinganalog="655">CD-ROMs.</genreform>
+        <genreform source="aat" encodinganalog="655">Interview.</genreform>
+        <genreform source="aat" encodinganalog="655">Musical.</genreform>
+        <genreform source="aat" encodinganalog="655">Opera.</genreform>
+        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655">Video recordings.</genreform>
+        <genreform source="aat" encodinganalog="655">Videotapes.</genreform>
+        <genreform source="aat" encodinganalog="655">Sound recordings.</genreform>
+      </controlaccess>
+    </controlaccess>
+    <dsc type="combined">
+      <c01 level="series">
+        <did>
+          <unittitle>Personal/Biographical</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <physloc>Online</physloc>
+            <unittitle>Awards <unitdate type="inclusive" normal="1971">1971</unitdate>, <unitdate type="inclusive" normal="2002">2002</unitdate></unittitle>
+            <physdesc>
+              <physfacet>.ZIP file</physfacet>
+            </physdesc>
+            <dao href="http://hdl.handle.net/2027.42/109211" show="new" actuate="onrequest">
+              <daodesc>
+                <p>[download item]</p>
+              </daodesc>
+            </dao>
+          </did>
+          <accessrestrict>
+            <p>[Download Access Restricted to BHL Reading Room]</p>
+          </accessrestrict>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Biographies and obituaries</unittitle>
+            <physdesc>
+              <physfacet>.ZIP file</physfacet>
+            </physdesc>
+            <dao href="http://hdl.handle.net/2027.42/109222" show="new" actuate="onrequest">
+              <daodesc>
+                <p>[download item]</p>
+              </daodesc>
+            </dao>
+          </did>
+          <accessrestrict>
+            <p>[Download Access Restricted to BHL Reading Room]</p>
+          </accessrestrict>
+        </c02>
+        <c02 level="file">
+          <did>
+            <physloc>Online</physloc>
+            <unittitle>Clippings <unitdate type="inclusive" normal="1961/1990" certainty="approximate">circa 1961-1990</unitdate></unittitle>
+            <physdesc>
+              <physfacet>.ZIP file</physfacet>
+            </physdesc>
+            <dao href="http://hdl.handle.net/2027.42/109233" show="new" actuate="onrequest">
+              <daodesc>
+                <p>[download item]</p>
+              </daodesc>
+            </dao>
+          </did>
+          <accessrestrict>
+            <p>[Download Access Restricted to BHL Reading Room]</p>
+          </accessrestrict>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Correspondence</unittitle>
+            <physdesc>
+              <physfacet>.ZIP file</physfacet>
+            </physdesc>
+            <dao href="http://hdl.handle.net/2027.42/109244" show="new" actuate="onrequest">
+              <daodesc>
+                <p>[download item]</p>
+              </daodesc>
+            </dao>
+          </did>
+          <accessrestrict>
+            <p>[Download Access Restricted to BHL Reading Room]</p>
+          </accessrestrict>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>By Weinstein <unitdate type="inclusive" normal="1944/1988">1944-1988</unitdate> scattered years and <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>To Weinstein <unitdate type="inclusive" normal="1982/2005">1982-2005</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Photographs</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
+              </physdesc>
+              <unittitle>Various <unitdate type="inclusive">undated</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>Family, Friends, and Performances <unitdate type="inclusive" normal="1960/2000" certainty="approximate">circa 1960-2000</unitdate></unittitle>
+              <physdesc>
+                <physfacet>.ZIP file</physfacet>
+              </physdesc>
+              <dao href="http://hdl.handle.net/2027.42/109252" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[download item]</p>
+                </daodesc>
+              </dao>
+            </did>
+            <accessrestrict>
+              <p>[Download Access Restricted to BHL Reading Room]</p>
+            </accessrestrict>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <physloc>Online</physloc>
+            <unittitle>Resume (update) <unitdate type="inclusive" normal="1988" certainty="approximate">circa 1988</unitdate></unittitle>
+            <physdesc>
+              <physfacet>.ZIP file</physfacet>
+            </physdesc>
+            <dao href="http://hdl.handle.net/2027.42/109253" show="new" actuate="onrequest">
+              <daodesc>
+                <p>[download item]</p>
+              </daodesc>
+            </dao>
+          </did>
+          <accessrestrict>
+            <p>[Download Access Restricted to BHL Reading Room]</p>
+          </accessrestrict>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Miscellaneous personal items <unitdate type="inclusive">undated</unitdate></unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Theater</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Index of Theatrical Works and Songs Transferred by the Weinstein Intellectual Trust <unitdate type="inclusive" normal="2013">2013</unitdate></unittitle>
+            <physdesc>
+              <physfacet>.XLSX and .TXT files</physfacet>
+            </physdesc>
+            <dao href="http://hdl.handle.net/2027.42/109251" show="new" actuate="onrequest">
+              <daodesc>
+                <p>[download item]</p>
+              </daodesc>
+            </dao>
+          </did>
+          <accessrestrict>
+            <p>[Download Access Restricted to BHL Reading Room]</p>
+          </accessrestrict>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <title render="italic">American Revolution</title>
+            </unittitle>
+          </did>
+          <odd>
+            <p>(music by Tony Greco)</p>
+          </odd>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
+              </physdesc>
+              <unittitle>Libretti <unitdate type="inclusive" normal="2002">2002</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Music score <unitdate type="inclusive" normal="1976">1976</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Project file <unitdate type="inclusive" normal="1973">1973</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle><title render="italic">Ancient Cabaret</title>, <unitdate type="inclusive" normal="2001">2001</unitdate>, <unitdate type="inclusive" normal="2005">2005</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(music by William Bolcom)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>
+              <title render="italic">Artists in Residence</title>
+            </unittitle>
+          </did>
+          <odd>
+            <p>(concept)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle><title render="italic">Barnyard Boogaloo</title>, <unitdate type="inclusive" normal="1980" certainty="approximate">circa 1980</unitdate></unittitle>
+            <physdesc>
+              <physfacet>.ZIP file</physfacet>
+            </physdesc>
+            <dao href="http://hdl.handle.net/2027.42/109254" show="new" actuate="onrequest">
+              <daodesc>
+                <p>[download item]</p>
+              </daodesc>
+            </dao>
+          </did>
+          <odd>
+            <p>in manuscript and digital formats; music by William Bolcom</p>
+          </odd>
+          <accessrestrict>
+            <p>[Download Access Restricted to BHL Reading Room]</p>
+          </accessrestrict>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle><title render="italic">Blue Light</title>, <unitdate type="inclusive">undated</unitdate></unittitle>
+            <physdesc>
+              <physfacet>.ZIP file</physfacet>
+            </physdesc>
+            <dao href="http://hdl.handle.net/2027.42/109255" show="new" actuate="onrequest">
+              <daodesc>
+                <p>[download item]</p>
+              </daodesc>
+            </dao>
+          </did>
+          <odd>
+            <p>(in manuscript and digital formats; dramatic piece)</p>
+          </odd>
+          <accessrestrict>
+            <p>[Download Access Restricted to BHL Reading Room]</p>
+          </accessrestrict>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <title render="italic">Cabaret Songs</title>
+            </unittitle>
+          </did>
+          <odd>
+            <p>(music by William Bolcom)</p>
+          </odd>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Analysis: <title render="italic">The "Cabaret Songs," Volume One of William Bolcom and Arnold Weinstein: an Exploration and Analysis</title> (Master's thesis by Marlene Titus Bateman), <unitdate type="inclusive" normal="2001">2001</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>"Black Max"</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <unittitle>Project file <unitdate type="inclusive" normal="1979">1979</unitdate>, <unitdate type="inclusive" normal="1985">1985</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">9</container>
+                <unittitle>Music score, outsize <unitdate type="inclusive" normal="1978/1985">1978-1985</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>Review: "De Kooning's Rotterdam Days," <unitdate type="inclusive" normal="1986">1986</unitdate></unittitle>
+                <physdesc>
+                  <physfacet>.ZIP file</physfacet>
+                </physdesc>
+                <dao href="http://hdl.handle.net/2027.42/109201" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[download item]</p>
+                  </daodesc>
+                </dao>
+              </did>
+              <accessrestrict>
+                <p>[Download Access Restricted to BHL Reading Room]</p>
+              </accessrestrict>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 volumes</extent>
+              </physdesc>
+              <unittitle><title render="italic">Cabaret Songs</title> Volumes 1-4, <unitdate type="inclusive" normal="1985">1985</unitdate>, <unitdate type="inclusive" normal="1997">1997</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle><title render="italic">Last Lousy Moments</title>, <unitdate type="inclusive" normal="1970/1979" certainty="approximate">1970s</unitdate>, <unitdate type="inclusive" normal="2000">2000</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Music score and publicity material</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Programs <unitdate type="inclusive" normal="1986/2004">1986-2004</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Reviews <unitdate type="inclusive" normal="1986/2004">1986-2004</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Song lyrics <unitdate type="inclusive">undated</unitdate></unittitle>
+              <physdesc>
+                <physfacet>.ZIP file</physfacet>
+              </physdesc>
+              <dao href="http://hdl.handle.net/2027.42/109202" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[download item]</p>
+                </daodesc>
+              </dao>
+            </did>
+            <odd>
+              <p>(in manuscript and digital formats)</p>
+            </odd>
+            <accessrestrict>
+              <p>[Download Access Restricted to BHL Reading Room]</p>
+            </accessrestrict>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>
+              <title render="italic">Café Classico</title>
+            </unittitle>
+          </did>
+          <odd>
+            <p>(concept)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <title render="italic">Casino Paradise: a Cabaret Opera</title>
+            </unittitle>
+          </did>
+          <odd>
+            <p>(music by William Bolcom)</p>
+          </odd>
+          <c03 level="file">
+            <did>
+              <unittitle>Music Score</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">9</container>
+                <unittitle>Outsize <unitdate type="inclusive" normal="1987/1988">1987-1988</unitdate>, <unitdate type="inclusive" normal="2005">2005</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">5 folders</extent>
+                </physdesc>
+                <unittitle><unitdate type="inclusive" normal="1991">1991</unitdate>, <unitdate type="inclusive" normal="1995">1995</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
+                <physdesc altrender="whole">
+                  </physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle><unitdate type="inclusive" normal="1991">1991</unitdate>, <unitdate type="inclusive" normal="1995">1995</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Libretti</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">3 folders</extent>
+                </physdesc>
+                <unittitle><unitdate type="inclusive" normal="1989/1990">1989-1990</unitdate>, <unitdate type="inclusive" normal="2004">2004</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
+                <physdesc altrender="whole">
+                  </physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>Drafts and various scenes and songs <unitdate type="inclusive" normal="1990" certainty="approximate">circa 1990</unitdate></unittitle>
+                <physdesc>
+                  <physfacet>.ZIP file</physfacet>
+                </physdesc>
+                <dao href="http://hdl.handle.net/2027.42/109203" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[download item]</p>
+                  </daodesc>
+                </dao>
+              </did>
+              <accessrestrict>
+                <p>[Download Access Restricted to BHL Reading Room]</p>
+              </accessrestrict>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Programs and publicity material <unitdate type="inclusive" normal="1990/2005">1990-2005</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Reviews <unitdate type="inclusive" normal="1986">1986</unitdate>, <unitdate type="inclusive" normal="1990/1992">1990-1992</unitdate>, <unitdate type="inclusive" normal="2004">2004</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Vocal score</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>
+              <title render="italic">Cleopatra: Three Songs</title>
+            </unittitle>
+          </did>
+          <odd>
+            <p>(music by Laurence Rosenthal)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <title render="italic">The Dreamer: An Opera in Two Acts</title>
+            </unittitle>
+          </did>
+          <odd>
+            <p>(music by Charles Schwarz)</p>
+          </odd>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Libretto and Review <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>Libretto Drafts and Plot Outline <unitdate type="inclusive">undated</unitdate></unittitle>
+              <physdesc>
+                <physfacet>.PDF</physfacet>
+              </physdesc>
+              <dao href="http://hdl.handle.net/2027.42/109204" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[download item]</p>
+                </daodesc>
+              </dao>
+            </did>
+            <accessrestrict>
+              <p>[Download Access Restricted to BHL Reading Room]</p>
+            </accessrestrict>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <title render="italic">Dynamite Tonite</title>
+            </unittitle>
+          </did>
+          <odd>
+            <p>(music by William Bolcom)</p>
+          </odd>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>"Gosh, I Can't Believe It's True Blues," <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Libretti</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1964">1964</unitdate>
+                  <unitdate type="inclusive">undated</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>Drafts (with possible revisions) <unitdate type="inclusive" normal="2001">2001</unitdate></unittitle>
+                <physdesc>
+                  <physfacet>.ZIP file</physfacet>
+                </physdesc>
+                <dao href="http://hdl.handle.net/2027.42/109205" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[download item]</p>
+                  </daodesc>
+                </dao>
+              </did>
+              <accessrestrict>
+                <p>[Download Access Restricted to BHL Reading Room]</p>
+              </accessrestrict>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">9</container>
+              <unittitle>Music score, outsize <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">1</container>
+              <unittitle>Piano/vocal score <unitdate type="inclusive" normal="1967">1967</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Reviews, programs and publicity material <unitdate type="inclusive" normal="1966/1987">1966-1987</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle><title render="italic">Dynamo</title>, <unitdate type="inclusive" normal="2004/2005">2004-2005 and undated</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(concept)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>
+              <title render="italic">Final Ingredient: a Passover Opera</title>
+              <unitdate type="inclusive" normal="1965">1965</unitdate>
+            </unittitle>
+          </did>
+          <odd>
+            <p>(music by David Amram)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle><title render="italic">Food for Thought</title>, <unitdate type="inclusive">undated</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(with Fran Landesman, music by Lawrence Rosenthal and Jimmy Williams)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle><title render="italic">Fortuna</title>, <unitdate type="inclusive" normal="1960/1969" certainty="approximate">1960s</unitdate>, <unitdate type="inclusive" normal="2001">2001</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(music by Frances Thorne)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle><title render="italic">Galileo Galilei</title>, <unitdate type="inclusive" normal="2002">2002 and undated</unitdate></unittitle>
+            <physdesc>
+              <physfacet>.ZIP file</physfacet>
+            </physdesc>
+            <dao href="http://hdl.handle.net/2027.42/109206" show="new" actuate="onrequest">
+              <daodesc>
+                <p>[download item]</p>
+              </daodesc>
+            </dao>
+          </did>
+          <odd>
+            <p>(in manuscript and digital formats; music by Philip Glass; digital version includes multiple drafts and notes addressed to Glass)</p>
+          </odd>
+          <accessrestrict>
+            <p>[Download Access Restricted to BHL Reading Room]</p>
+          </accessrestrict>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <title render="italic">General Opera</title>
+            </unittitle>
+          </did>
+          <odd>
+            <p>(music by William Russo)</p>
+          </odd>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
+              </physdesc>
+              <unittitle>Libretti <unitdate type="inclusive" normal="1977">1977</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
+              </physdesc>
+              <unittitle>Music score <unitdate type="inclusive" normal="1977">1977</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <title render="italic">Greatshot: an Opera for Actors; a Play without Words</title>
+            </unittitle>
+          </did>
+          <odd>
+            <p>(music by William Bolcom)</p>
+          </odd>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Libretto</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">10</container>
+              <unittitle>Music score, outsize <unitdate type="inclusive" normal="1969">1969</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>Drafts of Lyrics and Libretti <unitdate type="inclusive">undated</unitdate></unittitle>
+              <physdesc>
+                <physfacet>.ZIP file</physfacet>
+              </physdesc>
+              <dao href="http://hdl.handle.net/2027.42/109207" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[download item]</p>
+                </daodesc>
+              </dao>
+            </did>
+            <accessrestrict>
+              <p>[Download Access Restricted to BHL Reading Room]</p>
+            </accessrestrict>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle><title render="italic">Gypsy New York</title>, <unitdate type="inclusive">undated</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(see Lorca, NY)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle><title render="italic">Half Meeting: a Burlesque</title>, <unitdate type="inclusive">undated</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle><title render="italic">Hamlet: the Musical</title>, <unitdate type="inclusive">undated</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(by Shel Silverstein)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle><title render="italic">Hansel and Gretel</title>, <unitdate type="inclusive" normal="1964">1964</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle><title render="italic">Hermits</title>, <unitdate type="inclusive">undated</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle><title render="italic">Idiot's Delight</title>, <unitdate type="inclusive">undated</unitdate></unittitle>
+            <physdesc>
+              <physfacet>.ZIP file</physfacet>
+            </physdesc>
+            <dao href="http://hdl.handle.net/2027.42/109208" show="new" actuate="onrequest">
+              <daodesc>
+                <p>[download item]</p>
+              </daodesc>
+            </dao>
+          </did>
+          <odd>
+            <p>(in manuscript and digital formats; music by William Bolcom)</p>
+          </odd>
+          <accessrestrict>
+            <p>[Download Access Restricted to BHL Reading Room]</p>
+          </accessrestrict>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 folders</extent>
+            </physdesc>
+            <unittitle><title render="italic">Lady Liberty (Living Theatre)</title>, <unitdate type="inclusive">undated</unitdate></unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+            <physdesc>
+              <physfacet>.ZIP file</physfacet>
+            </physdesc>
+            <dao href="http://hdl.handle.net/2027.42/109209" show="new" actuate="onrequest">
+              <daodesc>
+                <p>[download item]</p>
+              </daodesc>
+            </dao>
+          </did>
+          <odd>
+            <p>(in manuscript and digital formats)</p>
+          </odd>
+          <accessrestrict>
+            <p>[Download Access Restricted to BHL Reading Room]</p>
+          </accessrestrict>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <title render="italic">Lorca, NY</title>
+            </unittitle>
+          </did>
+          <odd>
+            <p>(music by Tony Greco)</p>
+          </odd>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Libretto</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Music score</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
+              </physdesc>
+              <unittitle>Project file <unitdate type="inclusive" normal="1985">1985</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>Lyrics, Translated Poetry, and Biographical Sketch of Frederico Garcia Lorca <unitdate type="inclusive">undated</unitdate></unittitle>
+              <physdesc>
+                <physfacet>.ZIP file</physfacet>
+              </physdesc>
+              <dao href="http://hdl.handle.net/2027.42/109210" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[download item]</p>
+                </daodesc>
+              </dao>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <physloc>Online</physloc>
+            <unittitle><title render="italic">Lysistrata</title> (working title: <title render="italic">Liz Estrada</title>), <unitdate type="inclusive">undated</unitdate></unittitle>
+            <physdesc>
+              <physfacet>.ZIP file</physfacet>
+            </physdesc>
+            <dao href="http://hdl.handle.net/2027.42/109212" show="new" actuate="onrequest">
+              <daodesc>
+                <p>[download item]</p>
+              </daodesc>
+            </dao>
+          </did>
+          <odd>
+            <p>(Proposal, lyrics, and related materials)</p>
+          </odd>
+          <accessrestrict>
+            <p>[Download Access Restricted to BHL Reading Room]</p>
+          </accessrestrict>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle><title render="italic">Maha Sonnet</title>, <unitdate type="inclusive" normal="1990">1990</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(music by William Bolcom)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <title render="italic">Mahagonny</title>
+            </unittitle>
+          </did>
+          <odd>
+            <p>(adapted from Bertolt Brecht, music by Kurt Weill)</p>
+          </odd>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
+              </physdesc>
+              <unittitle>Libretti <unitdate type="inclusive">undated</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">3 volumes</extent>
+              </physdesc>
+              <unittitle>Music score <unitdate type="inclusive" normal="1956">1956</unitdate>, <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Project file</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Reviews <unitdate type="inclusive" normal="1970/2000" certainty="approximate">1970s-2000</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>Drafts of Libretti <unitdate type="inclusive">undated</unitdate></unittitle>
+              <physdesc>
+                <physfacet>.ZIP file</physfacet>
+              </physdesc>
+              <dao href="http://hdl.handle.net/2027.42/109213" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[download item]</p>
+                </daodesc>
+              </dao>
+            </did>
+            <accessrestrict>
+              <p>[Download Access Restricted to BHL Reading Room]</p>
+            </accessrestrict>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <title render="italic">McTeague</title>
+            </unittitle>
+          </did>
+          <odd>
+            <p>(music by William Bolcom)</p>
+          </odd>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Reviews and miscellaneous <unitdate type="inclusive" normal="1992">1992</unitdate>, <unitdate type="inclusive" normal="2004/2005">2004-2005</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Vocal Score <unitdate type="inclusive" normal="1995">1995</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>Outline, Notes, and Lyrics <unitdate type="inclusive" normal="2005" certainty="approximate">circa 2005</unitdate></unittitle>
+              <physdesc>
+                <physfacet>.ZIP file</physfacet>
+              </physdesc>
+              <dao href="http://hdl.handle.net/2027.42/109214" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[download item]</p>
+                </daodesc>
+              </dao>
+            </did>
+            <odd>
+              <p>(Notes and lyrics appear to be from a proposed revision of McTeague for the 2006-2007 season of the Lyric Opera of Chicago)</p>
+            </odd>
+            <accessrestrict>
+              <p>[Download Access Restricted to BHL Reading Room]</p>
+            </accessrestrict>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <title render="italic">Medusa</title>
+            </unittitle>
+          </did>
+          <odd>
+            <p>(music by William Bolcom)</p>
+          </odd>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Music score <unitdate type="inclusive" normal="2002">2002</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Project file <unitdate type="inclusive" normal="2003">2003</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">10</container>
+              <unittitle>Vocal/Piano score, outsize <unitdate type="inclusive" normal="2002">2002</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>Notes and Lyrics (multiple drafts) <unitdate type="inclusive" normal="2002" certainty="approximate">circa 2002</unitdate></unittitle>
+              <physdesc>
+                <physfacet>.ZIP file</physfacet>
+              </physdesc>
+              <dao href="http://hdl.handle.net/2027.42/109215" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[download item]</p>
+                </daodesc>
+              </dao>
+            </did>
+            <accessrestrict>
+              <p>[Download Access Restricted to BHL Reading Room]</p>
+            </accessrestrict>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <title render="italic">Metamorphoses</title>
+            </unittitle>
+          </did>
+          <odd>
+            <p>(music by Tony Greco)</p>
+          </odd>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
+              </physdesc>
+              <unittitle>Libretti</unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">10</container>
+              <unittitle>Music score, outsize</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Project file</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Publicity, reviews <unitdate type="inclusive" normal="1970/1999" certainty="approximate">1970s-1990s</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>Drafts of Libretti <unitdate type="inclusive">undated</unitdate></unittitle>
+              <physdesc>
+                <physfacet>.ZIP file</physfacet>
+              </physdesc>
+              <dao href="http://hdl.handle.net/2027.42/109216" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[download item]</p>
+                </daodesc>
+              </dao>
+            </did>
+            <accessrestrict>
+              <p>[Download Access Restricted to BHL Reading Room]</p>
+            </accessrestrict>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle><title render="italic">Miracle: Nine Madrigals after Giovanni Pascoli</title>, <unitdate type="inclusive" normal="2000">2000</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(music by William Bolcom)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <title render="italic">Monkey</title>
+            </unittitle>
+          </did>
+          <odd>
+            <p>(see also <title render="italic">Story Theatre</title>)</p>
+          </odd>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Book and lyrics by Arnold Weinstein from the Paul Sills "Story Theatre," <unitdate type="inclusive" normal="1994">1994</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">4 folders</extent>
+              </physdesc>
+              <unittitle>Book by Arnold Weinstein and Paul Sills <unitdate type="inclusive">undated</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Milwaukee production <unitdate type="inclusive" normal="1976">1976</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Project file <unitdate type="inclusive" normal="1978">1978</unitdate>, <unitdate type="inclusive" normal="2002">2002</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>Additional work files <unitdate type="inclusive" normal="1994" certainty="approximate">circa 1994</unitdate></unittitle>
+              <physdesc>
+                <physfacet>.ZIP file</physfacet>
+              </physdesc>
+              <dao href="http://hdl.handle.net/2027.42/109217" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[download item]</p>
+                </daodesc>
+              </dao>
+            </did>
+            <accessrestrict>
+              <p>[Download Access Restricted to BHL Reading Room]</p>
+            </accessrestrict>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <title render="italic">Monkey King: A Martial Arts Musical</title>
+            </unittitle>
+          </did>
+          <odd>
+            <p>(music by Bright Sheng)</p>
+          </odd>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>King of the Mountain <unitdate type="inclusive" normal="2004">2004</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">4 folders</extent>
+              </physdesc>
+              <unittitle>Project file <unitdate type="inclusive" normal="2004/2005">2004-2005</unitdate>, <unitdate type="inclusive" normal="2007">2007</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>Notes, Plot Descriptions, and Drafts of Lyrics <unitdate type="inclusive" normal="2004" certainty="approximate">circa 2004</unitdate></unittitle>
+              <physdesc>
+                <physfacet>.ZIP file</physfacet>
+              </physdesc>
+              <dao href="http://hdl.handle.net/2027.42/109218" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[download item]</p>
+                </daodesc>
+              </dao>
+            </did>
+            <accessrestrict>
+              <p>[Download Access Restricted to BHL Reading Room]</p>
+            </accessrestrict>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>
+              <title render="italic">Mr. &amp; Mrs. &amp; Mr.</title>
+            </unittitle>
+          </did>
+          <odd>
+            <p>(with Rhoda Roberts and Kenneth Jacobson, music by Kenneth Jacobson)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>
+              <title render="italic">Nervous Set</title>
+            </unittitle>
+          </did>
+          <odd>
+            <p>(by Fran Landesmann, music by Tommy Wolf)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <title render="italic">Old Addresses</title>
+            </unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Drafts <unitdate type="inclusive" normal="2001">2001</unitdate></unittitle>
+            </did>
+            <odd>
+              <p>(music by William Bolcom; includes versions of "Africa: Adapted from a Prison Letter by George Jackson")</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Lyrics related to George Jackson <unitdate type="inclusive" normal="2001" certainty="approximate">circa 2001</unitdate></unittitle>
+              <dao href="http://hdl.handle.net/2027.42/109250" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[download item]</p>
+                </daodesc>
+              </dao>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <physloc>Online</physloc>
+            <unittitle><title render="italic">Pal Joey</title>, <unitdate type="inclusive" normal="2003">2003</unitdate></unittitle>
+            <physdesc>
+              <physfacet>.ZIP file</physfacet>
+            </physdesc>
+            <dao href="http://hdl.handle.net/2027.42/109219" show="new" actuate="onrequest">
+              <daodesc>
+                <p>[download item]</p>
+              </daodesc>
+            </dao>
+          </did>
+          <odd>
+            <p>(Notes and drafts of lyrics and dialogue)</p>
+          </odd>
+          <accessrestrict>
+            <p>[Download Access Restricted to BHL Reading Room]</p>
+          </accessrestrict>
+        </c02>
+        <c02 level="file">
+          <did>
+            <physloc>Online</physloc>
+            <unittitle><title render="italic">Parables of Chuang Chu</title>, <unitdate type="inclusive">undated</unitdate></unittitle>
+            <physdesc>
+              <physfacet>.ZIP file</physfacet>
+            </physdesc>
+            <dao href="http://hdl.handle.net/2027.42/109220" show="new" actuate="onrequest">
+              <daodesc>
+                <p>[download item]</p>
+              </daodesc>
+            </dao>
+          </did>
+          <accessrestrict>
+            <p>[Download Access Restricted to BHL Reading Room]</p>
+          </accessrestrict>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <title render="italic">The Party</title>
+            </unittitle>
+          </did>
+          <odd>
+            <p>(music by Laurence Rosenthal)</p>
+          </odd>
+          <c03 level="file">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>Early version <unitdate type="inclusive">undated</unitdate></unittitle>
+              <physdesc>
+                <physfacet>.ZIP file</physfacet>
+              </physdesc>
+              <dao href="http://hdl.handle.net/2027.42/109221" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[download item]</p>
+                </daodesc>
+              </dao>
+            </did>
+            <accessrestrict>
+              <p>[Download Access Restricted to BHL Reading Room]</p>
+            </accessrestrict>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle><title render="italic">Fifty</title>, <unitdate type="inclusive" normal="1983">1983</unitdate></unittitle>
+              <physdesc>
+                <physfacet>.ZIP file</physfacet>
+              </physdesc>
+              <dao href="http://hdl.handle.net/2027.42/109223" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[download item]</p>
+                </daodesc>
+              </dao>
+            </did>
+            <odd>
+              <p>(Revised version; in manuscript and digital formats)</p>
+            </odd>
+            <accessrestrict>
+              <p>[Download Access Restricted to BHL Reading Room]</p>
+            </accessrestrict>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Libretto</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Music sheets</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Programs and reviews <unitdate type="inclusive" normal="1977">1977</unitdate>, <unitdate type="inclusive" normal="1982">1982</unitdate>, <unitdate type="inclusive" normal="1985" certainty="approximate">circa 1985</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Project file</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">10</container>
+              <unittitle>Music score, outsize</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <title render="italic">Play of Consciousness</title>
+            </unittitle>
+          </did>
+          <odd>
+            <p>(music by William Bolcom, William Russo, Laurence Rosenthal, Daniel Schreier, and others)</p>
+          </odd>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle><title render="italic">Baba</title> (earlier version), <unitdate type="inclusive" normal="1978" certainty="approximate">circa 1978</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Libretto</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>Drafts of Lyrics and Libretti <unitdate type="inclusive">undated</unitdate></unittitle>
+              <physdesc>
+                <physfacet>.ZIP file</physfacet>
+              </physdesc>
+              <dao href="http://hdl.handle.net/2027.42/109224" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[download item]</p>
+                </daodesc>
+              </dao>
+            </did>
+            <accessrestrict>
+              <p>[Download Access Restricted to BHL Reading Room]</p>
+            </accessrestrict>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
+              </physdesc>
+              <unittitle>Project file</unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">5</container>
+            <unittitle><title render="italic">Punch &amp; Judy Get Divorced</title>, <unitdate type="inclusive" normal="1996">1996</unitdate></unittitle>
+            <physdesc>
+              <physfacet>.ZIP file</physfacet>
+            </physdesc>
+            <dao href="http://hdl.handle.net/2027.42/109225" show="new" actuate="onrequest">
+              <daodesc>
+                <p>[download item]</p>
+              </daodesc>
+            </dao>
+          </did>
+          <odd>
+            <p>(in manuscript and digital formats; with David and Ain Gordon, music by Edward Barnes)</p>
+          </odd>
+          <accessrestrict>
+            <p>[Download Access Restricted to BHL Reading Room]</p>
+          </accessrestrict>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <title render="italic">Red Eye of Love</title>
+            </unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Music by William Bolcom <unitdate type="inclusive" normal="1961/1963">1961-1963</unitdate>, <unitdate type="inclusive" normal="1978">1978</unitdate>, <unitdate type="inclusive" normal="1992">1992</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+            <odd>
+              <p>(dramatic work)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Music by Jan Warner <unitdate type="inclusive" normal="1984/2008">1984-2008</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Music by Sam Davis <unitdate type="inclusive" normal="2013">2013</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>Programs, Lyrics, Song Sheets and Scripts <unitdate type="inclusive" normal="1961/2013">1961-2013</unitdate></unittitle>
+              <physdesc>
+                <physfacet>.ZIP file</physfacet>
+              </physdesc>
+              <dao href="http://hdl.handle.net/2027.42/109226" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[download item]</p>
+                </daodesc>
+              </dao>
+            </did>
+            <odd>
+              <p>(Includes multiple productions)</p>
+            </odd>
+            <accessrestrict>
+              <p>[Download Access Restricted to BHL Reading Room]</p>
+            </accessrestrict>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">5</container>
+            <unittitle>Reg. US Pat. Off.</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">5</container>
+            <unittitle><title render="italic">Rigoletto</title>, <unitdate type="inclusive" normal="1997" certainty="approximate">circa 1997</unitdate></unittitle>
+            <physdesc>
+              <physfacet>.ZIP file</physfacet>
+            </physdesc>
+            <dao href="http://hdl.handle.net/2027.42/109227" show="new" actuate="onrequest">
+              <daodesc>
+                <p>[download item]</p>
+              </daodesc>
+            </dao>
+          </did>
+          <odd>
+            <p>(in manuscript and digital formats; proposal, lyrics, and libretto)</p>
+          </odd>
+          <accessrestrict>
+            <p>[Download Access Restricted to BHL Reading Room]</p>
+          </accessrestrict>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <title render="italic">Riot: An Hysterical Drawing Room Comedy</title>
+            </unittitle>
+          </did>
+          <odd>
+            <p>(music by Tony Greco)</p>
+          </odd>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle><title render="italic">Baldwin</title>, <unitdate type="inclusive" normal="1978">1978</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+            <odd>
+              <p>(Alternate version)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Music sheets</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Now Nasrudine</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Project file <unitdate type="inclusive" normal="1968/2004">1968-2004</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>Various Notes and Drafts for <title render="italic">Baldwin</title> and <title render="italic">Riot</title>, <unitdate type="inclusive">undated</unitdate></unittitle>
+              <physdesc>
+                <physfacet>.ZIP file</physfacet>
+              </physdesc>
+              <dao href="http://hdl.handle.net/2027.42/109228" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[download item]</p>
+                </daodesc>
+              </dao>
+            </did>
+            <odd>
+              <p>(May also contain material related to <title render="italic">Rigoletto</title>, <title render="italic">Tupelo</title>, and other works.)</p>
+            </odd>
+            <accessrestrict>
+              <p>[Download Access Restricted to BHL Reading Room]</p>
+            </accessrestrict>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">5</container>
+            <unittitle><title render="italic">Round the Christmas Table</title>, <unitdate type="inclusive" normal="1962">1962</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <title render="italic">Shlemiel the First</title>
+            </unittitle>
+          </did>
+          <odd>
+            <p>(music by Hankus Netsky and Zalman Mlatek)</p>
+          </odd>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">4 folders</extent>
+              </physdesc>
+              <unittitle>Libretti <unitdate type="inclusive" normal="1994/2009">1994-2009</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Music score</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Programs, publicity, reviews</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>Notes and Drafts of Lyrics and Libretti <unitdate type="inclusive">undated</unitdate></unittitle>
+              <physdesc>
+                <physfacet>.ZIP file</physfacet>
+              </physdesc>
+              <dao href="http://hdl.handle.net/2027.42/109229" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[download item]</p>
+                </daodesc>
+              </dao>
+            </did>
+            <accessrestrict>
+              <p>[Download Access Restricted to BHL Reading Room]</p>
+            </accessrestrict>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">5</container>
+            <unittitle>
+              <title render="italic">Starving</title>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <title render="italic">Story Theatre</title>
+            </unittitle>
+          </did>
+          <odd>
+            <p>(see also Monkey)</p>
+          </odd>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Ovid music sheets <unitdate type="inclusive" normal="1971">1971</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>
+                <title render="italic">Paul Sills' Story Theater Four Shows</title>
+              </unittitle>
+            </did>
+            <odd>
+              <p>(New York, London: 2000)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Project file <unitdate type="inclusive" normal="1970/2004" certainty="approximate">1970s-2004</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Scripts</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">5</container>
+            <unittitle>
+              <title render="italic">Taco Dilemma</title>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <title render="italic">They (A Mystical Farce)</title>
+            </unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">6</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
+              </physdesc>
+              <unittitle>Old versions <unitdate type="inclusive" normal="1994">1994</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">6</container>
+              <unittitle>Script</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>Drafts of Libretti <unitdate type="inclusive">undated</unitdate></unittitle>
+              <physdesc>
+                <physfacet>.ZIP file</physfacet>
+              </physdesc>
+              <dao href="http://hdl.handle.net/2027.42/109230" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[download item]</p>
+                </daodesc>
+              </dao>
+            </did>
+            <accessrestrict>
+              <p>[Download Access Restricted to BHL Reading Room]</p>
+            </accessrestrict>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">6</container>
+            <unittitle>
+              <title render="italic">To Find another Island</title>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <title render="italic">Tupelo</title>
+            </unittitle>
+          </did>
+          <odd>
+            <p>(with Kevin Eggers; music by Anthony Davis)</p>
+          </odd>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">6</container>
+              <unittitle><title render="italic">Elvis'56: In the Beginning</title> by Alfred Wertheimer</unittitle>
+            </did>
+            <odd>
+              <p>(New York: 1979)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">6</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
+              </physdesc>
+              <unittitle>Libretti <unitdate type="inclusive" normal="2002">2002</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">6</container>
+              <unittitle>Music score <unitdate type="inclusive" normal="1999/2000">1999-2000</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>Drafts of Lyrics and Libretti (with 'master' version) <unitdate type="inclusive" normal="2002" certainty="approximate">circa 2002</unitdate></unittitle>
+              <physdesc>
+                <physfacet>.ZIP file</physfacet>
+              </physdesc>
+              <dao href="http://hdl.handle.net/2027.42/109231" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[download item]</p>
+                </daodesc>
+              </dao>
+            </did>
+            <accessrestrict>
+              <p>[Download Access Restricted to BHL Reading Room]</p>
+            </accessrestrict>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">6</container>
+            <unittitle>
+              <title render="italic">Twenty Five Cent White Summer Cap</title>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">6</container>
+            <unittitle><title render="italic">Undercover Lover: a Musical Comedy</title>, <unitdate type="inclusive">undated</unitdate></unittitle>
+            <physdesc>
+              <physfacet>.ZIP file</physfacet>
+            </physdesc>
+            <dao href="http://hdl.handle.net/2027.42/109232" show="new" actuate="onrequest">
+              <daodesc>
+                <p>[download item]</p>
+              </daodesc>
+            </dao>
+          </did>
+          <odd>
+            <p>(in manuscript and digital formats; with Frank O'Hara, music by John Gruen)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">6</container>
+            <unittitle>
+              <title render="italic">Vain and the Venal</title>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <title render="italic">A View from the Bridge</title>
+            </unittitle>
+          </did>
+          <odd>
+            <p>(with Arthur Miller; music by William Bolcom)</p>
+          </odd>
+          <c03 level="file">
+            <did>
+              <unittitle>Libretti</unittitle>
+            </did>
+            <c04 level="item">
+              <did>
+                <container type="box" label="Box">6</container>
+                <unittitle>English <unitdate type="inclusive" normal="1999">1999</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="item">
+              <did>
+                <container type="box" label="Box">6</container>
+                <unittitle>German <unitdate type="inclusive" normal="2002">2002</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="item">
+              <did>
+                <container type="box" label="Box">6</container>
+                <unittitle>Italian and English <unitdate type="inclusive" normal="2011">2011</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">6</container>
+              <unittitle>Photographs</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">6</container>
+              <unittitle>Programs <unitdate type="inclusive" normal="1999/2005">1999-2005</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">6</container>
+              <unittitle>Reviews, publicity <unitdate type="inclusive" normal="1999/2005">1999-2005</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">6</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">3 volumes</extent>
+              </physdesc>
+              <unittitle>Vocal score <unitdate type="inclusive" normal="2001/2002">2001-2002</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>Drafts of Lyrics and Libretti <unitdate type="inclusive" normal="1999" certainty="approximate">circa 1999</unitdate></unittitle>
+              <physdesc>
+                <physfacet>.ZIP file</physfacet>
+              </physdesc>
+              <dao href="http://hdl.handle.net/2027.42/109234" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[download item]</p>
+                </daodesc>
+              </dao>
+            </did>
+            <accessrestrict>
+              <p>[Download Access Restricted to BHL Reading Room]</p>
+            </accessrestrict>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">6</container>
+            <unittitle><title render="italic">W. C.</title>, <unitdate type="inclusive">undated</unitdate></unittitle>
+            <physdesc>
+              <physfacet>.ZIP file</physfacet>
+            </physdesc>
+            <dao href="http://hdl.handle.net/2027.42/109235" show="new" actuate="onrequest">
+              <daodesc>
+                <p>[download item]</p>
+              </daodesc>
+            </dao>
+          </did>
+          <odd>
+            <p>(in manuscript and digital formats; with Fran Landesman, music by Laurence Rosenthal)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">6</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 folders</extent>
+            </physdesc>
+            <unittitle><title render="italic">Ward Six</title>, <unitdate type="inclusive">undated</unitdate></unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+            <physdesc>
+              <physfacet>.ZIP file</physfacet>
+            </physdesc>
+            <dao href="http://hdl.handle.net/2027.42/109236" show="new" actuate="onrequest">
+              <daodesc>
+                <p>[download item]</p>
+              </daodesc>
+            </dao>
+          </did>
+          <odd>
+            <p>(in manuscript and digital formats; music by Lukas Foss)</p>
+          </odd>
+          <accessrestrict>
+            <p>[Download Access Restricted to BHL Reading Room]</p>
+          </accessrestrict>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <title render="italic">A Wedding</title>
+            </unittitle>
+          </did>
+          <odd>
+            <p>(based on the film by Robert Altman; music by William Bolcom)</p>
+          </odd>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>Libretti <unitdate type="inclusive" normal="2004">2004</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">4 volumes</extent>
+              </physdesc>
+              <unittitle>Music score, 2003/2003-2004</unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>Reviews, programs, publicity <unitdate type="inclusive" normal="2004/2005">2004-2005</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>Drafts of Lyrics and Libretti <unitdate type="inclusive" normal="2003/2004" certainty="approximate">circa 2003-2004</unitdate></unittitle>
+              <physdesc>
+                <physfacet>.ZIP file</physfacet>
+              </physdesc>
+              <dao href="http://hdl.handle.net/2027.42/109237" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[download item]</p>
+                </daodesc>
+              </dao>
+            </did>
+            <odd>
+              <p>(Also contains poems, presumably by Weinstein)</p>
+            </odd>
+            <accessrestrict>
+              <p>[Download Access Restricted to BHL Reading Room]</p>
+            </accessrestrict>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <title render="italic">Wind in the Willows</title>
+            </unittitle>
+          </did>
+          <odd>
+            <p>(with Paul Sills, music by William Bolcom)</p>
+          </odd>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>Libretti</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">7</container>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">4 folders</extent>
+                </physdesc>
+                <unittitle><unitdate type="inclusive" normal="1996/1997">1996-1997</unitdate>, <unitdate type="inclusive" normal="2001">2001</unitdate></unittitle>
+                <physdesc altrender="whole">
+                  </physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1983/2001">1983-2001</unitdate>
+                </unittitle>
+                <physdesc>
+                  <physfacet>.ZIP file</physfacet>
+                </physdesc>
+                <dao href="http://hdl.handle.net/2027.42/109238" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[download item]</p>
+                  </daodesc>
+                </dao>
+              </did>
+              <accessrestrict>
+                <p>[Download Access Restricted to BHL Reading Room]</p>
+              </accessrestrict>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">10</container>
+              <unittitle>Music score, outsize</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>Production materials (North Haven, Conn.) <unitdate type="inclusive" normal="1997">1997</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>Programs, publicity, reviews <unitdate type="inclusive" normal="1998/2004">1998-2004</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <physloc>Online</physloc>
+            <unittitle>Posters, Playbills, and Promotional Stills (various) <unitdate type="inclusive" normal="1961/2000" certainty="approximate">circa 1961-2000</unitdate></unittitle>
+            <physdesc>
+              <physfacet>.ZIP file</physfacet>
+            </physdesc>
+            <dao href="http://hdl.handle.net/2027.42/109239" show="new" actuate="onrequest">
+              <daodesc>
+                <p>[download item]</p>
+              </daodesc>
+            </dao>
+          </did>
+          <accessrestrict>
+            <p>[Download Access Restricted to BHL Reading Room]</p>
+          </accessrestrict>
+        </c02>
+        <c02 level="file">
+          <did>
+            <physloc>Online</physloc>
+            <unittitle>Idea Files <unitdate type="inclusive" normal="1980/2009" certainty="approximate">circa 1980s-2000s</unitdate></unittitle>
+            <physdesc>
+              <physfacet>.ZIP file</physfacet>
+            </physdesc>
+            <dao href="http://hdl.handle.net/2027.42/109240" show="new" actuate="onrequest">
+              <daodesc>
+                <p>[download item]</p>
+              </daodesc>
+            </dao>
+          </did>
+          <odd>
+            <p>(Includes notes, outlines, and drafts for essays, theater pieces, and Larry Rivers autobiography)</p>
+          </odd>
+          <accessrestrict>
+            <p>[Download Access Restricted to BHL Reading Room]</p>
+          </accessrestrict>
+        </c02>
+        <c02 level="file">
+          <did>
+            <physloc>Online</physloc>
+            <unittitle>Various Solos, Songs, and Stories <unitdate type="inclusive">undated</unitdate></unittitle>
+            <physdesc>
+              <physfacet>.ZIP file</physfacet>
+            </physdesc>
+            <dao href="http://hdl.handle.net/2027.42/109241" show="new" actuate="onrequest">
+              <daodesc>
+                <p>[download item]</p>
+              </daodesc>
+            </dao>
+          </did>
+          <odd>
+            <p>(Collected poems, lyrics, and scripts by Weinstein, including)</p>
+          </odd>
+          <accessrestrict>
+            <p>[Download Access Restricted to BHL Reading Room]</p>
+          </accessrestrict>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Writing</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <title render="italic">Arianna a Naxos</title>
+            </unittitle>
+          </did>
+          <odd>
+            <p>(translation from Latin)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Articles and Essays</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>Various <unitdate type="inclusive" normal="1967/2002">1967-2002</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>"A Romance with the Classics" <unitdate type="inclusive" normal="2001">2001</unitdate></unittitle>
+              <physdesc>
+                <physfacet>.ZIP file</physfacet>
+              </physdesc>
+              <dao href="http://hdl.handle.net/2027.42/109242" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[download item]</p>
+                </daodesc>
+              </dao>
+            </did>
+            <odd>
+              <p>(Drafts and research materials for an article about A. E. Housman written for the <title render="italic">Lincoln Center Theater Review</title>'s Spring 2001 issue on Tom Stoppard's <title render="italic">The Invention of Love</title>)</p>
+            </odd>
+            <accessrestrict>
+              <p>[Download Access Restricted to BHL Reading Room]</p>
+            </accessrestrict>
+          </c03>
+          <c03 level="file">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>Essays on Poetry, Artists, and Critics <unitdate type="inclusive" normal="1987/1988">1987-1988</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
+              <physdesc>
+                <physfacet>.ZIP file</physfacet>
+              </physdesc>
+              <dao href="http://hdl.handle.net/2027.42/109243" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[download item]</p>
+                </daodesc>
+              </dao>
+            </did>
+            <accessrestrict>
+              <p>[Download Access Restricted to BHL Reading Room]</p>
+            </accessrestrict>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Poems</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>Manuscript</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">7</container>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">3 folders</extent>
+                </physdesc>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1956">1956</unitdate>
+                  <unitdate type="inclusive">undated</unitdate>
+                </unittitle>
+                <physdesc altrender="whole">
+                  </physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>"Life Isn't Everything: The Theater Poetry of Arnold Weinstein," <unitdate type="inclusive" normal="1999" certainty="approximate">circa 1999</unitdate></unittitle>
+                <physdesc>
+                  <physfacet>.DOCX files</physfacet>
+                </physdesc>
+                <dao href="http://hdl.handle.net/2027.42/109245" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[download item]</p>
+                  </daodesc>
+                </dao>
+              </did>
+              <odd>
+                <p>(Selected works, with afterword by John Guare)</p>
+              </odd>
+              <accessrestrict>
+                <p>[Download Access Restricted to BHL Reading Room]</p>
+              </accessrestrict>
+            </c04>
+            <c04 level="file">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>Various Lyrics and Poems <unitdate type="inclusive" normal="1951/2000" certainty="approximate">circa 1951-2000</unitdate></unittitle>
+                <physdesc>
+                  <physfacet>.ZIP file</physfacet>
+                </physdesc>
+                <dao href="http://hdl.handle.net/2027.42/109246" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[download item]</p>
+                  </daodesc>
+                </dao>
+              </did>
+              <accessrestrict>
+                <p>[Download Access Restricted to BHL Reading Room]</p>
+              </accessrestrict>
+              <c05 level="file">
+                <did>
+                  <unittitle>Acting</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unittitle>after Garcia Lorca</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unittitle>Airs Academica</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unittitle>The Argument</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unittitle>Heavenly Storm: A Drama</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unittitle>Ballad #1</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unittitle>The Big Flood</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unittitle>The Birth</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unittitle>Blame, Blame, Blame</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unittitle>Bout the War</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unittitle>The Boy Proust</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unittitle>Breakfast Ballad</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unittitle>Candy Store</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unittitle>Central Park March 21</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unittitle>Chrysler Building: A Song</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unittitle>Circe</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unittitle>Cliché</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unittitle>Combat</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unittitle>Dead Man's Tale</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unittitle>The Limited Privilege of Distraction!</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unittitle>"Epithalamion"</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unittitle>Evangelist on Times Square</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unittitle>For the Marriage of Violet Lang and Bradley Phillips</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unittitle>From an Undiscovered Latin Poem</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unittitle>From an Undiscovered Latin Poem</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unittitle>Pigeons</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unittitle>Garcia Lorca Slept Here</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unittitle>Dead Man's Tale</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unittitle>Heidi</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unittitle>Hello</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unittitle>His Last Memo</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unittitle>History Suite</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unittitle>Husband</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unittitle>In the Garden</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unittitle>From the Jersey Side</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unittitle>Juno's Song</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unittitle>Lady Dancing in the Street</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unittitle>Lady Dancing in the Street</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unittitle>Lecture (Draft)</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unittitle>Exhibition (!)</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unittitle>Night Had a Crack In It</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unittitle>so Should I become?</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unittitle>Mantra</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unittitle>The Marriage: an Historical Play in 16 acts for Helen and Robert Motherwell</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unittitle>Microscopy</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unittitle>Millie</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unittitle>Monsters</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unittitle>Moon in the Morning</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unittitle>Night Letter</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unittitle>N.Y., New York</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unittitle>Of Love and You</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unittitle>Phaethon</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unittitle>Paolo Uccello and St. Francis. after Giovanni Pascoli, "Poet Signature</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unittitle>Paradise Lost</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unittitle>Pickles</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unittitle>Please: A Life</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unittitle>Please: Another Life</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unittitle>Africa</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unittitle>Ballad of the Outskirts</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unittitle>Chicago</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unittitle>Creation Blues</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unittitle>Eyes of <unitdate type="inclusive" normal="1910">1910</unitdate></unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unittitle>The Forge; The Forge of Ambiguity</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unittitle>Garden of <unitdate type="inclusive" normal="1956">1956</unitdate></unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unittitle>George Grosz</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unittitle>The Little Knife</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unittitle>Lorca Harlem</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unittitle>Love in the Thirties</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unittitle>Madonna</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unittitle>Mike</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unittitle>No More Umbrella Fella</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unittitle>Preparing for Winter, or Summer</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unittitle>Pygmalion</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unittitle>Shakti's Song</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unittitle>Soutine</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unittitle>The Ball Player</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unittitle>The Body</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unittitle>Eat</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unittitle>Greetings</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unittitle>My Husbands Don't Understand Me</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unittitle>Packed with Action: An Action Packed Play Without Words [An Action Packed Drama]</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unittitle>Paradise in the form of a mall</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unittitle>Poor Money</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unittitle>Screambags</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unittitle>Thinking of You</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unittitle>Goodbye Note</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unittitle>Cell Phone</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unittitle>The Coo and the Mannie (From a Highlands song)</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unittitle>Da Ponte on Broadway</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unittitle>I Hate Vegetables/That's How Meat Began</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unittitle>Irving</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unittitle>The Market Lady</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unittitle>The Red and the Black</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unittitle>""Teach Him"</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unittitle>Teach Mama"</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unittitle>Waiting for the Next Millennium</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unittitle>Poetry</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unittitle>Poetry a digital and paper folder</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unittitle>Poetry (a poem)</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unittitle>Portraits of Painters <unitdate type="inclusive" normal="1956">1956</unitdate></unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unittitle>Real Household</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unittitle>Satisfactions</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unittitle>Poem: He Tipped the Waiter (Serenata)</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unittitle>Surprise</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unittitle>[Sickel] Seems to me</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unittitle>Situations: Learning</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unittitle>As You Come From the Holy Land</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unittitle>Art Songs, That Is, Songs About Art</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unittitle>Something to be Said</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unittitle>Redcoats and Redskins (a chiefs tepee)</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unittitle>Nobody Else But Me</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unittitle>Cock Robin (adapted from some old thing)</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unittitle>Spin Around the Moon</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unittitle>St. Germain Des Pres</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unittitle>Thanks</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unittitle>The TV Play Within the TV Play</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unittitle>The Ugly Bar, Sc. 4 Song No. 8</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unittitle>Upon Us Winter</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unittitle>Vendor</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unittitle>(untitled, Walt Whitman) I saw Walt Whitman</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unittitle>Raping Europa</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unittitle>West End Avenue (Pogo Stick West End Avenue)</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unittitle>Woman's Intuition</unittitle>
+                </did>
+              </c05>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Published</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">7</container>
+                <unittitle><title render="italic">Different Poems</title> by The Same Author. Rome, <unitdate type="inclusive" normal="1960">1960</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">7</container>
+                <unittitle>In <title render="italic">Beat Coast East.</title> New York, <unitdate type="inclusive" normal="1960">1960</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">8</container>
+                <unittitle>In <title render="italic">Between Worlds</title>, Vol. 1, no. 2. <unitdate type="inclusive" normal="1961">Spring-Summer 1961</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">8</container>
+                <unittitle>In <title render="italic">Encounter</title>, Vol. 5, no. 3. <unitdate type="inclusive" normal="1955-09">September 1955</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">8</container>
+                <unittitle>In <title render="italic">The Hunter College Echo.</title> <unitdate type="inclusive" normal="1951">Spring 1951</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">8</container>
+                <unittitle>In <title render="italic">New Mexico Quarterly</title>, Vol. 33, no. 2. <unitdate type="inclusive" normal="1963">Summer 1963</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">8</container>
+                <unittitle>In PEN Montblanc Literary Gala: the Writer's Choice <unitdate type="inclusive" normal="1990">1990</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">8</container>
+                <unittitle>In <title render="italic">Poetry</title>, Vol. 87, no. 3. <unitdate type="inclusive" normal="1955-12">December 1955</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">8</container>
+                <unittitle>In <title render="italic">Yale/Theatre.</title> <unitdate type="inclusive" normal="1968">Summer 1968</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">8</container>
+                <unittitle>In <title render="italic">Yardbird Reader</title> Vol. 5. <unitdate type="inclusive" normal="1976">1976</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle>Teaching Materials <unitdate type="inclusive" normal="1992">1992</unitdate>, <unitdate type="inclusive" normal="1997">1997</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">8</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">6 folders</extent>
+            </physdesc>
+            <unittitle>Sketches and Notes</unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle><title render="italic">What Did I Do?: the Unauthorized Autobiography</title> by Larry Rivers with Arnold Weinstein</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
+              </physdesc>
+              <unittitle>Biographical Materials</unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Manuscript</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">8</container>
+                <unittitle>Complete</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>Drafts of Various Chapters and Sections <unitdate type="inclusive" normal="1988/1992" certainty="approximate">circa 1988-1992</unitdate></unittitle>
+                <physdesc>
+                  <physfacet>.ZIP file</physfacet>
+                </physdesc>
+                <dao href="http://hdl.handle.net/2027.42/109247" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[download item]</p>
+                  </daodesc>
+                </dao>
+              </did>
+              <accessrestrict>
+                <p>[Download Access Restricted to BHL Reading Room]</p>
+              </accessrestrict>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>Movie Proposal and Related Materials <unitdate type="inclusive" normal="1992" certainty="approximate">circa 1992</unitdate></unittitle>
+              <physdesc>
+                <physfacet>.ZIP file</physfacet>
+              </physdesc>
+              <dao href="http://hdl.handle.net/2027.42/109248" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[download item]</p>
+                </daodesc>
+              </dao>
+            </did>
+            <accessrestrict>
+              <p>[Download Access Restricted to BHL Reading Room]</p>
+            </accessrestrict>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Research Materials</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">8</container>
+                <unittitle>Notes</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>Interview Transcriptions <unitdate type="inclusive" normal="1988/1992" certainty="approximate">circa 1988-1992</unitdate></unittitle>
+                <physdesc>
+                  <physfacet>.ZIP file</physfacet>
+                </physdesc>
+                <dao href="http://hdl.handle.net/2027.42/109249" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[download item]</p>
+                  </daodesc>
+                </dao>
+              </did>
+              <accessrestrict>
+                <p>[Download Access Restricted to BHL Reading Room]</p>
+              </accessrestrict>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Reviews, miscellaneous <unitdate type="inclusive" normal="1989/2002">1989-2002</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>
+                <title render="italic">What Did I Do?: the Unauthorized Autobiography</title>
+              </unittitle>
+            </did>
+            <odd>
+              <p>(New York: 1992)</p>
+            </odd>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle>Miscellaneous Flyers <unitdate type="inclusive">undated</unitdate></unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Audio-Visual Materials</unittitle>
+        </did>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Sound recordings</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">11</container>
+              <unittitle>American Revolution</unittitle>
+            </did>
+            <odd>
+              <p>(music by Tony Greco)</p>
+            </odd>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">11</container>
+                <unittitle>Audiocassette 1: America-More or Less</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>Audiocassette 2: American Revolution</unittitle>
+              </did>
+              <c05 level="item">
+                <did>
+                  <container type="box" label="Box">11</container>
+                  <unittitle>America-More or Less</unittitle>
+                </did>
+              </c05>
+              <c05 level="item">
+                <did>
+                  <container type="box" label="Box">11</container>
+                  <unittitle>San Francisco-76</unittitle>
+                </did>
+              </c05>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">11</container>
+                <unittitle>Audiocassette 3: Lady Liberty and other songs, 1975(?)</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">11</container>
+              <unittitle>Baby Jesus/Kill My Body (audiocassette)</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Barnyard Boogaloo (audiocassette)</unittitle>
+            </did>
+            <odd>
+              <p>(music by William Bolcom)</p>
+            </odd>
+            <c04 level="item">
+              <did>
+                <container type="box" label="Box">11</container>
+                <unittitle>Some You Just Can't Kill</unittitle>
+              </did>
+            </c04>
+            <c04 level="item">
+              <did>
+                <container type="box" label="Box">11</container>
+                <unittitle>Because of Love of You</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Cabaret Songs</unittitle>
+            </did>
+            <odd>
+              <p>(music by William Bolcom)</p>
+            </odd>
+            <odd>
+              <p>(see also Box 12)</p>
+            </odd>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">11</container>
+                <unittitle>Audiocassette 1: Black Max. William Bolcom and Joan Morris, recorded <unitdate type="inclusive" normal="1985-02-14">February 14, 1985</unitdate> at Kerrytown Concert House, Ann Arbor, Mich.</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">11</container>
+                <unittitle>Audiocassette 2: Marlene Bateman (mezzo-soprano), Stephen Sulich (piano)</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">11</container>
+                <unittitle>Audiocassette 3: Raquel Hecker and Jocelyn Swigger, The Looking Glass Studios, New York, NY. <unitdate type="inclusive" normal="1995-04-02">April 2, 1995</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">11</container>
+                <unittitle>Audiocassette 4: Sharon Mabry</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">11</container>
+                <unittitle>Audiocassette 5: Killer Bees</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">11</container>
+                <unittitle>Audiocassette 6: Joan Morris</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">11</container>
+                <unittitle>Audiocassette 7: William Bolcom and Joan Morris</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>Audiocassette 8: Cabaret Songs</unittitle>
+              </did>
+              <c05 level="item">
+                <did>
+                  <unittitle>Netsky 18</unittitle>
+                </did>
+              </c05>
+              <c05 level="item">
+                <did>
+                  <unittitle>Last Lousy Moments</unittitle>
+                </did>
+              </c05>
+              <c05 level="item">
+                <did>
+                  <unittitle>Composers</unittitle>
+                </did>
+              </c05>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">11</container>
+                <unittitle>Audiocassette 9: Cabaret Songs</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">11</container>
+                <unittitle>Audiocassette 10: Cabaret Songs performed by unidentified, recorded <unitdate type="inclusive" normal="1992-01">January 1992</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Casino Paradise</unittitle>
+            </did>
+            <odd>
+              <p>(music by William Bolcom)</p>
+            </odd>
+            <odd>
+              <p>(see also Box 12)</p>
+            </odd>
+            <c04 level="file">
+              <did>
+                <unittitle>Audiocassette 1:</unittitle>
+              </did>
+              <c05 level="item">
+                <did>
+                  <container type="box" label="Box">11</container>
+                  <unittitle>Act I</unittitle>
+                </did>
+                <odd>
+                  <p>(first 20 minutes)</p>
+                </odd>
+              </c05>
+              <c05 level="item">
+                <did>
+                  <container type="box" label="Box">11</container>
+                  <unittitle>Act I, ii-iii. American Music Theater Festival, Philadelphia, Penn.</unittitle>
+                </did>
+              </c05>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>Audiocassette 2</unittitle>
+              </did>
+              <c05 level="item">
+                <did>
+                  <unittitle>Killer Bs</unittitle>
+                </did>
+              </c05>
+              <c05 level="item">
+                <did>
+                  <unittitle>Saturday</unittitle>
+                </did>
+              </c05>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">11</container>
+                <unittitle>Audiocassette 3: Peterson (WKCR)</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">11</container>
+                <unittitle>Audiocassette 4: Ballroom <unitdate type="inclusive" normal="1992-12-13">December 13, 1992</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">11</container>
+                <unittitle>Audiocassette 5: Casino Paradise</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>Audiocassette 6: William Bolcom and Joan Morris <unitdate type="inclusive" normal="1992-06">June 1992</unitdate></unittitle>
+              </did>
+              <c05 level="item">
+                <did>
+                  <unittitle>Nice Things</unittitle>
+                </did>
+              </c05>
+              <c05 level="item">
+                <did>
+                  <unittitle>Till End</unittitle>
+                </did>
+              </c05>
+              <c05 level="item">
+                <did>
+                  <unittitle>Ballroom</unittitle>
+                </did>
+              </c05>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">11</container>
+                <unittitle>Audiocassette 7: Casino Paradise</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>Audiocassette 8</unittitle>
+              </did>
+              <c05 level="item">
+                <did>
+                  <unittitle>Can't Set You Free</unittitle>
+                </did>
+                <odd>
+                  <p>(Tony Greco)</p>
+                </odd>
+              </c05>
+              <c05 level="item">
+                <did>
+                  <unittitle>Jesus</unittitle>
+                </did>
+              </c05>
+              <c05 level="item">
+                <did>
+                  <unittitle>Night</unittitle>
+                </did>
+              </c05>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">11</container>
+                <unittitle>Audiocassette 9: Commissioned by American Music Theater Festival <unitdate type="inclusive" normal="1988">1988</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Dynamite Tonite</unittitle>
+            </did>
+            <odd>
+              <p>(music by William Bolcom)</p>
+            </odd>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">11</container>
+                <unittitle>Audiocassette 1: Yale <unitdate type="inclusive" normal="1966">1966</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">11</container>
+                <unittitle>Audiocassette 2: Dynamite-I</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">11</container>
+                <unittitle>Audiocassette 3: Act I Parts 1 and 2. Yale <unitdate type="inclusive" normal="1966">1966</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">11</container>
+                <unittitle>Audiocassette 4: Act II</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">11</container>
+                <unittitle>Audiocassette 5: Yale</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">11</container>
+                <unittitle>Audiocassette 6: Act I Parts 1 and 2</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Final Ingredient</unittitle>
+            </did>
+            <odd>
+              <p>(music by David Amram)</p>
+            </odd>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">11</container>
+                <unittitle>Audiocassette 1: MT</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">11</container>
+                <unittitle>Audiocassette 2: David Amram/Alfred Leslie</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Fortuna</unittitle>
+            </did>
+            <odd>
+              <p>(music by Frances Thorne)</p>
+            </odd>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">11</container>
+                <unittitle>Audiocassette 1: Fortuna</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">11</container>
+                <unittitle>Audiocassette 2: "Money Matters" Paul Sperry, tenor; Musical Elements Bob Beaser, conductor</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">11</container>
+                <unittitle>Audiocassette 3: Circus music <unitdate type="inclusive" normal="1962">1962</unitdate> and other songs</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>General Opera</unittitle>
+            </did>
+            <odd>
+              <p>(music by William Russo)</p>
+            </odd>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">11</container>
+                <unittitle>Audiocassette 1: Chicago <unitdate type="inclusive" normal="1977">1977</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">11</container>
+                <unittitle>Audiocassette 2: Street Opera</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">11</container>
+                <unittitle>Audiocassette 3: Street Opera, Chicago <unitdate type="inclusive" normal="1976">1976</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Lorca</unittitle>
+            </did>
+            <odd>
+              <p>(music by Tony Greco)</p>
+            </odd>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">11</container>
+                <unittitle>Audiocassette 1: Lorca's Gypsy New York</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">11</container>
+                <unittitle>Audiocassette 2: Lorca/Greco</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Mahagonny</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">11</container>
+                <unittitle>Audiocassette 1: Mahagonny Songspiel</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">11</container>
+                <unittitle>Audiocassette 2: MT</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">11</container>
+                <unittitle>Audiocassette 3: Mahagonny</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">11</container>
+                <unittitle>Audiocassette 4: Terrible Food; Mahagonny</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">11</container>
+                <unittitle>Audiocassette 5: Mahagonny #1</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">11</container>
+                <unittitle>Audiocassette 6: Mahagonny #2</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">11</container>
+                <unittitle>Audiocassette 7: Mahagonny I</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">11</container>
+                <unittitle>Audiocassette 8: Mahagonny II</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">11</container>
+                <unittitle>Audiocassette 9: Mahagonny and Little Mahagonny</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">11</container>
+                <unittitle>Audiocassette 10: Lost in [the] Stars</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">11</container>
+                <unittitle>Audiocassette 11: Mahagonny at Met; Carmen Jones</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">11</container>
+                <unittitle>Audiocassette 12: Mahagonny-A. W.</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">11</container>
+                <unittitle>Audiocassette 13: MT</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>American Classics: William Bolcom Songs, Carole Darley (soprano) and William Bolcom (piano). Recorded <unitdate type="inclusive" normal="2004-12-28/2004-12-31">December 28-31, 2004</unitdate> at Potton Hall, Suffolk, England (CD-ROM)</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Cabaret Songs</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">12</container>
+                <unittitle>CD-ROM 1: 29 Cabaret Songs. Joan Morris (soprano) and William Bolcom (piano). Recorded live <unitdate type="inclusive" normal="2003-09-21">September 21, 2003</unitdate> at Flea Theatre NY Tribeca. Editproof for Arnold Weinstein, <unitdate type="inclusive" normal="2003-10-17">October 17, 2003</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">12</container>
+                <unittitle>CD-ROM 2: Blue: the Complete Cabaret Songs of William Bolcom and Arnold Weinstein. Michelle Murray (soprano) and David Murray (piano). Recorded live <unitdate type="inclusive" normal="2001-11-05">November 5, 2001</unitdate> at the Arizona State University Organ Hall</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">12</container>
+                <unittitle>CD-ROM 3: Cabaret Songs.</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">12</container>
+                <unittitle>CD-ROM 4: Cabaret Songs Complete. Joan Morris (mezzo-soprano), William Bolcom (piano). Recorded live <unitdate type="inclusive" normal="2003-09-21">September 21, 2003</unitdate> at the Flea Theater, New York City</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">12</container>
+                <unittitle>CD-ROM 5: Masterpieces of Cabaret: Twelve Cabaret Songs (1977-83). Jody Karin Applebaum (soprano) and Marc-Andre Hamelin (piano). Copyright <unitdate type="inclusive" normal="1992">1992</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">12</container>
+                <unittitle>CD-ROM 6: Music of William Bolcom: Let Evening Comel Briefly It Enters; Cabaret Songs, Books 3 and 4 for Centaur Records. Benita Valente (soprano), Cynthia Raim (piano), Joan Morris (mezzo-soprano), William Bolcom (piano), with Michael Tree (viola). Recorded <unitdate type="inclusive" normal="1998-12-18/1998-12-20">December 18-20, 1998</unitdate> at Lefrak Hall, Queens College, Flushing, New York</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">12</container>
+                <unittitle>CD-ROM 7: William Bolcom: Let Evening Come; Briefly It Enters; Cabaret Songs, Volumes 3 and 4. Benita Valente (soprano), Joan Morris (mezzo-soprano), William Bolcom (piano), Cynthia Raim (piano), Michael Tree (viola). Recorded <unitdate type="inclusive" normal="2001-12-18/2001-12-20" certainty="approximate">December 18-20, 2001</unitdate> at Lefrak Concert Hall, Queens College, Flushing, New York</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Casino Paradise</unittitle>
+            </did>
+            <odd>
+              <p>(music by William Bolcom)</p>
+            </odd>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">12</container>
+                <unittitle>CD-ROM 1: American Music Theater Festival Presents Casino Paradise. Recorded at Sigma Sound Studios in Philadelphia, Penn. April 16, 1990.</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">12</container>
+                <unittitle>CD-ROMs 2-3: Casino Paradise: a studio production by The University of Michigan Musical Theatre Department. <unitdate type="inclusive" normal="2000-02-17/2000-02-20">February 17-20, 2000</unitdate> Ann Arbor, Mich.</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>McTeague</unittitle>
+            </did>
+            <odd>
+              <p>(music by William Bolcom)</p>
+            </odd>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">12</container>
+                <unittitle>Audiocassette 1: McTeague. Original sound recording, Lyric Opera of Chicago, 1992. Commentary by Alfred Glasser.</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">12</container>
+                <unittitle>Audiocassette 2: MT</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">12</container>
+                <unittitle>Audiocassette 3: MT</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">12</container>
+                <unittitle>Audiocassette 4 : McTeague</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">12</container>
+                <unittitle>Audiocassette 5: Act I</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">12</container>
+                <unittitle>Audiocassette 6: Act II</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">12</container>
+                <unittitle>Audiocassette 7: Act II</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">12</container>
+                <unittitle>Audiocassette 8: Act III</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">12</container>
+                <unittitle>Audiocassette 9: Act II</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">12</container>
+                <unittitle>Audiocassette 10: Act II</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Metamorphoses</unittitle>
+            </did>
+            <odd>
+              <p>(music by Tony Greco)</p>
+            </odd>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">12</container>
+                <unittitle>Audiocassette 1: Metamorphoses-full production <unitdate type="inclusive" normal="1973">1973</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">12</container>
+                <unittitle>Audiocassette 2: A Jane L., Ltd Presentation</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">12</container>
+                <unittitle>Audiocassette 3: Set You Free</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">12</container>
+                <unittitle>Audiocassette 4: Finale</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">12</container>
+                <unittitle>Audiocassette 5: Parts 1 and 2</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">12</container>
+                <unittitle>Audiocassette 6: Finale; Ovid; Set Me Free</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">12</container>
+                <unittitle>Audiocassette 7:Ovid; Million; You and Me; Ugly</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Monkey (Story Theatre)</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">12</container>
+                <unittitle>Audiocassette 1: Monkey</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">12</container>
+                <unittitle>Audiocassette 2: <unitdate type="inclusive" normal="2002-11-08">November 8, 2002</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>CD-ROM 1: Monkey</unittitle>
+              </did>
+              <c05 level="item">
+                <did>
+                  <unittitle>Alone</unittitle>
+                </did>
+              </c05>
+              <c05 level="item">
+                <did>
+                  <unittitle>Seven Years</unittitle>
+                </did>
+              </c05>
+              <c05 level="item">
+                <did>
+                  <unittitle>Earth</unittitle>
+                </did>
+              </c05>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">12</container>
+                <unittitle>CD-ROM 2: Monkey Story</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>Monkey King (CD-ROM)</unittitle>
+            </did>
+            <odd>
+              <p>(music by Bright Sheng)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>Old Addresses: in Memory of Kenneth Koch (CD-ROM) Stephen Salters (baritone) and Michel Zobel (piano)</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Party</unittitle>
+            </did>
+            <odd>
+              <p>(music by Laurence Rosenthal)</p>
+            </odd>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">12</container>
+                <unittitle>Audiocassette 1: My Wife</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">12</container>
+                <unittitle>Audiocassette 2: Bolcom and Morris</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">12</container>
+                <unittitle>Audiocassette 3</unittitle>
+              </did>
+              <c05 level="item">
+                <did>
+                  <unittitle>Pirge</unittitle>
+                </did>
+              </c05>
+              <c05 level="item">
+                <did>
+                  <unittitle>Party Prayer</unittitle>
+                </did>
+              </c05>
+              <c05 level="item">
+                <did>
+                  <unittitle>Catalogue</unittitle>
+                </did>
+              </c05>
+              <c05 level="item">
+                <did>
+                  <unittitle>Don't make Em Big Enuf</unittitle>
+                </did>
+              </c05>
+              <c05 level="item">
+                <did>
+                  <unittitle>Suddenly</unittitle>
+                </did>
+              </c05>
+              <c05 level="item">
+                <did>
+                  <unittitle>No Time</unittitle>
+                </did>
+              </c05>
+              <c05 level="item">
+                <did>
+                  <unittitle>He and She</unittitle>
+                </did>
+              </c05>
+              <c05 level="item">
+                <did>
+                  <unittitle>I Wasn't Invited</unittitle>
+                </did>
+              </c05>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>People are the River (audiocassette)</unittitle>
+            </did>
+            <odd>
+              <p>(music by Tony Greco)</p>
+            </odd>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">12</container>
+                <unittitle>San Francisco <unitdate type="inclusive" normal="1976">1976</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="item">
+              <did>
+                <container type="box" label="Box">12</container>
+                <unittitle>Los Angeles <unitdate type="inclusive" normal="1977">1977</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Play of Consciousness</unittitle>
+            </did>
+            <odd>
+              <p>(music by various composers)</p>
+            </odd>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">12</container>
+                <unittitle>Audiocassette 1: Play of Consciousness</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">12</container>
+                <unittitle>Audiocassette 2: Jump Up; Play of Consciousness</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">12</container>
+                <unittitle>Audiocassette 3: Evil; Marching Band</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>Rigoletto (audiocassette): Parts 1 and 2</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Shlemiel the First</unittitle>
+            </did>
+            <odd>
+              <p>(music by Hankus Netsky and Zalman Mlatek)</p>
+            </odd>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">12</container>
+                <unittitle>Audiocassette 1: Folk Songs, Yiddish</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">12</container>
+                <unittitle>Audiocassette 2: <unitdate type="inclusive" normal="1995-03-15">March 15, 1995</unitdate></unittitle>
+              </did>
+              <c05 level="item">
+                <did>
+                  <unittitle>Cradle</unittitle>
+                </did>
+              </c05>
+              <c05 level="item">
+                <did>
+                  <unittitle>Mistake</unittitle>
+                </did>
+              </c05>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">12</container>
+                <unittitle>Audiocassette 3</unittitle>
+              </did>
+              <c05 level="item">
+                <did>
+                  <unittitle>Papa</unittitle>
+                </did>
+              </c05>
+              <c05 level="item">
+                <did>
+                  <unittitle>Monk's</unittitle>
+                </did>
+              </c05>
+              <c05 level="item">
+                <did>
+                  <unittitle>Lester</unittitle>
+                </did>
+              </c05>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">12</container>
+                <unittitle>Audiocassette 4</unittitle>
+              </did>
+              <c05 level="item">
+                <did>
+                  <unittitle>Rascal Music</unittitle>
+                </did>
+              </c05>
+              <c05 level="item">
+                <did>
+                  <unittitle>World Beat</unittitle>
+                </did>
+              </c05>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">12</container>
+                <unittitle>Audiocassette 5: Rascal 2</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">12</container>
+                <unittitle>Audiocassette 6: Oy Vay Duet</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">12</container>
+                <unittitle>Audiocassette 7: Oy Vay Love Duet</unittitle>
+              </did>
+              <c05 level="item">
+                <did>
+                  <unittitle>Rascal</unittitle>
+                </did>
+              </c05>
+              <c05 level="item">
+                <did>
+                  <unittitle>Now Shlemiel</unittitle>
+                </did>
+              </c05>
+              <c05 level="item">
+                <did>
+                  <unittitle>Perlman</unittitle>
+                </did>
+              </c05>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">12</container>
+                <unittitle>Audiocassette 8: Demo</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">12</container>
+                <unittitle>Audiocassette 9: Hank's Shlemiel Song</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">12</container>
+                <unittitle>Audiocassette 10: Shlemiel Songs</unittitle>
+              </did>
+              <c05 level="item">
+                <did>
+                  <unittitle>Shlemiel Songs <unitdate type="inclusive" normal="1993-12">December 1993</unitdate></unittitle>
+                </did>
+              </c05>
+              <c05 level="item">
+                <did>
+                  <unittitle>Fortuna</unittitle>
+                </did>
+              </c05>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">12</container>
+                <unittitle>Audiocassette 11: Title Song</unittitle>
+              </did>
+              <c05 level="item">
+                <did>
+                  <unittitle>New Shlemiel Songs <unitdate type="inclusive" normal="1995-12">December 1995</unitdate></unittitle>
+                </did>
+              </c05>
+              <c05 level="item">
+                <did>
+                  <unittitle>Shlemiel the First, Quartet</unittitle>
+                </did>
+              </c05>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">12</container>
+                <unittitle>Audiocassette 12: Additions</unittitle>
+              </did>
+              <c05 level="item">
+                <did>
+                  <unittitle>Hanks's Chelm</unittitle>
+                </did>
+              </c05>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>Songs of Arnold Weinstein and Tony Greco (CD-ROM) <unitdate type="inclusive" normal="2004">2004</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>Tupelo ICD-ROM)</unittitle>
+            </did>
+            <odd>
+              <p>(music by Anthony Davis)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>View from the Bridge</unittitle>
+            </did>
+            <odd>
+              <p>(music by William Bolcom)</p>
+            </odd>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">12</container>
+                <unittitle>Audiocassette 1: View from the Bridge</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">12</container>
+                <unittitle>Audiocassette 2: View from the Bridge</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">12</container>
+                <unittitle>Audiocassette 3: Arnold on NPR about "View"</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">12</container>
+                <unittitle>CD-ROMs 1-3: Metropolitan Opera. December 12, 2002. Dennis Russell Davies (conductor)</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">12</container>
+                <unittitle>CD-ROMs 4-5: World premiere recording <unitdate type="inclusive" normal="1999-10/1999-11">October-November 1999</unitdate>. Lyric Opera of Chicago</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>W. C. (audiocassette)</unittitle>
+            </did>
+            <odd>
+              <p>(music by Laurence Rosenthal): Al Carmines</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Wind in the Willows</unittitle>
+            </did>
+            <odd>
+              <p>(music by William Bolcom)</p>
+            </odd>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">12</container>
+                <unittitle>Audiocassette 1: Schneider-Weill</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">12</container>
+                <unittitle>Audiocassette 2: Wind in the Willows</unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Video Recordings (VHS)</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">13</container>
+              <unittitle>Blue Margaritas <unitdate type="inclusive" normal="1989">1989</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Bolcom and Weinstein interviews <unitdate type="inclusive" normal="1997-10-27">October 27, 1997</unitdate></unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">13</container>
+                <unittitle>Tape 1: B[o]lcom/Weinstein interview. Piano with Morris "View from the Bridge"</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">13</container>
+                <unittitle>Tape 2: Work/Interviews</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">13</container>
+                <unittitle>Tape 3: Interviews</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">13</container>
+              <unittitle>Casino Paradise, University of Michigan <unitdate type="inclusive" normal="2000-02-19">February 19, 2000</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>McTeague</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">13</container>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">2 videotapes</extent>
+                </physdesc>
+                <unittitle>Directed by Robert Altman</unittitle>
+                <physdesc>
+                  </physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">13</container>
+                <unittitle>Real McTeague</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">13</container>
+                <unittitle>University of Indiana <unitdate type="inclusive" normal="1996-02-17">February 17, 1996</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">13</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">3 videotapes</extent>
+              </physdesc>
+              <unittitle>Play of Consciousness</unittitle>
+              <physdesc>
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">13</container>
+              <unittitle>William Bolcom &amp; Joan Morris</unittitle>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+    </dsc>
+    <descgrp type="add">
+      <relatedmaterial>
+        <head>Related Materials</head>
+        <p>The <title render="italic" linktype="simple" href="http://quod.lib.umich.edu/b/bhlead/umich-bhl-0074" show="replace" actuate="onrequest">William Bolcom and Joan Morris papers, 1960-2010</title> at the Bentley Historical Library (call number 0074 Aa 2 UAl). Collection includes programs, itineraries, newspaper articles and reviews of performances, as well as contracts; original scores to Bolcom's compositions, including <title render="italic">McTeague</title>, <title render="italic">Casino Paradise</title>, and <title render="italic">A View from the Bridge</title>; and topical files relating to awards, competitions, and other activities and interests; also CDs, audio-cassettes, and videotapes of performances.</p>
+      </relatedmaterial>
+    </descgrp>
+  </archdesc>
+</ead>

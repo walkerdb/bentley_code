@@ -1,0 +1,1012 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead.dtd">
+<ead>
+  <eadheader audience="internal" langencoding="iso639-2b" repositoryencoding="iso15511" dateencoding="iso8601" relatedencoding="Dublin Core">
+    <eadid countrycode="us" mainagencycode="MiU-H" publicid="us//::miu-h//TXT us::miu-h::munionp.xml//EN" encodinganalog="identifier">umich-bhl-0515</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="title">Finding Aid for Michigan Union Publications, 1905-ongoing.</titleproper>
+        <author encodinganalog="creator">Collection processed and finding aid created by Marilyn McNitt, 1993, Polly Reynolds, November 2006</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="publisher">Bentley Historical Library, University of Michigan</publisher>
+        <date encodinganalog="date">2006</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created by Greg Kiney <date>20060315</date></creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date>20150707</date>
+        <item>Corrected call number.</item>
+      </change>
+      <change>
+        <date>20060315</date>
+        <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <frontmatter>
+    <titlepage>
+      <publisher>University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
+      <titleproper>Finding aid for <lb/>Michigan Union Publications, 1905-ongoing</titleproper>
+      <author>Finding aid created by <lb/>Marilyn McNitt, 1993, updated 2005 <lb/>Polly Reynolds, November 2006</author>
+    </titlepage>
+  </frontmatter>
+  <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
+    <did>
+      <origination>
+        <corpname source="lcnaf" encodinganalog="110">Michigan Union.</corpname>
+      </origination>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">2.5 linear feet</extent>
+      </physdesc>
+      <unittitle encodinganalog="245">Michigan Union Publications <unitdate type="inclusive" encodinganalog="245$f" normal="1905/9999">1905-[ongoing]</unitdate>, <unitdate type="inclusive" encodinganalog="245$g" normal="1908/1990">1908-1990</unitdate></unittitle>
+      <unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">0515 Bimu F15 2</unitid>
+      <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
+      <abstract>Publications of the Michigan Union includes miscellaneous annual reports, brochures, constitutions, directories, histories, manuals, newsletters, organizational charts, programs, regulations, reprints, schedules of the Michigan Union; as well as musical scores and programs from the Michigan Union Opera, Mimes, and Musket productions.</abstract>
+      <repository>
+        <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea>, University of Michigan</corpname>
+        <extptr href="bhladd" show="embed" actuate="onload"/>
+      </repository>
+    </did>
+    <descgrp type="admin">
+      <acqinfo encodinganalog="541">
+        <p>The publications are received periodically from the unit (Donor # <num type="donor" encodinganalog="541$e">2024</num>).</p>
+      </acqinfo>
+      <accessrestrict encodinganalog="506">
+        <p>The publications are open to research.</p>
+        <p>
+          <extptr href="uarpacc" show="embed" actuate="onload"/>
+        </p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+        <p>Copyright is held by the Regents of the University of Michigan.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+        <p>[item], folder, box,
+Michigan Union Publications, Bentley Historical Library, University of Michigan</p>
+      </prefercite>
+    </descgrp>
+    <bioghist encodinganalog="545">
+      <p>See the history in the finding aid for Michigan Union records.</p>
+    </bioghist>
+    <scopecontent encodinganalog="520">
+      <p>Publications of the Michigan Union includes miscellaneous annual reports, brochures, constitutions, directories, histories, manuals, newsletters, organizational charts, programs, regulations, reprints, schedules of the Michigan Union; as well as musical scores and programs from the Michigan Union Opera, Mimes, and Musket productions. The Publications series is divided into two subseries: Unit Publications and Sub-Unit Publications</p>
+    </scopecontent>
+    <controlaccess>
+      <p>
+        <extptr href="accnote" show="embed" actuate="onload"/>
+      </p>
+      <controlaccess>
+        <head>Subjects:</head>
+        <corpname source="lcnaf" encodinganalog="610">Michigan Union.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Michigan Union Opera.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Mimes (University of Michigan)</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Musket (University of Michigan)</corpname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Students--Social life and customs.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Choral organizations.</corpname>
+        <title source="aacr2" encodinganalog="740">M handbook.</title>
+        <title source="aacr2" encodinganalog="740">Michiganetiquette.</title>
+      </controlaccess>
+      <controlaccess>
+        <head>Contributors:</head>
+        <subject source="lcsh" encodinganalog="650">College musicals--University of Michigan.</subject>
+        <corpname source="lcnaf" encodinganalog="710">Michigan Union Opera.</corpname>
+        <corpname source="lcnaf" encodinganalog="710">Mimes (University of Michigan)</corpname>
+        <corpname source="lcnaf" encodinganalog="710">Musket (University of Michigan)</corpname>
+      </controlaccess>
+      <controlaccess>
+        <head>Genre Terms:</head>
+        <genreform source="aat" encodinganalog="655">Annual reports.</genreform>
+        <genreform source="aat" encodinganalog="655">Pamphlets.</genreform>
+        <genreform source="aat" encodinganalog="655">Constitutions.</genreform>
+        <genreform source="aat" encodinganalog="655">Directories.</genreform>
+        <genreform source="aat" encodinganalog="655">Histories.</genreform>
+        <genreform source="aat" encodinganalog="655">Manuals.</genreform>
+        <genreform source="aat" encodinganalog="655">Newsletters.</genreform>
+        <genreform source="aat" encodinganalog="655">Organizational charts.</genreform>
+        <genreform source="aat" encodinganalog="655">Programs.</genreform>
+        <genreform source="aat" encodinganalog="655">Regulations.</genreform>
+        <genreform source="aat" encodinganalog="655">Reprints.</genreform>
+        <genreform source="aat" encodinganalog="655">Schedules.</genreform>
+        <genreform source="aat" encodinganalog="655">Scores.</genreform>
+      </controlaccess>
+    </controlaccess>
+    <dsc type="combined">
+      <c01 level="series">
+        <did>
+          <unittitle>Printed Materials</unittitle>
+        </did>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Unit Publications</unittitle>
+          </did>
+          <scopecontent>
+            <p>The Unit Publications subseries includes newsletters, directories, and manuals relating to the building of and the daily activities of the Michigan Union.</p>
+          </scopecontent>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Annual Reports <unitdate type="inclusive" normal="1912/1913">1912-1913</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Brochures</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <unittitle>General <unitdate type="inclusive" normal="1917/1992">1917-1992</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>
+                  <title render="italic">A Brief Story of the Michigan Union</title>
+                </unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">1</container>
+                  <unittitle>
+                    <unitdate type="inclusive" normal="1915">1915</unitdate>
+                  </unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">1</container>
+                  <unittitle>
+                    <unitdate type="inclusive" normal="1921">1921</unitdate>
+                  </unittitle>
+                </did>
+              </c05>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <unittitle><title render="italic">The Michigan Union Building</title>, <unitdate type="inclusive" normal="1921" certainty="approximate">circa 1921</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <unittitle><title render="italic">The Michigan Union for Michigan Men</title>, <unitdate type="inclusive">undated</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <unittitle><title render="italic">The Plan and Purpose of the Michigan Union</title>, <unitdate type="inclusive" normal="1905" certainty="approximate">circa 1905</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <unittitle><title render="italic">University of Michigan Union</title>, <unitdate type="inclusive" normal="1904">1904</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <unittitle><title render="italic">University of Michigan Union: for University Men Everywhere</title>, <unitdate type="inclusive" normal="1915" certainty="approximate">circa 1915</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Constitutions</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1909/1920">1909-1920</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Directories</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <unittitle><title render="italic">Subscribers to the Building Fund of the University of Michigan Union</title>, <unitdate type="inclusive" normal="1916">1916</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <unittitle><title render="italic">Unfinished Business--The Michigan Union Building: List of Alumni Who Have Subscribed <emph render="underline">Nothing</emph></title>, <unitdate type="inclusive" normal="1919">1919</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <unittitle><title render="italic">Unfinished Business--The Michigan Union Building: List of Subscribing Alumni by Classes</title>, <unitdate type="inclusive" normal="1919">1919</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Histories</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <unittitle><title render="italic">The Michigan Union: Its Evolution</title>, [1979]</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <unittitle><title render="italic">Story Without End: The History of the University of Michigan Union, 1903-1954</title>, <unitdate type="inclusive" normal="1954">1954</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Manuals</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <unittitle>
+                  <title render="italic">M Handbook</title>
+                </unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">1</container>
+                  <unittitle>
+                    <unitdate type="inclusive" normal="1947/1954">1947-1954</unitdate>
+                  </unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">1</container>
+                  <unittitle>
+                    <unitdate type="inclusive" normal="1956/1959">1956-1959</unitdate>
+                  </unittitle>
+                </did>
+              </c05>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>
+                  <title render="italic">Michiganetiquette</title>
+                </unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">1</container>
+                  <unittitle>
+                    <unitdate type="inclusive" normal="1943/1944" certainty="approximate">circa 1943-1944</unitdate>
+                  </unittitle>
+                </did>
+              </c05>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Newsletters</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <unittitle>
+                  <title render="italic">Campus News</title>
+                </unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">1</container>
+                  <unittitle>
+                    <unitdate type="inclusive" normal="1944">1944</unitdate>
+                  </unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">1</container>
+                  <unittitle><unitdate type="inclusive" normal="1945">1945</unitdate> v.2</unittitle>
+                </did>
+              </c05>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>
+                  <title render="italic">Continuum</title>
+                </unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">1</container>
+                  <unittitle>
+                    <unitdate type="inclusive" normal="1985/1988">1985-1988</unitdate>
+                  </unittitle>
+                </did>
+              </c05>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <unittitle><title render="italic">Michigan Union Bulletin: Issued Only to Chairmen and Members of Michigan Union Committees</title>, <unitdate type="inclusive" normal="1915">1915</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>
+                  <title render="italic">Michigan Union Reports</title>
+                </unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">1</container>
+                  <unittitle>
+                    <unitdate type="inclusive" normal="1960/1963">1960-1963</unitdate>
+                  </unittitle>
+                </did>
+              </c05>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>
+                  <title render="italic">Michigan Union Update</title>
+                </unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">1</container>
+                  <unittitle>
+                    <unitdate type="inclusive" normal="1981">1981</unitdate>
+                  </unittitle>
+                </did>
+              </c05>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>
+                  <title render="italic">Panorama</title>
+                </unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">1</container>
+                  <unittitle>
+                    <unitdate type="inclusive" normal="1945">1945</unitdate>
+                  </unittitle>
+                </did>
+              </c05>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>
+                  <title render="italic">The Union Bulletin</title>
+                </unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">1</container>
+                  <unittitle>
+                    <unitdate type="inclusive" normal="1933/1936">1933-1936</unitdate>
+                  </unittitle>
+                </did>
+              </c05>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>
+                  <title render="italic">The Union Daily Bulletin</title>
+                </unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <unittitle>
+                    <unitdate type="inclusive" normal="1933">1933</unitdate>
+                  </unittitle>
+                </did>
+                <c06 level="file">
+                  <did>
+                    <container type="box" label="Box">1</container>
+                    <unittitle>March</unittitle>
+                  </did>
+                </c06>
+                <c06 level="file">
+                  <did>
+                    <container type="box" label="Box">1</container>
+                    <unittitle>April</unittitle>
+                  </did>
+                </c06>
+                <c06 level="file">
+                  <did>
+                    <container type="box" label="Box">1</container>
+                    <unittitle>May</unittitle>
+                  </did>
+                </c06>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unittitle>
+                    <unitdate type="inclusive" normal="1935">1935</unitdate>
+                  </unittitle>
+                </did>
+                <c06 level="file">
+                  <did>
+                    <container type="box" label="Box">1</container>
+                    <unittitle>November</unittitle>
+                  </did>
+                </c06>
+                <c06 level="file">
+                  <did>
+                    <container type="box" label="Box">1</container>
+                    <unittitle>December</unittitle>
+                  </did>
+                </c06>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unittitle>
+                    <unitdate type="inclusive" normal="1936">1936</unitdate>
+                  </unittitle>
+                </did>
+                <c06 level="file">
+                  <did>
+                    <container type="box" label="Box">1</container>
+                    <unittitle>March</unittitle>
+                  </did>
+                </c06>
+                <c06 level="file">
+                  <did>
+                    <container type="box" label="Box">1</container>
+                    <unittitle>April</unittitle>
+                  </did>
+                </c06>
+              </c05>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>
+                  <title render="italic">Union Notes</title>
+                </unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">1</container>
+                  <unittitle><unitdate type="inclusive" normal="1987/1988">1987-1988</unitdate> v.1</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">1</container>
+                  <unittitle><unitdate type="inclusive" normal="1988/1989">1988-1989</unitdate> v.2</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">1</container>
+                  <unittitle><unitdate type="inclusive" normal="1989/1990">1989-1990</unitdate> v.3</unittitle>
+                </did>
+              </c05>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>
+                  <title render="italic">The Union Review</title>
+                </unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">1</container>
+                  <unittitle><unitdate type="inclusive" normal="1934/1935">1934-1935</unitdate> v.4</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">1</container>
+                  <unittitle><unitdate type="inclusive" normal="1935/1936">1935-1936</unitdate> v.5</unittitle>
+                </did>
+              </c05>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Organizational Charts</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <unittitle><title render="italic">Organization Plan: University of Michigan Union</title>, <unitdate type="inclusive" normal="1917/1918">1917-1918</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Programs <unitdate type="inclusive" normal="1933">1933</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Questionnaires</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <unittitle><title render="italic">Michigan Union-North Campus Commons Organizational Assessment</title>, <unitdate type="inclusive">undated</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Regulations</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <unittitle><title render="italic">General Information Booklet</title>, <unitdate type="inclusive" normal="1931">1931</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <unittitle><title render="italic">Handbook of Rules and Regulations</title>, <unitdate type="inclusive" normal="1942">1942</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Reprints</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <unittitle><title render="italic">University of Michigan Union, Ann Arbor</title>, <unitdate type="inclusive" normal="1921">1921</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Schedules</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <unittitle>Class Schedule <unitdate type="inclusive" normal="1985">1985</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Sub-Unit Publications</unittitle>
+          </did>
+          <scopecontent>
+            <p>The Sub-Unit Publications subseries includes printed material from sub-units within the Michigan Union, such as MUSKET (Michigan Union Show, Ko-Eds Too), Project Community, and the Ticket Office. In addition, there is a complete collection of musical scores and programs from the productions of MUSKET's predecessor, the Michigan Union Opera, or MIMES.</p>
+          </scopecontent>
+          <c03 level="file">
+            <did>
+              <unittitle>Michigan Union Opera (Mimes)</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <unittitle>Musical Scores</unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">1</container>
+                  <unittitle><title render="italic">Michigenda</title>, <unitdate type="inclusive" normal="1908">1908</unitdate></unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">1</container>
+                  <unittitle><title render="italic">Culture</title>, <unitdate type="inclusive" normal="1908">1908</unitdate></unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">1</container>
+                  <unittitle><title render="italic">Koanzaland</title>, <unitdate type="inclusive" normal="1909">1909</unitdate></unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">1</container>
+                  <unittitle><title render="italic">The Crimson Chest</title>, <unitdate type="inclusive" normal="1910">1910</unitdate></unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">2</container>
+                  <unittitle><title render="italic">The Awakened Ramses</title>, <unitdate type="inclusive" normal="1911">1911</unitdate> (includes Script)</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">2</container>
+                  <unittitle><title render="italic">Contrarie Mary</title>, <unitdate type="inclusive" normal="1913">1913</unitdate></unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">2</container>
+                  <unittitle><title render="italic">A Model Daughter</title>, <unitdate type="inclusive" normal="1914">1914</unitdate></unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">2</container>
+                  <unittitle><title render="italic">All That Glitters</title>, <unitdate type="inclusive" normal="1915">1915</unitdate></unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">2</container>
+                  <unittitle><title render="italic">Tres Rouge</title>, <unitdate type="inclusive" normal="1916">1916</unitdate></unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">2</container>
+                  <unittitle><title render="italic">Fool's Paradise</title>, <unitdate type="inclusive" normal="1917">1917</unitdate></unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">2</container>
+                  <unittitle><title render="italic">Let's Go Over Here Over There</title>, <unitdate type="inclusive" normal="1918">1918</unitdate></unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">2</container>
+                  <unittitle><title render="italic">Come on, Dad</title>, <unitdate type="inclusive" normal="1919">1919</unitdate></unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">2</container>
+                  <unittitle><title render="italic">George Did It</title>, <unitdate type="inclusive" normal="1920">1920</unitdate></unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">2</container>
+                  <unittitle><title render="italic">Top O' Th' Mornin'</title>, <unitdate type="inclusive" normal="1921">1921</unitdate></unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">2</container>
+                  <unittitle><title render="italic">Make It for Two</title>, <unitdate type="inclusive" normal="1921">1921</unitdate></unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">2</container>
+                  <unittitle><title render="italic">In and Out</title>, <unitdate type="inclusive" normal="1922">1922</unitdate></unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">2</container>
+                  <unittitle><title render="italic">Cotton Stockings</title>, <unitdate type="inclusive" normal="1923">1923</unitdate></unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">2</container>
+                  <unittitle><title render="italic">Tickled to Death</title>, <unitdate type="inclusive" normal="1925">1925</unitdate></unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">2</container>
+                  <unittitle><title render="italic">Tambourine</title>, <unitdate type="inclusive" normal="1925">1925</unitdate></unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">2</container>
+                  <unittitle><title render="italic">Front Page Stuff</title>, <unitdate type="inclusive" normal="1926">1926</unitdate></unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">2</container>
+                  <unittitle><title render="italic">The Same to You</title>, <unitdate type="inclusive" normal="1927">1927</unitdate></unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">2</container>
+                  <unittitle><title render="italic">Lace it Up</title>, <unitdate type="inclusive" normal="1950">1950</unitdate></unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">2</container>
+                  <unittitle><title render="italic">Never too Late</title>, <unitdate type="inclusive" normal="1952">1952</unitdate></unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">2</container>
+                  <unittitle><title render="italic">No Cover Charge</title>, <unitdate type="inclusive" normal="1952">1952</unitdate></unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">2</container>
+                  <unittitle><title render="italic">Up 'N' Atom</title>, <unitdate type="inclusive" normal="1952">1952</unitdate></unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">2</container>
+                  <unittitle><title render="italic">Hail to Victor</title>, <unitdate type="inclusive" normal="1954">1954</unitdate></unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">2</container>
+                  <unittitle><title render="italic">Film Flam</title>, <unitdate type="inclusive" normal="1955">1955</unitdate></unittitle>
+                </did>
+              </c05>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>Programs</unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">2</container>
+                  <unittitle>
+                    <unitdate type="inclusive" normal="1908/1910">1908-1910</unitdate>
+                  </unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">2</container>
+                  <unittitle>
+                    <unitdate type="inclusive" normal="1911/1915">1911-1915</unitdate>
+                  </unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">2</container>
+                  <unittitle>
+                    <unitdate type="inclusive" normal="1916/1920">1916-1920</unitdate>
+                  </unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">2</container>
+                  <unittitle>
+                    <unitdate type="inclusive" normal="1921/1925">1921-1925</unitdate>
+                  </unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">2</container>
+                  <unittitle>
+                    <unitdate type="inclusive" normal="1926/1930">1926-1930</unitdate>
+                  </unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">2</container>
+                  <unittitle>
+                    <unitdate type="inclusive" normal="1931/1935">1931-1935</unitdate>
+                  </unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">2</container>
+                  <unittitle>
+                    <unitdate type="inclusive" normal="1936/1940">1936-1940</unitdate>
+                  </unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">2</container>
+                  <unittitle>
+                    <unitdate type="inclusive" normal="1941/1945">1941-1945</unitdate>
+                  </unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">2</container>
+                  <unittitle>
+                    <unitdate type="inclusive" normal="1946/1950">1946-1950</unitdate>
+                  </unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">2</container>
+                  <unittitle>
+                    <unitdate type="inclusive" normal="1951/1955">1951-1955</unitdate>
+                  </unittitle>
+                </did>
+              </c05>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>Sheet Music</unittitle>
+              </did>
+              <odd>
+                <p>(stored in outsize box)</p>
+              </odd>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">3</container>
+                  <unittitle><title render="italic">Michigenda</title>, <unitdate type="inclusive" normal="1908">1908</unitdate></unittitle>
+                </did>
+                <odd>
+                  <p>(includes 9 songs)</p>
+                </odd>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">3</container>
+                  <unittitle><title render="italic">Culture</title>, <unitdate type="inclusive" normal="1908">1908</unitdate></unittitle>
+                </did>
+                <odd>
+                  <p>(includes 10 songs)</p>
+                </odd>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">3</container>
+                  <unittitle><title render="italic">Koanzaland</title>, <unitdate type="inclusive" normal="1909">1909</unitdate></unittitle>
+                </did>
+                <odd>
+                  <p>(includes 9 songs)</p>
+                </odd>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">3</container>
+                  <unittitle><title render="italic">The Crimson Chest</title>, <unitdate type="inclusive" normal="1910">1910</unitdate></unittitle>
+                </did>
+                <odd>
+                  <p>(includes 6 songs)</p>
+                </odd>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">3</container>
+                  <unittitle><title render="italic">The Awakened Ramses</title>, <unitdate type="inclusive" normal="1911">1911</unitdate></unittitle>
+                </did>
+                <odd>
+                  <p>(includes 2 songs)</p>
+                </odd>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">3</container>
+                  <unittitle><title render="italic">Contrarie Mary</title>, <unitdate type="inclusive" normal="1913">1913</unitdate></unittitle>
+                </did>
+                <odd>
+                  <p>(includes 6 songs)</p>
+                </odd>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">3</container>
+                  <unittitle><title render="italic">A Model Daughter</title>, <unitdate type="inclusive" normal="1914">1914</unitdate></unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">3</container>
+                  <unittitle><title render="italic">All That Glitters</title>, <unitdate type="inclusive" normal="1915">1915</unitdate></unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">3</container>
+                  <unittitle><title render="italic">Tres Rouge</title>, <unitdate type="inclusive" normal="1916">1916</unitdate></unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">3</container>
+                  <unittitle><title render="italic">Fool's Paradise</title>, <unitdate type="inclusive" normal="1917">1917</unitdate></unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">3</container>
+                  <unittitle><title render="italic">Let's Go Over Here Over There</title>, <unitdate type="inclusive" normal="1918">1918</unitdate></unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">3</container>
+                  <unittitle><title render="italic">Come on, Dad</title>, <unitdate type="inclusive" normal="1919">1919</unitdate></unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">3</container>
+                  <unittitle><title render="italic">George Did It</title>, <unitdate type="inclusive" normal="1920">1920</unitdate></unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">3</container>
+                  <unittitle><title render="italic">Top O' Th' Mornin'</title>, <unitdate type="inclusive" normal="1921">1921</unitdate></unittitle>
+                </did>
+              </c05>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Musket (Michigan Union Show, Ko-EDS Too)</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <unittitle>Programs</unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">2</container>
+                  <unittitle>
+                    <unitdate type="inclusive" normal="1956/1960">1956-1960</unitdate>
+                  </unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">2</container>
+                  <unittitle>
+                    <unitdate type="inclusive" normal="1961/1965">1961-1965</unitdate>
+                    <unitdate type="inclusive" normal="1967">1967</unitdate>
+                  </unittitle>
+                </did>
+              </c05>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Project Community</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle>Brochures <unitdate type="inclusive" normal="1985/1989">1985-1989</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Ticket Office</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle>Flyers <unitdate type="inclusive" normal="1990">1990</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

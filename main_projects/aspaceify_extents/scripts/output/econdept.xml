@@ -1,0 +1,911 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead.dtd">
+<ead>
+  <eadheader audience="internal" langencoding="iso639-2b" repositoryencoding="iso15511" dateencoding="iso8601" relatedencoding="Dublin Core" scriptencoding="iso15924" countryencoding="iso3166-1">
+    <eadid countrycode="us" mainagencycode="MiU-H" publicid="us//::miu-h//TXT us::miu-h::econdept.xml//EN" encodinganalog="Identifier">umich-bhl-87141</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="Title">Finding Aid for Department of Economics (University of Michigan) records, 1915-1980</titleproper>
+        <author encodinganalog="Creator">Collection processed and finding aid created by Bentley Library Staff</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="Publisher">Bentley Historical Library, University of Michigan</publisher>
+        <date encodinganalog="Date" normal="2006">2006</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created by Greg Kinney <date>2006-08-15</date></creation>
+      <langusage encodinganalog="Language">The finding aid is written in <language langcode="eng" scriptcode="Latn">English</language></langusage>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date>2006-08-15</date>
+        <item>Original encoding from Word 20000 file using Word macros and Xmetal.</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <frontmatter>
+    <titlepage>
+      <publisher>University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
+      <titleproper>Finding aid for <lb/>Department of Economics (University of Michigan) Records, 1915-1980</titleproper>
+      <author>Finding aid created by <lb/>Bentley Library Staff</author>
+    </titlepage>
+  </frontmatter>
+  <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
+    <did>
+      <origination>
+        <corpname source="lcnaf" encodinganalog="110">University of Michigan. Department of Economics.</corpname>
+      </origination>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">8 linear feet</extent>
+      </physdesc>
+      <unittitle encodinganalog="245">Department of Economics (University of Michigan) records, <unitdate type="inclusive" encodinganalog="245$f" normal="1915/1980">1915-1980</unitdate></unittitle>
+      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">87141 Bimu C26 2</unitid>
+      <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
+      <abstract>Records, 1915-1980,of the department of economics of the University of Michigan; contain files of chairmen, Isaiah Sharfman, Gardner Ackley, and Warren Smith, including minutes of staff meetings, research materials, and administrative records; also papers collected and interviews conducted by Marjorie Brazer with present and past faculty of the department in connection with its centennial.</abstract>
+      <repository>
+        <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea>, University of Michigan</corpname>
+        <extptr href="bhladd" show="embed" actuate="onload"/>
+      </repository>
+    </did>
+    <descgrp type="admin">
+      <acqinfo encodinganalog="541">
+        <p>The records were received from donors nos. <num type="donor" encodinganalog="541$e">5205</num> and <num type="donor" encodinganalog="541$e">4717</num>.</p>
+      </acqinfo>
+      <accessrestrict encodinganalog="506">
+        <p>The record group is open without restriction.</p>
+        <p>
+          <extptr href="uarpacc" show="embed" actuate="onload"/>
+        </p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+        <p>Copyright is held by the Regents of the University of Michigan.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+        <p>[item], folder, box,
+Department of Economics (University of Michigan) Records, Bentley Historical Library, University of Michigan</p>
+      </prefercite>
+    </descgrp>
+    <bioghist encodinganalog="545">
+      <p>The teaching of political economy was provided for in Judge Woodward's "Catholepistemiad" scheme drawn up in 1817, which formed the basis for the University of Michigan. Until the appointment of Henry Carter Adams as lecturer in political economy in 1880, the current professor of moral and intellectual philosophy, who was nearly always the senior member of the faculty or the president, had taught the course. Adams became a full professor in 1887, and headed what became the Department of Economics until his death in 1921. Classes in business and industry were separated from the Department of Economics and eventually became the nucleus for the School of Business Administration, which was founded in 1924. Courses in sociology were similarly split off into the Department of Sociology in 1931. A centennial history, compiled in 1979, is available in the collection.</p>
+    </bioghist>
+    <scopecontent encodinganalog="520">
+      <p>The bulk of the Department of Economics records, covering the period 1950-1980, contain files of the chairmen, Isaiah Sharfman, Gardner Ackley, and Warren Smith. Included are executive committee and staff meeting minutes, budgets, faculty appointments, schedules, salaries, and reports on building needs. Additional materials cover the work of various centers and professional organizations.</p>
+    </scopecontent>
+    <controlaccess>
+      <p>
+        <extptr href="accnote" show="embed" actuate="onload"/>
+      </p>
+      <controlaccess>
+        <head>Subjects:</head>
+        <subject source="lcsh" encodinganalog="650">Economics.</subject>
+        <corpname source="lcnaf" encodinganalog="700">University of Michigan. Department of Economics.</corpname>
+      </controlaccess>
+      <controlaccess>
+        <head>Contributors:</head>
+        <genreform source="aat" encodinganalog="655">Oral histories.</genreform>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50036889">Ackley, Gardner.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n80015416">Angell, Robert Cooley, 1899-1984</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n80060727">Bluestone, Barry.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50042428">Brazer, Harvey E., 1922-1991</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n80007953">Dernberger, Robert F.</persname>
+        <persname source="lcnaf" encodinganalog="700">Fowler, Ann Schwartz Smith.</persname>
+        <persname source="lcnaf" encodinganalog="700">Freedman, Deborah S.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50015382">Fusfeld, Daniel R. (Daniel Roland), 1922-2007</persname>
+        <persname source="lcnaf" encodinganalog="700">Haber, Fannie.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/nr90022702">Haber, William, 1899-1988.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n81134791">Hymans, Saul H.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n80004235">Katona, George, 1901-1981</persname>
+        <persname source="lcnaf" encodinganalog="700">Klein, Lawrence Robert.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50049125">Levinson, Harold Myer, 1919-</persname>
+        <persname source="lcnaf" encodinganalog="700">Morgan, James.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n80004236">Mueller, Eva, 1920-</persname>
+        <persname source="lcnaf" encodinganalog="700">Palmer, William B.</persname>
+        <persname source="lcnaf" encodinganalog="700">Peterson, Shorey, 1897-1981.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n84041141">Shapiro, Harold T., 1935-</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50023492">Steiner, Peter Otto, 1922-</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n81117073">Stolper, Wolfgang F.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50010763">Suits, Daniel Burbidge, 1918-</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n85808776">Sharfman, I. Leo (Isaiah Leo), 1886-1969</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50060267">Smith, Warren Lounsbury, 1914-1972.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n82041090">Brazer, Marjorie Cahn.</persname>
+      </controlaccess>
+      <controlaccess>
+        <head>Genre Terms:</head>
+        <genreform encodinganalog="655" source="aat">Oral histories.</genreform>
+      </controlaccess>
+    </controlaccess>
+    <dsc type="combined">
+      <c01 level="series">
+        <did>
+          <unittitle>Records</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">13 folders</extent>
+            </physdesc>
+            <unittitle>Universities -- National Bureau Committee for Economic Research <unitdate type="inclusive" normal="1940/1959">1940-1959</unitdate></unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">6 folders</extent>
+            </physdesc>
+            <unittitle>Ford Foundation <unitdate type="inclusive" normal="1955/1960">1955-1960</unitdate></unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">12 folders</extent>
+            </physdesc>
+            <unittitle>Ford Foundation <unitdate type="inclusive" normal="1955/1960">1955-1960</unitdate> (cont.)</unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Departmental Organization <unitdate type="inclusive" normal="1934/1951">1934-1951</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">5 folders</extent>
+            </physdesc>
+            <unittitle>Time Schedules</unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">29 folders</extent>
+            </physdesc>
+            <unittitle>Regional Faculty Research Seminar <unitdate type="inclusive" normal="1960">1960</unitdate></unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">4 folders</extent>
+            </physdesc>
+            <unittitle>Conference on the Economic Outlook <unitdate type="inclusive" normal="1953/1961">1953-1961</unitdate></unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 folders</extent>
+            </physdesc>
+            <unittitle>Meetings of Department Chairmen <unitdate type="inclusive" normal="1954/1961">1954-1961</unitdate></unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 folders</extent>
+            </physdesc>
+            <unittitle>Research Committee, Social Sciences <unitdate type="inclusive" normal="1948/1951">1948-1951</unitdate></unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">4 folders</extent>
+            </physdesc>
+            <unittitle>American Economic Association <unitdate type="inclusive" normal="1952/1960">1952-1960</unitdate></unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">4 folders</extent>
+            </physdesc>
+            <unittitle>Center for Research on Economic Development <unitdate type="inclusive" normal="1956/1962">1956-1962</unitdate></unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>Department Reports <unitdate type="inclusive" normal="1959/1961">1959-1961</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 folders</extent>
+            </physdesc>
+            <unittitle>Social Science Research Council <unitdate type="inclusive" normal="1958/1959">1958-1959</unitdate></unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>Research Seminar in Quantitative Economics <unitdate type="inclusive" normal="1952/1960">1952-1960</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">4 folders</extent>
+            </physdesc>
+            <unittitle>Student Placement <unitdate type="inclusive" normal="1954/1960">1954-1960</unitdate></unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">3 folders</extent>
+            </physdesc>
+            <unittitle>Doctoral Committee and Exams <unitdate type="inclusive" normal="1950/1952">1950-1952</unitdate></unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Building needs <unitdate type="inclusive" normal="1928/1948">1928-1948</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Committee on Graduate Programs <unitdate type="inclusive" normal="1955/1956">1955-1956</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Committee on Research and Health Problems of the Aged <unitdate type="inclusive" normal="1959/1961">1959-1961</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Committee on Social Science Personnel <unitdate type="inclusive" normal="1957/1958">1957-1958</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Conference on Medical Economics <unitdate type="inclusive" normal="1961">1961</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Conference on Research on Economic Stability <unitdate type="inclusive" normal="1958/1959">1958-1959</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Correspondence (miscellaneous) <unitdate type="inclusive" normal="1961/1962">1961-1962</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Current Economic Research <unitdate type="inclusive" normal="1951">1951</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Departmental Luncheons <unitdate type="inclusive" normal="1953/1955">1953-1955</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Departmental Election Statistics <unitdate type="inclusive" normal="1915/1921">1915-1921</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">3 folders</extent>
+            </physdesc>
+            <unittitle>Fellowships <unitdate type="inclusive" normal="1954">1954</unitdate>, <unitdate type="inclusive" normal="1962/1963">1962-1963</unitdate></unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Ford Foundation Contract -- RSQE <unitdate type="inclusive" normal="1955">1955</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Ford Foundation Grant -- Area Studies Program <unitdate type="inclusive" normal="1961">1961</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Graduate Degree Requirements <unitdate type="inclusive" normal="1954/1956">1954-1956</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Graduate Work in Economics at other institutions <unitdate type="inclusive" normal="1952">1952</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Great Lakes Regional Assemblies <unitdate type="inclusive" normal="1960">1960</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>International Cooperation Administration -- Korean Project <unitdate type="inclusive" normal="1957">1957</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Interviews <unitdate type="inclusive" normal="1957/1958">1957-1958</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Italian Centennial Program <unitdate type="inclusive" normal="1960">1960</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Readings in Economics <unitdate type="inclusive" normal="1955/1960">1955-1960</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Research (misc.) <unitdate type="inclusive" normal="1955">1955</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Research Advisory Committee <unitdate type="inclusive" normal="1959/1961">1959-1961</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Research and Publications <unitdate type="inclusive" normal="1960/1961">1960-1961</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Report on Courses and Staffing <unitdate type="inclusive" normal="1952">1952</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Social Science Study Committee <unitdate type="inclusive" normal="1957/1958">1957-1958</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 folders</extent>
+            </physdesc>
+            <unittitle>Summer Session <unitdate type="inclusive" normal="1950">1950</unitdate>, <unitdate type="inclusive" normal="1962">1962</unitdate></unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Theory Examination -- Business Administration and Economics <unitdate type="inclusive" normal="1957">1957</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Urban Community Program and Seminar <unitdate type="inclusive" normal="1941/1947">1941-1947</unitdate></unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Departmental Centennial</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">5</container>
+            <unittitle>Manuscript of history of economics department by Marjorie Brazer</unittitle>
+          </did>
+          <odd>
+            <p>(includes appendices and other background material)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">5</container>
+            <unittitle>Responses to centennial invitations</unittitle>
+          </did>
+          <odd>
+            <p>(includes remembrances of economic department)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">5</container>
+            <unittitle>Miscellaneous</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Tapes and transcripts of interviews compiled in preparation of centennial history <unitdate type="inclusive" normal="1979">1979</unitdate></unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Ackley, Gardner</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Angell, Robert Cooley</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Bluestone, Barry</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Brazer, Harvey</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Dernberger, Robert</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Fowler, Ann Schwartz Smith</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Freedman, Deborah S</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Fusfeld, Daniel</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Haber, Fannie</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Haber, William</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Hymans, Saul</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Katona, George</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Klein, Lawrence</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Levinson, Harold</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Morgan, James</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Mueller, Eva</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Palmer, William B</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Peterson, Shorey</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Shapiro, Harold</unittitle>
+            </did>
+            <odd>
+              <p>(not to be quoted)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Steiner, Peter</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Stolper, Wolfgang</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Suits, Daniel</unittitle>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Minutes and Memoranda</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">6</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">19 folders</extent>
+            </physdesc>
+            <unittitle>Executive Committee <unitdate type="inclusive" normal="1953/1974">1953-1974</unitdate></unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Departmental (Staff) Meetings</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">6</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">6 folders</extent>
+              </physdesc>
+              <unittitle>
+                <unitdate type="inclusive" normal="1954/1962">1954-1962</unitdate>
+              </unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">6</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">3 folders</extent>
+              </physdesc>
+              <unittitle>
+                <unitdate type="inclusive" normal="1967/1973-03">1967-March 1973</unitdate>
+              </unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">4 folders</extent>
+              </physdesc>
+              <unittitle>
+                <unitdate type="inclusive" normal="1973-04/1974-04">April 1973-April 1974</unitdate>
+              </unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>
+                <unitdate type="inclusive">Undated</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Chairmen's Files</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">7</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">11 folders</extent>
+            </physdesc>
+            <unittitle>Correspondence <unitdate type="inclusive" normal="1964/1974">1964-1974</unitdate></unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">7</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">12 folders</extent>
+            </physdesc>
+            <unittitle>Budgets <unitdate type="inclusive" normal="1956/1973">1956-1973</unitdate></unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Topical Files</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <unittitle>Committees</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Assignments and miscellanea <unitdate type="inclusive" normal="1967/1972">1967-1972</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Career Advancement Committee <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Curriculum Committee <unitdate type="inclusive" normal="1968/1970">1968-1970</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Graduate Program Committee <unitdate type="inclusive" normal="1968/1973">1968-1973</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Faculty</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>General</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">8</container>
+                <unittitle>Appointments and Schedules <unitdate type="inclusive" normal="1968/1970">1968-1970</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">8</container>
+                <unittitle>Effort Reports <unitdate type="inclusive" normal="1966/1973">1966-1973</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
+              </physdesc>
+              <unittitle>Merit Increases <unitdate type="inclusive" normal="1968/1970">1968-1970</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Salaries</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">8</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1964">1964</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">8</container>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">2 folders</extent>
+                </physdesc>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1967/1969">1967-1969</unitdate>
+                </unittitle>
+                <physdesc altrender="whole">
+                  </physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">8</container>
+                <unittitle>Report on Salary Determination Procedures <unitdate type="inclusive" normal="1973">1973</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Miscellaneous</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Building <unitdate type="inclusive" normal="1968/1972">1968-1972</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Center for Research on Economic Development <unitdate type="inclusive" normal="1973">1973</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Courses <unitdate type="inclusive" normal="1968/1970">1968-1970</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Joint Degree, Law and Economics, Grant Request <unitdate type="inclusive" normal="1970/1974">1970-1974</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>New Degrees <unitdate type="inclusive" normal="1972">1972</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Outlook Conference <unitdate type="inclusive" normal="1972/1973">1972-1973</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Political Economy <unitdate type="inclusive" normal="1972">1972</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Political Science and Economics Degree <unitdate type="inclusive" normal="1970/1972">1970-1972</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Population Studies Center <unitdate type="inclusive" normal="1967/1971">1967-1971</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Program Evaluation Report <unitdate type="inclusive" normal="1973/1974">1973-1974</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Public Policy Studies <unitdate type="inclusive" normal="1968/1973">1968-1973</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Terminal Master's Program <unitdate type="inclusive" normal="1973/1974">1973-1974</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Undergraduate Program <unitdate type="inclusive" normal="1971/1973">1971-1973</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

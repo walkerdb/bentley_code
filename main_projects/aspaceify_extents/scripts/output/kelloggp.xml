@@ -1,0 +1,3569 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead.dtd">
+<ead>
+  <eadheader audience="internal" langencoding="iso639-2b" repositoryencoding="iso15511" dateencoding="iso8601" relatedencoding="Dublin Core" scriptencoding="iso15924" countryencoding="iso3166-1">
+    <eadid countrycode="us" mainagencycode="MiU-H" publicid="us//::miu-h//TXT us::miu-h::kelloggp.xml//EN" encodinganalog="Identifier">umich-bhl-0046</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="Title">Finding Aid for [Published works of John Harvey Kellogg including books, pamphlets, and periodicals], 1874-1953</titleproper>
+        <author encodinganalog="Creator">Collection processed and finding aid created by Michigan Historical Collections Staff</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="Publisher">Bentley Historical Library, University of Michigan</publisher>
+        <date encodinganalog="Date" normal="2007">2007</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created by Greg Kinney <date>July 2007</date></creation>
+      <langusage encodinganalog="Language">The finding aid is written in <language langcode="eng" scriptcode="Latn">English</language></langusage>
+      <descrules>Finding aid prepared using Describing Archives: A Content Standard (DACS)</descrules>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date>20150625</date>
+        <item>Corrected collection dates.</item>
+      </change>
+      <change>
+        <date>2007-07-17</date>
+        <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <frontmatter>
+    <titlepage>
+      <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
+      <titleproper>Finding aid for <lb/>[Published works of John Harvey Kellogg <lb/>including books, pamphlets, and periodicals], 1874-1953</titleproper>
+      <author>Finding aid created by <lb/>Michigan Historical Collections Staff</author>
+    </titlepage>
+  </frontmatter>
+  <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
+    <did>
+      <origination>
+        <persname source="lcnaf" encodinganalog="100">John Harvey Kellogg (1852-1943)</persname>
+      </origination>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">15 linear feet</extent>
+      </physdesc>
+      <unittitle encodinganalog="245">[Published works of John Harvey Kellogg including books, pamphlets, and periodicals] <unitdate type="inclusive" encodinganalog="245$f" normal="1874/1953">1874-1953</unitdate></unittitle>
+      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">0046 Aa 2</unitid>
+      <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
+      <abstract>Printed books, pamphlets, and serials by John Harvey Kellogg, Battle Creek, Michigan physician, food scientist, and founder of the Battle Creek Sanitarium, on a variety of medical and health topics and explaining and promoting the remedies and treatments he espoused through his Battle Creek Sanatorium.</abstract>
+      <repository>
+        <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea>, University of Michigan</corpname>
+        <extptr href="bhladd" show="embed" actuate="onload"/>
+      </repository>
+    </did>
+    <descgrp type="admin">
+      <acqinfo encodinganalog="541">
+        <p>Acquisition <num type="donor" encodinganalog="541$e">The Kellogg publications were acquired from a number of sources.</num></p>
+      </acqinfo>
+      <accruals encodinganalog="584">
+        <p>No further additions to the records expected.</p>
+      </accruals>
+      <accessrestrict encodinganalog="506">
+        <p>The collection is open to research.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+        <p>Copyright of many items is in the public domain, for other items copyright may remain with the author or publisher.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+        <p>[item], folder, box,
+[Published works of John Harvey Kellogg], Bentley Historical Library, University of Michigan</p>
+      </prefercite>
+    </descgrp>
+    <bioghist encodinganalog="545">
+      <p>Battle Creek, Michigan physician, food scientist, founder of the Battle Creek Sanitarium</p>
+    </bioghist>
+    <scopecontent encodinganalog="520">
+      <p>Printed books, pamphlets, and serials by John Harvey Kellogg, on a variety of medical and health topics and explaining and promoting the remedies and treatments he espoused through his Battle Creek Sanatorium</p>
+    </scopecontent>
+    <controlaccess>
+      <p>
+        <extptr href="accnote" show="embed" actuate="onload"/>
+      </p>
+      <controlaccess>
+        <head>Subjects:</head>
+        <corpname source="lcnaf" encodinganalog="610">Battle Creek Sanitarium.</corpname>
+        <subject source="lcsh" encodinganalog="650">Food.</subject>
+        <subject source="lcsh" encodinganalog="650">Hygiene.</subject>
+        <subject source="lcsh" encodinganalog="650">Hygiene--Periodicals.</subject>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50060957">Kellogg, John Harvey, 1852-1943.</persname>
+        <subject source="lcsh" encodinganalog="650">Medicine--Michigan--Battle Creek.</subject>
+        <subject source="lcsh" encodinganalog="650">Public health--United States.</subject>
+      </controlaccess>
+    </controlaccess>
+    <dsc type="combined">
+      <c01 level="series">
+        <did>
+          <unittitle>Printed Books</unittitle>
+        </did>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>
+              <bibref>
+                <title render="italic">The art of massage: A practical manual for the nurse, the student, and the practitioner</title>
+                <imprint>(28th Thousand (Revised). Battle Creek : Modern Medicine Publishing Co. <date type="publication">1932</date>)</imprint>
+              </bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <bibref>
+                <title render="italic">Autointoxication; or, Intestinal toxemia...</title>
+              </bibref>
+            </unittitle>
+          </did>
+          <c03 level="item">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>
+                <bibref>
+                  <imprint>(4th Thousand. Battle Creek <date type="publication">1919</date>)</imprint>
+                </bibref>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="item">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>
+                <bibref>
+                  <imprint>(Third Ed., 7th Thousand. Battle Creek <date type="publication">1922</date>)</imprint>
+                </bibref>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>
+              <bibref><title render="italic">The Battle Creek Sanitarium diet list</title>. <imprint>(Battle Creek <date type="publication">1909</date>)</imprint></bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>
+              <bibref>
+                <title render="italic">Catalog of the private library of Dr. Kellogg</title>
+                <imprint>(n.p. <date type="publication">undated</date>)</imprint>
+              </bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <bibref>
+                <title render="italic">Colon hygiene, comprising new and important facts concerning the physiology of the colon...</title>
+              </bibref>
+            </unittitle>
+          </did>
+          <c03 level="item">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>
+                <bibref>
+                  <imprint>(2nd edition, revised and enlarged, Battle Creek <date type="publication">1916</date> [see also another issue, Box 6])</imprint>
+                </bibref>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="item">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>
+                <bibref>
+                  <imprint>(28th Thousand. Battle Creek <date type="publication">1917</date>)</imprint>
+                </bibref>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="item">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>
+                <bibref>
+                  <imprint>(32nd Thousand, Rev. Ed. Battle Creek <date type="publication">1929</date>)</imprint>
+                </bibref>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>
+              <bibref>
+                <title render="italic">The crippled colon</title>
+                <imprint>(Battle Creek, 1931.)</imprint>
+              </bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>
+              <bibref>
+                <title render="italic">Dyspepsia, its causes, prevention and cure</title>
+                <imprint>(Battle Creek <date type="publication">1879</date>)</imprint>
+              </bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <unittitle>
+              <bibref>
+                <title render="italic">First book in physiology and hygiene</title>
+              </bibref>
+            </unittitle>
+          </did>
+          <c03 level="item">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>
+                <bibref>
+                  <title render="italic">new and revised ed</title>
+                  <imprint>(New York, Harper &amp; Bros. <date type="publication">1888</date>)</imprint>
+                </bibref>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="item">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>
+                <bibref>
+                  <imprint>(New York, American Book Co. <date type="publication">undated</date>)</imprint>
+                </bibref>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>
+              <bibref>
+                <title render="italic">Second book in physiology and hygiene.</title>
+                <imprint>(New York <date type="publication">1894</date>)</imprint>
+              </bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>
+              <bibref>
+                <title render="italic">First book in physiology and hygiene, for primary grades...</title>
+                <imprint>(Translated and adapted for use in Chinese schools by John Fryer. Shanghai <date type="publication">1896</date> (Temperance physiology series, no. 4))</imprint>
+              </bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>
+              <bibref>
+                <title render="italic">Lessons in hygiene, for intermediate grades...</title>
+                <imprint>(translated and adapted for use in Chinese schools, with additions on opium-smoking and Foot-binding, by John Fryer. Shanghai <date type="publication">1894</date>)</imprint>
+              </bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>
+              <bibref><title render="italic">Glimt af naturen</title>. <imprint>(Kristiana <date type="publication">1894</date>)</imprint></bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>
+              <bibref>
+                <title render="italic">Haandbag for hiemmet: omhandlende hygiejne, főde og diet...</title>
+                <imprint>(Battle Creek <date type="publication">1882</date>)</imprint>
+              </bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <bibref>
+                <title render="italic">The health question box, or a thousand and one health questions answered.</title>
+              </bibref>
+            </unittitle>
+          </did>
+          <c03 level="item">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>
+                <bibref>
+                  <imprint>(1st edition, Battle Creek <date type="publication">1920</date>)</imprint>
+                </bibref>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="item">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>
+                <bibref>
+                  <title render="italic">an encyclopedia of health</title>
+                  <imprint>([3rd edition ?] Battle Creek <date type="publication">1925</date>)</imprint>
+                </bibref>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">1</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 volumes</extent>
+            </physdesc>
+            <unittitle>
+              <bibref>
+                <title render="italic">The home book of modern medicine, a family guide in health and disease</title>
+                <imprint>([2nd edition?] Battle Creek <date type="publication">1907</date>)</imprint>
+              </bibref>
+            </unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>
+              <bibref>
+                <title render="italic">The home hand-book of domestic hygiene and rational medicine.</title>
+              </bibref>
+            </unittitle>
+          </did>
+          <c03 level="item">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>
+                <bibref>
+                  <imprint>([2nd edition] Battle Creek <date type="publication">1880</date>)</imprint>
+                </bibref>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="item">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>
+                <bibref>
+                  <imprint>(40th Thousand, rev. and enl. Battle Creek <date type="publication">1897</date>)</imprint>
+                </bibref>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>
+              <bibref>
+                <title render="italic">The household manual of hygiene.</title>
+                <imprint>(Battle Creek <date type="publication">1877</date> [imperfect])</imprint>
+              </bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>
+              <bibref>
+                <title render="italic">Household manual of domestic hygiene, food and diet...</title>
+                <imprint>(Rev. Ed. Battle Creek <date type="publication">1882</date>)</imprint>
+              </bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>
+              <bibref>
+                <title render="italic">The household monitor of health.</title>
+                <imprint>(Battle Creek <date type="publication">1891</date>)</imprint>
+              </bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>
+              <bibref>
+                <title render="italic">How to have good health through biologic living.</title>
+                <imprint>(Battle Creek <date type="publication">1932</date>)</imprint>
+              </bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>
+              <bibref>
+                <title render="italic">Hygiene of infancy, a book of practical instruction in the care of babies written especially for young mothers.</title>
+                <imprint>(Battle Creek <date type="publication">1916</date>)</imprint>
+              </bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>
+              <bibref>
+                <title render="italic">Hygiène populaire et moniteur de la santé.</title>
+                <imprint>(Bâle. <date type="publication">1897</date>)</imprint>
+              </bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>
+              <bibref>
+                <title render="italic">The hygienic family physician: A complete guide for the preservation of health and the treatment of the sick without medicine...</title>
+                <imprint>(Battle Creek <date type="publication">1874</date>)</imprint>
+              </bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>
+              <bibref>
+                <title render="italic">Ideas.</title>
+                <imprint>(Battle Creek <date type="publication">1916</date>)</imprint>
+              </bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>
+              <bibref>
+                <title render="italic">The iron ration.</title>
+                <imprint>(typescript <date type="publication">undated</date>)</imprint>
+              </bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <bibref>
+                <title render="italic">The itinerary of a breakfast</title>
+              </bibref>
+            </unittitle>
+          </did>
+          <c03 level="item">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>
+                <bibref>
+                  <imprint>([1st edition?] Battle Creek <date type="publication">1918</date>)</imprint>
+                </bibref>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="item">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>
+                <bibref>
+                  <imprint>(6th edition, New York: Funk and Wagnalls, c1918)</imprint>
+                </bibref>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="item">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>
+                <bibref>
+                  <imprint>(Rev. Ed. New York, c1926)</imprint>
+                </bibref>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <bibref>
+                <title render="italic">Ladies' guide in health and disease. Girlhood, maidenhood, wifehood, motherhood.</title>
+              </bibref>
+            </unittitle>
+          </did>
+          <c03 level="item">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>
+                <bibref>
+                  <imprint>([2nd edition?] Des Moines <date type="publication">1884</date>)</imprint>
+                </bibref>
+              </unittitle>
+            </did>
+            <odd>
+              <p>[imperfect]</p>
+            </odd>
+          </c03>
+          <c03 level="item">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>
+                <bibref>
+                  <imprint>(Battle Creek : Good Health Publishing Co. <date type="publication">1891</date>)</imprint>
+                </bibref>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="item">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>
+                <bibref>
+                  <imprint>(Battle Creek <date type="publication">1907</date>)</imprint>
+                </bibref>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <bibref>
+                <title render="italic">Library of health</title>
+                <imprint>(4 vols. Battle Creek <date type="publication">1904</date>)</imprint>
+              </bibref>
+            </unittitle>
+          </did>
+          <c03 level="item">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>
+                <bibref>
+                  <title render="italic">Vol. 1. Boyhood and youth</title>
+                </bibref>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="item">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>
+                <bibref>
+                  <title render="italic">Vol. 2. Manhood.</title>
+                </bibref>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="item">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>
+                <bibref>
+                  <title render="italic">&gt;Vol. 3. Girlhood-Womanhood</title>
+                </bibref>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="item">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>
+                <bibref>
+                  <title render="italic">Vol. 4. Wifehood -- Motherhood</title>
+                </bibref>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>
+              <bibref>
+                <title render="italic">Life, its mysteries and miracles, a manual of health principles.</title>
+                <imprint>(Battle Creek, c1910)</imprint>
+              </bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>
+              <bibref>
+                <title render="italic">Light therapeutics, a practical manual of phototherapy for the student and the practitioner...</title>
+                <imprint>(Battle Creek <date type="publication">1910</date>)</imprint>
+              </bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>
+              <bibref>
+                <title render="italic">The living temple.</title>
+                <imprint>(Translated into Chinese by Rev. M.C. Wilcox and Mr. Wong Cang-Hwo ... Shanghai <date type="publication">1912</date>)</imprint>
+              </bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <bibref>
+                <title render="italic">Man, the masterpiece, or, plain truths plainly told, about boyhood, youth, and manhood</title>
+              </bibref>
+            </unittitle>
+          </did>
+          <c03 level="item">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>
+                <bibref>
+                  <imprint>(Battle Creek <date type="publication">1896</date>)</imprint>
+                </bibref>
+              </unittitle>
+            </did>
+            <odd>
+              <p>(imperfect)</p>
+            </odd>
+          </c03>
+          <c03 level="item">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>
+                <bibref>
+                  <imprint>(Battle Creek <date type="publication">1901</date>)</imprint>
+                </bibref>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="item">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>
+                <bibref>
+                  <imprint>(Battle Creek <date type="publication">1904</date>)</imprint>
+                </bibref>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>
+              <bibref>
+                <title render="italic">The miracle of life.</title>
+                <imprint>(Battle Creek <date type="publication">1904</date>)</imprint>
+              </bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>
+              <bibref>
+                <title render="italic">The natural diet of man.</title>
+                <imprint>(Battle Creek <date type="publication">1923</date>)</imprint>
+              </bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <bibref>
+                <title render="italic">Neurasthenia; or, nervous exhaustion.</title>
+              </bibref>
+            </unittitle>
+          </did>
+          <c03 level="item">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>
+                <bibref>
+                  <imprint>(1st edition, Battle Creek <date type="publication">1914</date>)</imprint>
+                </bibref>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="item">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>
+                <bibref>
+                  <imprint>(2nd Ed., enl. &amp; rev. Battle Creek <date type="publication">1915</date></imprint>
+                </bibref>
+              </unittitle>
+            </did>
+            <odd>
+              <p>[See 2nd Ed., 3rd Ed., in Box 6]</p>
+            </odd>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <bibref>
+                <title render="italic">The new method in diabetes</title>
+              </bibref>
+            </unittitle>
+          </did>
+          <c03 level="item">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>
+                <bibref>
+                  <imprint>(1st edition, Battle Creek <date type="publication">1917</date>)</imprint>
+                </bibref>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="item">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>
+                <bibref>
+                  <imprint>(2nd edition, Battle Creek <date type="publication">1919</date>)</imprint>
+                </bibref>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="item">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>
+                <bibref>
+                  <imprint>(3rd rev. ed. Battle Creek <date type="publication">1924</date>)</imprint>
+                </bibref>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="item">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>
+                <bibref>
+                  <imprint>(4th ed. Battle Creek <date type="publication">1933</date>)</imprint>
+                </bibref>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <bibref>
+                <title render="italic">The new dietetics, what to eat. and how, a guide to scientific feeding in health and disease</title>
+              </bibref>
+            </unittitle>
+          </did>
+          <c03 level="item">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>
+                <bibref>
+                  <imprint>(1st edition, Battle Creek <date type="publication">1921</date>)</imprint>
+                </bibref>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="item">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>
+                <bibref>
+                  <imprint>(rev. ed. Battle Creek <date type="publication">1923</date>)</imprint>
+                </bibref>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="item">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>
+                <bibref>
+                  <imprint>(rev. ed. Battle Creek <date type="publication">1927</date>)</imprint>
+                </bibref>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="item">
+          <did>
+            <unittitle>
+              <bibref>
+                <title render="italic">The physical, moral and social effects of alcoholic poison, as a beverage and as a medicine.</title>
+                <imprint>(Battle Creek <date type="publication">1876</date>)</imprint>
+              </bibref>
+            </unittitle>
+          </did>
+          <odd>
+            <p>[Shelved separately: DA 2 K29.5 P578]</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <bibref>
+                <title render="italic">Plain facts about sexual life.</title>
+              </bibref>
+            </unittitle>
+          </did>
+          <c03 level="item">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>
+                <bibref>
+                  <imprint>(1st ed., Battle Creek <date type="publication">1877</date>)</imprint>
+                </bibref>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="item">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>
+                <bibref>
+                  <imprint>(2nd ed., rev. Battle Creek <date type="publication">1879</date>)</imprint>
+                </bibref>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <bibref>
+                <title render="italic">Plain facts for old and young.</title>
+              </bibref>
+            </unittitle>
+          </did>
+          <odd>
+            <p>(first edition published 1877 under title "Plain facts about sexual life")</p>
+          </odd>
+          <c03 level="item">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>
+                <bibref>
+                  <imprint>([3rd ed.].Burlington, Iowa <date type="publication">1881</date>)</imprint>
+                </bibref>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>
+                <bibref>
+                  <imprint>([4th ed.] Burlington, Iowa <date type="publication">1882</date>)</imprint>
+                </bibref>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="item">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>
+                <bibref>
+                  <imprint>([5th ed.] Burlington, Iowa <date type="publication">1884</date>)</imprint>
+                </bibref>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <bibref>
+                <title render="italic">Plain facts for old and young: Embracing the natural history and hygiene of organic life.</title>
+              </bibref>
+            </unittitle>
+          </did>
+          <c03 level="item">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>
+                <bibref>
+                  <imprint>(New ed., rev. &amp; enl. Burlington, Iowa <date type="publication">1889</date>)</imprint>
+                </bibref>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="item">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>
+                <bibref>
+                  <imprint>([6th ed.] New rev. &amp; enl., Burlington, Iowa, c1894)</imprint>
+                </bibref>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <bibref>
+                <title render="italic">Plain facts for old and young, or the science of human life from infancy to old age.</title>
+              </bibref>
+            </unittitle>
+          </did>
+          <odd>
+            <p>(first edition published 1877 under title "Plain facts about sexual life")</p>
+          </odd>
+          <c03 level="item">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>
+                <bibref>
+                  <imprint>(20th Century ed., Third hundred thousand Battle Creek <date type="publication">1901</date>)</imprint>
+                </bibref>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="item">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>
+                <bibref>
+                  <imprint>(Battle Creek <date type="publication">1903</date>)</imprint>
+                </bibref>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">5</container>
+            <unittitle>
+              <bibref>
+                <title render="italic">Practical manual of health and temperance...</title>
+                <imprint>(new ed., rev. &amp; enl. 43rd thousand. Battle Creek <date type="publication">1887</date>)</imprint>
+              </bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <bibref>
+                <title render="italic">Rational hydrotherapy, a manual of the physiological and therapeutic effects of hydriatic therapy</title>
+              </bibref>
+            </unittitle>
+          </did>
+          <c03 level="item">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>
+                <bibref>
+                  <imprint>(Advance sheets ed. Philadelphia <date type="publication">1901</date>)</imprint>
+                </bibref>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="item">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>
+                <bibref>
+                  <imprint>(1st ed., Philadelphia <date type="publication">1901</date>)</imprint>
+                </bibref>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="item">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>
+                <bibref>
+                  <imprint>(2nd ed. Philadelphia <date type="publication">1902</date>)</imprint>
+                </bibref>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="item">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>
+                <bibref>
+                  <imprint>(3rd ed. Philadelphia <date type="publication">1906</date>)</imprint>
+                </bibref>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="item">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>
+                <bibref>
+                  <imprint>(17th thousand. Battle Creek <date type="publication">1923</date>)</imprint>
+                </bibref>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">6</container>
+            <unittitle>
+              <bibref>
+                <title render="italic">Shall we slay to eat?</title>
+              </bibref>
+            </unittitle>
+          </did>
+          <c03 level="item">
+            <did>
+              <container type="box" label="Box">6</container>
+              <unittitle>
+                <bibref>
+                  <imprint>([1st ed.] Battle Creek <date type="publication">1899</date>)</imprint>
+                </bibref>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="item">
+            <did>
+              <container type="box" label="Box">6</container>
+              <unittitle>
+                <bibref>
+                  <imprint>([3rd ed.] Battle Creek <date type="publication">1906</date>)</imprint>
+                </bibref>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">6</container>
+            <unittitle>
+              <bibref>
+                <title render="italic">The sinusoidal current as a curative agent; its history, technique and therapeutic applications.</title>
+                <imprint>(Battle Creek, c1913)</imprint>
+              </bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">6</container>
+            <unittitle>
+              <bibref>
+                <title render="italic">Social purity: An address. 40th thousand.</title>
+                <imprint>(Battle Creek <date type="publication">1888</date>)</imprint>
+              </bibref>
+            </unittitle>
+          </did>
+          <odd>
+            <p>(bound with: Ella E. Kellogg, A talk with girls: An address.)</p>
+          </odd>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">6</container>
+            <unittitle>
+              <bibref>
+                <title render="italic">An address on social purity. 100th thousand.</title>
+                <imprint>(Battle Creek <date type="publication">1904</date>)</imprint>
+              </bibref>
+            </unittitle>
+          </did>
+          <odd>
+            <p>(bound with: Ella E. Kellogg, A talk with girls: An address.)</p>
+          </odd>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">6</container>
+            <unittitle>
+              <bibref>
+                <title render="italic">The stomach: Its disorders and how to cure them.</title>
+                <imprint>(Battle Creek <date type="publication">1896</date>)</imprint>
+              </bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">6</container>
+            <unittitle>
+              <bibref>
+                <title render="italic">Sunbeams of health and temperance. An instructive account of the health habits of all nations...</title>
+                <imprint>(Battle Creek <date type="publication">1888</date>)</imprint>
+              </bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">6</container>
+            <unittitle>
+              <bibref>
+                <title render="italic">Ten lectures on nasal catarrh...</title>
+                <imprint>(Battle Creek <date type="publication">1889</date>)</imprint>
+              </bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">6</container>
+            <unittitle>
+              <bibref>
+                <title render="italic">Tobaccoism; or how tobacco kills.</title>
+                <imprint>(Battle Creek <date type="publication">1922</date>)</imprint>
+              </bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">6</container>
+            <unittitle>
+              <bibref><title render="italic">Tabacoísmo ó como mata el tabaco</title> [Translated by Elias Chegwin] <imprint>([Barranquilla?, n.d.])</imprint></bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">6</container>
+            <unittitle>
+              <bibref>
+                <title render="italic">The value of vibrotherapy as a therapeutic measure, its uses, effects, and techniques of application.</title>
+                <imprint>(Battle Creek <date type="publication">c1913</date>)</imprint>
+              </bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">6</container>
+            <unittitle>
+              <bibref>
+                <title render="italic">Why the "blues," "nerves," neuralgias, and chronic fatigue or neurasthenia</title>
+                <imprint>(3rd ed. Battle Creek <date type="publication">1921</date>)</imprint>
+              </bibref>
+            </unittitle>
+          </did>
+          <odd>
+            <p>[3rd ed. of Neurasthenia and nervous exhaustion.]</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <bibref><title render="italic">The everyday health series</title>, by Kellogg, John Harvey and M.V. O'Shea <imprint>([? vols.] New York <date type="publication">1921</date>)</imprint></bibref>
+            </unittitle>
+          </did>
+          <c03 level="item">
+            <did>
+              <container type="box" label="Box">6</container>
+              <unittitle>
+                <bibref>Book One: <title render="italic">Building health habits.</title> <imprint>(other volumes missing)</imprint></bibref>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <bibref><title render="italic">The health series of physiology and hygiene</title>, by Kellogg, John Harvey and M.V. O'Shea <imprint>(New York <date type="publication">1915</date>, <date type="publication">1921</date>)</imprint></bibref>
+            </unittitle>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">4 volumes</extent>
+            </physdesc>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+          <c03 level="item">
+            <did>
+              <container type="box" label="Box">6</container>
+              <unittitle>
+                <bibref>[no. 1] <title render="italic">Health habits.</title> <imprint>(New York <date type="publication">1921</date>)</imprint></bibref>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="item">
+            <did>
+              <container type="box" label="Box">6</container>
+              <unittitle>
+                <bibref>[no. 2] <title render="italic">Health and cleanliness.</title> <imprint>(New York <date type="publication">1921</date>)</imprint></bibref>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="item">
+            <did>
+              <container type="box" label="Box">6</container>
+              <unittitle>
+                <bibref>[no. 3] <title render="italic">The body in health.</title> <imprint>(New York <date type="publication">1915</date>)</imprint></bibref>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="item">
+            <did>
+              <container type="box" label="Box">6</container>
+              <unittitle>
+                <bibref>[no. 4] <title render="italic">Making the most of life.</title> <imprint>(New York <date type="publication">1915</date>)</imprint></bibref>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">6</container>
+            <unittitle>
+              <bibref>
+                <title render="italic">Essays in honor of Dr. I.P. Pavlov</title>
+                <imprint>(n.p., n.d.)</imprint>
+              </bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <unittitle>
+              <bibref>
+                <imprint>(Contains three essays by John Harvey Kellogg)</imprint>
+              </bibref>
+            </unittitle>
+          </did>
+          <c03 level="item">
+            <did>
+              <container type="box" label="Box">6</container>
+              <unittitle>
+                <bibref>
+                  <title render="italic">"A visit to Pavlov's laboratory"</title>
+                </bibref>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="item">
+            <did>
+              <container type="box" label="Box">6</container>
+              <unittitle>
+                <bibref><title render="italic">"The influence of irritating substances on the secretion of gastric juices (Chemical phase)"</title>, with W.N. Boldyreff,</bibref>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="item">
+            <did>
+              <container type="box" label="Box">6</container>
+              <unittitle>
+                <bibref>
+                  <title render="italic">"A study of the mechanism of gastric contractions"</title>
+                </bibref>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">6</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">5 volumes</extent>
+            </physdesc>
+            <unittitle>
+              <bibref>
+                <title render="italic">The business man's health library</title>
+                <imprint>(Battle Creek <date type="publication">1916</date>)</imprint>
+              </bibref>
+            </unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">6</container>
+            <unittitle>
+              <bibref>Vol. I. <title render="italic">Colon hygiene Part I</title></bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">6</container>
+            <unittitle>
+              <bibref>Vol. II. <title render="italic">Colon hygiene, Part II</title></bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">6</container>
+            <unittitle>
+              <bibref>Vol. III. <title render="italic">Neurasthenia or nerveus exhaustion</title> <imprint>(2nd ed., Part I)</imprint></bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">6</container>
+            <unittitle>
+              <bibref>Vol. IV. <title render="italic">Neurasthenia or nervous exhaustion</title> <imprint>(2nd ed. Part II)</imprint></bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">6</container>
+            <unittitle>
+              <bibref>Vol. V. Riley, W.H. <title render="italic">Headaches and how to prevent them</title></bibref>
+            </unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Pamphlets</unittitle>
+        </did>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <bibref><title render="italic">"Abdominal respiration,"</title> (reprinted from <title render="underline">Modern Medicine and Bacteriological Review</title>, July, 1895. <imprint>Battle Creek <date type="publication">1895</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <bibref><title render="italic">"Abdominal section for dropsy,"</title> (reprinted from <title render="underline">Modern Medicine and Bacteriological Review</title> <imprint><date type="publication">March 1893</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <bibref>"Alcohol-A discredited drug"</bibref>
+            </unittitle>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 copies</extent>
+            </physdesc>
+            <physdesc>
+              </physdesc>
+          </did>
+          <c03 level="item">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>
+                <bibref>[copy 1] <imprint>(n.p. <date type="publication">undated</date></imprint>)</bibref>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="item">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>
+                <bibref>[copy 2] <imprint>(n.p. <date type="publication">c1920</date></imprint>)</bibref>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <bibref><title render="italic">"Alcott's 'Potato Gospel',"</title> (reprinted from <title render="underline">American Potato Journal</title> <imprint><date type="publication">c1929</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <bibref><title render="italic">"The American potato might have won the marathon,"</title> (reprinted from <title render="underline">American Potato Journal</title>, <imprint>c1929</imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <bibref><title render="italic">"Antiseptic drainage in abdominal surgery,"</title> (reprinted from <title render="underline">Bacteriological World and Modern Medicine</title>, <imprint><date type="publication">1892</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <bibref><title render="italic">"The apple a wonderful health promoter,"</title><imprint>(<date type="publication">1925</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <bibref><title render="italic">"Are we a dying race?,"</title> (reprinted from <title render="underline">Good Health</title>, <imprint><date type="publication">1897</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <bibref><title render="italic">"The backward child,"</title> (clipped from <title render="underline">Public Health</title>, <imprint><date type="publication">undated</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <bibref><title render="italic">"Bacteriology condemns meat,"</title> (reprinted from <title render="underline">Good Health</title> <imprint>(<date type="publication">July 1922</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <bibref><title render="italic">"Balanced bills of fare, arranged with reference to the normal daily ration, and the needs of special classes of invalids,"</title><imprint>(Battle Creek <date type="publication">1899</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <bibref><title render="italic">"The Beef tea delusion,"</title><imprint>(Battle Creek, c1928</imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <bibref><title render="italic">"Benjamin Rush's great discovery."</title><imprint>(n.p <date type="publication">undated</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <bibref><title render="italic">"Biblical flesh eating."</title><imprint>(Battle Creek <date type="publication">undated</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <bibref><title render="italic">"Biologic antisepsis,"</title> (reprinted from <title render="underline">The American Journal of Surgery</title>, <imprint><date type="publication">November 1926</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <bibref>
+                <title render="italic">"The biologic life."</title>
+              </bibref>
+            </unittitle>
+          </did>
+          <c03 level="item">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>
+                <bibref><imprint>(Battle Creek, c <date type="publication">1920</date></imprint>)</bibref>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="item">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>
+                <bibref><imprint>(Battle Creek <date type="publication">1930</date></imprint>)</bibref>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <bibref><title render="italic">"A brief outline of hydrotherapy,"</title> (reprinted from <title render="underline">Modern Medicine</title>, <imprint><date type="publication">June 1903</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <bibref><title render="italic">"Cancer of the Stomach."</title><imprint>(n.p., c1897</imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <bibref><title render="italic">"The case against meat eating,"</title> (reprinted from Irving Fisher and Haven Emerson, How to Live <imprint>20th ed., New York <date type="publication">1938</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <bibref><title render="italic">"The cause of furunculosis,"</title> (reprinted from <title render="underline">Modern Medicine</title>, <imprint><date type="publication">October 1895</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <bibref><title render="italic">"A certain and successful method of shortening the round ligaments,"</title> (reprinted from <title>Transactions of the Michigan State Medical Society</title>, <imprint><date type="publication">1897</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <bibref><title render="italic">"Chastity and health."</title><imprint>(n.p., c1895</imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <bibref><title render="italic">"Chronic poisoning from the free use of flesh foods,"</title> (reprinted from <title render="underline">Good Health</title>, <imprint><date type="publication">November 1897</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <bibref><title render="italic">"Clean certified milk, versus pasteurized milk,"</title><imprint>(n.p., c1923</imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <bibref><title render="italic">"The climate of Mexico in relation to health,"</title> (reprinted from <title render="underline">Good Health</title>, <imprint><date type="publication">January, 1895</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <bibref><title render="italic">"Coffee a harmful drug."</title><imprint>(Battle Creek <date type="publication">undated</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <bibref><title render="italic">"The cold air cure: Frigitherapy."</title><imprint>(n.p. <date type="publication">undated</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <bibref><title render="italic">"Constipation-How to fight it."</title><imprint>(Battle Creek <date type="publication">1913</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <bibref><title render="italic">"Cow's milk, a cause of disease,"</title> (reprinted from <title render="underline">Modern Medicine and Bacteriological Review</title> <imprint><date type="publication">September 1896</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <bibref><title render="italic">"The cure of chronic invalids by regimen and training,"</title> (reprinted from <title render="underline">Modern Medicine</title>, <imprint><date type="publication">November 1897-January 1898</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <bibref><title render="italic">"The cure of incurables; Modern Medicine Library no. 4, August 1896."</title><imprint>Battle Creek <date type="publication">1896</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <unittitle>
+              <bibref>
+                <title render="italic">"The daily ration: An experimental study of the amount and kind of food required daily by working man and women."</title>
+              </bibref>
+            </unittitle>
+          </did>
+          <c03 level="item">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>
+                <bibref><imprint>([copy 1, n.p.,] <date type="publication">1895</date></imprint>)</bibref>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="item">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>
+                <bibref><imprint>([copy 2] <date type="publication">1899</date></imprint>)</bibref>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <bibref><title render="italic">"Dangers in gasoline,"</title> (reprinted from <title render="underline">Annual Report of the Michigan State Board of Health</title>, <imprint>1887. Lansing <date type="publication">1887</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <bibref><title render="italic">"A debate on vegetarianism between J. H. Kellogg, M.D., and Edwin Tenny Brewster, how to keep well; People's pocket series no. 123."</title><imprint>(Girard, Kansas: Appeal to Reason <date type="publication">undated</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <bibref><title render="italic">"The decay of American manhood."</title><imprint>(Battle Creek <date type="publication">1917</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <bibref><title render="italic">"Decomposing organic matter,"</title> (reprinted from <title render="underline">Annual Report of the Michigan State Board of Health</title>, <imprint><date type="publication">1882</date> reprint no. 128</imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <bibref><title render="italic">"Dependable methods of producing and maintaining an aciduric intestinal flora,"</title> (reprinted from <title render="underline">Medical Journal and Record</title>, <imprint><date type="publication">September 18, 1929</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <bibref><title render="italic">"Diabetes,"</title> (reprinted from <title>Modern Medicine</title>, <imprint><date type="publication">September 1895</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <bibref><title render="italic">"Diet as a means of combating acidosis,"</title> (reprinted from <title render="underline">American Medicine</title>, <imprint><date type="publication">June 1916</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <bibref><title render="italic">"Diet as a means of increasing vital resistance in tuberculosis, with special reference to the protein ration,"</title> (reprinted from <title render="underline">Medical Record</title>, <imprint><date type="publication">February 13, 1909</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <bibref><title render="italic">"Diet,"</title> (reprinted from I <title render="underline">Illinois Medical Journal</title>, <imprint><date type="publication">1927</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <bibref><title render="italic">"Dietetic fads."</title><imprint>(n.p. <date type="publication">undated</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <bibref><title render="italic">"Dietetic importance of Florida fruits,"</title><imprint>(Senate document No. 7, 74th Congress, 1st Session. Washington, D.C. <date type="publication">1935</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+          <odd>
+            <p>[from <title render="italic">The Herald</title>, Miami, Fla., July 1, 1934]</p>
+          </odd>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <bibref><title render="italic">"The dietetic value of fruits,"</title> (reprinted from <title render="underline">Modern Medicine</title>, <imprint><date type="publication">December 1897</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <bibref><title render="italic">"The dietetic value of sugar,"</title> (reprinted from <title render="underline">Good Health</title>, <imprint><date type="publication">November 1894</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <bibref>Besredka, A. <title render="italic">"Doctor Tissier and his work at the Pasteur Institute,"</title> translated by John Harvey Kellogg), (reprinted from <title render="underline">Bulletin of the Battle Creek Sanitarium and Hospital Clinic</title>, <imprint><date type="publication">April 1929</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <bibref><title render="italic">"Domestic sanitation,"</title> (reprinted from <title render="underline">Annual Report of the Michigan State Board of Health</title>, <imprint><date type="publication">1881</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <bibref><title render="italic">"The effects of smoking on blood pressure,"</title><imprint>(Battle Creek <date type="publication">undated</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <bibref><title render="italic">"The electric-light bath."</title><imprint>(np. <date type="publication">undated</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <bibref><title render="italic">"Electro-gymnastics as a means of increasing metabolic activity,"</title> (reprinted from <title render="underline">Journal of Advanced Therapeutics</title>, <imprint><date type="publication">May 1915</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <bibref><title render="italic">"Electrotherapeutics in chronic maladies,"</title> (reprinted from <title render="underline">Modern Medicine</title>, <imprint><date type="publication">October-November 1904</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <bibref><title render="italic">"Eugenics and euthenics,"</title> (reprinted from <title render="underline">Good Health</title>, <imprint><date type="publication">August 1921</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <bibref><title render="italic">"The eugenics registry."</title><imprint>(n.p. <date type="publication">undated</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <bibref><title render="italic">"The evil effects of alcohol,"</title> (reprinted from <title render="underline">Good Health</title>, <imprint><date type="publication">March 1898</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <bibref><title render="italic">"The evils of fashionable dress, and how to dress healthfully."</title><imprint>(Battle Creek <date type="publication">1876</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <bibref><title render="italic">"An exact method for determining the capacity of the stomach and the amount or residual contents,"</title> (reprinted from <title render="underline">Modern Medicine</title>, <imprint><date type="publication">July 1896</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <bibref><title render="italic">"An exhalation tube for lung development in the treatment of pulmonary consumption,"</title> (reprinted from <title render="underline">Modern Medicine</title>, <imprint><date type="publication">November 1894</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <bibref><title render="italic">"Experience proves the advantages of a meatless diet."</title><imprint>(Battle Creek <date type="publication">1928</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <bibref><title render="italic">"Experimental inquiries respecting the physiological effects of alcohol."</title><imprint>(n.p., c1893</imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <bibref><title render="italic">"Experimental research relating to salivary secretion and digestion,"</title> (reprinted from <title render="underline">Modern Medicine</title>, <imprint><date type="publication">February, May 1895</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <bibref><title render="italic">"Experimental researches respecting the relation of dress to pelvic disease in women,"</title> (reprinted from <title render="underline">Transactions of the Michigan State Medical Society</title> <imprint><date type="publication">1888</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <unittitle>
+              <bibref>
+                <title render="italic">"The factor of safety in the human body."</title>
+              </bibref>
+            </unittitle>
+          </did>
+          <c03 level="item">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>
+                <bibref><imprint>(--, Battle Creek <date type="publication">undated</date></imprint>)</bibref>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="item">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>
+                <bibref><imprint>(--, Battle Creek <date type="publication">undated</date></imprint>)</bibref>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <bibref><title render="italic">"Filth germs in meat."</title><imprint>(Battle Creek <date type="publication">1928</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <bibref><title render="italic">"The first observed cases of Friedreich's ataxia in America,"</title> (reprinted from <title render="underline">The Medical Record</title>, <imprint><date type="publication">March 7, 1914</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <bibref><title render="italic">"Fletcherizing the oyster."</title><imprint>(Battle Creek <date type="publication">1928</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <unittitle>
+              <bibref><title render="italic">"Florida sunshine and moonshine."</title><imprint>(Westerville, Ohio: The American Issue Publishing Company <date type="publication">1929</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <bibref><title render="italic">"The flowers at evening prayer."</title><imprint>(n.p. <date type="publication">undated</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <bibref><title render="italic">"Food value of oranges,"</title> (reprinted from <title render="underline">California Fruit Growers Exchange</title> <imprint><date type="publication">undated</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <bibref><title render="italic">"Good health and how to preserve it."</title><imprint>(Battle Creek <date type="publication">1874</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <bibref>
+                <title render="italic">"Graphic methods of recording diseased conditions of the lungs, and a new form of pneumograph."</title>
+              </bibref>
+            </unittitle>
+          </did>
+          <c03 level="item">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>
+                <bibref>[copy 1] <imprint>(n.p. <date type="publication">1890</date></imprint>)</bibref>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="item">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>
+                <bibref>[copy 2] (reprinted from. <title>The Sanitarian</title>, <imprint><date type="publication">December 1890</date></imprint>)</bibref>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <bibref><title render="italic">"The graphic study of electrical currents in relation to therapeutics, with special reference to the sinusoidal current,"</title> (reprinted from the <title render="underline">Journal of the American Medical Association</title> [1893 ?] <imprint>Battle Creek <date type="publication">1902</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <bibref><title render="italic">"The great destroyer."</title><imprint>(n.p. <date type="publication">undated</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <bibref><title render="italic">"Guelpa's discovery: The importance of fasting in the treatment of diabetes,"</title> (reprinted from <title render="underline">New York Medical Journal</title>, <imprint><date type="publication">March 1916</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <bibref><title render="italic">"Habits in relation to longevity,"</title><imprint>(Battle Creek <date type="publication">1928</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <bibref>Boldyreff, W.N. <title render="italic">"The harm of tobacco smoke"</title> <imprint>(4th ed., with foreword by John Harvey Kellogg. Battle Creek <date type="publication">1930</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <bibref><title render="italic">"Healing magic."</title><imprint>(n.p. <date type="publication">1923</date>?</imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <bibref><title render="italic">"The health decalogue."</title><imprint>(Battle Creek <date type="publication">1919</date> [two different copies]</imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <bibref><title render="italic">"Hot weather diet,"</title> (reprinted from <title render="underline">Good Health</title>, <imprint><date type="publication">June 1897</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <bibref><title render="italic">"How much does hypertension influence life duration or expectation?,"</title><imprint>(n.p. <date type="publication">undated</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <bibref><title render="italic">"How not to be fat."</title><imprint>(n.p. <date type="publication">1893</date>?</imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <bibref><title render="italic">"How to get well fast."</title><imprint>(Battle Creek <date type="publication">1882</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <bibref><title render="italic">"How typhoid fever is propagated,"</title> (reprinted from <title render="underline">American Lancet</title>, <imprint><date type="publication">1889</date>?</imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <bibref><title render="italic">"Hydriatic measures for regulating blood pressure,"</title><imprint>(reprinted from Rational hydrotherapy. Philadelphia <date type="publication">1902</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <bibref><title render="italic">"The hydriatic method of the treatment of cardiac disease,"</title> (reprinted from <title>Modern Medicine</title> <imprint><date type="publication">1908</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <bibref><title render="italic">"Hydriatic substitutes for alcohol,"</title> (reprinted from <title render="underline">Bulletin of the American Medical Temperance Association</title>, <imprint><date type="publication">October 1901</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <bibref><title render="italic">"The hydriatic treatment of chronic disorders."</title><imprint>(n.p. <date type="publication">1901</date>?</imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <bibref><title render="italic">"The hydriatic treatment of tuberculosis,"</title> (reprinted from <title render="underline">The Medical News</title> <imprint><date type="publication">November 10, 17, 24, 1900</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <bibref><title render="italic">"Hydrotherapy in cardio-Vascular disorders,"</title> (reprinted from <title render="underline">Illinois Medical Journal</title> <imprint><date type="publication">March 1916</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <bibref><title render="italic">"The ideal sanitarium."</title><imprint>(n.p. <date type="publication">1890</date>?</imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <bibref><title render="italic">"The immorality of smoking,"</title> (reprinted from <title render="underline">Good Health</title>, <imprint><date type="publication">December 1922</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <bibref><title render="italic">"The importance of intestinal asepsis and antisepsis in abdominal surgery,"</title> (reprinted from <title render="underline">Modern Medicine and Bacteriological Review</title>, <imprint><date type="publication">1895</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <bibref><title render="italic">"Important new discoveries relating to digestion,"</title> (reprinted from <title render="underline">Good Health</title> <imprint>(<date type="publication">1892</date>?</imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <bibref><title render="italic">"An improved instrument for draining the abdominal cavity after lavage in abdominal section,"</title> (reprinted from <title render="underline">Journal of the American Medical Association</title>, <imprint><date type="publication">February 23, 1895</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <bibref><title render="italic">"The incandescent electric light, or radiant heat bath."</title><imprint>(n.p., c1895</imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <bibref><title render="italic">"Incompetency of the ileocecal valve-disorders arising from this condition and their treatment,"</title> (reprinted from <title render="underline">The Medical Record</title>, <imprint><date type="publication">June 21, 1913</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <bibref><title render="italic">"Incompetency of the ileocecal valve the most common cause of ileal stasis,"</title> (reprinted from <title render="underline">The Lancet-Clinic</title>, <imprint><date type="publication">May 29, 1915</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <bibref><title render="italic">"Incompetency of the ileocecal valve vs. Lane's kink as the cause of ileac stasis,"</title> (reprinted from <title render="underline">The Medical Record</title>, <imprint><date type="publication">September 8, 1917</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <bibref><title render="italic">"Increasing trench miseries."</title><imprint>(Battle Creek <date type="publication">undated</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <bibref><title render="italic">"The influence of alcohol upon urinary toxicity, and its relation to the medical use of alcohol,"</title> (reprinted from <title render="underline">Bulletin of the American Medical Temperance Association</title>, <imprint><date type="publication">November 1895</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <bibref><title render="italic">"The influence of different kinds of oil, introduced into the rectum, on gastric secretion,"</title> (reprinted from <title render="underline">The Archives of Internal</title>, <imprint><date type="publication">November 1924</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <bibref><title render="italic">"The influence of dress in producing the physical decadence of American women."</title><imprint>(Battle Creek, c1891</imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <bibref><title render="italic">"The influence of irritating substances on the secretion of gastric juice (chemical phase),"</title> (reprinted from the special issue of the <title render="underline">Bulletin of the Battle Creek Sanitarium and Hospital Clinic</title>, <imprint><date type="publication">October 1929</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <bibref><title render="italic">"Intensive methods of applying heat,"</title> (reprinted from <title render="underline">Physical Therapeutics</title>, <imprint><date type="publication">October 1927</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <bibref><title render="italic">"Intestinal stasis: Its significance and methods of combating it,"</title> (reprinted from <title render="underline">The State Hospital Quarterly</title>, <imprint><date type="publication">August 1923</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <bibref><title render="italic">"Intestinal stasis."</title><imprint>(n.p. <date type="publication">undated</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <bibref><title render="italic">"Is smoking harmful?,"</title> (reprinted from <title render="underline">Good Health</title> <imprint><date type="publication">April 1927</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <bibref><title render="italic">"It pays to be good,"</title><imprint>(n.p., c1916</imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <bibref><title render="italic">"[F.J.] Kellogg's obesity cures and other frauds,"</title> (reprinted from <title render="underline">Journal of the American Medical Association</title> <imprint><date type="publication">undated</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <bibref><title render="italic">"Lawson Tait,"</title> (reprinted from <title render="underline">Surgery, Gynaecology and Obstetrics</title> <imprint><date type="publication">May 1930</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <bibref><title render="italic">"Lawson Tait and his contributions to abdominal surgery,"</title> (reprinted from <title render="underline">Transactions of the American Association of Obstetricians Gynecologists and Abdominal Surgeons</title> <imprint><date type="publication">1927</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <bibref><title render="italic">"The liver."</title><imprint>(Battle Creek <date type="publication">1882</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <bibref><title render="italic">"The liver of dyspeptics."</title><imprint>(n.p. <date type="publication">undated</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <bibref><title render="italic">"Manual of explanations of a series of charts illustrating anatomy, physiology and hygiene."</title><imprint>(Chicago <date type="publication">undated</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <bibref><title render="italic">"Massage,"</title> (reprinted from <title render="underline">Good Health</title> <imprint>c1890</imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <bibref><title render="italic">"The measure of a man."</title><imprint>(Battle Creek <date type="publication">undated</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <bibref><title render="italic">"Method for changing and reforming the intestinal flora,"</title> (reprinted from <title render="underline">American Medicine</title> <imprint><date type="publication">June 1916</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <bibref><title render="italic">"Methods of precision in the investigation of disorders of digestion."</title><imprint>(Battle Creek <date type="publication">1896</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <bibref><title render="italic">"Microbes and indigestion,"</title> (reprinted from <title render="underline">Modern Medicine</title> <imprint><date type="publication">March 1895</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <bibref><title render="italic">"Migraine, its causes and radical cure,"</title> (reprinted from <title render="underline">Modern Medicine and Bacteriological Review</title> <imprint><date type="publication">October 1894</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <bibref><title render="italic">"More nuts-less meat,"</title><imprint>(n.p., c1930</imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <bibref><title render="italic">"Milk as a food unsuited for the diet of adults,"</title> (reprinted from <title render="underline">Modern Medicine and Bacteriological Review</title> <imprint><date type="publication">May 1895</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <bibref><title render="italic">"Moulds in the stomach,"</title> (reprinted from <title render="underline">The Medical News</title> <imprint><date type="publication">July 21, 1900</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <unittitle>
+              <bibref><title render="italic">"Movable kidney,"</title> (reprinted from <title render="underline">Modern Medicine</title> <imprint><date type="publication">December 1893</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <bibref><title render="italic">"A national disgrace is our method for dealing with the insane,"</title> (reprinted from <title render="underline">Good Health</title> <imprint><date type="publication">June 1926</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <bibref><title render="italic">"The natural man as a vegetarian,"</title> (reprinted from <title render="underline">Good Health</title> <imprint><date type="publication">undated</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <bibref><title render="italic">"Needed-a new human race."</title><imprint>(Battle Creek <date type="publication">1914</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <bibref><title render="italic">"A new and successful method of treatment of the opium habit and other forms of drug addiction,"</title> (reprinted from <title render="underline">Modern Medicine</title> <imprint><date type="publication">June-July 1898</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <bibref><title render="italic">"The new dietary."</title><imprint>(Battle Creek <date type="publication">1899</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <bibref><title render="italic">"A new dynamometer for use in anthropometry."</title><imprint>(n.p. <date type="publication">undated</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <bibref><title render="italic">"A new food for diabetics,"</title> (reprinted from <title render="underline">Good Health</title> <imprint><date type="publication">August 1896</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <bibref><title render="italic">"New form of posterior colporrhaphy,"</title> (reprinted from <title render="underline">Boston Medical and Surgical Journal</title> <imprint><date type="publication">undated</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <bibref><title render="italic">"A new form of suture pin for use in perineorrhaphy,"</title> (reprinted from <title render="underline">Journal of the American Medical Association</title> <imprint><date type="publication">November 19, 1887</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <bibref><title render="italic">"A new method for the radical treatment or femoral hernia,"</title> (reprinted from <title render="underline">Transactions of the Michigan State Medical Society</title> <imprint><date type="publication">June 1896</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <bibref><title render="italic">"A new method of operating or hemorrhoids,"</title> (reprinted from <title render="underline">Bacteriological World and Modern Medicine</title> <imprint><date type="publication">February 1892</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <bibref><title render="italic">"A now procedure for suspension of the pelvic colon,"</title> (reprinted from <title render="underline">American Journal of Surgery</title> <imprint><date type="publication">April 1917</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <bibref><title render="italic">"The non-surgical treatment of ovarian diseases,"</title> (reprinted from <title render="underline">Modern Medicine and Bacteriological Review</title> <imprint><date type="publication">1893</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <bibref><title render="italic">"The non-surgical treatment of the pelvic disorders of women,"</title> (reprinted <title render="underline">Transactions of the Michigan State Medical Society</title> <imprint><date type="publication">June 1896</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <bibref><title render="italic">"Normal colon habits,"</title> (reprinted from Irving Fisher and Haven Emerson, How to Live <imprint>(20th ed. New York <date type="publication">1938</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <bibref><title render="italic">"Observations on the relations of posture to health and a new method of studying posture and development,"</title> (reprinted from <title render="underline">Bulletin of the Battle Creek Sanitarium and Hospital Clinic</title> <imprint><date type="publication">September 1927</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <bibref><title render="italic">"An oculo-neurological fad,"</title> (reprinted from <title render="underline">Modern Medicine and Bacteriological Review</title> <imprint><date type="publication">December 1894</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <bibref><title render="italic">"Outline studies of the human figure, 2nd ed,"</title><imprint>(Battle Creek <date type="publication">undated</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <bibref><title render="italic">"Oxygen enemata,"</title> (reprinted from <title render="underline">The Therapeutic Gazette</title> <imprint><date type="publication">September 15, 1887</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <bibref><title render="italic">"Oxygen enemata as a remedy in certain diseases of the liver and intes tinal tract,"</title> (reprinted from <title render="underline">Journal of the American Medical Association</title> <imprint><date type="publication">August 25, 1888</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">7</container>
+            <unittitle>
+              <bibref><title render="italic">"Outline of the Organization of Christian Help Bands,"</title><imprint>(n.p. <date type="publication">undated</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle>
+              <bibref><title render="italic">"The paraffin treatment of constipation,"</title> (reprinted from <title render="underline">New York Medical Journal</title> <imprint><date type="publication">September 12, 1914</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle>
+              <bibref><title render="italic">"A perfectly aseptic drainage-tube,"</title> (reprinted from <title render="underline">Modern Medicine and Bacteriological Review</title>, <imprint><date type="publication">1895</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle>
+              <bibref><title render="italic">"Pernicious packing-house piffle,"</title> (reprinted from <title render="underline">Good Health</title>, <imprint><date type="publication">April 1931</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle>
+              <bibref><title render="italic">"Pernicious piffle,"</title> (reprinted from <title render="underline">Good Health</title> <imprint><date type="publication">, July 1922</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle>
+              <bibref><title render="italic">"The philosophy of getting well."</title><imprint>(n.p., c1882</imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle>
+              <bibref><title render="italic">"Phototherapy in chronic diseases,"</title> (reprinted from <title render="underline">The Journal of Advanced Therapeutics</title> <imprint><date type="publication">, February 1905</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle>
+              <bibref><title render="italic">"Physical coefficients,"</title> (reprinted from <title render="underline">Modern Medicine and Bacteriological Review</title>, <imprint><date type="publication">July 1895</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle>
+              <bibref><title render="italic">"Physical deterioration resulting from school life: causes; remedy."</title><imprint>(n.p., c1896</imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle>
+              <bibref><title render="italic">"The physical effects of alcohol and tobacco."</title><imprint>(Battle Creek, c1882</imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle>
+              <bibref><title render="italic">"Plication of the hernial sac in operating for femoral hernia,"</title> (reprinted from <title render="underline">American Journal of Surgery</title>, New Series, <imprint><date type="publication">undated</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle>
+              <bibref><title render="italic">"Poison bullets,"</title> (reprinted from <title render="underline">Good Health</title>, <imprint><date type="publication">November 1917</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle>
+              <bibref><title render="italic">"Pork, or the dangers of pork-eating exposed."</title><imprint>(Battle Creek <date type="publication">1897</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle>
+              <bibref><title render="italic">"Practical suggestions respecting the ventilation of buildings,"</title> (reprinted from <title render="underline">Report of the Michigan State Board of Health</title>, <imprint><date type="publication">1891</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle>
+              <bibref><title render="italic">"Progress in dietetics. Two new cereal foods,"</title> (reprinted from <title render="underline">Good Health</title> <imprint><date type="publication">undated</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle>
+              <bibref><title render="italic">"Prohibition not a failure,"</title> (reprinted from <title render="underline">Good Health</title>, <imprint><date type="publication">March 1923</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle>
+              <bibref><title render="italic">"Prolapsed colon,"</title> (reprinted from <title render="underline">Modern Medicine</title>, <imprint><date type="publication">November 1893</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle>
+              <bibref><title render="italic">"Pyorrhea a meat eater's disorder."</title><imprint>(n.p. <date type="publication">undated</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle>
+              <bibref><title render="italic">"Pythagoras on the ethics of diet."</title><imprint>(Battle Creek <date type="publication">1928</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle>
+              <bibref><title render="italic">"The radical cure of retro-displacements of the uterus and procidentia by Alexander's operation and median colporrhaphy,"</title> (reprinted from <title render="underline">Transactions of the Michigan State Medical Society</title>, <imprint><date type="publication">1887</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle>
+              <bibref><title render="italic">"Rational gynecology,"</title> (reprinted from <title render="underline">The Medical News</title>, <imprint><date type="publication">December 18, 1897</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle>
+              <bibref><title render="italic">"Rational physical therapy,"</title> (reprinted from <title render="underline">Physical Therapeutics</title>, <imprint><date type="publication">undated</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle>
+              <bibref><title render="italic">"Rational 'rest-cure',"</title> (reprinted from <title render="underline">Modern Medicine</title>, <imprint><date type="publication">November 1893</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle>
+              <bibref><title render="italic">"The rational treatment of consumption,"</title> (reprinted from <title render="underline">Detroit Lancet</title>, <imprint><date type="publication">July 1882</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle>
+              <bibref><title render="italic">"Recent statistics of heart disease, with special reference to its increasing incidence,"</title> (reprinted from <title render="underline">Journal of the American Medical Association</title>, <imprint><date type="publication">May 15, 1920</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle>
+              <bibref><title render="italic">"Relation of diet to dental caries and mouth infection."</title><imprint>(n.p., c1915</imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle>
+              <bibref><title render="italic">"Relation of habits to life expectancy,"</title> (reprinted from <title render="underline">Good Health</title>, <imprint><date type="publication">1918</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle>
+              <bibref><title render="italic">"The relation of intestinal bacteria to human welfare."</title><imprint>(n.r. <date type="publication">undated</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle>
+              <bibref><title render="italic">"The perfected posture chair,"</title> (reprinted from <title render="underline">Good Health</title>, <imprint><date type="publication">December 1930</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle>
+              <bibref><title render="italic">"Relation of preventable sickness to taxation,"</title> (reprinted from <title render="underline">Report of the Michigan State Board of Health</title>, <imprint><date type="publication">1880</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle>
+              <bibref><title render="italic">"Relation of public health to race degeneracy,"</title> (reprinted from <title render="underline">American Journal of Public Health</title>, <imprint><date>c1913</date>)</imprint></bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle>
+              <bibref><title render="italic">"The relation of recent bacteriological studies to the etiology of typhoid fever."</title><imprint>(n.p., c1893</imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle>
+              <bibref><title render="italic">"The relation of static disturbances of the abdominal viscera to displacements of the pelvic organs,"</title> (reprinted from <title>Proceedings of the International Periodical Congress of Gynecology and Obstetrics</title>, <imprint><date type="publication">1892</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle>
+              <bibref><title render="italic">"The relation of the chemistry and bacteriology of the stomach to dental caries,"</title> (reprinted from <title>Dental Register</title>, <imprint>c <date type="publication">1897</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle>
+              <bibref><title render="italic">"A renal calculus of unusual size. Nephrectomy -- recovery,"</title> (reprinted from <title>Bacteriological World and Modern Medicine</title>, <imprint><date type="publication">September 1892</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle>
+              <bibref><title render="italic">"Report on twelve cases of Alexander's operation,"</title> (reprinted from <title render="underline">Journal of the American Medical Association</title>, <imprint><date type="publication">August ?0, 1887</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle>
+              <bibref><title render="italic">"Report of twenty-five cases of Alexander's operation,"</title> (reprinted from <title render="underline">Annals of Gynecology</title>, <imprint><date type="publication">December 1887</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle>
+              <bibref><title render="italic">"Report of forty-eight cases of Alexander's operation,"</title> (reprinted from <title render="underline">Journal of the American Medical Association</title>, <imprint><date type="publication">December 8, 1888</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle>
+              <bibref><title render="italic">"Report of sixty-three cases of Alexander's operation,"</title> (reprinted from Transactions of the <title>American Association of Obstetricians and Gynecologists</title>, <imprint><date type="publication">September 1888</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle>
+              <bibref><title render="italic">"Report of seventy-three cases of Alexander's operation for shortening the round ligaments, and description of an improved method of operation,"</title> (reprinted from <title render="underline">Proceedings of the Michigan State Medical Society</title>, <imprint><date type="publication">1889</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle>
+              <bibref><title render="italic">"Report of fifty-two consecutive cases of ovariotomy, including two of hysterectomy,"</title> (reprinted from <title render="underline">Transactions of the Michigan State Medical Society</title>, <imprint><date type="publication">1890</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle>
+              <bibref><title render="italic">"Report of the sanitarium hospital, Battle Creek, Mich., 1889-1891"</title> (reprinted from <title render="underline">Bacteriological World and Modern Medicine</title>, <imprint><date type="publication">February 1892</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle>
+              <bibref><title render="italic">"The results obtained by use of diphtheria antitoxin,"</title> (reprinted from <title render="underline">Proceedings of the Third Annual Conference of Health Officers in Michigan</title>, <imprint><date type="publication">1896</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle>
+              <bibref><title render="italic">"Rhubarb a poison food,"</title> (reprinted from <title render="underline">Good Health</title>, <imprint><date type="publication">May 1917</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle>
+              <bibref><title render="italic">"Les romans. Cinquieme mille."</title><imprint>(Bale <date type="publication">1892</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <bibref>
+                <title render="italic">"Rules for right living."</title>
+              </bibref>
+            </unittitle>
+          </did>
+          <c03 level="item">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>
+                <bibref><imprint>(Battle Creek <date type="publication">1935</date></imprint>)</bibref>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="item">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>
+                <bibref><imprint>(Battle Creek <date type="publication">1947</date> [two different copies]</imprint>)</bibref>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle>
+              <bibref><title render="italic">"Safety methods in the care of surgical patients,"</title> (from <title render="underline">American Journal of Surgery</title> <imprint><date type="publication">October 1920</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle>
+              <bibref><title render="italic">"Sanitarium methods,"</title> (reprinted from <title render="underline">Bacteriological World and Modern Medicine</title>, <imprint><date type="publication">March 1892</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle>
+              <bibref><title render="italic">"The 'sanitarium method' of dealing with chronic invalids,"</title> (reprinted from <title render="underline">Journal of the American Medical Association</title>, <imprint><date type="publication">September 19, 1806</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle>
+              <bibref><title render="italic">"Sanitary associations,"</title> (reprinted from <title render="underline">Report of the Michigan State Board of Health</title>, <imprint><date type="publication">1879</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle>
+              <bibref><title render="italic">"A series of exercises, based upon the system of Ling..."</title> (Battle Creek, <imprint><date type="publication">1891</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle>
+              <bibref><title render="italic">"Shortening the round ligaments vs. ventral fixation for tetroversion,"</title> (reprinted from <title render="underline">Modern Medicine and Bacteriological Review</title>, <imprint><date type="publication">May 1894</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle>
+              <bibref><title render="italic">"Should an athlete eat meat?"</title><imprint>(Battle Creek, c1928</imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle>
+              <bibref><title render="italic">"Should the colon be sacrificed or May it be reformed?,"</title> (reprinted from <title render="underline">Journal of the American Medical Association</title> <imprint><date type="publication">June 30, 1917</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle>
+              <bibref><title render="italic">"The simple life in a nutshell,"</title><imprint>(Battle Creek, n.d.[three different editions, none with dates]</imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle>
+              <bibref><title render="italic">"A simple method of approximating the proper ration for a diabetic patient,"</title> (reprinted from <title render="underline">Journal of the American Medical Association</title>, <imprint><date type="publication">September 1923</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle>
+              <bibref><title render="italic">"A simple method of shortening the round ligaments of the uterus for the cure of retroversion,"</title> (reprinted from <title render="underline">Medical Record</title>, <imprint><date type="publication">April 22, 1916</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle>
+              <bibref><title render="italic">"Sit up-don't sit down: the perfect chair at last,"</title> (reprinted from <title>Good Health</title>, <imprint><date type="publication">November 1931</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle>
+              <bibref><title render="italic">"Report of sixty cases of uterine myomata treated by electrolysis, with descriptions of new forms of electrodes and a coulombmeter,"</title> (reprinted <title render="underline">The Times and Register</title>, <imprint><date type="publication">February 7, 1891</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle>
+              <bibref><title render="italic">"The smoker's heart,"</title><imprint>(Battle Creek <date type="publication">undated</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle>
+              <bibref><title render="italic">"The smoker's liver."</title><imprint>(Battle Creek, n.d.</imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle>
+              <bibref><title render="italic">"Something every hospital needs,"</title> (reprinted from <title render="underline">Hospital Management</title>, <imprint><date type="publication">February 1924</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle>
+              <bibref><title render="italic">"Soybeans as human food,"</title><imprint>(Battle Creek, c <date type="publication">1930</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle><title render="italic">"Special health values of the soybean,"</title><date type="publication">1937</date>)</unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle>
+              <bibref><title render="italic">"Special gymnastics for the treatment of spinal curvature,"</title><imprint>(Battle Creek <date type="publication">1897</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle>
+              <bibref><title render="italic">"Special sanitariums for the treatment of disorders of the stomach,"</title> (reprinted from <title render="underline">Modern Medicine</title>, <imprint><date type="publication">May 1897</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle>
+              <bibref><title render="italic">"Stefansson's tallow-eating stunt,"</title> (reprinted from <title render="underline">Good Health</title>, <imprint><date type="publication">August 1929</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle>
+              <bibref><title render="italic">"A study of the mechanism of gastric contractions,"</title> (reprinted from the special issue of the <title render="underline">Bulletin of the Battle Creek Sanitarium and Hospital Clinic</title>, <imprint><date type="publication">October 1929</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle>
+              <bibref><title render="italic">"Suggestions toward checking race degeneracy due to the condition of school life,"</title> (reprinted from <title render="underline">Hygiene and Physical Education</title>, <imprint><date type="publication">May-July 1909</date> [two different issues]</imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle>
+              <bibref><title render="italic">"Summary of my personal experience with electrolysis in the treatment of fibroid tumors,"</title> (reprinted from <title render="underline">The Times and Register</title>, <imprint><date type="publication">November 21, 1891</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle>
+              <bibref><title render="italic">"Sunlight,"</title> (reprinted from <title render="underline">Welfare</title>, <imprint><date type="publication">October 1927</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle>
+              <bibref><title render="italic">"The supreme importance of clean, uncooked milk for infants and children and the defects of pasteurized milk,"</title> (reprinted from <title>Good Health</title>, <imprint><date type="publication">August 1921</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle>
+              <bibref><title render="italic">"Surgery of the ileocecal valve,"</title> (reprinted from <title render="underline">Surgery, Gynaecology and Obstetrics</title>, <imprint><date type="publication">November 1918</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle>
+              <bibref><title render="italic">"The surgical treatment of retroversion of the uterus,"</title> (reprinted from <title render="underline">Bacteriological World and Modern Medicine</title>, <imprint><date type="publication">August 1892</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle>
+              <bibref><title render="italic">"Technic of operation for repair of the ileocecal valve, with summary of the results in a series of twenty-six operations,"</title> (reprinted from <title render="underline">Annals of Surgery</title>, <imprint><date type="publication">January 1918</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle>
+              <bibref><title render="italic">"Ten old arguments for flesh-eating answered by modern science."</title><imprint>(n.p. <date type="publication">undated</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <unittitle>
+              <bibref>
+                <title render="italic">"Tendencies toward race degeneracy,"</title>
+              </bibref>
+            </unittitle>
+          </did>
+          <c03 level="item">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>
+                <bibref>([copy 1] (reprinted from <title render="underline">New York Medical Journal</title>, <imprint><date type="publication">September 9, 1911</date></imprint>)</bibref>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="item">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>
+                <bibref>([copy 2] Senate document no. 648, 62nd Congress, 2nd Session. <imprint>Washington, D.C. <date type="publication">1912</date></imprint>)</bibref>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle>
+              <bibref><title render="italic">"Treatment of colitis by changing the intestinal flora,"</title> (reprinted from <title render="underline">Bulletin of the Battle Creek Sanitarium And Hospital Clinic</title>, <imprint><date type="publication">January 1928</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle>
+              <bibref><title render="italic">"Treatment of constipation,"</title> (reprinted from <title render="underline">Medical Journal and Record</title>, <imprint><date type="publication">August 18, 1926</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle>
+              <bibref><title render="italic">"The truth about alcohol as a medicine."</title><imprint>(Battle Creek <date type="publication">1906</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle>
+              <bibref><title render="italic">"The truth about fasting,"</title> (reprinted from <title render="underline">Modern Medicine</title>, <imprint><date type="publication">September 1908</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle>
+              <bibref><title render="italic">"Tuberculosis. Relation of the disease in the milk and flesh of animals to the same malady in human beings,"</title> (reprinted from <title render="underline">Proceedings of the National Livestock Sanitary Convention</title>, <imprint><date type="publication">1894</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle>
+              <bibref><title render="italic">"The turkey buzzard's liver,"</title> (reprinted from <title>Good Health</title>, <imprint><date type="publication">May 1919</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle>
+              <bibref><title render="italic">"Two new electrodes,"</title> (reprinted from <title render="underline">The Times and Register</title>, <imprint><date type="publication">November 14, 1891</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle>
+              <bibref><title render="italic">"Two new fundamental laws of cerebral function, 2nd American ed."</title><imprint>(Battle Creek <date type="publication">undated</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle>
+              <bibref><title render="italic">"The uses of water in health and disease. A practical treatise on the bath, its history and uses."</title><imprint>(Battle Creek <date type="publication">1876</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle>
+              <bibref><title render="italic">"The value of exercise as a therapeutic means in the treatment of the pelvic diseases of women,"</title> (reprinted from <title render="underline">Transactions of the American Association of Obstetricians and Gynecologists</title>, <imprint><date type="publication">September 1890</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle>
+              <bibref><title render="italic">"The value of strength tests in the prescription of exercise."</title><imprint>(Battle Creek <date type="publication">1896</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+          <odd>
+            <p>(two different issues)</p>
+          </odd>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle>
+              <bibref><title render="italic">"Vegetarianism: The kindly fruits of the earth,"</title> (reprinted from <title render="underline">The Arbitrator</title>, <imprint><date type="publication">February 1920</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle>
+              <bibref><title render="italic">"Ventilation,"</title> (reprinted from <title render="underline">Report of the Michigan State Board of Health</title>, <imprint><date type="publication">1884</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle>
+              <bibref><title render="italic">"What is biologic living?,"</title> (reprinted from <title render="underline">Good Health</title>, <imprint><date type="publication">September 1929</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle>
+              <bibref><title render="italic">"What is the matter with the American stomach?"</title><imprint>(Battle Creek <date type="publication">1896</date> [two different issues]</imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle>
+              <bibref><title render="italic">"What scientific men say about meat and meat eating."</title><imprint>(Battle Creek, c1928</imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle>
+              <bibref><title render="italic">"What's the matter with our schools?"</title><imprint>(Battle Creek, c1923</imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle>
+              <bibref><title render="italic">"Why does your head ache?,"</title> (reprinted from <title render="underline">Good Health</title>, <imprint><date type="publication">undated</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle>
+              <bibref><title render="italic">"Why the athlete does not smoke."</title><imprint>(Battle Creek <date type="publication">undated</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle>
+              <bibref><title render="italic">"Why we should eat more potatoes,"</title> (reprinted from <title render="underline">American Potato Journal</title> <imprint><date type="publication">June 1929</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle>
+              <bibref><title render="italic">"The world's greatest authorities pronounce meat unnecessary."</title><imprint>(Battle Creek, c1928</imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle>
+              <bibref><title render="italic">"The world's greatest problem. An address to the students of Battle Creek College."</title><imprint>(n.p. <date type="publication">undated</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle>
+              <bibref><title render="italic">"Your body comes first,"</title> (reprinted from <title render="underline">The Magazine of Michigan</title>, <imprint><date type="publication">March 1930</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle>
+              <bibref><title render="italic">"City medical missions,"</title> (reprinted from <title render="underline">Medical Missionary</title>, <imprint><date type="publication">March-June 1898</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle>
+              <bibref><title render="italic">"Diet helps for doctors."</title><imprint>(Battle Creek <date type="publication">1928</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle><bibref><title render="italic">"Directions for making a personal health survey"</title></bibref> and <bibref><title render="italic">"Personal health survey"</title><imprint><date type="publication">undated</date></imprint>)</bibref></unittitle>
+            <physdesc>
+              <physfacet>typescripts</physfacet>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle>
+              <bibref>
+                <title render="italic">"The Third Race Betterment Conference to be held at Battle Creek</title>
+              </bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle>
+              <bibref><title render="italic">Michigan January 2 to 6, 1928."</title><imprint>(Battle Creek <date type="publication">1927?</date> by Ella Eaton Kellogg:</imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle>
+              <bibref><title render="italic">"Natural food recipes,"</title><imprint>(Battle Creek <date type="publication">undated</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle>
+              <bibref><title render="italic">"Cooking school for instruction in Mrs. Dr. Kellogg's system of scientific cookery."</title><imprint>(Battle Creek <date type="publication">1889</date></imprint>)</bibref>
+            </unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Serials</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">9</container>
+            <unittitle>
+              <bibref>
+                <title render="italic">The Cricket.</title>
+              </bibref>
+            </unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">9</container>
+              <unittitle>Vol. 1, no.1-10 <unitdate type="inclusive" normal="1898-05/1899-06">May 1898-June 1899</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle><title render="italic">The Health Reformer.</title>, <unitdate type="inclusive">1866-</unitdate></unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">9</container>
+              <unittitle>Vols. 1-12 <unitdate type="inclusive" normal="1866/1877">1866-1877</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle><title render="italic">Good Health. A Journal of Hygiene</title>, <unitdate type="inclusive">1878-</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(continuation of The Health Reformer)</p>
+          </odd>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">9</container>
+              <unittitle>Vols. 14 -- 23 <unitdate type="inclusive" normal="1879/1888">1879-1888</unitdate></unittitle>
+            </did>
+            <odd>
+              <p>(wanting Vols. 13, 17, 21)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">10</container>
+              <unittitle>Vols. 24 -- 32 <unitdate type="inclusive" normal="1889/1897">1889-1897</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">11</container>
+              <unittitle>Vols. 33 -- 44 <unitdate type="inclusive" normal="1898/1909">1898-1909</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>Vols. 45 -- 54 <unitdate type="inclusive" normal="1910/1919">1910-1919</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">13</container>
+              <unittitle>Vols. 55 -- 64 <unitdate type="inclusive" normal="1920/1929">1920-1929</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">14</container>
+              <unittitle>Vols. 65 -- 74 <unitdate type="inclusive" normal="1930/1939">1930-1939</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">15</container>
+              <unittitle>Vols. 75 -- 88 <unitdate type="inclusive" normal="1940/1953">1940-1953</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

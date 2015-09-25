@@ -1,0 +1,352 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead.dtd">
+<ead>
+  <eadheader audience="internal" langencoding="iso639-2b" repositoryencoding="iso15511" dateencoding="iso8601" relatedencoding="Dublin Core" scriptencoding="iso15924" countryencoding="iso3166-1">
+    <eadid countrycode="us" mainagencycode="MiU-H" publicid="us//::miu-h//TXT us::miu-h::saundersed.xml//EN" encodinganalog="Identifier">umich-bhl-2014140</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="Title">Finding Aid for Ed Saunders papers</titleproper>
+        <author encodinganalog="Creator">Collection processed and finding aid created by Lexy deGraffenreid</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="Publisher">Bentley Historical Library, University of Michigan</publisher>
+        <date encodinganalog="Date" normal="2014">2014</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created by Olga Virakhovskaya <date>2014</date></creation>
+      <langusage encodinganalog="Language">The finding aid is written in <language langcode="eng" scriptcode="Latn">English</language></langusage>
+      <descrules>Finding aid prepared using Describing Archives: A Content Standard (DACS)</descrules>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date>20150715</date>
+        <item>Corrected extent.</item>
+      </change>
+      <change>
+        <date>2014-10-20</date>
+        <item>Original encoding from Word 2010 file using Word macros and Xmetal.</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <frontmatter>
+    <titlepage>
+      <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
+      <titleproper>Finding aid for <lb/>Ed Saunders Papers, 1983-1997</titleproper>
+      <author>Finding aid created by <lb/>Lexy deGraffenreid, October 2014</author>
+    </titlepage>
+  </frontmatter>
+  <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
+    <did>
+      <origination>
+        <persname source="lcnaf" encodinganalog="100">Saunders, Ed.</persname>
+      </origination>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">1 oversize folder</extent>
+      </physdesc>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">1.5 linear foot</extent>
+      </physdesc>
+      <unittitle encodinganalog="245">Ed Saunders papers <unitdate type="inclusive" encodinganalog="245$f" normal="1983/1997">1983-1997</unitdate></unittitle>
+      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2014140 Aa 2</unitid>
+      <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
+      <abstract>Ed Saunders served the University of Michigan in many capacities, including as Director of the Microcomputer Education Center (1985-1986) and Director of the Information Technology Division's Office of Instructional Technology (1990-1997). Papers include department materials, department publications, and correspondence regarding the development of instructional technology use at the University of Michigan.</abstract>
+      <repository>
+        <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea>, University of Michigan</corpname>
+        <extptr href="bhladd" show="embed" actuate="onload"/>
+      </repository>
+    </did>
+    <descgrp type="admin">
+      <acqinfo encodinganalog="541">
+        <p>The record group was donated by Ed Saunders (donor no. <num type="donor" encodinganalog="541$e">10924</num>) in September 2012.</p>
+      </acqinfo>
+      <accessrestrict encodinganalog="506">
+        <p>The collection is open to research.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+        <p>Copyright is held by the Regents of the University of Michigan.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+        <p>[item], folder, box,
+Ed Saunders papers, Bentley Historical Library, University of Michigan</p>
+      </prefercite>
+    </descgrp>
+    <bioghist encodinganalog="545">
+      <p>Ed Saunders joined the University of Michigan's School of Education in 1981 after serving several years in Wyoming (Mich.) and Grand Rapids (Mich.) public schools.1 He served as a Senior Instructional Associate and Media Consultant at the School of Education's Instructional Strategy Services (1981-1984) and as the Dean's Assistant for Technology (1984-1985). He was later appointed Director of the Microcomputer Education Center (1985-1986), Associate Director of the Computing Center for User Services (1986-1990), and as the Director of the Information Technology Division's Office of Instructional Technology (1990-1997).2 Since 1997 he has served as Deputy Director of the University of Michigan Center for Health Communications Research (CHCR), however these years are not represented in the collection.</p>
+      <p>Sources:</p>
+      <p>Arabic Bilingual-Instructional Technology Grant, 1986-1984, box 1, folder 1, Ed Saunders, records, Bentley Historical Library.</p>
+      <p>Saunders, Ed, e-mail message to Nancy Deromedi, July 31, 2012.</p>
+      <p>"Edward W. Saunders," University of Michigan Center for Health Communications Research, accessed September 30, 2014, http://chcr.umich.edu/person.php?id=474.</p>
+    </bioghist>
+    <arrangement encodinganalog="351">
+      <p>The collection consists of three series representing Saunders' collection of department materials: School of Education, Computing Center, and Information Technology Division.</p>
+    </arrangement>
+    <scopecontent encodinganalog="520">
+      <p>This collection follows Ed Saunders' career at the University of Michigan and includes Saunders' collection of department materials and correspondence. His collections primarily focus on University of Michigan projects aimed at promoting interactive learning with technology.</p>
+    </scopecontent>
+    <controlaccess>
+      <p>
+        <extptr href="accnote" show="embed" actuate="onload"/>
+      </p>
+      <controlaccess>
+        <head>Subjects:</head>
+        <subject source="lcsh" encodinganalog="650">Information technology.</subject>
+        <persname source="lcnaf" encodinganalog="600">Saunders, Ed.</persname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n88650382">University of Michigan. Computing Center.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr92011114">University of Michigan. Information Technology Division.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Office of Instructional Technology.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82098946">University of Michigan. School of Education.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Staff.</corpname>
+      </controlaccess>
+      <controlaccess>
+        <head>Subjects - Visual Materials:</head>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82098946">University of Michigan. School of Education.</corpname>
+      </controlaccess>
+      <controlaccess>
+        <head>Genre Terms:</head>
+        <genreform source="aat" encodinganalog="655">Videotapes.</genreform>
+      </controlaccess>
+    </controlaccess>
+    <dsc type="combined">
+      <c01 level="series">
+        <did>
+          <unittitle>School of Education</unittitle>
+        </did>
+        <scopecontent>
+          <p>The School of Education series, 1986-1984 (0.3 linear feet) consists of a grant proposal and two videocassettes. The grant funded instructional technology use in Arabic-English bilingual education at University of Michigan and includes contextual information about Arabic speaking immigrant communities and available social services in Michigan. The two U-matic videocassettes contain several films by Clark Trow. The first videocassette includes the films "Denmark and its folk Schools", "German Schools and German Youth," "Leningrad and Moscow," and "Handicapped Children and Clinical Types." The second videocassette includes "School of Education Personnel and Activities," "American Experimental Schools," and "American and European Psychologists."</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Arabic Bilingual-Instructional Technology Grant <unitdate type="inclusive" normal="1983/1984">1983-1984</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Clark Trow films <unitdate type="inclusive">undated</unitdate></unittitle>
+            <physdesc>
+              <physfacet>2 U-matic videocassettes</physfacet>
+            </physdesc>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Computing Center</unittitle>
+        </did>
+        <scopecontent>
+          <p>The Computing Center series, 1985-1988 (0.5 linear feet) includes committee records, program records, and several reports. Researchers should note that this series contains University of Michigan's submissions to Apple's Design of the Personal Computer of the Year 2000 competition, where cross-discipline student teams submitted proposals for futuristic personal computer designs. This series also documents the user services support report, a multi-year effort in both the Computing Center and Information Technology Division evaluating user relations on campus.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Committee A <unitdate type="inclusive" normal="1985-04-29">April 29, 1985</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Computing Resources--Past and Present <unitdate type="inclusive" normal="1986-02-27">February 27, 1986</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Consultants exams <unitdate type="inclusive">undated</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>CRC pep rally <unitdate type="inclusive" normal="1987-10-20">October 20, 1987</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Design of the Personal Computer of the Year <unitdate type="inclusive" normal="2000">2000</unitdate>, <unitdate type="inclusive" normal="1987">1987</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Program Statement for the Microcomputer <unitdate type="inclusive" normal="1986">1986</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Report to the Computing Policy Committee <unitdate type="inclusive" normal="1987-05-12">May 12, 1987</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Support report <unitdate type="inclusive" normal="1985/1988">1985-1988</unitdate></unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Computing Center organization <unitdate type="inclusive" normal="1985/1987">1985-1987</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Information Technology Division (ITD) user services project <unitdate type="inclusive" normal="1985/1987">1985-1987</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Support for Information Technology <unitdate type="inclusive" normal="1988">1988</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>User Services Planning Team report <unitdate type="inclusive" normal="1986">1986</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>User services, 611 Church <unitdate type="inclusive" normal="1987">1987</unitdate></unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Information Technology Division</unittitle>
+        </did>
+        <scopecontent>
+          <p>The Information Technology Division series, 1988-1997 (0.8 linear feet plus one outsize folder) documents both U-M's Information Technology Division and its Office of Instructional Technology. This series includes correspondence, proposals, publications, and other associated materials. Included are planning and evaluation documents for Educom '89, a large instructional technology conference held at the University of Michigan. Also included are materials related to VIDS (Video Interactive Distribution System), a project by the Office of Instructional Technology to install an interactive multimedia network on campus.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Brochures <unitdate type="inclusive" normal="1995/1998">1995-1998</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Educom '89 <unitdate type="inclusive" normal="1988/1989">1988-1989</unitdate></unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Program and evaluation <unitdate type="inclusive" normal="1989">1989</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Proposals <unitdate type="inclusive" normal="1988/1989">1988-1989</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Video Planning Committee <unitdate type="inclusive" normal="1988/1989">1988-1989</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Focus on Teaching flyers <unitdate type="inclusive" normal="1991/1996">1991-1996</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Miscellaneous <unitdate type="inclusive" normal="1989/1997">1989-1997</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 folders</extent>
+            </physdesc>
+            <unittitle>New Media Center <unitdate type="inclusive" normal="1993/1999">1993-1999</unitdate></unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Office of Instructional Technology <unitdate type="inclusive" normal="1990/1997">1990-1997</unitdate></unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Guidelines <unitdate type="inclusive" normal="1994/1995">1994-1995</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Miscellaneous <unitdate type="inclusive" normal="1990/1997">1990-1997</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Multimedia White Paper project <unitdate type="inclusive" normal="1990">1990</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Operationalizing Information Technology services <unitdate type="inclusive" normal="1994-07">July 1994</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Project management retreat <unitdate type="inclusive" normal="1995-07-25">July 25, 1995</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>University of Michigan evaluation guidelines for instructional technology projects <unitdate type="inclusive" normal="1995-02">February 1995</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="folder" label="Oversize Folder">1</container>
+            <unittitle>Oversize posters <unitdate type="inclusive" normal="1988/1995">1988-1995</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>VIDS (Video Interactive Distribution System) <unitdate type="inclusive" normal="1990/1992">1990-1992</unitdate></unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Apple-ATG <unitdate type="inclusive" normal="1991-12/1992-05">December 1991-May 1992</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Proposal <unitdate type="inclusive" normal="1990-07/1991-06">July 1990-June 1991</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+    </dsc>
+    <descgrp type="add">
+      <relatedmaterial>
+        <head>Related Materials</head>
+        <p>The Bentley Historical Library has several related collections, including: <list><item><title render="italic" linktype="simple" href="http://quod.lib.umich.edu/b/bhlead/umich-bhl-87114" show="replace" actuate="onrequest">School of Education (University of Michigan) records</title></item><item><title render="italic" linktype="simple" href="http://quod.lib.umich.edu/b/bhlead/umich-bhl-9551" show="replace" actuate="onrequest">Computing Center (University of Michigan) records</title></item><item><title render="italic" linktype="simple" href="http://quod.lib.umich.edu/b/bhlead/umich-bhl-921070" show="replace" actuate="onrequest">Information Technology Division (University of Michigan) records</title></item></list></p>
+      </relatedmaterial>
+    </descgrp>
+  </archdesc>
+</ead>

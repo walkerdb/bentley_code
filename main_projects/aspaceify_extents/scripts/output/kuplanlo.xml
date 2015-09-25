@@ -1,0 +1,955 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead.dtd">
+<ead>
+  <eadheader audience="internal" langencoding="iso639-2b" repositoryencoding="iso15511" dateencoding="iso8601" relatedencoding="Dublin Core" scriptencoding="iso15924" countryencoding="iso3166-1">
+    <eadid countrycode="us" mainagencycode="MiU-H" publicid="us//::miu-h//TXT us::miu-h::kuplanlo.xml//EN" encodinganalog="Identifier">umich-bhl-95104</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="Title">Finding Aid for Louis Kuplan sound recordings, 1970-1978</titleproper>
+        <author encodinganalog="Creator">Collection processed and finding aid created by Frances Forsythe</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="Publisher">Bentley Historical Library, University of Michigan</publisher>
+        <date encodinganalog="Date" normal="2009">2009</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created by Thomas E. Powers <date>2009</date></creation>
+      <langusage encodinganalog="Language">The finding aid is written in <language langcode="eng" scriptcode="Latn">English</language></langusage>
+      <descrules>Finding aid prepared using Describing Archives: A Content Standard (DACS)</descrules>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date>20150625</date>
+        <item>Added missing container label.</item>
+      </change>
+      <change>
+        <date>2009-05-11</date>
+        <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <frontmatter>
+    <titlepage>
+      <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
+      <titleproper>Finding aid for <lb/>Louis Kuplan sound recordings, 1970-1978</titleproper>
+      <author>Finding aid created by <lb/>Frances Forsythe, 1985</author>
+    </titlepage>
+  </frontmatter>
+  <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
+    <did>
+      <origination>
+        <persname source="lcnaf" encodinganalog="100">Kuplan, Louis.</persname>
+      </origination>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">142 reel-to-reel tapes</extent>
+        <extent altrender="carrier">(in 4 boxes)</extent>
+      </physdesc>
+      <unittitle encodinganalog="245">Louis Kuplan sound recordings <unitdate type="inclusive" encodinganalog="245$f" normal="1970/1978">1970-1978</unitdate></unittitle>
+      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">95104 Aa 2</unitid>
+      <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
+      <abstract>Lecturer and consultant on aging, retirement planning, and related topics. Sound recordings of San Francisco television program, "A gift of time," that Kuplan produced and hosted.</abstract>
+      <repository>
+        <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea>, University of Michigan</corpname>
+        <extptr href="bhladd" show="embed" actuate="onload"/>
+      </repository>
+      <physloc>Portions located in offsite storage; prior notification required for access.</physloc>
+    </did>
+    <descgrp type="admin">
+      <acqinfo encodinganalog="541">
+        <p>The tapes came from the University of Michigan Institute of Gerontology (donor no. <num type="donor" encodinganalog="541$e">6160</num>) in 1984.</p>
+      </acqinfo>
+      <accruals encodinganalog="584">
+        <p>No further additions to the papers are expected.</p>
+      </accruals>
+      <accessrestrict encodinganalog="506">
+        <p>The collection is open to research.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+        <p>Copyright is held by the Regents of the University of Michigan.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+        <p>[item], folder, box,
+Louis Kuplan sound recordings, Bentley Historical Library, University of Michigan</p>
+      </prefercite>
+    </descgrp>
+    <bioghist encodinganalog="545">
+      <p>Louis Kuplan was an expert in matters relating to aging and the concerns of the elderly. To focus attention on these issues, Kuplan used the media as much as possible. From 1954 to 1960, he was editor of <title render="italic">Maturity</title> magazine; and from 1970 to 1978, he was moderator and producer of KRON-TV's program in San Francisco entitled "A Gift of Time."</p>
+    </bioghist>
+    <scopecontent encodinganalog="520">
+      <p>The Kuplan collection consists of sound recordings of his television program "A Gift of Time." The collection has been arranged chronologically, dating from 1970 to 1978. The tapes are all 7 in. reel-to-reel and play at 7 1/2 ips. The topics of the programs relate to concerns of the elderly. Guests on the program included important experts in the field of gerontology.</p>
+    </scopecontent>
+    <controlaccess>
+      <p>
+        <extptr href="accnote" show="embed" actuate="onload"/>
+      </p>
+      <controlaccess>
+        <head>Subjects - Sound Recordings:</head>
+        <persname source="lcnaf" encodinganalog="600">Kuplan, Louis, 1906-</persname>
+        <subject source="lcsh" encodinganalog="650">Aging.</subject>
+        <subject source="lcsh" encodinganalog="650">Gerontology.</subject>
+        <subject source="lcsh" encodinganalog="650">Retirement.</subject>
+      </controlaccess>
+      <controlaccess>
+        <head>Genre Terms:</head>
+        <genreform source="aat" encodinganalog="655">Sound recordings.</genreform>
+      </controlaccess>
+    </controlaccess>
+    <dsc type="combined">
+      <c01 level="series">
+        <did>
+          <unittitle>"A gift of time" sound recordings</unittitle>
+          <physdesc>
+            <physfacet>7 in.; 7 1/2 ips</physfacet>
+          </physdesc>
+        </did>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Initial Program <unitdate type="inclusive" normal="1970-02-01">February 1, 1970</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"Physical Health", with Leon Lewis <unitdate type="inclusive" normal="1970-02-08">February 8, 1970</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"Mental Health in the later Years", with Frances M. Carp <unitdate type="inclusive" normal="1970-02-22">February 22, 1970</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"Federal Programs on Aging", with John B. Martin <unitdate type="inclusive" normal="1970-05-03">May 3, 1970</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"Foot Care for the Elderly", with Drs. P. Gardner and L. Levy <unitdate type="inclusive" normal="1970-05-31">May 31, 1970</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"Hearing Problems in the later Years", with Dr. S. H. Baron <unitdate type="inclusive" normal="1970-06-07">June 7, 1970</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"Nutrition and Money Management for the Elderly", with Nilda Gemple, Home Economist, and Louisa Fletcher, Home Economist <unitdate type="inclusive" normal="1970-06-21">June 21, 1970</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"Dental Care", with Herman Kaplan, and Arthur J. Krul <unitdate type="inclusive" normal="1970-06-28">June 28, 1970</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"Interview with older persons", with Harry Sussman -- Jennie M. Charters <unitdate type="inclusive" normal="1970-06-05">June 5, 1970</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"Housing for the Elderly" <unitdate type="inclusive" normal="1971-03-14">March 14, 1971</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"Legislators on Housing" <unitdate type="inclusive" normal="1971-03-21">March 21, 1971</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"Defensive Driving for Older Persons", with Stanley Kilcoyne <unitdate type="inclusive" normal="1971-03-23">March 23, 1971</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"Employment Opportunities", with Elmer H. Maack <unitdate type="inclusive" normal="1971-04-04">April 4, 1971</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"Arthritis and the Older Person", with William C. Kuzell <unitdate type="inclusive" normal="1971-04-18">April 18, 1971</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"The Black Elderly", with Hobart C. Jackson <unitdate type="inclusive" normal="1971-04-25">April 25, 1971</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"Replacement of the Arthritic Hip", with Ralph Soto-Hall <unitdate type="inclusive" normal="1971-05-02">May 2, 1971</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"Education for the Elderly", with Jack London <unitdate type="inclusive" normal="1971-05-09">May 9, 1971</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"San Francisco Senior Hobby Show", with Elean Thomas <unitdate type="inclusive" normal="1971-05-16">May 16, 1971</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"The Family" <unitdate type="inclusive" normal="1971-05-30">May 30, 1971</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"California White House Conference on Aging, Sacramento" <unitdate type="inclusive" normal="1971-06-06">June 6, 1971</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"Safety in Streets", with Genevieve Bayreuther <unitdate type="inclusive" normal="1971-07-11">July 11, 1971</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"Homes for the Aging", with Lloyd W. Halverson <unitdate type="inclusive" normal="1971-07-18">July 18, 1971</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"The Aging Entrepreneur" <unitdate type="inclusive" normal="1971-08-15">August 15, 1971</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"Trade Unions and the Older Member", Part I, with Leo Perliss, AFL-CIO <unitdate type="inclusive" normal="1971-09-05">September 5, 1971</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"Trade Unions and the Older Member", Part II, with Leo Perlis <unitdate type="inclusive" normal="1971-09-12">September 12, 1971</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"Crimes Against the Elderly", with Evelle Younger, California Attorney-General, and Juna Sherwood, his assistant <unitdate type="inclusive" normal="1971-10-03">October 3, 1971</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"The White House Conference on Aging" <unitdate type="inclusive" normal="1971">1971</unitdate> with Arthur S. Flemming, <unitdate type="inclusive" normal="1971-10-24">October 24, 1971</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"Cardiology and the Aging", with Hollister Brewster <unitdate type="inclusive" normal="1971-11-07">November 7, 1971</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"Cardiac Radiology and the Older Patient", with I. Roger Pyle <unitdate type="inclusive" normal="1971-11-14">November 14, 1971</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"Heart Surgery and the Older Person", with Elias S. Hanna <unitdate type="inclusive" normal="1971-11-21">November 21, 1971</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"Emeritus University", with Jeffery Smith <unitdate type="inclusive" normal="1971-12-05">December 5, 1971</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"The Older Chinese", with Lambert Choy <unitdate type="inclusive" normal="1971-12-19">December 19, 1971</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"Interviews at <unitdate type="inclusive" normal="1971">1971</unitdate> WHCOA, Washington, D.C.", with C. Tibbitts, D. Kent, Huet, Fulgrass, <unitdate type="inclusive" normal="1972-01-01">January 1, 1972</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"Interviews at <unitdate type="inclusive" normal="1971">1971</unitdate> WHCOA, Washington, D.C.", with Ewan Claque, H. Cruikshank, Paillat, Hayden, <unitdate type="inclusive" normal="1972-01-16">January 16, 1972</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"California Panel on WHCOA", with Van Frank, Schultz, Kilcoyne <unitdate type="inclusive" normal="1972-01-23">January 23, 1972</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"California Panel Discussion on <unitdate type="inclusive" normal="1971">1971</unitdate> WHCOA", with B. Russell, Dr. Beverfeldt, S. Yuen, <unitdate type="inclusive" normal="1972-01-30">January 30, 1972</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>"California Discussion on <unitdate type="inclusive" normal="1971">1971</unitdate> WHCOA", with J. Levy and Gertrude Hall, <unitdate type="inclusive" normal="1972-02-06">February 6, 1972</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>"Retirement", with Gordon Streib <unitdate type="inclusive" normal="1972-02-20">February 20, 1972</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>"National Council of Senior Citizens", with Nelson Cruikshank <unitdate type="inclusive" normal="1972-02-27">February 27, 1972</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>"Hip Replacement", with R. Soto-Hall, Hugo Kemp <unitdate type="inclusive" normal="1972-03-19">March 19, 1972</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>"Schools of Nursing and the Older Patient", with University of San Francisco School of Nursing <unitdate type="inclusive" normal="1972-03-26">March 26, 1972</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>"The U.S. Senate and the Older American", with Senator Alan Cranston <unitdate type="inclusive" normal="1972-04">April 1972</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>"Panel on Hearing and Speech Problems of Older Persons" <unitdate type="inclusive" normal="1972-04-16">April 16, 1972</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>"Panel Discussion Early Retirement" <unitdate type="inclusive" normal="1972-06-04">June 4, 1972</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>"Panel Discussion on Jobs for Mature Women" <unitdate type="inclusive" normal="1972-06-11">June 11, 1972</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>"Panel Discussion on Early Retirement", Part II <unitdate type="inclusive" normal="1972-06-18">June 18, 1972</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>"Strokes and the Elderly", with W. Bradford DeLong <unitdate type="inclusive" normal="1972-06-18">June 18, 1972</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>"Discussion on Stroke Rehabilitation" <unitdate type="inclusive" normal="1972-07-09">July 9, 1972</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>"Prevention of Blindness", with J.W. Bettman <unitdate type="inclusive" normal="1972-07-16">July 16, 1972</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>"Consumer Health Protection", with California State Senator George Mascone" <unitdate type="inclusive" normal="1972-07-30">July 30, 1972</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>"Changes in Social Security", with John Richardson Regional Directory <unitdate type="inclusive" normal="1972-09-10">September 10, 1972</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>"Home Health Care Services", with Hadley D. Hall <unitdate type="inclusive" normal="1972-10-01">October 1, 1972</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>"Confrontation with Death", with Elizabeth Kubler-Ross <unitdate type="inclusive" normal="1972-10-08">October 8, 1972</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>"Reality Orientation in Rehabilitation", with Lars Peterson and Dorothy Scarbrough <unitdate type="inclusive" normal="1972-10-22">October 22, 1972</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>"The Elderly as Volunteers" <unitdate type="inclusive" normal="1972-11-04">November 4, 1972</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>"Interview with U.S. Senator Alan Cranston" <unitdate type="inclusive" normal="1972-11-12">November 12, 1972</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>"Major Revisions in Social Security" <unitdate type="inclusive" normal="1972-11-19">November 19, 1972</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>"Medicare Revisions Aired" <unitdate type="inclusive" normal="1972-12-03">December 3, 1972</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>"Interview on California Legislation for the Elderly", with California Assemblyman Leo McCarthy <unitdate type="inclusive" normal="1972-12-10">December 10, 1972</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>"San Francisco Downtown Senior Center", with Estella Booth <unitdate type="inclusive" normal="1973-01-09">January 9, 1973</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>"Social Security Changes" <unitdate type="inclusive" normal="1973-01-28">January 28, 1973</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>"Physical Health in the Later Years", with Bernard Blumberg <unitdate type="inclusive" normal="1973-02-04">February 4, 1973</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>"Interview with a Retired Rabbi", with Rabbi A.L. Feinberg <unitdate type="inclusive" normal="1973-02-11">February 11, 1973</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>"Berkeley Senior Center for Black Aged" <unitdate type="inclusive" normal="1973-02-28">February 28, 1973</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>"The Elderly and Cancer", with Drs. Kligerman, Castro, and Rosenbaum <unitdate type="inclusive" normal="1973-03-07">March 7, 1973</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>"Economical and Safe Auto Use", with A. Thomas Rohner <unitdate type="inclusive" normal="1973-03-18">March 18, 1973</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>"Nursing Services for the Elderly", with Ann Allen <unitdate type="inclusive" normal="1973-03-25">March 25, 1973</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>"Meals on Wheels", with Dorrwin Jones <unitdate type="inclusive" normal="1973-04-01">April 1, 1973</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>"Nutrition", with Leona Shapiro <unitdate type="inclusive" normal="1973-04-08">April 8, 1973</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>"Glee Club and Bell Ringers of San Francisco Senior Center" <unitdate type="inclusive" normal="1973-04-22">April 22, 1973</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>"Widows", with Dr. Phyllis R. Silverman <unitdate type="inclusive" normal="1973-05-06">May 6, 1973</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>"San Francisco widow and widower outreach program" <unitdate type="inclusive" normal="1973-05-27">May 27, 1973</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>"California Nursing Homes", with State Assemblyman Leo T. McCarthy <unitdate type="inclusive" normal="1973-06-03">June 3, 1973</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>"Highway Safety for the Older Driver", with A. Thomas Rohner <unitdate type="inclusive" normal="1973-06-17">June 17, 1973</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>"Legal Aid for Elderly", with Ann Allen, R.N. <unitdate type="inclusive" normal="1973-07-15">July 15, 1973</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>"Gardening for the Older Person", with Leo Baroway <unitdate type="inclusive" normal="1973-07-08">July 8, 1973</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>"Nursing and the Elderly", with Ann Allen, R.N. <unitdate type="inclusive" normal="1973-07-15">July 15, 1973</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>"North San Francisco Bay Programs for Older Men and Women", with Sally Schultz <unitdate type="inclusive" normal="1973-07-22">July 22, 1973</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>"Center for Learning in Retirement, University of California Extension Center, San Francisco", Panel Discussion <unitdate type="inclusive" normal="1973-07-29">July 29, 1973</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>"Creativity in the Later Years", with Jeffrey Smith, Ph.D. <unitdate type="inclusive" normal="1973-08-05">August 5, 1973</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>"Gift of Time GT-131", with Stanley Kilcoyne, interview <unitdate type="inclusive" normal="1973-08-12">August 12, 1973</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>"Geriatric Dentistry", with Sidney Epstein, D.D.S. <unitdate type="inclusive" normal="1973-08-19">August 19, 1973</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>"Older Japanese Americans", Panel Discussion <unitdate type="inclusive" normal="1973-08-26">August 26, 1973</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>"Community College Programs for Older Adults", with Elsa Bogosian and Mr. T. Murphy <unitdate type="inclusive" normal="1973-09-09">September 9, 1973</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>"Crime and the Older Person", with California Attorney-General Evella Younger and Mrs. June Sherwood <unitdate type="inclusive" normal="1973-09-16">September 16, 1973</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>"Food stamps for the Elderly", Panel Discussion <unitdate type="inclusive" normal="1973-09-23">September 23, 1973</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>"Estate Planning", Part I, with Peter E. Lippett <unitdate type="inclusive" normal="1973-09-30">September 30, 1973</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>"Estate Planning", Part II, with Peter E. Lippett <unitdate type="inclusive" normal="1973-10-07">October 7, 1973</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>"Multiphasic Screening", with Sam Sherman, M.D., and Morris Bunow <unitdate type="inclusive" normal="1973-11-04">November 4, 1973</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>"The Aging Japanese", Panel Discussion <unitdate type="inclusive" normal="1973-11-25">November 25, 1973</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>"Gardening for the Elderly", with Leo Baroway <unitdate type="inclusive" normal="1973-12-02">December 2, 1973</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>"Choral Group, San Francisco Japanese Senior Center" <unitdate type="inclusive" normal="1973-12-16">December 16, 1973</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>"Supplemental Security Income", Panel Discussion <unitdate type="inclusive" normal="1974-01-06">January 6, 1974</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>"Meat Economy", with Merle Ellis <unitdate type="inclusive" normal="1974-01-13">January 13, 1974</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>"Public Advocates", with Fred Hiestand <unitdate type="inclusive" normal="1974-01-20">January 20, 1974</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>"Gasoline Economy", with A. Thomas Rohmer <unitdate type="inclusive" normal="1974-01-27">January 27, 1974</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>"Supplementary Security Income", with Peter Coppelman <unitdate type="inclusive" normal="1974-02-03">February 3, 1974</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>"Euthanasia and the Elderly", with Marya Mannes <unitdate type="inclusive" normal="1974-02-10">February 10, 1974</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>"California Legislative Council of Senior Citizens", with William Baird <unitdate type="inclusive" normal="1974-02-17">February 17, 1974</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>Marin Colleges: "Emeritus College", Panel Discussion <unitdate type="inclusive" normal="1974-02-24">February 24, 1974</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>"Women Alone", with Tish Sommers, Milo Smith <unitdate type="inclusive" normal="1974-03-03">March 3, 1974</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>"Opus", with J. Otte and Paul Corwill <unitdate type="inclusive" normal="1974-03-17">March 17, 1974</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>"Senior Citizens Dental Care Program", with University of the Pacific <unitdate type="inclusive" normal="1974-03-31">March 31, 1974</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>"Crime and the Elderly", Part II <unitdate type="inclusive" normal="1974-04-17">April 17, 1974</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>"The Gray Panthers", with Maggie Kuhn and Lillian Rabinowitz <unitdate type="inclusive" normal="1974-06-23">June 23, 1974</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>"Widows", with Mrs. Lynn Caine <unitdate type="inclusive" normal="1974-06-30">June 30, 1974</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>"Crimes against the Elderly", with Captain Jeremiah Taylor <unitdate type="inclusive" normal="1975-02-23">February 23, 1975</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>"Food Buying Cooperative for Seniors", with Pat Coates and Mrs. Sandi Piccini <unitdate type="inclusive" normal="1975-03-30">March 30, 1975</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>"How Safe is Social Security", with Nelson Cruikshank <unitdate type="inclusive" normal="1975-04-27">April 27, 1975</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>"U.S. Senate Special Committee on Aging", with William E. Oriol <unitdate type="inclusive" normal="1975-05-25">May 25, 1975</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>"Why Survive?", with Robert N. Butler, M.D. <unitdate type="inclusive" normal="1975-06-29">June 29, 1975</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>"Alameda County Office on Aging", with William E. Oriol <unitdate type="inclusive" normal="1975-05-25">May 25, 1975</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>"The Aging Heart", with Leonard S. Karpman, M.D. <unitdate type="inclusive" normal="1975-09-28">September 28, 1975</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>"Crimes Against Older People", with Nelder, Mellor, Boyer <unitdate type="inclusive" normal="1975-12-02">December 2, 1975</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>"Grooming: Dresses for Older Women", with Dorothy W. Wagner <unitdate type="inclusive" normal="1976-01-25">January 25, 1976</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>"Grooming: Color in Dress", with Dorothy W. Wagner <unitdate type="inclusive" normal="1976-02-15">February 15, 1976</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>"Good Grooming: Hair and Make-up", with Dorothy W. Wagner <unitdate type="inclusive" normal="1976-02-22">February 22, 1976</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>"Senior Discount Program", with Harry H. Henry <unitdate type="inclusive" normal="1976-04-04">April 4, 1976</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>"The Liberated Grandmother", with Mrs. D.C. Finkelhorn, Ph.D. <unitdate type="inclusive" normal="1976-04-25">April 25, 1976</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>"San Francisco Senior Center Program for the Deaf Elderly", with Ms. Gay Nadler and Ms. Rhoda Clark <unitdate type="inclusive" normal="1976-06-27">June 27, 1976</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>"Paralegal Training for the Elderly", Panel Discussion <unitdate type="inclusive" normal="1976-07-25">July 25, 1976</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>"Menopause", with Dr. Minnie B. Goldberg, M.D. <unitdate type="inclusive" normal="1976-08-29">August 29, 1976</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>"San Francisco Committee on Aging", with W. Patrick Magee, Director <unitdate type="inclusive" normal="1976-09-26">September 26, 1976</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>"Political Issues in Aging", Part I, with Wold and McCoy <unitdate type="inclusive" normal="1976-10-17">October 17, 1976</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>"Political Issues in Aging", Part II, with Bills and Musz <unitdate type="inclusive" normal="1976-10-24">October 24, 1976</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>"Political Issues in Aging", Part III, with J. Tunney and S. Hayakawa <unitdate type="inclusive" normal="1976-10-31">October 31, 1976</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>"U.S. Senate Special Committee on Aging", with William E. Oriol <unitdate type="inclusive" normal="1976-12-12">December 12, 1976</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>"Christmas Program. San Francisco Senior Center Choral Group" <unitdate type="inclusive" normal="1976-12-19">December 19, 1976</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>"Federal and State Income Tax Guides for the Elderly", with Mr. Holmes and Mr. Joseph <unitdate type="inclusive" normal="1977-02-19">February 19, 1977</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>"Crime and the Elderly", Part I. F.B.I. and S.F.P.D. <unitdate type="inclusive" normal="1977-03-27">March 27, 1977</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>"Crime and the Elderly", with Boone, Murphy, Kritelich, Harrington <unitdate type="inclusive" normal="1977-04-24">April 24, 1977</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>"Lung Health", Part I <unitdate type="inclusive" normal="1977-05-29">May 29, 1977</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>"Lung Health", Part II <unitdate type="inclusive" normal="1977-06-05">June 5, 1977</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>"Smoking and Health", with William R. Pothner (?) <unitdate type="inclusive" normal="1977-10-30">October 30, 1977</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>"The National Institute on Aging", with Robert N. Butler, M.D. <unitdate type="inclusive" normal="1977-11-27">November 27, 1977</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>"Interview with Dr. Wilma Donahue and Dr. Clark Tibbitts <unitdate type="inclusive" normal="1977-12-18">December 18, 1977</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>"Air Pollution and the Elderly", Part I <unitdate type="inclusive" normal="1978-01-15">January 15, 1978</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>"Air Pollution and the Elderly", Part II <unitdate type="inclusive" normal="1978-01-22">January 22, 1978</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>"Air Pollution and the Elderly", Part III <unitdate type="inclusive" normal="1978-01-29">January 29, 1978</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>"Diabetes and the Aging", with Clinton Young, M.D. <unitdate type="inclusive" normal="1978-03-09">March 9, 1978</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>"Organized Labor and its Older Members", with James G. Patton, Retired Member Department California Labor Federation <unitdate type="inclusive" normal="1978-07-09">July 9, 1978</unitdate></unittitle>
+          </did>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

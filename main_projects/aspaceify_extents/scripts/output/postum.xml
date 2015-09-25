@@ -1,0 +1,2252 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead.dtd">
+<ead>
+  <eadheader audience="internal" langencoding="iso639-2b" repositoryencoding="iso15511" dateencoding="iso8601" relatedencoding="Dublin Core" scriptencoding="iso15924" countryencoding="iso3166-1">
+    <eadid countrycode="us" mainagencycode="MiU-H" publicid="us//::miu-h//TXT us::miu-h::postum.xml//EN" encodinganalog="Identifier">umich-bhl-852064</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="Title">Finding Aid for Postum Company records</titleproper>
+        <author encodinganalog="Creator">Collection processed and finding aid created by Michigan Historical Collections Staff</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="Publisher">Bentley Historical Library, University of Michigan</publisher>
+        <date encodinganalog="Date" normal="2006">2007</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created by Paul Jordan <date>2007</date></creation>
+      <langusage encodinganalog="Language">The finding aid is written in <language langcode="eng" scriptcode="Latn">English</language></langusage>
+      <descrules>Finding aid prepared using Describing Archives: A Content Standard (DACS)</descrules>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date>20150713</date>
+        <item>Separated containers for use with Aeon.</item>
+      </change>
+      <change>
+        <date>2007-03-23</date>
+        <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <frontmatter>
+    <titlepage>
+      <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
+      <titleproper>Finding aid for <lb/>Postum Company Records, 1895-1931</titleproper>
+      <author>Finding aid created by <lb/>Michigan Historical Collections Staff</author>
+    </titlepage>
+  </frontmatter>
+  <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
+    <did>
+      <origination>
+        <corpname source="lcnaf" encodinganalog="110">Postum Company</corpname>
+      </origination>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">1 reel of Microfilm</extent>
+      </physdesc>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">164 oversize volumes</extent>
+      </physdesc>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">17 linear feet</extent>
+      </physdesc>
+      <unittitle encodinganalog="245">Postum Company records <unitdate type="inclusive" encodinganalog="245$f" normal="1895/1931">1895-1931</unitdate></unittitle>
+      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">852064 BB.1 Bb.1 2</unitid>
+      <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
+      <physloc>Outsize Volumes #1-141 are stored offsite. Two days notice required for retrieval.</physloc>
+      <abstract>Records, 1895-1931, of the Postum Cereal Company of Battle Creek, founded by Charles W. Post; include time books, payrolls, invoice and voucher records, trial balances, cash receipts registers, and sales and advertising material.</abstract>
+      <repository>
+        <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea>, University of Michigan</corpname>
+        <extptr href="bhladd" show="embed" actuate="onload"/>
+      </repository>
+    </did>
+    <descgrp type="admin">
+      <acqinfo encodinganalog="541">
+        <p>Donor: <num type="donor" encodinganalog="541$e">3464</num></p>
+      </acqinfo>
+      <accruals encodinganalog="584">
+        <p>No further additions to the records are expected.</p>
+      </accruals>
+      <accessrestrict encodinganalog="506">
+        <p>The collection is open to research.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+        <p>Copyright is held by the Regents of the University of Michigan.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+        <p>[item], folder, box,
+Postum Company records, Bentley Historical Library, University of Michigan</p>
+      </prefercite>
+    </descgrp>
+    <bioghist encodinganalog="545">
+      <p>Post Cereals, formerly Postum Cereals, was founded by C. W. Post. It began in 1895 with the first Postum, a "cereal beverage", developed by Post in Battle Creek, Michigan. The first cereal, Grape-Nuts, was developed in 1897.</p>
+    </bioghist>
+    <scopecontent encodinganalog="520">
+      <p>The Postum Company records are an incomplete set of employment and financial records covering the period 1895-1931. The records have been described in two series: Payroll and Employee Records and financial and Miscellaneous Records. The records include employee time books, payrolls, invoice and voucher records, trial balances, cash receipts registers, and sales and advertising material.</p>
+      <p>The collection includes 164 outsize volumes. A unique sequential number (1-166, there is no vol. no. 91 or 92) has been assigned to each volume to aid in identification and location of the volumes. This number is given at the beginning of descriptive entry in the contents list. Some volumes had a number or letter stamped on the spine. This number is listed in square brackets at the end of the item entry.</p>
+    </scopecontent>
+    <controlaccess>
+      <p>
+        <extptr href="accnote" show="embed" actuate="onload"/>
+      </p>
+      <controlaccess>
+        <head>Subjects:</head>
+        <geogname source="lcsh" encodinganalog="651">Battle Creek (Mich.)</geogname>
+        <subject source="lcsh" encodinganalog="650">Cereal products industry--United States.</subject>
+        <subject source="lcsh" encodinganalog="650">Business records.</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n50040225">General Foods Corporation.</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2001004545">Post, Charles William, 1854-1914.</persname>
+      </controlaccess>
+    </controlaccess>
+    <dsc type="combined">
+      <c01 level="series">
+        <did>
+          <unittitle>Payroll and Employee Records</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <unittitle>Carton and Container Department <unitdate type="inclusive" normal="1908/1928">1908-1928</unitdate></unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>Payroll ledger sheets</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <unittitle>[A-B]</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle>[C-E]</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">3</container>
+                <unittitle>[F-G]</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">4</container>
+                <unittitle>[H-K]</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">5</container>
+                <unittitle>[L-M]</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">6</container>
+                <unittitle>[N-P]</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">7</container>
+                <unittitle>[S]</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">8</container>
+                <unittitle>[T-Z]</unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Transfer Time book <unitdate type="inclusive" normal="1902/1909">1902-1909</unitdate></unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">9</container>
+              <unittitle>[A-L]</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">10</container>
+              <unittitle>[M-Z]</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Employees bonus ledger</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">11</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1909/1920">1909-1920</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Battle Creek Paper Company</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">14</container>
+              <unittitle>Employee Bonus ledger <unitdate type="inclusive" normal="1908/1909">1908-1909</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">14</container>
+              <unittitle>Time book <unitdate type="inclusive" normal="1907/1928">1907-1928</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Payroll books</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">14</container>
+              <unittitle><unitdate type="inclusive" normal="1896-03/1896-10">March-October 1896</unitdate> [A]</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">14</container>
+              <unittitle><unitdate type="inclusive" normal="1896-10/1896-12">October-December 1896</unitdate> [B]</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">14</container>
+              <unittitle><unitdate type="inclusive" normal="1897-01/1897-03">January-March 1897</unitdate> [C]</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">14</container>
+              <unittitle><unitdate type="inclusive" normal="1897-03/1897-05">March-May 1897</unitdate> [D]</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">14</container>
+              <unittitle><unitdate type="inclusive" normal="1897/1898-02">May 1897-February 1898</unitdate> [E]</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">14</container>
+              <unittitle><unitdate type="inclusive" normal="1898-02/1898-12">February-December 1898</unitdate> [F]</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">14</container>
+              <unittitle><unitdate type="inclusive" normal="1898/1899-04">December 1898-April 1899</unitdate> [G]</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">15</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1901/1902-03">July 1901-March 1902</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">15</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1902-03/1902-09">March-September 1902</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">15</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1902-09/1903-01">September 1902-January 1903</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">15</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1903-01/1903-07">January-July 1903</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">15</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1903-07/1904-01">July 1903-January 1904</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">15</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1904-01/1904-06">January-June 1904</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">15</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1904-12/1905-05">December 1904-May 1905</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">15</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1905-05/1905-10">May-October 1905</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">15</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1905-10/1906-04">October 1905-April 1906</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">15</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1906-04/1906-10">April-October 1906</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">15</container>
+              <unittitle>October 1906-Mar-1907</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">15</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1907-03/1907-08">March-August 1907</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">15</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1907-08/1907-12">August-December 1907</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Male employees time book</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">16</container>
+              <unittitle><unitdate type="inclusive" normal="1897-01/1897-07">January-July, 1897</unitdate> [1]</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">16</container>
+              <unittitle><unitdate type="inclusive" normal="1897-07/1898-08">July 1897-August 1898</unitdate> [2]</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">16</container>
+              <unittitle><unitdate type="inclusive" normal="1898-08/1898-12">August-December 1898</unitdate> [3]</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Packing room time book</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">16</container>
+              <unittitle><unitdate type="inclusive" normal="1897-02/1897-06">February-June 1897</unitdate> [3]</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">16</container>
+              <unittitle><unitdate type="inclusive" normal="1902-06/1902-07">June-July 1902</unitdate> [9]</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Payroll Books (Bound Volumes)</unittitle>
+          </did>
+          <odd>
+            <p>(Outsize volumes in Annex except for 24 volumes located in BB.1 Outsize)</p>
+          </odd>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">1</container>
+              <unitid>1</unitid>
+              <unittitle><unitdate type="inclusive" normal="1899-05/1900-05">May 1899-May 1900</unitdate> [H]</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">2</container>
+              <unitid>2</unitid>
+              <unittitle><unitdate type="inclusive" normal="1900-05/1901-01">May 1900-January 1901</unitdate> [I]</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">3</container>
+              <unitid>3</unitid>
+              <unittitle><unitdate type="inclusive" normal="1901-02/1901-09">February-September 1901</unitdate> [J]</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">4</container>
+              <unitid>4</unitid>
+              <unittitle><unitdate type="inclusive" normal="1901-10/1902-05">October 1901-May 1902</unitdate> [K]</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">5</container>
+              <unitid>5</unitid>
+              <unittitle><unitdate type="inclusive" normal="1902-05/1902-11">May-November 1902</unitdate> [L]</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">6</container>
+              <unitid>6</unitid>
+              <unittitle><unitdate type="inclusive" normal="1902-11/1903-07">November 1902-July 1903</unitdate> [M]</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">7</container>
+              <unitid>7</unitid>
+              <unittitle>July 1903-February 1904 [N]</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">8</container>
+              <unitid>8</unitid>
+              <unittitle><unitdate type="inclusive" normal="1904-02/1904-10">February-October 1904</unitdate> [O]</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">9</container>
+              <unitid>9</unitid>
+              <unittitle><unitdate type="inclusive" normal="1904-10/1905-06">October 1904-June 1905</unitdate> [P]</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">10</container>
+              <unitid>10</unitid>
+              <unittitle><unitdate type="inclusive" normal="1905-06/1906-01">June 1905-January 1906</unitdate> [Q]</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">11</container>
+              <unitid>11</unitid>
+              <unittitle><unitdate type="inclusive" normal="1906-01/1906-08">January-August 1906</unitdate> [R]</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">12</container>
+              <unitid>12</unitid>
+              <unittitle><unitdate type="inclusive" normal="1906-08/1907-04">August 1906-April 1907</unitdate> [S]</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">13</container>
+              <unitid>13</unitid>
+              <unittitle><unitdate type="inclusive" normal="1907-04/1907-10">April-October 1907</unitdate> [T]</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">14</container>
+              <unitid>14</unitid>
+              <unittitle><unitdate type="inclusive" normal="1907-10/1908-10">October 1907-October 1908</unitdate> [1]</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">15</container>
+              <unitid>15</unitid>
+              <unittitle><unitdate type="inclusive" normal="1907-10/1909-03">October 1907-March 1909</unitdate> [2]</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">16</container>
+              <unitid>16</unitid>
+              <unittitle><unitdate type="inclusive" normal="1908-10/1909-10">October 1908-October 1909</unitdate> [3]</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">17</container>
+              <unitid>17</unitid>
+              <unittitle><unitdate type="inclusive" normal="1909-03/1910-07">March 1909-July 1910</unitdate> [4]</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">18</container>
+              <unitid>18</unitid>
+              <unittitle><unitdate type="inclusive" normal="1909-10/1910-11">October 1909-November 1910</unitdate> [5]</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">19</container>
+              <unitid>19</unitid>
+              <unittitle><unitdate type="inclusive" normal="1910-07/1912-04">July 1910-April 1912</unitdate> [6]</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">20</container>
+              <unitid>20</unitid>
+              <unittitle><unitdate type="inclusive" normal="1910-11/1911-12">November 1910-December 1911</unitdate> [7]</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">21</container>
+              <unitid>21</unitid>
+              <unittitle><unitdate type="inclusive" normal="1912-05/1913-11">May 1912-November 1913</unitdate> [8]</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">22</container>
+              <unitid>22</unitid>
+              <unittitle><unitdate type="inclusive" normal="1911-12/1912-10">December 1911-October 1912</unitdate> [9]</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">23</container>
+              <unitid>23</unitid>
+              <unittitle><unitdate type="inclusive" normal="1913-12/1915-05">December 1913-May 1915</unitdate> [10]</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">24</container>
+              <unitid>24</unitid>
+              <unittitle><unitdate type="inclusive" normal="1912-10/1913-07">October 1912-July 1913</unitdate> [11]</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">25</container>
+              <unitid>25</unitid>
+              <unittitle><unitdate type="inclusive" normal="1913-08/1914-05">August 1913-May 1914</unitdate> [12]</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">26</container>
+              <unitid>26</unitid>
+              <unittitle><unitdate type="inclusive" normal="1914-05/1915-03">May 1914-March 1915</unitdate> [14]</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">27</container>
+              <unitid>27</unitid>
+              <unittitle><unitdate type="inclusive" normal="1915-03/1915-12">March-December 1915</unitdate> [15]</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">28</container>
+              <unitid>28</unitid>
+              <unittitle><unitdate type="inclusive" normal="1915-05/1916-07">May 1915-July 1916</unitdate> [16]</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">29</container>
+              <unitid>29</unitid>
+              <unittitle><unitdate type="inclusive" normal="1915-12/1916-08">December 1915-August, 1916</unitdate> [17]</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">30</container>
+              <unitid>30</unitid>
+              <unittitle><unitdate type="inclusive" normal="1916-07/1917-06">July 1916-June 1917</unitdate> [18]</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">31</container>
+              <unitid>31</unitid>
+              <unittitle><unitdate type="inclusive" normal="1916-08/1917-05">August 1916-May 1917</unitdate> [19]</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">32</container>
+              <unitid>32</unitid>
+              <unittitle><unitdate type="inclusive" normal="1916-11/1918-06">November 1916-June 1918</unitdate> [20]</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">33</container>
+              <unitid>33</unitid>
+              <unittitle><unitdate type="inclusive" normal="1917-05/1918-04">May 1917-April 1918</unitdate> [21]</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">34</container>
+              <unitid>34</unitid>
+              <unittitle><unitdate type="inclusive" normal="1917-07/1918-05">July 1917-May 1918</unitdate> [22]</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">35</container>
+              <unitid>35</unitid>
+              <unittitle><unitdate type="inclusive" normal="1918-05/1919-02">May 1918-February 1919</unitdate> [23]</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">36</container>
+              <unitid>36</unitid>
+              <unittitle><unitdate type="inclusive" normal="1918-05/1919-09">May 1918-September 1919</unitdate> [24]</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">37</container>
+              <unitid>37</unitid>
+              <unittitle><unitdate type="inclusive" normal="1918-05/1919-06">May 1918-June 1919</unitdate> [25]</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">38</container>
+              <unitid>38</unitid>
+              <unittitle><unitdate type="inclusive" normal="1918-06/1920-05">June 1918-May 1920</unitdate> [26]</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">39</container>
+              <unitid>39</unitid>
+              <unittitle><unitdate type="inclusive" normal="1919-02/1919-11">February-November 1919</unitdate> [27]</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">40</container>
+              <unitid>40</unitid>
+              <unittitle><unitdate type="inclusive" normal="1919-06/1920-05">June 1919-May 1920</unitdate> [28]</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">41</container>
+              <unitid>41</unitid>
+              <unittitle><unitdate type="inclusive" normal="1919-09/1921-02">September 1919-February 1921</unitdate> [29]</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">42</container>
+              <unitid>42</unitid>
+              <unittitle><unitdate type="inclusive" normal="1919-11/1920-06">November 1919-June 1920</unitdate> [30]</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">43</container>
+              <unitid>43</unitid>
+              <unittitle><unitdate type="inclusive" normal="1920-05/1921-12">May 1920-December 1921</unitdate> [31]</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">44</container>
+              <unitid>44</unitid>
+              <unittitle><unitdate type="inclusive" normal="1920-05/1921-06">May 1920-June 1921</unitdate> [32]</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">45</container>
+              <unitid>45</unitid>
+              <unittitle><unitdate type="inclusive" normal="1920-06/1921-02">June 1920-February 1921</unitdate> [33]</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">46</container>
+              <unitid>46</unitid>
+              <unittitle><unitdate type="inclusive" normal="1921-02/1921-12">February-December 1921</unitdate> [34]</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">47</container>
+              <unitid>47</unitid>
+              <unittitle><unitdate type="inclusive" normal="1921-02/1921-11">February-November 1921</unitdate> [35]</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">48</container>
+              <unitid>48</unitid>
+              <unittitle><unitdate type="inclusive" normal="1921-06/1921-12">June-December 1921</unitdate> [36]</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">49</container>
+              <unitid>49</unitid>
+              <unittitle><unitdate type="inclusive" normal="1921-12/1924-05">December 1921-May 1924</unitdate> [37]</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">50</container>
+              <unitid>50</unitid>
+              <unittitle><unitdate type="inclusive" normal="1924-05/1926-10">May 1924-October 1926</unitdate> [38]</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">51</container>
+              <unitid>51</unitid>
+              <unittitle><unitdate type="inclusive" normal="1926-10/1928-07">October 1926-July 1928</unitdate> [45]</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">52</container>
+              <unitid>52</unitid>
+              <unittitle><unitdate type="inclusive" normal="1928-07/1929-08">July 1928-August 1929</unitdate> [47]</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">53</container>
+              <unitid>53</unitid>
+              <unittitle><unitdate type="inclusive" normal="1929-08/1930-12">August 1929-December 1930</unitdate> [51]</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">54</container>
+              <unitid>54</unitid>
+              <unittitle><unitdate type="inclusive" normal="1931-01/1931-12">January-December 1931</unitdate> [54]</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Cash receipts <unitdate type="inclusive" normal="1907/1917">1907-1917</unitdate></unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">55</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">1 volume</extent>
+              </physdesc>
+              <unitid>55</unitid>
+              <unittitle>District 1</unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">56</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">1 volume</extent>
+              </physdesc>
+              <unitid>56</unitid>
+              <unittitle>District 1</unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+            <odd>
+              <p>(continued)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">57</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">1 volume</extent>
+              </physdesc>
+              <unitid>57</unitid>
+              <unittitle>District 1</unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+            <odd>
+              <p>(continued)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">58</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">1 volume</extent>
+              </physdesc>
+              <unitid>58</unitid>
+              <unittitle>District 1</unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+            <odd>
+              <p>(continued)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">59</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">1 volume</extent>
+              </physdesc>
+              <unitid>59</unitid>
+              <unittitle>District 1</unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+            <odd>
+              <p>(continued)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">60</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">1 volume</extent>
+              </physdesc>
+              <unitid>60</unitid>
+              <unittitle>District 2</unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">61</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">1 volume</extent>
+              </physdesc>
+              <unitid>61</unitid>
+              <unittitle>District 2</unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+            <odd>
+              <p>(continued)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">62</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">1 volume</extent>
+              </physdesc>
+              <unitid>62</unitid>
+              <unittitle>District 2</unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+            <odd>
+              <p>(continued)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">63</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">1 volume</extent>
+              </physdesc>
+              <unitid>63</unitid>
+              <unittitle>District 2</unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+            <odd>
+              <p>(continued)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">64</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">1 volume</extent>
+              </physdesc>
+              <unitid>64</unitid>
+              <unittitle>District 2</unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+            <odd>
+              <p>(continued)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">65</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">1 volume</extent>
+              </physdesc>
+              <unitid>65</unitid>
+              <unittitle>District 2</unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+            <odd>
+              <p>(continued)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">66</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">1 volume</extent>
+              </physdesc>
+              <unitid>66</unitid>
+              <unittitle>District 2</unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+            <odd>
+              <p>(continued)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">67</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">1 volume</extent>
+              </physdesc>
+              <unitid>67</unitid>
+              <unittitle>District 3</unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">68</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">1 volume</extent>
+              </physdesc>
+              <unitid>68</unitid>
+              <unittitle>District 3</unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+            <odd>
+              <p>(continued)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">69</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">1 volume</extent>
+              </physdesc>
+              <unitid>69</unitid>
+              <unittitle>District 3</unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+            <odd>
+              <p>(continued)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">70</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">1 volume</extent>
+              </physdesc>
+              <unitid>70</unitid>
+              <unittitle>District 3</unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+            <odd>
+              <p>(continued)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">71</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">1 volume</extent>
+              </physdesc>
+              <unitid>71</unitid>
+              <unittitle>District 3</unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+            <odd>
+              <p>(continued)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">72</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">1 volume</extent>
+              </physdesc>
+              <unitid>72</unitid>
+              <unittitle>District 3</unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+            <odd>
+              <p>(continued)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">73</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">1 volume</extent>
+              </physdesc>
+              <unitid>73</unitid>
+              <unittitle>District 3</unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+            <odd>
+              <p>(continued)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">74</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">1 volume</extent>
+              </physdesc>
+              <unitid>74</unitid>
+              <unittitle>District 3</unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+            <odd>
+              <p>(continued)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">75</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">1 volume</extent>
+              </physdesc>
+              <unitid>75</unitid>
+              <unittitle>District 4</unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">76</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">1 volume</extent>
+              </physdesc>
+              <unitid>76</unitid>
+              <unittitle>District 4</unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+            <odd>
+              <p>(continued)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">77</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">1 volume</extent>
+              </physdesc>
+              <unitid>77</unitid>
+              <unittitle>District 4</unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+            <odd>
+              <p>(continued)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">78</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">1 volume</extent>
+              </physdesc>
+              <unitid>78</unitid>
+              <unittitle>District 4</unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+            <odd>
+              <p>(continued)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">79</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">1 volume</extent>
+              </physdesc>
+              <unitid>79</unitid>
+              <unittitle>District 4</unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+            <odd>
+              <p>(continued)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">80</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">1 volume</extent>
+              </physdesc>
+              <unitid>80</unitid>
+              <unittitle>District 4</unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+            <odd>
+              <p>(continued)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">81</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">1 volume</extent>
+              </physdesc>
+              <unitid>81</unitid>
+              <unittitle>District 4</unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+            <odd>
+              <p>(continued)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">82</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">1 volume</extent>
+              </physdesc>
+              <unitid>82</unitid>
+              <unittitle>District 4</unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+            <odd>
+              <p>(continued)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">83</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">1 volume</extent>
+              </physdesc>
+              <unitid>83</unitid>
+              <unittitle>District 4</unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+            <odd>
+              <p>(continued)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">84</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">1 volume</extent>
+              </physdesc>
+              <unitid>84</unitid>
+              <unittitle>District 5</unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Cash receipts, Canadian Postum. Cereal Company <unitdate type="inclusive" normal="1910/1922">1910-1922</unitdate></unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">85</container>
+              <unitid>85</unitid>
+              <unittitle>1 volume</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">86</container>
+              <unitid>86</unitid>
+              <unittitle>1 volume</unittitle>
+            </did>
+            <odd>
+              <p>(continued)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">87</container>
+              <unitid>87</unitid>
+              <unittitle>1 volume</unittitle>
+            </did>
+            <odd>
+              <p>(continued)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">88</container>
+              <unitid>88</unitid>
+              <unittitle>1 volume</unittitle>
+            </did>
+            <odd>
+              <p>(continued)</p>
+            </odd>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="volume" label="Oversize Volume">89</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">1 volume</extent>
+            </physdesc>
+            <unitid>89</unitid>
+            <unittitle>Register of Disbursements <unitdate type="inclusive" normal="1907/1908">1907-1908</unitdate></unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="volume" label="Oversize Volume">90</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">1 volume</extent>
+            </physdesc>
+            <unitid>90</unitid>
+            <unittitle>Register of Disbursements <unitdate type="inclusive" normal="1907/1908">1907-1908</unitdate></unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+          <odd>
+            <p>(continued)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid>163</unitid>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">1 volume</extent>
+            </physdesc>
+            <unittitle>Petty cash disbursements <unitdate type="inclusive" normal="1907/1918">1907-1918</unitdate></unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+          <odd>
+            <p>(BB.1/outsize)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unitid>164</unitid>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">1 volume</extent>
+            </physdesc>
+            <unittitle>Petty cash disbursements <unitdate type="inclusive" normal="1907/1918">1907-1918</unitdate></unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+          <odd>
+            <p>(BB.1/outsize)</p>
+          </odd>
+          <odd>
+            <p>(continued)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Cash receipts <unitdate type="inclusive" normal="1917/1921">1917-1921</unitdate></unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">93</container>
+              <unitid>93</unitid>
+              <unittitle>District 1</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">96</container>
+              <unitid>96</unitid>
+              <unittitle>District 1</unittitle>
+            </did>
+            <odd>
+              <p>(continued)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">97</container>
+              <unitid>97-101</unitid>
+              <unittitle>District 2</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">98</container>
+              <unitid>98</unitid>
+              <unittitle>District 2</unittitle>
+            </did>
+            <odd>
+              <p>(continued)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">99</container>
+              <unitid>99</unitid>
+              <unittitle>District 2</unittitle>
+            </did>
+            <odd>
+              <p>(continued)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">100</container>
+              <unitid>100</unitid>
+              <unittitle>District 2</unittitle>
+            </did>
+            <odd>
+              <p>(continued)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">101</container>
+              <unitid>101</unitid>
+              <unittitle>District 2</unittitle>
+            </did>
+            <odd>
+              <p>(continued)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>District 3</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="volume" label="Oversize Volume">1</container>
+                <unittitle>Volume 1</unittitle>
+              </did>
+              <odd>
+                <p>(BB.1/Outsize)</p>
+              </odd>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="volume" label="Oversize Volume">102</container>
+                <unitid>102</unitid>
+                <unittitle>Volume 2</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="volume" label="Oversize Volume">103</container>
+                <unitid>103</unitid>
+                <unittitle>Volume 3a</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="volume" label="Oversize Volume">104</container>
+                <unitid>104</unitid>
+                <unittitle>Volume 3b</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="volume" label="Oversize Volume">105</container>
+                <unitid>105</unitid>
+                <unittitle>Volume 4</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="volume" label="Oversize Volume">106</container>
+                <unitid>106</unitid>
+                <unittitle>Volume 5</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="volume" label="Oversize Volume">107</container>
+                <unitid>107</unitid>
+                <unittitle>Volume 6</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">108</container>
+              <unitid>108</unitid>
+              <unittitle>District 4</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">109</container>
+              <unitid>109</unitid>
+              <unittitle>District 4</unittitle>
+            </did>
+            <odd>
+              <p>(continued)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">110</container>
+              <unitid>110</unitid>
+              <unittitle>District 4</unittitle>
+            </did>
+            <odd>
+              <p>(continued)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">111</container>
+              <unitid>111</unitid>
+              <unittitle>District 4</unittitle>
+            </did>
+            <odd>
+              <p>(continued)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">112</container>
+              <unitid>112</unitid>
+              <unittitle>District 4</unittitle>
+            </did>
+            <odd>
+              <p>(continued)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">113</container>
+              <unitid>113</unitid>
+              <unittitle>District 5</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">114</container>
+              <unitid>114</unitid>
+              <unittitle>District 5</unittitle>
+            </did>
+            <odd>
+              <p>(continued)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">115</container>
+              <unitid>115</unitid>
+              <unittitle>District 5</unittitle>
+            </did>
+            <odd>
+              <p>(continued)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">116</container>
+              <unitid>116</unitid>
+              <unittitle>District 5</unittitle>
+            </did>
+            <odd>
+              <p>(continued)</p>
+            </odd>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Male employees time book</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">117</container>
+              <unitid>117</unitid>
+              <unittitle><unitdate type="inclusive" normal="1898-12/1899-12">December 1898-December 1899</unitdate> [4]</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">118</container>
+              <unitid>118</unitid>
+              <unittitle><unitdate type="inclusive" normal="1899-12/1900-08">December 1899-August 1900</unitdate> [5]</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">119</container>
+              <unitid>119</unitid>
+              <unittitle><unitdate type="inclusive" normal="1900-08/1901-02">August 1900-February 1901</unitdate> [6]</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">120</container>
+              <unitid>120</unitid>
+              <unittitle><unitdate type="inclusive" normal="1901-03/1901-08">March-August 1901</unitdate> [7]</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">121</container>
+              <unitid>121</unitid>
+              <unittitle><unitdate type="inclusive" normal="1901-08/1902-01">August 1901-January 1902</unitdate> [8]</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">122</container>
+              <unitid>122</unitid>
+              <unittitle><unitdate type="inclusive" normal="1902-01/1902-07">January-July 1902</unitdate> [9]</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Packing room time book</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">123</container>
+              <unitid>123</unitid>
+              <unittitle><unitdate type="inclusive" normal="1897-09/1899-09">September 1897-September 1899</unitdate> [5]</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">124</container>
+              <unitid>124</unitid>
+              <unittitle><unitdate type="inclusive" normal="1899-09/1900-10">September 1899-October 1900</unitdate> [6]</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">125</container>
+              <unitid>125</unitid>
+              <unittitle><unitdate type="inclusive" normal="1900-10/1901-07">October 1900-July 1901</unitdate> 171</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">126</container>
+              <unitid>126</unitid>
+              <unittitle><unitdate type="inclusive" normal="1901-07/1902-06">July 1901-June 1902</unitdate> [8]</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Battle Creek Paper Company Payroll</unittitle>
+          </did>
+          <odd>
+            <p>(BB.1/Outsize, except for 142)</p>
+          </odd>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">154</container>
+              <unitid>154</unitid>
+              <unittitle>
+                <unitdate type="inclusive" normal="1916-09/1919-08">September 1916-August 1919</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">155</container>
+              <unitid>155</unitid>
+              <unittitle>
+                <unitdate type="inclusive" normal="1919-09/1920-09">September 1919-September 1920</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">156</container>
+              <unitid>156</unitid>
+              <unittitle>
+                <unitdate type="inclusive" normal="1920-10/1922-12">October 1920-December 1922</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">157</container>
+              <unitid>157</unitid>
+              <unittitle>
+                <unitdate type="inclusive" normal="1923">1923</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">158</container>
+              <unitid>158</unitid>
+              <unittitle>
+                <unitdate type="inclusive" normal="1924">1924</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">159</container>
+              <unitid>159</unitid>
+              <unittitle>
+                <unitdate type="inclusive" normal="1925">1925</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">160</container>
+              <unitid>160</unitid>
+              <unittitle>
+                <unitdate type="inclusive" normal="1926">1926</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">161</container>
+              <unitid>161</unitid>
+              <unittitle>
+                <unitdate type="inclusive" normal="1927">1927</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">142</container>
+              <unitid>142</unitid>
+              <unittitle>
+                <unitdate type="inclusive" normal="1928">1928</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Financial and Miscellaneous Records</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">12</container>
+            <unittitle>Loan and Bond register <unitdate type="inclusive" normal="1899/1910">1899-1910</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">12</container>
+            <unittitle>Abstract of expenditures for raw materials <unitdate type="inclusive" normal="1907/1917">1907-1917</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">13</container>
+            <unittitle>Canadian Postum Cereal Company, Advertising Department Ledger <unitdate type="inclusive" normal="1910/1921">1910-1921</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">13</container>
+            <unittitle>Bonus book <unitdate type="inclusive" normal="1906/1908">1906-1908</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Packing room records</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">16</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1913-07/1914-09">July 1913-September 1914</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">16</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1914-09/1916-09">September 1914-September 1916</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">16</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1916-09/1918-06">September 1916-June 1918</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">16</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1920-01/1921-09">January 1920-September 1921</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">16</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1921-09/1922-05">September 1921-May 1922</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Feed book</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">16</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1913-05/1916-01">May 1913-January 1916</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">16</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1916-01/1918-04">January 1916-April 1918</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">16</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1920-01/1921-05">January 1920-May 1921</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">16</container>
+            <unittitle>Cost Journal <unitdate type="inclusive" normal="1918/1922">1918-1922</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">17</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">4 folders</extent>
+            </physdesc>
+            <unittitle>Sales and Advertising Chart <unitdate type="inclusive" normal="1921-01/1921-06">January-June 1921</unitdate> and Yearly exhibit for <unitdate type="inclusive" normal="1921">1921</unitdate></unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Analytical exhibit of cumulative costs of operating fuel cars, 1923-1924</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">17</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1923-12">December 1923</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">17</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1924-06">June 1924</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">17</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1924-12">December 1924</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">17</container>
+            <unittitle>Record of salaries paid to field staff <unitdate type="inclusive" normal="1924">1924</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Proof of miscellaneous accounts for auditors</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">17</container>
+              <unittitle>Trial balance <unitdate type="inclusive" normal="1924">1924</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Advertising Department statements</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">17</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1921-06">June 1921</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">17</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1921-07">July 1921</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">17</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1924-05">May 1924</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">17</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1924-06">June 1924</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">17</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1924-07">July 1924</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">17</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">3 folders</extent>
+              </physdesc>
+              <unittitle>
+                <unitdate type="inclusive" normal="1924-12">December 1924</unitdate>
+              </unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">17</container>
+            <unittitle>Correspondence concerning insurance on salesmen outside Michigan <unitdate type="inclusive" normal="1918/1919">1918-1919</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">17</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">5 folders</extent>
+            </physdesc>
+            <unittitle>Record of field staff insurance claims <unitdate type="inclusive" normal="1919/1920">1919-1920</unitdate></unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="volume" label="Oversize Volume">127</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">1 volume</extent>
+            </physdesc>
+            <unitid>127</unitid>
+            <unittitle>Central National Bank Register <unitdate type="inclusive" normal="1913/1917">1913-1917</unitdate></unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="volume" label="Oversize Volume">128</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">1 volume</extent>
+            </physdesc>
+            <unitid>128</unitid>
+            <unittitle>Central National Bank Register <unitdate type="inclusive" normal="1913/1917">1913-1917</unitdate></unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+          <odd>
+            <p>(continued)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="volume" label="Oversize Volume">129</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">1 volume</extent>
+            </physdesc>
+            <unitid>129</unitid>
+            <unittitle>Continental and Commercial Bank of Chicago Register <unitdate type="inclusive" normal="1913/1917">1913-1917</unitdate></unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="volume" label="Oversize Volume">130</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">1 volume</extent>
+            </physdesc>
+            <unitid>130</unitid>
+            <unittitle>Continental and Commercial Bank of Chicago Register <unitdate type="inclusive" normal="1913/1917">1913-1917</unitdate></unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+          <odd>
+            <p>(continued)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="volume" label="Oversize Volume">131</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">1 volume</extent>
+            </physdesc>
+            <unitid>131</unitid>
+            <unittitle>Continental and Commercial Bank of Chicago Register <unitdate type="inclusive" normal="1913/1917">1913-1917</unitdate></unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+          <odd>
+            <p>(continued)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="volume" label="Oversize Volume">132</container>
+            <unitid>132</unitid>
+            <unittitle>Bank of America, New York, register <unitdate type="inclusive" normal="1913/1915">1913-1915</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>The Dominion Bank of Windsor Ontario register <unitdate type="inclusive" normal="1909/1919">1909-1919</unitdate></unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unitid>166</unitid>
+              <unittitle>Volume 1</unittitle>
+            </did>
+            <odd>
+              <p>(BB.1/outsize)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">133</container>
+              <unitid>133</unitid>
+              <unittitle>Volume 2</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Trial balance</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">134</container>
+              <unitid>134</unitid>
+              <unittitle>
+                <unitdate type="inclusive" normal="1901">1901</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">135</container>
+              <unitid>135</unitid>
+              <unittitle>
+                <unitdate type="inclusive" normal="1901/1902">1901-1902</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="volume" label="Oversize Volume">136</container>
+            <unitid>136</unitid>
+            <unittitle>Advertising Department Ledger <unitdate type="inclusive" normal="1899">1899</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Conditional rebates</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">137</container>
+              <unitid>137</unitid>
+              <unittitle>
+                <unitdate type="inclusive" normal="1897/1899">1897-1899</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">138</container>
+              <unitid>138</unitid>
+              <unittitle>
+                <unitdate type="inclusive" normal="1899/1900">1899-1900</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">139</container>
+              <unitid>139</unitid>
+              <unittitle>
+                <unitdate type="inclusive" normal="1900/1901">1900-1901</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="volume" label="Oversize Volume">140</container>
+            <unitid>140</unitid>
+            <unittitle>Sample of form letters produced by advertising department</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Advertising Department</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">141</container>
+              <unitid>141</unitid>
+              <unittitle>Voucher Record <unitdate type="inclusive" normal="1918/1920">1918-1920</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Record of invoices passed</unittitle>
+          </did>
+          <odd>
+            <p>(BB.1/outsize)</p>
+          </odd>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">144</container>
+              <unitid>144</unitid>
+              <unittitle>September 1902-April 1904 [1]</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">145</container>
+              <unitid>145</unitid>
+              <unittitle><unitdate type="inclusive" normal="1904-04/1905-07">April, 1904-July 1905</unitdate> [2]</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">146</container>
+              <unitid>146</unitid>
+              <unittitle><unitdate type="inclusive" normal="1905-07/1906-08">July 1905-August 1906</unitdate> [3]</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">147</container>
+              <unitid>147</unitid>
+              <unittitle><unitdate type="inclusive" normal="1906-08/1907-04">August 1906-April 1907</unitdate> [4]</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">148</container>
+              <unitid>148</unitid>
+              <unittitle><unitdate type="inclusive" normal="1907-04/1907-08">April 1907-August 1907</unitdate> [5]</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Voucher register and distribution of accounts of Canadian Postum Cereal Company, Ltd.</unittitle>
+          </did>
+          <odd>
+            <p>(BB.1/outsize)</p>
+          </odd>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">153</container>
+              <unitid>153</unitid>
+              <unittitle>
+                <unitdate type="inclusive" normal="1917/1920">1917-1920</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">162</container>
+              <unitid>162</unitid>
+              <unittitle>
+                <unitdate type="inclusive" normal="1921/1925">1921-1925</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Advertising Department</unittitle>
+          </did>
+          <odd>
+            <p>(BB.1/outsize)</p>
+          </odd>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">148</container>
+              <unitid>148</unitid>
+              <unittitle>Journal <unitdate type="inclusive" normal="1918/1919">1918-1919</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">149</container>
+              <unitid>149</unitid>
+              <unittitle>Journal <unitdate type="inclusive" normal="1919">1919</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">150</container>
+              <unitid>150</unitid>
+              <unittitle>Journal, (Canadian Postum) <unitdate type="inclusive" normal="1915/1922">1915-1922</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">151</container>
+              <unitid>151</unitid>
+              <unittitle>Invoice book <unitdate type="inclusive" normal="1918/1919">1918-1919</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">152</container>
+              <unitid>152</unitid>
+              <unittitle>Invoice book <unitdate type="inclusive" normal="1919">1919</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="reel" label="Roll">1</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">1 reel microfilm</extent>
+            </physdesc>
+            <unittitle>Financial Journals <unitdate type="inclusive" normal="1895-04/1895-12">April-December 1895</unitdate>, <unitdate type="inclusive" normal="1896-06/1896-09">June-September 1896</unitdate></unittitle>
+            <physdesc>
+              </physdesc>
+          </did>
+          <odd>
+            <p>[mf: BB.1; Originals at the Post Division, General Foods Corp., Battle Creek]</p>
+          </odd>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

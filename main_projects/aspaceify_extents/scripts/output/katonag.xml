@@ -1,0 +1,881 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead.dtd">
+<ead>
+  <eadheader audience="internal" langencoding="iso639-2b" repositoryencoding="iso15511" dateencoding="iso8601" relatedencoding="Dublin Core">
+    <eadid countrycode="us" mainagencycode="MiU-H" publicid="-//us::MiU-H//TEXT us::MiU-H::katonag.xml//EN" encodinganalog="identifier">umich-bhl-85237</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="title">Finding Aid for George Katona Papers <date>1929-1981</date></titleproper>
+        <author encodinganalog="creator">Collection processed and finding aid prepared by Bentley Historical Library staff</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="publisher">Bentley Historical Library, University of Michigan</publisher>
+        <date encodinganalog="date">1981-1982</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created by Thomas E. Powers <date>November 2000</date></creation>
+      <langusage>The finding aid is written in <language encodinganalog="language" langcode="eng">English.</language></langusage>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date>20031010</date>
+        <item>Converted to EAD2002 using Word macro and Xmetal</item>
+      </change>
+      <change>
+        <date>2000-11-13</date>
+        <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <frontmatter>
+    <titlepage>
+      <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
+      <titleproper>Finding Aid for <lb/>George Katona Papers, <date type="inclusive">1929-1981</date></titleproper>
+      <author>Finding aid prepared by: <lb/>Bentley Historical Library staff</author>
+    </titlepage>
+  </frontmatter>
+  <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
+    <did>
+      <origination>
+        <persname source="lcnaf" encodinganalog="100">Katona, George, 1901-</persname>
+      </origination>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">2 linear feet</extent>
+      </physdesc>
+      <unittitle encodinganalog="245">George Katona Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1929/1981">1929-1981</unitdate></unittitle>
+      <abstract>Professor of economics and psychology, and research coordinator for the Survey Research Center, Institute for Social Research, at the University of Michigan. Research reports, addresses and speeches, miscellaneous correspondence, personal material, and photographs.</abstract>
+      <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">85237 Aa 2</unitid>
+      <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
+      <repository encodinganalog="852">
+        <corpname><subarea>Bentley Historical Library</subarea> University of Michigan</corpname>
+        <extptr href="bhladd" show="embed" actuate="onload"/>
+      </repository>
+    </did>
+    <descgrp type="admin">
+      <acqinfo encodinganalog="541">
+        <p>The collection was the gift of Katona family members (donor no. <num type="donor" encodinganalog="541$e">6658</num>) and came to the library in 1981-1982.</p>
+      </acqinfo>
+      <accessrestrict encodinganalog="506">
+        <p>The collection is open for research.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+        <p>Copyright has been transferred to the Regents of the University of Michigan.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+        <p>item, folder title, box no., George Katona Papers, Bentley Historical Library, University of Michigan</p>
+      </prefercite>
+    </descgrp>
+    <bioghist encodinganalog="545">
+      <p>George Katona was born in Budapest, Hungary on November 6,1901. He received his Ph.D. in Psychology from the University of Goettingen, Germany in 1921. For several years, first in Germany, then in the United States, Katona worked alternately as a psychologist, an economist, and as a journalist. After 1938 he began to integrate his diverse professional interests at the New School for Social Research, New York, the University of Chicago, and as an employee of the federal government in Washington. From 1946 until his retirement in 1972, Dr. Katona has been affiliated with the University of Michigan as Professor of Economics, Professor of Psychology, and Research Coordinator for the Survey Research Center, Institute for Social Research. He founded and for many years directed the Surveys of Consumer Finances, and devised the Index of Consumer Sentiment.</p>
+      <p>Katona was a Fellow of the American Psychological Association, American Statistical Association and the American Economic Association. He has authored numerous articles and books, several of which have been translated into foreign languages. Katona summarized his theoretical approach and his findings in Psychological Economics (Elsevier, 1972). In 1977 the University of Amsterdam, Holland, awarded him an honorary degree of Doctor of Economic Sciences. In the same year the American Psychological Association bestowed on him its Distinguished Professional Contribution Award.</p>
+      <p>Throughout his career, Katona sought to study economic problems in terms of psychology. A pioneer in the field of consumer psychology and economic forecasting. Katona was described by some as the "dean of behavioral economics". He died in 1981 at the age of 79.</p>
+    </bioghist>
+    <scopecontent encodinganalog="520">
+      <p>The George Katona Collection consists primarily of reports and speeches (in typewritten manuscript form) produced during his association with the Institute for Social Research at the University of Michigan, and with the United States Government. Also included are reviews of his published works, and reprints of those articles of his not listed in his bibliography. In addition, there is a small amount of correspondence concerning the relationship between the Institute for Social Research and various departments at the University of Michigan.</p>
+    </scopecontent>
+    <controlaccess>
+      <p>
+        <extptr href="accnote" show="embed" actuate="onload"/>
+      </p>
+      <controlaccess>
+        <head>Subjects:</head>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n80004235">Katona, George, 1901-1981</persname>
+        <subject source="lcsh" encodinganalog="650">Social surveys--Research.</subject>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Institute for Social Research.</corpname>
+      </controlaccess>
+      <controlaccess>
+        <head>Subjects - Visual Material:</head>
+        <subject source="lctgm" encodinganalog="650">Charitable organizations.</subject>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n80004235">Katona, George, 1901-1981</persname>
+      </controlaccess>
+      <controlaccess>
+        <head>Genre/Form:</head>
+        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+      </controlaccess>
+    </controlaccess>
+    <dsc type="combined">
+      <c01 level="series">
+        <did>
+          <unittitle>Personal Papers</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Biographical and bibliographical materials</unittitle>
+          </did>
+          <odd>
+            <p>(1)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Correspondence <unitdate type="inclusive" normal="1929/1938">1929-1938</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(2)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Correspondence <unitdate type="inclusive" normal="1961/1972">1961-1972</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(3)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Correspondence <unitdate type="inclusive" normal="1979/1981">1979-1981</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(4)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>University of Michigan Memos <unitdate type="inclusive" normal="1965/1971">1965-1971</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(5)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>University of Michigan Memos <unitdate type="inclusive" normal="1972/1980">1972-1980</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(6)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Institute for Social Research, Press Releases <unitdate type="inclusive" normal="1963/1981">1963-1981</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(7)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Reviews of published works</unittitle>
+          </did>
+          <odd>
+            <p>(8)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Obituaries</unittitle>
+          </did>
+          <odd>
+            <p>(9)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Memorial Service <unitdate type="inclusive" normal="1981-07-01">July 1, 1981</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(10)</p>
+          </odd>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Research Reports</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Psychological Implications of the Inflation Problem <unitdate type="inclusive" normal="1942">1942</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(11)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Report for the Division of Program Surveys, United States Department of Agriculture <unitdate type="inclusive" normal="1945">1945</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(12)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Reports for the Survey Research Center, University of Michigan</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Four Families Discuss Their Financial Position <unitdate type="inclusive" normal="1948">1948</unitdate></unittitle>
+            </did>
+            <odd>
+              <p>(13)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Validity of Consumer Expectations <unitdate type="inclusive" normal="1949">1949</unitdate></unittitle>
+            </did>
+            <odd>
+              <p>(14)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Postwar Income Changes of Identical Consumer Units <unitdate type="inclusive" normal="1949">1949</unitdate></unittitle>
+            </did>
+            <odd>
+              <p>(15)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Die Erforschung Der Offentlichen Meinung <unitdate type="inclusive" normal="1950">1950</unitdate></unittitle>
+            </did>
+            <odd>
+              <p>(16)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Reports on Activities in Germany <unitdate type="inclusive" normal="1950">1950</unitdate>, <unitdate type="inclusive" normal="1953">1953</unitdate></unittitle>
+            </did>
+            <odd>
+              <p>(17)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Comments on the Reports: "Consumer Survey Statistics" (Smithies Committee) and "Statistics on Saving" (Goldsmith Committee) <unitdate type="inclusive" normal="1955">1955</unitdate></unittitle>
+            </did>
+            <odd>
+              <p>(18)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Consumer Psychology: The Growth of a Movement <unitdate type="inclusive" normal="1961">1961</unitdate></unittitle>
+            </did>
+            <odd>
+              <p>(19)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Consumer Behavior in Our Changing Environment <unitdate type="inclusive" normal="1961">1961</unitdate></unittitle>
+            </did>
+            <odd>
+              <p>(20)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Advertising in a Mass Consumption Society <unitdate type="inclusive" normal="1964">1964</unitdate></unittitle>
+            </did>
+            <odd>
+              <p>(21)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Adaptive Theory of Consumer Behavior <unitdate type="inclusive" normal="1967">1967</unitdate></unittitle>
+            </did>
+            <odd>
+              <p>(22)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Consumer Savings: Preference for and Use of Savings Accounts <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
+            </did>
+            <odd>
+              <p>(23)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>The Impact of the Tax Surcharge of <unitdate type="inclusive" normal="1968">1968</unitdate> on Consumer Expenditures</unittitle>
+            </did>
+            <odd>
+              <p>(24)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Installment Debt <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
+            </did>
+            <odd>
+              <p>(25)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Aspirations and Economic Trends <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
+            </did>
+            <odd>
+              <p>(26)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Social Statistics on Consumption and the Consumer <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
+            </did>
+            <odd>
+              <p>(27)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Consumer Aspirations Influence the Economy <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
+            </did>
+            <odd>
+              <p>(28)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Proposed Panel Analysis for Spring Publication <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
+            </did>
+            <odd>
+              <p>(29)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Economic Behavior Program, 25th Anniversary Report <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
+            </did>
+            <odd>
+              <p>(30)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Attitudes Toward Mutual Fund Shares <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
+            </did>
+            <odd>
+              <p>(31)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Ownership and Purchases of Stocks and Mutual Fund Shares <unitdate type="inclusive" normal="1971">1971</unitdate></unittitle>
+            </did>
+            <odd>
+              <p>(32)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>On Studies of Personal Savings <unitdate type="inclusive" normal="1971">1971</unitdate></unittitle>
+            </did>
+            <odd>
+              <p>(33)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Prospects for Personal Savings <unitdate type="inclusive" normal="1971">1971</unitdate></unittitle>
+            </did>
+            <odd>
+              <p>(34)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Violence Project <unitdate type="inclusive" normal="1971">1971</unitdate></unittitle>
+            </did>
+            <odd>
+              <p>(35)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Methodological Studies on Consumer Anticipation <unitdate type="inclusive" normal="1971">1971</unitdate></unittitle>
+            </did>
+            <odd>
+              <p>(36)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Product Quality: Economic and Psychological Considerations <unitdate type="inclusive" normal="1971">1971</unitdate></unittitle>
+            </did>
+            <odd>
+              <p>(37)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Theory of Expectations <unitdate type="inclusive" normal="1971">1971</unitdate></unittitle>
+            </did>
+            <odd>
+              <p>(38)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>The Function of Advertising of Standardized Products <unitdate type="inclusive" normal="1972">1972</unitdate></unittitle>
+            </did>
+            <odd>
+              <p>(39)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Cognitive Processes in Social Learning <unitdate type="inclusive" normal="1972">1972</unitdate></unittitle>
+            </did>
+            <odd>
+              <p>(40)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Change in Long Range Attitudes <unitdate type="inclusive" normal="1972">1972</unitdate></unittitle>
+            </did>
+            <odd>
+              <p>(41)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Memorandum on the Consumer's Way of Understanding Food Ads and Price Advertising, 19719</unittitle>
+            </did>
+            <odd>
+              <p>(42)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Volatility of Consumer Attitudes <unitdate type="inclusive" normal="1976">1976</unitdate></unittitle>
+            </did>
+            <odd>
+              <p>(43)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Consumer Sentiment and Economic Trends <unitdate type="inclusive" normal="1977">1977</unitdate></unittitle>
+            </did>
+            <odd>
+              <p>(44)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Measures of Uncertainty <unitdate type="inclusive" normal="1977">1977</unitdate></unittitle>
+            </did>
+            <odd>
+              <p>(45)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Toward a Macro Psychology <unitdate type="inclusive" normal="1978">1978</unitdate></unittitle>
+            </did>
+            <odd>
+              <p>(46)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Fourier Charts <unitdate type="inclusive" normal="1977/1978">1977-1978</unitdate></unittitle>
+            </did>
+            <odd>
+              <p>(47)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Survey Indications of Unfavorable Economic Trends <unitdate type="inclusive" normal="1978">1978</unitdate></unittitle>
+            </did>
+            <odd>
+              <p>(48)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Behavioral Science and Public Policy <unitdate type="inclusive" normal="1979">1979</unitdate></unittitle>
+            </did>
+            <odd>
+              <p>(49)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Middle Range Economic Trends <unitdate type="inclusive" normal="1980">1980</unitdate></unittitle>
+            </did>
+            <odd>
+              <p>(50)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Expectations in Economics <unitdate type="inclusive" normal="1981">1981</unitdate></unittitle>
+            </did>
+            <odd>
+              <p>(51)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Interdisciplinary Research <unitdate type="inclusive" normal="1981">1981</unitdate></unittitle>
+            </did>
+            <odd>
+              <p>(52)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Economic Psychology; Evaluation and Prospects <unitdate type="inclusive" normal="1981">1981</unitdate></unittitle>
+            </did>
+            <odd>
+              <p>(53)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Consumer Behavior in the Purchase of Durable Goods <unitdate>undated</unitdate></unittitle>
+            </did>
+            <odd>
+              <p>(54)</p>
+            </odd>
+          </c03>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Addresses and Speeches</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Consumer Investment and Business Investments <unitdate type="inclusive" normal="1960">1960</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(55)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Vienna Conference <unitdate type="inclusive" normal="1962">1962</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(56)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Statement for the Joint Economic Committee <unitdate type="inclusive" normal="1962">1962</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(57)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Strengthening the Behavioral Sciences <unitdate type="inclusive" normal="1962">1962</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(58)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Consumer Attitudes and Expectations <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(59)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Paper at Yale <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(60)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Measurement and Predictive Value of Attitudes and Expectations <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(61)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Economic Outlook Conference <unitdate type="inclusive" normal="1971">1971</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(62)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Boston Presentation <unitdate type="inclusive" normal="1972">1972</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(63)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Savings Bond Committee Conference <unitdate type="inclusive" normal="1973">1973</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(64)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Economic Indicators and Consumer Motivation <unitdate type="inclusive" normal="1974">1974</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(65)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Attitudes Towards Trust Companies <unitdate type="inclusive" normal="1976">1976</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(66)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Amsterdam Speech <unitdate type="inclusive" normal="1977">1977</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(67)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Dinner Speech <unitdate type="inclusive" normal="1977">1977</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(68)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>American Economic Association Meeting <unitdate type="inclusive" normal="1977">1977</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(69)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>CUNA-San Francisco Speech <unitdate type="inclusive" normal="1977">1977</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(70)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Finlay Carpenter Lecture <unitdate type="inclusive" normal="1978">1978</unitdate> University of Michigan</unittitle>
+          </did>
+          <odd>
+            <p>(71)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Brooklyn College Speech "The Psychology of Inflation," <unitdate type="inclusive" normal="1980">1980</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(72)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>CBS-TV, WBBM-TV research materials</unittitle>
+          </did>
+          <odd>
+            <p>(73)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>University of Illinois Honorary Doctoral Speech <unitdate type="inclusive" normal="1981">1981</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(74)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Association of Business Economists <unitdate>undated</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(75)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Consumer Durable Spending <unitdate>undated</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(76)</p>
+          </odd>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Publications, clippings, etc</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Foreign Periodicals containing Dr. Katona's articles</unittitle>
+          </did>
+          <odd>
+            <p>(77)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Unpublished Manuscript <title render="italic">Currency Warfare and Stabilization</title>, <unitdate>undated</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(78)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Miscellaneous Newspaper clippings</unittitle>
+          </did>
+          <odd>
+            <p>(79)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Reprints of Periodical Articles not listed in his bibliographies</unittitle>
+          </did>
+          <odd>
+            <p>(80)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle><title render="italic">George Katona &amp; A Emergencia Da Economia Psicologica Nos Estrados Unidos</title>, Thesis by Luiza Branco Fernandes, Universidade De Sao Paulo, <unitdate type="inclusive" normal="1979">1979</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle><title render="italic">The Investment Needs of Individuals</title>, Corporate Planning Report, Merrill, Lynch, Pierce, Fenner, and Smith, Inc., <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>The Founder's Symposium: The Institute for Social Research Honoring George Katona <unitdate type="inclusive" normal="1979">1979</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Parlin National Marketing Award</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>
+              <genreform source="aat" normal="Photographs">Photographs</genreform>
+            </unittitle>
+          </did>
+          <scopecontent>
+            <p>Photographs include portraits of George Katona and picture of his wife in March of Dimes publicity scene.</p>
+          </scopecontent>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

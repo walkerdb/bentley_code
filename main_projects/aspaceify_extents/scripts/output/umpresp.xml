@@ -1,0 +1,646 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead.dtd">
+<ead>
+  <eadheader audience="internal" langencoding="iso639-2b" repositoryencoding="iso15511" dateencoding="iso8601" relatedencoding="Dublin Core" scriptencoding="iso15924" countryencoding="iso3166-1">
+    <eadid countrycode="us" mainagencycode="MiU-H" publicid="us//::miu-h//TXT us::miu-h::umpresp.xml//EN" encodinganalog="Identifier">umich-bhl-06126</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="Title">Finding Aid for President (University of Michigan) publications, 1909-2007</titleproper>
+        <author encodinganalog="Creator">Collection processed and finding aid created by Kyle Conner, 2006; Updated, Polly Reynolds, 2007</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="Publisher">Bentley Historical Library, University of Michigan</publisher>
+        <date encodinganalog="Date" normal="2007">2007</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created by Greg Kinney <date>20070410</date></creation>
+      <langusage encodinganalog="Language">The finding aid is written in <language langcode="eng" scriptcode="Latn">English</language></langusage>
+      <descrules>Finding aid prepared using Describing Archives: A Content Standard (DACS)</descrules>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date>20150921</date>
+        <item>Added written notes from paper finding aid.</item>
+      </change>
+      <change>
+        <date>20150714</date>
+        <item>added brochures and reports.</item>
+      </change>
+      <change>
+        <date>20130208</date>
+        <item>added Deep Blue website links.</item>
+      </change>
+      <change>
+        <date>20110313</date>
+        <item>added WAS website links.</item>
+      </change>
+      <change>
+        <date>2007-04-10</date>
+        <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <frontmatter>
+    <titlepage>
+      <publisher>University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
+      <titleproper>Finding aid for <lb/>President <lb/>(University of Michigan) <lb/>publications, 1909-2007</titleproper>
+      <author>Finding aid created by <lb/>Kyle Conner, 2006; Updated, Polly Reynolds, 2007<lb/>Chris Schunter, 2015<lb/>Last update: July 2015</author>
+    </titlepage>
+  </frontmatter>
+  <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
+    <did>
+      <origination>
+        <corpname source="lcnaf" encodinganalog="110">University of Michigan. President.</corpname>
+      </origination>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1.6 linear feet</extent>
+      </physdesc>
+      <unittitle encodinganalog="245">President (University of Michigan) publications <unitdate type="inclusive" encodinganalog="245$f" normal="1909/2007">1909-2007</unitdate></unittitle>
+      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">06126 Bimu 2</unitid>
+      <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
+      <abstract>The publications of the University of Michigan President and publications produced by the office record the public life of the university president and document the concerns of the university in response to current events and pressures. The records include publications from inaugurations, State of the University Addresses, letters, and event programs. The most significant records are commission findings, essays and lectures, and university reports.</abstract>
+      <repository>
+        <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea>, University of Michigan</corpname>
+        <extptr href="bhladd" show="embed" actuate="onload"/>
+      </repository>
+    </did>
+    <descgrp type="admin">
+      <acqinfo encodinganalog="541">
+        <p>Publications are received periodically from the unit (donor no. <num type="donor" encodinganalog="541$e">566</num>).</p>
+      </acqinfo>
+      <accruals encodinganalog="584">
+        <p>Periodic additions to the records expected.</p>
+      </accruals>
+      <accessrestrict encodinganalog="506">
+        <p>The publications are open without restriction.</p>
+        <p>
+          <extptr href="uarpacc" show="embed" actuate="onload"/>
+        </p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+        <p>Copyright is held by the Regents of the University of Michigan.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+        <p>[item], folder, box,
+President (University of Michigan) publications, Bentley Historical Library, University of Michigan</p>
+      </prefercite>
+    </descgrp>
+    <bioghist encodinganalog="545">
+      <p>For historical sketch of the President's office see the finding aid for President (University of Michigan) records.</p>
+    </bioghist>
+    <scopecontent encodinganalog="520">
+      <p>The publications of the President record the public life of the University President and document communication with the campus community and public about the concerns of the university in response to current events and pressures. The records span the years 1909 to the present, with the bulk of the collection covering the years 1985-2000.</p>
+      <p>The material includes publications from inaugurations, State of the University Addresses, letters, and event programs. The most significant publications are commission findings, essays and lectures, and university reports. These records document university investigations and responses to concerns such as women's issues and future university expansion. These publications also contain materials relating to bestowing honorary degrees, financial reports, and speeches to community organizations. Also included are some hard copy print-out examples of presidential email announcements. Some publications (or their successors) may no longer be available in print but are available on the school s website.</p>
+    </scopecontent>
+    <controlaccess>
+      <p>
+        <extptr href="accnote" show="embed" actuate="onload"/>
+      </p>
+      <controlaccess>
+        <head>Subjects:</head>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan. President.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Administration.</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79061314">Tappan, Henry Philip, 1805-1881.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no90002065">Angell, James Burrill, 1829-1916.</persname>
+        <persname source="lcnaf" encodinganalog="600">Little, Clarence C. (Clarence Cook), b. 1888.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n87828171">Ruthven, Alexander Grant, 1882-1971.</persname>
+        <persname source="lcnaf" encodinganalog="600">Hatcher, Harlan Henthorn, 1898-</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no89013050">Fleming, R. W. (Robben Wright), 1916-2010.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n84041141">Shapiro, Harold T., 1935-</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n81055160">Duderstadt, James J., 1942-</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n80062320">Bollinger, Lee C., 1946-</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2003028655">Coleman, Mary Sue.</persname>
+        <persname source="lcnaf" encodinganalog="700">Little, Clarence C. (Clarence Cook), b. 1888.</persname>
+      </controlaccess>
+      <controlaccess>
+        <head>Contributors:</head>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n87828171">Ruthven, Alexander Grant, 1882-1971.</persname>
+        <persname source="lcnaf" encodinganalog="700">Hatcher, Harlan Henthorn, 1898-</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no89013050">Fleming, R. W. (Robben Wright), 1916-2010.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n84041141">Shapiro, Harold T., 1935-</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n81055160">Duderstadt, James J., 1942-</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n80062320">Bollinger, Lee C., 1946-</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2003028655">Coleman, Mary Sue.</persname>
+        <persname source="lcnaf" encodinganalog="700">White, B. Joseph.</persname>
+      </controlaccess>
+    </controlaccess>
+    <dsc type="combined">
+      <c01 level="series">
+        <did>
+          <unittitle>Unit Publications</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <unittitle>Addresses</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">1</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
+              </physdesc>
+              <unittitle>Presidential Addresses and Speeches <unitdate type="inclusive" normal="1956/2001">1956-2001</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle><title render="italic">The State of the University</title>, <unitdate type="inclusive" normal="1970/1974">1970-1974</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle><title render="italic">State of the University Address</title>, <unitdate type="inclusive" normal="1988/1989">1988-1989</unitdate>, <unitdate type="inclusive" normal="1993">1993</unitdate>, <unitdate type="inclusive" normal="1995">1995</unitdate></unittitle>
+            </did>
+            <odd>
+              <p>(also includes distinguished faculty achievement awards)</p>
+            </odd>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Biographies and Inaugurations</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Henry P. Tappan</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>James B. Angell</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Clarence C. Little</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Alexander Ruthven</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Harlan Hatcher</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Robben W. Fleming</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Harold Shapiro</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>James J. Duderstadt</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Lee Bollinger</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Mary Sue Coleman</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Brochures</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>The President's Donor Challenge: Making a Difference in Graduate and Professional Student Support, circa <unitdate type="inclusive" normal="2007">2007</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Christmas cards and holiday greetings <unitdate type="inclusive">undated</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Commissions</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Citizens Committee on Higher Education <unitdate type="inclusive" normal="1963">1963</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>The Michigan Agenda for Women <unitdate type="inclusive" normal="1994/1995">1994-1995</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Needs of Medical Education in Michigan <unitdate type="inclusive" normal="1957">1957</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>The Organization of the University <unitdate type="inclusive" normal="1996">1996</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>President's Advisory Commission on Women's Issues <unitdate type="inclusive" normal="1990/1991">1990-1991</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>The Role of the Student in Decision Making <unitdate type="inclusive" normal="1967">1967</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Commission on the Undergraduate Experience <unitdate type="inclusive" normal="2001">2001</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Women's Agenda for the <unitdate type="inclusive" normal="1990/1999" certainty="approximate">1990s</unitdate>, <unitdate type="inclusive" normal="1998">1998</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Emails (hard copy print-outs)</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Lee C. Bollinger <unitdate type="inclusive" normal="1998/2001">1998-2001</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>B. Joseph White <unitdate type="inclusive" normal="2001/2002">2001-2002</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Mary Sue Coleman <unitdate type="inclusive" normal="2002">2002</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Essays/Lecture Series</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle><title render="italic">Changing in a World of Change</title>, <unitdate type="inclusive" normal="1996">1996</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle><title render="italic">Climate and Character, Perspectives on Diversity</title>, <unitdate type="inclusive" normal="1997">1997</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle><title render="italic">The Government-University Research Partnership</title>, <unitdate type="inclusive" normal="1992">1992</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>The Monograph Series <unitdate type="inclusive" normal="1995/1996">1995-1996</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle><title render="italic">Presidential Lecture Series on Academic Values</title>, <unitdate type="inclusive" normal="1993">1993</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle><title render="italic">Scientific Integrity of the University</title>, <unitdate type="inclusive" normal="1993">1993</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Guides</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle><title render="italic">A Guide to University of Michigan Activities in Metropolitan Detroit</title>, <unitdate type="inclusive" normal="1994">1994</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Invitations <unitdate type="inclusive" normal="1982/2006">1982-2006</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Letters</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Diversity Issues <unitdate type="inclusive" normal="1970">1970</unitdate>, <unitdate type="inclusive" normal="1989">1989</unitdate>, <unitdate type="inclusive" normal="1996">1996</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Fundraising/M-Campaign <unitdate type="inclusive" normal="1985/1992">1985-1992</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Miscellaneous <unitdate type="inclusive" normal="1965/1998">1965-1998</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Programs</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>An Afternoon with the Presidents <unitdate type="inclusive" normal="1992">1992</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>The Games <unitdate type="inclusive" normal="2000">2000</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container label="Box" type="box">2</container>
+            <unittitle>President's Weekends <unitdate type="inclusive" normal="1986/1996">1986-1996</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Reports</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle><title render="italic">Enriching a Heritage of Leadership</title>, <unitdate type="inclusive" normal="1982">1982</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
+              </physdesc>
+              <unittitle>Financial Assets and Investments <unitdate type="inclusive" normal="1995/1996">1995-1996</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle><title render="italic">In the Interim</title>, <unitdate type="inclusive" normal="1996/1997">1996-1997</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle><title render="italic">A Growing Season</title>, <unitdate type="inclusive" normal="1986/1996">1986-1996</unitdate>, <unitdate type="inclusive" normal="1996">1996</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle><title render="italic">Michigan Agenda for Women: Toward a Full and Equal Partnership</title>, <unitdate type="inclusive" normal="1995">1995</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
+              </physdesc>
+              <unittitle><title render="italic">The Michigan Metrics</title>, <unitdate type="inclusive" normal="1994/1995">1994-1995</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle><title render="italic">One Year Later...Commitment to Leadership; Annual Report on Minority Affairs</title>, <unitdate type="inclusive" normal="1987/1988">1987-1988</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle><title render="italic">President's Letters</title>, <unitdate type="inclusive" normal="1968/1970">1968-1970</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle><title render="italic">Rebuilding the University</title>, <unitdate type="inclusive" normal="1986/1996">1986-1996</unitdate>, <unitdate type="inclusive" normal="1996">1996</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
+              </physdesc>
+              <unittitle><title render="italic">Report of the President</title>, <unitdate type="inclusive" normal="1931/1990">1931-1990</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle><title render="italic">Report to the University Community</title>, <unitdate type="inclusive" normal="1966/1979">1966-1979</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle><title render="italic">Strategic Planning for the Twenty-First Century</title>, <unitdate type="inclusive" normal="1994">1994</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle><title render="italic">A Strategy for Our Future</title>, <unitdate type="inclusive" normal="1996">1996</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle><title render="italic">Toward an Educational Transformation</title>, <unitdate type="inclusive" normal="1996">1996</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle><title render="italic">U-M Commentary</title>, <unitdate type="inclusive" normal="1962">1962</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle><title render="italic">Undergraduate Education at the University of Michigan: A Sample of Programs</title>, <unitdate type="inclusive" normal="1991/1992">1991-1992</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>University of Michigan Honorary Degrees <unitdate type="inclusive" normal="1996">1996</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>
+                <title render="italic">The University of Michigan's Media Union</title>
+                <unitdate type="inclusive" normal="1995">1995</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle><title render="italic">A Vision for the 21st Century</title>, <unitdate type="inclusive" normal="1995">1995</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
+              </physdesc>
+              <unittitle><title render="italic">Women at the University of Michigan</title>, volumes 1-3, <unitdate type="inclusive" normal="1992/1996">1992-1996</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle><title render="italic">Women Lecturers in the Residential College</title>, <unitdate type="inclusive" normal="1995">1995</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Archived University of Michigan President WEBSITE</unittitle>
+        </did>
+        <scopecontent>
+          <p>The President's Archived Website series documents the mission, activities, policies, and individuals involved in the operation of the Office of the President. Content includes important news and announcements, publications (such as reports and administrative documents), and information about committees, initiatives, and events. This archived website will be captured on a regular, ongoing basis as part of the University of Michigan Web Archives, hosted at http://webarchives.cdlib.org/a/universityofmichigan/. Prior to 2010 several snapshots of the President's website were captured locally and stored on CD. They can now be downloaded as ZIP files from Deep Blue, the university's institutional repository.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <physloc>Online</physloc>
+            <unittitle>Archived University of Michigan President home page <unitdate type="inclusive" normal="2001">2001</unitdate></unittitle>
+          </did>
+          <dao show="new" actuate="onrequest" href="http://hdl.handle.net/2027.42/96192">
+            <daodesc>
+              <p>[download zip file]</p>
+            </daodesc>
+          </dao>
+        </c02>
+        <c02 level="file">
+          <did>
+            <physloc>Online</physloc>
+            <unittitle>Archived University of Michigan President home page <unitdate type="inclusive" normal="2005">2005</unitdate></unittitle>
+          </did>
+          <dao show="new" actuate="onrequest" href="http://hdl.handle.net/2027.42/96193">
+            <daodesc>
+              <p>[download zip file]</p>
+            </daodesc>
+          </dao>
+        </c02>
+        <c02 level="file">
+          <did>
+            <physloc>Online</physloc>
+            <unittitle>Archived University of Michigan President home page <unitdate type="inclusive" normal="2008">2008</unitdate></unittitle>
+          </did>
+          <dao show="new" actuate="onrequest" href="http://hdl.handle.net/2027.42/96194">
+            <daodesc>
+              <p>[download zip file]</p>
+            </daodesc>
+          </dao>
+        </c02>
+        <c02 level="file">
+          <did>
+            <physloc>Online</physloc>
+            <unittitle>Archived University of Michigan President home page <unitdate type="inclusive" normal="2009">2009</unitdate></unittitle>
+          </did>
+          <dao show="new" actuate="onrequest" href="http://hdl.handle.net/2027.42/96195">
+            <daodesc>
+              <p>[download zip file]</p>
+            </daodesc>
+          </dao>
+        </c02>
+        <c02 level="file">
+          <did>
+            <physloc>Online</physloc>
+            <unittitle>Archived University of Michigan President home page, <unitdate normal="2010/2099">2010-[ongoing]</unitdate></unittitle>
+          </did>
+          <dao show="new" actuate="onrequest" href="87274-w-1">
+            <daodesc>
+              <p>[view web site]</p>
+            </daodesc>
+          </dao>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

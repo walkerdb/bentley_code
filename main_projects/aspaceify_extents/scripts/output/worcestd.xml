@@ -1,0 +1,937 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead.dtd">
+<ead>
+  <eadheader audience="internal" langencoding="iso639-2b" repositoryencoding="iso15511" dateencoding="iso8601" relatedencoding="Dublin Core">
+    <eadid countrycode="us" mainagencycode="MiU-H" publicid="-//us::MiU-H//TEXT us::MiU-H::worcestd.xml//EN" encodinganalog="identifier">umich-bhl-86354</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="title">Finding Aid for Dean C. Worcester Papers <date>1887-1925</date></titleproper>
+        <author encodinganalog="creator">Collection processed and Finding aid prepared by Bentley Historical Library staff</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="publisher">Bentley Historical Library, University of Michigan</publisher>
+        <date encodinganalog="date">1960?</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created by Thomas E. Powers <date>August 1998</date></creation>
+      <langusage>The finding aid is written in <language encodinganalog="language" langcode="eng">English.</language></langusage>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date>20150728</date>
+        <item>Added written notes from paper finding aid.</item>
+      </change>
+      <change>
+        <date>20031010</date>
+        <item>Converted to EAD2002 using Word macro and Xmetal</item>
+      </change>
+      <change>
+        <date>1999-06-09</date>
+        <item>Converted to EAD version 1.0 using WORD 6 macro and some hand tagging and converted to new container style.</item>
+      </change>
+      <change>
+        <date>1998-08</date>
+        <item>Original encoding from Word 6.0 file</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <frontmatter>
+    <titlepage>
+      <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
+      <titleproper>Finding Aid for <lb/>Dean C. Worcester Papers, <date type="inclusive">1887-1925</date></titleproper>
+      <author>Finding aid prepared by: <lb/>Bentley Historical Library staff</author>
+    </titlepage>
+  </frontmatter>
+  <archdesc level="collection" type="inventory" audience="external" relatedencoding="MARC21">
+    <did>
+      <origination>
+        <persname encodinganalog="100" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n86828116">Worcester, Dean C. (Dean Conant), 1866-1924.</persname>
+      </origination>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">1 oversize folder</extent>
+      </physdesc>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">4.4 linear feet</extent>
+      </physdesc>
+      <unittitle encodinganalog="245">Dean C. Worcester papers <unitdate encodinganalog="245$f" type="inclusive" normal="1887/1925">1887-1925</unitdate></unittitle>
+      <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">86354 Aa/2, Ac</unitid>
+      <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
+      <abstract>University of Michigan professor of zoology and museum curator, participated in or and led several research expeditions to the Philippines, member of the First and Second Philippine Commissions and involved in several Philippines business ventures; records includes notes, correspondence, publications and photographs relating to research expeditions, service on Philippines Commissions business activities, of special interest are notes of a trip taken to Mindoro and Palawan in July of 1910 and papers pertaining to the special Wood-Forbes Investigating Mission to the Philippines in 1921.</abstract>
+      <repository>
+        <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea> University of Michigan</corpname>
+        <extptr href="bhladd" show="embed" actuate="onload"/>
+      </repository>
+    </did>
+    <descgrp type="admin">
+      <acqinfo encodinganalog="541">
+        <p>The collection was donated in 1957 by Alice Worcester Day (Mrs. Kenneth B. Day). Mrs. Day was Dean C. Worcester's daughter. Donor no. <num encodinganalog="541$e" type="donor">3253</num></p>
+      </acqinfo>
+      <accessrestrict encodinganalog="506">
+        <p>The collection is open for research.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+        <p>Anne Day Harrell, daughter of Alice W. Day, transferred her copyright in the papers of her grandfather to the University of Michigan.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+        <p>item, folder title, box no., Dean C. Worcester Papers, Bentley Historical Library, University of Michigan</p>
+      </prefercite>
+    </descgrp>
+    <bioghist encodinganalog="545">
+      <p>
+        <chronlist>
+          <head>Worcester Chronology</head>
+          <chronitem>
+            <date>1866</date>
+            <event>Born, Thetford, Vermont</event>
+          </chronitem>
+          <chronitem>
+            <date>1887-1888</date>
+            <event>Visited the Philippines with Joseph Beal Steere expedition sponsored by the University of Michigan</event>
+          </chronitem>
+          <chronitem>
+            <date>1889</date>
+            <event>Graduated from the University of Michigan</event>
+          </chronitem>
+          <chronitem>
+            <date>1890-1893</date>
+            <event>Visited the Philippines as leader of the Menage expedition sponsored by the Minnesota Academy of Natural Science</event>
+          </chronitem>
+          <chronitem>
+            <date>1893</date>
+            <event>Appointed instructor at the University of Michigan</event>
+          </chronitem>
+          <chronitem>
+            <date>1895</date>
+            <event>Promoted to assistant professor of zoology and appointed curator of the University Museum, University of Michigan</event>
+          </chronitem>
+          <chronitem>
+            <date>1898</date>
+            <event>Published <title render="italic">The Philippine Islands and their People</title></event>
+          </chronitem>
+          <chronitem>
+            <date>1899</date>
+            <event>Appointed to the First Philippine Commission, visited the Philippines with the commission, and supervised compilation of commission's final report</event>
+          </chronitem>
+          <chronitem>
+            <date>1900</date>
+            <event>Appointed to the Second Philippine Commission and returned to the Philippines</event>
+          </chronitem>
+          <chronitem>
+            <date>1901</date>
+            <event>Appointed Secretary of the Interior in the Philippine Commission's government of the Philippines</event>
+          </chronitem>
+          <chronitem>
+            <date>1913</date>
+            <event>Resigned position with the Philippine Commission and became vice-president of the Philippine-American Company</event>
+          </chronitem>
+          <chronitem>
+            <date>1914</date>
+            <event>Published <title render="italic">The Philippines Past and Present</title></event>
+          </chronitem>
+          <chronitem>
+            <date>1913-1924</date>
+            <event>Worked at various business enterprises in the Philippines</event>
+          </chronitem>
+          <chronitem>
+            <date>1924</date>
+            <event>Died in Manila</event>
+          </chronitem>
+        </chronlist>
+      </p>
+      <p>Dean Conant Worcester was born in Thetford, Vermont, the youngest son of an impoverished family of nine children. In 1884, his older brother and sister paid his expenses to the University of Michigan where he majored in zoology and came under the influence of Joseph B. Steere, chair of the Department of Zoology. In 1887, still an undergraduate, Worcester joined Steer's expedition to the Philippines, financing the costs by insuring his life and borrowing on the policy.</p>
+      <p>The Steere expedition was recognized as a scientific success. With academic credit for his participation in the expedition and a semester's work in zoology, Worcester obtained his A.B. degree in 1889. He and Frank Bourns, also of the Steere expedition, planned a longer sojourn in the Philippines and found financing through the University of Minnesota and a wealthy Minneapolis businessman Louis F. Menage. The Menage Expedition, 1890-1893, resulted in the collection of over three thousand specimens of birds, bats, butterflies, reptiles, mammals, corals, shells and in ethnological material. Upon his return, Worcester married Nanon Fay Leas and in the autumn of 1893 became an instructor in animal morphology at the University of Michigan. He began publishing monographs on Philippine birds, with Bourns and alone, and in 1895 he was promoted to assistant professor of zoology and appointed curator of the Zoological Museum.</p>
+      <p>In 1897 Worcester delivered his first general public lecture on the Philippines to the Unity Club of Ann Arbor and in that same year published his first general article on the Philippines, "Spanish Rule in the Philippines, co-authored with Bourns. With Dewey's victory over the Spanish in Manila Bay (May 1, 1898), Worcester began to think of the exciting prospect of the Philippines as an American colony. During a six week period, July 10 to September 1, 1898, Worcester wrote a very successful book <title render="italic">The Philippine Islands and Their People</title>, based on the letters he had written home during his scientific expeditions. A few months later, and as the McKinley government moved to extend American military control over the Philippine archipelago, a letter from his expedition colleague Frank Bourns warning of the danger of a Philippine insurgency led him to seek a meeting with President McKinley at which time he presented Bourns' views and augmented them with his own. McKinley asked Worcester to join a "civilian commission composed of men skilled in diplomacy and statesmanship" as requested by Admiral Dewey who was alarmed at the rejection by the newly declared Filipino government of the U.S. program of benevolent assimilation.</p>
+      <p>Through his participation in both the First and Second Philippine Commissions and in his position of Secretary of the Interior in the Commission government from 1901 to 1913, Worcester continued to have great influence on the formulation and implementation of American policy in the Philippines. His tenure on the First and Second Philippine Commissions would be the longest of all the commissioners. Worcester's rejection of independence for the Philippines, first voiced in an 1899 interview with Dr. Apacible, a Philippine insurgent with whom Worcester met in Hong Kong on his voyage to the Philippines, would never waver.</p>
+      <p>In 1913 Worcester resigned his position with the Philippine Commission to become vice-president of the Philippine-American Company. The following year he published <title render="italic">The Philippines Past and Present</title> and continued to direct various business enterprises until his death. Worcester's influence on American colonial policy and the various and controversial roles he played in the Philippines from his first visit in 1887 to his death in Manila in 1924: scientist, government official, propagandist and entrepreneur, earned him both accolades and deep resentment.</p>
+    </bioghist>
+    <arrangement encodinganalog="351">
+      <p>The Worcester collection covers the period of 1900 to 1924 and has been arranged into six series: Correspondence; Papers; Articles, lectures, etc.; Newspaper clippings; Miscellaneous; and Photographs.</p>
+    </arrangement>
+    <scopecontent encodinganalog="520">
+      <p>The Dean C. Worcester papers filed at the Bentley Historical Library consist of correspondence, subject files, newspaper clippings, publications, and photographs pertaining to his activities in the Philippine Islands. Of interest are notes of a trip taken to Mindoro and Palawan in July of 1910 and papers pertaining to the special Wood-Forbes Investigating Mission to the Philippines in 1921. The collection includes correspondence with William Howard Taft and Leonard Wood.</p>
+    </scopecontent>
+    <controlaccess>
+      <p>
+        <extptr href="accnote" show="embed" actuate="onload"/>
+      </p>
+      <controlaccess>
+        <head>Subject Terms</head>
+        <geogname source="lcsh" encodinganalog="651">Mindoro (Philippines)</geogname>
+        <geogname source="lcsh" encodinganalog="651">Palawan (Philippines)</geogname>
+        <geogname source="lcsh" encodinganalog="651">Philippines--History--1898-1946.</geogname>
+        <subject source="lcsh" encodinganalog="650">Voyages and travels.</subject>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n86828116">Worcester, Dean C. (Dean Conant), 1866-1924.</persname>
+      </controlaccess>
+      <controlaccess>
+        <head>Visual Terms</head>
+        <subject source="lcsh" encodinganalog="650">Americans--Philippines.</subject>
+        <subject source="lctgm" encodinganalog="650">Anthropology.</subject>
+        <subject source="lctgm" encodinganalog="650">Colonists.</subject>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n97046996">Denby, Edwin, 1870-1929.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50001670">Dewey, George, 1837-1917.</persname>
+        <subject source="lcsh" encodinganalog="650">Filipinos.</subject>
+        <geogname source="lcsh" encodinganalog="651">Philippines--History--1898-1946.</geogname>
+        <geogname source="lcsh" encodinganalog="651">Philippines--History--Insurrection, 1899-1901.</geogname>
+        <subject source="lcsh" encodinganalog="650">Soldiers--United States.</subject>
+        <subject source="lcsh" encodinganalog="650">Spaniards--Philippines.</subject>
+        <subject source="lctgm" encodinganalog="650">Warships.</subject>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n86828116">Worcester, Dean C. (Dean Conant), 1866-1924.</persname>
+      </controlaccess>
+      <controlaccess>
+        <head>Contributors</head>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79022244">Taft, William H. (William Howard), 1857-1930.</persname>
+        <persname source="lcnaf" encodinganalog="700">Wood, Leonard, 1860-1927.</persname>
+      </controlaccess>
+      <controlaccess>
+        <head>Genre</head>
+        <genreform source="gmgpc" encodinganalog="655">Caricatures.</genreform>
+        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655">Scrapbooks.</genreform>
+      </controlaccess>
+    </controlaccess>
+    <dsc type="combined">
+      <c01 level="series">
+        <did>
+          <unittitle>Correspondence</unittitle>
+        </did>
+        <scopecontent>
+          <p>Correspondence dates from 1907 to 1922, unfortunately not the period of Worcester's early service in the Philippines. Although there is a letter from Secretary of War William Howard Taft in 1907 relating to the Philippine government and independence, the bulk of the correspondence pertains to Worcester lectures and to his book <title render="italic">The Philippines Past and Present</title>.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container label="Box" type="box">1</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1907/1911">1907-1911</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container label="Box" type="box">1</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1912">1912</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container label="Box" type="box">1</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1913-01/1913-06">January-June 1913</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container label="Box" type="box">1</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1913-07/1913-12">July-December 1913</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container label="Box" type="box">1</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1914-01/1914-06">January-June 1914</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container label="Box" type="box">1</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1914-07/1914-12">July-December 1914</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container label="Box" type="box">1</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1915">1915</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container label="Box" type="box">1</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">3 folders</extent>
+            </physdesc>
+            <unittitle><unitdate type="inclusive" normal="1913/1915">1913-1915</unitdate> concerning lectures</unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container label="Box" type="box">1</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">4 folders</extent>
+            </physdesc>
+            <unittitle><unitdate type="inclusive" normal="1913/1922">1913-1922</unitdate> concerning <title render="italic">The Philippines Past and Present</title></unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Papers</unittitle>
+        </did>
+        <scopecontent>
+          <p>Papers is a small series of files on specific topics. The files date from1910 to 1922 and concern such topics as the Wood-Forbes mission of 1921-22, disciplinary cases of government officials in 1911-1912, and Worcester's resignation from the Philippine Commission in 1913.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container label="Box" type="box">1</container>
+            <unittitle><unitdate type="inclusive" normal="1910">1910</unitdate> concerning a trip to Mindoro and Palawan</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container label="Box" type="box">1</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 folders</extent>
+            </physdesc>
+            <unittitle><unitdate type="inclusive" normal="1911/1912">1911-1912</unitdate> concerning disciplinary cases of government officials</unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container label="Box" type="box">1</container>
+            <unittitle><unitdate type="inclusive" normal="1911/1913">1911-1913</unitdate> concerning the production of a film on the Philippines</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container label="Box" type="box">1</container>
+            <unittitle><unitdate type="inclusive" normal="1911/1913">1911-1913</unitdate> include data used in writing <title render="italic">The Philippines Past and Present</title></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container label="Box" type="box">1</container>
+            <unittitle><unitdate type="inclusive" normal="1912">1912</unitdate> concerning attempts to transfer jurisdiction over the Philippine General Hospital to the University of the Philippines</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container label="Box" type="box">1</container>
+            <unittitle><unitdate type="inclusive" normal="1912">1912</unitdate> concerning Gen. Henry Bandholtz</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container label="Box" type="box">1</container>
+            <unittitle><unitdate type="inclusive" normal="1913">1913</unitdate> relating to Worcester's resignation from Philippine Commission</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container label="Box" type="box">1</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">3 folders</extent>
+            </physdesc>
+            <unittitle><unitdate type="inclusive" normal="1914">1914</unitdate> concerning speech by Winfred P. Denison</unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container label="Box" type="box">1</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">3 folders</extent>
+            </physdesc>
+            <unittitle><unitdate type="inclusive" normal="1914/1925">1914-1925</unitdate> concerning miscellaneous topics</unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container label="Box" type="box">1</container>
+            <unittitle><unitdate type="inclusive" normal="1921/1922">1921-1922</unitdate> concerning Wood-Forbes mission to Philippines</unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Articles, lectures, etc.</unittitle>
+        </did>
+        <scopecontent>
+          <p>Articles, lectures, etc. is a series that covers the period of 1898 to 1915. The materials all relate to affairs of the Philippine Islands.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container label="Box" type="box">2</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">5 folders</extent>
+            </physdesc>
+            <unittitle>Articles <unitdate type="inclusive" normal="1898/1915">1898-1915</unitdate> and undated, concerning the Philippines</unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container label="Box" type="box">2</container>
+            <unittitle>Lecture <unitdate type="inclusive" normal="1910">1910</unitdate> given at the Y.M.C.A.</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container label="Box" type="box">2</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">5 folders</extent>
+            </physdesc>
+            <unittitle>Lectures and speeches <unitdate type="inclusive" normal="1908/1913">1908-1913</unitdate> and undated, concerning the Philippines</unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container label="Box" type="box">2</container>
+            <unittitle>Newspaper interviews <unitdate type="inclusive" normal="1899/1915">1899-1915</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container label="Box" type="box">2</container>
+            <unittitle>Note cards</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container label="Box" type="box">2</container>
+            <unittitle>Report <unitdate type="inclusive" normal="1910">1910</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(extracts)</p>
+          </odd>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Newspaper clippings</unittitle>
+        </did>
+        <scopecontent>
+          <p>The Newspaper clippings cover the years 1898 to 1915 with some gaps. The clippings are from both English and Spanish language newspapers and document Worcester's activities, speeches he gave, and reviews and assessments of his published studies of the Philippine Islands.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container label="Box" type="box">2</container>
+            <unittitle><unitdate type="inclusive" normal="1898">1898</unitdate> concerning <title render="italic">The Philippine Islands and their People</title></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container label="Box" type="box">2</container>
+            <unittitle><unitdate type="inclusive" normal="1899">1899</unitdate> accounts of speeches</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container label="Box" type="box">2</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">3 folders</extent>
+            </physdesc>
+            <unittitle><unitdate type="inclusive" normal="1913">1913</unitdate> concerning Worcester's activities in the Philippines</unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container label="Box" type="box">2</container>
+            <unittitle><unitdate type="inclusive" normal="1913/1914">1913-1914</unitdate> concerning lectures</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container label="Box" type="box">3</container>
+            <unittitle><unitdate type="inclusive" normal="1914">1914</unitdate> concerning lectures</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container label="Box" type="box">3</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">3 folders</extent>
+            </physdesc>
+            <unittitle><unitdate type="inclusive" normal="1914">1914</unitdate> concerning <title render="italic">The Philippines Past and Present</title></unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container label="Box" type="box">3</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">10 folders</extent>
+            </physdesc>
+            <unittitle><unitdate type="inclusive" normal="1899/1915">1899-1915</unitdate> miscellaneous</unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Miscellaneous</unittitle>
+        </did>
+        <scopecontent>
+          <p>Miscellaneous contains issues of the Annual Report of the Secretary of the Interior to the Philippine Commission, reprints of Worcester's articles on the Philippines, and collected articles and published materials.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container label="Box" type="box">3</container>
+            <unittitle>Miscellanea</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container label="Oversize Folder" type="folder">Ac</container>
+            <unittitle>Plans for Worcester's Manila house <unitdate type="inclusive" normal="1915">1915</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container label="Box" type="box">3</container>
+            <unittitle><title render="italic">Annual Report of the Secretary of the Interior to the Philippine Commission</title>, <unitdate type="inclusive" normal="1908">1908</unitdate>, <unitdate type="inclusive" normal="1910/1913">1910-1913</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container label="Box" type="box">3</container>
+            <unittitle>Miscellaneous printed material, including reprints of articles</unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>
+            <genreform normal="Photographs">Photographs</genreform>
+          </unittitle>
+        </did>
+        <scopecontent>
+          <p>The Photographs series represent an accumulation of images documenting Philippine life and culture. Many of these photographs were used in Worcester's book <title render="italic">The Philippines, Past and Present</title>.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container label="Box" type="box">4</container>
+            <unittitle>Philippines <unitdate type="inclusive" normal="1887/1893">1887-1893</unitdate></unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">4</container>
+              <unittitle>Agriculture</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">4</container>
+              <unittitle>Artifacts</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">4</container>
+              <unittitle>Botany</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Geography</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container label="Box" type="box">4</container>
+                <unittitle>Guimaras</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Box" type="box">4</container>
+                <unittitle>Jolo</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Box" type="box">4</container>
+                <unittitle>Manila</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Box" type="box">4</container>
+                <unittitle>Mindoro</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Box" type="box">4</container>
+                <unittitle>Negros</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Box" type="box">4</container>
+                <unittitle>Siquijor</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Box" type="box">4</container>
+                <unittitle>Miscellaneous</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">4</container>
+              <unittitle>Industries</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Native groups</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container label="Box" type="box">4</container>
+                <unittitle>Mangyans of Mount Halcon, Mindoro</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Box" type="box">4</container>
+                <unittitle>Mangyans, Miscellaneous</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Box" type="box">4</container>
+                <unittitle>Moros of Jolo</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Box" type="box">4</container>
+                <unittitle>Spaniards and mestizos</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Box" type="box">4</container>
+                <unittitle>Tagalogs of Mindoro</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Box" type="box">4</container>
+                <unittitle>Tagbanuas of Palawan</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Box" type="box">4</container>
+                <unittitle>Visayans of Negros</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Zoology</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container label="Box" type="box">4</container>
+                <unittitle>Mammals</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Box" type="box">4</container>
+                <unittitle>Miscellaneous</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">4</container>
+              <unittitle>Unidentified people</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">4</container>
+              <unittitle>Unidentified places</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">4</container>
+              <unittitle>Miscellaneous</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">4</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
+              </physdesc>
+              <unittitle>Duplicates</unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Philippines <unitdate type="inclusive" normal="1899/1913">1899-1913</unitdate></unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>Current history</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <unittitle>Insurrection</unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <container label="Box" type="box">4</container>
+                  <unittitle>Caloocan</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container label="Box" type="box">4</container>
+                  <unittitle>Fort San Antonio Abad</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container label="Box" type="box">4</container>
+                  <unittitle>Imus</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container label="Box" type="box">4</container>
+                  <unittitle>Malabon</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container label="Box" type="box">4</container>
+                  <unittitle>Parañaque</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container label="Box" type="box">4</container>
+                  <unittitle>Pasig</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container label="Box" type="box">4</container>
+                  <unittitle>San Pedro Macate</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container label="Box" type="box">4</container>
+                  <unittitle>Zapote River</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container label="Box" type="box">4</container>
+                  <unittitle>Miscellaneous</unittitle>
+                </did>
+              </c05>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Box" type="box">4</container>
+                <unittitle>Manila scenes</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>Miscellaneous persons</unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <container label="Box" type="box">4</container>
+                  <unittitle>Americans</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container label="Box" type="box">4</container>
+                  <unittitle>Filipinos, Spaniards, etc.</unittitle>
+                </did>
+              </c05>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Box" type="box">4</container>
+                <unittitle>Philippine Commission</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Box" type="box">4</container>
+                <unittitle>Spanish fleet wreckage</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Box" type="box">4</container>
+                <unittitle>United States fleet</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">4</container>
+              <unittitle>Flagellants at Balintawak</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Industries</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container label="Box" type="box">4</container>
+                <unittitle>Fishing</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Box" type="box">4</container>
+                <unittitle>Transportation</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Box" type="box">4</container>
+                <unittitle>Miscellaneous</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">4</container>
+              <unittitle>Zoology</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">4</container>
+              <unittitle>Miscellaneous</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">4</container>
+              <unittitle>Album, unidentified</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container label="Box" type="box">4</container>
+            <unittitle>Canada</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container label="Box" type="box">4</container>
+            <unittitle>Europe</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container label="Box" type="box">4</container>
+            <unittitle>Hong Kong</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container label="Box" type="box">4</container>
+            <unittitle>Japan</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container label="Box" type="box">5</container>
+            <unittitle>List of negatives taken in <unitdate type="inclusive" normal="1899">1899</unitdate>, <unitdate type="inclusive" normal="1900">1900</unitdate> by Dean C. Worcester and P.L. Sherman</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container label="Box" type="box">5</container>
+            <unittitle>Illustration captions from <title render="italic">Native Life in the Philippines</title> </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Illustrations (with captions)</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">5</container>
+              <unittitle>From <title render="italic">The Philippine Islands and their People</title> (1898)</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">5</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
+              </physdesc>
+              <unittitle>From <title render="italic">The Philippines Past and Present</title> (1914)</unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Miscellaneous (unidentified)</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">5</container>
+            <unittitle>Portraits</unittitle>
+          </did>
+        </c02>
+      </c01>
+    </dsc>
+    <descgrp type="add">
+      <relatedmaterial>
+        <head>Related Collections in other repositories</head>
+        <p>Dean C. Worcester papers and photographs are located in a number of other repositories. From information gathered by the Michigan Historical Collections and by the University of Michigan Museum of Anthropology, the following have been identified:</p>
+        <p>Rare Books and Special Collections, University of Michigan Libraries (711 Hatcher Library): 1700 items, including 24 volumes of correspondence and reports and 21 volumes of clippings. This collection is described in <title render="italic">Balita mula Maynila</title>, by Thomas E. Powers.</p>
+        <p>Thetford Historical Society, Thetford, Vermont: 10 linear ft.</p>
+        <p>Museum of Anthropology, University of Michigan (4th Floor, Ruthven Museums Building): 4,775 negatives.</p>
+        <p>Field Museum of Natural History, Chicago, Illinois: Between 5,000 and 10,000 negatives. These Worcester holdings are combined with several other collections of Philippine photographs.</p>
+        <p>Original prints of Worcester negatives are found in all the above collections, as well as in the Anthropological Archives of the U.S. National Museum, American Museum of Natural History, Peabody Museum of Harvard University, and Rautenstrauch-Joest Museum in Cologne, Germany.</p>
+      </relatedmaterial>
+    </descgrp>
+  </archdesc>
+</ead>

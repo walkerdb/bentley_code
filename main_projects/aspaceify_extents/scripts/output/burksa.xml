@@ -1,0 +1,999 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead.dtd">
+<ead>
+  <eadheader audience="internal" langencoding="iso639-2b" repositoryencoding="iso15511" dateencoding="iso8601" relatedencoding="Dublin Core">
+    <eadid countrycode="us" mainagencycode="MiU-H" publicid="-//us::MiU-H//TEXT us::MiU-H::burksa.xml//EN" encodinganalog="identifier">umich-bhl-90185</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="title">Finding Aid for Arthur W. Burks Papers <date>1930-1986</date></titleproper>
+        <author encodinganalog="creator">Collection processed and finding aid prepared by Beth Lindblom, 1990</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="publisher">Bentley Historical Library, University of Michigan</publisher>
+        <date encodinganalog="date">Nov. 2000</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created by Greg Kinney <date>Nov. 2000</date></creation>
+      <langusage>The finding aid is written in <language encodinganalog="language" langcode="eng">English.</language></langusage>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date>20031001</date>
+        <item>Converted to EAD2002 using Word macro and Xmetal</item>
+      </change>
+      <change>
+        <date>2000-11-24</date>
+        <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <frontmatter>
+    <titlepage>
+      <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
+      <titleproper>Finding Aid for <lb/>Arthur W. Burks Papers, 1930-1986</titleproper>
+      <author>Finding aid prepared by: <lb/>Beth Lindblom, 1990</author>
+    </titlepage>
+  </frontmatter>
+  <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
+    <did>
+      <origination>
+        <persname source="lcnaf" encodinganalog="100">Burks, Arthur W. (Arthur Walter), 1915-</persname>
+      </origination>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">4.5 linear feet</extent>
+      </physdesc>
+      <unittitle encodinganalog="245">Arthur W. Burks papers <unitdate type="inclusive" encodinganalog="245$f" normal="1930/1986">1930-1986</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1950/1984">1950-1984</unitdate></unittitle>
+      <abstract>Professor of philosophy and of computer and communication sciences at the University of Michigan; include papers, appointment books, and topical files relating to his professional interests; also photographs.</abstract>
+      <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">90185 Aa 2</unitid>
+      <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
+      <repository>
+        <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea> University of Michigan</corpname>
+        <extptr href="bhladd" show="embed" actuate="onload"/>
+      </repository>
+    </did>
+    <descgrp type="admin">
+      <acqinfo encodinganalog="541">
+        <p>The collection was donated in May 1990 by Arthur W. Burks (Donor No. <num type="donor" encodinganalog="541$e">7063</num>).</p>
+      </acqinfo>
+      <accessrestrict encodinganalog="506">
+        <p>The collection is open for research.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+        <p>Copyright has been transferred to the University of Michigan.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+        <p>item, folder title, box no., Arthur W. Burks Papers, Bentley Historical Library, University of Michigan</p>
+      </prefercite>
+    </descgrp>
+    <bioghist encodinganalog="545">
+      <p>Arthur W. Burks, well known as one of the principal designers and a joint inventor of the Electronic Numerical Integrator and Computer (ENIAC) in the 1940s, was born on October 13, 1915, in Duluth, Minnesota. He received his B.A. in mathematics from DePauw University in 1936, and his M.A. and Ph.D. in 1937 and 1941, both in philosophy from the University of Michigan. Throughout his career, Professor Burks pursued both philosophy and computer science, finding many parallels between the two fields.</p>
+      <p>After earning his Ph.D., Burks found that academic positions in philosophy were scarce at the time, so he took a government course in electrical engineering at the Moore School of Electrical Engineering at the University of Pennsylvania. He soon became an instructor and research engineer at the Moore School, where from June 1943 to February 1946 he worked with John Maunchly and J. Presper Eckert on the research, development, design, and construction of the ENIAC, the first large-scale general-purpose electronic digital computer. His primary responsibility was the ENIAC's multiplier. The ENIAC's original purpose was to speed up the calculations needed to create firing tables, which showed gunners how to aim their weapons. At the time these calculations were done by hand, by mathematicians who were known as "computers" (in fact, Burks' wife, Alice, whom he married in 1943, was one of these mathematicians at the Moore School). Since ENIAC was not completed until 1946, it was not able to contribute much to the war effort, but it did usher in a new era in computation.</p>
+      <p>After World War II, Burks maintained his dual interest in philosophy and computers. While still at the Moore School, he worked part-time as an instructor of philosophy at Swarthmore College during 1945 and 1946. He spent some time in early 1946 (as well as the summers of 1947 and 1948) at the Institute for Advanced Study at Princeton, where he worked with John von Neumann and Herman Goldstine on developing the logical design of an electronic digital computer. The basic design they produced became the prototype for many computers built by universities, government research units and IBM.</p>
+      <p>Burks joined the Department of Philosophy at the University of Michigan in 1946 as an assistant professor, becoming associate professor in 1948 and professor in 1954. In 1956 he organized and became the director of the Logic of Computers Group at the University of Michigan. This group was supported by government contracts and conducted research in automata theory, adaptive systems, the interactive use of digital computers, and the simulation of natural systems. In 1957 Burks and a colleague started a graduate program in Computer and Communication Sciences at Michigan, which became a department in the College of Literature, Science, and Arts in 1967. Burks served as the department's chairman from 1967 to 1971. In 1970 Burks received the University of Michigan Distinguished Faculty Achievement Award, and in 1978 he was named the Henry Russel Lecturer, the highest honor the university can bestow upon a senior faculty member.</p>
+      <p>Professor Burks' career also included a variety of consulting and visiting professor assignments. He served as a consultant with the Burroughs Corporation (1949-1954), directing a research group which worked on the logical design of digital computers for data processing, on user-oriented programming languages and programs to translate them into machine language, and on automata theory. He also served as a consultant to the Argonne National Laboratory (1950-1951), helping to design the ORACLE computer. From July 1965 to December 1966, Burks was a visiting professor at the Indian Institute of Technology in Kanpur, India, and during the 1971-72 school year he held a fellowship at the Center for Advanced Study in the Behavioral Sciences at Stanford.</p>
+      <p>Professor Burks was particularly interested in Charles Sanders Peirce, founder of the philosophical doctrine of pragmatism, and edited two volumes of Peirce's papers while a research associate in philosophy at Harvard University in 1955. In 1960, as a visiting professor in applied mathematics at the University of Illinois, Burks completed and edited John von Neumann's papers on self-reproducing cellular automata. Professor Burks served as president of the American Philosophical Association (1972-1973) and of the Philosophy of Science Association (1975-1977). He also published numerous articles on the subjects of computers and philosophy, as well as a book <title render="italic">Chance, Cause, Reason</title>, in 1977. He and his wife, Alice R. Burks, published two definitive works in the history of computing: a long article, "The ENIAC: First General-Purpose Electronic Computer," in 1981, and a book, <title render="italic">The First Electronic Computer: The Atanasoff Story</title>, in 1988 (The University of Michigan Press).</p>
+    </bioghist>
+    <arrangement encodinganalog="351">
+      <p>The collection is substantially composed of two series, Papers, 1930-1984 and Topical Files, 1950-1986. Biographical materials and one folder of photographs have been placed at the beginning of the collection.</p>
+    </arrangement>
+    <controlaccess>
+      <p>
+        <extptr href="accnote" show="embed" actuate="onload"/>
+      </p>
+      <controlaccess>
+        <head>Subjects:</head>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n85289341">Burks, Arthur W. (Arthur Walter), 1915-2008.</persname>
+        <subject source="lcsh" encodinganalog="650">Computers.</subject>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Computer and Communication Sciences.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Philosophy.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
+      </controlaccess>
+      <controlaccess>
+        <head>Subjects - Visual Material:</head>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n85289341">Burks, Arthur W. (Arthur Walter), 1915-2008.</persname>
+        <subject source="lctgm" encodinganalog="650">Computers.</subject>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
+      </controlaccess>
+      <controlaccess>
+        <head>Genre/Form:</head>
+        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+      </controlaccess>
+    </controlaccess>
+    <dsc type="combined">
+      <c01 level="series">
+        <did>
+          <unittitle>Biographical materials</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Vitas, clippings, etc</unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Photographs <unitdate type="inclusive" normal="1932/1983">1932-1983</unitdate></unittitle>
+        </did>
+        <scopecontent>
+          <p>The Photographs series consists of one folder of portraits and photographs of Burks at various meetings.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Portraits of Arthur Burks and group photos.</unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Papers <unitdate type="inclusive" normal="1930/1984">1930-1984</unitdate></unittitle>
+        </did>
+        <scopecontent>
+          <p>The Papers series is arranged chronologically, and consists primarily of correspondence with colleagues and others, but also include other materials, such as articles, awards and speeches. Unfortunately, few materials dated prior to 1950 are included, therefore there is no material dealing with Burks' work on the ENIAC. Misfiling (items filed in the wrong year) has been corrected when possible. Burks' appointment books for the years 1950 to 1977 are located at the end of this series.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1930/1938">1930-1938</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1939/1950">1939-1950</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1951/1952">1951-1952</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1953">1953</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1954">1954</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1955">1955</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1956">1956</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1957">1957</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1958">1958</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1959">1959</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 folders</extent>
+            </physdesc>
+            <unittitle>
+              <unitdate type="inclusive" normal="1960">1960</unitdate>
+            </unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 folders</extent>
+            </physdesc>
+            <unittitle>
+              <unitdate type="inclusive" normal="1961">1961</unitdate>
+            </unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 folders</extent>
+            </physdesc>
+            <unittitle>
+              <unitdate type="inclusive" normal="1962">1962</unitdate>
+            </unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1963">1963</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1964">1964</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 folders</extent>
+            </physdesc>
+            <unittitle>
+              <unitdate type="inclusive" normal="1965">1965</unitdate>
+            </unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1966">1966</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 folders</extent>
+            </physdesc>
+            <unittitle>
+              <unitdate type="inclusive" normal="1967">1967</unitdate>
+            </unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">3 folders</extent>
+            </physdesc>
+            <unittitle>
+              <unitdate type="inclusive" normal="1968">1968</unitdate>
+            </unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 folders</extent>
+            </physdesc>
+            <unittitle>
+              <unitdate type="inclusive" normal="1969">1969</unitdate>
+            </unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 folders</extent>
+            </physdesc>
+            <unittitle>
+              <unitdate type="inclusive" normal="1970">1970</unitdate>
+            </unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 folders</extent>
+            </physdesc>
+            <unittitle>
+              <unitdate type="inclusive" normal="1971">1971</unitdate>
+            </unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 folders</extent>
+            </physdesc>
+            <unittitle>
+              <unitdate type="inclusive" normal="1972">1972</unitdate>
+            </unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 folders</extent>
+            </physdesc>
+            <unittitle>
+              <unitdate type="inclusive" normal="1973">1973</unitdate>
+            </unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 folders</extent>
+            </physdesc>
+            <unittitle>
+              <unitdate type="inclusive" normal="1974">1974</unitdate>
+            </unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">3 folders</extent>
+            </physdesc>
+            <unittitle>
+              <unitdate type="inclusive" normal="1975">1975</unitdate>
+            </unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 folders</extent>
+            </physdesc>
+            <unittitle>
+              <unitdate type="inclusive" normal="1976">1976</unitdate>
+            </unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 folders</extent>
+            </physdesc>
+            <unittitle>
+              <unitdate type="inclusive" normal="1977">1977</unitdate>
+            </unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">3 folders</extent>
+            </physdesc>
+            <unittitle>
+              <unitdate type="inclusive" normal="1978">1978</unitdate>
+            </unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">3 folders</extent>
+            </physdesc>
+            <unittitle>
+              <unitdate type="inclusive" normal="1979">1979</unitdate>
+            </unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <unitdate type="inclusive" normal="1980">1980</unitdate>
+            </unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>folder 1</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>folder 2</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 folders</extent>
+            </physdesc>
+            <unittitle>
+              <unitdate type="inclusive" normal="1981">1981</unitdate>
+            </unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 folders</extent>
+            </physdesc>
+            <unittitle>
+              <unitdate type="inclusive" normal="1982">1982</unitdate>
+            </unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 folders</extent>
+            </physdesc>
+            <unittitle>
+              <unitdate type="inclusive" normal="1983">1983</unitdate>
+            </unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 folders</extent>
+            </physdesc>
+            <unittitle>
+              <unitdate type="inclusive" normal="1984">1984</unitdate>
+            </unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Appointment books</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1950/1955">1950-1955</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1956/1962">1956-1962</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1963/1968">1963-1968</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1969/1973">1969-1973</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1974/1977">1974-1977</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Topical Files <unitdate type="inclusive" normal="1950/1986">1950-1986</unitdate></unittitle>
+        </did>
+        <scopecontent>
+          <p>The Topical Files are arranged alphabetically. The researcher should note that there is considerable overlap between the two series. The Topical Files include some correspondence, and the Papers include some material on topics covered in the topical files. The two types of files reflect Burks' original filing system. Of interest in this series are files detailing Burks' research activities, and several files relating to the Department of Computer and Communication Sciences at Michigan.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>Arisbe (Charles Peirce's home) <unitdate type="inclusive" normal="1974/1977">1974-1977</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>Articles and speeches <unitdate type="inclusive" normal="1973/1982">1973-1982</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>Atomic Energy Commission Computer Advisory Group <unitdate type="inclusive" normal="1960/1962">1960-1962</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>Computer Science Pioneer Award <unitdate type="inclusive" normal="1982/1986">1982-1986</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Cause, Chance and Reason grants</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>National Science Foundation <unitdate type="inclusive" normal="1962/1972">1962-1972</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>University of Michigan, Rackham School of Graduate Studies <unitdate type="inclusive" normal="1962/1977">1962-1977</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Correspondence</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Foreign <unitdate type="inclusive" normal="1967/1976">1967-1976</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Lugg, Wang and Uchii <unitdate type="inclusive" normal="1973/1976">1973-1976</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>H. Nishio <unitdate type="inclusive" normal="1974/1975">1974-1975</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Nancy Stern <unitdate type="inclusive" normal="1977/1979">1977-1979</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>S. Ulam <unitdate type="inclusive" normal="1971">1971</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Digitronics v. the New York Racing Association <unitdate type="inclusive" normal="1974">1974</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>ENIAC patent agreements <unitdate type="inclusive" normal="1964/1965">1964-1965</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Fellowship applications <unitdate type="inclusive" normal="1971">1971</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Festschrift for Frankena, Stevenson &amp; Brandt <unitdate type="inclusive" normal="1978">1978</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Freedom and Automata <unitdate type="inclusive" normal="1977">1977</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Gobel letter re: von Neumann, notes <unitdate type="inclusive" normal="1961/1964">1961-1964</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Honeywell v. Sperry Rand (ENIAC case) <unitdate type="inclusive" normal="1972">1972</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>India <unitdate type="inclusive" normal="1966/1968">1966-1968</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Indian Institute of Technology <unitdate type="inclusive" normal="1967/1972">1967-1972</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Journal of Computer and System Sciences <unitdate type="inclusive" normal="1981/1986">1981-1986</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Kanpur Indo-American Program Advisory Committee <unitdate type="inclusive" normal="1967/1968">1967-1968</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>National Science Foundation</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>History and Philosophy of Science Subcommittee <unitdate type="inclusive" normal="1978/1979">1978-1979</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Modal Logic Support <unitdate type="inclusive" normal="1979">1979</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Peirce editing <unitdate type="inclusive" normal="1973/1974">1973-1974</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Philosophy of Science Association</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Critical Research Problems Conference <unitdate type="inclusive" normal="1978">1978</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>General <unitdate type="inclusive" normal="1975/1976">1975-1976</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Philosophy of Science journal <unitdate type="inclusive" normal="1972/1975">1972-1975</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Polish Logic Machine and Burroughs 5000, <unitdate type="inclusive" normal="1962">1962</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Research interests <unitdate type="inclusive" normal="1975/1980">1975-1980</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Research plans <unitdate type="inclusive" normal="1983/1986">1983-1986</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Russel lecture <unitdate type="inclusive" normal="1978">1978</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Sabbaticals/fellowships <unitdate type="inclusive" normal="1953/1954">1953-1954</unitdate>, <unitdate type="inclusive" normal="1962/1963">1962-1963</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Sabbatical <unitdate type="inclusive" normal="1978/1979">1978-1979</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Statements of accomplishments <unitdate type="inclusive" normal="1975/1983">1975-1983</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Synthese and other journals <unitdate type="inclusive" normal="1965/1979">1965-1979</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Tanner lecture introduction <unitdate type="inclusive" normal="1980">1980</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>University of Chicago Press</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1968/1974">1968-1974</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>publicity <unitdate type="inclusive" normal="1974/1980">1974-1980</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>University of Illinois Press <unitdate type="inclusive" normal="1982/1983">1982-1983</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>University of Michigan</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>Computer and Communication Sciences Department</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">4</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1980">1980</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">4</container>
+                <unittitle>Evaluation <unitdate type="inclusive" normal="1975/1976">1975-1976</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>Executive Committee</unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">4</container>
+                  <unittitle>
+                    <unitdate type="inclusive" normal="1979">1979</unitdate>
+                  </unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">5</container>
+                  <unittitle>
+                    <unitdate type="inclusive" normal="1981/1982">1981-1982</unitdate>
+                  </unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">5</container>
+                  <unittitle>
+                    <unitdate type="inclusive" normal="1982/1983">1982-1983</unitdate>
+                  </unittitle>
+                </did>
+              </c05>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">5</container>
+                <unittitle>External review committee visit <unitdate type="inclusive" normal="1980">1980</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">5</container>
+                <unittitle>History</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">5</container>
+                <unittitle>Merger with Computer, Information and Control Engineering (CICE) <unitdate type="inclusive" normal="1983">1983</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">5</container>
+                <unittitle>Merger with Electrical Engineering Dept. <unitdate type="inclusive" normal="1986">1986</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">5</container>
+                <unittitle>Review <unitdate type="inclusive" normal="1973">1973</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">5</container>
+                <unittitle>Self-Evaluation, Supplement <unitdate type="inclusive" normal="1979">1979</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Computer Ethics Subcommittee <unitdate type="inclusive" normal="1979">1979</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Electrical Engineering and Computer Science Dept., Bylaws <unitdate type="inclusive" normal="1984">1984</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Logic of Computers Group <unitdate type="inclusive" normal="1962/1978">1962-1978</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Niemeyer tenure case <unitdate type="inclusive" normal="1974/1975">1974-1975</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Philosophy Department</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">5</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1978/1984">1978-1984</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">5</container>
+                <unittitle>History</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>University of Michigan Press <unitdate type="inclusive" normal="1959/1971">1959-1971</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+    </dsc>
+    <descgrp type="add">
+      <relatedmaterial>
+        <head>Related Material</head>
+        <p>A related collection held by the Bentley Library is the University of Michigan Logic of Computers Group records.</p>
+      </relatedmaterial>
+    </descgrp>
+  </archdesc>
+</ead>

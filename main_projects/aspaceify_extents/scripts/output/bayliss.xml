@@ -1,0 +1,414 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead.dtd">
+<ead>
+  <eadheader audience="internal" langencoding="iso639-2b" repositoryencoding="iso15511" dateencoding="iso8601" relatedencoding="Dublin Core" scriptencoding="iso15924" countryencoding="iso3166-1">
+    <eadid countrycode="us" mainagencycode="MiU-H" publicid="us//::miu-h//TXT us::miu-h::bayliss.xml//EN" encodinganalog="Identifier">umich-bhl-89182</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="Title">Finding Aid for Sault Sainte Marie collection, ca. 1802-1930</titleproper>
+        <author encodinganalog="Creator">Collection processed and finding aid created by Bayliss Public Library staff</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="Publisher">Bentley Historical Library, University of Michigan</publisher>
+        <date encodinganalog="Date" normal="2008">2008</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created by Thomas E. Powers <date>2008</date></creation>
+      <langusage encodinganalog="Language">The finding aid is written in <language langcode="eng" scriptcode="Latn">English</language></langusage>
+      <descrules>Finding aid prepared using Describing Archives: A Content Standard (DACS)</descrules>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date>2008-11-19</date>
+        <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <frontmatter>
+    <titlepage>
+      <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
+      <titleproper>Finding aid for <lb/>Sault Sainte Marie collection, ca. 1802-1930</titleproper>
+      <author>Finding aid created by <lb/>Michigan Historical Collections staff</author>
+    </titlepage>
+  </frontmatter>
+  <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
+    <did>
+      <origination>
+        <corpname source="lcnaf" encodinganalog="110">Bayliss Public Library (Sault Sainte Marie, Mich.)</corpname>
+      </origination>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">19 microfilm rolls</extent>
+      </physdesc>
+      <unittitle encodinganalog="245">Sault Sainte Marie collection <unitdate type="inclusive" encodinganalog="245$f" normal="1802/1930" certainty="approximate">circa 1802-1930</unitdate></unittitle>
+      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">89182 Bz Microcopy</unitid>
+      <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
+      <abstract>Records, 1802-1884, of the American Fur Company at Mackinac Island; records of the collector of customs; records concerning history of Mackinac Island, Sault Ste. Marie, Chippewa County, and Mackinac County, including marriage records for Chippewa County, 1824-1870, minutes of Chippewa County Automobile Association, 1917-1930, and miscellaneous personal diaries.</abstract>
+      <repository>
+        <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea>, University of Michigan</corpname>
+        <extptr href="bhladd" show="embed" actuate="onload"/>
+      </repository>
+    </did>
+    <descgrp type="admin">
+      <acqinfo encodinganalog="541">
+        <p>The collection was made available for microfilming by the Bayliss Public Library.</p>
+      </acqinfo>
+      <accruals encodinganalog="584">
+        <p>No further additions to the records are expected.</p>
+      </accruals>
+      <accessrestrict encodinganalog="506">
+        <p>The collection is open to research.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+        <p>Copyright is not held by the Regents of the University of Michigan.</p>
+      </userestrict>
+      <originalsloc>
+        <p>The original materials comprising the Sault Ste. Marie collection are held by the Bayliss Public Library in Saulte Ste. Marie, Michigan.</p>
+      </originalsloc>
+      <prefercite encodinganalog="524">
+        <p>[item], folder, box,
+Sault Sainte Marie collection, Bentley Historical Library, University of Michigan</p>
+      </prefercite>
+    </descgrp>
+    <bioghist encodinganalog="545">
+      <p>The Bayliss Public Library is repository of primary materials relating to the history of the Upper Peninsula and the upper Lower Peninsula of Michigan.</p>
+    </bioghist>
+    <scopecontent encodinganalog="520">
+      <p>The strength of the Sault Ste. Marie collection is the records of the American Fur Company at Port Mackinac. These records date as early as 1802 and include shipping documents from the Sault Ste. Marie area and nearby ports from 1802 to 1884. Among these documents are shipping manifests, clearance documents, bills of sale, enrolment bonds, Treasury Department circulars to custom collectors at the Port of Sault Ste. Marie and nearby ports, and personal and business correspondence.</p>
+      <p>Other portions of the collection are files maintained by Myron W. Scranton. Scranton was a son-law and business partner of Peter B. Barbeau.</p>
+    </scopecontent>
+    <controlaccess>
+      <p>
+        <extptr href="accnote" show="embed" actuate="onload"/>
+      </p>
+      <controlaccess>
+        <head>Subjects:</head>
+        <corpname source="lcnaf" encodinganalog="610">American Fur Company.</corpname>
+        <subject source="lcsh" encodinganalog="650">Automobile industry and trade--Michigan--Chippewa County.</subject>
+        <geogname source="lcsh" encodinganalog="651">Chippewa County (Mich.)</geogname>
+        <subject source="lcsh" encodinganalog="650">Fur trade--Michigan.</subject>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n80070533.html">Mackinac County (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81139923.html">Mackinac Island (Mich.)</geogname>
+        <subject source="lcsh" encodinganalog="650">Registers of births, etc.--Michigan--Chippewa County.</subject>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n81003784.html">Sault Sainte Marie (Mich.)</geogname>
+      </controlaccess>
+      <controlaccess>
+        <head>Genre Terms:</head>
+        <genreform source="aat" encodinganalog="655">Diaries.</genreform>
+      </controlaccess>
+    </controlaccess>
+    <dsc type="combined">
+      <c01 level="series">
+        <did>
+          <unittitle>American Fur Company</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <container type="reel" label="Roll">1</container>
+            <unittitle>Port Mackinac papers <unitdate type="inclusive" normal="1802/1815">1802-1815</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="reel" label="Roll">2</container>
+            <unittitle>Port Mackinac papers <unitdate type="inclusive" normal="1815/1818">1815-1818</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="reel" label="Roll">3</container>
+            <unittitle>Port Mackinac papers <unitdate type="inclusive" normal="1818/1830">1818-1830</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="reel" label="Roll">4</container>
+            <unittitle>Port Mackinac papers <unitdate type="inclusive" normal="1831/1834">1831-1834</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="reel" label="Roll">5</container>
+            <unittitle>Port Mackinac papers <unitdate type="inclusive" normal="1835/1839">1835-1839</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">5</container>
+            <unittitle>Port Mackinac papers <unitdate type="inclusive" normal="1841/1852">1841-1852</unitdate> include P.B. Barbeau Maritime papers, <unitdate type="inclusive" normal="1841/1844">1841-1844</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="reel" label="Roll">6</container>
+            <unittitle>Port Mackinac papers <unitdate type="inclusive" normal="1841/1852">1841-1852</unitdate> (cont.)</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">6</container>
+            <unittitle>Port Mackinac papers <unitdate type="inclusive" normal="1853/1855">1853-1855</unitdate> include P.B. Barbeau Maritime papers, <unitdate type="inclusive" normal="1853">1853</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="reel" label="Roll">7</container>
+            <unittitle>Port Mackinac papers <unitdate type="inclusive" normal="1853/1855">1853-1855</unitdate> (cont.)</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="reel" label="Roll">8</container>
+            <unittitle>Port Mackinac papers <unitdate type="inclusive" normal="1853/1855">1853-1855</unitdate> (cont.)</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle>Port Mackinac papers <unitdate type="inclusive" normal="1856/1861">1856-1861</unitdate> include P.B. Barbeau Maritime papers, <unitdate type="inclusive" normal="1856">1856</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="reel" label="Roll">9</container>
+            <unittitle>Port Mackinac papers <unitdate type="inclusive" normal="1856/1861">1856-1861</unitdate> (cont.)</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">9</container>
+            <unittitle>Port Mackinac papers <unitdate type="inclusive" normal="1863/1884">1863-1884</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="reel" label="Roll">10</container>
+            <unittitle>Port Mackinac Manifests <unitdate type="inclusive" normal="1807/1838">1807-1838</unitdate></unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Myron W. Scranton papers</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">10</container>
+            <unittitle>Correspondence <unitdate type="inclusive" normal="1853">1853</unitdate>, <unitdate type="inclusive" normal="1865/1867">1865-1867</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="reel" label="Roll">11</container>
+            <unittitle>Correspondence <unitdate type="inclusive" normal="1853">1853</unitdate>, <unitdate type="inclusive" normal="1865/1867">1865-1867</unitdate> (continued)</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">11</container>
+            <unittitle>Correspondence <unitdate type="inclusive" normal="1868/1871">1868-1871</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="reel" label="Roll">12</container>
+            <unittitle>Correspondence <unitdate type="inclusive" normal="1868/1871">1868-1871</unitdate> (cont.)</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">12</container>
+            <unittitle>Correspondence <unitdate type="inclusive" normal="1872/1873">1872-1873</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="reel" label="Roll">13</container>
+            <unittitle>Correspondence <unitdate type="inclusive" normal="1872/1873">1872-1873</unitdate> (cont.)</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">13</container>
+            <unittitle>Correspondence <unitdate type="inclusive" normal="1874/1879">1874-1879</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="reel" label="Roll">14</container>
+            <unittitle>Correspondence <unitdate type="inclusive" normal="1874/1917">1874-1917</unitdate></unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Miscellaneous other papers and records</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <unittitle>Collector of Customs</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="reel" label="Roll">15</container>
+              <unittitle>Edward Biddle papers</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">15</container>
+              <unittitle>Guy H. Carleton papers</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">15</container>
+            <unittitle>Mackinac Island Collector of Customs <unitdate type="inclusive" normal="1789/1873">1789-1873</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">15</container>
+            <unittitle>Guy H. Carlton papers <unitdate type="inclusive" normal="1846/1924">1846-1924</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">15</container>
+            <unittitle>U.S. General Land Office Land Grants, etc. <unitdate type="inclusive" normal="1832/1919">1832-1919</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">15</container>
+            <unittitle>Miscellaneous small collections and single items <unitdate type="inclusive" normal="1804/1940">1804-1940</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="reel" label="Roll">16</container>
+            <unittitle>Miscellaneous small collections and single items <unitdate type="inclusive" normal="1804/1940">1804-1940</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">16</container>
+            <unittitle>Essays and sketches on the history and biography of Sault Ste. Marie</unittitle>
+            <physdesc>
+              <physfacet>typewritten</physfacet>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">16</container>
+            <unittitle>Achille Frenchett's Account Book <unitdate type="inclusive" normal="1846">1846</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">16</container>
+            <unittitle><genreform normal="Diaries">Diaries</genreform>, Journals, <unitdate type="inclusive" normal="1824/1930">1824-1930</unitdate>; include Chippewa County marriages, <unitdate type="inclusive" normal="1824/1870">1824-1870</unitdate> (DAR)</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">16</container>
+            <unittitle>County of Chippewa Treasurer's records</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">16</container>
+            <unittitle>P.H. Agarr diary <unitdate type="inclusive" normal="1862" certainty="approximate">circa 1862</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">16</container>
+            <unittitle>Minutes of Chippewa County Automobile Association <unitdate type="inclusive" normal="1917/1930">1917-1930</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="reel" label="Roll">17</container>
+            <unittitle>Miscellaneous journals, letter press, registers <unitdate type="inclusive" normal="1808/1866">1808-1866</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">17</container>
+            <unittitle>Copies of letters written to American Fur Company <unitdate type="inclusive" normal="1835/1837">1835-1837</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">17</container>
+            <unittitle>Annuity List for Indians of Michigan <unitdate type="inclusive" normal="1846">1846</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">17</container>
+            <unittitle>P.S. Church <genreform normal="Diaries">diaries</genreform>, <unitdate type="inclusive" normal="1847">1847</unitdate>, <unitdate type="inclusive" normal="1850/1852">1850-1852</unitdate>, <unitdate type="inclusive" normal="1852/1854">1852-1854</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">17</container>
+            <unittitle>P. Munson Church <genreform normal="Diaries">diary</genreform>, <unitdate type="inclusive" normal="1863/1866">1863-1866</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">17</container>
+            <unittitle>Volume containing copies of indentures, land sales, etc.; and list of people employed in fur trade (names of men, names of employers, and place of wintering)</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">17</container>
+            <unittitle>Sketches accompanying report of coast survey for <unitdate type="inclusive" normal="1851">1851</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">17</container>
+            <unittitle>Maps, Broadsides</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">17</container>
+            <unittitle>Pamphlets, Reports, Addresses, and Miscellaneous</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="reel" label="Roll">18</container>
+            <unittitle>Pamphlets, Reports, Addresses, and Miscellaneous (cont.)</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">18</container>
+            <unittitle>Essay on the St. Mary's Canal <unitdate type="inclusive">undated</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">18</container>
+            <unittitle>Miscellaneous</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="reel" label="Roll">19</container>
+            <unittitle>Record book of George A. Ogle Company of Chicago (publishers of atlases, etc.)</unittitle>
+          </did>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

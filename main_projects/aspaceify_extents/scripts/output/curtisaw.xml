@@ -1,0 +1,626 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead.dtd">
+<ead>
+  <eadheader audience="internal" langencoding="iso639-2b" repositoryencoding="iso15511" dateencoding="iso8601" relatedencoding="Dublin Core">
+    <eadid countrycode="us" mainagencycode="MiU-H" publicid="-//us::MiU-H//TEXT us::MiU-H::curtisaw.xml//EN" encodinganalog="identifier">umich-bhl-851314</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="title">Finding Aid for Austin W. Curtis Papers <date>1896-1971</date></titleproper>
+        <author encodinganalog="creator">Collection processed and finding aid prepared by Thomas E. Powers</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="publisher">Bentley Historical Library, University of Michigan</publisher>
+        <date encodinganalog="date">2003</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created by Thomas E. Powers <date>August 2003</date></creation>
+      <langusage>The finding aid is written in <language encodinganalog="language" langcode="eng">English.</language></langusage>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date>20031010</date>
+        <item>Converted to EAD2002 using Word macro and Xmetal</item>
+      </change>
+      <change>
+        <date>20030828</date>
+        <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <frontmatter>
+    <titlepage>
+      <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
+      <titleproper>Finding Aid for <lb/>Austin W. Curtis Papers, <date type="inclusive">1896-1971</date></titleproper>
+      <author>Finding aid prepared by: <lb/>Thomas E. Powers</author>
+    </titlepage>
+  </frontmatter>
+  <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
+    <did>
+      <origination>
+        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/no2002038316">Curtis, Austin W., 1911-</persname>
+      </origination>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">1 oversize folder</extent>
+      </physdesc>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">1 oversize volume</extent>
+      </physdesc>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">2 linear feet</extent>
+      </physdesc>
+      <unittitle encodinganalog="245">Austin W. Curtis Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1896/1971">1896-1971</unitdate></unittitle>
+      <abstract>Assistant to George Washington Carver at Tuskegee Institute, later a Detroit, Michigan, businessman. Correspondence and other papers of G. W. Carver relating primarily to experiments with soil improvement and the discovery of new applications for the peanut and other Southern agricultural products; newspaper clippings and memos relating to Curtis' campaign for Congress in 1958 and his work with Carver; and photographs.</abstract>
+      <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">851314;Aa;2;AC;Ac</unitid>
+      <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
+      <repository>
+        <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea> University of Michigan</corpname>
+        <extptr href="bhladd" show="embed" actuate="onload"/>
+      </repository>
+    </did>
+    <descgrp type="admin">
+      <acqinfo encodinganalog="541">
+        <p>The collection was received from Austin W. Curtis (donor no. <num type="donor" encodinganalog="541$e">5161</num>) in 1971.</p>
+      </acqinfo>
+      <accessrestrict encodinganalog="506">
+        <p>The collection is open for research.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+        <p>Copyright has not been transferred to the University of Michigan.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+        <p>item, folder title, box no., Austin W. Curtis Papers, Bentley Historical Library, University of Michigan</p>
+      </prefercite>
+    </descgrp>
+    <bioghist encodinganalog="545">
+      <p>Austin W. Curtis was a laboratory assistant to George Washington Carver at Tuskegee Institute. Later, he became a Detroit, Michigan businessman.</p>
+    </bioghist>
+    <scopecontent encodinganalog="520">
+      <p>The Curtis collection has two parts: papers of George Washington Carver that Curtis collected while in Carver's employ; and papers of Curtis mainly relating to his business activities with A.W. Curtis Laboratories of Detroit, Michigan, and also his unsuccessful campaign for Congress in 1958. The Carver papers are of the most significance, relating to Carver's experiments with soil improvement and his discovery of new applications for the peanut and other agricultural products of the South.</p>
+    </scopecontent>
+    <controlaccess>
+      <p>
+        <extptr href="accnote" show="embed" actuate="onload"/>
+      </p>
+      <controlaccess>
+        <head>Subjects:</head>
+        <corpname source="lcnaf" encodinganalog="610">A. W. Curtis Laboratories (Detroit, Mich.)</corpname>
+        <subject source="lcsh" encodinganalog="650">African Americans.</subject>
+        <subject source="lcsh" encodinganalog="650">African Americans--Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650">Agriculture--United States.</subject>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2008189557">Bentley, Alvin M. (Alvin Morell), 1918-1969.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2002038316">Curtis, Austin W., 1911-</persname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79045539.html">Detroit (Mich.)</geogname>
+        <corpname source="lcnaf" encodinganalog="610">Negro Manufacturers and Distributors Association.</corpname>
+        <subject source="lcsh" encodinganalog="650">Scientists--United States.</subject>
+        <geogname source="lcsh" encodinganalog="651">Southern states.</geogname>
+        <corpname source="lcnaf" encodinganalog="610">Tuskegee Institute.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">United States. Congress--Elections, 1958.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">United States. Congress--Elections, 1960.</corpname>
+        <geogname source="lcsh" encodinganalog="651">United States--Politics and government--1953-1961.</geogname>
+      </controlaccess>
+      <controlaccess>
+        <head>Subjects - Visual Material:</head>
+        <subject source="lcsh" encodinganalog="650">African Americans.</subject>
+        <geogname source="lcsh" encodinganalog="651">Alabama.</geogname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n50034776">Carver, George Washington, 1864?-1943.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n88117828">Ford, Edsel, 1893-1943.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79055385">Ford, Henry, 1863-1947.</persname>
+        <corpname source="lcnaf" encodinganalog="610">George Washington Carver School (Ways, Ga.)</corpname>
+        <geogname source="lcsh" encodinganalog="651">Georgia.</geogname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79126993">Henry Ford Museum and Greenfield Village.</corpname>
+        <subject source="lctgm" encodinganalog="650">Laboratories.</subject>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n80024557">Louis, Joe, 1914-1981.</persname>
+        <subject source="lctgm" encodinganalog="650">Motion picture theatres--Virginia--Norfolk.</subject>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n88228740">Starr, Floyd Elliot, 1883-1980.</persname>
+        <corpname source="lcnaf" encodinganalog="610">Starr Commonwealth for Boys.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Tuskegee Institute.</corpname>
+      </controlaccess>
+      <controlaccess>
+        <head>Contributors:</head>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n85022961">Bethune, Mary McLeod, 1875-1955.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50032172">Caliver, Ambrose, 1894-1962.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50034776">Carver, George Washington, 1864?-1943.</persname>
+        <persname source="lcnaf" encodinganalog="700">Chisholm, Frank P.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n00031271">Collingwood, Herbert W. (Herbert Winslow), 1857-1927.</persname>
+        <corpname source="lcnaf" encodinganalog="710">Commission on Interracial Cooperation.</corpname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n80046721">Du Bois, W. E. B. (William Edward Burghardt), 1868-1963.</persname>
+        <persname source="lcnaf" encodinganalog="700">Dudley, James Benson, 1859-1925.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2009111454">Earle, Franklin Sumner, 1856-1929.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2004056449">Graves, Bibb, 1873-1942.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no2005105028">Hamilton, John, 1843-1921.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50060957">Kellogg, John Harvey, 1852-1943.</persname>
+        <persname source="lcnaf" encodinganalog="700">Morse, Warner Jackson, 1872-1931.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n82120483">Moton, Robert Russa, 1867-1940.</persname>
+        <corpname source="lcnaf" encodinganalog="710">National Pecan Growers Exchange.</corpname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n86001727">Peabody, George Foster, 1852-1938.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n84168464">Rosenwald, Julius, 1862-1932.</persname>
+        <persname source="lcnaf" encodinganalog="700">Spillman, William Jasper, 1863-1931.</persname>
+        <persname source="lcnaf" encodinganalog="700">Thomas, Jesse O.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n85307536">Washington, Margaret James Murray, 1861-1925.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50019876">White, Walter Francis, 1893-1955.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/nr94000727">Wilson, James, 1835-1920.</persname>
+      </controlaccess>
+      <controlaccess>
+        <head>Genre/Form:</head>
+        <genreform source="gmgpc" encodinganalog="655">Drawings.</genreform>
+        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+        <genreform source="aat" encodinganalog="655">Videotapes.</genreform>
+      </controlaccess>
+    </controlaccess>
+    <dsc type="combined">
+      <c01 level="series">
+        <did>
+          <unittitle>Business and personal papers</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">15 folders</extent>
+            </physdesc>
+            <unittitle>Correspondence <unitdate>undated</unitdate>, <unitdate type="inclusive" normal="1901/1942">1901-1942</unitdate></unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 folders</extent>
+            </physdesc>
+            <unittitle>Scientific correspondence and notes concerning mycological specimen <unitdate type="inclusive" normal="1900/1901">1900-1901</unitdate></unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Radio scripts</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Bible class materials <unitdate type="inclusive" normal="1929/1930">1929-1930</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 folders</extent>
+            </physdesc>
+            <unittitle>George W. Carver miscellanea</unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">3 folders</extent>
+            </physdesc>
+            <unittitle>Newspaper clippings concerning George W. Carver <unitdate type="inclusive" normal="1896/1971">1896-1971</unitdate></unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Miscellaneous newspaper clippings</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">4 folders</extent>
+            </physdesc>
+            <unittitle>Low-cost paint experiments <unitdate type="inclusive" normal="1939/1942">1939-1942</unitdate></unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Research proposals <unitdate type="inclusive" normal="1941/1942">1941-1942</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Papers concerning Haitian business plan <unitdate type="inclusive" normal="1955">1955</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Report of investment and business potential of the Republic of Liberia, West Africa</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Curtis's campaign for Congress <unitdate type="inclusive" normal="1958">1958</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Reports of field work on behalf of the senatorial campaign of Alvin M. Bentley <unitdate type="inclusive" normal="1960">1960</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 folders</extent>
+            </physdesc>
+            <unittitle>Newspaper clippings concerning A.W. Curtis, Jr. <unitdate type="inclusive" normal="1935/1965">1935-1965</unitdate></unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Negro Manufacturers and Distributors Association (Curtis was president) <unitdate type="inclusive" normal="1964/1965">1964-1965</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>A.W. Curtis Laboratories, Detroit, Michigan</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Organization prospectus and suggestions for organized office operations</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Literature for dealers</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Form letters; price lists</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Outline for comprehensive peanut research <unitdate type="inclusive" normal="1940">1940</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(report compiled by AWC at Tuskegee Institute)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Notebook concerning food laboratory report and Carver's visit to Henry Ford's food experimental laboratory in Dearborn, Michigan <unitdate type="inclusive" normal="1942">1942</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>George Washington Carver Foundation <unitdate>undated</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>George Washington Carver classbook <unitdate type="inclusive" normal="1897/1910" certainty="approximate">circa 1897-1910</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">4 expandable folders</extent>
+            </physdesc>
+            <unittitle>George Washington Carver and Tuskegee Institute</unittitle>
+            <physdesc>
+              </physdesc>
+          </did>
+          <odd>
+            <p>Includes pamphlets, reprints, brochures, and other printed materials</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="volume" label="Oversize Volume">1</container>
+            <unittitle>Notebook concerning plan for establishing the Carver Creative Research Laboratories at Tuskegee Institute <unitdate type="inclusive" normal="1937">1937</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(prepared by A.W.Curtis, Jr.; includes <genreform source="aat" normal="Photographs">photographs</genreform>; 1 oversize volume: AC)</p>
+          </odd>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Visual Materials (<genreform source="aat" normal="Photographs">photographs</genreform> and reproductions of photographs)</unittitle>
+        </did>
+        <scopecontent>
+          <p>The Visual materials series consists of photographs relating to the life and activities of George Washington Carver. Included are photographs of Carver, alone and with various notables; photographs of Carver's visit to Greenfield Village and to the Starr Commonwealth for Boys; photographs and reproductions of Tuskeegee Institute; and photographs of various buildings named in Carver's honor. In addition, there is a videotape (VHS) of <title render="italic">Detroit Black Journal</title> (Detroit television program) segment on Curtis (1990s?).</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Portraits (also informal photographs of George Washington Carver)</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>George Washington Carver with others</unittitle>
+          </did>
+          <odd>
+            <p>(receiving honorary degree; also with Joe Louis, Franklin Roosevelt, James A. Farley)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>George Washington Carver with Atlanta businessmen alongside Georgia Railroad car</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Henry Ford visiting Tuskegee Institute;George Washington Carver visiting Greenfield Village in Dearborn</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>George Washington Carver visiting the Starr Commonwealth for Boys in Albion, Michigan</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Tuskegee Institute</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 envelopes</extent>
+              </physdesc>
+              <unittitle>Buildings</unittitle>
+              <physdesc>
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Laboratories</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Carver Theatre (Norfolk, Virginia)</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Carver School on the Ford Plantation, Ways, Georgia</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Miscellaneous</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Videotape (VHS) of <title render="italic">Detroit Black Journal</title> segment on Curtis, <unitdate type="inclusive" normal="1990/1999" certainty="approximate">1990s</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="folder" label="Oversize Folder">1</container>
+            <unittitle><genreform source="aat" normal="Photographs">Photographs</genreform>; watercolor studies made by George Washington Carver at Iowa State College Experiment Station</unittitle>
+          </did>
+        </c02>
+      </c01>
+    </dsc>
+    <descgrp type="add">
+      <index>
+        <head>Selective Index to Correspondents</head>
+        <indexentry>
+          <persname>Bethune, Mary McLeod, 1875-1955.</persname>
+          <ref>
+            <list type="simple">
+              <item>Mar. 14, 1925, Mar. 29, 1926</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Caliver, Ambrose, 1894-1962.</persname>
+          <ref>
+            <list type="simple">
+              <item>Dec. 4, 1925</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Carver, George Washington, 1864?-1943.</persname>
+          <ref>
+            <list type="simple">
+              <item>Correspondence throughout</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Chisholm, Frank P.</persname>
+          <ref>
+            <list type="simple">
+              <item>Aug. 17, 1917, Sept. 29, 1917, Oct. 10, 1917, July 2, 1918, Oct. 11, 1918, Mar. 27, 1919, Dec. 9, 1924, Feb. 15, 1926</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Collingwood, Herbert W. (Herbert Winslow), 1857-1927.</persname>
+          <ref>
+            <list type="simple">
+              <item>June 6, 1918, Dec. 9, 1924</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Commission on Interracial Cooperation.</persname>
+          <ref>
+            <list type="simple">
+              <item>Nov. 17, 1924, Dec. 3, 1925, Nov. 16, 1926</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Du Bois, W. E. B. (William Edward Burghardt), 1868-1963.</persname>
+          <ref>
+            <list type="simple">
+              <item>June 29, 1923</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Dudley, James Benson, 1859-1925.</persname>
+          <ref>
+            <list type="simple">
+              <item>Mar. 1919</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Earle, Franklin Sumner, 1856-1929.</persname>
+          <ref>
+            <list type="simple">
+              <item>Feb. 23, 1901</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Graves, Bibb, 1873-1942.</persname>
+          <ref>
+            <list type="simple">
+              <item>Dec. 17, 1928</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Hamilton, John, 1843-1921.</persname>
+          <ref>
+            <list type="simple">
+              <item>Dec. 30, 1905, Feb. 15, 1911</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Kellogg, John Harvey, 1852-1943.</persname>
+          <ref>
+            <list type="simple">
+              <item>Sept. 11, 1919, Sept. 5, 1920, 1926</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Morse, Warner Jackson, 1872-1931.</persname>
+          <ref>
+            <list type="simple">
+              <item>Aug. 24, 1925</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Moton, Robert Russa, 1867-1940.</persname>
+          <ref>
+            <list type="simple">
+              <item>Feb. 7, 1918</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>National Pecan Growers Exchange.</persname>
+          <ref>
+            <list type="simple">
+              <item>Dec. 29, 1924, Jan. 1, 1925, Aug. 30, 1928</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Peabody, George Foster, 1852-1938.</persname>
+          <ref>
+            <list type="simple">
+              <item>May 3, 1934</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Rosenwald, Julius, 1862-1932.</persname>
+          <ref>
+            <list type="simple">
+              <item>Aug. 11, 1921, Dec. 21, 1926</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Spillman, William Jasper, 1863-1931.</persname>
+          <ref>
+            <list type="simple">
+              <item>Nov. 14, 1905</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Thomas, Jesse O.</persname>
+          <ref>
+            <list type="simple">
+              <item>Sept. 22, 1919, Oct. 20, 1924</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Washington, Margaret James Murray, 1861-1925.</persname>
+          <ref>
+            <list type="simple">
+              <item>Nov. 27, 1911</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>White, Walter Francis, 1893-1955.</persname>
+          <ref>
+            <list type="simple">
+              <item>June 1923</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Wilson, James, 1835-1920.</persname>
+          <ref>
+            <list type="simple">
+              <item>Sept. 6, 1906, Oct. 4, 1907, Feb. 4, 1908, Sept. 1, 1908, Dec. 10, 1910</item>
+            </list>
+          </ref>
+        </indexentry>
+      </index>
+    </descgrp>
+  </archdesc>
+</ead>

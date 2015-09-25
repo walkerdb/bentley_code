@@ -1,0 +1,915 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead.dtd">
+<ead>
+  <eadheader audience="internal" langencoding="iso639-2b" repositoryencoding="iso15511" dateencoding="iso8601" relatedencoding="Dublin Core">
+    <eadid countrycode="us" mainagencycode="MiU-H" publicid="-//us::MiU-H//TEXT us::MiU-H::aaphoto.xml//EN" encodinganalog="identifier">umich-bhl-91153</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="title">Finding Aid for Ann Arbor, Michigan photograph collection. <date>1860s-1970s</date></titleproper>
+        <author encodinganalog="creator">Collection processed and finding aid prepared by Michigan Historical Collections staff.</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="publisher">Bentley Historical Library, University of Michigan</publisher>
+        <date encodinganalog="date">1997</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created by Greg Kinney <date>2000-01-25</date></creation>
+      <langusage>The finding aid is written in <language encodinganalog="language" langcode="eng">English.</language></langusage>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date>20150522</date>
+        <item>Removed non-existent folder and corrected extent.</item>
+      </change>
+      <change>
+        <date>20031001</date>
+        <item>Converted to EAD2002 using Word macro and Xmetal</item>
+      </change>
+      <change>
+        <date>2000-01-27</date>
+        <item>added daos href based on folder number</item>
+      </change>
+      <change>
+        <date>2000-01-25</date>
+        <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <frontmatter>
+    <titlepage>
+      <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
+      <titleproper>Finding Aid for <lb/>Ann Arbor, Michigan Photographs Collection, <lb/>Published <date type="inclusive">1860s-1970s</date></titleproper>
+      <author>Finding aid prepared by: <lb/>Michigan Historical Collections staff</author>
+    </titlepage>
+  </frontmatter>
+  <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
+    <did>
+      <origination>
+        <corpname source="lcnaf" encodinganalog="110">Bentley Historical Library (collector)</corpname>
+      </origination>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">2 oversized folder</extent>
+        <physfacet>UCCm</physfacet>
+      </physdesc>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">2 linear feet</extent>
+        <physfacet>UCCs</physfacet>
+      </physdesc>
+      <unittitle encodinganalog="245">Ann Arbor, Michigan photograph collection <unitdate type="inclusive" encodinganalog="245$f" normal="1860/1979" certainty="approximate">1860s-1970s</unitdate></unittitle>
+      <abstract>Photographs collected from various donors relating to Ann Arbor, Michigan; include photos of buildings (public and private), houses, churches, and schools; also views of the city (by street and area); and miscellaneous photos of local events and activities, school class portraits, and other group portraits.</abstract>
+      <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">91153 UCCs UCCm</unitid>
+      <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
+      <repository>
+        <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea> University of Michigan</corpname>
+        <extptr href="bhladd" show="embed" actuate="onload"/>
+      </repository>
+    </did>
+    <descgrp type="admin">
+      <acqinfo encodinganalog="541">
+        <p>The collection was assembled by Michigan Historical Collections staff over a period of years from a variety of sources and donors.</p>
+      </acqinfo>
+      <accessrestrict encodinganalog="506">
+        <p>The collection is open for research. Some photos from the collection are available on-line through the world wide web as part of the Bentley Library's Image Bank. Links to the digitized images are provided in the container listing.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+        <p>Consult with reference staff for copyright status of individual images.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+        <p>item, folder title, box no., Ann Arbor, Michigan Photograph Collection, Bentley Historical Library, University of Michigan</p>
+      </prefercite>
+    </descgrp>
+    <bioghist encodinganalog="545">
+      <p>The Ann Arbor, Michigan Photographs Collection was assembled by the staff of the Bentley Historical Library.</p>
+    </bioghist>
+    <scopecontent encodinganalog="520">
+      <p>This collection of Ann Arbor photographs includes a wide variety of images of Ann Arbor buildings, street scenes, schools and classrooms, public events, and people. The images, dating from the 1860s to the 1970s, has been arranged into three series: Buildings, Houses, etc.; Views; and Activities, People, Events. Each folder may contain one or more images.</p>
+      <p>The researcher should be advised that this collection represents only a small portion of the library's Ann Arbor photos. The most complete access to the total holdings of the library is through the card catalog.</p>
+    </scopecontent>
+    <controlaccess>
+      <p>
+        <extptr href="accnote" show="embed" actuate="onload"/>
+      </p>
+      <controlaccess>
+        <head>Subjects - Visual Materials</head>
+        <subject source="lcsh" encodinganalog="650">African Americans.</subject>
+        <corpname source="lcnaf" encodinganalog="610">Ann Arbor High School (Mich.)</corpname>
+        <geogname source="lctgm" encodinganalog="651">Ann Arbor (Mich.)--Business enterprises.</geogname>
+        <geogname source="lctgm" encodinganalog="651">Ann Arbor (Mich.)--Churches.</geogname>
+        <geogname source="lctgm" encodinganalog="651">Ann Arbor (Mich.)--Dwellings.</geogname>
+        <geogname source="lctgm" encodinganalog="651">Ann Arbor (Mich.)--Panoramic views.</geogname>
+        <geogname source="lctgm" encodinganalog="651">Ann Arbor (Mich.)--Schools.</geogname>
+        <geogname source="lctgm" encodinganalog="651">Ann Arbor (Mich.)--Streets.</geogname>
+        <corpname source="lcnaf" encodinganalog="610">Ann Arbor Street Railway Company.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Ann Arbor Taxicab Co. (Ann Arbor, Mich.)--Employees.</corpname>
+        <geogname source="lcsh" encodinganalog="651">Ann Street (Ann Arbor, Mich.)</geogname>
+        <corpname source="lcnaf" encodinganalog="610">Argo Mills (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Bach &amp; Abel (Dry goods store : Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Bach School (Ann Arbor, Mich.)</corpname>
+        <subject source="lcsh" encodinganalog="650">Baseball players--Michigan--Ann Arbor.</subject>
+        <corpname source="lcnaf" encodinganalog="610">Bryant School (Ann Arbor, Mich.)</corpname>
+        <subject source="lctgm" encodinganalog="650">Buildings--Michigan--Ann Arbor.</subject>
+        <subject source="lctgm" encodinganalog="650">Business enterprises--Michigan--Ann Arbor.</subject>
+        <subject source="lctgm" encodinganalog="650">Cemeteries--Michigan--Ann Arbor.</subject>
+        <corpname source="lcnaf" encodinganalog="610">Ann Arbor Central Mills (Ann Arbor, Mich.)</corpname>
+        <subject source="lctgm" encodinganalog="650">Churches--Michigan--Ann Arbor.</subject>
+        <subject source="lctgm" encodinganalog="650">City and town halls--Michigan--Ann Arbor.</subject>
+        <corpname source="lcnaf" encodinganalog="610">City Ice Company (Ann Arbor, Mich.)</corpname>
+        <subject source="lctgm" encodinganalog="650">Classrooms--Michigan--Ann Arbor.</subject>
+        <subject source="lctgm" encodinganalog="650">Courthouses--Michigan--Ann Arbor.</subject>
+        <corpname source="lcnaf" encodinganalog="610">Dixboro School (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Donovan School (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Dr. Chase's Steam Printing House (Ann Arbor, Mich.)</corpname>
+        <subject source="lctgm" encodinganalog="650">Dwellings--Michigan--Ann Arbor.</subject>
+        <corpname source="lcnaf" encodinganalog="610">Eberbach School (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Eberwhite School (Ann Arbor, Mich.)</corpname>
+        <subject source="lctgm" encodinganalog="650">Fire engines and equipment.</subject>
+        <subject source="lctgm" encodinganalog="650">Fire stations--Michigan--Ann Arbor.</subject>
+        <subject source="lctgm" encodinganalog="650">Fires--Michigan--Ann Arbor.</subject>
+        <corpname source="lcnaf" encodinganalog="610">First Baptist Church (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610">First Congregational Church (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610">First Methodist Church (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610">First Presbyterian Church (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610">First Unitarian Church (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Forest Hill Cemetery (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Frieze Building (University of Michigan)</corpname>
+        <subject source="lcsh" encodinganalog="650">German Americans.</subject>
+        <corpname source="lcnaf" encodinganalog="610">Bethlehem Evangelical Church (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Goodyear &amp; St. James Drygoods Store (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Gregory House (Hotel : Ann Arbor, Mich.)</corpname>
+        <geogname source="lcsh" encodinganalog="651">Huron Street (Ann Arbor, Mich.)</geogname>
+        <corpname source="lcnaf" encodinganalog="610">Jones School (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Ladies Library Association of Ann Arbor.</corpname>
+        <geogname source="lcsh" encodinganalog="651">Lower Town (Ann Arbor, Mich.)</geogname>
+        <corpname source="lcnaf" encodinganalog="610">Mack &amp; Company (Ann Arbor, Mich.)--Fire.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Mack School (Ann Arbor, Mich.)</corpname>
+        <geogname source="lcsh" encodinganalog="651">Main Street (Ann Arbor, Mich.)</geogname>
+        <corpname source="lcnaf" encodinganalog="610">Majestic Theatre (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Masonic Temple (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Maynard Store (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Memorial Christian Church (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Michigan Central Railroad Depot (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Northwest School (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Perry School (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Pioneer High School (Ann Arbor, Mich.)</corpname>
+        <subject source="lctgm" encodinganalog="650">Political parades and rallies.</subject>
+        <corpname source="lcnaf" encodinganalog="610">Porter Zouave Band (Ann Arbor, Mich.)</corpname>
+        <subject source="lctgm" encodinganalog="650">Post offices--Michigan--Ann Arbor.</subject>
+        <subject source="lctgm" encodinganalog="650">Railroad bridges--Michigan--Ann Arbor.</subject>
+        <subject source="lctgm" encodinganalog="650">Railroad stations--Michigan--Ann Arbor.</subject>
+        <subject source="lctgm" encodinganalog="650">Residential streets--Michigan--Ann Arbor.</subject>
+        <corpname source="lcnaf" encodinganalog="610">St. Andrew's Episcopal Church (Ann Arbor, Mich.)</corpname>
+        <subject source="lctgm" encodinganalog="650">Schools--Michigan--Ann Arbor.</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n87103858">Slauson Junior High School (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Tappan Junior High School (Ann Arbor, Mich.)</corpname>
+        <subject source="lcsh" encodinganalog="650">Telephone--Employees.</subject>
+        <subject source="lctgm" encodinganalog="650">Toll roads--Michigan--Ann Arbor.</subject>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Buildings.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Washtenaw County Courthouse (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Young Men's Christian Association (Ann Arbor, Mich.)</corpname>
+      </controlaccess>
+      <controlaccess>
+        <head>Genre/Form:</head>
+        <genreform source="gmgpc" encodinganalog="655">Aerial photographs.</genreform>
+        <genreform source="gmgpc" encodinganalog="655">Panoramic views.</genreform>
+        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+        <genreform source="gmgpc" encodinganalog="655">Stereographs.</genreform>
+      </controlaccess>
+    </controlaccess>
+    <dsc type="combined">
+      <c01 level="subgrp">
+        <did>
+          <unittitle>Ann Arbor <genreform normal="Photographs">Photographs</genreform></unittitle>
+        </did>
+        <c02 level="series">
+          <did>
+            <unittitle>Buildings, Houses, etc.</unittitle>
+          </did>
+          <scopecontent>
+            <p>The Buildings series has four subseries. The first - Buildings" - consists of photos of the exterior of Ann Arbor businesses and other public buildings (such as the post office and the engine house of the fire department).</p>
+            <p>The second subseries consists of photographs (primarily exterior views) of Ann Arbor churches. The third subseries includes photos of Ann Arbor houses, arranged alphabetically by owner's name or by the street location if the owner's name is not clear. The last subseries contains photos of various Ann Arbor schools.</p>
+          </scopecontent>
+          <c03 level="subseries">
+            <did>
+              <unittitle>Buildings</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container label="Folder" type="folder">1</container>
+                <unittitle>Argo Mills Milling Co.</unittitle>
+                <dao href="91153-1" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[view selected images]</p>
+                  </daodesc>
+                </dao>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Folder" type="folder">2</container>
+                <unittitle>Bach &amp; Abel dry goods store</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Folder" type="folder">3</container>
+                <unittitle>Bank building (lower Town)</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Folder" type="folder">4</container>
+                <unittitle>Central Mills</unittitle>
+                <dao href="91153-4" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[view selected images]</p>
+                  </daodesc>
+                </dao>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Folder" type="folder">5</container>
+                <unittitle>Chase's (Dr.) Steam Printing House</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Folder" type="folder">6</container>
+                <unittitle>City Hall (construction views) <unitdate type="inclusive" normal="1962">1962</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Folder" type="folder">7</container>
+                <unittitle>City Ice Company</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Folder" type="folder">8</container>
+                <unittitle>Court Houses</unittitle>
+                <dao href="91153-8" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[view selected images]</p>
+                  </daodesc>
+                </dao>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Folder" type="folder">9</container>
+                <unittitle>Fire Department Engine Houses</unittitle>
+                <dao href="91153-9" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[view selected images]</p>
+                  </daodesc>
+                </dao>
+              </did>
+              <odd>
+                <p>(also photos of horse-drawn engines leaving building)</p>
+              </odd>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Folder" type="folder">10</container>
+                <unittitle>Forest Hill Cemetery</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Folder" type="folder">11</container>
+                <unittitle>Goodyear &amp; St. James</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Folder" type="folder">12</container>
+                <unittitle>Gregory House</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Folder" type="folder">13</container>
+                <unittitle>Ladies Library Association</unittitle>
+                <dao href="91153-13" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[view selected images]</p>
+                  </daodesc>
+                </dao>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Folder" type="folder">14</container>
+                <unittitle>Majestic Theater</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Folder" type="folder">15</container>
+                <unittitle>Masonic Temple <unitdate type="inclusive" normal="1920/1929" certainty="approximate">circa 1920s</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Folder" type="folder">16</container>
+                <unittitle>Maynard Store</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Folder" type="folder">17</container>
+                <unittitle>Michigan Central Depot</unittitle>
+                <dao href="91153-17" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[view selected images]</p>
+                  </daodesc>
+                </dao>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Folder" type="folder">18</container>
+                <unittitle>Muehlig's</unittitle>
+              </did>
+              <odd>
+                <p>(store window display of historical memorabilia)</p>
+              </odd>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Folder" type="folder">19</container>
+                <unittitle>Post Office</unittitle>
+              </did>
+              <odd>
+                <p>(include stereoscope cards)</p>
+              </odd>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Folder" type="folder">29</container>
+                <unittitle>YMCA (old) building</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Folder" type="folder">21</container>
+                <unittitle>Unidentified (Ann St. at 4th Ave.)</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="subseries">
+            <did>
+              <unittitle>Churches (by denomination)</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container label="Folder" type="folder">22</container>
+                <unittitle>Baptist</unittitle>
+                <dao href="91153-22" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[view selected images]</p>
+                  </daodesc>
+                </dao>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Folder" type="folder">23</container>
+                <unittitle>Church of Christ (Memorial) <unitdate type="inclusive" normal="1923">1923</unitdate></unittitle>
+              </did>
+              <odd>
+                <p>(includes interiors and views along South University)</p>
+              </odd>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Folder" type="folder">24</container>
+                <unittitle>Congregational</unittitle>
+              </did>
+              <odd>
+                <p>(include stereoscope card)</p>
+              </odd>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Folder" type="folder">25</container>
+                <unittitle>Episcopal (St. Andrew's)</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Folder" type="folder">27</container>
+                <unittitle>Methodist</unittitle>
+              </did>
+              <odd>
+                <p>(includes stereoscope cards)</p>
+              </odd>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Folder" type="folder">28</container>
+                <unittitle>Presbyterian</unittitle>
+              </did>
+              <odd>
+                <p>(includes stereoscope card)</p>
+              </odd>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="folder" label="Oversize Folder">UCCm</container>
+                <unittitle>Presbyterian</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Folder" type="folder">29</container>
+                <unittitle>Unitarian (old), later became Grace Bible Church</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="subseries">
+            <did>
+              <unittitle>Houses</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container label="Folder" type="folder">30</container>
+                <unittitle>Ann Arbor and Saline Plank Road House (S. Main)</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Folder" type="folder">31</container>
+                <unittitle>Beckley House (Pontiac Trail)</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Folder" type="folder">32</container>
+                <unittitle>Brown House (Hill Street)</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Folder" type="folder">33</container>
+                <unittitle>Cooley (Charles Horton) House</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Folder" type="folder">34</container>
+                <unittitle>Cooley (Thomas) House</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Folder" type="folder">35</container>
+                <unittitle>D'Ooge House (Washtenaw)</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Folder" type="folder">36</container>
+                <unittitle>Foster (James) House</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Folder" type="folder">37</container>
+                <unittitle>Herbst House (Washtenaw)</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Folder" type="folder">38</container>
+                <unittitle>James (Enoch) House (E. Liberty)</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Folder" type="folder">39</container>
+                <unittitle>Jefferson St. House</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Folder" type="folder">40</container>
+                <unittitle>Martin House (Miller Road)</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Folder" type="folder">41</container>
+                <unittitle>Millen House (also Phi Kappa Psi house)</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Folder" type="folder">42</container>
+                <unittitle>Pond (Elihu) House</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Folder" type="folder">43</container>
+                <unittitle>Porter House (Washtenaw) also Langley &amp; Hinsdale House</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Folder" type="folder">44</container>
+                <unittitle>State Street Houses</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Folder" type="folder">45</container>
+                <unittitle>Winchell House</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Folder" type="folder">46</container>
+                <unittitle>Unidentified</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="subseries">
+            <did>
+              <unittitle>Schools</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container label="Folder" type="folder">47</container>
+                <unittitle>Dixboro</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Folder" type="folder">48</container>
+                <unittitle>Eberbach</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>High School</unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <container label="Folder" type="folder">49</container>
+                  <unittitle>Union High School</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container label="Folder" type="folder">50</container>
+                  <unittitle>Frieze Building</unittitle>
+                </did>
+                <odd>
+                  <p>(includes science lab?)</p>
+                </odd>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container label="Folder" type="folder">51</container>
+                  <unittitle>Pioneer High School</unittitle>
+                </did>
+              </c05>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Folder" type="folder">52</container>
+                <unittitle>Jones</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Folder" type="folder">53</container>
+                <unittitle>Mack</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Folder" type="folder">54</container>
+                <unittitle>Northwest (now Haisley)</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Folder" type="folder">55</container>
+                <unittitle>Slauson Junior High School</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Folder" type="folder">56</container>
+                <unittitle>Tappan</unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="series">
+          <did>
+            <unittitle>Ann Arbor Views</unittitle>
+          </did>
+          <scopecontent>
+            <p>The Views series has two subseries: by street, and by area. Where the Buildings series generally included photos of a single building, the Views series usually contains views along a street, at an intersection, or taken from an elevated location (such as aerial views or photos taken from the courthouse roof).</p>
+          </scopecontent>
+          <c03 level="subseries">
+            <did>
+              <unittitle>By Street</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container label="Folder" type="folder">57</container>
+                <unittitle>Ann</unittitle>
+                <dao href="91153-57" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[view sample images]</p>
+                  </daodesc>
+                </dao>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>Huron</unittitle>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">2 envelopes</extent>
+                </physdesc>
+                <physdesc>
+                  </physdesc>
+              </did>
+              <c05 level="file">
+                <did>
+                  <unittitle>Huron</unittitle>
+                  <container label="Folder" type="folder">58</container>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unittitle>Huron</unittitle>
+                  <container label="Folder" type="folder">59</container>
+                </did>
+                <odd>
+                  <p>(continued)</p>
+                </odd>
+              </c05>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Folder" type="folder">60</container>
+                <unittitle>Main Street</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Folder" type="folder">61</container>
+                <unittitle>State Street</unittitle>
+                <dao href="91153-61" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[view sample images]</p>
+                  </daodesc>
+                </dao>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Folder" type="folder">62</container>
+                <unittitle>Various</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="subseries">
+            <did>
+              <unittitle>By Area</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container label="Folder" type="folder">63</container>
+                <unittitle>Lower Town and Mills</unittitle>
+                <dao href="91153-62" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[view selected images]</p>
+                  </daodesc>
+                </dao>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Folder" type="folder">64</container>
+                <unittitle>Michigan Central Railroad depot area and related</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Folder" type="folder">65</container>
+                <unittitle>Taken from the Boulevard (NE)</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Folder" type="folder">66</container>
+                <unittitle>Taken from the Courthouse Tower</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Folder" type="folder">67</container>
+                <unittitle>Taken from the West (Sunset Hill)</unittitle>
+                <dao href="91153-67" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[view selected images]</p>
+                  </daodesc>
+                </dao>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Folder" type="folder">68</container>
+                <unittitle>Miscellaneous and unidentified</unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="series">
+          <did>
+            <unittitle>Activities, Events, People</unittitle>
+          </did>
+          <scopecontent>
+            <p>The series Activities, People, Events - is a miscellaneous collection of photos relating to Ann Arbor life. It includes group photos, and photos of fires, historical gatherings, and school classrooms.</p>
+          </scopecontent>
+          <c03 level="file">
+            <did>
+              <container label="Folder" type="folder">69</container>
+              <unittitle>Ann Arbor City Officials <unitdate type="inclusive" normal="1909">1909</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Folder" type="folder">70</container>
+              <unittitle>Ann Arbor Taxicab Co. banquet <unitdate type="inclusive" normal="1916">1916</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Folder" type="folder">71</container>
+              <unittitle>Barton Hills party <unitdate type="inclusive" normal="1920">1920</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Folder" type="folder">72</container>
+              <unittitle>Civil War gathering</unittitle>
+            </did>
+            <odd>
+              <p>(gathering in downtown area with news of outbreak of war)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Folder" type="folder">73</container>
+              <unittitle>Fire engine (horse-drawn) on route to fire</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Folder" type="folder">74</container>
+              <unittitle>Mack &amp; Company fire <unitdate type="inclusive" normal="1899">1899</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Folder" type="folder">75</container>
+              <unittitle>Porter Zouave band members</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Schools (mainly class portraits or pupils in class)</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container label="Folder" type="folder">76</container>
+                <unittitle>Bach</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Folder" type="folder">77</container>
+                <unittitle>Bryant</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Folder" type="folder">78</container>
+                <unittitle>Donovan (and unidentified) <unitdate type="inclusive" normal="1911">1911</unitdate></unittitle>
+                <dao href="91153-78" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[view selected images]</p>
+                  </daodesc>
+                </dao>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Folder" type="folder">79</container>
+                <unittitle>Eberbach</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Folder" type="folder">80</container>
+                <unittitle>Eberwhite</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Folder" type="folder">81</container>
+                <unittitle>High School</unittitle>
+                <dao href="91153-81" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[view selected images]</p>
+                  </daodesc>
+                </dao>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="folder" label="Oversize Folder">UCCm</container>
+                <unittitle>High School</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Folder" type="folder">82</container>
+                <unittitle>Jones</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Folder" type="folder">83</container>
+                <unittitle>Mack</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Folder" type="folder">84</container>
+                <unittitle>Perry</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container label="Folder" type="folder">85</container>
+                <unittitle>Tappan</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="folder" label="Oversize Folder">UCCm</container>
+              <unittitle>Superior Dairy baseball team <unitdate type="inclusive" normal="1911">1911</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Folder" type="folder">86</container>
+              <unittitle>Telephone anniversary gathering <unitdate type="inclusive" normal="1926">1926</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Folder" type="folder">87</container>
+              <unittitle>Transportation (includes street cars, carts, etc.)</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Folder" type="folder">88</container>
+              <unittitle>Miscellaneous and unidentified</unittitle>
+            </did>
+            <odd>
+              <p>(includes visit of Marshall Foch to Ann Arbor in 1921)</p>
+            </odd>
+          </c03>
+        </c02>
+      </c01>
+      <c01 level="subgrp">
+        <did>
+          <unittitle>Ann Arbor Prints</unittitle>
+        </did>
+        <c02 level="series">
+          <did>
+            <unittitle>Buildings Houses etc</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>William S. Maynard residence, R.A. Beal residence corner of 5th and William, Stebbins and Wilson Store</unittitle>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

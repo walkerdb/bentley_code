@@ -1,0 +1,390 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead.dtd">
+<ead>
+  <eadheader audience="internal" langencoding="iso639-2b" repositoryencoding="iso15511" dateencoding="iso8601" relatedencoding="Dublin Core">
+    <eadid countrycode="us" mainagencycode="MiU-H" publicid="-//us::MiU-H//TEXT us::MiU-H::mathdept.xml//EN" encodinganalog="identifier">umich-bhl-90204</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="title">Finding Aid for Dept. of Mathematics (University of Michigan) records <date>1913-1981</date></titleproper>
+        <author encodinganalog="creator">Collection processed and finding aid prepared by Brian A. Williams</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="publisher">Bentley Historical Library, University of Michigan</publisher>
+        <date encodinganalog="date">2000</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created by Greg Kinney <date>Nov. 2000</date></creation>
+      <langusage>The finding aid is written in <language encodinganalog="language" langcode="eng">English.</language></langusage>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date>20150803</date>
+        <item>Added written notes from paper finding aid.</item>
+      </change>
+      <change>
+        <date>20031010</date>
+        <item>Converted to EAD2002 using Word macro and Xmetal</item>
+      </change>
+      <change>
+        <date>2000-11-13</date>
+        <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <frontmatter>
+    <titlepage>
+      <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
+      <titleproper>Finding Aid for <lb/>Dept. of Mathematics (University of Michigan) <lb/>Records, 1913-1981 (bulk 1935-1981)</titleproper>
+      <author>Finding aid prepared by: <lb/>Brian A. Williams, 1990</author>
+    </titlepage>
+  </frontmatter>
+  <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
+    <did>
+      <origination>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n88657243">University of Michigan. Dept. of Mathematics.</corpname>
+      </origination>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 oversize folder</extent>
+      </physdesc>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">4 linear feet</extent>
+      </physdesc>
+      <unittitle encodinganalog="245">Dept. of Mathematics (University of Michigan) records <unitdate type="inclusive" encodinganalog="245$f" normal="1913/1981">1913-1981</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1935/1981">1935-1981</unitdate></unittitle>
+      <physdesc altrender="part">
+        </physdesc>
+      <abstract>Records include administrative files, committee minutes, reminiscences of faculty members Wilfred Kaplan and Raymond Wilder, material relating to various undergraduate mathematics clubs, and photographs of faculty.</abstract>
+      <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">90204 Bimu C26 2 UBImum C26</unitid>
+      <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
+      <repository>
+        <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea> University of Michigan</corpname>
+        <extptr href="bhladd" show="embed" actuate="onload"/>
+      </repository>
+    </did>
+    <descgrp type="admin">
+      <acqinfo encodinganalog="541">
+        <p>The records were transferred in June 1990 (Donor No. <num type="donor" encodinganalog="541$e">7813</num>).</p>
+      </acqinfo>
+      <accessrestrict encodinganalog="506">
+        <p>The records are open for research.</p>
+        <p>
+          <extptr href="uarpacc" show="embed" actuate="onload"/>
+        </p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+        <p>Copyright is held by the Regents of the University of Michigan.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+        <p>item, folder title, box no., Dept. of Mathematics (University of Michigan) Records, Bentley Historical Library, University of Michigan</p>
+      </prefercite>
+    </descgrp>
+    <bioghist encodinganalog="545">
+      <p>The Department of Mathematics dates back to 1841, when formal instruction began at the University of Michigan in Ann Arbor. Mathematics and science was taught by the Rev. George P. Williams (1841-1875).* The curriculum during the early years covered algebra, geometry, trigonometry, analytical geometry and calculus. In 1863 Williams became professor of physics, and Edward Olney (1863-1887) became professor of mathematics. Course offerings gradually expanded as the mathematics faculty increased to five by 1877. From 1888 on, the department expanded steadily. Notable additions included Alexander Ziwet (1888-1925) and Frank N. Cole (1888-1895). Cole was the first professor to teach mathematics who had earned a Ph.D. (his degree was from Harvard University.) Both Cole and Ziwet were actively involved in the early years of the American Mathematical Society, and worked to form a student mathematical society at the university.</p>
+      <p>Around the turn of the century several influential members joined the faculty and course offerings were greatly expanded. James W. Glover (1895-1937) offered the first courses in actuarial mathematics, Walter B. Ford (1900-1940) taught asymptotic series and summability theory, and Louis C. Karpinski (1904-1948) taught the history of mathematics. Theophil H. Hildebrandt (1909-1957) also began his lengthy affiliation with the department. He would later serve as chairman for twenty-three years (1937-1957), and did important research in functional analysis and integration theory.</p>
+      <p>In the 1920s, the curriculum expanded through the introduction of courses in applied mathematics, vector analysis, hydronamics, infinite series and graphical methods. This growth was the result of an aggressive effort to bring new talent to Michigan. Among the new mathematicians were George Y. Rainich (1926-1956) in relativity, Raymond L. Wilder (1926-1968) in topology, and Arthur H. Copeland (1929-1968) in probability. These appointments of the 1920s propelled the department through the war years and into the post-war era. The first Ph.D. was granted in 1911; by 1941 a total of ninety doctoral degrees had been granted.</p>
+      <p>During the Second World War research and war manpower demands affected the department in many ways. The decline in mathematics enrollment in undergraduate programs was offset by the fact that many of the military training programs established on the campus had a mathematical component. These programs included the Air Force</p>
+      <p>Meteorology Program and the Navy's V-12 Program. The increased staff demands were met by bringing in teachers from other departments as well as by using faculty wives with mathematics backgrounds to teach courses. Immediately after the war, enrollment rose considerably.</p>
+      <p>Throughout the postwar years, the mathematics curriculum expanded to reflect the increasing use of the discipline in engineering, the sciences (especially the social sciences), and computing. In addition, general concern over the quality of teaching mathematics in grades K-12 led to more offerings on the teaching of mathematics, and included special summer institutes and in-service programs for teachers.</p>
+      <p>Important organizational changes in the postwar years revolved around the departmental chairmanship. Prior to 1957, the chairmen had received life-time appointments; since 1957, chairmen have been appointed for fixed terms which have not exceeded five years. In 1968 an associate chairman position was established; since 1973 there have been two associate chairmen. In 1967, the department wrote a new constitution to govern its affairs, with increased powers, including appointments to tenured positions, vested in the faculty.</p>
+      <p>* Dates in parentheses indicate the years during which the professor taught at the University of Michigan.</p>
+    </bioghist>
+    <scopecontent encodinganalog="520">
+      <p>The records of the Department of Mathematics document the history and administration of mathematics education at the University of Michigan. The records consist of three series: Administrative, Minutes, and Photographs, including budget material, correspondence, lists of faculty members, reminiscences of several faculty members and files relating to student organizations.</p>
+    </scopecontent>
+    <controlaccess>
+      <p>
+        <extptr href="accnote" show="embed" actuate="onload"/>
+      </p>
+      <controlaccess>
+        <head>Subjects:</head>
+        <corpname source="lcnaf" encodinganalog="610">Ishango Society of Mathematics (University of Michigan)</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Undergraduate Math Club (University of Michigan)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n88657243">University of Michigan. Dept. of Mathematics.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Students.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Students--Societies, etc.</corpname>
+      </controlaccess>
+      <controlaccess>
+        <head>Subjects - Visual Material:</head>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n88657243">University of Michigan. Dept. of Mathematics.</corpname>
+      </controlaccess>
+      <controlaccess>
+        <head>Genre/Form:</head>
+        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+      </controlaccess>
+    </controlaccess>
+    <dsc type="combined">
+      <c01 level="series">
+        <did>
+          <unittitle>Administrative Records</unittitle>
+        </did>
+        <scopecontent>
+          <p>The Administrative Records series (1 linear foot) include budget information, departmental histories, and club and organizational records. Budget files contain worksheets, used to track salaries, which detail increases, decreases and promotions. There is also correspondence concerning justification for budget requests. Departmental histories include several brief histories, as well as a copy of the script from a play, titled "T.H.", performed in 1957 in honor of T.H. Hildebrandt's retirement. There is, in addition, an interesting thirteen-page transcript of the recollections of Raymond L. Wilder, in which he discusses other faculty members, recruitment, and curriculum changes during his tenure as professor from 1926 to 1968. Wilfred Kaplan's history includes an appendix listing all of the faculty members who served in the department from 1841 to 1988. Club and organizational records contain the files of the Undergraduate Mathematics Club and the Ishango Society of Mathematics. The Undergraduate Mathematics Club was established ca. 1890 and was designed to stimulate discussion on mathematical topics through presentations and meetings. The records include a minute book covering the years 1913 to 1937. It presents a relatively complete record of the club's activities, finances, and papers presented. The Ishango Society of Mathematics was created in 1975 by African American graduate students to give voice to their demands for more minority students and faculty members. The materials primarily consist of correspondence between the organization and the department.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <unittitle>Budget</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>Fall/Winter</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">43 folders</extent>
+                </physdesc>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1929/1974">1929-1974</unitdate>
+                </unittitle>
+                <physdesc altrender="whole">
+                  </physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1980/1981">1980-1981</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Summer</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1958/1977">1958-1977</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>History</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>"Mathematics at the University of Michigan," by Wilfred Kaplan (includes listing of faculty, 1841-1988)</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Miscellaneous</unittitle>
+            </did>
+            <odd>
+              <p>(includes script from "T.H.")</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Wilder, Raymond L. <unitdate type="inclusive" normal="1976">1976</unitdate></unittitle>
+            </did>
+            <odd>
+              <p>(transcript of <genreform normal="oral history">oral history</genreform> done with Wilder)</p>
+            </odd>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Organizations</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Ishango Society of Mathematics <unitdate type="inclusive" normal="1975/1977">1975-1977</unitdate></unittitle>
+            </did>
+            <odd>
+              <p>(Black Graduate Students in Mathematics)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Undergraduate Math Club</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <unittitle>Minute book <unitdate type="inclusive" normal="1913/1937">1913-1937</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <unittitle>Miscellaneous <unitdate type="inclusive" normal="1924/1973">1924-1973</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Minutes</unittitle>
+        </did>
+        <scopecontent>
+          <p>The Minutes series (3 linear feet) includes complete runs of the Executive Committee from 1934 to 1981 and the Departmental Staff (faculty) Committee from 1934 to 1980, and provides the most thorough documentation of departmental history and affairs. Several notebooks of Executive Committee appendices from 1967 to 1974 include memos, correspondence, and syllabi not found in the minutes themselves. Topics that can be explored by studying both sets of minutes include hirings, salaries, curriculum innovations, student enrollments, and degree requirements.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <unittitle>Executive Committee <unitdate type="inclusive" normal="1935/1981">1935-1981</unitdate></unittitle>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">10 folders</extent>
+            </physdesc>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">5 folders</extent>
+              </physdesc>
+              <unittitle>
+                <unitdate type="inclusive" normal="1935/1969">1935-1969</unitdate>
+              </unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">5 folders</extent>
+              </physdesc>
+              <unittitle>
+                <unitdate type="inclusive" normal="1969/1981">1969-1981</unitdate>
+              </unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Appendices <unitdate type="inclusive" normal="1967/1974">1967-1974</unitdate></unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">5 folders</extent>
+              </physdesc>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">3</container>
+                <unittitle>folders 1-3</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">4</container>
+                <unittitle>folders 4-5</unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">3 notebooks</extent>
+            </physdesc>
+            <unittitle>Faculty <unitdate type="inclusive" normal="1934/1980">1934-1980</unitdate></unittitle>
+            <physdesc>
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Internal Review <unitdate type="inclusive" normal="1978">1978</unitdate></unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>
+            <genreform normal="Photographs">Photographs</genreform>
+          </unittitle>
+        </did>
+        <scopecontent>
+          <p>The Photographs series consists of black and white, positive prints of ten faculty members from the department. Most of the images were collected for publication with the Kaplan history.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Ford, Walter B.</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Glover, James W</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Hildebrandt, Theophil H</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Miller, Edwin Wilkinson</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Olney, Edward</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Rainich, George Y</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="folder" label="Oversize Folder">1</container>
+            <unittitle>Reade, Maxwell O.</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Rothe, Erich H</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Wilder, Raymond L. (see also outsized folder)</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Williams, George P</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Ziwet, Alexander</unittitle>
+          </did>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

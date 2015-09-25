@@ -1,0 +1,933 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead.dtd">
+<ead>
+  <eadheader audience="internal" langencoding="iso639-2b" repositoryencoding="iso15511" dateencoding="iso8601" relatedencoding="Dublin Core" scriptencoding="iso15924" countryencoding="iso3166-1">
+    <eadid countrycode="us" mainagencycode="MiU-H" publicid="-//us::MiU-H//TEXT us::MiU-H::wkkellog.xml//EN" encodinganalog="Identifier">umich-bhl-87351</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="Title">Finding Aid for W. K. Kellogg Foundation Institute records, 1933-1979</titleproper>
+        <author encodinganalog="Creator">Collection processed and finding aid created by Michigan Historical Collections staff</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="Publisher">Bentley Historical Library, University of Michigan</publisher>
+        <date encodinganalog="Date" normal="2009">2009</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created by Thomas E. Powers <date>2009</date></creation>
+      <langusage encodinganalog="Language">The finding aid is written in <language langcode="eng" scriptcode="Latn">English</language></langusage>
+      <descrules>Finding aid prepared using Describing Archives: A Content Standard (DACS)</descrules>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date>2009-02-17</date>
+        <item>Publications series added.</item>
+      </change>
+      <change>
+        <date>2009-02-10</date>
+        <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <frontmatter>
+    <titlepage>
+      <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
+      <titleproper>Finding aid for <lb/>W. K. Kellogg Foundation Institute records, 1933-1979</titleproper>
+      <author>Finding aid created by <lb/>Michigan Historical Collections staff</author>
+    </titlepage>
+  </frontmatter>
+  <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
+    <did>
+      <origination>
+        <corpname source="lcnaf" encodinganalog="110">W. K. Kellogg Foundation Institute.</corpname>
+      </origination>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">5 linear feet</extent>
+      </physdesc>
+      <unittitle encodinganalog="245">W. K. Kellogg Foundation Institute records <unitdate type="inclusive" encodinganalog="245$f" normal="1933/1979">1933-1979</unitdate></unittitle>
+      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">87351 Bimu C124 2</unitid>
+      <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
+      <abstract>Semi-autonomous institute concerned with graduate, postgraduate, and extension programs of the University of Michigan School of Dentistry; course outlines and enrollment lists, instrument lists, and topical files concerning conferences, workshops, and reunions.</abstract>
+      <repository>
+        <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea>, University of Michigan</corpname>
+        <extptr href="bhladd" show="embed" actuate="onload"/>
+      </repository>
+    </did>
+    <descgrp type="admin">
+      <acqinfo encodinganalog="541">
+        <p>The records came from the Institute (donor no. <num type="donor" encodinganalog="541$e">7116</num>).</p>
+      </acqinfo>
+      <accruals encodinganalog="584">
+        <p>No further additions to the records are expected.</p>
+      </accruals>
+      <accessrestrict encodinganalog="506">
+        <p>The record group is open to research.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+        <p>Copyright is held by the Regents of the University of Michigan.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+        <p>[item], folder, box,
+W. K. Kellogg Foundation Institute records, Bentley Historical Library, University of Michigan</p>
+      </prefercite>
+    </descgrp>
+    <bioghist encodinganalog="545">
+      <p>The W. K. Kellogg Foundation Institute was a semi-autonomous institute concerned with graduate, postgraduate, and extension programs of the University of Michigan School of Dentistry. Shortly after its establishment in 1930, the W. K. Kellogg Foundation began the development of a health program whose purpose in part was to assist dentists in obtaining postgraduate instruction in the various phases of dental practice. Since the School of Dentistry had been offering postgraduate instruction for many years, the W. K. Kellogg Foundation began providing funds which amplified the teaching facilities of the School in an effort to meet the growing demands of the dental profession for postgraduate study.</p>
+    </bioghist>
+    <scopecontent encodinganalog="520">
+      <p>The record group has been arranged into the following series: Course Outlines and Enrollment Lists; and Topical Files.</p>
+    </scopecontent>
+    <controlaccess>
+      <p>
+        <extptr href="accnote" show="embed" actuate="onload"/>
+      </p>
+      <controlaccess>
+        <head>Subjects:</head>
+        <subject source="lcsh" encodinganalog="650">Dentistry--Michigan--Ann Arbor.</subject>
+        <subject source="lcsh" encodinganalog="650">Dentists--Michigan--Ann Arbor.</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n85129645">University of Michigan. School of Dentistry.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">W. K. Kellogg Foundation Institute.</corpname>
+      </controlaccess>
+    </controlaccess>
+    <dsc type="combined">
+      <c01 level="series">
+        <did>
+          <unittitle>Course Outlines and Enrollment Lists</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <unittitle><unitdate type="inclusive" normal="1933/1962">1933-1962</unitdate> Enrollment Lists and Course Titles Only</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle><unitdate type="inclusive" normal="1933/1952">1933-1952</unitdate> (miscellaneous and summaries)</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1936/1937">1936-1937</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1937/1938">1937-1938</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1938/1939">1938-1939</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1939/1940">1939-1940</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1940/1941">1940-1941</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1941/1942">1941-1942</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1942/1943">1942-1943</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1943/1944">1943-1944</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1944/1945">1944-1945</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1945/1946">1945-1946</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1946/1947">1946-1947</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1947/1948">1947-1948</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1948/1949">1948-1949</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1949/1950">1949-1950</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1950/1951">1950-1951</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1951/1952">1951-1952</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1952/1953">1952-1953</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1953/1954">1953-1954</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1954/1955">1954-1955</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1955/1956">1955-1956</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1956/1957">1956-1957</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1957/1958">1957-1958</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1958/1959">1958-1959</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1960/1961">1960-1961</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle><unitdate type="inclusive" normal="1961/1976">1961-1976</unitdate> Outlines and Enrollments</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <physdesc altrender="part">
+                <extent altrender="materialtype spaceoccupied">1 volume</extent>
+              </physdesc>
+              <physdesc altrender="part">
+                <extent altrender="materialtype spaceoccupied">1 folder</extent>
+              </physdesc>
+              <unittitle>
+                <unitdate type="inclusive" normal="1961/1962">1961-1962</unitdate>
+              </unittitle>
+              <physdesc>
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <physdesc altrender="part">
+                <extent altrender="materialtype spaceoccupied">1 volume</extent>
+              </physdesc>
+              <physdesc altrender="part">
+                <extent altrender="materialtype spaceoccupied">1 folder</extent>
+              </physdesc>
+              <unittitle>
+                <unitdate type="inclusive" normal="1962/1963">1962-1963</unitdate>
+              </unittitle>
+              <physdesc>
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <physdesc altrender="part">
+                <extent altrender="materialtype spaceoccupied">1 volume</extent>
+              </physdesc>
+              <physdesc altrender="part">
+                <extent altrender="materialtype spaceoccupied">1 folder</extent>
+              </physdesc>
+              <unittitle>
+                <unitdate type="inclusive" normal="1963/1964">1963-1964</unitdate>
+              </unittitle>
+              <physdesc>
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <physdesc altrender="part">
+                <extent altrender="materialtype spaceoccupied">1 volume</extent>
+              </physdesc>
+              <physdesc altrender="part">
+                <extent altrender="materialtype spaceoccupied">1 folder</extent>
+              </physdesc>
+              <unittitle>
+                <unitdate type="inclusive" normal="1964/1965">1964-1965</unitdate>
+              </unittitle>
+              <physdesc>
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <physdesc altrender="part">
+                <extent altrender="materialtype spaceoccupied">1 volume</extent>
+              </physdesc>
+              <physdesc altrender="part">
+                <extent altrender="materialtype spaceoccupied">1 folder</extent>
+              </physdesc>
+              <unittitle>
+                <unitdate type="inclusive" normal="1965/1966">1965-1966</unitdate>
+              </unittitle>
+              <physdesc>
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <physdesc altrender="part">
+                <extent altrender="materialtype spaceoccupied">1 volume</extent>
+              </physdesc>
+              <physdesc altrender="part">
+                <extent altrender="materialtype spaceoccupied">1 folder</extent>
+              </physdesc>
+              <unittitle>
+                <unitdate type="inclusive" normal="1966/1967">1966-1967</unitdate>
+              </unittitle>
+              <physdesc>
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <physdesc altrender="part">
+                <extent altrender="materialtype spaceoccupied">1 volume</extent>
+              </physdesc>
+              <physdesc altrender="part">
+                <extent altrender="materialtype spaceoccupied">1 folder</extent>
+              </physdesc>
+              <unittitle>
+                <unitdate type="inclusive" normal="1967/1968">1967-1968</unitdate>
+              </unittitle>
+              <physdesc>
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 volumes</extent>
+              </physdesc>
+              <unittitle>
+                <unitdate type="inclusive" normal="1968/1969">1968-1969</unitdate>
+              </unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 volumes</extent>
+              </physdesc>
+              <unittitle>
+                <unitdate type="inclusive" normal="1969/1970">1969-1970</unitdate>
+              </unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 volumes</extent>
+              </physdesc>
+              <unittitle>
+                <unitdate type="inclusive" normal="1970/1971">1970-1971</unitdate>
+              </unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 volumes</extent>
+              </physdesc>
+              <unittitle>
+                <unitdate type="inclusive" normal="1971/1972">1971-1972</unitdate>
+              </unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 volumes</extent>
+              </physdesc>
+              <unittitle>
+                <unitdate type="inclusive" normal="1972/1973">1972-1973</unitdate>
+              </unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1973/1974">1973-1974</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1974/1975">1974-1975</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle><unitdate type="inclusive" normal="1975/1979">1975-1979</unitdate> Outlines and Enrollments, interspersed</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1975/1976">1975-1976</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
+              </physdesc>
+              <unittitle>
+                <unitdate type="inclusive" normal="1976/1977">1976-1977</unitdate>
+              </unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
+              </physdesc>
+              <unittitle>
+                <unitdate type="inclusive" normal="1977/1978">1977-1978</unitdate>
+              </unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
+              </physdesc>
+              <unittitle>
+                <unitdate type="inclusive" normal="1978/1979">1978-1979</unitdate>
+              </unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Instrument Lists, bound</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1960/1961">1960-1961</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1961/1962">1961-1962</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1962/1963">1962-1963</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1964/1965">1964-1965</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1965/1966">1965-1966</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1967/1968">1967-1968</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Topical Files</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <unittitle>American Academy of Periodontists <unitdate type="inclusive" normal="1944/1967">1944-1967</unitdate> Annual Conferences</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1944">1944</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1945">1945</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1946">1946</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1947/1949">1947-1949</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1950">1950</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1951/1955">1951-1955</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1956/1959">1956-1959</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1960">1960</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1961/1965">1961-1965</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1966">1966</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1967">1967</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Delta Dental Plan Consultants <unitdate type="inclusive" normal="1974-09">9/1974</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Dental Materials Conferences, (under several titles) <unitdate type="inclusive" normal="1942">1942</unitdate>, <unitdate type="inclusive" normal="1945">1945</unitdate>, <unitdate type="inclusive" normal="1955/1966">1955-1966</unitdate>, <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Kenneth A. Easlick Graduate (Periodontic) Society, Annual Conferences</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle><unitdate type="inclusive" normal="1957">1957</unitdate> and origins</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1958/1969">1958-1969</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle><unitdate type="inclusive" normal="1971">1971</unitdate>, <unitdate type="inclusive" normal="1975">1975</unitdate>, <unitdate type="inclusive" normal="1977">1977</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Michigan Society of Periodontists/19Detroit District Dental Society <unitdate type="inclusive" normal="1972/1975">1972-1975</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Michigan. University. Orthodontic Alumni, Biennial Meeting <unitdate type="inclusive" normal="1973/1974">1973-1974</unitdate> and history</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Michigan. University. Periodontal Alumni Association, Biennial Reunions <unitdate type="inclusive" normal="1971/1977">1971-1977</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Orthodontic Education <unitdate type="inclusive" normal="1958/1965">1958-1965</unitdate> Conferences Teaching Endontics, <unitdate type="inclusive" normal="1965-04">4/1965</unitdate> Conference</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Teaching of Dental Practice Administration <unitdate type="inclusive" normal="1963-08">8/1963</unitdate> Conference Program, Enrollment, Scattered Correspondence Papers, Proceedings, Summary, Notes, Reports</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Royal College of Surgeons, Ontario <unitdate type="inclusive" normal="1974-06">6/1974</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>World Workshop/19Conference on Periodontics <unitdate type="inclusive" normal="1966-06">6/1966</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Miscellaneous</unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Publications</unittitle>
+        </did>
+        <scopecontent>
+          <p>The W. K. Kellogg Foundation Institute Publications series contains one subseries: Unit Publications.
+The Unit Publications subseries includes annual reports, brochures, bulletins of the graduate and postgraduate programs in dentistry at the University of Michigan, as well as the study documents of the <title render="italic">Black Dentistry in the 21st Century</title> conference. This subseries also contains programs and addresses created for the dedication of the W. K. Kellogg Foundation Institute building. A report entitled <title render="italic">Growth, Development and Health Problems in Dentistry: Questions and Answers</title> is also found in this subseries.</p>
+        </scopecontent>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Unit Publications</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1-P</container>
+              <unittitle>Annual Reports <unitdate type="inclusive" normal="1942/1948">1942/43-1947/48</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1-P</container>
+              <unittitle>Brochures <unitdate type="inclusive" normal="1940/1986">1940-1986</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Bulletins (Course Catalogs)</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1-P</container>
+                <unittitle><title render="italic">Continuing Education Programs</title>, <unitdate type="inclusive" normal="1979/1988">1979-1988</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>
+                  <title render="italic">Graduate and Postgraduate Dentistry</title>
+                </unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">1-P</container>
+                  <unittitle>1940/41-1947</unittitle>
+                </did>
+              </c05>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>
+                  <title render="italic">Graduate Dentistry</title>
+                </unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">1-P</container>
+                  <physdesc altrender="whole">
+                    <extent altrender="materialtype spaceoccupied">11 folders</extent>
+                  </physdesc>
+                  <unittitle>
+                    <unitdate type="inclusive" normal="1949/1991">1949/50-1990/91</unitdate>
+                  </unittitle>
+                  <physdesc altrender="whole">
+                    </physdesc>
+                </did>
+              </c05>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>
+                  <title render="italic">Inter-American Post Graduate Course in Dentistry</title>
+                </unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">1-P</container>
+                  <physdesc altrender="whole">
+                    <extent altrender="materialtype spaceoccupied">2 folders</extent>
+                  </physdesc>
+                  <unittitle>
+                    <unitdate type="inclusive" normal="1943">1943</unitdate>
+                    <unitdate type="inclusive" normal="1945/1946">1945-1946</unitdate>
+                  </unittitle>
+                  <physdesc altrender="whole">
+                    </physdesc>
+                </did>
+              </c05>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>
+                  <title render="italic">Postgraduate Dentistry</title>
+                </unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">1-P</container>
+                  <physdesc altrender="whole">
+                    <extent altrender="materialtype spaceoccupied">5 folders</extent>
+                  </physdesc>
+                  <unittitle>
+                    <unitdate type="inclusive" normal="1949/1971">1949/50-1970/71</unitdate>
+                  </unittitle>
+                  <physdesc altrender="whole">
+                    </physdesc>
+                </did>
+              </c05>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Conferences</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1-P</container>
+                <unittitle><title render="italic">Black Dentistry in the 21st Century</title>, <unitdate type="inclusive" normal="1991">1991</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Proceedings</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1-P</container>
+                <unittitle><title render="italic">Dedicatory Exercises of W. K. Kellogg Foundation Institute Graduate and Postgraduate Dentistry</title>, <unitdate type="inclusive" normal="1940">1940</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Reports</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1-P</container>
+                <unittitle><title render="italic">Growth, Development and Health Problems in Dentistry: Questions and Answers</title>, <unitdate type="inclusive" normal="1948">1948</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

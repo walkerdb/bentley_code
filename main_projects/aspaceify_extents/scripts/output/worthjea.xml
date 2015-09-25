@@ -1,0 +1,889 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead.dtd">
+<ead>
+  <eadheader audience="internal" langencoding="iso639-2b" repositoryencoding="iso15511" dateencoding="iso8601" relatedencoding="Dublin Core" scriptencoding="iso15924" countryencoding="iso3166-1">
+    <eadid countrycode="us" mainagencycode="MiU-H" publicid="us//::miu-h//TXT us::miu-h::worthjea.xml//EN" encodinganalog="Identifier">umich-bhl-89137</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="Title">Finding Aid for Jean Worth Papers, ca. 1869-1986</titleproper>
+        <author encodinganalog="Creator">Collection processed and finding aid created by Jim Flury</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="Publisher">Bentley Historical Library, University of Michigan</publisher>
+        <date encodinganalog="Date" normal="2006">2006</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created by Thomas E. Powers <date>July 2006</date></creation>
+      <langusage encodinganalog="Language">The finding aid is written in <language langcode="eng" scriptcode="Latn">English</language></langusage>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date>2006-07-14</date>
+        <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <frontmatter>
+    <titlepage>
+      <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
+      <titleproper>Finding aid for <lb/>Jean Worth Papers, ca. 1869-1986</titleproper>
+      <author>Finding aid created by <lb/>Jim Flury, February 1988</author>
+    </titlepage>
+  </frontmatter>
+  <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
+    <did>
+      <origination>
+        <persname source="lcnaf" encodinganalog="100">Worth, Jean, 1904-1987.</persname>
+      </origination>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">8 linear feet</extent>
+      </physdesc>
+      <unittitle encodinganalog="245">Jean Worth Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1869/1986" certainty="approximate">circa 1869-1986</unitdate></unittitle>
+      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">89137 Aa 2</unitid>
+      <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
+      <abstract>Escanaba, Michigan, newspaperman. Subject files (including collected materials) relating to his research interest in Michigan's Upper Peninsula, notably in the area of Cedar River, Escanaba, and Menominee; include manuscript of writings, subject files, and photographs.</abstract>
+      <repository>
+        <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea>, University of Michigan</corpname>
+        <extptr href="bhladd" show="embed" actuate="onload"/>
+      </repository>
+    </did>
+    <descgrp type="admin">
+      <acqinfo encodinganalog="541">
+        <p>The Jean Worth papers were donated by his children: Ann Worth Concannon, Jean Worth Clair, and Dooley Worth. (Donor no. <num type="donor" encodinganalog="541$e">4171</num>)</p>
+      </acqinfo>
+      <accessrestrict encodinganalog="506">
+        <p>The collection is open to research.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+        <p>Copyright has not been transferred to the Regents of the University of Michigan. Quotations limited to 500 words or less.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+        <p>[item], folder, box,
+Jean Worth Papers, Bentley Historical Library, University of Michigan</p>
+      </prefercite>
+    </descgrp>
+    <bioghist encodinganalog="545">
+      <p>Jean Worth was born May 5, 1904 in Menominee, Michigan. After graduating from the public schools in 1922, he joined the staff of the <title render="italic">Menominee Herald-Leader</title>. In 1923 he left Menominee to attend the American Academy of Dramatic Arts in New York City, and was graduated from that institution in 1925. In 1928 Worth took a position with the <title render="italic">Detroit Times</title> as a rewrite man and assistant in editorial promotion. He left Detroit to rejoin the staff of the <title render="italic">Herald-Leader</title> in 1930 as city editor. He was promoted to managing editor in 1934, and to editor in 1943. He served in this capacity until 1955, when he assumed editorship of the <title render="italic">Escanaba Daily Press</title>. He held this position until his retirement in 1969. During his retirement Worth served as a consultant to Upper Peninsula industry, taught at Bay de Noc Community College and continued to work on writing about Menominee and Cedar River history. He passed away in 1987.</p>
+      <p>During his career as editor both at the <title render="italic">Herald-Leader</title> and the <title render="italic">Daily Press</title>, Worth gained acclaim as an historian for those regions of the Upper Peninsula, especially in the areas of forestry and lumbering. He excerpted a great many notes from a half-dozen nineteenth and early twentieth century Menominee newspapers and developed a subject index for these materials as well.</p>
+    </bioghist>
+    <scopecontent encodinganalog="520">
+      <p>The papers of Jean Worth consists largely of collected material relating to his research interest in Michigan's Upper Peninsula. The collection has been divided into the following series: Cedar River; Escanaba; Menominee; and Upper Peninsula -General.</p>
+    </scopecontent>
+    <controlaccess>
+      <p>
+        <extptr href="accnote" show="embed" actuate="onload"/>
+      </p>
+      <controlaccess>
+        <head>Subjects:</head>
+        <subject source="lcsh" encodinganalog="650">Alcoholic beverage industry.</subject>
+        <subject source="lcsh" encodinganalog="650">Breweries.</subject>
+        <geogname source="lcsh" encodinganalog="651">Cedar River (Mich.)</geogname>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n83009259.html">Escanaba (Mich.)</geogname>
+        <corpname source="lcnaf" encodinganalog="610">Grand Army of the Republic. Lyon Post, No. 266 (Menominee, Mich.)</corpname>
+        <subject source="lcsh" encodinganalog="650">Indians of North America--Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650">Logging--Michigan--Upper Peninsula.</subject>
+        <subject source="lcsh" encodinganalog="650">Lumbering--Michigan--Upper Peninsula.</subject>
+        <geogname source="lcsh" encodinganalog="651">Menominee (Mich.)</geogname>
+        <corpname source="lcnaf" encodinganalog="610">Menominee River Brewing Company.</corpname>
+        <geogname source="lcsh" encodinganalog="651">Upper Peninsula (Mich.)</geogname>
+        <subject source="lcsh" encodinganalog="650">Veterans--Michigan--Societies, etc.</subject>
+      </controlaccess>
+      <controlaccess>
+        <head>Subjects - Visual Materials:</head>
+        <subject source="lctgm" encodinganalog="650">Banks.</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79053967">Boy Scouts of America.</corpname>
+        <subject source="lctgm" encodinganalog="650">Business enterprises--Michigan--Cedar River.</subject>
+        <subject source="lctgm" encodinganalog="650">Business enterprises--Michigan--Menominee.</subject>
+        <subject source="lctgm" encodinganalog="650">Carts and wagons.</subject>
+        <geogname source="lctgm" encodinganalog="651">Cedar River (Mich.)--Business enterprises.</geogname>
+        <geogname source="lctgm" encodinganalog="651">Cedar River (Mich.)--Dwellings.</geogname>
+        <geogname source="lctgm" encodinganalog="651">Cedar River (Mich.)--Schools.</geogname>
+        <geogname source="lcsh" encodinganalog="651">Cedar River (Mich.)</geogname>
+        <subject source="lctgm" encodinganalog="650">City and town life.</subject>
+        <subject source="lctgm" encodinganalog="650">Dwellings--Michigan--Cedar River.</subject>
+        <subject source="lcsh" encodinganalog="650">Finnish Americans.</subject>
+        <subject source="lctgm" encodinganalog="650">Fires--Michigan--Menominee.</subject>
+        <corpname source="lcnaf" encodinganalog="610">Grand Army of the Republic. Lyon Post, No. 266 (Menominee, Mich.)</corpname>
+        <subject source="lctgm" encodinganalog="650">Hotels and taverns.</subject>
+        <subject source="lctgm" encodinganalog="650">Interiors.</subject>
+        <subject source="lctgm" encodinganalog="650">Kitchens.</subject>
+        <subject source="lctgm" encodinganalog="650">Lighthouses--Michigan.</subject>
+        <subject source="lctgm" encodinganalog="650">Lumber industry.</subject>
+        <geogname source="lcsh" encodinganalog="651">Menominee (Mich.)</geogname>
+        <geogname source="lctgm" encodinganalog="651">Menominee (Mich.)--Business enterprises.</geogname>
+        <geogname source="lctgm" encodinganalog="651">Menominee (Mich.)--Fires.</geogname>
+        <geogname source="lctgm" encodinganalog="651">Menominee (Mich.)--Schools.</geogname>
+        <subject source="lctgm" encodinganalog="650">Newspaper carriers.</subject>
+        <subject source="lctgm" encodinganalog="650">Parades and processions.</subject>
+        <subject source="lctgm" encodinganalog="650">Railroads--Michigan.</subject>
+        <subject source="lctgm" encodinganalog="650">Schools--Michigan--Cedar River.</subject>
+        <subject source="lctgm" encodinganalog="650">Schools--Michigan--Menominee.</subject>
+        <subject source="lctgm" encodinganalog="650">Shipping--Great Lakes.</subject>
+        <subject source="lctgm" encodinganalog="650">Stilts.</subject>
+        <subject source="lctgm" encodinganalog="650">Tracklaying vehicles.</subject>
+        <geogname source="lcsh" encodinganalog="651">Upper Peninsula (Mich.)</geogname>
+        <corpname source="lcnaf" encodinganalog="610">Wisconsin Land &amp; Lumber Company.</corpname>
+      </controlaccess>
+      <controlaccess>
+        <head>Genre Terms:</head>
+        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+      </controlaccess>
+    </controlaccess>
+    <dsc type="combined">
+      <c01 level="series">
+        <did>
+          <unittitle>Cedar River <unitdate type="inclusive" normal="1888/1982" certainty="approximate">circa 1888-1982</unitdate></unittitle>
+        </did>
+        <scopecontent>
+          <p>The Cedar River series, ca. 1888 to 1982, contains various papers used in presentations; photographs, mostly of area lumber operations as well as some corresponding negatives; and two unpublished manuscripts, one of which, "Cedar River," is a thirty-seven chapter history of the Cedar River area.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Papers and Presentations <unitdate type="inclusive">undated</unitdate>, <unitdate type="inclusive" normal="1959">1959</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle><genreform normal="Photographs">Photographs</genreform> and Negatives</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">40 negatives</extent>
+                <extent altrender="carrier">(in 2 folders)</extent>
+              </physdesc>
+              <unittitle>Negatives <unitdate type="inclusive">undated</unitdate>, <unitdate type="inclusive" normal="1906" certainty="approximate">circa 1906</unitdate>, <unitdate type="inclusive" normal="1914/1915">1914-1915</unitdate></unittitle>
+              <physdesc>
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>
+                <genreform normal="Photographs">Photographs</genreform>
+              </unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">33 prints</extent>
+                  <extent altrender="carrier">(in 2 folders)</extent>
+                </physdesc>
+                <unittitle>
+                  <unitdate type="inclusive">undated</unitdate>
+                </unittitle>
+                <physdesc>
+                  </physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">8 prints, mounted</extent>
+                </physdesc>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1888/1914">1888-1914</unitdate>
+                </unittitle>
+                <physdesc>
+                  </physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <unittitle><unitdate type="inclusive" normal="1889">1889</unitdate>, <unitdate type="inclusive" normal="1894">1894</unitdate>, <unitdate type="inclusive" normal="1900">1900</unitdate>, <unitdate type="inclusive" normal="1906" certainty="approximate">circa 1906</unitdate></unittitle>
+              </did>
+              <odd>
+                <p>(includes postcards)</p>
+              </odd>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <unittitle><unitdate type="inclusive" normal="1914/1915" certainty="approximate">circa 1914-1915</unitdate>, <unitdate type="inclusive" normal="1967">1967</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">6 prints</extent>
+                </physdesc>
+                <unittitle>Reprints</unittitle>
+                <physdesc>
+                  </physdesc>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Unpublished Manuscripts</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">9 folders</extent>
+              </physdesc>
+              <unittitle>"Cedar River," <unitdate type="inclusive" normal="1982">1982</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+            <odd>
+              <p>(arranged by chapter nos; two versions of chapter 5; missing chapter 8)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>"Toots," <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Escanaba <unitdate type="inclusive" normal="1869/1986">1869-1986</unitdate></unittitle>
+        </did>
+        <scopecontent>
+          <p>The Escanaba series, 1869 to 1986, is an alphabetically-arranged reference series. Topics covered include agriculture, airline service, the Bonifas Fine Art Center, Carnegie Library, economic conditions, railroads, St. Joseph's Parish, and sawmills. This series also contains notes taken from two early Escanaba newspapers, the <title render="italic">Tribune</title> from 1869 to 1876 and its successor, the <title render="italic">Iron Post</title> from 1877 to 1889.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Agriculture <unitdate type="inclusive">undated</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Airline Service <unitdate type="inclusive" normal="1981/1983">1981-1983</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Bonifas Fine Arts Center <unitdate type="inclusive" normal="1985/1986">1985-1986</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Carnegie Library 75th Anniversary <unitdate type="inclusive" normal="1978">1978</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Economic Conditions <unitdate type="inclusive">undated</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Newspaper Excerpts</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>The <title render="italic">Escanaba Tribune</title> (Saturday weekly)</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1869/1876">1869-1876</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <unittitle><unitdate type="inclusive" normal="1876/1877">1876-1877</unitdate> succeeded by the <title render="italic">Iron Post</title>, <unitdate type="inclusive" normal="1877/1889">1877-1889</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Railroads <unitdate type="inclusive">undated</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>St. Joseph's Parish <unitdate type="inclusive" normal="1983">1983</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Sawmills <unitdate type="inclusive">undated</unitdate></unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Menominee <unitdate type="inclusive" normal="1885/1985" certainty="approximate">circa 1885-1985</unitdate></unittitle>
+        </did>
+        <scopecontent>
+          <p>Menominee, ca. 1885 to 1985, contains two record books of the Menominee Grand Army of the Republic, Lyon Post 266; photographs and negatives; two minute books of the Menominee River Brewing Company; several manuscripts, of which one, "Menominee," is a forty-one chapter history of the Menominee area; and ten volumes of research notes.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <unittitle>Grand Army of the Republic-Lyon Post 266</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">1 volume</extent>
+              </physdesc>
+              <unittitle>Minute Book <unitdate type="inclusive" normal="1895/1929">1895-1929</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">1 volume</extent>
+              </physdesc>
+              <unittitle>Record Book</unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+            <odd>
+              <p>(compilation made in 1934)</p>
+            </odd>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Manuscripts</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>Published</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <unittitle><title render="italic">Sketches of Menominee River</title>, <unitdate type="inclusive">undated</unitdate></unittitle>
+              </did>
+              <odd>
+                <p>(typescript copy of 1871 original)</p>
+              </odd>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Unpublished</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <unittitle>"Marinette and Menominee," <unitdate type="inclusive">undated</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">11 folders</extent>
+                </physdesc>
+                <unittitle>"Menominee," <unitdate type="inclusive" normal="1983/1985" certainty="approximate">circa 1983-1985</unitdate></unittitle>
+                <physdesc altrender="whole">
+                  </physdesc>
+              </did>
+              <odd>
+                <p>(arranged by chapters; also includes chronology and index)</p>
+              </odd>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle>"Menominee Indians," <unitdate type="inclusive">undated</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle>"My Ten Year Old Experience," <unitdate type="inclusive">undated</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle>"Personal Reminiscence of the Big Fire of 1871" <unitdate type="inclusive">undated</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle>"Queen Marinette and John Jacob Astor," <unitdate type="inclusive">undated</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Menominee River Brewing Company</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>Minute Books</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">1 volume</extent>
+                </physdesc>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1891/1894">1891-1894</unitdate>
+                </unittitle>
+                <physdesc altrender="whole">
+                  </physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">1 volume</extent>
+                </physdesc>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1894/1896">1894-1896</unitdate>
+                </unittitle>
+                <physdesc altrender="whole">
+                  </physdesc>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle><genreform normal="Photographs">Photographs</genreform> and Negatives</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">12 negatives</extent>
+              </physdesc>
+              <unittitle>Negatives: Street Scenes <unitdate type="inclusive" normal="1932" certainty="approximate">circa 1932</unitdate></unittitle>
+              <physdesc>
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Photographs</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">8 prints</extent>
+                </physdesc>
+                <unittitle>Fire Scenes <unitdate type="inclusive">undated</unitdate>, <unitdate type="inclusive" normal="1895">1895</unitdate>, <unitdate type="inclusive" normal="1903">1903</unitdate>, <unitdate type="inclusive" normal="1908">1908</unitdate></unittitle>
+                <physdesc>
+                  </physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">22 prints</extent>
+                </physdesc>
+                <unittitle>Miscellaneous <unitdate type="inclusive">undated</unitdate>, <unitdate type="inclusive" normal="1900/1903" certainty="approximate">circa 1900-1903</unitdate></unittitle>
+                <physdesc>
+                  </physdesc>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>Research Notes</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Volumes 1 and 2</unittitle>
+            </did>
+            <odd>
+              <p>(volumes consist mainly of interviews, reminiscences, and clippings)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Volume 3</unittitle>
+            </did>
+            <odd>
+              <p>(volume 3 consists mainly of interviews, reminiscences, and clippings)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Volume 4</unittitle>
+            </did>
+            <odd>
+              <p>(volume 4 contains excerpts taken from the <title render="italic">Menominee Herald</title>, 1885 to 1895, the <title render="italic">Democrat</title>, 1886 to 1897, the <title render="italic">Daily Herald</title>, 1894, and the <title render="italic">Evening Leader</title> (Menominee's first daily newspaper), 1893 and 1894)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Volume 5</unittitle>
+            </did>
+            <odd>
+              <p>(volume five contains the <title render="italic">Democrat</title>, 1895 to 1902, the <title render="italic">Evening Leader</title>, 1895 to 1902, the <title render="italic">Daily Herald</title>, 1895 to 1903, the <title render="italic">Saturday Leader</title> 1899 and 1902, and the <title render="italic">Daily Leader</title>, 1902)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Volume 6</unittitle>
+            </did>
+            <odd>
+              <p>(volume 6 contains the <title render="italic">Daily Herald</title>, 1903 and 1904, the <title render="italic">Daily Leader</title>, 1903 and 1904, and the <title render="italic">Herald Leader</title>, 1904 to 1917)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">6</container>
+              <unittitle>Volume 7</unittitle>
+            </did>
+            <odd>
+              <p>(volume 7 contains an unpublished manuscript, "Half Past Yesterday," which is arranged alphabetically by subject and written mostly from newspaper excerpts.)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">6</container>
+              <unittitle>Volume 8</unittitle>
+            </did>
+            <odd>
+              <p>(volume 8 is an alphabetically arranged subject index of Crier excerpts (A through L) during the 1940s.)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>Volume 9</unittitle>
+            </did>
+            <odd>
+              <p>(volume 9 also contains an alphabetically arranged subject index of Crier excerpts from 1930s, 1940s and the early 1950s (M through Z) as well as some copied correspondence)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>Index to volumes 1-9</unittitle>
+            </did>
+            <odd>
+              <p>(alphabetically-arranged subject index for the previous nine volumes, with citations to the volumes as well as to area newspapers he used)</p>
+            </odd>
+          </c03>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Upper Peninsula-General <unitdate type="inclusive" normal="1910/1986" certainty="approximate">circa 1910-1986</unitdate></unittitle>
+        </did>
+        <scopecontent>
+          <p>Upper Peninsula - General, ca. 1910 to 1986 is arranged alphabetically. It contains Worth's correspondence; his editorials on a number of subjects; and manuscripts, including a twenty-one chapter unpublished manuscript, "Back Door on Sunday," on the history of drinking in the Upper Peninsula.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle>Blaney Park <unitdate type="inclusive">undated</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Cleveland Cliffs Iron Company</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>General <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Health Services <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Correspondence</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Personal <unitdate type="inclusive" normal="1970/1986">1970-1986</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">1 volume</extent>
+              </physdesc>
+              <unittitle>Professional <unitdate type="inclusive" normal="1951/1956">1951-1956</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Editorials</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Bishop, George <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>French Names <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Humor <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Journalism <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Medicine <unitdate type="inclusive" normal="1981">1981</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Operation Action U.P. <unitdate type="inclusive" normal="1985">1985</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Schoolcraft, Henry Rowe <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Sesquicentennial <unitdate type="inclusive" normal="1986" certainty="approximate">circa 1986</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Taxes <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Transportation <unitdate type="inclusive" normal="1978/1981">1978-1981</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Upper Peninsula State Fair <unitdate type="inclusive" normal="1986" certainty="approximate">circa 1986</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle>Energy <unitdate type="inclusive" normal="1983">1983</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Forestry</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Commercial Forest Act <unitdate type="inclusive" normal="1978/1983">1978-1983</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>General <unitdate type="inclusive" normal="1969/1982">1969-1982</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Michigan Association of Timbermen-Address to <unitdate type="inclusive" normal="1982">1982</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Northern Michigan Forest Fire Association; Northern Forest Protective Association <unitdate type="inclusive" normal="1910/1912">1910-1912</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Timber Producers Association of Michigan and Wisconsin-Presentations to <unitdate type="inclusive" normal="1986">1986</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle>Indians <unitdate type="inclusive">undated</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Manuscripts</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>Published</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">8</container>
+                <unittitle>Hermansville (Chapter 5 excerpt from Jean Worth's book <title render="italic">Alphabet Meyer's Machines</title>) <unitdate type="inclusive">undated</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Unpublished</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">8</container>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">3 folders</extent>
+                </physdesc>
+                <unittitle>"Back Door on Sunday" (History of Drinking in the Upper Peninsula) <unitdate type="inclusive">undated</unitdate></unittitle>
+                <physdesc altrender="whole">
+                  </physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">8</container>
+                <unittitle>"The Burying of Mary Finney," <unitdate type="inclusive">undated</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">8</container>
+                <unittitle>"Cranberries of Whitefish Point," <unitdate type="inclusive" normal="1971">1971</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">8</container>
+                <unittitle>"History of Upper Peninsula Breweries," <unitdate type="inclusive" normal="1957">1957</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">8</container>
+                <unittitle>"We Built in Such a Logical Way," <unitdate type="inclusive">undated</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle>Recreation <unitdate type="inclusive">undated</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle>Vulcan, Michigan-History <unitdate type="inclusive" normal="1962">1962</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle>Women <unitdate type="inclusive" normal="1972/1979">1972-1979</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Miscellaneous</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Biographical</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>
+                <genreform normal="Photographs">Photographs</genreform>
+              </unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">8</container>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">8 prints</extent>
+                </physdesc>
+                <unittitle>Great Lakes Shipping <unitdate type="inclusive" normal="1930">1930</unitdate></unittitle>
+                <physdesc>
+                  </physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">8</container>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">7 prints</extent>
+                </physdesc>
+                <unittitle>Miscellaneous <unitdate type="inclusive">undated</unitdate>, <unitdate type="inclusive" normal="1930">1930</unitdate></unittitle>
+                <physdesc>
+                  </physdesc>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

@@ -1,0 +1,665 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead.dtd">
+<ead>
+  <eadheader audience="internal" langencoding="iso639-2b" repositoryencoding="iso15511" dateencoding="iso8601" relatedencoding="Dublin Core" scriptencoding="iso15924" countryencoding="iso3166-1">
+    <eadid countrycode="us" mainagencycode="MiU-H" publicid="us//::miu-h//TXT us::miu-h::olsong.xml//EN" encodinganalog="Identifier">umich-bhl-0672</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="Title">Finding Aid for Gary M. Olson papers, 1986-1989</titleproper>
+        <author encodinganalog="Creator">Collection processed and finding aid created by Seth Shaw (processor); David Zande (author)</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="Publisher">Bentley Historical Library, University of Michigan</publisher>
+        <date encodinganalog="Date" normal="2008">2008</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created by Greg Kinney <date>20080130</date></creation>
+      <langusage encodinganalog="Language">The finding aid is written in <language langcode="eng" scriptcode="Latn">English</language></langusage>
+      <descrules>Finding aid prepared using Describing Archives: A Content Standard (DACS)</descrules>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date>2008-01-30</date>
+        <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <frontmatter>
+    <titlepage>
+      <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
+      <titleproper>Finding aid for <lb/>Gary M. Olson papers, 1986-1989</titleproper>
+      <author>Finding aid created by <lb/>Seth Shaw (processor) <lb/>David Zande (author)
+2007</author>
+    </titlepage>
+  </frontmatter>
+  <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
+    <did>
+      <origination>
+        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n82015388">Olson, Gary M.</persname>
+      </origination>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">3 linear feet</extent>
+      </physdesc>
+      <unittitle encodinganalog="245">Gary M. Olson papers <unitdate type="inclusive" encodinganalog="245$f" normal="1986/1989">1986-1989</unitdate></unittitle>
+      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">0672 Aa 2</unitid>
+      <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
+      <abstract>The Gary M. Olson papers largely document the work done at the University of Michigan and Carnegie Mellon University, during the mid-1980s, to create a computer application called the Experimental Research in Electronic Submission (EXPRES). The goal of the work was to create a collaborative, networked application, which would allow researchers - using different hardware and software environments - to electronically share research. The EXPRES application was intended for electronic submission of grant proposals to the National Science Foundation (NSF).</abstract>
+      <repository>
+        <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea>, University of Michigan</corpname>
+        <extptr href="bhladd" show="embed" actuate="onload"/>
+      </repository>
+    </did>
+    <descgrp type="admin">
+      <acqinfo encodinganalog="541">
+        <p>The record group was transferred from Gary Olson (Donor no. <num type="donor" encodinganalog="541$e">9679</num>) in a single accession in 2005.</p>
+      </acqinfo>
+      <accruals encodinganalog="584">
+        <p>Periodic additions to the records expected.</p>
+      </accruals>
+      <accessrestrict encodinganalog="506">
+        <p>The collection is open to research.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+        <p>Copyright is held by the Regents of the University of Michigan.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+        <p>[item], folder, box,
+Gary M. Olson papers, Bentley Historical Library, University of Michigan</p>
+      </prefercite>
+    </descgrp>
+    <bioghist encodinganalog="545">
+      <p>Gary M. Olson is a professor of Human Computer Interaction (HCI) at the University of Michigan School of Information and also serves as a professor in the Department of Psychology. From 1984 to 1995, Olson served at the director of the Cognitive Science and Machine Intelligence Laboratory (CSMIL), a joint venture of the School of Business Administration, the College of Engineering, and the College of Literature, Science and the Arts. Olson also served as the interim dean at the School of Information from 1998 to 1999. Olson's research interest is in applied cognitive science, with a focus on human-computer interaction and computer-supported cooperative work. During the mid 1980s, he participated on the EXPRES project to help improve the communication between researchers across the country.</p>
+      <p>The Experimental Research in Electronic Submission (EXPRES) project was led at Michigan by Daniel E. Atkins. Atkins served as the dean at the School of Information and an associate dean at the College of Engineering. His work at the university encompassed many projects that looked to make scientific research a more collaborative process.</p>
+      <p>The National Science Foundation (NSF) provided funding for the EXPRES project, hoping to use the application as a way to submit and review grant proposals electronically. In June 1986, NSF asked for proposals to create the EXPRES application, which were awarded to the Carnegie Mellon University and the University of Michigan.</p>
+      <p>Another goal of the EXPRES project, beyond electronic submission, was to help researchers collaborate in an electronic environment. Before the creation of electronic communication standards and software applications of this nature, it was difficult to electronically share research with colleagues because of the limitations in the hardware, software, and network environments and the differences among universities and their computer mainframe systems. Through the use of the EXPRES software application, improvements in micro and mainframe computing, and improvements in communication via the Internet, knowledge sharing in an electronic format became an easier process.</p>
+      <p>In several ways, the EXPRES application was ahead of its time. While it did not fully succeed, it identified many of the issues which were overcome with new technologies. According to <title render="italic">Science</title> magazine and NSF, for a couple of years the project managed a "few hundred proposals ... before NSF officials realized that they had bitten off more than they could chew".[1] EXPRES's challenges included "hard-to-use software, balky transmission lines, and incompatibility with existing systems."[2] The average computer user at the time was not able to use EXPRES. In the mid 1990s, NSF tried a different application called FastLane, which though smaller, was a more manageable system for researchers to use. FastLane, as of 2008, is still being used by NSF for submission and review of proposals.</p>
+      <p>_____________________________</p>
+      <p>Notes: <list type="simple"><item>1) Jeffery Mervis, "NSF Moves Into FastLane to Manage Flow of Grants," Science 267 (1995): 166-167.</item><item>2) Ibid.</item></list></p>
+    </bioghist>
+    <scopecontent encodinganalog="520">
+      <p>The Gary M. Olson papers largely document the work done at the University of Michigan and Carnegie Mellon University, during the mid-1980s, to create a computer application called the Experimental Research in Electronic Submission (EXPRES). The papers do not fully document Olson's career. Rather they give insight a key collaborative project. The papers have been organized into four series: Meetings and Reports; Publicity and Presentations; Publications; and Subject Files.</p>
+    </scopecontent>
+    <controlaccess>
+      <p>
+        <extptr href="accnote" show="embed" actuate="onload"/>
+      </p>
+      <controlaccess>
+        <head>Subjects:</head>
+        <subject source="lcsh" encodinganalog="650">Human-computer interaction.</subject>
+        <subject source="lcsh" encodinganalog="650">Information technology.</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79005681">National Science Foundation (U.S.)</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n82015388">Olson, Gary M.</persname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Experimental Research in Electronic Submission Project.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
+      </controlaccess>
+    </controlaccess>
+    <dsc type="combined">
+      <c01 level="series">
+        <did>
+          <unittitle>Meetings and Reports <unitdate type="inclusive" normal="1986/1988">1986-1988</unitdate></unittitle>
+        </did>
+        <scopecontent>
+          <p>The Meetings and Reports (1 linear ft.) series, spanning 1986-1988, has been sorted chronologically. It contains the project proposal to the NSF. It also contains several files about various site visits taken to Carnegie Mellon, Cambridge, and the NSF. Electronic mail (printed out) correspondence is in this series. Also in this series are technical reviews, project plans, and meeting minutes of the development team.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Technical Review of the Effort to Port Diamond and Cronus to the HP9020A Workstation: Final Report <unitdate type="inclusive" normal="1986-12">December 1986</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Proposal to the National Science Foundation for a Cooperative Agreement for Experimental Research in Electronic Submission (EXPRES) of Multimedia Proposals and Documents <unitdate type="inclusive" normal="1986-08">August 1986</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>NSF EXPRES Site Visit <unitdate type="inclusive" normal="1986-09-10">September 10, 1986</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Cambridge Visit <unitdate type="inclusive" normal="1986-12-11/1986-12-12">December 11-12, 1986</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>EXPRES Meeting, BBN Laboratories <unitdate type="inclusive" normal="1986-12-12">December 12, 1986</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>NSF Trip <unitdate type="inclusive" normal="1987-01-07/1987-01-08">January 7-8, 1987</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>NSF, Carnegie Mellon University (CMU) Trip <unitdate type="inclusive" normal="1987-01-27/1987-01-28">January 27-28, 1987</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Meeting at NSF <unitdate type="inclusive" normal="1987-02-12">February 12, 1987</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>BBN Visit to UM <unitdate type="inclusive" normal="1987-03-04/1987-03-06">March 4-6, 1987</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>National Center for Atmospheric Research (NCAR) Visit <unitdate type="inclusive" normal="1987-03-27">March 27, 1987</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Project Management Committee (PMC) Meeting <unitdate type="inclusive" normal="1987-07-22">July 22, 1987</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Needs, Requirements, and Evaluation Group (NRE) Report <unitdate type="inclusive" normal="1987-08-07">August 7, 1987</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Technical Review <unitdate type="inclusive" normal="1987-09-10/1987-09-11">September 10-11, 1987</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Engineering National Advisory Committee (NAC) <unitdate type="inclusive" normal="1987-10">October 1987</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Areas of work for UM EXPRES Development Team <unitdate type="inclusive" normal="1987-10">October 1987</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>UM EXPRES Development Team Progress Report <unitdate type="inclusive" normal="1987-11-04">November 4, 1987</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>UM EXPRES Project Review and Plans for Year 2 <unitdate type="inclusive" normal="1987-12-13">December 13, 1987</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Project Management Committee (PMC) Meeting <unitdate type="inclusive" normal="1987-12-16">December 16, 1987</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Postscript Experiment, Interim Report <unitdate type="inclusive" normal="1988-04-04">April 4, 1988</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Interoperability Meeting <unitdate type="inclusive" normal="1988-04-07">April 7, 1988</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Advisory Committee <unitdate type="inclusive" normal="1988-04-07/1988-04-08">April 7-8, 1988</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>UM EXPRES Goals and Mid-Course Plan <unitdate type="inclusive" normal="1988-06-22">June 22, 1988</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Project Management Committee (PMC) Meeting <unitdate type="inclusive" normal="1988-09-02">September 2, 1988</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>CMU-EXPRES Progress Report <unitdate type="inclusive" normal="1987-10/1988-09">October 1987-September 1988</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Net Express Meeting at Ann Arbor <unitdate type="inclusive" normal="1988-11-14/1988-11-15">November 14-15, 1988</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Technical Advisory Committee Meeting <unitdate type="inclusive" normal="1988-11-14/1988-11-15">November 14-15, 1988</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Technical Advisory Panel <unitdate type="inclusive" normal="1988-11">November 1988</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>UM EXPRES Project Review and Plans for Year 3 <unitdate type="inclusive" normal="1988-11-30">November 30, 1988</unitdate></unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Publicity and Presentations <unitdate type="inclusive" normal="1987/1989">1987-1989</unitdate></unittitle>
+        </did>
+        <scopecontent>
+          <p>The Publicity and Presentations series (.5 linear ft.), covering 1987-1989, has been sorted chronologically. The series contains newsletters about the EXPRES software application. It contains presentations given at various conferences of the software application. There is electronic mail (printed out) correspondence in this series. The series also contains the draft of a chapter, "Supporting Collaboration with Advanced Multimedia Electronic Mail: The NSF EXPRES Project," that Gary Olson and Daniel Atkins co-wrote for a book titled <title render="italic">Intellectual Teamwork: Social and Technological Foundations of Cooperative Work</title>.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Presentation Materials</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Demos at Conferences, Hanover Fair</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>EXPRES Highlighted at Ann Arbor Meeting</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>EXPRES -- Seminar Series <unitdate type="inclusive" normal="1986-11/1987-01">November 1986-January 1987</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Langenberg Panel (Information Technologies and the Conduct of Research) <unitdate type="inclusive" normal="1987-01-08">January 8, 1987</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Cognitive Science and Machine Intelligence Laboratory (CSMIL) Bulletin, Issue 19 "EXPRES Project," <unitdate type="inclusive" normal="1987-01-12">January 12, 1987</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Andrew Demo <unitdate type="inclusive" normal="1987-04-14">April 14, 1987</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>EXPRES Newsletter, Vol. 1, no. 1 <unitdate type="inclusive" normal="1987-06">June 1987</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>National Science Foundation (NSF) Event <unitdate type="inclusive" normal="1987-06-08">June 8, 1987</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Trip Report: Technical Support for Work Group Collaboration (NYU Symposium) <unitdate type="inclusive" normal="1987-06-28">June 28, 1987</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>EDUCOM (Los Angeles) <unitdate type="inclusive" normal="1987">1987</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>EXPRES Initiative Unix in the Office, Vol. 10, no. 11 <unitdate type="inclusive" normal="1987-11">November 1987</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Combined Trip Report: ANSI X3V1 Meeting, NBS OSI Implementers Workshop <unitdate type="inclusive" normal="1987-11-02">November 2, 1987</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>EXPRES Videotape Notes and Correspondence <unitdate type="inclusive" normal="1987-11/1987-12">November-December 1987</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Chapter on EXPRES, Kraut et al Book <unitdate type="inclusive" normal="1988">1988</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle><title render="italic">EXPRES Newsletter</title>, Vol. 2, no. 1, <unitdate type="inclusive" normal="1988-01">January 1988</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>CSNET News: "EXPRES Project Completes First Year" No. 16 <unitdate type="inclusive" normal="1988">1988</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>EXPRES Event <unitdate type="inclusive" normal="1988-03-04/1988-03-05">March 4-5, 1988</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Baseline Studies of Current Practice: Methods and Some Significant Results (Transparencies) <unitdate type="inclusive" normal="1988-03">March 1988</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Article: "Computer Giants Back UM EXPRES" <title render="italic">University Record</title>, Special Report "Getting the Job Done," <unitdate type="inclusive" normal="1988-04-18">April 18, 1988</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>The Carnegie-Mellon University (CMU) Open Document Architecture Consortium <unitdate type="inclusive" normal="1989-02-28">February 28, 1989</unitdate></unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Publications <unitdate type="inclusive" normal="1987/1988">1987-1988</unitdate></unittitle>
+        </did>
+        <scopecontent>
+          <p>The Publications series (.5 linear ft.), 1987-1988, has been sorted chronologically. It contains user manuals for different versions of EXPRES as well as one on Diamond Multimedia Document System.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Installing and Using MMDeliver on the Sun 3, Sun 4, and Sun 386i</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Sending Mail with Diamond Release 4.1 on the Sun 3, Sun 4, and Sun 386i</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>UM EXPRES Tutorial</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Diamond Multimedia Document System: Tutorial, Release 3 <unitdate type="inclusive" normal="1987-02">February 1987</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Diamond User's Reference Guide, Release 3.1 <unitdate type="inclusive" normal="1987-11">November 1987</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>EXPRES User's Reference Guide, UM EXPRES 1.0 <unitdate type="inclusive" normal="1988-01">January 1988</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Diamond Multimedia Document System, User's Reference Guide, Release 3.2 <unitdate type="inclusive" normal="1988-06">June 1988</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>EXPRES User's Reference Guide, UM EXPRES 2.0 <unitdate type="inclusive" normal="1988-07">July 1988</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>UM EXPRES 2.0 Release <unitdate type="inclusive" normal="1988-08-31">August 31, 1988</unitdate></unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Subject Files <unitdate type="inclusive" normal="1986/1989">1986-1989</unitdate></unittitle>
+        </did>
+        <scopecontent>
+          <p>The Subject Files series (1 linear ft.), covers, 1986-1989, and has been sorted alphabetically. The deployment of the EXPRES software application is documented in this series. Other topics include the Diamond software, files on the current (1988) state of EXPRES, and NSF files.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>Carnegie Mellon University (CMU)</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>Correspondence, Misc.</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>Deployment <unitdate type="inclusive" normal="1987">1987</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>Deployment: Beta Test Agreements</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>Deployment: Data Capture</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>Deployment: Sites</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>Diamond</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>Diamond 3.1</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>Diamond Dialogue Boxes</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>EXPRES</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>EXPRES -- Current</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>EXPRES Directory Listing</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>EXPRES -- Now</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>EXPRES -- Project</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>Legal Materials</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>National Science Foundation (NSF)</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>NSF -- Astronomy</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>NSF -- Atmospheric Sciences</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>NSF -- CISE</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>Other Universities</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>Other Universities</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>Project Management Notes</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>Research Plans</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>Site Selection</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>University of Michigan</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>University of Michigan Atmospheric Sciences</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>User Trials Task Force</unittitle>
+          </did>
+        </c02>
+      </c01>
+    </dsc>
+    <descgrp type="add">
+      <relatedmaterial>
+        <head>Related Material</head>
+        <p>For additional material on EXPRES, researchers are encouraged to consult these additional holdings at the Bentley Historical Library:</p>
+        <list type="simple">
+          <item>
+            <archref>University of Michigan. College of Engineering records (Associate Dean, Dan Atkins files)</archref>
+          </item>
+          <item>
+            <archref>University of Michigan. Information Technology Division records</archref>
+          </item>
+          <item>
+            <archref>University of Michigan. Computing Center records</archref>
+          </item>
+        </list>
+        <p>For further information on Gary Olson and the Cognitive Science and Machine Intelligence Laboratory (CSMIL) he directed from 1984 to 1985, researchers should consult the following records:</p>
+        <list type="simple">
+          <item>
+            <archref>University of Michigan. Cognitive Science and Machine Intelligence Laboratory.</archref>
+          </item>
+        </list>
+      </relatedmaterial>
+    </descgrp>
+  </archdesc>
+</ead>

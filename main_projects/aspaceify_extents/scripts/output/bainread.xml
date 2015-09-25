@@ -1,0 +1,968 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead.dtd">
+<ead>
+  <eadheader audience="internal" langencoding="iso639-2b" repositoryencoding="iso15511" dateencoding="iso8601" relatedencoding="Dublin Core">
+    <eadid countrycode="us" mainagencycode="MiU-H" publicid="us//::miu-h//TXT us::miu-h::bainread.xml//EN" encodinganalog="identifier">umich-bhl-851005</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="title">Finding Aid for Read Bain Papers, 1893-1972.</titleproper>
+        <author encodinganalog="creator">Collection processed and finding aid created by William H. McNitt</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="publisher">Bentley Historical Library, University of Michigan</publisher>
+        <date encodinganalog="date">2004</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created by Thomas E. Powers <date>September 2004</date></creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date>20040927</date>
+        <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <frontmatter>
+    <titlepage>
+      <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
+      <titleproper>Finding aid for <lb/>Read Bain Papers, 1893-1972</titleproper>
+      <author>Finding aid created by <lb/>William H. McNitt, 1968</author>
+    </titlepage>
+  </frontmatter>
+  <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
+    <did>
+      <origination>
+        <persname source="lcnaf" encodinganalog="100">Bain, Read.</persname>
+      </origination>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">12 linear feet</extent>
+      </physdesc>
+      <unittitle encodinganalog="245">Read Bain papers <unitdate type="inclusive" encodinganalog="245$f" normal="1893/1972">1893-1972</unitdate></unittitle>
+      <unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">851005 Aa 2</unitid>
+      <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
+      <abstract>Professor of Sociology at Miami University, Oxford, Ohio; vice-president, 1944, of the American Sociological Society; editor-in-chief, 1938-1942, of the American Sociological Review; President, 1945, of the Sociological Research Association; poetry editor, 1953-1957, of The Humanist; include correspondence, class notes, student essays, poetry, books and articles, and assorted miscellanea.</abstract>
+      <repository>
+        <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea>, University of Michigan</corpname>
+        <extptr href="bhladd" show="embed" actuate="onload"/>
+      </repository>
+    </did>
+    <descgrp type="admin">
+      <acqinfo encodinganalog="541">
+        <p>The collection was donated by Professor Bain (donor no. <num type="donor" encodinganalog="541$e">4692</num>) in 1968.</p>
+      </acqinfo>
+      <accessrestrict encodinganalog="506">
+        <p>The collection is open to research.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+        <p>Copyright has been transferred to the Regents of the University of Michigan.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+        <p>[item], folder, box,
+Read Bain Papers, Bentley Historical Library, University of Michigan</p>
+      </prefercite>
+    </descgrp>
+    <controlaccess>
+      <p>
+        <extptr href="accnote" show="embed" actuate="onload"/>
+      </p>
+      <controlaccess>
+        <head>Subjects:</head>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79018527">American Sociological Association.</corpname>
+        <subject source="lcsh" encodinganalog="611">American sociological review.</subject>
+        <persname source="lcnaf" encodinganalog="600">Bain, Read, 1892-</persname>
+        <subject source="lcsh" encodinganalog="611">The Humanist.</subject>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Students--Social life and customs--1921-1930.</corpname>
+        <subject source="lcsh" encodinganalog="650">Poetry.</subject>
+        <subject source="lcsh" encodinganalog="650">Periodicals--Publishing.</subject>
+        <subject source="lcsh" encodinganalog="650">Sociology.</subject>
+        <subject source="lcsh" encodinganalog="650">Teachers--Ohio--Oxford.</subject>
+        <subject source="lcsh" encodinganalog="650">Teachers--Michigan--Ann Arbor.</subject>
+      </controlaccess>
+      <controlaccess>
+        <head>Contributors:</head>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50036834">Adams, Brooks, 1848-1927.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50029994">Benedict, Ruth, 1887-1948.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50007704">Bernstein, Leonard, 1918-1990</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50020505">Bliven, Bruce, 1889-1977.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50042934">Bradley, Omar Nelson, 1893-1981.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n85185550">Bricker, John W. (John William), 1893-1986.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79026662">Buck, Pearl S. (Pearl Sydenstricker), 1892-1973.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79018356">Cantril, Hadley, 1906-1969.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n80015717">Cather, Willa, 1873-1947.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79007071">Catton, Bruce, 1899-1978</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79058347">Ciardi, John, 1916-1986</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n80056984">Cooley, Charles Horton, 1864-1929.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79060532">Dewey, John, 1859-1952.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50027506">Douglas, Paul H. (Paul Howard), 1892-1976</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50025733">Frankfurter, Felix, 1882-1965.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79043849">Freud, Sigmund, 1856-1939.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79097276">Havighurst, Walter, 1901-1994</persname>
+        <persname source="lcnaf" encodinganalog="700">Hayakawa, S. I. (Samuel Ichiyé), 1906-</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79054782">Holmes, Oliver Wendell, 1841-1935.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79077374">Hoover, J. Edgar (John Edgar), 1895-1972.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n86012032">Hull, Cordell, 1871-1955.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n83312367">Brown, Muriel Buck Humphrey.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79065235">Kinsey, Alfred C. (Alfred Charles), 1894-1956.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n80023524">Kluckhohn, Clyde, 1905-1960.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n96063549">Lausche, Frank John, 1895-1990</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79023149">Lewis, Sinclair, 1885-1951.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n80019504">Lippmann, Walter, 1889-1974.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50040651">Malinowski, Bronislaw, 1884-1942.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n78095625">Mann, Thomas, 1875-1955.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n80036702">Mencken, H. L. (Henry Louis), 1880-1956.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79062746">Millay, Edna St. Vincent, 1892-1950.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n80013055">Mills, C. Wright (Charles Wright), 1916-1962.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50016866">Moore, Marianne, 1887-1972.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n85104758">Morse, Wayne L. (Wayne Lyman), 1900-1974.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n80067179">Mumford, Lewis, 1895-1990.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50029660">Odum, Howard Washington, 1884-1954.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79092602">O'Neill, Eugene, 1888-1953.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n94057548">Pollock, James K. (James Kerr), 1898-1968</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n81149658">Rickey, Branch, 1881-1965.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79144645">Roosevelt, Eleanor, 1884-1962.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79022932">Roosevelt, Franklin D. (Franklin Delano), 1882-1945.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79056054">Russell, Bertrand, 1872-1970.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79011105">Sandburg, Carl, 1878-1967.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79007439">Schlesinger, Arthur Meier, 1888-1965.</persname>
+        <persname source="lcnaf" encodinganalog="700">Ross, Edward Alsworth, 1866-1951.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n85353758">Steinman, D. B. (David Barnard), 1886-1960.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79055618">Stevenson, Adlai E. (Adlai Ewing), 1900-1965.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79018157">Stuart, Jesse, 1906-1984.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n88638770">Taft, Charles P. (Charles Phelps), 1897-1983</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79029742">Truman, Harry S., 1884-1972.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79060987">Webb, Beatrice Potter, 1858-1943.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50020232">White, Leslie A., 1900-1975.</persname>
+      </controlaccess>
+    </controlaccess>
+    <dsc type="combined">
+      <c01 level="series">
+        <did>
+          <unittitle>Biographical/personal</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Photographs</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Clippings</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Miscellaneous</unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Correspondence</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>
+              <unitdate type="inclusive">Undated</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1893/1911">1893-1911</unitdate>
+            </unittitle>
+          </did>
+          <odd>
+            <p>(include Davis Family letters)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">18 folders</extent>
+            </physdesc>
+            <unittitle>
+              <unitdate type="inclusive" normal="1916/1938">1916-1938</unitdate>
+            </unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">12 folders</extent>
+            </physdesc>
+            <unittitle>
+              <unitdate type="inclusive" normal="1939/1940">1939-1940</unitdate>
+            </unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">21 folders</extent>
+            </physdesc>
+            <unittitle>
+              <unitdate type="inclusive" normal="1941/1946">1941-1946</unitdate>
+            </unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">21 folders</extent>
+            </physdesc>
+            <unittitle>
+              <unitdate type="inclusive" normal="1947/1959">1947-1959</unitdate>
+            </unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">5</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">17 folders</extent>
+            </physdesc>
+            <unittitle>
+              <unitdate type="inclusive" normal="1960/1972">1960-1972</unitdate>
+            </unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Writings</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">6</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">9 folders</extent>
+            </physdesc>
+            <unittitle>Manuscripts of articles, reviews, etc.</unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">7</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 folders</extent>
+            </physdesc>
+            <unittitle>Manuscripts of articles, reviews, etc.</unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Autobiographical writings</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>"The First Twenty Years"</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>"Five Score and More"</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>"One Man's Life"</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>"Old Note, Old Alec, and Eliza Ann"</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>Early drafts of autobiography</unittitle>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Student materials</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">8</container>
+            <unittitle>Student papers</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">8</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">10 folders</extent>
+            </physdesc>
+            <unittitle>Class notes: sociology and other topics</unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">9</container>
+            <unittitle>Notebook <unitdate type="inclusive">undated</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(include student essays)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">9</container>
+            <unittitle>Notebook, ca. <unitdate type="inclusive" normal="1917">1917</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(include student essays)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">9</container>
+            <unittitle>Notebook, ca. <unitdate type="inclusive" normal="1920">1920</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(include student essays)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">9</container>
+            <unittitle>Student diary <unitdate type="inclusive" normal="1912-11-01/1913-06-14">November 1, 1912-June 14, 1913</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">9</container>
+            <unittitle>Student diary <unitdate type="inclusive" normal="1914-03-17/1914-06-17">March 17, 1914-June 17, 1914</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">9</container>
+            <unittitle>Student diary <unitdate type="inclusive" normal="1914-09-19/1915-06-27">September 19, 1914-June 27, 1915</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">9</container>
+            <unittitle>Student diary <unitdate type="inclusive" normal="1915-10-10/1916-06-18">October 10, 1915-June 18, 1916</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">9</container>
+            <unittitle>Student diary <unitdate type="inclusive" normal="1916-07-01/1917-07-17">July 1, 1916-July 17, 1917</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">9</container>
+            <unittitle>Dissertation notecards</unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Poetry and Other Writings</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">10</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">8 folders</extent>
+            </physdesc>
+            <unittitle>Poetry</unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">11</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">4 folders</extent>
+            </physdesc>
+            <unittitle>Poetry</unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">11</container>
+            <unittitle>Poetry on Indians</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">11</container>
+            <unittitle>Poetry entitled, "The Idiot's Tale and Other Poems"</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">11</container>
+            <unittitle>Poetry of Ruth Ball</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Poetry notebooks <unitdate type="inclusive" normal="1910/1912">1910-1912</unitdate></unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">11</container>
+              <unittitle>Poetry notebook <unitdate type="inclusive" normal="1910/1914">1910-1914</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">11</container>
+              <unittitle>Poetry notebook <unitdate type="inclusive" normal="1914/1915">1914-1915</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">11</container>
+              <unittitle>Poetry notebook <unitdate type="inclusive" normal="1915/1916">1915-1916</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">11</container>
+              <unittitle>Poetry notebook <unitdate type="inclusive" normal="1916/1919">1916-1919</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">11</container>
+              <unittitle>Poetry notebook <unitdate type="inclusive" normal="1919/1921">1919-1921</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">11</container>
+              <unittitle>Poetry notebook <unitdate type="inclusive" normal="1921/1922">1921-1922</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">11</container>
+            <unittitle>Book: <title render="italic">Continental Anthologies</title> (1929); include Bain poetry</unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Publications</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">12</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">6 folders</extent>
+            </physdesc>
+            <unittitle>Reprints of writings</unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">12</container>
+            <unittitle>Book: <title render="italic">Sonnets of a Portrait-Painter</title> (1922); include letter to Bain's wife written in the margins</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">12</container>
+            <unittitle>Book: <title render="italic">The Protestant Ethic and the Spirit of Capitalism</title> by Max Weber (1958); include Bain's notes in the margins</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">12</container>
+            <unittitle>Book: <title render="italic">Trends in American Sociology</title> (1929)</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">12</container>
+            <unittitle>Book: <title render="italic">Sociology: Introductory Readings</title> (1962), including articles by Bain</unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Miscellaneous</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">12</container>
+            <unittitle>Notes used in speeches</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">12</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 folders</extent>
+            </physdesc>
+            <unittitle>Miscellaneous professional papers</unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+      </c01>
+    </dsc>
+    <descgrp type="add">
+      <index>
+        <head>Partial Index to Correspondence</head>
+        <indexentry>
+          <persname>Adams, Brooks, 1848-1927.</persname>
+          <ref>
+            <list type="simple">
+              <item>Feb. 1, 1921, Feb. 17, 1921</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Benedict, Ruth, 1887-1948.</persname>
+          <ref>
+            <list type="simple">
+              <item>Aug. 14, 1940</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Bernstein, Leonard, 1918-</persname>
+          <ref>
+            <list type="simple">
+              <item>Jan. 27, 1958, Mar. 21, 1958</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Bliven, Bruce, 1889-1977.</persname>
+          <ref>
+            <list type="simple">
+              <item>1926, Jan. 20, 1931, Jan. 18, 1935, 1936, 1940-1941, Sept. 20, 1944, Oct. 4, 1945</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Bradley, Omar Nelson, 1893-</persname>
+          <ref>
+            <list type="simple">
+              <item>Oct. 5, 1946, Oct. 11, 1946</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Bricker, John W. (John William), 1893-1986.</persname>
+          <ref>
+            <list type="simple">
+              <item>Jan. 18, 1941, Mar. 18, 1941, Mar. 14, 1941</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Brown, Muriel Buck Humphrey</persname>
+          <ref>
+            <list type="simple">
+              <item>Jan. 27, 1967</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Buck, Pearl S. (Pearl Sydenstriker), 1892-1973.</persname>
+          <ref>
+            <list type="simple">
+              <item>Nov. 17, 1950</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Cantril, Albert Hadley, 1906-1969.</persname>
+          <ref>
+            <list type="simple">
+              <item>Feb. 7, 1939, Feb. 13, 1939</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Cather, Willa, 1873-1947.</persname>
+          <ref>
+            <list type="simple">
+              <item>Jan. 14, 1931, Sept. 25, 1931 (to WC), Oct. 22, 1931</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Catton, Bruce, 1899-</persname>
+          <ref>
+            <list type="simple">
+              <item>Jan. 4, 1957</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Ciardi, John, 1916-</persname>
+          <ref>
+            <list type="simple">
+              <item>1954-1957, 1959-1960, Dec. ?, 1961, Oct. 11, 1963, 1964, July 15, 1967</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Cooley, Charles Horton, 1864-1929.</persname>
+          <ref>
+            <list type="simple">
+              <item>Dec. 29, 1920, 1922-1927</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Dewey, John, 1859-1952.</persname>
+          <ref>
+            <list type="simple">
+              <item>Mar. 12, 1935, Nov. 28, 1936, Nov. 4, 1940, Oct. 25, 1949, Oct. 31, 1949, Oct. 31, 1950</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Douglas, Paul Howard, 1892-</persname>
+          <ref>
+            <list type="simple">
+              <item>Apr. 21, 1953</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Frankfurter, Felix, 1882-1965.</persname>
+          <ref>
+            <list type="simple">
+              <item>Apr. 29, 1938, May 3, 1938?</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Freud, Sigmund, 1856-1939.</persname>
+          <ref>
+            <list type="simple">
+              <item>Oct. 31, 1934, Nov. 25, 1934</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Havighurst, Walter, 1901-</persname>
+          <ref>
+            <list type="simple">
+              <item>Nov. 1, 1961, Apr. 9, 1967</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Hayakawa, S. I. (Samuel Ichiyé), 1906-</persname>
+          <ref>
+            <list type="simple">
+              <item>Nov. 15, 1957, Oct. 29, 1958, Oct. 1, 1958, May 21, 1963, May 8, 1963</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Holmes, Oliver Wendell, 1841-1935.</persname>
+          <ref>
+            <list type="simple">
+              <item>Apr. 27, 1927</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Hoover, J. Edgar (John Edgar), 1895-1972.</persname>
+          <ref>
+            <list type="simple">
+              <item>Mar. 2, 1935, Sept. 26, 1936, Oct. 5, 1936, Apr. 4, 1939, Dec. 11, 1951, Dec. 4, 1951</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Hull, Cordell, 1871-1955.</persname>
+          <ref>
+            <list type="simple">
+              <item>Sept. 28, 1939, Oct. 10, 1939</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Kinsey, Alfred C. (Alfred Charles), 1894-1956.</persname>
+          <ref>
+            <list type="simple">
+              <item>Aug. 15, 1952</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Kluckhohn, Clyde, 1905-1960.</persname>
+          <ref>
+            <list type="simple">
+              <item>Oct. 16, 1944, Oct. 19, 1944</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Lausche, Frank John, 1895-</persname>
+          <ref>
+            <list type="simple">
+              <item>Aug. 5, 1956, Oct. 8, 1956</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Lewis, Sinclair, 1884-1951.</persname>
+          <ref>
+            <list type="simple">
+              <item>June 8, 1925</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Lippmann, Walter, 1889-1974.</persname>
+          <ref>
+            <list type="simple">
+              <item>undated</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Malinowski, Bronislav, 1884-1942.</persname>
+          <ref>
+            <list type="simple">
+              <item>Apr. 29, 1939, Apr. 20, 1939, Apr. 12, 1939, Apr. 14, 1939</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Mann, Thomas, 1875-1955.</persname>
+          <ref>
+            <list type="simple">
+              <item>June 8, 1938, Feb. 20, 1939, April 18, 1939, March 2, 1940, Sept. 18, 1944, Jan. 8, 1949, Mar. 18, 1952</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Mencken, H. L. (Henry Louis), 1880-1956.</persname>
+          <ref>
+            <list type="simple">
+              <item>undated</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Millay, Edna St. Vincent, 1892-1950.</persname>
+          <ref>
+            <list type="simple">
+              <item>undated</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Mills, C. Wright (Charles Wright), 1916-1962.</persname>
+          <ref>
+            <list type="simple">
+              <item>1939-1940, July ?, 1942, July 30, 1945</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Moore, Marianne, 1887-1972.</persname>
+          <ref>
+            <list type="simple">
+              <item>Apr. 23, 1957, Dec. 3, 1964, Feb 13, 1965, Oct. 2, 1965, Feb. 19, 1966</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Morse, Wayne Lyman, 1900-</persname>
+          <ref>
+            <list type="simple">
+              <item>May 31, 1962, June 11, 1962, Aug. 10, 1964, Aug. 28, 1964, Nov. 16, 1966, Oct. 10, 1967, May 28, 1968, June 12, 1968</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Mumford, Lewis, 1895-</persname>
+          <ref>
+            <list type="simple">
+              <item>Jan. 19, 1935, Feb. 2, 1935, Feb. 9, 1935, Feb. 14, 1935</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Odum, Howard Washington, 1884-1954.</persname>
+          <ref>
+            <list type="simple">
+              <item>June 8, 1925, Nov. 3, 1925, 1926, Aug. 15, 1927, May 11, 1933, Apr. 13, 1934, Nov. 28, 1936, Nov. 25, 1936, Jan. 18, 1938, Feb. 24, 1938, 1940, Mar. 17, 1941, Mar. 24, 1945</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>O'Neill, Eugene, 1888-1953.</persname>
+          <ref>
+            <list type="simple">
+              <item>July 7, 1933</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Pollock, James Kerr, 1898-</persname>
+          <ref>
+            <list type="simple">
+              <item>July 25, 1938</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Rickey, Branch, 1881-1965.</persname>
+          <ref>
+            <list type="simple">
+              <item>Oct. 25, 1945, Nov. 9, 1945</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Roosevelt, Eleanor, 1884-1962.</persname>
+          <ref>
+            <list type="simple">
+              <item>Oct. 25, 1957, Oct. 31, 1957</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Roosevelt, Franklin D. (Franklin Delano), 1882-1945.</persname>
+          <ref>
+            <list type="simple">
+              <item>Aug. 20, 1932, Jan. 4, 1939</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Russell, Bertrand, 1872-1970.</persname>
+          <ref>
+            <list type="simple">
+              <item>May 25, 1951, May 8, 1951</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Sandburg, Carl, 1878-1967.</persname>
+          <ref>
+            <list type="simple">
+              <item>Aug. 31, 1922, June 23, 1955, June 14, 1960</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Schlesinger, Arthur Meier, 1888-1965.</persname>
+          <ref>
+            <list type="simple">
+              <item>June 5, 1939, July 20, 1939, Oct. 21, 1939, Dec. 9, 1939, Jan. 6, 1940, Mar. 5, 1940</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Steinman, D. B. (David Barnard), 1886-1960.</persname>
+          <ref>
+            <list type="simple">
+              <item>1945-1946, Nov. 10, 1956, Nov. 29, 1956, Dec. 8, 1956, Dec. 4, 1956</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Stevenson, Adlai E. (Adlai Ewing), 1900-1965.</persname>
+          <ref>
+            <list type="simple">
+              <item>Nov. 8, 1960, Jan. 11, 1961</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Stuart, Jesse Hilton, 1906-1984</persname>
+          <ref>
+            <list type="simple">
+              <item>1937, Oct. 8, 1938, 1939, Dec. 18, 1943, 1944, May 10, 1949, 1955, Jan. 29, 1957, 1958, 1960, 1965, Sept. 3, 1968</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Taft, Charles Phelps, 1897-</persname>
+          <ref>
+            <list type="simple">
+              <item>Mar. 31, 1939, May 29, 1940, May 25, 1940, 1951-1952, Mar. 4, 1954, Oct. 31, 1955, Dec. ?, 1955</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Truman, Harry S., 1884-1972.</persname>
+          <ref>
+            <list type="simple">
+              <item>Jan. 20, 1952, Feb. 10, 1953</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Webb, Beatrice Potter, 1858-1943.</persname>
+          <ref>
+            <list type="simple">
+              <item>Apr. 30, 1926, Apr. 16, 1926</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>White, Leslie A., 1900-1975.</persname>
+          <ref>
+            <list type="simple">
+              <item>July 22, 1939, July 1, 1939, Nov. 29, 1940, Jan. 3, 1941, Feb. 24, 1943</item>
+            </list>
+          </ref>
+        </indexentry>
+      </index>
+    </descgrp>
+  </archdesc>
+</ead>

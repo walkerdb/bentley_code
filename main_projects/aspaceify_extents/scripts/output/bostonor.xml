@@ -1,0 +1,406 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead.dtd">
+<ead>
+  <eadheader audience="internal" langencoding="iso639-2b" repositoryencoding="iso15511" dateencoding="iso8601" relatedencoding="Dublin Core" scriptencoding="iso15924" countryencoding="iso3166-1">
+    <eadid countrycode="us" mainagencycode="MiU-H" publicid="us//::miu-h//TXT us::miu-h::bostonor.xml//EN" encodinganalog="Identifier">umich-bhl-85770</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="Title">Finding Aid for Orlan W. Boston papers, 1911-1959</titleproper>
+        <author encodinganalog="Creator">Collection processed and finding aid created by Unprocessed</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="Publisher">Bentley Historical Library, University of Michigan</publisher>
+        <date encodinganalog="Date" normal="2007">2007</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created by Thomas E. Powers <date>October 2007</date></creation>
+      <langusage encodinganalog="Language">The finding aid is written in <language langcode="eng" scriptcode="Latn">English</language></langusage>
+      <descrules>Finding aid prepared using Describing Archives: A Content Standard (DACS)</descrules>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date>20150602</date>
+        <item>Corrected collection dates and separated boxes for use with Aeon.</item>
+      </change>
+      <change>
+        <date>2007-10-30</date>
+        <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <frontmatter>
+    <titlepage>
+      <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
+      <titleproper>Finding aid for <lb/>Orlan W. Boston papers, 1911-1959</titleproper>
+      <author>Finding aid created by <lb/>Michigan Historical Collections staff</author>
+    </titlepage>
+  </frontmatter>
+  <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
+    <did>
+      <origination>
+        <persname source="lcnaf" encodinganalog="100">Boston, Orlan W. (Orlan William), 1891-</persname>
+      </origination>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">21 linear feet</extent>
+      </physdesc>
+      <unittitle encodinganalog="245">Orlan W. Boston papers <unitdate type="inclusive" encodinganalog="245$f" normal="1911/1959">1911-1959</unitdate></unittitle>
+      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">85770 Aa 2</unitid>
+      <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
+      <abstract>Professor of mechanical engineering, University of Michigan. Correspondence, committee reports, annual reports, and other papers, relating to the College of Engineering and to Boston's activities in professional societies; also photographs.</abstract>
+      <repository>
+        <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea>, University of Michigan</corpname>
+        <extptr href="bhladd" show="embed" actuate="onload"/>
+      </repository>
+      <physloc>Portions located in offsite storage; prior notification required for access.</physloc>
+    </did>
+    <descgrp type="admin">
+      <acqinfo encodinganalog="541">
+        <p>The collection was donated by Professor Boston (donor no. <num type="donor" encodinganalog="541$e">295</num>).</p>
+      </acqinfo>
+      <accruals encodinganalog="584">
+        <p>No further additions to the papers are expected.</p>
+      </accruals>
+      <accessrestrict encodinganalog="506">
+        <p>The collection is open to research.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+        <p>Copyright is held by the Regents of the University of Michigan.</p>
+      </userestrict>
+      <processinfo>
+        <p>This collection is unprocessed and has been maintained as received.</p>
+      </processinfo>
+      <prefercite encodinganalog="524">
+        <p>[item], folder, box,
+Orlan W. Boston papers, Bentley Historical Library, University of Michigan</p>
+      </prefercite>
+    </descgrp>
+    <bioghist encodinganalog="545">
+      <p>Orlan W. Boston was born in western Michigan, July 16, 1891. He received all his engineering education at The University of Michigan, with the degrees of BME 1914, MSE 1917, and ME 1926. He was professor of mechanical engineering and chairman of the Department of Production Engineering. He began his teaching career at the U-M in 1914 with an instructorship in engineering mechanics and mechanical engineering. In 1917, he was commissioned in the U.S. Naval Reserve where he was responsible in part for the design and manufacture of submarine mines in the Bureau of Ordnance. He served until 1919. For the next two years, Boston was industrial engineer and assistant to the vice-president and works-manager of the Cleveland Tractor Company.</p>
+      <p>He returned to the University of Michigan in 1921 as assistant professor. He was assigned to plan the south wing of the East Engineering Building and to develop courses and laboratories for Metal Processing, later known as Production Engineering. He was promoted to associate professor and acting director in 1923 and to professor and director in 1926.</p>
+      <p>Boston wrote several books dealing with production equipment, processes and materials, including <title render="italic">Metal Processing</title>. Several engineering handbooks, including Mark's Mechanical Engineering, contain sections prepared by Boston on machine tools, machinability and metrology. He retired from The University of Michigan in July, 1956. He died February 17, 1991.</p>
+    </bioghist>
+    <scopecontent encodinganalog="520">
+      <p>The collection, largely unprocessed, has been maintained in the order received. There were three recognizable series: Professional Correspondence, dating from 1924 to 1956; Miscellaneous University Files; and Miscellaneous Correspondence (which covers roughly the same period as the Professional Correspondence but which Boston maintained separately). There is also one folder of photographs.</p>
+    </scopecontent>
+    <controlaccess>
+      <p>
+        <extptr href="accnote" show="embed" actuate="onload"/>
+      </p>
+      <controlaccess>
+        <head>Subjects:</head>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n83825931">Boston, Orlan W. (Orlan William), 1891-1991</persname>
+        <subject source="lcsh" encodinganalog="650">Engineers--Michigan--Ann Arbor.</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80094504">University of Michigan. College of Engineering.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
+      </controlaccess>
+      <controlaccess>
+        <head>Subjects - Visual Materials:</head>
+        <persname source="lcnaf" encodinganalog="600">Boston, William.</persname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Bands.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Engineering. Class of 1913.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Engineering. Class of 1914.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Football.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Alumni and alumnae--Anniversaries, etc.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Senior Swingout.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Students--Social life and customs--1911-1920.</corpname>
+      </controlaccess>
+      <controlaccess>
+        <head>Genre Terms:</head>
+        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+      </controlaccess>
+    </controlaccess>
+    <dsc type="combined">
+      <c01 level="series">
+        <did>
+          <unittitle>Professional Correspondence</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <unitdate type="inclusive" normal="1924/1941">1924-1941</unitdate>
+            </unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>A-F</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>G-O</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>P-Z</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <unitdate type="inclusive" normal="1942/1943">1942-1943</unitdate>
+            </unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>A-Z</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <unitdate type="inclusive" normal="1944/1945">1944-1945</unitdate>
+            </unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>A-F</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>G-Z;</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <unitdate type="inclusive" normal="1946">1946</unitdate>
+            </unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>A-Z</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">5</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1947/1948">1947-1948</unitdate>
+            </unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">6</container>
+              <unittitle>A-O</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>P-Z</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <unitdate type="inclusive" normal="1949/1950">1949-1950</unitdate>
+            </unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">7</container>
+              <unittitle>A-K</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>L-Z</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <unitdate type="inclusive" normal="1950/1951">1950-1951</unitdate>
+            </unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>A-T</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">9</container>
+              <unittitle>U-Z</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <unitdate type="inclusive" normal="1952">1952</unitdate>
+            </unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">9</container>
+              <unittitle>A-Z</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <unitdate type="inclusive" normal="1953">1953</unitdate>
+            </unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">10</container>
+              <unittitle>A-Z</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <unitdate type="inclusive" normal="1954/1955">1954-1955</unitdate>
+            </unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">10</container>
+              <unittitle>A-E</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">11</container>
+              <unittitle>A-Z</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <unitdate type="inclusive" normal="1955/1956">1955-1956</unitdate>
+            </unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">11</container>
+              <unittitle>A-E</unittitle>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Miscellaneous University Files</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">12</container>
+            <unittitle>Committee reports, also material on societies</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">13</container>
+            <unittitle>Committee reports, also material on societies</unittitle>
+          </did>
+          <odd>
+            <p>(continued)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">14</container>
+            <unittitle>Committee reports, also material on societies</unittitle>
+          </did>
+          <odd>
+            <p>(continued)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">15</container>
+            <unittitle>Annual reports <unitdate type="inclusive" normal="1922/1949">1922-1949</unitdate>; budget, <unitdate type="inclusive" normal="1920/1949">1920-1949</unitdate> also material on war surplus equipment</unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Miscellaneous correspondence</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <unitdate type="inclusive" normal="1930/1941" certainty="approximate">circa 1930-1941</unitdate>
+            </unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">16</container>
+              <unittitle>A-Am</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">17</container>
+              <unittitle>Am-Ca</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">18</container>
+              <unittitle>Ca-En</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">19</container>
+              <unittitle>En-H General</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">20</container>
+              <unittitle>Ha-Na</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">21</container>
+              <unittitle>Na-Ro</unittitle>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>
+            <genreform normal="Photographs">Photographs</genreform>
+          </unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">21</container>
+            <unittitle>Photographs <unitdate type="inclusive" normal="1911/1914">1911-1914</unitdate>, <unitdate type="inclusive" normal="1921">1921</unitdate>, <unitdate type="inclusive" normal="1953">1953</unitdate>, <unitdate type="inclusive" normal="1959">1959</unitdate></unittitle>
+          </did>
+          <scopecontent>
+            <p>Photographs include prints of University of Michigan football games, Freshman-Sophomore Rush, Senior Swingout, and other student activities; reunion pictures of the Engineering Classes of 1913 and 1914 and a portrait of William Boston</p>
+          </scopecontent>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

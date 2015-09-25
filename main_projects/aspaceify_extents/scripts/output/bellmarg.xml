@@ -1,0 +1,1221 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead.dtd">
+<ead>
+  <eadheader audience="internal" langencoding="iso639-2b" repositoryencoding="iso15511" dateencoding="iso8601" relatedencoding="Dublin Core" scriptencoding="iso15924" countryencoding="iso3166-1">
+    <eadid countrycode="us" mainagencycode="MiU-H" publicid="us//::miu-h//TXT us::miu-h::bellmarg.xml//EN" encodinganalog="Identifier">umich-bhl-861055</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="Title">Finding Aid for Margaret Bell papers, 1919-1956</titleproper>
+        <author encodinganalog="Creator">Collection processed and finding aid created by Marilyn Starr</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="Publisher">Bentley Historical Library, University of Michigan</publisher>
+        <date encodinganalog="Date" normal="2006">March 1987</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created by Cat Oyler <date>January 2007</date></creation>
+      <langusage encodinganalog="Language">The finding aid is written in <language langcode="eng" scriptcode="Latn">English</language></langusage>
+      <descrules>Finding aid prepared using Describing Archives: A Content Standard (DACS)</descrules>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date>2007-01-31</date>
+        <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <frontmatter>
+    <titlepage>
+      <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
+      <titleproper>Finding aid for <lb/>Margaret Bell Papers, 1919-1956</titleproper>
+      <author>Finding aid created by <lb/>Marilyn Starr, March 1987</author>
+    </titlepage>
+  </frontmatter>
+  <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
+    <did>
+      <origination>
+        <persname source="lcnaf" encodinganalog="100">Bell, Margaret, 1888-1969.</persname>
+      </origination>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">6 linear feet</extent>
+      </physdesc>
+      <unittitle encodinganalog="245">Margaret Bell papers <unitdate type="inclusive" encodinganalog="245$f" normal="1919/1956">1919-1956</unitdate></unittitle>
+      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">861055 Aa 2</unitid>
+      <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
+      <abstract>Correspondence and other files of Margaret Bell, chairman of the Department of Physical Education for Women of the University of Michigan, and physician in the University Health Service. Materials relate to University activities, conferences and speeches, copies of articles and other writings, and photographs.</abstract>
+      <repository>
+        <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea>, University of Michigan</corpname>
+        <extptr href="bhladd" show="embed" actuate="onload"/>
+      </repository>
+    </did>
+    <descgrp type="admin">
+      <acqinfo encodinganalog="541">
+        <p>The collection was received form Mrs. Karl Illava on December 16, 1976 <num type="donor" encodinganalog="541$e">962</num></p>
+      </acqinfo>
+      <accessrestrict encodinganalog="506">
+        <p>The collection is open to research.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+        <p>Copyright status is unknown</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+        <p>[item], folder, box,
+Margaret Bell Papers, Bentley Historical Library, University of Michigan</p>
+      </prefercite>
+    </descgrp>
+    <bioghist encodinganalog="545">
+      <chronlist>
+        <chronitem>
+          <date>1888</date>
+          <event>Born in Chicago, Illinois, to Frank Elliott and Elizabeth T. (Dyer) Bell.</event>
+        </chronitem>
+        <chronitem>
+          <date>1903-1907</date>
+          <event>Attended John Dewey Laboratory School, University of Chicago High School.</event>
+        </chronitem>
+        <chronitem>
+          <date>1910</date>
+          <event>Graduate from Sargent School of Physical Education.</event>
+        </chronitem>
+        <chronitem>
+          <date>1910-1915</date>
+          <event>Taught at South Park Playground, Chicago.</event>
+        </chronitem>
+        <chronitem>
+          <date>1910-1916</date>
+          <event>Taught at Englewood High School.</event>
+        </chronitem>
+        <chronitem>
+          <date>1915</date>
+          <event>Graduated with B.S. from University of Chicago.</event>
+        </chronitem>
+        <chronitem>
+          <date>1916-1918</date>
+          <event>Taught at University of Chicago.</event>
+        </chronitem>
+        <chronitem>
+          <date>1918</date>
+          <event>Taught at Teachers' College, Chicago.</event>
+        </chronitem>
+        <chronitem>
+          <date>1920</date>
+          <event>Graduated from Trudeau School of Tuberculosis.</event>
+        </chronitem>
+        <chronitem>
+          <date>1921</date>
+          <event>Graduated with M.D. from Rush Medical School, Chicago; Assistant, Internal Medicine at Cardiac Clinics, Central Free Dispensary, Chicago.</event>
+        </chronitem>
+        <chronitem>
+          <date>1922</date>
+          <event>Research worker at Elizabeth McCormick Memorial Fund, Chicago.</event>
+        </chronitem>
+        <chronitem>
+          <date>1923</date>
+          <event>Received certificate from San Francisco Hospital, San Francisco.</event>
+        </chronitem>
+        <chronitem>
+          <date>1923</date>
+          <event>Co-director of Camp Tenaya, Yosemite, Ontario.</event>
+        </chronitem>
+        <chronitem>
+          <date>1923/24</date>
+          <event>Professor of Hygiene and Physical Education, Chairman Department of Physical Education for Women, Medical Advisor for Women at University of Michigan. (continued in these positions until 1956)</event>
+        </chronitem>
+        <chronitem>
+          <date>1929-1930</date>
+          <event>Instructor, Internal Medicine at University of Chicago Clinics.</event>
+        </chronitem>
+        <chronitem>
+          <date>1937-1938</date>
+          <event>New York Post Graduate School of medicine.</event>
+        </chronitem>
+        <chronitem>
+          <date>1969</date>
+          <event>Died</event>
+        </chronitem>
+      </chronlist>
+      <list type="simple">
+        <head>Professional and Service Organizations in Which Margaret Bell Was Active</head>
+        <item>Organizations:
+          <list type="simple"><item>Physical Education
+              <list type="simple"><item>American Association for Health and Physical Education</item><item>Mid-West Physical Education Association</item><item>Michigan Physical Education Association</item><item>National College Directors' Society</item><item>Midwest College Physical Education Society</item><item>Sargent Alumnae Association</item></list>
+            </item><item>Education:
+              <list type="simple"><item>Michigan Education Association</item><item>National Education Association</item></list>
+            </item><item>Medical:
+              <list type="simple"><item>American Medical Association</item><item>American Public Health Association</item><item>American Student Health Association</item><item>Michigan Student Health Association</item><item>National Conference on College Hygiene</item><item>Washtenaw County Medical Society</item></list>
+            </item><item>Others:
+              <list type="simple"><item>Women's Research Society</item><item>A.A.U.W.</item><item>University of Chicago Alumni and Alumnae Associations</item><item>American Youth Hostels</item></list>
+            </item></list>
+        </item>
+        <item>Honorary Societies:
+          <list type="simple"><item>Alpha Omega Alpha - Honorary Medical</item><item>Delta Omega - Honorary Public Health</item><item>Phi Kappa Phi - Honorary Education</item><item>Pi Lambda Theta - Honorary Education</item><item>Fellow, American Medical Association</item><item>Fellow, American College of Physicians (1932)</item><item>Fellow, American Association for Health and Physical Education (1933)</item><item>Fellow, American Public Health Association (1941)</item></list>
+        </item>
+        <item>Outside Committees and Responsibilities:
+          <list type="simple"><item>Physical Education
+              <list type="simple"><item>American Association for Health and Physical Education and Recreation</item><item>1929 Committee on Medical Examinations for Women and Girls</item><item>1935 Executive Committee</item><item>1935 Legislative Council</item><item>1935 Governing Board</item><item>1937 Vice-President</item><item>1932-33 Section Chairman, Therapeutic Section</item><item>1934-35 Section Chairman, Teacher Training Section</item><item>1934 Dance Section Adviser</item><item>1939-40 President</item><item>1944 Committee to establish provisions for Health Service Health Instruction, Physical Education, Athletics and Recreation for U.S. Office of Education</item><item>American Youth Hostels</item><item>Regional Committee</item><item>1938 Advisory Board, Great Lakes Area</item></list>
+            </item><item>Women's Athletic Section of American Association for Health and Physical Education
+              <list type="simple"><item>1931 Member of Executive Committee and Legislative Board</item><item>1934 Committee on Policy</item><item>1934 Finance Committee</item><item>1933-35 National College Directors' Society, Program Committee</item><item>1931-33 Mid-West College Directors' Society, President</item></list>
+            </item><item>Mid-West Physical Education Association
+              <list type="simple"><item>1930-32 Vice-President</item><item>1932-34 President</item><item>1933-34 Committee on Orthopedics</item><item>1935-36 Committee on Reorganization and Policy</item></list>
+            </item><item>State Council on Physical Education, 1934</item><item>Michigan Physical Education Association
+              <list type="simple"><item>1933-34 Advisory Committee</item></list>
+            </item><item>White House Committees
+              <list type="simple"><item>1929 Leadership Training in Secondary Schools</item><item>1929 Recreation and Physical Education</item></list>
+            </item></list>
+        </item>
+        <item>Medical and Health Education
+          <list type="simple"><item>Washtenaw County Medical Society
+              <list type="simple"><item>1936 Vice-President</item><item>1938-39 Committee on Public Health Legislation</item></list>
+            </item><item>American Student Health Association
+              <list type="simple"><item>1932-33 Committee on Physical Activities</item><item>1932-33 Committee on Program</item><item>1932-33 Women's Committee</item><item>1938- Committee on Hygiene of Physical Activities</item></list>
+            </item><item>Michigan Student Health Association
+              <list type="simple"><item>1936 Committee on Department Organization, Integration and Administration of Student Health</item></list>
+            </item><item>National Conference on College Hygiene
+              <list type="simple"><item>1932-33 Committee on Interrelations and Correlation of</item></list>
+            </item><item>Hea1th Conference called by Governor Murphy in Lansing, 1938</item><item>National Conference for Cooperation in School Health Education
+              <list type="simple"><item>1938 Member on Organization and Appraisal Committee</item><item>1939 Executive Committee, alternate member-at-large</item></list>
+            </item><item>American Association of School Administrators
+              <list type="simple"><item>1941-1942 Member, Commission on 1942 Yearbook on Health Education</item></list>
+            </item></list>
+        </item>
+      </list>
+    </bioghist>
+    <scopecontent encodinganalog="520">
+      <p>The papers support the work and activities of Margaret Bell as Professor of Physical Education, Chairman of Department of Physical Education for Women, and a physician in Health Services at the University of Michigan from 1923 to 1956, and are divided into two sub-groups of personal activities and those specific to the University of Michigan.</p>
+      <p>The strength of the papers is found in the correspondence and reports which show the growth of physical education programs for women at the University and the identification of issues important to physical education and health in the 1930s, 1940s, and 1950s, with the correspondence, speeches, and publications of Margaret Bell. Historical records about the Women's Athletic Building and the Women's Athletic Association are also important.</p>
+      <p>Significant correspondents include: Amos Alonzo Stagg, John Dewey, and Elmer D. Mitchell, as well as other physical education professionals: Elizabeth Halsey, Ernest Jokl, Julian Smith, Ruth Glassow, Jay B. Nash, Charles Harold McCloy, Mable Lee, Vance Blanchard, and Charles Forsyth.</p>
+      <p>Topics of special note include the article, "Athletic Competition for Women," written for AAU March, 29, 1954, as well as other articles about the physiological effects of exercise and sport for women. During the 1950s and early 1960s college women participated in playdays and sportsdays, rather than the organized intercollegiate athletic programs of the present day. There was concern that women were not physically capable of such strenuous demands of full-court basketball and were limited by the rules to half-court play during the 1950's, with two rovers being added in the 1960's.</p>
+    </scopecontent>
+    <controlaccess>
+      <p>
+        <extptr href="accnote" show="embed" actuate="onload"/>
+      </p>
+      <controlaccess>
+        <head>Subjects:</head>
+        <persname source="lcnaf" encodinganalog="600">Bell, Margaret, 1888-1969.</persname>
+        <subject source="lcsh" encodinganalog="650">Physical education for women--Michigan--Ann Arbor.</subject>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Physical Education for Women.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
+        <subject source="lcsh" encodinganalog="650">Women--Health and hygiene--Michigan--Ann Arbor.</subject>
+        <subject source="lcsh" encodinganalog="650">Women physicians--Michigan--Ann Arbor.</subject>
+        <subject source="lcsh" encodinganalog="650">Physicians--Michigan--Ann Arbor.</subject>
+      </controlaccess>
+      <controlaccess>
+        <head>Subjects - Visual Materials:</head>
+        <subject source="lctgm" encodinganalog="650">African Americans--Women.</subject>
+        <subject source="lctgm" encodinganalog="650">Athletic fields--Michigan--Ann Arbor.</subject>
+        <subject source="lctgm" encodinganalog="650">Children.</subject>
+        <subject source="lctgm" encodinganalog="650">Clothing and dress--1920-1960.</subject>
+        <subject source="lctgm" encodinganalog="650">Gymnasiums--Michigan--Ann Arbor.</subject>
+        <subject source="lctgm" encodinganalog="650">Physical education.</subject>
+        <subject source="lctgm" encodinganalog="650">Sports.</subject>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Physical Education for Women.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Students--Social life and customs--1951-1960.</corpname>
+        <subject source="lctgm" encodinganalog="650">Women.</subject>
+      </controlaccess>
+      <controlaccess>
+        <head>Contributors:</head>
+        <persname encodinganalog="600" source="lcnaf">Bell, Margaret, 1888-1969.</persname>
+        <persname encodinganalog="600" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n79060532">Dewey, John, 1859-1952.</persname>
+        <persname encodinganalog="600" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/nr94029651">Lee, Mabel.</persname>
+        <persname encodinganalog="600" source="lcnaf">Halsey, Elizabeth, b. 1890.</persname>
+        <persname encodinganalog="600" source="lcnaf">Jordan, Myra Beach, 1863-1946.</persname>
+        <persname encodinganalog="600" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/no2004117161">McCloy, Charles H. (Charles Harold), 1886-1959.</persname>
+        <persname encodinganalog="600" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n81127252">Mitchell, Elmer Dayton, 1889-</persname>
+        <persname encodinganalog="600" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n81114561">Nash, Jay Bryan, 1886-1965.</persname>
+        <persname encodinganalog="600" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n91070136">Palmer, Thomas Witherell, 1830-1913.</persname>
+        <persname encodinganalog="600" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n90648453">Stagg, Amos Alonzo, 1862-1965.</persname>
+        <persname encodinganalog="600" source="lcnaf">Sundwall, John, 1880-1950.</persname>
+        <persname encodinganalog="600" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n92051380">Yost, Fielding Harris, 1871-1946.</persname>
+      </controlaccess>
+      <controlaccess>
+        <head>Genre Terms:</head>
+        <genreform source="aat">Photographs.</genreform>
+      </controlaccess>
+    </controlaccess>
+    <dsc type="combined">
+      <c01 level="series">
+        <did>
+          <unittitle>Biographical Information</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Biographical sketch, curriculum vita, etc.</unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Personal Correspondence</unittitle>
+        </did>
+        <scopecontent>
+          <p>Personal correspondence, 1926-1946, arranged chronologically by school year covers Margaret Bell's career at the University of Michigan. There are references to professional activities; however, the correspondence specifically related to professional assignments, such as departmental matters, speaking engagements or writings are filed with those subjects.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1926/1927">1926/27</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1927/1928">1927/28</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1928/1929">1928/29</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1929/1930">1929/30</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1930/1931">1930/31</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1931/1932">1931/32</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1932/1933">1932/33</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1933/1934">1933/34</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1934/1935">1934/35</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1935/1936">1935/36</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1936/1937">1936/37</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1937/1938">1937/38</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1938/1939">1938/39</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1940/1941">1940/41</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1942/1946">1942-1946</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Talks and requests</unittitle>
+        </did>
+        <scopecontent>
+          <p>Talks and requests, 1928-1955, arranged chronologically and include transcripts of talks and related correspondence.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1928/1929">1928-1929</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1930/1935">1930-1935</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1939/1941">1939-1941</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1942/1955">1942-1955</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Talks <unitdate type="inclusive" normal="1936/1951">1936-1951</unitdate></unittitle>
+        </did>
+        <scopecontent>
+          <p>The Talks series, 1928-1955, is arranged chronologically with each talk and related correspondence file in separate folders. the series includes talks at educational organizations, social clubs and conferences.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Iowa State University, Iowa City, Iowa <unitdate type="inclusive" normal="1936-02-24">February 24, 1936</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Progressive Education Association <unitdate type="inclusive" normal="1936-04-25">April 25, 1936</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Playground Leaders' Institute, Camp Keewano Wohelo, Ottawa Beach, Holland, Mich. <unitdate type="inclusive" normal="1936-06">June, 1936</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>East Tennessee Education Association, October 26-28 <unitdate type="inclusive" normal="1939">1939</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>University of West Virginia, Morgantown <unitdate type="inclusive" normal="1940-07-15">July 15, 1940</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>8th International New Education Fellowship Conference, Ann Arbor, Mich. <unitdate type="inclusive" normal="1941-07-06/1941-07-12">July 6-12, 1941</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Representative Women's Clubs, Cleveland, Ohio <unitdate type="inclusive" normal="1942-02-14">February 14, 1942</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Kiwanis Club, Battle Creek, Mich. <unitdate type="inclusive" normal="1942-02-19">February 19, 1942</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Jackson High School, Jackson, Mich. <unitdate type="inclusive" normal="1942-03-03">March 3, 1942</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>6th Annual Vocations Conference, Michigan State University, East Lansing <unitdate type="inclusive" normal="1942-04-22">April 22, 1942</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Seminar sponsored by Northwestern University and Office of Management Association of Chicago <unitdate type="inclusive" normal="1941-04-24">April 24, 1941</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Radio talk, University of Michigan <unitdate type="inclusive" normal="1942-05-01">May 1, 1942</unitdate> 10:30 p.m.</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Occupational Conference, "The Role of Women in the War Effort," University of Michigan, Ann Arbor <unitdate type="inclusive" normal="1943-01-06/1943-01-08">January 6-8, 1943</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Michigan Alumnae Council Group, Monroe, Mich. <unitdate type="inclusive" normal="1949-01-19">January 19, 1949</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Women in a Defense Decade Conference, New York City Sept 27-28 <unitdate type="inclusive" normal="1941">1941</unitdate> (correspondence and handouts three folders)</unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Articles</unittitle>
+        </did>
+        <scopecontent>
+          <p>Articles, 1930-1954, chronologically, with some articles included in the notebooks of the publication series.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Correspondence <unitdate type="inclusive" normal="1930/1944">1930-1944</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle><title render="italic">Sargent Quarterly News Bulletin</title>, <unitdate type="inclusive" normal="1930">1930</unitdate>, <unitdate type="inclusive" normal="1933">1933</unitdate>, <unitdate type="inclusive" normal="1936">1936</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Athletic Competition for Women <unitdate type="inclusive" normal="1954-03-29">March 29, 1954</unitdate></unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Publications</unittitle>
+        </did>
+        <scopecontent>
+          <p>Publications, 1929-1954, arranged chronologically in three notebooks, with drafts or, publications in which articles are included. Bibliography of publications included in front of Box 3.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">3 notebooks</extent>
+            </physdesc>
+            <unittitle>Notebooks <unitdate type="inclusive" normal="1929/1954">1929-1954</unitdate></unittitle>
+            <physdesc>
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>Correspondence relating to 1942 Yearbook of the American Association of School Administrators <unitdate type="inclusive" normal="1940/1941">1940-1941</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>Requests for collaboration <unitdate type="inclusive" normal="1941">1941</unitdate>, <unitdate type="inclusive" normal="1945">1945</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>
+              <title render="italic">The Hygiene of marriage</title>
+            </unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Extra-University Appointments</unittitle>
+        </did>
+        <scopecontent>
+          <p>The Extra-university appointments series, 1931-1956, is arranged chronologically by organization and consists primarily of correspondence. The AAHPER Fitness Conference in Washington, D. C., Sept, 12-15, 1956 includes statements on physical fitness by well-known professionals - Dr. Elmer Mitchell is one of the participants.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Eastern Michigan Water Carnival Association <unitdate type="inclusive" normal="1931">1931</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Dancing Masters of America <unitdate type="inclusive" normal="1942/1943">1942/43</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Southeastern Michigan Recreation Project, Dept. of Conservation <unitdate type="inclusive" normal="1943/1944">1943/44</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>American Association of Health, Physical Education and Recreation, Committee on Affiliated Organizations <unitdate type="inclusive" normal="1949/1950">1949/50</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Wayne-Washtenaw-Macomb County Coordinating Committee on Recreation <unitdate type="inclusive" normal="1943/1944">1943/44</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Willow Run Recreational Project <unitdate type="inclusive" normal="1943/1944">1943/44</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>National Council on Physical Fitness <unitdate type="inclusive" normal="1944/1945">1944/45</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Commission on Place of Calisthenics in Physical Fitness <unitdate type="inclusive" normal="1945/1945">1945-1945</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Co-Chairman, Programming Section on School and Colleges, Joint Effort American Medical Association and National Council on Physical Fitness <unitdate type="inclusive" normal="1944">1944</unitdate> (declined)</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Committee on Physical Fitness and Commission on Physical Fitness for Women <unitdate type="inclusive" normal="1944/1945">1944/45</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Medical Advisor to Committee on Physical Fitness</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>U. S. Office of Education, Committee for Establishing Provisions of Health Services, Health Instruction, Physical Education, Athletics, and Recreation <unitdate type="inclusive" normal="1944/1945">1944/45</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Advisory Committee on Health, Physical Education, Recreation, School Camping and Outdoor Education, Michigan Department of Public Instruction <unitdate type="inclusive" normal="1945/1946">1945/46</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>National Education Association and American Medical Association, Joint Committee on Health Problems in Education <unitdate type="inclusive" normal="1947/1951">1947-1951</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Educational Policies Committee <unitdate type="inclusive" normal="1949/1951">1949-1951</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Midwest Association of College Teachers of Physical Education for Women <unitdate type="inclusive" normal="1949/1951">1949-1951</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>American Association for Health, Physical Education and Recreation Fitness Conference, Washington, D. C. <unitdate type="inclusive" normal="1956-09-12/1956-09-15">September 12-15, 1956</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>The American College of Sports Medicine <unitdate type="inclusive" normal="1956">1956</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Miscellaneous <unitdate type="inclusive" normal="1943/1956">1943-1956</unitdate></unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Miscellaneous Files</unittitle>
+        </did>
+        <scopecontent>
+          <p>The Miscellaneous files series includes school grade reports, certification records, contracts, etc. and Ann Arbor Golf and Outing Club memberships lists, 1934-1936.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Ann Arbor Golf and Outing Club <unitdate type="inclusive" normal="1934/1936">1934-1936</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>School grade reports, certification records, contracts</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Miscellaneous (personal)</unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Photographs</unittitle>
+        </did>
+        <scopecontent>
+          <p>The Photographs series is arranged by subject, including: campus scenes; colleagues and friends; dancing; medical subjects; portraits; sports: archery, basketball, volleyball, fencing, golf, gym, field hockey, riding, swimming, diving, tennis, and track. In the colleagues and friends folder are pictures of Dr. Henry Montoye and Dr. Jay B. Nash.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Campus scenes, biking, picnicking</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Colleagues, friends</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Dancing</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Medical subjects</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Portraits</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Sports: archery</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Sports: basketball, volleyball</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Sports: fencing, golf, gym, field hockey, riding</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Sports: swimming, diving</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Sports: tennis, track</unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>University of Michigan Material</unittitle>
+        </did>
+        <scopecontent>
+          <p>The University of Michigan Material series includes files documenting Bell's teaching and administrative work.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <unittitle>Michigan League</unittitle>
+          </did>
+          <scopecontent>
+            <p>Michigan League files, 1937-1950, include newspaper clippings on scrapbook sheets arranged chronologically. Bell was on the Board of Directors of the Michigan League. \</p>
+          </scopecontent>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1937/1942">1937-1942</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1943/1947">1943-1947</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1948/1950">1948-1950</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Correspondence with Dr. John Sundwall, Chairman of the Division of Hygiene, Public Health, Physical Education</unittitle>
+          </did>
+          <scopecontent>
+            <p>Correspondence, 1924-1939, with Dr. John Sundwall, Chairman of the Division of Hygiene, Public Health, Physical Education arranged chronologically and mainly covering department concerns.</p>
+          </scopecontent>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle><unitdate type="inclusive" normal="1924/1925">1924/25</unitdate>, <unitdate type="inclusive" normal="1927/1929">1927/28-1928/29</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1929/1931">1929/30-1930/31</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1931/1933">1931/32-1932/33</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1933/1936">1933/34-1935/36</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1936/1939">1936/37-1938/39</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Correspondence with the President's Office</unittitle>
+          </did>
+          <scopecontent>
+            <p>Correspondence, 1919-1936, with President's Office, arranged chronologically. Includes mainly requests from physical education faculty to attend professional meetings.</p>
+          </scopecontent>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1919/1930">1919-1930</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1931/1936">1931-1936</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Department of Physical Education for Women</unittitle>
+          </did>
+          <scopecontent>
+            <p>Department of Physical Education for Women, 1924-1941, arranged by topic, beginning with history of the department (1895-1924); administration (1926-1928); reorganization plan (1941-1942); graduate programs (1931-1939); departmental studies (1940-941); tests (1922-1954); required physical education (1919-1941); extramural competition (1937-1941); camp; and publicity (1928-1970). Correspondence and reports provide the bulk of the information.</p>
+          </scopecontent>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>History <unitdate type="inclusive" normal="1895/1924">1895-1924</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Administration <unitdate type="inclusive" normal="1926/1928">1926/27-1927/28</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Regents' proceedings <unitdate type="inclusive" normal="1914/1929">1914-1929</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Reorganization plan <unitdate type="inclusive" normal="1941/1942">1941-1942</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Graduate program <unitdate type="inclusive" normal="1931/1939">1931-1939</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Master's theses <unitdate type="inclusive" normal="1934/1940">1934-1940</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Departmental studies <unitdate type="inclusive" normal="1940/1941">1940-1941</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Required physical education</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">5</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1919/1938">1919-1938</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">5</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1939/1941">1939-1941</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Tests</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">5</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1922/1939">1922-1939</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">5</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1930/1954">1930-1954</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Extramural competition <unitdate type="inclusive" normal="1937/1941">1937-1941</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Camp <unitdate type="inclusive" normal="1926/1935">1926-1935</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Miscellaneous <unitdate type="inclusive" normal="1926/1928">1926-1928</unitdate>, <unitdate type="inclusive" normal="1936">1936</unitdate>, <unitdate type="inclusive" normal="1940/1941">1940-1941</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Publicity</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">6</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1928/1939">1928-1939</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">6</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1949/1962">1949-1962</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">6</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1963/1967">1963-1967</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">6</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1968/1970">1968-1970</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">6</container>
+            <unittitle>Barbour Gymnasium-Budget records <unitdate type="inclusive" normal="1918/1923">1918/19-1922/23</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Women's Athletic Building</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">6</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1925/1927">1925-1927</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">6</container>
+              <unittitle><unitdate type="inclusive" normal="1928">1928</unitdate> (January-February)</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">6</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1929">1929</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">6</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1930/1933">1930-1933</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">6</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1935/1937">1935-1937</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">6</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1938/1939">1938-1939</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">6</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1940/1941">1940-1941</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">6</container>
+            <unittitle>Palmer Field, 1928-1930, History</unittitle>
+          </did>
+          <scopecontent>
+            <p>The Palmer Filed file, 1928-30 includes letter from Dean Emeritus, Myra B. Jordan, in which she Identifies Senator Thomas Palmer of Detroit as the person who gave President Angell the money for the field.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Women's Athletic Association</unittitle>
+          </did>
+          <scopecontent>
+            <p>Women's Athletic Association files, 1925-1940, are arranged by subject, including: history and constitution (1925-1928); president and treasurer's reports (1928-1932); and programs and publicity materials for Lantern Night (1924-1940), a program performed by students of the University of Michigan and sponsored by WAA and the freshman class. Cabin plans also included.</p>
+          </scopecontent>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">6</container>
+              <unittitle>History and constitution <unitdate type="inclusive" normal="1925/1928">1925/26-1927/28</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">6</container>
+              <unittitle>President and treasurer's reports <unitdate type="inclusive" normal="1928/1932">1928/29-1931/32</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">6</container>
+              <unittitle>Lantern Night <unitdate type="inclusive" normal="1924/1940">1924-1940</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">6</container>
+              <unittitle>Cabin plans <unitdate type="inclusive" normal="1931/1933">1931-1933</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>School of Education</unittitle>
+          </did>
+          <scopecontent>
+            <p>The School of Education files, 1928-1941, consists of correspondence arranged chronologically. Letters and reports come mainly from Dean J. B. Edmunson.</p>
+          </scopecontent>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">6</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1928/1932">1928-1932</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">6</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1933/1934">1933-1934</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">6</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1935/1936">1935-1936</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">6</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1937/1939">1937-1939</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">6</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1940/1941">1940-1941</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">6</container>
+            <unittitle>University of Michigan Health Service <unitdate type="inclusive" normal="1928/1930">1928-1930</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">6</container>
+            <unittitle>Committee on the Defense Training Program for Women <unitdate type="inclusive" normal="1941/1943">1941-1943</unitdate></unittitle>
+          </did>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

@@ -1,0 +1,1228 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead.dtd">
+<ead>
+  <eadheader audience="internal" langencoding="iso639-2b" repositoryencoding="iso15511" dateencoding="iso8601" relatedencoding="Dublin Core">
+    <eadid countrycode="us" mainagencycode="MiU-H" publicid="-//us::MiU-H//TEXT us::MiU-H::jacquezj.xml//EN" encodinganalog="identifier">umich-bhl-02145</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="title">Finding Aid for John A. Jacquez Papers <date>1937-1999</date></titleproper>
+        <author encodinganalog="creator">Collection processed and finding aid prepared by Amy Scott</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="publisher">Bentley Historical Library, University of Michigan</publisher>
+        <date encodinganalog="date">2002</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created by Amy Scott <date>October 2002</date></creation>
+      <langusage>The finding aid is written in <language encodinganalog="language" langcode="eng">English.</language></langusage>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date>20031010</date>
+        <item>Converted to EAD2002 using Word macro and Xmetal</item>
+      </change>
+      <change>
+        <date>1999-06-</date>
+        <item>converted to new container style</item>
+      </change>
+      <change>
+        <date>20021115</date>
+        <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <frontmatter>
+    <titlepage>
+      <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
+      <titleproper>Finding Aid for <lb/>John A. Jacquez Papers, <date type="inclusive">1937-1999</date></titleproper>
+      <author>Finding aid prepared by: <lb/>Amy Scott</author>
+    </titlepage>
+  </frontmatter>
+  <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
+    <did>
+      <origination>
+        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n85028584">Jacquez, John A. (John Alfred), 1922-</persname>
+      </origination>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">6 linear feet</extent>
+      </physdesc>
+      <unittitle encodinganalog="245">John A. Jacquez Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1937/1999">1937-1999</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1962/1998">1962-1998</unitdate></unittitle>
+      <abstract>John Jacquez was a professor in the University of Michigan's Medical School and School of Public Health and was active in his field of biostatistics. The collection contains correspondence and materials relating to his teaching, research and conference activities.</abstract>
+      <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">02145 Aa 2</unitid>
+      <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
+      <repository>
+        <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea> University of Michigan</corpname>
+        <extptr href="bhladd" show="embed" actuate="onload"/>
+      </repository>
+    </did>
+    <descgrp type="admin">
+      <acqinfo encodinganalog="541">
+        <p>This collection was donated by Marianne Jacquez (donor number <num type="donor" encodinganalog="541$e">9016</num>) in September 2000.</p>
+      </acqinfo>
+      <accessrestrict encodinganalog="506">
+        <p>The collection is open for research.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+        <p>Copyright has been transferred to the Regents of the University of Michigan.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+        <p>item, folder title, box no., John A. Jacquez Papers, Bentley Historical Library, University of Michigan</p>
+      </prefercite>
+    </descgrp>
+    <bioghist encodinganalog="545">
+      <p>John A. Jacquez has been associated with the University of Michigan since 1962 as a professor of physiology and biostatistics at both the Medical School and the School of Public Health. Born in France on June 26, 1922, he and his family immigrated to New York in 1929. Jacquez earned his undergraduate degree (1943) and MD. (1947) from Cornell University, after which he had a productive tenure at the Sloan-Kettering Institute for Cancer Research in New York. He taught at the University of Michigan from 1962 until his retirement in 1990. Even in the 1990s he continued to teach with emeritus status and to be active with his research on the spread of HIV and an AIDS vaccine. Jacquez died October 16, 1999 at the age of 77.</p>
+    </bioghist>
+    <scopecontent encodinganalog="520">
+      <p>The papers of John A. Jacquez document his career both as a teacher and a researcher from the 1960s to the 1990s. The collection is arranged into five series, Personal/Biographical, Correspondence, Teaching Material, Research Material, and Conference Material.</p>
+    </scopecontent>
+    <controlaccess>
+      <p>
+        <extptr href="accnote" show="embed" actuate="onload"/>
+      </p>
+      <controlaccess>
+        <head>Subjects:</head>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n85028584">Jacquez, John A. (John Alfred), 1922-</persname>
+        <subject source="lcsh" encodinganalog="650">AIDS (Disease)--Research--United States.</subject>
+        <subject source="lcsh" encodinganalog="650">AIDS (Disease)--Study and teaching--Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650">Biometry.</subject>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81055151">University of Michigan. Medical School.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80020716">University of Michigan. School of Public Health.</corpname>
+      </controlaccess>
+      <controlaccess>
+        <head>Subjects - Visual Material:</head>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n85028584">Jacquez, John A. (John Alfred), 1922-</persname>
+      </controlaccess>
+      <controlaccess>
+        <head>Genre/Form:</head>
+        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+      </controlaccess>
+    </controlaccess>
+    <dsc type="combined">
+      <c01 level="series">
+        <did>
+          <unittitle>Personal/Biographical</unittitle>
+        </did>
+        <scopecontent>
+          <p>The Personal/Biographical (0.25 linear feet) series contains information about his education, military service, and sabbatical activities (including a scrapbook of letters, articles and photographs of his time spent at the Fogarty Center in Maryland). Also contained here are photographs of Jacquez.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle><genreform source="aat" normal="Photographs">Photographs</genreform>, <unitdate type="inclusive" normal="1987">1987</unitdate> and late, <unitdate type="inclusive" normal="1990/1999" certainty="approximate">1990s</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Education</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Junior high school/High school <unitdate type="inclusive" normal="1937/1939">1937-1939</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Cornell University: College of Arts &amp; Sciences <unitdate type="inclusive" normal="1940/1943">1940-1943</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Cornell University: Medical College <unitdate type="inclusive" normal="1944/1947">1944-1947</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Columbia University <unitdate type="inclusive" normal="1946/1953">1946-1953</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 folders</extent>
+            </physdesc>
+            <unittitle>Army career <unitdate type="inclusive" normal="1946/1958">1946-1958</unitdate></unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>IBM/National Institutes of Health <unitdate type="inclusive" normal="1959/1962">1959-1962</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(includes <genreform source="aat" normal="Photographs">photographs</genreform>)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Fogarty International Center <unitdate type="inclusive" normal="1982/1984">1982-1984</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 folders</extent>
+            </physdesc>
+            <unittitle>Fogarty International Center scrapbook <unitdate type="inclusive" normal="1982/1984">1982-1984</unitdate></unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+          <odd>
+            <p>(includes <genreform source="aat" normal="Photographs">photographs</genreform>)</p>
+          </odd>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Correspondence</unittitle>
+        </did>
+        <scopecontent>
+          <p>The Correspondence (1.25 linear feet) series is comprised of professional material for the most part, although there are personal letters scattered throughout. This series is divided into two subseries, "By name" and "By date." By name files include correspondence with research partners and colleagues, students, and academic journals, for which he often reviewed submissions. Note that although Jacquez filed correspondence with graduate students and post-doctoral students together, these categories are not entirely inclusive. Researchers should check the alphabetical name listing or under the specific category (graduate or post-doctoral) when looking for a particular student name. There are a small number of files in the By date subseries all of which include letters, drafts and notes relating to his peer reviews for academic journals.</p>
+        </scopecontent>
+        <c02 level="subseries">
+          <did>
+            <unittitle>By name</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>AIDS Conference Departmental Paper <unitdate type="inclusive" normal="1988">1988</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>American Journal of Physiology <unitdate type="inclusive" normal="1998">1998</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>American Physiological Society <unitdate type="inclusive" normal="1997">1997</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Norman Bailey <unitdate type="inclusive" normal="1993/1999">1993-1999</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">5 folders</extent>
+              </physdesc>
+              <unittitle>Richard Bellman <unitdate type="inclusive" normal="1958/1983">1958-1983</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>John J. Biesele <unitdate type="inclusive" normal="1959/1963">1959-1963</unitdate>, <unitdate type="inclusive" normal="1991">1991</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Ewart Carson <unitdate type="inclusive" normal="1996/1997">1996-1997</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
+              </physdesc>
+              <unittitle>Gilbert Chauvet <unitdate type="inclusive" normal="1979/1997">1979-1997</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
+              </physdesc>
+              <unittitle>Horace Davenport <unitdate type="inclusive" normal="1962/1989">1962-1989</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Sara Debanne <unitdate type="inclusive" normal="1996/1997">1996-1997</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Klaus Dietz <unitdate type="inclusive" normal="1990/1995">1990-1995</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Elsevier Science Publishing Co., Inc. <unitdate type="inclusive" normal="1993/1994">1993-1994</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
+              </physdesc>
+              <unittitle>David Foster <unitdate type="inclusive" normal="1972/1999">1972-1999</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+            <odd>
+              <p>(includes <genreform source="aat" normal="Photographs">photograph</genreform>)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>General <unitdate type="inclusive" normal="1984/1987">1984-1987</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Graduate students</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <unittitle>Claude Cote <unitdate type="inclusive" normal="1976/1990">1976-1990</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <unittitle>Charles Hawkins <unitdate type="inclusive" normal="1969/1986">1969-1986</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <unittitle>John Koch <unitdate type="inclusive" normal="1982/1985">1982-1985</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <unittitle>Thomas Krenitsky <unitdate type="inclusive" normal="1962/1987">1962-1987</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <unittitle>Michael Shanahan <unitdate type="inclusive" normal="1986">1986</unitdate>, <unitdate type="inclusive" normal="1989">1989</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <unittitle>H.E. Skipper <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <unittitle>Kent Stitzer <unitdate type="inclusive" normal="1972/1975">1972-1975</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <unittitle>Nelly Ullman <unitdate type="inclusive" normal="1969/1970">1969-1970</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>István Gyori <unitdate type="inclusive" normal="1993/1994">1993-1994</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Institute for Mathematics and Its Application (IMA) <unitdate type="inclusive" normal="1997/1999">1997-1999</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Journal of Biological Systems <unitdate type="inclusive" normal="1990/1993">1990-1993</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Edward H. Kaplan <unitdate type="inclusive" normal="1990">1990</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Thomas Krejcie <unitdate type="inclusive" normal="1995/1999">1995-1999</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>James Matis <unitdate type="inclusive" normal="1997/1998">1997-1998</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Miscellaneous <unitdate type="inclusive" normal="1956/1997">1956-1997</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>National Cancer Institute <unitdate type="inclusive" normal="1999">1999</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>National Institutes of Health <unitdate type="inclusive" normal="1998">1998</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Marija Norusis <unitdate type="inclusive" normal="1972/1981">1972-1981</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Philip O'Neill <unitdate type="inclusive" normal="1992">1992</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Tim Perry <unitdate type="inclusive" normal="1994">1994</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Robert Phair <unitdate type="inclusive" normal="1978/1987">1978-1987</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Physiology Department Centennial <unitdate type="inclusive" normal="1981/1982">1981-1982</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Post-doctoral students</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle>Michael Bazin <unitdate type="inclusive" normal="1967/1973">1967-1973</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle>Earl Christensen <unitdate type="inclusive" normal="1964/1971">1964-1971</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle>Daniel Fife <unitdate type="inclusive" normal="1970/1979">1970-1979</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle>Donald Foster <unitdate type="inclusive" normal="1969/1997">1969-1997</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle>Warren Glaser <unitdate type="inclusive" normal="1967/1969">1967-1969</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle>Lynn Graves <unitdate type="inclusive" normal="1963/1971">1963-1971</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle>William Hirschfeld <unitdate type="inclusive" normal="1965/1970">1965-1970</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle>Robert Haas <unitdate type="inclusive" normal="1989">1989</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle>Howard Kutchai <unitdate type="inclusive" normal="1966/1986">1966-1986</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle>Patricia Labine <unitdate type="inclusive" normal="1964/1972">1964-1972</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle>Gerald Portney <unitdate type="inclusive" normal="1965/1970">1965-1970</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle>Robert Serfling <unitdate type="inclusive" normal="1963/1971">1963-1971</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle>Roger Weinberg <unitdate type="inclusive" normal="1963/1965">1963-1965</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle>Jan West <unitdate type="inclusive" normal="1963/1976">1963-1976</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle>Leigh Whitlock <unitdate type="inclusive" normal="1963/1989">1963-1989</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Rand Corporation <unitdate type="inclusive" normal="1959/1960">1959-1960</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>C.P. Rhoads <unitdate type="inclusive" normal="1957/1959">1957-1959</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Thomas Riggs <unitdate type="inclusive" normal="1999">1999</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Michael Savageau <unitdate type="inclusive" normal="1992">1992</unitdate>, <unitdate type="inclusive" normal="1997">1997</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>James Schafer <unitdate type="inclusive" normal="1966/1993">1966-1993</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Stanley Schultz <unitdate type="inclusive" normal="1973">1973</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>James Sherman <unitdate type="inclusive" normal="1959/1962">1959-1962</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Sloan-Kettering Institute for Cancer Research <unitdate type="inclusive" normal="1947/1962">1947-1962</unitdate></unittitle>
+            </did>
+            <odd>
+              <p>(includes <genreform source="aat" normal="Photographs">photograph</genreform>)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Arthur Vander <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>J. Wu <unitdate type="inclusive" normal="1991">1991</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>By date</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1993">1993</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">3 folders</extent>
+              </physdesc>
+              <unittitle>
+                <unitdate type="inclusive" normal="1994/1999">1994-1999</unitdate>
+              </unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Teaching Material</unittitle>
+        </did>
+        <scopecontent>
+          <p>The Teaching Material (2 linear feet) series contains lecture notes as well as slides and overhead transparencies used for courses he taught at the University from 1967-1999. The bulk of this material dates 1967-1981, but Jacquez was granted emeritus status and continued to teach even after retiring.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">4 folders</extent>
+            </physdesc>
+            <unittitle>Computing workshops <unitdate type="inclusive" normal="1962/1963">1962-1963</unitdate>, <unitdate type="inclusive" normal="1966/1968">1966-1968</unitdate></unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 binders</extent>
+            </physdesc>
+            <unittitle>Physiology 540 <unitdate type="inclusive" normal="1974/1977">1974-1977</unitdate></unittitle>
+            <physdesc>
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 binders</extent>
+            </physdesc>
+            <unittitle>Physiology 540 <unitdate type="inclusive" normal="1974/1977">1974-1977</unitdate> (cont.)</unittitle>
+            <physdesc>
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 binders</extent>
+            </physdesc>
+            <unittitle>Physiology 540 <unitdate type="inclusive" normal="1979/1980">1979-1980</unitdate></unittitle>
+            <physdesc>
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">8 folders</extent>
+            </physdesc>
+            <unittitle>Physiology 540 <unitdate type="inclusive" normal="1980" certainty="approximate">circa 1980</unitdate></unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+          <odd>
+            <p>(includes transparencies)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Physiology 618 <unitdate type="inclusive" normal="1982/1997">1982-1997</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(includes transparencies)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Epidemiology 602 <unitdate type="inclusive" normal="1992">1992</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(includes transparencies)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Epidemiology 624 <unitdate type="inclusive" normal="1999">1999</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Irreversible thermodynamics</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Facilitated diffusion theory</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 folders</extent>
+            </physdesc>
+            <unittitle>Respiration <unitdate type="inclusive" normal="1967/1979">1967-1979</unitdate></unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Research Material</unittitle>
+        </did>
+        <scopecontent>
+          <p>The majority of the Research Materials (1.5 linear feet) series consists of files relating to Jacquez' research activities. Files have been identified as well as possible and separated into two subseries, AIDS and Other. The AIDS subseries relates to research with colleagues James Koopman, Carl Simon and Ira Longini and includes data, notes, drafts of papers as well as published articles by Jacquez, and information about several computer programs used in data analysis. Other files contain information about various research topics. Some of these files may actually be related to Jacquez' AIDS research, but could not be identified as such.</p>
+        </scopecontent>
+        <c02 level="subseries">
+          <did>
+            <unittitle>AIDS Research</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>SAAM Institute <unitdate type="inclusive" normal="1998">1998</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Resource Facility for Kinetic Analysis (RFKA) <unitdate type="inclusive" normal="1994/1995">1994-1995</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Identifiability (includes slides)</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">4 folders</extent>
+              </physdesc>
+              <unittitle>IDENT Consults <unitdate type="inclusive" normal="1989/1994">1989-1994</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">3 folders</extent>
+              </physdesc>
+              <unittitle>IDENT</unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">7 folders</extent>
+              </physdesc>
+              <unittitle>MACS/CCS</unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>HIV</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>HIV data</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Simulations</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Staging</unittitle>
+            </did>
+            <odd>
+              <p>(includes transparencies)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Multiple partners <unitdate type="inclusive" normal="1993">1993</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Dendritic cells/Macrophage</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
+              </physdesc>
+              <unittitle>Vaccination</unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Vaccination evaluation</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">3 folders</extent>
+              </physdesc>
+              <unittitle>R0</unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Epidemic models <unitdate type="inclusive" normal="1998">1998</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Marriage and epidemic models <unitdate type="inclusive" normal="1991">1991</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Background, summaries <unitdate type="inclusive" normal="1997">1997</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Randomization tests <unitdate type="inclusive" normal="1998/1999">1998-1999</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>James Koopman</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
+              </physdesc>
+              <unittitle>Journal of AIDS papers</unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Other Research</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Urinary tract infection (UTI)</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Lab notebook <unitdate type="inclusive" normal="1985/1986">1985-1986</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Analysis of variance <unitdate type="inclusive" normal="1965/1968">1965-1968</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Kalman-Bucy filters <unitdate type="inclusive" normal="1999">1999</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Linares</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Chris Riolo</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Early work <unitdate type="inclusive" normal="1945/1947">1945-1947</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">3 folders</extent>
+              </physdesc>
+              <unittitle>Papers</unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
+              </physdesc>
+              <unittitle>Homeostasis chapters</unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Statistics text <unitdate type="inclusive" normal="1985/1986">1985-1986</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Conference Material</unittitle>
+        </did>
+        <scopecontent>
+          <p>Jacquez attended many conferences and lectures in the U.S. and abroad from 1971-1996. He presented at almost all of them and, in some cases, organized them as well. The Conference Materials (1 linear foot) series contains correspondence, brochures, lecture notes and slides. Because the files are arranged chronologically, researchers can get a sense of how Jacquez' research interests may have changed throughout those years.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">5</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">3 folders</extent>
+            </physdesc>
+            <unittitle>Miscellaneous <unitdate type="inclusive" normal="1971/1978">1971-1978</unitdate></unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">5</container>
+            <unittitle>Michigan State University lectures <unitdate type="inclusive" normal="1972">1972</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">5</container>
+            <unittitle>Lyman Briggs College Senior Seminar in Mathematical Biology <unitdate type="inclusive" normal="1972-11-30">November 30, 1972</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">5</container>
+            <unittitle>AAAS Symposium on "Models for Transport in Biological Systems <unitdate type="inclusive" normal="1973-12-28">December 28, 1973</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(includes <genreform source="aat" normal="Photographs">photographs</genreform> and slides)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">5</container>
+            <unittitle>Thomas Lumsden <unitdate type="inclusive" normal="1973-02-03" certainty="approximate">circa February 3, 1973</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(includes slides)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">6</container>
+            <unittitle>IEEE International Symposium on Circuit Theory <unitdate type="inclusive" normal="1973-04-09">April 9, 1973</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">6</container>
+            <unittitle>University of Tennessee lectures <unitdate type="inclusive" normal="1973-11-29/1973-11-30">November 29-30, 1973</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">6</container>
+            <unittitle>History of Physiology <unitdate type="inclusive" normal="1974/1987">1974-1987</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(includes slides and negatives)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">6</container>
+            <unittitle>Miscellaneous <unitdate type="inclusive" normal="1976/1980">1976-1980</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">6</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">4 folders</extent>
+            </physdesc>
+            <unittitle>Miscellaneous <unitdate type="inclusive" normal="1979/1989">1979-1989</unitdate></unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+          <odd>
+            <p>(includes slides and negatives)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">6</container>
+            <unittitle>International Conference on Nonlinear Phenomenon in Mathematical Sciences <unitdate type="inclusive" normal="1980-06-16/1980-06-20">June 16-20, 1980</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">6</container>
+            <unittitle>Mathematical Association of America meeting <unitdate type="inclusive" normal="1980-08-18/1980-08-20">August 18-20, 1980</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(includes transparencies)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">6</container>
+            <unittitle>Mathematical Modeling in Biomedical Research <unitdate type="inclusive" normal="1984-01-23/1984-01-25">January 23-25, 1984</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(includes <genreform source="aat" normal="Photographs">photographs</genreform>)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">6</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 folders</extent>
+            </physdesc>
+            <unittitle>AIDS: Modeling &amp; Analyzing HIV Transmission: The Effect of Contact Patterns <unitdate type="inclusive" normal="1990-05-02">May 2, 1990</unitdate></unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+          <odd>
+            <p>(includes slides and transparencies)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">6</container>
+            <unittitle>Workshop on Epidemic Spread: Stochastic Modelling &amp; Data Analysis <unitdate type="inclusive" normal="1990-08-08/1990-08-12">August 8-12, 1990</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(includes <genreform source="aat" normal="Photographs">photograph</genreform>)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">6</container>
+            <unittitle>Operations Res. Soc. meeting <unitdate type="inclusive" normal="1990-10-28/1990-10-29">October 28-29, 1990</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(includes transparencies)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">6</container>
+            <unittitle>Workshop: Mixing and Contact Patterns <unitdate type="inclusive" normal="1991-06-28/1991-06-29">June 28-29, 1991</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">6</container>
+            <unittitle>Centre International de Recontres Mathematiques <unitdate type="inclusive" normal="1991-11-04/1991-11-08">November 4-8, 1991</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(includes <genreform source="aat" normal="Photographs">photograph</genreform> and transparencies)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">6</container>
+            <unittitle>Epidemiological Modeling Workshop <unitdate type="inclusive" normal="1991-12-02/1991-12-04">December 2-4, 1991</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(includes transparencies)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">6</container>
+            <unittitle>Integrative Approaches in Neurophysiology <unitdate type="inclusive" normal="1991-12-09/1991-12-10">December 9-10, 1991</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">6</container>
+            <unittitle>3rd International Conference on Mathematical Population Dynamics <unitdate type="inclusive" normal="1992-06-01/1992-06-05">June 1-5, 1992</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">6</container>
+            <unittitle>Second Geoffrey J. Butler Memorial Conference on Differential Equations &amp; Population Biology <unitdate type="inclusive" normal="1992-06-17/1992-06-20">June 17-20, 1992</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">6</container>
+            <unittitle>Isaac Newton Institute <unitdate type="inclusive" normal="1993-01-03/1993-01-09">January 3-9, 1993</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(includes <genreform source="aat" normal="Photographs">photograph</genreform>)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">6</container>
+            <unittitle>The role of primary infection in the opidemics of HIV infection in gay cohorts, 1994.</unittitle>
+          </did>
+          <odd>
+            <p>(includes slides)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">6</container>
+            <unittitle>Association of University Anesthesiologists Satellite Symposium on Pharmacokinetics and Pharmacodynamics <unitdate type="inclusive" normal="1994-05-03/1994-05-05">May 3-5, 1994</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">6</container>
+            <unittitle>Mathematical Modeling in Experimental Nutrition V <unitdate type="inclusive" normal="1994-05-08/1994-05-11">May 8-11, 1994</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">6</container>
+            <unittitle>International Conference on Differential Equations and Applications to Biology and to Industry <unitdate type="inclusive" normal="1994-06-01/1994-06-04">June 1-4, 1994</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">6</container>
+            <unittitle>Mathematical Models for Infectious Diseases <unitdate type="inclusive" normal="1994-11-27/1994-12-03">November 27-December 3, 1994</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">6</container>
+            <unittitle>Conference on Dynamical Systems in Biology and Medicine <unitdate type="inclusive" normal="1996-07-17/1996-07-20">July 17-20, 1996</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(includes slides)</p>
+          </odd>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

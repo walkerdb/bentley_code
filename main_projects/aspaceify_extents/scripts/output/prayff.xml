@@ -1,0 +1,582 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead.dtd">
+<ead>
+  <eadheader audience="internal" langencoding="iso639-2b" repositoryencoding="iso15511" dateencoding="iso8601" relatedencoding="Dublin Core">
+    <eadid countrycode="us" mainagencycode="MiU-H" publicid="-//us::MiU-H//TEXT us::MiU-H::prayff.xml//EN" encodinganalog="identifier">umich-bhl-9425</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="title">Finding Aid for Frank F. Pray Papers <date>1908-1969</date></titleproper>
+        <author encodinganalog="creator">Collection processed and finding aid prepared by Jackson Simpson</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="publisher">Bentley Historical Library, University of Michigan</publisher>
+        <date encodinganalog="date">1999</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created by Jack Simpson <date>October 1999</date></creation>
+      <langusage>The finding aid is written in <language encodinganalog="language" langcode="eng">English.</language></langusage>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date>20031010</date>
+        <item>Converted to EAD2002 using Word macro and Xmetal</item>
+      </change>
+      <change>
+        <date>1999-10-21</date>
+        <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <frontmatter>
+    <titlepage>
+      <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
+      <titleproper>Finding Aid for <lb/>Frank F. Pray Papers, <date type="inclusive">1908-1969</date></titleproper>
+      <author>Finding aid prepared by: <lb/>Jack Simpson</author>
+    </titlepage>
+  </frontmatter>
+  <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
+    <did>
+      <origination>
+        <persname source="lcnaf" encodinganalog="100">Pray, Frank F.</persname>
+      </origination>
+      <physdesc altrender="whole">
+        <extent altrender="carrier">(in 4 boxes)</extent>
+      </physdesc>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">2.7 linear feet</extent>
+      </physdesc>
+      <unittitle encodinganalog="245">Frank F. Pray Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1908/1969">1908-1969</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1910/1915">1910-1915</unitdate></unittitle>
+      <abstract>Jackson, Michigan physician; medical records, files pertaining to farm business, and personal miscellaneous.</abstract>
+      <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">9425 Aa 2</unitid>
+      <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
+      <repository>
+        <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea> University of Michigan</corpname>
+        <extptr href="bhladd" show="embed" actuate="onload"/>
+      </repository>
+    </did>
+    <descgrp type="admin">
+      <acqinfo encodinganalog="541">
+        <p>This collection is part of a series of donations made by the Pray family (donor no. <num type="donor" encodinganalog="541$e">4444</num>).</p>
+      </acqinfo>
+      <accessrestrict encodinganalog="506">
+        <p>The collection is open for research.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+        <p>Copyright has been transferred to the Board of Regents of the University of Michigan.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+        <p>item, folder title, box no., Frank F. Pray Papers, Bentley Historical Library, University of Michigan</p>
+      </prefercite>
+    </descgrp>
+    <bioghist encodinganalog="545">
+      <p>Frank Freeman Pray was born the third child of Dr. George W. and Adele Pray (maiden name Pope). Before enrolling at the University of Michigan in 1910, he oversaw the family's farm on Woodard Lake in Ionia, Michigan. Pray received his MD from Michigan's Homeopathic Medical School in 1915 and began practicing in Parma in Jackson County. Around 1920 he moved his practice to his family's new home in Jackson and practiced in that city for approximately 45 years, continuing to rent out and oversee the family farmstead remotely. Pray retired from medicine and returned to the Ionia farm in 1967. He died in 1969.</p>
+    </bioghist>
+    <scopecontent encodinganalog="520">
+      <p>The Frank F. Pray collection is comprised of three series: Medical, Farm Business, and Personal. The papers include documentation of his medical education and aspects of his medical practices, a small amount of material on the Pray family farm, and correspondence relating to Pray family history.</p>
+    </scopecontent>
+    <controlaccess>
+      <p>
+        <extptr href="accnote" show="embed" actuate="onload"/>
+      </p>
+      <controlaccess>
+        <head>Subjects:</head>
+        <subject source="lcsh" encodinganalog="650">Physicians--Michigan--Ann Arbor.</subject>
+        <persname source="lcnaf" encodinganalog="600">Pray, Frank F.</persname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Examinations.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Students--Outlines, syllabi, etc.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Homoeopathic Medical School.</corpname>
+        <subject source="lcsh" encodinganalog="650">Physicians--Michigan--Jackson.</subject>
+      </controlaccess>
+      <controlaccess>
+        <head>Subjects - Visual Material:</head>
+        <persname source="lcnaf" encodinganalog="600">Pray, Frank F.</persname>
+        <persname source="lcnaf" encodinganalog="600">Pray, George R. (George Raymond), 1878-1967.</persname>
+      </controlaccess>
+      <controlaccess>
+        <head>Genre/Form:</head>
+        <genreform source="lctgm" encodinganalog="655">Greeting cards.</genreform>
+        <genreform source="lctgm" encodinganalog="655">Business cards.</genreform>
+        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+      </controlaccess>
+    </controlaccess>
+    <dsc type="combined">
+      <c01 level="series">
+        <did>
+          <unittitle>Medical</unittitle>
+        </did>
+        <scopecontent>
+          <p>The Medical series (2.2 linear feet) consists of materials relating to Pray's medical training and career. The series is comprised primarily of notebooks, blue books, and examinations, covering a wide variety of fields, from his education at the University of Michigan medical school from 1910 to 1915. Also included in this series are professional correspondence, medical books, and several office appointment books from late in his professional career (1943-1966).</p>
+        </scopecontent>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Medical School Notes and Examinations</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Infectious Diseases notes <unitdate type="inclusive" normal="1911/1915">1911-1915</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">5 books</extent>
+              </physdesc>
+              <unittitle>Obstetrics blue books <unitdate type="inclusive" normal="1913/1914">1913-1914</unitdate></unittitle>
+              <physdesc>
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">6 books</extent>
+              </physdesc>
+              <unittitle>Physiology blue books <unitdate type="inclusive" normal="1911">1911</unitdate></unittitle>
+              <physdesc>
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Obstetrics notes</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">7 books</extent>
+              </physdesc>
+              <unittitle>Chemistry blue books <unitdate type="inclusive" normal="1910/1911">1910-1911</unitdate></unittitle>
+              <physdesc>
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Thesis-History of Chemistry <unitdate type="inclusive" normal="1911">1911</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Ophthalmology and Otolaryngology notes</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Gynecology notes</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Normal Anatomy-notes and drawings <unitdate type="inclusive" normal="1912">1912</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Histology notes and drawings <unitdate type="inclusive" normal="1911/1912">1911-1912</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">41 books</extent>
+              </physdesc>
+              <unittitle>Pathology Laboratory blue books</unittitle>
+              <physdesc>
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Chemistry notes</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Organic Chemistry notes</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Miscellaneous</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Rhetoric (notes) and legal lectures outlines</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 books</extent>
+              </physdesc>
+              <unittitle>Gynecology blue books <unitdate type="inclusive" normal="1915">1915</unitdate></unittitle>
+              <physdesc>
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Ophthalmology</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Otolaryngology</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Refraction</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">8 books</extent>
+              </physdesc>
+              <unittitle>Surgery blue books <unitdate type="inclusive" normal="1912/1914">1912-1914</unitdate></unittitle>
+              <physdesc>
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Materia Medica notes <unitdate type="inclusive" normal="1912/1914">1912-1914</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Physiological Chemistry lecture and lab notes</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Physiology notes, drawings, and lectures</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Physical Diagnosis and Medical Clinic</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Extrinsic Causes of Disease notes</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Bacteriology notes</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Hematology and Hygiene notes</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Bacteriology Lab notes and drawings <unitdate type="inclusive" normal="1912/1913">1912-1913</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Surgery notes and drawings <unitdate type="inclusive" normal="1914">1914</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Diseases-Mental and Nervous System <unitdate type="inclusive" normal="1914/1915">1914-1915</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Oversize Box" type="box">4</container>
+              <unittitle>Physiology lab drawings <unitdate type="inclusive" normal="1911" certainty="approximate">circa 1911</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Miscellaneous publications, etc</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Sketches</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Notebooks-miscellaneous fields</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">16 books</extent>
+              </physdesc>
+              <unittitle>Office appointment books <unitdate type="inclusive" normal="1943/1966" certainty="approximate">circa 1943-1966</unitdate></unittitle>
+              <physdesc>
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle><title render="italic">University of Michigan Unofficial Student's Directory</title>, <unitdate type="inclusive" normal="1914">1914</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Directory of Phi Alpha Gamma Fraternity <unitdate type="inclusive" normal="1894/1925">1894-1925</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle><title render="italic">A Laboratory Outline of General Chemistry</title> by Alexander Smith</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle><title render="italic">Thirty-seventh Annual Announcement of the Homoeopathic Medical College of the University of Michigan</title>, <unitdate type="inclusive" normal="1911/1912">1911-1912</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle><title render="italic">Thirty-Eighth Annual Announcement of the Homoeopathic Medical College of the University of Michigan</title>, <unitdate type="inclusive" normal="1912/1913">1912-1913</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle><title render="italic">Self-Cultivation in English</title> by George Herbert Palmer</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>
+                <title render="italic">The Technic of the Chicago Lying-In Hospital and Dispensary</title>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Notebook-drugs received <unitdate type="inclusive" normal="1948/1953">1948-1953</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Medical School Notes, Examinations <unitdate type="inclusive" normal="1914">1914</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Federal Narcotics Record Book <unitdate type="inclusive" normal="1915">1915</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Medical Pamphlets <unitdate type="inclusive" normal="1920/1960" certainty="approximate">circa 1920-1960</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Medical Correspondence</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">3</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1915/1935">1915-1935</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">3</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1945/1958">1945-1958</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Foote Hospital-Memos and Newsletter <unitdate type="inclusive" normal="1954/1965">1954-1965</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Farm Business</unittitle>
+        </did>
+        <scopecontent>
+          <p>The Farm Business series (.1 linear feet) includes correspondence related to the farm Pray owned and let from c.1908 to 1913. Also included are documents, notes and correspondence from 1942 to 1943, primarily concerning the finances of Pray's farm.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1908/1911">1908-1911</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1910/1913">1910-1913</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1942/1943">1942-1943</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>Farm Drawings</unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Personal</unittitle>
+        </did>
+        <scopecontent>
+          <p>The Personal series (.2 linear feet) includes primarily correspondence from friends and family, a substantial portion of which is from Pray's daughter Jeanne and his brother George R. Other interesting material relates to newspaper articles concerning the Pray legacy at the University of Michigan and Pray family reunions in the 1930s.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle><genreform source="aat" normal="Photographs">Photographs</genreform>-Frank F. and George R. Pray</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Correspondence</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1917/1969">1917-1969</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>George R. Pray <unitdate type="inclusive" normal="1943/1954">1943-1954</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Regarding George W. Pray Student Material <unitdate type="inclusive" normal="1937">1937</unitdate>, <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Helen Reddaway, London <unitdate type="inclusive" normal="1942">1942</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>General</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Receipts, correspondence-Ann Arbor businesses <unitdate type="inclusive" normal="1910/1916">1910-1916</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Lost Lake Woods Club-Lincoln, MI <unitdate type="inclusive" normal="1935/1945">1935-1945</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Pray family reunion</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Organization memberships</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Oversize Box">4</container>
+              <unittitle>Poster <unitdate type="inclusive" normal="1908">1908</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Oversize Box">4</container>
+              <unittitle>Scrapbook/Album</unittitle>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

@@ -1,0 +1,557 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead.dtd">
+<ead>
+  <eadheader audience="internal" langencoding="iso639-2b" repositoryencoding="iso15511" dateencoding="iso8601" relatedencoding="Dublin Core">
+    <eadid countrycode="us" mainagencycode="MiU-H" publicid="-//us::MiU-H//TEXT us::MiU-H::stjames.xml//EN" encodinganalog="identifier">umich-bhl-9433</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="title">Finding Aid for St. James Episcopal Church, Detroit, Mich., Records <date>1923-1993</date></titleproper>
+        <author encodinganalog="creator">Collection processed and finding aid prepared by Amy Schroer</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="publisher">Bentley Historical Library, University of Michigan</publisher>
+        <date encodinganalog="date">1994</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created by Thomas E. Powers <date>March 2002</date></creation>
+      <langusage>The finding aid is written in <language encodinganalog="language" langcode="eng">English.</language></langusage>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date>20031010</date>
+        <item>Converted to EAD2002 using Word macro and Xmetal</item>
+      </change>
+      <change>
+        <date>2002-03-25</date>
+        <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <frontmatter>
+    <titlepage>
+      <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
+      <titleproper>Finding Aid for <lb/>St. James Episcopal Church, Detroit, Mich., <lb/>Records, <date type="inclusive">1923-1993</date></titleproper>
+      <author>Finding aid prepared by: <lb/>Amy Schroer</author>
+    </titlepage>
+  </frontmatter>
+  <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
+    <did>
+      <origination>
+        <corpname source="lcnaf" encodinganalog="110">St. James Episcopal Church (Detroit, Mich.)</corpname>
+      </origination>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 oversize volume</extent>
+      </physdesc>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">8 linear feet</extent>
+      </physdesc>
+      <unittitle encodinganalog="245">St. James Episcopal Church, Detroit, Mich., records <unitdate type="inclusive" encodinganalog="245$f" normal="1923/1993">1923-1993</unitdate></unittitle>
+      <physdesc encodinganalog="300" altrender="part">
+        </physdesc>
+      <abstract>Church located in the Brightmoor area of Detroit, Michigan. Vestry meeting minutes; administrative files; registers of services; registers of baptisms, burials, marriages, etc.; records of different church organizations; bulletins of special church services; yearly files of collected clippings, photos, and other materials regarding church activities.</abstract>
+      <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">9433 Ba 2</unitid>
+      <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
+      <repository>
+        <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea> University of Michigan</corpname>
+        <extptr href="bhladd" show="embed" actuate="onload"/>
+      </repository>
+    </did>
+    <descgrp type="admin">
+      <acqinfo encodinganalog="541">
+        <p>This record group came as part of the records of the Episcopal Church, Diocese of Michigan (donor no. <num type="donor" encodinganalog="541$e">1059</num>). These records were received in 1993 and 2002. Additional materials received in 2006.</p>
+      </acqinfo>
+      <accessrestrict encodinganalog="506">
+        <p>The record group is open for research.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+        <p>Copyright has not been transferred to the Regents of the University of Michigan.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+        <p>item, folder title, box no., St. James Episcopal Church, Detroit, Mich.,Records, Bentley Historical Library, University of Michigan</p>
+      </prefercite>
+    </descgrp>
+    <bioghist encodinganalog="545">
+      <p>Brightmoor in Redford Township was originally a housing subdivision opened in 1922 and situated on Grand River Avenue approximately one mile from the city limits of Detroit. The area rapidly developed, and in 1926, the area was annexed by the city of Detroit. The beginning of Episcopal church services in Brightmoor can be traced to a "church on wheels" driven by the Rev. W.F. Jerome. Later that same year of 1923, the first recorded Episcopal Church service was held in the Brightmoor Community Hall. The congregation moved again in 1923 to the Maccabee Hall on Burt Road. Then in 1924, St. James Mission (as the church was named) erected its own building on Burt Road.</p>
+      <p>The church grew rapidly and there was need for further expansion. But not until after World War II were plans made for a new church building to be located at West Outer Drive and Lahser. The building was completed in 1951 and St. James became a parish church with the signing of corporation papers.</p>
+      <p>At one time St. James had a membership of 1600 members, but this dropped to 140 in 1988. Because of declining membership and the cost of maintaining the facility, St. James disbanded early in 1993.</p>
+    </bioghist>
+    <scopecontent encodinganalog="520">
+      <p>The records of St. James parish include vestry minutes, 1924-1993; baptism, confirmation, marriage, and burial records, 1926-1993; bulletins, administrative records; records of the Episcopal Church Women and other parish organizations; and photographs. This record group has been divided into nine series covering the period from 1923 soon after the church began conducting services until 1993 when the church members decided to disband.</p>
+    </scopecontent>
+    <controlaccess>
+      <p>
+        <extptr href="accnote" show="embed" actuate="onload"/>
+      </p>
+      <controlaccess>
+        <head>Subjects:</head>
+        <geogname source="lcsh" encodinganalog="651">Brightmoor (Detroit, Mich.)</geogname>
+        <genreform source="aat" encodinganalog="655">Church records.</genreform>
+        <geogname source="lcsh" encodinganalog="651">Detroit (Mich.)--Church history.</geogname>
+        <corpname source="lcnaf" encodinganalog="610">Episcopal Church--Michigan--Detroit.</corpname>
+        <subject source="lcsh" encodinganalog="650">Registers of births, etc.--Michigan--Detroit.</subject>
+        <corpname source="lcnaf" encodinganalog="610">St. James Episcopal Church (Detroit, Mich.)</corpname>
+      </controlaccess>
+      <controlaccess>
+        <head>Subjects - Visual Material:</head>
+        <subject source="lctgm" encodinganalog="650">Churches--Michigan--Detroit.</subject>
+        <geogname source="lctgm" encodinganalog="651">Detroit (Mich.)--Churches.</geogname>
+        <corpname source="lcnaf" encodinganalog="610">Episcopal Church--Michigan--Detroit.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">St. James Episcopal Church (Detroit, Mich.)</corpname>
+      </controlaccess>
+      <controlaccess>
+        <head>Genre/Form:</head>
+        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+      </controlaccess>
+    </controlaccess>
+    <dsc type="combined">
+      <c01 level="series">
+        <did>
+          <unittitle>Vestry Meeting Minutes <unitdate type="inclusive" normal="1924/1993">1924-1993</unitdate></unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1924/1931">1924-1931</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1931/1941">1931-1941</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">19 folders</extent>
+            </physdesc>
+            <unittitle>
+              <unitdate type="inclusive" normal="1942/1972">1942-1972</unitdate>
+            </unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">8 folders</extent>
+            </physdesc>
+            <unittitle>
+              <unitdate type="inclusive" normal="1973/1993">1973-1993</unitdate>
+            </unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Register of Services <unitdate type="inclusive" normal="1923/1992">1923-1992</unitdate></unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <physdesc altrender="part">
+              <extent altrender="materialtype spaceoccupied">1 folder</extent>
+            </physdesc>
+            <physdesc altrender="part">
+              <extent altrender="materialtype spaceoccupied">11 volumes</extent>
+            </physdesc>
+            <unittitle>
+              <unitdate type="inclusive" normal="1923/1992">1923-1992</unitdate>
+            </unittitle>
+            <physdesc>
+              </physdesc>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Registers of baptisms, communicants, burials, marriages <unitdate type="inclusive" normal="1926/1993">1926-1993</unitdate></unittitle>
+        </did>
+        <scopecontent>
+          <p>The registers of Baptisms, communicants, burials, marriages total ten volumes and date from 1926 to 1992. Included in this series is a card file index to the volumes.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">6</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">9 volumes</extent>
+            </physdesc>
+            <unittitle>
+              <unitdate type="inclusive" normal="1926/1992">1926-1992</unitdate>
+            </unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="volume" label="Oversize Volume">1</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1932/1963">1932-1963</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Card File Index</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">7</container>
+              <unittitle>A-K</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container label="Box" type="box">8</container>
+              <unittitle>L-Z</unittitle>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Administrative Records <unitdate type="inclusive" normal="1924/1993">1924-1993</unitdate></unittitle>
+        </did>
+        <scopecontent>
+          <p>Administrative Records, covering the years 1924-1993, documents specific administrative functions within the church. Included are applications for baptisms, burials, lay ministers, membership transfers, and marriages. The church budgets in this series help to explain the finances of the church. The building fund files serve to document both the erection of the church's different facilities as well as its fund-raising capabilities. This series also contains correspondence relating to the closing of the church in 1992-1993.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <unittitle>Applications</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Baptisms <unitdate type="inclusive" normal="1990/1992">1990-1992</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Burials <unitdate type="inclusive" normal="1990/1992">1990-1992</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Lay ministers <unitdate type="inclusive" normal="1973/1992">1973-1992</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Letters of transfer <unitdate type="inclusive" normal="1975/1993">1975-1993</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Marriages <unitdate type="inclusive" normal="1954/1965">1954-1965</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>Budgets <unitdate type="inclusive" normal="1977/1988">1977-1988</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Building Funds</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Campaign for education addition <unitdate type="inclusive" normal="1956">1956</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Campaign for new church building <unitdate type="inclusive" normal="1950">1950</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Rectory blueprints and decorating specifications <unitdate type="inclusive" normal="1960">1960</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>Chart of church accounts <unitdate type="inclusive" normal="1992">1992</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Correspondence</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>re. Church closing <unitdate type="inclusive" normal="1992/1993">1992-1993</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>re. Restoration to communicant status <unitdate type="inclusive" normal="1954/1958">1954-1958</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>Instructions and procedures</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>Parochial reports <unitdate type="inclusive" normal="1978/1992">1978-1992</unitdate></unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Church Organizations</unittitle>
+        </did>
+        <scopecontent>
+          <p>Church Organizations consists mainly of minutes of such church organizations as the Girls Friendly Society and the Young Peoples Society. Covering the years 1929-1992, the series demonstrates the importance of women in the church.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <unittitle>Episcopal Church Women (ECW)</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>Board Meeting Minutes</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">3</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1962/1965">1962-1965</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">3</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1983/1985">1983-1985</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Correspondence <unitdate type="inclusive" normal="1983/1985">1983-1985</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Treasurers' reports <unitdate type="inclusive" normal="1962/1965">1962-1965</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>Girls Friendly Society Meeting Minutes <unitdate type="inclusive" normal="1929/1932">1929-1932</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>Safe Haven Program <unitdate type="inclusive" normal="1992">1992</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>Women's Auxiliary Minutes <unitdate type="inclusive" normal="1952/1963">1952-1963</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>Young Peoples Secretary Book <unitdate type="inclusive" normal="1929/1932">1929-1932</unitdate></unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Church Bulletins (special services) <unitdate type="inclusive" normal="1964/1992">1964-1992</unitdate></unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1964/1969">1964-1969</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1970/1976">1970-1976</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1977/1992">1977-1992</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Yearly Activities <unitdate type="inclusive" normal="1926/1977">1926-1977</unitdate></unittitle>
+        </did>
+        <scopecontent>
+          <p>Yearly files of clippings, photographs, and other materials describing church activities and events. This series covers the years 1926-1977.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1926">1926</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1932/1947">1932-1947</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1950">1950</unitdate>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 folders</extent>
+            </physdesc>
+            <unittitle>
+              <unitdate type="inclusive" normal="1951/1953">1951-1953</unitdate>
+            </unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">21 folders</extent>
+            </physdesc>
+            <unittitle>
+              <unitdate type="inclusive" normal="1955/1977">1955-1977</unitdate>
+            </unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>
+            <genreform source="aat" normal="Photographs">Photographs</genreform>
+          </unittitle>
+        </did>
+        <scopecontent>
+          <p>Photographs consists of photographs of church events such as the cornerstone laying and other building related services, confirmation photos, and portraits of the men who have served as rectors of the church.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">3 folders</extent>
+            </physdesc>
+            <unittitle>Church events (cornerstone-laying, etc.)</unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Church groups</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Confirmation photos <unitdate type="inclusive" normal="1955/1987">1955-1987</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Church rectors</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1930/1959">1930-1959</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1964/1989">1964-1989</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <container type="box" label="Box">5</container>
+          <unittitle>Membership cards</unittitle>
+        </did>
+        <scopecontent>
+          <p>The final series, Membership, contains cards with information about congregation members, such as family names, dates of marriage, number of children, and addresses.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">5</container>
+            <unittitle>Membership cards</unittitle>
+          </did>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

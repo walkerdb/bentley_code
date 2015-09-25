@@ -1,0 +1,637 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead.dtd">
+<ead>
+  <eadheader audience="internal" langencoding="iso639-2b" repositoryencoding="iso15511" dateencoding="iso8601" relatedencoding="Dublin Core">
+    <eadid countrycode="us" mainagencycode="MiU-H" publicid="us//::miu-h//TXT us::miu-h::stonerlp.xml//EN" encodinganalog="identifier">umich-bhl-8691</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="title">Finding Aid for Ralph Stone Papers, 1882-1956</titleproper>
+        <author encodinganalog="creator">Collection processed and finding aid created by Michigan Historical Collection staff</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="publisher">Bentley Historical Library, University of Michigan</publisher>
+        <date encodinganalog="date">2006</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created by Thomas E. Powers <date>March 2006</date></creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date>20060301</date>
+        <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <frontmatter>
+    <titlepage>
+      <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
+      <titleproper>Finding aid for <lb/>Ralph Stone Papers, 1882-1956</titleproper>
+      <author>Finding aid created by <lb/>Michigan Historical Collection staff</author>
+    </titlepage>
+  </frontmatter>
+  <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
+    <did>
+      <origination>
+        <persname source="lcnaf" encodinganalog="100">Stone, Ralph, 1868-1956.</persname>
+      </origination>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">3 oversize volumes</extent>
+      </physdesc>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">4 linear feet</extent>
+      </physdesc>
+      <unittitle encodinganalog="245">Ralph Stone papers <unitdate type="inclusive" encodinganalog="245$f" normal="1882/1956">1882-1956</unitdate></unittitle>
+      <physdesc encodinganalog="300" altrender="part">
+        </physdesc>
+      <unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">8691 Aa 2; AC</unitid>
+      <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
+      <abstract>Detroit banker, alumnus and regent of the University of Michigan; contain correspondence and other papers largely concerning University affairs, including athletics, the Development Council, alumni activities, regental affairs; also papers concerning Detroit city government, Detroit Street Railways, affairs of the Alien Property Custodian in World War I, recollections of University life in 1890's,articles on Hazen S. Pingree and Chase S. Osborn; also scrapbooks, speeches, manuscripts, and genealogical material.</abstract>
+      <repository>
+        <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea>, University of Michigan</corpname>
+        <extptr href="bhladd" show="embed" actuate="onload"/>
+      </repository>
+    </did>
+    <descgrp type="admin">
+      <acqinfo encodinganalog="541">
+        <p>The collection was largely donated by Ralph Stone (donor no. <num type="donor" encodinganalog="541$e">1981</num>) in multiple accessions, 1944-1955. Miscellaneous other materials came from the U-M Development Council (donor no. <num type="donor" encodinganalog="541$e">3576</num>).</p>
+      </acqinfo>
+      <accessrestrict encodinganalog="506">
+        <p>The collection is open to research.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+        <p>Copyright is held by the Regents of the University of Michigan.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+        <p>[item], folder, box,
+Ralph Stone Papers, Bentley Historical Library, University of Michigan</p>
+      </prefercite>
+    </descgrp>
+    <bioghist encodinganalog="545">
+      <p>Ralph Stone was born in Wilmington, Delaware, November 20, 1868. He was graduated from Swarthmore College in 1889, then from the University of Michigan Law School in 1892. At the U-M, Stone was a member of the first editorial staff of the <title render="italic">Michigan Daily</title> and editor-in-chief of the <title render="italic">Michigan Law Journal</title>. In succeeding years Stone was active in alumni affairs and fundraising. He was trustee of the Alumni Fund from its incorporation in 1920 until 1941.</p>
+      <p>He began practicing law in Grand Rapids in 1892. The next year he was appointed trust officer of the Michigan Trust Company of Grand Rapids. On January 1, 1899, he was appointed private secretary to Governor Hazen S. Pingree. After serving briefly as a state bank examiner, he was appointed assistant secretary of the newly organized Detroit Trust Co. He was president of the Detroit Trust Co. from 1915 to 1927 and chairman of the board from 1927 to 1933. Thereafter was consultant to the company until he retired in 1945.</p>
+      <p>During World War I, Stone was director of the Bureau of Trusts of the Alien Property Custodian in Washington DC. He was also president of the Detroit Bureau of Governmental Research, a trustee of the Cranbrook Foundation, and treasurer of the Liberty Loan Committee of Detroit and Wayne County.</p>
+      <p>Stone served two eight-year terms as Regent of the University of Michigan, from 1924 to 1940</p>
+      <p>He died in May 11, 1956.</p>
+    </bioghist>
+    <scopecontent encodinganalog="520">
+      <p>The Stone collection is arranged into the following series: Correspondence; Speeches and Articles; Subject Files; and Clipping and Scrapbooks.</p>
+    </scopecontent>
+    <controlaccess>
+      <p>
+        <extptr href="accnote" show="embed" actuate="onload"/>
+      </p>
+      <controlaccess>
+        <head>Subjects:</head>
+        <subject source="lcsh" encodinganalog="650">Athletics--Michigan--Ann Arbor.</subject>
+        <subject source="lcsh" encodinganalog="650">Banks and banking--Michigan--Detroit.</subject>
+        <geogname source="lcsh" encodinganalog="651" authfilenumber="http://id.loc.gov/authorities/names/n79045539.html">Detroit (Mich.)</geogname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n2003089201">Detroit United Railway.</corpname>
+        <subject source="lcsh" encodinganalog="650">Municipal government--Michigan--Detroit.</subject>
+        <persname source="lcnaf" encodinganalog="600">Osborn, Chase S. (Chase Salmon), b. 1860.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n86868022">Pingree, Hazen S., 1840-1901.</persname>
+        <subject source="lcsh" encodinganalog="650">Street-railroads--Michigan--Detroit.</subject>
+        <corpname source="lcnaf" encodinganalog="610">United States. Alien Property Custodian.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr93034095">University of Michigan. Alumni Association.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Sports.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/nr89016998">University of Michigan. Board of Regents.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Development Council.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Football.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Students--Social life and customs--1891-1900.</corpname>
+        <subject source="lcsh" encodinganalog="650">World War, 1914-1918.</subject>
+      </controlaccess>
+      <controlaccess>
+        <head>Contributors:</head>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50045033">Vandenberg, Arthur H. (Arthur Hendrick), 1884-1951.</persname>
+      </controlaccess>
+      <controlaccess>
+        <head>Genre Terms:</head>
+        <genreform source="aat" encodinganalog="655">Scrapbooks.</genreform>
+      </controlaccess>
+    </controlaccess>
+    <dsc type="combined">
+      <c01 level="series">
+        <did>
+          <unittitle>Correspondence</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Regarding Stone's entrance to the University of Michigan <unitdate type="inclusive" normal="1890/1891">1890-1891</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Concerning the Advisory Board of the University Athletic Association <unitdate type="inclusive" normal="1893">1893</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Personal correspondence</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1900/1910">1900-1910</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1928/1931">1928-1931</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1932/1934">1932-1934</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1935/1939">1935-1939</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>
+                <unitdate normal="1940/1943">1940-1943</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1944">1944</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1945">1945</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1946">1946</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1947">1947</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1948">1948</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1949">1949</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1950">1950</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1951">1951</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1952">1952</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1953">1953</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1954/1955">1954-1955</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1956">1956</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>
+                <unitdate type="inclusive">Undated</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Speeches and Articles</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"From the Old Scrapbook" <unitdate type="inclusive" normal="1890/1892">1890-1892</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(reminiscences of extracurricular activities at the University of Michigan)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>History of the University of Michigan Detroit alumni groups</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>''Who was Ruth Waldo?"</unittitle>
+          </did>
+          <odd>
+            <p>(Genealogical sketch of the Stone family)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"Recollections of the University of Michigan Alumni Fund''</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"Liberty loan committee for Detroit and Wayne County in World War I.''</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>"Hazen Pingree, the man-not a statue.''</unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Subject Files</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Detroit Street Railways <unitdate type="inclusive" normal="1899">1899</unitdate>, <unitdate type="inclusive" normal="1954">1954</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Student publications at the University of Michigan <unitdate type="inclusive" normal="1893">1893</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Development Council at the University of Michigan <unitdate type="inclusive" normal="1951/1952">1951-1952</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 folders</extent>
+            </physdesc>
+            <unittitle>Alumni Fund and the Development Council <unitdate type="inclusive" normal="1943/1953">1943-1953</unitdate></unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Intercollegiate Athletic Association of the Northwest <unitdate type="inclusive" normal="1950/1951">1950-1951</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Detroit Bureau of Governmental Research <unitdate type="inclusive" normal="1947/1954">1947-1954</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Cranbrook Music Project <unitdate type="inclusive" normal="1951/1952">1951-1952</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>60th reunion of the <unitdate type="inclusive" normal="1892">1892</unitdate> law class, <unitdate type="inclusive" normal="1952">1952</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Semi-centennial of the Michigan Daily <unitdate type="inclusive" normal="1940">1940</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Advisory Committee on the sale of alien property, minutes <unitdate type="inclusive" normal="1918/1920">1918-1920</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Work of the Advisory Committee, memorandum <unitdate type="inclusive" normal="1920">1920</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Michigan state deficit <unitdate type="inclusive" normal="1953">1953</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Charles E. Wilson's sale of General Motors stock before becoming Secretary of Defense <unitdate type="inclusive" normal="1953">1953</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 folders</extent>
+            </physdesc>
+            <unittitle>Miscellanea</unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Clippings and Scrapbooks</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Newspaper clippings <unitdate type="inclusive" normal="1887/1893">1887-1893</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Scrapbooks</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1889">1889</unitdate>
+              </unittitle>
+            </did>
+            <odd>
+              <p>(Subjects: Delaware politics, "Subsidies to American Ships" by George W. Stone; some clippings about Ralph Stone)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1892/1893">1892-1893</unitdate>
+              </unittitle>
+            </did>
+            <odd>
+              <p>(Subjects: Ann Arbor -- baseball; <title render="italic">Grand Rapids Herald</title> editorials, law practice, and tennis)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1895/1898">1895-1898</unitdate>
+              </unittitle>
+            </did>
+            <odd>
+              <p>(Subjects: Grand Rapids -- politics -- marriage of Ralph Stone and Mary Jeffords -- New York Bar Association speech -- letters to editor written anonymously by RS for Gas and Electric Co. -- Michigan Trust Co.)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1899-04/1899-05">April-May 1899</unitdate>
+              </unittitle>
+            </did>
+            <odd>
+              <p>(Subjects: Governor Hazen Pingree era)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1899-05/1899-07">May-July 1899</unitdate>
+              </unittitle>
+            </did>
+            <odd>
+              <p>(Subjects: Governor Hazen Pingree era)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1899-07-13/1899-07-29">July 13-29, 1899</unitdate>
+              </unittitle>
+            </did>
+            <odd>
+              <p>(Subjects: Governor Hazen Pingree era)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1899-07/1899-12">July-December 1899</unitdate>
+              </unittitle>
+            </did>
+            <odd>
+              <p>(Subjects: Governor Hazen Pingree era)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1900-02/1900-12">February-December 1900</unitdate>
+              </unittitle>
+            </did>
+            <odd>
+              <p>(Subjects: Governor Hazen Pingree era)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1901-02/1910-10">February 1901-October 1910</unitdate>
+              </unittitle>
+            </did>
+            <odd>
+              <p>(Subjects: Pingree's death, Detroit Trust Co. -- miscellaneous trust companies -- sports-addresses)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1911-02/1915-12">February 1911-December 1915</unitdate>
+              </unittitle>
+            </did>
+            <odd>
+              <p>(Subjects: father mayor of Santa Cruz, Calif. -- tennis championship in Detroit -- trust co.)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1915/1919">1915-1919</unitdate>
+              </unittitle>
+            </did>
+            <odd>
+              <p>(Subjects: Detroit Trust Co. -- Liberty Loans -- Alien Property Custodian)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1917">1917</unitdate>
+              </unittitle>
+            </did>
+            <odd>
+              <p>(Subjects: Alien Property Custodian)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1919/1921">1919-1921</unitdate>
+              </unittitle>
+            </did>
+            <odd>
+              <p>(Subjects: mother's death -- Amy Stone's stories -- first University of Michigan Alumni Fund started -- daughter Ruth's and Henry Caulkins' wedding)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>
+                <unitdate type="inclusive" normal="1921/1931">1921-1931</unitdate>
+              </unittitle>
+            </did>
+            <odd>
+              <p>(oversize volume)</p>
+            </odd>
+            <odd>
+              <p>(Almost entirely Detroit Trust Co. matters-sale of Lincoln Motor Co. to Henry Ford-Election as Regent of U of M-Magazine Articles and Addresses-Death of Father, March 19, 1923 -- 32 page Report on First Alumni Fund U of M-Dodge Sale-25th Anniversary of the Trust Co.-Addition of 100 feet front to present office of Detroit Trust Co.-Report to Mayor Lodge on Street Railways-Organization of Detroit Bankers Co.-Committee on City Finances, Ralph Stone, Chairman-Ralph Stone elected 2nd term as Regent U of M)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1929/1948">1929-1948</unitdate>
+              </unittitle>
+            </did>
+            <odd>
+              <p>(50th Anniversary of The Michigan Trust Co.-Photos Birmingham home from <title render="italic">Better Homes and Gardens</title>-completion of 2nd term as Regent U of M-50th Anniversary <title render="italic">Michigan Daily</title> with speech-Copy first article, Vol. I, No. 1, in <title render="italic">Michigan Alumnus</title> by Ralph Stone: "The Alumni Question-A Review"-Photo Ralph Stone with Tony Trabert (National Tennis Champion 1953) as player national boys tournament at Cranbrook-Review by "The Commentator" W. K. Kelsey in <title render="italic">Detroit News</title> of article by Ralph Stone, "Enemy Property in Two World Wars," in <title render="italic">Michigan Alumnus Quarterly Review</title>-Ralph Stone awarded "Scott Medal for Distinguished Alumni Service")</p>
+            </odd>
+            <odd>
+              <p>(oversize volume)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">2</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1947/1953">1947-1953</unitdate>
+              </unittitle>
+            </did>
+            <odd>
+              <p>(More about above Medal for Distinguished Alumni Service, U of M Photo of first staff of U of M Daily 1890-92-Copy first page U of M Daily, September 29, 1890-marriage of grandson Ralph Stone Caulkins to Beverley Cordner-50th Anniversary Detroit Trust Co.-Photo Swarthmore College Orchestra of 1886 Ralph Stone 'cello-Speech before Detroit Historical Society by Ralph Stone on "Hazen S. Pingree, The Man-Not a Statue"-History by Ralph Stone of U of M Alumni Association of Detroit)</p>
+            </odd>
+            <odd>
+              <p>(oversize volume)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle><unitdate type="inclusive" normal="1882/1890">1882-1890</unitdate> of George W. Stone</unittitle>
+            </did>
+            <odd>
+              <p>(Excerpt of Stone's note: Scrapbook kept by my Father George W. Stone, a merchant (large establishment, engines, boilers, saw mills, oils, ship chandlery, plumbing supplies, electric goods) then Treasurer, American Unitarian Association, ordained as a minister by Reverend Edward Everett Hale and others, minister at Kansas City, Field Secretary (equivalent to Bishop in other denominations) in charge of all Unitarian Churches west of Rocky Mountains, retired to become minister of Church of Santa Cruz, Calif., and Mayor of Santa Cruz and a member of the California State Board of Education for two terms by appointment of Governor Hiram Johnson. Scrapbook contains editorials by him in Wilmington (Del.) <title render="italic">Morning News</title>, many letters to the editor, addresses on various subjects, many on subsidies to American shipping (he was Secretary for Delaware of the American Shipping &amp; Industrial League., lectures on various subjects, politics in Delaware. He was Judge Advocate in the North Atlantic Squadron during the Civil War on Admiral Porter's staff, blockading the Atlantic Coast, etc. He lectured in the large armory at Hampton Roads, Va., during the Civil War, on the Constitution of the United States to as many as 2000 in the audiences of soldiers and sailors at Fortress Monroe. He was the first to board the "Monitor" (with a fellow officer) after its battle with the Confederate "Merrimac." He had just been admitted to the bar of Cortland County, New York.)</p>
+            </odd>
+          </c03>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

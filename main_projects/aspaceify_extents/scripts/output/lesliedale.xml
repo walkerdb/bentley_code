@@ -1,0 +1,522 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead.dtd">
+<ead>
+  <eadheader audience="internal" langencoding="iso639-2b" repositoryencoding="iso15511" dateencoding="iso8601" relatedencoding="Dublin Core" scriptencoding="iso15924" countryencoding="iso3166-1">
+    <eadid countrycode="us" mainagencycode="MiU-H" publicid="-//us::MiU-H//TEXT us::MiU-H::lesliedale.xml//EN" encodinganalog="Identifier">umich-bhl-9577</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="Title">Finding Aid for Dale R. Leslie papers</titleproper>
+        <author encodinganalog="Creator">Collection processed and finding aid created by Jessica Venlet</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="Publisher">Bentley Historical Library, University of Michigan</publisher>
+        <date encodinganalog="Date" normal="2015">2014</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created by Olga Virakhovskaya <date>2015</date></creation>
+      <langusage encodinganalog="Language">The finding aid is written in <language langcode="eng" scriptcode="Latn">English</language></langusage>
+      <descrules>Finding aid prepared using Describing Archives: A Content Standard (DACS)</descrules>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date>2014-02-02</date>
+        <item>Original encoding from Word 2010 file using Word macros and Xmetal.</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <frontmatter>
+    <titlepage>
+      <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
+      <titleproper>Finding aid for <lb/>Dale R. Leslie Collection, 1941-2013</titleproper>
+      <author>Finding aid created by <lb/>Jessica Venlet, February 2014.</author>
+    </titlepage>
+  </frontmatter>
+  <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
+    <did>
+      <origination>
+        <persname source="lcnaf" encodinganalog="100">Leslie, Dale R., collector</persname>
+      </origination>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">8.25 GB</extent>
+        <physfacet>online</physfacet>
+      </physdesc>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">0.4 linear feet</extent>
+      </physdesc>
+      <unittitle encodinganalog="245">Dale R. Leslie collection <unitdate type="inclusive" encodinganalog="245$f" normal="1941/2013">1941-2013</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="2008/2013">2008-2013</unitdate></unittitle>
+      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">9577 Aa 2 UAm</unitid>
+      <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
+      <abstract>Ann Arbor, Mich. resident and businessman with strong interest in local history. Collection includes video featuring interviews with residents and other historical footage of landmarks and events in Ann Arbor, Ypsilanti, and the hamlet of Dixboro as well as collected papers and records related to Ann Arbor High School and Dixboro United Methodist Church.</abstract>
+      <repository>
+        <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea>, University of Michigan</corpname>
+        <extptr href="bhladd" show="embed" actuate="onload"/>
+      </repository>
+    </did>
+    <descgrp type="admin">
+      <acqinfo encodinganalog="541">
+        <p>Donated by Dale R. Leslie (donor no. <num type="donor" encodinganalog="541$e">6874</num>) in various accessions from 2006-2014.</p>
+      </acqinfo>
+      <accruals encodinganalog="584">
+        <p>Periodic additions to the papers expected.</p>
+      </accruals>
+      <accessrestrict encodinganalog="506">
+        <p>The collection is open to research. The collection is open without restriction. Due to copyright, some digital sound recordings are only available in the reading room of the Bentley Historical Library.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+        <p>Copyright is held by the Regents of the University of Michigan except in the case of professionally produced sound recordings.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+        <p>[item], folder, box,
+Dale R. Leslie collection, Bentley Historical Library, University of Michigan</p>
+      </prefercite>
+      <processinfo>
+        <p>
+          <extptr href="digitalproc" show="embed" actuate="onload"/>
+        </p>
+      </processinfo>
+    </descgrp>
+    <bioghist encodinganalog="545">
+      <p>Dale Leslie, a life-long Ann Arborite, is an active local history steward and community volunteer in the greater Ann Arbor, Michigan area. Leslie earned master's degrees from Ohio University and the University of Michigan as well as a bachelor's degree from Eastern Michigan University. From 1961-1997, Leslie owned and operated Leslie Office Supply, Inc. The business was sold in 1997.</p>
+      <p>Leslie has been active in several Ann Arbor area community groups. Leslie is on the board of directors for the Washtenaw County Historical Society, a member and former president of the Kiwanis Club of Ann Arbor, a former executive committee member of the Ann Arbor Area Chamber of Commerce, a former member of the City of Ann Arbor Cable Communications Commission, and a member of the Ann Arbor First Presbyterian Church.</p>
+    </bioghist>
+    <arrangement encodinganalog="351">
+      <p>The Dale R. Leslie papers collection is comprised of two series: Michigan History and Interviews.</p>
+    </arrangement>
+    <scopecontent encodinganalog="520">
+      <p>Most of the collection consists of digitized film footage and digital video relating to Ann Arbor and Michigan history.</p>
+    </scopecontent>
+    <controlaccess>
+      <p>
+        <extptr href="accnote" show="embed" actuate="onload"/>
+      </p>
+      <controlaccess>
+        <head>Subjects:</head>
+        <geogname source="lcsh" encodinganalog="651">Ann Arbor (Mich.)--History.</geogname>
+        <corpname source="lcnaf" encodinganalog="610">Ann Arbor High School (Mich.)--Football.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Ann Arbor High School (Mich.). Class of 1966.</corpname>
+        <subject source="lcsh" encodinganalog="650">Autism--Michigan.</subject>
+        <corpname source="lcnaf" encodinganalog="610">Big Ten Conference (U.S.)--Songs and music.</corpname>
+        <geogname source="lcsh" encodinganalog="651">Dixboro (Mich.)--Church history.</geogname>
+        <geogname source="lcsh" encodinganalog="651">Dixboro (Mich.)--History.</geogname>
+        <corpname source="lcnaf" encodinganalog="610">Dixboro United Methodist Church (Dixboro, Mich.)--History.</corpname>
+        <persname source="lcnaf" encodinganalog="600">Leslie, Dale R.</persname>
+        <subject source="lcsh" encodinganalog="650">Radio broadcasting--Michigan--Detroit.</subject>
+        <geogname source="lcsh" encodinganalog="651">Superior (Washtenaw County, Mich.: Township)--History.</geogname>
+        <geogname source="lcsh" encodinganalog="651">Ypsilanti (Mich.)--History.</geogname>
+        <subject source="lcsh" encodinganalog="650">World War, 1939-1945.</subject>
+      </controlaccess>
+      <controlaccess>
+        <head>Subjects - Visual Materials:</head>
+        <subject source="lctgm" encodinganalog="650">Air shows--Michigan.</subject>
+        <corpname source="lcnaf" encodinganalog="610">Ann Arbor High School (Mich.)</corpname>
+        <subject source="lctgm" encodinganalog="650">Students--Michigan--Ann Arbor.</subject>
+      </controlaccess>
+      <controlaccess>
+        <head>Subjects - Sound Recordings:</head>
+        <corpname source="lcnaf" encodinganalog="610">Dixboro United Methodist Church (Dixboro, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no91003491">Big Ten Conference (U.S.)</corpname>
+      </controlaccess>
+      <controlaccess>
+        <head>Genre Terms:</head>
+        <genreform source="aat" encodinganalog="655">Digital moving image formats.</genreform>
+        <genreform source="aat" encodinganalog="655">Sound recordings.</genreform>
+      </controlaccess>
+    </controlaccess>
+    <dsc type="combined">
+      <c01 level="series">
+        <did>
+          <unittitle>Michigan History</unittitle>
+        </did>
+        <scopecontent>
+          <p>The Michigan History series (3 folders and 4.44 GB) includes images, recordings, and interviews on the subject of local history, events, and landmarks. It is divided into three subseries according to geographic locations covered by the material: Ann Arbor, Detroit, and Dixboro and Superior Township.</p>
+          <p>The Ann Arbor History subseries (1 folder, 3GB) includes various video and paper materials related to events and people from Ann Arbor. It also contains a program and a commemorative video recording from the 50 year reunion of the 1962 state champion Ann Arbor High School football team. Also included is footage of the building of Ann Arbor High School in the 1950s, the memorial service for University of Michigan athletic standout Don Lund, and videos of various individuals who spoke at local Kiwanis Club meetings.</p>
+          <p>The Detroit History subseries (1 folder, 0.8GB) consists of one digitized CD audio called <title render="italic">Motor City Radio Reunion.</title></p>
+          <p>The Dixboro and Superior Township History subseries (1 folder, 0.64GB) consists of several informative videos and a recorded speeches about the history of Dixboro, particularly the Dixboro United Methodist Church. Also included is a silent film, with new narration by Dale Leslie, from 1941 called <title render="italic">Sweet Genevieve.</title></p>
+        </scopecontent>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Ann Arbor</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Ann Arbor High School Football 50 Year Reunion</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <unittitle>Program and other items <unitdate type="inclusive" normal="2012">2012</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle><unitdate type="inclusive" normal="1962">1962</unitdate> Seadon Highlights (video recording), <unitdate type="inclusive" normal="1962">1962</unitdate></unittitle>
+                <physdesc>
+                  <physfacet>.MP4 file</physfacet>
+                </physdesc>
+                <dao href="http://hdl.handle.net/2027.42/106556" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[download item]</p>
+                  </daodesc>
+                </dao>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle><title render="italic">Dale R. (for "Radio") Leslie Presents Big Ten Medley</title>, <unitdate type="inclusive">undated</unitdate></unittitle>
+              <physdesc>
+                <physfacet>.ZIP file)</physfacet>
+              </physdesc>
+              <dao href="http://hdl.handle.net/2027.42/110280" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[download item]</p>
+                </daodesc>
+              </dao>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>Building Ann Arbor High School, 1953-56</unittitle>
+              <physdesc>
+                <physfacet>.MOV file</physfacet>
+              </physdesc>
+              <dao href="http://hdl.handle.net/2027.42/106518" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[download item]</p>
+                </daodesc>
+              </dao>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>Don Lund Memorial Service <unitdate type="inclusive" normal="2013">2013</unitdate></unittitle>
+              <physdesc>
+                <physfacet>.MP4 file</physfacet>
+              </physdesc>
+              <dao href="http://hdl.handle.net/2027.42/106529" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[download item]</p>
+                </daodesc>
+              </dao>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>Memorial Day Tribute <unitdate type="inclusive" normal="2013">2013</unitdate></unittitle>
+              <physdesc>
+                <physfacet>.MP4 file</physfacet>
+              </physdesc>
+              <dao href="http://hdl.handle.net/2027.42/106531" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[download item]</p>
+                </daodesc>
+              </dao>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>Michigan Radio (WUOM) Highlights <unitdate type="inclusive" normal="2013">2013</unitdate></unittitle>
+              <physdesc>
+                <physfacet>.MOV file</physfacet>
+              </physdesc>
+              <dao href="http://hdl.handle.net/2027.42/106522" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[download item]</p>
+                </daodesc>
+              </dao>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Kiwanis Club of Ann Arbor Presentations</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>Art Holst (Former NFL official) <unitdate type="inclusive" normal="2011">2011</unitdate></unittitle>
+                <physdesc>
+                  <physfacet>.M4V file</physfacet>
+                </physdesc>
+                <dao href="http://hdl.handle.net/2027.42/106516" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[download item]</p>
+                  </daodesc>
+                </dao>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>Neal Boudette (Wall Street Journal Detroit Bureau Chief) <unitdate type="inclusive" normal="2012">2012</unitdate></unittitle>
+                <physdesc>
+                  <physfacet>.M4V file</physfacet>
+                </physdesc>
+                <dao href="http://hdl.handle.net/2027.42/106525" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[download item]</p>
+                  </daodesc>
+                </dao>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>Sheriff Harvey: "The Michigan Murders," <unitdate type="inclusive" normal="2011">2011</unitdate></unittitle>
+                <physdesc>
+                  <physfacet>.M4V file</physfacet>
+                </physdesc>
+                <dao href="http://hdl.handle.net/2027.42/106523" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[download item]</p>
+                  </daodesc>
+                </dao>
+              </did>
+              <odd>
+                <p>(former sheriff reflects on the 1960s "Michigan Murders" cases)</p>
+              </odd>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Detroit History</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle><title render="italic">Motor City Radio Reunion</title>, <unitdate type="inclusive" normal="2010">2010</unitdate></unittitle>
+              <physdesc>
+                <physfacet>.ZIP file</physfacet>
+              </physdesc>
+              <dao href="http://hdl.handle.net/2027.42/110281" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[download item]</p>
+                </daodesc>
+              </dao>
+            </did>
+            <accessrestrict>
+              <p>[Download access restricted to BHL Reading Room]</p>
+            </accessrestrict>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Dixboro and Superior Township</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>Dixboro United Methodist Church</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <unittitle>Speeches <unitdate type="inclusive" normal="1983">1983</unitdate> (cassette tape)</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>Sesquicentennial <unitdate type="inclusive" normal="2008">2008</unitdate></unittitle>
+                <physdesc>
+                  <physfacet>.MP4 file</physfacet>
+                </physdesc>
+                <dao href="http://hdl.handle.net/2027.42/106528" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[download item]</p>
+                  </daodesc>
+                </dao>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>Dixboro School, Centennial Observance <unitdate type="inclusive" normal="1988">1988</unitdate></unittitle>
+              <physdesc>
+                <physfacet>.MP4 file</physfacet>
+              </physdesc>
+              <dao href="http://hdl.handle.net/2027.42/106527" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[download item]</p>
+                </daodesc>
+              </dao>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>Sanderson, Harvey (speech) <unitdate type="inclusive" normal="1982">1982</unitdate></unittitle>
+              <physdesc>
+                <physfacet>.MP4 file</physfacet>
+              </physdesc>
+              <dao href="http://hdl.handle.net/2027.42/106530" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[download item]</p>
+                </daodesc>
+              </dao>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle><title render="italic">Sweet Genevieve</title>, <unitdate type="inclusive" normal="1941">1941</unitdate></unittitle>
+              <physdesc>
+                <physfacet>.MOV file</physfacet>
+              </physdesc>
+              <dao href="http://hdl.handle.net/2027.42/106524" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[download item]</p>
+                </daodesc>
+              </dao>
+            </did>
+            <odd>
+              <p>(Silent film)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>Tour of Dixboro <unitdate type="inclusive" normal="1989">1989</unitdate></unittitle>
+              <physdesc>
+                <physfacet>.MP4 file</physfacet>
+              </physdesc>
+              <dao href="http://hdl.handle.net/2027.42/106526" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[download item]</p>
+                </daodesc>
+              </dao>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Interviews</unittitle>
+        </did>
+        <scopecontent>
+          <p>The Interviews series (1 folder, 3.84GB) features interviews performed or collected by Dale Leslie. The interviewees are members of the University of Michigan, Ann Arbor, Brighton and Ypsilanti communities.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <physloc>Online</physloc>
+            <unittitle><title render="italic">Austin: Autism Personified</title>, <unitdate type="inclusive" normal="2007">2007</unitdate></unittitle>
+            <physdesc>
+              <physfacet>.MP4 file</physfacet>
+            </physdesc>
+            <dao href="http://hdl.handle.net/2027.42/106555" show="new" actuate="onrequest">
+              <daodesc>
+                <p>[download item]</p>
+              </daodesc>
+            </dao>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <physloc>Online</physloc>
+            <unittitle>Fletcher, Peter B. <unitdate type="inclusive" normal="2008">2008</unitdate></unittitle>
+            <physdesc>
+              <physfacet>.MP4 file</physfacet>
+            </physdesc>
+            <dao href="http://hdl.handle.net/2027.42/106532" show="new" actuate="onrequest">
+              <daodesc>
+                <p>[download item]</p>
+              </daodesc>
+            </dao>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <physloc>Online</physloc>
+            <unittitle><title render="italic">Recollections of the Ann Arbor Air Force</title>, <unitdate type="inclusive" normal="2009">2009</unitdate></unittitle>
+            <physdesc>
+              <physfacet>.MOV file</physfacet>
+            </physdesc>
+            <dao href="http://hdl.handle.net/2027.42/106428" show="new" actuate="onrequest">
+              <daodesc>
+                <p>[download item]</p>
+              </daodesc>
+            </dao>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <physloc>Online</physloc>
+            <unittitle>Renfrew, Al <unitdate type="inclusive" normal="2012">2012</unitdate></unittitle>
+            <physdesc>
+              <physfacet>.MOV file</physfacet>
+            </physdesc>
+            <dao href="http://hdl.handle.net/2027.42/106427" show="new" actuate="onrequest">
+              <daodesc>
+                <p>[download item]</p>
+              </daodesc>
+            </dao>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <physloc>Online</physloc>
+            <unittitle>Staebler, Don (Living a Legacy) <unitdate type="inclusive" normal="2011">2011</unitdate></unittitle>
+            <physdesc>
+              <physfacet>.M4V file</physfacet>
+            </physdesc>
+            <dao href="http://hdl.handle.net/2027.42/106519" show="new" actuate="onrequest">
+              <daodesc>
+                <p>[download item]</p>
+              </daodesc>
+            </dao>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <physloc>Online</physloc>
+            <unittitle>Stegath, Dr. William B. <unitdate type="inclusive" normal="2011">2011</unitdate></unittitle>
+            <physdesc>
+              <physfacet>.MOV file</physfacet>
+            </physdesc>
+            <dao href="http://hdl.handle.net/2027.42/106520" show="new" actuate="onrequest">
+              <daodesc>
+                <p>[download item]</p>
+              </daodesc>
+            </dao>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <physloc>Online</physloc>
+            <unittitle>Willis, Dr. Edgar E. <unitdate type="inclusive" normal="2013">2013</unitdate></unittitle>
+            <physdesc>
+              <physfacet>.MOV file</physfacet>
+            </physdesc>
+            <dao href="http://hdl.handle.net/2027.42/106521" show="new" actuate="onrequest">
+              <daodesc>
+                <p>[download item]</p>
+              </daodesc>
+            </dao>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <physloc>Online</physloc>
+            <unittitle>Woinowsk, Russ <unitdate type="inclusive">undated</unitdate></unittitle>
+            <physdesc>
+              <physfacet>.MP4 file</physfacet>
+            </physdesc>
+            <dao href="http://hdl.handle.net/2027.42/106557" show="new" actuate="onrequest">
+              <daodesc>
+                <p>[download item]</p>
+              </daodesc>
+            </dao>
+          </did>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

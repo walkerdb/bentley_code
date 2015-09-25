@@ -1,0 +1,967 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead.dtd">
+<ead>
+  <eadheader audience="internal" langencoding="iso639-2b" repositoryencoding="iso15511" dateencoding="iso8601" relatedencoding="Dublin Core">
+    <eadid countrycode="us" mainagencycode="MiU-H" publicid="-//us::MiU-H//TEXT us::MiU-H::umarchdr.xml//EN" encodinganalog="identifier">umich-bhl-861158</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="title">Finding Aid for University of Michigan Architectural Drawings <date>1838-1979</date></titleproper>
+        <author encodinganalog="creator">Collection processed and finding aid prepared by Nancy Bartlett</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="publisher">Bentley Historical Library, University of Michigan</publisher>
+        <date encodinganalog="date">2003</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created by Thomas E. Powers <date>May 2003</date></creation>
+      <langusage>The finding aid is written in <language encodinganalog="language" langcode="eng">English.</language></langusage>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date>20031010</date>
+        <item>Converted to EAD2002 using Word macro and Xmetal</item>
+      </change>
+      <change>
+        <date>1999-06-</date>
+        <item>converted to new container style</item>
+      </change>
+      <change>
+        <date>20030530</date>
+        <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <frontmatter>
+    <titlepage>
+      <publisher>University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
+      <titleproper>Finding Aid for <lb/>University of Michigan <lb/>Architectural Drawings, 1838-1979</titleproper>
+      <author>Finding aid prepared by: <lb/>Nancy Bartlett</author>
+    </titlepage>
+  </frontmatter>
+  <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
+    <did>
+      <origination>
+        <corpname source="lcnaf" encodinganalog="110">University of Michigan.</corpname>
+      </origination>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">1 rolled set of blueprints</extent>
+      </physdesc>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">17 oversize folders</extent>
+        <extent altrender="carrier">(in 3 blueprint cabinet drawers)</extent>
+      </physdesc>
+      <unittitle encodinganalog="245">University of Michigan Architectural Drawings <unitdate type="inclusive" encodinganalog="245$f" normal="1838/1979">1838-1979</unitdate></unittitle>
+      <abstract>Blueprints, renderings, and blue-line prints of original University structures, and additions to, and alterations of existing structures. Architects and architectural firms represented include: Albert Kahn, Alexander J. Davis, Pond and Pond, C. William Palmer, and William LeBaron Jenney.</abstract>
+      <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">861158; Bimu;2</unitid>
+      <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
+      <repository>
+        <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea> University of Michigan</corpname>
+        <extptr href="bhladd" show="embed" actuate="onload"/>
+      </repository>
+    </did>
+    <descgrp type="admin">
+      <acqinfo encodinganalog="541">
+        <p>The drawings came from different sources, but manly from the U-M department of buildings and grounds.</p>
+      </acqinfo>
+      <accessrestrict encodinganalog="506">
+        <p>The collection is open for research.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+        <p>Copyright status uncertain.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+        <p>item, folder title, box no., University of Michigan Architectural Drawings, Bentley Historical Library, University of Michigan</p>
+      </prefercite>
+    </descgrp>
+    <scopecontent encodinganalog="520">
+      <p>This collection of University of Michigan architectural blueprints, renderings, and blueline prints has been drawn together from different sources. The provenance is not always clear, though most of the sheets probably originated with the Buildings and Grounds Department of the University. The collection is selective and does not include all campus buildings. Significant buildings are included, however, as are important architects and architectural firms. Represented in the collection are the works of Albert Kahn, Alexander J. Davis, Pond and Pond, the Chicago architectural firm, C. William Palmer, William L. Jenney, and York and Sawyer of New York.</p>
+    </scopecontent>
+    <controlaccess>
+      <p>
+        <extptr href="accnote" show="embed" actuate="onload"/>
+      </p>
+      <controlaccess>
+        <head>Subjects:</head>
+        <corpname source="lcnaf" encodinganalog="610">Administration Building (University of Michigan)</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Alumni Center (University of Michigan)</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Angell Hall (University of Michigan)</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Ann Arbor High School (Mich.)</corpname>
+        <subject source="lcsh" encodinganalog="650">Architects.</subject>
+        <subject source="lcsh" encodinganalog="650">Architecture.</subject>
+        <corpname source="lcnaf" encodinganalog="610">Art Building (University of Michigan)</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Burton Tower (University of Michigan)</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Central Service and Stack Building (University of Michigan)</corpname>
+        <subject source="lcsh" encodinganalog="650">Dormitories--Michigan--Ann Arbor.</subject>
+        <corpname source="lcnaf" encodinganalog="610">East Medical Building (University of Michigan)</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Engineering Shops Building (University of Michigan)</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Frieze Building (University of Michigan)</corpname>
+        <subject source="lcsh" encodinganalog="650">Gymnasiums--Michigan--Ann Arbor.</subject>
+        <corpname source="lcnaf" encodinganalog="610">Haven Hall (University of Michigan : 1863-1950)</corpname>
+        <subject source="lcsh" encodinganalog="650">Historic buildings--Michigan--Ann Arbor.</subject>
+        <corpname source="lcnaf" encodinganalog="610">Hutchins Hall (University of Michigan)</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Legal Research Building (University of Michigan)</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Margaret Bell Pool (University of Michigan)</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Mason Hall (University of Michigan : 1841-1950)</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Michigan League.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Michigan Stadium (Ann Arbor, Mich.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Michigan Union.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Natural Science Building (University of Michigan)</corpname>
+        <corpname source="lcnaf" encodinganalog="610">President's House (University of Michigan)</corpname>
+        <corpname source="lcnaf" encodinganalog="610">School of Music Building (University of Michigan : Proposed)</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Simpson Memorial Institute (University of Michigan)</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Stockwell Hall (University of Michigan)</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Student Christian Association Building (University of Michigan)</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Tappan Hall (University of Michigan)</corpname>
+        <corpname source="lcnaf" encodinganalog="610">University Hall (University of Michigan)</corpname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Buildings.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n80094504">University of Michigan. College of Engineering.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Library.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Matthaei Botanical Gardens.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n79073704">University of Michigan. School of Business Administration.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Student housing.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan. University Hospital.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Waterman Gymnasium (University of Michigan)</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Women's Athletic Building (University of Michigan)</corpname>
+      </controlaccess>
+      <controlaccess>
+        <head>Contributors:</head>
+        <corpname source="lcnaf" encodinganalog="610">Albert Kahn Associated Architects &amp; Engineers, Inc.</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2003036753">Bailey, Vernon Howe, 1874-1953.</persname>
+        <corpname source="lcnaf" encodinganalog="610">Black and Black.</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/nr2002036607">Cobb, Henry Ives, 1859-1931.</persname>
+        <corpname source="lcnaf" encodinganalog="610">Colvin, Robinson and Associates.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Dahlstrom and Schmitz.</corpname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n80153777">Davis, Alexander Jackson, 1803-1892.</persname>
+        <persname source="lcnaf" encodinganalog="600">Fry, Lynn W., 1894-1976.</persname>
+        <corpname source="lcnaf" encodinganalog="610">Fry and Kasurin.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Giffels &amp; Vallet, and Rossetti.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Harley, Ellington &amp; Day.</corpname>
+        <persname source="lcnaf" encodinganalog="600">Hubel, R. W.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n78050673">Jenney, William Le Baron, 1832-1907.</persname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n88163469">Kahn, Albert, 1869-1942.</persname>
+        <persname source="lcnaf" encodinganalog="600">Loree, Douglas D.</persname>
+        <corpname source="lcnaf" encodinganalog="610">Malcomson &amp; Higginbotham, architects.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Otis and Clark (Chicago, Ill.)</corpname>
+        <persname source="lcnaf" encodinganalog="600">Palmer, C. William, 1886-1965.</persname>
+        <corpname source="lcnaf" encodinganalog="610">Pond &amp; Pond Architects.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Van Brunt and Howe (Boston, Mass.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Ware and Van Brunt (Boston, Mass.)</corpname>
+        <corpname source="lcnaf" encodinganalog="610">York &amp; Sawyer.</corpname>
+      </controlaccess>
+      <controlaccess>
+        <head>Genre/Form:</head>
+        <genreform source="aat" encodinganalog="655">Architectural drawings.</genreform>
+      </controlaccess>
+    </controlaccess>
+    <dsc type="combined">
+      <c01 level="series">
+        <did>
+          <unittitle>Architectural drawings</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <container type="map-case" label="Drawer">1</container>
+            <container type="folder" label="Folder">1</container>
+            <unittitle>Administration Building. Harley, Ellington, and Day, architects <unitdate type="inclusive" normal="1944">1944</unitdate></unittitle>
+            <physdesc>
+              <physfacet>One pencil and ink rendering on paper</physfacet>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="map-case" label="Drawer">1</container>
+            <container type="folder" label="Folder">1</container>
+            <unittitle>Administration Building for Proposed Engineering Research Group. Architect unknown <unitdate type="inclusive">Undated</unitdate></unittitle>
+            <physdesc>
+              <physfacet>Two negative photographic copies of renderings</physfacet>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="map-case" label="Drawer">1</container>
+            <container type="folder" label="Folder">1</container>
+            <unittitle>Angell Hall Addition. Lynn W. Fry, supervising architect <unitdate type="inclusive">Undated</unitdate></unittitle>
+            <physdesc>
+              <physfacet>Four charcoal renderings on paper</physfacet>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="map-case" label="Drawer">1</container>
+            <container type="folder" label="Folder">1</container>
+            <unittitle>College of Architecture and Design. New Art Center. Architect unknown <unitdate type="inclusive" normal="1958">1958</unitdate></unittitle>
+            <physdesc>
+              <physfacet>Six black-line prints, including one rendering, one site plan, and four floor plans</physfacet>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="map-case" label="Drawer">1</container>
+            <container type="folder" label="Folder">2</container>
+            <unittitle>Art Building Study. Henry Ives Cobb, architect <unitdate type="inclusive" normal="1899">1899</unitdate></unittitle>
+            <physdesc>
+              <physfacet>Two watercolor renderings on paper</physfacet>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="map-case" label="Drawer">1</container>
+            <container type="folder" label="Folder">2</container>
+            <unittitle>Proposed Astronomy Group on Base Lake. Buildings and Grounds Department designers.</unittitle>
+            <physdesc>
+              <physfacet>Two sheets, including one colored pencil rendered site plan on paper, and one positive print rendering</physfacet>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="map-case" label="Drawer">1</container>
+            <container type="folder" label="Folder">2</container>
+            <unittitle>Botanical Gardens and Arboretum. Alger Dahlstrom and Herbert Schmitz, architects <unitdate type="inclusive">undated</unitdate></unittitle>
+            <physdesc>
+              <physfacet>Two sheets, including photographic negative and positive copies of aerial perspectives</physfacet>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="map-case" label="Drawer">1</container>
+            <container type="folder" label="Folder">2</container>
+            <unittitle>Burton Tower. Vernon Howe Bailey, artist <unitdate type="inclusive">undated</unitdate></unittitle>
+            <physdesc>
+              <physfacet>One ink sketch rendering on paper</physfacet>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="map-case" label="Drawer">1</container>
+            <container type="folder" label="Folder">2</container>
+            <unittitle>Business Administration, proposed school. Black and Black, architects <unitdate type="inclusive">undated</unitdate></unittitle>
+            <physdesc>
+              <physfacet>Three floor plans in ink</physfacet>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="map-case" label="Drawer">1</container>
+            <container type="folder" label="Folder">2</container>
+            <unittitle>Central Service and Stack Building. Albert Kahn, architect <unitdate type="inclusive" normal="1953">1953</unitdate></unittitle>
+            <physdesc>
+              <physfacet>One colored pencil rendering on paper</physfacet>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="map-case" label="Drawer">1</container>
+            <container type="folder" label="Folder">3</container>
+            <unittitle>Church Street and East University Science Building. [on the site of present Physics and Astronomy Building]. Giffels &amp; Vallet, and Rossetti, architects <unitdate type="inclusive">undated</unitdate></unittitle>
+            <physdesc>
+              <physfacet>Four sheets, including perspectives, site plan, and floor plans; contain photographs of models, one rendering, and black-line prints</physfacet>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="map-case" label="Drawer">1</container>
+            <container type="folder" label="Folder">3.</container>
+            <unittitle>Detroit Observatory Residence <unitdate type="inclusive" normal="1905">1905</unitdate></unittitle>
+            <physdesc>
+              <physfacet>Six floor plans</physfacet>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="map-case" label="Drawer">1</container>
+            <container type="folder" label="Folder">3.</container>
+            <unittitle>Dramatic Arts. R. W. Hubel, architect <unitdate type="inclusive" normal="1923">1923</unitdate></unittitle>
+            <physdesc>
+              <physfacet>One colored pencil rendering on illustration board</physfacet>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="map-case" label="Drawer">1</container>
+            <container type="folder" label="Folder">3.</container>
+            <unittitle>East Medical Building. Albert Kahn, architect <unitdate type="inclusive" normal="1927">1927</unitdate></unittitle>
+            <physdesc>
+              <physfacet>Five blueline prints of floor plans</physfacet>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="map-case" label="Drawer">1</container>
+            <container type="folder" label="Folder">4</container>
+            <unittitle>Old Engineering Shops. Buildings and Grounds Department <unitdate type="inclusive">undated</unitdate></unittitle>
+            <physdesc>
+              <physfacet>Three floor plans done in pencil on tracing paper</physfacet>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="map-case" label="Drawer">1</container>
+            <container type="folder" label="Folder">4</container>
+            <unittitle>Engineering College, Proposed Future Development. Buildings and Grounds Department <unitdate type="inclusive">undated</unitdate></unittitle>
+            <physdesc>
+              <physfacet>One positive print of colored pencil aerial rendering</physfacet>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="map-case" label="Drawer">1</container>
+            <container type="folder" label="Folder">4</container>
+            <unittitle>Engineering Shops Tower and Dormer. Buildings and Grounds Department <unitdate type="inclusive" normal="1917">1917</unitdate></unittitle>
+            <physdesc>
+              <physfacet>Four sheets, including elevations, plan, and section done in pencil on tracing paper</physfacet>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="map-case" label="Drawer">1</container>
+            <container type="folder" label="Folder">4</container>
+            <unittitle>Field House for Signal Corps. Buildings and Grounds Department <unitdate type="inclusive" normal="1918">1918</unitdate></unittitle>
+            <physdesc>
+              <physfacet>Two sheets, including elevations, sections, plans, and details done in ink on tracing linen</physfacet>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="map-case" label="Drawer">1</container>
+            <container type="folder" label="Folder">4</container>
+            <unittitle>Gymnasiums. Buildings and Grounds Department <unitdate type="inclusive" normal="1927">1927</unitdate></unittitle>
+            <physdesc>
+              <physfacet>Three photographic positive prints of floor plans</physfacet>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="map-case" label="Drawer">1</container>
+            <container type="folder" label="Folder">4</container>
+            <unittitle>Haven Hall. Buildings and Grounds Department <unitdate type="inclusive" normal="1935/1937">1935-1937</unitdate></unittitle>
+            <physdesc>
+              <physfacet>Four blueprints of floor plans</physfacet>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="map-case" label="Drawer">1</container>
+            <container type="folder" label="Folder">4</container>
+            <unittitle>Hutchins Hall. York and Sawyer, architects <unitdate type="inclusive" normal="1930">1930</unitdate></unittitle>
+            <physdesc>
+              <physfacet>Three prints of pencil renderings</physfacet>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="map-case" label="Drawer">1</container>
+            <container type="folder" label="Folder">4</container>
+            <unittitle>Albert Kahn unidentified building. Albert Kahn, architect, pre-1928</unittitle>
+            <physdesc>
+              <physfacet>One-pencil and watercolor drawing of front elevation on Illustration board</physfacet>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="map-case" label="Drawer">1</container>
+            <container type="folder" label="Folder">4</container>
+            <unittitle>Law School. York and Sawyer, architects <unitdate type="inclusive">undated</unitdate></unittitle>
+            <physdesc>
+              <physfacet>One blueprint of site plan</physfacet>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="map-case" label="Drawer">1</container>
+            <container type="folder" label="Folder">4</container>
+            <unittitle>League. Pond and Pond, architects <unitdate type="inclusive" normal="1926">1926</unitdate></unittitle>
+            <physdesc>
+              <physfacet>Four blueprints of floor plans)</physfacet>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="map-case" label="Drawer">1</container>
+            <container type="folder" label="Folder">4</container>
+            <unittitle>Legal Research Building. York and Sawyer, architects <unitdate type="inclusive" normal="1929">1929</unitdate></unittitle>
+            <physdesc>
+              <physfacet>One print of pencil rendering</physfacet>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="map-case" label="Drawer">2</container>
+            <container type="folder" label="Folder">5</container>
+            <unittitle>Library Addition study. Albert Kahn, architect <unitdate type="inclusive" normal="1947">1947</unitdate></unittitle>
+            <physdesc>
+              <physfacet>Five renderings, including pencil, ink, and watercolor renderings on illustration board; and positive print of colored pencil rendering</physfacet>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="map-case" label="Drawer">2</container>
+            <container type="folder" label="Folder">5</container>
+            <unittitle>Main Building. Building and Grounds Department <unitdate type="inclusive" normal="1914">1914</unitdate></unittitle>
+            <physdesc>
+              <physfacet>Two sheets, including floor plan and details done in ink on tracing linen</physfacet>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="map-case" label="Drawer">2</container>
+            <container type="folder" label="Folder">5</container>
+            <unittitle>Mason Hall proposal. Alexander J. Davis, architect <unitdate type="inclusive" normal="1838">1838</unitdate></unittitle>
+            <physdesc>
+              <physfacet>Two floor plans done in pencil and ink on paper</physfacet>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="map-case" label="Drawer">2</container>
+            <container type="folder" label="Folder">5</container>
+            <unittitle>Mason Hall. Board of Regents Building Committee <unitdate type="inclusive" normal="1840">1840</unitdate></unittitle>
+            <physdesc>
+              <physfacet>Four sheets, including three floor plans, done in ink on paper and one positive photograph of rendering</physfacet>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="map-case" label="Drawer">2</container>
+            <container type="folder" label="Folder">5</container>
+            <unittitle>Medical Campus <unitdate type="inclusive">undated</unitdate></unittitle>
+            <physdesc>
+              <physfacet>One aerial photograph of a model</physfacet>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="map-case" label="Drawer">2</container>
+            <container type="folder" label="Folder">6</container>
+            <unittitle>Michigan Game Room. Pond and Pond, architects <unitdate type="inclusive">undated</unitdate></unittitle>
+            <physdesc>
+              <physfacet>One gouache on paper</physfacet>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="map-case" label="Drawer">2</container>
+            <container type="folder" label="Folder">6.</container>
+            <unittitle>Michigan Union. Pond and Pond, architects <unitdate type="inclusive" normal="1916">1916</unitdate></unittitle>
+            <physdesc>
+              <physfacet>Four renderings, including three done in ink on paper tracings, and one ink on paper print</physfacet>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="map-case" label="Drawer">2</container>
+            <container type="folder" label="Folder">7</container>
+            <unittitle>Music (Proposed School of). Architect unknown <unitdate type="inclusive">undated</unitdate></unittitle>
+            <physdesc>
+              <physfacet>One rendering done in ink on paper</physfacet>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="map-case" label="Drawer">2</container>
+            <container type="folder" label="Folder">7</container>
+            <unittitle>Natural Science. Architect unknown <unitdate type="inclusive">undated</unitdate></unittitle>
+            <physdesc>
+              <physfacet>One floor plan of auditorium seating done in ink on linen tracing)</physfacet>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="map-case" label="Drawer">2</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 items</extent>
+            </physdesc>
+            <container type="folder" label="Folder">7</container>
+            <unittitle>Natural Science Building. Albert Kahn, architect <unitdate type="inclusive">undated</unitdate></unittitle>
+            <physdesc>
+              </physdesc>
+          </did>
+          <odd>
+            <p>(see also rolled blueprints)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="map-case" label="Drawer">2</container>
+            <container type="folder" label="Folder">7</container>
+            <unittitle>Nurses Central Residence. Albert Kahn, architect <unitdate type="inclusive">undated</unitdate></unittitle>
+            <physdesc>
+              <physfacet>Two renderings, charcoal and water color tracing</physfacet>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="map-case" label="Drawer">2</container>
+            <container type="folder" label="Folder">7</container>
+            <unittitle>University of Michigan President's House. Buildings and Grounds Department <unitdate type="inclusive" normal="1920">1920</unitdate></unittitle>
+            <physdesc>
+              <physfacet>Nine blueprints of plans for remodeling, including three perspectives and six floor plans)</physfacet>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="map-case" label="Drawer">2</container>
+            <container type="folder" label="Folder">7</container>
+            <unittitle>President's House Additions. Albert Kahn, architect <unitdate type="inclusive" normal="1932">1932</unitdate></unittitle>
+            <physdesc>
+              <physfacet>Ten blueprints</physfacet>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="map-case" label="Drawer">2</container>
+            <container type="folder" label="Folder">7</container>
+            <unittitle>Science Building. Room No. 475. Sound proof room. Buildings and Grounds Department, 1917.</unittitle>
+            <physdesc>
+              <physfacet>Two blueprints of plans, sections, and details</physfacet>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="map-case" label="Drawer">2</container>
+            <container type="folder" label="Folder">8</container>
+            <unittitle>Simpson Memorial Institute. Albert Kahn, architect <unitdate type="inclusive" normal="1925" certainty="approximate">circa 1925</unitdate></unittitle>
+            <physdesc>
+              <physfacet>One rendering done in colored pencil on tracing paper</physfacet>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="map-case" label="Drawer">2</container>
+            <container type="folder" label="Folder">8.</container>
+            <unittitle>University of Michigan Stadium. Press Box Elevation. Bernard L. Green, civil engineer <unitdate type="inclusive" normal="1927">1927</unitdate></unittitle>
+            <physdesc>
+              <physfacet>One blueprint, including one perspective and details</physfacet>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="map-case" label="Drawer">2</container>
+            <container type="folder" label="Folder">8</container>
+            <unittitle>University of Michigan Stadium. Radio Booth. Bernard L. Green, civil engineer <unitdate type="inclusive" normal="1927">1927</unitdate></unittitle>
+            <physdesc>
+              <physfacet>One blueprint of details</physfacet>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="map-case" label="Drawer">2</container>
+            <container type="folder" label="Folder">8</container>
+            <unittitle>University of Michigan. Storehouse and shops. Buildings and Grounds Department <unitdate type="inclusive" normal="1929">1929</unitdate></unittitle>
+            <physdesc>
+              <physfacet>Four blue-line prints, including three floor plans and one section)</physfacet>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="map-case" label="Drawer">2</container>
+            <container type="folder" label="Folder">8</container>
+            <unittitle>Student Christian Association Building. Otis and Clark, architects <unitdate type="inclusive" normal="1916">1916</unitdate></unittitle>
+            <physdesc>
+              <physfacet>Three blueprints of furniture layout plans</physfacet>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="map-case" label="Drawer">2</container>
+            <container type="folder" label="Folder">8</container>
+            <unittitle>Tappan Hall. Architect unknown <unitdate type="inclusive">undated</unitdate></unittitle>
+            <physdesc>
+              <physfacet>Four sheets, pencil on tracing paper, undated, including one rendering and three floor plans</physfacet>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="map-case" label="Drawer">2</container>
+            <container type="folder" label="Folder">9</container>
+            <unittitle>University Hall. Proposed theater. Buildings and Grounds Department <unitdate type="inclusive" normal="1914">1914</unitdate></unittitle>
+            <physdesc>
+              <physfacet>Three ink on linen tracings, including two sections and one plan</physfacet>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="map-case" label="Drawer">2</container>
+            <container type="folder" label="Folder">9</container>
+            <unittitle>University Hall Extension office cabinet. Buildings and Grounds Department <unitdate type="inclusive" normal="1917">1917</unitdate></unittitle>
+            <physdesc>
+              <physfacet>One ink on linen tracing of elevation</physfacet>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="map-case" label="Drawer">2</container>
+            <container type="folder" label="Folder">9</container>
+            <unittitle>University Hall. South wing. Secretary's office remodeling. Buildings and Grounds Department <unitdate type="inclusive" normal="1919">1919</unitdate></unittitle>
+            <physdesc>
+              <physfacet>Two ink on linen tracings, including floor plans, details, and an elevation</physfacet>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="map-case" label="Drawer">2</container>
+            <container type="folder" label="Folder">9</container>
+            <unittitle>University Hall. Seating plan. Buildings and Grounds Department <unitdate type="inclusive" normal="1920">1920</unitdate></unittitle>
+            <physdesc>
+              <physfacet>One floor plan done in ink on linen tracing</physfacet>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="map-case" label="Drawer">2</container>
+            <container type="folder" label="Folder">9</container>
+            <unittitle>University Hall. Buildings and Grounds Department <unitdate type="inclusive" normal="1927">1927</unitdate></unittitle>
+            <physdesc>
+              <physfacet>Four blue-line prints of floor plans</physfacet>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="map-case" label="Drawer">2</container>
+            <container type="folder" label="Folder">9</container>
+            <unittitle>University Hall. Auditorium. Buildings and Grounds Department <unitdate type="inclusive">undated</unitdate></unittitle>
+            <physdesc>
+              <physfacet>One floor plan done in pencil on paper tracing</physfacet>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="map-case" label="Drawer">2</container>
+            <container type="folder" label="Folder">9</container>
+            <unittitle>University Hospital. Homeopathic Ward. W.L. Jenney, architect</unittitle>
+            <physdesc>
+              <physfacet>2 items; ink on linen</physfacet>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="map-case" label="Drawer">2</container>
+            <container type="folder" label="Folder">9</container>
+            <unittitle>Waterman Gymnasium. University Department of Buildings and Grounds <unitdate type="inclusive" normal="1915">1915</unitdate></unittitle>
+            <physdesc>
+              <physfacet>Two pencil on paper tracings, including one plan, sections, and details; see also additional drawings in drawer 3</physfacet>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="map-case" label="Drawer">2</container>
+            <container type="folder" label="Folder">9</container>
+            <unittitle>Women's Athletic Building. Pry and Kasurin, architects <unitdate type="inclusive">undated</unitdate></unittitle>
+            <physdesc>
+              <physfacet>One rendering done in charcoal on paper tracing</physfacet>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="map-case" label="Drawer">2</container>
+            <container type="folder" label="Folder">9</container>
+            <unittitle>Women's Dormitory. C. William Palmer, architect <unitdate type="inclusive" normal="1938" certainty="approximate">1938</unitdate></unittitle>
+            <physdesc>
+              <physfacet>Three photographic negatives of renderings</physfacet>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="map-case" label="Drawer">3</container>
+            <unittitle>Waterman Gymnasium</unittitle>
+          </did>
+          <odd>
+            <p>(See also separately located tube)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Henderson Memorial House. Douglas D. Loree, original architect. Colvin, Robinson, and Associates, architects <unitdate type="inclusive" normal="1941/1958">1941-1958</unitdate></unittitle>
+            <physdesc>
+              <physfacet>Forty-five blueprint and blue-line prints, including plans, details, elevations, and sections</physfacet>
+            </physdesc>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="map-case" label="Drawer">3</container>
+              <unittitle>Preliminary study from Observatory Street <unitdate type="inclusive" normal="1941">1941</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Five blueprint sheets, including one perspective and four floor plans</physfacet>
+              </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="map-case" label="Drawer">3</container>
+              <unittitle>Observatory Street plans (plans inactivated in 1940) <unitdate type="inclusive" normal="1941">1941</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Nine blueprint sheets, including one plot and grading plan, one foundation plan, three floor plans, and four elevations</physfacet>
+              </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="map-case" label="Drawer">3</container>
+              <unittitle>Building survey for Hill Street site <unitdate type="inclusive">undated</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Seven blueprint sheets, including four floor plans and three exterior elevations</physfacet>
+              </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="map-case" label="Drawer">3</container>
+              <unittitle>Additions and Alterations <unitdate type="inclusive" normal="1950">1950</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Eighteen blue-line prints, including one plot plan, four floor plans, three elevations, four details, two mechanical, one electrical, and three mechanical and electrical plans</physfacet>
+              </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="map-case" label="Drawer">3</container>
+              <unittitle>Additions and Alterations <unitdate type="inclusive" normal="1957">1957</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Three blue-line prints, including details, plans, elevations, and sections</physfacet>
+              </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="map-case" label="Drawer">3</container>
+              <unittitle>Additions and Alterations <unitdate type="inclusive" normal="1950">1950</unitdate></unittitle>
+              <physdesc>
+                <physfacet>Three blue-line prints, including details, plans, elevations, and sections</physfacet>
+              </physdesc>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="map-case" label="Drawer">3</container>
+            <unittitle>Library Building Study. Van Brunt and Howe, architects <unitdate type="inclusive" normal="1881">1881</unitdate></unittitle>
+            <physdesc>
+              <physfacet>Sixteen sheets, including seven perspectives, one detail elevation, two details, one section, and five plans (in ink on linen)</physfacet>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="map-case" label="Drawer">3</container>
+            <unittitle>Physical Science Laboratory. Albert Kahn, architect <unitdate type="inclusive" normal="1922">1922</unitdate></unittitle>
+            <physdesc>
+              <physfacet>Twenty-three blueprints, including twelve floor plans, one roof plan, six elevations, three details, one site plan containing include revisions</physfacet>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="map-case" label="Drawer">3</container>
+            <unittitle>University Hall. Architect unknown, 1922.</unittitle>
+            <physdesc>
+              <physfacet>Eight blueprint sheets of floor plans</physfacet>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>University Museum. William LeBaron Jenney, architect <unitdate type="inclusive" normal="1879">1879</unitdate></unittitle>
+            <physdesc>
+              <physfacet>22 sheets of elevations, floor plans, and structural plans done in ink on linen</physfacet>
+            </physdesc>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="map-case" label="Drawer">3</container>
+              <unittitle>One front elevation</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="map-case" label="Drawer">3</container>
+              <unittitle>rear elevation</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="map-case" label="Drawer">3</container>
+              <unittitle>One south side elevation</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="map-case" label="Drawer">3</container>
+              <unittitle>One north elevation</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="map-case" label="Drawer">3</container>
+              <unittitle>One large-scale elevation of part of front</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="map-case" label="Drawer">3</container>
+              <unittitle>One front exterior elevation and section with window details</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="map-case" label="Drawer">3</container>
+              <unittitle>One exterior elevation with detail of rear gable and elevator tower</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="map-case" label="Drawer">3</container>
+              <unittitle>One structural section and details</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="map-case" label="Drawer">3</container>
+              <unittitle>Two sections through foundation</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="map-case" label="Drawer">3</container>
+              <unittitle>One plan of roof framing</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="map-case" label="Drawer">3</container>
+              <unittitle>One gallery floor plan</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="map-case" label="Drawer">3</container>
+              <unittitle>First and second floor lighting and electrical plans</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="map-case" label="Drawer">3</container>
+              <unittitle>One attic floor plan</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="map-case" label="Drawer">3</container>
+              <unittitle>Two attic framing plans</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="map-case" label="Drawer">3</container>
+              <unittitle>One basement plan with floor joists of floor above (first floor framing plan)</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="map-case" label="Drawer">3</container>
+              <unittitle>First floor framing plan</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="map-case" label="Drawer">3</container>
+              <unittitle>Two gallery framing plans</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="map-case" label="Drawer">3</container>
+              <unittitle>One iron diagram no. 1</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="map-case" label="Drawer">3</container>
+            <unittitle>Ann Arbor High School [Frieze Building]. Malcomson and Higginbotham, architects <unitdate type="inclusive" normal="1905">1905</unitdate></unittitle>
+            <physdesc>
+              <physfacet>Thirty-four ink on tracing paper sheets, including elevations, plans, sections, details. Ink on tracing paper</physfacet>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="map-case" label="Drawer">3</container>
+            <unittitle>Alumni Center. Hugh Newall Jacobsen, architect <unitdate type="inclusive" normal="1979">1979</unitdate></unittitle>
+            <physdesc>
+              <physfacet>Eight sepia prints, and eight reversed image sepia prints, including floor plans and elevations</physfacet>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="map-case" label="Drawer">3</container>
+            <unittitle>Margaret Bell Pool <unitdate type="inclusive" normal="1951">1951</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="tube" label="Tube">1</container>
+            <unittitle>Natural Science Building. Albert Kahn, architect <unitdate type="inclusive" normal="1914">1914</unitdate></unittitle>
+            <physdesc>
+              <physfacet>Nine rolled blueprint sheets, including floor plans, sections, details, and elevations) Roll 42</physfacet>
+            </physdesc>
+          </did>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

@@ -1,0 +1,1024 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead.dtd">
+<ead>
+  <eadheader audience="internal" langencoding="iso639-2b" repositoryencoding="iso15511" dateencoding="iso8601" relatedencoding="Dublin Core" scriptencoding="iso15924" countryencoding="iso3166-1">
+    <eadid countrycode="us" mainagencycode="MiU-H" publicid="us//::miu-h//TXT us::miu-h::umtreas.xml//EN" encodinganalog="Identifier">umich-bhl-87333</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="Title">Finding Aid for Treasurer (University of Michigan) records, 1839-1920</titleproper>
+        <author encodinganalog="Creator">Collection processed and finding aid created by Michigan Historical Collections Staff</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="Publisher">Bentley Historical Library, University of Michigan</publisher>
+        <date encodinganalog="Date" normal="2006">2006</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created by Greg Kinney <date>20061103</date></creation>
+      <langusage encodinganalog="Language">The finding aid is written in <language langcode="eng" scriptcode="Latn">English</language></langusage>
+      <descrules>Finding aid prepared using Describing Archives: A Content Standard (DACS)</descrules>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date>20150813</date>
+        <item>Corrected container listing.</item>
+      </change>
+      <change>
+        <date>2006-11-03</date>
+        <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <frontmatter>
+    <titlepage>
+      <publisher>University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
+      <titleproper>Finding aid for <lb/>Treasurer (University of Michigan) <lb/>Records, 1839-1920</titleproper>
+      <author>Finding aid created by <lb/>Michigan Historical Collections Staff.</author>
+    </titlepage>
+  </frontmatter>
+  <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
+    <did>
+      <origination>
+        <corpname source="lcnaf" encodinganalog="110">University of Michigan. Treasurer.</corpname>
+      </origination>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">85 oversize volumes</extent>
+      </physdesc>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">2 linear feet</extent>
+      </physdesc>
+      <unittitle encodinganalog="245">Treasurer (University of Michigan) records <unitdate type="inclusive" encodinganalog="245$f" normal="1839/1920">1839-1920</unitdate></unittitle>
+      <physdesc altrender="part">
+        </physdesc>
+      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">87333 BImu Bimu B8 2</unitid>
+      <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
+      <abstract>Treasurer's records include letterbooks, disbursements, receipts, ledgers, journals, balance books, daybooks, payroll books, and other business records.</abstract>
+      <repository>
+        <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea>, University of Michigan</corpname>
+        <extptr href="bhladd" show="embed" actuate="onload"/>
+      </repository>
+    </did>
+    <descgrp type="admin">
+      <acqinfo encodinganalog="541">
+        <p>Circumstances of the acquisition of the records are unknown.</p>
+      </acqinfo>
+      <accruals encodinganalog="584">
+        <p>Periodic additions to the records expected.</p>
+      </accruals>
+      <accessrestrict encodinganalog="506">
+        <p>The collection is open without restriction.</p>
+        <p>
+          <extptr href="uarpacc" show="embed" actuate="onload"/>
+        </p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+        <p>Copyright is held by the Regents of the University of Michigan.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+        <p>[item], folder, box,
+Treasurer (University of Michigan) records, Bentley Historical Library, University of Michigan</p>
+      </prefercite>
+    </descgrp>
+    <bioghist encodinganalog="545">
+      <p>The office of University Treasurer was established in 1817 under the auspices of the "The University of Michigania" but it is unclear when the first treasurer, James Abbott, actually assumed his position. The office was continued through various reorganizations of the Board of Regents and was the university's principal financial officer through 1931 when president Ruthven undertook a major restructuring of the university's administrative offices.</p>
+      <p>
+        <chronlist>
+          <head>Treasurers of the University of Michigan</head>
+          <chronitem>
+            <date>1820</date>
+            <event>James Abbott</event>
+          </chronitem>
+          <chronitem>
+            <date>1821</date>
+            <event>Abraham Edwards</event>
+          </chronitem>
+          <chronitem>
+            <date>1821-1823</date>
+            <event>James Abbott</event>
+          </chronitem>
+          <chronitem>
+            <date>1823-1837</date>
+            <event>G. Mott Williams</event>
+          </chronitem>
+          <chronitem>
+            <date>1837-1839</date>
+            <event>John Norton</event>
+          </chronitem>
+          <chronitem>
+            <date>1839-1841</date>
+            <event>Henry K. Sanfger</event>
+          </chronitem>
+          <chronitem>
+            <date>1941-1844</date>
+            <event>Alexander H. Sibley</event>
+          </chronitem>
+          <chronitem>
+            <date>1944-1846</date>
+            <event>John Johnstone Adam</event>
+          </chronitem>
+          <chronitem>
+            <date>1846-1848</date>
+            <event>Digby V. Bell</event>
+          </chronitem>
+          <chronitem>
+            <date>1948-1851</date>
+            <event>John Johnstone Adam</event>
+          </chronitem>
+          <chronitem>
+            <date>1851-1858</date>
+            <event>John Manley Chase</event>
+          </chronitem>
+          <chronitem>
+            <date>1858-1860</date>
+            <event>Henry Webster Welles</event>
+          </chronitem>
+          <chronitem>
+            <date>1860-1864</date>
+            <event>Volney Chapin</event>
+          </chronitem>
+          <chronitem>
+            <date>1864-1872</date>
+            <event>Donald McIntyre</event>
+          </chronitem>
+          <chronitem>
+            <date>1872-1878</date>
+            <event>John Marshall Wheeler</event>
+          </chronitem>
+          <chronitem>
+            <date>1878-1883</date>
+            <event>William Addison Tolchard</event>
+          </chronitem>
+          <chronitem>
+            <date>1883-1908</date>
+            <event>Harrison Soule</event>
+          </chronitem>
+          <chronitem>
+            <date>1908-1911</date>
+            <event>George Sumner Baker</event>
+          </chronitem>
+          <chronitem>
+            <date>1911-1931</date>
+            <event>Robert Alexander Campbell</event>
+          </chronitem>
+        </chronlist>
+      </p>
+    </bioghist>
+    <scopecontent encodinganalog="520">
+      <p>Treasurer's records include letterbooks, disbursements, receipts, ledgers, journals, balance books, daybooks, payroll books, and other business records. The records provide and insight into, though not a complete record of, the day-to-day financial operation of the university</p>
+    </scopecontent>
+    <controlaccess>
+      <p>
+        <extptr href="accnote" show="embed" actuate="onload"/>
+      </p>
+      <controlaccess>
+        <head>Subjects:</head>
+        <corpname encodinganalog="610" source="lcnaf">University of Michigan--Administration.</corpname>
+        <corpname encodinganalog="610" source="lcnaf">University of Michigan--Finance.</corpname>
+        <corpname encodinganalog="610" source="lcnaf">University of Michigan--Gifts and loans.</corpname>
+        <corpname encodinganalog="610" source="lcnaf">University of Michigan--Students--Scholarships, fellowships, etc.</corpname>
+        <corpname encodinganalog="610" source="lcnaf">University of Michigan. Treasurer.</corpname>
+      </controlaccess>
+    </controlaccess>
+    <dsc type="combined">
+      <c01 level="series">
+        <did>
+          <unittitle>Records</unittitle>
+        </did>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Miscellaneous Records</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">3 folders</extent>
+              </physdesc>
+              <unittitle>Treasurers Reports <unitdate type="inclusive" normal="1870/1882">1870-1882</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Letterbook of University Treasurer (Harrison Soule)</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1894/1898">1894-1898</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1901/1905">1901-1905</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1905/1909">1905-1909</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Janitor's records <unitdate type="inclusive" normal="1852/1855">1852-1855</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Steward's Accounts <unitdate type="inclusive" normal="1868/1869">1868-1869</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Draft book <unitdate type="inclusive" normal="1909-10/1911-07">October 1909-July 1911</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Ledger <unitdate type="inclusive" normal="1884/1885">1884-1885</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Balance book <unitdate type="inclusive" normal="1908-03/1911-05">March 1908-May 1911</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Record Book <unitdate type="inclusive" normal="1897/1920">1897-1920</unitdate> re scholarships, fellowships and loan funds</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">6 reels of microfilm</extent>
+              </physdesc>
+              <unittitle>Disbursements <unitdate type="inclusive" normal="1905-06/1910-06">June 1905-June 1910</unitdate></unittitle>
+              <physdesc>
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Correspondence</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1891">1891</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">5 folders</extent>
+                </physdesc>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1897/1901">1897-1901</unitdate>
+                </unittitle>
+                <physdesc altrender="whole">
+                  </physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">2 folders</extent>
+                </physdesc>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1909/1910">1909-1910</unitdate>
+                </unittitle>
+                <physdesc altrender="whole">
+                  </physdesc>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Disbursements <unitdate type="inclusive" normal="1852/1858">1852-1858</unitdate>, <unitdate type="inclusive" normal="1879/1905">1879-1905</unitdate></unittitle>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">21 volumes</extent>
+            </physdesc>
+            <physdesc>
+              </physdesc>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1852/1858">1852-1858</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">2</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1876-07-03/1879-02-11">July 3, 1876-February 11, 1879</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">3</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1879-02/1882-12">February 1879-December 1882</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">4</container>
+              <unittitle>Vol. [A] <unitdate type="inclusive" normal="1882-12/1885-03">December 1882-March 1885</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">5</container>
+              <unittitle>Vol. B <unitdate type="inclusive" normal="1885-04/1887-04">April 1885-April 1887</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">6</container>
+              <unittitle>Vol. C <unitdate type="inclusive" normal="1887-04/1889-05">April 1887-May 1889</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">7</container>
+              <unittitle>Vol. D <unitdate type="inclusive" normal="1889-05/1890-12">May 1889-December 1890</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">8</container>
+              <unittitle>Vol. E <unitdate type="inclusive" normal="1890-12/1892-04">December 1890-April 1892</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">9</container>
+              <unittitle>Vol. G,. <unitdate type="inclusive" normal="1893-10/1894-06">October 1893-June 1894</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">10</container>
+              <unittitle>Vol. H <unitdate type="inclusive" normal="1894-07/1895-06">July 1894-June 1895</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">11</container>
+              <unittitle>Vol. I <unitdate type="inclusive" normal="1895-07/1896-06">July 1895-June 1896</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">12</container>
+              <unittitle>Vol. J <unitdate type="inclusive" normal="1895-07/1897-06">July 1895-June 1897</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">13</container>
+              <unittitle>Vol. K <unitdate type="inclusive" normal="1897-07/1898-06">July 1897-June 1898</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">14</container>
+              <unittitle>Vol. L <unitdate type="inclusive" normal="1898-07/1899-09">July 1898-September 1899</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">15</container>
+              <unittitle>Vol. M <unitdate type="inclusive" normal="1899-10/1900-09">October 1899-September 1900</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">16</container>
+              <unittitle>Vol. N <unitdate type="inclusive" normal="1890-10/1901-06">October 1890-June 1901</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">17</container>
+              <unittitle>Vol. O <unitdate type="inclusive" normal="1901-07/1902-06">July 1901-June 1902</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">18</container>
+              <unittitle>Vol. P <unitdate type="inclusive" normal="1902-07/1903-06">July 1902-June 1903</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">19</container>
+              <unittitle>Vol. Q <unitdate type="inclusive" normal="1903-07/1904-06">July 1903-June 1904</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">20</container>
+              <unittitle>Vol. R <unitdate type="inclusive" normal="1904-07/1905-06">July 1904-June 1905</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">21</container>
+              <unittitle>Vol. S <unitdate type="inclusive" normal="1905-06/1910-06">June 1905-June 1910</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">6 reels of microfilm</extent>
+              </physdesc>
+              <unittitle>Vol. S <unitdate type="inclusive" normal="1905-06/1910-06">June 1905-June 1910</unitdate></unittitle>
+              <physdesc>
+                </physdesc>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Receipts,1839-1854 and <unitdate type="inclusive" normal="1883/1905">1883-1905</unitdate></unittitle>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">21 volumes</extent>
+            </physdesc>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1839-05/1854-05">May 1839-May 1854</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">22</container>
+              <unittitle>Vol. A <unitdate type="inclusive" normal="1883-10/1884-09">October 1883-September 1884</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">23</container>
+              <unittitle>Vol. B <unitdate type="inclusive" normal="1884-10/1885-12">October 1884-December 1885</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">24</container>
+              <unittitle>Vol. C <unitdate type="inclusive" normal="1885-12/1887-12">December 1885-December 1887</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">25</container>
+              <unittitle>Vol. D <unitdate type="inclusive" normal="1807-10/1889-06">October 1807-June 1889</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">26</container>
+              <unittitle>Vol. E <unitdate type="inclusive" normal="1889-06/1890-04">June 1889-April 1890</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">27</container>
+              <unittitle>Vol. F <unitdate type="inclusive" normal="1890-04/1891-03">April 1890-March 1891</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">28</container>
+              <unittitle>Vol. G <unitdate type="inclusive" normal="1891-03/1892-06">March 1891-June 1892</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">29</container>
+              <unittitle>Vol. H <unitdate type="inclusive" normal="1892-07/1893-09">July 1892-September 1893</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">30</container>
+              <unittitle>Vol. I <unitdate type="inclusive" normal="1893-10/1894-06">October 1893-June 1894</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">31</container>
+              <unittitle>Vol. J <unitdate type="inclusive" normal="1894-07/1895-06">July 1894-June 1895</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">32</container>
+              <unittitle>Vol. K <unitdate type="inclusive" normal="1895-07/1896-06">July 1895-June 1896</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">33</container>
+              <unittitle>Vol. L <unitdate type="inclusive" normal="1896-07/1897-06">July 1896-June 1897</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">34</container>
+              <unittitle>Vol. M <unitdate type="inclusive" normal="1897-07/1898-06">July 1897-June 1898</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">35</container>
+              <unittitle>Vol. N <unitdate type="inclusive" normal="1898-07/1899-06">July 1898-June 1899</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">36</container>
+              <unittitle>Vol. O <unitdate type="inclusive" normal="1899-07/1900-06">July 1899-June 1900</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">37</container>
+              <unittitle>Vol. P <unitdate type="inclusive" normal="1900-07/1901-06">July 1900-June 1901</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">38</container>
+              <unittitle>Vol. Q <unitdate type="inclusive" normal="1901-07/1902-06">July 1901-June 1902</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">39</container>
+              <unittitle>Vol. R <unitdate type="inclusive" normal="1902-07/1903-06">July 1902-June 1903</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">40</container>
+              <unittitle>Vol. S <unitdate type="inclusive" normal="1903-07/1904-06">July 1903-June 1904</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">41</container>
+              <unittitle>Vol. T <unitdate type="inclusive" normal="1904-07/1905-06">July 1904-June 1905</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Ledgers <unitdate type="inclusive" normal="1854">1854</unitdate>, <unitdate type="inclusive" normal="1869/1875">1869-1875</unitdate>, <unitdate type="inclusive" normal="1878/1910">1878-1910</unitdate></unittitle>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">11 volumes</extent>
+            </physdesc>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">42</container>
+              <unittitle>Vol. 2 <unitdate type="inclusive" normal="1890/1894">1890-1894</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">43</container>
+              <unittitle>Vol. 3 <unitdate type="inclusive" normal="1894/1898">1894-1898</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">44</container>
+              <unittitle>Vol. 4 <unitdate type="inclusive" normal="1898/1902">1898-1902</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">45</container>
+              <unittitle>Vol. 5 <unitdate type="inclusive" normal="1902/1905">1902-1905</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">46</container>
+              <unittitle>Vol. 6 <unitdate type="inclusive" normal="1905/1908">1905-1908</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">47</container>
+              <unittitle>Vol. 7 <unitdate type="inclusive" normal="1908">1908</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">48</container>
+              <unittitle>Vol. A <unitdate type="inclusive" normal="1878/1910">1878-1910</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">49</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1854">1854</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">50</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1869/1875">1869-1875</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">51</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1883/1890">1883-1890</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1884/1885">1884-1885</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Journals <unitdate type="inclusive" normal="1878/1910">1878-1910</unitdate></unittitle>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">16 volumes</extent>
+            </physdesc>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">52</container>
+              <unittitle>Vol. A <unitdate type="inclusive" normal="1878-07/1881-10">July 1878-October 1881</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">53</container>
+              <unittitle>Vol. B <unitdate type="inclusive" normal="1881-10/1884-09">October 1881-September 1884</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">54</container>
+              <unittitle>Vol. B <unitdate type="inclusive" normal="1884-10/1890-12">October 1884-December 1890</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">55</container>
+              <unittitle>Vol. C <unitdate type="inclusive" normal="1890-12/1895-06">December 1890-June 1895</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">56</container>
+              <unittitle>Vol. D <unitdate type="inclusive" normal="1895-07/1899-04">July 1895-April 1899</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">57</container>
+              <unittitle>Vol. E <unitdate type="inclusive" normal="1899-05/1902-09">May 1899-September 1902</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">58</container>
+              <unittitle>Vol. F <unitdate type="inclusive" normal="1902-10/1905-08">October 1902-August 1905</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">59</container>
+              <unittitle>Vol. G <unitdate type="inclusive" normal="1905-09/1908-06">September 1905-June 1908</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">60</container>
+              <unittitle>Vol. H <unitdate type="inclusive" normal="1908-06/1910-06">June 1908-June 1910</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">61</container>
+              <unittitle>Vol. I <unitdate type="inclusive" normal="1884-10/1893-07">October 1884-July 1893</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">62</container>
+              <unittitle>Vol. B <unitdate type="inclusive" normal="1893-07/1894-12">July 1893-December 1894</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">63</container>
+              <unittitle>Vol. C <unitdate type="inclusive" normal="1894/1900-10">1894-October 1900</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">64</container>
+              <unittitle>Vol. D <unitdate type="inclusive" normal="1900-10/1905-04">October 1900-April 1905</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">65</container>
+              <unittitle>Vol. E <unitdate type="inclusive" normal="1905-04/1908-11">April 1905-November 1908</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">66</container>
+              <unittitle>Vol. F <unitdate type="inclusive" normal="1908-12/1910">December 1908-1910</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">67</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1904-11/1907-04">November 1904-April 1907</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Balance Books <unitdate type="inclusive" normal="1876/1911">1876-1911</unitdate></unittitle>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">6 volumes</extent>
+            </physdesc>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">68</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1876/1878">1876-1878</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">69</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1882/1890">1882-1890</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">70</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1901/1912">1901-1912</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">71</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1905/1909">1905-1909</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">72</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1909/1912">1909-1912</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1908/1911">1908-1911</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Pay Roll Books <unitdate type="inclusive" normal="1899/1910">1899-1910</unitdate></unittitle>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">5 volumes</extent>
+            </physdesc>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">73</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1899-03/1900-12">March 1899-December 1900</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">74</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1901-01/1903-06">January 1901-June 1903</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">75</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1903-07/1905-06">July 1903-June 1905</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">76</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1905-07/1908-04">July 1905-April 1908</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">77</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1908-05/1910-06">May 1908-June 1910</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Inventories of University Property <unitdate type="inclusive" normal="1861">1861</unitdate>, <unitdate type="inclusive" normal="1864">1864</unitdate>, <unitdate type="inclusive" normal="1889/1911">1889-1911</unitdate></unittitle>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 volumes</extent>
+            </physdesc>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">78</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1861">1861</unitdate>
+                <unitdate type="inclusive" normal="1864">1864</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">79</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1889/1911">1889-1911</unitdate>
+              </unittitle>
+            </did>
+            <odd>
+              <p>(largely property valuations)</p>
+            </odd>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Daybooks <unitdate type="inclusive" normal="1837/1879">1837-1879</unitdate></unittitle>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">4 volumes</extent>
+            </physdesc>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">80</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1837/1851">1837-1851</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">81</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1853/1854">1853-1854</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">82</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1869/1876">1869-1876</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">83</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1878/1879">1878-1879</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Estimates</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">84</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">1 volume</extent>
+              </physdesc>
+              <unittitle>
+                <unitdate type="inclusive" normal="1883">1883</unitdate>
+                <unitdate type="inclusive" normal="1887/1888">1887-1888</unitdate>
+              </unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+            <odd>
+              <p>(cost estimates for various laboratory and facility construction and furnishing)</p>
+            </odd>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Vouchers</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">85</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">1 volume</extent>
+              </physdesc>
+              <unittitle>
+                <unitdate type="inclusive" normal="1878/1879">1878-1879</unitdate>
+              </unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

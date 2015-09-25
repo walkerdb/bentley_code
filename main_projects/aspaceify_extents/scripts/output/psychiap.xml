@@ -1,0 +1,701 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead.dtd">
+<ead>
+  <eadheader audience="internal" langencoding="iso639-2b" repositoryencoding="iso15511" dateencoding="iso8601" relatedencoding="Dublin Core" scriptencoding="iso15924" countryencoding="iso3166-1">
+    <eadid countrycode="us" mainagencycode="MiU-H" publicid="us//::miu-h//TXT us::miu-h::psychiap.xml//EN" encodinganalog="Identifier">umich-bhl-0360</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="Title">Finding Aid for Department of Psychiatry (University of Michigan) records, 1959-2013</titleproper>
+        <author encodinganalog="Creator">Collection processed and finding aid created by Jennifer Jacobs; Melissa Hernandez-Duran</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="Publisher">Bentley Historical Library, University of Michigan</publisher>
+        <date encodinganalog="Date" normal="2009">2009</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created by Greg Kinney <date>2009</date></creation>
+      <langusage encodinganalog="Language">The finding aid is written in <language langcode="eng" scriptcode="Latn">English</language></langusage>
+      <descrules>Finding aid prepared using Describing Archives: A Content Standard (DACS)</descrules>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date>2015-04-22</date>
+        <item>Raymond Waggoner Lectures added; collection title changed to records</item>
+      </change>
+      <change>
+        <date>2009-02-17</date>
+        <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <frontmatter>
+    <titlepage>
+      <publisher><lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
+      <titleproper>Finding aid for <lb/>Dept. of Psychiatry <lb/>(University of Michigan) <lb/>records, 1959-2013</titleproper>
+      <author>Finding aid created by <lb/>Jennifer Jacobs, 1999; <lb/>Melissa Hernandez-Duran, November 2014.</author>
+    </titlepage>
+  </frontmatter>
+  <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
+    <did>
+      <origination>
+        <corpname source="lcnaf" encodinganalog="110" authfilenumber="http://id.loc.gov/authorities/names/n87842574">University of Michigan. Department of Psychiatry.</corpname>
+      </origination>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">47 GB</extent>
+        <physfacet>online</physfacet>
+      </physdesc>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">2 linear feet</extent>
+      </physdesc>
+      <unittitle encodinganalog="245">Department of Psychiatry (University of Michigan) records <unitdate type="inclusive" encodinganalog="245$f" normal="1959/2013">1959-2013</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1988/2013">1988-2013</unitdate></unittitle>
+      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">0360 BImu C46 2</unitid>
+      <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
+      <abstract>Records of the University of Michigan Department of Psychiatry. The collection contains administrative files and publications. Also includes records and video materials for the Annual Waggoner Lectureship.</abstract>
+      <repository>
+        <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea>, University of Michigan</corpname>
+        <extptr href="bhladd" show="embed" actuate="onload"/>
+      </repository>
+    </did>
+    <descgrp type="admin">
+      <acqinfo encodinganalog="541">
+        <p>Publications are received periodically from the unit (donor no. <num type="donor" encodinganalog="541$e">647</num>) in 1999 and 2014.</p>
+      </acqinfo>
+      <accruals encodinganalog="584">
+        <p>Periodic additions to the records expected.</p>
+      </accruals>
+      <accessrestrict encodinganalog="506">
+        <p>The collection is open without restriction.</p>
+        <p>
+          <extptr href="uarpacc" show="embed" actuate="onload"/>
+        </p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+        <p>Copyright is held by the Regents of the University of Michigan.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+        <p>[item], folder, box,
+Department of Psychiatry (University of Michigan) records, Bentley Historical Library, University of Michigan</p>
+      </prefercite>
+      <processinfo>
+        <p>
+          <extptr href="digitalproc" show="embed" actuate="onload"/>
+        </p>
+      </processinfo>
+    </descgrp>
+    <bioghist encodinganalog="545">
+      <p>The history of mental health care at the University of Michigan goes back to the late 1870s within the Medical School. Its development and that of the Department of Psychiatry evolved in part with William James Herdman's career. Herdman was a faculty member at the university since 1875 that had developed an interest in the new field of psychiatry. He would work to make psychiatric research and teaching a part of the Medical School's curriculum.</p>
+      <p>When the Medical Department initiated the four-year program in 1890, Herdman was assigned to the new chair of nervous diseases and electrotherapeutics. In 1898, his title changed again to Professor of Diseases of the Mind and Nervous System and Electrotherapeutics. His work in the teaching of these disciplines as well as neurology was key in the university's interest and efforts to establish facilities for research in these areas. Herdman and the Regents of the university worked to get the state legislature's to allocate funding to build a psychopathic hospital. This was to be a research and clinical facility that would serve the university, its medical community and the state of Michigan.</p>
+      <p>The hospital opened in 1906. Albert M. Barrett, who had succeeded Herdman as Professor of Psychiatry and Disease of the Nervous System, became its first director. Barrett would also oversee psychiatry and neurology within the Department of Nervous and Mental Diseases. This department was the predecessor of what later became the Department of Psychiatry. It was in 1920 that said department was divided into the Department of Neurology and the Department of Psychiatry. The latter would be chaired by Barrett until 1936.</p>
+      <p>Barret was succeeded in the role of chairman by associate professor of neurology Raymond Walter Waggoner in 1937. During his tenure Waggoner oversaw the completion of the Neuropsychiatric Institute by ensuring funding from the legislature and the university. Waggoner remained chair of the Department of Psychiatry until 1970.</p>
+      <p>Albert J. Silverman would serve as the next chairman for the department and would hold that title until 1984. John F. Greden, was appointed chair in 1985. Greden was instrumental in the proposal and establishment of the University's Depression Center. In 2007, Gregory Dalack would succeed Greden in chairing the department, first as interim chair and as permanent department chair in 2010.</p>
+      <p>
+        <chronlist>
+          <head>Department Chairs</head>
+          <chronitem>
+            <date>1920-1936</date>
+            <event>Albert M. Barrett</event>
+          </chronitem>
+          <chronitem>
+            <date>1937-1970</date>
+            <event>Raymond W. Waggoner</event>
+          </chronitem>
+          <chronitem>
+            <date>1970-1981</date>
+            <event>Albert Silverman</event>
+          </chronitem>
+          <chronitem>
+            <date>1985-2007</date>
+            <event>John Greden</event>
+          </chronitem>
+          <chronitem>
+            <date>2007-2010</date>
+            <event>Gregory Dalack (interim)</event>
+          </chronitem>
+          <chronitem>
+            <date>2010-</date>
+            <event>Gregory Dalack</event>
+          </chronitem>
+        </chronlist>
+      </p>
+    </bioghist>
+    <arrangement encodinganalog="351">
+      <p>The Department of Psychiatry records contain two series, the Raymond W. Waggoner Lectureship series and a Publications series.</p>
+    </arrangement>
+    <scopecontent encodinganalog="520">
+      <p>The Department of Psychiatry records contains manuscript and digital materials related to the Raymond W. Waggoner Lectureship events, and Department publications.</p>
+      <p>The Raymond W. Waggoner Lectures series (1.5 linear feet and 47 GB, 1996-2013) contains informational materials, transcripts and video recordings for the Raymond W. Waggoner Lectureship on Ethics and Values in Medicine since its establishment in 1996. Digital video and transcripts can be accessed through links in this finding aid.</p>
+      <p>The Publications series (0.5 linear feet, 1959 -- 2006) contains unit publications such as annual reports for the late 1980s, informational brochures, bulletins and information on residency programs. Additional materials include information on the Albert J. Silverman Research Conference and a guide to scientific publications produced by the department faculty.</p>
+    </scopecontent>
+    <controlaccess>
+      <p>
+        <extptr href="accnote" show="embed" actuate="onload"/>
+      </p>
+      <controlaccess>
+        <head>Subjects:</head>
+        <subject encodinganalog="650" source="lcsh">Mental health.</subject>
+        <subject encodinganalog="650" source="lcsh">Psychiatry.</subject>
+        <corpname encodinganalog="630" source="lcnaf">Raymond R. Waggoner Lectureship.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n87842574">University of Michigan. Department of Psychiatry.</corpname>
+      </controlaccess>
+      <controlaccess>
+        <head>Genre Terms:</head>
+        <genreform source="aat" encodinganalog="655">Bulletins.</genreform>
+        <genreform source="aat" encodinganalog="655">Digital moving image formats.</genreform>
+        <genreform source="aat" encodinganalog="655">Pamphlets.</genreform>
+      </controlaccess>
+    </controlaccess>
+    <dsc type="combined">
+      <c01 level="series">
+        <did>
+          <unittitle>Raymond W. Waggoner Lectures <unitdate type="inclusive" normal="1996/2013">1996-2013</unitdate></unittitle>
+        </did>
+        <scopecontent>
+          <p>The Raymond W. Waggoner Lectures series (1.5 linear feet and 47 GB, 1996-2013) contains informational materials, transcripts and video recordings for the Raymond W. Waggoner Lectureship on Ethics and Values in Medicine since its establishment in 1996. Digital video and transcripts can be accessed through links in this finding aid.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>About Raymond W. Waggoner</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Robert Michels <title render="italic">Ethics and the Changing Role of the Physician: The Coming Crisis in the Practice of Medicine</title>, <unitdate type="inclusive" normal="1996">1996</unitdate></unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Background material</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>Video and transcripts</unittitle>
+              <physdesc>
+                <physfacet>.ZIP file</physfacet>
+              </physdesc>
+              <dao href="http://hdl.handle.net/2027.42/110292" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[view item]</p>
+                </daodesc>
+              </dao>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Alan Stone <title render="italic">Physician Assisted Suicide: Where Do We Stand?</title>, <unitdate type="inclusive" normal="1997">1997</unitdate></unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Background materials</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>Video and transcripts</unittitle>
+              <physdesc>
+                <physfacet>.ZIP file</physfacet>
+              </physdesc>
+              <dao href="http://hdl.handle.net/2027.42/110293" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[view item]</p>
+                </daodesc>
+              </dao>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Arthur Caplan <title render="italic">What is Wrong With Human Cloning?: The Ethics of Technological Reproduction</title>, <unitdate type="inclusive" normal="1998">1998</unitdate></unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Background material</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>Video and transcripts</unittitle>
+              <physdesc>
+                <physfacet>.ZIP file</physfacet>
+              </physdesc>
+              <dao href="http://hdl.handle.net/2027.42/110294" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[view item]</p>
+                </daodesc>
+              </dao>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Paul S. Applebaum <title render="italic">No Place to Hide: Threats to Confidentiality and Privacy in Medicine</title>, <unitdate type="inclusive" normal="1999">1999</unitdate></unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Background materials</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>Video and transcripts</unittitle>
+              <physdesc>
+                <physfacet>.ZIP file</physfacet>
+              </physdesc>
+              <dao href="http://hdl.handle.net/2027.42/110295" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[view item]</p>
+                </daodesc>
+              </dao>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Catherine D. DeAngelis <title render="italic">Integrity in Scientific Publications: Implications for Research (no video)</title>, <unitdate type="inclusive" normal="2000">2000</unitdate></unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Background material</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>Video and transcripts</unittitle>
+              <physdesc>
+                <physfacet>.ZIP file</physfacet>
+              </physdesc>
+              <dao href="http://hdl.handle.net/2027.42/110296" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[view item]</p>
+                </daodesc>
+              </dao>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Harold T. Shapiro <title render="italic">Ethical Considerations in Research on Human Subjects-Time for Change ... Again</title>, <unitdate type="inclusive" normal="2001">2001</unitdate></unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Background material</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>Video and transcripts</unittitle>
+              <physdesc>
+                <physfacet>.ZIP file</physfacet>
+              </physdesc>
+              <dao href="http://hdl.handle.net/2027.42/110297" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[view item]</p>
+                </daodesc>
+              </dao>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Mary Sue Coleman <title render="italic">Care Without Coverage: Too Little, Too Late</title>, <unitdate type="inclusive" normal="2002">2002</unitdate></unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Background material</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>Video and transcripts</unittitle>
+              <physdesc>
+                <physfacet>.ZIP file</physfacet>
+              </physdesc>
+              <dao href="http://hdl.handle.net/2027.42/110298" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[view item]</p>
+                </daodesc>
+              </dao>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Leon R. Kass <title render="italic">Ageless Bodies, Happy Souls: Biotechnology and the Pursuit of Perfection</title>, <unitdate type="inclusive" normal="2003">2003</unitdate></unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Background material</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>Video and transcripts</unittitle>
+              <physdesc>
+                <physfacet>.ZIP file</physfacet>
+              </physdesc>
+              <dao href="http://hdl.handle.net/2027.42/110299" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[view item]</p>
+                </daodesc>
+              </dao>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Sheldon Krimsky <title render="italic">Academic Science and Entrepreneurship: Are the Conflicts Reconcilable?</title>, <unitdate type="inclusive" normal="2004">2004</unitdate></unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Background material</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>Video and transcripts</unittitle>
+              <physdesc>
+                <physfacet>.ZIP file</physfacet>
+              </physdesc>
+              <dao href="http://hdl.handle.net/2027.42/110282" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[view item]</p>
+                </daodesc>
+              </dao>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Leon Eisenberg <title render="italic">When Good Men and Women Do Nothing-Doctors at Abu Ghraib and Guantanamo</title>, <unitdate type="inclusive" normal="2005">2005</unitdate></unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Background material</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>Video and transcripts</unittitle>
+              <physdesc>
+                <physfacet>.ZIP file</physfacet>
+              </physdesc>
+              <dao href="http://hdl.handle.net/2027.42/110283" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[view item]</p>
+                </daodesc>
+              </dao>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Howard Markel <title render="italic">Contemplating Pandemics: The Role of Historical Inquiry in Developing Pandemic Influenza Mitigation Strategies for the 21st Century</title>, <unitdate type="inclusive" normal="2006">2006</unitdate></unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Background material</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>Video and transcripts</unittitle>
+              <physdesc>
+                <physfacet>.ZIP file</physfacet>
+              </physdesc>
+              <dao href="http://hdl.handle.net/2027.42/110284" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[view item]</p>
+                </daodesc>
+              </dao>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Thomas Murray <title render="italic">Issues Review Panel, World Anti-Doping Agency: Ethics, Genetics, and the Future of Sport</title>, <unitdate type="inclusive" normal="2007">2007</unitdate></unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Background material</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>Video and transcripts</unittitle>
+              <physdesc>
+                <physfacet>.ZIP file</physfacet>
+              </physdesc>
+              <dao href="http://hdl.handle.net/2027.42/110285" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[view item]</p>
+                </daodesc>
+              </dao>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Ezekiel J. Emanuel <title render="italic">Beyond Band-Aids: How to Cure America's Sick Healthcare System</title>, <unitdate type="inclusive" normal="2008">2008</unitdate></unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Background material</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>Video and transcripts</unittitle>
+              <physdesc>
+                <physfacet>.ZIP file</physfacet>
+              </physdesc>
+              <dao href="http://hdl.handle.net/2027.42/110286" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[view item]</p>
+                </daodesc>
+              </dao>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Lawrence O. Gostin <title render="italic">Redressing the Unconscionable Health Gap: A Proposal for a Global Plan for Justice</title>, <unitdate type="inclusive" normal="2010-01">January 2010</unitdate></unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Background material</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>Video and transcripts</unittitle>
+              <physdesc>
+                <physfacet>.ZIP file</physfacet>
+              </physdesc>
+              <dao href="http://hdl.handle.net/2027.42/110287" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[view item]</p>
+                </daodesc>
+              </dao>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Bernard Lo <title render="italic">Old and New Ethical Problems in Innovative Stem Cell Research</title>, <unitdate type="inclusive" normal="2010-11">November 2010</unitdate></unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Background material</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>Video and transcripts</unittitle>
+              <physdesc>
+                <physfacet>.ZIP file</physfacet>
+              </physdesc>
+              <dao href="http://hdl.handle.net/2027.42/110288" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[view item]</p>
+                </daodesc>
+              </dao>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Laura Roberts <title render="italic">On Becoming a Physician: Stresses and strengths of physicians-in-training</title>, <unitdate type="inclusive" normal="2011">2011</unitdate></unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Background material</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>Video and transcripts</unittitle>
+              <physdesc>
+                <physfacet>.ZIP file</physfacet>
+              </physdesc>
+              <dao href="http://hdl.handle.net/2027.42/110289" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[view item]</p>
+                </daodesc>
+              </dao>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Lazarus, Jeremy A., Fixing Healthcare the Ethical Way <unitdate type="inclusive" normal="2012">2012</unitdate></unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Background material</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>Video and transcripts</unittitle>
+              <physdesc>
+                <physfacet>.ZIP file</physfacet>
+              </physdesc>
+              <dao href="http://hdl.handle.net/2027.42/110290" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[view item]</p>
+                </daodesc>
+              </dao>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Sade, Robert, Myths and Misconceptions in Biomedical Ethics <unitdate type="inclusive" normal="2013">2013</unitdate></unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Background material</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>Video and transcripts</unittitle>
+              <physdesc>
+                <physfacet>.ZIP file</physfacet>
+              </physdesc>
+              <dao href="http://hdl.handle.net/2027.42/110291" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[view item]</p>
+                </daodesc>
+              </dao>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Publications</unittitle>
+        </did>
+        <scopecontent>
+          <p>The Publications series (0.5 linear feet, 1959 -- 2006) contains unit publications such as annual reports for the late 1980s, informational brochures, bulletins and information on residency programs. Additional materials include information on the Albert J. Silverman Research Conference and a guide to scientific publications produced by the department faculty.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Annual Reports</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 folders</extent>
+            </physdesc>
+            <unittitle><title render="italic">Annual Progress Report</title>, <unitdate type="inclusive" normal="1988/1989">1988-1989</unitdate></unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle><title render="italic">Annual Report</title>, <unitdate type="inclusive" normal="1986">1986</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Brochures <unitdate type="inclusive" normal="1970">1970</unitdate>, <unitdate type="inclusive" normal="2006">2006</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Bulletins</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 folders</extent>
+            </physdesc>
+            <unittitle><title render="italic">Department of Psychiatry</title>, <unitdate type="inclusive" normal="1959">1959</unitdate> and <unitdate type="inclusive" normal="1976" certainty="approximate">circa 1976</unitdate></unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>
+              <title render="italic">Residency Programs in Psychiatry at the University of Michigan Medical Center, c.1966</title>
+            </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Programs <unitdate type="inclusive" normal="1998">1998</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Scientific Publications <unitdate type="inclusive" normal="1993/1994">1993-1994</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Sixth Annual Albert J. Silverman Research Conference <unitdate type="inclusive" normal="1995">1995</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Youth --Nominated Support Team Intervention Manual <unitdate type="inclusive" normal="2001">2001</unitdate></unittitle>
+          </did>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

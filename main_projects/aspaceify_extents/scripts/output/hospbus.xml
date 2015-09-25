@@ -1,0 +1,594 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead.dtd">
+<ead>
+  <eadheader audience="internal" langencoding="iso639-2b" repositoryencoding="iso15511" dateencoding="iso8601" relatedencoding="Dublin Core">
+    <eadid countrycode="us" mainagencycode="MiU-H" publicid="us//::miu-h//TXT us::miu-h::hospbus.xml//EN" encodinganalog="identifier">umich-bhl-05103</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="title">Finding Aid for Hospitals. Business office. (University of Michigan) Records, 1926-1977</titleproper>
+        <author encodinganalog="creator">Collection processed and finding aid created by Adriane Hanson, August 2005</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="publisher">Bentley Historical Library, University of Michigan</publisher>
+        <date encodinganalog="date">Nov. 2005</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created by Greg Kinney <date>20051114</date></creation>
+      <langusage>The finding aid is written in <language langcode="eng">English</language></langusage>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date>20150807</date>
+        <item>Added subjects.</item>
+      </change>
+      <change>
+        <date>2005</date>
+        <item>Original encoding from Word 6.0 file using Word macros and Xmetal.</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <frontmatter>
+    <titlepage>
+      <publisher>University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
+      <titleproper>Finding aid for <lb/>Hospitals. Business office. <lb/>(University of Michigan) <lb/>Records, 1926-1977</titleproper>
+      <author>Finding aid created by <lb/>Adriane Hanson, August 2005</author>
+    </titlepage>
+  </frontmatter>
+  <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
+    <did>
+      <origination>
+        <corpname source="lcnaf" encodinganalog="110">University of Michigan. Hospitals. Business office.</corpname>
+      </origination>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">20 linear feet</extent>
+      </physdesc>
+      <unittitle encodinganalog="245">Hospitals. Business office. (University of Michigan) records, <unitdate type="inclusive" encodinganalog="245$f" normal="1926/1977">1926-1977</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1950/1970">1950-1970</unitdate></unittitle>
+      <unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">05103 Bimu C500 2</unitid>
+      <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
+      <abstract>The collection contains financial reports, budget information and patient statistics for the major divisions of the University of Michigan Hospitals. The major divisions include the General Hospital/General Division, Neuropsychiatric Institute, Veterans Readjustment Center, Clinical Research Unit, and Psychiatric Division.</abstract>
+      <repository>
+        <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea>, University of Michigan</corpname>
+        <extptr href="bhladd" show="embed" actuate="onload"/>
+      </repository>
+    </did>
+    <descgrp type="admin">
+      <acqinfo encodinganalog="541">
+        <p>The record group was transferred from the University Hospital Finance Department (Donor # <num type="donor" encodinganalog="541$e">2289</num>) in September 1995.</p>
+      </acqinfo>
+      <accessrestrict encodinganalog="506">
+        <p>The records are open with the exception of patient records located in boxes 6-10.</p>
+        <p>
+          <extptr href="uarpacc" show="embed" actuate="onload"/>
+        </p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+        <p>Copyright is held by the Regents of the University of Michigan.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+        <p>[item], folder, box,
+Hospitals. Business office. (University of Michigan) Records, Bentley Historical Library, University of Michigan</p>
+      </prefercite>
+    </descgrp>
+    <bioghist encodinganalog="545">
+      <p>The University Hospital began when a professor's home was converted into a small, 20 bed hospital in 1869, which was expanded to 60 beds in 1875. This facility was replaced by the Catherine Street Hospital, which opened in 1891. The Psychopathic Hospital was funded by the state in 1901 and completed in 1906. The state maintained the building until it was turned over to the university in 1937. The Catherine Street Hospital became overcrowded, so the Regents approved the construction of a new building in 1915, University Hospital, which was completed in 1923. The building, also called "Old Main," was replaced by the new University Hospital and A. Alfred Taubman Health Care Center in 1986 as the primary University of Michigan Hospital.</p>
+      <p>The following is a timeline of key dates in the history and development of the University of Michigan Hospitals (and later Health System). A more detailed history of the hospital from its inception through 1940 is available in <title render="italic">The University of Michigan An Encyclopedic History</title> (Volume II).</p>
+      <p>
+        <chronlist>
+          <chronitem>
+            <date>1869</date>
+            <event>A professor's home on North University is converted into a small hospital for patients, becoming the first hospital controlled by a university medical school.</event>
+          </chronitem>
+          <chronitem>
+            <date>1875</date>
+            <event>Two pavilions are added to the existing hospital, for a total of 60 beds. Made possible by state appropriation and funding from the city of Ann Arbor.</event>
+          </chronitem>
+          <chronitem>
+            <date>1889</date>
+            <event>Appropriations from the legislature, and funding from the city of Ann Arbor allow for the construction of a new hospital to be built on Catherine Street.</event>
+          </chronitem>
+          <chronitem>
+            <date>1891</date>
+            <event>The new Catherine Street Hospital opens and is shared by the medical department and the homeopathic medical college. The homeopathic medical college moves to another location in 1900. The vacated space is taken over by University Hospital.</event>
+          </chronitem>
+          <chronitem>
+            <date>1903</date>
+            <event>The 75-bed Palmer Ward, one of the first children's wards in the United States, opens in the Catherine Street Hospital.</event>
+          </chronitem>
+          <chronitem>
+            <date>1908</date>
+            <event>Jay B. Draper becomes hospital superintendent, serving until 1915. During his tenure, the hospital becomes responsible for its own finances, resulting in a surplus. The resulting complaints lead to the formation of a new Hospital Committee, created by Regental approval (January 1912), to oversee the hospital.</event>
+          </chronitem>
+          <chronitem>
+            <date>1910</date>
+            <event>The University opens Michigan's first psychiatric hospital.</event>
+          </chronitem>
+          <chronitem>
+            <date>1924</date>
+            <event>Harley A. Haynes (M.D. 1902) is appointed director of the University Hospital and is one of the earliest to bring cost accounting to hospital administration.</event>
+          </chronitem>
+          <chronitem>
+            <date>1925</date>
+            <event>The Catherine Street Hospital is replaced by University Hospital (also known as Old Main Hospital), a 700-bed facility, built at a cost of $4.4 million.</event>
+          </chronitem>
+          <chronitem>
+            <date>1928</date>
+            <event>University Hospital offers the first physician training program in thoracic surgery.</event>
+          </chronitem>
+          <chronitem>
+            <date>1942</date>
+            <event>The University of Michigan Base Hospital (General Hospital No. 298) is activated and subsequently serves in the ETO, in England, France, and Belgium.</event>
+          </chronitem>
+          <chronitem>
+            <date>1950</date>
+            <event>Women's Hospital opens as a 66,822 square foot facility. The Birth Center was one of the first facilities to offer single-room maternity care.</event>
+          </chronitem>
+          <chronitem>
+            <date>1955</date>
+            <event>The Child and Adolescent Psychiatric Hospital opens.</event>
+          </chronitem>
+          <chronitem>
+            <date>1969</date>
+            <event>C.S. Mott Children's Hospital opens its doors, as the university's first hospital devoted entirely to children. The 272,732 square foot facility houses 200 beds.</event>
+          </chronitem>
+          <chronitem>
+            <date>1969</date>
+            <event>The James and Lynelle Holden Perinatal Hospital is built, providing care for premature and critically ill infants.</event>
+          </chronitem>
+          <chronitem>
+            <date>1975</date>
+            <event>The Regents approve the <title render="italic">Bylaws for the Executive Board of University Hospital</title>.</event>
+          </chronitem>
+          <chronitem>
+            <date>1976</date>
+            <event>The W.K. Kellogg Eye Center, a 32-bed facility, is established, providing patient care, education and research in eye diseases.</event>
+          </chronitem>
+          <chronitem>
+            <date>1978</date>
+            <event>The Regents approve the creation of the Finance and Personnel Committee, which serves as a governing authority for financial matters and strategic planning.</event>
+          </chronitem>
+          <chronitem>
+            <date>1982</date>
+            <event>The University begins its Survival Flight program, a hospital-based airborne emergency medical service - the first in the state.</event>
+          </chronitem>
+          <chronitem>
+            <date>1986</date>
+            <event>"Old Main" closes and the new University Hospital and A. Alfred Taubman Health Care Center opens. The 11-story hospital is nearly 1.8 million square feet in size and holds 550 beds. The Taubman Center houses 120 outpatient clinics. The conversion from Old Main into the new facilities takes place on February 14.</event>
+          </chronitem>
+          <chronitem>
+            <date>1986</date>
+            <event>M-CARE, a University HMO plan is developed. As of the year 2002, it serves over 200,000 members in 14 counties, offering HMO, point of service, Medicare and Medicaid plans.</event>
+          </chronitem>
+          <chronitem>
+            <date>1990</date>
+            <event>The hospitals expand, adding integrated services for women and children in new space and renovated units in existing hospitals.</event>
+          </chronitem>
+          <chronitem>
+            <date>1997</date>
+            <event>The U-M moves its cancer and geriatrics clinical and research programs into the $88 million Cancer Center and Geriatrics Center Building.</event>
+          </chronitem>
+        </chronlist>
+      </p>
+    </bioghist>
+    <scopecontent encodinganalog="520">
+      <p>The Hospitals Business Office record group contains financial reports, budget information and patient statistics for the major divisions of the University of Michigan Hospitals. The major divisions include the General Hospital/General Division, Neuropsychiatric Institute, Veterans Readjustment Center, Clinical Research Unit, and Psychiatric Division. The Hospitals Business Office records are divided into seven series. The majority of the series contain financial and statistical reports on the university hospital, bound into volumes by fiscal year. The fiscal year runs from July to June.</p>
+    </scopecontent>
+    <controlaccess>
+      <p>
+        <extptr href="accnote" show="embed" actuate="onload"/>
+      </p>
+      <controlaccess>
+        <head>Subjects:</head>
+        <corpname encodinganalog="610" source="lcnaf">University of Michigan. Hospitals. Business Office.</corpname>
+        <corpname encodinganalog="610" source="lcnaf">University of Michigan. Hospitals.</corpname>
+        <corpname encodinganalog="610" source="lcnaf" authfilenumber="http://id.loc.gov/authorities/names/n83201574">University of Michigan. Finance.</corpname>
+        <subject source="lcsh" encodinganalog="650">Hospitals--Finance--Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650">Hospitals--Administration.</subject>
+      </controlaccess>
+      <controlaccess>
+        <head>Genre Terms:</head>
+        <genreform source="aat" encodinganalog="655">Budgets.</genreform>
+      </controlaccess>
+    </controlaccess>
+    <dsc type="combined">
+      <c01 level="series">
+        <did>
+          <unittitle>Accountant's Daily Report <unitdate type="inclusive" normal="1926/1973">1926-1973</unitdate></unittitle>
+        </did>
+        <scopecontent>
+          <p>Accountant's Daily Reports (3 linear feet, 1926-1973) is comprised of reports by the accountants summarizing the financial status of the hospital. For each day, they recorded accounts receivable, statistics on the number of patients, cash and revenue. They also listed the cumulative statistics for the year, and the comparable amount for a year and two years prior. Starting in fiscal year 1948/49, a report was only created on the 10th, 20th, and last day of each month. Reports are not included for the following fiscal years: 1932/33, 1933/34, 1934/35, 1938/39, and 1940/41.</p>
+          <p>Beginning in fiscal year 1941/42, patient statistics were listed separately for each hospital. There is the University Hospital or General Division, and also the Neuropsychiatric Institute (1941-1966), Veterans Readjustment Center (1947-1963), Children's Psychiatric Hospital (1955-1966), Clinical Research Unit (1963-1971), and Psychiatric Division (1966-1971). Patient statistics were no longer included in the Accountant's Daily Reports after January 20, 1971.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">7 volumes</extent>
+            </physdesc>
+            <unittitle>
+              <unitdate type="inclusive" normal="1926/1936">1926-1936</unitdate>
+            </unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">6 volumes</extent>
+            </physdesc>
+            <unittitle>
+              <unitdate type="inclusive" normal="1936/1948">1936-1948</unitdate>
+            </unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">25 volumes</extent>
+            </physdesc>
+            <unittitle>
+              <unitdate type="inclusive" normal="1948/1973">1948-1973</unitdate>
+            </unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Business Office Standards and Financial Analysis <unitdate type="inclusive" normal="1928/1972">1928-1972</unitdate></unittitle>
+        </did>
+        <scopecontent>
+          <p>Business Office Standards and Financial Analysis (2 linear feet, 1928-1972) contains a variety of financial and administrative documents. There are reports on standard practices for accounting, billing, and paperwork (1928-1955), hospital rates (1950-1956), salary and wage guidelines (1970-1971), and budgets and financial statements of the General Hospital and the Psychiatric Division (1961-1972). The financial statements list expenses and incomes. There are also meeting minutes of the Board of Trustees of the Psychopathic Hospital (1928-1936), which mainly discuss the budget, patient statistics, and the construction of a new building. In addition, there is a report on unpaid accounts, listing credit analysis, analysis of increase inactive pay, and collection analysis from 1930 to 1932.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Accounting Bulletins <unitdate type="inclusive" normal="1948/1950">1948-1950</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Analysis of Unpaid Accounts <unitdate type="inclusive" normal="1930/1932">1930-1932</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Board of Trustees of the Psychopathic Hospital Meeting Minutes <unitdate type="inclusive" normal="1928/1936">1928-1936</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Budget, General Hospital Budget Progress and Psychiatric Division <unitdate type="inclusive" normal="1971/1972">1971-1972</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <unittitle>Financial Statements, General Hospital and Psychiatric Division Expenses and Incomes <unitdate type="inclusive" normal="1961/1965">1961-1965</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">4</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">4 volumes</extent>
+            </physdesc>
+            <unittitle>Rate Schedules <unitdate type="inclusive" normal="1950/1956">1950-1956</unitdate></unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">5</container>
+            <unittitle>A Report on the General Ledger of the University Hospital <unitdate type="inclusive" normal="1928">1928</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">5</container>
+            <unittitle>Salary and Wage Ranges and Guidelines <unitdate type="inclusive" normal="1970/1971">1970-1971</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">5</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">3 folders</extent>
+            </physdesc>
+            <unittitle>Standard Practices <unitdate type="inclusive" normal="1933/1955">1933-1955</unitdate></unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Director's Daily Statistical Reports <unitdate type="inclusive" normal="1947/1977">1947-1977</unitdate></unittitle>
+        </did>
+        <scopecontent>
+          <p>Director's Daily Statistical Reports [RESTRICTED] (5 linear feet, 1947-1977) contains statistical reports on the patients of the university hospitals. For each day, they record the number of patients at each location and the percent occupancy of each division, as well as a record of individuals who died or were dangerously ill that day. The report indicates their name, location, the service the patient was receiving, the doctor who recorded the information, and the hometown of the patient. Some of the reports also include the number of patients receiving each service (1948-1960) and the number of registrations by service (1948-1963). Because of the presence of patient names, the reports in this series are restricted.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">6</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">7 volumes</extent>
+            </physdesc>
+            <unittitle>
+              <unitdate type="inclusive" normal="1947/1954">1947-1954</unitdate>
+            </unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+          <accessrestrict>
+            <p>[CR RESTRICTED until July 1 <date type="restriction" normal="2054-07-01">2054</date>]</p>
+          </accessrestrict>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">7</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">6 volumes</extent>
+            </physdesc>
+            <unittitle>
+              <unitdate type="inclusive" normal="1954/1960">1954-1960</unitdate>
+            </unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+          <accessrestrict>
+            <p>[CR RESTRICTED until July 1 <date type="restriction" normal="2060-07-01">2060</date>]</p>
+          </accessrestrict>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">8</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">6 volumes</extent>
+            </physdesc>
+            <unittitle>
+              <unitdate type="inclusive" normal="1960/1966">1960-1966</unitdate>
+            </unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+          <accessrestrict>
+            <p>[CR RESTRICTED until July 1 <date type="restriction" normal="2066-07-01">2066</date>]</p>
+          </accessrestrict>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">9</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">6 volumes</extent>
+            </physdesc>
+            <unittitle>
+              <unitdate type="inclusive" normal="1966/1972">1966-1972</unitdate>
+            </unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+          <accessrestrict>
+            <p>[CR RESTRICTED until July 1 <date type="restriction" normal="2072-07-01">2072</date>]</p>
+          </accessrestrict>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">10</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">5 volumes</extent>
+            </physdesc>
+            <unittitle>
+              <unitdate type="inclusive" normal="1972/1977">1972-1977</unitdate>
+            </unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+          <accessrestrict>
+            <p>[CR RESTRICTED until July 1 <date type="restriction" normal="2077-07-01">2077</date>]</p>
+          </accessrestrict>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Monthly Department Cost Reports <unitdate type="inclusive" normal="1949/1971">1949-1971</unitdate></unittitle>
+        </did>
+        <scopecontent>
+          <p>Monthly Department Cost Reports (5 linear feet, 1949-1971) contains operating and statistical statements. For each month, there is a report of the incomes, expenses and profits or losses of each floor, unit, patient service and laboratory, as well as summary data for each hospital division. There is also statistical data on the length of patient stay, the percent capacity of the unit, and the cost and income per patient day when applicable.</p>
+          <p>Starting in fiscal year 1954/55, there are only reports for September-June. In fiscal year 1970/71, there is a format change. The reports are for each quarter and are divided by division only. The reports list revenues, direct costs, operating amount, contribution percentage, total indirect costs, net income or expense, net income or expense year to date, and if applicable, percentage of occupancy, average length of stay, total expense per patient day and net income or expense per patient day.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">11</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">5 volumes</extent>
+            </physdesc>
+            <unittitle>
+              <unitdate type="inclusive" normal="1949/1955">1949-1955</unitdate>
+            </unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">12</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">4 volumes</extent>
+            </physdesc>
+            <unittitle>
+              <unitdate type="inclusive" normal="1955/1959">1955-1959</unitdate>
+            </unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">13</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">4 volumes</extent>
+            </physdesc>
+            <unittitle>
+              <unitdate type="inclusive" normal="1959/1963">1959-1963</unitdate>
+            </unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">14</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">3 volumes</extent>
+            </physdesc>
+            <unittitle>
+              <unitdate type="inclusive" normal="1963/1966">1963-1966</unitdate>
+            </unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">15</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">4 volumes</extent>
+            </physdesc>
+            <unittitle>
+              <unitdate type="inclusive" normal="1966/1971">1966-1971</unitdate>
+            </unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Monthly Financial Reports <unitdate type="inclusive" normal="1948/1975">1948-1975</unitdate></unittitle>
+        </did>
+        <scopecontent>
+          <p>Monthly Financial Reports (3 linear feet, 1948-1975) contains summaries of financial data for the major divisions of the university hospital system. For each month, the incomes, expenses, assets, liabilities, changes in accounts receivable allowances and patient statistics are recorded and compared to the budgeted amount for each division. The major divisions are University Hospital (1948-1952), General Hospital (1952-1964), General Division (1964-1975), Neuropsychiatric Institute (1948-1964), Veterans Readjustment Center (1948-1963), Children's Psychiatric Hospital (1955-1964), Mental Health Research Institute (1955-1957) and Psychiatric Division (1964-1975).</p>
+          <p>From fiscal year 1970/71 to 1973/74, there is also a monthly report called "Comparative Finance Report," which has a statistics section and a financial section. The statistics section lists patient days, patient occupancy percentage, discharges, and the average length of stay, as well as clinical visits if applicable. Statistics are recorded for the General Division, Main Hospital, Mott Hospital, Parkview Medical, Women's Hospital, and the Psychiatric Hospital. The financial section records revenue, salary and commodity expenses and net earnings for the general and psychiatric divisions and compares them to the budgeted amount and the previous year. It also includes a summary of the balance sheet for each of the two divisions.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">16</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">11 volumes</extent>
+            </physdesc>
+            <unittitle>
+              <unitdate type="inclusive" normal="1948/1959">1948-1959</unitdate>
+            </unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">17</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">11 volumes</extent>
+            </physdesc>
+            <unittitle>
+              <unitdate type="inclusive" normal="1959/1970">1959-1970</unitdate>
+            </unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">18</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">3 volumes</extent>
+            </physdesc>
+            <unittitle>
+              <unitdate type="inclusive" normal="1970/1973">1970-1973</unitdate>
+            </unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">18</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">4 folders</extent>
+            </physdesc>
+            <unittitle>
+              <unitdate type="inclusive" normal="1973/1975">1973-1975</unitdate>
+            </unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Revenue-Payroll-Commodities Reports <unitdate type="inclusive" normal="1961/1970">1961-1970</unitdate></unittitle>
+        </did>
+        <scopecontent>
+          <p>Revenue-Payroll-Commodities (2 linear feet, 1961-1970) includes income and expenditure statistics for the General Division, Neuropsychiatric Institute (NPI) and Children's Psychiatric Hospital (CPH). There is no report for 1968/69. The report for 1969/70 is called "Cumulative Runs Revenue and Expense" and contains a combined expense section as well as revenue, payroll and commodities.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">19</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">4 volumes</extent>
+            </physdesc>
+            <unittitle>
+              <unitdate type="inclusive" normal="1961/1966">1961-1966</unitdate>
+            </unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">20</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">3 volumes</extent>
+            </physdesc>
+            <unittitle>
+              <unitdate type="inclusive" normal="1966/1970">1966-1970</unitdate>
+            </unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Director's Books <unitdate type="inclusive" normal="1967/1969">1967-1969</unitdate></unittitle>
+        </did>
+        <scopecontent>
+          <p>Director's Books (2 volumes, 1967-1969) contain statistics on the various hospital units. The statistics for fiscal year 1967/68 include the number of admissions, registrations, discharges, patient days, and various types of revenue, divided by different demographic variables and by insurance (Medicare, Medicaid and M/CARE and M/CAIDE), as well as a labor turnover report. Statistics are given for the General Hospital, Neuropsychiatric Institute, Children's Psychiatric Hospital and the Clinical Research Unit. The statistics for the 1968/69 fiscal year are for admissions and registrations only.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">20</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 volumes</extent>
+            </physdesc>
+            <unittitle>
+              <unitdate type="inclusive" normal="1967/1969">1967-1969</unitdate>
+            </unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

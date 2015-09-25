@@ -1,0 +1,1008 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead.dtd">
+<ead>
+  <eadheader audience="internal" langencoding="iso639-2b" repositoryencoding="iso15511" dateencoding="iso8601" relatedencoding="Dublin Core" scriptencoding="iso15924" countryencoding="iso3166-1">
+    <eadid countrycode="us" mainagencycode="MiU-H" publicid="us//::miu-h//TXT us::miu-h::fajansss.xml//EN" encodinganalog="Identifier">umich-bhl-2015024</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="Title">Finding Aid for Stefan S. Fajans papers, 1943-2012</titleproper>
+        <author encodinganalog="Creator">Collection processed and finding aid created by Max Eckard, March 2015</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="Publisher">Bentley Historical Library, University of Michigan</publisher>
+        <date encodinganalog="Date" normal="2013">2013</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created by Olga Virakhovskaya <date>2014</date></creation>
+      <langusage encodinganalog="Language">The finding aid is written in <language langcode="eng" scriptcode="Latn">English</language></langusage>
+      <descrules>Finding aid prepared using Describing Archives: A Content Standard (DACS)</descrules>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date>2014-MD-DD</date>
+        <item>Original encoding from Word 2007 file using Word macros and Xmetal.</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <frontmatter>
+    <titlepage>
+      <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
+      <titleproper>Finding aid for <lb/>Stefan S. Fajans papers, 1943-2012</titleproper>
+      <author>Finding aid created by <lb/>Max Eckard, March 2015</author>
+    </titlepage>
+  </frontmatter>
+  <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
+    <did>
+      <origination>
+        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/no2005104141">Fajans, Stefan S.</persname>
+      </origination>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">4.5 linear feet</extent>
+      </physdesc>
+      <unittitle encodinganalog="245">Stefan S. Fajans papers <unitdate type="inclusive" encodinganalog="245$f" normal="1943/2012">1943-2012</unitdate></unittitle>
+      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">2015024 Aa 2</unitid>
+      <langmaterial>Collection is predominantly in <language langcode="eng" encodinganalog="041">English</language>. Some correspondence in <language langcode="ger" encodinganalog="041">German</language></langmaterial>
+      <abstract>Stefan S. Fajans was a Professor of Internal Medicine at the University of Michigan Medical School from 1949-1988 and active Professor Emeritus of Internal Medicine until 2014. The collection includes personal correspondence during his time in the U.S. Army Medical Corps in World War II, as well as materials related to his professional activities and interests, including patient records, correspondence, lectures, manuscripts and other topical files related to his research on diabetes, especially Maturity Onset Diabetes of the Young (MODY).</abstract>
+      <repository>
+        <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea>, University of Michigan</corpname>
+        <extptr href="bhladd" show="embed" actuate="onload"/>
+      </repository>
+    </did>
+    <descgrp type="admin">
+      <acqinfo encodinganalog="541">
+        <p>Donated by Stefan S. Fajans (donor no. <num type="donor" encodinganalog="541$e">11141</num>) in July, 2014.</p>
+      </acqinfo>
+      <accruals encodinganalog="584">
+        <p>No further additions to the papers are expected.</p>
+      </accruals>
+      <accessrestrict encodinganalog="506">
+        <p>Portions of the collection (boxes 3-5) are subject to client/patient restrictions and are closed for one hundred years from date of creation.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+        <p>Copyright is held by the Regents of the University of Michigan.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+        <p>[item], folder, box,
+Stefan S. Fajans papers, Bentley Historical Library, University of Michigan</p>
+      </prefercite>
+    </descgrp>
+    <bioghist encodinganalog="545">
+      <p>Stefan S. Fajans was born on March 15, 1918 in Munich, Germany, and immigrated to Ann Arbor, Michigan with his family at the age of 18 when his father, Kasimir, a physical chemist and pioneer in the science of radioactivity, joined the faculty of the University of Michigan. He became a naturalized citizen in 1942. In 1947, he married Ruth Stine, a biochemist and University of Michigan alumna, at her parent's home in Washington D.C. Their marriage lasted 64 years, until she passed away at the age of 89. They had two sons, Peter (Daniar) and John (Luanne), and three grandchildren.</p>
+      <p>Dr. Fajans received his Bachelor of Science in chemistry in 1938 from the University of Michigan. He entered medical school at the University of Michigan that same year. After taking an elective in endocrinology that was taught by Dr. Jerome Conn, he became interested in endocrinology and, more specifically, in the control of carbohydrate metabolism. He earned his Doctor of Medicine in 1942.</p>
+      <p>In 1943, after completing an internship at Mount Sinai Hospital in New York City, he was drafted into the U.S. Army Medical Corps during World War II. He was a member of the 41st Evacuation Hospital, which was the first to arrive on Omaha Beach, three days after the Normandy invasion.</p>
+      <p>Following the end of the war, Dr. Fajans returned to the University of Michigan where he completed a residency in internal medicine and a fellowship in endocrinology under Dr. Conn. Dr. Fajans joined the University of Michigan faculty as an instructor in 1949; he was promoted to assistant professor in 1951, associate professor in 1955, and professor in 1961.</p>
+      <p>Dr. Fajans is well known for his research on diabetes, making "novel contributions to the knowledge that diabetes was not a single disease, but consisted of several subtypes with different causes". In 1958, Dr. Fajans began studying a Michigan family, the "R-W pedigree," with more than 360 members spanning seven generations, 76 of whom had a form of non-insulin-dependent diabetes. However, the disease "appeared unusually early in this family -- diagnosed in children and adolescents, unlike the usual onset of type 2 diabetes after age 40" . As a result of this research, he was the first to describe a subtype of type 2 diabetes, Maturity-Onset Diabetes of the Young (MODY). During the late 1980s, Dr. Fajans began collaborating with Dr. Graeme Bell at the University of Chicago, co-publishing the first paper to describe a genetic marker of MODY and the gene itself.</p>
+      <p>Throughout his career, Dr. Fajans received many awards and honors. In 1973, he was named Chief of the Division of Endocrinology and Metabolism, and in 1977 he became the first director of the Michigan Diabetes Research and Training Center, having been instrumental in its establishment. He was president of the American Diabetes Association, 1971--1972, and vice president of the Endocrine Society the preceding year. He gave the Banting Memorial Lecture --the highest award bestowed by the Diabetes UK, the United Kingdom's leading diabetes charity-- in the USA, Canada, and Great Britain. He was the University of Michigan's Henry Russell Lecturer in 1983, and was named a Master Fellow of the American College of Physicians in 1984 and a Senior Member of the Institute of Medicine of the National Academy of Sciences in 1985. The Stefan S. Fajans/Glaxo Smith Klein Professorship in Diabetes was established in 2003 and the annual Stefan S. Fajans Lectureship in Diabetes in 2010 to pay tribute to his accomplishments.</p>
+      <p>Dr. Fajans continued his research program on MODY even after his official retirement in 1988. He remained Professor Emeritus of Internal Medicine until his death on June 22, 2014.</p>
+    </bioghist>
+    <scopecontent encodinganalog="520">
+      <p>The Stefan S. Fajans papers are comprised of personal correspondence with his family while in the U.S. Army Medical Corps during World War II as well as a wide range of materials documenting his professional life. The latter are a rich source for his research on Maturity Onset Diabetes of the Young (MODY) and its associated genetic markers. The Stefan S. Fajans papers are divided into two series: Personal Correspondence and Professional Files.</p>
+    </scopecontent>
+    <controlaccess>
+      <p>
+        <extptr href="accnote" show="embed" actuate="onload"/>
+      </p>
+      <controlaccess>
+        <head>Subjects:</head>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n2001131310">Conn, Jerome W., 1907-</persname>
+        <subject source="lcsh" encodinganalog="650">Diabetes--Genetic aspects.</subject>
+        <subject source="lcsh" encodinganalog="650">Endocrinology.</subject>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no2005104141">Fajans, Stefan S.</persname>
+        <subject source="lcsh" encodinganalog="650">Non-insulin-dependent diabetes.</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n81128416">United States. Army Medical Department (1968- )</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n86070503">University of Michigan. Department of Internal Medicine.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n86802766">University of Michigan. Diabetes Research and Training Center.</corpname>
+        <subject source="lcsh" encodinganalog="650">World War, 1939-1945.</subject>
+      </controlaccess>
+      <controlaccess>
+        <head>Genre Terms:</head>
+        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+      </controlaccess>
+    </controlaccess>
+    <dsc type="combined">
+      <c01 level="series">
+        <did>
+          <unittitle>Personal Correspondence</unittitle>
+        </did>
+        <scopecontent>
+          <p>The Personal Correspondence (1993-1945, 0.1 linear feet) series includes correspondence with his family while in the U.S. Army Medical Corps during World War II. The letters detail his daily life and work in multiple locations in Europe.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 folders</extent>
+            </physdesc>
+            <unittitle>World War II Correspondence <unitdate type="inclusive" normal="1943/1945">1943-1945</unitdate></unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Professional Files <unitdate type="inclusive" normal="1950/2012">1950-2012</unitdate></unittitle>
+        </did>
+        <scopecontent>
+          <p>The Professional Files (1950-2012, 4.4 linear feet) include patient records covering his research on the R-W Pedigree and MODY. These records are predominately from his time as an active professor at the University of Michigan, although a number of records exist from research he did after retirement. They also include topical files, mostly correspondence with colleagues, sorted alphabetically. Dr. Fajans kept a significant topical file on Dr. Conn, his mentor for his research assistantship and lifelong colleague and friend. Finally, they include outlines of lectures he gave on all aspects of Diabetes and its subtypes, sorted alphabetically (sometimes listed by title of lecture, and sometimes by location) as well as a manuscripts and reprints of many of his publications on MODY and its genetic markers.</p>
+        </scopecontent>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Topical Files</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>50 Years of MODY Research <unitdate type="inclusive" normal="2008">2008</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Aberdeen <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Arvam, Peter <unitdate type="inclusive" normal="2009">2009</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Conn, Jerome</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <unittitle>Alumni Society <unitdate type="inclusive" normal="2009">2009</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <unittitle>Biographical Sketch and Publications <unitdate type="inclusive" normal="1977">1977</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">2 folders</extent>
+                </physdesc>
+                <unittitle>Correspondence <unitdate type="inclusive" normal="1961/1994">1961-1994</unitdate></unittitle>
+                <physdesc altrender="whole">
+                  </physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>Memorial</unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">1</container>
+                  <unittitle>Memorial <unitdate type="inclusive" normal="1994">1994</unitdate></unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">1</container>
+                  <physdesc altrender="whole">
+                    <extent altrender="materialtype spaceoccupied">2 folders</extent>
+                  </physdesc>
+                  <unittitle>Memorial Convocation <unitdate type="inclusive" normal="1994">1994</unitdate></unittitle>
+                  <physdesc altrender="whole">
+                    </physdesc>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">1</container>
+                  <unittitle>Memorial Programs and Brochures <unitdate type="inclusive" normal="1974">1974</unitdate>, <unitdate type="inclusive" normal="1994">1994</unitdate></unittitle>
+                </did>
+              </c05>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <unittitle>Symposium and Pictures <unitdate type="inclusive">undated</unitdate></unittitle>
+              </did>
+              <odd>
+                <p>(Contains photos of Jerome Conn)</p>
+              </odd>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>D (various topics) <unitdate type="inclusive" normal="2000/2009">2000-2009</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Davos <unitdate type="inclusive" normal="1987">1987</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Diabetes Outlook <unitdate type="inclusive" normal="1976/1977">1976-1977</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Doniach, Deborah <unitdate type="inclusive" normal="1976/1979">1976-1979</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>European Association for the Study of Diabetes Membership <unitdate type="inclusive" normal="1997">1997</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>F (various topics) <unitdate type="inclusive" normal="1975">1975</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Fellows <unitdate type="inclusive" normal="2009">2009</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Final Program <unitdate type="inclusive" normal="1985">1985</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Gestational Diabetes <unitdate type="inclusive" normal="2007/2009">2007-2009</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
+              </physdesc>
+              <unittitle>Hattersby, Andrew <unitdate type="inclusive" normal="1998/1999">1998-1999</unitdate>, <unitdate type="inclusive" normal="2002">2002</unitdate>, <unitdate type="inclusive" normal="2009">2009</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>I (various topics) <unitdate type="inclusive" normal="2009">2009</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Insulinoma Patients <unitdate type="inclusive" normal="1984">1984</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Kahn, Richard <unitdate type="inclusive" normal="2009">2009</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>L (various topics) <unitdate type="inclusive" normal="1987/1988">1987-1988</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Licenses <unitdate type="inclusive" normal="2012">2012</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">9 folders</extent>
+              </physdesc>
+              <unittitle>Long-Term Study of Asymptomatic and Future Diabetes <unitdate type="inclusive" normal="2005/2008">2005-2008</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Michigan Diabetes Association <unitdate type="inclusive" normal="1971/1973">1971-1973</unitdate>, <unitdate type="inclusive" normal="2006">2006</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>MODY <unitdate type="inclusive" normal="1983">1983</unitdate></unittitle>
+            </did>
+            <accessrestrict>
+              <p>[CR RESTRICTED until July 1 <date type="restriction" normal="2114-07-01">2114</date>]</p>
+            </accessrestrict>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>MODY 4 <unitdate type="inclusive" normal="2010">2010</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>MODY, GTT <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+            <accessrestrict>
+              <p>[CR RESTRICTED until July 1 <date type="restriction" normal="2114-07-01">2114</date>]</p>
+            </accessrestrict>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>MODYs as Paradigm of the Pathogenesis of Type 2 Diabetes <unitdate type="inclusive" normal="1998">1998</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>N (various topics) <unitdate type="inclusive" normal="1975">1975</unitdate>, <unitdate type="inclusive" normal="1999">1999</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Northern Illinois Diabetes Association <unitdate type="inclusive" normal="1988">1988</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">7 folders</extent>
+              </physdesc>
+              <unittitle>P (various topics) <unitdate type="inclusive" normal="1977/2000">1977-2000</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Porte, Jr., Daniel <unitdate type="inclusive" normal="1985/1987">1985-1987</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Professorship</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">4 folders</extent>
+              </physdesc>
+              <unittitle>R (various topics) <unitdate type="inclusive" normal="1965/1988">1965-1988</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
+              </physdesc>
+              <unittitle>Rinke <unitdate type="inclusive" normal="1964">1964</unitdate>, <unitdate type="inclusive" normal="2007">2007</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Romanian Academy of Medical Sciences <unitdate type="inclusive" normal="2002">2002</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>S (various topics) <unitdate type="inclusive" normal="1990">1990</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Selecting Criteria for the Diagnosis of "Diabetes Mellitus" <unitdate type="inclusive" normal="1980">1980</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Strong, James <unitdate type="inclusive" normal="1991">1991</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>T (various topics) <unitdate type="inclusive" normal="1977/1988">1977-1988</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Tattersall, Robert <unitdate type="inclusive" normal="1976/2002">1976-2002</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>U (various topics) <unitdate type="inclusive" normal="2000">2000</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>V (various topics) <unitdate type="inclusive" normal="1977/1988">1977-1988</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>W (various topics) <unitdate type="inclusive" normal="1981">1981</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Weigand <unitdate type="inclusive" normal="1982">1982</unitdate></unittitle>
+            </did>
+            <accessrestrict>
+              <p>[CR RESTRICTED until July 1 <date type="restriction" normal="2114-07-01">2114</date>]</p>
+            </accessrestrict>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Weiland, Otto <unitdate type="inclusive" normal="1985/1986">1985-1986</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Williams, Robert <unitdate type="inclusive" normal="1970/1976">1970-1976</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">3 folders</extent>
+              </physdesc>
+              <unittitle>X, Y, Z (various topics) <unitdate type="inclusive" normal="1983/2000">1983-2000</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Yalow, Rosalyn <unitdate type="inclusive" normal="1964">1964</unitdate>, <unitdate type="inclusive" normal="1972">1972</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Lectures, Outlines, Etc.</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>ADA Postgrad <unitdate type="inclusive" normal="1983">1983</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Banting Lecture <unitdate type="inclusive" normal="1978">1978</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Classification of Diabetes Mellitus <unitdate type="inclusive" normal="1981">1981</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Current Concepts in the Recognition, Localization and Management of Organic Hyperinsulinism <unitdate type="inclusive" normal="1981">1981</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Diabetes <unitdate type="inclusive" normal="1973">1973</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Diabetes Mellitus <unitdate type="inclusive" normal="1968">1968</unitdate>, <unitdate type="inclusive" normal="1975">1975</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Diabetes Update <unitdate type="inclusive" normal="1983">1983</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Early Stages of Diabetes: Definitions and Present Concepts <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Evanston Hospital <unitdate type="inclusive" normal="1982">1982</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Freiburg, Germany <unitdate type="inclusive" normal="1981">1981</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Hawaii <unitdate type="inclusive" normal="1983">1983</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Henry Russell Lecture <unitdate type="inclusive" normal="1983">1983</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Heterogeneity of Diabetes Mellitus <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Idiopathic Diabetes Mellitus</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle>Clinical and Etiological Heterogeneity of Diabetes Mellitus <unitdate type="inclusive" normal="1980/1982">1980-1982</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle>Current Concepts of the Pathogenesis of Diabetic Complications <unitdate type="inclusive">undated</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle>Current Status of Glucose Tolerance Tests <unitdate type="inclusive" normal="1967">1967</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle>Diagnosis of Diabetes: Concepts and Controversies <unitdate type="inclusive" normal="1976">1976</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle>Genetic and Environmental Factors in the Pathogenesis of Diabetes Mellitus <unitdate type="inclusive" normal="1976">1976</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle>Heterogeneity of Diabetes Mellitus in Man <unitdate type="inclusive">undated</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle>Minimum Requirements for the Diagnosis and Treatment of Diabetes <unitdate type="inclusive" normal="1976">1976</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Life Sciences <unitdate type="inclusive" normal="1993">1993</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Los Angeles <unitdate type="inclusive" normal="1979">1979</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Macomb Hospital <unitdate type="inclusive" normal="1983">1983</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Marseille <unitdate type="inclusive" normal="1978">1978</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Nairobi <unitdate type="inclusive" normal="1982">1982</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
+              </physdesc>
+              <unittitle>Outlines <unitdate type="inclusive">undated</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Relationship of Blood Sugar Control to the Complications of Diabetes <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Saginaw <unitdate type="inclusive" normal="1981">1981</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Sendai, Japan <unitdate type="inclusive" normal="1982">1982</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Spontaneous Hypoglycemia <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Toronto <unitdate type="inclusive" normal="1984">1984</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Ulm <unitdate type="inclusive" normal="1997">1997</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Vail <unitdate type="inclusive" normal="1984">1984</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Manuscripts, Publications, Reprints, etc.</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Biographical Sketch <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Curriculum Vitae and Bibliography <unitdate type="inclusive" normal="2008">2008</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
+              </physdesc>
+              <unittitle>Manuscripts <unitdate type="inclusive" normal="2001">2001</unitdate>, <unitdate type="inclusive" normal="2009">2009</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">4 folders</extent>
+              </physdesc>
+              <unittitle>Publications <unitdate type="inclusive" normal="1986/2009">1986-2009</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Reprints <unitdate type="inclusive" normal="1981">1981</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Patient Records <unitdate type="inclusive" normal="1950/2012">1950-2012</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(There is an index at the front of each book.)</p>
+          </odd>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
+              </physdesc>
+              <unittitle>Fajan's Research Patient Printout <unitdate type="inclusive" normal="1987">1987</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+            <accessrestrict>
+              <p>[CR RESTRICTED until <date type="restriction" normal="2087-07-01">July 1, 2087</date>]</p>
+            </accessrestrict>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Book 1 <unitdate type="inclusive" normal="1950/1988">1950-1988</unitdate></unittitle>
+            </did>
+            <accessrestrict>
+              <p>[CR RESTRICTED until <date type="restriction" normal="2088-07-01">July 1, 2088</date>]</p>
+            </accessrestrict>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Book 2 <unitdate type="inclusive" normal="1952/1992">1952-1992</unitdate></unittitle>
+            </did>
+            <accessrestrict>
+              <p>[CR RESTRICTED until <date type="restriction" normal="2092-07-01">July 1, 2092</date>]</p>
+            </accessrestrict>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Books 3-4 <unitdate type="inclusive" normal="1954/1996">1954-1996</unitdate></unittitle>
+            </did>
+            <accessrestrict>
+              <p>[CR RESTRICTED until <date type="restriction" normal="2096-07-01">July 1, 2096</date>]</p>
+            </accessrestrict>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Books 5-6 <unitdate type="inclusive" normal="1955/1989">1955-1989</unitdate></unittitle>
+            </did>
+            <accessrestrict>
+              <p>[CR RESTRICTED until <date type="restriction" normal="2089-07-01">July 1, 2089</date>]</p>
+            </accessrestrict>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Book 7 <unitdate type="inclusive" normal="1957/2003">1957-2003</unitdate></unittitle>
+            </did>
+            <accessrestrict>
+              <p>[CR RESTRICTED until <date type="restriction" normal="2103-07-01">July 1, 2103</date>]</p>
+            </accessrestrict>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Books 8-9 <unitdate type="inclusive" normal="1958/1996">1958-1996</unitdate></unittitle>
+            </did>
+            <accessrestrict>
+              <p>[CR RESTRICTED until <date type="restriction" normal="2096-07-01">July 1, 2096</date>]</p>
+            </accessrestrict>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Book 10, 1960-2003</unittitle>
+            </did>
+            <accessrestrict>
+              <p>[CR RESTRICTED until <date type="restriction" normal="2103-07-01">July 1, 2103</date>]</p>
+            </accessrestrict>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
+              </physdesc>
+              <unittitle>Book 11 <unitdate type="inclusive" normal="1962/1989">1962-1989</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+            <accessrestrict>
+              <p>[CR RESTRICTED until <date type="restriction" normal="2089-07-01">July 1, 2089</date>]</p>
+            </accessrestrict>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
+              </physdesc>
+              <unittitle>Book 12 <unitdate type="inclusive" normal="1964/2004">1964-2004</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+            <accessrestrict>
+              <p>[CR RESTRICTED until <date type="restriction" normal="2104-07-01">July 1, 2104</date>]</p>
+            </accessrestrict>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">3 folders</extent>
+              </physdesc>
+              <unittitle>Book 13 <unitdate type="inclusive" normal="1966/1985">1966-1985</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+            <accessrestrict>
+              <p>[CR RESTRICTED until <date type="restriction" normal="2085-07-01">July 1, 2085</date>]</p>
+            </accessrestrict>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">3 folders</extent>
+              </physdesc>
+              <unittitle>Book 14 <unitdate type="inclusive" normal="1969/1996">1969-1996</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+            <accessrestrict>
+              <p>[CR RESTRICTED until <date type="restriction" normal="2096-07-01">July 1, 20096</date>]</p>
+            </accessrestrict>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">3 folders</extent>
+              </physdesc>
+              <unittitle>Book 15 <unitdate type="inclusive" normal="1972/1987">1972-1987</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+            <accessrestrict>
+              <p>[CR RESTRICTED until <date type="restriction" normal="2087-07-01">July 1, 2087</date>]</p>
+            </accessrestrict>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">3 folders</extent>
+              </physdesc>
+              <unittitle>Book 16 <unitdate type="inclusive" normal="1967/2004">1967-2004</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+            <accessrestrict>
+              <p>[CR RESTRICTED until <date type="restriction" normal="2104-07-01">July 1, 2104</date>]</p>
+            </accessrestrict>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
+              </physdesc>
+              <unittitle>Book 17 <unitdate type="inclusive" normal="1977/1985">1977-1985</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+            <accessrestrict>
+              <p>[CR RESTRICTED until <date type="restriction" normal="2114-07-01">July 1, 2114</date>]</p>
+            </accessrestrict>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
+              </physdesc>
+              <unittitle>Book 18 <unitdate type="inclusive" normal="1982/2012">1982-2012</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+            <accessrestrict>
+              <p>[CR RESTRICTED until <date type="restriction" normal="2112-07-01">July 1, 2112</date>]</p>
+            </accessrestrict>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">3 folders</extent>
+              </physdesc>
+              <unittitle>Wiegand Book <unitdate type="inclusive" normal="1983/2007">1983-2007</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+            <accessrestrict>
+              <p>[CR RESTRICTED until <date type="restriction" normal="2107-07-01">July 1, 2107</date>]</p>
+            </accessrestrict>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Pratt Book <unitdate type="inclusive" normal="1993/2007">1993-2007</unitdate></unittitle>
+            </did>
+            <accessrestrict>
+              <p>[CR RESTRICTED until <date type="restriction" normal="2107-07-01">July 1, 2107</date>]</p>
+            </accessrestrict>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>Rinke Book <unitdate type="inclusive" normal="1991/1994">1991-1994</unitdate></unittitle>
+            </did>
+            <accessrestrict>
+              <p>[CR RESTRICTED until <date type="restriction" normal="2094-07-01">July 1, 2094</date>]</p>
+            </accessrestrict>
+          </c03>
+        </c02>
+      </c01>
+    </dsc>
+    <descgrp type="add">
+      <relatedmaterial>
+        <head>Relared Material</head>
+        <p>The Bentley Historical Library holds the <title render="italic" linktype="simple" href="http://quod.lib.umich.edu/b/bhlead/umich-bhl-2009097" show="replace" actuate="onrequest">News and Information Services (University of Michigan) Faculty and Staff Files</title>, which include a folder for Dr. Fajans.</p>
+        <p>The Bentley Historical Library also holds the <title render="italic" linktype="simple" href="http://quod.lib.umich.edu/b/bhlead/umich-bhl-861073" show="replace" actuate="onrequest">Linda Kay Tanner Strodtman papers</title>, which include mention of Dr. Fajans in the 1976-1983 subseries of the Michigan Diabetes Research and Training Center (MDRTC) series and the Diabetes Center Unit (DCU), MDRTC series.</p>
+        <p>Finally, the Bentley Historical Library holds the <title render="italic" linktype="simple" href="http://quod.lib.umich.edu/b/bhlead/umich-bhl-05104" show="replace" actuate="onrequest">Center for the History of Medicine (University of Michigan) Oral History Interviews</title>, which include an oral history recording of Dr. Fajans.</p>
+      </relatedmaterial>
+    </descgrp>
+  </archdesc>
+</ead>

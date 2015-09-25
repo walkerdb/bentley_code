@@ -1,0 +1,626 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead.dtd">
+<ead>
+  <eadheader audience="internal" langencoding="iso639-2b" repositoryencoding="iso15511" dateencoding="iso8601" relatedencoding="Dublin Core" scriptencoding="iso15924" countryencoding="iso3166-1">
+    <eadid countrycode="us" mainagencycode="MiU-H" publicid="-//us::MiU-H//TEXT us::MiU-H::aaartass.xml//EN" encodinganalog="Identifier">umich-bhl-85621</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="Title">Finding Aid for Ann Arbor Art Association Records <date>1909-1969</date></titleproper>
+        <author encodinganalog="Creator">Collection processed and finding aid prepared by Sarah Hughes</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="Publisher">Bentley Historical Library, University of Michigan</publisher>
+        <date encodinganalog="Date" normal="2002-02">February 2002</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created by Sarah Hughes <date>February 2002</date></creation>
+      <langusage>The finding aid is written in <language encodinganalog="Language" langcode="eng" scriptcode="Latn">English.</language></langusage>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date>20150522</date>
+        <item>Added oversize volumes.</item>
+      </change>
+      <change>
+        <date encodinganalog="2003-10-10">20031010</date>
+        <item>Converted to EAD2002 using Word macro and Xmetal</item>
+      </change>
+      <change>
+        <date encodinganalog="2002-04-03">2002-04-03</date>
+        <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <frontmatter>
+    <titlepage>
+      <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
+      <titleproper>Finding Aid for <lb/>Ann Arbor Art Association Records, <date type="inclusive">1909-1969</date></titleproper>
+      <author>Finding aid prepared by: <lb/>Sarah Hughes</author>
+    </titlepage>
+  </frontmatter>
+  <archdesc audience="external" type="inventory" level="recordgrp" relatedencoding="MARC21">
+    <did>
+      <origination>
+        <corpname source="lcnaf" encodinganalog="110">Ann Arbor Art Association.</corpname>
+      </origination>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">2 oversize volumes</extent>
+      </physdesc>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">2.5 linear feet</extent>
+      </physdesc>
+      <unittitle encodinganalog="245">Ann Arbor Art Association Records <unitdate type="inclusive" encodinganalog="245$f" normal="1909/1969">1909-1969</unitdate></unittitle>
+      <physdesc encodinganalog="300" altrender="part">
+        </physdesc>
+      <abstract>Constitution, by-laws, minutes of meetings, reports, membership lists, scrapbooks, correspondence and exhibit materials.</abstract>
+      <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">85621 Bp 2; BP outsize</unitid>
+      <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
+      <repository>
+        <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea> University of Michigan</corpname>
+        <extptr href="bhladd" show="embed" actuate="onload"/>
+      </repository>
+    </did>
+    <descgrp type="admin">
+      <acqinfo encodinganalog="541">
+        <p>The records came from different sources. Professor Emil Lorch (donor no. <num type="donor" encodinganalog="541$e">2647</num>) deposited three of the Association's early minute books in 1956. In 1958, the Association itself (donor no. <num type="donor" encodinganalog="541$e">3459</num>) began to deposit records. In 1958, Mrs. Robert Horton donated a scrapbook to the record group.</p>
+      </acqinfo>
+      <accessrestrict encodinganalog="506">
+        <p>The collection is open for research.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+        <p>Copyright has not been transferred to the Regents of the University of Michigan.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+        <p>item, folder title, box no., Ann Arbor Art Association Records, Bentley Historical Library, University of Michigan</p>
+      </prefercite>
+    </descgrp>
+    <bioghist encodinganalog="545">
+      <p>The Ann Arbor Art Association was formed in 1909 by a group of local artists and University of Michigan art department faculty members who wished to further their talents and interests by collaborating with like-minded people in the community. Their first exhibit home was in Alumni Memorial Hall. The Association continued to hold exhibits, both juried and non-juried, in the Hall until the 1940s when it moved to the galleries of the Rackham building.</p>
+      <p>As the Association gained members, it began to expand its focus to include the promotion of art appreciation in and around Ann Arbor. Examples included the Youth Art Shows, which showcased the work of local school children, and the very successful Christmas Exhibits and Sales. The Association also exhibited members' artwork at City Hall and the Ann Arbor District Library, a practice that has continued to this day. In 1960, the Association collaborated with the Ann Arbor Merchants Association on the Ann Arbor Street Craft Fair, an exhibition and sale that quickly gained fame and popularity.</p>
+      <p>Although these records end in 1969, the Ann Arbor Art Association continues to be an active and vital group, promoting a love of art and enabling amateur artists in the community to foster their talent and love for various medium of artistic expression.</p>
+    </bioghist>
+    <scopecontent encodinganalog="520">
+      <p>The records of the Ann Arbor Art Association cover a sixty year span and consist of meeting minutes, treasurer's reports, membership lists and materials, exhibit notices, lists of participating artists and their work, newspaper clippings covering the various exhibits, and other records of community involvement. The bulk of the records is concentrated on the administration of the Association and its exhibits and outreach programs. Many of these records were collected and maintained by Mrs. Roy Holmes, a life member of the Association, and Professor Jean Paul Slusser, the official historian of the Association during the 1950s and 1960s. The record group has been divided into two series: Organizational Records and Exhibits and Outreach.</p>
+    </scopecontent>
+    <controlaccess>
+      <p>
+        <extptr href="accnote" show="embed" actuate="onload"/>
+      </p>
+      <controlaccess>
+        <head>Subjects:</head>
+        <subject source="lcsh" encodinganalog="650">Art--Michigan--Ann Arbor.</subject>
+        <subject source="lcsh" encodinganalog="650">Artists--Michigan--Ann Arbor.</subject>
+        <subject source="lcsh" encodinganalog="650">Arts--Michigan--Ann Arbor--Societies, etc.</subject>
+      </controlaccess>
+      <controlaccess>
+        <head>Genre/Form:</head>
+        <genreform source="aat" encodinganalog="655">Scrapbooks.</genreform>
+      </controlaccess>
+    </controlaccess>
+    <dsc type="combined">
+      <c01 level="series">
+        <did>
+          <unittitle>Organizational Records</unittitle>
+        </did>
+        <scopecontent>
+          <p>The Organizational Records series is comprised of two subseries: Secretary's and other officers record books and Miscellaneous Administrative Records.</p>
+        </scopecontent>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Secretary's and other officers record books</unittitle>
+          </did>
+          <scopecontent>
+            <p>The Secretary's and other officers record books subseries documents the meetings and administration of the Association. This subseries includes board and annual meeting minutes, treasurer's reports, and committee reports. There is some overlap in the dates as some of the volumes were probably maintained by different Association officers.</p>
+          </scopecontent>
+          <c03 level="file">
+            <did>
+              <unittitle>Minutes <unitdate type="inclusive" normal="1909-05/1968-07">May 1909-July 1968</unitdate></unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1909-05/1916-01">May 1909-January 1916</unitdate>
+                </unittitle>
+              </did>
+              <odd>
+                <p>(lacking 1913)</p>
+              </odd>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1916-01/1923-12">January 1916-December 1923</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1924-01/1933-11">January 1924-November 1933</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1934-01/1946-06">January 1934-June 1946</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1946-10/1953-05">October 1946-May 1953</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1949-05/1953-06">May 1949-June 1953</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1947/1950-05">1947-May 1950</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1952-05/1957-05">May 1952-May 1957</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1956-06/1957-05">June 1956-May 1957</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1953-07/1959-08">July 1953-August 1959</unitdate>
+                </unittitle>
+              </did>
+              <odd>
+                <p>(also treasurer's reports)</p>
+              </odd>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1956-11/1962-05">November 1956-May 1962</unitdate>
+                </unittitle>
+              </did>
+              <odd>
+                <p>(also treasurer's reports)</p>
+              </odd>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1962-05/1968-07">May 1962-July 1968</unitdate>
+                </unittitle>
+              </did>
+              <odd>
+                <p>(also treasurer's reports)</p>
+              </odd>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Miscellaneous Administrative Records</unittitle>
+          </did>
+          <scopecontent>
+            <p>The Miscellaneous Administrative Records subseries consists of a variety of Association files including treasurer's reports, the constitution and membership records. The membership files include the lists of Association members, honorary members, and honorary life members from the earliest part of the Association's history to the final dates covered by this record group. It also includes a Members Record Book containing the artistic profiles of many 1955 Association members.</p>
+          </scopecontent>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Correspondence <unitdate type="inclusive" normal="1911/1912">1911-1912</unitdate>, <unitdate type="inclusive" normal="1959/1963">1959-1963</unitdate>, <unitdate type="inclusive" normal="1965/1967">1965-1967</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Treasurer's Reports <unitdate type="inclusive" normal="1951-05/1966-05">May 1951-May 1966</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Treasurer's Reports <unitdate type="inclusive" normal="1954-05/1961-01">May 1954-January 1961</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Constitution and Amendments <unitdate type="inclusive" normal="1959/1963">1959-1963</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Policy on Expenditure <unitdate type="inclusive" normal="1946">1946</unitdate>, <unitdate type="inclusive" normal="1957">1957</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Insurance for Art Exhibits <unitdate type="inclusive" normal="1958/1961">1958-1961</unitdate>, <unitdate type="inclusive" normal="1963/1967">1963-1967</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Tax Problem <unitdate type="inclusive" normal="1964-01">January 1964</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Membership</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle>Membership Books and Letters <unitdate type="inclusive" normal="1922">1922</unitdate>, <unitdate type="inclusive" normal="1958/1967">1958-1967</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>Lists <unitdate type="inclusive" normal="1953/1969">1953-1969</unitdate></unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">2</container>
+                  <unittitle>
+                    <unitdate type="inclusive" normal="1953/1964">1953-1964</unitdate>
+                  </unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">2</container>
+                  <unittitle>
+                    <unitdate type="inclusive" normal="1964/1969">1964-1969</unitdate>
+                  </unittitle>
+                </did>
+              </c05>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle>Members Record <unitdate type="inclusive" normal="1955-01">January 1955</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Miscellaneous</unittitle>
+            </did>
+            <odd>
+              <p>(include constitutions, scattered minutes, speech of president, etc.)</p>
+            </odd>
+          </c03>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Exhibits and Outreach</unittitle>
+        </did>
+        <scopecontent>
+          <p>The Exhibits and Outreach series documents the many and varied exhibits planned and executed by the Association from its earliest days to the late sixties. It contains the exhibit notices that were mailed to the membership, along with an extensive collection of newspaper clippings that cover the exhibits themselves. Various regular exhibit sites throughout the community, such as the Old German Restaurant, City Hall, the Ann Arbor District Library, and the annual shows - the Youth Show, the Christmas Sales and One Day Craft Shows, the Annual Members Shows, and the Ann Arbor Street Fair - are documented by planning notes, lists of participating artists and works, and press releases. The Semi-Centennial of the Association, celebrated in 1959, is also covered quite extensively. Three scrapbooks are also included in this series, spanning the thirties to the early sixties and containing exhibit notices and newspaper clippings from various exhibits.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Paper by Emil Lorch entitled, "The Ann Arbor Art Association Exhibits and Lectures 1909-1934; notes on the establishment of lecture course in the History of Art and on art instruction University of Michigan" <unitdate type="inclusive" normal="1956-08">August 1956</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Exhibit Notices and Newspaper Clippings</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1925/1929">1925-1929</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1929/1931">1929-1931</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1931/1934">1931-1934</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1934/1936">1934-1936</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1936/1937">1936-1937</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1938/1939">1938-1939</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1939/1940">1939-1940</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1940/1942">1940-1942</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1942/1948">1942-1948</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1948/1951">1948-1951</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1951/1954">1951-1954</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1954/1957">1954-1957</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1958/1967">1958-1967</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Titled exhibits</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Ann Arbor Art Association Permanent Collection <unitdate type="inclusive" normal="1958/1966">1958-1966</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Ann Arbor Street Fair <unitdate type="inclusive" normal="1960">1960</unitdate>, <unitdate type="inclusive" normal="1964/1967">1964-1967</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Christmas Shows <unitdate type="inclusive" normal="1958/1961">1958-1961</unitdate>, <unitdate type="inclusive" normal="1963">1963</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>City Hall Shows <unitdate type="inclusive" normal="1958/1959">1958-1959</unitdate>, <unitdate type="inclusive" normal="1963/1967">1963-1967</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>City Hall Show <unitdate type="inclusive" normal="1963">1963</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>City Hall Shows <unitdate type="inclusive" normal="1963-12">December 1963</unitdate>, <unitdate type="inclusive" normal="1964-02">February 1964</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>City Planning Shows <unitdate type="inclusive" normal="1960/1961">1960-1961</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Group Shows <unitdate type="inclusive" normal="1959">1959</unitdate>, <unitdate type="inclusive" normal="1961/1963">1961-1963</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Film Lecture Program <unitdate type="inclusive" normal="1951/1964">1951-1964</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Library Shows <unitdate type="inclusive" normal="1959/1967">1959-1967</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Michigan Water Color Exhibit <unitdate type="inclusive" normal="1959">1959</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Old German Restaurant <unitdate type="inclusive" normal="1960/1964">1960-1964</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>One Day Craft Sale <unitdate type="inclusive" normal="1964/1967">1964-1967</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Semi-Centennial <unitdate type="inclusive" normal="1959">1959</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Jean Paul Slusser Tribute Fund <unitdate type="inclusive" normal="1964">1964</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Youth Exhibit <unitdate type="inclusive" normal="1960/1966">1960-1966</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <unittitle>Exhibit Notices <unitdate type="inclusive" normal="1957/1967">1957-1967</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Various <unitdate type="inclusive" normal="1954/1964">1954-1964</unitdate></unittitle>
+            </did>
+            <odd>
+              <p>(includes press releases, price lists)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Various <unitdate type="inclusive" normal="1965/1969">1965-1969</unitdate></unittitle>
+            </did>
+            <odd>
+              <p>(includes press releases, price lists)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Publication: <title render="italic">Hand-book for the first exhibition of the Ann Arbor Art Association</title>, <unitdate type="inclusive" normal="1909">1909</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Publication: <title render="italic">Exhibition of oriental and American Art</title>, <unitdate type="inclusive" normal="1910">1910</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Publication: <title render="italic">Retrospective exhibition ...Warren P. Lombard ...Horatio W. Shaw</title>, <unitdate type="inclusive" normal="1940">1940</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Publication: <title render="italic">The Ann Arbor Art Association 1909-1959 a survey of fifty years</title>, <unitdate type="inclusive" normal="1959">1959</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Scrapbook containing exhibit notices and newspaper clippings <unitdate type="inclusive" normal="1931/1938">1931-1938</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">1</container>
+              <unittitle>Scrapbook containing exhibit notices and newspaper clippings <unitdate type="inclusive" normal="1948/1954">1948-1954</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="volume" label="Oversize Volume">2</container>
+              <unittitle>Scrapbook containing exhibit notices and newspaper clippings <unitdate type="inclusive" normal="1953/1962">1953-1962</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>Attendance book for Art Association exhibits in Alumni Memorial Hall <unitdate type="inclusive" normal="1935/1936">1935-1936</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

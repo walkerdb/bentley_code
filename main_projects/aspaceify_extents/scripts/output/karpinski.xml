@@ -1,0 +1,863 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead.dtd">
+<ead>
+  <eadheader audience="internal" langencoding="iso639-2b" repositoryencoding="iso15511" dateencoding="iso8601" relatedencoding="Dublin Core" scriptencoding="iso15924" countryencoding="iso3166-1">
+    <eadid countrycode="us" mainagencycode="MiU-H" publicid="us//::miu-h//TXT us::miu-h::karpinski.xml//EN" encodinganalog="Identifier">umich-bhl-851725</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="Title">Finding Aid for Louis Charles Karpinski papers, 1838-1889 and 1901-1955</titleproper>
+        <author encodinganalog="Creator">Collection processed and finding aid created by Michigan Historical Collections staff</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="Publisher">Bentley Historical Library, University of Michigan</publisher>
+        <date encodinganalog="Date" normal="2007">2007</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created by Thomas E. Powers <date>July 2007</date></creation>
+      <langusage encodinganalog="Language">The finding aid is written in <language langcode="eng" scriptcode="Latn">English</language></langusage>
+      <descrules>Finding aid prepared using Describing Archives: A Content Standard (DACS)</descrules>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date>2007-07-16</date>
+        <item>Original encoding from Word 2000 file using Word macros and Xmetal.</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <frontmatter>
+    <titlepage>
+      <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
+      <titleproper>Finding aid for <lb/>Louis Charles Karpinski papers, <lb/>1838-1889 and 1901-1955</titleproper>
+      <author>Finding aid created by <lb/>Michigan Historical Collections staff</author>
+    </titlepage>
+  </frontmatter>
+  <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
+    <did>
+      <origination>
+        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/n79135334">Karpinski, Louis Charles, 1878-1956.</persname>
+      </origination>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">3 linear feet</extent>
+      </physdesc>
+      <unittitle encodinganalog="245">Louis Charles Karpinski papers <unitdate type="inclusive" encodinganalog="245$f" normal="1838/1889">1838-1889</unitdate>, <unitdate type="inclusive" encodinganalog="245$f" normal="1901/1955">1901-1955</unitdate></unittitle>
+      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">851725 Aa 2</unitid>
+      <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
+      <abstract>Professor of mathematics at University of Michigan. Correspondence, printed materials and miscellanea relating to his research in mathematics and the history of science, his interest in collecting historical manuscripts, maps, and rare books, and his personal affairs; also photograph.</abstract>
+      <repository>
+        <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea>, University of Michigan</corpname>
+        <extptr href="bhladd" show="embed" actuate="onload"/>
+      </repository>
+    </did>
+    <descgrp type="admin">
+      <acqinfo encodinganalog="541">
+        <p>The collection came from Professor Karpinski (donor no. <num type="donor" encodinganalog="541$e">389</num>) in 1949 and from Mrs. Paul Adams (donor no. <num type="donor" encodinganalog="541$e">3999</num>) in 1963.</p>
+      </acqinfo>
+      <accruals encodinganalog="584">
+        <p>No further additions to the records are expected.</p>
+      </accruals>
+      <accessrestrict encodinganalog="506">
+        <p>The collection is open to research.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+        <p>Copyright is held by the Regents of the University of Michigan.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+        <p>[item], folder, box,
+Louis Charles Karpinski papers, Bentley Historical Library, University of Michigan</p>
+      </prefercite>
+    </descgrp>
+    <bioghist encodinganalog="545">
+      <p>Dr. Louis Charles Karpinski was born August 5, 1878 in Rochester, N.Y. He received his bachelor's degree in 1901 from Cornell University and was awarded a PhD degree by the University of Strasbourg, Germany in 1903.</p>
+      <p>He taught at Berea College, Kentucky, from 1897 to 1899 and at Oswego Normal College, 1903-04. He was in charge of the mathematics department at the Chautauquan Institute, Chautauqua, N.Y., from 1905 to 1907. He was a teachers' college fellow and university extension lecturer at Columbia University in 1909-10.</p>
+      <p>Dr. Karpinski became instructor of mathematics at the University of Michigan in 1904, assistant professor in 1914 and professor of mathematics in 1919, a post he held until his retirement, Aug. 5, 1948.</p>
+      <p>Dr. Karpinski was a member of the American Mathematical Society, the Mathematical Association of America and the Historical Science Society. He was author of several books on mathematics, some of them in German. These include <title render="italic">The History of Arithmetic</title> and <title render="italic">Unified Mathematics</title>. He died in 1956.</p>
+    </bioghist>
+    <scopecontent encodinganalog="520">
+      <p>The collection has been arranged into the following series: Correspondence, Collected letters of historical personages; Mathematics and cartographical interests; Collecting historical documents (with materials collected by LCK); and miscellaneous.</p>
+    </scopecontent>
+    <controlaccess>
+      <p>
+        <extptr href="accnote" show="embed" actuate="onload"/>
+      </p>
+      <controlaccess>
+        <head>Subjects:</head>
+        <geogname source="lcsh" encodinganalog="651">Ipswich (Mass.)</geogname>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79135334">Karpinski, Louis Charles, 1878-1956.</persname>
+        <subject source="lcsh" encodinganalog="650">Mathematics.</subject>
+        <subject source="lcsh" encodinganalog="650">Roads--Massachusetts--Ipswich.</subject>
+        <subject source="lcsh" encodinganalog="650">Science.</subject>
+        <geogname source="lcsh" encodinganalog="651">United States--History--Civil War, 1861-1865.</geogname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n88657243">University of Michigan. Dept. of Mathematics.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Faculty.</corpname>
+      </controlaccess>
+      <controlaccess>
+        <head>Subjects - Visual Materials:</head>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/n79135334">Karpinski, Louis Charles, 1878-1956.</persname>
+      </controlaccess>
+      <controlaccess>
+        <head>Contributors:</head>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n89613731">Adams, Randolph Greenfield, 1892-1951.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n80126170">Beard, Charles Austin, 1874-1948.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n93084315">Bishop, William Warner, 1871-1955.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n80049761">Breasted, James Henry, 1865-1935.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n85225538">Burr, George Lincoln, 1857-1938.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79133769">Cajori, Florian, 1859-1930.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/nr94035654">Cameron, William John, 1879-1955.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/nr94018515">Clements, William L. (William Lawrence), 1861-1934.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n93006184">Frost, William G. (William Goodell), 1854-1938.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/no00078893">Fulton, James Street, 1904-1997</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n88070962">Hamlin, Hannibal, 1809-1891.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n85345431">Harrison, William Henry, 1773-1841.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n82024600">Haskins, Charles Homer, 1870-1937.</persname>
+        <persname source="lcnaf" encodinganalog="700">Kelsey, Francis W. (Francis Willey), b. 1858.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n94088177">Lamont, Daniel Scott, 1851-1905.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79090226">Montagu, Ashley, 1905-1999.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n78083448">Nast, Thomas, 1840-1902.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/nr95032558">Pogo, Alexander, 1893-</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50019220">Poole, Reginald Lane, 1857-1939.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n85185631">Sankey, Ira David, 1840-1908.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50019341">Sarton, George, 1884-1956.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79133740">Shryock, Richard Harrison, 1893-1972.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79054769">Singer, Charles Joseph, 1876-1960.</persname>
+        <persname source="lcnaf" encodinganalog="700">Singer, Dorothea Waley.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79134854">Smith, David Eugene, 1860-1944.</persname>
+        <persname source="lcnaf" encodinganalog="700">Spaulding, Thomas M. (Thomas Marshall), b. 1882.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50023914">Stevens, Thaddeus, 1792-1868.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n79085104">Straight, Michael Whitney.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n88224872">Sulzberger, Arthur Hays, 1891-1968.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n50012691">Thorndike, Lynn, 1882-1965.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n86864668">Uspensky, J. V. (James Victor), b. 1883.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n80002425">Wallace, Henry Agard, 1888-1965.</persname>
+      </controlaccess>
+      <controlaccess>
+        <head>Genre Terms:</head>
+        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+      </controlaccess>
+    </controlaccess>
+    <dsc type="combined">
+      <c01 level="series">
+        <did>
+          <unittitle>Correspondence</unittitle>
+        </did>
+        <scopecontent>
+          <p>The Correspondence series includes letters from Karpinski to his parents (1901-1903) written from Europe while he was a student there. In addition, there is professional correspondence relating to his scholarly interests in mathematics, the history of science, cartography, and the collecting of historical manuscripts and rare books. Correspondents include: Randolph G. Adams, Charles A. Beard, James H. Breasted, George L. Burr, Florian Cajori, W. J. Cameron, William L. Clements, J. Fulton, Charles H. Haskins, Francis W. Kelsey, Ashley Montague, Alexander Pogo, R. L. Poole, George Sarton, Richard Shryock, Charles Singer, Dorothea Waley Singer, David E. Smith, Michael Straight, Arthur H. Sulzberger, Lynn Thorndike, J. Uspensky, and Henry A. Wallace.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1901/1905">1901-1905</unitdate>
+            </unittitle>
+          </did>
+          <odd>
+            <p>(folder no.1)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1906/1910">1906-1910</unitdate>
+            </unittitle>
+          </did>
+          <odd>
+            <p>(folder no. 2)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1911/1915">1911-1915</unitdate>
+            </unittitle>
+          </did>
+          <odd>
+            <p>(folder no. 3)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1916/1920">1916-1920</unitdate>
+            </unittitle>
+          </did>
+          <odd>
+            <p>(folder no. 4)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1921/1930">1921-1930</unitdate>
+            </unittitle>
+          </did>
+          <odd>
+            <p>(folder no. 5)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1931/1940">1931-1940</unitdate>
+            </unittitle>
+          </did>
+          <odd>
+            <p>(folder no. 6)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1941/1945">1941-1945</unitdate>
+            </unittitle>
+          </did>
+          <odd>
+            <p>(folder no. 7)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1946">1946</unitdate>
+            </unittitle>
+          </did>
+          <odd>
+            <p>(folder no. 8)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1947">1947</unitdate>
+            </unittitle>
+          </did>
+          <odd>
+            <p>(folder no. 9)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1948">1948</unitdate>
+            </unittitle>
+          </did>
+          <odd>
+            <p>(folder no. 10)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1949">1949</unitdate>
+            </unittitle>
+          </did>
+          <odd>
+            <p>(folder no. 11)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1950">1950</unitdate>
+            </unittitle>
+          </did>
+          <odd>
+            <p>(folder no. 12)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1951">1951</unitdate>
+            </unittitle>
+          </did>
+          <odd>
+            <p>(folder no. 13)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1952">1952</unitdate>
+            </unittitle>
+          </did>
+          <odd>
+            <p>(folder no. 14)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1953">1953</unitdate>
+            </unittitle>
+          </did>
+          <odd>
+            <p>(folder no. 15)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1954">1954</unitdate>
+            </unittitle>
+          </did>
+          <odd>
+            <p>(folder no. 16)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>
+              <unitdate type="inclusive" normal="1955">1955</unitdate>
+            </unittitle>
+          </did>
+          <odd>
+            <p>(folder no. 17)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>
+              <unitdate type="inclusive">undated</unitdate>
+            </unittitle>
+          </did>
+          <odd>
+            <p>(folder no. 18)</p>
+          </odd>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Collected letters of historical personages</unittitle>
+        </did>
+        <scopecontent>
+          <p>The Collected letters of historical personages included letters of Hannibal Hamlin, Daniel S. Lamont, Ira Sankey, and Thaddeus Stevens.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Hannibal Hamlin <unitdate type="inclusive" normal="1889-10-28">October 28, 1889</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(folder no. 19)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Daniel S. Lamont <unitdate type="inclusive" normal="1886-03-29">March 29, 1886</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(folder no. 20)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Ira Sankey <unitdate type="inclusive" normal="1896-07-24">July 24, 1896</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(folder no. 21)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Thaddeus Stevens <unitdate type="inclusive" normal="1841-03-06">March 6, 1841</unitdate> (letter addressed to President William Henry Harrison), <unitdate type="inclusive" normal="1864-05-15">May 15, 1864</unitdate>, <unitdate normal="1865-08-13">August 13, 1865</unitdate>, <unitdate type="inclusive" normal="1866-08-16" certainty="approximate">circa August 16, 1866</unitdate>, <unitdate type="inclusive" normal="1867-05-20">May 20, 1867</unitdate>, <unitdate type="inclusive" normal="1867-08-27">August 27, 1867</unitdate>, <unitdate type="inclusive" normal="1867-12-25">December 25, 1867</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(folder 22)</p>
+          </odd>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Mathematics and cartographical interests</unittitle>
+        </did>
+        <scopecontent>
+          <p>The Mathematics and cartographical interests series relates in part to his interest in the development of arithmetic and the mathematics of the Middle and Far East.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Book <title render="italic">Rare Arithmetica</title> (1908) by David Eugene Smith with extensive notations by LCK</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Book <title render="italic">The Hindu-Arabic Numerals</title> (1911) by David Eugene Smith and Louis Charles Karpinski with extensive notations by LCK</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Book <title render="italic">History of Arithmetic</title> (1925) by Louis Charles Karpinski with extensive notations by LCK</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Book <title render="italic">Bibliography of Egyptian Mathematics with special references to the Rhind Mathematical Papyrus</title> (1927) by Raymond Clare Archibald</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Thesis of Irby Coghill Nichols (University of Michigan): "A Comparative Study of Fractions of the Early Treatises on the Hindu Art of Reckoning"</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Thesis of Sister Mary Thomas à Kempis Kloyda (University of Michigan) <unitdate type="inclusive" normal="1938">1938</unitdate> "Linear and Quadratic Equations 1550-1660"</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>History of mathematics materials</unittitle>
+          </did>
+          <odd>
+            <p>(folder 23)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">8 folders</extent>
+            </physdesc>
+            <unittitle>Mathematics miscellaneous</unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+          <odd>
+            <p>(folder nos. 24-31)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">3 folders</extent>
+            </physdesc>
+            <unittitle>Map research miscellaneous</unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+          <odd>
+            <p>(folder nos. 32-34)</p>
+          </odd>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Collected historical documents</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>Road assessment of Ipswich, Massachusetts <unitdate type="inclusive" normal="1838">1838</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(folder no. 35)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>Civil War miscellanea</unittitle>
+          </did>
+          <odd>
+            <p>(folder no. 35.1)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">3 folders</extent>
+            </physdesc>
+            <unittitle>Rare materials collected by Karpinski</unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+          <odd>
+            <p>(folder nos. 36-38)</p>
+          </odd>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Miscellaneous</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>List of publications by Karpinski</unittitle>
+          </did>
+          <odd>
+            <p>(folder no. 39)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">3 folders</extent>
+            </physdesc>
+            <unittitle>Lists and miscellanea pertaining to rare books</unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+          <odd>
+            <p>(folder no. 40-42)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>
+              <title render="italic">The Dearborn Independent</title>
+            </unittitle>
+          </did>
+          <odd>
+            <p>(LCK wrote several articles for this newspaper)</p>
+          </odd>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1924">1924</unitdate>
+              </unittitle>
+            </did>
+            <odd>
+              <p>(folder no. 43)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1925">1925</unitdate>
+              </unittitle>
+            </did>
+            <odd>
+              <p>(folder no. 44)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle><unitdate type="inclusive">Undated</unitdate> and miscellaneous printed materials</unittitle>
+            </did>
+            <odd>
+              <p>(folder no. 45)</p>
+            </odd>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>Clippings and miscellanea</unittitle>
+          </did>
+          <odd>
+            <p>(folder no. 46)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>Miscellanea; include postcards</unittitle>
+          </did>
+          <odd>
+            <p>(folder no. 47)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>Miscellaneous booklets, etc.</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>
+              <genreform normal="Photographs">Photographs</genreform>
+            </unittitle>
+          </did>
+        </c02>
+      </c01>
+    </dsc>
+    <descgrp type="add">
+      <head>Index to Selective Correspondents</head>
+      <index>
+        <indexentry>
+          <persname>Adams, Randolph Greenfield, 1892-1951.</persname>
+          <ref>
+            <list type="simple">
+              <item>June 9, 1927 (folder 5)</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Beard, Charles Austin, 1874-1948.</persname>
+          <ref>
+            <list type="simple">
+              <item>June 17, 1933 (folder 6)</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Bishop, William Warner, 1871-1955.</persname>
+          <ref>
+            <list type="simple">
+              <item>Nov. 8, 1926 (folder 5)</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Breasted, James Henry, 1865-1935.</persname>
+          <ref>
+            <list type="simple">
+              <item>Jan. 14, 1914 (folder 3)</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Burr, George Lincoln, 1857-1938.</persname>
+          <ref>
+            <list type="simple">
+              <item>Jan. 16, 1913, Apr. 29, 1913 (folder 3)</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Cajori, Florian, 1859-1930.</persname>
+          <ref>
+            <list type="simple">
+              <item>Oct 24, 1919 (folder 4), June 24, 1928, July 3, 1928 (folder 5)</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Cameron, William John, 1879-1955.</persname>
+          <ref>
+            <list type="simple">
+              <item>Jan. 7, 1927 (folder 5)</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Clements, William L. (William Lawrence), 1861-1934.</persname>
+          <ref>
+            <list type="simple">
+              <item>Jan. 12, 1927 (folder 5)</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Frost, William G. (William Goodell), 1854-1938.</persname>
+          <ref>
+            <list type="simple">
+              <item>Jan. 4, 1902, June 25, 1903, Feb. 12, 1904 (folder 1), Feb. 6, 1912 (folder 3)</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Fulton, James Street, 1904-</persname>
+          <ref>
+            <list type="simple">
+              <item>Mar. 3, 1943 (folder 7)</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Hamlin, Hannibal, 1809-1891.</persname>
+          <ref>
+            <list type="simple">
+              <item>Oct 28, 1889 (folder 9)</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Harrison, William Henry, 1773-1841.</persname>
+          <ref>
+            <list type="simple">
+              <item>Mar. 6, 1841 (folder 22)</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Haskins, Charles Homer 1870-1937.</persname>
+          <ref>
+            <list type="simple">
+              <item>Jan. 2, 1912, Nov. 12, 1914, Feb. 1, 1915 (folder 3), May 21, 1926 (folder 5)</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Kelsey, Francis W. (Francis Willey), 1858.</persname>
+          <ref>
+            <list type="simple">
+              <item>Mar. 9, 1912 (folder 3)</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Lamont, Daniel Scott, 1851-1905.</persname>
+          <ref>
+            <list type="simple">
+              <item>Mar. 29, 1886 (folder 20)</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Montagu, Ashley, 1905-1999.</persname>
+          <ref>
+            <list type="simple">
+              <item>Mar. 31, 1943 (folder 7)</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Nast, Thomas, 1840-1902.</persname>
+          <ref>
+            <list type="simple">
+              <item>Mar. 29, 1886 (folder 20)</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Pogo, Alexander, 1893-</persname>
+          <ref>
+            <list type="simple">
+              <item>Apr. 1, 1943, Apr. 26, 1943, Dec. 22, 1943 (folder 7)</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Poole, Reginald Lane, 1857-1939.</persname>
+          <ref>
+            <list type="simple">
+              <item>May 8, 1913, May 9, 1913, Aug. 7, 1913, Apr. 15, 1914, July 16, 1914, Sept. 4, 1914 (folder 3)</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Sankey, Ira David, 1840-1908.</persname>
+          <ref>
+            <list type="simple">
+              <item>July 24, 1896 (folder 21)</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Sarton, George, 1884-1956.</persname>
+          <ref>
+            <list type="simple">
+              <item>June 23, 1928 (folder 5), Aug. 21, 1936 (folder 6), Jan. 17, 1943, Apr. 26, 1943, Nov. 19, 1944 (folder 7)</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Shryock, Richard Harrison, 1893-1972.</persname>
+          <ref>
+            <list type="simple">
+              <item>Jan. 5, 1943, Jan. 20, 1943, Jan. 22, 1943, Jan. 26, 1943 (folder 7)</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Singer, Charles Joseph, 1876-1960.</persname>
+          <ref>
+            <list type="simple">
+              <item>Oct. 15, 1930 (folder 5), Dec. 1, 1934 (folder 6)</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Singer, Dorothea (Waley)</persname>
+          <ref>
+            <list type="simple">
+              <item>Aug. 27, 1927, Jan. 2, 1930 (folder 5), Nov. 19, 1948 (folder 10)</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Smith, David Eugene, 1860-1944.</persname>
+          <ref>
+            <list type="simple">
+              <item>June 3, 1905, Sept. 23 1905 (folder 1), Apr. 7, 1909, Apr. 19, 1909, Apr. 27, 1909 (folder 2), Mar. 9 1912, Nov. 11, 1912, Mar. 26, 1914 (folder 3), Nov. 14, 1923, May 7, 1924 (folder 6), Jan. 21, 1932, undated 1932 (folder 6), Nov. 10, 19?? (folder 18)</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Spaulding, Thomas M. (Thomas Marshall), 1882.</persname>
+          <ref>
+            <list type="simple">
+              <item>Jan. 18, 1940, Jan. 27, 1940, Feb. 22, 1940, Mar. 2, 1940, Mar. 30, 1940, May 15, 1940 (folder 6), Oct. 22, 1941 (folder 7), Dec. 9, 19?? (folder 18)</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Stevens, Thaddeus, 1792-1868.</persname>
+          <ref>
+            <list type="simple">
+              <item>Mar 6, 1841, May 15, 1864, Aug. 13, 1865, Aug. 16, 1866, May 20, 1867, Aug. 27, 1867, Dec. 25, 1867 (folder 22)</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Sulzberger, Arthur Hays, 1891-1968.</persname>
+          <ref>
+            <list type="simple">
+              <item>Mar. 25, 1943 (folder 7)</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Thorndike, Lynn, 1882-1965.</persname>
+          <ref>
+            <list type="simple">
+              <item>Oct. 17, 1921 (folder 5)</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Uspensky, J. V. (James Victor), 1883.</persname>
+          <ref>
+            <list type="simple">
+              <item>Mar, 27, 1925 (folder 5)</item>
+            </list>
+          </ref>
+        </indexentry>
+        <indexentry>
+          <persname>Wallace, Henry Agard, 1888-1965.</persname>
+          <ref>
+            <list type="simple">
+              <item>Feb. 24, 1943 (folder 7)</item>
+            </list>
+          </ref>
+        </indexentry>
+      </index>
+    </descgrp>
+  </archdesc>
+</ead>

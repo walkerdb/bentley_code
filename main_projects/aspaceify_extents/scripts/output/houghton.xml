@@ -1,0 +1,1596 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead.dtd">
+<ead>
+  <eadheader audience="internal" langencoding="iso639-2b" repositoryencoding="iso15511" dateencoding="iso8601" relatedencoding="Dublin Core">
+    <eadid countrycode="us" mainagencycode="MiU-H" publicid="-//us::MiU-H//TEXT us::MiU-H::houghton.xml//EN" encodinganalog="identifier">umich-bhl-851483</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="title">Finding Aid for Douglass Houghton Papers <date/></titleproper>
+        <author encodinganalog="creator">Collection processed and finding aid prepared by Leonard A. Coombs (reprocessed, 1988)</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="publisher">Bentley Historical Library, University of Michigan</publisher>
+        <date encodinganalog="date">2003</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created by Greg Kinney <date>Feb. 2003</date></creation>
+      <langusage>The finding aid is written in <language encodinganalog="language" langcode="eng">English.</language></langusage>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date>2011-07-13</date>
+        <item>Changes made to reflect a reordering of some files, link to HathiTrust publication added.</item>
+      </change>
+      <change>
+        <date>20031010</date>
+        <item>Converted to EAD2002 using Word macro and Xmetal</item>
+      </change>
+      <change>
+        <date>2003-2-26</date>
+        <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <frontmatter>
+    <titlepage>
+      <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
+      <titleproper>Finding Aid for <lb/>Douglass Houghton Papers, <date type="inclusive">1829-1845</date></titleproper>
+      <author>Finding aid prepared by: <lb/>Leonard A. Coombs (reprocessed, 1988)</author>
+    </titlepage>
+  </frontmatter>
+  <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
+    <did>
+      <origination>
+        <persname source="lcnaf" encodinganalog="100" authfilenumber="http://id.loc.gov/authorities/names/nr92024162">Houghton, Douglass, 1809-1845.</persname>
+      </origination>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">2 oversize folders</extent>
+      </physdesc>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">2 oversize volumes</extent>
+      </physdesc>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">0.4 linear feet</extent>
+        <physfacet>1 box</physfacet>
+      </physdesc>
+      <unittitle encodinganalog="245">Douglass Houghton Papers <unitdate type="inclusive" encodinganalog="245$f" normal="1829/1845">1829-1845</unitdate></unittitle>
+      <abstract>State geologist of Michigan. Field notes, 1837-1841, of his geological survey of the state, including some original drawings [original and typescript copies, and microfilm of pages 197-291]; letter book, 1841-1845; miscellaneous correspondence and field notes, including letter, May 31, 1841, to Abram Sager; notes and other papers collected by Mrs. John Ehlers for her book on Houghton, including copies of papers of Bela Hubbard; and photographs.</abstract>
+      <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">851483 Aa/2; Ac; UAx; AC</unitid>
+      <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
+      <repository>
+        <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea> University of Michigan</corpname>
+        <extptr href="bhladd" show="embed" actuate="onload"/>
+      </repository>
+    </did>
+    <descgrp type="admin">
+      <acqinfo encodinganalog="541">
+        <p>The bulk of the collection was transferred to the Bentley Historical Library from the Rare Book Room of the University Library (Donor <num type="donor" encodinganalog="541$e">1278</num>). The field notes volume was given to the University in 1858 by Houghton's widow. See Alexander Winchell's paper "History of the Controversy About Dr. Houghton's Field Notes" in Box 19, of the Winchell collection. The letter book was donated to the University in 1895 by Frantz H. Coe. Smaller portions of the collection were transferred from the William L. Clements Library (Donor <num type="donor" encodinganalog="541$e">1333</num>) and donated by William C. Steere (Donor <num type="donor" encodinganalog="541$e">2068</num>) and Russell Bidlack (Donor <num type="donor" encodinganalog="541$e">2635</num>). Photostat copies of maps were donated by the University of Michigan Museum of Anthropology (Donor <num type="donor" encodinganalog="541$e">9273</num>)</p>
+      </acqinfo>
+      <accessrestrict encodinganalog="506">
+        <p>The collection is open to research.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+        <p>Unpublished writings of Douglass Houghton are in the public domain.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+        <p>item, folder title, box no., Douglass Houghton Papers, Bentley Historical Library, University of Michigan</p>
+      </prefercite>
+    </descgrp>
+    <bioghist encodinganalog="545">
+      <p>As Michigan's first state geologist, Douglass Houghton was responsible for the expansion of scientific knowledge of the state's geography and geology in the period immediately after statehood. The results of his work had an important influence on the economic development of the state, especially in the development of copper mining in the Keweenaw Peninsula, but also in the exploitation of salt springs and, through the Geological Survey's mapping program, in the growth of the agricultural counties in the southern part of the state.</p>
+      <p>Houghton was born in Troy, New York, in 1809, but moved shortly afterward to Fredonia, New York. He graduated from Rensselaer Polytechnic in 1829, and became assistant professor of chemistry there. The following year he was invited to Detroit as a lecturer and remained a resident of Michigan for the rest of his life.</p>
+      <p>Houghton served as surgeon and botanist with Henry R. Schoolcraft's 1831 and 1832 expeditions to the source of the Mississippi River. He practiced medicine in Detroit for several years and helped organize the Detroit Young Men's Society in 1833, becoming the society's second president.</p>
+      <p>In 1837 Houghton persuaded the state legislature to establish a geological survey to conduct a comprehensive study of Michigan's natural resources. He was appointed the first state geologist the same year. During the summers of the following years, Houghton and his assistants, chiefly Bela Hubbard, Sylvester Higgins, and William Burt, conducted field work in the northern parts of the state: in 1838 the Lake Huron and Lake Michigan shores of the Lower Peninsula were surveyed; in 1839 the eastern and southern parts of the Upper Peninsula from Sault Ste. Marie to Green Bay; in 1840 the Lake Superior coast and the copper region of Keweenaw Point; in 1841 the Michigan-Wisconsin boundary, the Ontonagon River area, and the Marquette iron region.</p>
+      <p>Houghton proposed in 1843 that the U.S. land survey of the Upper Peninsula be combined with the state geological survey of the area. The following summer he contracted to perform the combined surveys. While engaged in the survey of the Keweenaw Peninsula in 1845 Houghton drowned in a fall storm on Lake Superior.</p>
+      <p>After Houghton's death, the surveys he had contracted to do were taken over by Hubbard, Higgins, and William Ives. In 1846 Hubbard and Burt edited and published a report on the copper region based on Houghton's notes from his 1845 survey.</p>
+    </bioghist>
+    <scopecontent encodinganalog="520">
+      <p>The Douglass Houghton manuscript collection at the Michigan Historical Collections includes one volume of field notes, 1837-1841; typed transcripts of the field notes; a one volume letterpress book, 1841-1845; miscellaneous correspondence, newspaper clippings and other papers (photostats and typescripts of materials in other repositories); and notes collected by Mrs. John Ehlers for a book on Houghton.</p>
+      <p>An appendix to this finding aid contains an inventory to the manuscript maps found in the collection, and other Houghton maps.</p>
+      <p>The reports of Houghton's work for the Michigan Geological Survey have been published in <bibref><title render="italic" href="http://hdl.handle.net/2027/mdp.39015002598459">Geological Reports of Douglass Houghton: First State Geologist of Michigan, 1837-1845</title>, <imprint>Lansing, Mich.: Michigan Historical Commission <date>1928</date>.</imprint> [MHC call number EA/153/MG345/G345, available online through HathiTrust]</bibref></p>
+    </scopecontent>
+    <controlaccess>
+      <p>
+        <extptr href="accnote" show="embed" actuate="onload"/>
+      </p>
+      <controlaccess>
+        <head>Subjects:</head>
+        <persname source="lcnaf" encodinganalog="600">Ehlers, John, Mrs.</persname>
+        <subject source="lcsh" encodinganalog="650">Geology--Michigan.</subject>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/nr92024162">Houghton, Douglass, 1809-1845.</persname>
+        <persname source="lcnaf" encodinganalog="600">Sager, Abram, 1810-1877.</persname>
+        <subject source="lcsh" encodinganalog="650">Surveyors--Michigan.</subject>
+      </controlaccess>
+      <controlaccess>
+        <head>Subjects - Visual Material:</head>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/nr92024162">Houghton, Douglass, 1809-1845.</persname>
+      </controlaccess>
+      <controlaccess>
+        <head>Subjects - Maps</head>
+        <geogname source="lcsh" encodinganalog="651">Alcona County (Mich.)--Maps.</geogname>
+        <geogname source="lcsh" encodinganalog="651">Alpena County (Mich.)--Maps.</geogname>
+        <geogname source="lcsh" encodinganalog="651">Antrim County (Mich.)--Maps.</geogname>
+        <geogname source="lcsh" encodinganalog="651">Arenac County (Mich.)--Maps.</geogname>
+        <geogname source="lcsh" encodinganalog="651">Baraga County (Mich.)--Maps.</geogname>
+        <geogname source="lcsh" encodinganalog="651">Bay County (Mich.)--Maps.</geogname>
+        <geogname source="lcsh" encodinganalog="651">Benzie County (Mich.)--Maps.</geogname>
+        <geogname source="lcsh" encodinganalog="651">Charlevoix County (Mich.)--Maps.</geogname>
+        <geogname source="lcsh" encodinganalog="651">Cheboygan County (Mich.)--Maps.</geogname>
+        <geogname source="lcsh" encodinganalog="651">Chippewa County (Mich.)--Maps.</geogname>
+        <geogname source="lcsh" encodinganalog="651">Delta County (Mich.)--Maps.</geogname>
+        <geogname source="lcsh" encodinganalog="651">Emmet County (Mich.)--Maps.</geogname>
+        <geogname source="lcsh" encodinganalog="651">Gogebic County (Mich.)--Maps.</geogname>
+        <geogname source="lcsh" encodinganalog="651">Grand Traverse County (Mich.)--Maps.</geogname>
+        <geogname source="lcsh" encodinganalog="651">Gratiot County (Mich.)--Maps.</geogname>
+        <geogname source="lcsh" encodinganalog="651">Houghton County (Mich.)--Maps.</geogname>
+        <geogname source="lcsh" encodinganalog="651">Huron County (Mich.)--Maps.</geogname>
+        <geogname source="lcsh" encodinganalog="651">Iosco County (Mich.)--Maps.</geogname>
+        <geogname source="lcsh" encodinganalog="651">Kalamazoo County (Mich.)--Maps.</geogname>
+        <geogname source="lcsh" encodinganalog="651">Kent County (Mich.)--Maps.</geogname>
+        <geogname source="lcsh" encodinganalog="651">Keweenaw County (Mich.)--Maps.</geogname>
+        <geogname source="lcsh" encodinganalog="651">Leelanau County (Mich.)--Maps.</geogname>
+        <geogname source="lcsh" encodinganalog="651">Luce County (Mich.)--Maps.</geogname>
+        <geogname source="lcsh" encodinganalog="651">Mackinac County (Mich.)--Maps.</geogname>
+        <geogname source="lcsh" encodinganalog="651">Manistee County (Mich.)--Maps.</geogname>
+        <geogname source="lcsh" encodinganalog="651">Marquette (Mich.)--Maps.</geogname>
+        <geogname source="lcsh" encodinganalog="651">Mason County (Mich.)--Maps.</geogname>
+        <geogname source="lcsh" encodinganalog="651">Menominee County (Mich.)--Maps.</geogname>
+        <geogname source="lcsh" encodinganalog="651">Muskegon County (Mich.)--Maps.</geogname>
+        <geogname source="lcsh" encodinganalog="651">Newaygo County (Mich.)--Maps.</geogname>
+        <geogname source="lcsh" encodinganalog="651">Oceana County (Mich.)--Maps.</geogname>
+        <geogname source="lcsh" encodinganalog="651">Ontonagon County (Mich.)--Maps.</geogname>
+        <geogname source="lcsh" encodinganalog="651">Ottawa County (Mich.)--Maps.</geogname>
+        <geogname source="lcsh" encodinganalog="651">Presque Isle County (Mich.)--Maps.</geogname>
+        <geogname source="lcsh" encodinganalog="651">Saginaw County (Mich.)--Maps.</geogname>
+        <geogname source="lcsh" encodinganalog="651">Sanilac County (Mich.)--Maps.</geogname>
+        <geogname source="lcsh" encodinganalog="651">Schoolcraft County (Mich.)--Maps.</geogname>
+        <geogname source="lcsh" encodinganalog="651">Tuscola County (Mich.)--Maps.</geogname>
+        <geogname source="lcsh" encodinganalog="651">Van Buren County (Mich.)--Maps.</geogname>
+        <geogname source="lcsh" encodinganalog="651">Minnesota--Maps.</geogname>
+        <geogname source="lcsh" encodinganalog="651">Wisconsin--Maps.</geogname>
+        <geogname source="lcsh" encodinganalog="651">Upper Peninsula (Mich.)--Maps.</geogname>
+        <geogname source="lcsh" encodinganalog="651">Superior, Lake, Region--Maps.</geogname>
+        <subject source="lcsh" encodinganalog="650">Geology--Michigan--Maps.</subject>
+        <subject source="lcsh" encodinganalog="650">Geology--Minnesota--Maps.</subject>
+        <subject source="lcsh" encodinganalog="650">Geology--Wisconsin--Maps.</subject>
+      </controlaccess>
+      <controlaccess>
+        <head>Contributors:</head>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n83196231">Hubbard, Bela, 1814-1896.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n81076840">Mason, Stevens Thomson, 1811-1843.</persname>
+        <persname source="lcnaf" encodinganalog="700" authfilenumber="http://id.loc.gov/authorities/names/n88159841">Woodbridge, William, 1780-1861.</persname>
+      </controlaccess>
+      <controlaccess>
+        <head>Genre/Form:</head>
+        <genreform source="gmgpc" encodinganalog="655">Daguerreotypes.</genreform>
+        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+      </controlaccess>
+    </controlaccess>
+    <dsc type="combined">
+      <c01 level="series">
+        <did>
+          <unittitle>Field Notes</unittitle>
+        </did>
+        <scopecontent>
+          <p>The volume of field notes consists primarily of geological notes of areas surveyed during Houghton's field work, and include many maps, geological sections, and sketches of landforms. This is the final office copy of the notes, not the original field notes, which are available in part at the Clarke Historical Library (and on microfilm at this library, see below under Related Collections).</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container type="volume" label="Oversize Volume">1</container>
+            <unittitle>Field notes and Observations <unitdate type="inclusive" normal="1837/1841">1837-1841</unitdate></unittitle>
+          </did>
+          <odd>
+            <p>(Includes correspondence of Stevens T. Mason and William Woodbridge; Field notes for May 25-September 24, 1840 have been microfilmed. Master negative only)</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 volumes</extent>
+            </physdesc>
+            <unittitle>Typescript copy of text of the volume of field notes</unittitle>
+            <physdesc altrender="whole">
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <physloc>Outsize Folder</physloc>
+            <unittitle>Maps and overlays taken from field notes</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <physloc>Outsize Folder</physloc>
+            <unittitle>Maps</unittitle>
+          </did>
+          <odd>
+            <p>(Photostats use copies)</p>
+          </odd>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Letterpress book and other correspondence</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <container type="volume" label="Oversize Volume">2</container>
+            <unittitle>Letterpress book <unitdate type="inclusive" normal="1841-01/1845-04">January 1841-April 1845</unitdate></unittitle>
+          </did>
+          <scopecontent>
+            <p>The letterpress book contains correspondence and copies of reports of the Geological Survey. Because the ink is faded, the volume is rather hard to read.</p>
+          </scopecontent>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Correspondence and other communications</unittitle>
+            <physdesc>
+              <physfacet>Photostats and typescripts</physfacet>
+            </physdesc>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1829/1832">1829-1832</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1833/1840">1833-1840</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1841/1845">1841-1845</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Other Papers</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Fredonia (N.Y.) Academy catalogues</unittitle>
+            <physdesc>
+              <physfacet>Photostats</physfacet>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Papers concerning Bela Hubbard which mention Douglass Houghton</unittitle>
+            <physdesc>
+              <physfacet>Photostats</physfacet>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Probate records</unittitle>
+            <physdesc>
+              <physfacet>Photostats</physfacet>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Miscellanea</unittitle>
+            <physdesc>
+              <physfacet>Photostats</physfacet>
+            </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Notes made by Mrs. John Ehlers on the life of Douglass Houghton</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <physloc>Outsize Folder</physloc>
+            <unittitle>Newspaper articles and miscellanea</unittitle>
+            <physdesc>
+              <physfacet>Photostats</physfacet>
+            </physdesc>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>
+            <genreform normal="Photographs">Photographs</genreform>
+          </unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <physloc>Vault</physloc>
+            <unittitle>
+              <genreform normal="Photographs">Daguerreotype</genreform>
+            </unittitle>
+          </did>
+          <odd>
+            <p>In UAx folders</p>
+          </odd>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Photographs of portrait paintings made in the <unitdate type="inclusive" normal="1830/1839" certainty="approximate">1830s</unitdate></unittitle>
+          </did>
+        </c02>
+      </c01>
+    </dsc>
+    <descgrp type="add">
+      <relatedmaterial>
+        <head>Related Collections</head>
+        <p>Houghton papers, 1830-1846, containing business correspondence relating to the real estate business of Houghton and Henry Hubbard, correspondence concerning the incorporation of St. Paul's Church in Detroit (1842), survey maps, and geological field notes (1837-1840 and 1845) are held by the Clarke Historical Library, Central Michigan University, Mount Pleasant, Michigan. The Michigan Historical Collections has a microfilm copy of this collection. The field notes in this collection are Houghton's original notes, written in pocket-size notebooks.</p>
+        <p>Other Douglass Houghton papers are held by the Michigan State Archives (in the records of the Geological Survey) and the Burton Historical Collection, Detroit Public Library.</p>
+        <p>A portrait of Houghton painted by Alvah Bradish in 1850 is found in the Michigan Historical Collections works of art collection. A daguerreotype of another portrait of Houghton painted by Bradish is cataloged in the photograph collection.</p>
+      </relatedmaterial>
+      <descgrp>
+        <head>Index to Maps in the Houghton Papers</head>
+        <p>This inventory includes the manuscript maps drawn on and pasted into the pages of the field notes volume, other manuscript maps that have been removed from the volume and stored with outsize unbound manuscripts, a complementary group of maps in the collections of the Michigan State Archives, and a group of photostatic copies at the William L. Clements Library. Photostat use copies of most of the original maps in this collection are also available at the Bentley Historical Library.</p>
+        <p>The maps fall into three main groups: <list type="ordered"><item>Maps of the Lake Huron shore of the Lower Peninsula from north of Port Huron north to Mackinac Island and the Lake Michigan shore south from Mackinac to the South Haven area, probably drawn in 1838.</item><item>Maps of the St. Marys River and the Lake Huron and Lake Michigan shore of the Upper Peninsula, probably drawn in 1839.</item><item>Maps of the Lake Superior shore of the Upper Peninsula, from Sault Ste. Marie to La Pointe, Wis., probably drawn in 1840.</item></list></p>
+        <p>A few maps can be dated earlier or later than these groups, or cannot be dated.</p>
+        <p>The maps in the field notes volume are listed in the order in which they are bound, followed by the outsize maps, the State Archives maps, and the Clements Library maps.</p>
+        <list type="simple">
+          <head>Maps Found in Field Notes volume</head>
+          <item>
+            <archref>
+              <unittitle>[Township 11 North, Range 14 West]</unittitle>
+              <physdesc>
+                <dimensions>16x16 cm.</dimensions>
+              </physdesc>
+              <note>
+                <p>
+                  <geogname>Newaygo County</geogname>
+                </p>
+              </note>
+              <container type="volume">Front flyleaf</container>
+              <note>
+                <p>Copy: Photostat 1</p>
+              </note>
+            </archref>
+          </item>
+          <item>
+            <archref>
+              <unittitle>[Grand Traverse Bay-part, unidentified] 1838?</unittitle>
+              <physdesc>
+                <dimensions>39x16 cm.</dimensions>
+              </physdesc>
+              <note>
+                <p>
+                  <geogname>Antrim, Grand Traverse, or Leelanau Counties</geogname>
+                </p>
+              </note>
+              <container>Page 1 (facing)</container>
+              <note>
+                <p>Copy: Photostat 10, Two sections on 1 sheet</p>
+              </note>
+            </archref>
+          </item>
+          <item>
+            <archref>
+              <unittitle>[Grand Traverse Bay-south of Charlevoix] 1838?</unittitle>
+              <physdesc>
+                <dimensions>39x13 cm.</dimensions>
+              </physdesc>
+              <note>
+                <p>
+                  <geogname>Charlevoix and Antrim Counties</geogname>
+                </p>
+              </note>
+              <container>Page 1 (facing)</container>
+              <note>
+                <p>Copy: Photostat 9</p>
+              </note>
+            </archref>
+          </item>
+          <item>
+            <archref>
+              <unittitle>[Lake Michigan shore-Northport area] 1838?</unittitle>
+              <physdesc>
+                <dimensions>39x26 cm.</dimensions>
+              </physdesc>
+              <note>
+                <p>
+                  <geogname>Leelanau County</geogname>
+                </p>
+              </note>
+              <container>Page 1 (facing)</container>
+              <note>
+                <p>Copy: Photostat 8</p>
+              </note>
+            </archref>
+          </item>
+          <item>
+            <archref>
+              <unittitle>[Lake Michigan shore-Little Traverse Bay and area west past Charlevoix] 1838?</unittitle>
+              <physdesc>
+                <dimensions>40x19 cm.</dimensions>
+              </physdesc>
+              <note>
+                <p>
+                  <geogname>Emmet and Charlevoix Counties</geogname>
+                </p>
+              </note>
+              <container>Page 1 (facing)</container>
+              <note>
+                <p>Copy: Photostat 7</p>
+              </note>
+            </archref>
+          </item>
+          <item>
+            <archref>
+              <unittitle>[Pigeon (Croche) River mouth] 1837?</unittitle>
+              <physdesc>
+                <dimensions>4x6 cm.</dimensions>
+              </physdesc>
+              <note>
+                <p>
+                  <geogname>Huron County</geogname>
+                </p>
+              </note>
+              <container>Page 84</container>
+              <note>
+                <p>Copy: Photostat 10a</p>
+              </note>
+            </archref>
+          </item>
+          <item>
+            <archref>
+              <unittitle>[Saginaw Bay-northwest part, Rifle River to Alabaster area] 1838?</unittitle>
+              <physdesc>
+                <dimensions>32x21 cm.</dimensions>
+              </physdesc>
+              <note>
+                <p>
+                  <geogname>Arenac and Iosco Counties</geogname>
+                </p>
+              </note>
+              <container>Page 101</container>
+              <note>
+                <p>Copy: Photostat 11</p>
+              </note>
+            </archref>
+          </item>
+          <item>
+            <archref>
+              <unittitle>[Saginaw Bay-Point Au Gres to Alabaster area] 1838?</unittitle>
+              <physdesc>
+                <dimensions>23x19 cm.</dimensions>
+              </physdesc>
+              <note>
+                <p>
+                  <geogname>Arenac and Iosco Counties</geogname>
+                </p>
+              </note>
+              <container>Page 101</container>
+              <note>
+                <p>Copy: Photostat 12</p>
+              </note>
+            </archref>
+          </item>
+          <item>
+            <archref>
+              <unittitle>[Lake Huron shore-Tawas Bay to north of Oscoda] 1838?</unittitle>
+              <physdesc>
+                <dimensions>22x19 cm.</dimensions>
+              </physdesc>
+              <note>
+                <p>
+                  <geogname>Iosco County</geogname>
+                </p>
+              </note>
+              <container>Page 104</container>
+              <note>
+                <p>Copy: Photostat 13</p>
+              </note>
+            </archref>
+          </item>
+          <item>
+            <archref>
+              <unittitle>[Lake Huron shore-north of Oscoda to South Point] 1838?</unittitle>
+              <physdesc>
+                <dimensions>23x11 cm.</dimensions>
+              </physdesc>
+              <container>Mileage 240-260</container>
+              <note>
+                <p>
+                  <geogname>Alcona County</geogname>
+                </p>
+              </note>
+              <container>Page 105</container>
+              <note>
+                <p>Copy: Photostat 14</p>
+              </note>
+            </archref>
+          </item>
+          <item>
+            <archref>
+              <unittitle>[Lake Huron shore-Black River to south of Alpena] 1838?</unittitle>
+              <physdesc>
+                <dimensions>21x15 cm.</dimensions>
+              </physdesc>
+              <note>
+                <p>
+                  <geogname>Alcona and Alpena Counties</geogname>
+                </p>
+              </note>
+              <container>Page 106</container>
+              <note>
+                <p>Copy: Photostat 15</p>
+              </note>
+            </archref>
+          </item>
+          <item>
+            <archref>
+              <unittitle>[Lake Huron shore-Thunder Bay to Middle Island] 1838?</unittitle>
+              <physdesc>
+                <dimensions>20x20 cm.</dimensions>
+              </physdesc>
+              <note>
+                <p>
+                  <geogname>Alpena County</geogname>
+                </p>
+              </note>
+              <container>Page 109</container>
+              <note>
+                <p>Copy: Photostat 16</p>
+              </note>
+            </archref>
+          </item>
+          <item>
+            <archref>
+              <unittitle>[Lake Huron shore-Middle Island to west of Presque Isle] 1838?</unittitle>
+              <physdesc>
+                <dimensions>40x14 cm.</dimensions>
+              </physdesc>
+              <note>
+                <p>
+                  <geogname>Alpena and Presque Isle Counties</geogname>
+                </p>
+              </note>
+              <container>Page 112</container>
+              <note>
+                <p>Copy: Photostat 17</p>
+              </note>
+            </archref>
+          </item>
+          <item>
+            <archref>
+              <unittitle>[Lake Huron shore-west of Presque Isle to Forty Mile Point] 1838?</unittitle>
+              <physdesc>
+                <dimensions>38x15 cm.</dimensions>
+              </physdesc>
+              <note>
+                <p>
+                  <geogname>Presque Isle County</geogname>
+                </p>
+              </note>
+              <container>Page 113</container>
+              <note>
+                <p>Copy: Photostat 18</p>
+              </note>
+            </archref>
+          </item>
+          <item>
+            <archref>
+              <unittitle>[Lake Huron shore-east of Cheboygan, with Mackinac, Round, and Bois Blanc Islands] 1838?</unittitle>
+              <physdesc>
+                <dimensions>21x30 cm.</dimensions>
+              </physdesc>
+              <note>
+                <p>
+                  <geogname>Cheboygan and Mackinac Counties</geogname>
+                </p>
+              </note>
+              <container>Page 114</container>
+              <note>
+                <p>Copy: Photostat 19</p>
+              </note>
+            </archref>
+          </item>
+          <item>
+            <archref>
+              <unittitle>[Lake Michigan shore-Mackinac to west of Harbor Springs] 1838?</unittitle>
+              <physdesc>
+                <dimensions>30x31 cm.</dimensions>
+              </physdesc>
+              <note>
+                <p>
+                  <geogname>Emmet County</geogname>
+                </p>
+              </note>
+              <container>Page 119</container>
+              <note>
+                <p>Copy: Photostat 20</p>
+              </note>
+            </archref>
+          </item>
+          <item>
+            <archref>
+              <unittitle>[Lake Michigan shore-Mackinac to Platte River] 1838?</unittitle>
+              <physdesc>
+                <dimensions>26x28 cm.</dimensions>
+              </physdesc>
+              <note>
+                <p>
+                  <geogname>Emmet, Cheboygan, Charlevoix, Antrim, Grand Traverse, Leelanau, and Benzie Counties</geogname>
+                </p>
+              </note>
+              <container>Page 123</container>
+              <note>
+                <p>Copy: Photostat 21</p>
+              </note>
+            </archref>
+          </item>
+          <item>
+            <archref>
+              <unittitle>[Lake Michigan shore-Leland to south of Frankfort] 1838?</unittitle>
+              <physdesc>
+                <dimensions>39x26 cm.</dimensions>
+              </physdesc>
+              <note>
+                <p>
+                  <geogname>Leelanau and Benzie Counties</geogname>
+                </p>
+              </note>
+              <container>Page 127</container>
+              <note>
+                <p>Copy: Photostat 22</p>
+              </note>
+            </archref>
+          </item>
+          <item>
+            <archref>
+              <unittitle>[Lake Michigan shore-area south of Frankfort] 1838?</unittitle>
+              <physdesc>
+                <dimensions>17x10 cm.</dimensions>
+              </physdesc>
+              <note>
+                <p>
+                  <geogname>Benzie or Manistee County</geogname>
+                </p>
+              </note>
+              <container>Page 132</container>
+              <note>
+                <p>Copy: Photostat 23</p>
+              </note>
+            </archref>
+          </item>
+          <item>
+            <archref>
+              <unittitle>[Lake Michigan shore-north of Manistee to north of Ludington] 1838?</unittitle>
+              <physdesc>
+                <dimensions>39x14 cm.</dimensions>
+              </physdesc>
+              <note>
+                <p>
+                  <geogname>Manistee and Mason Counties</geogname>
+                </p>
+              </note>
+              <container>Page 132</container>
+              <note>
+                <p>Copy: Photostat 23</p>
+              </note>
+            </archref>
+          </item>
+          <item>
+            <archref>
+              <unittitle>[Lake Michigan shore-north of Ludington to Grand River] 1838?</unittitle>
+              <physdesc>
+                <dimensions>40x13 cm.</dimensions>
+              </physdesc>
+              <note>
+                <p>
+                  <geogname>Mason, Oceana, Muskegon, and Ottawa Counties</geogname>
+                </p>
+              </note>
+              <container>Page 135</container>
+              <note>
+                <p>Copy: Photostat 24</p>
+              </note>
+            </archref>
+          </item>
+          <item>
+            <archref>
+              <unittitle>[Grand River-detail at Cold Brook] 1838?</unittitle>
+              <physdesc>
+                <dimensions>17x25 cm.</dimensions>
+              </physdesc>
+              <note>
+                <p>
+                  <geogname>Ottawa County</geogname>
+                </p>
+              </note>
+              <container>Page 137</container>
+              <note>
+                <p>Copy: Photostat 25</p>
+              </note>
+            </archref>
+          </item>
+          <item>
+            <archref>
+              <unittitle>[Lake Michigan shore-south of Black River] 1838?</unittitle>
+              <physdesc>
+                <dimensions>17x10 cm.</dimensions>
+              </physdesc>
+              <note>
+                <p>
+                  <geogname>Van Buren County</geogname>
+                </p>
+              </note>
+              <container>Page 138</container>
+              <note>
+                <p>Copy: Photostat 26</p>
+              </note>
+            </archref>
+          </item>
+          <item>
+            <archref>
+              <unittitle>[St. Marys River and Lake Huron Shore east of Mackinac] 1839?</unittitle>
+              <physdesc>
+                <dimensions>43x51 cm.</dimensions>
+              </physdesc>
+              <note>
+                <p>
+                  <geogname>Chippewa and Mackinac Counties and Ontario</geogname>
+                </p>
+              </note>
+              <container>Page 177</container>
+              <note>
+                <p>Copy: Photostat 27</p>
+              </note>
+            </archref>
+          </item>
+          <item>
+            <archref>
+              <unittitle>[Lake Huron and Lake Michigan shore-St. Martin Bay to Point Patterson] 1839?</unittitle>
+              <physdesc>
+                <dimensions>15x41 cm.</dimensions>
+              </physdesc>
+              <note>
+                <p>
+                  <geogname>Mackinac County</geogname>
+                </p>
+              </note>
+              <container>Page 179</container>
+              <note>
+                <p>Copy: Photostat 28</p>
+              </note>
+            </archref>
+          </item>
+          <item>
+            <archref>
+              <unittitle>[Lake Michigan shore-Point Patterson to Pointe aux Barques (Garden Peninsula)] 1839?</unittitle>
+              <physdesc>
+                <dimensions>22x32 cm.</dimensions>
+              </physdesc>
+              <note>
+                <p>
+                  <geogname>Mackinac and Schoolcraft Counties</geogname>
+                </p>
+              </note>
+              <container>Page 180</container>
+              <note>
+                <p>Copy: Photostat 29</p>
+              </note>
+            </archref>
+          </item>
+          <item>
+            <archref>
+              <unittitle>[Lake Michigan shore-Garden Peninsula and Big Bay De Noc] 1839?</unittitle>
+              <physdesc>
+                <dimensions>30x20 cm.</dimensions>
+              </physdesc>
+              <note>
+                <p>
+                  <geogname>Delta County</geogname>
+                </p>
+              </note>
+              <container>Page 185</container>
+              <note>
+                <p>Copy: Photostat 30</p>
+              </note>
+            </archref>
+          </item>
+          <item>
+            <archref>
+              <unittitle>[Lake Michigan shore-Stonington Peninsula and Little Bay De Noc] 1839?</unittitle>
+              <physdesc>
+                <dimensions>23x19 cm.</dimensions>
+              </physdesc>
+              <note>
+                <p>
+                  <geogname>Delta County</geogname>
+                </p>
+              </note>
+              <container>Page 187</container>
+              <note>
+                <p>Copy: Photostat 31</p>
+              </note>
+            </archref>
+          </item>
+          <item>
+            <archref>
+              <unittitle>[Green Bay shore-between Escanaba and Menominee] 1839?</unittitle>
+              <physdesc>
+                <dimensions>26X13 cm.</dimensions>
+              </physdesc>
+              <note>
+                <p>
+                  <geogname>Delta and Menominee Counties</geogname>
+                </p>
+              </note>
+              <container>Page 191</container>
+              <note>
+                <p>Copy: Photostat 32</p>
+              </note>
+            </archref>
+          </item>
+          <item>
+            <archref>
+              <unittitle>[Menominee River near mouth and adjacent Green Bay shore] 1839?</unittitle>
+              <physdesc>
+                <dimensions>11x25 cm.</dimensions>
+              </physdesc>
+              <note>
+                <p>
+                  <geogname>Menominee County and Wisconsin</geogname>
+                </p>
+              </note>
+              <container>Page 193</container>
+              <note>
+                <p>Copy: Photostat 33</p>
+              </note>
+            </archref>
+          </item>
+          <item>
+            <archref>
+              <unittitle>[Whitefish Bay] 1840?</unittitle>
+              <physdesc>
+                <dimensions>5x5 cm.</dimensions>
+              </physdesc>
+              <note>
+                <p>
+                  <geogname>Chippewa County and Ontario</geogname>
+                </p>
+              </note>
+              <container>Page 199</container>
+              <note>
+                <p>Copy: Photostat 34</p>
+              </note>
+            </archref>
+          </item>
+          <item>
+            <archref>
+              <unittitle>Curve of river at Lower Falls of the Tequoimenon. 1840?</unittitle>
+              <physdesc>
+                <dimensions>7x10 cm.</dimensions>
+              </physdesc>
+              <note>
+                <p>
+                  <geogname>Chippewa County</geogname>
+                </p>
+              </note>
+              <container>Page 202</container>
+              <note>
+                <p>Copy: Photostat 35</p>
+              </note>
+            </archref>
+          </item>
+        </list>
+        <list type="simple">
+          <head>Maps Separated from Field Notes Volume</head>
+          <item>
+            <archref>
+              <unittitle>Coast map showing the geology from Chocolate River to Granite Point of Lake Superior. 1840?</unittitle>
+              <physdesc>
+                <dimensions>32x23 cm.</dimensions>
+              </physdesc>
+              <note>
+                <p>
+                  <geogname>Marquette County</geogname>
+                </p>
+              </note>
+              <container>Page 217</container>
+              <note>
+                <p>Copy: Photostat 36</p>
+              </note>
+            </archref>
+          </item>
+          <item>
+            <archref>
+              <unittitle>Map of coast from Granite Point to Yellow Dog (St. Johns) River. 1840?</unittitle>
+              <physdesc>
+                <dimensions>17x21 cm.</dimensions>
+              </physdesc>
+              <note>
+                <p>
+                  <geogname>Marquette County</geogname>
+                </p>
+              </note>
+              <container>Page 222</container>
+              <note>
+                <p>Copy: Photostat 37</p>
+              </note>
+            </archref>
+          </item>
+          <item>
+            <archref>
+              <unittitle>Sketch showing by triangulation the position of two knobs of greenstone upon Bay du Gres. 1840?</unittitle>
+              <physdesc>
+                <dimensions>12x18 cm.</dimensions>
+              </physdesc>
+              <note>
+                <p>
+                  <geogname>Keweenaw County</geogname>
+                </p>
+              </note>
+              <container>Page 230</container>
+              <note>
+                <p>Copy: Photostat 38</p>
+              </note>
+            </archref>
+          </item>
+          <item>
+            <archref>
+              <unittitle>Sketch showing the position of the copper veins on the easterly cape of Copper Harbor. 1840?</unittitle>
+              <physdesc>
+                <dimensions>8x21 cm.</dimensions>
+              </physdesc>
+              <note>
+                <p>
+                  <geogname>Keweenaw County</geogname>
+                </p>
+              </note>
+              <container>Page 237</container>
+              <note>
+                <p>Copy: Photostat 39</p>
+              </note>
+            </archref>
+          </item>
+          <item>
+            <archref>
+              <unittitle>Map showing the geology of Isle Royale together with the relation, in position, of the island to the north and south coasts. 1840?</unittitle>
+              <physdesc>
+                <dimensions>23x24 cm.</dimensions>
+              </physdesc>
+              <note>
+                <p>
+                  <geogname>Keweenaw County, Minnesota, and Ontario</geogname>
+                </p>
+              </note>
+              <container>Page 257</container>
+              <note>
+                <p>Copy: Photostat 40</p>
+              </note>
+            </archref>
+          </item>
+          <item>
+            <archref>
+              <unittitle>Map of Grand Portage. 1840?</unittitle>
+              <physdesc>
+                <dimensions>11x22 cm.</dimensions>
+              </physdesc>
+              <note>
+                <p>
+                  <geogname>Minnesota and Ontario</geogname>
+                </p>
+              </note>
+              <container>Page 261</container>
+              <note>
+                <p>Copy: Photostat 42a</p>
+              </note>
+            </archref>
+          </item>
+          <item>
+            <archref>
+              <unittitle>Map of Montreal Riv. of Lake Superior, from its mouth to the crossing of the portage path. 1840?</unittitle>
+              <physdesc>
+                <dimensions>17x23 cm.</dimensions>
+              </physdesc>
+              <note>
+                <p>
+                  <geogname>Gogebic County and Wisconsin</geogname>
+                </p>
+              </note>
+              <container>Page 263</container>
+            </archref>
+          </item>
+          <item>
+            <archref>
+              <unittitle>Map illustrative of the ranges of hills crossed by the Montreal R. portage to the 41st pause. 1840?</unittitle>
+              <physdesc>
+                <dimensions>15x23 cm.</dimensions>
+              </physdesc>
+              <note>
+                <p>
+                  <geogname>Gogebic County and Wisconsin</geogname>
+                </p>
+              </note>
+              <container>Page 266</container>
+            </archref>
+          </item>
+          <item>
+            <archref>
+              <unittitle>Sketch of Black River of Lake Superior extending from its mouth about 3 miles. 1840?</unittitle>
+              <physdesc>
+                <dimensions>18x23 cm.</dimensions>
+              </physdesc>
+              <note>
+                <p>
+                  <geogname>Gogebic County</geogname>
+                </p>
+              </note>
+              <container>Page 268</container>
+              <note>
+                <p>Copy: Photostat 41</p>
+              </note>
+            </archref>
+          </item>
+          <item>
+            <archref>
+              <unittitle>Map of Eagle River of Keweenaw Point.</unittitle>
+              <container>Map on two sheets. 1840?</container>
+              <physdesc>
+                <dimensions>33x23 cm. and 28x23 cm.</dimensions>
+              </physdesc>
+              <note>
+                <p>
+                  <geogname>Keweenaw County</geogname>
+                </p>
+              </note>
+              <container>Page 278-279</container>
+              <note>
+                <p>Copy: Photostat 41a</p>
+              </note>
+            </archref>
+          </item>
+          <item>
+            <archref>
+              <unittitle>[Agate Harbor] 1840?</unittitle>
+              <physdesc>
+                <dimensions>4x19 cm.</dimensions>
+              </physdesc>
+              <note>
+                <p>
+                  <geogname>Keweenaw County</geogname>
+                </p>
+              </note>
+              <container>Page 284</container>
+            </archref>
+          </item>
+          <item>
+            <archref>
+              <unittitle>[Manitou Island] 1840?</unittitle>
+              <physdesc>
+                <dimensions>8x8 cm.</dimensions>
+              </physdesc>
+              <note>
+                <p>
+                  <geogname>Keweenaw County</geogname>
+                </p>
+              </note>
+              <container>Page 285</container>
+            </archref>
+          </item>
+          <item>
+            <archref>
+              <unittitle>[Portage Lake and vicinity] 1840?</unittitle>
+              <physdesc>
+                <dimensions>17x23 cm.</dimensions>
+              </physdesc>
+              <note>
+                <p>
+                  <geogname>Houghton County</geogname>
+                </p>
+              </note>
+              <container>Page 287</container>
+              <note>
+                <p>Copy: Photostat 42</p>
+              </note>
+            </archref>
+          </item>
+          <item>
+            <archref>
+              <unittitle>[Pine River, Pine Lake, and adjacent Lake Superior shore] 1840?</unittitle>
+              <physdesc>
+                <dimensions>12x24 cm.</dimensions>
+              </physdesc>
+              <note>
+                <p>
+                  <geogname>Marquette County</geogname>
+                </p>
+              </note>
+              <container>Page 290</container>
+              <note>
+                <p>Copy: Photostat 43</p>
+              </note>
+            </archref>
+          </item>
+          <item>
+            <archref>
+              <unittitle>[Lake Superior shore-Huron Bay to Salmon Trout River] 1840?</unittitle>
+              <physdesc>
+                <dimensions>41x25 cm.</dimensions>
+              </physdesc>
+              <note>
+                <p>
+                  <geogname>Baraga, Houghton, and Keweenaw Counties</geogname>
+                </p>
+              </note>
+              <container>Page 292 (Overlay with place names in Outsize folder)</container>
+              <note>
+                <p>Copy: Photostat 44 (overlay 45)</p>
+              </note>
+            </archref>
+          </item>
+          <item>
+            <archref>
+              <unittitle>[Lake Superior shore-Salmon Trout River to Black River] 1840?</unittitle>
+              <physdesc>
+                <dimensions>41x25 cm.</dimensions>
+              </physdesc>
+              <note>
+                <p>
+                  <geogname>Houghton, Ontonagon, and Gogebic Counties</geogname>
+                </p>
+              </note>
+              <container>Page 293 (Overlay with place names in Outsize folders)</container>
+              <note>
+                <p>Copy: Photostat 44 (overlay 45)</p>
+              </note>
+            </archref>
+          </item>
+          <item>
+            <archref>
+              <unittitle>[Lake Superior shore-Black River to La Pointe] 1840?</unittitle>
+              <physdesc>
+                <dimensions>13x20 cm.</dimensions>
+              </physdesc>
+              <note>
+                <p>
+                  <geogname>Gogebic County and Wisconsin</geogname>
+                </p>
+              </note>
+              <container>Page 294 (Overlay with place names in Outsize folder)</container>
+              <note>
+                <p>Copy: Photostat 46 (overlay 45)</p>
+              </note>
+            </archref>
+          </item>
+          <item>
+            <archref>
+              <unittitle>[Montreal River] 1841?</unittitle>
+              <physdesc>
+                <dimensions>13x23 cm.</dimensions>
+              </physdesc>
+              <note>
+                <p>
+                  <geogname>Gogebic County and Wisconsin</geogname>
+                </p>
+              </note>
+              <container>Page 299</container>
+              <note>
+                <p>Copy: Photostat 47</p>
+              </note>
+            </archref>
+          </item>
+          <item>
+            <archref>
+              <unittitle>Sketch of the geology of a portion of the Upper Peninsula as deduced from the field notes of 1840. 1841?</unittitle>
+              <physdesc>
+                <dimensions>35x26 cm.</dimensions>
+              </physdesc>
+              <note>
+                <p>
+                  <geogname>Chippewa, Mackinac, and Luce Counties, and Ontario</geogname>
+                </p>
+              </note>
+              <container>Page 311</container>
+              <note>
+                <p>Copy: Photostat 48</p>
+              </note>
+            </archref>
+          </item>
+          <item>
+            <archref>
+              <unittitle>[Sections 26 and 27, Township 9 North, Range 2 West]</unittitle>
+              <physdesc>
+                <dimensions>17x22 cm.</dimensions>
+              </physdesc>
+              <note>
+                <p>
+                  <geogname>Gratiot County</geogname>
+                </p>
+              </note>
+              <container>Back flyleaf</container>
+            </archref>
+          </item>
+          <item>
+            <archref>
+              <unittitle>[Section 3 of Township 6 North, Range 12 West]</unittitle>
+              <physdesc>
+                <dimensions>49x47 cm.</dimensions>
+              </physdesc>
+              <note>
+                <p>
+                  <geogname>Kent County</geogname>
+                </p>
+              </note>
+              <container>Back flyleaf</container>
+            </archref>
+          </item>
+          <item>
+            <archref>
+              <unittitle>[Part of Township 2 South, Range 11 West]</unittitle>
+              <physdesc>
+                <dimensions>18x7 cm.</dimensions>
+              </physdesc>
+              <note>
+                <p>
+                  <geogname>Kalamazoo County</geogname>
+                </p>
+              </note>
+              <container>Back flyleaf</container>
+            </archref>
+          </item>
+          <item>
+            <archref>
+              <unittitle>Coast map showing the geology from Chocolate River to Granite Point of Lake Superior. 1840?</unittitle>
+              <physdesc>
+                <dimensions>34x27 cm.</dimensions>
+              </physdesc>
+              <note>
+                <p>
+                  <geogname>Marquette County</geogname>
+                </p>
+              </note>
+              <container>Outsize folder</container>
+            </archref>
+          </item>
+          <item>
+            <archref>
+              <unittitle>[Escanaba River] 1839?</unittitle>
+              <physdesc>
+                <dimensions>39x25 cm.</dimensions>
+              </physdesc>
+              <note>
+                <p>
+                  <geogname>Delta and Marquette Counties</geogname>
+                </p>
+              </note>
+              <container>Outsize folder</container>
+              <note>
+                <p>Copy: Photostat 49</p>
+              </note>
+            </archref>
+          </item>
+          <item>
+            <archref>
+              <unittitle>[Lake Huron shore-Lexington to south of White Rock] 1838?</unittitle>
+              <physdesc>
+                <dimensions>42x27 cm.</dimensions>
+              </physdesc>
+              <note>
+                <p>
+                  <geogname>Sanilac County</geogname>
+                </p>
+              </note>
+              <container>Outsize folder</container>
+              <note>
+                <p>Copy: Photostat 2</p>
+              </note>
+            </archref>
+          </item>
+          <item>
+            <archref>
+              <unittitle>[Lake Huron shore-White Rock to Caseville] 1838?</unittitle>
+              <physdesc>
+                <dimensions>43x52 cm.</dimensions>
+              </physdesc>
+              <note>
+                <p>
+                  <geogname>Huron County</geogname>
+                </p>
+              </note>
+              <container>Outsize folder</container>
+              <note>
+                <p>Copy: Photostat 3</p>
+              </note>
+            </archref>
+          </item>
+          <item>
+            <archref>
+              <unittitle>[Lake Huron shore-Au Sable Point to Sturgeon Point]</unittitle>
+              <physdesc>
+                <dimensions>45x14 cm.</dimensions>
+              </physdesc>
+              <note>
+                <p>
+                  <geogname>Iosco and Alcona Counties</geogname>
+                </p>
+              </note>
+              <container>Outsize folder</container>
+            </archref>
+          </item>
+          <item>
+            <archref>
+              <unittitle>[Saginaw Bay-Sand Point to Alabaster] 1838?</unittitle>
+              <physdesc>
+                <dimensions>65x50 cm.</dimensions>
+              </physdesc>
+              <note>
+                <p>
+                  <geogname>Huron, Tuscola, Bay, and Arenac Counties</geogname>
+                </p>
+              </note>
+              <container>Outsize folder</container>
+              <note>
+                <p>Copy: Photostat 4</p>
+              </note>
+            </archref>
+          </item>
+          <item>
+            <archref>
+              <unittitle>[Lake Huron shore-Tawas Bay to south of Black River] 1838?</unittitle>
+              <physdesc>
+                <dimensions>50x23 cm.</dimensions>
+              </physdesc>
+              <note>
+                <p>
+                  <geogname>Iosco and Alcona Counties</geogname>
+                </p>
+              </note>
+              <container>Outsize folder</container>
+              <note>
+                <p>Copy: Photostat 5</p>
+              </note>
+            </archref>
+          </item>
+          <item>
+            <archref>
+              <unittitle>[Lake Huron shore-Black River to Middle Island] 1838?</unittitle>
+              <physdesc>
+                <dimensions>40x36 cm.</dimensions>
+              </physdesc>
+              <note>
+                <p>
+                  <geogname>Alcona and Alpena Counties</geogname>
+                </p>
+              </note>
+              <container>Outsize folder</container>
+              <note>
+                <p>Copy: Photostat 6</p>
+              </note>
+            </archref>
+          </item>
+          <item>
+            <archref>
+              <unittitle>[Lake Superior and Upper Peninsula of Michigan]</unittitle>
+              <physdesc>
+                <dimensions>32x38 cm.</dimensions>
+              </physdesc>
+              <note>
+                <p>
+                  <geogname>Northern Peninsula, Wisconsin, Minnesota, and Ontario</geogname>
+                </p>
+              </note>
+              <note>
+                <p>Copy: Photostat 51</p>
+              </note>
+              <container>Outsize folder</container>
+            </archref>
+          </item>
+          <item>
+            <archref>
+              <unittitle>[Northern Peninsula-area north and west of Marquette including Keweenaw Peninsula] 1845?</unittitle>
+              <physdesc>
+                <dimensions>30x23 cm.</dimensions>
+              </physdesc>
+              <note>
+                <p>
+                  <geogname>Marquette, Baraga, Houghton, and Keweenaw Counties</geogname>
+                </p>
+              </note>
+              <container>Outsize folder</container>
+              <note>
+                <p>Copy: Photostat 50</p>
+              </note>
+            </archref>
+          </item>
+        </list>
+        <list type="simple">
+          <head>Maps Located at Michigan State Archives</head>
+          <item>
+            <archref>
+              <unittitle>[Lake Huron shore-White Rock to Caseville]</unittitle>
+              <physdesc>
+                <dimensions>ca. 60x60 cm.</dimensions>
+              </physdesc>
+              <note>
+                <p>
+                  <geogname>Huron County</geogname>
+                </p>
+              </note>
+              <physloc>Michigan State Archives Map Collection 01132</physloc>
+            </archref>
+          </item>
+          <item>
+            <archref>
+              <unittitle>[Saginaw Bay-mouth of Saginaw River to Pinconning Creek]</unittitle>
+              <physdesc>
+                <dimensions>ca. 16x16 cm.</dimensions>
+              </physdesc>
+              <note>
+                <p>
+                  <geogname>Bay County</geogname>
+                </p>
+              </note>
+              <physloc>Michigan State Archives RG 71-12 Dept. of Natural Resources</physloc>
+            </archref>
+          </item>
+          <item>
+            <archref>
+              <unittitle>[Saginaw Bay-Saganing Creek to Alabaster area]</unittitle>
+              <physdesc>
+                <dimensions>ca. 60x60 cm.</dimensions>
+              </physdesc>
+              <note>
+                <p>
+                  <geogname>Arenac and Iosco Counties</geogname>
+                </p>
+              </note>
+              <physloc>Michigan State Archives Map Collection 01132</physloc>
+            </archref>
+          </item>
+          <item>
+            <archref>
+              <unittitle>[Saginaw Bay-Saganing Creek to Point Au Gres]</unittitle>
+              <physdesc>
+                <dimensions>ca. 16x16 cm.</dimensions>
+              </physdesc>
+              <note>
+                <p>
+                  <geogname>Arenac County</geogname>
+                </p>
+              </note>
+              <physloc>Michigan State Archives RG 71-12 Dept. of Natural Resources</physloc>
+            </archref>
+          </item>
+          <item>
+            <archref>
+              <unittitle>[Saginaw Bay-Point Au Gres to Alabaster area]</unittitle>
+              <physdesc>
+                <dimensions>ca. 16x16 cm.</dimensions>
+              </physdesc>
+              <note>
+                <p>
+                  <geogname>Arenac and Iosco Counties</geogname>
+                </p>
+              </note>
+              <physloc>Michigan State Archives RG 71-12 Dept. of Natural Resources</physloc>
+            </archref>
+          </item>
+          <item>
+            <archref>
+              <unittitle>[Lake Huron shore-Tawas Bay to north of Oscoda]</unittitle>
+              <physdesc>
+                <dimensions>ca. 16x16 cm.</dimensions>
+              </physdesc>
+              <note>
+                <p>
+                  <geogname>Iosco County</geogname>
+                </p>
+              </note>
+              <physloc>Michigan State Archives RG 71-12 Dept. of Natural Resources</physloc>
+            </archref>
+          </item>
+          <item>
+            <archref>
+              <unittitle>[Lake Huron shore-north to Oscoda to Sturgeon Point]</unittitle>
+              <physdesc>
+                <dimensions>ca. 16x16 cm.</dimensions>
+              </physdesc>
+              <note>
+                <p>
+                  <geogname>Iosco and Alcona Counties</geogname>
+                </p>
+              </note>
+              <physloc>Michigan State Archives RG 71-12 Dept. of Natural Resources</physloc>
+            </archref>
+          </item>
+          <item>
+            <archref>
+              <unittitle>[Lake Huron shore-Alcona area to South Point]</unittitle>
+              <physdesc>
+                <dimensions>ca. 16x16 cm.</dimensions>
+              </physdesc>
+              <note>
+                <p>
+                  <geogname>Alcona and Alpena Counties</geogname>
+                </p>
+              </note>
+              <physloc>Michigan State Archives RG 71-12 Dept. of Natural Resources</physloc>
+            </archref>
+          </item>
+          <item>
+            <archref>
+              <unittitle>[Lake Huron shore-North Point area]</unittitle>
+              <physdesc>
+                <dimensions>ca. 16x16 cm.</dimensions>
+              </physdesc>
+              <note>
+                <p>
+                  <geogname>Alpena County</geogname>
+                </p>
+              </note>
+              <physloc>Michigan State Archives RG 71-12 Dept. of Natural Resources</physloc>
+            </archref>
+          </item>
+        </list>
+        <list type="simple">
+          <head>Original Maps Not Located - Copies in Clements Library</head>
+          <item>
+            <archref>
+              <unittitle>[Lake Huron shore-south of Black River to Middle Island]</unittitle>
+              <physdesc>
+                <dimensions>41x19 cm.</dimensions>
+              </physdesc>
+              <note>
+                <p>
+                  <geogname>Alcona and Alpena Counties</geogname>
+                </p>
+                <note>
+                  <p>M-204 in corner</p>
+                </note>
+              </note>
+              <note>
+                <p>Clements Photostat (unnumbered)</p>
+              </note>
+            </archref>
+          </item>
+          <item>
+            <archref>
+              <unittitle>[Saginaw River and Saginaw Bay - Saginaw to Pine River]</unittitle>
+              <physdesc>
+                <dimensions>58x16 cm.</dimensions>
+              </physdesc>
+              <note>
+                <p>
+                  <geogname>Saginaw, Bay and Arenac Counties</geogname>
+                </p>
+                <note>
+                  <p>M-204 in corner</p>
+                </note>
+              </note>
+              <note>
+                <p>Clements Photostat unnumbered (2 copies)</p>
+              </note>
+            </archref>
+          </item>
+        </list>
+      </descgrp>
+    </descgrp>
+  </archdesc>
+</ead>

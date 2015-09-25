@@ -1,0 +1,3477 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead.dtd">
+<ead>
+  <eadheader audience="internal" langencoding="iso639-2b" repositoryencoding="iso15511" dateencoding="iso8601" relatedencoding="Dublin Core" scriptencoding="iso15924" countryencoding="iso3166-1">
+    <eadid countrycode="us" mainagencycode="MiU-H" publicid="us//::miu-h//TXT us::miu-h::cauppub.xml//EN" encodinganalog="Identifier">umich-bhl-976</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="Title">Finding Aid for A. Alfred Taubman College of Architecture and Urban Planning (University of Michigan) publications, 1876-2013</titleproper>
+        <author encodinganalog="Creator">Collection processed and finding aid created by Marilyn M. McNitt, June 2003; Nancy Deromedi, 2005; Lisa Wright, January 2010; Curation staff, 2013</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="Publisher">Bentley Historical Library, University of Michigan</publisher>
+        <date encodinganalog="Date" normal="2009">2009</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created by Greg Kinney <date>2009</date></creation>
+      <langusage encodinganalog="Language">The finding aid is written in <language langcode="eng" scriptcode="Latn">English</language></langusage>
+      <descrules>Finding aid prepared using Describing Archives: A Content Standard (DACS)</descrules>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date>20150730</date>
+        <item>Added written notes from paper finding aid.</item>
+      </change>
+      <change>
+        <date>2011-06-01</date>
+        <item>added deep blue links 2012 acc.</item>
+      </change>
+      <change>
+        <date>2011-03-13</date>
+        <item>added WAS website accession.</item>
+      </change>
+      <change>
+        <date>2010-07-13</date>
+        <item>New accession added.</item>
+      </change>
+      <change>
+        <date>2005-11-10</date>
+        <item>creator changed to new form and small update of Taubman bulletins</item>
+      </change>
+      <change>
+        <date>2004-03-23</date>
+        <item>f.a. updated, through June 2003 processing</item>
+      </change>
+      <change>
+        <date>2003-02-24</date>
+        <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <frontmatter>
+    <titlepage>
+      <publisher>University Archives and Records Program <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
+      <titleproper>Finding aid for <lb/>A. Alfred Taubman College of Architecture and Urban Planning <lb/>(University of Michigan) <lb/>Publications, 1876-2013</titleproper>
+      <author>Finding aid created by <lb/>Marilyn M. McNitt, June 2003; <lb/>Nancy Deromedi, 2005; <lb/>Lisa Wright, January 2010 <lb/>Curation staff, 2013</author>
+    </titlepage>
+  </frontmatter>
+  <archdesc level="recordgrp" audience="external" type="inventory" relatedencoding="MARC21">
+    <did>
+      <origination>
+        <corpname source="lcnaf" encodinganalog="110">University of Michigan. A. Alfred Taubman College of Architecture and Urban Planning.</corpname>
+      </origination>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">551.6 MB</extent>
+      </physdesc>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">13 linear feet</extent>
+      </physdesc>
+      <unittitle encodinganalog="245">A. Alfred Taubman College of Architecture and Urban Planning (University of Michigan) publications <unitdate type="inclusive" encodinganalog="245$f" normal="1876/2013">1876-2013</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1950/2012">1950-2012</unitdate></unittitle>
+      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">976 Bimu C181 2</unitid>
+      <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
+      <abstract>Publications produced by the A. Alfred Taubman College of Architecture and Urban Planning and it sub-units and architecture student organizations. Includes brochures and pamphlets, bulletins or college catalogs, directories, newsletters such as <title render="italic">Portico</title>, proposals, and reports. Sub-unit publications include items from the Architecture and Planning Research Laboratory, the Integrated Technology Instruction Center, and the Raoul Wallenberg Lecture. Contains publications about the Art and Architecture Building including printed floor plans, proposals, and reports. Also contains student publications such as <title render="italic">Dimensions</title>, <title render="italic">Rough Draft</title>, <title render="italic">Synergy</title>, and the Graduation Committee publications - commencement programs and their yearbook/directory.</abstract>
+      <repository>
+        <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea>, University of Michigan</corpname>
+        <extptr href="bhladd" show="embed" actuate="onload"/>
+      </repository>
+    </did>
+    <descgrp type="admin">
+      <acqinfo encodinganalog="541">
+        <p>The publications were transferred from the College of Architecture + Urban Planning (Donor No. <num type="donor" encodinganalog="541$e">5805</num>)in several accessions beginning in 1985. Publications are received on a regular basis.</p>
+      </acqinfo>
+      <accruals encodinganalog="584">
+        <p>Periodic additions to the records expected.</p>
+      </accruals>
+      <accessrestrict encodinganalog="506">
+        <p>The collection is open without restriction.</p>
+        <p>
+          <extptr href="uarpacc" show="embed" actuate="onload"/>
+        </p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+        <p>Copyright is held by the Regents of the University of Michigan.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+        <p>[item], folder, box,
+A. Alfred Taubman College of Architecture and Urban Planning (University of Michigan) publications, Bentley Historical Library, University of Michigan</p>
+      </prefercite>
+      <processinfo>
+        <p>[Delete this set of tags if not needed for digital material processing]</p>
+        <p>
+          <extptr href="digitalproc" show="embed" actuate="onload"/>
+        </p>
+      </processinfo>
+    </descgrp>
+    <bioghist encodinganalog="545">
+      <p>Please consult the history found in the University of Michigan A. Alfred Taubman College of Architecture and Urban Planning records finding aid.</p>
+    </bioghist>
+    <scopecontent encodinganalog="520">
+      <p>The A. Alfred Taubman College of Architecture + Urban Planning Publications (11 linear feet) are divided into four series: Unit Publications; Sub-Unit Publications; Topical Publications; and Student Publications. The bulk of the publications document the College of Architecture and Urban Planning, its organization, course offerings, communications to faculty, staff, students, and alumni, and various research reports written by the college's faculty. Further research is documented in the publications of the Architectural Research Laboratory (ARL), and the Architecture and Planning Research Laboratory (APRL). Some publications (or their successors) may no longer be available in print but are available on the school s website.</p>
+      <p>The 2012 accession contains digital publications donated and published by the Communications Department of the College of Architecture and Urban Planning from 2010 to 2012. Although these materials were created by a single office within the college, they correspond to three existing series within the record group: UNIT PUBLICATIONS, TOPICAL PUBLICATIONS, and STUDENT PUBLICATIONS.</p>
+      <p>The UNIT PUBLICATIONS series contains printed material published specifically by the College of Architecture and Urban Planning. These publications are defined as being widely distributed and may be published at regular intervals. They are arranged by genre of the publication.</p>
+      <p>The Unit Publications series (5.5 linear feet) includes articles, bibliographies, brochures, bulletins including college catalogs, directories, histories, holiday cards, lectures, manuals, newsletters, policies and procedures, posters, programs, proposals, prospectuses, and reports. The articles from <title render="italic">Michigan Alumnus</title> and <title render="italic">Research News</title> document the College of Architecture and Urban Planning from 1961 to 1988. Bulletins (college catalogs) are arranged chronologically and date as early as 1876. The print version of the bulletin is the authoritative source of admission information, course offerings and degree requirements. The college bulletins comprise almost two linear feet of the Unit Publications.</p>
+      <p>Directories such as the <title render="italic">Faculty-Staff Directory</title> and the <title render="italic">Faculty Directory</title> do not contain photographs, but do describe the faculty members' education, teaching expertise, academic and professional honors, professional experience, sponsored research, service to the community, memberships, and a select list of publications. The Bentley Historical Library holdings date from 1960 to 1999. The history <title render="italic">More Than a Handsome Box: Education in Architecture at the University of Michigan, 1876-1986</title> is found in this series. The College of Architecture and Urban Planning published an internal newsletter, <title render="italic">CAUP Newsletter</title>, from 1987 through 1988. It was replaced in 1988 by the <title render="italic">Newsletter</title>. In 1999, the <title render="italic">Newsletter</title> was discontinued and <title render="italic">CAUPnews</title>, an e-mail publication represented by printouts in this record group, took its place. It was renamed <title render="italic">TCAUP News</title> in 2002 to reflect the name change which took place in 1999. First issued in 1984 and continuing to the present, <title render="italic">Portico</title>, the College's outreach publication, discusses the activities of the faculty, students, and the College's alumni and friends. This series also includes proposals and reports describing various study programs such as the <title render="italic">Architecture Program Report</title> dated 1986 to 1988 and the <title render="italic">Organization of a Department of Urban Planning</title> published in 1966. There are also reports describing Unistrut space frame systems and structural systems integrating mechanical systems.</p>
+      <p>The SUB-UNIT PUBLICATIONS series contains publications from subordinate offices, departments, programs and organizations within the College of Architecture and Urban Planning. These publications are arranged alphabetically by the creating sub-unit. The Sub-Unit Publications series (3.7 linear feet) includes publications from the Architectural Research Laboratory (ARL) and the Architecture and Planning Research Laboratory.</p>
+      <p>The Architectural Research Laboratory (ARL) was founded, in 1949, by Theodore Larson, his colleagues, and students, creating the first architectural research program in the United States. The ARL publications include brochures and volumes from the ARL/UM monograph series. There are also proceedings from the Minorities in Planning and Related Professions conference as well as reports published in 1970. Also included in this series are reports on the design of Michigan and American courthouses published in the 1970s through the 1990s. Reports on child facilities will be found in the ARL subseries under Early Childhood Facilities (ECF). There are also publications from Environmental Design and Research (EDR), Man Environment Reference (MER) and School Environment Research Project (SER).</p>
+      <p>In 1974, the educational structure of the college was reorganized to create the College of Architecture and Urban Planning. To reflect this change the research mission was broadened to include the new urban planning element. The Architectural Research Laboratory became the Architecture and Planning Research Laboratory (APRL). The APRL publications include brochures, manuals, and the newsletter <title render="italic">Research News</title>. The Bentley Library holds issues of this newsletter dating from 1984 to 1995. The bulk of publications from the APRL are reports describing energy management, manufactured housing and simulation techniques for planning and design. There are also publications from specific projects such as Design America, Factories of the Future and the Role of Design in American Corporations.</p>
+      <p>There are also publications from the Doctoral Program in Architecture, North Campus Studio and Program in Architecture (1972-1991). The Urban and Regional Planning Program (1964-2000) includes brochures, bulletins, manuals, newsletters, and proposals. This series also contains the published Raoul Wallenberg Lectures and the John Dinkeloo Lectures. They will be found in the Sub-Unit Publications series under the surnames Dinkeloo and Wallenberg.</p>
+      <p>The Topical Publications series includes printed materials published to document specific events or activities such as fund-raising or one-time conferences hosted by the College of Architecture and Urban Planning. The Topical Publications series contains publications about Alumni such as the <title render="italic">Alumni Directory</title> printed in 1956 and 1989, as well as information about the annual Alumni Reunion Weekend in 1990 and 1991. There is also extensive information on the Art and Architecture Building including floor plans, proposals, and reports. Researchers will also find portfolios of student work from the Design Studios of 1981 and 1994, along with abstracts of student theses from the "Thesis Final Reviews" of 2005 and 2006. There are also publications documenting the Semicentennial celebrated in 1956, and the Centennial celebrated in 2006.</p>
+      <p>The Student Publications series contains publications published by student groups within the College of Architecture and Urban Planning. The Student Publications series includes a complete run of the journal <title render="italic">Dimensions</title> from 1987 to the present. There are several student newsletters, including the <title render="italic">Architectural Synthesis</title> published from 1968 to 1969, <title render="italic">The Allnighter</title>, printed from 1973 to 1979, and <title render="italic">Synergy</title> issued from 1980 to 1983. In addition there are several other short-lived publications produced by the students.</p>
+      <p>Each year since 1980, the Graduation Committee produced a graduation yearbook containing a section for each graduating student. These individual student-designed sections frequently include a photograph and the current address of the graduating student. In some cases, however, they include designs, witticisms, invitations and notes to friends, and discussions of jobs and future plans. They are an excellent source for information not only on the graduates, but also student life in the College of Architecture and Urban Planning. The Bentley Historical Library holds these yearbooks from 1980 to 1997, and 2000.</p>
+      <p>Digital Accessions received in 20012</p>
+      <p>Materials in the Unit Publications series include brochures, newsletters, invitations, posters, and programs produced from 2010 to 2012. The brochures provide information on college admissions (as well as degree requirements, career services, student life, and facilities), fellowships and Master of Science Programs (including Conservation, Material Systems, and Digital Technologies). The college newsletter <title render="italic">Portico</title>, contains updates and news from the college administration and faculty as well as information on student academic honors and events. Invitations document "College on the Road" events in Chicago and receptions at the annual meetings for the American Institute of Architects and American Planning Association. Posters highlight conferences, student and faculty exhibits, and guest lectures hosted by the college, which include appearances by featured architects such as, Jeff Kipnis, Peter Eisenmen, Elizabeth Diller, and Alejandro Zaera. The programs document a luncheon honoring Taubman Scholars as well as information on modernist architects in Ann Arbor.</p>
+      <p>Programs for alumni reunion weekend events in 2010 and 2011 were added to the Topical Publications series.</p>
+      <p>Digital files added to the Student Publications series include programs for the college's annual commencement activities for 2011 and 2012, with lists of student speakers, university representatives, faculty readers, and graduates by program specialization.</p>
+    </scopecontent>
+    <controlaccess>
+      <p>
+        <extptr href="accnote" show="embed" actuate="onload"/>
+      </p>
+      <controlaccess>
+        <head>Subjects:</head>
+        <corpname source="lcnaf" encodinganalog="610">A. Alfred Taubman College of Architecture and Urban Planning.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Alumni and alumnae.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82166172">University of Michigan. Architectural Research Laboratory.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82166172">University of Michigan. Architecture and Planning Research Laboratory.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan. College of Architecture.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82166171">University of Michigan. College of Architecture and Design.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82166292">University of Michigan. College of Architecture and Urban Planning.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Dept. of Architecture.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Students--Social life and customs.</corpname>
+        <corpname source="lcnaf" encodinganalog="630">Raoul Wallenberg lecture.</corpname>
+        <corpname source="lcnaf" encodinganalog="630">John Dinkeloo memorial lecture.</corpname>
+      </controlaccess>
+      <controlaccess>
+        <head>Contributors:</head>
+        <corpname source="lcnaf" encodinganalog="710" authfilenumber="http://id.loc.gov/authorities/names/n82166172">University of Michigan. Architectural Research Laboratory.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" authfilenumber="http://id.loc.gov/authorities/names/n82166172">University of Michigan. Architecture and Planning Research Laboratory.</corpname>
+        <corpname source="lcnaf" encodinganalog="710">University of Michigan. College of Architecture.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" authfilenumber="http://id.loc.gov/authorities/names/n82166171">University of Michigan. College of Architecture and Design.</corpname>
+        <corpname source="lcnaf" encodinganalog="710" authfilenumber="http://id.loc.gov/authorities/names/n82166292">University of Michigan. College of Architecture and Urban Planning.</corpname>
+        <corpname source="lcnaf" encodinganalog="710">University of Michigan. Dept. of Architecture.</corpname>
+        <title source="aacr2" encodinganalog="740">Portico.</title>
+        <title source="aacr2" encodinganalog="740">Dimensions.</title>
+        <title source="aacr2" encodinganalog="740">Rough draft.</title>
+      </controlaccess>
+      <controlaccess>
+        <head>Genre/Form:</head>
+        <genreform source="aat" encodinganalog="655">Bulletins.</genreform>
+        <genreform source="lcsh" encodinganalog="655">Catalogs, College.</genreform>
+        <genreform source="aat" encodinganalog="655">Directories.</genreform>
+        <genreform source="aat" encodinganalog="655">Newsletters.</genreform>
+        <genreform source="aat" encodinganalog="655">Reports.</genreform>
+        <genreform source="aat" encodinganalog="655">Student publications.</genreform>
+      </controlaccess>
+    </controlaccess>
+    <dsc type="combined">
+      <c01 level="series">
+        <did>
+          <unittitle>Unit Publications</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <unittitle>Articles</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Describing the College of Architecture and Urban Planning <unitdate type="inclusive" normal="1961/1988">1961-1988</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Bibliographies</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle><title render="italic">Publications of the Faculty and Students</title>, <unitdate type="inclusive" normal="1976/1982">1976-1982</unitdate>, <unitdate type="inclusive" normal="1982">1982</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Brochures</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle><title render="italic">Architecture</title>, <unitdate type="inclusive" normal="1967/2000">1967-2000</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Architecture Program, <unitdate type="inclusive" normal="2001">2001</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle><title render="italic">Architecture Program</title>, <unitdate type="inclusive" normal="2001">2001</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle><title render="italic">Art and Architecture Building</title>, [1975]</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle><title render="italic">The College of Architecture and Design</title>, <unitdate type="inclusive" normal="1942/1944">1942-1944</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle><title render="italic">Course Descriptions--Architecture Program</title>, <unitdate type="inclusive" normal="1980/1986">1980-1986</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle><title render="italic">Design Process and Methods</title>, <unitdate type="inclusive" normal="1977">1977</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle><title render="italic">Doctoral Program in Architecture</title>, <unitdate type="inclusive" normal="1987/1988">1987-1988</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle><title render="italic">Fine Arts at Michigan</title>, <unitdate type="inclusive" normal="1950">1950</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle><title render="italic">George Nelson--Changing the World</title>, <unitdate type="inclusive" normal="1987">1987</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle><title render="italic">Graduate Program in Architecture</title>, <unitdate type="inclusive" normal="1968/1970">1968-1970</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle><title render="italic">Lecture Series</title>, <unitdate type="inclusive" normal="1987/1997">1987-1997</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle><title render="italic">Master of Urban Design Program</title>, <unitdate type="inclusive" normal="2001">2001</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Miscellaneous <unitdate type="inclusive" normal="1968/1995">1968-1995</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Master of Urban Design Program <unitdate type="inclusive" normal="2001">2001</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle><title render="italic">Urban Planning</title>, <unitdate type="inclusive" normal="1977">1977</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>Admissions <unitdate type="inclusive" normal="2011/2012">2011-2012</unitdate></unittitle>
+              <physdesc>
+                <physfacet>.ZIP file</physfacet>
+              </physdesc>
+              <dao href="http://hdl.handle.net/2027.42/97346" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[download item]</p>
+                </daodesc>
+              </dao>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>Fellowship Opportunities <unitdate type="inclusive" normal="2011">2011</unitdate></unittitle>
+              <physdesc>
+                <physfacet>.PDF file</physfacet>
+              </physdesc>
+              <dao href="http://hdl.handle.net/2027.42/97347" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[download item]</p>
+                </daodesc>
+              </dao>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>Master of Science Programs <unitdate type="inclusive" normal="2011">2011</unitdate></unittitle>
+              <physdesc>
+                <physfacet>.PDF file</physfacet>
+              </physdesc>
+              <dao href="http://hdl.handle.net/2027.42/97348" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[download item]</p>
+                </daodesc>
+              </dao>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Bulletins</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle><title render="italic">Housing Research and Education at the University of Michigan</title>, <unitdate type="inclusive" normal="1947">1947</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Bulletins (College Catalogs) arranged chronologically</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle><title render="italic">School of Architecture Announcement</title>, <unitdate type="inclusive" normal="1876">1876</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle><title render="italic">Department of Architecture Announcement</title>, <unitdate type="inclusive" normal="1910/1917">1910-1917</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">3 folders</extent>
+              </physdesc>
+              <unittitle><title render="italic">Department of Engineering General Announcement</title>, <unitdate type="inclusive" normal="1906/1911">1906-1911</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+            <odd>
+              <p>(includes courses in architecture)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
+              </physdesc>
+              <unittitle><title render="italic">Department of Engineering: General Announcement of Courses in Engineering and Architecture</title>, <unitdate type="inclusive" normal="1911/1915">1911-1915</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle><title render="italic">Colleges of Engineering and Architecture: General Announcement of Courses</title>, <unitdate type="inclusive" normal="1915/1917">1915-1917</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">5 folders</extent>
+              </physdesc>
+              <unittitle><title render="italic">Colleges of Engineering and Architecture: General Announcement</title>, <unitdate type="inclusive" normal="1917/1927">1917-1927</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">3 folders</extent>
+              </physdesc>
+              <unittitle><title render="italic">Colleges of Engineering and Architecture Announcement</title>, <unitdate type="inclusive" normal="1927/1932">1927-1932</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
+              </physdesc>
+              <unittitle><title render="italic">College of Architecture Announcement</title>, <unitdate type="inclusive" normal="1932/1939">1932-1939</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">9 folders</extent>
+              </physdesc>
+              <unittitle><title render="italic">College of Architecture and Design Announcement</title>, <unitdate type="inclusive" normal="1939/1974">1939-1974</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">2</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">11 folders</extent>
+              </physdesc>
+              <unittitle>College of Architecture and Urban Planning Bulletin <unitdate type="inclusive" normal="1974/2000">1974-2000</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>
+                <title render="italic">A. Alfred Taubman College of Architecture and Urban Planning</title>
+              </unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">2</container>
+                <unittitle><unitdate type="inclusive" normal="2002/2003">2002-2003</unitdate> (Supplement)</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>General Programs and Course Descriptions</unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <physloc>Online</physloc>
+                  <unittitle>
+                    <unitdate type="inclusive" normal="2003/2004">2003-2004</unitdate>
+                  </unittitle>
+                  <physdesc>
+                    <physfacet>.PDF files</physfacet>
+                  </physdesc>
+                  <dao href="http://hdl.handle.net/2027.42/100191" show="new" actuate="onrequest">
+                    <daodesc>
+                      <p>[view item]</p>
+                    </daodesc>
+                  </dao>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <physloc>Online</physloc>
+                  <unittitle>
+                    <unitdate type="inclusive" normal="2004/2005">2004-2005</unitdate>
+                  </unittitle>
+                  <physdesc>
+                    <physfacet>.PDF files</physfacet>
+                  </physdesc>
+                  <dao href="http://hdl.handle.net/2027.42/100192" show="new" actuate="onrequest">
+                    <daodesc>
+                      <p>[view item]</p>
+                    </daodesc>
+                  </dao>
+                </did>
+              </c05>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>Architecture Programs and Course Descriptions</unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <physloc>Online</physloc>
+                  <unittitle>
+                    <unitdate type="inclusive" normal="2006/2007">2006-2007</unitdate>
+                  </unittitle>
+                  <physdesc>
+                    <physfacet>.PDF files</physfacet>
+                  </physdesc>
+                  <dao href="http://hdl.handle.net/2027.42/100193" show="new" actuate="onrequest">
+                    <daodesc>
+                      <p>[view item]</p>
+                    </daodesc>
+                  </dao>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <physloc>Online</physloc>
+                  <unittitle>
+                    <unitdate type="inclusive" normal="2008/2009">2008-2009</unitdate>
+                  </unittitle>
+                  <physdesc>
+                    <physfacet>.PDF files</physfacet>
+                  </physdesc>
+                  <dao href="http://hdl.handle.net/2027.42/100196" show="new" actuate="onrequest">
+                    <daodesc>
+                      <p>[view item]</p>
+                    </daodesc>
+                  </dao>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <physloc>Online</physloc>
+                  <unittitle>
+                    <unitdate type="inclusive" normal="2009/2010">2009-2010</unitdate>
+                  </unittitle>
+                  <physdesc>
+                    <physfacet>.PDF files</physfacet>
+                  </physdesc>
+                  <dao href="http://hdl.handle.net/2027.42/100198" show="new" actuate="onrequest">
+                    <daodesc>
+                      <p>[view item]</p>
+                    </daodesc>
+                  </dao>
+                </did>
+              </c05>
+            </c04>
+            <c04 level="file">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle>Ph.D. in Urban and Regional Planning Guide <unitdate type="inclusive" normal="2007/2008">2007-2008</unitdate></unittitle>
+                <physdesc>
+                  <physfacet>.PDF files</physfacet>
+                </physdesc>
+                <dao href="http://hdl.handle.net/2027.42/100194" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[view item]</p>
+                  </daodesc>
+                </dao>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>Urban and Regional Planning Programs and Course Descriptions</unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <physloc>Online</physloc>
+                  <unittitle>
+                    <unitdate type="inclusive" normal="2007/2008">2007-2008</unitdate>
+                  </unittitle>
+                  <physdesc>
+                    <physfacet>.PDF files</physfacet>
+                  </physdesc>
+                  <dao href="http://hdl.handle.net/2027.42/100195" show="new" actuate="onrequest">
+                    <daodesc>
+                      <p>[view item]</p>
+                    </daodesc>
+                  </dao>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <physloc>Online</physloc>
+                  <unittitle>
+                    <unitdate type="inclusive" normal="2008/2009">2008-2009</unitdate>
+                  </unittitle>
+                  <physdesc>
+                    <physfacet>.PDF files</physfacet>
+                  </physdesc>
+                  <dao href="http://hdl.handle.net/2027.42/100197" show="new" actuate="onrequest">
+                    <daodesc>
+                      <p>[view item]</p>
+                    </daodesc>
+                  </dao>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <physloc>Online</physloc>
+                  <unittitle>
+                    <unitdate type="inclusive" normal="2009/2010">2009-2010</unitdate>
+                  </unittitle>
+                  <physdesc>
+                    <physfacet>.PDF files</physfacet>
+                  </physdesc>
+                  <dao href="http://hdl.handle.net/2027.42/100199" show="new" actuate="onrequest">
+                    <daodesc>
+                      <p>[view item]</p>
+                    </daodesc>
+                  </dao>
+                </did>
+              </c05>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 bound volumes</extent>
+              </physdesc>
+              <unittitle><title render="italic">College of Architecture and Design Announcement</title>, <unitdate type="inclusive" normal="1947/1973">1947-1973</unitdate></unittitle>
+              <physdesc>
+                </physdesc>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Bulletins (College Catalog Supplements)</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle><title render="italic">Progress Report</title>, <unitdate type="inclusive" normal="1950/1951">1950-1951</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Calendars</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1986">1986</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Directories</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
+              </physdesc>
+              <unittitle><title render="italic">Faculty-Staff Directory</title>, <unitdate type="inclusive" normal="1960/1974">1960-1974</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">10 folders</extent>
+              </physdesc>
+              <unittitle><title render="italic">Faculty Directory</title>, <unitdate type="inclusive" normal="1990/2000">1990-2000</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Exhibition Catalogs</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle><title render="italic">Konrad Wachsmann: Toward Industrialization of Building</title>, <unitdate type="inclusive" normal="1971">1971</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">3</container>
+              <unittitle><title render="italic">Work</title>, <unitdate type="inclusive" normal="1994">1994</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Flyers</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1980/1991">1980-1991</unitdate>
+                <unitdate type="inclusive">undated</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle><title render="italic">College of Architecture and Design Notice: Change of Entrance Requirements</title>, <unitdate type="inclusive" normal="1948">1948</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Histories</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle><title render="italic">More than a Handsome Box: Education in Architecture at the University of Michigan, 1876-1986</title> by Nancy Ruth Bartlett, <unitdate type="inclusive" normal="1995">1995</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Holiday Cards</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">7 folders</extent>
+              </physdesc>
+              <unittitle>Christmas Mailing <unitdate type="inclusive" normal="1989/1995">1989-1995</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Indexes</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle><title render="italic">Development Index</title> by K. Lonberg-Holm and C. Theodore Larson, <unitdate type="inclusive" normal="1953">1953</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Invitations</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1965/2008">1965-2008 (scattered)</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>
+                <unitdate type="inclusive" normal="2010/2012">2010-2012</unitdate>
+              </unittitle>
+              <physdesc>
+                <physfacet>.ZIP file</physfacet>
+              </physdesc>
+              <dao href="http://hdl.handle.net/2027.42/97350" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[download item]</p>
+                </daodesc>
+              </dao>
+            </did>
+            <c04 level="file">
+              <did>
+                <unittitle>Taubman College on the Road Event <unitdate type="inclusive" normal="2010">2010</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>Michigan Reception, AIA Conference <unitdate type="inclusive" normal="2012">2012</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>University Alumni Reception, APA Conference <unitdate type="inclusive" normal="2012">2012</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Journals</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
+              </physdesc>
+              <unittitle><title render="italic">Central</title>, <unitdate type="inclusive" normal="1980/1983">1980-1983</unitdate>, <unitdate type="inclusive" normal="1986">1986</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Lectures</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle><title render="italic">Growing a Vision</title> by James Polshek and Douglas Kelbaugh</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Manuals</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
+              </physdesc>
+              <unittitle><title render="italic">Architecture Program Student Handbook</title>, <unitdate type="inclusive" normal="1993/1995">1993-1995</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">3 folders</extent>
+              </physdesc>
+              <unittitle>New Student Handbook <unitdate type="inclusive" normal="1990/1993">1990-1993</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Newsletters</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
+              </physdesc>
+              <unittitle><title render="italic">CAUP Newsletter</title>, <unitdate type="inclusive" normal="1987/1988">1987-1988</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+            <odd>
+              <p>(see also <title render="italic">Newsletter</title>, 1988-1999)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">3 folders</extent>
+              </physdesc>
+              <unittitle><title render="italic">CAUPnews</title> (e-mail printout), <unitdate type="inclusive" normal="1999/2001">1999-2001</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">3 folders</extent>
+              </physdesc>
+              <unittitle><title render="italic">Network News</title>, <unitdate type="inclusive" normal="1992/1994">1992-1994</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <unittitle><title render="italic">News From Taubman College</title>, <unitdate type="inclusive" normal="1999">1999</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">4</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">11 folders</extent>
+              </physdesc>
+              <unittitle><title render="italic">Newsletter</title>, <unitdate type="inclusive" normal="1988/1999">1988-1999</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+            <odd>
+              <p>(see also <title render="italic">CAUP Newsletter</title>, 1987-1988)</p>
+            </odd>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle><title render="italic">Portico</title>, <unitdate type="inclusive" normal="1984/2009">1984-2009</unitdate></unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">4</container>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">12 folders</extent>
+                </physdesc>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1984/2005">1984-2005</unitdate>
+                </unittitle>
+                <physdesc altrender="whole">
+                  </physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">12</container>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">4 folders</extent>
+                </physdesc>
+                <unittitle>
+                  <unitdate type="inclusive" normal="2006/2009">2006-2009</unitdate>
+                </unittitle>
+                <physdesc altrender="whole">
+                  </physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <physloc>Online</physloc>
+                <unittitle><title render="italic">Portico</title>, <unitdate type="inclusive" normal="2010/2011">2010-2011</unitdate></unittitle>
+                <physdesc>
+                  <physfacet>.ZIP file</physfacet>
+                </physdesc>
+                <dao href="http://hdl.handle.net/2027.42/97349" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[download item]</p>
+                  </daodesc>
+                </dao>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
+              </physdesc>
+              <unittitle><title render="italic">TCAUP News</title> (e-mail printout), <unitdate type="inclusive" normal="2002/2004">2002-2004 (scattered)</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
+              </physdesc>
+              <unittitle><title render="italic">Urban Network News</title>, <unitdate type="inclusive" normal="1990/1991">1990-1991</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
+              </physdesc>
+              <unittitle><title render="italic">Youth &amp; Advocacy</title>, <unitdate type="inclusive" normal="1995/1996">1995-1996</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Policies and Procedures</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>
+                <title render="italic">College Rules</title>
+              </unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">5</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1986/1994">1986-1994 (scattered)</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">5</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1996">1996</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">5</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1997/1998">1997-1998</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">5</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1999/2000">1999-2000</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">5</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="2001">2001</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">5</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="2002">2002</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle><title render="italic">Rules of the College of Architecture and Urban Planning</title>, <unitdate type="inclusive" normal="1992">1992</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>Research Policies and Procedures <unitdate type="inclusive" normal="1993/1994">1993-1994</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Posters</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>Lecture Posters</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">5</container>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">3 folders</extent>
+                </physdesc>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1975/1978">1975-1978</unitdate>
+                </unittitle>
+                <physdesc altrender="whole">
+                  </physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">5</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1988/2000">1988-2000</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Miscellaneous <unitdate type="inclusive" normal="1985/1997">1985-1997</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>Events Schedules <unitdate type="inclusive" normal="1998/2008">1998-2008 (scattered)</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>Miscellaneous <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>
+                <unitdate type="inclusive" normal="2010/2011">2010-2011</unitdate>
+              </unittitle>
+              <physdesc>
+                <physfacet>.ZIP file</physfacet>
+              </physdesc>
+              <dao href="http://hdl.handle.net/2027.42/97352" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[download item]</p>
+                </daodesc>
+              </dao>
+            </did>
+            <c04 level="file">
+              <did>
+                <unittitle>
+                  <title render="italic">Advancing Architectural Praxis Symposium</title>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>Fall Lecture Series</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>
+                  <title render="italic">Future of Technology Conference</title>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>
+                  <title render="italic">Robert C. Metcalf Exhibit</title>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>
+                  <title render="italic">Fellows Exhibit</title>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>
+                  <title render="italic">Fresh Student Exhibition</title>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>
+                  <title render="italic">Future of History Conference</title>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>
+                  <title render="italic">Modernism at Risk Exhibit</title>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>
+                  <title render="italic">Research Through Making Exhibition</title>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>
+                  <title render="italic">Thesis Exhibit</title>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>
+                  <title render="italic">Wallenberg Competition Studio Symposium</title>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>Winter Lecture Series</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>
+                <unitdate type="inclusive" normal="2011/2012">2011-2012</unitdate>
+              </unittitle>
+              <physdesc>
+                <physfacet>.ZIP file</physfacet>
+              </physdesc>
+              <dao href="http://hdl.handle.net/2027.42/97353" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[download item]</p>
+                </daodesc>
+              </dao>
+            </did>
+            <c04 level="file">
+              <did>
+                <unittitle>
+                  <title render="italic">Curating Race, Curating Space Conference</title>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>Fall Lecture Series</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>
+                  <title render="italic">Framing a Cultural Ideal Symposium</title>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>
+                  <title render="italic">Power Conference</title>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>
+                  <title render="italic">Research Through Making Exhibition</title>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>
+                  <title render="italic">Risk Conference</title>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>
+                  <title render="italic">Scenes From Studio Student Exhibition</title>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>
+                  <title render="italic">Thesis Exhibit</title>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>
+                  <title render="italic">Wallenberg Competition Studio Symposium</title>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>
+                  <title render="italic">Whither Installation Symposium</title>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>Winter Lecture Series</unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Press Release</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1998">1998</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Programs</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle><title render="italic">Celebration and Naming Ceremony</title>, <unitdate type="inclusive" normal="1999">1999</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle><title render="italic">Culture and the Environment: An Urban Education Conference</title>, <unitdate type="inclusive" normal="1989">1989</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle>Miscellaneous <unitdate type="inclusive" normal="1988/1997">1988-1997</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle><title render="italic">New Schools for New Education: An Architectural Workshop Conducted by the Department of Architecture in Collaboration with the School of Education, University of Michigan, on Behalf of Educational Facilities Laboratories Inc. (Ford Foundation</title>), <unitdate type="inclusive" normal="1959">1959</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>"The Place of Work" -- student exhibition <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>Scholarship and Patronage Celebration <unitdate type="inclusive" normal="2005-10">October 2005</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle><title render="italic">A2Modern: Selected Works of Residential Modern Architects and Map</title>, <unitdate type="inclusive" normal="2012">2012</unitdate></unittitle>
+              <physdesc>
+                <physfacet>.ZIP file</physfacet>
+              </physdesc>
+              <dao href="http://hdl.handle.net/2027.42/97355" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[download item]</p>
+                </daodesc>
+              </dao>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle><title render="italic">Taubman Scholars Luncheon</title>, <unitdate type="inclusive" normal="2010">2010</unitdate></unittitle>
+              <physdesc>
+                <physfacet>.ZIP file</physfacet>
+              </physdesc>
+              <dao href="http://hdl.handle.net/2027.42/97354" show="new" actuate="onrequest">
+                <daodesc>
+                  <p>[download item]</p>
+                </daodesc>
+              </dao>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Proposals</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>
+                <title render="italic">A Proposal to the Horace H. Rackham School of Graduate Studies for a Certification in Gaming/Simulation Studies</title>
+              </unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">5</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1985-04">April 1985</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">5</container>
+                <unittitle>
+                  <unitdate type="inclusive" normal="1985-10">October 1985</unitdate>
+                </unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Prospectus</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle><title render="italic">College of Architecture + Urban Planning: Defining Our Future</title>, <unitdate type="inclusive" normal="1999">1999</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Reports</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
+              </physdesc>
+              <unittitle><title render="italic">Architecture Program Report</title>, <unitdate type="inclusive" normal="1986/1988">1986-1988</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
+              </physdesc>
+              <unittitle><title render="italic">Educational Development Plan</title>, <unitdate type="inclusive" normal="1976/1981">1976-1981</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle><title render="italic">Housing Needs for the Elderly: A Quantitative Analysis by Benjamin Handler</title>, <unitdate type="inclusive" normal="1982" certainty="approximate">circa 1982</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle><title render="italic">Housing Research and Education</title>, <unitdate type="inclusive" normal="1947">1947</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>
+                <title render="italic">Michigan Architecture Papers</title>
+              </unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">5</container>
+                <unittitle><title render="italic">The Work of TEN Arquitectos</title> by Enrique Norten, no. 3, <unitdate type="inclusive" normal="1997">1997</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle><title render="italic">Organization of a Department of Urban Planning: The U. of M</title>., <unitdate type="inclusive" normal="1966">1966</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle><title render="italic">Prototype Structural System Integrating Mechanical Services</title>, <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle><title render="italic">Town/Gown Study</title>, <unitdate type="inclusive" normal="1993">1993</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">5</container>
+              <unittitle><title render="italic">Unistrut Space-Frame System</title>, <unitdate type="inclusive" normal="1975">1975</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>Environmental Change: A Case Study of Office Relocation at the University of Michigan <unitdate type="inclusive" normal="1991-12">December 1991</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>Report on Scholarly and Research Activity <unitdate type="inclusive" normal="1996/1997">1996-1997</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>Research Activities <unitdate type="inclusive" normal="1994/1995">1994-1995</unitdate> (brief summaries of research projects)</unittitle>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>SUB-UNIT PUBLICATIONS</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <unittitle>Ann Arbor Conference</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">6</container>
+              <unittitle>Proceedings</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">6</container>
+                <unittitle><title render="italic">Papers Presented at the Seventh Ann Arbor Conference: Mid-Century Report on Design Progress, Review-Preview</title>, <unitdate type="inclusive" normal="1949">1949</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Architectural Research Laboratory</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>Unit Publications</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <unittitle>Brochures</unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">6</container>
+                  <unittitle>Miscellaneous <unitdate type="inclusive">undated</unitdate></unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">6</container>
+                  <unittitle><title render="italic">Unistrut System of Construction</title>, <unitdate type="inclusive" normal="1950">1950</unitdate></unittitle>
+                </did>
+              </c05>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>Catalogs</unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">6</container>
+                  <unittitle><title render="italic">Publications of the Architectural Research Laboratory</title>, <unitdate type="inclusive" normal="1972/1980">1972-1980</unitdate>, <unitdate type="inclusive" normal="1980">1980</unitdate></unittitle>
+                </did>
+              </c05>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>Monograph Series</unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">6</container>
+                  <unittitle><title render="italic">Assessing Housing Preferences of Low Cost Single Family Home Buyers</title>, by Robert E. Johnson, <unitdate type="inclusive" normal="1980">1980</unitdate></unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">6</container>
+                  <unittitle><title render="italic">Life Imitates Architecture: Taliesin and Alden Dow's Studio</title>, by Sidney K. Robinson, <unitdate type="inclusive" normal="1980">1980</unitdate></unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">6</container>
+                  <unittitle><title render="italic">Comprehensive Planning for Housing in Developing Countries</title>, by Samir El Sadek, <unitdate type="inclusive" normal="1980">1980</unitdate></unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">6</container>
+                  <unittitle><title render="italic">Computer Modeling in Hospital Planning: Three Case Studies</title>, by Frank Zilm, <unitdate type="inclusive" normal="1980">1980</unitdate></unittitle>
+                </did>
+              </c05>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>Proceedings</unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">6</container>
+                  <unittitle><title render="italic">Minorities in Planning and Related Urban Professions</title>, <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
+                </did>
+              </c05>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>Reports</unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">6</container>
+                  <unittitle><title render="italic">The American Courthouse: Planning and Design for the Judicial Process</title>, <unitdate type="inclusive" normal="1993">1993</unitdate></unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">6</container>
+                  <unittitle><title render="italic">The American Courthouse: A Planning and Design Guide for Its Future Development</title>, volume 2, <unitdate type="inclusive" normal="1971">1971</unitdate></unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">6</container>
+                  <unittitle><title render="italic">HUD-Supported Work-Study Projects for Minorities in Planning and Related Professions</title>, <unitdate type="inclusive" normal="1970-08">August 1970</unitdate></unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">6</container>
+                  <unittitle><title render="italic">The Michigan Courthouse Study: Statistical Summary and Design Guidelines</title>, volume 1, <unitdate type="inclusive" normal="1981">1981</unitdate></unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">6</container>
+                  <unittitle><title render="italic">Minorities in Planning and Related Urban Professions</title>, <unitdate type="inclusive" normal="1970-02">February 1970</unitdate></unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">6</container>
+                  <unittitle><title render="italic">Minorities in Planning and Related Urban Professions: The Planning Agencies View of the Program: Summary of Agency Questionnaire Responses</title>, <unitdate type="inclusive" normal="1970-01">January 1970</unitdate></unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">6</container>
+                  <unittitle><title render="italic">The Physical Environment and the Learning Process: A Survey of Recent Research</title> by Jonathan King and Robert W. Marans, <unitdate type="inclusive" normal="1979">1979</unitdate></unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">6</container>
+                  <unittitle><title render="italic">Pilot Study for an Evaluation of the Effectiveness of Infrared Scanning as a Tool for Measuring the Thermal Performance of Buildings</title>, <unitdate type="inclusive" normal="1976">1976</unitdate></unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">6</container>
+                  <unittitle><title render="italic">Pre-Construction Evaluation: A Report on the Full Scale Mock-Up and Evaluation of Hospital Rooms</title> by Jonathan King, Robert W. Marans and Lois Ann Solomon, <unitdate type="inclusive" normal="1982">1982</unitdate></unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">6</container>
+                  <unittitle><title render="italic">The Regional Housing Centre Bandung, Indonesia</title> by C. Theodore Larson and Stephen C.A. Paraskevopoulos, <unitdate type="inclusive" normal="1958">1958</unitdate></unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">6</container>
+                  <unittitle><title render="italic">Research on Potential of Advanced Technology for Housing: A Building System Based on Filament Winding and New Developments in Water and Waste Management</title>, <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
+                </did>
+              </c05>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Sub-Unit Publications</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">7</container>
+                <unittitle>Agency for International Development</unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <unittitle>Reports</unittitle>
+                </did>
+                <c06 level="file">
+                  <did>
+                    <container type="box" label="Box">7</container>
+                    <unittitle><title render="italic">The Potential Use of Foam Plastics for Housing in Underdeveloped Areas</title>, <unitdate type="inclusive" normal="1963">1963</unitdate></unittitle>
+                  </did>
+                </c06>
+                <c06 level="file">
+                  <did>
+                    <container type="box" label="Box">7</container>
+                    <unittitle><title render="italic">Structural Potential of Foam Plastics for Housing in Underdeveloped Areas</title>, <unitdate type="inclusive" normal="1966">1966</unitdate></unittitle>
+                  </did>
+                </c06>
+              </c05>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>Bureau of Facilities</unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <unittitle>Reports</unittitle>
+                </did>
+                <c06 level="file">
+                  <did>
+                    <container type="box" label="Box">7</container>
+                    <unittitle><title render="italic">State Computer Based Building Information System</title>, <unitdate type="inclusive" normal="1974">1974</unitdate></unittitle>
+                  </did>
+                </c06>
+              </c05>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>Early Childhood Facilities</unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <unittitle>Reports</unittitle>
+                </did>
+                <c06 level="file">
+                  <did>
+                    <container type="box" label="Box">7</container>
+                    <unittitle><title render="italic">An Annotated Bibliography on Early Childhood</title>, <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
+                  </did>
+                </c06>
+                <c06 level="file">
+                  <did>
+                    <container type="box" label="Box">7</container>
+                    <unittitle><title render="italic">Some European Nursery Schools and Playgrounds</title>, <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
+                  </did>
+                </c06>
+                <c06 level="file">
+                  <did>
+                    <container type="box" label="Box">7</container>
+                    <unittitle><title render="italic">Some Sensible and Outrageous Ideas for the Future</title>, <unitdate type="inclusive" normal="1972">1972</unitdate></unittitle>
+                  </did>
+                </c06>
+              </c05>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>Environmental Design and Research</unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <unittitle>Bibliographies</unittitle>
+                </did>
+                <c06 level="file">
+                  <did>
+                    <container type="box" label="Box">7</container>
+                    <unittitle><title render="italic">Supplemental and Research Publications</title>, <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
+                  </did>
+                </c06>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unittitle>Reports</unittitle>
+                </did>
+                <c06 level="file">
+                  <did>
+                    <container type="box" label="Box">7</container>
+                    <unittitle><title render="italic">Environmental Design Research: A Faculty View</title>, <unitdate type="inclusive" normal="1975">1975</unitdate></unittitle>
+                  </did>
+                </c06>
+              </c05>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>Man Environment Reference</unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <unittitle>Abstracts</unittitle>
+                </did>
+                <c06 level="file">
+                  <did>
+                    <container type="box" label="Box">7</container>
+                    <unittitle><title render="italic">Environmental Abstracts</title>, <unitdate type="inclusive" normal="1974">1974</unitdate></unittitle>
+                  </did>
+                </c06>
+              </c05>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>School Environments Research Project</unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <unittitle>Abstracts</unittitle>
+                </did>
+                <c06 level="file">
+                  <did>
+                    <container type="box" label="Box">7</container>
+                    <unittitle><title render="italic">Environmental Abstracts</title>, <unitdate type="inclusive" normal="1965">1965</unitdate></unittitle>
+                  </did>
+                </c06>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unittitle>Reports</unittitle>
+                </did>
+                <c06 level="file">
+                  <did>
+                    <container type="box" label="Box">7</container>
+                    <unittitle><title render="italic">Economic Planning for Better Schools: A Study of How to Use Available Resources to Best Advantage--Through Capital Budgeting--In Meeting the Changing Needs of Education</title> by Benjamin Handler, <unitdate type="inclusive" normal="1960">1960</unitdate></unittitle>
+                  </did>
+                </c06>
+                <c06 level="file">
+                  <did>
+                    <container type="box" label="Box">7</container>
+                    <unittitle><title render="italic">The Effect of Windowless Classrooms on Small School Children</title>, <unitdate type="inclusive" normal="1965-07">July 1965</unitdate></unittitle>
+                  </did>
+                </c06>
+                <c06 level="file">
+                  <did>
+                    <container type="box" label="Box">7</container>
+                    <unittitle><title render="italic">The Effect of Windowless Classrooms on Elementary School Children</title>, <unitdate type="inclusive" normal="1965-11">November 1965</unitdate></unittitle>
+                  </did>
+                </c06>
+                <c06 level="file">
+                  <did>
+                    <container type="box" label="Box">7</container>
+                    <unittitle><title render="italic">Environmental Analysis</title>, <unitdate type="inclusive" normal="1965">1965</unitdate></unittitle>
+                  </did>
+                </c06>
+                <c06 level="file">
+                  <did>
+                    <container type="box" label="Box">7</container>
+                    <unittitle><title render="italic">Environmental Evaluation</title>, <unitdate type="inclusive" normal="1965">1965</unitdate></unittitle>
+                  </did>
+                </c06>
+              </c05>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Architecture and Planning Research Laboratory</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>Unit Publications</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">8</container>
+                <unittitle>Brochures</unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">8</container>
+                  <unittitle>
+                    <title render="italic">Design America: The Founders' Council</title>
+                  </unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">8</container>
+                  <unittitle>Miscellaneous <unitdate type="inclusive">undated</unitdate></unittitle>
+                </did>
+              </c05>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>Manuals</unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">8</container>
+                  <unittitle><title render="italic">Laboratory Equipment Manual, version 1.0</title>, <unitdate type="inclusive" normal="1985">1985</unitdate></unittitle>
+                </did>
+              </c05>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>Monograph Series</unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">8</container>
+                  <unittitle><title render="italic">Affiliative Behavior and the Physical Environment</title>, by Rawia Fadel El Sadek, <unitdate type="inclusive" normal="1983">1983</unitdate></unittitle>
+                </did>
+              </c05>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>Newsletters</unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">8</container>
+                  <unittitle><title render="italic">The Competitive Edge</title>, <unitdate type="inclusive" normal="1983/1987">1983-1987</unitdate></unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">8</container>
+                  <unittitle><title render="italic">Funding Flash</title>, <unitdate type="inclusive" normal="1990/1991">1990-1991</unitdate></unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">8</container>
+                  <physdesc altrender="whole">
+                    <extent altrender="materialtype spaceoccupied">2 folders</extent>
+                  </physdesc>
+                  <unittitle><title render="italic">Research News</title>, <unitdate type="inclusive" normal="1984/1995">1984-1995</unitdate></unittitle>
+                  <physdesc altrender="whole">
+                    </physdesc>
+                </did>
+              </c05>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>Reports</unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">8</container>
+                  <unittitle><title render="italic">The Architecture and Planning Research Laboratory</title> (Draft), <unitdate type="inclusive" normal="1983">1983</unitdate></unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">8</container>
+                  <unittitle><title render="italic">Design and World Markets</title>, <unitdate type="inclusive" normal="1986">1986</unitdate></unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">8</container>
+                  <unittitle><title render="italic">Energy Management and Retrofit--The Re:AAB Project</title> (Final Report), [1983]</unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">8</container>
+                  <unittitle><title render="italic">Integrated Approaches to Facilities Planning and Assessment: [Presented at] the Society for College and University Planning 21st Annual International Conference</title>, by C.W. Clipson and R.E. Johnson, <unitdate type="inclusive" normal="1986">1986</unitdate></unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">8</container>
+                  <unittitle><title render="italic">Meeting Michigan's Housing Needs: The Role of Manufactured Housing</title>,  by Kate Warner, <unitdate type="inclusive" normal="1984">1984</unitdate></unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">8</container>
+                  <unittitle><title render="italic">Post-Professional and Doctoral Education in Architecture</title>, <unitdate type="inclusive" normal="1991">1991</unitdate></unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">8</container>
+                  <unittitle><title render="italic">Simulating Future Worlds: A Review of Simulation Techniques for Research Planning and Design</title>, <unitdate type="inclusive" normal="1988">1988</unitdate></unittitle>
+                </did>
+              </c05>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Sub-Unit Publications</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <unittitle>Business and Design Education</unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <unittitle>Reports</unittitle>
+                </did>
+                <c06 level="file">
+                  <did>
+                    <container type="box" label="Box">8</container>
+                    <unittitle>First Things First <unitdate type="inclusive" normal="1986">1986</unitdate>, <unitdate type="inclusive" normal="1988">1988</unitdate></unittitle>
+                  </did>
+                </c06>
+              </c05>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>Design America</unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <unittitle>Reports</unittitle>
+                </did>
+                <c06 level="file">
+                  <did>
+                    <container type="box" label="Box">8</container>
+                    <unittitle><title render="italic">Design America: Promoting Design Excellence in America</title> by Colin Clipson, <unitdate type="inclusive" normal="1989">1989</unitdate></unittitle>
+                  </did>
+                </c06>
+              </c05>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>Factories for the Future</unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">8</container>
+                  <unittitle>Brochures <unitdate type="inclusive" normal="1987">1987</unitdate></unittitle>
+                </did>
+              </c05>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>The Role of Design in American Corporations</unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <unittitle>Reports</unittitle>
+                </did>
+                <c06 level="file">
+                  <did>
+                    <container type="box" label="Box">8</container>
+                    <physdesc altrender="whole">
+                      <extent altrender="materialtype spaceoccupied">2 folders</extent>
+                    </physdesc>
+                    <unittitle><title render="italic">Business/Design Cases</title>, <unitdate type="inclusive" normal="1984">1984</unitdate></unittitle>
+                    <physdesc altrender="whole">
+                      </physdesc>
+                  </did>
+                </c06>
+                <c06 level="file">
+                  <did>
+                    <container type="box" label="Box">8</container>
+                    <unittitle><title render="italic">Business/Design Cases</title> (Slides), <unitdate type="inclusive" normal="1984">1984</unitdate></unittitle>
+                  </did>
+                </c06>
+                <c06 level="file">
+                  <did>
+                    <container type="box" label="Box">8</container>
+                    <unittitle><title render="italic">Business/Design Indexes</title>, <unitdate type="inclusive" normal="1984">1984</unitdate></unittitle>
+                  </did>
+                </c06>
+                <c06 level="file">
+                  <did>
+                    <container type="box" label="Box">8</container>
+                    <unittitle><title render="italic">Business/Design Issues</title>, <unitdate type="inclusive" normal="1984">1984</unitdate></unittitle>
+                  </did>
+                </c06>
+                <c06 level="file">
+                  <did>
+                    <container type="box" label="Box">8</container>
+                    <unittitle><title render="italic">Business/Design Promotion</title>, <unitdate type="inclusive" normal="1984">1984</unitdate></unittitle>
+                  </did>
+                </c06>
+                <c06 level="file">
+                  <did>
+                    <container type="box" label="Box">8</container>
+                    <unittitle><title render="italic">Design and World Markets</title>, <unitdate type="inclusive" normal="1986">1986</unitdate></unittitle>
+                  </did>
+                </c06>
+              </c05>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>College of Architecture and Urban Planning Library Committee</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>Reports</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">8</container>
+                <unittitle><title render="italic">The Current and Future State of the Art and Architecture Library: A Brief for Its Retention and Expansion in the Art and Architecture Building</title>, <unitdate type="inclusive" normal="1986">1986</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Daylighting Network of North America</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>Newsletters</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">8</container>
+                <unittitle><title render="italic">DNNA News</title>, <unitdate type="inclusive" normal="1988">1988</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Department of Architecture Spring Course in Continuing Education</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>
+                <title render="italic">Computers and Performance Factors: Implications for Architecture</title>
+              </unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">8</container>
+                <unittitle>Manuals <unitdate type="inclusive" normal="1967">1967</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>
+                <title render="italic">Computers in Architecture</title>
+              </unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">8</container>
+                <unittitle>Brochures <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>John Dinkeloo Memorial Lecture</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>Lectures</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">8</container>
+                <unittitle>Patkau Architects: <title render="italic">Investigations into the Particular</title>, <unitdate type="inclusive" normal="1995">1995</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">8</container>
+                <unittitle>Richard Horden: <title render="italic">Light Architecture</title>, <unitdate type="inclusive" normal="1996">1996</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">8</container>
+                <unittitle><title render="italic">Studio Granda</title>, <unitdate type="inclusive" normal="1998">1998</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Doctoral Program in Architecture</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <unittitle>Brochures <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">8</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">3 folders</extent>
+              </physdesc>
+              <unittitle>Bulletins <unitdate type="inclusive" normal="1972/1991">1972-1991</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Flyers</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">8</container>
+                <unittitle><title render="italic">D. Arch. Students and Their Dissertations--Partial List</title>, <unitdate type="inclusive">undated</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Manuals</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">8</container>
+                <unittitle><title render="italic">Administrative Policies and Procedures</title>, <unitdate type="inclusive" normal="1990">1990</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">8</container>
+                <unittitle><title render="italic">Faculty Handbook</title>, <unitdate type="inclusive" normal="1989">1989</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">8</container>
+                <unittitle><title render="italic">Qualifying Examination and Dissertation Procedures: (Interim Ph.D. Guidelines)</title>, <unitdate type="inclusive" normal="1991">1991</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Syllabi</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">8</container>
+                <unittitle><title render="italic">Core Seminar Syllabi</title>, <unitdate type="inclusive" normal="1990">1990</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Integrated Technology Instruction Center</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">9</container>
+              <unittitle>Reports</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">9</container>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">2 folders</extent>
+                </physdesc>
+                <unittitle><title render="italic">Integrated Technology Instruction Center: Preliminary Investigations and Design Guide</title>, Vol. 1-2, <unitdate type="inclusive" normal="1988">1988</unitdate></unittitle>
+                <physdesc altrender="whole">
+                  </physdesc>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Interior Design</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>Course Outline</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">9</container>
+                <unittitle><title render="italic">The Historic Styles of Interior Design: Outline for D.D. 35 History of Interiors</title>, <unitdate type="inclusive" normal="1936">1936</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Master of Architecture Program</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>Reports</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">9</container>
+                <unittitle><title render="italic">Heritage of a Landscape</title>, <unitdate type="inclusive" normal="1995">1995</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>North Campus Studio</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>Proposals</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">9</container>
+                <unittitle><title render="italic">North Campus: University of Michigan, Towards a Vital Community</title>, <unitdate type="inclusive" normal="1998">1998</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Office of Career Development</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>Directories</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">9</container>
+                <unittitle><title render="italic">Resume Book</title>, <unitdate type="inclusive" normal="1998">1998</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Ph.D. in Architecture</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">9</container>
+              <unittitle>Posters <unitdate type="inclusive" normal="1990">1990</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Planning Accreditation Board</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>Reports</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">9</container>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">2 folders</extent>
+                </physdesc>
+                <unittitle><title render="italic">Planning Degree Initial Accreditation: Final Application and Appendices</title>, <unitdate type="inclusive" normal="1987">1987</unitdate></unittitle>
+                <physdesc altrender="whole">
+                  </physdesc>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Planning and Policy Studies</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">9</container>
+              <unittitle>Brochures <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Bulletins</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">9</container>
+                <unittitle><title render="italic">Graduate Programs in Planning and Policy Studies at Michigan</title>, <unitdate type="inclusive">undated</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Profession Exposure Program</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>Schematics</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">9</container>
+                <unittitle><title render="italic">PEP2-WT75: A Schematic Housing Design Presentation for Off-Campus Housing Unit</title>, <unitdate type="inclusive" normal="1975">1975</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Solar Design Education Symposium</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>
+                <title render="italic">Design for the Sun</title>
+              </unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">9</container>
+                <unittitle>Poster <unitdate type="inclusive" normal="1978">1978</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>UM Programming Research Team</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>Reports</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">9</container>
+                <unittitle><title render="italic">Architecture and Art Library Program</title>, <unitdate type="inclusive" normal="1984">1984</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Urban and Regional Planning Program</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>Unit Publications</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">9</container>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">2 folders</extent>
+                </physdesc>
+                <unittitle>Brochures <unitdate type="inclusive" normal="1967/2000">1967-2000</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
+                <physdesc altrender="whole">
+                  </physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">9</container>
+                <unittitle>Flyers <unitdate type="inclusive" normal="1977">1977</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>Manuals</unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">9</container>
+                  <unittitle><title render="italic">Urban Planning Orientation Handbook</title>, <unitdate type="inclusive" normal="1992">1992</unitdate></unittitle>
+                </did>
+              </c05>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Sub-Unit Publications</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <unittitle>Alumni Society</unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <unittitle>Newsletters</unittitle>
+                </did>
+                <c06 level="file">
+                  <did>
+                    <container type="box" label="Box">9</container>
+                    <unittitle><title render="italic">The U.P. Date</title>, 1982 </unittitle>
+                  </did>
+                </c06>
+                <c06 level="file">
+                  <did>
+                    <container type="box" label="Box">9</container>
+                    <unittitle><title render="italic">Update</title>, <unitdate type="inclusive" normal="1992">1992</unitdate></unittitle>
+                  </did>
+                </c06>
+              </c05>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>Ph.D. Program in Urban and Regional Planning</unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <unittitle>Annual Reports</unittitle>
+                </did>
+                <c06 level="file">
+                  <did>
+                    <container type="box" label="Box">9</container>
+                    <unittitle><title render="italic">Annual Report</title>, <unitdate type="inclusive" normal="1981">1981</unitdate></unittitle>
+                  </did>
+                </c06>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">9</container>
+                  <unittitle>Brochures <unitdate type="inclusive">undated</unitdate></unittitle>
+                </did>
+              </c05>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>Ph.D Program in Urban, Technological, and Environmental Planning</unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <unittitle>Annual Reports</unittitle>
+                </did>
+                <c06 level="file">
+                  <did>
+                    <container type="box" label="Box">9</container>
+                    <unittitle><title render="italic">Annual Report</title>, <unitdate type="inclusive" normal="1982">1982</unitdate></unittitle>
+                  </did>
+                </c06>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">9</container>
+                  <unittitle>Brochures <unitdate type="inclusive">undated</unitdate></unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unittitle>Programs</unittitle>
+                </did>
+                <c06 level="file">
+                  <did>
+                    <container type="box" label="Box">9</container>
+                    <unittitle>Symposium: "Applications of Planning Theory," <unitdate type="inclusive" normal="1987-04">April 1987</unitdate></unittitle>
+                  </did>
+                </c06>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unittitle>Prospectus</unittitle>
+                </did>
+                <c06 level="file">
+                  <did>
+                    <container type="box" label="Box">9</container>
+                    <unittitle>The Integrative Corporate Planning Program (ICP) <unitdate type="inclusive" normal="1983">1983</unitdate></unittitle>
+                  </did>
+                </c06>
+              </c05>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Wallenberg (Raoul) Lecture</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">9</container>
+              <unittitle>Brochures <unitdate type="inclusive" normal="1995">1995</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Lectures</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">9</container>
+                <unittitle><title render="italic">Architecture as a Humane Art</title>, by Nikolaus Pevsner, <unitdate type="inclusive" normal="1972">1972</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">9</container>
+                <unittitle><title render="italic">Architecture as a Humane Art</title> by Eric Larrabee, <unitdate type="inclusive" normal="1973">1973</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">9</container>
+                <unittitle><title render="italic">In Tribute to Raoul Wallenberg</title>, by Sol King, <unitdate type="inclusive" normal="1995">1995</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">9</container>
+                <unittitle><title render="italic">Traces of the Unborn</title>, by Daniel Libeskind, <unitdate type="inclusive" normal="1995">1995</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">9</container>
+                <unittitle><title render="italic">The Architecture of Community</title>, by Vincent Scully, <unitdate type="inclusive" normal="1996">1996</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">9</container>
+                <unittitle><title render="italic">Traffic in Democracy</title> by Michael Sorkin, <unitdate type="inclusive" normal="1997">1997</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">9</container>
+                <unittitle><title render="italic">Megaforms as Urban Landscape</title>, by Kenneth Frampton, <unitdate type="inclusive" normal="1999">1999</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">9</container>
+              <unittitle>Programs <unitdate type="inclusive" normal="1975/1985">1975-1985 (scattered)</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Department of Urban Planning</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>Newsletters</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">12</container>
+                <unittitle>"Planning Briefs," <unitdate type="inclusive" normal="1979">1979</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Doctoral Program in Architecture</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">12</container>
+              <unittitle>Dissertation Summaries <unitdate type="inclusive" normal="1989/2002">1989-2002</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>National Policy Center on Housing and Living Arrangements for Older Americans</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>Newsletters</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">12</container>
+                <unittitle>"Center News," <unitdate type="inclusive" normal="1980/1981">1980-1981</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Urban and Regional Planning Program (URP)</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>Unit Publications</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <unittitle>Newsletters</unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">12</container>
+                  <unittitle>"URP Post," <unitdate type="inclusive" normal="1982-04">April 1982</unitdate> (see also "UTEP Post")</unittitle>
+                </did>
+              </c05>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Sub-Unit Publications</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <unittitle>Ph.D. Program in Urban, Technological, and Environmental Planning (UTEP)</unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <unittitle>Annual Reports</unittitle>
+                </did>
+                <c06 level="file">
+                  <did>
+                    <container type="box" label="Box">12</container>
+                    <unittitle>
+                      <unitdate type="inclusive" normal="1983/1984">1983-1984</unitdate>
+                    </unittitle>
+                  </did>
+                </c06>
+                <c06 level="file">
+                  <did>
+                    <container type="box" label="Box">12</container>
+                    <unittitle>
+                      <unitdate type="inclusive" normal="1984/1985">1984-1985</unitdate>
+                    </unittitle>
+                  </did>
+                </c06>
+                <c06 level="file">
+                  <did>
+                    <container type="box" label="Box">12</container>
+                    <unittitle>
+                      <unitdate type="inclusive" normal="1985/1986">1985-1986</unitdate>
+                    </unittitle>
+                  </did>
+                </c06>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unittitle>Newsletters</unittitle>
+                </did>
+                <c06 level="file">
+                  <did>
+                    <container type="box" label="Box">12</container>
+                    <unittitle>"UTEP Post," <unitdate type="inclusive" normal="1982/1985">1982-1985</unitdate> (formerly "URP Post")</unittitle>
+                  </did>
+                </c06>
+              </c05>
+            </c04>
+          </c03>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Topical Publications</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <unittitle>Alumni</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">9</container>
+              <unittitle>Brochures <unitdate type="inclusive" normal="1996/2000">1996-2000</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Directories</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <unittitle>Alumni Directory</unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">9</container>
+                  <unittitle>
+                    <unitdate type="inclusive" normal="1956">1956</unitdate>
+                  </unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">9</container>
+                  <unittitle>
+                    <unitdate type="inclusive" normal="1989">1989</unitdate>
+                  </unittitle>
+                </did>
+              </c05>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">9</container>
+                <unittitle><title render="italic">Roster: The Association of Michigan Planners--Alumni of the University of Michigan in Professional Society</title>, <unitdate type="inclusive" normal="1962/1964">1962-1964</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Exhibition Catalogs</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">9</container>
+                <unittitle><title render="italic">Alumni Exhibition AD 50</title>, <unitdate type="inclusive" normal="1956">1956</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Alumni Reunion Weekend</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">9</container>
+                <unittitle>Programs <unitdate type="inclusive" normal="1990/2005">1990-2005</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Art and Architecture Building</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">10</container>
+              <unittitle>Architectural Drawings</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">10</container>
+                <unittitle><title render="italic">College of Architecture and Design. New Art Center</title>, <unitdate type="inclusive" normal="1962">1962</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">10</container>
+              <unittitle>Brochures <unitdate type="inclusive" normal="1975">1975</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">10</container>
+              <unittitle>Floor Plans <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">10</container>
+              <unittitle>Programs <unitdate type="inclusive" normal="1975">1975</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Proposals</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">10</container>
+                <unittitle><title render="italic">The Architecture and Design Building: The U. of M. Project No. 85--Final Preliminary Design</title>, <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">10</container>
+                <unittitle><title render="italic">College Architecture and Design Project no. 85 by Swanson Associates</title>, <unitdate type="inclusive" normal="1971">1971</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">10</container>
+                <unittitle><title render="italic">Proposed New Building: College of Architecture and Design, U. of M., Ann Arbor</title>, <unitdate type="inclusive">undated</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Reports</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">10</container>
+                <unittitle><title render="italic">The University of Michigan Architecture Building Report on Planning and Development</title>, <unitdate type="inclusive" normal="1968">1968</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <physloc>Online</physloc>
+              <unittitle>Alumni Reunion Weekend</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <unittitle>Programs <unitdate type="inclusive" normal="2010/2011">2010-2011</unitdate></unittitle>
+                <physdesc>
+                  <physfacet>.ZIP file</physfacet>
+                </physdesc>
+                <dao href="http://hdl.handle.net/2027.42/97356" show="new" actuate="onrequest">
+                  <daodesc>
+                    <p>[download item]</p>
+                  </daodesc>
+                </dao>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Design Studios</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">10</container>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 folders</extent>
+              </physdesc>
+              <unittitle>Portfolios <unitdate type="inclusive" normal="1981" certainty="approximate">circa 1981</unitdate>, <unitdate type="inclusive" normal="1994">1994</unitdate></unittitle>
+              <physdesc altrender="whole">
+                </physdesc>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Design Study Review</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">10</container>
+                <unittitle>Schedules, 1995-198</unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Fellowships</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">10</container>
+              <unittitle>Posters <unitdate type="inclusive" normal="1985/1989">1985-1989</unitdate>, <unitdate type="inclusive" normal="1997/2004">1997-2004</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Foreign Study Programs</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">10</container>
+              <unittitle>
+                <unitdate type="inclusive" normal="1995">1995</unitdate>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Martin Luther King Day</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">10</container>
+              <unittitle>Schedules <unitdate type="inclusive" normal="1996">1996</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Semicentennial</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>Brochures</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">10</container>
+                <unittitle><title render="italic">College of Architecture and Design, 1906-1956</title>, <unitdate type="inclusive" normal="1956">1956</unitdate> includes Program from Semicentennial Exercises</unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Centennial</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">13</container>
+              <unittitle>Brochures <unitdate type="inclusive" normal="2006">2006</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>History</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">13</container>
+                <unittitle>"TCAUP Centennial" -- pictorial history <unitdate type="inclusive" normal="2006">2006</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Programs</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">13</container>
+                <unittitle>Rewind/Pause/Fast Forward conference <unitdate type="inclusive" normal="2006-11">November 2006</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Charrettes</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">13</container>
+              <unittitle>Flyers <unitdate type="inclusive" normal="2000/2006">2000-2006 (scattered)</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Design Studio</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>Abstracts</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">13</container>
+                <unittitle>Architecture Thesis Studio <unitdate type="inclusive" normal="2002">2002</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>Thesis Final Reviews</unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">13</container>
+                  <unittitle>
+                    <unitdate type="inclusive" normal="2005">2005</unitdate>
+                  </unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">13</container>
+                  <unittitle>
+                    <unitdate type="inclusive" normal="2006-04">April 2006</unitdate>
+                  </unittitle>
+                </did>
+              </c05>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Environmental Consortium</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>Brochures</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">13</container>
+                <unittitle>"An Urban Environmental Education Center in Ann Arbor," <unitdate type="inclusive">undated</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Fellowships</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>Abstracts</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">13</container>
+                <unittitle><title render="italic">Fellowships in Architecture</title>, <unitdate type="inclusive" normal="2009">2009</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Brochures</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">13</container>
+                <unittitle>Leroy E. and Helen L. Kiefer Traveling Fellowship in Design <unitdate type="inclusive">undated</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Michigan Solar House Project (MiSo)</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">13</container>
+              <unittitle>Brochures <unitdate type="inclusive" normal="2005">2005</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Mumbai Studios</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>Abstracts</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">13</container>
+                <unittitle>
+                  <title render="italic">Mapping Mumbai: University of Michigan Mumbai Studios Spring and Fall 2005</title>
+                </unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Real Estate Forum</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">13</container>
+              <unittitle>Brochures <unitdate type="inclusive" normal="1996">1996</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Student Publications</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <unittitle>General Publications</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>Brochures</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">10</container>
+                <unittitle><title render="italic">CBD 3+</title>, <unitdate type="inclusive">undated</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">10</container>
+              <unittitle>Class Composites <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Journals</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">10</container>
+                <unittitle><title render="italic">Architectural Discussions</title>, <unitdate type="inclusive" normal="1978">1978</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">10</container>
+                <unittitle><title render="italic">Dimension</title>, <unitdate type="inclusive" normal="1956/1960">1956-1960</unitdate>, <unitdate type="inclusive" normal="1987/2007">1987-2007</unitdate></unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">10</container>
+                  <physdesc altrender="whole">
+                    <extent altrender="materialtype spaceoccupied">7 folders</extent>
+                  </physdesc>
+                  <unittitle>
+                    <unitdate type="inclusive" normal="1956/1960">1956-1960</unitdate>
+                  </unittitle>
+                  <physdesc altrender="whole">
+                    </physdesc>
+                </did>
+                <odd>
+                  <p>(includes 1958 <title render="italic">Dimension</title> supplement entitled <title render="italic">Current Student Work</title>)</p>
+                </odd>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">10</container>
+                  <physdesc altrender="whole">
+                    <extent altrender="materialtype spaceoccupied">12 folders</extent>
+                  </physdesc>
+                  <unittitle>
+                    <unitdate type="inclusive" normal="1987/1998">1987-1998</unitdate>
+                  </unittitle>
+                  <physdesc altrender="whole">
+                    </physdesc>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">11</container>
+                  <physdesc altrender="whole">
+                    <extent altrender="materialtype spaceoccupied">3 folders</extent>
+                  </physdesc>
+                  <unittitle>
+                    <unitdate type="inclusive" normal="2000/2005">2000-2005</unitdate>
+                  </unittitle>
+                  <physdesc altrender="whole">
+                    </physdesc>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">13</container>
+                  <unittitle>
+                    <unitdate type="inclusive" normal="2006">2006</unitdate>
+                  </unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">13</container>
+                  <unittitle>
+                    <unitdate type="inclusive" normal="2007">2007</unitdate>
+                  </unittitle>
+                </did>
+              </c05>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">11</container>
+                <unittitle><title render="italic">Rough Draft</title>, <unitdate type="inclusive" normal="1995">1995</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">11</container>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">3 folders</extent>
+                </physdesc>
+                <unittitle><title render="italic">Student Publication</title>, <unitdate type="inclusive" normal="1955">1955</unitdate>, <unitdate type="inclusive">undated</unitdate></unittitle>
+                <physdesc altrender="whole">
+                  </physdesc>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Manuals</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">11</container>
+                <unittitle><title render="italic">The Template</title>, <unitdate type="inclusive">undated</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Newsletters</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">11</container>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">5 folders</extent>
+                </physdesc>
+                <unittitle><title render="italic">The Allnighter</title>, <unitdate type="inclusive" normal="1973/1979">1973-1979</unitdate></unittitle>
+                <physdesc altrender="whole">
+                  </physdesc>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">11</container>
+                <unittitle><title render="italic">Architectural Synthesis</title>, <unitdate type="inclusive" normal="1968/1969">1968-1969</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">11</container>
+                <unittitle><title render="italic">The Focal Point</title>, <unitdate type="inclusive" normal="1985/1986">1985-1986</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">11</container>
+                <unittitle><title render="italic">Synergy</title>, <unitdate type="inclusive" normal="1980/1983">1980-1983</unitdate> Vol. 1-3</unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">11</container>
+                <unittitle><title render="italic">This is Not Required Reading</title>, <unitdate type="inclusive" normal="1987">1987</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Specific Student Organization Publications</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <unittitle>American Institute of Architecture Students</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <unittitle>Programs</unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">11</container>
+                  <unittitle><title render="italic">Studio Exhibition: An Exhibit of Work from the 1989 Fall Term Studios</title>, <unitdate type="inclusive" normal="1989">1989</unitdate></unittitle>
+                </did>
+              </c05>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>The Architectural Society</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <unittitle>Yearbooks</unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">11</container>
+                  <unittitle><title render="italic">The Architectural Yearbook of the U. of M.</title>, <unitdate type="inclusive" normal="1927">1927</unitdate></unittitle>
+                </did>
+              </c05>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Department of Urban Planning</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <unittitle>Reports</unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">11</container>
+                  <unittitle><title render="italic">Hubbard Richard--Detroit Riverfront: A Study Prepared by Graduate Students of the Department of Urban Planning, The U. of M., Under the Direction of Professor Gerald Crane</title>, <unitdate type="inclusive" normal="1973">1973</unitdate></unittitle>
+                </did>
+              </c05>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Graduation Committee</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">11</container>
+                <unittitle>Invitations <unitdate type="inclusive" normal="1980/1982">1980-1982</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>Programs</unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">11</container>
+                  <unittitle><title render="italic">Commencement Programs</title>, <unitdate type="inclusive" normal="1980/2005">1980-2005 (scattered)</unitdate></unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <physloc>Online</physloc>
+                  <unittitle><title render="italic">Commencement Programs</title>, <unitdate type="inclusive" normal="2011/2012">2011-2012</unitdate></unittitle>
+                  <physdesc>
+                    <physfacet>.ZIP file</physfacet>
+                  </physdesc>
+                  <dao href="http://hdl.handle.net/2027.42/97357" show="new" actuate="onrequest">
+                    <daodesc>
+                      <p>[download item]</p>
+                    </daodesc>
+                  </dao>
+                </did>
+              </c05>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">11</container>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">14 folders</extent>
+                </physdesc>
+                <unittitle>Yearbooks/Directories <unitdate type="inclusive" normal="1980/1997">1980-1997</unitdate>, <unitdate type="inclusive" normal="2000">2000</unitdate></unittitle>
+                <physdesc altrender="whole">
+                  </physdesc>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>The Radical Arky Gang</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <unittitle>Newsletters</unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">11</container>
+                  <unittitle><title render="italic">Free RAG</title>, <unitdate type="inclusive" normal="1973" certainty="approximate">circa 1973</unitdate></unittitle>
+                </did>
+              </c05>
+            </c04>
+          </c03>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Taubman College of Architecture and Urban Planning Website</unittitle>
+        </did>
+        <scopecontent>
+          <p>The Taubman College Archived Website series documents the academic programs, accomplishments, resources, events, and people at the Taubman College of Architecture and Urban Planning. Content includes important news and announcements, publications (such as newsletters and course catalogs), and information about admissions, curriculum, degree requirements, faculty, and the overall mission of the College. The website series is arranged chronologically, with captures from 2002 and 2003 stored on CD. Starting in 2010, this archived website will be captured on a regular, ongoing basis as part of the University of Michigan Web Archives, hosted at http://webarchives.cdlib.org/a/universityofmichigan/.</p>
+        </scopecontent>
+        <c02 level="item">
+          <did>
+            <container type="box" label="CD Box">2</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">1 cd</extent>
+            </physdesc>
+            <unittitle>Website capture <unitdate type="inclusive" normal="2002-05-15">May 15, 2002</unitdate></unittitle>
+            <physdesc>
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="item">
+          <did>
+            <container type="box" label="CD Box">2</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">1 cd</extent>
+            </physdesc>
+            <unittitle>Website capture <unitdate type="inclusive" normal="2003-05-22">May 22, 2003</unitdate></unittitle>
+            <physdesc>
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <physloc>Online</physloc>
+            <unittitle>Archived Taubman College of Architecture and Urban Planning home page <unitdate type="inclusive" normal="2010/9999">2010-[ongoing]</unitdate></unittitle>
+            <dao show="new" actuate="onrequest" href="8782-w-1">
+              <daodesc>
+                <p>[view web site]</p>
+              </daodesc>
+            </dao>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <physloc>Online</physloc>
+            <unittitle>Archived websites related to the Taubman College of Architecture and Urban Planning <unitdate type="inclusive" normal="2010/9999">2010-[ongoing]</unitdate></unittitle>
+            <dao show="new" actuate="onrequest" href="8782-w-2">
+              <daodesc>
+                <p>[view website]</p>
+              </daodesc>
+            </dao>
+          </did>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

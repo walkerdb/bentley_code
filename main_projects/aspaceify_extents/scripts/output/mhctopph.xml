@@ -1,0 +1,400 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead.dtd">
+<ead>
+  <eadheader audience="internal" langencoding="iso639-2b" repositoryencoding="iso15511" dateencoding="iso8601" relatedencoding="Dublin Core">
+    <eadid countrycode="us" mainagencycode="MiU-H" publicid="-//us::MiU-H//TEXT us::MiU-H::mhctopph.xml//EN" encodinganalog="identifier">umich-bhl-2009196</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="title">Finding Aid for Michigan Historical Collections topical photograph collection <date>ca. 1860-ca. 1959</date></titleproper>
+        <author encodinganalog="creator">Collection processed and finding aid prepared by Michigan Historical Collections staff</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="publisher">Bentley Historical Library, University of Michigan</publisher>
+        <date encodinganalog="date">2003</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created by Thomas E. Powers <date>June 2003</date></creation>
+      <langusage>The finding aid is written in <language encodinganalog="language" langcode="eng">English.</language></langusage>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date>20100525</date>
+        <item>Switched eadid value, call no. with MHC Photo Polar Bear to match filenames of scanned polar bear images.</item>
+      </change>
+      <change>
+        <date>20031010</date>
+        <item>Converted to EAD2002 using Word macro and Xmetal</item>
+      </change>
+      <change>
+        <date>20030624</date>
+        <item>Original encoding in EAD ver. 1.0 from Word 6.0 file using word macros and manual tagging in A/E.</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <frontmatter>
+    <titlepage>
+      <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
+      <titleproper>Finding Aid for <lb/>Michigan Historical Collections topical photograph collection, <date type="inclusive">ca. 1860-ca. 1959</date></titleproper>
+      <author>Finding aid prepared by: <lb/>Michigan Historical Collections staff</author>
+    </titlepage>
+  </frontmatter>
+  <archdesc audience="external" type="inventory" level="collection" relatedencoding="MARC21">
+    <did>
+      <origination>
+        <corpname source="lcnaf">Michigan Historical Collection</corpname>
+      </origination>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">1 oversize box</extent>
+      </physdesc>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">0.5 linear feet</extent>
+        <physfacet>2 boxes</physfacet>
+      </physdesc>
+      <unittitle encodinganalog="245">Michigan Historical Collections topical photograph collection <unitdate type="inclusive" encodinganalog="245$f" normal="1860/1959" certainty="approximate">circa 1860-1959</unitdate></unittitle>
+      <abstract>The Michigan Historical Collections Topical Photograph Collection offer a broad and varied glimpse into nearly one hundred years of Michigan history, from the 1860s into the 1950s. The provenance of most of the photographs has been lost and therefore these images have been grouped together by subject into an artificial accumulation. Subjects depicted range from industry and transportation to clothing styles and social customs.</abstract>
+      <unitid countrycode="us" repositorycode="MiU-H" encodinganalog="099" type="call number">2009196; UCA.5c 2</unitid>
+      <langmaterial>The materials are in <language encodinganalog="041" langcode="eng">English.</language></langmaterial>
+      <repository>
+        <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea> University of Michigan</corpname>
+        <extptr href="bhladd" show="embed" actuate="onload"/>
+      </repository>
+    </did>
+    <descgrp type="admin">
+      <acqinfo encodinganalog="541">
+        <p>The collection has been received through various sources.</p>
+      </acqinfo>
+      <accessrestrict encodinganalog="506">
+        <p>The collection is open for research.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+        <p>Copyright is retained by the Regents of the University of Michigan.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+        <p>item, folder title, box no., Michigan Historical Collections topical photograph collection, Bentley Historical Library, University of Michigan</p>
+      </prefercite>
+    </descgrp>
+    <scopecontent encodinganalog="520">
+      <p>The photographs in this collection were received from various sources. Subjects include carriages, automobiles, Great Lakes shipping, railroads, and mass transit, especially street railroads. There are also images documenting activities within the mining, forestry, and lumber industries, mostly in the Upper Peninsula of Michigan. Also included are photographs of various ethnic groups and their societies, notably of Native Americans (1870s-1930s) of the Manistee and Ludington, Michigan, areas. Some of the images are street views and private residences in various Michigan towns and cities. Of interest are photographs of Michigan units taking part in the Spanish-American War and the "Polar Bear Expedition" of World War I. There is also a series of bookplates, [acquired from?] William H. Bicknell, many of which relate to the University of Michigan.</p>
+    </scopecontent>
+    <controlaccess>
+      <p>
+        <extptr href="accnote" show="embed" actuate="onload"/>
+      </p>
+      <controlaccess>
+        <head>Subjects - Visual Material:</head>
+        <corpname source="lcnaf" encodinganalog="610">Ann Arbor No. 3 (Car ferry)</corpname>
+        <geogname source="lctgm" encodinganalog="651">Ann Arbor (Mich.)--Street-railroads.</geogname>
+        <geogname source="lctgm" encodinganalog="651">Ann Arbor (Mich.)--Streets.</geogname>
+        <subject source="lctgm" encodinganalog="650">Architecture.</subject>
+        <subject source="lctgm" encodinganalog="650">Automobile industry.</subject>
+        <subject source="lctgm" encodinganalog="650">Automobiles.</subject>
+        <subject source="lctgm" encodinganalog="650">Baseball.</subject>
+        <subject source="lctgm" encodinganalog="650">Bathing suits.</subject>
+        <persname source="lcnaf" encodinganalog="600" authfilenumber="http://id.loc.gov/authorities/names/no97001892">Bicknell, W. H. W. (William Harry Warren), 1860-1947</persname>
+        <geogname source="lcsh" encodinganalog="651">Blue Water Bridge (Port Huron, Mich. and Sarnia, Ont.)</geogname>
+        <genreform source="gmgpc" encodinganalog="655">Bookplates.</genreform>
+        <subject source="lctgm" encodinganalog="650">Bridges--Michigan--Port Huron.</subject>
+        <subject source="lctgm" encodinganalog="650">Buses.</subject>
+        <subject source="lctgm" encodinganalog="650">Cadillac (Mich.)--Living rooms.</subject>
+        <geogname source="lctgm" encodinganalog="651">Cadillac (Mich.)--Offices.</geogname>
+        <subject source="lctgm" encodinganalog="650">Camping.</subject>
+        <corpname source="lcnaf" encodinganalog="610">Calumet and Hecla Mining Company.</corpname>
+        <subject source="lctgm" encodinganalog="650">Cargo ships.</subject>
+        <subject source="lctgm" encodinganalog="650">Carriages and coaches.</subject>
+        <subject source="lctgm" encodinganalog="650">Carts and wagons.</subject>
+        <geogname source="lcsh" encodinganalog="651">Chase S. Osborn Preserve (Mich.)</geogname>
+        <subject source="lctgm" encodinganalog="650">Chauffeurs.</subject>
+        <subject source="lctgm" encodinganalog="650">Children.</subject>
+        <subject source="lctgm" encodinganalog="650">Children's clothing and dress.</subject>
+        <subject source="lctgm" encodinganalog="650">Churches--Michigan--Detroit.</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82247865">Cleveland-Cliffs Iron Company.</corpname>
+        <subject source="aat" encodinganalog="650">Clothing and dress--1860-1920.</subject>
+        <geogname source="lcsh" encodinganalog="651">Congress Street (Ypsilanti, Mich.)</geogname>
+        <subject source="lctgm" encodinganalog="650">Cookery.</subject>
+        <subject source="lctgm" encodinganalog="650">Copper mining--Michigan.</subject>
+        <subject source="lctgm" encodinganalog="650">Cutover lands.</subject>
+        <subject source="lctgm" encodinganalog="650">Dams--Michigan--Mio.</subject>
+        <subject source="lcsh" encodinganalog="650">Danish Americans.</subject>
+        <corpname source="lcnaf" encodinganalog="610">Dansk Soldaterforening Michigan.</corpname>
+        <geogname source="lctgm" encodinganalog="651">Dearborn (Mich.)--Street-railroads.</geogname>
+        <geogname source="lctgm" encodinganalog="651">Dearborn (Mich.)--Streets.</geogname>
+        <subject source="lctgm" encodinganalog="650">Deer hunting.</subject>
+        <corpname source="lcnaf" encodinganalog="610">Detroit, Jackson &amp; Chicago Railway.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Detroit (Mich.). Dept. of Street Railways.</corpname>
+        <subject source="lctgm" encodinganalog="650">Detroit (Mich.)--Churches.</subject>
+        <geogname source="lctgm" encodinganalog="651">Detroit (Mich.)--Streets.</geogname>
+        <subject source="lctgm" encodinganalog="650">Diving.</subject>
+        <genreform source="gmgpc" encodinganalog="655">Drawings.</genreform>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/no98080205">Duluth (Ship)</corpname>
+        <subject source="lctgm" encodinganalog="650">Dwellings--Michigan.</subject>
+        <subject source="lctgm" encodinganalog="650">Eating and drinking.</subject>
+        <subject source="lctgm" encodinganalog="650">Electric railroads.</subject>
+        <subject source="lctgm" encodinganalog="650">Emigration and immigration.</subject>
+        <subject source="lctgm" encodinganalog="650">Ethnic groups.</subject>
+        <persname source="lcnaf" encodinganalog="600">Faber, E.</persname>
+        <subject source="lctgm" encodinganalog="650">Families.</subject>
+        <subject source="lctgm" encodinganalog="650">Farms.</subject>
+        <subject source="lctgm" encodinganalog="650">Ferries.</subject>
+        <subject source="lcsh" encodinganalog="650">Finnish Americans.</subject>
+        <subject source="lctgm" encodinganalog="650">Forestry.</subject>
+        <subject source="lctgm" encodinganalog="650">Forests--Michigan.</subject>
+        <corpname source="lcnaf" encodinganalog="610">Fontana (Ship)</corpname>
+        <subject source="lctgm" encodinganalog="650">Funeral rites and ceremonies.</subject>
+        <persname source="lcnaf" encodinganalog="600">Gallop, Horace Milton.</persname>
+        <subject source="lctgm" encodinganalog="650">General stores--Michigan.</subject>
+        <subject source="lcsh" encodinganalog="650">German Americans.</subject>
+        <geogname source="lctgm" encodinganalog="651">Harbor Springs (Mich.)--Harbors.</geogname>
+        <subject source="lctgm" encodinganalog="650">Harbors--Michigan--Harbor Springs.</subject>
+        <subject source="lctgm" encodinganalog="650">Historical markers--Michigan--Negaunee.</subject>
+        <corpname source="lcnaf" encodinganalog="610">Holy Cross Hungarian Church (Detroit, Mich.)</corpname>
+        <subject source="lctgm" encodinganalog="650">Horses.</subject>
+        <subject source="lctgm" encodinganalog="650">Hunting--Michigan.</subject>
+        <geogname source="lcsh" encodinganalog="651">Huron, Lake (Mich. and Ont.)</geogname>
+        <subject source="lcsh" encodinganalog="650">Indians of North America--Michigan, Western.</subject>
+        <subject source="lctgm" encodinganalog="650">Iron mining.</subject>
+        <persname source="lcnaf" encodinganalog="600">Krieger, Louis C.</persname>
+        <subject source="lctgm" encodinganalog="650">Laborers.</subject>
+        <corpname source="lcnaf" encodinganalog="610">Lagonda (Ship)</corpname>
+        <subject source="lctgm" encodinganalog="650">Living rooms--Michigan--Cadillac.</subject>
+        <subject source="lctgm" encodinganalog="650">Logs.</subject>
+        <subject source="lctgm" encodinganalog="650">Lumber industry.</subject>
+        <subject source="lctgm" encodinganalog="650">Lumber industry--Michigan--Maple Ridge.</subject>
+        <geogname source="lcsh" encodinganalog="651">Mackinac, Straits of (Mich.)</geogname>
+        <geogname source="lctgm" encodinganalog="651">Maple Ridge (Mich.)--Lumber industry.</geogname>
+        <geogname source="lcsh" encodinganalog="651">Michigan Avenue (Dearborn, Mich.)</geogname>
+        <subject source="lctgm" encodinganalog="650">Military camps.</subject>
+        <subject source="lctgm" encodinganalog="650">Military life.</subject>
+        <subject source="lctgm" encodinganalog="650">Military maneuvers.</subject>
+        <subject source="lctgm" encodinganalog="650">Military officers.</subject>
+        <subject source="lctgm" encodinganalog="650">Military parades and ceremonies.</subject>
+        <subject source="lctgm" encodinganalog="650">Miners.</subject>
+        <subject source="lctgm" encodinganalog="650">Mining.</subject>
+        <geogname source="lctgm" encodinganalog="651">Mio (Mich.)--Dams.</geogname>
+        <subject source="lctgm" encodinganalog="650">Musical instruments.</subject>
+        <geogname source="lctgm" encodinganalog="651">Negaunee (Mich.)--Historical markers.</geogname>
+        <corpname source="lcnaf" encodinganalog="610">Neshoto (Ship)</corpname>
+        <subject source="lctgm" encodinganalog="650">Offices--Michigan--Cadillac.</subject>
+        <subject source="lctgm" encodinganalog="650">Ox teams.</subject>
+        <subject source="lctgm" encodinganalog="650">Parades and processions.</subject>
+        <subject source="lctgm" encodinganalog="650">Parties.</subject>
+        <subject source="lctgm" encodinganalog="650">Physicians--Michigan.</subject>
+        <subject source="lctgm" encodinganalog="650">Pianos.</subject>
+        <subject source="lcsh" encodinganalog="650">Polish Americans.</subject>
+        <geogname source="lctgm" encodinganalog="651">Port Huron (Mich.)--Bridges.</geogname>
+        <subject source="lctgm" encodinganalog="650">Port Huron (Mich.)--Street-railroads.</subject>
+        <subject source="lctgm" encodinganalog="650">Port Huron (Mich.)--Streets.</subject>
+        <corpname source="lcnaf" encodinganalog="610">Quincy A. Shaw (Ship)</corpname>
+        <subject source="lctgm" encodinganalog="650">Railroad accidents.</subject>
+        <subject source="lctgm" encodinganalog="650">Railroad employees.</subject>
+        <subject source="lctgm" encodinganalog="650">Railroad facilities.</subject>
+        <subject source="lctgm" encodinganalog="650">Railroad locomotives.</subject>
+        <subject source="lctgm" encodinganalog="650">Railroads--Michigan.</subject>
+        <persname source="lcnaf" encodinganalog="600">Senseney, George Eyster, 1874-1943.</persname>
+        <persname source="lcnaf" encodinganalog="600">Shaw, Wilfred Byron, 1881-1959.</persname>
+        <subject source="lcsh" encodinganalog="650">Shay (Steam locomotive)</subject>
+        <subject source="lctgm" encodinganalog="650">Ship accidents.</subject>
+        <subject source="lctgm" encodinganalog="650">Shipping--Great Lakes.</subject>
+        <subject source="lctgm" encodinganalog="650">Skid roads.</subject>
+        <subject source="lctgm" encodinganalog="650">Sleds and sleighs.</subject>
+        <subject source="lctgm" encodinganalog="650">Soldiers--American--Soviet Union.</subject>
+        <subject source="lctgm" encodinganalog="650">Soldiers--American.</subject>
+        <geogname source="lcsh" encodinganalog="651">Soviet Union--History--Allied intervention, 1918-1920.</geogname>
+        <subject source="lcsh" encodinganalog="650">Spanish-American War, 1898.</subject>
+        <corpname source="lcnaf" encodinganalog="610">Specular (Ship)</corpname>
+        <subject source="lctgm" encodinganalog="650">Sports.</subject>
+        <subject source="lctgm" encodinganalog="650">Steamboats.</subject>
+        <subject source="lctgm" encodinganalog="650">Street-railroads--Michigan--Ann Arbor.</subject>
+        <subject source="lctgm" encodinganalog="650">Street-railroads--Michigan--Dearborn.</subject>
+        <subject source="lctgm" encodinganalog="650">Street-railroads--Michigan--Port Huron.</subject>
+        <subject source="lctgm" encodinganalog="650">Street-railroads--Michigan--Ypsilanti.</subject>
+        <subject source="lctgm" encodinganalog="650">Streets--Michigan--Ann Arbor.</subject>
+        <subject source="lctgm" encodinganalog="650">Streets--Michigan--Dearborn.</subject>
+        <subject source="lctgm" encodinganalog="650">Streets--Michigan--Detroit.</subject>
+        <subject source="lctgm" encodinganalog="650">Streets--Michigan--Ypsilanti.</subject>
+        <subject source="lctgm" encodinganalog="650">Swimming.</subject>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n82129076">United States. Army. Infantry, 339th.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Library.</corpname>
+        <geogname source="lctgm" encodinganalog="651">Upper Peninsula (Mich.)--Forests.</geogname>
+        <geogname source="lctgm" encodinganalog="651">Upper Peninsula (Mich.)--Mining.</geogname>
+        <corpname source="lcnaf" encodinganalog="610">Victory (Freighter)</corpname>
+        <corpname source="lcnaf" encodinganalog="610">Walter Scranton (Ship)</corpname>
+        <corpname source="lcnaf" encodinganalog="610">William C. Atwater (Ship)</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n84017513">William L. Clements Library.</corpname>
+        <subject source="lctgm" encodinganalog="650">Winter.</subject>
+        <geogname source="lcsh" encodinganalog="651">Wolverine (Mich.)</geogname>
+        <subject source="lctgm" encodinganalog="650">Women.</subject>
+        <subject source="lctgm" encodinganalog="650">Woodcutting.</subject>
+        <geogname source="lctgm" encodinganalog="651">Ypsilanti (Mich.)--Street-railroads.</geogname>
+        <subject source="lctgm" encodinganalog="650">Ypsilanti (Mich.)--Streets.</subject>
+      </controlaccess>
+      <controlaccess>
+        <head>Genre/Form:</head>
+        <genreform source="gmgpc" encodinganalog="655">Photographs.</genreform>
+        <genreform source="gmgpc" encodinganalog="655">Tintypes.</genreform>
+      </controlaccess>
+    </controlaccess>
+    <dsc type="combined">
+      <c01 level="series">
+        <did>
+          <unittitle>
+            <genreform source="aat" normal="Photographs">Photographs accumulated from various sources by the Michigan Historical Collections</genreform>
+          </unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Automobiles</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Bookplates</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Bridges</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Buses</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Carriages and Carts</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 envelopes</extent>
+            </physdesc>
+            <unittitle>Clothing and Dress <unitdate type="inclusive" normal="1890/1899" certainty="approximate">1890s</unitdate></unittitle>
+            <physdesc>
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Dams</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Ethnic History</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Forests and Forestry</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Houses and Housing</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Indians (Manistee-Ludington Area)</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">3 envelopes</extent>
+            </physdesc>
+            <unittitle>Lumber and Lumbering</unittitle>
+            <physdesc>
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Mines and Mineral Resources</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Polar Bear Expedition</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Railroads</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 envelopes</extent>
+            </physdesc>
+            <unittitle>Ships and Shipping</unittitle>
+            <physdesc>
+              </physdesc>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Spanish-American War</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">2</container>
+            <unittitle>Street Railroads</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>Farms</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>Hunting</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>Lumber and Lumbering</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>Ships and Shipping</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">3</container>
+            <unittitle>Sports</unittitle>
+          </did>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

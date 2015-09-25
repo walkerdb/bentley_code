@@ -1,0 +1,493 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead.dtd">
+<ead>
+  <eadheader audience="internal" langencoding="iso639-2b" repositoryencoding="iso15511" dateencoding="iso8601" relatedencoding="Dublin Core" scriptencoding="iso15924" countryencoding="iso3166-1">
+    <eadid countrycode="us" mainagencycode="MiU-H" publicid="us//::miu-h//TXT us::miu-h::chaplins.xml//EN" encodinganalog="Identifier">umich-bhl-9437</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="Title">Finding Aid for Scott Chaplin collection, 1966-1989</titleproper>
+        <author encodinganalog="Creator">Collection processed and finding aid created by Karen L. Jania</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher encodinganalog="Publisher">Bentley Historical Library, University of Michigan</publisher>
+        <date encodinganalog="Date" normal="2008">2008</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Encoded finding aid created by Thomas E. Powers <date>2008</date></creation>
+      <langusage encodinganalog="Language">The finding aid is written in <language langcode="eng" scriptcode="Latn">English</language></langusage>
+      <descrules>Finding aid prepared using Describing Archives: A Content Standard (DACS)</descrules>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date>2008-12-18</date>
+        <item>Original encoding from Word 2003 file using Word macros and Xmetal.</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <frontmatter>
+    <titlepage>
+      <publisher>Michigan Historical Collections <lb/>Bentley Historical Library <lb/>University of Michigan</publisher>
+      <titleproper>Finding aid for <lb/>Scott Chaplin collection, 1966-1989</titleproper>
+      <author>Finding aid created by <lb/>Karen L. Jania, 1994</author>
+    </titlepage>
+  </frontmatter>
+  <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
+    <did>
+      <origination>
+        <persname source="lcnaf" encodinganalog="100">Chaplin, Scott, collector.</persname>
+      </origination>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">1 linear foot</extent>
+      </physdesc>
+      <unittitle encodinganalog="245">Scott Chaplin collection <unitdate type="inclusive" encodinganalog="245$f" normal="1966/1989">1966-1989</unitdate>, <unitdate type="bulk" encodinganalog="245$g" normal="1969/1986">1969-1986</unitdate></unittitle>
+      <unitid encodinganalog="852$h" repositorycode="MiU-H" countrycode="us" type="call number">9437 Aa 2</unitid>
+      <langmaterial>The material is in <language langcode="eng" encodinganalog="041">English</language></langmaterial>
+      <abstract>1986 graduate of the University of Michigan, member of the Ann Arbor-Managua Initiative for Soil Testing Development brigade. Topical files concerning student/community organizations and student academic programs, including the Humanitarian Assistance Project for the Independent Development of Agriculture in Nicaragua, the University of Michigan Committee on the Underclass Experience, the University of Michigan Residential College, and the Ann Arbor-Managua Initiative for Soil Testing Development brigade.</abstract>
+      <repository>
+        <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea>, University of Michigan</corpname>
+        <extptr href="bhladd" show="embed" actuate="onload"/>
+      </repository>
+    </did>
+    <descgrp type="admin">
+      <acqinfo encodinganalog="541">
+        <p>The papers were donated by Scott Chaplin (donor no. <num type="donor" encodinganalog="541$e">8262</num>).</p>
+      </acqinfo>
+      <accruals encodinganalog="584">
+        <p>No further additions to the papers are expected.</p>
+      </accruals>
+      <accessrestrict encodinganalog="506">
+        <p>The collection is open to research.</p>
+      </accessrestrict>
+      <userestrict encodinganalog="540">
+        <p>Copyright is held by the Regents of the University of Michigan.</p>
+      </userestrict>
+      <prefercite encodinganalog="524">
+        <p>[item], folder, box,
+Scott Chaplin collection, Bentley Historical Library, University of Michigan</p>
+      </prefercite>
+    </descgrp>
+    <bioghist encodinganalog="545">
+      <p>Scott Chaplin, a 1986 graduate of the University of Michigan and a native of Kalamazoo, Michigan, was a member of the Ann Arbor-Managua Initiative for Soil Testing Development (A2Mistad) brigade.</p>
+    </bioghist>
+    <scopecontent encodinganalog="520">
+      <p>The Scott Chaplin papers document various student related organizations in the university community. The records span the years 1966-1989, with the bulk of the materials covering 1969-1986. The papers are divided into two series: Topical Files and Photographs.</p>
+    </scopecontent>
+    <controlaccess>
+      <p>
+        <extptr href="accnote" show="embed" actuate="onload"/>
+      </p>
+      <controlaccess>
+        <head>Subjects:</head>
+        <corpname source="lcnaf" encodinganalog="610">Ann Arbor-Managua Initiative for Soil Testing Development.</corpname>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n90639584">Humanitarian Assistance Project for Independent Agricultural Development in Nicaragua (U.S.)</corpname>
+        <geogname source="lcsh" encodinganalog="651">Nicaragua.</geogname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Committee on the Underclass Experience.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan. Residential College.</corpname>
+        <corpname source="lcnaf" encodinganalog="610">University of Michigan--Students.</corpname>
+      </controlaccess>
+      <controlaccess>
+        <head>Subjects - Visual Materials:</head>
+        <corpname source="lcnaf" encodinganalog="610" authfilenumber="http://id.loc.gov/authorities/names/n90639584">Humanitarian Assistance Project for Independent Agricultural Development in Nicaragua (U.S.)</corpname>
+        <geogname source="lcsh" encodinganalog="651">Nicaragua.</geogname>
+      </controlaccess>
+      <controlaccess>
+        <head>Genre Terms:</head>
+        <genreform source="aat" encodinganalog="655">Photographs.</genreform>
+      </controlaccess>
+    </controlaccess>
+    <dsc type="combined">
+      <c01 level="series">
+        <did>
+          <unittitle>Topical Files</unittitle>
+        </did>
+        <scopecontent>
+          <p>The Topical Files (1 liner foot) consist of an alphabetical run of files relating to student/community organizations and student academic programs. Included among the papers are files of HAP-NICA (Humanitarian Assistance Project for the Independent Development of Agriculture in Nicaragua), and documents about the University of Michigan's Committee on the Underclass Experience (CUE) and the University of Michigan's Residential College.</p>
+          <p>Hap-Nica was a project of the New World Agriculture Group and the Guild House Campus Ministry in Ann Arbor. Hap-Nica worked in conjunction with farm workers, unions and the Higher Institute of Agricultural Science in Nicaragua to promote the development of Nicaragua's capacity to raise its own food. Hap-Nica provided financial and technical assistance. The Hap-Nica newsletters document the projects and interests of the organization. Included within the files are the records of A2Mistad, a brigade that assisted in the construction of a soil testing laboratory in Managua, Nicaragua, to house equipment donated by the Italian government. The records include meeting minutes and fund raising information. <title render="italic">Seeds of Hope</title>, an eighteen-minute slide show documentary produced by Hap-Nica is also included within the files. The documentary includes slides, text and audio cassette recording.</p>
+          <p>The University of Michigan Committee on the Underclass Experience (CUE) originated in 1970. The committee, comprised of students and faculty, was concerned with improving the quality of teaching through grants, the appointment of departmental associates, an informal newsletter, seminars, workshops, and continuing education initiatives. The "General" folder contains information describing the fundamentals of the program.</p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <unittitle>Humanitarian Assistance Project for the Independent Development of Agriculture in Nicaragua (Hap-Nica)</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>General <unitdate type="inclusive" normal="1986/1987">1986-1987</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>A2Mistad</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <unittitle>General <unitdate type="inclusive" normal="1986/1989">1986-1989</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>Managua, Nicaragua</unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">1</container>
+                  <unittitle>General <unitdate type="inclusive" normal="1986">1986</unitdate></unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <unittitle>Meeting Notes</unittitle>
+                </did>
+                <c06 level="file">
+                  <did>
+                    <container type="box" label="Box">1</container>
+                    <unittitle>
+                      <unitdate type="inclusive" normal="1987">1987</unitdate>
+                    </unittitle>
+                  </did>
+                </c06>
+                <c06 level="file">
+                  <did>
+                    <container type="box" label="Box">1</container>
+                    <unittitle>
+                      <unitdate type="inclusive" normal="1989">1989</unitdate>
+                    </unittitle>
+                  </did>
+                </c06>
+              </c05>
+            </c04>
+            <c04 level="file">
+              <did>
+                <unittitle>Meeting Minutes</unittitle>
+              </did>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">1</container>
+                  <unittitle>
+                    <unitdate type="inclusive" normal="1986">1986</unitdate>
+                  </unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">1</container>
+                  <unittitle>
+                    <unitdate type="inclusive" normal="1987">1987</unitdate>
+                  </unittitle>
+                </did>
+              </c05>
+              <c05 level="file">
+                <did>
+                  <container type="box" label="Box">1</container>
+                  <unittitle>
+                    <unitdate type="inclusive" normal="1988/1989">1988-1989</unitdate>
+                  </unittitle>
+                </did>
+              </c05>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <unittitle>Publicity <unitdate type="inclusive" normal="1985/1987">1985-1987</unitdate></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Newsletter <unitdate type="inclusive" normal="1985/1987">1985-1987</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle><title render="italic">Seeds of Hope</title>, <unitdate type="inclusive" normal="1982">1982</unitdate></unittitle>
+            </did>
+            <odd>
+              <p>(presentation, includes script, slides, and cassette audio tape)</p>
+            </odd>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>North Campus Fraternity Park <unitdate type="inclusive">undated</unitdate> (proposal)</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>People's Action Coalition (PAC)</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>General <unitdate type="inclusive" normal="1978">1978</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Education Conference <unitdate type="inclusive" normal="1978">1978</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Events <unitdate type="inclusive" normal="1978">1978</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Meeting Agendas and Minutes <unitdate type="inclusive" normal="1979">1979</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Student Government Committee <unitdate type="inclusive" normal="1979">1979</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>Program for Educational and Social Change (PESC)</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>General <unitdate type="inclusive" normal="1971/1972">1971-1972</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Education Conference <unitdate type="inclusive" normal="1974">1974</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>State of the University Debate Series <unitdate type="inclusive" normal="1972">1972</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Samoff Student Support Committee <unitdate type="inclusive" normal="1978/1980">1978-1980</unitdate> (re: tenure)</unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>School and College Government Task Force <unitdate type="inclusive" normal="1974/1976">1974-1976</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Student Bookstore Proposal <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Student Conduct, Regulations Concerning <unitdate type="inclusive" normal="1969">1969</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Student Government Council, College of Literature, Science and the Arts <unitdate type="inclusive" normal="1969/1972">1969-1972</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Student Organizational Regulations <unitdate type="inclusive">undated</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>Student Participation in School and College Governance <unitdate type="inclusive" normal="1974">1974</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>University of Michigan Commission on the Role of Students in Decision Making <unitdate type="inclusive" normal="1966/1969">1966-1969</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>University of Michigan Committee on the Underclass Experience (CUE)</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>General <unitdate type="inclusive" normal="1972">1972</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Academic Quality <unitdate type="inclusive" normal="1970">1970</unitdate> (of entering freshmen)</unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Bachelor of General Studies <unitdate type="inclusive" normal="1969/1971">1969-1971</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Closed Courses <unitdate type="inclusive" normal="1970/1971">1970-1971</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Committee Minutes <unitdate type="inclusive" normal="1971/1972">1971-1972 (scattered)</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Freshman Experience <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Grading Procedures <unitdate type="inclusive" normal="1971/1972">1971-1972</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Interim Report <unitdate type="inclusive" normal="1972">1972</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Living Learning Project <unitdate type="inclusive" normal="1971/1972">1971-1972</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Modular Scheduling <unitdate type="inclusive" normal="1971/1972">1971-1972</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Pilot Program <unitdate type="inclusive" normal="1971">1971</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Political Economy Program <unitdate type="inclusive" normal="1972">1972</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Project Listings <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Proposals <unitdate type="inclusive" normal="1973">1973</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Self-Paced Course <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Start Your Own Course <unitdate type="inclusive">undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>Survey <unitdate type="inclusive" normal="1971">1971</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="file">
+          <did>
+            <unittitle>University of Michigan Residential College</unittitle>
+          </did>
+          <c03 level="file">
+            <did>
+              <container type="box" label="Box">1</container>
+              <unittitle>General <unitdate type="inclusive" normal="1969/1972">1969-1972</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03 level="file">
+            <did>
+              <unittitle>Reports</unittitle>
+            </did>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <unittitle><title render="italic">Reactions of Residential College Faculty to the College, the Students, and the Core Curriculum</title>, <unitdate type="inclusive" normal="1970">1970</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <unittitle><title render="italic">A Small Residential College Compared with Three Control Populations</title>, <unitdate type="inclusive">undated</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <unittitle><title render="italic">Student Comments on the Core Curriculum and the Residential College 1969-1970</title>, <unitdate type="inclusive">undated</unitdate></unittitle>
+              </did>
+            </c04>
+            <c04 level="file">
+              <did>
+                <container type="box" label="Box">1</container>
+                <unittitle>
+                  <title render="italic">The University of Michigan's Residential College, 1971</title>
+                </unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>
+            <genreform normal="Photographs">Photographs</genreform>
+          </unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <container type="box" label="Box">1</container>
+            <unittitle>A2Mistad <unitdate type="inclusive" normal="1986/1989">1986-1989</unitdate></unittitle>
+            <physdesc>
+              <physfacet>b&amp;w and color photographs from Managua construction brigade, 2 b&amp;w of Bach School presentation</physfacet>
+            </physdesc>
+          </did>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>
