@@ -1,0 +1,92 @@
+<p>just this morning, we ran a script to make tens of thousands of edits to all of our ~2800 EAD files, and it took all of 2 minutes to complete. 
+
+<p>Basic tasks with lxml</p>
+
+
+
+
+<h3>Setup</h3>
+<p>First, you'll need to install the lxml library</p>
+<p>In an ideal world, that should be as easy as "pip install lxml". If that doesn't work, you have a few options based on what your OS is:</p>
+<ol>
+<li>If you're on a mac, try "sudo pip install lxml", and type in your password when prompted.</li>
+<li>If you're on windows, you may need to run a special installer. Try <a href="https://pypi.python.org/packages/2.7/l/lxml/lxml-3.4.4.win32-py2.7.exe#md5=f69924a6a43d992bf91daf8b0cb25db2">this official version</a>. You may be required to first install these two dependencies: <a href="ftp://ftp.zlatkovic.com/libxml/64bit/libxml2-2.9.2-win32-x86.7z">libxml2</a> and <a href="ftp://ftp.zlatkovic.com/libxml/64bit/libxslt-1.1.28-win32-x86.7z">libxslt</a>.</li>
+</ol>
+<p>We'll also need an ead file (or directory of files) to work on. For this demo we'll be using the <a href="https://github.com/bentley-historical-library/vandura/blob/master/Real_Masters_all/gargoyle.xml">ead file for the UMich gargoyle collection</a> (raw data <a href="https://raw.githubusercontent.com/bentley-historical-library/vandura/master/Real_Masters_all/gargoyle.xml">here</a>).
+
+<h3>Basic usage</h3>
+<p>First, we need to point lxml to the ead data.</p>
+<script src="https://gist.github.com/walkerdb/e786b5b9e0a1e116f51a.js"></script>
+
+<p>Now we have an lxml "etree" or "element tree" object to work with, and we can do all sorts of things with it. From this parent tree, we can now select individual tags or groups of tags in the ead document to perform actions on, based on just about any criteria we can come up with. To do this we'll first need to use an "xpath" search:</p>
+
+<script src="https://gist.github.com/walkerdb/39820a5f8690c7993e1d.js"></script>
+
+<p>There are a few things to know about lxml's xpath function:</p> 
+
+<p>First, it takes input in the xpath language standard, which is a standardized way to designate exact locations within an xml file. For example, the above search returns a list of every extent tag appearing in the ead file -- the double slashes at the beginning designate that it can look for those tags anywhere in the document. If I wanted to be more specific, I could use an exact search, which would be something like "/ead/archdesc/did/physdesc/extent".</p>
+
+<p>Second, an xpath search always returns a list, even if only one result is found. It's really easy to forget this while writing a quick script, so if you're getting errors talking about your code finding a list when it didn't expect one, that's probably the reason.</p>
+
+<p>A few more xpath examples:<p>
+
+<script src="https://gist.github.com/walkerdb/2db6e1f81e6eeba3a691.js"></script>
+
+<h4>Accessing individual tags and their data</h4>
+<p>The xpath search will give us a list of results, but to look at or edit any individual tag we'll need to grab it out of the search results. Once we have an individual element (lxml's representation of the tag) we can start to access some of its data:</p>
+
+<script src="https://gist.github.com/walkerdb/1ed64be7d0abeff2a6e1.js"></script>
+
+<h3>Tag manipulation</h3>
+<p>Ok! Now that we know how to get at subsections of the ead file, we can start doing some programmatic edits. In our experience, our edits fall into one of just a few categories of possible changes:</p>
+<ul>
+<li>editing tag text</li>
+<li>editing tag types</li>
+<li>moving tags around</li>
+<li>creating new tags</li>
+<li>deleting old tags</li>
+<li>editing attributes</li>
+</ul>
+
+<p>We'll go through each of these and give some examples and practical tips from our own experience working with EADs at the Bentley.</p>
+
+<br>
+<h4>Editing tag text</h4>
+<p>This is usually a fairly straightforward task, though there is one big exception that we'll detail a bit later. An example:</p>
+<script src="https://gist.github.com/walkerdb/629a87bb6ce5ce8c3a78.js"></script>
+<p>This gets more complicated when you're dealing with a tag like the following:</p>
+<pre>
+&lt;unittitle>Ann Arbor Township records, &lt;unitdate>1991-2002&lt;/unitdate>, inclusive&lt;/unittitle>
+</pre>
+
+<p>In these cases we've found it easiest to just convert the whole element to a string using the etree.tostring() method, doing some normal python string manipulation, then converting it back into an element using etree.fromstring() and inserting it back into the ead file. That looks a little like this:</p>
+
+<script src="https://gist.github.com/walkerdb/3ce4c343a66b473d6926.js"></script>
+
+<p>Don't worry if some of that didn't make sense -- we'll be going over more of the creating, inserting, and moving elements later on.</p>
+
+<br>
+<h4>Editing tag types</h4>
+<p>The most straight-forward of edits. Here's an example:</p>
+<script src="https://gist.github.com/walkerdb/537dad8e095aa05092fb.js"></script>
+
+<br>
+<h4>Editing tag attributes</h4>
+
+<br>
+<h4>Deleting tags</h4>
+<p>Here you will need to access the parent tag of the tag to be deleted. This is very easily done using the .getparent() method:</p>
+<script src="https://gist.github.com/walkerdb/786491a147781229f3b2.js"></script>
+
+<br>
+<h4>Creating tags</h4>
+<p>There are two primary ways of going about this - one long and verbose, and the other a kind of short-hand built in to lxml. We'll do the long way first:</p>
+<script src="https://gist.github.com/walkerdb/a31ef831e73f2ffab91c.js"></script>
+
+<p>The alternate method is to use lxml's element builder tool. This is what that would look like:</p>
+<script src="https://gist.github.com/walkerdb/b97d8c3d9480b29256b2.js"></script>
+
+<br>
+<h4>Moving tags around</h4>
+<p>The easiest way to do this is to just treat the element objects as if they were a lists. Just like python's normal list methods, etree elements can use .insert, .append, .index, or .remove. The only gotcha to keep in mind is that lxml never copies elements when they are moved -- the singular element itself is removed from where it was and placed somewhere else. Here's a move in action:</p>
+<script src="https://gist.github.com/walkerdb/72652ccf1ccaa5332a2f.js"></script>
