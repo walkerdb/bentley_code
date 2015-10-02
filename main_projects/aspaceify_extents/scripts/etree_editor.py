@@ -54,7 +54,7 @@ def write_aspace_extent_tags(tree, target_xpath, aspace_components):
             physdesc.append(dimensions)
 
         if len(physdesc) >= 1:
-            target_node.insert(1, physdesc)
+            target_node.insert(-1, physdesc)
 
 
 def build_etree_element(tag, text, altrender=""):

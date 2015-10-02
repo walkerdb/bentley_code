@@ -21,6 +21,9 @@ def process_physdesc(ead, physdesc):
     if "extent" not in tags or "physdesc" in tags:
         return ead
 
+    if physdesc.attrib.get("altrender", ""):
+        return ead
+
     extents = physdesc.xpath("//extent")
 
     for extent in extents:
@@ -49,4 +52,4 @@ if __name__ == "__main__":
         for physdesc in ead_.tree.xpath("//physdesc"):
             if len(physdesc) == 0:
                 physdesc.getparent().remove(physdesc)
-        ead_.prettyprint(output_dir="output")
+        ead_.prettyprint(output_dir=r"C:\Users\wboyle\PycharmProjects\vandura\Real_Masters_all")

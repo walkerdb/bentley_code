@@ -52,6 +52,10 @@
         <physfacet>extent two physfacet text</physfacet>
         <dimensions>extent two dimensions</dimensions>
       </physdesc>
+      <physdesc altrender="part">
+        <physfacet>physfacet only</physfacet>
+        <dimensions>dimensions only</dimensions>
+      </physdesc>
       <unittitle encodinganalog="245">Unittitle text for the entire collection <unitdate type="inclusive" normal="2015">2015</unitdate></unittitle>
       <unitid encodinganalog="099" repositorycode="MiU-H" countrycode="us" type="call number">Unitid (callnumber) text</unitid>
       <langmaterial>Langauge tag: <language langcode="eng" encodinganalog="041">English</language></langmaterial>
@@ -119,11 +123,11 @@
           <did>
             <container type="box" label="Box">1</container>
             <unittitle>item unittitle</unittitle>
-              <physdesc altrender="part">
-                <extent altrender="materialtype spaceoccupied">1 item-level extent</extent>
-                <extent altrender="carrier">(item-level extent carrier text)</extent>
-                <physfacet>item-level extent physfacet text</physfacet>
-                <dimensions>item-level extent dimensions</dimensions>
+            <physdesc altrender="part">
+              <extent altrender="materialtype spaceoccupied">1 item-level extent</extent>
+              <extent altrender="carrier">(item-level extent carrier text)</extent>
+              <physfacet>item-level extent physfacet text</physfacet>
+              <dimensions>item-level extent dimensions</dimensions>
             </physdesc>
           </did>
         </c02>

@@ -3,7 +3,7 @@ import re
 
 from lxml import etree
 from tqdm import tqdm
-
+from prettifydirectory import prettify_xml
 
 class EAD(object):
 
@@ -13,28 +13,13 @@ class EAD(object):
         self.tree = etree.parse(self.path_to_ead)
 
     def prettyprint(self, output_dir):
-        parser = etree.XMLParser(remove_blank_text=True)
+        with open(os.path.join("tmp", self.filename), mode="w") as f:
+            f.write(etree.tostring(self.tree, xml_declaration=True, encoding="utf-8"))
+
+        text = prettify_xml(self.filename, input_dir="tmp", output_dir=output_dir)
 
         with open(os.path.join(output_dir, self.filename), mode="w") as f:
-            fixed_text = self.__fix_prettyprint_whitespace__(
-                etree.tostring(self.tree, pretty_print=True, xml_declaration=True, encoding="utf-8")
-            )
-            f.write(fixed_text)
-
-        ead = etree.parse(os.path.join(output_dir, self.filename), parser=parser)
-        with open(os.path.join(output_dir, self.filename), mode="w") as f:
-            f.write(etree.tostring(ead, pretty_print=True, xml_declaration=True, encoding="utf-8"))
-
-    @staticmethod
-    def __fix_prettyprint_whitespace__(raw_text):
-        open_to_close_tag_regex = r'(\<\/.*?\>)(\<[^\/]*?\>)'
-        item_regex = r'(\<\/item\>)\ (\<item\>)'
-
-        text = re.sub(open_to_close_tag_regex, r'\g<1> \g<2>', raw_text)
-        text = re.sub(item_regex, r'\g<1>\g<2>', text)
-
-        return text
-
+            f.write(text)
 
 class EADDir(object):
     def __init__(self, input_dir=r'C:\Users\wboyle\PycharmProjects\vandura\Real_Masters_all'):
