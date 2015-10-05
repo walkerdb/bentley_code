@@ -25,7 +25,12 @@ def prettify_xml(filename, input_dir, output_dir):
     text_without_lists, removed_lists = remove_lists_from_ead(os.path.join(input_dir, filename))
 
     # make lxml etree
-    tree = etree.fromstring(text_without_lists).getroottree()
+    try:
+        tree = etree.fromstring(text_without_lists).getroottree()
+    except:
+        # the above will fail if lists are not formatted correctly
+        # fallback to parsing the whole ead
+        tree = etree.parse(os.path.join(input_dir, filename))
 
     # read the tree with the custom parser
     with open(join(output_dir, filename), mode="w") as f:

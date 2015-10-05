@@ -1,8 +1,6 @@
 import re
 import os
 from os.path import join
-from copy import deepcopy
-from time import sleep
 
 from lxml import etree
 from tqdm import tqdm
@@ -25,11 +23,14 @@ def prettify_xml(filename, input_dir, output_dir):
 
     # remove lists (lxml mungles them)
     text_without_lists, removed_lists = remove_lists_from_ead(os.path.join(input_dir, filename))
+
+    # make lxml etree
     try:
         tree = etree.fromstring(text_without_lists).getroottree()
     except:
-        print(filename)
-        return ""
+        # the above will fail if lists are not formatted correctly
+        # fallback to parsing the whole ead
+        tree = etree.parse(os.path.join(input_dir, filename))
 
     # read the tree with the custom parser
     with open(join(output_dir, filename), mode="w") as f:
@@ -48,6 +49,7 @@ def prettify_xml(filename, input_dir, output_dir):
     # finally re-add the removed tags
     text = add_removed_lists(removed_lists, fixed_text)
     text = fix_indentation(text)
+
     return text
 
 
@@ -107,6 +109,7 @@ def remove_lists_from_ead(filepath):
 
     return "\n".join(text_without_lists), removed_lists
 
+
 def fix_indentation(text):
     split_text = text.split("\n")
     space_regex = r"^( *)"
@@ -126,6 +129,7 @@ def fix_indentation(text):
 
     return "\n".join(split_text)
 
+
 def fix_prettyprint_whitespace(raw_text):
     open_to_close_tag_regex = r'(\<\/.*?\>)(\<[^\/]*?\>)'
     item_regex = r'(\<\/item\>)\ (\<item\>)'
@@ -136,46 +140,10 @@ def fix_prettyprint_whitespace(raw_text):
     return text
 
 
-def remove_tags(tree, tags_to_leave_alone):
-    removed_items = []
-    for tag_type in tags_to_leave_alone:
-        tags = tree.xpath("//{}".format(tag_type))
-
-        # descgrps can be nested, which causes problems, so
-        if tag_type == "descgrp":
-            tags = [tag if tag.getparent().tag not in tag_type else tag.getparent() for tag in tags]
-
-            # removing duplicates by using a set without losing order
-            seen = set()
-            seen_add = seen.add
-            tags = [tag for tag in tags if not(tag in seen or seen_add(tag))]
-
-        tags.reverse()
-        removed_items += [(tree.getpath(tag.getparent()), list(tag.getparent()).index(tag), deepcopy(tag)) for tag in tags]
-        for tag in tags:
-            try:
-                tag.getparent().remove(tag)
-            except AttributeError:
-                print("\n failure at:\n" + etree.tostring(tree.xpath("//eadid")[0]))
-                print(tree.getpath(tag))
-                print(etree.tostring(tag))
-    return removed_items
-
-
-def add_tags(tree, tags_to_add):
-    tags_to_add.reverse()
-    for xpath, index, tag in tags_to_add:
-        try:
-            parent = tree.xpath(xpath)[0]
-            parent.insert(index, tag)
-        except IndexError:
-            print("failed")
-
-
 
 if __name__ == "__main__":
-    input_directory = r"C:\Users\wboyle\PycharmProjects\bentley_code\main_projects\aspaceify_extents\scripts\output"
-    output_directory = r'C:\Users\wboyle\PycharmProjects\vandura\Real_Masters_all'
+    input_directory = "path/to/input/dir"
+    output_directory = "path/to/output/dir"
     prettify_xml_in_directory(input_directory, output_directory)
 
 
