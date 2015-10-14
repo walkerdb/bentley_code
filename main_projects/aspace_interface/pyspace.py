@@ -26,6 +26,11 @@ class PySpace (object):
         # print(json_data)
         print(json.dumps(response))
 
+    def post_accession(self, accession_json):
+        if type(accession_json) == str:
+            accession_json = json.loads(accession_json)
+        return requests.post("{0}/repositories/{1}/accessions".format(self.host, self.repository), headers=self.headers, data=json.dumps(accession_json)).json()
+
 
     def change_repository(self, repository_number):
         self.repository = repository_number

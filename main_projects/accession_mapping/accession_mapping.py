@@ -1,25 +1,31 @@
 import csv
-from collections import OrderedDict
+import json
+from pprint import pprint
 
-def main():
-    filepath = ""
+
+def make_accession_json_list(filepath):
     all_json_data = []
 
-    deaccessions_or_disposition_fields = ["Description", "DestructionDate", "Location", "ReturnDate", "Type (AQ)", "Volume", "LinearFeet"]
+    deaccessions_or_disposition_fields = ["Description", "DestructionDate", "Location", "ReturnDate",
+                                          "SeparationsType", "Volume", "LinearFeet"]
+
     digital_extent_fields = ["DigitalSize", "DigitalType"]
 
-    #TODO fix this once Dallas modifies the cleanup code
-    user_defined_fields = [("Acknowledged", "boolean_1"),
-                           ("StaffReceived", "string_1"),
-                           ("ThankYouNote", "text_1"),
-                           ("Status (AD)", "enum_1"),
-                           ("something to do with the unprocessed location fields", "")]
+    user_defined_field_mappings = {"Acknowledged": "boolean_1",
+                           "StaffReceived": "string_1",
+                           "ThankYouNote": "text_1",
+                           "GiftAgreementStatus": "enum_1",
+                           "LocationInfo": "text_2"}
 
-    collection_management_fields = ["Difficulty", "PercentageToRetain", "ProcessNote", "PriorityLevel", "Processor"]
+    collection_management_mappings = {"Difficulty": "processing_plan",
+                                      "PercentageToRetain": "processing_plan",
+                                      "ProcessNote": "processing_plan",
+                                      "PriorityLevel": "processing_priority",
+                                      "Processor": "processors"}
 
     external_documents_fields = ["FileLink"]
 
-    access_restriction_fields = ["Type", "Note (AK)"]
+    access_restriction_fields = ["RestrictionsType", "Note"]
 
     simple_field_mappings = {'AccDescription': 'content_description',
                              'AccessionDate': 'accession_date',
@@ -28,7 +34,7 @@ def main():
                              'GivenThrough': 'provenance',
                              "DonorType": "acquisition_type",
                              "MHCType": "resource_type",
-                             "Notes (AC)": "use_restrictions_note"}
+                             "Notes": "use_restrictions_note"}
 
     accession_dicts = get_accessions(filepath)
     for accession in accession_dicts:
@@ -36,15 +42,95 @@ def main():
 
         # make the simple plain-text fields
         for accession_key, json_key in simple_field_mappings.items():
-            json_data[json_key] = accession.get(accession_key, "")
+            text = accession.get(accession_key, "").strip()
+            if text:
+                if accession_key == "AccessionDate":
+                    try:
+                        if text == "5/2010":
+                            month, year = text.split("/")
+                            day = "01"
+                        else:
+                            month, day, year = text.split("/")
+                    except ValueError:
+                        month, day, year = text.split(".")
+
+                    text = "{}-{}-{}".format(year, month, day)
+
+                elif accession_key == "DonorType":
+                    if "purchase" in text.lower():
+                        text = "purchase"
+                    else:
+                        text = "deposit"
+
+                elif accession_key == "MHCType":
+                    if "published" in text.lower():
+                        text = "publications"
+                    else:
+                        text = "papers"
+
+                json_data[json_key] = text
 
         # now make the fields that consist of ASpace objects
 
         # disposition or deaccession
+        deaccessions = []
         if is_disposition(accession):
             json_data["disposition"] = make_disposition_text(accession)
         else:
-            json_data["deaccessions"] = make_deaccession_json(accession)
+            deaccessions.append(make_deaccession_json(accession))
+        # hack of a fix to get rid of empty dispositions
+        if "disposition" in json_data and not json_data.get("disposition", ""):
+            del json_data["disposition"]
+        if len(deaccessions) > 0:
+            json_data["deaccessions"] = deaccessions
+
+        # things going in user defined fields
+        user_defined_data = make_user_defined_json(accession, user_defined_field_mappings)
+        if user_defined_data:
+            json_data["user_defined"] = user_defined_data
+
+        # digital extents
+        extents = []
+        if accession.get("DigitalSize", "").strip():
+            extents.append(make_extent_json(
+                number=accession.get("DigitalSize", ""),
+                type_=accession.get("DigitalType", ""))
+            )
+
+        # collection management
+        if any([accession.get(field, "").strip() for field in collection_management_mappings.items()]):
+            json_data["collection_management"] = make_collection_management_json(accession, collection_management_mappings)
+
+        # external documents
+        external_documents = []
+        for doc_field in external_documents_fields:
+            if accession.get(doc_field, ""):
+                external_documents.append(make_external_document_json(accession.get(doc_field), doc_type=doc_field))
+
+        # access restrictions
+        if any([accession.get(field, "").strip() for field in access_restriction_fields]):
+            json_data["access_restrictions_note"] = "Restriction type: {}\nRestriction note: {}".format(accession.get("RestrictionsType", ""), accession.get("Notes", ""))
+
+        all_json_data.append(json_data)
+
+    return all_json_data
+
+def make_collection_management_json(accession, fields):
+    d = {}
+
+    processing_plan_string = ""
+    for accession_key in [key for key, value in fields.items() if value == "processing_plan"]:
+        if accession.get(accession_key, ""):
+            processing_plan_string += "{}: {}\n".format(accession_key, accession[accession_key])
+
+    if processing_plan_string:
+        d["processing_plan"] = processing_plan_string
+
+    for accession_key, json_key in [(key, value) for key, value in fields.items() if value != "processing_plan"]:
+        if accession.get(accession_key, ""):
+            d[json_key] = accession[accession_key]
+
+    return d
 
 
 def get_accessions(filepath):
@@ -56,13 +142,13 @@ def get_accessions(filepath):
 
 
 def is_disposition(accession):
-    return not accession.get("DestructionDate") and not accession.get("ReturnDate")
+    return not accession.get("DestructionDate", "") and not accession.get("ReturnDate", "")
 
 
 def make_disposition_text(accession):
     description = accession.get("Description", "")
     location = accession.get("Location", "")
-    type_ = accession.get("Type (AQ)", "")
+    type_ = accession.get("SeparationsType", "")
     volume = accession.get("Volume", "")
 
     text = ""
@@ -75,7 +161,7 @@ def make_disposition_text(accession):
     if volume:
         text += "Volume: {}\n".format(type_)
 
-    return text
+    return text.strip()
 
 
 def make_deaccession_json(accession):
@@ -86,31 +172,38 @@ def make_deaccession_json(accession):
     volume = accession.get("Volume", "")
     lin_feet = accession.get("LinearFeet")
 
-    d["description"] = accession.get("Description", "")
+    d["description"] = accession.get("Description", "Material not described")
+    d["scope"] = "part"
 
     # TODO deaccession objects can only take one date, BUT some accession records have both returned and destroyed dates.
     # do something about that.
     if destruction_date:
-        d["date"].append(make_date_json(
-            type_="Single",
+        d["date"] = make_date_json(
+            type_="single",
+            label="deaccession",
             expression="Material destroyed on " + destruction_date,
             begin_date=destruction_date
-        ))
+        )
 
     if return_date:
-        d["date"].append(make_date_json(
-            type_="Single",
+        d["date"] = make_date_json(
+            type_="single",
+            label="deaccession",
             expression="Returned to donor on " + return_date,
             begin_date=return_date
-        ))
+        )
 
     if volume:
-        # TODO make the extent bits
-        pass
+        d["extents"].append(make_extent_json(number=volume,))
+
+    if lin_feet:
+        d["extents"].append(make_extent_json(number=lin_feet))
+
+    return d
 
 
-def make_date_json(type_="", expression="", begin_date="", end_date=""):
-    return {"type": type_, 'expression': expression, "begin": begin_date, "end": end_date}
+def make_date_json(type_, label, expression="", begin_date="", end_date=""):
+    return {"date_type": type_, "label": label, 'expression': expression, "begin": begin_date, "end": end_date}
 
 
 def add_extent_type(type_, extent_dict):
@@ -127,9 +220,28 @@ def make_external_document_json(text, doc_type='File Link'):
     return {'location': text, 'title': doc_type}
 
 
-def make_extent_json(number, type_='linear feet', portion='Whole'):
-    return {'number': number, 'type': type_, 'portion': portion}
+def make_extent_json(number, type_='linear_feet', portion='whole'):
+    return {'number': number, 'extent_type': type_, 'portion': portion}
 
 
-def make_user_defined_field_json(text, type_):
-    return{type_: text}
+def make_user_defined_json(accession, field_mappings):
+    d = {}
+    for accession_key, json_key in field_mappings.items():
+        text = accession.get(accession_key, "").strip()
+        if text:
+            text = text.replace(";;;", "\n")
+            if json_key.startswith("boolean"):
+                try:
+                    text = bool(int(text))
+                except:
+                    text = False
+            d[json_key] = text
+
+    return d
+
+
+if __name__ == "__main__":
+    json_data = make_accession_json_list(r"C:\Users\wboyle\PycharmProjects\bentley_code\main_projects\accession_mapping\accessions_20151012-final.csv")
+    with open("json_data.json", mode="w") as f:
+        json.dump(json_data, f)
+
