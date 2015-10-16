@@ -1,6 +1,7 @@
 import csv
 import json
-from pprint import pprint
+import re
+from tqdm import tqdm
 
 
 def make_accession_json_list(filepath):
@@ -27,7 +28,7 @@ def make_accession_json_list(filepath):
 
     access_restriction_fields = ["RestrictionsType", "Note"]
 
-    simple_field_mappings = {'AccDescription': 'content_description',
+    simple_field_mappings = {'\xef\xbb\xbfAccDescription': 'content_description',
                              'AccessionDate': 'accession_date',
                              'AccessionID': 'id_0',
                              'DonorBoxList': 'inventory',
@@ -37,7 +38,7 @@ def make_accession_json_list(filepath):
                              "Notes": "use_restrictions_note"}
 
     accession_dicts = get_accessions(filepath)
-    for accession in accession_dicts:
+    for accession in tqdm(accession_dicts):
         json_data = {}
 
         # make the simple plain-text fields
@@ -45,16 +46,7 @@ def make_accession_json_list(filepath):
             text = accession.get(accession_key, "").strip()
             if text:
                 if accession_key == "AccessionDate":
-                    try:
-                        if text == "5/2010":
-                            month, year = text.split("/")
-                            day = "01"
-                        else:
-                            month, day, year = text.split("/")
-                    except ValueError:
-                        month, day, year = text.split(".")
-
-                    text = "{}-{}-{}".format(year, month, day)
+                    text = make_date_text(text)
 
                 elif accession_key == "DonorType":
                     if "purchase" in text.lower():
@@ -115,23 +107,6 @@ def make_accession_json_list(filepath):
 
     return all_json_data
 
-def make_collection_management_json(accession, fields):
-    d = {}
-
-    processing_plan_string = ""
-    for accession_key in [key for key, value in fields.items() if value == "processing_plan"]:
-        if accession.get(accession_key, ""):
-            processing_plan_string += "{}: {}\n".format(accession_key, accession[accession_key])
-
-    if processing_plan_string:
-        d["processing_plan"] = processing_plan_string
-
-    for accession_key, json_key in [(key, value) for key, value in fields.items() if value != "processing_plan"]:
-        if accession.get(accession_key, ""):
-            d[json_key] = accession[accession_key]
-
-    return d
-
 
 def get_accessions(filepath):
     with open(filepath, mode="r") as f:
@@ -143,6 +118,32 @@ def get_accessions(filepath):
 
 def is_disposition(accession):
     return not accession.get("DestructionDate", "") and not accession.get("ReturnDate", "")
+
+
+def make_date_text(text):
+    regex = re.compile(r"/|\.|\-")
+    parts = re.split(regex, text)
+    try:
+        parts = [int(part) for part in parts]
+        if len(parts) == 2:
+            month, year = parts
+            day = 1
+            print(text)
+        elif len(parts) == 3:
+            month, day, year = parts
+        elif len(parts) == 1:
+            year = parts[0]
+            month = 1
+            day = 1
+            print(text)
+        else:
+            print(text)
+            year, month, day = (0, 0, 0)
+    except ValueError:
+        print(text)
+        year, month, day = (0, 0, 0)
+
+    return "{:04d}-{:02d}-{:02d}".format(year, month, day)
 
 
 def make_disposition_text(accession):
@@ -164,6 +165,24 @@ def make_disposition_text(accession):
     return text.strip()
 
 
+def make_collection_management_json(accession, fields):
+    d = {}
+
+    processing_plan_string = ""
+    for accession_key in [key for key, value in fields.items() if value == "processing_plan"]:
+        if accession.get(accession_key, ""):
+            processing_plan_string += "{}: {}\n".format(accession_key, accession[accession_key])
+
+    if processing_plan_string:
+        d["processing_plan"] = processing_plan_string
+
+    for accession_key, json_key in [(key, value) for key, value in fields.items() if value != "processing_plan"]:
+        if accession.get(accession_key, ""):
+            d[json_key] = accession[accession_key]
+
+    return d
+
+
 def make_deaccession_json(accession):
     d = {"extents": []}
 
@@ -172,31 +191,33 @@ def make_deaccession_json(accession):
     volume = accession.get("Volume", "")
     lin_feet = accession.get("LinearFeet")
 
-    d["description"] = accession.get("Description", "Material not described")
+    d["description"] = accession.get("Description", "Deaccession not described")
+    if not d["description"]:
+        d["description"] = "Deaccession not described"
     d["scope"] = "part"
 
     # TODO deaccession objects can only take one date, BUT some accession records have both returned and destroyed dates.
     # do something about that.
-    if destruction_date:
+    if destruction_date.strip():
         d["date"] = make_date_json(
             type_="single",
             label="deaccession",
             expression="Material destroyed on " + destruction_date,
-            begin_date=destruction_date
+            begin_date=make_date_text(destruction_date)
         )
 
-    if return_date:
+    if return_date.strip():
         d["date"] = make_date_json(
             type_="single",
             label="deaccession",
             expression="Returned to donor on " + return_date,
-            begin_date=return_date
+            begin_date=make_date_text(return_date)
         )
 
-    if volume:
+    if volume.strip():
         d["extents"].append(make_extent_json(number=volume,))
 
-    if lin_feet:
+    if lin_feet.strip():
         d["extents"].append(make_extent_json(number=lin_feet))
 
     return d
@@ -204,16 +225,6 @@ def make_deaccession_json(accession):
 
 def make_date_json(type_, label, expression="", begin_date="", end_date=""):
     return {"date_type": type_, "label": label, 'expression': expression, "begin": begin_date, "end": end_date}
-
-
-def add_extent_type(type_, extent_dict):
-    extent_dict['type'] = type_
-    return extent_dict
-
-
-def add_extent_number(number, extent_dict):
-    extent_dict['number'] = number
-    return extent_dict
 
 
 def make_external_document_json(text, doc_type='File Link'):
@@ -235,6 +246,11 @@ def make_user_defined_json(accession, field_mappings):
                     text = bool(int(text))
                 except:
                     text = False
+            elif json_key == ("enum_1"):
+                text = text.lower()
+                if "file" in text.lower() and "on" in text.lower():
+                    text = "on file"
+
             d[json_key] = text
 
     return d
@@ -243,5 +259,5 @@ def make_user_defined_json(accession, field_mappings):
 if __name__ == "__main__":
     json_data = make_accession_json_list(r"C:\Users\wboyle\PycharmProjects\bentley_code\main_projects\accession_mapping\accessions_20151012-final.csv")
     with open("json_data.json", mode="w") as f:
-        json.dump(json_data, f)
+        f.write(json.dumps(json_data, indent=4, sort_keys=True, ensure_ascii=False))
 
