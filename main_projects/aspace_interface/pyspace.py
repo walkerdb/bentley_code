@@ -38,5 +38,29 @@ class PySpace (object):
                              data=json.dumps(accession_json)
                              ).json()
 
+    def get_all_object_ids(self, object_type):
+        """
+        acceptable object types:
+            accessions
+            archival_objects
+            classification_terms
+            classifications
+            digital_object_components
+            digital_objects
+            events
+            groups
+            resources
+        """
+        headers = {"X-ArchivesSpace-Session": self.session_id}
+        return requests.get('{0}/repositories/{1}/{2}?all_ids=true'.format(self.host, self.repository, object_type),
+                            headers=headers
+                            ).json()
+
+    def delete_aspace_object(self, object_type, aspace_id):
+        headers = {"X-ArchivesSpace-Session": self.session_id}
+        return requests.delete('{0}/repositories/{1}/{2}/{3}'.format(self.host, self.repository, object_type, aspace_id),
+                               headers=headers
+                               ).json()
+
     def change_repository(self, repository_number):
         self.repository = repository_number
