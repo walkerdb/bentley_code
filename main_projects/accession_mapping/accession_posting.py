@@ -3,7 +3,7 @@ from pprint import pprint
 from tqdm import tqdm
 from main_projects.aspace_interface.pyspace import PySpace
 
-conn = PySpace()
+conn = PySpace(repository="5")
 
 with open("json_data.json", mode="r") as f:
     json_data = json.load(f)

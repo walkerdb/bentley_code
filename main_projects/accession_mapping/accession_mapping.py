@@ -8,9 +8,9 @@ def make_accession_json_list(filepath):
     all_json_data = []
 
     deaccessions_or_disposition_fields = ["Description", "DestructionDate", "Location", "ReturnDate",
-                                          "SeparationsType", "Volume", "LinearFeet"]
+                                          "SeparationsType", "Volume"]
 
-    digital_extent_fields = ["DigitalSize", "DigitalType"]
+    digital_extent_fields = ["DigitalSize", "DigitalSizeType"]
 
     user_defined_field_mappings = {"Acknowledged": "boolean_1",
                            "StaffReceived": "string_1",
@@ -81,16 +81,23 @@ def make_accession_json_list(filepath):
         if user_defined_data:
             json_data["user_defined"] = user_defined_data
 
-        # digital extents
+        # extents
         extents = []
         if accession.get("DigitalSize", "").strip():
-            extents.append(make_extent_json(
-                number=accession.get("DigitalSize", ""),
-                type_=accession.get("DigitalType", ""))
-            )
+            type_ = accession.get("DigitalSizeType", "")
+            if type_ in ["MB", "GB", "KB", "TB"]:
+                extents.append(make_extent_json(
+                    number=accession.get("DigitalSize", ""),
+                    type_=accession.get("DigitalSizeType", "(MB?)"))
+                )
+
+        if accession.get("LinearFeet", "").strip():
+            extents.append(make_extent_json(number=accession.get("LinearFeet", "")))
+
+        json_data["extents"] = extents
 
         # collection management
-        if any([accession.get(field, "").strip() for field in collection_management_mappings.items()]):
+        if any([accession.get(field, "").strip() for field in collection_management_mappings.keys()]):
             json_data["collection_management"] = make_collection_management_json(accession, collection_management_mappings)
 
         # external documents
@@ -138,10 +145,10 @@ def make_date_text(text):
             print(text)
         else:
             print(text)
-            year, month, day = (0, 0, 0)
+            year, month, day = (1800, 1, 1)
     except ValueError:
         print(text)
-        year, month, day = (0, 0, 0)
+        year, month, day = (1800, 1, 1)
 
     return "{:04d}-{:02d}-{:02d}".format(year, month, day)
 
@@ -178,7 +185,12 @@ def make_collection_management_json(accession, fields):
 
     for accession_key, json_key in [(key, value) for key, value in fields.items() if value != "processing_plan"]:
         if accession.get(accession_key, ""):
-            d[json_key] = accession[accession_key]
+            if json_key == "processing_priority":
+                value = accession[accession_key].lower()
+                if value in ["high", "low", "medium"]:
+                    d[json_key] = value
+            else:
+                d[json_key] = accession[accession_key]
 
     return d
 
@@ -189,7 +201,6 @@ def make_deaccession_json(accession):
     destruction_date = accession.get("DestructionDate", "")
     return_date = accession.get("ReturnDate", "")
     volume = accession.get("Volume", "")
-    lin_feet = accession.get("LinearFeet")
 
     d["description"] = accession.get("Description", "Deaccession not described")
     if not d["description"]:
@@ -215,10 +226,7 @@ def make_deaccession_json(accession):
         )
 
     if volume.strip():
-        d["extents"].append(make_extent_json(number=volume,))
-
-    if lin_feet.strip():
-        d["extents"].append(make_extent_json(number=lin_feet))
+        d["extents"].append(make_extent_json(number=volume))
 
     return d
 
@@ -231,7 +239,7 @@ def make_external_document_json(text, doc_type='File Link'):
     return {'location': text, 'title': doc_type}
 
 
-def make_extent_json(number, type_='linear_feet', portion='whole'):
+def make_extent_json(number, type_='linear feet', portion='whole'):
     return {'number': number, 'extent_type': type_, 'portion': portion}
 
 
@@ -250,6 +258,8 @@ def make_user_defined_json(accession, field_mappings):
                 text = text.lower()
                 if "file" in text.lower() and "on" in text.lower():
                     text = "on file"
+                if "to be sent" in text.lower():
+                    text = "pending"
 
             d[json_key] = text
 
