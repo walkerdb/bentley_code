@@ -9,6 +9,6 @@ with open("json_data.json", mode="r") as f:
     json_data = json.load(f)
 
 for accession_json in tqdm(json_data):
-    response = conn.post_accession(accession_json)
+    response = conn.add_accession(accession_json)
     if "invalid_object" in response:
         pprint(json.dumps(response))

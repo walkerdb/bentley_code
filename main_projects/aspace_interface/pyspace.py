@@ -21,7 +21,7 @@ class PySpace (object):
                                  data=f
                                  ).json()
 
-    def post_ead(self, path_to_ead_file):
+    def add_ead(self, path_to_ead_file):
         json_data = self.ead_to_json(path_to_ead_file)
 
         return requests.post("{0}/repositories/{1}/batch_imports".format(self.host, self.repository),
@@ -29,7 +29,7 @@ class PySpace (object):
                              data=json.dumps(json_data)
                              ).json()
 
-    def post_accession(self, accession_json):
+    def add_accession(self, accession_json):
         if type(accession_json) == str:
             accession_json = json.loads(accession_json)
 
@@ -37,6 +37,9 @@ class PySpace (object):
                              headers=self.headers,
                              data=json.dumps(accession_json)
                              ).json()
+
+    def add_control_access_values(self, enum_id, value_list):
+        pass
 
     def get_all_object_ids(self, object_type):
         """
