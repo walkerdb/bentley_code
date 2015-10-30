@@ -3,7 +3,7 @@ from pprint import pprint
 from tqdm import tqdm
 from main_projects.aspace_interface.pyspace import PySpace
 
-conn = PySpace(repository="5")
+conn = PySpace(host="http://141.211.39.87:8089/", repository="3", username="wboyle", password="bentley")
 
 with open("json_data.json", mode="r") as f:
     json_data = json.load(f)

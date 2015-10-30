@@ -28,7 +28,7 @@ def make_accession_json_list(filepath):
 
     access_restriction_fields = ["RestrictionsType", "Note"]
 
-    simple_field_mappings = {'\xef\xbb\xbfAccDescription': 'content_description',
+    simple_field_mappings = {'AccDescription': 'content_description',
                              'AccessionDate': 'accession_date',
                              'AccessionID': 'id_0',
                              'DonorBoxList': 'inventory',
@@ -43,7 +43,9 @@ def make_accession_json_list(filepath):
 
         # make the simple plain-text fields
         for accession_key, json_key in simple_field_mappings.items():
-            text = accession.get(accession_key, "").strip()
+            text = ""
+            if accession.get(accession_key, ""):
+                text = accession.get(accession_key, "").strip()
             if text:
                 if accession_key == "AccessionDate":
                     text = make_date_text(text)
@@ -62,6 +64,8 @@ def make_accession_json_list(filepath):
 
                 json_data[json_key] = text
 
+        if accession.get('AccDescription', "").strip():
+            json_data["title"] = accession.get('AccDescription', "").strip()
         # now make the fields that consist of ASpace objects
 
         # disposition or deaccession
@@ -246,7 +250,9 @@ def make_extent_json(number, type_='linear feet', portion='whole'):
 def make_user_defined_json(accession, field_mappings):
     d = {}
     for accession_key, json_key in field_mappings.items():
-        text = accession.get(accession_key, "").strip()
+        text = ""
+        if accession.get(accession_key, ""):
+            text = accession.get(accession_key, "").strip()
         if text:
             text = text.replace(";;;", "\n")
             if json_key.startswith("boolean"):
@@ -267,7 +273,7 @@ def make_user_defined_json(accession, field_mappings):
 
 
 if __name__ == "__main__":
-    json_data = make_accession_json_list(r"C:\Users\wboyle\PycharmProjects\bentley_code\main_projects\accession_mapping\accessions_20151012-final.csv")
+    json_data = make_accession_json_list(r"C:\Users\wboyle\PycharmProjects\bentley_code\main_projects\accession_mapping\accessions_20151030-final.csv")
     with open("json_data.json", mode="w") as f:
         f.write(json.dumps(json_data, indent=4, sort_keys=True, ensure_ascii=False))
 
