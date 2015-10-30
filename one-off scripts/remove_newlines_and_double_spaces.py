@@ -6,7 +6,7 @@ from tqdm import tqdm
 
 def fix_whitespace(input_dir, output_dir):
     whitespace_regex = r"\s{2,}|\v|\n|\r"
-    eads = ["johnstondona.xml", "davisannb.xml", "bethisraelcong.xml", "brewerdwight.xml", "grahamwd.xml", "stewartmary.xml"]
+    eads = ["kevorkian.xml"]
     # eads = [ead for ead in os.listdir(input_dir) if ead.endswith(".xml")]
     for ead in tqdm(eads):
         with open(os.path.join(input_dir, ead), mode="r") as f:

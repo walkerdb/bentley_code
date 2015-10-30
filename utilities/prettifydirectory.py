@@ -8,7 +8,7 @@ from tqdm import tqdm
 
 def prettify_xml_in_directory(input_dir, output_dir):
     eads = [ead for ead in os.listdir(input_dir) if ead.endswith(".xml")]
-    eads.reverse()
+    eads = ["kevorkian.xml"]
     for filename in tqdm(eads, desc="Prettify progress", leave=True):
 
         text = prettify_xml(filename, input_dir, output_dir)
@@ -142,8 +142,8 @@ def fix_prettyprint_whitespace(raw_text):
 
 
 if __name__ == "__main__":
-    input_directory = "path/to/input/dir"
-    output_directory = "path/to/output/dir"
+    input_directory = r'C:\Users\wboyle\PycharmProjects\vandura\Real_Masters_all'
+    output_directory = r'C:\Users\wboyle\PycharmProjects\vandura\Real_Masters_all'
     prettify_xml_in_directory(input_directory, output_directory)
 
 
