@@ -4,12 +4,15 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
     <title>BHL Civil War</title>
+    <link rel="icon" href="http://bentley.umich.edu/images/icon.jpg" type="image/jpg"/>
+    <link href="font-awesome.css" rel="stylesheet"
+          type="text/css"/>
     <link href="css/bhllayout.css" rel="stylesheet" type="text/css"/>
     <link href="css/bhldesign.css" rel="stylesheet" type="text/css"/>
-    <link rel="icon" href="http://bentley.umich.edu/images/icon.jpg" type="image/jpg"/>
     <link href="css/bhlprint.css" rel="stylesheet" type="text/css" media="print"/>
     <link href="css/bentley-new.css" rel="stylesheet" type="text/css"/>
-    <link href="https://preview.quod.lib.umich.edu/b/bhlcivilwar/bentleystyles/font-awesome.css" rel="stylesheet" type="text/css"/>
+
+    <link href="css/civil-war.css" rel="stylesheet" type="text/css"/>
 </head>
 
 
@@ -42,6 +45,13 @@
     <!-- CONTENT BEGIN -->
     <div id="content">
         <h2>Civil War Collections Online</h2>
+        <div class="floatRight">
+		   <img src="http://bentley.umich.edu/legacy-support/civilwar/images/getty.jpg" alt="Gettysburg, July 3, 1863"/>
+			  <p>
+              "Gettysburg, July 3, 1863," from Guernsey, <br>Alfred H. Harper's
+              Pictorial History of the <br>Civil War. Chicago, 1868.
+			  </p>
+        </div>
 
         <div id="description">
 
@@ -56,7 +66,7 @@
             <p class="description">
                 As the first year passed, with no end of the war in sight and the Northern armies repulsed in almost
                 every major engagement, initial enthusiasm for the war was replaced by discouragement. As the tide of
-                battle slowly turned through 1863, people rallied from despondency and by the warÂ’s end, the citizens
+                battle slowly turned through 1863, people rallied from despondency and by the war's end, the citizens
                 of Michigan felt that they had done their whole duty: their cavalrymen were among the most celebrated in
                 the Union armies and Michigan regiments, feared by the Rebels, had borne the brunt of many well-fought
                 fields and were present in every major encounter.
@@ -92,29 +102,31 @@
 
     <!-- SIDEBAR BEGIN -->
     <div id="sidebar">
+        <h4 class="sectiontitle">Search <i class="fa fa-search"></i></h4>
         <div id="SearchBox">
-        <div id="SearchOptions">
+            <div id="SearchOptions">
 
-          <form name="search" action="https://preview.quod.lib.umich.edu/cgi/t/text/text-idx?" method="get">
-            <input type="hidden" name="type" value="bib"/>
-            <input type="hidden" name="c" value="bhlcivilwar"/>
-            <input type="text" size="25" name="q1" id="search-text-box"/>
-            <input type="submit" value="Search" name="Submit"/>
+                <form action="https://preview.quod.lib.umich.edu/cgi/t/text/text-idx?" method="get" class="form-inline">
+                    <div class="form-group">
+                        <input type="hidden" name="type" value="bib"/>
+                        <input type="hidden" name="c" value="bhlcivilwar"/>
+                        <input type="text" size="25" name="q1" id="search-text-box" class="form-control" placeholder="Search the collection"/>
+                    </div>
 
-            <br/>
-    		    <em><a href="https://preview.quod.lib.umich.edu/cgi/t/text/text-idx?page=boolean;c=bhlcivilwar" title="Advanced Search">Advanced Search</a></em>
-
-
-
-          </form>
+                </form>
+            </div>
         </div>
-      </div>
+        <ul class="menu">
+            <li><a href="https://preview.quod.lib.umich.edu/cgi/t/text/text-idx?page=boolean;c=bhlcivilwar" title="Advanced Search">Advanced Search</a></li>
+        </ul>
 
         <h4 class="sectiontitle">Browse</h4>
         <ul class="menu">
-            <li><a href="https://preview.quod.lib.umich.edu/cgi/t/text/text-idx?key=author;page=browse;c=bhlcivilwar" class="external">Browse by
+            <li><a href="https://preview.quod.lib.umich.edu/cgi/t/text/text-idx?key=author;page=browse;c=bhlcivilwar"
+                   class="external">Browse by
                 author</a></li>
-            <li><a href="https://preview.quod.lib.umich.edu/cgi/t/text/text-idx?page=browse;c=bhlcivilwar" class="external">Browse by title</a></li>
+            <li><a href="https://preview.quod.lib.umich.edu/cgi/t/text/text-idx?page=browse;c=bhlcivilwar"
+                   class="external">Browse by title</a></li>
         </ul>
         </ul>
 
@@ -122,6 +134,7 @@
         <ul class="menu">
             <li><a href="http://bentley.umich.edu/legacy-support/civilwar/">Michigan in the Civil War</a></li>
         </ul>
+
     </div>
     <!-- SIDEBAR END -->
     <div class="clear"></div>
@@ -148,6 +161,7 @@
 <script type="text/javascript">
     _uacct = "UA-1867845-1";
     urchinTracker();
+
 
 </script>
 </body>
