@@ -42,7 +42,7 @@ def make_lists_into_dicts(list_of_lists, headers):
 def group_by_series(pubs):
     groups = PrettyDefaultDict(lambda: PrettyDefaultDict(list))
     for pub in pubs:
-        identifier = pub["source institution record number"]
+        identifier = pub.get("oclc numbers", "") or "local (non-oclc): " + pub["source institution record number"]
         enumeration = pub.get("enumeration/chronology", "no enumeration value") or "no enumeration value"
         groups[identifier][enumeration].append(pub)
 
@@ -74,19 +74,24 @@ if __name__ == "__main__":
 
     # summarize and write
     output = []
-    headers = ["oclc identifier", "source institution identifier", "title", "num_of_items", "source institution"]
-    for source_identifier, pubs_dict in series.items():
+    headers = ["oclc identifier", "source institution identifier", "title", "imprint", "num_of_items", "source institution"]
+    for oclc_identifier, pubs_dict in series.items():
         title = "[no title]"
         contributor = "[none]"
-        oclc_identifier = "[none]"
-        if not source_identifier:
-            source_identifier = "[none]"
+        local_identifier = "[none]"
+        imprint = "[none]"
+        if not oclc_identifier:
+            oclc_identifier = "[none]"
 
+        # since we're only summarizing, we'll just grab info for the first pub in each series
         for volume, pub in pubs_dict.items():
             title = pub[0].get("title", "[no title]")
             contributor = pub[0].get("ht identifier", "[none].none").split(".")[0]
-            oclc_identifier = pub[0].get("oclc numbers", "[none]")
-        output.append([oclc_identifier, source_identifier, title, len(pubs_dict), contributor])
+            local_identifier = pub[0].get("source institution record number", "[none]")
+            imprint = pub[0].get("imprint", "[none]")
+            break
+
+        output.append([oclc_identifier, local_identifier, title, imprint, len(pubs_dict), contributor])
 
     with open("summary.csv", mode="wb") as f:
         writer = csv.writer(f)
