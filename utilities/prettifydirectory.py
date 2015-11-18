@@ -6,11 +6,11 @@ from lxml import etree
 from tqdm import tqdm
 
 
-def prettify_xml_in_directory(input_dir, output_dir):
-    eads = [ead for ead in os.listdir(input_dir) if ead.endswith(".xml")]
-    eads = ["kevorkian.xml"]
-    for filename in tqdm(eads, desc="Prettify progress", leave=True):
+def prettify_xml_in_directory(input_dir, output_dir, eads=()):
+    if not eads:
+        eads = [ead for ead in os.listdir(input_dir) if ead.endswith(".xml")]
 
+    for filename in tqdm(eads, desc="Prettify progress", leave=True):
         text = prettify_xml(filename, input_dir, output_dir)
 
         # writing to file
@@ -30,6 +30,7 @@ def prettify_xml(filename, input_dir, output_dir):
     except:
         # the above will fail if lists are not formatted correctly
         # fallback to parsing the whole ead
+        print("failed to parse the ead with removed lists. Defaulting to original EAD ({})".format(filename))
         tree = etree.parse(os.path.join(input_dir, filename))
 
     # read the tree with the custom parser
@@ -40,11 +41,11 @@ def prettify_xml(filename, input_dir, output_dir):
 
     # prettyprint
     with open(join(output_dir, filename), mode='w') as f:
-        f.write(etree.tostring(new_tree, pretty_print=True, xml_declaration=True, encoding="utf-8"))
+        f.write(get_string(new_tree))
 
     # re-iterate with the whitespace fix
     tree = etree.parse(join(output_dir, filename))
-    fixed_text = fix_prettyprint_whitespace(etree.tostring(tree, pretty_print=True, xml_declaration=True, encoding="utf-8"))
+    fixed_text = fix_prettyprint_whitespace(get_string(tree))
 
     # finally re-add the removed tags
     text = add_removed_lists(removed_lists, fixed_text)
@@ -53,39 +54,14 @@ def prettify_xml(filename, input_dir, output_dir):
     return text
 
 
-def extract_list(i, text):
-    extracted_list = []
-    depth = 0
-
-    in_list = True
-    while in_list:
-        try:
-            line = text[i].strip()
-        except IndexError:
-            print(text[0:20])
-            break
-        if line.startswith("<list"):
-            depth += 1
-
-        if line.startswith("</list") or (line.startswith("<list") and line.endswith("</list>")):
-            depth -= 1
-            if depth == 0:
-                in_list = False
-
-        extracted_list.append(text[i].strip("\n"))
-        i += 1
-
-    extracted_list = "\n".join(extracted_list)
-    return i, extracted_list
-
-
-def add_removed_lists(removed_lists, text):
-    for i, list_ in enumerate(removed_lists):
-        text = text.replace("$$$$LIST{0:0>5}".format(i), list_)
-    return text
+def get_string(tree):
+    return etree.tostring(tree, pretty_print=True, xml_declaration=True, encoding="utf-8")
 
 
 def remove_lists_from_ead(filepath):
+    # since lxml mangles list formatting, we need to remove our formatted lists from the ead before cleaning
+    # they are re-added in the same place later
+
     with open(filepath) as f:
         text = f.readlines()
 
@@ -110,7 +86,45 @@ def remove_lists_from_ead(filepath):
     return "\n".join(text_without_lists), removed_lists
 
 
+def add_removed_lists(removed_lists, text):
+    for i, list_ in enumerate(removed_lists):
+        text = text.replace("$$$$LIST{0:0>5}".format(i), list_)
+    return text
+
+
+def extract_list(i, text):
+    # given a list of lines from an ead, this returns the raw text of the entire list element (and that element only)
+    # requires that a list already be formatted with each item and sub-list element on its own line.
+
+    extracted_list = []
+    depth = 0
+
+    in_list = True
+    while in_list:
+        try:
+            line = text[i].strip()
+        except IndexError:
+            print("/nFailed to parse the list out of the ead. Will skip this list (the data will remain unchanged), and move on. Here's the ead's header info: ")
+            print(text[0:20])
+            break
+        if line.startswith("<list"):
+            depth += 1
+
+        if line.startswith("</list") or (line.startswith("<list") and line.endswith("</list>")):
+            depth -= 1
+            if depth == 0:
+                in_list = False
+
+        extracted_list.append(text[i].strip("\n"))
+        i += 1
+
+    extracted_list = "\n".join(extracted_list)
+    return i, extracted_list
+
+
 def fix_indentation(text):
+    # removing and replacing the lists can cause some weirdness. This should fix most of it
+
     split_text = text.split("\n")
     space_regex = r"^( *)"
     things_to_replace = ["><p>", "> <p>", "><head>", "> <head>"]
@@ -131,6 +145,10 @@ def fix_indentation(text):
 
 
 def fix_prettyprint_whitespace(raw_text):
+    # ensure we aren't removing essential spaces between tags
+    # eg. that <tag>text <tag2>text</tag2></tag> isn't becoming <tag>text<tag2>text</tag2></tag1>
+    # (the difference being one renders as "text text" and the other as "texttext")
+
     open_to_close_tag_regex = r'(\<\/.*?\>)(\<[^\/]*?\>)'
     item_regex = r'(\<\/item\>)\ (\<item\>)'
 
@@ -145,5 +163,4 @@ if __name__ == "__main__":
     input_directory = r'C:\Users\wboyle\PycharmProjects\vandura\Real_Masters_all'
     output_directory = r'C:\Users\wboyle\PycharmProjects\vandura\Real_Masters_all'
     prettify_xml_in_directory(input_directory, output_directory)
-
 
