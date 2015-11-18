@@ -21,9 +21,9 @@ from tqdm import tqdm
 
 # change these to wherever you would like them to be pointing
 # make sure to create the output folder before running the script, or it will crash
-input_dir = 'path/to/input/ead/directory'
-output_dir = 'path/to/output/directory'
-path_to_refined_csv_file = "path/to/csv/data.csv"
+input_dir = r'C:\Users\wboyle\PycharmProjects\vandura\Real_Masters_all'
+output_dir = r'C:\Users\wboyle\PycharmProjects\vandura\Real_Masters_all'
+path_to_refined_csv_file = r"C:\Users\wboyle\PycharmProjects\bentley_code\one-off scripts\subject_manipulation\all_subjects-refined.csv"
 
 
 def write_refined_text_to_eads():
