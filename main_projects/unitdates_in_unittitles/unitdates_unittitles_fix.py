@@ -28,7 +28,7 @@ def grab_suspects(input_dir):
         print(len(data))
 
 
-def fix_suspects(input_dir):
+def fix_suspects(input_dir, output_dir):
     skipped_items = []
     count = 0
 
@@ -54,7 +54,7 @@ def fix_suspects(input_dir):
             else:
                 move_unitdates(unittitle, action)
 
-        with open(os.path.join("output", ead), mode="w") as f:
+        with open(os.path.join(output_dir, ead), mode="w") as f:
             f.write(etree.tostring(tree, pretty_print=True, xml_declaration=True, encoding="utf-8"))
 
     with open("skipped_items.csv", mode="wb") as f:
@@ -193,6 +193,7 @@ def clean_text(text):
 
 
 if __name__ == "__main__":
-    input_dir = r'C:\Users\wboyle\PycharmProjects\vandura\Real_Masters_all'
+    input_dir = r'C:\Users\wboyle\PycharmProjects\without-reservations\Real_Masters_all'
+    output_dir = r'C:\Users\wboyle\PycharmProjects\without-reservations\Real_Masters_all'
     grab_suspects(input_dir)
-    fix_suspects(input_dir)
+    fix_suspects(input_dir, output_dir)
