@@ -13,6 +13,9 @@ class EAD(object):
         self.tree = etree.parse(self.path_to_ead)
 
     def prettyprint(self, output_dir):
+        if not os.path.exists("tmp"):
+            os.makedirs("tmp")
+
         with open(os.path.join("tmp", self.filename), mode="w") as f:
             f.write(etree.tostring(self.tree, xml_declaration=True, encoding="utf-8"))
 
