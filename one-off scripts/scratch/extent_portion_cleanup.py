@@ -1,6 +1,6 @@
 from utilities.utilities import EADDir
 
-ead_dir = EADDir()
+ead_dir = EADDir(input_dir=r"C:\Users\wboyle\PycharmProjects\without-reservations\Real_Masters_all")
 
 def fix_portions(ead):
     for did in ead.tree.xpath("//did"):
@@ -45,4 +45,4 @@ def fix_lone_container_summaries(ead):
             last_extent_altrender = attribute
 
 
-ead_dir.apply_function_to_dir(fix_portions, r"C:\Users\wboyle\PycharmProjects\vandura\Real_Masters_all")
+ead_dir.apply_function_to_dir(fix_portions, output_dir=r"C:\Users\wboyle\PycharmProjects\without-reservations\Real_Masters_all")
