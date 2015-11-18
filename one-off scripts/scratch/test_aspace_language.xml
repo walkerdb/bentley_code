@@ -2,7 +2,7 @@
 <!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead.dtd">
 <ead>
   <eadheader audience="internal" langencoding="iso639-2b" repositoryencoding="iso15511" dateencoding="iso8601" relatedencoding="Dublin Core" scriptencoding="iso15924" countryencoding="iso3166-1">
-    <eadid countrycode="us" mainagencycode="MiU-H" publicid="us//::miu-h//TXT us::miu-h::kevorkian.xml//EN" encodinganalog="Identifier">test ampersands</eadid>
+    <eadid countrycode="us" mainagencycode="MiU-H" publicid="us//::miu-h//TXT us::miu-h::kevorkian.xml//EN" encodinganalog="Identifier">test ampersands5</eadid>
     <filedesc>
       <titlestmt>
         <titleproper encodinganalog="Title">Finding Aid for Jack &amp; Kevorkian papers2, 1911-2014 </titleproper>
@@ -18,35 +18,39 @@
       <langusage encodinganalog="Language">The finding aid is written in <language langcode="eng" scriptcode="Latn">English</language></langusage>
       <descrules>Finding aid prepared using Describing Archives: A Content Standard (DACS)</descrules>
     </profiledesc>
-    <revisiondesc>
-      <change>
-        <date>2015-09-08</date>
-        <item>Front matter edited.</item>
-      </change>
-      <change>
-        <date>2015-08-27</date>
-        <item>1 &amp; 2</item>
-      </change>
-    </revisiondesc>
   </eadheader>
-  <frontmatter>
-    <titlepage>
-      <publisher>Michigan Historical &amp; Collections<lb/>Bentley Historical Library<lb/>University of Michigan</publisher>
-      <titleproper>Finding aid for<lb/> Jack &amp; Kevorkian papers, 1911-2014</titleproper>
-      <author>Finding aid created by<lb/> Olga &amp; Virakhovskaya, 2014-2015</author>
-    </titlepage>
-  </frontmatter>
   <archdesc level="collection" audience="external" type="inventory" relatedencoding="MARC21">
     <did>
       <origination>
         <persname source="lcnaf" encodinganalog="100">Kevorkian, &amp; Jack </persname>
       </origination>
-      <unittitle encodinganalog="245"> Jack &amp; Kevorkian &amp; papers2<unitdate type="inclusive" encodinganalog="245$f"> 1911-2014 </unitdate> <unitdate type="bulk" encodinganalog="245$g"> 1990-2011 </unitdate> </unittitle>
+      <unittitle encodinganalog="245">Jack &amp;Kevorkian &amp;papers2<unitdate type="inclusive" encodinganalog="245$f"> 1911-2014 </unitdate> <unitdate type="bulk" encodinganalog="245$g"> 1990-2011 </unitdate> </unittitle>
       <physdesc altrender="part">
-        <extent altrender="materialtype spaceoccupied">8 linear &amp; feet</extent>
+        <extent altrender="materialtype spaceoccupied">8 linear &amp;amp; feet</extent>
       </physdesc>
-      <unitid encodinganalog="852$h" repositorycode="miu-h" countrycode="us" type="call number"> 2014106 Aa 2 22</unitid>
-      <langmaterial>The material is mostly in <language langcode="eng" encodinganalog="041">English</language>; some correspondence, collected material, and 1 audio recording are in <language langcode="arm" encodinganalog="041">Armenian;</language> select items are in <language langcode="ger" encodinganalog="041">German</language> and other languages.</langmaterial>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">8 linear&amp;feet</extent>
+      </physdesc>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">8&amp;feet</extent>
+      </physdesc>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">8 linear &amp;abcde</extent>
+      </physdesc>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">8 linear a&amp;bcde</extent>
+      </physdesc>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">8 linear ab&amp;cde</extent>
+      </physdesc>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">8 linear abc&amp;de</extent>
+      </physdesc>
+      <physdesc altrender="part">
+        <extent altrender="materialtype spaceoccupied">8 linear abcd&amp;e</extent>
+      </physdesc>
+      <unitid encodinganalog="852$h" repositorycode="miu-h" countrycode="us" type="call number">1234wertds</unitid>
+      <langmaterial>The &amp;  material  &amp;  is  &amp;  mostly &amp;  in <language langcode="eng" encodinganalog="041">English</language>; some correspondence, collected material, and 1 audio recording are in <language langcode="arm" encodinganalog="041">Armenian;</language> select items are in <language langcode="ger" encodinganalog="041">German</language> and other languages.</langmaterial>
       <abstract>1 &amp; 2</abstract>
       <repository>
         <corpname encodinganalog="852"><subarea>Bentley Historical Library</subarea>, University of Michigan</corpname>
@@ -55,19 +59,19 @@
     </did>
     <descgrp type="admin">
       <acqinfo encodinganalog="541">
-        <p>1 &amp; 2</p>
+        <p>1&amp; 2</p>
       </acqinfo>
       <accruals encodinganalog="584">
-        <p>1 &amp; 2</p>
+        <p>1&amp; 2</p>
       </accruals>
       <accessrestrict encodinganalog="506">
-        <p>1 &amp; 2</p>
+        <p>1&amp; 2</p>
       </accessrestrict>
       <userestrict encodinganalog="540">
         <p>1 &amp; 2</p>
       </userestrict>
       <prefercite encodinganalog="524">
-        <p>1 &amp; 2</p>
+        <p>1 &amp;2</p>
       </prefercite>
       <processinfo>
         <p>
@@ -106,9 +110,12 @@
         <c02 level="file">
           <did>
             <container type="box" label="Box">1 &amp; 2</container>
-            <unittitle>Ava &amp; Janus, <unitdate type="inclusive">1994 &amp; 2012</unitdate></unittitle>
+            <unittitle>Ava &amp;text Janus, <unitdate type="inclusive">1994 &amp; 2012</unitdate></unittitle>
             <physdesc>
               <extent>hounds &amp; dogs</extent>
+            </physdesc>
+            <physdesc>
+              <extent>1 hounds  &amp;dogs</extent>
             </physdesc>
           </did>
         </c02>
