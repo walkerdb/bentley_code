@@ -3,7 +3,7 @@ from main_projects.aspaceify_extents.scripts.extent_constants import normalizati
 import re
 
 
-def split_into_aspace_components(unparsed_extent, is_multiple=False):
+def split_into_aspace_components(unparsed_extent, portion, is_multiple=False):
     ASpaceExtent = namedtuple("ASpaceExtent", ["type_", "portion", "container_summary", "dimensions", "physfacet"])
 
     # this regex is literally the ugliest line of text I have ever seen.
@@ -39,7 +39,8 @@ def split_into_aspace_components(unparsed_extent, is_multiple=False):
     type_ = type_.strip(" .;:,")
 
     # setting portion tag
-    portion = "part" if is_multiple else "whole"
+    if not portion:
+        portion = "part" if is_multiple else "whole"
 
     if physfacet.startswith("in ") or physfacet.startswith("on "):
         container_summary = add_to_element(text_to_add=physfacet, text_to_add_to=container_summary)
