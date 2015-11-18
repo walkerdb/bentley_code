@@ -21,8 +21,10 @@ def replace_subjects(ead):
 
     for dct in dict_list:
         for tag in tags:
+            tag.text = tag.text.strip()
+
             texts = [dct["tag 1"], dct["tag 2"], dct["tag 3"], dct["tag 4"]]
-            texts = [text.split(": ") for text in texts if text]
+            texts = [text.split(": ", 1) for text in texts if text]
 
             for text in texts:
                 if text[0] == tag.tag and text[1] == tag.text and tag.get("authfilenumber"):
@@ -48,7 +50,7 @@ def replace_subjects(ead):
 
 
 if __name__ == "__main__":
-    directory = r'C:\Users\wboyle\PycharmProjects\vandura\Real_Masters_all'
+    directory = r'C:\Users\wboyle\PycharmProjects\without-reservations\Real_Masters_all'
     ead_dir = EADDir(input_dir=directory)
     data = load_data("normalization data.csv")
 
