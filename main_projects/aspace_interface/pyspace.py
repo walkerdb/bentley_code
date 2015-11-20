@@ -12,21 +12,10 @@ class PySpace (object):
         self.session_id = auth_json_response["session"]
         self.headers = {'Content-type': 'application/json', 'X-ArchivesSpace-Session': self.session_id}
 
-    def ead_to_json(self, path_to_ead_file):
-        with open(path_to_ead_file, mode="rb") as f:
-            headers = {'Content-type': 'text/xml; charset=utf-8', 'X-ArchivesSpace-Session': self.session_id}
-
-            return requests.post("{0}/plugins/jsonmodel_from_format/resource/ead".format(self.host),
-                                 headers=headers,
-                                 data=f
-                                 ).json()
-
-    def add_ead(self, path_to_ead_file):
-        json_data = self.ead_to_json(path_to_ead_file)
-
+    def add_ead(self, ead_json):
         return requests.post("{0}/repositories/{1}/batch_imports".format(self.host, self.repository),
                              headers=self.headers,
-                             data=json.dumps(json_data)
+                             data=json.dumps(ead_json)
                              ).json()
 
     def add_accession(self, accession_json):
@@ -40,6 +29,29 @@ class PySpace (object):
 
     def add_control_access_values(self, enum_id, value_list):
         pass
+
+    def ead_to_json(self, path_to_ead_file):
+        with open(path_to_ead_file, mode="rb") as f:
+            headers = {'Content-type': 'text/xml; charset=utf-8', 'X-ArchivesSpace-Session': self.session_id}
+            return requests.post("{0}/plugins/jsonmodel_from_format/resource/ead".format(self.host),
+                                 headers=headers,
+                                 data=f
+                                 ).json()
+
+    def add_agent(self, agent_json, agent_type):
+        return requests.post('{0}repositories/{1}/agents/{2}'.format(self.host, self.repository, agent_type),
+                             headers=self.headers,
+                             data=agent_json
+                             ).json()
+
+    def add_family(self, family_json):
+        return self.add_agent(agent_json=family_json, agent_type="families")
+
+    def add_corporation(self, corp_json):
+        return self.add_agent(agent_json=corp_json, agent_type="corporate_entities")
+
+    def add_person(self, person_json):
+        return self.add_agent(agent_json=person_json, agent_type="people")
 
     def get_all_object_ids(self, object_type):
         """
