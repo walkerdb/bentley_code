@@ -1,3 +1,4 @@
+import json
 import os
 import re
 
@@ -43,3 +44,12 @@ class EADDir(object):
             results.append(result)
 
         return results
+
+
+def dump_json(filename, data, filepath=""):
+    if filepath:
+        filename = os.path.join(filepath, filename)
+
+    with open(filename, mode="w") as f:
+        text = json.dumps(data, sort_keys=True, indent=4, ensure_ascii=False, encoding="utf-8")
+        f.write(text.encode("utf-8"))
