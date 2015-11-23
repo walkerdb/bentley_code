@@ -2,10 +2,20 @@ import os
 
 from lxml import etree
 from tqdm import tqdm
+
 from utilities import EADDir
 
 
 def get_all_agents(input_dir):
+    """
+    Directs extraction of controlaccess terms from a directory of EADs.
+
+    :param input_dir: filepath to the input director
+    :return: a dictionary in the form {"corpname": {"Apple Computer": [authid, naming_source], etc.},
+                                       "persname": {"Jane Doe (1900-1911)": [authid, naming_source], etc.},
+                                       "famname": {"Adams family": [authid, _naming_source], etc.}}
+    """
+
     agent_types = ["corpname", "persname", "famname"]
     agents = dict(zip(agent_types, [{}, {}, {}]))
 
@@ -20,7 +30,17 @@ def get_all_agents(input_dir):
 
     return agents
 
+
 def get_agents_from_ead(tree):
+    """
+    Extracts controlaccess terms from an lxml etree
+
+    :param tree: an lxml etree representation of an EAD
+    :return: a dictionary in the form {"corpname": {"Apple Computer": [authid, naming_source], etc.},
+                                       "persname": {"Jane Doe (1900-1911)": [authid, naming_source], etc.},
+                                       "famname": {"Adams family": [authid, _naming_source], etc.}}
+    """
+
     agent_types = ["corpname", "persname", "famname"]
     results_dict = dict(zip(agent_types, [{}, {}, {}]))
 

@@ -108,7 +108,7 @@ def parse_persname(persname, source, auth):
                    u"numbers": unicode(number),
                    u"birth_date": unicode(birth_date),
                    u"death_date": unicode(death_date),
-                   u"dates": unicode(dates_string),
+                   u"date_string": unicode(dates_string),
                    u"auth": unicode(auth),
                    u"source": unicode(source),
                    }
@@ -175,7 +175,7 @@ if __name__ == "__main__":
                        n.get("suffix", "").encode("utf-8"),
                        n.get("fuller_form", "").encode("utf-8"),
                        n.get("numbers", ""),
-                       n.get("dates", ""),
+                       n.get("date_string", ""),
                        n.get("birth_date", ""),
                        n.get("death_date", ""),
                        n.get("auth", ""),
@@ -185,7 +185,7 @@ if __name__ == "__main__":
 
     # write results to a csv file
     with open("parsed_persnames.csv", mode="wb") as f:
-        headers = ["original name", "title", "primary_name", "rest_of_name", "suffix", "fuller_form", "numbers", "dates", "birth date",
+        headers = ["original name", "title", "primary_name", "rest_of_name", "suffix", "fuller_form", "numbers", "date_string", "birth date",
                    "death date", "auth link", "source"]
         writer = csv.writer(f)
         writer.writerow(headers)

@@ -5,7 +5,7 @@ from collections import defaultdict
 # TODO corp and famnames can be from Max's code
 
 def prepare_agents(agent_dict):
-    prepped_data = defaultdict(dict)
+    prepped_data = {}
     for key, dct in agent_dict.items():
         if key == "corpname":
             prepped_data[key] = prepare_corpnames(dct)
