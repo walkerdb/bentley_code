@@ -1,7 +1,7 @@
 # coding=utf-8
 import unittest
 
-from parse_persname import parse_persname as parse
+from create_persname_json import parse_persname as parse
 
 
 class TestParsePersname(unittest.TestCase):
