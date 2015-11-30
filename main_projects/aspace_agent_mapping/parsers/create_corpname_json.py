@@ -31,6 +31,8 @@ keys = [u"primary_name",
 def parse_corpname(string, authority_id="", auth_source=""):
     string = string.strip(".")
 
+    auth_source = auth_source if auth_source else "local"
+
     string, qualifier = extract_qualifier(string)
 
     primary_name, sub_name_1, sub_name_2 = split_into_component_entities(string)
@@ -44,7 +46,8 @@ def parse_corpname(string, authority_id="", auth_source=""):
                        u"date_string":        unicode(""),
                        u"number":             unicode(""),
                        u"date_start":         unicode(""),
-                       u"date_end":           unicode("")}
+                       u"date_end":           unicode(""),
+                       u"sort_name_auto_generate": True}
 
     return corpname_parsed
 

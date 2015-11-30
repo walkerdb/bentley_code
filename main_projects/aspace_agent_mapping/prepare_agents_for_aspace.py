@@ -1,4 +1,4 @@
-
+from tqdm import tqdm
 from main_projects.aspace_agent_mapping.Corpname import Corpname
 from main_projects.aspace_agent_mapping.Famname import Famname
 from main_projects.aspace_agent_mapping.Persname import Persname
@@ -6,7 +6,7 @@ from main_projects.aspace_agent_mapping.Persname import Persname
 
 def prepare_agents(agent_dict):
     prepped_data = {}
-    for key, dct in agent_dict.items():
+    for key, dct in tqdm(agent_dict.items(), desc="creating aspace json"):
         prepped_data[key] = prepare_json_for_agent_type(key, dct)
 
     return prepped_data

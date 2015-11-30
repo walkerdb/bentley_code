@@ -6,11 +6,12 @@ from utilities.utilities import dump_json
 
 
 def parse_persname(persname, source, auth):
+    source = source if source else "local"
     name = persname.replace("---", "- --")
     name = name.split("--")[0]
     name, birth_date, death_date = extract_birth_death_dates(name)
     dates_string = make_date_string(birth_date, death_date)
-    name = HumanName(name.decode("utf-8"))
+    name = HumanName(name)
 
     titles = ["sir", "mr", "mrs", "baron", "dame", "madame", "viscount", "conte"]
     numbers = ["II", "III"]
@@ -81,7 +82,8 @@ def parse_persname(persname, source, auth):
                    u"date_string": unicode(dates_string),
                    u"auth": unicode(auth),
                    u"source": unicode(source),
-                   }
+                   u"name_order": u"inverted",
+                   u"sort_name_auto_generate": True}
 
     return name_parsed
 

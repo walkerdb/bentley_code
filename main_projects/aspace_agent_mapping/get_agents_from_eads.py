@@ -21,7 +21,7 @@ def get_all_agents(input_dir):
 
     ead_dir = EADDir(input_dir=input_dir)
 
-    for ead in tqdm(ead_dir.ead_files):
+    for ead in tqdm(ead_dir.ead_files, desc="grabbing all agents from eads"):
         tree = etree.parse(os.path.join(ead_dir.input_dir, ead))
         all_agents = get_agents_from_ead(tree)
 
@@ -48,10 +48,10 @@ def get_agents_from_ead(tree):
         tags = tree.xpath("//controlaccess/{}".format(agent_type)) + tree.xpath("//origination/{}".format(agent_type))
 
         for tag in tags:
-            auth = tag.attrib.get("authfilenumber", "")
-            source = tag.attrib.get("source")
+            auth = unicode(tag.attrib.get("authfilenumber", ""))
+            source = unicode(tag.attrib.get("source"))
             attribs = [auth, source]
-            name = tag.text.encode("utf-8")
+            name = unicode(tag.text)
 
             if name in results_dict[agent_type]:
                 if auth and not results_dict[agent_type][name]:
