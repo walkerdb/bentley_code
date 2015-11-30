@@ -1,5 +1,7 @@
 import requests
 import json
+from tqdm import tqdm
+
 
 class PySpace (object):
     def __init__(self, host="http://localhost:8089", username="admin", password="admin", repository="2"):
@@ -39,7 +41,7 @@ class PySpace (object):
                                  ).json()
 
     def add_agent(self, agent_json, agent_type):
-        return requests.post('{0}repositories/{1}/agents/{2}'.format(self.host, self.repository, agent_type),
+        return requests.post('{0}/agents/{1}'.format(self.host, agent_type),
                              headers=self.headers,
                              data=agent_json
                              ).json()
@@ -72,10 +74,30 @@ class PySpace (object):
                             ).json()
 
     def delete_aspace_object(self, object_type, aspace_id):
+        """
+        acceptable object types:
+            accessions
+            archival_objects
+            classification_terms
+            classifications
+            digital_object_components
+            digital_objects
+            events
+            groups
+            resources
+        """
         headers = {"X-ArchivesSpace-Session": self.session_id}
         return requests.delete('{0}/repositories/{1}/{2}/{3}'.format(self.host, self.repository, object_type, aspace_id),
                                headers=headers
                                ).json()
+
+    def delete_all_agents(self):
+        headers = {"X-ArchivesSpace-Session": self.session_id}
+        agent_types = ["people", "families", "corporate_entities", "software"]
+        for agent_type in tqdm(agent_types):
+            ids = requests.get("{0}/agents/{1}?all_ids=true".format(self.host, agent_type), headers=headers).json()
+            for id_ in ids:
+                requests.delete("{0}/agents/{1}/{2}".format(self.host, agent_type, id_), headers=headers)
 
     def change_repository(self, repository_number):
         self.repository = repository_number
