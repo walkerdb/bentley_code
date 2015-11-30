@@ -1,24 +1,26 @@
-from collections import defaultdict
 
-# TODO write prep code
-# TODO persnames based on current parse_persname code
-# TODO corp and famnames can be from Max's code
+from main_projects.aspace_agent_mapping.Corpname import Corpname
+from main_projects.aspace_agent_mapping.Famname import Famname
+from main_projects.aspace_agent_mapping.Persname import Persname
+
 
 def prepare_agents(agent_dict):
     prepped_data = {}
     for key, dct in agent_dict.items():
-        if key == "corpname":
-            prepped_data[key] = prepare_corpnames(dct)
-        if key == "persname":
-            prepped_data[key] = prepare_persnames(dct)
-        if key == "famname":
-            prepped_data[key] = prepare_famnames(dct)
+        prepped_data[key] = prepare_json_for_agent_type(key, dct)
 
-def prepare_persnames(persname_dict):
-    pass
+    return prepped_data
 
-def prepare_corpnames(corpname_dict):
-    pass
 
-def prepare_famnames(famname_dict):
-    pass
+def prepare_json_for_agent_type(agent_type, agent_dict):
+    prepped_data = {}
+    for name, auth_values in agent_dict.items():
+        auth_id, auth_source = auth_values
+        if agent_type == "corpname":
+            prepped_data[name] = Corpname(name, auth_id, auth_source).get_aspace_json()
+        if agent_type == "persname":
+            prepped_data[name] = Persname(name, auth_id, auth_source).get_aspace_json()
+        if agent_type == "famname":
+            prepped_data[name] = Famname(name, auth_id, auth_source).get_aspace_json()
+
+    return prepped_data
