@@ -20,6 +20,10 @@ class Persname:
             if key in keys:
                 aspace_dict[key] = value
 
+        for key in keys:
+            if key not in aspace_dict:
+                aspace_dict[key] = u""
+
         return aspace_dict
 
     def create_aspace_dates(self, data_dict):
