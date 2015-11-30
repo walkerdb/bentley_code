@@ -1,38 +1,8 @@
-import os
 import re
 import csv
-import json
 
 from nameparser import HumanName
-from lxml import etree
-from tqdm import tqdm
 from utilities.utilities import dump_json
-
-
-def grab_persnames(input_dir):
-    eads = [ead for ead in os.listdir(input_dir) if ead.endswith(".xml")]
-    persnames_dict = {}
-
-    for ead in tqdm(eads):
-        try:
-            tree = etree.parse(os.path.join(input_dir, ead))
-        except etree.XMLSyntaxError as e:
-            print("Error in {0}: {1}".format(ead, e))
-            continue
-
-        persnames = tree.xpath("//controlaccess/persname") + tree.xpath("//origination/persname")
-        for persname in persnames:
-            auth = persname.attrib.get("authfilenumber", "")
-            source = persname.attrib.get("source")
-            attribs = [auth, source]
-            name = persname.text.encode("utf-8")
-            if name in persnames_dict:
-                if auth and not persnames_dict[name]:
-                    persnames_dict[name] = attribs
-            else:
-                persnames_dict[name] = attribs
-
-    return persnames_dict
 
 
 def parse_persname(persname, source, auth):
@@ -148,48 +118,3 @@ def extract_birth_death_dates(string):
             break
 
     return string, birth_date, death_date
-
-
-if __name__ == "__main__":
-    input_dir = r'C:\Users\wboyle\PycharmProjects\vandura\Real_Masters_all'
-
-    # retrieve all persnames from eads
-    persnames = grab_persnames(input_dir)
-
-    # # serialize results to a csv
-    # with open("persnames.csv", mode="wb") as f:
-    #     writer = csv.writer(f)
-    #     data = sorted([[name, attrib[1], attrib[0]] for name, attrib in persnames.items()])
-    #     writer.writerows(data)
-
-    # parse all names for aspace export
-    output = []
-    output_dict = {}
-    for name, attributes in persnames.items():
-        auth, source = attributes
-        n = parse_persname(name, source, auth)
-        output.append([name,
-                       n.get("title", "").encode("utf-8"),
-                       n.get("primary_name", "").encode("utf-8"),
-                       n.get("rest_of_name", "").encode("utf-8"),
-                       n.get("suffix", "").encode("utf-8"),
-                       n.get("fuller_form", "").encode("utf-8"),
-                       n.get("numbers", ""),
-                       n.get("date_string", ""),
-                       n.get("birth_date", ""),
-                       n.get("death_date", ""),
-                       n.get("auth", ""),
-                       n.get("source", "")
-                       ])
-        output_dict[name.decode("utf-8")] = n
-
-    # write results to a csv file
-    with open("parsed_persnames.csv", mode="wb") as f:
-        headers = ["original name", "title", "primary_name", "rest_of_name", "suffix", "fuller_form", "numbers", "date_string", "birth date",
-                   "death date", "auth link", "source"]
-        writer = csv.writer(f)
-        writer.writerow(headers)
-        writer.writerows(output)
-
-    # write results to a json file
-    dump_json("persname_output.json", output_dict)
