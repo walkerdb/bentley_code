@@ -25,15 +25,22 @@ class EAD(object):
         with open(os.path.join(output_dir, self.filename), mode="w") as f:
             f.write(text)
 
+        os.remove("tmp")
+
+
 class EADDir(object):
     def __init__(self, input_dir=r'C:\Users\wboyle\PycharmProjects\vandura\Real_Masters_all'):
         self.input_dir = input_dir
         self.ead_files = [ead for ead in os.listdir(input_dir) if ead.endswith(".xml")]
 
-    def apply_function_to_dir(self, function, output_dir):
+    def apply_function_to_dir(self, function, output_dir, var1=""):
         for ead_file in tqdm(self.ead_files):
             ead = EAD(os.path.join(self.input_dir, ead_file))
-            function(ead)
+            if var1:
+                function(ead, var1)
+            else:
+                function(ead)
+
             ead.prettyprint(output_dir)
 
     def characterize_dir(self, function):

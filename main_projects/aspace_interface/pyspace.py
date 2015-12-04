@@ -94,9 +94,9 @@ class PySpace (object):
     def delete_all_agents(self):
         headers = {"X-ArchivesSpace-Session": self.session_id}
         agent_types = ["people", "families", "corporate_entities", "software"]
-        for agent_type in tqdm(agent_types):
+        for agent_type in agent_types:
             ids = requests.get("{0}/agents/{1}?all_ids=true".format(self.host, agent_type), headers=headers).json()
-            for id_ in ids:
+            for id_ in tqdm(ids, desc="deleting all {}".format(agent_type)):
                 requests.delete("{0}/agents/{1}/{2}".format(self.host, agent_type, id_), headers=headers)
 
     def change_repository(self, repository_number):
