@@ -82,7 +82,7 @@ def parse_persname(persname, auth="", source=""):
                    u"birth_date": unicode(birth_date),
                    u"death_date": unicode(death_date),
                    u"date_string": unicode(dates_string),
-                   u"auth": unicode(auth),
+                   u"authority_id": unicode(auth),
                    u"source": unicode(source),
                    u"name_order": u"inverted",
                    u"sort_name_auto_generate": True}

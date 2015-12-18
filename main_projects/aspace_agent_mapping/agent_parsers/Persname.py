@@ -18,7 +18,7 @@ class Persname:
     @staticmethod
     def reduce_dict(data_dict):
         aspace_dict = {}
-        keys = [u"primary_name", u"title", u"name_order", u"prefix", u"rest_of_name", u"suffix", u"fuller_form", u"number", u"name_order", u"sort_name_auto_generate", u"source"]
+        keys = [u"primary_name", u"title", u"name_order", u"prefix", u"rest_of_name", u"suffix", u"fuller_form", u"number", u"name_order", u"sort_name_auto_generate", u"source", u"authority_id"]
         for key, value in data_dict.items():
             if key in keys:
                 aspace_dict[key] = value

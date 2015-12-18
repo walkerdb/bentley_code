@@ -1,13 +1,25 @@
-from collections import defaultdict
-import csv
-import gzip
-from itertools import groupby
-import json
-from operator import itemgetter
 import os
+import csv
+import json
+import gzip
+import codecs
+import cStringIO
+from pprint import pprint
+import re
+from sys import argv
+from operator import itemgetter
+from itertools import groupby
+from collections import defaultdict, Counter
+
 from natsort import natsort
 
-__author__ = 'wboyle'
+
+def main():
+    filename = "ht_data.json" if len(argv) == 1 else argv[1]
+
+    summarizer = HTPubSummarizer(source_file=filename)
+    summarizer.summarize()
+
 
 class HTPubSummarizer:
     def __init__(self, source_file):
@@ -35,10 +47,12 @@ class HTPubSummarizer:
 
     def summarize(self):
         output = []
-        headers = ["num_of_items", "oclc identifier", "source institution identifier", "source institution", "title",
-                   "imprint", "copyright statuses of publications in series", "publication date range",
-                   "earliest publication", "latest publication", "all publication dates"]
+        headers = [u"num_of_items", u"oclc identifier", u"source institution identifier", u"source", u"title",
+                   u"imprint", u"copyright statuses of publications in series", u"publication date range", u"enumerations",
+                   u"earliest publication", u"latest publication", u"all publication dates"]
 
+
+        enumerations = []
         for oclc_identifier, pubs_dict in self.grouped_data.items():
             data_dict = self._initialize_series_dict(oclc_identifier)
 
@@ -53,31 +67,49 @@ class HTPubSummarizer:
 
             output.append(row)
 
-
+        pprint(sorted(sorted([(value, key) for key, value in Counter(enumerations).items()], key=lambda x: x[1]), key=lambda x: -x[0]), width=300)
         with open("summary.csv", mode="wb") as f:
-            writer = csv.writer(f)
+            writer = UnicodeWriter(f)
             writer.writerow(headers)
-            writer.writerows(output)
+            for row in output:
+                try:
+                    writer.writerow(row)
+                except UnicodeEncodeError as e:
+                    print(e)
+                    print(row)
 
 
     def _summarize_years(self, data_dict):
         d = {}
-        if data_dict["years"]:
-            d["humanized_years"] = self._humanize_list(self._summarize_digit_list(sorted(list(data_dict["years"]))))
-            d["earliest_year"] = min(data_dict["years"])
-            d["latest_year"] = max(data_dict["years"])
-            d["total_pub_range"] = "{}-{}".format(data_dict["earliest_year"], data_dict["latest_year"])
+        if data_dict[u"years"]:
+            d[u"humanized_years"] = self._humanize_list(self._summarize_digit_list(sorted(list(data_dict[u"years"]))))
+            d[u"earliest publication"] = min(data_dict[u"years"])
+            d[u"latest publication"] = max(data_dict[u"years"])
+            if len(data_dict[u"years"]) <= 1:
+                d[u"publication date range"] = u""
+            else:
+                d[u"publication date range"] = u"{}-{}".format(d[u"earliest publication"], d[u"latest publication"])
 
         return d
 
 
     def _summarize_copyrights(self, data_dict):
-        return {"copyright_statuses": self._humanize_list(data_dict["copyrights"])}
+        return {u"copyright statuses of publications in series": self._humanize_list(list(data_dict["copyrights"]))}
 
 
     def _summarize_enumerations(self, data_dict):
-        # TODO - implement something here
-        return {}
+        enum_regex = re.compile(r"v\.(\d\d?\d?)")
+        enumerations = data_dict[u"enumerations"]
+        numbers = set()
+
+        for enumeration in enumerations:
+            number = re.findall(enum_regex, enumeration)
+            if number:
+                numbers.add(int(number[0]))
+
+        numbers = self._humanize_list(self._summarize_digit_list(sorted(list(numbers))))
+
+        return {u"enumerations": numbers}
 
 
     @staticmethod
@@ -86,52 +118,52 @@ class HTPubSummarizer:
 
     @staticmethod
     def _extract_full_series_metadata(pubs_dict):
-        d = {"num_of_items": len(pubs_dict)}
+        d = {u"num_of_items": len(pubs_dict)}
 
         # since we're only summarizing, we'll just grab info for the first pub in each series
         for volume, pub in pubs_dict.items():
-            d["title"] = pub[0].get("title", "[no title]")
-            d["contributor"] = pub[0].get("ht identifier", "[none].none").split(".")[0]
-            d["local_identifier"] = pub[0].get("source institution record number", "[none]")
-            d["imprint"] = pub[0].get("imprint", "[none]")
+            d[u"title"] = unicode(pub[0].get("title", "[no title]"))
+            d[u"source"] = unicode(pub[0].get("ht identifier", "[none].none").split(".")[0])
+            d[u"source institution identifier"] = unicode(pub[0].get("source institution record number", "[none]"))
+            d[u"imprint"] = unicode(pub[0].get("imprint", "[none]"))
             break
 
         return d
 
     @staticmethod
     def _extract_series_item_metadata(pubs_dict):
-        d = {"years": set(), "copyrights": set(), "enumerations": set()}
+        d = {u"years": set(), u"copyrights": set(), u"enumerations": set()}
 
         for volume, pubs in pubs_dict.items():
             for pub in pubs:
-                year = pub.get("publication date", "")
-                if year and year != "9999":
-                    d["years"].add(int(year))
+                year = unicode(pub.get("publication date", ""))
+                if year and year != u"9999":
+                    d[u"years"].add(int(year))
 
                 if pub.get("rights", ""):
-                    d["copyrights"].add(pub.get("rights", ""))
+                    d[u"copyrights"].add(unicode(pub.get("rights", "")))
 
                 if pub.get("enumeration/chronology", ""):
-                    d["enumerations"].add(pub.get("enumeration/chronology", ""))
+                    d[u"enumerations"].add(unicode(pub.get("enumeration/chronology", "")))
 
         return d
 
 
     @staticmethod
     def _initialize_series_dict(oclc_identifier):
-        return {"title": "[no title]",
-                "contributor": "[none]",
-                "local_identifier": "[none]",
-                "imprint": "[none]",
-                "oclc_identifier": oclc_identifier if oclc_identifier else "[none]",
-                "years": set(),
-                "copyrights": set(),
-                "copyright_statuses": "no copyrights",
-                "enumerations": set(),
-                "humanized_years": "no years in series",
-                "earliest_year": "no years in series",
-                "latest_year": "no years in series",
-                "total_pub_range": "no years in series"}
+        return {u"title": u"[no title]",
+                u"contributor": u"[none]",
+                u"local_identifier": u"[none]",
+                u"imprint": u"[none]",
+                u"oclc identifier": oclc_identifier if oclc_identifier else u"[none]",
+                u"years": set(),
+                u"copyrights": set(),
+                u"copyright statuses of publications in series": u"no copyrights",
+                u"enumerations": set(),
+                u"all publication dates": u"",
+                u"earliest publication": u"",
+                u"latest publication": u"",
+                u"publication date range": u""}
 
 
     def _load_data(self, source_file):
@@ -141,7 +173,8 @@ class HTPubSummarizer:
         elif extension == ".gz":
             return self._load_data_from_ht_gzip_dump(source_file)
         else:
-            return []
+            print("Not a valid input file")
+            exit()
 
 
     def _load_data_from_ht_gzip_dump(self, path_to_gz_file):
@@ -150,10 +183,16 @@ class HTPubSummarizer:
             return self._facet_by_umich_publisher(reader)
 
 
+    @staticmethod
+    def _load_data_from_json(path_to_json):
+        with open(path_to_json, mode="r") as f:
+            return json.load(f)
+
+
     def _facet_by_umich_publisher(self, reader):
         results = []
         for row in reader:
-            if "University of Michigan" not in row.get("imprint", ""):
+            if u"University of Michigan" not in row.get(u"imprint", u""):
                 continue
             results.append(self._extract_relevant_rows(row))
 
@@ -167,16 +206,10 @@ class HTPubSummarizer:
     def _group_data_by_id_numbers(self):
         grouped_data = defaultdict(lambda: defaultdict(list))
         for pub in self.data:
-            identifier = pub.get("oclc numbers", "") or "local (non-oclc): " + pub["source institution record number"]
-            enumeration = pub.get("enumeration/chronology", "no enumeration value") or "no enumeration value"
+            identifier = unicode(pub.get("oclc numbers", "")) or u"local (non-oclc): " + unicode(pub["source institution record number"])
+            enumeration = unicode(pub.get("enumeration/chronology", "no enumeration value")) or u"no enumeration value"
             grouped_data[identifier][enumeration].append(pub)
         return grouped_data
-
-
-    @staticmethod
-    def _load_data_from_json(path_to_json):
-        with open(path_to_json, mode="r") as f:
-            return json.load(f)
 
 
     @staticmethod
@@ -184,20 +217,21 @@ class HTPubSummarizer:
         list_len = len(list_or_set)
 
         if list_len == 0:
-            return ""
+            return u""
 
         if list_len == 1:
             return list_or_set[0]
 
         if list_len == 2:
-            return "{} and {}".format(list_or_set[0], list_or_set[1])
+            return u"{} and {}".format(list_or_set[0], list_or_set[1])
 
-        string = ""
+        string = u""
         for i, element in enumerate(list_or_set):
+            element = unicode(element)
             if i == list_len - 1:
-                string += "and {}".format(element)
+                string += u"and {}".format(element)
             else:
-                string += "{}, ".format(element)
+                string += u"{}, ".format(element)
 
         return string
 
@@ -217,9 +251,9 @@ class HTPubSummarizer:
         ranges = []
         for range in range_lists:
             if len(range) > 1:
-                ranges.append("{0}-{1}".format(range[0], range[-1]))
+                ranges.append(u"{0}-{1}".format(range[0], range[-1]))
             elif len(range) == 1:
-                ranges.append(str(range[0]))
+                ranges.append(unicode(range[0]))
 
         # Since this is a list of strings that sometimes contain non-numeric characters, we use the naturalsort library to
         # return the results in the expected order. Otherwise ["2-10", "11-19", "20"] would be sorted ["11-19", "2-10", "20"]
@@ -231,3 +265,29 @@ class HTPubSummarizer:
         with open(filename, mode="w") as f:
             f.write(json.dumps(json_data, sort_keys=True, indent=4, ensure_ascii=False, encoding="utf-8"))
 
+
+class UnicodeWriter:
+    def __init__(self, f, dialect=csv.excel, encoding="utf-8-sig", **kwds):
+        self.queue = cStringIO.StringIO()
+        self.writer = csv.writer(self.queue, dialect=dialect, **kwds)
+        self.stream = f
+        self.encoder = codecs.getincrementalencoder(encoding)()
+
+    def writerow(self, row):
+        '''writerow(unicode) -> None
+        This function takes a Unicode string and encodes it to the output.
+        '''
+        self.writer.writerow([s.encode("utf-8") if type(s) == unicode else unicode(s).encode("utf-8") for s in row])
+        data = self.queue.getvalue()
+        data = data.decode("utf-8")
+        data = self.encoder.encode(data)
+        self.stream.write(data)
+        self.queue.truncate(0)
+
+    def writerows(self, rows):
+        for row in rows:
+            self.writerow(row)
+
+
+if __name__ == "__main__":
+    main()

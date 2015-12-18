@@ -17,7 +17,7 @@ def prepare_json_for_agent_type(agent_type, agent_dict):
     prepped_data = {}
     for name, auth_values in agent_dict.items():
         name = normalize_name(name)
-
+        file
         auth_id, auth_source = auth_values
         auth_source = normalize_source(auth_source)
 
