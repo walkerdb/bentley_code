@@ -30,7 +30,7 @@
 
 <body>
 
-<nav class="navbar navbar-inverse navbar-fixed-top">
+<nav class="navbar navbar-inverse">
     <div class="container">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
@@ -47,28 +47,46 @@
         </div>
         <div id="navbar" class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
-                <li class="active"><a href="#">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li class="active"><a href="#">Help home</a></li>
+
             </ul>
+            <div class="col-sm-3 col-md-3 pull-right">
+            <form class="navbar-form" role="search" action="http://quod.lib.umich.edu/b/bhlead?" method="get">
+                <div class="input-group">
+                    <input type="hidden" name="type" value="simple">
+                    <input type="hidden" name="rgn" value="Entire+Finding+Aid">
+                    <input type="text" class="form-control left-border" placeholder="Search finding aids" name="q1" id="srch-term">
+                    <div class="input-group-btn">
+                        <button class="btn btn-default right-border" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+                    </div>
+                </div>
+            </form>
+        </div>
         </div>
         <!--/.nav-collapse -->
+
+
     </div>
 </nav>
 
 <div class="container">
     <div class="row">
         <div class="col-md-9 help-content">
-            <h1 id="Search">Search</h1>
+            <h1 id="Title">Search and Request help page</h1>
+            <hr>
+            <h2 id="Search">Search</h2>
 
             <div>
                 <p>We provide two ways to search through our collections: a basic search option, which works much the same as
                     a google search might, and one more advanced option using boolean logic to make very specific searches.
                     Here we'll describe both of these methods, and give some general search tips specific to our system.</p>
             </div>
-            <h2 id="Search-Basic">Basic Searches</h2>
+
+            <h3 id="Search-Basic" class="content-subheader">Basic Searches</h3>
 
             <div>
+
+                <div class="content-image"><img src="img/basic-search.png" class="image-responsive center-block img-thumbnail"/></div>
                 <p>This is the simplest search type, meant to be used when you only need to find a single word or
                     phrase. Punctuation is always ignored and multiple-word searches will be searched for exactly.</p>
 
@@ -89,45 +107,60 @@
                 </ul>
             </div>
 
-            <h2 id="Search-Boolean">Advanced ("Boolean") Searches</h2>
+            <h3 id="Search-Boolean" class="content-subheader">Advanced ("Boolean") Searches</h3>
             <div>
+                <div class="content-image"><img src="img/boolean-search.png" class="image-responsive center-block img-thumbnail"/></div>
                 <p>Boolean searches let you look for combinations of up to three terms or phrases using logical connector terms (AND, OR, and NOT). Here is how it's used:</p>
                 <ol>
-                    <li><p>Use the pulldown "Search within" menu to select an area of the text to search through. </p></li>
+                    <li><p>Use the pulldown "Search in" menu to select a category of text to search through (see above). </p></li>
                     <li><p>Enter a term or phrase in the first text box. Each individual box works just like a basic search -- punctuation is ignored, and if you enter a phrase it will search for that phrase <em>exactly.</em></p></li>
                     <li>
-                        <p>Enter a term or phrase in the next box, and choose how you want the two terms to be related by using the pull-down menu to the right of the first term. We'll use an example of a search for "civil" in the first box and "war" in the second to show the difference between each possible boolean operator: </p>
+                        <p>Enter a term or phrase in the next box, and choose how you want it to be related to the previous term by using the pull-down menu to the right of the first term. We'll use an example of a search for "civil" in the first box and "war" in the second to show the difference between each possible boolean operator: </p>
                         <ul>
-                            <li><p><strong>And: </strong>finds documents that contain the single word "civil" and the single word "war", no matter how far apart they are from one another</p></li>
-                            <li><p><strong>Or: </strong>finds documents that contain only the word "civil" or only the word "war", but not both of them at the same time</p></li>
-                            <li><p><strong>Not: </strong>finds documents that contain the word "civil" and do not contain the word "war"</p></li>
+                            <li><p><strong>and: </strong>finds documents that contain the single word "civil" <strong>and</strong> the single word "war", no matter how far apart they are from one another</p></li>
+                            <li><p><strong>or: </strong>finds documents that contain <strong>only</strong> the word "civil" <strong>or only</strong> the word "war", but not both of them at the same time</p></li>
+                            <li><p><strong>not: </strong>finds documents that contain the word "civil" and <strong>do not</strong> contain the word "war"</p></li>
                         </ul>
                     </li>
                 </ol>
             </div>
 
-            <h2 id="Search-Tips">Searching Tips</h2>
+            <h3 id="Search-Tips" class="content-subheader">Searching Tips</h3>
+            <div>
+                <p>Some helpful tips to keep in mind when you are searching through UM Finding Aids</p>
+                <ul>
+                    <li>Placing an asterisk (*) at the end of a partial word lets you search for all words that begin with the partial word.<br>
+                        For example: a search for <code class="code">work*</code> will match on "work", "worker", "works", "working", etc.</li>
+                    <li>Neither punctuation nor capitalization matter</li>
+                </ul>
+            </div>
+
+            <hr>
+
+            <h2 id="Results">Interpreting Results</h2>
+            <div>
+                <p>Text text text</p>
+
+            </div>
+
+            <h3 id="Results-Sorting" class="content-subheader">Sorting Results</h3>
             <div><p>Text text text</p></div>
 
-            <h1 id="Results">Interpreting Results</h1>
-            <div><p>Text text text</p></div>
+            <hr>
 
-            <h2 id="Results-Sorting">Sorting Results</h2>
-            <div><p>Text text text</p></div>
-
-            <h1 id="Requests">Requesting Material</h1>
+            <h2 id="Requests">Requesting Material</h2>
             <div><p>Text text text</p></div>
 
         </div>
         <div class="col-md-3">
             <div class="sidebar-nav affix" id="sidebar">
                 <h3 id="Search-sidebar" class="active"><a href="#Search">Search</a></h3>
-                <h4 id="Search-Tips-sidebar" class=""><a href="#Search-Tips">Searching Tips</a></h4>
                 <h4 id="Search-Basic-sidebar" class=""><a href="#Search-Basic">Basic Searches</a></h4>
                 <h4 id="Search-Boolean-sidebar" class=""><a href="#Search-Boolean">Boolean Searches</a></h4>
+                <h4 id="Search-Tips-sidebar" class=""><a href="#Search-Tips">Searching Tips</a></h4>
 
-                <h3 id="Results-sidebar" class=""><a href="#Challenges">Interpreting Results</a></h3>
-                <h4 id="Results-Sorting-sidebar" class=""><a href="#Activities">Sorting Results</a></h4>
+                <h3 id="Results-sidebar" class=""><a href="#Results">Interpreting Results</a></h3>
+                <h4 id="Results-Sorting-sidebar" class=""><a href="#Results-Sorting">Sorting Results</a></h4>
 
                 <h3 id="Requests-sidebar" class=""><a href="#Requests">Requesting Material</a></h3>
             </div>
@@ -140,6 +173,14 @@
 <!-- /.container -->
 
 
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<!--<script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>-->
+<script src="js/bootstrap.min.js"></script>
+<script src="js/waypoints.min.js"></script>
+
 <script>
         // Code for scroll-position-based sidebar highlighting, using the jquery.waypoints.js library.
         // Requires two waypoints for every location: both + and - 5%.
@@ -148,6 +189,7 @@
             var project_waypoint = $('#Search').waypoint({
                 handler: function () {
                     $('#sidebar h3').removeClass('active');
+                    $('#sidebar h4').removeClass('active');
                     $('#Search-sidebar').addClass('active');
                 },
                 offset: "-5%"
@@ -155,6 +197,7 @@
             var project_waypoint2 = $('#Search').waypoint({
                 handler: function () {
                     $('#sidebar h3').removeClass('active');
+                    $('#sidebar h4').removeClass('active');
                     $('#Search-sidebar').addClass('active');
                 },
                 offset: "5%"
@@ -169,6 +212,7 @@
             var mtia_waypoint2 = $('#Search-Tips').waypoint({
                 handler: function() {
                     $('#sidebar h3').removeClass('active');
+                    $('#sidebar h4').removeClass('active');
                     $('#Search-Tips-sidebar').addClass('active');
                 },
                 offset: "5%"
@@ -184,6 +228,7 @@
             var archive_waypoint2 = $('#Search-Basic').waypoint({
                 handler: function() {
                     $('#sidebar h3').removeClass('active');
+                    $('#sidebar h4').removeClass('active');
                     $('#Search-Basic-sidebar').addClass('active');
                 },
                 offset: "5%"
@@ -192,6 +237,7 @@
             var selection_waypoint = $('#Search-Boolean').waypoint({
                 handler: function() {
                     $('#sidebar h3').removeClass('active');
+                    $('#sidebar h4').removeClass('active');
                     $('#Search-Boolean-sidebar').addClass('active');
                 },
                 offset: "-5%"
@@ -199,6 +245,7 @@
             var selection_waypoint2 = $('#Search-Boolean').waypoint({
                 handler: function() {
                     $('#sidebar h3').removeClass('active');
+                    $('#sidebar h4').removeClass('active');
                     $('#Search-Boolean-sidebar').addClass('active');
                 },
                 offset: "5%"
@@ -206,6 +253,7 @@
             var challenges_waypoint = $('#Results').waypoint({
                 handler: function() {
                     $('#sidebar h3').removeClass('active');
+                    $('#sidebar h4').removeClass('active');
                     $('#Results-sidebar').addClass('active');
                 },
                 offset: "-5%"
@@ -213,6 +261,7 @@
             var challenges_waypoint2 = $('#Results').waypoint({
                 handler: function() {
                     $('#sidebar h3').removeClass('active');
+                    $('#sidebar h4').removeClass('active');
                     $('#Results-sidebar').addClass('active');
                 },
                 offset: "5%"
@@ -220,6 +269,7 @@
             var activities_waypoint = $('#Results-Sorting').waypoint({
                 handler: function() {
                     $('#sidebar h3').removeClass('active');
+                    $('#sidebar h4').removeClass('active');
                     $('#Results-Sorting-sidebar').addClass('active');
                 },
                 offset: "-5%"
@@ -227,6 +277,7 @@
             var activities_waypoint2 = $('#Results-Sorting').waypoint({
                 handler: function() {
                     $('#sidebar h3').removeClass('active');
+                    $('#sidebar h4').removeClass('active');
                     $('#Results-Sorting-sidebar').addClass('active');
                 },
                 offset: "5%"
@@ -234,6 +285,7 @@
             var team_waypoint = $('#Requests').waypoint({
                 handler: function() {
                     $('#sidebar h3').removeClass('active');
+                    $('#sidebar h4').removeClass('active');
                     $('#Requests-sidebar').addClass('active');
                 },
                 offset: "-5%"
@@ -241,6 +293,7 @@
             var team_waypoint2 = $('#Requests').waypoint({
                 handler: function() {
                     $('#sidebar h3').removeClass('active');
+                    $('#sidebar h4').removeClass('active');
                     $('#Requests-sidebar').addClass('active');
                 },
                 offset: "5%"
@@ -250,13 +303,7 @@
 
 </script>
 
-<!-- Bootstrap core JavaScript
-================================================== -->
-<!-- Placed at the end of the document so the pages load faster -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<!--<script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>-->
-<script src="js/bootstrap.min.js"></script>
-<script src="js/waypoints.min.js"></script>
+
 
 </body>
 </html>
