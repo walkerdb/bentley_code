@@ -14,6 +14,6 @@ class TestCheckNestedTags(unittest.TestCase):
         ead = EAD(filepath=self.positive_test_case_loc)
         self.assertEquals(find_nested_tags(ead), [['positive_case_ead.xml', '/unittitle', 'unittitle']])
 
-    def test_negatie_match(self):
+    def test_negative_match(self):
         ead = EAD(filepath=self.negative_test_case_loc)
         self.assertEquals(find_nested_tags(ead), [])
