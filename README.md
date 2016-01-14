@@ -5,7 +5,7 @@ The majority are tools for working with EAD files, but there are several other u
 
 
 ##Utilities
-Utility tools used across the rest of the scripts. Having these may be necessary for other scripts to run.
+Utility tools used in many of the other scripts. They may be necessary for other scripts to run.
 
 * __ASpace/python API interface__: A python-based convenience interface for interacting with the ASpace API
 * __EAD objects__: a class that wraps common functionality used with single EAD files into one place
