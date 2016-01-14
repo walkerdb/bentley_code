@@ -1,0 +1,70 @@
+/* CSS Document */
+/* Some code adapted from CSS Mastery: Advanced Web Standards Solutions, by Andy Budd, 2006 */
+
+/* GLOBAL */
+	* {
+	margin: 0;
+	padding: 0;
+	}
+	
+/* SIDEBAR */
+	/* delete when new index page is up and running */
+	#homesidebar {
+    width: 16em;
+    max-width: 24%;
+    float: left;
+  	}
+  
+  	#col3 #sidebar { /* Need to keep this -- */
+    width: 14em;
+    max-width: 30%;
+    float: left;
+  	}
+
+/* WRAPPER */
+	#home #wrapper {
+	width: 72em;
+	max-width: 80%;
+	margin: 0 auto;
+	}
+	
+	#col3 #wrapper, #col2 #wrapper, #col1 #wrapper {
+	width: 80em;
+	max-width: 80%;
+	margin: 0 auto;
+	}
+
+
+
+
+/* CONTENT */		
+    
+	#col3 #content {
+    width: 50%;
+    max-width: 68%;
+    float: right;
+    }
+	#home #content {
+	width: 52em;
+	max-width: 74%;
+	float: right;
+	}
+	
+	#contentA {
+	width: 24em;
+	max-width: 55%;
+	float: left;
+	clear: left;
+	}
+	
+	#contentB {
+	width: 24em;
+	max-width: 55%;
+	float: right;
+	clear: right;
+	}
+
+/* FOOTER */
+	#footer {
+	clear: both;
+	}

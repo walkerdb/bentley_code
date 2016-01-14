@@ -1,0 +1,449 @@
+/* CSS Document */
+
+/* GLOBAL */
+	html {
+	font-size: 100%; /* IE fix */
+	height: 100%; /* forces scrollbar and sticky footer */
+	margin-bottom: 1px; /* forces scrollbar */
+	}
+
+	body {
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #b0c4de;/*#b0c4de;*/  
+	font-size: 62.5%;
+ color: #333333;
+ text-align: center;
+ width: 100%; float: center;}
+
+
+	
+	#col1, #col2, #col3 {
+	height: 100%; /* sticky footer for all pages except home */
+	}
+	
+
+/* HEADER */
+	#logohome 
+	{
+	height: 100px;
+	background: url(header.jpg) no-repeat center top;
+	}
+		
+	
+
+#header {
+height: 118px;
+left top no-repeat;
+margin-left: auto;
+margin-right: auto;	
+
+}	
+	
+
+
+
+
+/* TAGS */
+	h1 {
+	font-size: 2em;
+	padding-top: 10px;
+	}
+
+	h2 {
+	font-size: 1.5em;
+	padding-top: 10px;
+	text-align: center;
+	}
+	
+	h3 {
+	font-size: 1.25em;
+	padding-top: 10px;
+	clear: left;
+	text-align: center;
+	}
+
+	h4 {
+	font-size: 1em;
+	padding-top: 15px;
+	text-transform: uppercase;
+	}
+
+	input, select, th, td {
+	font-size: 1em;
+	}
+
+	#mainnav #search {
+	font-size:1em;
+	}
+	
+	p {
+	padding-top: 0.5em;
+	}
+	
+	
+
+
+
+
+/* LINKS */
+	a:link {
+	color: #4682b4;
+	}
+
+	a:visited {
+	color: #808080;
+	}
+
+	.menu a:link, h4 a:link {
+	color: #4682b4;
+	text-decoration: none;
+	}
+
+	.menu a:visited, h4 a:visited {
+	color:#1e90ff;
+	text-decoration: none;
+	}
+
+	.menu a:hover, h4 a:hover {
+	color: #808080;
+	text-decoration: underline;
+	}
+	
+
+
+
+
+/* LISTS */
+	#homesidebar ul, #contentA ul, #contentB ul, #contentC ul, #home ul /*delete #homesidebar when new index page takes effect */
+	{
+	list-style: none;
+	text-indent: -1em;
+	padding-left: 1em;
+
+	}
+
+	#sidebar ul {
+	list-style: none;
+	text-indent: -1em;
+	padding-left: 1em;
+	padding-bottom: 1em;
+	}
+	#mainnav ul {
+	list-style: none;
+	}
+	
+	#content ul, #contentA ul, #contentB ul, #contentC ul, #wrapper ul {
+	padding-left: 20px;
+	}
+
+	ol {
+	padding-left: 2em;
+	}
+	
+	ol ol {
+	list-style-type:lower-alpha;
+	}
+
+
+/* CLASSES */
+	.about {
+	background-color: #ffffff;
+	padding: 1em;
+	}
+	.viewall {
+	font-size: 0.8em;
+	padding-left: 10px;
+	}
+
+	.maintitle {
+	border-bottom: 1px #808080 solid;
+	padding-top: 10px;
+	}
+		
+	.description {
+	font-size: 0.9em;
+	text-align: justify;
+	}.small { font-size: 0.8em; text-align: justify; }
+
+	
+	.external, .pdf {
+	background: url(/images/external.jpg) no-repeat right top;
+	padding-right: 10px;
+	}
+
+	
+	.active {
+	background-color: #blue;
+	}
+	
+	.bold {
+	font-weight: 900;
+	}
+	
+	.footnote {
+	font-size: 0.8em;
+	border: 1px solid #ccc;
+	margin-top: 10px;
+	padding: 0 10px 10px 10px;
+	}
+
+	.sectiontitle {
+	clear: left;
+	color: #333333;
+	}
+	
+	.clear {
+	clear: both;
+	}
+	
+	.pullquote {
+	color: #A08060;
+	float: right;
+	width: 175px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 4px;
+	font-size: 2.5em;
+	line-height: 0.8em;
+	text-align: right;
+	}
+	
+	.highlight {
+	
+
+
+/*background-color: #808080;*/
+	margin-left: 4em; width: 10em;
+	border: 1px solid #EBE6DC;
+	}
+	
+	.blockquote {
+	margin-left: 4em;
+	margin-right: 4em;
+	font-size: 0.9em;
+	text-align: justify;
+	}
+	
+	.box {
+	background-color: #FFFFF0;
+	border: 1px solid #E8E1BF;
+	padding: 5px;
+	}
+	
+	.next {
+	float: right; 
+	padding-left: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	}
+	
+	.back {
+	float: left;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	}
+	.italic {
+	font-style: italic;
+	}
+		
+/* IMAGES */
+	.floatRight {
+	float: right; 
+	padding-left: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	}
+	
+	.floatLeft {
+	float: left;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	}
+	
+	.floatRight p, .floatLeft p {
+	
+	font-size: 85%;
+	padding-top: 0px;
+	}
+
+/* TABLES */
+	td, th {
+		vertical-align: top;
+	}
+	
+	#hours th {
+	width: 10em;
+	background-color: #e0d6cc;
+	vertical-align: top;
+	}
+	
+	#hours td {
+	border: 1px solid #e0d6cc;
+	vertical-align: top;
+	}
+	ta!
+ ble {
+	width: 100%;
+	}
+
+	.format th {
+	background-color: #e0d6cc;
+	vertical-align: top;
+	}
+	
+	.format td {
+	border: 1px solid #e0d6cc;
+	vertical-align: top;
+	}
+/* HEADER */
+	#header {
+	text-align: left;
+	}
+	
+	#header img {
+	border: none;
+	}
+	#headerindex {
+	padding-top: 10px;
+	}
+	
+
+
+
+/* SIDEBAR */
+	#sidebar {
+	background-color: #E2E2D4;
+	width: 30%;
+	margin-top: 12px;
+	}
+/* erase when new index page takes effect */	
+	#homesidebar {
+	padding-left: 10px; 
+	background-color: #E2E2D4;/*#CCBEBE;*/
+	margin-top: 1em;
+	/*border: medium ridge; GK 7/28*/ 
+	border: 1px solid #663300;
+	}
+	
+
+
+
+/* NAVIGATION BAR */
+	#navigation {
+	background-color: #FFFFFF;
+	}
+	
+	#navigation ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	width: 60em;
+	background-color: #CDC2B3; /*#CDCD8D#E2E2D4;D6CFC9*/
+	float: left;
+	}
+	
+	#navigation ul li {
+	float: left;
+	}
+
+	#navigation ul a {
+	color: #663300;
+	padding: 0 0.9em;
+	float: left;
+	line-height: 2em;
+	text-decoration: none;
+	}
+
+	#navigation ul a:hover {
+	text-decoration: underline;
+	}
+	
+	#current a:visited, #current a:link {
+	color: #C6710A;
+	text-decoration: underline;
+	}/* 
+
+
+CONTENT */
+	#wrapper {
+	font-size:1.3em;
+	text-align: left;
+	background-color: #FFFFFF;
+	position: relative; /*sticky footer */
+	min-height: 100%; /*sticky footer */
+	padding: 15px 15px  30px;
+	}
+	
+	* html #wrapper {
+	height: 100%; /* sticky footer */
+	}
+	
+	#breadcrumbs {
+	padding-top: 0.3em;
+	clear: both;
+	}
+	#content {
+	background-color: #FFFFFF;
+	margin-top: 1em;
+	}
+
+	#description {	
+	clear: left;
+	}
+	
+	#description ul {
+	font-size: 0.9em;
+	}
+
+/* HOME PAGE ADDRESS/LOGO  GK added 8/7/07 */	
+    #homeaddress, #address {
+	text-align: center;
+	
+	}
+	
+	#homeaddressbhl {
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:2em;
+	color:#993300;
+	}
+	
+	#homeaddressum {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:1.25em;
+	color:#993300;
+    }
+	
+	#homeaddressadd {
+	font-size:.85em;
+    }
+
+
+	
+/* FOOTER */
+	#footer {
+	text-align: center;
+	font-size: 1em;
+	clear: both;
+	position: relative;
+	margin: -9.6em auto 0 auto; /* sticky footer */
+	height: 9.6em; /* sticky !
+ footer */
+	/*border-top: 2px solid #CDC2B3;*/
+	width: 77em;
+	background-color: #ffffff;
+	}
+	
+	* html #footer {
+	margin-top: -9.5em; /* sticky footer */
+	}
+	div .clear {
+	height: 7.6em; /* sticky footer */
+	}
+
+/* TEXT ALIGN */
+  
+    .centertext {
+	text-align: center;
+     }

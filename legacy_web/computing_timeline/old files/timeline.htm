@@ -1,0 +1,109 @@
+<html>
+  <head>
+   
+    <title>University of Michigan Computing Timeline</title>
+
+
+
+ 
+<script src="http://simile.mit.edu/timeline/api/timeline-api.js" type="text/javascript"></script>
+<script type="text/javascript" language="javascript" src="themes.js"></script>
+<link href="timeline.css" rel="stylesheet" type="text/css" />
+<link href="timelinepage.css" rel="stylesheet" type="text/css" />
+
+
+ </head>
+
+  <body onload="onLoad();" onresize="onResize();">
+   
+<script>
+var tl;
+
+function onLoad() {
+var theme = Timeline.ClassicTheme.create();
+            theme.event.label.width = 500; // px;
+	    theme.event.bubble.width = 300;
+            theme.event.bubble.height = 155;
+	    theme.event.highlightColors = "#FFFF99";
+    	    theme.ether.backgroundColors = [
+		"#FFFFFF",
+	    "#808080",
+	    "#00008B"
+	];  
+
+var eventSource = new Timeline.DefaultEventSource();
+var bandInfos = [
+	Timeline.createBandInfo({
+	theme:		theme,
+	eventSource:    eventSource,
+        date:           "1949",
+        width:          "90%", 
+        height:		"30%", 
+	intervalUnit:   Timeline.DateTime.YEAR, 
+        intervalPixels: "150"	
+	
+                   
+}),
+    Timeline.createBandInfo({
+        theme:		theme,
+	showEventText:  false,
+        date: 		"1949",
+	trackHeight:    "0.5",
+        trackGap:       "0.2",
+	width:          "10%", 
+        intervalUnit:   Timeline.DateTime.DECADE, 
+        intervalPixels: "200"
+	
+    })
+
+  ];
+  bandInfos[1].syncWith = 0;
+  bandInfos[1].highlight = true;
+  bandInfos[1].eventPainter.setLayout(bandInfos[0].eventPainter.getLayout());
+  
+  tl = Timeline.create(document.getElementById("computingtimeline"), bandInfos);
+Timeline.loadXML("computingtimeline.xml", function(xml, url) { eventSource.loadXML(xml, url) });
+}
+
+</script>
+
+<div id="col1">
+
+<div id="header">
+<img src="header.jpg"></div>
+
+
+<h3>Computing at Michigan:  a timeline of major events, 1946-2012</h3>
+
+
+
+
+
+
+<div id="computingtimeline" style="height: 550px; border: 3px solid #aaa; font-size: 13px; font-family: verdana, helvetica"></div>
+
+
+<br />
+
+
+<div id="homeaddress">
+<a href="navigate.htm">How to navigate the Computing Timeline</a> | 
+
+<a href="index.htm">Related Computing Collections</a> | <a href="http://www.bentley.umich.edu">Bentley Historical Library</a> | <a href="http://www.umich.edu">University of Michigan</a>
+</p>
+
+
+Bentley Historical Library<br />
+1150 Beal Avenue<br />
+Ann Arbor, Michigan 48109-2113<br />
+<a href="http://www.bentley.umich.edu">http://www.bentley.umich.edu</a><br />
+U.S.A.<br />
+e-mail:  bentley.ref at umich.edu<br />
+phone:  734-764-3482
+</div>
+
+
+</body>
+</html>
+
+

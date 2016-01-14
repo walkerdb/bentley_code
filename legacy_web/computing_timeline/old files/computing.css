@@ -1,0 +1,487 @@
+
+
+/* CSS Document */
+
+/* GLOBAL */
+	html {
+	font-size: 100%; /* IE fix */
+	height: 100%; /* forces scrollbar and sticky footer */
+	margin-bottom: 1px; /* forces scrollbar */
+	}
+
+	
+
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #ffffff;  
+	font-size: 80%;
+	width: 100%;
+	color: #333333;
+	text-align: justify;
+	float: center;
+	}
+
+
+
+
+	
+	#col1, #col2, #col3 {
+	height: 100%; /* sticky footer for all pages except home */
+	}
+	
+
+
+
+
+
+/* HEADER */
+	#logohome 
+	{
+	height: 85px;
+	background: url(../images/logohome.jpg) no-repeat left top;
+	}
+		
+	#header {
+	height:118px;
+	background: url(../images/logo3.jpg) left top no-repeat;
+	}	
+	
+
+
+
+
+/* TAGS */
+	h1 {
+	font-size: 2em;
+	padding-top: 10px;
+text-align: center;
+	}
+
+	h2 {
+	font-size: 1.5em;
+	padding-top: 10px;
+text-align: center;
+
+	}
+	
+	h3 {
+	font-size: 1.25em;
+	padding-top: 10px;
+	text-align: center;
+	}
+
+	h4 {
+	font-size: 1em;
+	padding-top: 15px;
+	text-transform: uppercase;
+text-align: left;
+
+	}
+
+	input, select, th, td {
+	font-size: 1em;
+	}
+
+	
+
+
+#content {
+	background-color: #FFFFFF;
+	margin-top: 1em;
+	}
+
+	
+#mainnav #search {
+	font-size:1em;
+	}
+	
+	p {
+	padding-top: 0.5em;
+	}
+	
+	
+/* LINKS */
+	a:link {
+	color: #3366cc;
+	}
+
+	a:visited {
+	color: #6699cc;
+	}
+
+	
+
+	
+	
+/* LISTS */
+	
+
+
+#homesidebar ul, #contentA ul, #contentB ul, #secondnav ul, #secondsidebar ul, #secondsidebar ul {
+	list-style: none;
+	text-indent: -1em;
+	padding-left: 1em;
+
+	}
+
+	#sidebar ul {
+	list-style: none;
+	text-indent: -1em;
+	padding-left: 1em;
+	padding-bottom: 1em;
+	}
+	#mainnav ul {
+	list-style: none;
+	}
+	
+	#content ul, #contentA ul, #contentB ul, #wrapper ul {
+	padding-left: 20px;
+	}
+
+	ol {
+	padding-left: 2em;
+	}
+	
+	ol ol {
+	list-style-type:lower-alpha;
+	}
+
+
+/* CLASSES */
+	.viewall {
+	font-size: 0.8em;
+	padding-left: 10px;
+	}
+
+	.maintitle {
+	border-bottom: 1px #E0D6CC solid;
+	padding-top: 10px;
+	}
+		
+	.description {
+	font-size: 0.9em;
+	text-align: justify;
+	}
+	
+	.external, .pdf {
+	background: url(../images/external.jpg) no-repeat right top;
+	padding-right: 10px;
+	}
+
+	
+	.active {
+	background-color: #FFFFFF;
+	}
+	
+	.bold {
+	font-weight: 900;
+	}
+	
+	.footnote {
+	font-size: 0.8em;
+	border: 1px solid #ccc;
+	margin-top: 10px;
+	padding: 0 10px 10px 10px;
+	}
+
+	.sectiontitle {
+	clear: left;
+	}
+	
+	.clear {
+	clear: both;
+	}
+	
+	
+	.highlight {
+	
+
+
+/*background-color: #EBE6DC;*/
+	margin-left: 4em;
+	width: 30em;
+	border: 1px solid #EBE6DC;
+	}
+	
+	.blockquote {
+	margin-left: 4em;
+	margin-right: 4em;
+	font-size: 0.9em;
+	text-align: justify;
+	}
+	
+	
+
+
+.box {
+	border: 3px solid #3366cc; padding: 5px;
+ width: 40%; float:center; }
+	
+	.next {
+	float: right; 
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	}
+	
+	.back {
+	float: left;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	}
+	.italic {
+	font-style: italic;
+	}
+		
+/* IMAGES */
+	.floatRight {
+	float: right; 
+	padding-left: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	}
+
+	
+	.floatLeft {
+	float: left;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	}
+	
+	.floatRight p, .floatLeft p {
+	
+	font-size: 85%;
+	padding-top: 0px;
+	}
+
+
+
+
+
+/* HEADER */
+	#header {
+	text-align: center;
+	}
+	
+	#header img {
+	border: none;
+	}
+	
+	
+/* SIDEBAR */
+	#sidebar {
+	background-color: #;
+	width: 30%;
+	margin-top: 12px;
+	}
+	
+	#homesidebar {
+	padding-left: 10px; 
+	background-color: #E2E2D4;/*#CCBEBE;*/
+	margin-top: 1em;
+	border-top-width: medium; /* GK added 7/28 */
+	border-right-width: medium;
+	border-bottom-width: medium;
+	border-left-width: medium;
+	border-top-style: ridge;
+	border-right-style: ridge;
+	border-bottom-style: ridge;
+	border-left-style: ridge;
+	}
+	
+
+
+
+
+
+/* NAVIGATION BAR */
+	#navigation {
+	background-color: #FFFFFF;
+	}
+	
+	#navigation ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	width: 60em;
+	background-color: #CDC2B3; /*#CDCD8D#E2E2D4;D6CFC9*/
+	float: left;
+	}
+	
+	#navigation ul li {
+	float: left;
+	}
+
+	#navigation ul a {
+	color: #3366cc;
+	padding: 0 0.9em;
+	float: left;
+	line-height: 2em;
+	text-decoration: none;
+	}
+
+	#navigation ul a:hover {
+	text-decoration: underline;
+	}
+	
+	#current a:visited, #current a:link {
+	color: #;
+	text-decoration: underline;
+	}
+
+/* 
+
+
+
+
+/* LINKS */
+	a:link {
+	color: #3366cc;
+	}
+
+	a:visited {
+	color: #3366cc;
+	}
+
+	.menu a:link, h4 a:link {
+	color: #3366cc;
+	text-decoration: none;
+	}
+
+	.menu a:visited, h4 a:visited {
+	color:#3366cc;
+	text-decoration: none;
+	}
+
+	.menu a:hover, h4 a:hover {
+	color: #663300;
+	text-decoration: underline;
+	}
+	
+/* LISTS */
+	#homesidebar ul, #contentA ul, #contentB ul, #home ul /*delete #homesidebar when new index page takes effect */
+	{
+	list-style: none;
+	text-indent: -1em;
+	padding-left: 1em;
+
+	}
+
+	#sidebar ul {
+	list-style: none;
+	text-indent: -1em;
+	padding-left: 1em;
+	padding-bottom: 1em;
+	}
+	#mainnav ul {
+	list-style: none;
+	}
+	
+	#content ul, #contentA ul, #contentB ul, #wrapper ul {
+	padding-left: 20px;
+	}
+
+	ol {
+	padding-left: 2em;
+	}
+	
+	ol ol {
+	list-style-type:lower-alpha;
+	}
+/
+
+
+
+
+
+CONTENT */
+	#wrapper {
+	font-size:1.3em;
+	text-align: left;
+	background-color: #FFFFFF;
+	position: relative; /*sticky footer */
+	min-height: 100%; /*sticky footer */
+	padding: 10px 15px 0 15px;
+	}
+	
+	* html #wrapper {
+	height: 100%; /* sticky footer */
+	}
+	
+	#breadcrumbs {
+	padding-top: 0.3em;
+	clear: both;
+	}
+	#content {
+	background-color: #FFFFFF;
+	margin-top: 1em;
+	}
+
+	
+
+#description {	
+	clear: left;
+	}
+	
+	#description ul {
+	font-size: 0.9em;
+	}
+#intro { align: center; }
+
+
+
+
+/* HOME PAGE ADDRESS/LOGO  GK added 8/7/07 */	
+    #homeaddress {
+	text-align:center;
+	width: 100%;
+	}
+	
+	#homeaddressbhl {
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:1.75em;
+	color:#993300;
+	}
+	
+	#homeaddressum {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:1.15em;
+	color:#993300;
+    }
+	
+	#homeaddressadd {
+	font-size:.85em;
+    }
+
+
+	
+/* FOOTER */
+	#footer {
+	text-align: center;
+	font-size: 1em;
+	clear: both;
+	position: relative;
+	margin: -11.6em auto 0 auto; /* sticky footer */
+	height: 11.6em; /* sticky footer */
+	border-top: 2px solid #CDC2B3;
+	width: 77em;
+	}
+	
+	* html #footer {
+	margin-top: -11.5em; /* sticky footer */
+	}
+	div .clear {
+	height: 11.6em; /* sticky footer */
+	}
+
+/* TEXT ALIGN */
+  
+    .centertext {
+	text-align: center;
+     }
+
+.intro { text-align: left;
+ }

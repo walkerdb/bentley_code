@@ -1,5 +1,6 @@
 import unittest
-from aspaceify_extents import split_extents
+
+from normalization.aspaceify_extents.aspaceify_extents.aspaceify_extents import split_extents
 
 
 class TestExtentSplitter(unittest.TestCase):

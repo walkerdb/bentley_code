@@ -1,0 +1,239 @@
+/* --------------------
+
+NEW BENTLEY STYLES
+
+-------------------- */
+
+#wrapper {
+	clear: both;
+}
+
+/* ----------
+GENERAL STYLES
+---------- */
+#bentley-header .wrapper,
+#bentley-footer .wrapper {
+	max-width: 758px;
+	margin: 0 auto;
+	clear: both;
+}
+
+#bentley-header .hidden {
+	display: none;
+}
+
+
+/* ----------
+BENTLEY HEADER
+---------- */
+#bentley-header {
+	color: #ffffff;
+	background-color: #ffffff;
+}
+
+#bentley-header a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+#bentley-branding ul li {
+	display: inline-block;
+}
+
+#main-nav ul li,
+#audience-nav ul li {
+	display: inline;
+	float: left;
+}
+
+/* ----------
+BRANDING
+---------- */
+#bentley-branding {
+	background-color: #10294b;
+	padding: 23px 0;
+}
+
+#bentley-branding #logo {
+	float: left;
+	margin-left: 10px;
+	padding-top: 0;
+}
+
+#bentley-branding #logo a {
+	background-image: url(../graphics/bhl-fa-smlogo.gif);
+	background-size: 100%;
+	height: 52px;
+	width: 470px;
+	display: block;
+}
+
+#bentley-branding .social {
+	text-align: right;
+}
+
+#bentley-branding .social li {
+	background-color: #231F20;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+	height: 30px;
+	width: 30px;
+	margin: 0 5px 0 0;
+	font-size: 20px;
+	text-align: center;
+}
+
+#bentley-branding .social li:hover {
+	background-color: #767676;
+}
+
+#bentley-branding .social a {
+	display: block;
+	padding-top: 3px;
+}
+
+#bentley-branding .social p {
+	font-size: 14px;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	clear: both;
+}
+
+/* ----------
+AUDIENCE NAV
+---------- */
+#audience-nav {
+	text-transform: uppercase;
+}
+
+#audience-nav ul {
+	background: #ffffff;
+	background-color: rgba(255,255,255,.8);
+	float: right;
+}
+
+#audience-nav li:first-child {
+	padding: 10px;
+}
+
+#audience-nav li {
+	margin: 0;
+}
+
+#audience-nav li a {
+	border-left: solid 1px #767676;
+	padding: 10px 20px;
+	display: block;
+}
+
+#audience-nav,
+#audience-nav a {
+	color: #767676;
+}
+
+#audience-nav a:hover {
+	color: #ffffff;
+	background-color: #886b01;
+}
+
+/* ----------
+MAIN NAV
+---------- */
+#main-nav {
+	position: relative;
+	text-transform: uppercase;
+}
+
+#main-nav ul {
+	background: #10294b;
+	background-color: rgba(16,41,75,0.8);
+	text-align: left;
+	float: left;
+	width: 100%;
+}
+
+#main-nav li {
+	margin: 0;
+	position: relative;
+}
+
+#main-nav li:first-child a {
+	padding: 24px 16px;
+}
+
+#main-nav li a {
+	padding: 24px 10px;
+	display: block;
+	letter-spacing: 1px;
+}
+
+#main-nav li a:hover,
+#main-nav li:hover {
+	background-color: #10294b;
+}
+
+#main-nav li ul.main-sub-nav {
+	position: absolute;
+	text-align: left;
+	z-index: 1;
+	background-color: #10294b;
+	display: none;
+	padding: 6px;
+	min-width: 100px;
+}
+
+#main-nav li ul.main-sub-nav li {
+	width: 100%;
+}
+
+#main-nav li ul.main-sub-nav a {
+	padding: 15px 7px;
+}
+
+#main-nav li:hover ul.main-sub-nav {
+	display: block;
+}
+
+#main-nav li ul.main-sub-nav a:hover {
+	background-color: #394c62;
+}
+
+/* ----------
+FOOTER STYLES
+---------- */
+#bentley-footer {
+	background-color: #10294b;
+	color: #ffffff;
+	padding: 25px 0;
+	margin-top: 25px;
+	clear: both;
+}
+
+#bentley-footer ul {
+	list-style: none;
+	text-align: left;
+	line-height: 16px;
+	font-size: 12px
+}
+
+#bentley-footer a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+#bentley-footer a:hover {
+	background-color: #edebe6;
+	color: #000000;
+}
+
+
+
+td {
+	padding: 5px;
+}
+.trodd,
+.treven {
+	background-color: #cccccc;
+	padding-bottom: 5px;
+}

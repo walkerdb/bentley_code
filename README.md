@@ -24,7 +24,7 @@ Tools for cleaning and normalizing EAD data
 * __Expanding container ranges__: Given a single c0x item described with a range of containers (eg boxes 1-10), this script creates individual c0x entries for each item in that original range.
 * __Extent extraction from unittitles__: A number of unittitles included their extents as a parenthetical. This extracts those and creates their relevant extent tags
 
-##Transformations
+##Mapping data to ASpace
 Tools to map data from one system to another
 
 * __Agents from EADs to ASpace__: Extracts all agents from a directory of EAD files, generates ASpace-compliant JSON for all of them, then posts that data to an ASpace instance.
@@ -37,3 +37,4 @@ Tools to summarize or characterize specific sets of data
 * __Characterizing c0x series paths__: Exports a list of all series paths with occurrence counts across all eads (eg Series -> File -> File -> Item)
 * __Summarizing all tag/attribute value pairs__: Exports a list of the counts of all pairs of tag/attribute values found in all eads.
 * __Self-nesting tag detection__: Finds all instances of tags that have the same tag type as a child. 
+* __Missing boxes check__: Finds potential missing boxes in a finding aid (for example, if in the entire finding aid there is box 1 and 3 but never a 2, this flags that EAD file)

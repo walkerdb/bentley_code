@@ -1,0 +1,99 @@
+I'm going to want to check to see if any of the location or id identifiers are different from the previous element.
+    <container>x</container>
+    <unitid>x</unitid>
+    if any of these are different, I'll have to just record where it's located and deal with it manually.
+
+
+Examples:
+
+Completely blank c0x tag - just delete
+<c03 level="file">
+    <did>
+        <unittitle></unittitle>
+    </did>
+</c03>
+
+Completely blank c0x tag, except for a box number in container tag: - check if box number is unique; if not, delete, else note location and fix manually
+<c04 level="file">
+    <did>
+        <container type="box" label="Box">26</container>
+        <unittitle></unittitle>
+    </did>
+</c04>
+
+Unique entry missing a title entirely: - note location and fix manually
+<c02 level="item">
+  <did>
+    <unitid>29. </unitid>
+    <dao href="bl006337" show="new" actuate="onrequest">
+      <daodesc>
+        <p>[view image]</p>
+      </daodesc>
+    </dao>
+  </did>
+</c02>
+
+An entire untitled c02 stack whose children belong to its upper sibling - move to sibling
+<c02 level="file">
+  <did>
+    <unittitle>Minutes and Related Documents of the Administrative Committee, <unitdate type="inclusive">1936-1948</unitdate></unittitle>
+  </did>
+</c02>
+<c02 level="file">
+  <did>
+    <unittitle>
+    </unittitle>
+  </did>
+  <c03 level="file">
+    <did>
+      <container type="box" label="Box">1</container>
+      <unittitle>
+        <unitdate type="inclusive">1936-1946</unitdate>
+      </unittitle>
+    </did>
+  </c03>
+  <c03 level="file">
+    <did>
+      <container type="box" label="Box">2</container>
+      <unittitle>
+        <unitdate type="inclusive">1947-1948</unitdate>
+      </unittitle>
+    </did>
+  </c03>
+</c02>
+
+Notes placed in new untitled c0x children (belongs to parent) - move to parent
+<c03 level="item">
+    <did>
+        <container type="box" label="Box">3</container>
+        <unittitle></unittitle>
+    </did>
+    <note>
+        <p>(See Jones &amp; Henry Engineers)</p>
+    </note>
+</c03>
+
+Extents getting their own untitled c0x level (belongs to parent c0x level) - move to parent
+<c03 level="file">
+    <did>
+        <unittitle>Unidentified and fragments</unittitle>
+    </did>
+    <c04 level="file">
+        <did>
+            <container type="box" label="Box">61</container>
+            <unittitle></unittitle>
+            <physdesc>
+                <extent>sixteen cassettes, two DATs</extent>
+            </physdesc>
+        </did>
+    </c04>
+    <c04 level="file">
+        <did>
+            <container type="box" label="Box">79</container>
+            <unittitle></unittitle>
+            <physdesc>
+                <extent>one 7" reel</extent>
+            </physdesc>
+        </did>
+    </c04>
+</c03>
