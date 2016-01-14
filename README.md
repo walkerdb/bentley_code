@@ -1,34 +1,7 @@
 #Code for the Bentley Historical Library
+An overview of code developed to assist work at the Bentley Historical Library
 
-##Table of Contents
-
-    
-* Utilities
-    * ASpace/python API interface
-    * EAD prettification
-    * Utility classes (EAD manipulation / transformation)
-        * EAD objects
-        * EADDir objects
-
-* Normalization / cleanup
-    * Extents
-    * Reconciling local and LoC authority records
-    * Removing unitdates from unittitles
-    * Cleaning empty unittitles
-    * Attribute normalization
-    * Container label normalization
-    * Expanding container ranges
-    * Extracting extents from unittitle parentheticals
-    
-* Transformations
-    * Mapping agents from EADs to ASpace records
-    * Mapping accessions from BEAL to ASpace
-    
-* Summarizations / characterizations
-    * UMich publications in HathiTrust
-    * Characterizing c0x series paths
-    * Counting tag/attribute pairs
-    * Finding all tags with a child of the same tag type
+The majority are tools for working with EAD files, but there are several other useful projects described as well.
 
 
 ##Utilities
