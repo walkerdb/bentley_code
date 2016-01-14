@@ -25,7 +25,7 @@ class EAD(object):
         with open(os.path.join(output_dir, self.filename), mode="w") as f:
             f.write(text)
 
-        os.remove("tmp")
+        # os.remove("tmp")
 
 
 class EADDir(object):
