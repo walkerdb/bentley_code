@@ -4,6 +4,10 @@ import re
 from tqdm import tqdm
 
 
+# CHANGE THIS
+input_filename = "accessions_20151030-final.csv"
+
+
 def make_accession_json_list(filepath):
     all_json_data = []
 
@@ -275,7 +279,7 @@ def make_user_defined_json(accession, field_mappings):
 
 if __name__ == "__main__":
 
-    json_data = make_accession_json_list("accessions_20151030-final.csv")
+    json_data = make_accession_json_list(input_filename)
 
     with open("json_data.json", mode="w") as f:
         f.write(json.dumps(json_data, indent=4, sort_keys=True, ensure_ascii=False))
