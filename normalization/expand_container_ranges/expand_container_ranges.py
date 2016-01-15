@@ -74,6 +74,7 @@ def create_child_nodes(base_node, nested=True):
 
     if len(containers) == 0:
         print("wtf")
+        exit()
     elif len(containers) == 1:
         range_container = containers[0]
     else:
