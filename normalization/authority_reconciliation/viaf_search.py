@@ -9,6 +9,16 @@ from tqdm import tqdm
 search_types = ["geographicNames", "personalNames", "corporateNames"]
 
 
+def main():
+    with open("geognames.csv") as f:
+        reader = csv.reader(f)
+        for location in tqdm(list(reader)):
+            if "--" not in location[0]:
+                get_auth_id_from_api("viaf", "lc", location[0], search_type="geographicNames")
+
+                time.sleep(.1)
+
+
 def get_auth_id_from_api(target_api, auth_source, search_term, search_type):
     query = create_query(target_api, auth_source, search_term, search_type)
     response = urlopen(query).read()
@@ -67,12 +77,5 @@ def create_query(target_api, auth_source, search_term, search_type=""):
         pass
 
 
-
 if __name__ == "__main__":
-    with open("geognames.csv") as f:
-        reader = csv.reader(f)
-        for location in tqdm(list(reader)):
-            if "--" not in location[0]:
-                get_auth_id_from_api("viaf", "lc", location[0], search_type="geographicNames")
-
-                time.sleep(.1)
+    main()
