@@ -8,7 +8,7 @@ A general utility script that searches through all matching tag/attribute pairs 
 ## Usage
 The following variables (found at the bottom of the script) should be edited to your needs:
 
-* ```input_dir```: the source directory of EADs
+* ```input_dir```: the source EAD directory
 * ```output_dir```: where to output the changed EAD files
 * ```target_tag```: name of the tag that contains the attribute you want to normalize
 * ```attribute```: name of the attribute that you are targeting
