@@ -114,6 +114,6 @@ def move_extent_parens(input_dir, output_dir, input):
 
 if __name__ == "__main__":
     input_dir = r"C:\Users\wboyle\PycharmProjects\vandura\Real_Masters_all"
-    output_dir = r"C:\Users\wboyle\PycharmProjects\bentley_code\one-off scripts\unittitle_parentheticals\output"
+    output_dir = "output"
     candidates = find_parens(input_dir)
     move_extent_parens(input_dir, output_dir, candidates)

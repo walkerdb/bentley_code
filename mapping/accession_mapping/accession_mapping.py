@@ -275,7 +275,7 @@ def make_user_defined_json(accession, field_mappings):
 
 if __name__ == "__main__":
 
-    json_data = make_accession_json_list(r"C:\Users\wboyle\PycharmProjects\bentley_code\main_projects\accession_mapping\accessions_20151030-final.csv")
+    json_data = make_accession_json_list("accessions_20151030-final.csv")
 
     with open("json_data.json", mode="w") as f:
         f.write(json.dumps(json_data, indent=4, sort_keys=True, ensure_ascii=False))
