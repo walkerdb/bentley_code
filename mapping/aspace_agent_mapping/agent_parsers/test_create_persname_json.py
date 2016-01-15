@@ -1,7 +1,7 @@
 # coding=utf-8
 import unittest
 
-from mapping.aspace_agent_mapping.agent_parsers import parse_persname as parse
+from mapping.aspace_agent_mapping.agent_parsers.create_persname_json import parse_persname as parse
 
 
 class TestParsePersname(unittest.TestCase):

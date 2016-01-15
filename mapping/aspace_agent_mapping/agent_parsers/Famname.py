@@ -1,6 +1,6 @@
 import json
 
-from mapping.aspace_agent_mapping.agent_parsers import parse_famname
+from mapping.aspace_agent_mapping.agent_parsers.create_famname_json import parse_famname
 
 class Famname:
     def __init__(self, string, auth_id="", auth_source=""):

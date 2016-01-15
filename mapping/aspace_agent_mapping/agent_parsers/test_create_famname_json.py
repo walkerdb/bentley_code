@@ -1,6 +1,6 @@
 import unittest
 
-from mapping.aspace_agent_mapping.agent_parsers import parse_famname as parse
+from mapping.aspace_agent_mapping.agent_parsers.create_famname_json import parse_famname as parse
 
 class TestFamnameParser(unittest.TestCase):
 

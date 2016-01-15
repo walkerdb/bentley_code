@@ -1,7 +1,7 @@
 from unittest import TestCase
 import json
 
-from mapping.aspace_agent_mapping.agent_parsers import Persname
+from mapping.aspace_agent_mapping.agent_parsers.Persname import Persname
 
 
 class TestPersname(TestCase):

@@ -1,6 +1,6 @@
 import json
 
-from mapping.aspace_agent_mapping.agent_parsers import parse_corpname
+from mapping.aspace_agent_mapping.agent_parsers.create_corpname_json import parse_corpname
 
 class Corpname:
     def __init__(self, string, auth_id="", auth_source=""):

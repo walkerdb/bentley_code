@@ -1,6 +1,6 @@
 import json
 
-from mapping.aspace_agent_mapping.agent_parsers import parse_persname
+from mapping.aspace_agent_mapping.agent_parsers.create_persname_json import parse_persname
 
 class Persname:
     def __init__(self, string, auth_id="", auth_source=""):
