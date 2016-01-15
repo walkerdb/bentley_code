@@ -27,7 +27,7 @@ would be split and normalized into the following:
 </physdesc>
 ```
     
-A full list of which terms are normalized into what can be found here.
+A full list of which terms are normalized into what can be found [here](https://docs.google.com/spreadsheets/d/1oen1UAFLzrATjVxHDlC7LRHHHaxeRpXsUTt0GhEKV1Y/edit#gid=0).
 
 All terms are pluralized to enable better faceting in ArchivesSpace
 
