@@ -1,7 +1,7 @@
 from collections import namedtuple
 import re
 
-from normalization.aspaceify_extents.aspaceify_extents.scripts import normalization_dict
+from normalization.aspaceify_extents.aspaceify_extents.scripts.extent_constants import normalization_dict
 
 
 def split_into_aspace_components(unparsed_extent, portion, is_multiple=False):

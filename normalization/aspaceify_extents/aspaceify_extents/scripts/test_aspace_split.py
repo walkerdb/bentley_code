@@ -2,16 +2,16 @@ from __future__ import absolute_import
 import unittest
 from collections import namedtuple
 
-from normalization.aspaceify_extents import split_into_aspace_components
+from normalization.aspaceify_extents.aspaceify_extents.scripts.make_aspace_extent_distinctions import split_into_aspace_components
 
 
 class TestASpaceSplit(unittest.TestCase):
     def setUp(self):
         self.ASpaceExtent = namedtuple("ASpaceExtent", ["type_", "portion", "container_summary", "dimensions", "physfacet"])
 
-    def check_output_equality(self, extent, type_="", container_summary="", dimensions="", physfacet="", portion="whole", multiple=False):
+    def check_output_equality(self, extent, type_="", container_summary="", dimensions="", physfacet="", portion="whole", is_multiple=False):
         target_namedtuple = self.ASpaceExtent(type_=type_, portion=portion, physfacet=physfacet, container_summary=container_summary, dimensions=dimensions)
-        generated_namedtuple = split_into_aspace_components(extent, multiple)
+        generated_namedtuple = split_into_aspace_components(extent, portion, is_multiple)
         self.assertEqual(generated_namedtuple, target_namedtuple)
 
     def test_type_only(self):
@@ -93,7 +93,7 @@ class TestASpaceSplit(unittest.TestCase):
         self.check_output_equality("original drawings, pencil and colored pencil on tracing paper", type_="original drawings, pencil and colored pencil on tracing paper")
 
     def test_portion_assigns_part_correctly(self):
-        self.check_output_equality("1 linear foot", type_="1 linear feet", portion="part", multiple=True)
+        self.check_output_equality("1 linear foot", type_="1 linear feet", portion="part", is_multiple=True)
 
 
 if __name__ == "__main__":

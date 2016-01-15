@@ -2,7 +2,7 @@
 from __future__ import absolute_import
 import unittest
 
-from normalization.aspaceify_extents import split_into_extents
+from normalization.aspaceify_extents.aspaceify_extents.scripts.extent_parser import split_into_extents
 
 
 class TestExtentSplitter(unittest.TestCase):

@@ -3,7 +3,7 @@ import csv
 
 from tqdm import tqdm
 
-from normalization.aspaceify_extents import split_into_extents
+from normalization.aspaceify_extents.aspaceify_extents.scripts.extent_parser import split_into_extents
 
 CHARACTERIZE = False
 

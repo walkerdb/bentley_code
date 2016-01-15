@@ -8,12 +8,12 @@ from tqdm import tqdm
 from .scripts.make_aspace_extent_distinctions import split_into_aspace_components
 from .scripts.prettifydirectory import prettify_xml_in_directory
 from .scripts.extent_parser import split_into_extents
-from normalization.aspaceify_extents.aspaceify_extents.scripts import etree_editor
+from .scripts import etree_editor
 
 
-def main(source="C:/Users/wboyle/PycharmProjects/bentley_code/main_projects/aspaceify_extents/input/all_extents_reversed.csv"):
-    path_to_eads = "C:/Users/wboyle/PycharmProjects/vandura/Real_Masters_all"
-    path_to_output = "C:/Users/wboyle/PycharmProjects/bentley_code/main_projects/aspaceify_extents/output"
+def main(source="C:/Users/wboyle/PycharmProjects/bentley_code/main_projects/aspaceify_extents/input/all_extents_reversed.csv",
+         path_to_eads="C:/Users/wboyle/PycharmProjects/vandura/Real_Masters_all",
+         path_to_output="C:/Users/wboyle/PycharmProjects/bentley_code/main_projects/aspaceify_extents/output"):
     edited_filenames = set()
     types = {}
 
