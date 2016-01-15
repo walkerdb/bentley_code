@@ -1,8 +1,8 @@
 from tqdm import tqdm
 
-from mapping.aspace_agent_mapping.agent_parsers import Corpname
-from mapping.aspace_agent_mapping.agent_parsers import Famname
-from mapping.aspace_agent_mapping.agent_parsers import Persname
+from mapping.aspace_agent_mapping.agent_parsers.Corpname import Corpname
+from mapping.aspace_agent_mapping.agent_parsers.Famname import Famname
+from mapping.aspace_agent_mapping.agent_parsers.Persname import Persname
 
 
 def prepare_agents(agent_dict):
