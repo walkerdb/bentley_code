@@ -1,10 +1,12 @@
 #Accession mapping
 A set of scripts for mapping and posting accession data from BEAL exports to an ASpace instance
 
-##Setup
+##Requirements
 Requires [tqdm](https://github.com/noamraph/tqdm) and the [PySpace interface](https://github.com/walkerdb/bentley_code/blob/master/utilities/aspace_interface/pyspace.py)
 
-Things to do and edit before running the code:
+##Setup
+
+Things to update before running the code:
 
 1. Use Dallas' BEAL export scripts to create a csv of original accession data from BEAL
 2. Update the "input_filename" variable at the top of the ```accession_mapping.py``` script to the path to the intended input csv file
