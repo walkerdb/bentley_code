@@ -7,10 +7,10 @@ This set of scripts performs the following:
 
 ```xml
 <physdesc>
-    <extent altrender="materialtype spaceoccupied">12 photographs</extent>  // the extent type and count
-    <extent altrender="carrier">in 2 folders</extent>  // the thing containing the described objects
-    <physfacet>photographic negatives</physfacet>  // details about the overarching extent type
-    <dimensions>12in. x 10in.</dimensions>  // the physical size of the items
+    <extent altrender="materialtype spaceoccupied">12 photographs</extent>  <!-- the extent type and count -->
+    <extent altrender="carrier">in 2 folders</extent>  <!-- the thing containing the described objects -->
+    <physfacet>photographic negatives</physfacet>  <!-- details about the overarching extent type -->
+    <dimensions>12in. x 10in.</dimensions>  <!-- the physical size of the items -->
 </physdesc>
 ```
     
