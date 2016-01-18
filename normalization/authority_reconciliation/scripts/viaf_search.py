@@ -22,7 +22,7 @@ def main():
 def get_auth_id_from_api(target_api, auth_source, search_term, search_type):
     query = create_query(target_api, auth_source, search_term, search_type)
     response = urlopen(query).read()
-    heading, lc_address = get_auth_data(target_api, response)
+    heading, lc_address = _get_auth_data(target_api, response)
 
     with open("geognames_with_unverified_ids.csv", mode="ab") as f:
         writer = csv.writer(f)
@@ -30,7 +30,7 @@ def get_auth_id_from_api(target_api, auth_source, search_term, search_type):
         writer.writerow(row)
 
 
-def get_auth_data(target_api, response):
+def _get_auth_data(target_api, response):
     if "viaf" in target_api:
         lc_template = "http://id.loc.gov/authorities/names/{0}.html"
         lc_address = ""

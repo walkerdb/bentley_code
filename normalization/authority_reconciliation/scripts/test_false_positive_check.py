@@ -1,6 +1,6 @@
 import unittest
 
-from normalization.authority_reconciliation.false_positive_check import is_same_entity
+from normalization.authority_reconciliation.scripts.false_positive_check import is_same_entity
 
 
 class TestFalsePositiveCheckGeognames(unittest.TestCase):

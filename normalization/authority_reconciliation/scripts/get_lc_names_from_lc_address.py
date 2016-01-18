@@ -3,7 +3,7 @@ import time
 
 from tqdm import tqdm
 
-from normalization.authority_reconciliation.viaf_search import get_lc_heading
+from normalization.authority_reconciliation.scripts.viaf_search import get_lc_heading
 
 with open("found_id_dicts/persname_id_dict.txt", mode="r") as f:
     id_dict = eval(f.read())
