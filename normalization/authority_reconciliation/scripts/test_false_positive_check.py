@@ -1,3 +1,4 @@
+# coding=utf-8
 import unittest
 
 from normalization.authority_reconciliation.scripts.false_positive_check import is_same_entity
@@ -82,6 +83,9 @@ class TestFalsePositiveCheckPersnames(unittest.TestCase):
 
     def test_mismatch_with_dates(self):
         self.assertFalse(is_same_entity(u"Tobin, Daniel J.", u"Tobin, Daniel Joseph, 1875-1955", controlaccess_type=u"persname"))
+
+    def test_special_characters(self):
+        is_same_entity(u"Chopin, Frederic Francois (1810-1849)", u"Chopin, Frédéric François (1810-1849)", controlaccess_type=u"persname")
 
 
 if __name__ == "__main__":
