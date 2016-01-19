@@ -30,19 +30,19 @@ def iterate_through_csv(input_filename, output_filename, controlaccess_type):
 
 def is_same_entity(local_term, lc_term, controlaccess_type):
 
-    if "geogname" in controlaccess_type:
+    if u"geogname" in controlaccess_type:
         # geognames are a simple check. Returns true if the
         # similarity is > 95; else false
         similarity = fuzz.token_sort_ratio(local_term, lc_term)
         return similarity > 95
 
-    elif "corpname" in controlaccess_type:
+    elif u"corpname" in controlaccess_type:
         # replace some common abbreviations with their full forms
-        local_term = local_term.replace("U.S.", "United States")
-        lc_term = lc_term.replace("U.S.", "United States")
+        local_term = local_term.replace(u"U.S.", u"United States")
+        lc_term = lc_term.replace(u"U.S.", u"United States")
 
-        local_term = local_term.replace("N.Y.", "New York")
-        lc_term = lc_term.replace("N.Y.", "New York")
+        local_term = local_term.replace(u"N.Y.", u"New York")
+        lc_term = lc_term.replace(u"N.Y.", u"New York")
 
         # custom checks for compound corpnames (separated by a ". ")
         # if it's not a compound name, it does a "WRatio" comparison,
@@ -56,7 +56,7 @@ def is_same_entity(local_term, lc_term, controlaccess_type):
 
         return similarity >= 90
 
-    elif "persname" in controlaccess_type:
+    elif u"persname" in controlaccess_type:
         # The persname check performs a normal fuzz comparison,
         # but also explicitly compares birth and death dates,
         # adding a bias to the fuzz score based on those results
@@ -100,7 +100,7 @@ def is_same_entity(local_term, lc_term, controlaccess_type):
 
 
 if __name__ == "__main__":
-    types = ["persname", "geogname", "corpname"]
+    types = [u"persname", u"geogname", u"corpname"]
     for controlaccess_type in types:
         input_filename = "working_csvfiles/all_{0}_matches_(unverified).csv".format(controlaccess_type)
         output_filename = "working_csvfiles/{0}s_with_ids_verified.csv".format(controlaccess_type)

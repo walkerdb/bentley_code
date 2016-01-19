@@ -5,83 +5,83 @@ from normalization.authority_reconciliation.scripts.false_positive_check import 
 
 class TestFalsePositiveCheckGeognames(unittest.TestCase):
     def test_definite_match(self):
-        self.assertTrue(is_same_entity("hello", "hello", controlaccess_type="geogname"))
+        self.assertTrue(is_same_entity(u"hello", u"hello", controlaccess_type=u"geogname"))
 
     def test_reordered_match(self):
-        self.assertTrue(is_same_entity("Ann Arbor (Mich. : Township)", "Ann Arbor Township (Mich.)", controlaccess_type="geogname"))
+        self.assertTrue(is_same_entity(u"Ann Arbor (Mich. : Township)", u"Ann Arbor Township (Mich.)", controlaccess_type=u"geogname"))
 
     def test_township_mismatch(self):
-        self.assertFalse(is_same_entity("Ann Arbor (Mich.)", "Ann Arbor Township (Mich.)", controlaccess_type="geogname"))
+        self.assertFalse(is_same_entity(u"Ann Arbor (Mich.)", u"Ann Arbor Township (Mich.)", controlaccess_type=u"geogname"))
 
     def test_definite_mismatch(self):
-        self.assertFalse(is_same_entity("Buffalo (N.Y.)", "Canisus College", controlaccess_type="geogname"))
+        self.assertFalse(is_same_entity(u"Buffalo (N.Y.)", u"Canisus College", controlaccess_type=u"geogname"))
 
 
 class TestFalsePositiveCheckCorpnames(unittest.TestCase):
     def test_definite_match(self):
-        self.assertTrue(is_same_entity("United States. Army. Michigan Artillery Regiment, 6th (1863-1865)",
-                                       "United States. Army. Michigan Artillery Regiment, 6th (1863-1865)",
-                                       controlaccess_type="corpname"))
+        self.assertTrue(is_same_entity(u"United States. Army. Michigan Artillery Regiment, 6th (1863-1865)",
+                                       u"United States. Army. Michigan Artillery Regiment, 6th (1863-1865)",
+                                       controlaccess_type=u"corpname"))
 
     def test_match_with_extra_words(self):
-        self.assertTrue(is_same_entity("New York World's Fair (1939-1940)",
-                                       "New York World's Fair (1939-1940 : New York, N.Y.)",
-                                       controlaccess_type="corpname"))
+        self.assertTrue(is_same_entity(u"New York World's Fair (1939-1940)",
+                                       u"New York World's Fair (1939-1940 : New York, N.Y.)",
+                                       controlaccess_type=u"corpname"))
 
     def test_match_with_ampersand(self):
-        self.assertTrue(is_same_entity("Gunnar Birkerts   Associates.", "Gunnar Birkerts & Associates", controlaccess_type="corpname"))
+        self.assertTrue(is_same_entity(u"Gunnar Birkerts   Associates.", u"Gunnar Birkerts & Associates", controlaccess_type=u"corpname"))
 
     def test_definite_mismatch(self):
-        self.assertFalse(is_same_entity("Oberlin College.", "Allen Memorial Art Museum", controlaccess_type="corpname"))
+        self.assertFalse(is_same_entity(u"Oberlin College.", u"Allen Memorial Art Museum", controlaccess_type=u"corpname"))
 
     def test_fuzzy_mismatch(self):
-        self.assertFalse(is_same_entity("University of Michigan. Gilbert and Sullivan Society.",
-                                        "Friends of the University of Michigan Gilbert and Sullivan Society",
-                                        controlaccess_type="corpname"))
+        self.assertFalse(is_same_entity(u"University of Michigan. Gilbert and Sullivan Society.",
+                                        u"Friends of the University of Michigan Gilbert and Sullivan Society",
+                                        controlaccess_type=u"corpname"))
 
     def test_wrong_university(self):
-        self.assertFalse(is_same_entity("University of Michigan. Department of Civil and Environmental Engineering.",
-                                        "Michigan Technological University. Department of Civil and Environmental Engineering",
-                                        controlaccess_type="corpname"))
+        self.assertFalse(is_same_entity(u"University of Michigan. Department of Civil and Environmental Engineering.",
+                                        u"Michigan Technological University. Department of Civil and Environmental Engineering",
+                                        controlaccess_type=u"corpname"))
 
 
 class TestFalsePositiveCheckPersnames(unittest.TestCase):
     def test_definite_match(self):
-        self.assertTrue(is_same_entity("Slichter, Sumner H. (Sumner Huber), 1892-1959.",
-                                       "Slichter, Sumner H. (Sumner Huber), 1892-1959",
-                                       controlaccess_type="persname"))
+        self.assertTrue(is_same_entity(u"Slichter, Sumner H. (Sumner Huber), 1892-1959.",
+                                       u"Slichter, Sumner H. (Sumner Huber), 1892-1959",
+                                       controlaccess_type=u"persname"))
 
     def test_match_with_salutation(self):
-        self.assertTrue(is_same_entity("Allen, Edward Payson, 1839-1909.",
-                                       "Allen, Mr. (Edward Payson), 1839-1909",
-                                       controlaccess_type="persname"))
+        self.assertTrue(is_same_entity(u"Allen, Edward Payson, 1839-1909.",
+                                       u"Allen, Mr. (Edward Payson), 1839-1909",
+                                       controlaccess_type=u"persname"))
 
     def test_match_without_paren_name(self):
-        self.assertTrue(is_same_entity("Altmeyer, Arthur Joseph, 1891-1972.",
-                                       "Altmeyer, Arthur J. (Arthur Joseph), 1891-1972",
-                                       controlaccess_type="persname"))
+        self.assertTrue(is_same_entity(u"Altmeyer, Arthur Joseph, 1891-1972.",
+                                       u"Altmeyer, Arthur J. (Arthur Joseph), 1891-1972",
+                                       controlaccess_type=u"persname"))
 
     def test_complex_match(self):
-        self.assertTrue(is_same_entity("Dillman, Grover C., 1889-",
-                                       "Dillman, Grover C. (Grover Cleveland), 1889-1979",
-                                       controlaccess_type="persname"))
+        self.assertTrue(is_same_entity(u"Dillman, Grover C., 1889-",
+                                       u"Dillman, Grover C. (Grover Cleveland), 1889-1979",
+                                       controlaccess_type=u"persname"))
 
     def test_with_new_deathdate(self):
-        self.assertTrue(is_same_entity("Bronte, Lydia, 1938-", "Bronte, Lydia, 1938-2003", controlaccess_type="persname"))
+        self.assertTrue(is_same_entity(u"Bronte, Lydia, 1938-", u"Bronte, Lydia, 1938-2003", controlaccess_type=u"persname"))
 
     def test_match_without_dates(self):
-        self.assertTrue(is_same_entity("Danforth, Percy.", "Danforth, Percy", controlaccess_type="persname"))
+        self.assertTrue(is_same_entity(u"Danforth, Percy.", u"Danforth, Percy", controlaccess_type=u"persname"))
 
     def test_definite_mismatch(self):
-        self.assertFalse(is_same_entity("Wilder, Thornton, 1897-1975.",
-                                        "Williams, Tennessee, 1911-1983",
-                                        controlaccess_type="persname"))
+        self.assertFalse(is_same_entity(u"Wilder, Thornton, 1897-1975.",
+                                        u"Williams, Tennessee, 1911-1983",
+                                        controlaccess_type=u"persname"))
 
     def test_partial_mismatch(self):
-        self.assertFalse(is_same_entity("Brown, Catherine.", "Tkacz, Catherine Brown", controlaccess_type="persname"))
+        self.assertFalse(is_same_entity(u"Brown, Catherine.", u"Tkacz, Catherine Brown", controlaccess_type=u"persname"))
 
     def test_mismatch_with_dates(self):
-        self.assertFalse(is_same_entity("Tobin, Daniel J.", "Tobin, Daniel Joseph, 1875-1955", controlaccess_type="persname"))
+        self.assertFalse(is_same_entity(u"Tobin, Daniel J.", u"Tobin, Daniel Joseph, 1875-1955", controlaccess_type=u"persname"))
 
 
 if __name__ == "__main__":
