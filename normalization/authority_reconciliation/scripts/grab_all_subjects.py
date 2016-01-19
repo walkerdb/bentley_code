@@ -18,7 +18,7 @@ def grab_all_subjects(ead_directory_path):
 
 
 def grab_all_subjects_from_etree(tree):
-    terms = ["persname", "corpname"]
+    terms = ["persname", "corpname", "geogname"]
     names = set()
     for term in terms:
         tags = tree.xpath("//controlaccess/{}".format(term)) + tree.xpath("//origination/{}".format(term))
