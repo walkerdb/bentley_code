@@ -4,29 +4,18 @@ import re
 from tqdm import tqdm
 from fuzzywuzzy import fuzz
 
+def filter_out_false_positives(subjects_with_lc_auth_names):
+    results = set()
 
-def iterate_through_csv(input_filename, output_filename, controlaccess_type):
+    for subject_tuple in subjects_with_lc_auth_names:
+        auth_type, local_term, lc_term = subject_tuple
 
-    new_auth_data = []
-    bad_auth_data = []
-    with open(input_filename, mode="r") as f:
-        reader = csv.reader(f)
-        for row in tqdm(list(reader)):
-            original_name, lc_name, lc_address = row
-            if lc_name:
-                if is_same_entity(original_name, lc_name, controlaccess_type):
-                    new_auth_data.append(row)
-                else:
-                    bad_auth_data.append(row)
+        if not is_same_entity(local_term, lc_term, auth_type):
+            continue
 
-    with open(output_filename, mode="wb") as f:
-        writer = csv.writer(f)
-        writer.writerows(sorted(new_auth_data))
+        results.add(subject_tuple)
 
-    with open("working_csvfiles/{0}_bad_matches.csv".format(controlaccess_type), mode="wb") as f:
-        writer = csv.writer(f)
-        writer.writerows(sorted(bad_auth_data))
-
+    return results
 
 def is_same_entity(local_term, lc_term, controlaccess_type):
 
@@ -98,10 +87,3 @@ def is_same_entity(local_term, lc_term, controlaccess_type):
 
         return similarity >= 95
 
-
-if __name__ == "__main__":
-    types = [u"persname", u"geogname", u"corpname"]
-    for controlaccess_type in types:
-        input_filename = "working_csvfiles/all_{0}_matches_(unverified).csv".format(controlaccess_type)
-        output_filename = "working_csvfiles/{0}s_with_ids_verified.csv".format(controlaccess_type)
-        iterate_through_csv(input_filename=input_filename, output_filename=output_filename, controlaccess_type=controlaccess_type)
