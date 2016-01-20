@@ -13,6 +13,7 @@ class AuthoritySearcher(object):
 
         self.viaf_search_template = u'http://viaf.org/viaf/search/viaf?query=local.{0}+all+"{1}"+and+local.sources+any+"lc"&sortKeys=holdingscount&httpAccept=application/xml'
         self.lc_auth_template = u"http://id.loc.gov/authorities/names/{0}.html"
+        self.headers = {"user-agent": "Bentley Historical Library authority reconciliation bot v.1.0"}
 
 
     def get_lc_authorized_names(self, subjects):
@@ -29,8 +30,9 @@ class AuthoritySearcher(object):
                 continue
 
             auth_name = self.retrieve_lc_name(lc_id)
+            lc_address = self.lc_auth_template.format(lc_id)
 
-            results.add((subject_type, subject_text, auth_name))
+            results.add((subject_type, subject_text, auth_name, lc_address))
 
 
         return results
@@ -39,11 +41,12 @@ class AuthoritySearcher(object):
     def search_viaf_for_lc_id(self, search_term, search_type):
         query = self._create_viaf_query(search_term=search_term, search_type=search_type)
 
-        return self._get_lc_id_from_viaf_results(requests.get(query).content)
+        return self._get_lc_id_from_viaf_results(requests.get(query, headers=self.headers).content)
 
 
     def retrieve_lc_name(self, lc_auth_id):
-        response = requests.get(self.lc_auth_template.format(lc_auth_id)).text
+        query = self.lc_auth_template.format(lc_auth_id)
+        response = requests.get(query, headers=self.headers).text
         soup = BeautifulSoup(response, "lxml")
         return unicode(soup.h1.text)
 

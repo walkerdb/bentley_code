@@ -8,7 +8,7 @@ def filter_out_false_positives(subjects_with_lc_auth_names):
     results = set()
 
     for subject_tuple in subjects_with_lc_auth_names:
-        auth_type, local_term, lc_term = subject_tuple
+        auth_type, local_term, lc_term, lc_link = subject_tuple
 
         if not is_same_entity(local_term, lc_term, auth_type):
             continue
