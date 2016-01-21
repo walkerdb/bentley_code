@@ -7,12 +7,6 @@ from tqdm import tqdm
 from lxml import etree
 
 
-def remove_tags(tag_string):
-    tag_regex = r"\<.*?\>"
-    tag_string = " ".join(tag_string.split())
-    return re.sub(tag_regex, "", tag_string)
-
-
 def find_container_ranges():
     input_dir = r'C:\Users\wboyle\PycharmProjects\vandura\Real_Masters_all'
     eads_to_skip = ["muschba.xml", "milliken.xml"]
@@ -66,6 +60,12 @@ def find_container_ranges():
         writer = csv.writer(f)
         found_entries = reversed(found_entries)
         writer.writerows(found_entries)
+
+
+def remove_tags(tag_string):
+    tag_regex = r"\<.*?\>"
+    tag_string = " ".join(tag_string.split())
+    return re.sub(tag_regex, "", tag_string)
 
 
 def is_number(s):
