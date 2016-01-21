@@ -233,6 +233,7 @@ def build_tags_with_text_dict(parent_c0x_node_of_unittitle):
     tags_with_text_counts = {}
     for tag in parent_c0x_node_of_unittitle.iter():
         text = tag.text
+        tag = tag.tag
         if text:
             text = text.strip(" \n\t")
             if len(text) > 0:

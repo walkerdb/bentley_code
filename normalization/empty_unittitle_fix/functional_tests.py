@@ -11,7 +11,7 @@ class TestResults(unittest.TestCase):
     def setUp(self):
         # loads all the data the program needs for the tests
 
-        directory = 'S:/Curation/Student Work/Walker Boyle/Test environment/empty_unittitle_fix/examples/'
+        directory = 'examples/'
         # file locations
         self.loc_perfect = [directory + "perfect.xml", "/ead/archdesc/dsc/c04[1]"]
         self.loc_empty = [directory + "empty.xml", "/ead/archdesc/dsc/c04[1]"]
@@ -32,7 +32,7 @@ class TestResults(unittest.TestCase):
         self.lxml_extent_to_parent_node_corrected = parse("examples/extent_to_parent_node_corrected.xml")
 
         # reset output file
-        output = open("output/problem_files.csv", mode="w")
+        output = open("problem_files.csv", mode="w")
         output.close()
 
         with open("examples/problem_file_output.csv", mode = "r") as f:
@@ -56,6 +56,7 @@ class TestResults(unittest.TestCase):
     # don't do anything to proper xml
     def test_no_false_positives(self):
         processed = euf.process_file(self.loc_perfect[0], self.loc_perfect[1])
+        print(processed)
         self.assertEqual(normalize(processed), normalize(self.lxml_perfect))
 
     # If the whole thing is completely blank, delete it.
@@ -80,7 +81,7 @@ class TestResults(unittest.TestCase):
     # containers change, write filename and xpath to file, leave unchanged
     def test_failures_write_to_file(self):
         euf.process_file(self.loc_box_changed[0], self.loc_box_changed[1])
-        with open("output/problem_files.csv") as f:
+        with open("problem_files.csv") as f:
             data = f.read()
         self.assertEquals(data.strip("\n"), self.problem_file_output.strip("\n"))
 
