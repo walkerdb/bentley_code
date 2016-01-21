@@ -10,6 +10,7 @@ def main():
 
     with open("eads_with_nested_tags.csv", mode="wb") as f:
         writer = csv.writer(f)
+        writer.writerow(["ead file name", "xpath to self-nested tag", "tag type"])
         for result in results:
             writer.writerows(result)
 

@@ -17,6 +17,8 @@ but not this:
 </unittitle>
 ```
 
+Its findings output to ```eads_with_nested_tags.csv```. Each row contains three data points: the name of the input ead file, the xpath to the offending tag, and the tag type.
+
 ##Requirements
 * [lxml](http://lxml.de/)
 * [tqdm](https://github.com/noamraph/tqdm)
