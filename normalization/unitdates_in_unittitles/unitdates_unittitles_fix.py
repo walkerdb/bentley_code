@@ -7,6 +7,10 @@ from lxml import etree
 from tqdm import tqdm
 
 
+input_dir = r'C:\Users\wboyle\PycharmProjects\without-reservations\Real_Masters_all'
+output_dir = r'C:\Users\wboyle\PycharmProjects\without-reservations\Real_Masters_all'
+
+
 def grab_suspects(input_dir):
     eads = [ead for ead in os.listdir(input_dir) if ead.endswith(".xml")]
     tag_regex = r"\<\/?.*?\>"
@@ -193,7 +197,5 @@ def clean_text(text):
 
 
 if __name__ == "__main__":
-    input_dir = r'C:\Users\wboyle\PycharmProjects\without-reservations\Real_Masters_all'
-    output_dir = r'C:\Users\wboyle\PycharmProjects\without-reservations\Real_Masters_all'
     grab_suspects(input_dir)
     fix_suspects(input_dir, output_dir)
