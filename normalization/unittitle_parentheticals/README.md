@@ -16,7 +16,7 @@ becomes this:
 </physdesc>
 ```
 
-It only pulls out these statements if the parenthetical contains only a number and a word or phrase that matches anything in a list of known extent terms.
+It only pulls out these statements if the parenthetical contains only a number and a word or phrase that matches anything in a list of known extent terms, and nothing else.
 
 The script will also output a csv file listing edge cases that might need manual review called ```exceptions.csv```.
 
