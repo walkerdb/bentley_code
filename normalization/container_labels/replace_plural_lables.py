@@ -4,6 +4,9 @@ from lxml import etree
 from tqdm import tqdm
 
 
+input_dir = r'C:\Users\wboyle\PycharmProjects\vandura\Real_Masters_all'
+
+
 def replace_lables(input_directory):
     eads = [ead for ead in os.listdir(input_directory) if ead.endswith(".xml")]
     plurals = {"Boxes": "Box",
@@ -36,5 +39,4 @@ def replace_lables(input_directory):
 
 
 if __name__ == "__main__":
-    input_dir = r'C:\Users\wboyle\PycharmProjects\vandura\Real_Masters_all'
     replace_lables(input_dir)

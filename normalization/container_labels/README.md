@@ -19,4 +19,4 @@ becomes
 * [tqdm](https://github.com/noamraph/tqdm)
 
 ##Usage
-Just run ```replace_plural_labels.py```
+Change the "input_dir" variable in ```replace_plural_labels.py``` to wherever your own input directory is, then run the script.
