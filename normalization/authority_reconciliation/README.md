@@ -9,6 +9,7 @@ Also updates a person's death date if our local term does not have one and the L
 * [tqdm](https://github.com/noamraph/tqdm)
 * [Beautiful Soup 4](http://www.crummy.com/software/BeautifulSoup/)
 * [fuzzywuzzy](https://github.com/seatgeek/fuzzywuzzy)
+* EAD Utilities
 
 ##Usage
 Just edit the input and output ead directory paths in the ```run.py``` file to your own intended directories, then run that script:
