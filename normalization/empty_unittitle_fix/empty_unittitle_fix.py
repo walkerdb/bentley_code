@@ -5,8 +5,9 @@ from lxml import etree
 
 def main():
     input_directory = 'S:\\Curation\\Projects\\Mellon\\ArchivesSpace\\ATeam_Migration\\EADs\\Real_Masters_all\\'
-    output_directory = 'output/'
-    f = open("output/problem_files.csv", "w")
+    output_directory = input_directory
+
+    f = open("problem_files.csv", "w")
     f.close()
     filenames = set()
     total_changes = 0
@@ -275,7 +276,7 @@ def record_problem_file(problem_node, xml):
     filename = problem_node.base.split("/")[-1]
     xpath = xml.getpath(problem_node)
     string = etree.tostring(problem_node)
-    with open("output/problem_files.csv", mode='ab') as f:
+    with open("problem_files.csv", mode='ab') as f:
         writer = csv.writer(f)
         writer.writerow([filename, xpath, string])
     print("Problem location recorded to file")
