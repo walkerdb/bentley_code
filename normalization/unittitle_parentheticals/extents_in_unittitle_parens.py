@@ -8,6 +8,14 @@ from lxml.builder import E
 from tqdm import tqdm
 
 
+input_dir = r"C:\Users\wboyle\PycharmProjects\vandura\Real_Masters_all"
+output_dir = input_dir
+
+extent_keywords = ['album', 'audiotape', 'binder', 'book', 'box', 'boxes', 'cases', 'cassette', 'disc', 'disk', 'drawing',
+                   'envelope', 'file', 'folder', 'image', 'issue', 'item', 'linear feet', 'map', 'neg', 'negative',
+                   'notebook', 'photo', 'poster', 'reel', 'slide', 'tape', 'v.', 'vol.', 'volume']
+
+
 def find_parens(input_dir):
     output = []
     tag_regex = r"\<\/?.*?\>"
@@ -34,9 +42,7 @@ def find_parens(input_dir):
 
 
 def move_extent_parens(input_dir, output_dir, input):
-    keywords = ['album', 'audiotape', 'binder', 'book', 'box', 'boxes', 'cases', 'cassette', 'disc', 'disk', 'drawing',
-                'envelope', 'file', 'folder', 'image', 'issue', 'item', 'linear feet', 'map', 'neg', 'negative',
-                'notebook', 'photo', 'poster', 'reel', 'slide', 'tape', 'v.', 'vol.', 'volume']
+
     input.reverse()
 
     input_dict = defaultdict(list)
@@ -52,9 +58,9 @@ def move_extent_parens(input_dir, output_dir, input):
             unittitle_node = tree.xpath(xpath)[0]
 
             # check if the parenthetical has an extent keyword
-            if any([keyword in parenthetical for keyword in keywords]) and " of " not in parenthetical:
+            if any([keyword in parenthetical for keyword in extent_keywords]) and " of " not in parenthetical:
                 matched_keyword = ""
-                for keyword in keywords:
+                for keyword in extent_keywords:
                     if keyword in parenthetical:
                         matched_keyword = keyword
                         break
@@ -113,7 +119,5 @@ def move_extent_parens(input_dir, output_dir, input):
 
 
 if __name__ == "__main__":
-    input_dir = r"C:\Users\wboyle\PycharmProjects\vandura\Real_Masters_all"
-    output_dir = "output"
     candidates = find_parens(input_dir)
     move_extent_parens(input_dir, output_dir, candidates)
