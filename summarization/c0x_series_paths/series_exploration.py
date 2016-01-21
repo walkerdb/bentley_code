@@ -5,6 +5,9 @@ from lxml import etree
 from tqdm import tqdm
 
 
+input_directory = r'C:\Users\wboyle\PycharmProjects\vandura\Real_Masters_all'
+
+
 def characterize_series_in_directory(source_directory):
     series = {}
     for filename in tqdm(listdir(source_directory)):
@@ -109,5 +112,4 @@ def write_sorted_histogram(histogram_dict, filename, with_item_size=False):
 
 
 if __name__ == "__main__":
-    input_dir = r'C:\Users\wboyle\PycharmProjects\vandura\Real_Masters_all'
-    characterize_series_in_directory(input_dir)
+    characterize_series_in_directory(input_directory)

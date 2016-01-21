@@ -5,6 +5,9 @@ from lxml import etree
 from tqdm import tqdm
 
 
+input_directory = r'C:\Users\wboyle\PycharmProjects\vandura\Real_Masters_all'
+
+
 def replace_wonky_level_paths(tree, filename, tag="c0", attribute="level"):
     dsc_tree_children = list(tree.xpath("/ead/archdesc/dsc")[0])
     path_breadcrumb_list = []
@@ -39,14 +42,12 @@ def replace_wonky_level_paths(tree, filename, tag="c0", attribute="level"):
         if node.tag.startswith("c0"):
             recurse_down_tree(node)
 
-    with open("output/{0}".format(filename), mode="w") as f:
+    with open(path.join(input_directory, filename), mode="w") as f:
         f.write(etree.tostring(tree))
 
 
 if __name__ == "__main__":
-    source_directory = r'C:\Users\wboyle\PycharmProjects\vandura\Real_Masters_all'
-
-    for filename in tqdm(listdir(source_directory)):
+    for filename in tqdm(listdir(input_directory)):
         if filename.endswith(".xml"):
-            tree = etree.parse(path.join(source_directory, filename))
+            tree = etree.parse(path.join(input_directory, filename))
             replace_wonky_level_paths(tree, filename)
