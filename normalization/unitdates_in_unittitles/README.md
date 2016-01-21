@@ -1,12 +1,12 @@
 #Intelligently removing unitdates from unittitles
 
-Archivesspace has an unfortunate habit of blindy moving all unitdate tags inside of unittitles to the outside, without any consideration for context that might be lost. For example, running the following through the ASpace EAD importer:
+Archivesspace has a bad habit of blindy moving all unitdate tags inside of unittitles to the outside, without any consideration for context that might be lost. For example, if the following is run through the ASpace EAD importer:
 
 ```xml
 <unittitle>Campaigns <unitdate>1972-1975</unitdate> (including <unitdate>1974</unitdate> Charter Revision)</unittitle>
 ```
 
-becomes
+it becomes
 
 ```xml
 <unittitle>Campaigns (including Charter Revision)</unittitle>
