@@ -7,6 +7,10 @@ from lxml import etree
 from tqdm import tqdm
 
 
+# change to your input directory
+input_dir = r'C:\Users\wboyle\PycharmProjects\vandura\Real_Masters_all'
+
+
 def characterize_single_tag_attribute(ead_input_dir, tag_name, attribute_name):
     '''
     Reads all eads in the input directory to create counts of each unique attribute value
@@ -119,12 +123,10 @@ def characterize_all_attributes(ead_input_dir):
 
 
 if __name__ == "__main__":
-    # change to your input directory
-    input_dir = r'C:\Users\wboyle\PycharmProjects\vandura\Real_Masters_all'
-
     # change to the tag/attribute combo you're looking to characterize
-    tag_name = "container"
-    attribute_name = "type"
+    # tag_name = "container"
+    # attribute_name = "type"
 
     # characterize_single_tag_attribute(input_dir, tag_name=tag_name, attribute_name=attribute_name)
+
     characterize_all_attributes(input_dir)
