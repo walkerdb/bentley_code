@@ -6,8 +6,6 @@ A set of convenience utilities for simplifying common operations while working w
 * [tqdm](https://github.com/noamraph/tqdm)
 * prettifydirectory
 
-#Usage
-
 ##EAD
 A convenience class to wrap common EAD functionality around a single python object. Creating an EAD object gives you access to the following:
 
