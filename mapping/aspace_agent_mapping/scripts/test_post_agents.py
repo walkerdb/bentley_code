@@ -6,7 +6,7 @@ from mapping.aspace_agent_mapping.agent_parsers.Persname import Persname
 from mapping.aspace_agent_mapping.agent_parsers.Corpname import Corpname
 from mapping.aspace_agent_mapping.agent_parsers.Famname import Famname
 
-from ead_utilities.aspace_interface.pyspace import PySpace
+from utilities.aspace_interface.pyspace import PySpace
 
 
 class TestPostAgents(TestCase):

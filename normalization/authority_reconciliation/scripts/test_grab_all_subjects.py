@@ -1,4 +1,3 @@
-from pprint import pprint
 import unittest
 from lxml import etree
 from grab_all_subjects import grab_all_subjects_from_etree, grab_all_subjects

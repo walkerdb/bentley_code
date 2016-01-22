@@ -1,6 +1,6 @@
 import csv
 
-from ead_utilities.ead_utilities import EADDir
+from utilities.ead_utilities.ead_utilities import EADDir
 
 def main():
     input_directory = "path/to/your/ead/files"

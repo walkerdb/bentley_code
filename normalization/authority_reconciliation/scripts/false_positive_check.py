@@ -1,7 +1,5 @@
-import csv
 import re
 
-from tqdm import tqdm
 from fuzzywuzzy import fuzz
 
 def filter_out_false_positives(subjects_with_lc_auth_names):
