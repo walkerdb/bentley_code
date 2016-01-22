@@ -3,11 +3,19 @@ import re
 
 from tqdm import tqdm
 
+input_directory = r'C:\Users\wboyle\PycharmProjects\vandura\Real_Masters_all'
+output_directory = r'C:\Users\wboyle\PycharmProjects\vandura\Real_Masters_all'
+
+
+# The names of all EADs to which you'd like to apply this script:
+eads = ["kevorkian.xml"]
+
+# comment the above and uncomment the below if you instead want apply this script to every EAD in the input directory
+# eads = [ead for ead in os.listdir(input_dir) if ead.endswith(".xml")]
+
 
 def fix_whitespace(input_dir, output_dir):
     whitespace_regex = r"\s{2,}|\v|\n|\r"
-    eads = ["kevorkian.xml"]
-    # eads = [ead for ead in os.listdir(input_dir) if ead.endswith(".xml")]
     for ead in tqdm(eads):
         with open(os.path.join(input_dir, ead), mode="r") as f:
             data = f.read()
@@ -19,6 +27,4 @@ def fix_whitespace(input_dir, output_dir):
 
 
 if __name__ == "__main__":
-    input_directory = r'C:\Users\wboyle\PycharmProjects\vandura\Real_Masters_all'
-    output_directory = r'C:\Users\wboyle\PycharmProjects\vandura\Real_Masters_all'
     fix_whitespace(input_dir=input_directory, output_dir=input_directory)
