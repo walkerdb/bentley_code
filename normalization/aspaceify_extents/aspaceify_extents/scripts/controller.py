@@ -3,7 +3,7 @@ import os
 from tqdm import tqdm
 
 import etree_editor
-from utilities import utilities as util
+from ead_utilities import ead_utilities as util
 from extent_parser import split_into_extents
 from make_aspace_extent_distinctions import split_into_aspace_components
 

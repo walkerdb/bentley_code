@@ -1,4 +1,4 @@
-from utilities.utilities import EADDir
+from ead_utilities.ead_utilities import EADDir
 
 ead_dir = EADDir(input_dir=r"C:\Users\wboyle\PycharmProjects\without-reservations\Real_Masters_all")
 

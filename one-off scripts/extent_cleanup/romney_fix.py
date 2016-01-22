@@ -2,7 +2,7 @@ import re
 
 from lxml.builder import E
 
-from utilities.utilities import EAD
+from ead_utilities.ead_utilities import EAD
 
 def fix_romney(ead):
     extents = ead.tree.xpath("//extent")

@@ -2,7 +2,7 @@ import csv
 
 from lxml import etree
 
-from utilities.utilities import EADDir
+from ead_utilities.ead_utilities import EADDir
 
 def find_multiple_physdescs(ead):
     results = []

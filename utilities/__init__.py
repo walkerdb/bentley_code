@@ -1,1 +1,1 @@
-from utilities import EAD, EADDir
+from ead_utilities import EAD, EADDir

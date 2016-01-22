@@ -3,7 +3,7 @@ from pprint import pprint
 
 from tqdm import tqdm
 
-from utilities.aspace_interface.pyspace import PySpace
+from ead_utilities.aspace_interface.pyspace import PySpace
 
 
 def post_agents_and_record_ids(agent_dict, host, username, password):

@@ -1,6 +1,6 @@
 import unittest
 
-from utilities.utilities import EAD
+from ead_utilities.ead_utilities import EAD
 from summarization.check_tag_nesting.check_nested_tags import find_nested_tags
 
 class TestCheckNestedTags(unittest.TestCase):

@@ -3,7 +3,7 @@ from pprint import pprint
 
 from tqdm import tqdm
 
-from utilities.aspace_interface.pyspace import PySpace
+from ead_utilities.aspace_interface.pyspace import PySpace
 
 conn = PySpace(host="http://141.211.39.87:8089/", repository="3", username="wboyle", password="bentley")
 

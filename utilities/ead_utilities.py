@@ -1,10 +1,12 @@
 import json
 import os
-import re
+import shutil
 
 from lxml import etree
 from tqdm import tqdm
-from prettifydirectory import prettify_xml
+
+from utilities.ead_cleanup.prettifydirectory import prettify_xml
+
 
 class EAD(object):
 
@@ -25,7 +27,7 @@ class EAD(object):
         with open(os.path.join(output_dir, self.filename), mode="w") as f:
             f.write(text)
 
-        # os.remove("tmp")
+        shutil.rmtree("tmp")
 
 
 class EADDir(object):

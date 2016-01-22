@@ -1,5 +1,5 @@
 from lxml import etree
-from utilities import EADDir
+from ead_utilities import EADDir
 
 
 def add_aspace_ids_to_all_agents_in_dir(name_to_id_map, path_to_eads):

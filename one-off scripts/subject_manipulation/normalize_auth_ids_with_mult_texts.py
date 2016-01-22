@@ -1,7 +1,7 @@
 import csv
 import os
 from lxml import etree
-from utilities import EADDir, EAD
+from ead_utilities import EADDir, EAD
 
 
 def load_data(filename):

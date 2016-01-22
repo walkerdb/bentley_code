@@ -3,7 +3,7 @@ import os
 from lxml import etree
 from tqdm import tqdm
 
-from utilities import EADDir
+from ead_utilities import EADDir
 
 
 def grab_all_subjects(ead_directory_path):

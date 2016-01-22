@@ -1,6 +1,6 @@
 import os
 from lxml import etree
-from utilities import EADDir
+from ead_utilities import EADDir
 
 
 def write_new_lc_ids(subjects, input_directory, output_directory):
