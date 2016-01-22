@@ -89,7 +89,7 @@ all_unittitle_locations = ead_dir.characterize_dir(function=find_all_unittitles_
 ```
 
 ####Writing changes to a directory
-If we want to apply some programmatic change to all eads in a directory, this is a handy shortcut:
+A shortcut method to apply some kind of programmatic change to an entire directory of eads.
 
 Like the characterize_dir() function, the first thing we do is create a function to make the changes we want to a single EAD file. That function should take an EAD object (see above) as its input:
 
