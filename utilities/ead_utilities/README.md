@@ -65,7 +65,7 @@ ead_dir = EADDir(input_dir="path/to/ead/dir")
 ```
 
 ####Characterizing content
-The ```.characterize_dir() method takes some characterization function and returns a list containing the results of that characterization across all eads.
+The ```.characterize_dir()``` method takes some characterization function and returns a list containing the results of that characterization across all eads.
 
 For example, if I wanted to get a list of the locations of all unittitles in the EAD directory, I would make a function that finds them for a single file, then make the EADDir object and pass that function as an argument into ```.characterize_dir()```. The only catch is that the function you create must take an ead object (see above) as its input:
 
