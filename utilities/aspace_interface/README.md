@@ -1,3 +1,4 @@
+#PySpace
 A simple python interface for the ArchivesSpace API
 
 ##Requirements
@@ -17,30 +18,30 @@ pyspace = Pyspace(host="http://localhost:8089", username="admin", password="admi
 
 From there you can call any of pyspace's functions:
 
-###Switching repositories
+####Switching repositories
 You can move to any repository if you know its ASpace number with the following:
 ```python
 pyspace.change_repository(repository_number)
 ```
 
-###Convert EAD file to json
+####Convert EAD file to json
 Requires the json_from_format plugin. Returns a python json object
 ```python
 ead_json = pyspace.ead_to_json(path_to_ead_file)
 ```
 
-###Add new resources from json
+####Add new resources from json
 Takes a json representation of an EAD file and posts it to ASpace
 ```python
 pyspace.add_ead(ead_json)
 ```
 
-###Add new accession from json
+####Add new accession from json
 ```python
 pyspace.add_accession(json_data)
 ```
 
-###Add new agent
+####Add new agent
 Allows the addition of new agents to ASpace.
 
 Can add people:
@@ -65,7 +66,7 @@ pyspace.add_agent(json_data, agent_type)
 
 Valid type strings include ```families```, ```corporate_entities```, and ```people```.
 
-###Retrieving ASpace IDs
+####Retrieving ASpace IDs
 Allows the retrieval of all ASpace IDs of a specified object type. E.g.:
 ```python
 accession_ids = pyspace.get_all_object_ids("accessions")
@@ -85,7 +86,7 @@ resources
 """
 ```
 
-###Removing ASpace objects
+####Removing ASpace objects
 Given an object type and its ASpace ID, will delete that object:
 ```python
 pyspace.delete_aspace_object("accessions", "125")
@@ -93,7 +94,7 @@ pyspace.delete_aspace_object("accessions", "125")
 
 The object type values are limited to the same set of strings as above.
 
-##Deleting all agents
+####Deleting all agents
 If you want to purge all agents from a given ASpace installation, use the following:
 
 ```python
