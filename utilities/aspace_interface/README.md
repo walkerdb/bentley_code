@@ -17,6 +17,12 @@ pyspace = Pyspace(host="http://localhost:8089", username="admin", password="admi
 
 From there you can call any of pyspace's functions:
 
+###Switching repositories
+You can move to any repository if you know its ASpace number with the following:
+```python
+pyspace.change_repository(repository_number)
+```
+
 ###Convert EAD file to json
 Requires the json_from_format plugin. Returns a python json object
 ```python
@@ -26,8 +32,7 @@ ead_json = pyspace.ead_to_json(path_to_ead_file)
 ###Add new resources from json
 Takes a json representation of an EAD file and posts it to ASpace
 ```python
-pyspace.add_ead(json_data)
-
+pyspace.add_ead(ead_json)
 ```
 
 ###Add new accession from json
@@ -89,7 +94,7 @@ pyspace.delete_aspace_object("accessions", "125")
 The object type values are limited to the same set of strings as above.
 
 ##Deleting all agents
-If you want to purge all agents from a given ASpace installations, use the following:
+If you want to purge all agents from a given ASpace installation, use the following:
 
 ```python
 pyspace.delete_all_agents()
