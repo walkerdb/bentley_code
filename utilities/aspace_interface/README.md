@@ -72,8 +72,7 @@ Allows the retrieval of all ASpace IDs of a specified object type. E.g.:
 accession_ids = pyspace.get_all_object_ids("accessions")
 ```
 The following is a full list of valid object types that can be retrieved:
-```python
-"""
+```
 accessions
 archival_objects
 classification_terms
@@ -83,7 +82,6 @@ digital_objects
 events
 groups
 resources
-"""
 ```
 
 ####Removing ASpace objects
