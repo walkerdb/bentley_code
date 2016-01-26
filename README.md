@@ -7,9 +7,9 @@ The majority are tools for working with EAD files, but there are several other u
 ##Utilities
 Utility tools used in many of the other scripts. They may be necessary for other scripts to run.
 
-* __ASpace/python API interface__: A python-based convenience interface for interacting with the ASpace API
-* __EAD utilities__: Two convenience classes for working with EAD files. One wraps common functionality used with single EAD files into one place and the other allows easy access to performing actions on entire directories of EADs
-* __EAD cleanup__: Scripts for prettifying the Bentley's EADs
+* __[ASpace/python API interface](https://github.com/walkerdb/bentley_code/tree/master/utilities/aspace_interface)__: A python-based convenience interface for interacting with the ASpace API
+* __[EAD utilities](https://github.com/walkerdb/bentley_code/tree/master/utilities/ead_utilities)__: Two convenience classes for working with EAD files. One wraps common functionality used with single EAD files into one place and the other allows easy access to performing actions on entire directories of EADs
+* __[EAD cleanup](https://github.com/walkerdb/bentley_code/tree/master/utilities/ead_cleanup)__: Scripts for prettifying the Bentley's EADs
 
 ##Normalization / cleanup
 Tools for cleaning and normalizing EAD data
