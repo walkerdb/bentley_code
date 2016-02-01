@@ -1,45 +1,106 @@
 from collections import Counter
+import csv
 import os
 from pprint import pprint
-from lxml import etree
 from tqdm import tqdm
 
 from utilities.ead_utilities.ead_utilities import EADDir, EAD
 
 
 def main():
-    counter = Counter()
+    mappings = {"cd": ("digital", "CDs"),
+                "dvd": ("digital", "DVDs"),
+                "magneto-optical": ("digital", "magneto-optical disks"),
+                "film": ("video", "film reels"),
+                "reel-to-reel": ("audio", "reel-to-reel tapes"),
+                "phonograph": ("audio", "phonograph records"),
+                "audiotapes": ("audio", "reel-to-reel tapes"),
+                "vhs": ("video", "VHS tapes"),
+                "beta": ("video", "Betacam tapes"),
+                "u-matic": ("video", "U-matic tapes"),
+                "mini-dv": ("video", "mini-DV tapes")}
+    results_by_ead = {}
     ead_dir = EADDir()
 
     for ead_file in tqdm(ead_dir.ead_files):
         ead = EAD(os.path.join(ead_dir.input_dir, ead_file))
-        counter += find_removable_media(ead)
+        results_by_ead[ead_file] = find_removable_media(ead)
 
-    # cleaning up the counter
+    results = {}
+    for ead_file, counter in results_by_ead.items():
+        # clean up the counter
+        normalize_counter_values(counter, mappings)
+        for key, value in counter.items():
+            if key not in results:
+                results[key] = (0, Counter())
+
+            total_count, counts_by_ead = results[key]
+            total_count += value
+            counts_by_ead[ead_file] = value
+
+            results[key] = (total_count, counts_by_ead)
+
+    data = sorted(results.items())
+    with open("output.csv", mode="wb") as f:
+        writer = csv.writer(f)
+        writer.writerow(["media type", "media subtype", "total count", "counts by EAD"])
+        for item in data:
+            counts_by_ead = "\n".join(["{}: {}".format(thing[0], int(thing[1])) for thing in item[1][1].most_common()])
+            row = [item[0][0], item[0][1], item[1][0], counts_by_ead]
+            writer.writerow(row)
+
+    # pprint(data)
+
+
+def normalize_counter_values(counter, mappings):
     for key, value in counter.items():
         extent, physfacet = key
-        mappings = {"cd": "CDs",
-                    "dvd": "DVDs",
-                    "magneto-optical": "magneto-optical disks",
-                    "film": "film reels",
-                    "reel-to-reel": "reel-to-reel tapes",
-                    "phonograph": "phonograph records",
-                    "audiotapes": "reel-to-reel tapes",
-                    "vhs": "VHS tapes",
-                    "beta": "Betacam tapes",
-                    "u-matic": "U-matic tapes",
-                    "mini-dv": "mini-DV tapes"}
 
-        for search_key, normalized_term in mappings.items():
+        if extent == "audiocassettes" and physfacet != "microcassettes":
+            k = ("audio", "audiocassettes")
+            normalize_counter_entry(counter, k, key, value)
+
+        if extent == "audiocassettes" and physfacet == "microcassettes":
+            k = ("audio", "microcassettes")
+            normalize_counter_entry(counter, k, key, value)
+
+        if extent == "floppy disks":
+            if not physfacet:
+                physfacet = "size not known"
+
+            k = ("digital", "{}: {}".format(extent, physfacet))
+            normalize_counter_entry(counter, k, key, value)
+
+        if extent == "videotapes":
+            if not physfacet:
+                physfacet = "(type not listed)"
+
+            k = ("video", physfacet)
+            normalize_counter_entry(counter, k, key, value)
+
+        if extent == "zip disks":
+            k = ("digital", "zip disks")
+            normalize_counter_entry(counter, k, key, value)
+
+        if extent == "USB thumb drives":
+            k = ("digital", "USB thumb drives")
+            normalize_counter_entry(counter, k, key, value)
+
+            # if extent == "audiocassettes":
+            #     k = ("audio", physfacet)
+            #     normalize_counter_entry(counter, k, key, value)
+    for key, value in counter.items():
+        extent, physfacet = key
+        for search_key, normalized_pair in mappings.items():
+            ext, phys = normalized_pair
             if search_key in physfacet.lower() or search_key in extent.lower():
-                counter[(normalized_term, " ")] = counter.get((normalized_term, " "), 0) + value
+                counter[(ext, phys)] = counter.get((ext, phys), 0) + value
                 del counter[key]
 
-        if physfacet and extent == "audiocassettes" and physfacet != "microcassettes":
-            counter[("audiocassettes", "")] = counter.get(("audiocassettes", ""), 0) + value
-            del counter[key]
 
-    pprint(counter.most_common())
+def normalize_counter_entry(counter, k, key, value):
+    counter[k] = counter.get(k, 0) + value
+    del counter[key]
 
 
 def find_removable_media(ead):
@@ -60,7 +121,6 @@ def find_removable_media(ead):
 
         results[(extent_text, physfacet_text)] = results.get((extent_text, physfacet_text), 0) + number
 
-
     physfacets = ead.tree.xpath("//physfacet")
     for physfacet in physfacets:
         physfacet_text = physfacet.text
@@ -72,7 +132,6 @@ def find_removable_media(ead):
             results[("", physfacet_text)] = results.get(("", physfacet_text), 0) + 1
 
     return results
-
 
 
 def get_sibling_text(element, sibling_name):
