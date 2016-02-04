@@ -1,5 +1,5 @@
 import codecs
-from collections import Counter
+from collections import Counter, OrderedDict
 import csv
 import cStringIO
 from lxml import etree
@@ -25,7 +25,7 @@ def write_all_extents_to_csv(all_extents):
         writer = UnicodeWriter(f)
 
         headers = ["ead name", "ead id", "collection name", "number of items", "extent type", "physfacet text",
-                   "container type", "container number", "potential date of material", "access restrictions",
+                   "size (mb)", "container type", "container number", "potential date of material", "access restrictions",
                    "access restiction dates", "uuid", "unittitle breadcrumb"]
         writer.writerow(headers)
         writer.writerows(all_extents)
@@ -78,6 +78,11 @@ def create_summarized_results(results_by_ead):
     return results
 
 
+def extract_eadid(text):
+    id_regex = re.compile(r"\d.*")
+    return re.findall(id_regex, text)[0]
+
+
 def get_raw_results(ead_dir):
     results_by_ead = {}
     all_extents = []
@@ -89,11 +94,18 @@ def get_raw_results(ead_dir):
             results_by_ead[ead_file] = summarized_results
 
         if all_results:
-            eadid = ead.tree.xpath("//eadid")[0].text.split("-")[-1]
+            eadid = extract_eadid(ead.tree.xpath("//eadid")[0].text)
             eadtitle = ead.tree.xpath("//titleproper")[0].text.replace("Finding Aid for ", "")
 
             for result in all_results:
-                all_extents.append([ead.filename, eadid, eadtitle] + list(result))
+                result = list(result)
+                if type(result[0]) is int:
+                    number = result[0]
+                    result[0] = 1
+                    for i in range(number):
+                        all_extents.append([ead.filename, eadid, eadtitle] + result)
+                else:
+                    all_extents.append([ead.filename, eadid, eadtitle] + result)
 
     return results_by_ead, all_extents
 
@@ -158,9 +170,15 @@ def get_child_text(element, child_name):
 
 
 def get_container_info(physdesc):
-    container = physdesc.getparent().xpath("container")
-    if not container:
-        return "", ""
+    parent = physdesc.getparent()
+    container = parent.xpath("container")
+
+    while not container:
+        try:
+            parent = parent.getparent().getparent().xpath("did")[0]
+            container = parent.xpath("container")
+        except IndexError:
+            return "[container not listed]", "[container not listed]"
 
     container_type = container[0].attrib["type"]
     container_number = container[0].text
@@ -190,7 +208,7 @@ def make_unittitle_breadcrumbs(physdesc):
         parent = parent.getparent()
 
     breadcrumbs.reverse()
-    return u";;;".join(breadcrumbs)
+    return u" -> ".join(breadcrumbs)
 
 
 def get_uuid(physdesc):
@@ -239,8 +257,24 @@ def make_output_row(physdesc):
     restriction, restrict_date = get_restriction(physdesc)
     breadcrumb_path = make_unittitle_breadcrumbs(physdesc)
     date_of_material = get_possible_material_date(physdesc)
+    size = get_size(extent_text, physfacet_text)
 
-    return (number, extent_type, physfacet_text, container_type, container_number, date_of_material, restriction, restrict_date, uuid, breadcrumb_path)
+    return (number, extent_type, physfacet_text, size, container_type, container_number, date_of_material, restriction, restrict_date, uuid, breadcrumb_path)
+
+
+def get_size(extent_text, physfacet_text):
+    size_map = OrderedDict([("floppy", 1.4),
+                            ("cd", 700),
+                            ("dvd-ram", 5200),
+                            ("dvd", 4700),
+                            ("zip", 100),
+                            ("magneto-optical", 1300)])
+
+    for key in size_map:
+        if key in extent_text.lower() or key in physfacet_text.lower():
+            return size_map[key]
+
+    return ""
 
 
 def get_restriction(physdesc):
