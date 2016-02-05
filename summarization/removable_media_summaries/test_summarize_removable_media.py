@@ -7,9 +7,28 @@ class TestSummarizeRemovableMedia(unittest.TestCase):
     def setUp(self):
         self.upstream_search_tree = etree.parse("test_files/test_search_upstream.xml")
         self.upstream_search_physdescs = self.upstream_search_tree.xpath("//physdesc")
+        self.digitized_material_tree = etree.parse("test_files/test_digitized_material.xml")
+        self.digitized_material_physdescs = self.digitized_material_tree.xpath("//physdesc")
 
     def testLocationDiscovery(self):
         self.assertEquals(srm.get_location("87207", "box", "21"), "Y-624-K")
+
+    # finds digitized material
+    def test_use_copies_marked_as_digitized_material(self):
+        physdesc = self.digitized_material_physdescs[0]
+        self.assertEquals(srm.is_digitized(physdesc), True)
+
+    def test_digitized_marked_as_digitized_material(self):
+        physdesc = self.digitized_material_physdescs[1]
+        self.assertEquals(srm.is_digitized(physdesc), True)
+
+    def test_marked_as_digitized_material_with_physfacet_keywords(self):
+        physdesc = self.digitized_material_physdescs[3]
+        self.assertEquals(srm.is_digitized(physdesc), True)
+
+    def test_is_digitized_returns_false_when_not_digitized(self):
+        physdesc = self.digitized_material_physdescs[2]
+        self.assertEquals(srm.is_digitized(physdesc), False)
 
     # date search
     def test_date_found_when_there_is_an_immediate_unitdate_sibling(self):

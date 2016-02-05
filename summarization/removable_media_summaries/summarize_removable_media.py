@@ -1,13 +1,13 @@
-import codecs
 from collections import Counter, OrderedDict
-import csv
 import cStringIO
+import codecs
 import json
-from lxml import etree
+import csv
 import os
-from pprint import pprint
 import re
+
 from tqdm import tqdm
+from lxml import etree
 
 from utilities.ead_utilities.ead_utilities import EADDir, EAD
 
@@ -30,8 +30,8 @@ def write_all_extents_to_csv(all_extents):
         writer = UnicodeWriter(f)
 
         headers = ["ead name", "ead id", "collection name", "number of items", "extent type", "physfacet text",
-                   "size (mb)", "location", "container type", "container number", "potential date of material", "access restrictions",
-                   "access restiction dates", "uuid", "unittitle breadcrumb"]
+                   "size (mb)", "location", "container", "potential date of material", "is the result of a Bentley digitization project",
+                   "access restrictions", "access restiction dates", "uuid", "unittitle breadcrumb"]
         writer.writerow(headers)
         writer.writerows(all_extents)
 
@@ -51,8 +51,6 @@ def write_summary_to_csv(results_summarized, digital_only):
             counts_by_ead = "\n".join(["{}: {}".format(thing[0], int(thing[1])) for thing in item[1][1].most_common()])
             row = [item[0][0], item[0][1], item[1][0], counts_by_ead]
             writer.writerow(row)
-
-            # pprint(data)
 
 
 def create_summarized_results(results_by_ead):
@@ -202,16 +200,10 @@ def make_unittitle_breadcrumbs(physdesc):
 
     is_c01 = False
     parent = physdesc.getparent().getparent()
-    # print(etree.tostring(parent))
     while not is_c01:
-        try:
-            unittitle = parent.xpath("did/unittitle")[0]
-            unittitle_text = extract_text(unittitle)
-            breadcrumbs.append(unicode(unittitle_text.strip()))
-
-        except IndexError:
-            print(etree.tostring(parent))
-            exit()
+        unittitle = parent.xpath("did/unittitle")[0]
+        unittitle_text = extract_text(unittitle)
+        breadcrumbs.append(unicode(unittitle_text.strip()))
 
         if parent.tag == "c01" or parent.tag == "archdesc":
             is_c01 = True
@@ -288,12 +280,14 @@ def get_location(ead_id, container_type, container_number):
 
 
 def make_output_row(physdesc, ead_id):
+    # this code is kind of gross... sorry.
     extent_text = get_child_text(physdesc, "extent")
     number, extent_type = split_extent(extent_text)
     if number == 0:
         number = "[no number given]"
     physfacet_text = get_child_text(physdesc, "physfacet")
     container_type, container_number = get_container_info(physdesc)
+    container_text = "{} {}".format(container_type, container_number) if "[" not in container_type else "(no container listed)"
     uuid = get_uuid(physdesc)
     restriction, restrict_date = get_restriction(physdesc)
     breadcrumb_path = make_unittitle_breadcrumbs(physdesc)
@@ -301,8 +295,9 @@ def make_output_row(physdesc, ead_id):
     size = get_size(extent_text, physfacet_text)
 
     location = get_location(ead_id, container_type, container_number)
+    is_a_digitization = "yes" if is_digitized(physdesc) else ""
 
-    return number, extent_type, physfacet_text, size, location, container_type, container_number, date_of_material, restriction, restrict_date, uuid, breadcrumb_path
+    return number, extent_type, physfacet_text, size, location, container_text, date_of_material, is_a_digitization, restriction, restrict_date, uuid, breadcrumb_path
 
 
 def get_size(extent_text, physfacet_text):
@@ -342,6 +337,18 @@ def extract_text(tag):
     return " ".join(re.sub(tag_regex, "", text).split()).strip()
 
 
+def is_digitized(physdesc):
+    unittitle_text = get_sibling_text(physdesc, "unittitle").lower()
+    physfacet_text = get_child_text(physdesc, "physfacet").lower()
+
+    digitized_signifiers = ["use copy", "digitized", "converted", "transfer"]
+
+    if any(signifier in unittitle_text or signifier in physfacet_text for signifier in digitized_signifiers):
+        return True
+
+    return False
+
+
 def get_possible_material_date(physdesc):
     date = search_up_for_did_element(physdesc, "unitdate")
     if type(date) == etree._Element:
@@ -355,7 +362,7 @@ def get_possible_material_date(physdesc):
     if type(date) == etree._Element:
         return extract_years(date[0].get("normal", date[0].text))
 
-    return "no date found"
+    return ""
 
 
 def extract_years(date_text):
@@ -368,7 +375,7 @@ def get_sibling_text(element, sibling_name):
     if not sibling:
         return ""
 
-    return sibling[0].text
+    return extract_text(sibling[0])
 
 
 def split_extent(extent_text):
