@@ -17,7 +17,6 @@ def main():
     pprint(sorted(sorted(Counter(combined_results).most_common(), key=lambda x: x[0]), key=lambda x: -x[1]))
 
 
-
 def get_suspicious_corpnames(ead):
     results = []
     corpnames = ead.tree.xpath("//corpname")
@@ -38,6 +37,7 @@ def extract_text(tag):
     tag_regex = re.compile(r"</?.*?>")
 
     return " ".join(re.sub(tag_regex, "", text).split()).strip()
+
 
 if __name__ == "__main__":
     main()
