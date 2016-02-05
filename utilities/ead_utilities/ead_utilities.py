@@ -3,6 +3,7 @@ import os
 import shutil
 
 from lxml import etree
+import re
 from tqdm import tqdm
 
 from utilities.ead_cleanup.prettifydirectory import prettify_xml
@@ -14,6 +15,9 @@ class EAD(object):
         self.path_to_ead = filepath
         self.filename = os.path.basename(self.path_to_ead)
         self.tree = etree.parse(self.path_to_ead)
+
+        self.id = self.extract_eadid(self.tree.xpath("//eadid")[0].text)
+        self.title = self.tree.xpath("//titleproper")[0].text.replace("Finding Aid for ", "")
 
     def prettyprint(self, output_dir):
         if not os.path.exists("tmp"):
@@ -28,6 +32,10 @@ class EAD(object):
             f.write(text)
 
         shutil.rmtree("tmp")
+
+    def extract_eadid(self, text):
+        id_regex = re.compile(r"\d.*")
+        return re.findall(id_regex, text)[0]
 
 
 class EADDir(object):
