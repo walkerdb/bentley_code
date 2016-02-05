@@ -2,6 +2,7 @@ import codecs
 from collections import Counter, OrderedDict
 import csv
 import cStringIO
+import json
 from lxml import etree
 import os
 from pprint import pprint
@@ -9,6 +10,10 @@ import re
 from tqdm import tqdm
 
 from utilities.ead_utilities.ead_utilities import EADDir, EAD
+
+
+with open("locations.json", mode="r") as f:
+    locations = json.load(f)
 
 
 def main():
@@ -25,7 +30,7 @@ def write_all_extents_to_csv(all_extents):
         writer = UnicodeWriter(f)
 
         headers = ["ead name", "ead id", "collection name", "number of items", "extent type", "physfacet text",
-                   "size (mb)", "container type", "container number", "potential date of material", "access restrictions",
+                   "size (mb)", "location", "container type", "container number", "potential date of material", "access restrictions",
                    "access restiction dates", "uuid", "unittitle breadcrumb"]
         writer.writerow(headers)
         writer.writerows(all_extents)
@@ -94,18 +99,15 @@ def get_raw_results(ead_dir):
             results_by_ead[ead_file] = summarized_results
 
         if all_results:
-            eadid = extract_eadid(ead.tree.xpath("//eadid")[0].text)
-            eadtitle = ead.tree.xpath("//titleproper")[0].text.replace("Finding Aid for ", "")
-
             for result in all_results:
                 result = list(result)
                 if type(result[0]) is int:
                     number = result[0]
                     result[0] = 1
                     for i in range(number):
-                        all_extents.append([ead.filename, eadid, eadtitle] + result)
+                        all_extents.append([ead.filename, ead.id, ead.title] + result)
                 else:
-                    all_extents.append([ead.filename, eadid, eadtitle] + result)
+                    all_extents.append([ead.filename, ead.id, ead.title] + result)
 
     return results_by_ead, all_extents
 
@@ -233,7 +235,7 @@ def find_removable_media(ead):
             if any(keyword in physfacet_text for keyword in physfacet_keywords):
                 media_counts[("", physfacet_text)] = media_counts.get(("", physfacet_text), 0) + 1
 
-                all_media.append(make_output_row(physdesc))
+                all_media.append(make_output_row(physdesc, ead.id))
 
         if extent_text:
             number, extent_text = split_extent(extent_text)
@@ -241,12 +243,42 @@ def find_removable_media(ead):
                 continue
 
             media_counts[(extent_text, physfacet_text)] = media_counts.get((extent_text, physfacet_text), 0) + number
-            all_media.append(make_output_row(physdesc))
+            all_media.append(make_output_row(physdesc, ead.id))
 
     return media_counts, all_media
 
 
-def make_output_row(physdesc):
+def get_location(ead_id, container_type, container_number):
+    location = ""
+    if not container_number.isdigit():
+        return ""
+
+    container_number = int(container_number)
+
+    if ead_id in locations:
+        all_locations = locations[ead_id]["locations"]
+        for loc_row in all_locations:
+            if loc_row["location type"].lower() != container_type.lower():
+                continue
+            min_box = loc_row["box start"]
+            max_box = loc_row["box end"] or min_box
+
+            if not min_box and not max_box:
+                continue
+
+            if not min_box.isdigit():
+                continue
+
+            min_box = int(min_box)
+            max_box = int(max_box)
+
+            if container_number in list(range(min_box, max_box + 1)):
+                location = " to ".join(list(filter(None, [loc_row["location start"].upper(), loc_row["location end"].upper()])))
+
+    return location
+
+
+def make_output_row(physdesc, ead_id):
     extent_text = get_child_text(physdesc, "extent")
     number, extent_type = split_extent(extent_text)
     if number == 0:
@@ -259,7 +291,9 @@ def make_output_row(physdesc):
     date_of_material = get_possible_material_date(physdesc)
     size = get_size(extent_text, physfacet_text)
 
-    return (number, extent_type, physfacet_text, size, container_type, container_number, date_of_material, restriction, restrict_date, uuid, breadcrumb_path)
+    location = get_location(ead_id, container_type, container_number)
+
+    return (number, extent_type, physfacet_text, size, location, container_type, container_number, date_of_material, restriction, restrict_date, uuid, breadcrumb_path)
 
 
 def get_size(extent_text, physfacet_text):

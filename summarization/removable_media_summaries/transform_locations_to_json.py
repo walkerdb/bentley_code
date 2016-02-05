@@ -11,7 +11,7 @@ def extract_location_data(row):
     del new_row["ID"]
     del new_row["collection title"]
     del new_row["access restrictions"]
-    return [new_row, ]
+    return new_row
 
 
 with open("location_export.csv", mode="r") as f:
@@ -22,13 +22,13 @@ with open("location_export.csv", mode="r") as f:
     last_key = "dummy"
     last_data = {}
     for row in reader:
-        if row["ID"]:
+        if row["ID"].strip():
             data_by_id[last_key] = last_data
 
-            last_key = row["ID"]
+            last_key = row["ID"].strip()
             last_data = {"collection title": row["collection title"],
                          "access restrictions": row["access restrictions"],
-                         "locations": extract_location_data(row)}
+                         "locations": [extract_location_data(row), ]}
         else:
             last_data["locations"].append(extract_location_data(row))
 
