@@ -1,0 +1,47 @@
+<archdesc>
+  <did>
+    <unittitle><unitdate normal="root date 2016-2017">root date 2016-2017</unitdate></unittitle>
+  </did>
+  <c01>
+    <did>
+      <container type="box">2</container>
+      <unittitle>fallback <unitdate normal="c01 date 2016">c01 date 2016</unitdate></unittitle>
+    </did>
+    <accessrestrict><p>ACCESS RESTRICTION <date normal="2014">2014</date></p></accessrestrict>
+    <c02>
+      <did>
+        <unittitle>no dates here</unittitle>
+      </did>
+      <c03>
+        <did>
+          <unittitle>no dates here</unittitle>
+        </did>
+        <c04>
+          <did>
+            <container type="box">3</container>
+            <unittitle>default <unitdate normal="leaf node with date 2017">whoo, date 2017</unitdate></unittitle>
+            <physdesc>physdesc that should have its own immediate tags</physdesc>
+          </did>
+          <accessrestrict><p>ACCESS RESTRICTION <date normal="2015">2015</date></p></accessrestrict>
+        </c04>
+        <c04>
+          <did>
+            <unittitle>this leaf node does not have a date or container</unittitle>
+            <physdesc>physdesc that should fall back to c01 tags</physdesc>
+          </did>
+        </c04>
+      </c03>
+    </c02>
+  </c01>
+  <c01>
+    <did>
+      <unittitle>no date here</unittitle>
+    </did>
+    <c02>
+      <did>
+        <unittitle>no date here</unittitle>
+        <physdesc>physdesc that should fall back to root ead data</physdesc>
+      </did>
+    </c02>
+  </c01>
+</archdesc>

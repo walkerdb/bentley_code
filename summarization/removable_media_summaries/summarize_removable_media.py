@@ -26,7 +26,7 @@ def main():
 
 
 def write_all_extents_to_csv(all_extents):
-    with open("all_data.csv", mode="wb") as f:
+    with open("removable_media_inventory.csv", mode="wb") as f:
         writer = UnicodeWriter(f)
 
         headers = ["ead name", "ead id", "collection name", "number of items", "extent type", "physfacet text",
@@ -41,7 +41,7 @@ def write_summary_to_csv(results_summarized, digital_only):
     # make the data into a list where every entry is in the following form:
     # ((extent type, extent subtype), (total count, Counter dict with counts of thing in each EAD))
     data = sorted(results_summarized.items())
-    with open("output.csv", mode="wb") as f:
+    with open("removable_media_summary.csv", mode="wb") as f:
         writer = csv.writer(f)
         writer.writerow(["media type", "media subtype", "total count", "counts by EAD"])
         for item in data:
@@ -171,19 +171,28 @@ def get_child_text(element, child_name):
     return children[0].text
 
 
-def get_container_info(physdesc):
-    parent = physdesc.getparent()
-    container = parent.xpath("container")
+def search_up_for_did_element(physdesc, relative_tag_xpath):
+    parent_did = physdesc.getparent()
 
-    while not container:
+    element = parent_did.xpath(relative_tag_xpath)
+
+    while not element:
         try:
-            parent = parent.getparent().getparent().xpath("did")[0]
-            container = parent.xpath("container")
-        except IndexError:
-            return "[container not listed]", "[container not listed]"
+            parent_did = parent_did.getparent().getparent().xpath("did")[0]
+            element = parent_did.xpath(relative_tag_xpath)
+        except (IndexError, AttributeError):
+            return ""
 
-    container_type = container[0].attrib["type"]
-    container_number = container[0].text
+    return element[0]
+
+
+def get_container_info(physdesc):
+    container = search_up_for_did_element(physdesc, "container")
+    if not type(container) == etree._Element:
+        return "[container not listed]", "[container not listed]"
+
+    container_type = container.attrib["type"]
+    container_number = container.text
 
     return container_type, container_number
 
@@ -293,7 +302,7 @@ def make_output_row(physdesc, ead_id):
 
     location = get_location(ead_id, container_type, container_number)
 
-    return (number, extent_type, physfacet_text, size, location, container_type, container_number, date_of_material, restriction, restrict_date, uuid, breadcrumb_path)
+    return number, extent_type, physfacet_text, size, location, container_type, container_number, date_of_material, restriction, restrict_date, uuid, breadcrumb_path
 
 
 def get_size(extent_text, physfacet_text):
@@ -312,18 +321,18 @@ def get_size(extent_text, physfacet_text):
 
 
 def get_restriction(physdesc):
-    accessrestriction = ""
+    text = ""
     date = ""
-    parent_c0x = physdesc.getparent().getparent()
 
-    possible_tags = parent_c0x.xpath("accessrestrict")
-    if possible_tags:
-        accessrestriction = extract_text(possible_tags[0])
-        accessrestriction_date = possible_tags[0].xpath("p/date")
+    accessrestrict = search_up_for_did_element(physdesc, "../accessrestrict")
+
+    if type(accessrestrict) == etree._Element:
+        text = extract_text(accessrestrict)
+        accessrestriction_date = accessrestrict.xpath("p/date")
         if accessrestriction_date:
             date = accessrestriction_date[0].get("normal", accessrestriction_date[0].text)
 
-    return accessrestriction, date
+    return text, date
 
 
 def extract_text(tag):
@@ -334,39 +343,20 @@ def extract_text(tag):
 
 
 def get_possible_material_date(physdesc):
-    did = physdesc.getparent()
-    date = ""
+    date = search_up_for_did_element(physdesc, "unitdate")
+    if type(date) == etree._Element:
+        return extract_years(date.get("normal", date.text))
 
-    while not date:
-        unitdate = did.xpath("unitdate")
-        if unitdate:
-            date = extract_years(unitdate[0].get("normal", unitdate[0].text))
-            break
+    date = search_up_for_did_element(physdesc, "unittitle/unitdate")
+    if type(date) == etree._Element:
+        return extract_years(date.get("normal", date.text))
 
-        unittitle = did.xpath("unittitle")
-        if not unittitle:
-            did = did.getparent().getparent().xpath("did")[0]
-            continue
+    date = physdesc.getroottree().xpath("//archdesc/did/unittitle/unitdate")
+    if type(date) == etree._Element:
+        return extract_years(date[0].get("normal", date[0].text))
 
-        unittitle = unittitle[0]
+    return "no date found"
 
-        unitdate = unittitle.xpath("unitdate")
-        if not unitdate:
-            try:
-                did = did.getparent().getparent().xpath("did")[0]
-            except IndexError:
-                try:
-                    # default to the ead unitdate, if there is one
-                    date = extract_years(physdesc.getroottree().xpath("//archdesc/did/unittitle/unitdate")[0].text)
-                    break
-                except IndexError:
-                    print("no date found")
-                    break
-            continue
-
-        date = extract_years(unitdate[0].get("normal", unitdate[0].text))
-        break
-    return date
 
 def extract_years(date_text):
     year_regex = re.compile(r"\d{4}")
