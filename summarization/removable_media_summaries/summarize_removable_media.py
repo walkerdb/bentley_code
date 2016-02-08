@@ -187,7 +187,7 @@ def search_up_for_did_element(physdesc, relative_tag_xpath):
 def get_containers(physdesc):
     container = search_up_for_did_element(physdesc, "container")
     if not type(container) == etree._Element:
-        return [("[container not listed]", "[container not listed]")]
+        return []
 
     container_data = []
     containers = [cont for cont in list(container.getparent()) if cont.tag == "container"]
@@ -290,6 +290,8 @@ def get_location(ead_id, containers):
 
 
 def create_container_text(containers):
+    if not containers:
+        return "[container not listed]"
     texts = []
     for container_type, container_text in containers:
         texts.append("{} {}".format(container_type, container_text))

@@ -9,13 +9,20 @@ class TestSummarizeRemovableMedia(unittest.TestCase):
         self.upstream_search_physdescs = self.upstream_search_tree.xpath("//physdesc")
         self.digitized_material_tree = etree.parse("test_files/test_digitized_material.xml")
         self.digitized_material_physdescs = self.digitized_material_tree.xpath("//physdesc")
+        self.container_tree = etree.parse("test_files/test_container_text_creation.xml")
+        self.container_physdescs = self.container_tree.xpath("//physdesc")
 
     def test_container_text_creation_with_two_containers(self):
-        tree = etree.parse("test_files/test_container_text_creation.xml")
-        physdesc = tree.xpath("//physdesc")[0]
+        physdesc = self.container_physdescs[0]
         containers = srm.get_containers(physdesc)
         container_text = srm.create_container_text(containers)
         self.assertEquals(container_text, "box 1, folder 2")
+
+    def test_container_text_creation_with_no_containers(self):
+        physdesc = self.container_physdescs[1]
+        containers = srm.get_containers(physdesc)
+        container_text = srm.create_container_text(containers)
+        self.assertEquals(container_text, "[container not listed]")
 
     def testLocationDiscovery(self):
         self.assertEquals(srm.get_location("87207", [("box", "21")]), "Y-624-K")
@@ -59,9 +66,9 @@ class TestSummarizeRemovableMedia(unittest.TestCase):
         physdesc = self.upstream_search_physdescs[1]
         self.assertEquals(srm.get_containers(physdesc), [("box", "2")])
 
-    def test_container_defaults_to_notification_when_nothing_found(self):
+    def test_container_defaults_to_empty_list_when_nothing_found(self):
         physdesc = self.upstream_search_physdescs[2]
-        self.assertEquals(srm.get_containers(physdesc), [("[container not listed]", "[container not listed]")])
+        self.assertEquals(srm.get_containers(physdesc), [])
 
     # accessrestrict search
     def test_accessrestrict_found_when_in_same_c0x(self):
