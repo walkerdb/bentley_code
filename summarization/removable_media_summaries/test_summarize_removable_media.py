@@ -10,8 +10,15 @@ class TestSummarizeRemovableMedia(unittest.TestCase):
         self.digitized_material_tree = etree.parse("test_files/test_digitized_material.xml")
         self.digitized_material_physdescs = self.digitized_material_tree.xpath("//physdesc")
 
+    def test_container_text_creation_with_two_containers(self):
+        tree = etree.parse("test_files/test_container_text_creation.xml")
+        physdesc = tree.xpath("//physdesc")[0]
+        containers = srm.get_containers(physdesc)
+        container_text = srm.create_container_text(containers)
+        self.assertEquals(container_text, "box 1, folder 2")
+
     def testLocationDiscovery(self):
-        self.assertEquals(srm.get_location("87207", "box", "21"), "Y-624-K")
+        self.assertEquals(srm.get_location("87207", [("box", "21")]), "Y-624-K")
 
     # finds digitized material
     def test_use_copies_marked_as_digitized_material(self):
@@ -46,15 +53,15 @@ class TestSummarizeRemovableMedia(unittest.TestCase):
     # container search
     def test_container_found_when_immediate_sibling(self):
         physdesc = self.upstream_search_physdescs[0]
-        self.assertEquals(srm.get_container_info(physdesc), ("box", "3"))
+        self.assertEquals(srm.get_containers(physdesc), [("box", "3")])
 
     def test_container_found_when_no_immediate_sibling(self):
         physdesc = self.upstream_search_physdescs[1]
-        self.assertEquals(srm.get_container_info(physdesc), ("box", "2"))
+        self.assertEquals(srm.get_containers(physdesc), [("box", "2")])
 
     def test_container_defaults_to_notification_when_nothing_found(self):
         physdesc = self.upstream_search_physdescs[2]
-        self.assertEquals(srm.get_container_info(physdesc), ("[container not listed]", "[container not listed]"))
+        self.assertEquals(srm.get_containers(physdesc), [("[container not listed]", "[container not listed]")])
 
     # accessrestrict search
     def test_accessrestrict_found_when_in_same_c0x(self):

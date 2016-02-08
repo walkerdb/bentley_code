@@ -184,15 +184,17 @@ def search_up_for_did_element(physdesc, relative_tag_xpath):
     return element[0]
 
 
-def get_container_info(physdesc):
+def get_containers(physdesc):
     container = search_up_for_did_element(physdesc, "container")
     if not type(container) == etree._Element:
-        return "[container not listed]", "[container not listed]"
+        return [("[container not listed]", "[container not listed]")]
 
-    container_type = container.attrib["type"]
-    container_number = container.text
+    container_data = []
+    containers = [cont for cont in list(container.getparent()) if cont.tag == "container"]
+    for container in containers:
+        container_data.append((container.attrib["type"], container.text))
 
-    return container_type, container_number
+    return container_data
 
 
 def make_unittitle_breadcrumbs(physdesc):
@@ -249,7 +251,15 @@ def find_removable_media(ead):
     return media_counts, all_media
 
 
-def get_location(ead_id, container_type, container_number):
+def get_location(ead_id, containers):
+    container_type = ""
+    container_number = ""
+    for cont_type, cont_number in containers:
+        if cont_type.lower() != "box":
+            continue
+        container_type = cont_type
+        container_number = cont_number
+
     location = ""
     if not container_number.isdigit():
         return ""
@@ -279,6 +289,13 @@ def get_location(ead_id, container_type, container_number):
     return location
 
 
+def create_container_text(containers):
+    texts = []
+    for container_type, container_text in containers:
+        texts.append("{} {}".format(container_type, container_text))
+
+    return ", ".join(texts)
+
 def make_output_row(physdesc, ead_id):
     # this code is kind of gross... sorry.
     extent_text = get_child_text(physdesc, "extent")
@@ -286,15 +303,16 @@ def make_output_row(physdesc, ead_id):
     if number == 0:
         number = "[no number given]"
     physfacet_text = get_child_text(physdesc, "physfacet")
-    container_type, container_number = get_container_info(physdesc)
-    container_text = "{} {}".format(container_type, container_number) if "[" not in container_type else "(no container listed)"
+    containers = get_containers(physdesc)
+
+    container_text = create_container_text(containers)
     uuid = get_uuid(physdesc)
     restriction, restrict_date = get_restriction(physdesc)
     breadcrumb_path = make_unittitle_breadcrumbs(physdesc)
     date_of_material = get_possible_material_date(physdesc)
     size = get_size(extent_text, physfacet_text)
 
-    location = get_location(ead_id, container_type, container_number)
+    location = get_location(ead_id, containers)
     is_a_digitization = "yes" if is_digitized(physdesc) else ""
 
     return number, extent_type, physfacet_text, size, location, container_text, date_of_material, is_a_digitization, restriction, restrict_date, uuid, breadcrumb_path
