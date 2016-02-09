@@ -26,7 +26,7 @@ def extract_aspace_id(returned_json):
     aspace_id = ""
     if not returned_json:
         return ""
-    if u"created" in returned_json:
+    if u"status" in returned_json:
         aspace_id = returned_json[u"uri"]
     if u"error" in returned_json:
         if u"conflicting_record" in returned_json[u"error"]:
