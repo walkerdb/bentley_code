@@ -92,6 +92,12 @@ pyspace.delete_aspace_object("accessions", "125")
 
 The object type values are limited to the same set of strings as above.
 
+####Removing a single agent
+Given an agent URI, will delete that agent:
+```python
+pyspace.delete_agent_by_uri('/agents/corporate_entities/103'
+```
+
 ####Deleting all agents
 If you want to purge all agents from a given ASpace installation, use the following:
 

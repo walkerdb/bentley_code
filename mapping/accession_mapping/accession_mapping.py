@@ -4,8 +4,21 @@ import re
 from tqdm import tqdm
 
 
-# CHANGE THIS
-input_filename = "accessions_20151030-final.csv"
+
+
+def main():
+    # CHANGE THIS
+    input_filepath = "accessions_20160208-final.csv"
+
+    remove_vertical_tab_characters(input_filepath)
+
+    name, extension = input_filepath.split(".")
+    clean_filename = "{}_clean.{}".format(name, extension)
+
+    json_data = make_accession_json_list(clean_filename)
+
+    with open("json_data.json", mode="w") as f:
+        f.write(json.dumps(json_data, indent=4, sort_keys=True, ensure_ascii=False))
 
 
 def make_accession_json_list(filepath):
@@ -276,11 +289,19 @@ def make_user_defined_json(accession, field_mappings):
 
     return d
 
+def remove_vertical_tab_characters(filename):
+    with open(filename, mode="rb") as f:
+        data = f.read()
+
+    data = data.decode("latin-1")
+    data = data.replace(u"\u000B", u"\n")
+    data = data.encode("utf-8")
+
+    name, extension = filename.split(".")
+    with open("{}_clean.{}".format(name, extension), mode="wb") as f:
+        f.write(data)
+
 
 if __name__ == "__main__":
-
-    json_data = make_accession_json_list(input_filename)
-
-    with open("json_data.json", mode="w") as f:
-        f.write(json.dumps(json_data, indent=4, sort_keys=True, ensure_ascii=False))
+    main()
 

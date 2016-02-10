@@ -92,6 +92,10 @@ class PySpace (object):
                                headers=headers
                                ).json()
 
+    def delete_agent_by_uri(self, uri):
+        headers = {"X-ArchivesSpace-Session": self.session_id}
+        return requests.delete('{0}{1}'.format(self.host, uri), headers=headers).json()
+
     def delete_all_agents(self):
         headers = {"X-ArchivesSpace-Session": self.session_id}
         agent_types = ["people", "families", "corporate_entities", "software"]
