@@ -104,6 +104,5 @@ class PySpace (object):
             for id_ in tqdm(ids, desc="deleting all {}".format(agent_type)):
                 requests.delete("{0}/agents/{1}/{2}".format(self.host, agent_type, id_), headers=headers)
 
-
     def change_repository(self, repository_number):
         self.repository = repository_number
