@@ -54,7 +54,7 @@ def fix_suspects(input_dir, output_dir):
             
             disparity = find_date_disparity(unittitle)
             if disparity > 10 and action == "move_and_calcify" and ead != "geolsurv.xml":
-                skipped_items.append([ead, xpath, text, disparity, action])
+                #skipped_items.append([ead, xpath, text, disparity, action])
                 move_unitdates(unittitle, action)
             else:
                 move_unitdates(unittitle, action)
