@@ -7,8 +7,8 @@ from lxml import etree
 from tqdm import tqdm
 
 
-input_dir = r'C:\Users\wboyle\PycharmProjects\without-reservations\Real_Masters_all'
-output_dir = r'C:\Users\wboyle\PycharmProjects\without-reservations\Real_Masters_all'
+input_dir = r'C:\Users\djpillen\GitHub\without-reservations\Real_Masters_all'
+output_dir = r'C:\Users\djpillen\GitHub\without-reservations\Real_Masters_all'
 
 
 def grab_suspects(input_dir):
@@ -18,7 +18,7 @@ def grab_suspects(input_dir):
     data = []
     for ead in tqdm(eads):
         tree = etree.parse(os.path.join(input_dir, ead))
-        unittitles = tree.xpath("//unittitle")
+        unittitles = tree.xpath("//did/unittitle")
         for unittitle in unittitles:
             action = determine_action(unittitle)
             if action:
@@ -55,6 +55,7 @@ def fix_suspects(input_dir, output_dir):
             disparity = find_date_disparity(unittitle)
             if disparity > 10 and action == "move_and_calcify" and ead != "geolsurv.xml":
                 skipped_items.append([ead, xpath, text, disparity, action])
+                move_unitdates(unittitle, action)
             else:
                 move_unitdates(unittitle, action)
 
@@ -72,7 +73,7 @@ def determine_action(unittitle):
     # characterize the distribution of unitdates in the unittitle, and decide on which course of action to take
     unitdates = unittitle.xpath("unitdate")
     action = ""
-    if len(unitdates) >= 1:
+    if unitdates:
         for unitdate in unitdates:
             if unitdate.tail:
                 if len(unitdate.tail.strip(", 1234567890-")) > 5 and len(unitdates) > 1:
@@ -81,6 +82,8 @@ def determine_action(unittitle):
                     tails = [unitdate.tail if unitdate.tail else "" for unitdate in unitdates]
                     if all([len(tail.strip(" and,.")) == 0 for tail in tails]):
                         action = "move_and_clean"
+    if unitdates and not action:
+        action = "move_and_clean"
 
     return action
 

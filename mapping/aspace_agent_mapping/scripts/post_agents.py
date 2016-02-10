@@ -17,7 +17,7 @@ def post_agents_and_record_ids(agent_dict, host, username, password):
 
             name_to_aspace_ids_map[name] = extract_aspace_id(response)
 
-    # write_name_dict_to_file(name_to_aspace_ids_map)
+    #write_name_dict_to_file(name_to_aspace_ids_map)
 
     return name_to_aspace_ids_map
 
@@ -26,8 +26,8 @@ def extract_aspace_id(returned_json):
     aspace_id = ""
     if not returned_json:
         return ""
-    if u"created" in returned_json:
-        aspace_id = returned_json[u"uid"]
+    if u"status" in returned_json:
+        aspace_id = returned_json[u"uri"]
     if u"error" in returned_json:
         if u"conflicting_record" in returned_json[u"error"]:
             aspace_id = returned_json[u"error"][u"conflicting_record"][0]
@@ -44,7 +44,7 @@ def write_name_dict_to_file(name_to_aspace_ids_map):
 
         writer = csv.writer(f)
         writer.writerow(["name", "aspace_id"])
-        writer.writerows(data)
+        writer.writerows(data.encode('utf-8'))
 
 
 def normalize_agent_type(agent_type):
