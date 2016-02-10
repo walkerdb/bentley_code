@@ -52,19 +52,19 @@ def fix_suspects(input_dir, output_dir):
         for xpath, action, text in dict_value_list:
             unittitle = tree.xpath(xpath)[0]
             
-            disparity = find_date_disparity(unittitle)
-            if disparity > 10 and action == "move_and_calcify" and ead != "geolsurv.xml":
+            #disparity = find_date_disparity(unittitle)
+            #if disparity > 10 and action == "move_and_calcify" and ead != "geolsurv.xml":
                 #skipped_items.append([ead, xpath, text, disparity, action])
-                move_unitdates(unittitle, action)
-            else:
-                move_unitdates(unittitle, action)
+            #else:
+                #move_unitdates(unittitle, action)
+            move_unitdates(unittitle, action)
 
         with open(os.path.join(output_dir, ead), mode="w") as f:
             f.write(etree.tostring(tree, pretty_print=True, xml_declaration=True, encoding="utf-8"))
 
-    with open("skipped_items.csv", mode="wb") as f:
-        writer = csv.writer(f)
-        writer.writerows(skipped_items)
+    #with open("skipped_items.csv", mode="wb") as f:
+        #writer = csv.writer(f)
+        #writer.writerows(skipped_items)
 
     print("Skipped {0} entries".format(len(skipped_items)))
 
