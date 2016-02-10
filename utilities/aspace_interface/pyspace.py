@@ -104,19 +104,6 @@ class PySpace (object):
             for id_ in tqdm(ids, desc="deleting all {}".format(agent_type)):
                 requests.delete("{0}/agents/{1}/{2}".format(self.host, agent_type, id_), headers=headers)
 
-    def make_name_to_id_map(self):
-        name_to_id_map = {}
-        headers = {"X-ArchivesSpace-Session":self.session_id}
-        agent_types = ["people","families","corporate_entities"]
-        for agent_type in agent_types:
-            ids = requests.get("{0}/agents/{1}?all_ids=true".format(self.host,agent_type),headers=headers).json()
-            for id_ in tqdm(ids,desc="getting ids for all {}".format(agent_type)):
-                agent_json = requests.get("{0}/agents/{1}/{2}".format(self.host,agent_type,id_),headers=headers).json()
-                name = agent_json['display_name']['sort_name']
-                uri = agent_json['uri']
-                name_to_id_map[name] = uri
-        return name_to_id_map
-
 
     def change_repository(self, repository_number):
         self.repository = repository_number
