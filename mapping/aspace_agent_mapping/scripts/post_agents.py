@@ -36,17 +36,6 @@ def extract_aspace_id(returned_json):
     return aspace_id
 
 
-def write_name_dict_to_file(name_to_aspace_ids_map):
-    with open("local_to_aspace_agent_name_map.csv", mode="wb") as f:
-        data = []
-        for name, aspace_id in name_to_aspace_ids_map.items():
-            data.append([name, aspace_id])
-
-        writer = csv.writer(f)
-        writer.writerow(["name", "aspace_id"])
-        writer.writerows(data.encode('utf-8'))
-
-
 def normalize_agent_type(agent_type):
     if agent_type == "persname":
         return "people"
