@@ -11,6 +11,14 @@ class TestSummarizeRemovableMedia(unittest.TestCase):
         self.digitized_material_physdescs = self.digitized_material_tree.xpath("//physdesc")
         self.container_tree = etree.parse("test_files/test_container_text_creation.xml")
         self.container_physdescs = self.container_tree.xpath("//physdesc")
+        self.digital_object_discovery_tree = etree.parse("test_files/test_digital_object_sibling_discovery.xml")
+        self.digital_object_discovery_physfacets = self.digital_object_discovery_tree.xpath("//physdesc")
+
+    def test_extract_text(self):
+        tag = etree.fromstring("""<unittitle><genreform normal="Photographs">Photographs</genreform></unittitle>""")
+        text = srm.extract_text(tag)
+
+        self.assertEquals(text, "Photographs")
 
     def test_container_text_creation_with_two_containers(self):
         physdesc = self.container_physdescs[0]
@@ -78,3 +86,20 @@ class TestSummarizeRemovableMedia(unittest.TestCase):
     def test_accessrestrict_found_when_in_parent_c0x(self):
         physdesc = self.upstream_search_physdescs[1]
         self.assertEquals(srm.get_restriction(physdesc), ("ACCESS RESTRICTION 2014", "2014"))
+
+    # digital object sibling
+    def test_digital_object_discovery_with_flv_unittitle_keyword(self):
+        physdesc = self.digital_object_discovery_physfacets[0]
+        self.assertEquals(srm.get_digital_object_siblings(physdesc), 'filename.flv')
+
+    def test_digital_object_discovery_with_streaming_unittitle_keyword(self):
+        physdesc = self.digital_object_discovery_physfacets[1]
+        self.assertEquals(srm.get_digital_object_siblings(physdesc), 'Streaming File: 85701-1')
+
+    def test_digital_object_discovery_with_physfacet_keyword(self):
+        physdesc = self.digital_object_discovery_physfacets[2]
+        self.assertEquals(srm.get_digital_object_siblings(physdesc), 'Streaming File (85710-1.flv)')
+
+    def test_digital_object_discovery_no_match_doesnt_return_anything(self):
+        physdesc = self.digital_object_discovery_physfacets[3]
+        self.assertEquals(srm.get_digital_object_siblings(physdesc), '')

@@ -20,9 +20,9 @@ def main():
     ead_dir = EADDir()
 
     results_by_ead, all_extents = get_raw_results(ead_dir)
-    results_summarized = create_summarized_results(results_by_ead)
+    summary_by_type = summarize_results_by_type(results_by_ead)
     write_all_extents_to_csv(all_extents)
-    write_summary_to_csv(results_summarized, digital_only=True)
+    write_summary_to_csv(summary_by_type, digital_only=True)
 
 
 def write_all_extents_to_csv(all_extents):
@@ -30,7 +30,7 @@ def write_all_extents_to_csv(all_extents):
         writer = UnicodeWriter(f)
 
         headers = ["ead name", "ead id", "collection name", "number of items", "extent type", "physfacet text",
-                   "size (mb)", "location", "container", "potential date of material", "is the result of a Bentley digitization project",
+                   "size (mb)", "location", "container", "potential date of material", "title of potentially related digital content (if any)", "is the result of a Bentley digitization project",
                    "access restrictions", "access restiction dates", "uuid", "unittitle breadcrumb"]
         writer.writerow(headers)
         writer.writerows(all_extents)
@@ -53,7 +53,7 @@ def write_summary_to_csv(results_summarized, digital_only):
             writer.writerow(row)
 
 
-def create_summarized_results(results_by_ead):
+def summarize_results_by_type(results_by_ead):
     mappings = {"cd": ("digital", "CDs"),
                 "dvd": ("digital", "DVDs"),
                 "magneto-optical": ("digital", "magneto-optical disks"),
@@ -161,66 +161,6 @@ def normalize_counter_entry(counter, k, key, value):
     del counter[key]
 
 
-def get_child_text(element, child_name):
-    children = element.xpath(child_name)
-    if not children:
-        return ""
-
-    return children[0].text
-
-
-def search_up_for_did_element(physdesc, relative_tag_xpath):
-    parent_did = physdesc.getparent()
-
-    element = parent_did.xpath(relative_tag_xpath)
-
-    while not element:
-        try:
-            parent_did = parent_did.getparent().getparent().xpath("did")[0]
-            element = parent_did.xpath(relative_tag_xpath)
-        except (IndexError, AttributeError):
-            return ""
-
-    return element[0]
-
-
-def get_containers(physdesc):
-    container = search_up_for_did_element(physdesc, "container")
-    if not type(container) == etree._Element:
-        return []
-
-    container_data = []
-    containers = [cont for cont in list(container.getparent()) if cont.tag == "container"]
-    for container in containers:
-        container_data.append((container.attrib["type"], container.text))
-
-    return container_data
-
-
-def make_unittitle_breadcrumbs(physdesc):
-    breadcrumbs = []
-
-    is_c01 = False
-    parent = physdesc.getparent().getparent()
-    while not is_c01:
-        unittitle = parent.xpath("did/unittitle")[0]
-        unittitle_text = extract_text(unittitle)
-        breadcrumbs.append(unicode(unittitle_text.strip()))
-
-        if parent.tag == "c01" or parent.tag == "archdesc":
-            is_c01 = True
-
-        parent = parent.getparent()
-
-    breadcrumbs.reverse()
-    return u" -> ".join(breadcrumbs)
-
-
-def get_uuid(physdesc):
-    c0x_parent = physdesc.getparent().getparent()
-    return c0x_parent.get("id", "")
-
-
 def find_removable_media(ead):
     extent_types = ["optical disks", "floppy disks", "USB thumb drives", "zip disks", "diskettes", "CD", "DVD", "magneto-optical disks"]
 
@@ -249,6 +189,66 @@ def find_removable_media(ead):
             all_media.append(make_output_row(physdesc, ead.id))
 
     return media_counts, all_media
+
+
+def make_output_row(physdesc, ead_id):
+    # this code is kind of gross... sorry.
+    extent_text = get_child_text(physdesc, "extent")
+    number, extent_type = split_extent(extent_text)
+    if number == 0:
+        number = "[no number given]"
+    physfacet_text = get_child_text(physdesc, "physfacet")
+    containers = get_containers(physdesc)
+
+    container_text = create_container_text(containers)
+    uuid = get_uuid(physdesc)
+    restriction, restrict_date = get_restriction(physdesc)
+    breadcrumb_path = make_unittitle_breadcrumbs(physdesc)
+    date_of_material = get_possible_material_date(physdesc)
+    size = get_size(extent_text, physfacet_text)
+
+    location = get_location(ead_id, containers)
+    is_a_digitization = "yes" if is_digitized(physdesc) else ""
+    digital_object_text = get_digital_object_siblings(physdesc)
+
+    return number, extent_type, physfacet_text, size, location, container_text, date_of_material, digital_object_text, is_a_digitization, restriction, restrict_date, uuid, breadcrumb_path
+
+
+def get_containers(physdesc):
+    container = search_up_for_did_element(physdesc, "container")
+    if not type(container) == etree._Element:
+        return []
+
+    container_data = []
+    containers = [cont for cont in list(container.getparent()) if cont.tag == "container"]
+    for container in containers:
+        container_data.append((container.attrib["type"], container.text))
+
+    return container_data
+
+
+def get_uuid(physdesc):
+    c0x_parent = physdesc.getparent().getparent()
+    return c0x_parent.get("id", "")
+
+
+def make_unittitle_breadcrumbs(physdesc):
+    breadcrumbs = []
+
+    is_c01 = False
+    parent = physdesc.getparent().getparent()
+    while not is_c01:
+        unittitle = parent.xpath("did/unittitle")[0]
+        unittitle_text = extract_text(unittitle)
+        breadcrumbs.append(unicode(unittitle_text.strip()))
+
+        if parent.tag == "c01" or parent.tag == "archdesc":
+            is_c01 = True
+
+        parent = parent.getparent()
+
+    breadcrumbs.reverse()
+    return u" -> ".join(breadcrumbs)
 
 
 def get_location(ead_id, containers):
@@ -298,27 +298,6 @@ def create_container_text(containers):
 
     return ", ".join(texts)
 
-def make_output_row(physdesc, ead_id):
-    # this code is kind of gross... sorry.
-    extent_text = get_child_text(physdesc, "extent")
-    number, extent_type = split_extent(extent_text)
-    if number == 0:
-        number = "[no number given]"
-    physfacet_text = get_child_text(physdesc, "physfacet")
-    containers = get_containers(physdesc)
-
-    container_text = create_container_text(containers)
-    uuid = get_uuid(physdesc)
-    restriction, restrict_date = get_restriction(physdesc)
-    breadcrumb_path = make_unittitle_breadcrumbs(physdesc)
-    date_of_material = get_possible_material_date(physdesc)
-    size = get_size(extent_text, physfacet_text)
-
-    location = get_location(ead_id, containers)
-    is_a_digitization = "yes" if is_digitized(physdesc) else ""
-
-    return number, extent_type, physfacet_text, size, location, container_text, date_of_material, is_a_digitization, restriction, restrict_date, uuid, breadcrumb_path
-
 
 def get_size(extent_text, physfacet_text):
     size_map = OrderedDict([("floppy", 1.4),
@@ -350,13 +329,6 @@ def get_restriction(physdesc):
     return text, date
 
 
-def extract_text(tag):
-    text = etree.tostring(tag)
-    tag_regex = re.compile(r"</?.*?>")
-
-    return " ".join(re.sub(tag_regex, "", text).split()).strip()
-
-
 def is_digitized(physdesc):
     unittitle_text = get_sibling_text(physdesc, "unittitle").lower()
     physfacet_text = get_child_text(physdesc, "physfacet").lower()
@@ -385,9 +357,59 @@ def get_possible_material_date(physdesc):
     return ""
 
 
+def get_digital_object_siblings(physdesc):
+    parent_c0x = physdesc.getparent().getparent()
+    if not parent_c0x.tag.startswith("c0"):
+        return u""
+
+    siblings = parent_c0x.getparent().xpath(parent_c0x.tag)
+    index = siblings.index(parent_c0x)
+
+    if index + 1 == len(siblings):
+        return u""
+
+    next_sibling = siblings[index + 1]
+
+    sibling_unittitle_text = extract_text(next_sibling.xpath("did/unittitle")[0])
+    physfacet_text = get_child_text(next_sibling, "did/physdesc/physfacet")
+
+    keywords = [re.compile(r"[a-zA-Z]\.[a-z]{3}\b"), re.compile(r"[sS]treaming")]
+
+    if any(re.search(keyword, sibling_unittitle_text) or re.search(keyword, physfacet_text) for keyword in keywords):
+        if physfacet_text:
+            sibling_unittitle_text = u"{} ({})".format(sibling_unittitle_text, physfacet_text)
+
+        return sibling_unittitle_text
+
+    return ""
+
+
+def search_up_for_did_element(physdesc, relative_tag_xpath):
+    parent_did = physdesc.getparent()
+
+    element = parent_did.xpath(relative_tag_xpath)
+
+    while not element:
+        try:
+            parent_did = parent_did.getparent().getparent().xpath("did")[0]
+            element = parent_did.xpath(relative_tag_xpath)
+        except (IndexError, AttributeError):
+            return ""
+
+    return element[0]
+
+
 def extract_years(date_text):
     year_regex = re.compile(r"\d{4}")
     return "-".join(re.findall(year_regex, date_text))
+
+
+def extract_text(tag):
+    text = etree.tostring(tag)
+    tag_regex = re.compile(r"</?.*?>")
+    extracted_text = " ".join(re.sub(tag_regex, "", text).split()).strip()
+
+    return extracted_text if extracted_text else ""
 
 
 def get_sibling_text(element, sibling_name):
@@ -396,6 +418,14 @@ def get_sibling_text(element, sibling_name):
         return ""
 
     return extract_text(sibling[0])
+
+
+def get_child_text(element, child_name):
+    children = element.xpath(child_name)
+    if not children:
+        return ""
+
+    return extract_text(children[0])
 
 
 def split_extent(extent_text):
