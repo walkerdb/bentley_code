@@ -60,4 +60,3 @@ def fix_prettyprint_whitespace(raw_text):
 
 if __name__ == "__main__":
     main()
-

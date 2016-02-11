@@ -17,7 +17,7 @@ def post_agents_and_record_ids(agent_dict, host, username, password):
 
             name_to_aspace_ids_map[name] = extract_aspace_id(response)
 
-    # write_name_dict_to_file(name_to_aspace_ids_map)
+    #write_name_dict_to_file(name_to_aspace_ids_map)
 
     return name_to_aspace_ids_map
 
@@ -44,7 +44,7 @@ def write_name_dict_to_file(name_to_aspace_ids_map):
 
         writer = csv.writer(f)
         writer.writerow(["name", "aspace_id"])
-        writer.writerows(data)
+        writer.writerows(data.encode('utf-8'))
 
 
 def normalize_agent_type(agent_type):
