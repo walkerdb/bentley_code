@@ -21,11 +21,13 @@ def main():
 
     results_by_ead, all_extents = get_raw_results(ead_dir)
     summary_by_type = summarize_results_by_type(results_by_ead)
-    write_all_extents_to_csv(all_extents)
-    write_summary_to_csv(summary_by_type, digital_only=True)
+    summary_by_ead = summarize_results_by_ead(results_by_ead)
+    write_full_inventory(all_extents)
+    write_type_summary(summary_by_type, digital_only=True)
+    write_ead_summary(summary_by_ead, digital_only=True)
 
 
-def write_all_extents_to_csv(all_extents):
+def write_full_inventory(all_extents):
     with open("removable_media_inventory.csv", mode="wb") as f:
         writer = UnicodeWriter(f)
 
@@ -36,7 +38,12 @@ def write_all_extents_to_csv(all_extents):
         writer.writerows(all_extents)
 
 
-def write_summary_to_csv(results_summarized, digital_only):
+def write_ead_summary(summary_by_ead, digital_only):
+    # TODO - write this. Serialize the dictionary and make sure you give default values to keys that might not exist in a given Counter.
+    pass
+
+
+def write_type_summary(results_summarized, digital_only):
 
     # make the data into a list where every entry is in the following form:
     # ((extent type, extent subtype), (total count, Counter dict with counts of thing in each EAD))
@@ -53,22 +60,19 @@ def write_summary_to_csv(results_summarized, digital_only):
             writer.writerow(row)
 
 
+def summarize_results_by_ead(results_by_ead):
+    for ead_file, counter in results_by_ead.items():
+        # clean up the counter
+        normalize_counter_values(counter)
+        results_by_ead[ead_file] = counter
+    return results_by_ead
+
+
 def summarize_results_by_type(results_by_ead):
-    mappings = {"cd": ("digital", "CDs"),
-                "dvd": ("digital", "DVDs"),
-                "magneto-optical": ("digital", "magneto-optical disks"),
-                "film": ("video", "film reels"),
-                "reel-to-reel": ("audio", "reel-to-reel tapes"),
-                "phonograph": ("audio", "phonograph records"),
-                "audiotapes": ("audio", "reel-to-reel tapes"),
-                "vhs": ("video", "VHS tapes"),
-                "beta": ("video", "Betacam tapes"),
-                "u-matic": ("video", "U-matic tapes"),
-                "mini-dv": ("video", "mini-DV tapes")}
     results = {}
     for ead_file, counter in results_by_ead.items():
         # clean up the counter
-        normalize_counter_values(counter, mappings)
+        normalize_counter_values(counter)
         for key, value in counter.items():
             if key not in results:
                 results[key] = (0, Counter())
@@ -110,7 +114,19 @@ def get_raw_results(ead_dir):
     return results_by_ead, all_extents
 
 
-def normalize_counter_values(counter, mappings):
+def normalize_counter_values(counter):
+    mappings = {"cd": ("digital", "CDs"),
+                "dvd": ("digital", "DVDs"),
+                "magneto-optical": ("digital", "magneto-optical disks"),
+                "film": ("video", "film reels"),
+                "reel-to-reel": ("audio", "reel-to-reel tapes"),
+                "phonograph": ("audio", "phonograph records"),
+                "audiotapes": ("audio", "reel-to-reel tapes"),
+                "vhs": ("video", "VHS tapes"),
+                "beta": ("video", "Betacam tapes"),
+                "u-matic": ("video", "U-matic tapes"),
+                "mini-dv": ("video", "mini-DV tapes")}
+
     for key, value in counter.items():
         extent, physfacet = key
 
@@ -373,11 +389,15 @@ def get_digital_object_siblings(physdesc):
     sibling_unittitle_text = extract_text(next_sibling.xpath("did/unittitle")[0])
     physfacet_text = get_child_text(next_sibling, "did/physdesc/physfacet")
 
-    keywords = [re.compile(r"[a-zA-Z]\.[a-z]{3}\b"), re.compile(r"[sS]treaming")]
+    file_extension_regex = re.compile(r"[a-zA-Z]\.[a-z]{3}\b")
+    keyword_regexes = [file_extension_regex, re.compile(r"[sS]treaming")]
 
-    if any(re.search(keyword, sibling_unittitle_text) or re.search(keyword, physfacet_text) for keyword in keywords):
+    if any(re.search(regex, sibling_unittitle_text) or re.search(regex, physfacet_text) for regex in keyword_regexes):
         if physfacet_text:
             sibling_unittitle_text = u"{} ({})".format(sibling_unittitle_text, physfacet_text)
+
+        if "flv" in sibling_unittitle_text or "streaming" in sibling_unittitle_text.lower():
+            sibling_unittitle_text = u"{}. Files are likely stored in R:\\Digitization\\Video".format(sibling_unittitle_text)
 
         return sibling_unittitle_text
 

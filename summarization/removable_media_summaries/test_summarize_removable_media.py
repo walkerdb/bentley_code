@@ -90,15 +90,15 @@ class TestSummarizeRemovableMedia(unittest.TestCase):
     # digital object sibling
     def test_digital_object_discovery_with_flv_unittitle_keyword(self):
         physdesc = self.digital_object_discovery_physfacets[0]
-        self.assertEquals(srm.get_digital_object_siblings(physdesc), 'filename.flv')
+        self.assertEquals(srm.get_digital_object_siblings(physdesc), 'filename.flv. Files are likely stored in R:\\Digitization\\Video')
 
     def test_digital_object_discovery_with_streaming_unittitle_keyword(self):
         physdesc = self.digital_object_discovery_physfacets[1]
-        self.assertEquals(srm.get_digital_object_siblings(physdesc), 'Streaming File: 85701-1')
+        self.assertEquals(srm.get_digital_object_siblings(physdesc), 'Streaming File: 85701-1. Files are likely stored in R:\\Digitization\\Video')
 
     def test_digital_object_discovery_with_physfacet_keyword(self):
         physdesc = self.digital_object_discovery_physfacets[2]
-        self.assertEquals(srm.get_digital_object_siblings(physdesc), 'Streaming File (85710-1.flv)')
+        self.assertEquals(srm.get_digital_object_siblings(physdesc), 'Streaming File (85710-1.flv). Files are likely stored in R:\\Digitization\\Video')
 
     def test_digital_object_discovery_no_match_doesnt_return_anything(self):
         physdesc = self.digital_object_discovery_physfacets[3]
