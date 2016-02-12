@@ -1,9 +1,11 @@
 from collections import Counter, OrderedDict
 import cStringIO
 import codecs
+from copy import deepcopy
 import json
 import csv
 import os
+from pprint import pprint
 import re
 
 from tqdm import tqdm
@@ -11,28 +13,30 @@ from lxml import etree
 
 from utilities.ead_utilities.ead_utilities import EADDir, EAD
 
-
 with open("locations.json", mode="r") as f:
     locations = json.load(f)
 
 
 def main():
+    digital_only = False
     ead_dir = EADDir()
 
-    results_by_ead, all_extents = get_raw_results(ead_dir)
-    summary_by_type = summarize_results_by_type(results_by_ead)
-    summary_by_ead = summarize_results_by_ead(results_by_ead)
-    write_full_inventory(all_extents)
-    write_type_summary(summary_by_type, digital_only=True)
-    write_ead_summary(summary_by_ead, digital_only=True)
+    results_by_ead, all_extents = get_raw_results(ead_dir, digital_only)
+    summary_by_type = summarize_results_by_type(deepcopy(results_by_ead))
+    summary_by_ead = summarize_results_by_ead(deepcopy(results_by_ead))
+    write_removable_media_inventory(all_extents)
+    write_type_summary(summary_by_type, digital_only)
+    write_ead_summary(summary_by_ead, digital_only)
 
 
-def write_full_inventory(all_extents):
+def write_removable_media_inventory(all_extents):
     with open("removable_media_inventory.csv", mode="wb") as f:
         writer = UnicodeWriter(f)
 
         headers = ["ead name", "ead id", "collection name", "number of items", "extent type", "physfacet text",
-                   "size (mb)", "location", "container", "potential date of material", "title of potentially related digital content (if any)", "is the result of a Bentley digitization project",
+                   "size (mb)", "location", "container", "potential date of material",
+                   "title of potentially related digital content (if any)",
+                   "is the result of a Bentley digitization project",
                    "access restrictions", "access restiction dates", "uuid", "unittitle breadcrumb"]
         writer.writerow(headers)
         writer.writerows(all_extents)
@@ -40,15 +44,73 @@ def write_full_inventory(all_extents):
 
 def write_ead_summary(summary_by_ead, digital_only):
     # TODO - write this. Serialize the dictionary and make sure you give default values to keys that might not exist in a given Counter.
+    digital_keys = [("digital", "CDs"),
+                    ("digital", "DVDs"),
+                    ("digital", "USB thumb drives"),
+                    ("digital", 'floppy disks: 3.5"'),
+                    ("digital", 'floppy disks: 5.25"'),
+                    ("digital", "floppy disks: size not known"),
+                    ("digital", "magneto-optical disks"),
+                    ("digital", "zip disks")]
+    video_keys = [('video', '(type not listed)'),
+                  ('video', '8mm videocassettes'),
+                  ('video', 'Betacam tapes'),
+                  ('video', 'Sony DVCAM videocassettes'),
+                  ('video', 'U-matic tapes'),
+                  ('video', 'VHS tapes'),
+                  ('video', 'film reels'),
+                  ('video', 'mini-DV tapes'),
+                  ('video', 'open reel videotapes'),
+                  ('video', '2-inch videotapes'),
+                  ('video', '1-inch videotapes'),
+                  ("video", "videocassette (unknown type)"),
+                  ("video", "(unknown video type)"),
+                  ('video', 'oversize')]
+    audio_keys = [('audio', 'audiocassettes'),
+                  ('audio', 'microcassettes'),
+                  ('audio', 'phonograph records'),
+                  ('audio', 'reel-to-reel tapes'),
+                  ("audio", "wire recordings")]
+
+    if digital_only:
+        keys = digital_keys
+    else:
+        keys = digital_keys + video_keys + audio_keys
+
+
+    # initialize empty values and setup dict for writing
+    ead_dir = EADDir()
+    for ead_file, counter in summary_by_ead.items():
+        for key in keys:
+            if key not in counter:
+                counter[key] = 0
+        for key in counter.keys():
+            counter[u"{}: {}".format(unicode(key[0]), unicode(key[1]))] = counter[key]
+            del counter[key]
+
+        counter[u"collection name"] = EAD(os.path.join(ead_dir.input_dir, ead_file)).title
+        summary_by_ead[ead_file] = counter
+
+    # write
+    with open("removable_media_summary_by_ead.csv", mode="wb") as f:
+        # headers = [u"collection name", u"CDs", u"DVDs", u"USB thumb drives", u'floppy disks: 3.5"',
+        #            u'floppy disks: 5.25"', u"floppy disks: size not known", u"magneto-optical disks", u"zip disks"]
+        headers = [u"{}: {}".format(key[0], key[1]) for key in keys]
+        headers.insert(0, u"collection name")
+        writer = DictUnicodeWriter(f, fieldnames=headers)
+        writer.writeheader()
+        data = sorted(summary_by_ead.items())
+        for name, counter in data:
+            writer.writerow(counter)
+
     pass
 
 
 def write_type_summary(results_summarized, digital_only):
-
     # make the data into a list where every entry is in the following form:
     # ((extent type, extent subtype), (total count, Counter dict with counts of thing in each EAD))
     data = sorted(results_summarized.items())
-    with open("removable_media_summary.csv", mode="wb") as f:
+    with open("removable_media_summary_by_type.csv", mode="wb") as f:
         writer = csv.writer(f)
         writer.writerow(["media type", "media subtype", "total count", "counts by EAD"])
         for item in data:
@@ -90,13 +152,13 @@ def extract_eadid(text):
     return re.findall(id_regex, text)[0]
 
 
-def get_raw_results(ead_dir):
+def get_raw_results(ead_dir, digital_only):
     results_by_ead = {}
     all_extents = []
     for ead_file in tqdm(ead_dir.ead_files):
         ead = EAD(os.path.join(ead_dir.input_dir, ead_file))
 
-        summarized_results, all_results = find_removable_media(ead)
+        summarized_results, all_results = find_removable_media(ead, digital_only)
         if summarized_results:
             results_by_ead[ead_file] = summarized_results
 
@@ -119,68 +181,107 @@ def normalize_counter_values(counter):
                 "dvd": ("digital", "DVDs"),
                 "magneto-optical": ("digital", "magneto-optical disks"),
                 "film": ("video", "film reels"),
+                "16 mm": ("video", "film reels"),
+                "16mm": ("video", "film reels"),
+                "in. videotape": ("video", "2-inch videotapes"),
+                "2-inch video": ("video", "2-inch videotapes"),
+                "1-inch video": ("video", "1-inch videotapes"),
+                "open reel videotape": ("video", "open reel videotapes"),
+                "videocassette": ("video", "videocassette (unknown type)"),
+                "videotape": ("video", "(unknown video type)"),
                 "reel-to-reel": ("audio", "reel-to-reel tapes"),
+                "reel to reel": ("audio", "reel-to-reel tapes"),
+                "ips": ("audio", "reel-to-reel tapes"),
+                "cassette tape": ("audio", "audiocassettes"),
                 "phonograph": ("audio", "phonograph records"),
                 "audiotapes": ("audio", "reel-to-reel tapes"),
+                "audio-cassette": ("audio", "audiocassettes"),
+                "audio cassette": ("audio", "audiocassettes"),
+                "audio reel": ("audio", "reel-to-reel tapes"),
+                "audio-tape": ("audio", "reel-to-reel tapes"),
+                "audiotape": ("audio", "reel-to-reel tapes"),
+                "wire recording": ("audio", "wire recordings"),
+                "inch audio tape": ("audio", "reel-to-reel tapes"),
                 "vhs": ("video", "VHS tapes"),
                 "beta": ("video", "Betacam tapes"),
                 "u-matic": ("video", "U-matic tapes"),
                 "mini-dv": ("video", "mini-DV tapes")}
 
-    for key, value in counter.items():
-        extent, physfacet = key
+    for extent_physfacet_tuple, count in counter.items():
+        extent, physfacet = extent_physfacet_tuple
+
+        disallowed_keywords = ["mp4", "m4v", "mpeg4", "mpeg-4", 'video file', ".zip file", ".wav file", "mov file", "quicktime", "video paper", "includes video"]
+        if any(keyword in "{} {}".format(extent, physfacet).lower() for keyword in disallowed_keywords):
+            del counter[extent_physfacet_tuple]
 
         if extent == "audiocassettes" and physfacet != "microcassettes":
-            k = ("audio", "audiocassettes")
-            normalize_counter_entry(counter, k, key, value)
+            new_key = ("audio", "audiocassettes")
+            normalize_counter_entry(counter, new_key, extent_physfacet_tuple, count)
 
         if extent == "audiocassettes" and physfacet == "microcassettes":
-            k = ("audio", "microcassettes")
-            normalize_counter_entry(counter, k, key, value)
+            new_key = ("audio", "microcassettes")
+            normalize_counter_entry(counter, new_key, extent_physfacet_tuple, count)
+
+        if "audiocassette" in physfacet:
+            new_key = ("audio", "audiocassettes")
+            normalize_counter_entry(counter, new_key, extent_physfacet_tuple, count)
 
         if extent == "floppy disks":
             if not physfacet:
                 physfacet = "size not known"
 
-            k = ("digital", "{}: {}".format(extent, physfacet))
-            normalize_counter_entry(counter, k, key, value)
+            new_key = ("digital", "{}: {}".format(extent, physfacet))
+            normalize_counter_entry(counter, new_key, extent_physfacet_tuple, count)
 
         if extent == "videotapes":
             if not physfacet:
                 physfacet = "(type not listed)"
 
-            k = ("video", physfacet)
-            normalize_counter_entry(counter, k, key, value)
+            new_key = ("video", physfacet)
+            normalize_counter_entry(counter, new_key, extent_physfacet_tuple, count)
 
         if extent == "zip disks":
-            k = ("digital", "zip disks")
-            normalize_counter_entry(counter, k, key, value)
+            new_key = ("digital", "zip disks")
+            normalize_counter_entry(counter, new_key, extent_physfacet_tuple, count)
 
         if extent == "USB thumb drives":
-            k = ("digital", "USB thumb drives")
-            normalize_counter_entry(counter, k, key, value)
+            new_key = ("digital", "USB thumb drives")
+            normalize_counter_entry(counter, new_key, extent_physfacet_tuple, count)
 
             # if extent == "audiocassettes":
             #     k = ("audio", physfacet)
             #     normalize_counter_entry(counter, k, key, value)
-    for key, value in counter.items():
-        extent, physfacet = key
+
+    for extent_physfacet_tuple, count in counter.items():
+        extent, physfacet = extent_physfacet_tuple
+
         for search_key, normalized_pair in mappings.items():
-            ext, phys = normalized_pair
-            if search_key in physfacet.lower() or search_key in extent.lower():
-                counter[(ext, phys)] = counter.get((ext, phys), 0) + value
-                del counter[key]
+            if search_key in "{} {}".format(physfacet.lower(), extent.lower()):
+                counter[normalized_pair] = counter.get(normalized_pair, 0) + count
+                del counter[extent_physfacet_tuple]
 
 
-def normalize_counter_entry(counter, k, key, value):
-    counter[k] = counter.get(k, 0) + value
-    del counter[key]
+def normalize_counter_entry(counter, key_to_add_original_value_to, original_key, count):
+    counter[key_to_add_original_value_to] = counter.get(key_to_add_original_value_to, 0) + count
+    del counter[original_key]
 
 
-def find_removable_media(ead):
-    extent_types = ["optical disks", "floppy disks", "USB thumb drives", "zip disks", "diskettes", "CD", "DVD", "magneto-optical disks"]
+def find_removable_media(ead, digital_only):
+    digital_extent_types = ["optical disks", "floppy disks", "USB thumb drives", "zip disks", "diskettes", "CD", "DVD", "magneto-optical disks"]
+    digital_physfacet_keywords = ["CD", "DVD", "compact disk", "thumb drive"]
 
-    physfacet_keywords = ["CD", "DVD", "compact disk", "thumb drive"]
+    analog_video_extent_types = ["videotapes", "videocassettes", "film"]
+    analog_video_physfacet_keywords = ["beta", "vhs", "video", "16mm", "u-matic", "umatic", "mini-dv"]
+
+    analog_audio_extent_types = ["audiocassettes", "audiotapes", "phonograph records", "wire recordings", "audiorecordings"]
+    analog_audio_physfacet_keywords = ["reel-to-reel", "reel to reel", 'ips', 'microcassettes', 'cassette tape', 'audiocassette', 'audio cassette', "audio"]
+
+    if digital_only:
+        extent_types = digital_extent_types
+        physfacet_keywords = digital_physfacet_keywords
+    else:
+        extent_types = digital_extent_types + analog_video_extent_types + analog_audio_extent_types
+        physfacet_keywords = digital_physfacet_keywords + analog_video_physfacet_keywords + analog_audio_physfacet_keywords
 
     media_counts = Counter()
     all_media = []
@@ -300,7 +401,8 @@ def get_location(ead_id, containers):
             max_box = int(max_box)
 
             if container_number in list(range(min_box, max_box + 1)):
-                location = " to ".join(list(filter(None, [loc_row["location start"].upper(), loc_row["location end"].upper()])))
+                location = " to ".join(
+                    list(filter(None, [loc_row["location start"].upper(), loc_row["location end"].upper()])))
 
     return location
 
@@ -397,7 +499,8 @@ def get_digital_object_siblings(physdesc):
             sibling_unittitle_text = u"{} ({})".format(sibling_unittitle_text, physfacet_text)
 
         if "flv" in sibling_unittitle_text or "streaming" in sibling_unittitle_text.lower():
-            sibling_unittitle_text = u"{}. Files are likely stored in R:\\Digitization\\Video".format(sibling_unittitle_text)
+            sibling_unittitle_text = u"{}. Files are likely stored in R:\\Digitization\\Video".format(
+                sibling_unittitle_text)
 
         return sibling_unittitle_text
 
@@ -480,6 +583,41 @@ class UnicodeWriter:
     def writerows(self, rows):
         for row in rows:
             self.writerow(row)
+
+
+class DictUnicodeWriter(object):
+    def __init__(self, f, fieldnames, dialect=csv.excel, encoding="utf-8", **kwds):
+        # Redirect output to a queue
+        self.queue = cStringIO.StringIO()
+        self.writer = csv.DictWriter(self.queue, fieldnames, dialect=dialect, **kwds)
+        self.stream = f
+        self.encoder = codecs.getincrementalencoder(encoding)()
+
+    def writerow(self, D):
+        new_dict = {}
+        for k, v in D.items():
+            if type(v) == str or type(v) == unicode:
+                new_dict[k] = v.encode("utf-8")
+            else:
+                new_dict[k] = v
+
+        self.writer.writerow(new_dict)
+        # Fetch UTF-8 output from the queue ...
+        data = self.queue.getvalue()
+        data = data.decode("utf-8")
+        # ... and reencode it into the target encoding
+        data = self.encoder.encode(data)
+        # write to the target stream
+        self.stream.write(data)
+        # empty queue
+        self.queue.truncate(0)
+
+    def writerows(self, rows):
+        for D in rows:
+            self.writerow(D)
+
+    def writeheader(self):
+        self.writer.writeheader()
 
 
 if __name__ == "__main__":
