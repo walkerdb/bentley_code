@@ -5,10 +5,11 @@ from mapping.aspace_agent_mapping.agent_parsers.Famname import Famname
 from mapping.aspace_agent_mapping.agent_parsers.Persname import Persname
 
 
-def prepare_agents(agent_dict):
+def prepare_agents(dict_of_agents_by_type):
+    # agent dict: {"corpname": {dict of corporations}, "persname": {dict of persnames}, "famname": {dict of famnames}}
     prepped_data = {}
-    for key, dct in tqdm(agent_dict.items(), desc="creating aspace json"):
-        prepped_data[key] = prepare_json_for_agent_type(key, dct)
+    for agent_type, dict_of_all_agents_of_type in tqdm(dict_of_agents_by_type.items(), desc="creating aspace json"):
+        prepped_data[agent_type] = prepare_json_for_agent_type(agent_type, dict_of_all_agents_of_type)
 
     return prepped_data
 
@@ -34,6 +35,7 @@ def normalize_name(name):
     normalized_name = name.replace("---", "- --")
     normalized_name = normalized_name.split("--")[0].strip()
     return normalized_name
+
 
 def normalize_source(source):
     source = source if source else "local"
