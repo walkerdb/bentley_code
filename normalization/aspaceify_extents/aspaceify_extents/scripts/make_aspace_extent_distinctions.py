@@ -7,67 +7,87 @@ from normalization.aspaceify_extents.aspaceify_extents.scripts.extent_constants 
 def split_into_aspace_components(unparsed_extent, portion, is_multiple=False):
     ASpaceExtent = namedtuple("ASpaceExtent", ["type_", "portion", "container_summary", "dimensions", "physfacet"])
 
+    extent_data = extract_data_from_original_extent_text(unparsed_extent)
+    portion = create_portion(is_multiple, portion)
+
+    return ASpaceExtent(type_=extent_data["extent_type"],
+                        portion=portion,
+                        container_summary=extent_data["container_summary"],
+                        dimensions=extent_data["dimensions"],
+                        physfacet=extent_data["physfacet"])
+
+
+def extract_data_from_original_extent_text(unparsed_extent):
     # this regex is literally the ugliest line of text I have ever seen.
     phys_dimensions_regex = r"\(?(?:\d+-?(?:\d+)?\/?(?:\d+)?\.?(?:\d+)?) ?x[ -]?(?:\d+-?(?:\d+)?\/?(?:\d+)?\.?(?:\d+)?) ?(?:to|-|and)? ?(?:\d+?-?(?:\d+)?\/?(?:\d+)?\.?(?:\d+)?)? ?x?[ -]?(?:\d+-?(?:\d+)?\/?(?:\d+)?\.?(?:\d+)?)? ?(?:inches|inch|cm\.?|in\.)?\)?"
     time_dimensions_regex = r"\d\d?\:\d\d\:?\d?\d?(?: min\.?| minutes)?|\(?ca\.? \d\d? min\.\)?"
     physfacet_regex = r'\(.*?\)| color and black[ -]and[ -]white| b&w| black[ -]and[ -]white|\bcolor\b| (?:\d \d/\d - )?\d \d/\d ips ?; \d(?:-\d\d)? inches| (?:\d[ -]\d/\d|\d\.\d\d) ips| \(dual track\)| ?\d\d?(?: ?\d?/\d)?(?:[ -]inch|")\.?(?= reel)|\d\d(?: \d/\d)? rpm'
     container_summary_regex = r"\b(?:located )in .*|\bin .*|\bformerly in .*"
 
-    working_extent_string = unparsed_extent
+    extent_text = unparsed_extent
+    extent_text, phys_dimensions = extract_text_and_remove_from_extent_string(phys_dimensions_regex, extent_text)
+    extent_text, time_dimensions = extract_text_and_remove_from_extent_string(time_dimensions_regex, extent_text)
+    extent_text, physfacet = extract_text_and_remove_from_extent_string(physfacet_regex, extent_text)
+    extent_text, container_summary = extract_text_and_remove_from_extent_string(container_summary_regex, extent_text)
 
-    # find physical dimensions and remove them from the extent string
-    phys_dimensions = extract_regex_results_as_string(phys_dimensions_regex, working_extent_string)
-    working_extent_string = re.sub(phys_dimensions_regex, "", working_extent_string) if phys_dimensions else working_extent_string
+    physfacet, container_summary = move_container_summaries_out_of_physfacet(physfacet, container_summary)
+    container_summary = clean_container_summary(container_summary)
 
-    # find time dimensions and remove them from the extent string
-    time_dimensions = extract_regex_results_as_string(time_dimensions_regex, working_extent_string)
-    working_extent_string = re.sub(time_dimensions_regex, "", working_extent_string) if time_dimensions else working_extent_string
+    extent_type_with_count = get_type_string(extent_text)
+    extent_type_with_count, physfacet = normalize_type_to_controlled_value_and_update_physfacet(extent_type_with_count, physfacet)
 
-    # find physical facets and remove them from the extent string
-    physfacet = extract_regex_results_as_string(physfacet_regex, working_extent_string)
-    working_extent_string = re.sub(physfacet_regex, "", working_extent_string) if physfacet else working_extent_string
+    dimensions = join_with_semicolon(time_dimensions, phys_dimensions)
 
-    # find the container summary and remove from extent string
-    container_summary = extract_regex_results_as_string(container_summary_regex, working_extent_string)
-    working_extent_string = re.sub(container_summary_regex, "", working_extent_string) if container_summary else working_extent_string
 
-    # type is whatever remains. We need to clean up the mess a bit.
+    return {"extent_text": extent_text,
+            "phys_dimensions": phys_dimensions,
+            "time_dimensions": time_dimensions,
+            "dimensions": dimensions,
+            "physfacet": physfacet,
+            "container_summary": container_summary,
+            "extent_type": extent_type_with_count}
+
+
+def clean_container_summary(container_summary):
+    if container_summary:
+        if not container_summary.startswith("(") or not container_summary.endswith(")"):
+            container_summary = "({0})".format(container_summary.strip("() "))
+
+    return container_summary
+
+
+def move_container_summaries_out_of_physfacet(physfacet, container_summary):
+    if physfacet.startswith("in ") or physfacet.startswith("on "):
+        container_summary = join_with_semicolon(text_to_add=physfacet, text_to_add_to=container_summary)
+        physfacet = ""
+
+    return physfacet, container_summary
+
+
+def create_portion(is_multiple, portion):
+    if not portion:
+        portion = "part" if is_multiple else "whole"
+
+    return portion
+
+
+def extract_text_and_remove_from_extent_string(regex, extent_string):
+    extracted_text = extract_regex_results_as_string(regex, extent_string)
+    extent_string = re.sub(regex, "", extent_string) if extracted_text else extent_string
+    return extent_string, extracted_text
+
+
+def get_type_string(working_extent_string):
     type_ = working_extent_string
     type_ = " ".join(type_.split())
     type_ = type_.replace(" , ", " ")
     type_ = type_.replace(" ,; ", " ")
     type_ = type_.replace("()", "")
     type_ = type_.strip(" .;:,")
-
-    # setting portion tag
-    if not portion:
-        portion = "part" if is_multiple else "whole"
-
-    if physfacet.startswith("in ") or physfacet.startswith("on "):
-        container_summary = add_to_element(text_to_add=physfacet, text_to_add_to=container_summary)
-        physfacet = ""
-
-    # clean up container summary
-    if container_summary:
-        if not container_summary.startswith("(") or not container_summary.endswith(")"):
-            container_summary = "({0})".format(container_summary.strip("() "))
-
-    # construct final dimensions from time and physical dimensions
-    dimensions = time_dimensions + phys_dimensions
-
-    # TODO run this script twice, with VC -- first with the normalization line commented out, then with it running
-    # the idea is to get a sense of what exactly it's doing.
-    type_, physfacet = normalize_type(type_, physfacet)
-
-    output_extent = ASpaceExtent(type_=type_,
-                                 portion=portion,
-                                 container_summary=container_summary,
-                                 dimensions=dimensions,
-                                 physfacet=physfacet)
-    return output_extent
+    return type_
 
 
-def normalize_type(type_string, physfacet_string):
+def normalize_type_to_controlled_value_and_update_physfacet(type_string, physfacet_string):
     type_without_count = type_string.strip("1234567890 ")
     normalized_type, extra_physfacet = normalization_dict.get(type_without_count, ["", ""])
 
@@ -75,18 +95,19 @@ def normalize_type(type_string, physfacet_string):
         type_string = type_string.replace(type_without_count, normalized_type)
 
     if extra_physfacet:
-        physfacet_string = add_to_element(extra_physfacet, physfacet_string)
+        physfacet_string = join_with_semicolon(extra_physfacet, physfacet_string)
 
     return type_string, physfacet_string
 
 
-def add_to_element(text_to_add, text_to_add_to):
+def join_with_semicolon(text_to_add, text_to_add_to):
+    new_text = text_to_add_to if text_to_add_to else ""
     if text_to_add_to:
-        text_to_add_to += "; {0}".format(text_to_add)
+        new_text += "; {0}".format(text_to_add)
     else:
-        text_to_add_to += text_to_add
+        new_text += text_to_add
 
-    return text_to_add_to
+    return new_text.strip("; ")
 
 
 def extract_regex_results_as_string(regular_expression, string_to_search):

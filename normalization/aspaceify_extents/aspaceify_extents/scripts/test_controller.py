@@ -3,7 +3,7 @@ import unittest
 from lxml import etree
 
 from controller import split_extents
-from ead_utilities import ead_utilities as utils
+from utilities.ead_utilities import ead_utilities as utils
 
 class TestController(unittest.TestCase):
     def setUp(self):

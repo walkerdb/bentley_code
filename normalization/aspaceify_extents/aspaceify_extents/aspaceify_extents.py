@@ -14,6 +14,7 @@ from .scripts import etree_editor
 def main(source="C:/Users/wboyle/PycharmProjects/bentley_code/main_projects/aspaceify_extents/input/all_extents_reversed.csv",
          path_to_eads="C:/Users/wboyle/PycharmProjects/vandura/Real_Masters_all",
          path_to_output="C:/Users/wboyle/PycharmProjects/bentley_code/main_projects/aspaceify_extents/output"):
+
     edited_filenames = set()
     types = {}
 
@@ -24,6 +25,7 @@ def main(source="C:/Users/wboyle/PycharmProjects/bentley_code/main_projects/aspa
         previous_filename = ""
         tree = ""
         for filename, xpath, longform_extent_statement in tqdm(list(reader), desc="Extent parsing progress", leave=True):
+
             # if this file has already been edited, read it from the output directory, not the input directory
             filepath = path.join(path_to_eads, filename) if filename not in edited_filenames else path.join(path_to_output, filename)
 
@@ -63,9 +65,9 @@ def main(source="C:/Users/wboyle/PycharmProjects/bentley_code/main_projects/aspa
                     types[type_] = types.get(type_, 0) + 1
 
             except (IndexError, ValueError) as e:
-                with open("extent_fix_errors.csv", mode="ab") as f:
+                with open("extents_with_errors.csv", mode="ab") as f:
                     writer = csv.writer(f)
-                    writer.writerow([filename, xpath, longform_extent_statement])
+                    writer.writerow([filename, xpath, longform_extent_statement, str(e)])
                 continue
 
     # clean up the changes
