@@ -42,18 +42,22 @@ def main(source="C:/Users/wboyle/PycharmProjects/bentley_code/main_projects/aspa
 
             try:
                 # find the xpath of the extent's parent
-                parent_xpath = etree_editor.get_parent_node(tree, xpath)
+                parent_of_physdesc_xpath = etree_editor.get_parent_node(tree, xpath)
 
-                # delete the old extent node
-                tree = etree_editor.delete_node(tree, xpath)
+                physdesc = tree.xpath(xpath)[0].getparent()
+                portion = physdesc.get("portion", "")
+
 
                 # split original extent text into component parts
                 highlevel_extents = split_into_extents(longform_extent_statement)
                 is_multiple_extents = True if len(highlevel_extents) > 1 else False
-                aspace_components = [split_into_aspace_components(extent, is_multiple_extents) for extent in highlevel_extents]
+                aspace_components = [split_into_aspace_components(extent, physdesc, portion, is_multiple_extents) for extent in highlevel_extents]
+
+                # delete the old extent node
+                tree = etree_editor.delete_node(tree, xpath)
 
                 # write new extent xml to file
-                tree = etree_editor.write_aspace_extent_tags(filename, tree, parent_xpath, aspace_components)
+                tree = etree_editor.write_aspace_extent_tags(filename, tree, parent_of_physdesc_xpath, aspace_components)
 
                 edited_filenames.add(filename)
 

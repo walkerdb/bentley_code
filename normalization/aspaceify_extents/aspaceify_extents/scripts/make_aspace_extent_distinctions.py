@@ -4,10 +4,10 @@ import re
 from normalization.aspaceify_extents.aspaceify_extents.scripts.extent_constants import normalization_dict
 
 
-def split_into_aspace_components(unparsed_extent, portion, is_multiple=False):
+def split_into_aspace_components(unparsed_extent, physdesc, portion, is_multiple=False):
     ASpaceExtent = namedtuple("ASpaceExtent", ["type_", "portion", "container_summary", "dimensions", "physfacet"])
 
-    extent_data = extract_data_from_original_extent_text(unparsed_extent)
+    extent_data = extract_data_from_original_extent_text(unparsed_extent, portion)
     portion = create_portion(is_multiple, portion)
 
     return ASpaceExtent(type_=extent_data["extent_type"],
@@ -17,7 +17,7 @@ def split_into_aspace_components(unparsed_extent, portion, is_multiple=False):
                         physfacet=extent_data["physfacet"])
 
 
-def extract_data_from_original_extent_text(unparsed_extent):
+def extract_data_from_original_extent_text(unparsed_extent, physdesc):
     # this regex is literally the ugliest line of text I have ever seen.
     phys_dimensions_regex = r"\(?(?:\d+-?(?:\d+)?\/?(?:\d+)?\.?(?:\d+)?) ?x[ -]?(?:\d+-?(?:\d+)?\/?(?:\d+)?\.?(?:\d+)?) ?(?:to|-|and)? ?(?:\d+?-?(?:\d+)?\/?(?:\d+)?\.?(?:\d+)?)? ?x?[ -]?(?:\d+-?(?:\d+)?\/?(?:\d+)?\.?(?:\d+)?)? ?(?:inches|inch|cm\.?|in\.)?\)?"
     time_dimensions_regex = r"\d\d?\:\d\d\:?\d?\d?(?: min\.?| minutes)?|\(?ca\.? \d\d? min\.\)?"
@@ -38,6 +38,13 @@ def extract_data_from_original_extent_text(unparsed_extent):
 
     dimensions = join_with_semicolon(time_dimensions, phys_dimensions)
 
+    if physdesc.xpath("physfacet"):
+        join_with_semicolon(physfacet, physdesc.xpath("physfacet")[0].text)
+    if physdesc.xpath("dimensions"):
+        join_with_semicolon(physfacet, physdesc.xpath("dimensions")[0].text)
+    if len(physdesc.xpath("extent")) > 1:
+        # TODO - somehow get data for container summary extents. This might require changing how data is passed from the original extent grabber to exclude container summary extent tags
+        pass
 
     return {"extent_text": extent_text,
             "phys_dimensions": phys_dimensions,
