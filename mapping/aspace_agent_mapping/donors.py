@@ -1,11 +1,9 @@
 import csv
+import json
 import nameparser
 from mapping.aspace_agent_mapping.agent_parsers.Corpname import Corpname
 from mapping.aspace_agent_mapping.agent_parsers.Persname import Persname
-
-
-def construct_donor_name(row):
-    pass
+from mapping.aspace_agent_mapping.scripts.post_agents import post_agents_and_record_ids
 
 
 def main():
@@ -13,21 +11,28 @@ def main():
     donor_data = load_donor_data("donor_records_clean.tab")
     persname_data, corpname_data = extract_agents(donor_data)
 
+    agent_dict = {"persname": {}, "corpname": {}}
+
     for persname in persname_data:
         full_name = make_person_name(persname)
         person_json = Persname(full_name, "", "local")
-        # now do something with it
-        pass
+
+        # TODO add donor-specific data to the json
+
+        agent_dict["persname"][full_name] = person_json
 
     for corpname in corpname_data:
         name = make_corporation_name(corpname)
         corp_json = Corpname(name, "", "local")
-        # now do something with it
 
+        # TODO add donor-specific data to the json
 
+        agent_dict["corpname"][name] = corp_json
 
+    ids = post_agents_and_record_ids(agent_dict, host="http://localhost:8089", username="admin", password="admin")
 
-    pass
+    with open("donor_name_to_aspace_id_map.json", mode="w") as f:
+        json.dump(ids, f, ensure_ascii=False, indent=4)
 
 
 def load_donor_data(filepath):
