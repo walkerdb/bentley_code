@@ -16,8 +16,15 @@ class EAD(object):
         self.filename = os.path.basename(self.path_to_ead)
         self.tree = etree.parse(self.path_to_ead)
 
-        self.id = self.extract_eadid(self.tree.xpath("//eadid")[0].text)
-        self.title = self.tree.xpath("//titleproper")[0].text.replace("Finding Aid for ", "")
+        try:
+            self.id = self.extract_eadid(self.tree.xpath("//eadid")[0].text)
+        except IndexError as e:
+            self.id = "[no id found]"
+
+        try:
+            self.title = self.tree.xpath("//titleproper")[0].text.replace("Finding Aid for ", "")
+        except IndexError as e:
+            self.title = "[no collection title found]"
 
     def prettyprint(self, output_dir):
         if not os.path.exists("tmp"):
