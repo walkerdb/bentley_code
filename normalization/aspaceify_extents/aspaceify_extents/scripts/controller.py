@@ -55,7 +55,7 @@ def process_extent(ead, extent):
     aspace_components = [split_into_aspace_components(extent_text, portion, is_multiple_extents) for extent_text in highlevel_extents]
 
     # add new tags to the ead tree
-    etree_editor.write_aspace_extent_tags(ead.tree, ead.tree.getpath(extent.getparent().getparent()), aspace_components)
+    etree_editor.make_aspace_formatted_physdesc(ead.tree, ead.tree.getpath(extent.getparent().getparent()), aspace_components)
 
     # remove old tags
     extent.getparent().remove(extent)

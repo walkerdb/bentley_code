@@ -7,7 +7,7 @@ from normalization.aspaceify_extents.aspaceify_extents.scripts.extent_constants 
 def split_into_aspace_components(unparsed_extent, physdesc, portion, is_multiple=False):
     ASpaceExtent = namedtuple("ASpaceExtent", ["type_", "portion", "container_summary", "dimensions", "physfacet"])
 
-    extent_data = extract_data_from_original_extent_text(unparsed_extent, portion)
+    extent_data = extract_data_from_original_extent_text(unparsed_extent, physdesc)
     portion = create_portion(is_multiple, portion)
 
     return ASpaceExtent(type_=extent_data["extent_type"],
@@ -38,13 +38,15 @@ def extract_data_from_original_extent_text(unparsed_extent, physdesc):
 
     dimensions = join_with_semicolon(time_dimensions, phys_dimensions)
 
+    # reappend original data if exists
     if physdesc.xpath("physfacet"):
-        join_with_semicolon(physfacet, physdesc.xpath("physfacet")[0].text)
+        physfacet = join_with_semicolon(physfacet, physdesc.xpath("physfacet")[0].text)
     if physdesc.xpath("dimensions"):
-        join_with_semicolon(physfacet, physdesc.xpath("dimensions")[0].text)
+        dimensions = join_with_semicolon(dimensions, physdesc.xpath("dimensions")[0].text)
     if len(physdesc.xpath("extent")) > 1:
-        # TODO - somehow get data for container summary extents. This might require changing how data is passed from the original extent grabber to exclude container summary extent tags
-        pass
+        for extent in physdesc.xpath("extent"):
+            if extent.get("altrender", "") == "carrier":
+                container_summary = join_with_semicolon(container_summary, extent.text)
 
     return {"extent_text": extent_text,
             "phys_dimensions": phys_dimensions,

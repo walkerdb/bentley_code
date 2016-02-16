@@ -31,9 +31,7 @@ def get_parent_node(tree, xpath):
     return xpath
 
 
-def write_aspace_extent_tags(tree, target_xpath, aspace_components):
-    target_node = tree.xpath(target_xpath)[0]
-
+def make_aspace_formatted_physdesc(aspace_components):
     for aspace_component in aspace_components:
         physdesc = etree.Element("physdesc", altrender=aspace_component.portion)
 
@@ -53,8 +51,22 @@ def write_aspace_extent_tags(tree, target_xpath, aspace_components):
             dimensions = build_etree_element(tag="dimensions", text=aspace_component.dimensions)
             physdesc.append(dimensions)
 
-        if len(physdesc) >= 1:
-            target_node.insert(-1, physdesc)
+        return physdesc
+
+
+def add_new_physdescs_to_tree(tree, new_physdescs):
+    for xpath, physdesc_list in new_physdescs.items():
+        parent_node = tree.xpath(xpath)[0]
+        physdesc_list.reverse()
+
+        current_physdescs = parent_node.xpath("physdesc")
+        if not current_physdescs:
+            index = parent_node.index(parent_node.xpath("unittitle")[0])
+        else:
+            index = parent_node.index(current_physdescs[-1])
+
+        for physdesc in physdesc_list:
+            parent_node.insert(index + 1, physdesc)
 
 
 def build_etree_element(tag, text, altrender=""):

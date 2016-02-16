@@ -204,8 +204,10 @@ numbers_dict = {' Eight ': '8',
 
 def make_normalization_dict():
     normal_dict = {}
+    print("loading normalized terms...")
     with open("normalized_terms.csv") as f:
         reader = csv.reader(f)
+        reader.next()  # skip the header row
         for original_type, normal_type, physfacet in reader:
             normal_dict[original_type] = (normal_type, physfacet)
 
