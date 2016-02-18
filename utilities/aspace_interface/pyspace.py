@@ -1,4 +1,5 @@
 import json
+from pprint import pprint
 
 import requests
 from tqdm import tqdm
@@ -73,6 +74,20 @@ class PySpace (object):
         return requests.get('{0}/repositories/{1}/{2}?all_ids=true'.format(self.host, self.repository, object_type),
                             headers=headers
                             ).json()
+
+    def retrieve_agent_uri_by_authority_id(self, auth_id):
+        headers = {"X-ArchivesSpace-Session": self.session_id}
+
+        data = {"q": auth_id}
+
+        result = requests.get('''{0}/search?page=1'''.format(self.host), headers=headers, data=data).json()
+
+        if not result:
+            return ""
+        elif not result["results"]:
+            return ""
+
+        return result["results"][0]["uri"]
 
     def delete_aspace_object(self, object_type, aspace_id):
         """
