@@ -23,12 +23,9 @@ def main():
 
 def make_accession_json_list(filepath):
     json_for_each_accession = []
+
     accessions = load_accession_data_from_beal_export(filepath)
-    units = []
-    process_statuses = []
     for accession in tqdm(accessions):
-        units.append(accession["Unit"])
-        process_statuses.append(accession["ProcessingStatus"])
         aspace_json = {}
 
         aspace_json.update(get_accession_title(accession))
@@ -46,8 +43,6 @@ def make_accession_json_list(filepath):
 
         json_for_each_accession.append(aspace_json)
 
-    # pprint(Counter(units).most_common())
-    pprint(Counter(process_statuses).most_common())
     return json_for_each_accession
 
 
