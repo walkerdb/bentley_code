@@ -8,10 +8,7 @@ def main():
     # CHANGE THIS
     input_filepath = "accessions_20160208-final.csv"
 
-    convert_input_file_to_utf8(input_filepath)
-
-    name, extension = input_filepath.split(".")
-    clean_filename = "{}_clean.{}".format(name, extension)
+    clean_filename = convert_input_file_to_utf8(input_filepath)
 
     json_data = make_accession_json_list(clean_filename)
 
@@ -435,6 +432,7 @@ def convert_input_file_to_utf8(filename):
     with open("{}_clean.{}".format(name, extension), mode="wb") as f:
         f.write(data)
 
+    return "{}_clean.{}".format(name, extension)
 
 if __name__ == "__main__":
     main()
