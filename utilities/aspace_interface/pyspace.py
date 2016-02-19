@@ -14,11 +14,12 @@ class PySpace (object):
         auth_json_response = requests.post(auth_url).json()
 
         self.session_id = auth_json_response["session"]
-        self.headers = {'Content-type': 'application/json', 'X-ArchivesSpace-Session': self.session_id}
+        self.headers_contentype_json = {'Content-type': 'application/json', 'X-ArchivesSpace-Session': self.session_id}
+        self.headers_session_only = {"X-ArchivesSpace-Session": self.session_id}
 
     def add_ead(self, ead_json):
         return requests.post("{0}/repositories/{1}/batch_imports".format(self.host, self.repository),
-                             headers=self.headers,
+                             headers=self.headers_contentype_json,
                              data=json.dumps(ead_json)
                              ).json()
 
@@ -27,7 +28,7 @@ class PySpace (object):
             accession_json = json.loads(accession_json)
 
         return requests.post("{0}/repositories/{1}/accessions".format(self.host, self.repository),
-                             headers=self.headers,
+                             headers=self.headers_contentype_json,
                              data=json.dumps(accession_json)
                              ).json()
 
@@ -44,7 +45,7 @@ class PySpace (object):
 
     def add_agent(self, agent_json, agent_type):
         return requests.post('{0}/agents/{1}'.format(self.host, agent_type),
-                             headers=self.headers,
+                             headers=self.headers_contentype_json,
                              data=agent_json
                              ).json()
 
@@ -70,17 +71,13 @@ class PySpace (object):
             groups
             resources
         """
-        headers = {"X-ArchivesSpace-Session": self.session_id}
         return requests.get('{0}/repositories/{1}/{2}?all_ids=true'.format(self.host, self.repository, object_type),
-                            headers=headers
+                            headers=self.headers_session_only
                             ).json()
 
     def retrieve_agent_uri_by_authority_id(self, auth_id):
-        headers = {"X-ArchivesSpace-Session": self.session_id}
-
         data = {"q": auth_id}
-
-        result = requests.get('''{0}/search?page=1'''.format(self.host), headers=headers, data=data).json()
+        result = requests.get('''{0}/search?page=1'''.format(self.host), headers=self.headers_session_only, data=data).json()
 
         if not result:
             return ""
@@ -88,6 +85,25 @@ class PySpace (object):
             return ""
 
         return result["results"][0]["uri"]
+
+    def add_values_to_enum(self, enum_id, values_to_add):
+        enum_address = "{}/config/enumerations/{}".format(self.host, enum_id)
+        existing_enums = requests.get(enum_address, headers=self.headers_session_only).json()
+        existing_enums["values"].extend(values_to_add)
+        return requests.post(enum_address, headers=self.headers_session_only, data=json.dumps(existing_enums)).json()
+
+    def add_classification(self, classification_title, classification_identifier):
+        classification_json = {u'title': classification_title, u'identifier': classification_identifier}
+        return requests.post('{}/repositories/{}/classifications'.format(self.host, self.repository),
+                             headers=self.headers_session_only,
+                             data=json.dumps(classification_json)
+                             ).json()
+
+    def get_repository_level_object_json_by_uri(self, uri):
+        return requests.get("{}/repositories/{}{}".format(self.host, self.repository, uri), self.headers_session_only).json()
+
+    def get_system_level_object_json_by_uri(self, uri):
+        return requests.get("{}{}".format(self.host, uri), headers=self.headers_session_only).json()
 
     def delete_aspace_object(self, object_type, aspace_id):
         """
@@ -102,22 +118,19 @@ class PySpace (object):
             groups
             resources
         """
-        headers = {"X-ArchivesSpace-Session": self.session_id}
         return requests.delete('{0}/repositories/{1}/{2}/{3}'.format(self.host, self.repository, object_type, aspace_id),
-                               headers=headers
+                               headers=self.headers_session_only
                                ).json()
 
     def delete_agent_by_uri(self, uri):
-        headers = {"X-ArchivesSpace-Session": self.session_id}
-        return requests.delete('{0}{1}'.format(self.host, uri), headers=headers).json()
+        return requests.delete('{0}{1}'.format(self.host, uri), headers=self.headers_session_only).json()
 
     def delete_all_agents(self):
-        headers = {"X-ArchivesSpace-Session": self.session_id}
         agent_types = ["people", "families", "corporate_entities", "software"]
         for agent_type in agent_types:
-            ids = requests.get("{0}/agents/{1}?all_ids=true".format(self.host, agent_type), headers=headers).json()
+            ids = requests.get("{0}/agents/{1}?all_ids=true".format(self.host, agent_type), headers=self.headers_session_only).json()
             for id_ in tqdm(ids, desc="deleting all {}".format(agent_type)):
-                requests.delete("{0}/agents/{1}/{2}".format(self.host, agent_type, id_), headers=headers)
+                requests.delete("{0}/agents/{1}/{2}".format(self.host, agent_type, id_), headers=self.headers_session_only)
 
     def change_repository(self, repository_number):
         self.repository = repository_number

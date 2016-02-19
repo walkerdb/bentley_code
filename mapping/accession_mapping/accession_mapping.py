@@ -1,5 +1,7 @@
+from collections import Counter
 import csv
 import json
+from pprint import pprint
 import re
 from tqdm import tqdm
 
@@ -8,7 +10,7 @@ def main():
     # CHANGE THIS
     input_filepath = "accessions_20160208-final.csv"
 
-    remove_vertical_tab_characters(input_filepath)
+    convert_input_file_to_utf8(input_filepath)
 
     name, extension = input_filepath.split(".")
     clean_filename = "{}_clean.{}".format(name, extension)
@@ -20,38 +22,98 @@ def main():
 
 
 def make_accession_json_list(filepath):
-    all_json_data = []
-
-    external_documents_fields = ["FileLink"]
-
+    json_for_each_accession = []
     accessions = load_accession_data_from_beal_export(filepath)
-
+    units = []
+    process_statuses = []
     for accession in tqdm(accessions):
+        units.append(accession["Unit"])
+        process_statuses.append(accession["ProcessingStatus"])
         aspace_json = {}
 
-        aspace_json.update(create_simple_json_fields(accession))
         aspace_json.update(get_accession_title(accession))
+        aspace_json.update(create_simple_json_fields(accession))
         aspace_json.update(create_deaccession_json(accession))
         aspace_json.update(create_user_defined_json_entries(accession))
         aspace_json.update(create_extent_json_entries(accession))
         aspace_json.update(create_collection_management_json_entries(accession))
         aspace_json.update(create_access_restriction_json(accession))
+        aspace_json.update(create_external_document_json_entries(accession))
+        aspace_json.update(create_classifications_json(accession))
 
-        # external documents
-        external_documents = []
-        for doc_field in external_documents_fields:
-            if accession.get(doc_field, ""):
-                external_documents.append(make_external_document_json(accession.get(doc_field), doc_type=doc_field))
+        # we may end up wanting to change the following method if/when ASpace re-implements processing status as a drop-down
+        aspace_json.update(add_processing_status_to_general_note(accession, aspace_json))
 
-        all_json_data.append(aspace_json)
+        json_for_each_accession.append(aspace_json)
 
-    return all_json_data
+    # pprint(Counter(units).most_common())
+    pprint(Counter(process_statuses).most_common())
+    return json_for_each_accession
+
+
+def add_processing_status_to_general_note(accession, aspace_json):
+    note = aspace_json.get("general_note", "") or ""
+    processing_status = accession.get("ProcessingStatus", "") or ""
+    if not processing_status or processing_status == "RCS":
+        return {}
+
+    if note:
+        note += "; Processing Status: {}".format(processing_status)
+    else:
+        note = "Processing Status: {}".format(processing_status)
+
+    return {"general_note": note}
+
+
+def create_classifications_json(accession):
+    aspace_json = {}
+    classifications = []
+    processing_status = accession.get("ProcessingStatus", "") or ""
+    if processing_status == "RCS":
+        classifications.append({"ref": "/repositories/2/classifications/3"})
+
+    classification_type = normalize_unit(accession["Unit"])
+
+    if classification_type == "mhc":
+        classifications.append({"ref": "/repositories/2/classifications/1"})
+    if classification_type == "uarp":
+        classifications.append({"ref": "/repositories/2/classifications/2"})
+
+    if classifications:
+        aspace_json["classifications"] = classifications
+
+    return aspace_json
+
+
+def normalize_unit(unit):
+    if not unit:
+        return ""
+    if "mhc" in unit.lower():
+        return "mhc"
+    if "ua" in unit.lower():
+        return "uarp"
+    else:
+        return ""
+
+
+def create_external_document_json_entries(accession):
+    aspace_json = {}
+    external_documents_fields = ["FileLink"]
+    external_documents = []
+    for doc_field in external_documents_fields:
+        if accession.get(doc_field, ""):
+            external_documents.append(make_external_document_json(accession.get(doc_field), doc_type=doc_field))
+
+    if external_documents:
+        aspace_json["external_documents"] = external_documents
+
+    return aspace_json
 
 
 def create_access_restriction_json(accession):
     aspace_json = {}
     access_restriction_fields = ["RestrictionsType", "Note"]
-    if any([accession.get(field, "").strip() for field in access_restriction_fields]):
+    if any([accession_has_value_for_key(accession, field) for field in access_restriction_fields]):
         aspace_json["access_restrictions_note"] = "Restriction type: {}\nRestriction note: {}".format(
             accession.get("RestrictionsType", ""), accession.get("Notes", ""))
 
@@ -77,7 +139,11 @@ def accession_has_any_collection_management_data(accession, collection_managemen
 
 
 def accession_has_value_for_key(accession, accession_key):
-    return len(accession.get(accession_key, "").strip()) > 0
+    value = accession.get(accession_key, "")
+    if not value:
+        return False
+
+    return len(value.strip()) > 0
 
 
 def create_extent_json_entries(accession):
@@ -89,7 +155,7 @@ def create_extent_json_entries(accession):
         if extent_type in ["MB", "GB", "KB", "TB"]:
             extent_json_entries.append(make_extent_json(number=accession.get("DigitalSize", ""), type_=accession.get("DigitalSizeType", "(MB?)")))
 
-    if accession.get("LinearFeet", "").strip():
+    if accession_has_value_for_key(accession, "LinearFeet"):
         extent_json_entries.append(make_extent_json(number=accession.get("LinearFeet", "")))
 
     aspace_json["extents"] = extent_json_entries
@@ -106,7 +172,6 @@ def create_user_defined_json_entries(accession):
                                    "StaffReceived": "string_1",
                                    "ThankYouNote": "text_1",
                                    "GiftAgreementStatus": "enum_1",
-                                   "Unit": "enum_2",
                                    "LocationInfo": "text_2"}
 
 
@@ -115,6 +180,7 @@ def create_user_defined_json_entries(accession):
         aspace_json["user_defined"] = user_defined_data
 
     return aspace_json
+
 
 def create_deaccession_json(accession):
     aspace_json = {}
@@ -131,11 +197,13 @@ def create_deaccession_json(accession):
 
     return aspace_json
 
+
 def get_accession_title(accession):
     aspace_json = {}
     if accession.get('AccDescription', "").strip():
         aspace_json["title"] = accession.get('AccDescription', "").strip()
     return aspace_json
+
 
 def create_simple_json_fields(accession):
     simple_field_mappings = {'AccDescription': 'content_description',
@@ -145,7 +213,8 @@ def create_simple_json_fields(accession):
                              'GivenThrough': 'provenance',
                              "DonorType": "acquisition_type",
                              "MHCType": "resource_type",
-                             "Notes": "use_restrictions_note"}
+                             "Notes": "use_restrictions_note",
+                             "Note": "general_note"}
 
     aspace_json = {}
     for accession_key, aspace_key in simple_field_mappings.items():
@@ -213,19 +282,15 @@ def normalize_date_text(text):
         if len(date_components) == 2:
             month, year = date_components
             day = 1
-            print(text)
         elif len(date_components) == 3:
             month, day, year = date_components
         elif len(date_components) == 1:
             year = date_components[0]
             month = 1
             day = 1
-            print(text)
         else:
-            print(text)
             year, month, day = (1800, 1, 1)
     except ValueError:
-        print(text)
         year, month, day = (1800, 1, 1)
 
     return "{:04d}-{:02d}-{:02d}".format(year, month, day)
@@ -304,7 +369,8 @@ def make_deaccession_json(accession):
             begin_date=normalize_date_text(return_date)
         )
 
-    if volume.strip():
+
+    if volume and volume.strip():
         aspace_json["extents"].append(make_extent_json(number=volume))
 
     return aspace_json
@@ -329,24 +395,32 @@ def make_user_defined_json(accession, field_mappings):
         if accession.get(accession_key, ""):
             text = accession.get(accession_key, "").strip()
 
+        if aspace_key == "enum_1":
+            text = normalize_gift_agreement_status(text)
+
         if text:
             text = text.replace(";;;", "\n")
             if aspace_key.startswith("boolean"):
                 text = coerce_to_boolean(text)
-            elif aspace_key == ("enum_1"):
-                text = convert_enum_text_to_controlled_value(text)
 
             aspace_json[aspace_key] = text
 
     return aspace_json
 
 
-def convert_enum_text_to_controlled_value(text):
+def normalize_gift_agreement_status(text):
+    valid_values = ["on file", "pending", "sent", "n/a", "other"]
     text = text.lower()
     if "file" in text.lower() and "on" in text.lower():
         text = "on file"
     if "to be sent" in text.lower():
         text = "pending"
+
+    if text not in valid_values:
+        if text:
+            print(text)
+        text = ""
+
     return text
 
 
@@ -357,12 +431,11 @@ def coerce_to_boolean(text):
         return False
 
 
-def remove_vertical_tab_characters(filename):
+def convert_input_file_to_utf8(filename):
     with open(filename, mode="rb") as f:
         data = f.read()
 
     data = data.decode("latin-1")
-    data = data.replace(u"\u000B", u"\n")
     data = data.encode("utf-8")
 
     name, extension = filename.split(".")

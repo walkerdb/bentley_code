@@ -5,12 +5,25 @@ from tqdm import tqdm
 
 from utilities.aspace_interface.pyspace import PySpace
 
-conn = PySpace(host="http://141.211.39.87:8089/", repository="3", username="wboyle", password="bentley")
+pyspace = PySpace(host="http://localhost:8089", repository="2", username="admin", password="admin")
+
+
+print("adding required control access values...")
+pyspace.add_values_to_enum(55, ["on file", "pending", "sent", "n/a", "other"])
+pyspace.add_values_to_enum(14, ["linear feet", "MB", "GB", "KB", "TB"])
+
+
+print("adding classifications for MHC, UARP, and RCS...")
+pyspace.add_classification('Michigan Historical Collections', 'MHC')
+pyspace.add_classification('University Archives and Records Program', 'UARP')
+pyspace.add_classification('Records Center Storage', 'RCS')
+
 
 with open("json_data.json", mode="r") as f:
     json_data = json.load(f)
 
-for accession_json in tqdm(json_data):
-    response = conn.add_accession(accession_json)
+
+for accession_json in tqdm(json_data, desc="posting accessions...", leave=True):
+    response = pyspace.add_accession(accession_json)
     if "invalid_object" in response:
         pprint(json.dumps(response))
