@@ -8,7 +8,7 @@ from utilities.aspace_interface.pyspace import PySpace
 pyspace = PySpace(host="http://localhost:8089", repository="2", username="admin", password="admin")
 
 
-print("adding required control access values...")
+print("adding required enumerated values...")
 pyspace.add_values_to_enum(55, ["on file", "pending", "sent", "n/a", "other"])
 pyspace.add_values_to_enum(14, ["linear feet", "MB", "GB", "KB", "TB"])
 
