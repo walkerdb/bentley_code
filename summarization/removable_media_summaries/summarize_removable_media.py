@@ -18,28 +18,77 @@ with open("locations.json", mode="r") as f:
 
 
 def main():
-    digital_only = False
+    digital_only = True
     ead_dir = EADDir()
 
     results_by_ead, all_extents = get_raw_results(ead_dir, digital_only)
+
     summary_by_type = summarize_results_by_type(deepcopy(results_by_ead))
     summary_by_ead = summarize_results_by_ead(deepcopy(results_by_ead))
+
     write_removable_media_inventory(all_extents)
     write_type_summary(summary_by_type, digital_only)
     write_ead_summary(summary_by_ead, digital_only)
 
 
+def make_output_row(physdesc, ead_id):
+    # TO ADD A NEW COLUMN IN THE INVENTORY OUTPUT:
+    # make a new variable (eg: new_thing = make_new_thing(physdesc))
+    # ("physdesc" is the lxml etree tag passed to the make_output_row function)
+    #
+    # then add that variable to the return statement
+    # the order of variables in the return statement is the order the columns will appear in the output csv file
+    # make sure to add the appropriate header entry in the write_removable_media_inventory() function (should be just below this one)
+
+    extent_text = get_child_text(physdesc, "extent")
+    number, extent_type = split_extent(extent_text)
+    if number == 0:
+        number = "[no number given]"
+
+    physfacet_text = get_child_text(physdesc, "physfacet")
+    containers = get_containers(physdesc)
+    container_text = create_container_text(containers)
+    uuid = get_uuid(physdesc)
+    restriction, restrict_date = get_restriction(physdesc)
+    breadcrumb_path = make_unittitle_breadcrumbs(physdesc)
+    date_of_material = get_possible_material_date(physdesc)
+    size = get_size(extent_text, physfacet_text)
+    location = get_location(ead_id, containers)
+    is_a_digitization = "yes" if is_digitized(physdesc) else ""
+    digital_object_text = get_digital_object_siblings(physdesc)
+
+    return number, extent_type, physfacet_text, size, location, container_text, date_of_material, digital_object_text, is_a_digitization, restriction, restrict_date, uuid, breadcrumb_path
+
+
 def write_removable_media_inventory(all_extents):
+    # if you've added any new columns in the make_output_row() function, be sure to add the appropriate header, in the right order, here
+
+    headers = ["ead name", "ead id", "collection name", "number of items", "extent type", "physfacet text",
+               "size (mb)", "location", "container", "potential date of material",
+               "title of potentially related digital content (if any)",
+               "is the result of a Bentley digitization project",
+               "access restrictions", "access restiction dates", "uuid", "unittitle breadcrumb"]
+
     with open("removable_media_inventory.csv", mode="wb") as f:
         writer = UnicodeWriter(f)
-
-        headers = ["ead name", "ead id", "collection name", "number of items", "extent type", "physfacet text",
-                   "size (mb)", "location", "container", "potential date of material",
-                   "title of potentially related digital content (if any)",
-                   "is the result of a Bentley digitization project",
-                   "access restrictions", "access restiction dates", "uuid", "unittitle breadcrumb"]
         writer.writerow(headers)
         writer.writerows(all_extents)
+
+
+def write_type_summary(results_summarized, digital_only):
+    # make the data into a list where every entry is in the following form:
+    # ((extent type, extent subtype), (total count, Counter dict with counts of thing in each EAD))
+    data = sorted(results_summarized.items())
+    with open("removable_media_summary_by_type.csv", mode="wb") as f:
+        writer = csv.writer(f)
+        writer.writerow(["media type", "media subtype", "total count", "counts by EAD"])
+        for item in data:
+            extent_type = item[0][0]
+            if digital_only and extent_type != "digital":
+                continue
+            counts_by_ead = "\n".join(["{}: {}".format(thing[0], int(thing[1])) for thing in item[1][1].most_common()])
+            row = [item[0][0], item[0][1], item[1][0], counts_by_ead]
+            writer.writerow(row)
 
 
 def write_ead_summary(summary_by_ead, digital_only):
@@ -104,22 +153,6 @@ def write_ead_summary(summary_by_ead, digital_only):
             writer.writerow(counter)
 
     pass
-
-
-def write_type_summary(results_summarized, digital_only):
-    # make the data into a list where every entry is in the following form:
-    # ((extent type, extent subtype), (total count, Counter dict with counts of thing in each EAD))
-    data = sorted(results_summarized.items())
-    with open("removable_media_summary_by_type.csv", mode="wb") as f:
-        writer = csv.writer(f)
-        writer.writerow(["media type", "media subtype", "total count", "counts by EAD"])
-        for item in data:
-            extent_type = item[0][0]
-            if digital_only and extent_type != "digital":
-                continue
-            counts_by_ead = "\n".join(["{}: {}".format(thing[0], int(thing[1])) for thing in item[1][1].most_common()])
-            row = [item[0][0], item[0][1], item[1][0], counts_by_ead]
-            writer.writerow(row)
 
 
 def summarize_results_by_ead(results_by_ead):
@@ -308,29 +341,6 @@ def find_removable_media(ead, digital_only):
     return media_counts, all_media
 
 
-def make_output_row(physdesc, ead_id):
-    # this code is kind of gross... sorry.
-    extent_text = get_child_text(physdesc, "extent")
-    number, extent_type = split_extent(extent_text)
-    if number == 0:
-        number = "[no number given]"
-    physfacet_text = get_child_text(physdesc, "physfacet")
-    containers = get_containers(physdesc)
-
-    container_text = create_container_text(containers)
-    uuid = get_uuid(physdesc)
-    restriction, restrict_date = get_restriction(physdesc)
-    breadcrumb_path = make_unittitle_breadcrumbs(physdesc)
-    date_of_material = get_possible_material_date(physdesc)
-    size = get_size(extent_text, physfacet_text)
-
-    location = get_location(ead_id, containers)
-    is_a_digitization = "yes" if is_digitized(physdesc) else ""
-    digital_object_text = get_digital_object_siblings(physdesc)
-
-    return number, extent_type, physfacet_text, size, location, container_text, date_of_material, digital_object_text, is_a_digitization, restriction, restrict_date, uuid, breadcrumb_path
-
-
 def get_containers(physdesc):
     container = search_up_for_did_element(physdesc, "container")
     if not type(container) == etree._Element:
@@ -516,7 +526,7 @@ def search_up_for_did_element(physdesc, relative_tag_xpath):
         try:
             parent_did = parent_did.getparent().getparent().xpath("did")[0]
             element = parent_did.xpath(relative_tag_xpath)
-        except (IndexError, AttributeError):
+        except(IndexError, AttributeError):
             return ""
 
     return element[0]
