@@ -14,7 +14,7 @@ First, load an initial web log:
 parser = BentleyWebLogParser("path/to/log/file")
 ```
 
-The parser will automatically remove all bot entries, as well as requests that were not to html pages (like for css, js, or images)
+The parser will automatically remove all bot entries, as well as requests that were not to html pages (like for css, js, or image files)
 
 You can load additional log data if you want to process data from multiple exports:
 ```python
@@ -35,7 +35,9 @@ Get a count of total page requests made:
 ```
 
 Get a sorted list of most-searched-for search terms
+
 (the results_limit keyword just limits what is returned to the top n entries)
+
 (search terms are also all normalized to be lowercase)
 ```python
 >>> parser.raw_search_counts(results_limit=50)
