@@ -44,6 +44,12 @@ Get a count of all unique visitors:
 18754
 ```
 
+Any summarization method can take an optional ```start_date``` and ```end_date``` argument (which must be ```yyyy-mm-dd```), which will filter the data to be summarized by those dates:
+```python
+>>> parser.unique_visitor_count(start_date="2016-01-01", end_date="2016-01-15")
+6021
+```
+
 Get a count of total page requests made:
 ```python
 >>> parser.total_page_requests_count()
@@ -52,7 +58,7 @@ Get a count of total page requests made:
 
 Get a sorted list of most-searched-for search terms. Search terms are all normalized to lowercase.
 ```python
->>> parser.raw_search_counts(results_limit=50)  # results_limit limits the results to the top n entries
+>>> parser.raw_search_counts()
 [(u'republican', 285),
  (u'john harvey kellogg', 245),
  (u'duderstadt', 235),
@@ -63,9 +69,17 @@ Get a sorted list of most-searched-for search terms. Search terms are all normal
 ]
 ```
 
+For any method that returns a list of items, you can limit the length of what is returned to the top n items by using the optional ```limit``` argument:
+```python
+>>> parser.raw_search_counts(limit=2)
+[(u'republican', 285),
+ (u'john harvey kellogg', 245)
+]
+```
+
 Get a sorted list of search terms ordered by number of unique users making that search:
 ```python
->>> parser.unique_users_per_search_term(results_limit=50)
+>>> parser.unique_users_per_search_term()
 [(u'keijo', 104),
  (u'albert kahn papers', 74),
  (u'bells', 40),
@@ -80,7 +94,7 @@ Get a sorted list of search terms ordered by number of unique users making that 
 
 Get a sorted list of most-visited finding aids
 ```python
->>> parser.raw_finding_aid_visit_counts(results_limit=50)
+>>> parser.raw_finding_aid_visit_counts()
 [(u'umich-bhl-0420', 1925),
  (u'umich-bhl-97105', 756),
  (u'umich-bhl-943', 711),
@@ -92,7 +106,7 @@ Get a sorted list of most-visited finding aids
 
 Get a sorted list of finding aids ordered by number of unique visitors
 ```python
->>> parser.unique_users_per_finding_aid(results_limit=50)
+>>> parser.unique_users_per_finding_aid()
 [(u'umich-bhl-0420', 656),
  (u'umich-bhl-97105', 307),
  (u'umich-bhl-9915', 260),
@@ -139,7 +153,7 @@ Get a summary for a set of finding aids by a list of identifiers
 
 Get a list of where our traffic is coming from:
 ```python
->>> parser.get_referer_counts(results_limit=50)
+>>> parser.get_referer_counts()
 [(u'https://www.google.com', 8643),
  (u'http://bentley.umich.edu/legacy-support/EAD', 2977),
  (u'http://quod.lib.umich.edu/cgi/f/findaid/findaid-idx?&page=simple&c=bhlead', 1964),
