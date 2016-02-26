@@ -19,7 +19,7 @@ with open("locations.json", mode="r") as f:
 
 def main():
     digital_only = True
-    ead_dir = EADDir()
+    ead_dir = EADDir(input_dir="path/to/your/ead/files")
 
     results_by_ead, all_extents = get_raw_results(ead_dir, digital_only)
 
