@@ -37,6 +37,7 @@ def main():
     print("Referrer counts:")
     pprint(parser.get_referer_counts(50))
 
+    pprint(parser.get_stats_for_multiple_finding_aids_by_identifier(['umich-bhl-0420', 'umich-bhl-2009082', 'umich-bhl-97115']))
 
 class BentleyWebLogParser(object):
     def __init__(self, filename):
@@ -57,16 +58,21 @@ class BentleyWebLogParser(object):
         return len(self.logs_filtered_by_time_range(start_date, end_date))
 
     def get_stats_for_multiple_finding_aids_by_identifier(self, identifiers, start_date="", end_date=""):
-        data = {"identifiers": [], "total views": 0, "unique users": set(), "associated queries": Counter()}
+        data = {"identifiers": [], "total views": 0, "unique users": set(), "views by identifier": Counter(), "unique users by identifier": Counter(), "associated queries": Counter()}
+
         for identifier in identifiers:
             stats = self.get_stats_for_single_finding_aid_by_identifier(identifier, start_date=start_date, end_date=end_date, include_user_list=True)
             data["identifiers"].append(stats["identifier"])
             data["total views"] += stats["total views"]
             data["unique users"] = data["unique users"].union(stats["unique users"])
             data["associated queries"] += Counter(dict(stats["associated queries"]))
+            data["views by identifier"][identifier] = stats["total views"]
+            data["unique users by identifier"][identifier] = len(stats["unique users"])
 
         data["unique user count"] = len(data["unique users"])
         data["associated queries"] = data["associated queries"].most_common()
+        data["views by identifier"] = data["views by identifier"].most_common()
+        data["unique users by identifier"] = data["unique users by identifier"].most_common()
         del data["unique users"]
 
         return data

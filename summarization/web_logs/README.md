@@ -141,6 +141,14 @@ Get a summary for a set of finding aids by a list of identifiers
 {'identifiers': ['umich-bhl-0420', 'umich-bhl-2009082', 'umich-bhl-97115'],
  'total views': 2129,
  'unique user count': 785,
+ 'unique users by identifier': [('umich-bhl-0420', 656),
+                                ('umich-bhl-97115', 77),
+                                ('umich-bhl-2009082', 77)],
+ 
+ 'views by identifier': [('umich-bhl-0420', 1925),
+                         ('umich-bhl-97115', 112),
+                         ('umich-bhl-2009082', 92)]}
+ 
  'associated queries': [(u'albert kahn papers', 146),
                         (u'albert kahn', 86),
                         (u'willow run', 28),
