@@ -34,13 +34,9 @@ Get a count of total page requests made:
 87552
 ```
 
-Get a sorted list of most-searched-for search terms
-
-(the results_limit keyword just limits what is returned to the top n entries)
-
-(search terms are also all normalized to be lowercase)
+Get a sorted list of most-searched-for search terms. Search terms are all normalized to lowercase.
 ```python
->>> parser.raw_search_counts(results_limit=50)
+>>> parser.raw_search_counts(results_limit=50)  # results_limit limits the results to the top n entries
 [(u'republican', 285),
  (u'john harvey kellogg', 245),
  (u'duderstadt', 235),
