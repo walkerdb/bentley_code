@@ -33,13 +33,8 @@ def main():
     print("Total unique visitors: {}".format(parser.unique_visitor_count()))
     print("Total unique visitors from the Bentley: {}".format(parser.bentley_visitor_count()))
     print("Total visits to web archives: {}".format(parser.web_archives_visits()))
-
-    print("Data for finding aid 'umich-bhl-0420': ")
-    pprint(parser.get_stats_for_single_finding_aid_by_identifier('umich-bhl-0420'))
-
-    print("")
-    print("Data for multiple finding aids")
-    pprint(parser.get_stats_for_multiple_finding_aids_by_identifier(['umich-bhl-0420', '2009082', '97115']))
+    print("Referrer counts:")
+    pprint(parser.get_referer_counts(50))
 
 
 class BentleyWebLogParser(object):
@@ -248,6 +243,15 @@ class BentleyWebLogParser(object):
         filename += ".json"
 
         return filename
+
+    def get_referer_counts(self, results_limit):
+        referers = []
+        for log in self.parsed_log:
+            referer = log.get("request_header_referer", "").rstrip("/")
+            if referer and referer != "-":
+                referers.append(referer)
+        return Counter(referers).most_common(results_limit)
+
 
 def is_image_css_or_js(url):
     matches = [".gif", ".js", ".css", ".jpg", ".ico", ".png"]

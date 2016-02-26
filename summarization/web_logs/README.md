@@ -117,3 +117,24 @@ Get a summary for a set of finding aids by a list of identifiers
                         (...)
 }
 ```
+
+Get a list of where our traffic is coming from:
+```python
+>>> parser.get_referer_counts(results_limit=50)
+[(u'https://www.google.com', 8643),
+ (u'http://bentley.umich.edu/legacy-support/EAD', 2977),
+ (u'http://quod.lib.umich.edu/cgi/f/findaid/findaid-idx?&page=simple&c=bhlead',
+  1964),
+ (u'http://bentley.umich.edu/legacy-support/EAD/ead_uofm.php', 1549),
+ (u'http://quod.lib.umich.edu', 969),
+ (u'http://bentley.umich.edu/legacy-support/EAD/ead_ab.php', 579),
+ (u'http://quod.lib.umich.edu/b/bhlead?page=simple', 451),
+ (u'http://quod.lib.umich.edu/cgi/f/findaid/findaid-idx?c=bhlead;page=simple',
+  344),
+ (u'http://quod.lib.umich.edu/cgi/f/findaid/findaid-idx?c=bhlead;page=boolean',
+  301),
+ (u'http://bentley.umich.edu/legacy-support/EAD/ead_kl.php', 298),
+ (u'https://www.google.ca', 286),
+ (...)
+]
+```
