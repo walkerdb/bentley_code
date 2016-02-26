@@ -92,7 +92,7 @@ class BentleyWebLogParser(object):
 
         return results
 
-    def raw_finding_aid_visit_counts(self, limit=10000, start_date="", end_date=""):
+    def raw_finding_aid_visit_counts(self, limit=None, start_date="", end_date=""):
         ids = []
         for log in self.logs_filtered_by_time_range(start_date, end_date):
             id = self._extract_ead_id_from_request(log)
@@ -101,7 +101,7 @@ class BentleyWebLogParser(object):
 
         return Counter(ids).most_common(n=limit)
 
-    def unique_users_per_finding_aid(self, limit=10000, start_date="", end_date=""):
+    def unique_users_per_finding_aid(self, limit=None, start_date="", end_date=""):
         ids = set()
         for log in self.logs_filtered_by_time_range(start_date, end_date):
             user = log.get("remote_host", "")
@@ -126,7 +126,7 @@ class BentleyWebLogParser(object):
                 id = results[0]
         return id
 
-    def raw_search_counts(self, limit=10000, start_date="", end_date=""):
+    def raw_search_counts(self, limit=None, start_date="", end_date=""):
         searches = []
         for log in self.logs_filtered_by_time_range(start_date, end_date):
             queries = self.get_queries(log)
@@ -135,7 +135,7 @@ class BentleyWebLogParser(object):
 
         return Counter(searches).most_common(n=limit)
 
-    def unique_users_per_search_term(self, limit=10000, start_date="", end_date=""):
+    def unique_users_per_search_term(self, limit=None, start_date="", end_date=""):
         searches = set()
         for log in self.logs_filtered_by_time_range(start_date, end_date):
             user = log.get("remote_host", "")
@@ -184,7 +184,7 @@ class BentleyWebLogParser(object):
                 visitors.add(visitor)
         return len(visitors)
 
-    def get_referer_counts(self, limit=10000, start_date="", end_date=""):
+    def get_referer_counts(self, limit=None, start_date="", end_date=""):
         referers = []
         for log in self.logs_filtered_by_time_range(start_date, end_date):
             referer = log.get("request_header_referer", "").rstrip("/")
