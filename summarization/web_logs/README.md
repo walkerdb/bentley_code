@@ -116,6 +116,9 @@ Get a summary of data for a single finding aid by its identifier
                         (u'russia', 17),
                         (...)
 }
+
+# you can also just pass a number instead of the full "umich-bhl-####" string, eg:
+>>> parser.get_stats_for_single_finding_aid_by_identifier('0420')
 ```
 
 Get a summary for a set of finding aids by a list of identifiers
