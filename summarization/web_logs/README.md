@@ -21,6 +21,22 @@ You can load additional log data if you want to process data from multiple expor
 parser.add_logs("path/to/new/log/file")
 ```
 
+You can save a lot of future loading time by saving a parsed raw log file in json format, then loading from that instead 
+in the future. All you need to make this happen is to run the ```save_log_to_json()``` method:
+```python
+parser.save_log_to_json()
+```
+
+This will output a .json file. You can load these directly into the parser just as you would the normal raw-text server log files:
+```python
+parser = BentleyWebLogParser("path/to/json/file")
+
+parser.add_logs("path/to/json/file")
+```
+
+The json files load much faster, since the parser doesn't need to manually process each individual line.
+
+
 ###Summarizations
 Get a count of all unique visitors:
 ```python
