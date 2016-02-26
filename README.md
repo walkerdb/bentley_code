@@ -33,6 +33,8 @@ Tools to map data from one system to another
 Tools to summarize or characterize specific sets of data
 
 * __[UMich publications in HathiTrust](https://github.com/bentley-historical-library/UMich_HathiTrust_Pub_Summaries)__: Summarizes all U-Michigan publications found in the HathiTrust's digital library by publication series
+* __[Web log exploration](https://github.com/walkerdb/bentley_code/tree/master/summarization/web_logs)__: A tool to explore the web logs for our online finding aid collections
+* __[Removable media summaries](https://github.com/walkerdb/bentley_code/tree/master/summarization/removable_media_summaries)__: Creates a detailed inventory of digital removable media
 * __[Characterizing c0x series paths](https://github.com/walkerdb/bentley_code/tree/master/summarization/c0x_series_paths)__: Exports a list of all series paths with occurrence counts across all eads (eg Series -> File -> File -> Item)
 * __[Summarizing all tag/attribute value pairs](https://github.com/walkerdb/bentley_code/tree/master/summarization/tag_attribute_counts)__: Exports a list of the counts of all pairs of tag/attribute values found in all eads.
 * __[Self-nesting tag detection](https://github.com/walkerdb/bentley_code/tree/master/summarization/check_tag_nesting)__: Finds all instances of tags that have the same tag type as a child. 
