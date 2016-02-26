@@ -114,7 +114,7 @@ Get a summary of data for a single finding aid by its identifier
                         (u'durant', 26),
                         (u'hill', 21),
                         (u'russia', 17),
-                        (...)
+                        (...)]
 }
 
 # you can also just pass a number instead of the full "umich-bhl-####" string, eg:
@@ -133,7 +133,7 @@ Get a summary for a set of finding aids by a list of identifiers
                         (u'durant', 26),
                         (u'hill', 21),
                         (u'russia', 17),
-                        (...)
+                        (...)]
 }
 ```
 
