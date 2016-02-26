@@ -53,3 +53,7 @@ class TestParsePersname(unittest.TestCase):
         parsed = parse("test corpname", "www.loc.gov", "lcnaf")
         self.check_equality(parsed, {u"primary_name": u"test corpname", u"authority_id": u"www.loc.gov", u"source": u"lcnaf"})
 
+    def test_trailing_periods_case(self):
+        parsed = parse("Michigan State University.")
+        self.check_equality(parsed, {u"primary_name": u"Michigan State University"})
+

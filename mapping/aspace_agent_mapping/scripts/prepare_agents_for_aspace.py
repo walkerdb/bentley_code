@@ -6,7 +6,7 @@ from mapping.aspace_agent_mapping.agent_parsers.Persname import Persname
 
 
 def prepare_agents(dict_of_agents_by_type):
-    # agent dict: {"corpname": {dict of corporations}, "persname": {dict of persnames}, "famname": {dict of famnames}}
+    # agent dict format: {"corpname": {dict of corporations}, "persname": {dict of persnames}, "famname": {dict of famnames}}
     prepped_data = {}
     for agent_type, dict_of_all_agents_of_type in tqdm(dict_of_agents_by_type.items(), desc="creating aspace json"):
         prepped_data[agent_type] = prepare_json_for_agent_type(agent_type, dict_of_all_agents_of_type)
@@ -32,6 +32,15 @@ def prepare_json_for_agent_type(agent_type, agent_dict):
 
 
 def normalize_name(name):
+    exceptions = ['University of Michigan--Dearborn',
+                  'University of Michigan--Flint',
+                  'University of Michigan--Dearborn. Department of History',
+                  'University of Wisconsin--Milwaukee',
+                  'Lutheran Church--Missouri Synod']
+
+    if any(name.startswith(exception) for exception in exceptions):
+        return name
+
     normalized_name = name.replace("---", "- --")
     normalized_name = normalized_name.split("--")[0].strip()
     return normalized_name

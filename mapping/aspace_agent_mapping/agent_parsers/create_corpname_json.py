@@ -41,7 +41,7 @@ def parse_corpname(string, authority_id="", source=""):
 
 
 def extract_qualifier(string):
-    qualifier_regex = re.compile(r"(\([^\(]*?\))$")
+    qualifier_regex = re.compile(r"(\([^\(]*?\))$")  # matches any ending parenthetical statement
     qualifier = ""
 
     qualifier_match = re.findall(qualifier_regex, string)

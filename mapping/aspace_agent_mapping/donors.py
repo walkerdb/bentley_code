@@ -1,43 +1,62 @@
 import csv
 import json
+from pprint import pprint
 import nameparser
+from tqdm import tqdm
 from mapping.aspace_agent_mapping.agent_parsers.Corpname import Corpname
 from mapping.aspace_agent_mapping.agent_parsers.Persname import Persname
 from mapping.aspace_agent_mapping.scripts.post_agents import post_agents_and_record_ids
 
 
 def main():
+    print("loading data...")
     convert_to_utf8_and_add_headers("donor_records.tab")
-    donor_data = load_donor_data("donor_records_clean.tab")
-    persname_data, corpname_data = extract_agents(donor_data)
+    donor_data = load_donor_data("donor_records_clean.tab")\
+
+    print("extracting donors...")
+    person_donor_data, corp_donor_data = extract_agents(donor_data)
 
     agent_dict = {"persname": {}, "corpname": {}}
 
-    for persname in persname_data:
-        full_name = make_person_name(persname)
-        person_json = Persname(full_name, "", "local")
+    for person in tqdm(person_donor_data, desc="creating person json data"):
+        name = make_person_name(person)
+        if not name or not name.strip():
+            continue
+        person_json = json.loads(Persname(name, "", "local").get_aspace_json())
+        person_json.update(get_donor_details(person))
+        agent_dict["persname"][name] = json.dumps(person_json)
 
-        # TODO add donor-specific data to the json
-
-        agent_dict["persname"][full_name] = person_json
-
-    for corpname in corpname_data:
-        name = make_corporation_name(corpname)
-        corp_json = Corpname(name, "", "local")
-
-        # TODO add donor-specific data to the json
-
-        agent_dict["corpname"][name] = corp_json
+    for corp in tqdm(corp_donor_data, desc="creating corp json data"):
+        name = make_corporation_name(corp)
+        if not name or not name.strip():
+            continue
+        corp_json = json.loads(Corpname(name, "", "local").get_aspace_json())
+        corp_json.update(get_donor_details(corp))
+        agent_dict["corpname"][name] = json.dumps(corp_json)
 
     ids = post_agents_and_record_ids(agent_dict, host="http://localhost:8089", username="admin", password="admin")
 
     with open("donor_name_to_aspace_id_map.json", mode="w") as f:
-        json.dump(ids, f, ensure_ascii=False, indent=4)
+        json.dump(ids, f, ensure_ascii=False, indent=4, sort_keys=True)
+
+
+def get_donor_details(donor_data):
+    donor_number = donor_data.get("donor number", "")
+    donor_part = donor_data.get("donor part", "")
+    contact_id = donor_data.get("contact id", "")
+    dart_id = donor_data.get("bhl dart id", "")
+
+    if donor_part and donor_number:
+        donor_number += "-{}".format(donor_part)
+
+    return {u"donor_details": [{u"donor_number": donor_number,
+                               u"dart_id": dart_id,
+                               u"beal_contact_id": contact_id}]}
 
 
 def load_donor_data(filepath):
     with open(filepath, mode="r") as f:
-        reader = csv.DictReader(f, delimiter="\t")
+        reader = UnicodeDictReader(f, delimiter="\t")
         return list(reader)
 
 
@@ -84,6 +103,12 @@ def convert_to_utf8_and_add_headers(filename):
                    "organization", "note", "status", "donor number", "donor part", "folder status"]
         f.write("\t".join(headers) + "\n")
         f.write(data)
+
+
+def UnicodeDictReader(utf8_data, **kwargs):
+    csv_reader = csv.DictReader(utf8_data, **kwargs)
+    for row in csv_reader:
+        yield {key: unicode(value, 'utf-8') for key, value in row.iteritems()}
 
 
 if __name__ == "__main__":
