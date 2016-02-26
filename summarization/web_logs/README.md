@@ -1,5 +1,5 @@
 #Exploring the Bentley's web logs
-Provides a relatively simple interface to extract summarized info from the Bentley's server logs.
+A relatively simple interface to extract summarized info from the Bentley's server logs.
 
 ##Requirements:
 
