@@ -62,7 +62,7 @@ Get a sorted list of search terms ordered by number of unique users making that 
 ]
 ```
 
-Get a sorted list of most-visited finding-aids
+Get a sorted list of most-visited finding aids
 ```python
 >>> parser.raw_finding_aid_visit_counts(results_limit=50)
 [(u'umich-bhl-0420', 1925),
@@ -74,7 +74,7 @@ Get a sorted list of most-visited finding-aids
 ]
 ```
 
-Get a sorted list of finding-aids ordered by number of unique visitors
+Get a sorted list of finding aids ordered by number of unique visitors
 ```python
 >>> parser.unique_users_per_finding_aid(results_limit=50)
 [(u'umich-bhl-0420', 656),
@@ -84,4 +84,36 @@ Get a sorted list of finding-aids ordered by number of unique visitors
  (u'umich-bhl-850', 179),
  (...)
 ]
+```
+
+Get a summary of data for a single finding aid by its identifier
+```python
+>>> parser.get_stats_for_single_finding_aid_by_identifier('umich-bhl-0420')
+{'identifier': 'umich-bhl-0420',
+ 'total views': 1925,
+ 'unique user count': 656,
+ 'associated queries': [(u'albert kahn papers', 146),
+                        (u'albert kahn', 86),
+                        (u'willow run', 28),
+                        (u'durant', 26),
+                        (u'hill', 21),
+                        (u'russia', 17),
+                        (...)
+}
+```
+
+Get a summary for a set of finding aids by a list of identifiers
+```python
+>>> parser.get_stats_for_multiple_finding_aids_by_identifier(['umich-bhl-0420', 'umich-bhl-2009082', 'umich-bhl-97115'])
+{'identifiers': ['umich-bhl-0420', 'umich-bhl-2009082', 'umich-bhl-97115'],
+ 'total views': 2129,
+ 'unique user count': 785,
+ 'associated queries': [(u'albert kahn papers', 146),
+                        (u'albert kahn', 86),
+                        (u'willow run', 28),
+                        (u'durant', 26),
+                        (u'hill', 21),
+                        (u'russia', 17),
+                        (...)
+}
 ```

@@ -34,6 +34,13 @@ def main():
     print("Total unique visitors from the Bentley: {}".format(parser.bentley_visitor_count()))
     print("Total visits to web archives: {}".format(parser.web_archives_visits()))
 
+    print("Data for finding aid 'umich-bhl-0420': ")
+    pprint(parser.get_stats_for_single_finding_aid_by_identifier('umich-bhl-0420'))
+
+    print("")
+    print("Data for multiple finding aids")
+    pprint(parser.get_stats_for_multiple_finding_aids_by_identifier(['umich-bhl-0420', '2009082', '97115']))
+
 
 class BentleyWebLogParser(object):
     def __init__(self, filename):
@@ -52,6 +59,42 @@ class BentleyWebLogParser(object):
 
     def total_page_requests_count(self):
         return len(self.parsed_log)
+
+    def get_stats_for_multiple_finding_aids_by_identifier(self, identifiers):
+        data = {"identifiers": [], "total views": 0, "unique users": set(), "associated queries": Counter()}
+        for identifier in identifiers:
+            stats = self.get_stats_for_single_finding_aid_by_identifier(identifier, include_user_list=True)
+            data["identifiers"].append(stats["identifier"])
+            data["total views"] += stats["total views"]
+            data["unique users"] = data["unique users"].union(stats["unique users"])
+            data["associated queries"] += Counter(dict(stats["associated queries"]))
+
+        data["unique user count"] = len(data["unique users"])
+        data["associated queries"] = data["associated queries"].most_common()
+        del data["unique users"]
+
+        return data
+
+    def get_stats_for_single_finding_aid_by_identifier(self, identifier, include_user_list=False):
+        views = []
+        queries = []
+
+        if not identifier.startswith("umich-bhl-"):
+            identifier = "umich-bhl-{}".format(identifier)
+
+        for log in self.parsed_log:
+            id = self._extract_ead_id_from_request(log)
+            if id == identifier:
+                queries += self.get_queries(log)
+                user = log.get("remote_host", "")
+                views.append(user)
+
+        results = {"identifier": identifier, "total views": len(views), "unique user count": len(set(views)), "associated queries": Counter(queries).most_common()}
+
+        if include_user_list:
+            results["unique users"] = set(views)
+
+        return results
 
     def raw_finding_aid_visit_counts(self, result_limit):
         ids = []
@@ -91,24 +134,19 @@ class BentleyWebLogParser(object):
     def raw_search_counts(self, result_limit):
         searches = []
         for log in self.parsed_log:
-            d = log.get("request_url_query_dict", {})
-            for q in ["q1", "q2", "q3"]:
-                v = d.get(q, "")
-                if v:
-                    searches.append(v[0].lower())
+            queries = self.get_queries(log)
+            for query in queries:
+                searches.append(query.lower())
 
         return Counter(searches).most_common(n=result_limit)
 
     def unique_users_per_search_term(self, result_limit):
         searches = set()
-        for row in self.parsed_log:
-            user = row.get("remote_host", "")
-            d = row.get("request_url_query_dict", {})
-
-            for q in ["q1", "q2", "q3"]:
-                v = d.get(q, "")
-                if v:
-                    searches.add((user, v[0].lower()))
+        for log in self.parsed_log:
+            user = log.get("remote_host", "")
+            queries = self.get_queries(log)
+            for query in queries:
+                searches.add((user, query.lower()))
 
         result = []
         for search in searches:
@@ -150,6 +188,17 @@ class BentleyWebLogParser(object):
             if "." in visitor:
                 visitors.add(visitor)
         return len(visitors)
+
+    @staticmethod
+    def get_queries(log):
+        queries = []
+        query_dict = log.get("request_url_query_dict", {})
+        for key in ["q1", "q2", "q3"]:
+            query = query_dict.get(key, "")
+            if query:
+                queries.append(query[0].lower())
+
+        return queries
 
     def add_logs(self, filepath):
         print("adding logs from {}...".format(filepath))
@@ -199,7 +248,6 @@ class BentleyWebLogParser(object):
         filename += ".json"
 
         return filename
-
 
 def is_image_css_or_js(url):
     matches = [".gif", ".js", ".css", ".jpg", ".ico", ".png"]
