@@ -2,6 +2,7 @@ import json
 from pprint import pprint
 from collections import Counter
 import re
+import datetime
 
 from tqdm import tqdm
 import apache_log_parser
@@ -26,7 +27,7 @@ def main():
     print("")
 
     print("number of unique users visiting each finding aid:")
-    pprint(parser.unique_users_per_finding_aid(50))
+    pprint(parser.unique_users_per_finding_aid(50, start_date="2016-01-01", end_date="2016-01-30"))
     print("")
 
     print("Total page requests: {}".format(parser.total_page_requests_count()))
@@ -52,13 +53,13 @@ class BentleyWebLogParser(object):
         self.filter_non_page_requests()
         self.filter_bots()
 
-    def total_page_requests_count(self):
-        return len(self.parsed_log)
+    def total_page_requests_count(self, start_date="", end_date=""):
+        return len(self.logs_filtered_by_time_range(start_date, end_date))
 
-    def get_stats_for_multiple_finding_aids_by_identifier(self, identifiers):
+    def get_stats_for_multiple_finding_aids_by_identifier(self, identifiers, start_date="", end_date=""):
         data = {"identifiers": [], "total views": 0, "unique users": set(), "associated queries": Counter()}
         for identifier in identifiers:
-            stats = self.get_stats_for_single_finding_aid_by_identifier(identifier, include_user_list=True)
+            stats = self.get_stats_for_single_finding_aid_by_identifier(identifier, start_date=start_date, end_date=end_date, include_user_list=True)
             data["identifiers"].append(stats["identifier"])
             data["total views"] += stats["total views"]
             data["unique users"] = data["unique users"].union(stats["unique users"])
@@ -70,14 +71,14 @@ class BentleyWebLogParser(object):
 
         return data
 
-    def get_stats_for_single_finding_aid_by_identifier(self, identifier, include_user_list=False):
+    def get_stats_for_single_finding_aid_by_identifier(self, identifier, start_date="", end_date="", include_user_list=False):
         views = []
         queries = []
 
         if not identifier.startswith("umich-bhl-"):
             identifier = "umich-bhl-{}".format(identifier)
 
-        for log in self.parsed_log:
+        for log in self.logs_filtered_by_time_range(start_date, end_date):
             id = self._extract_ead_id_from_request(log)
             if id == identifier:
                 queries += self.get_queries(log)
@@ -91,18 +92,18 @@ class BentleyWebLogParser(object):
 
         return results
 
-    def raw_finding_aid_visit_counts(self, result_limit):
+    def raw_finding_aid_visit_counts(self, limit=10000, start_date="", end_date=""):
         ids = []
-        for log in self.parsed_log:
+        for log in self.logs_filtered_by_time_range(start_date, end_date):
             id = self._extract_ead_id_from_request(log)
             if id:
                 ids.append(id)
 
-        return Counter(ids).most_common(n=result_limit)
+        return Counter(ids).most_common(n=limit)
 
-    def unique_users_per_finding_aid(self, result_limit):
+    def unique_users_per_finding_aid(self, limit=10000, start_date="", end_date=""):
         ids = set()
-        for log in self.parsed_log:
+        for log in self.logs_filtered_by_time_range(start_date, end_date):
             user = log.get("remote_host", "")
             id = self._extract_ead_id_from_request(log)
             if id:
@@ -112,7 +113,7 @@ class BentleyWebLogParser(object):
         for id in ids:
             result.append(id[1])
 
-        return Counter(result).most_common(n=result_limit)
+        return Counter(result).most_common(n=limit)
 
     def _extract_ead_id_from_request(self, log):
         query_dict = log.get("request_url_query_dict", {})
@@ -125,19 +126,18 @@ class BentleyWebLogParser(object):
                 id = results[0]
         return id
 
-
-    def raw_search_counts(self, result_limit):
+    def raw_search_counts(self, limit=10000, start_date="", end_date=""):
         searches = []
-        for log in self.parsed_log:
+        for log in self.logs_filtered_by_time_range(start_date, end_date):
             queries = self.get_queries(log)
             for query in queries:
                 searches.append(query.lower())
 
-        return Counter(searches).most_common(n=result_limit)
+        return Counter(searches).most_common(n=limit)
 
-    def unique_users_per_search_term(self, result_limit):
+    def unique_users_per_search_term(self, limit=10000, start_date="", end_date=""):
         searches = set()
-        for log in self.parsed_log:
+        for log in self.logs_filtered_by_time_range(start_date, end_date):
             user = log.get("remote_host", "")
             queries = self.get_queries(log)
             for query in queries:
@@ -147,42 +147,50 @@ class BentleyWebLogParser(object):
         for search in searches:
             result.append(search[1])
 
-        return Counter(result).most_common(n=result_limit)
+        return Counter(result).most_common(n=limit)
 
 
-    def visit_count_by_staff_member(self):
+    def visit_count_by_staff_member(self, start_date="", end_date=""):
         users = []
-        for row in self.parsed_log:
+        for row in self.logs_filtered_by_time_range(start_date, end_date):
             user = row.get("remote_user", "")
             if user:
                 users.append(user)
 
         return Counter(users).most_common()
 
-    def web_archives_visits(self):
+    def web_archives_visits(self, start_date="", end_date=""):
         count = 0
         web_archives_ids = ["2014031", "2014037", "2014034", "2014025", "2013139", "2014039", "2014032", "2014038"]
-        for row in self.parsed_log:
+        for row in self.logs_filtered_by_time_range(start_date, end_date):
             query_dict = row.get("request_url_query_dict", {})
             id = query_dict.get("idno", [""])[0]
             if any(web_id in id for web_id in web_archives_ids):
                 count += 1
         return count
 
-    def unique_visitor_count(self):
+    def unique_visitor_count(self, start_date="", end_date=""):
         visitors = set()
-        for log in self.parsed_log:
+        for log in self.logs_filtered_by_time_range(start_date, end_date):
             visitors.add(log.get("remote_host", ""))
 
         return len(visitors)
 
-    def bentley_visitor_count(self):
+    def bentley_visitor_count(self, start_date="", end_date=""):
         visitors = set()
-        for log in self.parsed_log:
+        for log in self.logs_filtered_by_time_range(start_date, end_date):
             visitor = log.get("remote_host", "")
             if "." in visitor:
                 visitors.add(visitor)
         return len(visitors)
+
+    def get_referer_counts(self, limit=10000, start_date="", end_date=""):
+        referers = []
+        for log in self.logs_filtered_by_time_range(start_date, end_date):
+            referer = log.get("request_header_referer", "").rstrip("/")
+            if referer and referer != "-":
+                referers.append(referer)
+        return Counter(referers).most_common(limit)
 
     @staticmethod
     def get_queries(log):
@@ -244,13 +252,24 @@ class BentleyWebLogParser(object):
 
         return filename
 
-    def get_referer_counts(self, results_limit):
-        referers = []
+    def logs_filtered_by_time_range(self, start_date, end_date):
+        if not start_date and not end_date:
+            return self.parsed_log
+
+        start_date = datetime.datetime.strptime(start_date, "%Y-%m-%d").date()
+        end_date = datetime.datetime.strptime(end_date, "%Y-%m-%d").date()
+        filtered_logs = []
+
         for log in self.parsed_log:
-            referer = log.get("request_header_referer", "").rstrip("/")
-            if referer and referer != "-":
-                referers.append(referer)
-        return Counter(referers).most_common(results_limit)
+            date = log.get("time_received_utc_isoformat", "")
+            if not date:
+                continue
+
+            date = datetime.datetime.strptime(date.split("T")[0], "%Y-%m-%d").date()
+            if start_date < date < end_date:
+                filtered_logs.append(log)
+
+        return filtered_logs
 
 
 def is_image_css_or_js(url):
