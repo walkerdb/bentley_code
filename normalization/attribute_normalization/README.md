@@ -1,7 +1,7 @@
-#Tool for changing attribute values globally
+# Tool for changing attribute values globally
 A general utility script that searches through all matching tag/attribute pairs and normalizes those attribute values to some other given value.
 
-##Requirements
+## Requirements
 * [lxml](http://lxml.de/)
 * [tqdm](https://github.com/noamraph/tqdm)
 
