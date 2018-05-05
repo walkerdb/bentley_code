@@ -1,17 +1,17 @@
-#Code for the Bentley Historical Library
+# Code for the Bentley Historical Library
 An overview of code developed to assist work at the Bentley Historical Library
 
 The majority are tools for working with EAD files, but there are several other useful projects described as well.
 
 
-##Utilities
+## Utilities
 Utility tools used in many of the other scripts. They may be necessary for other scripts to run.
 
 * __[ASpace/python API interface](https://github.com/walkerdb/bentley_code/tree/master/utilities/aspace_interface)__: A python-based convenience interface for interacting with the ASpace API
 * __[EAD utilities](https://github.com/walkerdb/bentley_code/tree/master/utilities/ead_utilities)__: Two convenience classes for working with EAD files. One wraps common functionality used with single EAD files into one place and the other allows easy access to performing actions on entire directories of EADs
 * __[EAD cleanup](https://github.com/walkerdb/bentley_code/tree/master/utilities/ead_cleanup)__: Scripts for prettifying the Bentley's EADs
 
-##Normalization / cleanup
+## Normalization / cleanup
 Tools for cleaning and normalizing EAD data
 
 * __[ASpaceify Extents](https://github.com/walkerdb/bentley_code/tree/master/normalization/aspaceify_extents)__: A large-scale script to split extents into component ASpace parts, normalize terms, and write them back to their original EAD files
@@ -23,13 +23,13 @@ Tools for cleaning and normalizing EAD data
 * __[Expanding container ranges](https://github.com/walkerdb/bentley_code/tree/master/normalization/expand_container_ranges)__: Given a single c0x item described with a range of containers (eg boxes 1-10), this script creates individual c0x entries for each item in that original range.
 * __[Extent extraction from unittitles](https://github.com/walkerdb/bentley_code/tree/master/normalization/unittitle_parentheticals)__: A number of unittitles included their extents as a parenthetical. This extracts those and creates their relevant extent tags
 
-##Mapping data to ASpace
+## Mapping data to ASpace
 Tools to map data from one system to another
 
 * __[Agents from EADs to ASpace](https://github.com/walkerdb/bentley_code/tree/master/mapping/aspace_agent_mapping)__: Extracts all agents from a directory of EAD files, generates ASpace-compliant JSON for all of them, then posts that data to an ASpace instance.
 * __[Accessions from BEAL to ASpace](https://github.com/walkerdb/bentley_code/tree/master/mapping/accession_mapping)__: Transforms BEAL accession exports (as exported by Dallas' scripts) into ASpace JSON, the posts the transformed data.
 
-##Summarizations / characterizations
+## Summarizations / characterizations
 Tools to summarize or characterize specific sets of data
 
 * __[UMich publications in HathiTrust](https://github.com/bentley-historical-library/UMich_HathiTrust_Pub_Summaries)__: Summarizes all U-Michigan publications found in the HathiTrust's digital library by publication series
