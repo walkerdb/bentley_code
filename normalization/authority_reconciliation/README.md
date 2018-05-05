@@ -3,7 +3,7 @@ A script to automatically add Library of Congress authority ID links to controla
 
 Also updates a person's death date if our local term does not have one and the LoC version does.
 
-##Requirements
+## Requirements
 
 * [lxml](http://lxml.de/)
 * [tqdm](https://github.com/noamraph/tqdm)
@@ -11,7 +11,7 @@ Also updates a person's death date if our local term does not have one and the L
 * [fuzzywuzzy](https://github.com/seatgeek/fuzzywuzzy)
 * EAD Utilities
 
-##Usage
+## Usage
 Just edit the input and output ead directory paths in the ```run.py``` file to your own intended directories, then run that script:
 
 ```
@@ -20,7 +20,7 @@ python run.py
 
 _note_: this will likely take ~8-9 hours, almost entirely due to a required 2-second delay between web requests. May be a good idea to run the script overnight.
 
-##Behind the scenes
+## Behind the scenes
 The script's full internal workflow:
 
 1. Extracts all unique ```persname```, ```geogname```, and ```corpname``` terms from a directory of EAD files (```grab_all_subjects.py```)
