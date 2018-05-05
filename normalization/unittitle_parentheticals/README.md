@@ -1,4 +1,4 @@
-#Extracting extents from unittitle parentheticals
+# Extracting extents from unittitle parentheticals
 Some parenthetical statements found in our unittitles are actually hidden extent statements. This script finds them and pulls them out into proper ```<physdesc>``` tags of their own.
 
 For example this:
@@ -20,11 +20,11 @@ It only pulls out these statements if the parenthetical contains only a number a
 
 The script will also output a csv file listing edge cases that might need manual review called ```exceptions.csv```.
 
-##Requirements
+## Requirements
 * [lxml](http://lxml.de/)
 * [tqdm](https://github.com/noamraph/tqdm)
 
-##Usage
+## Usage
 
 Change the output and input directory path variables in ```extents_in_unittitle_parens.py``` to fit your local needs, then run the script.
 
